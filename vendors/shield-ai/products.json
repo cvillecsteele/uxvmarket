@@ -1,0 +1,424 @@
+{
+  "target_id": "shield-ai",
+  "run_id": "canonical",
+  "display_name": "Shield AI",
+  "homepage_url": "https://shield.ai",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/shield-ai/website",
+  "products": [
+    {
+      "name": "V-BAT",
+      "category": "airframes",
+      "descriptor": "Ducted-fan VTOL ISR UAS for GPS/comms-denied EW battlefields",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0372",
+          "line_start": 72,
+          "line_end": 75,
+          "url": "https://shield.ai/v-bat",
+          "page_class": "product",
+          "snippet": "    *   [\\[AIRCRAFT\\] ![](https://shield.ai/wp-content/uploads/2025/03/nav-v-bat-scaled.jpg)\n        #### V-BAT\n        Unmatched ISR & targeting on the EW battlefield.\n        ](https://shield.ai/v-bat/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0372",
+          "line_start": 283,
+          "line_end": 290,
+          "url": "https://shield.ai/v-bat",
+          "page_class": "product",
+          "snippet": "#### Airframe\n*   Propulsion\n    Heavy Fuel Engine (JP5)\n*   Wingspan\n    12.5 ft / 3.8 m\n*   Height\n    9.6 ft / 2.9 m\n*   Max Gross Takeoff Weight"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "X-BAT",
+      "category": "airframes",
+      "descriptor": "AI-piloted VTOL fighter jet for contested environments",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0372",
+          "line_start": 68,
+          "line_end": 71,
+          "url": "https://shield.ai/v-bat",
+          "page_class": "product",
+          "snippet": "    *   [\\[EARTH IS OUR RUNWAY\\] ![](https://shield.ai/wp-content/uploads/2025/10/shot_01_v004-Medium.jpg)\n        #### X-BAT\n        The world's first AI-piloted VTOL fighter jet.\n        ](https://shield.ai/x-bat/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Hivemind Enterprise",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "AI-powered mission autonomy developer platform for UAS and other platforms",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0372",
+          "line_start": 10,
+          "line_end": 13,
+          "url": "https://shield.ai/v-bat",
+          "page_class": "product",
+          "snippet": "    [\n    #### Enterprise\n    Autonomy. Faster.\n    Develop, evaluate, test and deploy mission autonomy with the most comprehensive AI-powered developer platform."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Hivemind Solutions",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "Engineering services for rapid mission autonomy deployment on customer platforms",
+      "granularity": "sku",
+      "readiness": "engineering_services",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0128",
+          "line_start": 196,
+          "line_end": 199,
+          "url": "https://shield.ai/hivemind-solutions",
+          "page_class": "product",
+          "snippet": "Hivemind Solutions\n==================\nThe autonomy team behind your platform\n### Our team, your platform, any mission."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "EdgeOS",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "Onboard run-time environment for Hivemind mission autonomy",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0372",
+          "line_start": 24,
+          "line_end": 27,
+          "url": "https://shield.ai/v-bat",
+          "page_class": "product",
+          "snippet": "    *   [![](https://shield.ai/wp-content/uploads/2025/03/edge-os-figure.svg)\n        #### EdgeOS\n        Run-time environment\n        ](https://shield.ai/edge-os/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Hivemind Pilot",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "Catalog of pre-built mission autonomy behaviors for Hivemind-enabled platforms",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0372",
+          "line_start": 28,
+          "line_end": 31,
+          "url": "https://shield.ai/v-bat",
+          "page_class": "product",
+          "snippet": "    *   [![](https://shield.ai/wp-content/uploads/2025/03/pilot-figure.svg)\n        #### Pilot\n        Autonomy catalog\n        ](https://shield.ai/pilot/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0372",
+          "line_start": 270,
+          "line_end": 270,
+          "url": "https://shield.ai/v-bat",
+          "page_class": "product",
+          "snippet": "*   Hivemind pilot"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Forge",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "Autonomy factory for building, training, and testing mission autonomy",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0372",
+          "line_start": 32,
+          "line_end": 35,
+          "url": "https://shield.ai/v-bat",
+          "page_class": "product",
+          "snippet": "    *   [![](https://shield.ai/wp-content/uploads/2025/03/forge-figure.svg)\n        #### Forge\n        Autonomy factory\n        ](https://shield.ai/forge/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Commander",
+      "category": "ground_segment",
+      "descriptor": "Command and control toolkit for managing autonomous UAS missions",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0372",
+          "line_start": 36,
+          "line_end": 39,
+          "url": "https://shield.ai/v-bat",
+          "page_class": "product",
+          "snippet": "    *   [![](https://shield.ai/wp-content/uploads/2025/03/commander-figure.svg)\n        #### Commander\n        Command & control toolkit\n        ](https://shield.ai/commander/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Benchmark",
+      "category": "ground_segment",
+      "descriptor": "Post-flight debrief software to evaluate, score, and visualize mission data",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0372",
+          "line_start": 46,
+          "line_end": 50,
+          "url": "https://shield.ai/v-bat",
+          "page_class": "product",
+          "snippet": "    *   [![](https://shield.ai/wp-content/uploads/2025/10/solutions-2.jpg)\n        #### Benchmark\n        \\[SOFTWARE\\]\n        Post-flight debrief evaluate, score, and visualize mission critical data\n        ](https://shield.ai/benchmark/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "ViDAR",
+      "category": "isr_payloads",
+      "descriptor": "Passive multi-domain AI-enabled wide-area optical surveillance hardware and software",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0372",
+          "line_start": 51,
+          "line_end": 55,
+          "url": "https://shield.ai/v-bat",
+          "page_class": "product",
+          "snippet": "    *   [![](https://shield.ai/wp-content/uploads/2025/04/SHOT_0012_still_v008.0002-1.png)\n        #### ViDAR\n        \\[HARDWARE + SOFTWARE PACKAGE\\]\n        Unrivaled surveillance, day or night, across air, land and sea.\n        ](https://shield.ai/vidar/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0372",
+          "line_start": 232,
+          "line_end": 234,
+          "url": "https://shield.ai/v-bat",
+          "page_class": "product",
+          "snippet": "### ViDAR\nRedefining ISR with the first passive, multi-domain AI-enabled optical sensor designed for use over sea and land.\n![](https://shield.ai/wp-content/uploads/2025/03/v-bat-4a-scaled.jpg)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Tracker",
+      "category": "isr_payloads",
+      "descriptor": "AI-powered software for object detection and tracking in video feeds",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0372",
+          "line_start": 56,
+          "line_end": 60,
+          "url": "https://shield.ai/v-bat",
+          "page_class": "product",
+          "snippet": "    *   [![](https://shield.ai/wp-content/uploads/2025/10/vision-2.jpg)\n        #### Tracker\n        \\[SOFTWARE\\]\n        AI-powered software for superior object detection in videos\n        ](https://shield.ai/tracker/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Tracker C-UAS",
+      "category": "electronic_warfare",
+      "descriptor": "AI software converting EO/IR cameras into drone-detection counter-UAS systems",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0372",
+          "line_start": 61,
+          "line_end": 65,
+          "url": "https://shield.ai/v-bat",
+          "page_class": "product",
+          "snippet": "    *   [![](https://shield.ai/wp-content/uploads/2025/10/vision-3.jpg)\n        #### Tracker C-UAS\n        \\[SOFTWARE\\]\n        Transform your EO/IR camera into a silent drone hunter\n        ](https://shield.ai/tracker-c-uas/)"
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "All 12 products classified from nav-bar text and the V-BAT product page only; 10 individual product pages (enterprise, edge-os, pilot, forge, commander, benchmark, vidar, tracker, tracker-c-uas, x-bat) were skipped with status skipped_class_budget, so descriptors and readiness are derived from short nav blurbs rather than full product pages.",
+    "X-BAT readiness set to unknown \u2014 page was skipped; product appears to be in development/early deployment based on press release titles in crawl_index but no ordering language was found in the corpus.",
+    "NDAA and Blue UAS status unknown for all products \u2014 no compliance page in the corpus made product-level NDAA or Blue UAS claims.",
+    "Hivemind Pilot is marketed as 'Pilot' in the site nav (https://shield.ai/pilot/) but as 'Hivemind Pilot' in product-context references; the full product page was skipped."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://shield.ai/enterprise",
+      "reason": "Full Hivemind Enterprise product page needed for detailed descriptor, readiness confirmation, and any NDAA/Blue UAS claims.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://shield.ai/edge-os",
+      "reason": "Full EdgeOS product page needed for detailed descriptor and compliance claims.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://shield.ai/pilot",
+      "reason": "Full Hivemind Pilot product page needed for detailed descriptor and compliance claims.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://shield.ai/forge",
+      "reason": "Full Forge product page needed for detailed descriptor and compliance claims.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://shield.ai/commander",
+      "reason": "Full Commander product page needed for detailed descriptor and compliance claims.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://shield.ai/benchmark",
+      "reason": "Full Benchmark product page needed for detailed descriptor and compliance claims.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://shield.ai/vidar",
+      "reason": "Full ViDAR product page needed for specs, readiness confirmation, and NDAA/Blue UAS claims.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://shield.ai/tracker",
+      "reason": "Full Tracker product page needed for detailed descriptor and compliance claims.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://shield.ai/tracker-c-uas",
+      "reason": "Full Tracker C-UAS product page needed for detailed descriptor and compliance claims.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://shield.ai/x-bat",
+      "reason": "Full X-BAT product page needed to confirm readiness (prototype vs. production) and any specs or compliance claims.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 24,
+    "total_cost_usd": 0.6507560000000002,
+    "created_at": "2026-05-04T06:17:19+00:00",
+    "extract_version": "0.1.0"
+  }
+}

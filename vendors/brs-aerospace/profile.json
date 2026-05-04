@@ -1,0 +1,224 @@
+{
+  "target_id": "brs-aerospace",
+  "run_id": "canonical",
+  "display_name": "BRS Aerospace",
+  "homepage_url": "https://brsaerospace.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/brs-aerospace/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "recovery_systems",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 36,
+            "line_end": 36,
+            "url": "https://brsaerospace.com",
+            "page_class": "homepage",
+            "snippet": "This system can lower an entire aircraft to the ground in the event of a loss of control, structural failure, or other in-flight emergency."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 46,
+            "line_end": 47,
+            "url": "https://brsaerospace.com",
+            "page_class": "homepage",
+            "snippet": "#### The only one offering the Certified FAA/EASA Part 23\nDeveloped and certified FAA/EASA Part 23 systems for Cessna 172, Cessna 182, Bristell B23, Elixir, Tecnam P-Mentor and others coming."
+          }
+        ],
+        "notes": "BRS Aerospace's entire product line is whole aircraft recovery parachute systems (WARPS), including for unmanned vehicles."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Pinebluff",
+      "state_or_province": "North Carolina",
+      "country": "United States",
+      "address": "41383 US Hwy 1, Pinebluff, NC 28373-8330"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 94,
+        "line_end": 94,
+        "url": "https://brsaerospace.com",
+        "page_class": "homepage",
+        "snippet": "_41383 US Hwy 1, Pinebluff, NC 28373-8330, U.S.A_"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 41,
+        "line_end": 41,
+        "url": "https://brsaerospace.com",
+        "page_class": "homepage",
+        "snippet": "More than four decades of design and engineering experience working hand-in-hand with aircraft manufacturers to create customized and reliable safety solutions."
+      }
+    ],
+    "notes": "BRS primarily serves manned GA aircraft but a 2017 press release (resource-0008 L37) explicitly names 'unmanned vehicles' among served segments. Their recovery systems are installed on third-party platforms."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "BRS System for Cessna 172/182",
+        "product_type": "FAA/EASA Part 23 certified whole aircraft recovery parachute system (retrofit)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 37,
+            "line_end": 37,
+            "url": "https://brsaerospace.com",
+            "page_class": "homepage",
+            "snippet": "BRS is the only Whole Aircraft Recovery Parachute System certified as a retrofit for the Cessna 172s and Cessna 182s."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Cirrus Airframe Parachute System (CAPS)",
+        "product_type": "whole aircraft recovery parachute system for Cirrus SR20/SR22",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 43,
+            "line_end": 44,
+            "url": "https://brsaerospace.com",
+            "page_class": "homepage",
+            "snippet": "#### Developed the Cirrus Airframe Parachute System\nCollaborated with Cirrus Aircraft to develop the first Recovery Parachute System to be used on a line of type certified aircraft: the Cirrus SR20, followed by the Cirrus SR22 in 2001."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Whole Aircraft Recovery Parachute System (WARPS)",
+        "product_type": "ballistic-rocket-deployed parachute recovery system for light sport, experimental, ultralight, and unmanned aircraft",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 35,
+            "line_end": 35,
+            "url": "https://brsaerospace.com",
+            "page_class": "homepage",
+            "snippet": "#### Ballistic Recovery Systems was founded in 1980 by Boris Popov of Saint Paul, Minnesota, after he survived a 400-foot (120 m) fall in a partially collapsed hang glider in 1975. As a result, Popov invented the WARPS, the Whole Aircraft Recovery Parachute System."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Several product pages were skipped in the crawl; product names inferred from homepage and press releases."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 41,
+        "line_end": 41,
+        "url": "https://brsaerospace.com",
+        "page_class": "homepage",
+        "snippet": "More than four decades of design and engineering experience working hand-in-hand with aircraft manufacturers to create customized and reliable safety solutions."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 97,
+        "line_end": 97,
+        "url": "https://brsaerospace.com",
+        "page_class": "homepage",
+        "snippet": "[ISO 9001:2015 Certified](https://brsaerospace.com/wp-content/uploads/2025/06/ISO-Certificate-valid-through-20270628.pdf)"
+      }
+    ],
+    "notes": "Over 35,000 units delivered across decades; active FAA/EASA certified product lines with listed terms of sale; ISO 9001:2015 certified."
+  },
+  "unresolved_questions": [
+    "No UAS/drone-specific product pages fetched; UAV application scope unclear beyond one 2017 press release mention.",
+    "NDAA and Blue UAS status not addressed on the site.",
+    "Headquarters may have dual facilities (Minnesota origin, current North Carolina address)."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://brsaerospace.com/cessna/",
+      "reason": "Top-level nav item; would confirm specific SKUs and capabilities for the Cessna recovery system product line.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "linked from resource-0001 nav",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://brsaerospace.com/rebuild/",
+      "reason": "Top-level nav item; likely describes rebuild/refurbishment services, helping characterize full product scope and readiness.",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "linked from resource-0001 nav",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://brsaerospace.com/support/",
+      "reason": "Support page may list product models and explicit unmanned vehicle applications, confirming UXV relevance.",
+      "expected_evidence": [
+        "products",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "linked from resource-0001 nav",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 14,
+    "total_cost_usd": 0.3220824,
+    "created_at": "2026-05-03T00:29:36+00:00",
+    "extract_version": "0.1.0"
+  },
+  "tagline": "Manufactures ballistic whole-aircraft recovery parachute systems for manned aviation (Cirrus SR20/22, Cessna 172/182, 450+ aircraft models). FAA/EASA Part 23 certified; claims 504 lives saved since 1980. No public evidence of NDAA compliance, Blue UAS listing, or unmanned-systems applications; market focus appears exclusively manned GA."
+}

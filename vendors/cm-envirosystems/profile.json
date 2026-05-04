@@ -1,0 +1,232 @@
+{
+  "target_id": "cm-envirosystems",
+  "run_id": "canonical",
+  "display_name": "CM Envirosystems",
+  "homepage_url": "https://cmenvirosystems.com/",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/cm-envirosystems/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "test_and_measurement",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 67,
+            "line_end": 67,
+            "url": "https://cmenvirosystems.com/",
+            "page_class": "homepage",
+            "snippet": "Intelligent Environmental Test Chambers for EV, Defense, Electronics & Solar"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 88,
+            "line_end": 88,
+            "url": "https://cmenvirosystems.com/",
+            "page_class": "homepage",
+            "snippet": "CME engineers advanced environmental simulation systems for a connected world\u2014combining data, AI, and precision hardware to shape the future of industrial reliability."
+          }
+        ],
+        "notes": "Manufactures environmental test chambers (temperature, humidity, vibration, corrosion, altitude, solar simulation, battery) used across aerospace/defense, electronics, EV, and solar industries."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Bangalore",
+      "state_or_province": null,
+      "country": "India",
+      "address": null
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 178,
+        "line_end": 181,
+        "url": "https://cmenvirosystems.com/",
+        "page_class": "homepage",
+        "snippet": "**[+91 888 000 7700\n](<tel:+91 888 000 7700>)[info@cmenvirosystems.com](mailto:info@cmenvirosystems.com)**\nCopyright (C) CM Envirosystems,\nBangalore 2026-27"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "broad_industrial",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0048",
+        "line_start": 69,
+        "line_end": 70,
+        "url": "https://cmenvirosystems.com/solutions",
+        "page_class": "capability",
+        "snippet": "CME provides comprehensive testing solutions for Aerospace & Defense Testing, Electronics & Semiconductor Testing, EV Battery Testing, Solar Renewable Energy Testing\n====================================================================================================================================================================="
+      }
+    ],
+    "notes": "Makes environmental test chambers for aerospace, defense, automotive, electronics, EV, and solar industries. No UXV-specific product line; drone/UAV/UAS are never mentioned anywhere in the corpus."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Environmental Test Chambers",
+        "product_type": "environmental test chambers (reach-in, walk-in, benchtop, thermal shock, altitude)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 6,
+            "line_end": 11,
+            "url": "https://cmenvirosystems.com/",
+            "page_class": "homepage",
+            "snippet": "                *   [Environmental Test Chambers](/environmental-test-chambers)\n                    *   [Reach-In Environmental Test Chambers](/product/reach-in-environmental-test-chambers)\n                    *   [Walk-in Environmental Test Chambers](/product/walk-in-environmental-test-chambers)\n                    *   [Benchtop Environmental Test Chambers](/product/benchtop-environmental-test-chambers)\n                    *   [Thermal Shock Test Chambers](/product/thermal-shock-test-chambers)\n                    *   [Altitude Test Chambers](/product/altitude-test-chambers)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Vibration Integration Chambers",
+        "product_type": "combined thermal and vibration test chamber",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0052",
+            "line_start": 68,
+            "line_end": 70,
+            "url": "https://cmenvirosystems.com/product/vibration-integration-chambers",
+            "page_class": "product",
+            "snippet": "Vibration Integration Chambers\n==============================\n\\-40\u00b0C to +180\u00b0C | -70\u00b0C to +180\u00b0C"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Cyclic Corrosion Test Chambers",
+        "product_type": "cyclic corrosion test chamber",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 31,
+            "line_end": 31,
+            "url": "https://cmenvirosystems.com/",
+            "page_class": "homepage",
+            "snippet": "                    *   [Cyclic Corrosion Test Chambers (CCT)](/product/cyclic-corrosion-test-chambers)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Air Stream Temperature Forcing Systems",
+        "product_type": "air stream temperature forcing system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 36,
+            "line_end": 36,
+            "url": "https://cmenvirosystems.com/",
+            "page_class": "homepage",
+            "snippet": "                *   [Air Stream Units](https://cmenvirosystems.com/product/air-stream-temperature-forcing-systems/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "enviCoM\u00ae 4.0",
+        "product_type": "environmental test chamber controller/IoT platform",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 78,
+            "line_end": 79,
+            "url": "https://cmenvirosystems.com/",
+            "page_class": "homepage",
+            "snippet": "### enviCoM\u00ae 4.0 Environmental Test Chamber Controller For All Chambers\nenviCoM\u00ae 4.0 is CME\u2019s next-generation environmental test chamber controller, engineered to deliver high-precision control, repeatability, and long-term reliability across all chambers."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Battery Test Chambers",
+        "product_type": "battery environmental test chamber (reach-in, walk-in, altitude)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 17,
+            "line_end": 20,
+            "url": "https://cmenvirosystems.com/",
+            "page_class": "homepage",
+            "snippet": "                *   [Battery Test Chambers](https://cmenvirosystems.com/battery-test-chambers/)\n                    *   [Battery Reach-In Test Chambers](/product/battery-reach-in-test-chambers)\n                    *   [Battery Walk-In Test Chambers](/product/battery-walk-in-test-chambers)\n                    *   [Battery Altitude Test Chambers](https://cmenvirosystems.com/product/battery-altitude-test-chambers/)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA mention anywhere in corpus. CME is an India-based manufacturer; NDAA Sec 848/889 compliance not claimed."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS / Blue sUAS mention anywhere in corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 88,
+        "line_end": 89,
+        "url": "https://cmenvirosystems.com/",
+        "page_class": "homepage",
+        "snippet": "CME engineers advanced environmental simulation systems for a connected world\u2014combining data, AI, and precision hardware to shape the future of industrial reliability.\n[Complete Product Portfolio](https://cmenvirosystems.com/products/)"
+      }
+    ],
+    "notes": "Offers a full standard product catalog with multiple product families advertised for serial delivery."
+  },
+  "unresolved_questions": [
+    "No drone/UAV/UAS references found anywhere in the corpus \u2014 vendor appears to be a broad industrial test equipment manufacturer with no UXV-specific products."
+  ],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Manufactures MIL-STD-810 compliant environmental test chambers (altitude, thermal shock, salt spray, dust, rain, battery-rated) and combined mechanical-thermal systems for defense, aerospace, EV, and electronics qualification. Bangalore-based; production-ready. NDAA and Blue UAS status unknown. Public evidence sparse on US defense contracts or certifications; claims IoT/AI capabilities (enviCoM\u00ae 4.0) but independent verification limited.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 12,
+    "total_cost_usd": 0.2857209,
+    "created_at": "2026-05-03T22:10:21+00:00",
+    "extract_version": "0.1.0"
+  }
+}

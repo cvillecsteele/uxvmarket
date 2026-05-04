@@ -1,0 +1,294 @@
+{
+  "target_id": "astronics-advanced-electronic-systems",
+  "run_id": "canonical",
+  "display_name": "Astronics Advanced Electronic Systems",
+  "homepage_url": "https://www.astronics.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/astronics-advanced-electronic-systems/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "power_systems",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0332",
+            "line_start": 155,
+            "line_end": 155,
+            "url": "https://www.astronics.com/airframe-power",
+            "page_class": "other",
+            "snippet": "Flight-proven, today Astronics\u2019 airframe power systems support global commercial and military business jets, UAVs, and advanced helicopter programs. For tomorrow, these systems are ready to serve as a solid foundation for your next More Electric Aircraft (MEA) or eVTOL program."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0134",
+            "line_start": 227,
+            "line_end": 229,
+            "url": "https://www.astronics.com/industries/defense-solutions",
+            "page_class": "capability",
+            "snippet": "#### Airframe Electrical Power Systems\n](/airframe-power)\nFor traditional and unmanned systems."
+          }
+        ],
+        "notes": "CorePower airframe electrical power systems (generation, conversion, distribution) explicitly serving UAV programs"
+      },
+      {
+        "category": "flight_and_vehicle_control",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0133",
+            "line_start": 173,
+            "line_end": 175,
+            "url": "https://www.astronics.com/ballard-technology/avionics-interfaces-legacy-products",
+            "page_class": "product",
+            "snippet": "#### Part Number: NG3 Series, NG2 Series\nCentOS Linux 7 will reach end of life (EOL) on June 30, 2024. To maintain a supported Linux OS on the NG3 and NG2 products, Astronics AES will be transitioning from CentOS 7 to Rocky 9.\n![pdf-icon](/images/default-source/siteimages/pdf-icon.png?sfvrsn=6e61aa58_4 \"pdf-icon\")\u00a0\u00a0[Product Change Notice](/docs/default-source/ballard-technology/sil0071.pdf?sfvrsn=9fdaafa7_4)"
+          }
+        ],
+        "notes": "NG3/NG2 Avionics I/O Computers and Portable Avionics Interfaces for USB used as embedded avionics computing platforms and for avionics data bus interfacing"
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "The AES subsidiary page was skipped; secondary categories may be incomplete."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Kirkland",
+      "state_or_province": "Washington",
+      "country": "United States",
+      "address": "12950 Willows Road NE, Kirkland, WA 98034"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0133",
+        "line_start": 223,
+        "line_end": 225,
+        "url": "https://www.astronics.com/ballard-technology/avionics-interfaces-legacy-products",
+        "page_class": "product",
+        "snippet": "### Astronics AES\n12950 Willows Road NE\nKirkland, WA 98034 USA"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0258",
+        "line_start": 156,
+        "line_end": 157,
+        "url": "https://www.astronics.com/about/cage-codes",
+        "page_class": "company",
+        "snippet": "### Astronics Advanced Electronic Systems (AES)\nKirkland, WA"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0332",
+        "line_start": 155,
+        "line_end": 155,
+        "url": "https://www.astronics.com/airframe-power",
+        "page_class": "other",
+        "snippet": "Flight-proven, today Astronics\u2019 airframe power systems support global commercial and military business jets, UAVs, and advanced helicopter programs. For tomorrow, these systems are ready to serve as a solid foundation for your next More Electric Aircraft (MEA) or eVTOL program."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0134",
+        "line_start": 227,
+        "line_end": 229,
+        "url": "https://www.astronics.com/industries/defense-solutions",
+        "page_class": "capability",
+        "snippet": "#### Airframe Electrical Power Systems\n](/airframe-power)\nFor traditional and unmanned systems."
+      }
+    ],
+    "notes": "AES sells airframe electrical power subsystems (CorePower) and avionics I/O computers explicitly for UAV and unmanned military aircraft programs"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "CorePower Airframe Electrical Power Systems",
+        "product_type": "aircraft power generation, conversion, and distribution systems",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0332",
+            "line_start": 152,
+            "line_end": 152,
+            "url": "https://www.astronics.com/airframe-power",
+            "page_class": "other",
+            "snippet": "CorePower: For Your More Electric Aircraft"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0332",
+            "line_start": 155,
+            "line_end": 155,
+            "url": "https://www.astronics.com/airframe-power",
+            "page_class": "other",
+            "snippet": "Flight-proven, today Astronics\u2019 airframe power systems support global commercial and military business jets, UAVs, and advanced helicopter programs. For tomorrow, these systems are ready to serve as a solid foundation for your next More Electric Aircraft (MEA) or eVTOL program."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "NG3/NG2 Series Avionics I/O Computers",
+        "product_type": "embedded avionics computing / data bus interface computers",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0133",
+            "line_start": 173,
+            "line_end": 174,
+            "url": "https://www.astronics.com/ballard-technology/avionics-interfaces-legacy-products",
+            "page_class": "product",
+            "snippet": "#### Part Number: NG3 Series, NG2 Series\nCentOS Linux 7 will reach end of life (EOL) on June 30, 2024. To maintain a supported Linux OS on the NG3 and NG2 products, Astronics AES will be transitioning from CentOS 7 to Rocky 9."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DL 615 Data Loader Kits",
+        "product_type": "avionics data loader",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0133",
+            "line_start": 183,
+            "line_end": 184,
+            "url": "https://www.astronics.com/ballard-technology/avionics-interfaces-legacy-products",
+            "page_class": "product",
+            "snippet": "### DL 615 Data Loader Kits (USB 2.0 models only)\n#### Part Number: All DL-UA14xx-xx models"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Portable Avionics Interfaces for USB",
+        "product_type": "portable avionics data bus interface devices",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0133",
+            "line_start": 194,
+            "line_end": 196,
+            "url": "https://www.astronics.com/ballard-technology/avionics-interfaces-legacy-products",
+            "page_class": "product",
+            "snippet": "### Portable Avionics Interfaces for USB 2.0\n#### Part Number: All UA1xxx and CP-UA1xxx models\nAstronics Advanced Electronic Systems (AES) is announcing the transition of its first generation UA1000 family of Portable Avionics Interfaces for USB 2.0 products to the Legacy lifecycle. Includes all I/O configurations and option suffixes (FTO, FXY, NE, M1, M2)."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Smart Aircraft System",
+        "product_type": "IoT-based aircraft cabin sensing and monitoring system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0431",
+            "line_start": 150,
+            "line_end": 151,
+            "url": "https://www.astronics.com/solutions/smart-aircraft-system",
+            "page_class": "capability",
+            "snippet": "The Astronics Smart Aircraft System\n==================================="
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Additional AES product pages (power generation, power conversion, power distribution, DFCU) were skipped; more product SKUs likely exist"
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0133",
+        "line_start": 163,
+        "line_end": 166,
+        "url": "https://www.astronics.com/ballard-technology/avionics-interfaces-legacy-products",
+        "page_class": "product",
+        "snippet": "Lifecycle Stages\nPRODUCTION\nProduct is in full production and available for sale\nLEGACY"
+      }
+    ],
+    "notes": "Products in serial production; lifecycle page explicitly describes 'PRODUCTION: Product is in full production and available for sale' for current-generation products, with older variants transitioning to Legacy."
+  },
+  "unresolved_questions": [
+    "Whether AES sells any explicit flight termination or ground control systems for UAVs in addition to power and avionics interface products",
+    "Specific NDAA/Blue UAS compliance status not disclosed on site"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.astronics.com/subsidiary?subsidiaryItem=astronics+advanced+electronic+systems",
+      "reason": "AES subsidiary overview page \u2014 would confirm AES-specific product lines, capabilities, and UAV-specific offerings not visible in the main site navigation",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.astronics.com/advanced-electronic-systems/dfcu",
+      "reason": "AES-specific capability page (DFCU) \u2014 would reveal additional UAV-focused products and capabilities for Astronics Advanced Electronic Systems",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=capability",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.astronics.com/aircraft-power-generation",
+      "reason": "CorePower aircraft power generation product page \u2014 would list specific product SKUs, specs, and UAV references for the primary power_systems product line",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Modular power generation, distribution, and conversion systems for airframe and MEA/eVTOL platforms, plus avionics data gateway (Aircraft Interface Devices). Production-ready CorePower\u00ae family serves UAV and traditional aircraft. NDAA compliance and Blue UAS certification status unknown; limited public evidence on unmanned-specific deployment or defense contracts.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 24,
+    "total_cost_usd": 0.7097931,
+    "created_at": "2026-05-03T21:37:23+00:00",
+    "extract_version": "0.1.0"
+  }
+}

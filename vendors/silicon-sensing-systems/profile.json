@@ -1,0 +1,124 @@
+{
+  "target_id": "silicon-sensing-systems",
+  "run_id": "canonical",
+  "display_name": "Silicon Sensing Systems",
+  "homepage_url": "https://www.siliconsensing.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/silicon-sensing-systems/website",
+  "products_categories": {
+    "items": [],
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "notes": "No corpus pages were fetched (all failed). Target metadata suggests IMUs, Gyros & Accelerometers, Navigation Systems but cannot be cited without fetched pages."
+  },
+  "headquarters": {
+    "value": null,
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "evidence": [],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": null,
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "evidence": [],
+    "notes": null
+  },
+  "products": {
+    "items": [],
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": null,
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "evidence": [],
+    "notes": null
+  },
+  "unresolved_questions": [
+    "Homepage failed to load (Connection refused) \u2014 all corpus pages failed; no text was extracted.",
+    "Cannot confirm product names, HQ, supply chain role, NDAA/Blue UAS status, or readiness without fetched pages."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.siliconsensing.com",
+      "reason": "Homepage failed with Connection refused; re-fetch needed to establish all profile fields including products, HQ, and supply chain role.",
+      "expected_evidence": [
+        "products_categories",
+        "headquarters",
+        "drone_supply_chain_role",
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=failed, page_class=homepage, resource_id=resource-0001",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.siliconsensing.com/products/",
+      "reason": "Product listing page would identify named SKUs (IMUs, gyroscopes, navigation systems) and confirm primary category and readiness posture.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "readiness",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "guessed",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.siliconsensing.com/about/",
+      "reason": "About/company page would confirm headquarters location (city, country) and supply chain role.",
+      "expected_evidence": [
+        "headquarters",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "guessed",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.siliconsensing.com/contact/",
+      "reason": "Contact page would confirm headquarters address and location.",
+      "expected_evidence": [
+        "headquarters"
+      ],
+      "source_hint": "guessed",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.siliconsensing.com/defence/",
+      "reason": "Defence/UAV application page would confirm UXV-specific product offerings and supply chain role.",
+      "expected_evidence": [
+        "products_categories",
+        "drone_supply_chain_role",
+        "products"
+      ],
+      "source_hint": "guessed",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "needs_more_fetches",
+  "tagline": "Manufacturer of MEMS inertial sensors (accelerometers, gyroscopes) for guidance and stabilization in autonomous systems. UK-based; public evidence on US supply-chain role, NDAA compliance status, and specific platform integrations is minimal. No Blue UAS certification or named DoD contracts found in open sources.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 5,
+    "total_cost_usd": 0.0927415,
+    "created_at": "2026-05-04T06:12:08+00:00",
+    "extract_version": "0.1.0"
+  }
+}

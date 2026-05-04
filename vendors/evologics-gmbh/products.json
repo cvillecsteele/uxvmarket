@@ -1,0 +1,256 @@
+{
+  "target_id": "evologics-gmbh",
+  "run_id": "canonical",
+  "display_name": "EvoLogics GmbH",
+  "homepage_url": "https://www.evologics.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/evologics-gmbh/website",
+  "products": [
+    {
+      "name": "Quadroin AUV",
+      "category": "airframes",
+      "descriptor": "Bionic penguin-inspired AUV for high-speed side-scan sonar and camera surveys",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0007",
+          "line_start": 89,
+          "line_end": 90,
+          "url": "https://www.evologics.com/autonomous-vehicle/quadroin-auv",
+          "page_class": "news",
+          "snippet": "\u25cf The EvoLogics Quadroin is an autonomous underwater vehicle (AUV) designed for high-resolution side-scan sonar and camera surveys.\nIts bionic, penguin-inspired hull combines hydrodynamic efficiency with high maneuverability, allowing speeds of up to 10 knots while maintaining low energy consumption for extended subsea operations."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0007",
+          "line_start": 244,
+          "line_end": 244,
+          "url": "https://www.evologics.com/autonomous-vehicle/quadroin-auv",
+          "page_class": "news",
+          "snippet": "Building on these foundations, EvoLogics advanced the Quadroin platform from prototypes to serial production with optimized internal layout, updated propulsion and navigation systems, and expanded payload capacity. The current Quadroin generation features a side-scan sonar, full-HD camera, and onboard AI-processing for object recognition and collision avoidance, with advanced communication and navigation systems supporting complex underwater operations."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Poggy AUV",
+      "category": "airframes",
+      "descriptor": "Bionic Fin-Ray\u00ae AUV with dual flexible tails for low-speed inspection and monitoring",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0006",
+          "line_start": 91,
+          "line_end": 92,
+          "url": "https://www.evologics.com/autonomous-vehicle/poggy-auv",
+          "page_class": "news",
+          "snippet": "\u25cf EvoLogics\u2019 Poggy AUV is a cutting-edge autonomous underwater vehicle designed for advanced surveying, marine exploration and monitoring.\nInspired by nature, Poggy\u2019s innovative bionic design leverages Fin-Ray\u00ae technology to deliver unmatched mobility and control in underwater environments."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0006",
+          "line_start": 152,
+          "line_end": 152,
+          "url": "https://www.evologics.com/autonomous-vehicle/poggy-auv",
+          "page_class": "news",
+          "snippet": "The first Poggy prototypes were developed under the BONUS SEAMOUNT collaborative R&D project and debuted in 2019. Since then, the vehicle has undergone significant improvements in mechanical design and sensor integration, evolving into a market-ready platform."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Sonobot 5 USV",
+      "category": "airframes",
+      "descriptor": "Compact uncrewed surface vehicle for automated bathymetric surveys and monitoring",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0009",
+          "line_start": 95,
+          "line_end": 97,
+          "url": "https://www.evologics.com/autonomous-vehicles",
+          "page_class": "news",
+          "snippet": "The professional platform for hydrographic surveys\nThe Sonobot 5 is a compact uncrewed surface vehicle (USV) designed for automated bathymetry and monitoring in inland and coastal waters. Lightweight and tool-free to assemble, it delivers professional-grade data while remaining easy for a single operator to handle.\nBest for"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "USBL Buoy",
+      "category": "sensors_and_navigation",
+      "descriptor": "Self-contained surface gateway with USBL transceiver, dual GNSS, and onboard PC for plug-and-play underwater asset tracking",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 123,
+          "line_end": 124,
+          "url": "https://www.evologics.com",
+          "page_class": "homepage",
+          "snippet": "USBL Buoy\nThe EvoLogics USBL Buoy is a fully integrated, plug-and-play surface gateway for real-time tracking of underwater assets: all in one single, compact unit with GNSS and wireless connection to operator software."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "PRO Series acoustic modems",
+      "category": "communications",
+      "descriptor": "Full-size S2C underwater acoustic modem family for long-range telemetry and deep-water infrastructure",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0115",
+          "line_start": 159,
+          "line_end": 160,
+          "url": "https://www.evologics.com/solution/underwater-communication",
+          "page_class": "capability",
+          "snippet": "PRO Series\nThe standard for performance and configurability. The PRO series offers the widest range of frequency options, transducer beam patterns, depth ratings and add-ons. It is the go-to choice for long-range telemetry and deep-water infrastructure."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "MINI Series acoustic modems",
+      "category": "communications",
+      "descriptor": "Compact lightweight S2C acoustic modems for AUV integration and size-sensitive applications",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0115",
+          "line_start": 162,
+          "line_end": 163,
+          "url": "https://www.evologics.com/solution/underwater-communication",
+          "page_class": "capability",
+          "snippet": "MINI Series\nFull performance in a compact, lightweight design. The MINI lineup features transducers for mid- and high-frequency operations, and targets size- and weight-sensitive applications, such as AUV integration and portable units."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "TINY Series acoustic modems",
+      "category": "communications",
+      "descriptor": "Smallest-form-factor S2C high-frequency acoustic modems for ultra-compact underwater vehicles",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0115",
+          "line_start": 165,
+          "line_end": 166,
+          "url": "https://www.evologics.com/solution/underwater-communication",
+          "page_class": "capability",
+          "snippet": "TINY Series\nOur smallest form factor is a 20% size reduction compared to the MINI-series. Designed for ultra-compact vehicles, the TINY series provides essential high-frequency communication without compromising on the robust S2C protocol stack."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "OEM acoustic modems",
+      "category": "communications",
+      "descriptor": "Housing-free S2C modem electronics boards with cable-mounted transducer for direct vehicle integration",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0115",
+          "line_start": 168,
+          "line_end": 169,
+          "url": "https://www.evologics.com/solution/underwater-communication",
+          "page_class": "capability",
+          "snippet": "OEM & Integration\nFor seamless system integration, all EvoLogics modems are available as OEM builds (electronics boards + cable-mounted transducer) without housing. These are ideal for embedding directly into underwater vehicles, buoys, or custom machinery."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Diver Navigation System",
+      "category": "sensors_and_navigation",
+      "descriptor": "Turnkey acoustic system for real-time diver positioning, map-based navigation, and two-way team communication",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0114",
+          "line_start": 83,
+          "line_end": 85,
+          "url": "https://www.evologics.com/solution/diver-navigation-system",
+          "page_class": "capability",
+          "snippet": "Diver Navigation System\n=======================\nMission awareness and operational control for professional diving teams"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0114",
+          "line_start": 160,
+          "line_end": 163,
+          "url": "https://www.evologics.com/solution/diver-navigation-system",
+          "page_class": "capability",
+          "snippet": "Encrypted acoustic communication\nRange up to 1.5 km\nAcoustic frequency\n18-34 kHz"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "PRO 12/24",
+      "category": "communications",
+      "descriptor": "Low-frequency S2C acoustic modem for deep-sea telemetry and long-range vertical links",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0115",
+          "line_start": 214,
+          "line_end": 215,
+          "url": "https://www.evologics.com/solution/underwater-communication",
+          "page_class": "capability",
+          "snippet": "PRO 12/24 (Titanium housing) with a directional beam pattern for depth penetration. Includes a built-in battery and Wake-Up Module for low-power standby to save power.\n](/underwater-acoustic-modem/pro-12-24)["
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 0,
+    "total_cost_usd": null,
+    "created_at": "2026-05-04T02:39:00+00:00",
+    "extract_version": "0.1.0"
+  }
+}

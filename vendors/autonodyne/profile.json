@@ -1,0 +1,215 @@
+{
+  "target_id": "autonodyne",
+  "run_id": "canonical",
+  "display_name": "Autonodyne",
+  "homepage_url": "https://autonodyne.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/autonodyne/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "ground_segment",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://autonodyne.com",
+            "page_class": "homepage",
+            "snippet": "Autonodyne | C2 & Autonomy Software"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 40,
+            "line_end": 43,
+            "url": "https://autonodyne.com",
+            "page_class": "homepage",
+            "snippet": "Autonomy Command and Control Solutions\n======================================\nSeamless integration across systems, domains, and platforms\nSoftware Command & Control"
+          }
+        ],
+        "notes": "Core offering is C2 and autonomy software \u2014 mission planning, multi-vehicle tasking, HMI for unmanned platforms."
+      },
+      {
+        "category": "flight_and_vehicle_control",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 57,
+            "line_end": 59,
+            "url": "https://autonodyne.com",
+            "page_class": "homepage",
+            "snippet": "### Autonomy Behaviors\nAutonodyne\u2019s library of software behaviors permits your vehicle or team of vehicles to perform a variety of mission-specific maneuvers autonomously.\nFor a complete inventory of our behaviors see [Autonomy\u00a0Behaviors.](/autonomy-behaviors)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0004",
+            "line_start": 44,
+            "line_end": 44,
+            "url": "https://autonodyne.com/autonomy-behaviors",
+            "page_class": "capability",
+            "snippet": "Autonodyne is continuing to create a comprehensive list of autonomous behaviors/skills that can be used to perform missions. They control a wide range of autonomous, semi-autonomous, and/or highly automated vehicles (air, sea, and land)."
+          }
+        ],
+        "notes": "Library of autonomy behaviors controls wide range of autonomous/semi-autonomous vehicles across air, sea, and land domains."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Only 2 pages fetched; /home sections (About, Core Technologies) were skipped \u2014 secondary categories may expand."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Boston",
+      "state_or_province": "Massachusetts",
+      "country": "United States",
+      "address": "320 Congress Street, 1st Floor, Boston, MA 02210"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 93,
+        "line_end": 93,
+        "url": "https://autonodyne.com",
+        "page_class": "homepage",
+        "snippet": "[320 Congress Street, 1st Floor, Boston, MA, 02210](https://maps.app.goo.gl/SHU7Axsoj4NnAq376)"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 55,
+        "line_end": 56,
+        "url": "https://autonodyne.com",
+        "page_class": "homepage",
+        "snippet": "### Software for your Unmanned Vehicles\nAutonodyne software has been integrated on more than 60 makes/models of unmanned platforms. Enabling support for 15 communication protocols, 16 datalink radios, and the ability to host the software on multiple hardware platforms."
+      }
+    ],
+    "notes": "Sells C2 and autonomy software subsystems; integrated on 60+ UAS/UGV/USV makes and models. Does not manufacture hardware platforms."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Autonomy Behaviors",
+        "product_type": "Library of autonomous mission behaviors for unmanned vehicles",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0004",
+            "line_start": 39,
+            "line_end": 41,
+            "url": "https://autonodyne.com/autonomy-behaviors",
+            "page_class": "capability",
+            "snippet": "Autonomy Behaviors\n==================\nBehaviors Magnify Functionality"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Software Command & Control",
+        "product_type": "C2 / GCS software for multi-vehicle and multi-domain UAS operations",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 43,
+            "line_end": 45,
+            "url": "https://autonodyne.com",
+            "page_class": "homepage",
+            "snippet": "Software Command & Control\n--------------------------\n#### Autonomous Multi-Vehicle Swarming"
+          }
+        ],
+        "notes": "No distinct product SKU name visible; referred to generically as 'software' with licensing contact provided."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Product names are descriptive rather than branded SKUs. Additional product details likely on skipped /home anchor sections."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 54,
+        "line_end": 56,
+        "url": "https://autonodyne.com",
+        "page_class": "homepage",
+        "snippet": "For software licensing and packaging contact [sales@autonodyne.com](mailto:sales@autonodyne.com?)\n### Software for your Unmanned Vehicles\nAutonodyne software has been integrated on more than 60 makes/models of unmanned platforms. Enabling support for 15 communication protocols, 16 datalink radios, and the ability to host the software on multiple hardware platforms."
+      }
+    ],
+    "notes": "Software actively licensed; deployed on 60+ makes/models of unmanned platforms with 15 comm protocols and 16 datalink radios supported."
+  },
+  "unresolved_questions": [
+    "No specific branded product SKU names identified \u2014 site uses descriptive names only.",
+    "Full 'About Us' and 'Core Technologies' sections were on skipped /home anchor pages; company history and additional technical details unknown.",
+    "NDAA and Blue UAS compliance not addressed anywhere in the fetched corpus."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://autonodyne.com/home",
+      "reason": "Contains 'About Us', 'Core Technologies', and 'HMI' anchor sections that would clarify product names, company background, and potentially headquarters confirmation.",
+      "expected_evidence": [
+        "products",
+        "headquarters",
+        "drone_supply_chain_role",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://autonodyne.com/s/Autonodyne-Autonomy-Behaviors-Original-26-Oct-2019-Updated-27-Nov-2023-Copy.pdf",
+      "reason": "PDF datasheet for Autonomy Behaviors product \u2014 would confirm full product name, version, and potentially compliance or export control notices relevant to NDAA.",
+      "expected_evidence": [
+        "products",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=document",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 8,
+    "total_cost_usd": 0.26359945,
+    "created_at": "2026-05-03T00:27:30+00:00",
+    "extract_version": "0.1.0"
+  },
+  "tagline": "Ground-segment command & control and flight-control autonomy software for multi-vehicle, manned-unmanned teaming across air, sea, and land platforms. Integrated on 60+ UxV makes/models. NDAA and Blue UAS certification status unknown. Counter-UAS red-teaming services offered. Public evidence of production deployment and government contracts limited."
+}

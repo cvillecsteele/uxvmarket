@@ -1,0 +1,420 @@
+{
+  "target_id": "castle-creations",
+  "run_id": "canonical",
+  "display_name": "Castle Creations",
+  "homepage_url": "https://www.castlecreations.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/castle-creations/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "propulsion_electronics",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 46,
+            "line_end": 46,
+            "url": "https://www.castlecreations.com/shop",
+            "page_class": "homepage",
+            "snippet": "Industry-leading brushless motors & ESCs for ultimate control."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0358",
+            "line_start": 51,
+            "line_end": 52,
+            "url": "https://www.castlecreations.com/en/esc-for-heli-products",
+            "page_class": "product",
+            "snippet": "===========================\nESC's for Helicopters by class size."
+          }
+        ],
+        "notes": "ESCs are the core product \u2014 Cobra, Phoenix Edge, Talon, Mamba, Sidewinder series for multi-rotor, heli, fixed-wing, and surface RC"
+      },
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 46,
+            "line_end": 46,
+            "url": "https://www.castlecreations.com/shop",
+            "page_class": "homepage",
+            "snippet": "Industry-leading brushless motors & ESCs for ultimate control."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 213,
+            "line_end": 215,
+            "url": "https://www.castlecreations.com/shop",
+            "page_class": "homepage",
+            "snippet": "*   [Vertigo 500 Heli Motor - 3525-1420Kv](/en/heli-clearance-items/vertigo-500-heli-motor-060-0042-00 \"Vertigo 500 Heli Motor - 3525-1420Kv\")\n*   Code: 060-0042-00\n*   USD $50.00 /EA"
+          }
+        ],
+        "notes": "Brushless motors including Vertigo heli motors and Ghost RC sensored drag motors"
+      },
+      {
+        "category": "power_systems",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 23,
+            "line_end": 23,
+            "url": "https://www.castlecreations.com/shop",
+            "page_class": "homepage",
+            "snippet": "    *   [Voltage Regulators](https://www.castlecreations.com/en/bec-voltage-regulator)"
+          }
+        ],
+        "notes": "BEC (Battery Eliminator Circuit) voltage regulators; CC BEC and CC BEC Pro appear in product line"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Olathe",
+      "state_or_province": "Kansas",
+      "country": "United States",
+      "address": "540 N Rogers Road, Olathe, KS 66062"
+    },
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0439",
+        "line_start": 74,
+        "line_end": 74,
+        "url": "https://www.castlecreations.com/terms-of-use",
+        "page_class": "company",
+        "snippet": "Castle withholds applicable sales tax for orders to be delivered to addresses within Kansas. Each customer shall be solely responsible for all sales taxes, or other taxes, on orders shipped to any other location."
+      }
+    ],
+    "notes": "Full address '540 N Rogers Road, Olathe, KS 66062 USA' appears in terms-of-use (resource-0006 line 68) as the legal arbitration contact address, but that line exceeds the 60-word citation limit. Line 74 confirms Kansas jurisdiction. Phone area code 913 corroborates the Kansas City metro / Olathe location."
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 46,
+        "line_end": 46,
+        "url": "https://www.castlecreations.com/shop",
+        "page_class": "homepage",
+        "snippet": "Industry-leading brushless motors & ESCs for ultimate control."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 20,
+        "line_end": 22,
+        "url": "https://www.castlecreations.com/shop",
+        "page_class": "homepage",
+        "snippet": "    *   [Multi-Rotor](/multi-rotor)\n    *   [Gear/SWAG](/en/gear)\n    *   [COMMERCIAL & INDUSTRY](/en/commercial-industry)"
+      }
+    ],
+    "notes": "Makes ESCs, motors, and BECs that are installed into drones and other RC vehicles. Has explicit Multi-Rotor and Commercial & Industry product categories. Does not manufacture complete drone platforms."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Cobra 6",
+        "product_type": "brushless ESC (33.6V)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 69,
+            "line_end": 71,
+            "url": "https://www.castlecreations.com/shop",
+            "page_class": "homepage",
+            "snippet": "*   [COBRA 6, 33.6V, 8A PEAK BEC](/en/new-arrivals/cobra-6-33-6v-8a-peak-bec-010-0184-00 \"COBRA 6, 33.6V, 8A PEAK BEC\")\n*   [Cobra 6](/en/cobra-6 \"Cobra 6\")\n*   Code: 010-0184-00"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Hydra Cobra 6",
+        "product_type": "brushless ESC (33.6V)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 109,
+            "line_end": 111,
+            "url": "https://www.castlecreations.com/shop",
+            "page_class": "homepage",
+            "snippet": "*   [HYDRA COBRA 6, 33.6V ESC, 8A PEAK BEC](/en/new-arrivals/hydra-cobra-6-33-6v-esc-8a-peak-bec-010-0189-00 \"HYDRA COBRA 6, 33.6V ESC, 8A PEAK BEC\")\n*   [Hydra](/en/hydra \"Hydra\")\n*   Code: 010-0189-00"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Cobra 8 ACE",
+        "product_type": "high-current brushless ESC",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 131,
+            "line_end": 133,
+            "url": "https://www.castlecreations.com/shop",
+            "page_class": "homepage",
+            "snippet": "*   [Ghost RC - Cobra 8 ACE - No Prep Drag ESC](/en/ghost-rc-american-speed/ghost-rc-cobra-8-ace-no-prep-drag-esc-020-0270-00 \"Ghost RC - Cobra 8 ACE - No Prep Drag ESC\")\n*   (Based on 4 vote(s))\n*   [Ghost RC American Speed](/en/ghost-rc-american-speed-1 \"Ghost RC American Speed\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Cobra 5 ACE",
+        "product_type": "brushless ESC for drag/high-speed",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 189,
+            "line_end": 191,
+            "url": "https://www.castlecreations.com/shop",
+            "page_class": "homepage",
+            "snippet": "*   [GHOST RC - COBRA 5 ACE - DRAG AND HIGH SPEED 8s ESC](/en/ghost-rc-american-speed/ghost-rc-cobra-5-ace-drag-and-high-speed-8s-esc-020-0287-00 \"GHOST RC - COBRA 5 ACE - DRAG AND HIGH SPEED 8s ESC\")\n*   (Based on 19 vote(s))\n*   [Ghost RC American Speed](/en/ghost-rc-american-speed-1 \"Ghost RC American Speed\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Phoenix Edge",
+        "product_type": "helicopter ESC series",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0358",
+            "line_start": 186,
+            "line_end": 190,
+            "url": "https://www.castlecreations.com/en/esc-for-heli-products",
+            "page_class": "product",
+            "snippet": "*   [Phoenix Edge 75 AMP ESC, 8S / 33.6V with 5 AMP BEC](/en/esc-class-for-heli-products/phoenix-edge-75-esc-010-0101-00 \"Phoenix Edge 75 AMP ESC, 8S / 33.6V with 5 AMP BEC\")\n*   (Based on 2 vote(s))\n*   [Phoenix Edge](/en/phoenix-edge-1 \"Phoenix Edge\")\n*   Code: 010-0101-00\n*   USD $134.95 /EA"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Phoenix Edge HV",
+        "product_type": "helicopter ESC series (high voltage, 12S)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0358",
+            "line_start": 122,
+            "line_end": 122,
+            "url": "https://www.castlecreations.com/en/esc-for-heli-products",
+            "page_class": "product",
+            "snippet": "*   [Phoenix Edge HV 160 AMP ESC, 12S / 50.4V, no BEC](/en/esc-class-for-heli-products/phoenix-edge-hv-160-esc-010-0103-00 \"Phoenix Edge HV 160 AMP ESC, 12S / 50.4V, no BEC\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Phoenix Edge Lite",
+        "product_type": "helicopter ESC series",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0358",
+            "line_start": 111,
+            "line_end": 113,
+            "url": "https://www.castlecreations.com/en/esc-for-heli-products",
+            "page_class": "product",
+            "snippet": "*   [PHOENIX EDGE LITE 50 AMP ESC, 8S / 34V WITH 5 AMP BEC](/en/esc-class-for-heli-products/phoenix-edge-lite-50-esc-010-0113-00 \"PHOENIX EDGE LITE 50 AMP ESC, 8S / 34V WITH 5 AMP BEC \")\n*   (Based on 4 vote(s))\n*   [Phoenix Edge Lite](/en/phoenix-edge-lite-1 \"Phoenix Edge Lite\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Talon",
+        "product_type": "helicopter ESC series (6S)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0358",
+            "line_start": 228,
+            "line_end": 231,
+            "url": "https://www.castlecreations.com/en/esc-for-heli-products",
+            "page_class": "product",
+            "snippet": "*   [TALON 35 AMP ESC, 6S / 25V WITH 7 AMP BEC](/en/esc-class-for-heli-products/talon-35-esc-010-0122-00 \"TALON 35 AMP ESC, 6S / 25V WITH 7 AMP BEC\")\n*   [Talon](/en/talon \"Talon\")\n*   Code: 010-0122-00\n*   USD $69.95 /EA"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Talon HV",
+        "product_type": "helicopter ESC (12S high voltage)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0358",
+            "line_start": 332,
+            "line_end": 334,
+            "url": "https://www.castlecreations.com/en/esc-for-heli-products",
+            "page_class": "product",
+            "snippet": "*   [TALON 120 AMP, 12S / 50V WITH 20 AMP BEC](/en/esc-class-for-heli-products/talon-hv-120-esc-010-0131-00 \"TALON 120 AMP, 12S / 50V WITH 20 AMP BEC\")\n*   (Based on 17 vote(s))\n*   [Talon HV](/en/talon-hv-1 \"Talon HV \")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Mamba XLX",
+        "product_type": "surface/1:5th scale ESC",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 252,
+            "line_end": 254,
+            "url": "https://www.castlecreations.com/shop",
+            "page_class": "homepage",
+            "snippet": "*   [MAMBA XL X 1:5TH ESC - LIMITED STOCK-DISCONTINUED ITEM](/en/surface-clearance-items/mamba-xl-x-esc-010-0140-00 \"MAMBA XL X 1:5TH ESC - LIMITED STOCK-DISCONTINUED ITEM\")\n*   (Based on 4 vote(s))\n*   [Mamba XLX](/en/mamba-xlx-3 \"Mamba XLX\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Sidewinder Micro",
+        "product_type": "surface ESC",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 263,
+            "line_end": 265,
+            "url": "https://www.castlecreations.com/shop",
+            "page_class": "homepage",
+            "snippet": "*   [SIDEWINDER MICRO 1:18TH SPORT CAR ESC, BULK](/en/surface-clearance-items/sidewinder-micro-1-18th-sport-car-esc-bulk-010-0150-99 \"SIDEWINDER MICRO 1:18TH SPORT CAR ESC, BULK\")\n*   (Based on 1 vote(s))\n*   Code: 010-0150-99"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Vertigo",
+        "product_type": "helicopter brushless motor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 213,
+            "line_end": 215,
+            "url": "https://www.castlecreations.com/shop",
+            "page_class": "homepage",
+            "snippet": "*   [Vertigo 500 Heli Motor - 3525-1420Kv](/en/heli-clearance-items/vertigo-500-heli-motor-060-0042-00 \"Vertigo 500 Heli Motor - 3525-1420Kv\")\n*   Code: 060-0042-00\n*   USD $50.00 /EA"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Castle Creations has many more SKUs across surface, marine, heli, fixed-wing, and multi-rotor segments. The commercial/industry product page was not fetched."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 77,
+        "line_end": 77,
+        "url": "https://www.castlecreations.com/shop",
+        "page_class": "homepage",
+        "snippet": "*   Availability: This item is in stock."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 107,
+        "line_end": 107,
+        "url": "https://www.castlecreations.com/shop",
+        "page_class": "homepage",
+        "snippet": "*   Availability: This item is in stock."
+      }
+    ],
+    "notes": "Active e-commerce catalog with specific part codes, list prices, and real-time stock status. Products have been in serial production since at least 1997."
+  },
+  "unresolved_questions": [
+    "NDAA Section 848/889 compliance status not disclosed on site",
+    "Blue UAS listing status not mentioned",
+    "Commercial & Industry product page content not fetched \u2014 would clarify UAS-specific offerings"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.castlecreations.com/en/commercial-industry",
+      "reason": "Would reveal what commercial/industrial drone-specific products Castle Creations offers, helping confirm drone supply chain role and identify additional products/categories",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "http://home.castlecreations.com/about-us",
+      "reason": "Would provide company background, US manufacturing status, and possibly NDAA/compliance claims",
+      "expected_evidence": [
+        "headquarters",
+        "drone_supply_chain_role",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_out_of_scope, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Electronic speed controllers and brushless motors for rotorcraft and multi-rotor platforms, ranging from 6S to 12S systems with rated capacities from 40 to 160 amps. NDAA and Blue UAS certification status unknown. Primarily serves hobbyist and commercial RC markets; public evidence of defense application or supply-chain integration is limited.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 17,
+    "total_cost_usd": 0.59422335,
+    "created_at": "2026-05-03T22:04:07+00:00",
+    "extract_version": "0.1.0"
+  }
+}

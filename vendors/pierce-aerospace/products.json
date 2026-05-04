@@ -1,0 +1,134 @@
+{
+  "target_id": "pierce-aerospace",
+  "run_id": "canonical",
+  "display_name": "Pierce Aerospace",
+  "homepage_url": "https://www.pierceaerospace.net",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/pierce-aerospace/website",
+  "products": [
+    {
+      "name": "B1 Remote ID Beacon",
+      "category": "communications",
+      "descriptor": "FAA-compliant Remote ID broadcast beacon for UAS, Blue UAS Framework approved",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "yes",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0120",
+          "line_start": 67,
+          "line_end": 71,
+          "url": "https://www.pierceaerospace.net/products/b1-remote-id-beacon",
+          "page_class": "product",
+          "snippet": "B1 Remote ID Beacon\n===================\nSale price$284.95 Regular price(/)\n* * *\nThe B1 Remote ID beacon offers the best in class performance to meet the FAA's Remote Identification requirements."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0120",
+          "line_start": 72,
+          "line_end": 72,
+          "url": "https://www.pierceaerospace.net/products/b1-remote-id-beacon",
+          "page_class": "product",
+          "snippet": "[The B1 is the only Remote ID module approved for DIU's Blue UAS Framework.](https://www.diu.mil/blue-uas/framework)"
+        }
+      ],
+      "notes": "Product page price $284.95; listed as \"Sold out\" but active catalog item with lead times. Blue UAS Framework approval explicitly stated. NDAA verification process initiated per March 2025 news (resource-0016 line 53) but not confirmed complete on product page."
+    },
+    {
+      "name": "YR1 Remote ID Sensor",
+      "category": "sensors_and_navigation",
+      "descriptor": "High-performance Remote ID signal detection sensor for airspace awareness",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0129",
+          "line_start": 57,
+          "line_end": 60,
+          "url": "https://www.pierceaerospace.net/products/yr1",
+          "page_class": "product",
+          "snippet": "YR1 Remote ID Sensor\n====================\n* * *\nThe YR1 Remote ID Sensor is the next generation in Remote ID Sensor technology. The YR1 is available for commercial and government customers at the federal, state, local, tribal, and territorial levels."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0129",
+          "line_start": 74,
+          "line_end": 74,
+          "url": "https://www.pierceaerospace.net/products/yr1",
+          "page_class": "product",
+          "snippet": "Available today."
+        }
+      ],
+      "notes": "Mobile and fixed-site configurations; networks for wide-area coverage; compatible with Flight Portal ID Network. Government-focused with sole source procurement vehicles available."
+    },
+    {
+      "name": "Flight Portal ID",
+      "category": "ground_segment",
+      "descriptor": "Remote ID network and application software for UAS airspace monitoring",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0129",
+          "line_start": 68,
+          "line_end": 69,
+          "url": "https://www.pierceaerospace.net/products/yr1",
+          "page_class": "product",
+          "snippet": "*   Compatible with the Flight Portal ID Network\n*   Compatible with Flight Portal ID Applications"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 121,
+          "line_end": 121,
+          "url": "https://www.pierceaerospace.net",
+          "page_class": "homepage",
+          "snippet": "> Pierce Aerospace\u2019s Flight Portal ID technology is going to be one of the best of breed Remote ID protocols in the very near future."
+        }
+      ],
+      "notes": "No dedicated product page in corpus. Referenced as a network and application suite compatible with the YR1 sensor. Northrop Grumman quote names it as a Remote ID protocol. News articles (resource-0018) note deployment at US Army exercises in 2022 and integration with Vigilant Aerospace UTM."
+    }
+  ],
+  "unresolved_questions": [
+    "Eight of the 11 prioritized products are branded merchandise/apparel with no UAS supply chain relevance and cannot be accurately mapped to any of the 16 UXV product categories: (1) Pierce Aerospace Hat (page title 'Baseball Cap', resource-0010), (2) Bucket Hat (resource-0005), (3) Flexfit Trucker (resource-0008), (4) The Polo (resource-0006), (5) Packable Jacket (Champion) (resource-0011), (6) Unisex Columbia Fleece Jacket (resource-0012), (7) Backpack (resource-0004), (8) Pet Bowl (resource-0003). All are active Shopify catalog items with pricing; none fit any of the 16 UXV product categories. They are sold under the 'Pierce Aerospace Swag' apparel collection.",
+    "Flight Portal ID has no dedicated product page in the corpus; it appears only via YR1 compatibility notes and news references. A dedicated services page would clarify pricing, scope, and compliance status.",
+    "B1 NDAA status is ambiguous: the March 2025 news article states the NDAA verification process was just beginning; the product page references Blue UAS Framework approval. NDAA completion cannot be confirmed from corpus alone."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.pierceaerospace.net/pages/services",
+      "reason": "Services page likely documents Flight Portal ID as a named service/software product with readiness and compliance details not available from YR1 references alone.",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.pierceaerospace.net/collections/pierce-aerospace-swag",
+      "reason": "Apparel collection index would confirm the full list of merchandise SKUs for completeness audit.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 25,
+    "total_cost_usd": 0.5831554,
+    "created_at": "2026-05-04T05:18:37+00:00",
+    "extract_version": "0.1.0"
+  }
+}

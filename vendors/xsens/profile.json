@@ -1,0 +1,284 @@
+{
+  "target_id": "xsens",
+  "run_id": "canonical",
+  "display_name": "Xsens",
+  "homepage_url": "https://www.xsens.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/xsens/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0151",
+            "line_start": 58,
+            "line_end": 59,
+            "url": "https://www.xsens.com/automation-mobility/inertial-sensors-for-drones-imu-ahrs-gnss-ins-xsens",
+            "page_class": "news",
+            "snippet": "Xsens inertial modules give drones precise orientation, stable flight control, and reliable navigation. With up to 400 Hz orientation output, advanced sensor fusion, and compact OEM designs, Xsens is a trusted choice for UAV developers.\n[Explore Inertial Sensors for UAVs](https://www.xsens.com/sensor-modules/xsens-mti-product-selector)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 117,
+            "line_end": 118,
+            "url": "https://www.xsens.com",
+            "page_class": "homepage",
+            "snippet": "Xsens has a broad portfolio of IMU, AHRS and GNSS/INS + RTK sensor modules. Featuring advanced sensor fusion, they offer high-quality 3D orientation and positioning data.\n[![Sensor modules \u2192](https://no-cache.hubspot.com/cta/default/3446270/5e5f40cd-7ab9-4967-a34f-d83a64a52b9e.png)](https://cta-redirect.hubspot.com/cta/redirect/3446270/5e5f40cd-7ab9-4967-a34f-d83a64a52b9e)"
+          }
+        ],
+        "notes": "IMU, AHRS, GNSS/INS, RTK sensor modules explicitly marketed for drone/UAV navigation and flight stability"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Xsens sells inertial sensor modules (IMU/AHRS/GNSS-INS) as components to drone OEMs. Motion capture product line is non-drone."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Enschede",
+      "state_or_province": null,
+      "country": "Netherlands",
+      "address": "Pantheon 6A + 8A, 7521 PR Enschede, The Netherlands"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0165",
+        "line_start": 117,
+        "line_end": 121,
+        "url": "https://www.xsens.com/company/about-us",
+        "page_class": "company",
+        "snippet": "**Enschede**\n[info@movella.com](mailto:info@movella.com)\n+31 (88) 973 6700\nPantheon 6A + 8A,\n7521 PR Enschede, The Netherlands"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0171",
+        "line_start": 60,
+        "line_end": 64,
+        "url": "https://www.xsens.com/contact-us",
+        "page_class": "contact",
+        "snippet": "**Enschede**\n[info@movella.com](mailto:info@movella.com)\n+31 (88) 973 6700\nPantheon 6A + 8A,\n7521 PR Enschede, The Netherlands"
+      }
+    ],
+    "notes": "Enschede is the first-listed and primary location. Also has offices in El Segundo CA, Halifax NS, and Shanghai."
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0151",
+        "line_start": 62,
+        "line_end": 63,
+        "url": "https://www.xsens.com/automation-mobility/inertial-sensors-for-drones-imu-ahrs-gnss-ins-xsens",
+        "page_class": "news",
+        "snippet": "Drones are expected to fly safely in windy or cluttered environments. To deliver missions reliably - inspection, delivery, mapping, or defense - they need dependable inertial sensing for\u00a0**flight stability**\u00a0and\u00a0**navigation**.\nXsens industrial-grade\u00a0**IMUs, AHRS, and GNSS/INS + RTK**\u00a0provide the high-frequency orientation and\u00a0**state estimation**\u00a0required for\u00a0**in-flight stabilization and**\u00a0**time-synchronized orientation & position**."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0151",
+        "line_start": 101,
+        "line_end": 104,
+        "url": "https://www.xsens.com/automation-mobility/inertial-sensors-for-drones-imu-ahrs-gnss-ins-xsens",
+        "page_class": "news",
+        "snippet": "### MTi 1-Series\n\\- Ultra-compact (12 \u00d7 12 mm), lightweight and low-power SMD module for space-constrained designs.\n\\- Delivers reliable orientation and positioning with onboard sensor fusion.\n\\- AHRS, INS/GNSS or INS/GNSS + RTK options, also available in easy to integrate modules for fast prototyping."
+      }
+    ],
+    "notes": "Sells IMU/AHRS/GNSS-INS sensor modules that drone OEMs integrate into their vehicles. OEM and SMD form factors explicitly marketed."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "MTi 1-Series",
+        "product_type": "ultra-compact IMU/AHRS/GNSS-INS SMD module",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0151",
+            "line_start": 101,
+            "line_end": 104,
+            "url": "https://www.xsens.com/automation-mobility/inertial-sensors-for-drones-imu-ahrs-gnss-ins-xsens",
+            "page_class": "news",
+            "snippet": "### MTi 1-Series\n\\- Ultra-compact (12 \u00d7 12 mm), lightweight and low-power SMD module for space-constrained designs.\n\\- Delivers reliable orientation and positioning with onboard sensor fusion.\n\\- AHRS, INS/GNSS or INS/GNSS + RTK options, also available in easy to integrate modules for fast prototyping."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MTi 600 OEM-Series",
+        "product_type": "OEM IMU/AHRS/GNSS-INS module",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0151",
+            "line_start": 107,
+            "line_end": 109,
+            "url": "https://www.xsens.com/automation-mobility/inertial-sensors-for-drones-imu-ahrs-gnss-ins-xsens",
+            "page_class": "news",
+            "snippet": "### MTi 600 OEM-Series\n\\- Up to 400 Hz orientation output providing high data rate.\n\\- OEM form factor, compact and easy to integrate in embedded systems."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Xsens Avior",
+        "product_type": "OEM IMU/VRU/AHRS/MRU inertial sensor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0238",
+            "line_start": 56,
+            "line_end": 58,
+            "url": "https://www.xsens.com/products/sensor-modules/xsens-avior-series",
+            "page_class": "product",
+            "snippet": "**Xsens Avior** - the new standard in OEM IMUs\n==============================================\nHigh-performance inertial sensing in a compact, low SWaP-C package -\u00a0engineered for fast, flexible and seamless system integration."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Xsens MTi-680G",
+        "product_type": "GNSS/INS + RTK rugged module (IP68)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0151",
+            "line_start": 119,
+            "line_end": 122,
+            "url": "https://www.xsens.com/automation-mobility/inertial-sensors-for-drones-imu-ahrs-gnss-ins-xsens",
+            "page_class": "news",
+            "snippet": "### Xsens MTi-680G\n\\- GNSS/INS + RTK rugged module, IP68 housing.\n\\- Integrated GNSS receiver for easy, plug & play implementation.\n\\- Time-synced orientation and positioning data."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Xsens Sirius series",
+        "product_type": "IMU/VRU/AHRS sensor module (IP68)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 123,
+            "line_end": 124,
+            "url": "https://www.xsens.com",
+            "page_class": "homepage",
+            "snippet": "Introducing: The Xsens Sirius series\n------------------------------------"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Xsens Vision Navigator",
+        "product_type": "Vision-enhanced Inertial Navigation System (VIO/V-INS)",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0284",
+            "line_start": 124,
+            "line_end": 125,
+            "url": "https://www.xsens.com/sensor-modules/xsens-mti-product-selector",
+            "page_class": "product",
+            "snippet": "Xsens Vision Navigator\nXsens Vision Navigator is a Vision-enhanced Inertial Navigation System."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Xsens Link",
+        "product_type": "full-body motion capture suit system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 67,
+            "line_end": 68,
+            "url": "https://www.xsens.com",
+            "page_class": "homepage",
+            "snippet": "### Next-Generation Xsens Link\nThe next-generation Xsens Link is built for professionals who demand precision, reliability, and freedom of movement."
+          }
+        ],
+        "notes": "Motion capture product, not drone-specific"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Drone-relevant products are MTi 1-Series, MTi 600 OEM-Series, Avior, MTi-680G, Sirius, and Vision Navigator."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0238",
+        "line_start": 153,
+        "line_end": 153,
+        "url": "https://www.xsens.com/products/sensor-modules/xsens-avior-series",
+        "page_class": "product",
+        "snippet": "*   Certifications CE, FCC, RoHS, ITAR free"
+      }
+    ],
+    "notes": "Avior certifications list 'ITAR free' but no NDAA Section 848/889 compliance claim in corpus."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0238",
+        "line_start": 93,
+        "line_end": 94,
+        "url": "https://www.xsens.com/products/sensor-modules/xsens-avior-series",
+        "page_class": "product",
+        "snippet": "### Scalable OEM Solution\nPerfect for scaling production across robotics, stabilization platforms, AMRs, and more. From evaluation to production, Xsens Avior scales with your design."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0284",
+        "line_start": 56,
+        "line_end": 58,
+        "url": "https://www.xsens.com/sensor-modules/xsens-mti-product-selector",
+        "page_class": "product",
+        "snippet": "Xsens Inertial Sensor Modules - Product Selector\n================================================\nWith this online product selector, you can explore and compare the solutions that interest you based on functionality, form factor, interfaces, features and performance.\u00a0[](https://www.xsens.com/sensor-modules/contact-us)"
+      }
+    ],
+    "notes": "Full catalog of named SKUs with detailed technical specifications and 'scaling production' language."
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Manufactures inertial measurement units, AHRS, and GNSS/INS navigation modules in compact SMD and OEM form factors for drones, robotics, marine, and defense applications. Product line spans ultra-miniature components (MTi 1-Series, MTi-8) to rugged integrated systems (MTi-680G, Sirius, Avior). NDAA compliance status unknown; no Blue UAS certification identified in public records. Broad commercial footprint (entertainment, sports) but defense/unmanned-systems market presence requires direct customer verification.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 16,
+    "total_cost_usd": 0.53977375,
+    "created_at": "2026-05-04T07:47:40+00:00",
+    "extract_version": "0.1.0"
+  }
+}

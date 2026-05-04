@@ -1,0 +1,378 @@
+{
+  "target_id": "imc-industries",
+  "run_id": "canonical",
+  "display_name": "IMC Industries",
+  "homepage_url": "https://www.imc-mw.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/imc-industries/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "communications",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0075",
+            "line_start": 171,
+            "line_end": 172,
+            "url": "https://www.imc-mw.com/about-us",
+            "page_class": "other",
+            "snippet": "IMC Industries (founded in 1987) is a worldwide leading provider that specializes in developing & manufacturing state-of-the-art RF modules, microwave components and data link communication systems for defense, homeland security and civil applications.\nIMC\u2019s products are integrated as part of various platforms such as UAV/UGV/UGS, ground to ground mobile systems, electronic warfare systems, radar systems and test simulators."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0061",
+            "line_start": 167,
+            "line_end": 168,
+            "url": "https://www.imc-mw.com/command-surveillance-data-link",
+            "page_class": "other",
+            "snippet": "Command & Surveillance Data Link\n--------------------------------"
+          }
+        ],
+        "notes": "Data links, transceivers, transmitters, receivers, and antennas are the core product lines for UAV/defense communications."
+      },
+      {
+        "category": "flight_termination",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0076",
+            "line_start": 167,
+            "line_end": 168,
+            "url": "https://www.imc-mw.com/flight-termination-system",
+            "page_class": "other",
+            "snippet": "Flight Termination System\n-------------------------"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0065",
+            "line_start": 167,
+            "line_end": 168,
+            "url": "https://www.imc-mw.com/flight-termination-receiver",
+            "page_class": "other",
+            "snippet": "Flight Termination Receiver\n---------------------------"
+          }
+        ],
+        "notes": "IMC produces both the Flight Termination System (transmitter side) and the IREC-4050-6-FTR Flight Termination Receiver (airborne side)."
+      },
+      {
+        "category": "ground_segment",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0075",
+            "line_start": 183,
+            "line_end": 183,
+            "url": "https://www.imc-mw.com/about-us",
+            "page_class": "other",
+            "snippet": "*   Ground station with the latest antenna tracking capabilities such as monopulse and GPS tracking."
+          }
+        ],
+        "notes": "Portable Telemetry Ground Station and azimuth-elevation positioner/tracker are ground-side drone support systems."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Petach Tikva",
+      "state_or_province": null,
+      "country": "Israel",
+      "address": "6 Nahshon ST., Petach Tikva 4927795, Israel"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0075",
+        "line_start": 229,
+        "line_end": 231,
+        "url": "https://www.imc-mw.com/about-us",
+        "page_class": "other",
+        "snippet": "IMC Microwave industries Ltd.6 Nahshon ST.\nPetach Tikva 4927795 Israel\nTel +972-3-9300464 Fax +972-3-9342056"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0075",
+        "line_start": 172,
+        "line_end": 172,
+        "url": "https://www.imc-mw.com/about-us",
+        "page_class": "other",
+        "snippet": "IMC\u2019s products are integrated as part of various platforms such as UAV/UGV/UGS, ground to ground mobile systems, electronic warfare systems, radar systems and test simulators."
+      }
+    ],
+    "notes": "IMC sells major drone subsystems (data links, flight termination systems, RF transceivers/transmitters/receivers, antennas) that integrate into UAV/UGV/UGS platforms. They do not manufacture complete airframes."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Command & Surveillance Data Link (CSDL)",
+        "product_type": "UAV/ground/maritime data link system, up to 250 km LOS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0061",
+            "line_start": 167,
+            "line_end": 168,
+            "url": "https://www.imc-mw.com/command-surveillance-data-link",
+            "page_class": "other",
+            "snippet": "Command & Surveillance Data Link\n--------------------------------"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Mini Tactical Command & Surveillance Data Link",
+        "product_type": "compact tactical data link system",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0075",
+            "line_start": 104,
+            "line_end": 104,
+            "url": "https://www.imc-mw.com/about-us",
+            "page_class": "other",
+            "snippet": "    *   [Mini Tactical Command & Surveillance](https://www.imc-mw.com/mini-tactical-command-surveillance-data-link/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Portable Telemetry Ground Station",
+        "product_type": "ground telemetry station",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0075",
+            "line_start": 105,
+            "line_end": 105,
+            "url": "https://www.imc-mw.com/about-us",
+            "page_class": "other",
+            "snippet": "    *   [Portable Telemetry Ground Station](https://www.imc-mw.com/portable-telemetry-ground-station/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "UHF Transceiver (IGDT-TR-UHF / IADT-TR-UHF)",
+        "product_type": "UHF point-to-multipoint transceiver for UAV",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0023",
+            "line_start": 167,
+            "line_end": 168,
+            "url": "https://www.imc-mw.com/uhf-transceiver",
+            "page_class": "other",
+            "snippet": "UHF Transceiver\n---------------"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Flight Termination System (FTS)",
+        "product_type": "ground-side flight termination transmitter system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0076",
+            "line_start": 167,
+            "line_end": 168,
+            "url": "https://www.imc-mw.com/flight-termination-system",
+            "page_class": "other",
+            "snippet": "Flight Termination System\n-------------------------"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "IREC-4050-6-FTR Flight Termination Receiver",
+        "product_type": "miniature airborne flight termination receiver",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0065",
+            "line_start": 167,
+            "line_end": 168,
+            "url": "https://www.imc-mw.com/flight-termination-receiver",
+            "page_class": "other",
+            "snippet": "Flight Termination Receiver\n---------------------------"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Integrated Video & Telemetry Transmitter",
+        "product_type": "airborne video and telemetry transmitter",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0075",
+            "line_start": 57,
+            "line_end": 57,
+            "url": "https://www.imc-mw.com/about-us",
+            "page_class": "other",
+            "snippet": "    *   [Integrated Video & Telemetry transmitter](https://www.imc-mw.com/integrated-video-telemetry-transmitter/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "High Efficiency 40W Telemetry Transmitter",
+        "product_type": "high-power telemetry transmitter",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0075",
+            "line_start": 58,
+            "line_end": 58,
+            "url": "https://www.imc-mw.com/about-us",
+            "page_class": "other",
+            "snippet": "    *   [High E\ufb03ciency 40W Telemetry Transmitter](https://www.imc-mw.com/high-e%ef%ac%83ciency-40w-telemetry-transmitter/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Small Digital Telemetry Receiver",
+        "product_type": "compact digital telemetry receiver",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0075",
+            "line_start": 44,
+            "line_end": 44,
+            "url": "https://www.imc-mw.com/about-us",
+            "page_class": "other",
+            "snippet": "    *   [Small digital telemetry receiver](https://www.imc-mw.com/small-digital-telemetry-receiver/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TDMA Transceiver",
+        "product_type": "TDMA digital transceiver",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0075",
+            "line_start": 74,
+            "line_end": 74,
+            "url": "https://www.imc-mw.com/about-us",
+            "page_class": "other",
+            "snippet": "    *   [TDMA Transceiver](https://www.imc-mw.com/tdma-transceiver/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Azimuth Elevation Positioner",
+        "product_type": "antenna positioner / tracking pedestal",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0075",
+            "line_start": 22,
+            "line_end": 22,
+            "url": "https://www.imc-mw.com/about-us",
+            "page_class": "other",
+            "snippet": "    [Positioners](https://www.imc-mw.com/azimuth-elevation-positioner/)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Many product sub-pages were not fetched; this list covers the fetched pages only."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA, Section 848/889, or related compliance language found anywhere in the corpus. Vendor is an Israeli company, making NDAA compliance claims less likely."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS or Blue sUAS language found anywhere in the corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0075",
+        "line_start": 194,
+        "line_end": 195,
+        "url": "https://www.imc-mw.com/about-us",
+        "page_class": "other",
+        "snippet": "IMC ensures the quality and reliability of its products by strictly controlling the design and the manufacturing processes and by working closely with vendors to ensure delivery of high quality products.\nIMC has an [ISO 9001/2015](#) certification. The quality assurance procedures are continually approved by major electronic equipment providers such as IAI, Elta and Rafael."
+      }
+    ],
+    "notes": "IMC advertises 'flight-proven' products with datasheets, catalog downloads, ISO 9001:2015 certification, and references to supplying 'hundreds of products' to defense customers."
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [
+    {
+      "url": "https://www.imc-mw.com/mini-tactical-command-surveillance-data-link/",
+      "reason": "Would provide product specs and confirm this is a distinct SKU from the main CSDL system",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "guessed from nav link in resource-0002",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.imc-mw.com/portable-telemetry-ground-station/",
+      "reason": "Would confirm ground_segment category claim and provide product details",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "guessed from nav link in resource-0002",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "complete",
+  "tagline": "Israeli subsystem supplier of wideband RF communications, telemetry, and flight-termination equipment for mini/tactical UAVs, helicopters, and missiles. Core products include the Mini Tactical Command & Surveillance Data Link (250 km LOS), modular ground-station receivers (IREC-RX family), and miniature flight-termination receivers. Public evidence confirms production-ready status across data-link and FTS lines; NDAA and Blue UAS certification status unknown.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 18,
+    "total_cost_usd": 0.38750414999999994,
+    "created_at": "2026-05-04T03:29:20+00:00",
+    "extract_version": "0.1.0"
+  }
+}

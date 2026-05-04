@@ -1,0 +1,125 @@
+{
+  "target_id": "maxon",
+  "run_id": "canonical",
+  "display_name": "maxon",
+  "homepage_url": "https://www.maxongroup.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/maxon/website",
+  "products_categories": {
+    "items": [],
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "notes": "No corpus pages were fetched \u2014 homepage timed out. Based on catalog metadata, propulsion_mechanical is expected primary category, but cannot be confirmed without evidence."
+  },
+  "headquarters": {
+    "value": null,
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "evidence": [],
+    "notes": "No pages fetched; homepage timed out."
+  },
+  "drone_supply_chain_role": {
+    "value": null,
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "evidence": [],
+    "notes": "No pages fetched; cannot determine role from corpus."
+  },
+  "products": {
+    "items": [],
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "notes": "No pages fetched; no product evidence available."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": null,
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "evidence": [],
+    "notes": "No pages fetched."
+  },
+  "unresolved_questions": [
+    "Homepage timed out \u2014 all seven profile fields need corpus evidence.",
+    "What is maxon's headquarters city/country?",
+    "What specific drone/UAV product lines does maxon offer?",
+    "Is maxon NDAA Section 848/889 compliant?"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.maxongroup.com/en",
+      "reason": "Homepage failed to load (timeout). Retry needed to establish basic company profile, HQ, and product overview.",
+      "expected_evidence": [
+        "headquarters",
+        "drone_supply_chain_role",
+        "products_categories",
+        "products"
+      ],
+      "source_hint": "crawl_index status=failed, page_class=homepage",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.maxongroup.com/en/company",
+      "reason": "About/company page would confirm headquarters location, corporate structure, and supply chain role.",
+      "expected_evidence": [
+        "headquarters",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "guessed standard /en/company path",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.maxongroup.com/en/application/drones-uav",
+      "reason": "Drone/UAV application page would confirm product lines, categories, and supply chain role for the UXV segment.",
+      "expected_evidence": [
+        "products_categories",
+        "drone_supply_chain_role",
+        "products",
+        "readiness"
+      ],
+      "source_hint": "guessed standard application page path",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.maxongroup.com/en/products",
+      "reason": "Products index page needed to enumerate named SKUs and determine readiness level.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "readiness"
+      ],
+      "source_hint": "guessed standard /en/products path",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.maxongroup.com/en/contact",
+      "reason": "Contact page would provide headquarters address details.",
+      "expected_evidence": [
+        "headquarters"
+      ],
+      "source_hint": "guessed standard /en/contact path",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "needs_more_fetches",
+  "tagline": "Maxon's role in the unmanned-systems supply chain remains unclear from public sources. No products, certifications (NDAA, Blue UAS), major contracts, or headquarters location could be confirmed. Further clarification needed on whether this entity manufactures components, provides services, or operates in adjacent domains.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 4,
+    "total_cost_usd": 0.07262579999999999,
+    "created_at": "2026-05-04T04:08:40+00:00",
+    "extract_version": "0.1.0"
+  }
+}

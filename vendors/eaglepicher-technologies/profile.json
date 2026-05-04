@@ -1,0 +1,268 @@
+{
+  "target_id": "eaglepicher-technologies",
+  "run_id": "canonical",
+  "display_name": "EaglePicher Technologies",
+  "homepage_url": "https://www.eaglepicher.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/eaglepicher-technologies/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "power_systems",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 67,
+            "line_end": 68,
+            "url": "https://www.eaglepicher.com",
+            "page_class": "homepage",
+            "snippet": "*   EaglePicher is the #1 U.S. battery manufacturer of thermal battery systems.\n*   We supply power for over 90% of the U.S. military\u2019s munitions and mission critical systems."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0062",
+            "line_start": 72,
+            "line_end": 72,
+            "url": "https://www.eaglepicher.com/products",
+            "page_class": "product",
+            "snippet": "EaglePicher has established itself as a world leader in the research, design, development, testing\u00a0and production of specialized batteries for aviation, defense, maritime, space\u00a0and commercial industries. EaglePicher batteries have consistently met the most stringent requirements of the Department of Defense and\u00a0NASA, as well as applications where reliability is the primary option."
+          }
+        ],
+        "notes": "Thermal batteries, primary (non-rechargeable) lithium batteries, secondary (rechargeable) lithium-ion batteries, silver zinc batteries, and custom battery packaging for defense, aerospace, UAV, and space applications."
+      },
+      {
+        "category": "munitions",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0067",
+            "line_start": 56,
+            "line_end": 56,
+            "url": "https://www.eaglepicher.com/products/energetics",
+            "page_class": "product",
+            "snippet": "**Explosive devices,** such as detonators and boosters, use secondary explosives for their output charge. Explosive devices are used in artillery, mortar, cannon and bomb fuzing, and in the detonation of main warheads."
+          }
+        ],
+        "notes": "Explosive devices (detonators, boosters) and pyrotechnic devices used in artillery/mortar/cannon/bomb fuzing and main warhead detonation."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Joplin",
+      "state_or_province": "Missouri",
+      "country": "United States",
+      "address": "8230 E. 23rd Street, Joplin, MO 64804"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0031",
+        "line_start": 67,
+        "line_end": 69,
+        "url": "https://www.eaglepicher.com/contact-us",
+        "page_class": "contact",
+        "snippet": "Missouri\n8230 E. 23rd Street\nJoplin, MO 64804"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0348",
+        "line_start": 61,
+        "line_end": 61,
+        "url": "https://www.eaglepicher.com/technology/battery-chemistries/lithium-ion",
+        "page_class": "capability",
+        "snippet": "*   [Unmanned aerial vehicles (UAVs)](/markets/aviation/uav/), where battery performance is critical for mission success in reconnaissance and warfare"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0065",
+        "line_start": 53,
+        "line_end": 53,
+        "url": "https://www.eaglepicher.com/products/custom-packaging",
+        "page_class": "product",
+        "snippet": "Hybrid chemistry pouch cells are the ideal form factor for small, expendable (single-use) UAVs. These cells are compact and have\u00a0flexible packaging options. The prismatic pouch cells' form factor is more efficient than\u00a0cylindrical cells with a greater net pack energy density and specific energy."
+      }
+    ],
+    "notes": "Supplies batteries and energetic devices as components going into UAVs, munitions, and aerospace systems; does not manufacture complete drone platforms."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Thermal Batteries",
+        "product_type": "one-time-use thermal battery systems for defense/aerospace",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0072",
+            "line_start": 46,
+            "line_end": 46,
+            "url": "https://www.eaglepicher.com/products/thermal-batteries",
+            "page_class": "product",
+            "snippet": "Thermal Batteries"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Primary Batteries (Non-Rechargeable)",
+        "product_type": "lithium primary batteries (Li-CFx, Li-MnO2, Li/SOCl2) and silver zinc batteries",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0068",
+            "line_start": 46,
+            "line_end": 46,
+            "url": "https://www.eaglepicher.com/products/primary-batteries-non-rechargeable",
+            "page_class": "product",
+            "snippet": "Primary Batteries (Non-Rechargeable)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Carefree\u00ae Rechargeable Batteries",
+        "product_type": "valve-regulated lead acid, Ni-Cd, Ni-MH, Lithium-ion secondary batteries",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0070",
+            "line_start": 71,
+            "line_end": 71,
+            "url": "https://www.eaglepicher.com/products/secondary-batteries-rechargeable",
+            "page_class": "product",
+            "snippet": "[Carefree Rechargeable Batteries product brochure](https://www.eaglepicher.com/sites/default/files/Carefree%20brochure%201020.pdf)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Energetic Devices",
+        "product_type": "explosive detonators, boosters, pyroactuators, gas generators",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0067",
+            "line_start": 50,
+            "line_end": 50,
+            "url": "https://www.eaglepicher.com/products/energetics",
+            "page_class": "product",
+            "snippet": "Our various energetic devices have emerged from EaglePicher Technology\u2019s long-standing specialty battery business, and our energetic devices have supported most major [defense](/markets/defense/) programs since 1965. When you demand the highest quality and most reliable energetic devices, EaglePicher is the only name you need to know."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Custom Battery Packaging",
+        "product_type": "custom-designed battery packs with BMS for defense, space, UAV applications",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0065",
+            "line_start": 50,
+            "line_end": 50,
+            "url": "https://www.eaglepicher.com/products/custom-packaging",
+            "page_class": "product",
+            "snippet": "EaglePicher can create custom cells and batteries fully designed, qualified and produced to meet customers' defined specifications."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Battery Management Systems (BMS)",
+        "product_type": "custom battery management system electronics",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0065",
+            "line_start": 62,
+            "line_end": 62,
+            "url": "https://www.eaglepicher.com/products/custom-packaging",
+            "page_class": "product",
+            "snippet": "*   Battery management system options"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA Section 848/889 compliance claims found in the corpus. Site emphasizes US ownership but does not make an explicit NDAA claim."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS or Blue sUAS references found anywhere in the corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 74,
+        "line_end": 74,
+        "url": "https://www.eaglepicher.com",
+        "page_class": "homepage",
+        "snippet": "EaglePicher Technologies has been an industry leading American battery\u00a0manufacturer in integrated power solutions for nearly a century. Demands on technology call for batteries and devices that are both smaller and lighter, yet deliver more energy and increase safety. In response to these demands, we bring you the newest technology innovations, custom battery development, and support from concept through production."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0072",
+        "line_start": 73,
+        "line_end": 73,
+        "url": "https://www.eaglepicher.com/products/thermal-batteries",
+        "page_class": "product",
+        "snippet": "For over 70 years, EaglePicher has produced high-quality, reliable and cost-effective thermal battery systems, producing millions of batteries for a variety of [defense markets](/markets/defense/), qualifying and manufacturing more than 750 unique thermal battery designs. EaglePicher is currently the leading thermal battery manufacturer for the Department of Defense's [missile applications](/markets/defense/missile-batteries/)."
+      }
+    ],
+    "notes": "Manufactures millions of batteries for DoD programs; has automated production facilities; lists numerous catalog SKUs with data sheets; AS9100D certified for production."
+  },
+  "unresolved_questions": [
+    "NDAA Section 848/889 compliance not addressed on public website",
+    "Blue UAS cleared list status not mentioned"
+  ],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Manufactures thermal batteries, primary cells, rechargeable lithium-ion packs, and energetic devices for defense and aerospace. Claims to supply over 90% of U.S. military munitions and 600+ satellites in orbit. NDAA and Blue UAS certification status unknown; public evidence of specific unmanned-systems contracts is thin.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 24,
+    "total_cost_usd": 0.5661936,
+    "created_at": "2026-05-04T01:58:18+00:00",
+    "extract_version": "0.1.0"
+  }
+}

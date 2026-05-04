@@ -1,0 +1,342 @@
+{
+  "target_id": "kongsberg-geospatial",
+  "run_id": "canonical",
+  "display_name": "Kongsberg Geospatial",
+  "homepage_url": "https://www.kongsberggeospatial.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/kongsberg-geospatial/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "ground_segment",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 25,
+            "line_end": 26,
+            "url": "https://www.kongsberggeospatial.com",
+            "page_class": "homepage",
+            "snippet": "IRIS GCS\nBVLOS Ground Control Station"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0015",
+            "line_start": 114,
+            "line_end": 114,
+            "url": "https://www.kongsberggeospatial.com/industries/unmanned-systems",
+            "page_class": "capability",
+            "snippet": "Our airspace visualization and BVLOS technology has been deployed in ground control stations for UAS worldwide, and is also widely used for counter-UAS and as an integration into UTM systems."
+          }
+        ],
+        "notes": "IRIS GCS (BVLOS Ground Control Station), IRIS Terminal (Enterprise Airspace Visualization), MDCS (Multi-Domain Control Station), THEIA (Airport Surface Awareness) are all ground-segment software products."
+      },
+      {
+        "category": "isr_payloads",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0015",
+            "line_start": 113,
+            "line_end": 113,
+            "url": "https://www.kongsberggeospatial.com/industries/unmanned-systems",
+            "page_class": "capability",
+            "snippet": "Kongsberg Geospatial continues to provide systems and solutions for defense applications. These include [MDCS](https://www.kongsberggeospatial.com/products/mdcs) a multi-domain C2application developed based on the IRIS GCS architecture to allow operators to manage multiple unmanned systems for multi-domain missions; and [MIDAS\u2122](https://www.kongsberggeospatial.com/products/midas) - a near real-time system for processing, exploiting, and disseminating (PED) sensor data for Unmanned Systems."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 40,
+            "line_end": 42,
+            "url": "https://www.kongsberggeospatial.com",
+            "page_class": "homepage",
+            "snippet": "![](https://cdn.prod.website-files.com/629a43aecefd2ef05ec8ae82/64c707071257dfdf4b4810d7_MIDAS_Logo.png)\nMIDAS\nUAS Sensor Data Exploitation"
+          }
+        ],
+        "notes": "MIDAS is a near real-time Processing, Exploitation and Dissemination (PED) system for UAS sensor data."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Ottawa",
+      "state_or_province": "Ontario",
+      "country": "Canada",
+      "address": "411 Legget Drive, Suite 400, Ottawa, ON K2K 3C9"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0018",
+        "line_start": 118,
+        "line_end": 121,
+        "url": "https://www.kongsberggeospatial.com/company/contact",
+        "page_class": "contact",
+        "snippet": "#### Canada (Head Office)\nKongsberg Geospatial Ltd.\n411 Legget Drive, Suite 400 Ottawa,\nON K2K 3C9 Canada"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "software_platform",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0016",
+        "line_start": 112,
+        "line_end": 112,
+        "url": "https://www.kongsberggeospatial.com/company/about",
+        "page_class": "company",
+        "snippet": "At Kongsberg Geospatial, we build precision software for mapping, geospatial visualization, and situational awareness. We focus on creating high-performance, real-time components for mission-critical applications. Our [TerraLens\u00ae](/products/terralens) platform is the world's most trusted geospatial software for critical infrastructure projects and technology."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0016",
+        "line_start": 156,
+        "line_end": 156,
+        "url": "https://www.kongsberggeospatial.com/company/about",
+        "page_class": "company",
+        "snippet": "Kongsberg Geospatial develops software and SDKs for real-time geospatial applications. Our tools are used primarily by defense systems integrators to display live sensor data on control system displays."
+      }
+    ],
+    "notes": "Designs and licenses geospatial software SDKs (TerraLens) and UAS ground control software (IRIS GCS, MIDAS, MDCS) to drone operators and defense OEMs. No hardware manufacturing."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "TerraLens",
+        "product_type": "Real-time geospatial SDK",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 12,
+            "line_end": 13,
+            "url": "https://www.kongsberggeospatial.com",
+            "page_class": "homepage",
+            "snippet": "TerraLens\nReal-Time Geospatial SDK"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TerraLens Server",
+        "product_type": "Multiformat map tile server",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 16,
+            "line_end": 17,
+            "url": "https://www.kongsberggeospatial.com",
+            "page_class": "homepage",
+            "snippet": "TerraLens Server\nMultiformat Map Tile Server"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TerraLens Creator",
+        "product_type": "Map deployment toolkit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 20,
+            "line_end": 21,
+            "url": "https://www.kongsberggeospatial.com",
+            "page_class": "homepage",
+            "snippet": "TerraLens Creator\nMap Deployment Toolkit"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TerraLens 3D Web",
+        "product_type": "3D JavaScript geospatial library",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 36,
+            "line_end": 37,
+            "url": "https://www.kongsberggeospatial.com",
+            "page_class": "homepage",
+            "snippet": "TerraLens 3D Web\n3D Javascript Library"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "IRIS GCS",
+        "product_type": "BVLOS ground control station software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 25,
+            "line_end": 26,
+            "url": "https://www.kongsberggeospatial.com",
+            "page_class": "homepage",
+            "snippet": "IRIS GCS\nBVLOS Ground Control Station"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "IRIS Terminal",
+        "product_type": "Enterprise airspace visualization platform",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 29,
+            "line_end": 30,
+            "url": "https://www.kongsberggeospatial.com",
+            "page_class": "homepage",
+            "snippet": "IRIS Terminal\nEnterprise Airspace Visualization"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "IRIS AM",
+        "product_type": "Airspace management / counter-UAS / UTM software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 208,
+            "line_end": 210,
+            "url": "https://www.kongsberggeospatial.com",
+            "page_class": "homepage",
+            "snippet": "UTM and Counter-UAS\n----------------------\n##### See how our IRIS AM (Airspace Management) solution is enabling Counter-UAS operations, Airspace Monitoring, and Unmanned Traffic Management in North America and Europe."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MIDAS",
+        "product_type": "UAS sensor data exploitation (PED) software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 40,
+            "line_end": 42,
+            "url": "https://www.kongsberggeospatial.com",
+            "page_class": "homepage",
+            "snippet": "![](https://cdn.prod.website-files.com/629a43aecefd2ef05ec8ae82/64c707071257dfdf4b4810d7_MIDAS_Logo.png)\nMIDAS\nUAS Sensor Data Exploitation"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "THEIA",
+        "product_type": "Airport surface awareness software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 45,
+            "line_end": 46,
+            "url": "https://www.kongsberggeospatial.com",
+            "page_class": "homepage",
+            "snippet": "THEIA\nAirport Surface Awareness"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MDCS",
+        "product_type": "Multi-domain control station software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 50,
+            "line_end": 51,
+            "url": "https://www.kongsberggeospatial.com",
+            "page_class": "homepage",
+            "snippet": "MDCS\nMulti-Domain Control Station"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA or Section 848/889 compliance language found anywhere in the corpus."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS / Blue sUAS cleared list reference found in the corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0015",
+        "line_start": 126,
+        "line_end": 126,
+        "url": "https://www.kongsberggeospatial.com/industries/unmanned-systems",
+        "page_class": "capability",
+        "snippet": "IRIS UxS\u2122 has been deployed for multiple applications of fleet operations including drone delivery services, where a single operator is responsible for piloting multiple semi-autonomous drones."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0016",
+        "line_start": 172,
+        "line_end": 172,
+        "url": "https://www.kongsberggeospatial.com/company/about",
+        "page_class": "company",
+        "snippet": "Kongsberg Geospatial serves two primary markets: defense and unmanned systems. Our technology is used in a wide range of C2 / C4 applications and in ground control stations and tracking systems for drones."
+      }
+    ],
+    "notes": "Products deployed at scale with major defense integrators. TerraLens in 9th generation with 30+ years of production history."
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 18,
+    "total_cost_usd": 0.6125578000000002,
+    "created_at": "2026-05-03T15:13:29+00:00",
+    "extract_version": "0.1.0"
+  },
+  "tagline": "Canadian software house producing geospatial C2, ground control station, and ISR data exploitation platforms for defense and unmanned systems. Core products: TerraLens (real-time 2D/3D mapping SDK), IRIS GCS/Terminal (BVLOS fleet management and airspace visualization), MIDAS (sensor data analysis/dissemination), and MDCS (multi-domain control station). In production across multiple SKUs. NDAA and Blue UAS certification status unknown; public evidence of US defense adoption thin."
+}

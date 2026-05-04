@@ -1,0 +1,361 @@
+{
+  "target_id": "click-bond",
+  "run_id": "canonical",
+  "display_name": "Click Bond",
+  "homepage_url": "https://www.clickbond.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/click-bond/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "structures_and_materials",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://www.clickbond.com",
+            "page_class": "homepage",
+            "snippet": "Click Bond, Inc. - Adhesive-Bonded Fasteners For Aerospace, Defense, Marine, Automotive, Rail, Energy, & Industrial Sectors"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0327",
+            "line_start": 67,
+            "line_end": 67,
+            "url": "https://www.clickbond.com/markets/air/interiors",
+            "page_class": "capability",
+            "snippet": "[**FUTURE OF FLIGHT**](https://www.clickbond.com/advanced-air-mobility)"
+          }
+        ],
+        "notes": "Adhesive-bonded fasteners (nutplates, studs, standoffs, sleeves, bushings, patches, screws) are structural parts that go into aerospace and UAS airframes \u2014 the vendor's core business."
+      },
+      {
+        "category": "mechanical_subsystems",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 25,
+            "line_end": 26,
+            "url": "https://www.clickbond.com",
+            "page_class": "homepage",
+            "snippet": "        ![Mounts](/Uploads/ProductCategoryImages/636326015799345097.jpg?w=74&h=50&mode=crop \"Mounts\")\n        Mounts](/products/mounts/)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 95,
+            "line_end": 101,
+            "url": "https://www.clickbond.com",
+            "page_class": "homepage",
+            "snippet": "*    [![Mounts](/Uploads/ProductCategoryImages/636325987682384286.jpg?w=174&h=111&mode=crop \"Mounts\") Mounts](/markets/air/mounts/)\n[View All](/markets/air/)\n### Common Applications\n*    [![Cables & Wiring](/Uploads/ApplicationImages/636310461378603373.jpg?w=174&h=111&mode=crop \"Cables & Wiring\") Cables & Wiring](/markets/air/cables-wiring)\n*    [![Fuel & Fluid Tanks](/Uploads/ApplicationImages/636310514269053871.jpg?w=174&h=111&mode=crop \"Fuel & Fluid Tanks\") Fuel & Fluid Tanks](/markets/air/fuel-fluid-tanks)\n*    [![Interiors](/Uploads/ApplicationImages/636310596521248845.jpg?w=174&h=111&mode=crop \"Interiors\") Interiors](/markets/air/interiors)\n*    [![Pressurized Vessels](/Uploads/ApplicationImages/636310578361054450.jpg?w=174&h=111&mode=crop \"Pressurized Vessels\") Pressurized Vessels](/markets/air/pressurized-vessels)"
+          }
+        ],
+        "notes": "Cable-tie mounts, PINCHMOUNT\u00ae bonded brackets, and line clamp supports are cable management / mechanical attachment hardware."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Vendor explicitly lists 'Unmanned' as an Air market segment alongside commercial, military, and general aviation."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Carson City",
+      "state_or_province": "Nevada",
+      "country": "United States",
+      "address": "2151 Lockheed Way"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0324",
+        "line_start": 119,
+        "line_end": 121,
+        "url": "https://www.clickbond.com/privacy-policy",
+        "page_class": "company",
+        "snippet": "Click Bond, Inc.\n2151 Lockheed Way\nCarson City, Nevada, 89706-0713"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 84,
+        "line_end": 84,
+        "url": "https://www.clickbond.com",
+        "page_class": "homepage",
+        "snippet": "*   Unmanned"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 1,
+        "line_end": 1,
+        "url": "https://www.clickbond.com",
+        "page_class": "homepage",
+        "snippet": "Click Bond, Inc. - Adhesive-Bonded Fasteners For Aerospace, Defense, Marine, Automotive, Rail, Energy, & Industrial Sectors"
+      }
+    ],
+    "notes": "Click Bond sells adhesive-bonded fasteners (nutplates, studs, mounts, sleeves, etc.) used in UAS and aerospace airframe assembly. 'Unmanned' is one of their listed Air market segments."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Rivetless Nutplates",
+        "product_type": "adhesive-bonded aerospace nutplates",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 20,
+            "line_end": 20,
+            "url": "https://www.clickbond.com",
+            "page_class": "homepage",
+            "snippet": "        Rivetless Nutplates](/products/nutplates/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Studs & Standoffs",
+        "product_type": "adhesive-bonded composite base studs and standoffs",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 22,
+            "line_end": 23,
+            "url": "https://www.clickbond.com",
+            "page_class": "homepage",
+            "snippet": "        ![Studs & Standoffs](/Uploads/ProductCategoryImages/636326010323250570.jpg?w=74&h=50&mode=crop \"Studs & Standoffs\")\n        Studs & Standoffs](/products/studs-standoffs/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Mounts",
+        "product_type": "cable-tie mounts, PINCHMOUNT\u00ae bonded brackets, insulation blanket mounts",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 25,
+            "line_end": 26,
+            "url": "https://www.clickbond.com",
+            "page_class": "homepage",
+            "snippet": "        ![Mounts](/Uploads/ProductCategoryImages/636326015799345097.jpg?w=74&h=50&mode=crop \"Mounts\")\n        Mounts](/products/mounts/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ACRES\u00ae Sleeves",
+        "product_type": "adhesive-bonded hole protection sleeves (PANDOR\u00ae and BOLTMOD\u00ae families)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 28,
+            "line_end": 29,
+            "url": "https://www.clickbond.com",
+            "page_class": "homepage",
+            "snippet": "        ![ACRES\u00ae Sleeves](/Uploads/ProductCategoryImages/636326019477327617.jpg?w=74&h=50&mode=crop \"ACRES\u00ae Sleeves\")\n        ACRES\u00ae Sleeves](/products/acres-sleeves/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Bushings",
+        "product_type": "threaded and through-hole bushings",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 31,
+            "line_end": 32,
+            "url": "https://www.clickbond.com",
+            "page_class": "homepage",
+            "snippet": "        ![Bushings](/Uploads/ProductCategoryImages/636326121556942833.jpg?w=74&h=50&mode=crop \"Bushings\")\n        Bushings](/products/bushings/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Click Patch\u00ae",
+        "product_type": "flat and domed repair patches",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 34,
+            "line_end": 35,
+            "url": "https://www.clickbond.com",
+            "page_class": "homepage",
+            "snippet": "        ![Click Patch \u00ae](/Uploads/ProductCategoryImages/636338339047954063.jpg?w=74&h=50&mode=crop \"Click Patch \u00ae\")\n        Click Patch \u00ae](/products/click-patch/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "LoMas\u00ae Screws",
+        "product_type": "adhesive-bonded screws",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 37,
+            "line_end": 38,
+            "url": "https://www.clickbond.com",
+            "page_class": "homepage",
+            "snippet": "        ![LoMas\u00ae Screws](/Uploads/ProductCategoryImages/636326166269124437.jpg?w=74&h=50&mode=crop \"LoMas\u00ae Screws\")\n        LoMas\u00ae Screws](/products/lomas/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Adhesives",
+        "product_type": "adhesive cartridges, kits, dispensers, and accessories",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 40,
+            "line_end": 41,
+            "url": "https://www.clickbond.com",
+            "page_class": "homepage",
+            "snippet": "        ![Adhesives](/Uploads/ProductCategoryImages/636326190639273538.jpg?w=74&h=50&mode=crop \"Adhesives\")\n        Adhesives](/products/adhesives/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Insulation Blanket Fasteners",
+        "product_type": "adhesive-bonded insulation blanket mounts and receptacles",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 43,
+            "line_end": 44,
+            "url": "https://www.clickbond.com",
+            "page_class": "homepage",
+            "snippet": "        ![Insulation Blanket Fasteners](/Uploads/ProductCategoryImages/637497583008680899.jpg?w=74&h=50&mode=crop \"Insulation Blanket Fasteners\")\n        Insulation Blanket Fasteners](/products/insulation-blanket-fasteners/)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0331",
+        "line_start": 87,
+        "line_end": 87,
+        "url": "https://www.clickbond.com/adhesive-bonded-manufacturing-capabilities",
+        "page_class": "capability",
+        "snippet": "*   **Assembly & Automation**: Robotic and semiautomated production lines, jigs, and fixtures"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0323",
+        "line_start": 79,
+        "line_end": 80,
+        "url": "https://www.clickbond.com/products/insulation-blanket-fasteners",
+        "page_class": "product",
+        "snippet": " [![CB9170 - Insulation Blanket Mount Receptacle](/Uploads/ProductImages/636281988633828152.jpg \"CB9170 - Insulation Blanket Mount Receptacle\") CB9170\nInsulation Blanket Mount Receptacle](/product-detail/insulation-blanket-fasteners/insulation-blanket-mount-receptacle)"
+      }
+    ],
+    "notes": "Manufacturing since 1987 with catalog SKUs (CB4017, CB9170, etc.), robotic and semiautomated production lines. Also offers prototyping and custom engineering as secondary modes."
+  },
+  "unresolved_questions": [
+    "NDAA Section 848/889 compliance not addressed on site",
+    "Blue UAS cleared list status unknown",
+    "Approvals & Certifications page not fetched \u2014 may contain compliance detail"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.clickbond.com/about-us/",
+      "reason": "Would confirm headquarters details, founding story, and any UAS-specific program mentions",
+      "expected_evidence": [
+        "headquarters",
+        "drone_supply_chain_role",
+        "products_categories"
+      ],
+      "source_hint": "guessed from site navigation at resource-0001 line 57",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.clickbond.com/approvals-certifications/",
+      "reason": "Would confirm NDAA compliance, AS9100, and other certifications relevant to defense/UAS supply chain",
+      "expected_evidence": [
+        "ndaa"
+      ],
+      "source_hint": "guessed from site navigation at resource-0001 line 58",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.clickbond.com/advanced-air-mobility",
+      "reason": "Advanced Air Mobility page linked from air market \u2014 would confirm UAS/AAM product focus and specific products for unmanned platforms",
+      "expected_evidence": [
+        "products_categories",
+        "drone_supply_chain_role",
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, linked from resource-0007 line 67",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Adhesive-bonded fasteners, nutplates, studs, mounts, and repair patches for aerospace structures\u2014notably rivetless designs and composite-compatible solutions. Carson City, Nevada. NDAA and Blue UAS certification status unknown; no major defense contracts named in public record.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 16,
+    "total_cost_usd": 0.36995549999999994,
+    "created_at": "2026-05-03T22:08:58+00:00",
+    "extract_version": "0.1.0"
+  }
+}

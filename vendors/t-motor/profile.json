@@ -1,0 +1,392 @@
+{
+  "target_id": "t-motor",
+  "run_id": "canonical",
+  "display_name": "T-MOTOR",
+  "homepage_url": "https://uav-en.tmotor.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/t-motor/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 17,
+            "line_end": 22,
+            "url": "https://uav-en.tmotor.com",
+            "page_class": "homepage",
+            "snippet": "        ##### [Motor](https://uav-en.tmotor.com/Multirotor/Motors/)\n        *   [U Series](https://uav-en.tmotor.com/Multirotor/Motors/u/)\n        *   [P Series](https://uav-en.tmotor.com/Multirotor/Motors/p/)\n        *   [Navigator Series NEW](https://uav-en.tmotor.com/Multirotor/Motors/navigato/)\n        *   [Antigravity Series](https://uav-en.tmotor.com/Multirotor/Motors/Antigravity/)\n        *   [QAD](https://uav-en.tmotor.com/Multirotor/Motors/QAD/)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 29,
+            "line_end": 37,
+            "url": "https://uav-en.tmotor.com",
+            "page_class": "homepage",
+            "snippet": "        ##### [Propeller](https://uav-en.tmotor.com/Multirotor/Propellers/)\n        *   [HEP-L Carbon Fiber\uff08Ultra Light\uff09 NEW](https://uav-en.tmotor.com/Multirotor/Propellers/hep-l-series-carbon-fiber-prop/)\n        *   [NS Carbon Fiber\uff08Ultra Light\uff09](https://uav-en.tmotor.com/Multirotor/Propellers/NS/)\n        *   [Glossy Carbon Fiber](https://uav-en.tmotor.com/Multirotor/Propellers/Glossy/)\n        *   [Folding Carbon Fiber](https://uav-en.tmotor.com/Multirotor/Propellers/Folding/)\n        *   [Polish Carbon Fiber](https://uav-en.tmotor.com/Multirotor/Propellers/Polish/)\n        *   [MS Series Polymer](https://uav-en.tmotor.com/Multirotor/Propellers/Straight/)\n        *   [Polymer Folding](https://uav-en.tmotor.com/Multirotor/Propellers/Polymer_Folding/)\n        *   [Polymer Variable-Pitch Propeller](https://uav-en.tmotor.com/Multirotor/Propellers/PolymerVariable_PitchPropeller/)"
+          }
+        ],
+        "notes": "Motors (U, P, Navigator, Antigravity, QAD series) and propellers (carbon fiber and polymer series) for multirotor, fixed-wing, and VTOL UAVs"
+      },
+      {
+        "category": "propulsion_electronics",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 23,
+            "line_end": 28,
+            "url": "https://uav-en.tmotor.com",
+            "page_class": "homepage",
+            "snippet": "        ##### [ESC](https://uav-en.tmotor.com/Multirotor/ESC/)\n        *   [ALPHA Series](https://uav-en.tmotor.com/Multirotor/ESC/alpha/)\n        *   [V Series (FOC)](https://uav-en.tmotor.com/Multirotor/ESC/V-Series/)\n        *   [THUNDER Series](https://uav-en.tmotor.com/Multirotor/ESC/thunder/)\n        *   [FLAME Series](https://uav-en.tmotor.com/Multirotor/ESC/flame/)\n        *   [AIR Series](https://uav-en.tmotor.com/Multirotor/ESC/air/)"
+          }
+        ],
+        "notes": "ESC lines: ALPHA, V Series (FOC), THUNDER, FLAME, AIR for multirotor; AT Series ESC for fixed wing and VTOL"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Nanchang",
+      "state_or_province": "Jiangxi",
+      "country": "China",
+      "address": "24F, Bd.B, Twintowers, No. 3399 Ziyang Ave., Nanchang, Jiangxi, P.R. China. 330096"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0052",
+        "line_start": 71,
+        "line_end": 72,
+        "url": "https://uav-en.tmotor.com/Company/ContactUs",
+        "page_class": "contact",
+        "snippet": "T-MOTOR-HQ :\nAddress : 24F, Bd.B, Twintowers, No. 3399 Ziyang Ave., Nanchang, Jiangxi, P.R. China. 330096"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0051",
+        "line_start": 69,
+        "line_end": 69,
+        "url": "https://uav-en.tmotor.com/Company/AboutUs",
+        "page_class": "company",
+        "snippet": "T-MOTOR, a world renowned company, providing propulsion system solution for UAV with advanced technology is specializing in Motors, ESCs (Electronic Speed Controller) and Propellers. Widely used for aerial photography, industrial, agricultural, and commercial applications, our products obtain high reputation for the high quality."
+      }
+    ],
+    "notes": "T-MOTOR sells motors, ESCs, and propellers \u2014 components explicitly listed in the rubric. They also offer integrated propulsion kits (Air Gear, Modular Propulsion System, VL Series) which edge toward subsystem_supplier, but the core catalog is individual drone components."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "U Series",
+        "product_type": "multirotor BLDC motor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 18,
+            "line_end": 18,
+            "url": "https://uav-en.tmotor.com",
+            "page_class": "homepage",
+            "snippet": "        *   [U Series](https://uav-en.tmotor.com/Multirotor/Motors/u/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Navigator Series",
+        "product_type": "multirotor BLDC motor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 20,
+            "line_end": 20,
+            "url": "https://uav-en.tmotor.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Navigator Series NEW](https://uav-en.tmotor.com/Multirotor/Motors/navigato/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Antigravity Series",
+        "product_type": "multirotor BLDC motor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 21,
+            "line_end": 21,
+            "url": "https://uav-en.tmotor.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Antigravity Series](https://uav-en.tmotor.com/Multirotor/Motors/Antigravity/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "P Series",
+        "product_type": "multirotor BLDC motor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 19,
+            "line_end": 19,
+            "url": "https://uav-en.tmotor.com",
+            "page_class": "homepage",
+            "snippet": "        *   [P Series](https://uav-en.tmotor.com/Multirotor/Motors/p/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AX Series",
+        "product_type": "fixed-wing BLDC motor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 39,
+            "line_end": 39,
+            "url": "https://uav-en.tmotor.com",
+            "page_class": "homepage",
+            "snippet": "    *   ###### [AX Series Motors](https://uav-en.tmotor.com/Fixed/ax-series-fixed-wing-motor/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AT Series Motors",
+        "product_type": "fixed-wing / VTOL pusher motor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 40,
+            "line_end": 40,
+            "url": "https://uav-en.tmotor.com",
+            "page_class": "homepage",
+            "snippet": "        ###### [AT Series Motors](https://uav-en.tmotor.com/Fixed/Motors/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ALPHA Series ESC",
+        "product_type": "multirotor electronic speed controller",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 24,
+            "line_end": 24,
+            "url": "https://uav-en.tmotor.com",
+            "page_class": "homepage",
+            "snippet": "        *   [ALPHA Series](https://uav-en.tmotor.com/Multirotor/ESC/alpha/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "THUNDER Series ESC",
+        "product_type": "multirotor electronic speed controller",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 26,
+            "line_end": 26,
+            "url": "https://uav-en.tmotor.com",
+            "page_class": "homepage",
+            "snippet": "        *   [THUNDER Series](https://uav-en.tmotor.com/Multirotor/ESC/thunder/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "FLAME Series ESC",
+        "product_type": "multirotor electronic speed controller",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 27,
+            "line_end": 27,
+            "url": "https://uav-en.tmotor.com",
+            "page_class": "homepage",
+            "snippet": "        *   [FLAME Series](https://uav-en.tmotor.com/Multirotor/ESC/flame/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HEP-L Carbon Fiber Propeller",
+        "product_type": "ultralight carbon fiber multirotor propeller",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 30,
+            "line_end": 30,
+            "url": "https://uav-en.tmotor.com",
+            "page_class": "homepage",
+            "snippet": "        *   [HEP-L Carbon Fiber\uff08Ultra Light\uff09 NEW](https://uav-en.tmotor.com/Multirotor/Propellers/hep-l-series-carbon-fiber-prop/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Air Gear",
+        "product_type": "integrated multirotor propulsion kit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 16,
+            "line_end": 16,
+            "url": "https://uav-en.tmotor.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Air Gear](https://uav-en.tmotor.com/Multirotor/PropulsionSystem/Air-Gear/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "A Series Modular Propulsion System",
+        "product_type": "modular UAV propulsion system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 11,
+            "line_end": 11,
+            "url": "https://uav-en.tmotor.com",
+            "page_class": "homepage",
+            "snippet": "        *   [A Series Modular Propulsion System](https://uav-en.tmotor.com/Multirotor/PropulsionSystem/a_series/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "VL Series Propulsion System",
+        "product_type": "VTOL propulsion system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 51,
+            "line_end": 51,
+            "url": "https://uav-en.tmotor.com",
+            "page_class": "homepage",
+            "snippet": "        ###### [VL Series Propulsion System](https://uav-en.tmotor.com/VTOL/VL-Series-Propulsion-System/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "VZ Series Carbon Fiber Propeller",
+        "product_type": "VTOL carbon fiber propeller",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 50,
+            "line_end": 50,
+            "url": "https://uav-en.tmotor.com",
+            "page_class": "homepage",
+            "snippet": "        ###### [VZ Series Carbon Fiber Propeller](https://uav-en.tmotor.com/VTOL/VZ-Propeller/)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Many more SKUs exist across multirotor, fixed-wing, VTOL, and FPV categories; core families enumerated here."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "T-MOTOR is a Chinese company (Nanchang, Jiangxi, China). No NDAA Sec 848/889 compliance claim appears anywhere in the corpus."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS / Blue sUAS claim found. Chinese-headquartered vendor is ineligible for the DIU Blue UAS Cleared List."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0051",
+        "line_start": 75,
+        "line_end": 75,
+        "url": "https://uav-en.tmotor.com/Company/AboutUs",
+        "page_class": "company",
+        "snippet": "Production Department: We make perfect products with best raw materials and advanced production technology and equipment."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 98,
+        "line_end": 98,
+        "url": "https://uav-en.tmotor.com",
+        "page_class": "homepage",
+        "snippet": "T-MOTOR has an experienced, unique, self-confidence, professional and innovative team. With years of practical experience, T-MOTOR is committed to becoming the safest power system supplier, providing customers with both regular and high-end customized products."
+      }
+    ],
+    "notes": "Serial production with global online store (store.tmotor.com), 300+ distributors worldwide, listed catalog SKUs across multirotor, fixed-wing, VTOL, and FPV product lines."
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Chinese supplier of modular propulsion systems, motors (U/P/Navigator/Antigravity series), electronic speed controllers (ALPHA/V/THUNDER series), and carbon-fiber propellers for multirotor, fixed-wing, and VTOL industrial UAVs. Production-ready across multiple platforms. NDAA and Blue UAS certification status unknown; public evidence of U.S. defense-sector adoption or clearance is thin.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 12,
+    "total_cost_usd": 0.3042095,
+    "created_at": "2026-05-04T06:41:32+00:00",
+    "extract_version": "0.1.0"
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "target_id": "mejzlik-propellers",
+  "run_id": "canonical",
+  "display_name": "Mejzlik Propellers",
+  "homepage_url": "https://www.mejzlik.eu",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/mejzlik-propellers/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 31,
+            "line_end": 31,
+            "url": "https://www.mejzlik.eu",
+            "page_class": "homepage",
+            "snippet": "### Manufacturing perfectly fitting propellers for your UAV platform."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0022",
+            "line_start": 20,
+            "line_end": 20,
+            "url": "https://www.mejzlik.eu/compliance-and-legal",
+            "page_class": "company",
+            "snippet": "High-performance carbon fiber propellers engineered with precision and ISO-certified quality for UAVs, industrial and special applications."
+          }
+        ],
+        "notes": "Carbon fiber propellers for UAV/multicopter/VTOL platforms \u2014 gas, electric, fixed and folding variants"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Brno",
+      "state_or_province": null,
+      "country": "Czech Republic",
+      "address": null
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 90,
+        "line_end": 91,
+        "url": "https://www.mejzlik.eu",
+        "page_class": "homepage",
+        "snippet": "Meet Mejzlik propellers, a company with over 30 years experience in the business. Every process\u2014from simulation and production, to testing\u2014takes place under one roof in Brno, Czech Republic.\nWant to see for yourself? Come over, we will be more than happy to show you around."
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 31,
+        "line_end": 33,
+        "url": "https://www.mejzlik.eu",
+        "page_class": "homepage",
+        "snippet": "### Manufacturing perfectly fitting propellers for your UAV platform.\nFrom a prototype to mass production.\nShow me around!"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0043",
+        "line_start": 20,
+        "line_end": 20,
+        "url": "https://www.mejzlik.eu/sales-contact",
+        "page_class": "contact",
+        "snippet": "Mejzlik propellers are trusted by professionals around the world for their precision, strength, and lightweight design. We offer a wide range of fixed and folding propellers for electric and gas-powered systems, along with custom modifications and accessories."
+      }
+    ],
+    "notes": "Manufactures and sells propellers (mechanical components) to UAV OEMs and motor/engine makers; does not build complete platforms"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Forward Flight Gas Propellers",
+        "product_type": "carbon fiber propellers for gas engines (2-blade and 3-blade, CCW/CW)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0043",
+            "line_start": 45,
+            "line_end": 45,
+            "url": "https://www.mejzlik.eu/sales-contact",
+            "page_class": "contact",
+            "snippet": "#### Forward Flight Gas Propellers"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Forward Flight Electric Propellers",
+        "product_type": "carbon fiber propellers for electric motors (2-blade and 3-blade)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0043",
+            "line_start": 264,
+            "line_end": 265,
+            "url": "https://www.mejzlik.eu/sales-contact",
+            "page_class": "contact",
+            "snippet": "#### Forward Flight Electric Propellers\n2-bladed Electric Engine Propellers"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Multicopter/VTOL Propellers",
+        "product_type": "carbon fiber propellers for multicopter and VTOL platforms (2B, 3B, prepreg, D-Box variants)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0043",
+            "line_start": 315,
+            "line_end": 315,
+            "url": "https://www.mejzlik.eu/sales-contact",
+            "page_class": "contact",
+            "snippet": "#### Multicopter/VTOL Propellers"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Folding Multicopter Propellers",
+        "product_type": "folding carbon fiber propellers for multicopter platforms (puller and pusher)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0043",
+            "line_start": 504,
+            "line_end": 504,
+            "url": "https://www.mejzlik.eu/sales-contact",
+            "page_class": "contact",
+            "snippet": "Folding Multicopter Propellers"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Products are organized as propeller families by application/configuration; hundreds of OTS SKUs within each family"
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "Czech-based manufacturer; no NDAA Section 848/889 claim anywhere in the corpus"
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS / Blue sUAS claim anywhere in the corpus"
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 52,
+        "line_end": 52,
+        "url": "https://www.mejzlik.eu",
+        "page_class": "homepage",
+        "snippet": "**Propeller production on scale**"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0016",
+        "line_start": 25,
+        "line_end": 25,
+        "url": "https://www.mejzlik.eu/blog/new-production-line-dedicated-to-creating-high-quality-propellers-for-multicopte",
+        "page_class": "compliance",
+        "snippet": "**High Repeatability and Scalability of Production:** One of the biggest advantages of the technology is the high repeatability of production. Moreover, its scalable design allows us to meet the demands of high-volume production, ensuring efficiency without sacrificing precision."
+      }
+    ],
+    "notes": "Extensive OTS catalog with hundreds of listed SKUs, dedicated prepreg production line, explicit 'high-volume production' and scalability claims"
+  },
+  "unresolved_questions": [
+    "PitchRush page was skipped \u2014 unknown whether it represents a distinct named product line",
+    "Street address for Brno HQ not published on site"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.mejzlik.eu/pitchrush",
+      "reason": "May be a named product (propulsion control system or propeller line) that would expand or refine the products list",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.mejzlik.eu/about-us",
+      "reason": "May contain street address or additional headquarters detail beyond city",
+      "expected_evidence": [
+        "headquarters"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.mejzlik.eu/blog/the-uav-industry-is-changing-fast-why-a-secure-and-sanction-free-supply-chain-ma",
+      "reason": "Title references 'secure and sanction-free supply chain' which may address NDAA-adjacent compliance claims",
+      "expected_evidence": [
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=news",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 12,
+    "total_cost_usd": 0.43085379999999995,
+    "created_at": "2026-05-03T00:31:18+00:00",
+    "extract_version": "0.1.0"
+  },
+  "tagline": "Czech Republic-based carbon fiber propeller manufacturer producing fixed-pitch and folding variants for gas engines, electric motors, and multicopter/VTOL platforms in 14\"\u201380\" diameter range. ISO 9001 certified with in-house design, prototyping, and production capability. NDAA compliance and Blue UAS certification status unknown; public evidence on US defense contracts or allied program adoption is limited."
+}

@@ -1,0 +1,802 @@
+{
+  "target_id": "embention",
+  "run_id": "canonical",
+  "display_name": "Embention",
+  "homepage_url": "https://www.embention.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/embention/website",
+  "products": [
+    {
+      "name": "Veronte Autopilot 1x",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "Miniaturized fail-safe autopilot with sensor redundancy for drones and eVTOLs",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0169",
+          "line_start": 60,
+          "line_end": 65,
+          "url": "https://www.embention.com/veronte-ecosystem/autopilots/1x-sensor-redundancy",
+          "page_class": "other",
+          "snippet": "Autopilot 1x\n============\nSAIL I-IV | Fail-Safe\n---------------------\nMiniaturized flight control system for drones, eVTOLs, and autonomous vehicles. Developed in accordance with avionics certification standards DO-178C (ED-12), DO-254 (ED-80), and DO-160. It integrates sensors, 4G BLOS communications, and Remote ID / ADS-B\n[Manual](https://manuals.embention.com/1x/en/latest/index.html) [Datasheet](https://www.embention.com/wp-content/uploads/2025/06/Veronte-Autopilot-1x-4.12-ENG-Datasheet.pdf) [3D Model](#model3d) [Service Bulletin](https://www.embention.com/service-publications/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0169",
+          "line_start": 294,
+          "line_end": 303,
+          "url": "https://www.embention.com/veronte-ecosystem/autopilots/1x-sensor-redundancy",
+          "page_class": "other",
+          "snippet": "Veronte Autopilot 1x Integration KIT Developer KIT\nUnit Price (Prototyping)\nSerial Production (+1.000 units)\n1x - Remote ID 4.12\n6.450 \u20ac\n3.870 \u20ac\n1x - ADS-B 4.12\n8.100 \u20ac\n4.860 \u20ac\n\\* Pricing shown is valid for orders fulfilled by Embention Spain. For mid-range volume discounts or inquiries regarding Asia and the USA, please contact our sales team."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Veronte Autopilot 4x",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "Fail-operational redundant autopilot for certified eVTOL and large UAVs",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0122",
+          "line_start": 60,
+          "line_end": 64,
+          "url": "https://www.embention.com/veronte-ecosystem/autopilots/4x-system-redundancy",
+          "page_class": "other",
+          "snippet": "Autopilot 4x\n============\nSAIL I-VI & TC | Fail-Operational\n---------------------------------\nRedundant control system for drones and eVTOL requiring certification or safety-critical operations. Developed under DO-178C, DO-254 and DO-160G standards, with a fail-operational architecture and no single point of failure."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Autopilot KAI",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "High-integrity AI autopilot with embedded neural engine and 4G BLOS for tactical and industrial missions",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "yes",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0627",
+          "line_start": 60,
+          "line_end": 65,
+          "url": "https://www.embention.com/veronte-ecosystem/autopilots/kai-kinetic-ai",
+          "page_class": "capability",
+          "snippet": "Autopilot KAI\n=============\nHigh-Integrity | Kinetic with AI\n--------------------------------\n**High-performance flight control system with embedded AI for tactical, industrial operations.** Developed to ensure maximum robustness in complex environments, it integrates neural processing, 4G BLOS communications, and safety-critical computing.\n[Datasheet](https://www.embention.com/wp-content/uploads/2026/04/Veronte-Autopilot-KAI-2.0-ENG-Datasheet.pdf) [Service Bulletin](https://www.embention.com/service-publications/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0627",
+          "line_start": 196,
+          "line_end": 202,
+          "url": "https://www.embention.com/veronte-ecosystem/autopilots/kai-kinetic-ai",
+          "page_class": "capability",
+          "snippet": "Veronte Autopilot KAI\nUnit Price (Prototyping)\nSerial Production (+10.000 units/year)\nKAI 2.0\n$5,239.25\n$1,571.78\n\\* Pricing shown is valid for orders fulfilled by Embention UAE. For mid-range volume discounts or inquiries regarding Spain and the USA, please contact our sales team."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0609",
+          "line_start": 335,
+          "line_end": 335,
+          "url": "https://www.embention.com/veronte-defense-capabilities",
+          "page_class": "capability",
+          "snippet": "Absolutely. At Embention, we are committed to providing the highest levels of security and reliability for the UAV and eVTOL industry. The Veronte ecosystem is fully developed in compliance with NDAA Section 889 and Section 848."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Veronte Autopilot DRx",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "Distributed redundant autopilot for fly-by-wire eVTOL and UAM certification",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0609",
+          "line_start": 60,
+          "line_end": 65,
+          "url": "https://www.embention.com/veronte-ecosystem/autopilots/drx-distributed-redundancy",
+          "page_class": "other",
+          "snippet": "Autopilot DRx\n=============\nSAIL I-VI & TC | Distributed Redundant\n--------------------------------------\nDesigned to meet eVTOL certification requirements (DO178C / ED-12, DO254 / ED 80, and DO160) this Distributed Redundant Autopilot is the only flight controller for fly-by-wire and autonomous control \u201cReady To Fly\u201d any eVTOL aircraft for UAM\n[Manual](https://manuals.embention.com/1x/en/latest/index.html) [Datasheet](https://www.embention.com/wp-content/uploads/2025/06/Veronte-Autopilot-DRX-ENG-Datasheet_LR_Web.pdf) [3D Model](#model3d) [Service Bulletin](https://www.embention.com/service-publications/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0609",
+          "line_start": 210,
+          "line_end": 218,
+          "url": "https://www.embention.com/veronte-ecosystem/autopilots/drx-distributed-redundancy",
+          "page_class": "other",
+          "snippet": "Veronte Autopilot Drx\nUnit Price (Prototyping)\nSerial Production (+1.000 units)\nDRx - ADS-B v4.12\n30.900 \u20ac\n18.540 \u20ac\nDRx - Remote ID v4.12\n28.900 \u20ac\n17.340 \u20ac"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "KAI for Loitering Munition",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "KAI autopilot variant configured as flight control system for loitering munitions with vision-based terminal guidance",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "yes",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0609",
+          "line_start": 138,
+          "line_end": 141,
+          "url": "https://www.embention.com/veronte-defense-capabilities",
+          "page_class": "capability",
+          "snippet": "FCS for Loitering Munitions.\n### [Autopilot LM](https://www.embention.com/veronte-ecosystem/autopilots/loitering-munition/)\nCutting-edge autopilot system tailored for Loitering Munitions. This cost-effective solution combines flight control with advanced computer vision technology, enabling precise navigation and target tracking even in GNSS-denied operations.\n[![](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==)](https://www.embention.com/veronte-ecosystem/autopilots/loitering-munition/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0627",
+          "line_start": 12,
+          "line_end": 12,
+          "url": "https://www.embention.com/veronte-ecosystem/autopilots/kai-kinetic-ai",
+          "page_class": "capability",
+          "snippet": "            *   [KAI for Loitering munitionLoitering munition FCS](https://www.embention.com/veronte-ecosystem/autopilots/loitering-munition/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0609",
+          "line_start": 335,
+          "line_end": 335,
+          "url": "https://www.embention.com/veronte-defense-capabilities",
+          "page_class": "capability",
+          "snippet": "Absolutely. At Embention, we are committed to providing the highest levels of security and reliability for the UAV and eVTOL industry. The Veronte ecosystem is fully developed in compliance with NDAA Section 889 and Section 848."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "KAI for C-UAS",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "KAI autopilot variant for high-speed counter-UAS intercept with AI-driven signature tracking and high-G logic",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "yes",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0627",
+          "line_start": 13,
+          "line_end": 13,
+          "url": "https://www.embention.com/veronte-ecosystem/autopilots/kai-kinetic-ai",
+          "page_class": "capability",
+          "snippet": "            *   [KAI for C-UASHigh-Speed Neutralization](https://www.embention.com/veronte-ecosystem/autopilots/kai-for-c-uas/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0627",
+          "line_start": 96,
+          "line_end": 98,
+          "url": "https://www.embention.com/veronte-ecosystem/autopilots/kai-kinetic-ai",
+          "page_class": "capability",
+          "snippet": "*   #### Counter UAS\n    Tactical engagement is optimized through lead-pursuit calculation, including radar-slaved guidance and high-G intercept logic, ensuring the identification of agile threats. Final maneuvers include AI-driven signature tracking to ensure precise collision and eliminate potential escape during high-speed engagement.\n*   #### Industrial"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0609",
+          "line_start": 335,
+          "line_end": 335,
+          "url": "https://www.embention.com/veronte-defense-capabilities",
+          "page_class": "capability",
+          "snippet": "Absolutely. At Embention, we are committed to providing the highest levels of security and reliability for the UAV and eVTOL industry. The Veronte ecosystem is fully developed in compliance with NDAA Section 889 and Section 848."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Veronte VBN (Vision-Based Navigation)",
+      "category": "sensors_and_navigation",
+      "descriptor": "328 g optical navigation module for high-accuracy GNSS-denied positioning, IP67-rated",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "yes",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0609",
+          "line_start": 188,
+          "line_end": 193,
+          "url": "https://www.embention.com/veronte-defense-capabilities",
+          "page_class": "capability",
+          "snippet": "Veronte Autopilot VBN\n---------------------\n![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABa8AAALoAQMAAABFyZuJAAAABlBMVEUAAAD///+l2Z/dAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAJtJREFUeNrtwQENAAAAwqD3T20ON6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIBXAxP2AAHi6IHGAAAAAElFTkSuQmCC)\nThe Veronte VBN module provides a dedicated solution for high accuracy optical navigation in GNSS-denied environments, ensuring precise positioning in mapped or non-premapped areas.\nVisual Navigation GNSS Denied Navigation UAM Certification Weight: 328 g EGNSS not required IP67\nVisual Navigation GNSS Denied Navigation UAM Certification EGNSS not required Weight: 328 g IP67"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0609",
+          "line_start": 335,
+          "line_end": 335,
+          "url": "https://www.embention.com/veronte-defense-capabilities",
+          "page_class": "capability",
+          "snippet": "Absolutely. At Embention, we are committed to providing the highest levels of security and reliability for the UAV and eVTOL industry. The Veronte ecosystem is fully developed in compliance with NDAA Section 889 and Section 848."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "SDL LOS Datalink",
+      "category": "communications",
+      "descriptor": "Line-of-sight datalink for Veronte ecosystem drone and autonomous vehicle operations",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "yes",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0627",
+          "line_start": 25,
+          "line_end": 25,
+          "url": "https://www.embention.com/veronte-ecosystem/autopilots/kai-kinetic-ai",
+          "page_class": "capability",
+          "snippet": "        *   [SDLLOS Datalink](https://www.embention.com/veronte-ecosystem/avionics/sdl-los-datalink/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0609",
+          "line_start": 335,
+          "line_end": 335,
+          "url": "https://www.embention.com/veronte-defense-capabilities",
+          "page_class": "capability",
+          "snippet": "Absolutely. At Embention, we are committed to providing the highest levels of security and reliability for the UAV and eVTOL industry. The Veronte ecosystem is fully developed in compliance with NDAA Section 889 and Section 848."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "MC110",
+      "category": "propulsion_electronics",
+      "descriptor": "110 kW / 800 V high-reliability motor controller (ESC) for eVTOL and manned aircraft",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "yes",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0627",
+          "line_start": 29,
+          "line_end": 29,
+          "url": "https://www.embention.com/veronte-ecosystem/autopilots/kai-kinetic-ai",
+          "page_class": "capability",
+          "snippet": "        *   [MC110110 kW](https://www.embention.com/veronte-ecosystem/motor-controllers/mc110-800v-evtol-esc/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0609",
+          "line_start": 303,
+          "line_end": 305,
+          "url": "https://www.embention.com/veronte-defense-capabilities",
+          "page_class": "capability",
+          "snippet": "### Motor Controllers\nHigh reliability motor controllers (ESC) for eVTOL and manned aircraft. Outstanding performance up to 800V and 110kW for critical applications and vehicles aiming for airworthiness certification with aviation authorities.\n[![](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==)](https://www.embention.com/veronte/motor-controllers/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0609",
+          "line_start": 335,
+          "line_end": 335,
+          "url": "https://www.embention.com/veronte-defense-capabilities",
+          "page_class": "capability",
+          "snippet": "Absolutely. At Embention, we are committed to providing the highest levels of security and reliability for the UAV and eVTOL industry. The Veronte ecosystem is fully developed in compliance with NDAA Section 889 and Section 848."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "T28 Tracking Antenna",
+      "category": "communications",
+      "descriptor": "Auto-tracking antenna system for long-range communications with drones, USVs, and UGVs",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "yes",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0609",
+          "line_start": 308,
+          "line_end": 311,
+          "url": "https://www.embention.com/veronte-defense-capabilities",
+          "page_class": "capability",
+          "snippet": "](https://www.embention.com/veronte/tracking-systems/)\n### Tracking System\nTracking antenna systems including auto-follow for long range communications in drone, USV and UGV operations. The tracking camera systems include automatic follow and filming of flying aircraft or any other moving vehicles.\n[![](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==)](https://www.embention.com/veronte/tracking-systems/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0609",
+          "line_start": 335,
+          "line_end": 335,
+          "url": "https://www.embention.com/veronte-defense-capabilities",
+          "page_class": "capability",
+          "snippet": "Absolutely. At Embention, we are committed to providing the highest levels of security and reliability for the UAV and eVTOL industry. The Veronte ecosystem is fully developed in compliance with NDAA Section 889 and Section 848."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "LCS Rugged Computer",
+      "category": "ground_segment",
+      "descriptor": "High-performance ruggedized ground control station computer for harsh-environment drone and autonomous vehicle operations",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "yes",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0609",
+          "line_start": 314,
+          "line_end": 317,
+          "url": "https://www.embention.com/veronte-defense-capabilities",
+          "page_class": "capability",
+          "snippet": "](https://www.embention.com/veronte/control-stations/)\n### Control Station\nHigh-performance Ground Control Stations (GCS) for autonomous vehicles, enabling long-range communications and operations in harsh environments. Suitable for both civil and military operations involving drones, UGVs, USVs, UAVs, etc.\n[![](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==)](https://www.embention.com/veronte/control-stations/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0609",
+          "line_start": 335,
+          "line_end": 335,
+          "url": "https://www.embention.com/veronte-defense-capabilities",
+          "page_class": "capability",
+          "snippet": "Absolutely. At Embention, we are committed to providing the highest levels of security and reliability for the UAV and eVTOL industry. The Veronte ecosystem is fully developed in compliance with NDAA Section 889 and Section 848."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "XDL24 Datalink",
+      "category": "communications",
+      "descriptor": "XBee 3-based 2.4 GHz datalink module for Veronte ecosystem unmanned vehicles",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "yes",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0627",
+          "line_start": 26,
+          "line_end": 26,
+          "url": "https://www.embention.com/veronte-ecosystem/autopilots/kai-kinetic-ai",
+          "page_class": "capability",
+          "snippet": "        *   [XDL24Datalink based on XBee 3](https://www.embention.com/veronte-ecosystem/avionics/xdl24-datalink-based-on-xbee-3/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0609",
+          "line_start": 335,
+          "line_end": 335,
+          "url": "https://www.embention.com/veronte-defense-capabilities",
+          "page_class": "capability",
+          "snippet": "Absolutely. At Embention, we are committed to providing the highest levels of security and reliability for the UAV and eVTOL industry. The Veronte ecosystem is fully developed in compliance with NDAA Section 889 and Section 848."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "MC01 Gimbal & Tracker",
+      "category": "propulsion_electronics",
+      "descriptor": "Motor controller for gimbal and tracker systems on unmanned vehicles",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "yes",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0627",
+          "line_start": 28,
+          "line_end": 28,
+          "url": "https://www.embention.com/veronte-ecosystem/autopilots/kai-kinetic-ai",
+          "page_class": "capability",
+          "snippet": "        *   [MC01Gimbal & Tracker](https://www.embention.com/veronte-ecosystem/motor-controllers/mc01-gimbal-and-tracker/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0609",
+          "line_start": 335,
+          "line_end": 335,
+          "url": "https://www.embention.com/veronte-defense-capabilities",
+          "page_class": "capability",
+          "snippet": "Absolutely. At Embention, we are committed to providing the highest levels of security and reliability for the UAV and eVTOL industry. The Veronte ecosystem is fully developed in compliance with NDAA Section 889 and Section 848."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "CEX I/O Expander",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "I/O expansion board for Veronte autopilot avionics ecosystem",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "yes",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0627",
+          "line_start": 18,
+          "line_end": 18,
+          "url": "https://www.embention.com/veronte-ecosystem/autopilots/kai-kinetic-ai",
+          "page_class": "capability",
+          "snippet": "        *   [CEXI/O Expansion](https://www.embention.com/veronte-ecosystem/avionics/cex-io-expander/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0609",
+          "line_start": 335,
+          "line_end": 335,
+          "url": "https://www.embention.com/veronte-defense-capabilities",
+          "page_class": "capability",
+          "snippet": "Absolutely. At Embention, we are committed to providing the highest levels of security and reliability for the UAV and eVTOL industry. The Veronte ecosystem is fully developed in compliance with NDAA Section 889 and Section 848."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "MEX Magnetometer & I/O",
+      "category": "sensors_and_navigation",
+      "descriptor": "External magnetometer and I/O expansion module for Veronte autopilot avionics",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "yes",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0627",
+          "line_start": 19,
+          "line_end": 19,
+          "url": "https://www.embention.com/veronte-ecosystem/autopilots/kai-kinetic-ai",
+          "page_class": "capability",
+          "snippet": "        *   [MEXMagnetometer & I/O](https://www.embention.com/veronte-ecosystem/avionics/mex-magnetometer-sensor/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0609",
+          "line_start": 335,
+          "line_end": 335,
+          "url": "https://www.embention.com/veronte-defense-capabilities",
+          "page_class": "capability",
+          "snippet": "Absolutely. At Embention, we are committed to providing the highest levels of security and reliability for the UAV and eVTOL industry. The Veronte ecosystem is fully developed in compliance with NDAA Section 889 and Section 848."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Autopilot KAI for Loitering Munition",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "High-integrity autopilot with AI terminal guidance for loitering munitions",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0339",
+          "line_start": 60,
+          "line_end": 65,
+          "url": "https://www.embention.com/veronte-ecosystem/autopilots/loitering-munition",
+          "page_class": "other",
+          "snippet": "Autopilot KAI for Loitering Munition\n====================================\nLoitering Munition | High-Integrity\n-----------------------------------\nCutting-edge autopilot system tailored for Loitering Munitions. This cost-effective solution combines flight control with advanced computer vision technology, enabling precise navigation and target tracking even in GNSS-denied operations\n[Datasheet](https://www.embention.com/wp-content/uploads/2026/04/Veronte-Autopilot-KAI-2.0-ENG-Datasheet.pdf) [Service Bulletin](https://www.embention.com/service-publications/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0339",
+          "line_start": 130,
+          "line_end": 131,
+          "url": "https://www.embention.com/veronte-ecosystem/autopilots/loitering-munition",
+          "page_class": "other",
+          "snippet": "### ITAR-Free & NDAA Compliant \u25be\nStrategically developed to ensure full compliance with the National Defense Authorization Act for global tactical deployment."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Autopilot KAI for C-UAS",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "High-integrity autopilot for C-UAS interceptors with AI-driven target acquisition",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0244",
+          "line_start": 60,
+          "line_end": 65,
+          "url": "https://www.embention.com/veronte-ecosystem/autopilots/kai-for-c-uas",
+          "page_class": "other",
+          "snippet": "Autopilot KAI for C-UAS\n=======================\nC-UAS | High-Speed Neutralization\n---------------------------------\nHigh-integrity flight control system specifically engineered for C-UAS interceptors and kinetic effectors. It fuses aerospace-grade reliability with AI-driven target acquisition. It supports radar-slaved guidance, autonomous threat tracking, and optimized terminal maneuvers.\n[Datasheet](https://www.embention.com/wp-content/uploads/2026/04/Veronte-Autopilot-KAI-2.0-ENG-Datasheet.pdf) [Service Bulletin](https://www.embention.com/service-publications/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0244",
+          "line_start": 131,
+          "line_end": 132,
+          "url": "https://www.embention.com/veronte-ecosystem/autopilots/kai-for-c-uas",
+          "page_class": "other",
+          "snippet": "### ITAR-Free & NDAA Certified \u25be\nEngineered from the ground up to satisfy National Defense Authorization Act requirements for international security cooperation."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Veronte Autopilot VBN",
+      "category": "sensors_and_navigation",
+      "descriptor": "Vision-based navigation module for GNSS-denied UAV and eVTOL operations",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0627",
+          "line_start": 60,
+          "line_end": 64,
+          "url": "https://www.embention.com/veronte-ecosystem/autopilots/vbn-vision-based-navigation",
+          "page_class": "other",
+          "snippet": "Autopilot VBN\n=============\nVision Based Navigation System\n------------------------------\nVisual navigation system with advanced computer vision capabilities to revolutionize autonomous navigation. Equipped with algorithms for GNSS-denied and Sense and Avoid functionalities, it's a prime choice for UAV and eVTOL certification."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0627",
+          "line_start": 118,
+          "line_end": 123,
+          "url": "https://www.embention.com/veronte-ecosystem/autopilots/vbn-vision-based-navigation",
+          "page_class": "other",
+          "snippet": "Veronte Autopilot VBN\nUnit Price (Prototyping)\nSerial Production (+1.000 units)\nVBN 2.0\n10.000 \u20ac\n6.000 \u20ac"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Avionics SDL",
+      "category": "communications",
+      "descriptor": "Rugged IP67 LOS datalink for drones at 400/900/2.4 GHz via RS232",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0356",
+          "line_start": 60,
+          "line_end": 64,
+          "url": "https://www.embention.com/veronte-ecosystem/avionics/sdl-los-datalink",
+          "page_class": "other",
+          "snippet": "Avionics SDL\n============\nRS232 LOS Datalink for drones\n-----------------------------\nReliable line-of-sight datalink operating at 400MHz, 900MHz or 2.4GHz. It enables wireless communication through an RS232 port for both point-to-point and point-to-multipoint setups, housed in a rugged, waterproof aluminum enclosure."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0356",
+          "line_start": 162,
+          "line_end": 170,
+          "url": "https://www.embention.com/veronte-ecosystem/avionics/sdl-los-datalink",
+          "page_class": "other",
+          "snippet": "SDL04 Datalink (400 & 900MHz - 1W - TM/TC)\n1.250 \u20ac\n750 \u20ac\nSDL09 Datalink (900MHz - 1W - TM/TC)\n800 \u20ac\n480 \u20ac\nSDL24 Datalink (2.4GHz - 1W - TM/TC)\n800 \u20ac\n480 \u20ac"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Avionics XDL24",
+      "category": "communications",
+      "descriptor": "IP68 2.4 GHz LOS datalink module based on Digi XBee 3 with USB-C interface",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0388",
+          "line_start": 60,
+          "line_end": 65,
+          "url": "https://www.embention.com/veronte-ecosystem/avionics/xdl24-datalink-based-on-xbee-3",
+          "page_class": "news",
+          "snippet": "Avionics XDL24\n==============\nRobust datalink based on XBee 3\n-------------------------------\nXDL24 provides secure data transmission in LOS operations with a robust enclosure. It has a USB-C connection for easy integration. Compatible with internal radio in Veronte Autopilot or Digi XBee modules\n[Manual](https://manuals.embention.com/xdl24/en/1.0/index.html) [Datasheet](https://www.embention.com/wp-content/uploads/2025/01/Veronte-XDL24-ENG-Datasheet-LR-Web.pdf) [3D Model](#model3d) [Service Bulletin](https://www.embention.com/service-publications/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Motor Controller MC01",
+      "category": "propulsion_electronics",
+      "descriptor": "Small brushless/stepper motor controller for gimbal and tracking precision applications",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0601",
+          "line_start": 60,
+          "line_end": 65,
+          "url": "https://www.embention.com/veronte-ecosystem/motor-controllers/mc01-gimbal-and-tracker",
+          "page_class": "other",
+          "snippet": "Motor Controller MC01\n=====================\nGimbal & Tracker Motor Controller\n---------------------------------\nSmall brushless / stepper motor controller, in particular an ESC for critical actuator control, which can be controlled via PWM, CAN or I2C interfaces. It is used to control motors for precision applications like gimbal cameras or tracking systems.\n[Manual](https://manuals.embention.com/mc01/en/latest/index.html) [Datasheet](https://www.embention.com/wp-content/uploads/2024/01/Veronte-Motor-Controller-MC01-Datasheet.pdf) [3D Model](#model3d) [Service Bulletin](https://www.embention.com/service-publications/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0601",
+          "line_start": 151,
+          "line_end": 158,
+          "url": "https://www.embention.com/veronte-ecosystem/motor-controllers/mc01-gimbal-and-tracker",
+          "page_class": "other",
+          "snippet": "Veronte Motor Controller MC01\nUnit Price (Prototyping)\nSerial Production (+1.000 units)\nMC01B 1.0\n$450.45\n$270.27\nMC01S 1.0\n$450.45"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Motor Controller MC110",
+      "category": "propulsion_electronics",
+      "descriptor": "110 kW / 800 V liquid-cooled eVTOL motor inverter with DO-178C/254 certification",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0053",
+          "line_start": 60,
+          "line_end": 65,
+          "url": "https://www.embention.com/veronte-ecosystem/motor-controllers/mc110-800v-evtol-esc",
+          "page_class": "other",
+          "snippet": "Motor Controller MC110\n======================\nDesigned for eVTOL and Drones\n-----------------------------\nMotor inverter for eVTOL, capable of supporting voltages up to 800V and currents up to 200A, designed for controlling both sensored and sensorless electric motors. It complies with aviation standards DO-178C and DO-254, ensuring safety and reliability.\n[Manual](https://manuals.embention.com/veronte-mc110/en/latest/) [Datasheet](https://www.embention.com/wp-content/uploads/2025/06/Veronte-Autopilot-MC110-ENG-Datasheet-HR-Print-1.pdf) [3D Model](#model3d) [Service Bulletin](https://www.embention.com/service-publications/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0053",
+          "line_start": 218,
+          "line_end": 224,
+          "url": "https://www.embention.com/veronte-ecosystem/motor-controllers/mc110-800v-evtol-esc",
+          "page_class": "other",
+          "snippet": "Veronte Motor Controller MC110\nUnit Price (Prototyping)\nSerial Production (+1.000 units)\nMC110 2.0\n$5,791.50\n$3,474.90\n\\* Pricing shown is valid for orders fulfilled by Embention USA. For mid-range volume discounts or inquiries regarding Asia and Spain, please contact our sales team."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Avionics CEX",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "I/O expansion and bus management module for Veronte Autopilot",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0169",
+          "line_start": 223,
+          "line_end": 224,
+          "url": "https://www.embention.com/veronte-ecosystem/autopilots/1x-sensor-redundancy",
+          "page_class": "other",
+          "snippet": "I/O Expansion and Bus Management\n](https://www.embention.com/veronte-ecosystem/avionics/cex-io-expander/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Avionics MEX",
+      "category": "sensors_and_navigation",
+      "descriptor": "External magnetometer and I/O expansion module for Veronte Autopilot",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0169",
+          "line_start": 228,
+          "line_end": 229,
+          "url": "https://www.embention.com/veronte-ecosystem/autopilots/1x-sensor-redundancy",
+          "page_class": "other",
+          "snippet": "Magnetometer & I/O Expansion\n](https://www.embention.com/veronte-ecosystem/avionics/mex-magnetometer-sensor/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Control Station PCS",
+      "category": "ground_segment",
+      "descriptor": "Ground communications module with RTK for drone field operations",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0169",
+          "line_start": 233,
+          "line_end": 234,
+          "url": "https://www.embention.com/veronte-ecosystem/autopilots/1x-sensor-redundancy",
+          "page_class": "other",
+          "snippet": "RTK and Comms for drone operations\n](https://www.embention.com/veronte-ecosystem/control-stations/pcs-communications-module/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Control Station LCS",
+      "category": "ground_segment",
+      "descriptor": "Rugged computer ground control station for drone operations",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 31,
+          "line_end": 31,
+          "url": "https://www.embention.com",
+          "page_class": "homepage",
+          "snippet": "        *   [LCSRugged computer](https://www.embention.com/veronte-ecosystem/control-stations/lcs-rugged-computer/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Tracking System T28",
+      "category": "ground_segment",
+      "descriptor": "Motorized tracking antenna for long-range UAV datalink pointing",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 34,
+          "line_end": 34,
+          "url": "https://www.embention.com",
+          "page_class": "homepage",
+          "snippet": "        *   [T28Tracking antenna](https://www.embention.com/veronte-ecosystem/tracking-systems/t28-tracking-antenna/)"
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 23,
+    "total_cost_usd": 0.74890715,
+    "created_at": "2026-05-04T02:12:59+00:00",
+    "extract_version": "0.1.0"
+  }
+}

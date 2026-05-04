@@ -1,0 +1,251 @@
+{
+  "target_id": "concorde-battery-corporation",
+  "run_id": "canonical",
+  "display_name": "Concorde Battery Corporation",
+  "homepage_url": "https://concordebattery.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/concorde-battery-corporation/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "power_systems",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 63,
+            "line_end": 65,
+            "url": "https://concordebattery.com",
+            "page_class": "homepage",
+            "snippet": "Excellence in Lead-Acid Battery Manufacturing Since 1977\nA Tradition of Excellence\nRecognized and respected for over forty years of advanced battery design, Concorde Battery Corporation steadily built the reputation for engineering and crafting THE premium Recombinant Gas (RG\u00ae) lead acid aviation battery. Founded on a tradition of excellence, Concorde\u2019s Platinum Series\u00ae sealed lead acid batteries are universally recognized."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 76,
+            "line_end": 76,
+            "url": "https://concordebattery.com",
+            "page_class": "homepage",
+            "snippet": "Concorde\u00ae Battery Corporation manufactures premium quality valve regulated sealed lead-acid batteries (VRSLA) for aircraft, marine, medical, telecommunications, emergency backup, and renewable energy applications."
+          }
+        ],
+        "notes": "Manufactures valve-regulated sealed lead-acid (VRSLA) batteries under the Platinum Series\u00ae / RG\u00ae brand for aviation including military applications."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Military battery product line (seriesId=6) and turbine-starting battery line (seriesId=7) pages failed to render content (JS-only). Additional categories unlikely \u2014 core business is aviation batteries."
+  },
+  "headquarters": {
+    "value": {
+      "city": "West Covina",
+      "state_or_province": "California",
+      "country": "United States",
+      "address": "2009 W San Bernardino Road"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0005",
+        "line_start": 111,
+        "line_end": 111,
+        "url": "https://concordebattery.com",
+        "page_class": "homepage",
+        "snippet": "2009 W San Bernardino Road West Covina, CA 91790"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0005",
+        "line_start": 71,
+        "line_end": 71,
+        "url": "https://concordebattery.com",
+        "page_class": "homepage",
+        "snippet": "Concorde\u00ae has supplied military batteries to the armed forces."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0005",
+        "line_start": 76,
+        "line_end": 76,
+        "url": "https://concordebattery.com",
+        "page_class": "homepage",
+        "snippet": "Concorde\u00ae Battery Corporation manufactures premium quality valve regulated sealed lead-acid batteries (VRSLA) for aircraft, marine, medical, telecommunications, emergency backup, and renewable energy applications."
+      }
+    ],
+    "notes": "Makes aviation lead-acid batteries including military battery lines. Batteries are a power-system component going into aircraft/UAS platforms. No explicit UAS/drone mention found in corpus; military battery line pages did not render."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Platinum Series\u00ae",
+        "product_type": "RG\u00ae recombinant gas sealed lead-acid aviation battery family",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 65,
+            "line_end": 65,
+            "url": "https://concordebattery.com",
+            "page_class": "homepage",
+            "snippet": "Recognized and respected for over forty years of advanced battery design, Concorde Battery Corporation steadily built the reputation for engineering and crafting THE premium Recombinant Gas (RG\u00ae) lead acid aviation battery. Founded on a tradition of excellence, Concorde\u2019s Platinum Series\u00ae sealed lead acid batteries are universally recognized."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "RG-390E/30",
+        "product_type": "high-capacity certified main battery (Phenom 100)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 40,
+            "line_end": 41,
+            "url": "https://concordebattery.com",
+            "page_class": "homepage",
+            "snippet": "PHENOM 100\nRG-390E/30 - 2 EACH"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "RG-380E/53L",
+        "product_type": "high-capacity certified main battery (Gulfstream GV/GV-SP)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 42,
+            "line_end": 43,
+            "url": "https://concordebattery.com",
+            "page_class": "homepage",
+            "snippet": "GULFSTREAM GV, GV-SP\nRG-380E/53L - 2 EACH"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "RG-220",
+        "product_type": "high-capacity certified main battery (Air Tractor models)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 44,
+            "line_end": 45,
+            "url": "https://concordebattery.com",
+            "page_class": "homepage",
+            "snippet": "AIR TRACTOR MODELS\nRG-220 - 2 OR 3 EACH"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Military battery SKUs (seriesId=6) and turbine-starting SKUs (seriesId=7) exist but product search pages did not render content. Full military SKU list unknown."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0005",
+        "line_start": 63,
+        "line_end": 63,
+        "url": "https://concordebattery.com",
+        "page_class": "homepage",
+        "snippet": "Excellence in Lead-Acid Battery Manufacturing Since 1977"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0005",
+        "line_start": 85,
+        "line_end": 85,
+        "url": "https://concordebattery.com",
+        "page_class": "homepage",
+        "snippet": "TSO Authorizations"
+      }
+    ],
+    "notes": "Established manufacturer since 1977 with catalog SKUs, TSO authorizations, and OEM customers."
+  },
+  "unresolved_questions": [
+    "Military battery product SKUs not available \u2014 product search pages used JS rendering that did not load",
+    "No explicit UAS/drone mention found in corpus to confirm UXV supply chain relevance",
+    "About page (resource-0003) failed to fetch \u2014 HQ and company details rely solely on homepage footer"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://concordebattery.com/search?searchType=specifications&seriesId=6&tag=military",
+      "reason": "Military battery product catalog \u2014 would list specific military battery SKUs and confirm whether any are UAS/drone-specific",
+      "expected_evidence": [
+        "products",
+        "drone_supply_chain_role",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=fetched, page_class=other \u2014 page rendered only 'Loading...' (JS-only content)",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://concordebattery.com/search?searchType=specifications&seriesId=7&tag=turbine-starting",
+      "reason": "Turbine-starting battery catalog \u2014 would list SKUs for military/aviation turbine start batteries relevant to UAS propulsion power",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=fetched, page_class=other \u2014 page rendered only 'Loading...' (JS-only content)",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://concordebattery.com/about",
+      "reason": "About page \u2014 would confirm HQ, company background, and any explicit UAS/drone customer mentions",
+      "expected_evidence": [
+        "headquarters",
+        "drone_supply_chain_role",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=failed, page_class=company",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 6,
+    "total_cost_usd": 0.19218005,
+    "created_at": "2026-05-02T18:45:41+00:00",
+    "extract_version": "0.1.0"
+  },
+  "tagline": "Manufactures sealed recombinant-gas lead-acid aviation batteries (Platinum Series\u00ae) for business, general, and military aircraft, plus emergency backup applications. Primary market is certified OEM installations and aftermarket upgrades for manned platforms (Phenom, Gulfstream, Air Tractor). Public evidence of unmanned-systems applicability is absent; NDAA and Blue UAS certification status unknown. No named UAS programs or contracts identified in available data."
+}

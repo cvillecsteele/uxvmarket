@@ -1,0 +1,294 @@
+{
+  "target_id": "vectornav-technologies",
+  "run_id": "canonical",
+  "display_name": "VectorNav Technologies",
+  "homepage_url": "https://www.vectornav.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/vectornav-technologies/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0013",
+            "line_start": 47,
+            "line_end": 47,
+            "url": "https://www.vectornav.com/about",
+            "page_class": "company",
+            "snippet": "The Relentless Pursuit of Inertial Navigation Excellence."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0071",
+            "line_start": 46,
+            "line_end": 46,
+            "url": "https://www.vectornav.com/products/detail/vn-100",
+            "page_class": "product",
+            "snippet": "The VN-100 is a miniature, high-performance Inertial Measurement Unit (IMU) and Attitude Heading Reference System (AHRS). Combining 3-axis accelerometers, gyros, and magnetometers, a barometric pressure sensor and a 32-bit processor, the VN-100 provides high-rate, calibrated IMU data and a real-time 3D attitude solution that is continuous over the complete 360 degrees of motion."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0075",
+            "line_start": 43,
+            "line_end": 44,
+            "url": "https://www.vectornav.com/products/detail/vn-300",
+            "page_class": "product",
+            "snippet": "DUAL GNSS / INS\nVN-300"
+          }
+        ],
+        "notes": "Full product line is IMU, AHRS, and GNSS/INS inertial navigation systems \u2014 the company's stated mission is 'The Relentless Pursuit of Inertial Navigation Excellence'."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Dallas",
+      "state_or_province": "Texas",
+      "country": "United States",
+      "address": "10501 Markison Road"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0027",
+        "line_start": 47,
+        "line_end": 47,
+        "url": "https://www.vectornav.com/contact-us",
+        "page_class": "contact",
+        "snippet": "[**HQ:** 10501 Markison Road, Dallas, TX, 75238 USA](https://maps.google.com/?q=10501+Markison+Road,+Dallas,+TX,+75238+USA)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0039",
+        "line_start": 50,
+        "line_end": 50,
+        "url": "https://www.vectornav.com/datapage/news/2025/06/24/vectornav-technologies-acquires-new-100-000-sq-ft-facility",
+        "page_class": "news",
+        "snippet": "VectorNav Technologies is a global leader in inertial navigation systems, providing high-performance IMU, GNSS/INS, and APNT solutions to customers across the defense, aerospace, industrial, and autonomous vehicle markets. Headquartered in Dallas, Texas, USA, VectorNav combines cutting-edge inertial sensors with proven algorithms and extensive calibration and testing processes to deliver unmatched accuracy, reliability, and quality."
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0071",
+        "line_start": 46,
+        "line_end": 46,
+        "url": "https://www.vectornav.com/products/detail/vn-100",
+        "page_class": "product",
+        "snippet": "The VN-100 is a miniature, high-performance Inertial Measurement Unit (IMU) and Attitude Heading Reference System (AHRS). Combining 3-axis accelerometers, gyros, and magnetometers, a barometric pressure sensor and a 32-bit processor, the VN-100 provides high-rate, calibrated IMU data and a real-time 3D attitude solution that is continuous over the complete 360 degrees of motion."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 28,
+        "line_end": 28,
+        "url": "https://www.vectornav.com",
+        "page_class": "homepage",
+        "snippet": "    *   [Autonomous Vehicles](/applications/uncrewed-vehicle-navigation)"
+      }
+    ],
+    "notes": "Sells IMU, AHRS, and GNSS/INS sensor modules (surface-mount and rugged form factors) that integrate into drones and other autonomous vehicles. Does not manufacture complete platforms."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "VN-100",
+        "product_type": "Industrial IMU / AHRS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0071",
+            "line_start": 43,
+            "line_end": 44,
+            "url": "https://www.vectornav.com/products/detail/vn-100",
+            "page_class": "product",
+            "snippet": "IMU / AHRS\nVN-100"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "VN-110",
+        "product_type": "Tactical IMU / AHRS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 124,
+            "line_end": 124,
+            "url": "https://www.vectornav.com",
+            "page_class": "homepage",
+            "snippet": "*   [VN-110 Tactical IMU](https://www.vectornav.com/products/detail/vn-110)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "VN-200",
+        "product_type": "GNSS/INS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 125,
+            "line_end": 125,
+            "url": "https://www.vectornav.com",
+            "page_class": "homepage",
+            "snippet": "*   [VN-200 GNSS/INS](https://www.vectornav.com/products/detail/vn-200)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "VN-210",
+        "product_type": "GNSS/INS (tactical)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 126,
+            "line_end": 126,
+            "url": "https://www.vectornav.com",
+            "page_class": "homepage",
+            "snippet": "*   [VN-210 GNSS/INS](https://www.vectornav.com/products/detail/vn-210)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "VN-300",
+        "product_type": "Dual GNSS/INS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0075",
+            "line_start": 43,
+            "line_end": 44,
+            "url": "https://www.vectornav.com/products/detail/vn-300",
+            "page_class": "product",
+            "snippet": "DUAL GNSS / INS\nVN-300"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "VN-310",
+        "product_type": "Dual GNSS/INS (tactical)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 128,
+            "line_end": 128,
+            "url": "https://www.vectornav.com",
+            "page_class": "homepage",
+            "snippet": "*   [VN-310 DUAL GNSS/INS](https://www.vectornav.com/products/detail/vn-310)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0071",
+        "line_start": 60,
+        "line_end": 60,
+        "url": "https://www.vectornav.com/products/detail/vn-100",
+        "page_class": "product",
+        "snippet": "Made in the USA, ITAR-free, & ships within 1 business day"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0075",
+        "line_start": 64,
+        "line_end": 64,
+        "url": "https://www.vectornav.com/products/detail/vn-300",
+        "page_class": "product",
+        "snippet": "Made in the USA, ITAR-free, & ships within 1 business day"
+      }
+    ],
+    "notes": "Site claims 'Made in the USA' and 'ITAR-free' across product pages but makes no explicit NDAA Section 848/889 compliance claim."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0071",
+        "line_start": 60,
+        "line_end": 60,
+        "url": "https://www.vectornav.com/products/detail/vn-100",
+        "page_class": "product",
+        "snippet": "Made in the USA, ITAR-free, & ships within 1 business day"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 66,
+        "line_end": 68,
+        "url": "https://www.vectornav.com",
+        "page_class": "homepage",
+        "snippet": "100K+\nUnits Fielded\n5,000+"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0039",
+        "line_start": 45,
+        "line_end": 45,
+        "url": "https://www.vectornav.com/datapage/news/2025/06/24/vectornav-technologies-acquires-new-100-000-sq-ft-facility",
+        "page_class": "news",
+        "snippet": "Expanded operations will support R&D innovation, workforce growth, and scaled production of navigation solutions."
+      }
+    ],
+    "notes": "Ships within 1 business day; 100K+ units fielded; recently acquired 100,000 sq ft facility to scale production."
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 16,
+    "total_cost_usd": 0.36567215000000003,
+    "created_at": "2026-05-03T12:26:41+00:00",
+    "extract_version": "0.1.0"
+  },
+  "tagline": "Manufactures miniature and tactical-grade IMU/AHRS and GNSS/INS navigation modules (VN-100 through VN-310 series) in production across industrial and defense applications. NDAA compliance status not disclosed; Blue UAS status unknown. Public evidence confirms 100K+ units fielded and 5,000+ customers globally, but lacks detail on specific DoD programs, certification roadmaps, or supply-chain resilience commitments."
+}

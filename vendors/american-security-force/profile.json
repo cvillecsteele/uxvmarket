@@ -1,0 +1,251 @@
+{
+  "target_id": "american-security-force",
+  "run_id": "canonical",
+  "display_name": "American Security Force",
+  "homepage_url": "https://www.americansecurityforce.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/american-security-force/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "isr_payloads",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 81,
+            "line_end": 82,
+            "url": "https://www.americansecurityforce.com",
+            "page_class": "homepage",
+            "snippet": "### [**Remote Drone Surveillance**](https://www.americansecurityforce.com/remote-surveillance-technology/surveillance-drones/)\nOur [surveillance drones](https://www.americansecurityforce.com/remote-surveillance-technology/surveillance-drones/) offer rapid deployment, live HD video streaming, and intelligent tracking. They are perfect for wide-area and hard-to-reach security coverage. Supported by autonomous drone docking stations, these units ensure 24/7 protection with minimal manual intervention."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 83,
+            "line_end": 85,
+            "url": "https://www.americansecurityforce.com",
+            "page_class": "homepage",
+            "snippet": "*   Fast-response aerial surveillance\n*   360\u00b0 high-definition video & thermal imaging\n*   Real-time alerts and autonomous patrol paths"
+          }
+        ],
+        "notes": "Aerial surveillance drones with HD video and thermal imaging operated as a security service; company designs its own autonomous drones in-house."
+      },
+      {
+        "category": "ground_segment",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 86,
+            "line_end": 86,
+            "url": "https://www.americansecurityforce.com",
+            "page_class": "homepage",
+            "snippet": "*   Weather-resistant drone docking stations with autonomous charging"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 29,
+            "line_end": 29,
+            "url": "https://www.americansecurityforce.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Remote Drone Docking Station](https://www.americansecurityforce.com/remote-surveillance-technology/remote-drone-docking-station/)"
+          }
+        ],
+        "notes": "Remote drone docking stations with autonomous charging; monitoring and response center operations."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Drone product pages were skipped in crawl; secondary categories may be incomplete."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Los Angeles",
+      "state_or_province": "California",
+      "country": "United States",
+      "address": null
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0172",
+        "line_start": 76,
+        "line_end": 76,
+        "url": "https://www.americansecurityforce.com/about",
+        "page_class": "company",
+        "snippet": "Established in 1999, **[American Security Force](/)** is a leading provider of specialized security solutions. Headquartered in Los Angeles, CA, the company is committed to safeguarding clients\u2019 assets with a comprehensive range of security services."
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "service_provider",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 81,
+        "line_end": 82,
+        "url": "https://www.americansecurityforce.com",
+        "page_class": "homepage",
+        "snippet": "### [**Remote Drone Surveillance**](https://www.americansecurityforce.com/remote-surveillance-technology/surveillance-drones/)\nOur [surveillance drones](https://www.americansecurityforce.com/remote-surveillance-technology/surveillance-drones/) offer rapid deployment, live HD video streaming, and intelligent tracking. They are perfect for wide-area and hard-to-reach security coverage. Supported by autonomous drone docking stations, these units ensure 24/7 protection with minimal manual intervention."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0185",
+        "line_start": 111,
+        "line_end": 111,
+        "url": "https://www.americansecurityforce.com/contact-us",
+        "page_class": "contact",
+        "snippet": "We provide a wide range of security services, including surveillance, video monitoring, access control, intrusion detection, and drone operation. We also employ trained security guards who can be either stationed at a single location or conduct patrols through a predefined route."
+      }
+    ],
+    "notes": "Primary business is operating surveillance drones for security clients; also has in-house R&D drone engineer designing autonomous drones (resource-0005 line 138-139), but the customer-facing model is service delivery."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Surveillance Drones",
+        "product_type": "drone surveillance service",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 27,
+            "line_end": 27,
+            "url": "https://www.americansecurityforce.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Surveillance Drones](https://www.americansecurityforce.com/remote-surveillance-technology/surveillance-drones/)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 81,
+            "line_end": 82,
+            "url": "https://www.americansecurityforce.com",
+            "page_class": "homepage",
+            "snippet": "### [**Remote Drone Surveillance**](https://www.americansecurityforce.com/remote-surveillance-technology/surveillance-drones/)\nOur [surveillance drones](https://www.americansecurityforce.com/remote-surveillance-technology/surveillance-drones/) offer rapid deployment, live HD video streaming, and intelligent tracking. They are perfect for wide-area and hard-to-reach security coverage. Supported by autonomous drone docking stations, these units ensure 24/7 protection with minimal manual intervention."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Remote Drone Docking Station",
+        "product_type": "autonomous drone docking and charging station",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 29,
+            "line_end": 29,
+            "url": "https://www.americansecurityforce.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Remote Drone Docking Station](https://www.americansecurityforce.com/remote-surveillance-technology/remote-drone-docking-station/)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 86,
+            "line_end": 86,
+            "url": "https://www.americansecurityforce.com",
+            "page_class": "homepage",
+            "snippet": "*   Weather-resistant drone docking stations with autonomous charging"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Drone-specific product pages were skipped during crawl; full product details not confirmed. Company also operates Mobile Surveillance Trailers and Sentinel Surveillance (non-UXV)."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 79,
+        "line_end": 79,
+        "url": "https://www.americansecurityforce.com",
+        "page_class": "homepage",
+        "snippet": "As a leading security company in California and the surrounding states, we provide a range of services. All of them have the same goal: keeping you and your property secure. Our most requested service for 2025 was:"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 96,
+        "line_end": 96,
+        "url": "https://www.americansecurityforce.com",
+        "page_class": "homepage",
+        "snippet": "With 25 years in the security industry, our depth of knowledge ensures that we\u2019re prepared for any situation."
+      }
+    ],
+    "notes": "25-year-old company with nationwide active drone surveillance operations; services available for immediate deployment."
+  },
+  "unresolved_questions": [
+    "Whether ASF manufactures and sells its autonomous drones commercially (as OEM) vs. solely using them for in-house surveillance services",
+    "Whether any NDAA Section 848/889 compliance applies to drone hardware used/sold",
+    "Whether ASF's related brand dronepatrol.com operates independently with its own product line"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.americansecurityforce.com/remote-surveillance-technology/surveillance-drones",
+      "reason": "Would confirm specific drone models/SKUs, whether they are OEM-built or third-party, and any NDAA/compliance claims for drone hardware.",
+      "expected_evidence": [
+        "products",
+        "drone_supply_chain_role",
+        "ndaa",
+        "blue_uas"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=capability",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.americansecurityforce.com/remote-surveillance-technology/remote-drone-docking-station",
+      "reason": "Would provide details on the drone docking station product, including whether it is manufactured or resold, supporting product and supply chain role assessment.",
+      "expected_evidence": [
+        "products",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=capability",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Los Angeles\u2013based provider of autonomous surveillance drones, patented drone-docking stations, mobile surveillance trailers, and 24/7 monitoring-center services for perimeter security. Also offers fixed video systems, access control, fire/intrusion monitoring, and cybersecurity. NDAA and Blue UAS certification status unknown. Public evidence of government or allied-sector contracts is thin.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 12,
+    "total_cost_usd": 0.36264085,
+    "created_at": "2026-05-03T21:12:20+00:00",
+    "extract_version": "0.1.0"
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "target_id": "alarispro",
+  "run_id": "canonical",
+  "display_name": "AlarisPro",
+  "homepage_url": "https://alarispro.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/alarispro/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "ground_segment",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 60,
+            "line_end": 60,
+            "url": "https://alarispro.com",
+            "page_class": "homepage",
+            "snippet": "AlarisPro is the industry\u2019s only aviation-minded, cloud-based UAS fleet management platform that replaces spreadsheets and disconnected tools by unifying safety, compliance, and operational intelligence through centralized tracking of flights, maintenance, parts, and aircraft configuration in one powerful system."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0019",
+            "line_start": 68,
+            "line_end": 68,
+            "url": "https://alarispro.com/company",
+            "page_class": "company",
+            "snippet": "AlarisPro is the industry\u2019s leading SaaS-based UAS fleet management platform, built by military aviators and unmanned experts to deliver what the industry was missing - a single, unified hub for safety, compliance, and actionable data."
+          }
+        ],
+        "notes": "AlarisPro is a cloud-based UAS fleet management SaaS platform covering flight logging, maintenance tracking, parts/components, compliance, BVLOS readiness, digital twin, and Safety Management System."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": null,
+      "state_or_province": "Maryland",
+      "country": "United States",
+      "address": null
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 292,
+        "line_end": 292,
+        "url": "https://alarispro.com",
+        "page_class": "homepage",
+        "snippet": "[Onboarding Launchpad](http://alarispro.com/launchpad)[Press](/insights-impact)[Careers](https://alaris.easyapply.co/)[Email: info@alarispro.com](mailto:info@alarispro.com)[Phone: +1-410-881-0800](tel:+1-410-881-0800)[Headquarters: Maryland, USA](#)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0019",
+        "line_start": 69,
+        "line_end": 69,
+        "url": "https://alarispro.com/company",
+        "page_class": "company",
+        "snippet": "Headquartered in the state of Maryland and trusted worldwide, we empower operators, maintenance teams, manufacturers, first responders, educators, and government agencies to optimize performance, reduce risk, and ensure continued airworthiness."
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "service_provider",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 60,
+        "line_end": 60,
+        "url": "https://alarispro.com",
+        "page_class": "homepage",
+        "snippet": "AlarisPro is the industry\u2019s only aviation-minded, cloud-based UAS fleet management platform that replaces spreadsheets and disconnected tools by unifying safety, compliance, and operational intelligence through centralized tracking of flights, maintenance, parts, and aircraft configuration in one powerful system."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0019",
+        "line_start": 68,
+        "line_end": 68,
+        "url": "https://alarispro.com/company",
+        "page_class": "company",
+        "snippet": "AlarisPro is the industry\u2019s leading SaaS-based UAS fleet management platform, built by military aviators and unmanned experts to deliver what the industry was missing - a single, unified hub for safety, compliance, and actionable data."
+      }
+    ],
+    "notes": "AlarisPro is a pure-software SaaS company (fleet management, compliance, digital twin) serving UAS operators and OEMs. The taxonomy does not have a dedicated 'software platform' role; service_provider is the best fit given they provide no hardware. They do not operate drones themselves."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "AlarisPro Platform",
+        "product_type": "cloud-based UAS fleet management SaaS platform",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 60,
+            "line_end": 60,
+            "url": "https://alarispro.com",
+            "page_class": "homepage",
+            "snippet": "AlarisPro is the industry\u2019s only aviation-minded, cloud-based UAS fleet management platform that replaces spreadsheets and disconnected tools by unifying safety, compliance, and operational intelligence through centralized tracking of flights, maintenance, parts, and aircraft configuration in one powerful system."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AlarisPro Field Ops",
+        "product_type": "mobile app for field flight logging and fleet status",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0031",
+            "line_start": 65,
+            "line_end": 73,
+            "url": "https://alarispro.com/platform-features",
+            "page_class": "product",
+            "snippet": "AlarisPro Field Ops\n-------------------\nYour Fleet At Your Fingertips\n-----------------------------\n*   Offline logging capability for remote operations\n*   Receive real-time alerts\n*   Log flights and access data in the field\n*   View current pilot UAS status\n*   Automatically sync with your AlarisPro account"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "BVLOS Compliance Hub",
+        "product_type": "interactive compliance tool and resource hub for FAA Part 108 readiness",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 245,
+            "line_end": 245,
+            "url": "https://alarispro.com",
+            "page_class": "homepage",
+            "snippet": "Our BVLOS Compliance Hub is your centralized resource for readiness and rule alignment. Be prepared for the FAA's Part 108 launch - explore interactive tools including our Compliance Checklist, BVLOS Readiness Score, ROI Calculator, and Part 108 White Paper, plus live updates, and resources."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Safety Ecosystem\u2122",
+        "product_type": "integrated safety management and predictive analytics feature set",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0019",
+            "line_start": 118,
+            "line_end": 118,
+            "url": "https://alarispro.com/company",
+            "page_class": "company",
+            "snippet": "Through our Safety Ecosystem\u2122, we help operators, manufacturers, and regulators anticipate risks, streamline operations, and maintain airworthiness. By unifying data, alerts, and maintenance analytics in one hub, AlarisPro removes the guesswork and documentation burden to empower teams to focus on safe, efficient, and mission-ready operations."
+          }
+        ],
+        "notes": "Branded feature set within the platform; may not be a separately sold SKU."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0019",
+        "line_start": 282,
+        "line_end": 285,
+        "url": "https://alarispro.com/company",
+        "page_class": "company",
+        "snippet": "Awarded competitive federal contract by USDA US Forest Service for UAS Fleet Management Services\n#### 2022\nAwarded competitive five-year federal contract by the National Oceanic and Atmospheric Administration (NOAA) for UAS Fleet Management Services\n#### 2022"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0019",
+        "line_start": 292,
+        "line_end": 296,
+        "url": "https://alarispro.com/company",
+        "page_class": "company",
+        "snippet": "Initial SOC2 Level II Certification received\n#### 2024\nLauncheds Documents Module with the ability to assign and track reading assignments\n#### 2024\nAwarded competitive five-year federal contract by NTSB for UAS Fleet Management Services"
+      }
+    ],
+    "notes": "Active SaaS platform with multiple awarded federal contracts (USDA Forest Service, NOAA, NTSB) and thousands of UAS maintained on platform."
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 15,
+    "total_cost_usd": 0.4801402,
+    "created_at": "2026-05-03T00:35:00+00:00",
+    "extract_version": "0.1.0"
+  },
+  "tagline": "Cloud-based UAS fleet management and compliance platform offering flight logging, maintenance tracking, BVLOS readiness tools, and safety analytics. Maryland-based; in production. NDAA and Blue UAS certification status unknown. Notably partners with NASA and USI. Public evidence on specific defense contracts or program adoption remains limited."
+}

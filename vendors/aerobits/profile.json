@@ -1,0 +1,365 @@
+{
+  "target_id": "aerobits",
+  "run_id": "canonical",
+  "display_name": "Aerobits",
+  "homepage_url": "https://www.aerobits.pl",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/aerobits/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "communications",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0004",
+            "line_start": 144,
+            "line_end": 144,
+            "url": "https://www.aerobits.pl",
+            "page_class": "homepage",
+            "snippet": "Sub-miniature\u00a0ADS-B, FLARM, UAT, REMOTE-ID modules for direct integration."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0216",
+            "line_start": 150,
+            "line_end": 151,
+            "url": "https://www.aerobits.pl/product/tt-sg2",
+            "page_class": "product",
+            "snippet": "##### ADS-B, GNSS\n*   High\u00a0quality and low price **OEM ADS-\u00adB/GNSS** receiver series operating at **a frequency 1090MHz.** It is based on the proven **FPGA-In-The\\_LoopTM** technology, a unique combination of a single-core processor and **FPGA."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0245",
+            "line_start": 152,
+            "line_end": 153,
+            "url": "https://www.aerobits.pl/product/idme",
+            "page_class": "product",
+            "snippet": "**idME (Remote Identification module)** is designed to meet the requirements of remote drone identification and localization in **ASTM/ASD-STAN** standards.\nUsing the **BLE broadcast** technology, our device provides surveillance and drone operator identification capability based on any modern mobile device such as a smartphone or tablet."
+          }
+        ],
+        "notes": "Core product line is sub-miniature ADS-B, FLARM, UAT, and Remote ID (BLE/Wi-Fi) modules and transponders for UAS airspace integration."
+      },
+      {
+        "category": "ground_segment",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0235",
+            "line_start": 148,
+            "line_end": 148,
+            "url": "https://www.aerobits.pl/product/ground-station-with-linux",
+            "page_class": "product",
+            "snippet": "Ground Station with Linux \u2013 Comprehensive Solution for UAS Integration into Airspace"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0162",
+            "line_start": 149,
+            "line_end": 152,
+            "url": "https://www.aerobits.pl/products",
+            "page_class": "product",
+            "snippet": "Ground Infrastructure\u200b\n----------------------\nDiverse networkable solutions for future UTM/U-Space design.\n[Click Here](https://www.aerobits.pl/products/ground-infrastructure/)"
+          }
+        ],
+        "notes": "Ground Infrastructure product line: GS2L ground station, DRS dual-band receiver station, Multi RF receiver mPCI card for UTM/U-Space networks."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Szczecin",
+      "state_or_province": null,
+      "country": "Poland",
+      "address": "ul. Przestrzenna 11, 70-800 Szczecin"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0004",
+        "line_start": 240,
+        "line_end": 243,
+        "url": "https://www.aerobits.pl",
+        "page_class": "homepage",
+        "snippet": "AEROBITS Sp. z o.o.\nul. Przestrzenna 11\n70-800 Szczecin\nPoland"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0162",
+        "line_start": 141,
+        "line_end": 143,
+        "url": "https://www.aerobits.pl/products",
+        "page_class": "product",
+        "snippet": "OEM - low level modules\n-----------------------\nSub-miniature\u00a0ADS-B, FLARM, UAT, REMOTE-ID modules for direct integration."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0004",
+        "line_start": 141,
+        "line_end": 141,
+        "url": "https://www.aerobits.pl",
+        "page_class": "homepage",
+        "snippet": "Subsystems for the **UAS integration** **into the airspace**"
+      }
+    ],
+    "notes": "Sells OEM ADS-B/FLARM/Remote ID modules and Plug&Play add-on units that integrate into existing UAS platforms. Products are electronic modules/boards, not complete drones. Also supplies ground receiver infrastructure."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "TT-SG2",
+        "product_type": "OEM ADS-B/GNSS receiver module",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0216",
+            "line_start": 145,
+            "line_end": 145,
+            "url": "https://www.aerobits.pl/product/tt-sg2",
+            "page_class": "product",
+            "snippet": "TT-SG2"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0216",
+            "line_start": 150,
+            "line_end": 151,
+            "url": "https://www.aerobits.pl/product/tt-sg2",
+            "page_class": "product",
+            "snippet": "##### ADS-B, GNSS\n*   High\u00a0quality and low price **OEM ADS-\u00adB/GNSS** receiver series operating at **a frequency 1090MHz.** It is based on the proven **FPGA-In-The\\_LoopTM** technology, a unique combination of a single-core processor and **FPGA."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "idME",
+        "product_type": "Remote ID BLE broadcast module",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0245",
+            "line_start": 145,
+            "line_end": 145,
+            "url": "https://www.aerobits.pl/product/idme",
+            "page_class": "product",
+            "snippet": "idME (Remote ID) \u2013 FCC Certificate"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0245",
+            "line_start": 152,
+            "line_end": 153,
+            "url": "https://www.aerobits.pl/product/idme",
+            "page_class": "product",
+            "snippet": "**idME (Remote Identification module)** is designed to meet the requirements of remote drone identification and localization in **ASTM/ASD-STAN** standards.\nUsing the **BLE broadcast** technology, our device provides surveillance and drone operator identification capability based on any modern mobile device such as a smartphone or tablet."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "idME PRO",
+        "product_type": "Remote ID module (Wi-Fi + BLE dual broadcast)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0004",
+            "line_start": 159,
+            "line_end": 159,
+            "url": "https://www.aerobits.pl",
+            "page_class": "homepage",
+            "snippet": "#### idME PRO - remote ID"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "GS2L",
+        "product_type": "ADS-B/FLARM/Remote ID omni-directional ground receiver station with Linux",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0235",
+            "line_start": 145,
+            "line_end": 145,
+            "url": "https://www.aerobits.pl/product/ground-station-with-linux",
+            "page_class": "product",
+            "snippet": "GS2L"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0235",
+            "line_start": 148,
+            "line_end": 148,
+            "url": "https://www.aerobits.pl/product/ground-station-with-linux",
+            "page_class": "product",
+            "snippet": "Ground Station with Linux \u2013 Comprehensive Solution for UAS Integration into Airspace"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DRS",
+        "product_type": "Dual-Band Receiver Station",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0004",
+            "line_start": 55,
+            "line_end": 55,
+            "url": "https://www.aerobits.pl",
+            "page_class": "homepage",
+            "snippet": "        *   [DRS \u2013 Dual-Band Receiver Station](https://www.aerobits.pl/product/drs/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Multi RF receiver mPCI card",
+        "product_type": "Multi-channel RF receiver mPCI card",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0004",
+            "line_start": 56,
+            "line_end": 56,
+            "url": "https://www.aerobits.pl",
+            "page_class": "homepage",
+            "snippet": "        *   [Multi RF receiver mPCI card](https://www.aerobits.pl/product/multi-rf-receiver-mpci-card/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TT-SF2",
+        "product_type": "OEM ADS-B/FLARM module",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0004",
+            "line_start": 23,
+            "line_end": 23,
+            "url": "https://www.aerobits.pl",
+            "page_class": "homepage",
+            "snippet": "        *   [TT-SF2](https://www.aerobits.pl/product/tt-sf2/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Aero Pro",
+        "product_type": "Plug&Play UAS transponder",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0004",
+            "line_start": 42,
+            "line_end": 42,
+            "url": "https://www.aerobits.pl",
+            "page_class": "homepage",
+            "snippet": "        *   [Aero Pro](https://www.aerobits.pl/product/aero-pro/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "idME+",
+        "product_type": "Remote ID module with GNSS and BLE/Wi-Fi",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0004",
+            "line_start": 176,
+            "line_end": 178,
+            "url": "https://www.aerobits.pl",
+            "page_class": "homepage",
+            "snippet": "idME+ (remote e-identification)\nWith GNSS, pressure sensor, BLE, WI-FI. Designed to meet requirements of remote drone identification and localization in ASTM/ASD-STAN standard.\nmore"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Many product SKUs exist in nav; only a subset have full product pages in the fetched corpus. All products are for UAS airspace integration."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0245",
+        "line_start": 163,
+        "line_end": 165,
+        "url": "https://www.aerobits.pl/product/idme",
+        "page_class": "product",
+        "snippet": "Product status:\n*   [Active](https://www.aerobits.pl/about-us/product-lifecycle/)\n[Add to Cart](/product/idme/?add-to-cart=5567)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0004",
+        "line_start": 4,
+        "line_end": 4,
+        "url": "https://www.aerobits.pl",
+        "page_class": "homepage",
+        "snippet": "[Shop](https://www.aerobits.pl/shop/)"
+      }
+    ],
+    "notes": "Products available via online shop with Add to Cart, listed as 'Active' in product lifecycle, versioned firmware releases published regularly. ISO 9001 certified."
+  },
+  "unresolved_questions": [
+    "NDAA Section 848/889 compliance status not disclosed on site",
+    "Blue UAS cleared list status not mentioned",
+    "Complete product list partially hidden behind 244 skipped pages"
+  ],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Polish communications and ground-segment supplier producing ADS-B/FLARM transceivers (TR-1F, TT-SF2), Remote ID modules (TT-RR1, idME family), multi-system UAS trackers (trkME), and airspace surveillance receivers for integration into small platforms and ground stations. FCC certification confirmed for idME Remote ID line; NDAA and Blue UAS status unknown. Limited public evidence of US defense contracts or program integration.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 24,
+    "total_cost_usd": 0.5108156,
+    "created_at": "2026-05-03T20:47:01+00:00",
+    "extract_version": "0.1.0"
+  }
+}

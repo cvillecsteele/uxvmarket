@@ -1,0 +1,131 @@
+{
+  "target_id": "sentera",
+  "run_id": "canonical",
+  "display_name": "Sentera",
+  "homepage_url": "https://senterasensors.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/sentera/website",
+  "products_categories": {
+    "items": [],
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "notes": "Homepage fetch failed with TLS certificate error; no corpus text available. Catalog metadata hints at isr_payloads but no citable evidence exists."
+  },
+  "headquarters": {
+    "value": null,
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "evidence": [],
+    "notes": "No pages were successfully fetched; homepage failed with net::ERR_CERT_AUTHORITY_INVALID."
+  },
+  "drone_supply_chain_role": {
+    "value": null,
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "evidence": [],
+    "notes": "No corpus content available due to TLS fetch failure."
+  },
+  "products": {
+    "items": [],
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "notes": "No pages fetched; cannot enumerate products."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No corpus content available."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No corpus content available."
+  },
+  "readiness": {
+    "value": null,
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "evidence": [],
+    "notes": "No corpus content available."
+  },
+  "unresolved_questions": [
+    "Homepage at https://senterasensors.com failed with TLS certificate error (net::ERR_CERT_AUTHORITY_INVALID) \u2014 may redirect to sentera.com or require different base URL.",
+    "Unable to determine any profile fields without fetched content."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://senterasensors.com",
+      "reason": "Homepage failed with TLS error on prior crawl; retry may succeed with updated cert or different fetch strategy. Would resolve all fields.",
+      "expected_evidence": [
+        "products_categories",
+        "headquarters",
+        "drone_supply_chain_role",
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=failed, page_class=homepage; error: net::ERR_CERT_AUTHORITY_INVALID",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://sentera.com",
+      "reason": "Sentera's primary corporate domain (senterasensors.com may be a redirect alias); fetching this would yield homepage content for all profile fields.",
+      "expected_evidence": [
+        "products_categories",
+        "headquarters",
+        "drone_supply_chain_role",
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "guessed \u2014 known alternate domain for this vendor",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://sentera.com/sensors",
+      "reason": "Would list Sentera's sensor/camera product line (ISR payloads) to confirm products and categories.",
+      "expected_evidence": [
+        "products_categories",
+        "drone_supply_chain_role",
+        "products",
+        "readiness"
+      ],
+      "source_hint": "guessed",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://sentera.com/about",
+      "reason": "Would provide headquarters location and company background.",
+      "expected_evidence": [
+        "headquarters",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "guessed",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://sentera.com/compliance",
+      "reason": "Would confirm or refute NDAA and Blue UAS compliance claims.",
+      "expected_evidence": [
+        "ndaa",
+        "blue_uas"
+      ],
+      "source_hint": "guessed",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "needs_more_fetches",
+  "tagline": "Sentera develops precision agriculture and geospatial intelligence sensors and software for uncrewed systems. Public evidence on their unmanned-systems role, NDAA/Blue UAS status, and specific platform integrations is sparse; company positioning and product details require direct inquiry.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 4,
+    "total_cost_usd": 0.07050505,
+    "created_at": "2026-05-04T06:07:13+00:00",
+    "extract_version": "0.1.0"
+  }
+}

@@ -1,0 +1,419 @@
+{
+  "target_id": "navmar-applied-sciences-corporation",
+  "run_id": "canonical",
+  "display_name": "Navmar Applied Sciences Corporation",
+  "homepage_url": "https://www.nasc.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/navmar-applied-sciences-corporation/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "airframes",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 7,
+            "line_end": 11,
+            "url": "https://www.nasc.com",
+            "page_class": "homepage",
+            "snippet": "    *   *   *   [UAV Systems](#)\n                *   [The NASC TRACER\u2122](https://www.nasc.com/nasc-tracer/)\n                *   [The NASC Teros\u2122](https://www.nasc.com/nasc-teros/)\n                *   [The NASC TigerShark-XP\u2122](https://www.nasc.com/nasc-tigershark-xp/)\n                *   [The NASC ArcticShark\u2122](https://www.nasc.com/the-nasc-arcticshark/)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0097",
+            "line_start": 60,
+            "line_end": 60,
+            "url": "https://www.nasc.com/unmanned-aircraft-systems",
+            "page_class": "capability",
+            "snippet": "Seeing the need for specialized equipment in UAS operations, we subsequently expanded our offerings to include Ground Control Stations, Mission Support Equipment, and Flight Software. From our start in 2003, NASC has proudly grown into a full-service provider of UAS solutions for the Department of Defense, academia, and industry."
+          }
+        ],
+        "notes": "NASC designs and manufactures multiple complete fixed-wing UAV platforms: TigerShark-XP, Teros, TRACER, ArcticShark."
+      },
+      {
+        "category": "ground_segment",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0036",
+            "line_start": 50,
+            "line_end": 50,
+            "url": "https://www.nasc.com/ground-control-stations-equipment",
+            "page_class": "capability",
+            "snippet": "Ground Control Stations and Equipment"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0036",
+            "line_start": 62,
+            "line_end": 62,
+            "url": "https://www.nasc.com/ground-control-stations-equipment",
+            "page_class": "capability",
+            "snippet": "Mobile Operations Center"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0036",
+            "line_start": 93,
+            "line_end": 93,
+            "url": "https://www.nasc.com/ground-control-stations-equipment",
+            "page_class": "capability",
+            "snippet": "Portable Operations Center"
+          }
+        ],
+        "notes": "NASC manufactures and sells UAV Ground Control Stations: Mobile Operations Center (MOC) and Portable Operations Center (POC)."
+      },
+      {
+        "category": "flight_and_vehicle_control",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 22,
+            "line_end": 25,
+            "url": "https://www.nasc.com",
+            "page_class": "homepage",
+            "snippet": "        *   *   [Flight Software](/flight-software/)\n                *   [EFIS](/flight-software/#electronic-flight-instrument-systems)\n                *   [HUD](/flight-software/#heads-up-display)\n                *   [Antenna Tracking](/flight-software/#antenna-tracking-software)"
+          }
+        ],
+        "notes": "NASC develops and sells UAS flight software products: EFIS, HUD, and Antenna Tracking software."
+      },
+      {
+        "category": "test_and_measurement",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0096",
+            "line_start": 106,
+            "line_end": 106,
+            "url": "https://www.nasc.com/uas-technology-services",
+            "page_class": "capability",
+            "snippet": "UAS Flight Test Facility"
+          }
+        ],
+        "notes": "NASC operates a UAS Flight Operations and Training Center at Griffiss International Airport (FAA-designated test site), offered to government, academic, and commercial customers for UAS R&D, testing, and evaluation."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "UAV platform product pages (nasc-teros, nasc-tigershark-xp, nasc-tracer, the-nasc-arcticshark) were skipped in crawl; secondary categories may be incomplete."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Ivyland",
+      "state_or_province": "Pennsylvania",
+      "country": "United States",
+      "address": "4 Ivybrook Boulevard, Ivyland, PA 18974"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0026",
+        "line_start": 69,
+        "line_end": 73,
+        "url": "https://www.nasc.com/contact-us",
+        "page_class": "contact",
+        "snippet": "**NASC Headquarters** **Unmanned Aircraft Systems\n****Special Projects Facility**\n4 Ivybrook Boulevard\nIvyland, PA\u00a0 18974\nPhone:\u00a0[215-675-4900](tel:1-215-675-4900)"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "oem",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0097",
+        "line_start": 60,
+        "line_end": 60,
+        "url": "https://www.nasc.com/unmanned-aircraft-systems",
+        "page_class": "capability",
+        "snippet": "Seeing the need for specialized equipment in UAS operations, we subsequently expanded our offerings to include Ground Control Stations, Mission Support Equipment, and Flight Software. From our start in 2003, NASC has proudly grown into a full-service provider of UAS solutions for the Department of Defense, academia, and industry."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 7,
+        "line_end": 11,
+        "url": "https://www.nasc.com",
+        "page_class": "homepage",
+        "snippet": "    *   *   *   [UAV Systems](#)\n                *   [The NASC TRACER\u2122](https://www.nasc.com/nasc-tracer/)\n                *   [The NASC Teros\u2122](https://www.nasc.com/nasc-teros/)\n                *   [The NASC TigerShark-XP\u2122](https://www.nasc.com/nasc-tigershark-xp/)\n                *   [The NASC ArcticShark\u2122](https://www.nasc.com/the-nasc-arcticshark/)"
+      }
+    ],
+    "notes": "NASC designs, manufactures, and supports multiple complete UAV platforms (TigerShark-XP, Teros, TRACER, ArcticShark) sold to DoD, academia, and commercial customers."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "NASC TigerShark-XP\u2122",
+        "product_type": "fixed-wing Group 3 UAV",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 10,
+            "line_end": 10,
+            "url": "https://www.nasc.com",
+            "page_class": "homepage",
+            "snippet": "                *   [The NASC TigerShark-XP\u2122](https://www.nasc.com/nasc-tigershark-xp/)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0096",
+            "line_start": 124,
+            "line_end": 124,
+            "url": "https://www.nasc.com/uas-technology-services",
+            "page_class": "capability",
+            "snippet": "The TigerShark-XP\u2122 from NASC is a proven, fixed-wing, Group 3 Unmanned Aerial Vehicle that has performed without fail through thousands of sorties."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "NASC Teros\u2122",
+        "product_type": "fixed-wing UAV",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 9,
+            "line_end": 9,
+            "url": "https://www.nasc.com",
+            "page_class": "homepage",
+            "snippet": "                *   [The NASC Teros\u2122](https://www.nasc.com/nasc-teros/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "NASC TRACER\u2122",
+        "product_type": "jet UAV",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 8,
+            "line_end": 8,
+            "url": "https://www.nasc.com",
+            "page_class": "homepage",
+            "snippet": "                *   [The NASC TRACER\u2122](https://www.nasc.com/nasc-tracer/)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 90,
+            "line_end": 90,
+            "url": "https://www.nasc.com",
+            "page_class": "homepage",
+            "snippet": "NASC unveiled its newest Unmanned Aerial Vehicle, The TRACER\u2122, at AUVSI XPONENTIAL 2022. Read more about this multi-mission, jet Unmanned Aircraft System **[here](/nasc-introduces-low-cost-tracer-unmanned-aerial-vehicle/)**."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "NASC ArcticShark\u2122",
+        "product_type": "UAV platform",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 11,
+            "line_end": 11,
+            "url": "https://www.nasc.com",
+            "page_class": "homepage",
+            "snippet": "                *   [The NASC ArcticShark\u2122](https://www.nasc.com/the-nasc-arcticshark/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Mobile Operations Center (MOC)",
+        "product_type": "UAV ground control station / field deployable command center",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0036",
+            "line_start": 62,
+            "line_end": 62,
+            "url": "https://www.nasc.com/ground-control-stations-equipment",
+            "page_class": "capability",
+            "snippet": "Mobile Operations Center"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Portable Operations Center (POC)",
+        "product_type": "portable UAV ground control station",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0036",
+            "line_start": 93,
+            "line_end": 93,
+            "url": "https://www.nasc.com/ground-control-stations-equipment",
+            "page_class": "capability",
+            "snippet": "Portable Operations Center"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "NASC EFIS",
+        "product_type": "Electronic Flight Instrument System (software)",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 23,
+            "line_end": 23,
+            "url": "https://www.nasc.com",
+            "page_class": "homepage",
+            "snippet": "                *   [EFIS](/flight-software/#electronic-flight-instrument-systems)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "NASC HUD",
+        "product_type": "Heads-Up Display (software)",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 24,
+            "line_end": 24,
+            "url": "https://www.nasc.com",
+            "page_class": "homepage",
+            "snippet": "                *   [HUD](/flight-software/#heads-up-display)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Individual UAV product pages (nasc-tigershark-xp, nasc-teros, nasc-tracer, the-nasc-arcticshark) were skipped; additional product specs may be available on those pages."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0048",
+        "line_start": 61,
+        "line_end": 61,
+        "url": "https://www.nasc.com/new-tigershark-unmanned-aircraft-expands-capabilities-of-msus-raspet-flight-research-laboratory",
+        "page_class": "news",
+        "snippet": "STARKVILLE, Miss.\u2014Mississippi State University\u2019s Raspet Flight Research Laboratory is expanding it\u2019s vast unmanned aerial systems research and support capabilities with the acquisition of two of the latest TigerShark XP3 aircraft."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0096",
+        "line_start": 124,
+        "line_end": 124,
+        "url": "https://www.nasc.com/uas-technology-services",
+        "page_class": "capability",
+        "snippet": "The TigerShark-XP\u2122 from NASC is a proven, fixed-wing, Group 3 Unmanned Aerial Vehicle that has performed without fail through thousands of sorties."
+      }
+    ],
+    "notes": "Multiple UAV platforms actively sold to external customers (MSU Raspet purchased two TigerShark XP3 for ~$2M; GTRI acquired two TigerSharks). Site references 'thousands of sorties' and includes Aerospace Manufacturing & Production as a listed service."
+  },
+  "unresolved_questions": [
+    "NDAA Section 848/889 compliance status not disclosed on site",
+    "Blue UAS clearance status not mentioned anywhere in corpus",
+    "Individual UAV product pages (TigerShark-XP, Teros, TRACER, ArcticShark) were skipped \u2014 detailed specifications unavailable"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.nasc.com/nasc-tigershark-xp",
+      "reason": "Primary product page for TigerShark-XP UAV \u2014 would provide detailed specifications, payload capacity, and production indicators to strengthen airframes category and OEM role.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "readiness",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.nasc.com/nasc-teros",
+      "reason": "Primary product page for Teros UAV \u2014 would provide detailed specs confirming named UAV product line.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.nasc.com/nasc-tracer",
+      "reason": "Primary product page for TRACER jet UAV \u2014 would provide specifications and confirm production status for newest platform.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.nasc.com/the-nasc-arcticshark",
+      "reason": "Product page for ArcticShark UAV \u2014 would confirm platform type, mission profile, and production status.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "tagline": "Designs and manufactures tactical unmanned aircraft (TigerShark-XP, Teros, TRACER, ArcticShark) alongside ground control stations and flight-software systems. Founded 1977; operates in production. NDAA and Blue UAS certification status unknown. Public evidence of operational deployment in multiple theaters; limited detail on current prime contracts or modernization roadmap.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 22,
+    "total_cost_usd": 0.7427550500000001,
+    "created_at": "2026-05-04T04:31:45+00:00",
+    "extract_version": "0.1.0"
+  }
+}

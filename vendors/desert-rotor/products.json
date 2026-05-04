@@ -1,0 +1,407 @@
+{
+  "target_id": "desert-rotor",
+  "run_id": "canonical",
+  "display_name": "Desert Rotor",
+  "homepage_url": "https://desertrotor.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/desert-rotor/website",
+  "products": [
+    {
+      "name": "MIRA X HOTAS",
+      "category": "ground_segment",
+      "descriptor": "Portable HOTAS ground control station with 19\" HD widescreen",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0062",
+          "line_start": 1,
+          "line_end": 1,
+          "url": "https://desertrotor.com/product/gcs",
+          "page_class": "product",
+          "snippet": "MIRA X HOTAS (GCS) \u2013 Desert Rotor"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0062",
+          "line_start": 30,
+          "line_end": 30,
+          "url": "https://desertrotor.com/product/gcs",
+          "page_class": "product",
+          "snippet": "**Hands On Throttle And Stick (HOTAS) Layout:** MIRA X\u2019s HOTAS layout offers intuitive, hands-on control for quick access to essential functions. This ergonomic design enhances responsiveness, giving operators the precision needed for efficient mission management."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0062",
+          "line_start": 26,
+          "line_end": 26,
+          "url": "https://desertrotor.com/product/gcs",
+          "page_class": "product",
+          "snippet": "![](https://desertrotor.com/wp-content/uploads/2024/02/Made_In_USA_Tag.png \"Made_In_USA_Tag\")"
+        }
+      ],
+      "notes": "Made in USA badge on product page; no explicit NDAA claim."
+    },
+    {
+      "name": "COMMAND XD HOTAS",
+      "category": "ground_segment",
+      "descriptor": "Rackmount/command-center HOTAS GCS for vehicles and command posts",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0057",
+          "line_start": 34,
+          "line_end": 35,
+          "url": "https://desertrotor.com/product/command-ground-control-station",
+          "page_class": "product",
+          "snippet": "COMMAND XD, Next-Generation GCS Command Center Platform by Desert Rotor\n(Not limited to the below features)\\-Includes all new GCS Smartview Touch HUD Interface"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0057",
+          "line_start": 39,
+          "line_end": 39,
+          "url": "https://desertrotor.com/product/command-ground-control-station",
+          "page_class": "product",
+          "snippet": "![](https://desertrotor.com/wp-content/uploads/2024/02/Made_In_USA_Tag.png \"Made_In_USA_Tag\")"
+        }
+      ],
+      "notes": "Made in USA badge on product page; no explicit NDAA claim."
+    },
+    {
+      "name": "FENNEC XS",
+      "category": "ground_segment",
+      "descriptor": "Compact handheld UAV GCS under development",
+      "granularity": "sku",
+      "readiness": "prototype",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0060",
+          "line_start": 26,
+          "line_end": 28,
+          "url": "https://desertrotor.com/product/fennec-xs-gcs",
+          "page_class": "product",
+          "snippet": "UNDER DEVELOPMENT!\nULTRA POWERFUL HANDHELD GCS.\nFENNEC XS, GCS Handheld Platform by Desert Rotor"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0060",
+          "line_start": 30,
+          "line_end": 30,
+          "url": "https://desertrotor.com/product/fennec-xs-gcs",
+          "page_class": "product",
+          "snippet": "Coming soon!"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0060",
+          "line_start": 33,
+          "line_end": 33,
+          "url": "https://desertrotor.com/product/fennec-xs-gcs",
+          "page_class": "product",
+          "snippet": "![](https://desertrotor.com/wp-content/uploads/2024/02/Made_In_USA_Tag.png \"Made_In_USA_Tag\")"
+        }
+      ],
+      "notes": "Nav menu labels it '[In Development]'; prototype imagery shown with disclaimer that production version will differ. Made in USA badge present."
+    },
+    {
+      "name": "GCS PanoView",
+      "category": "ground_segment",
+      "descriptor": "15.6\" anti-glare panoramic IPS display add-on for MIRA X GCS",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0061",
+          "line_start": 41,
+          "line_end": 41,
+          "url": "https://desertrotor.com/product/field-accessories",
+          "page_class": "product",
+          "snippet": "Go wide with our 15.6\u201d mounted panoview anti-glare hd monitors!"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0061",
+          "line_start": 43,
+          "line_end": 43,
+          "url": "https://desertrotor.com/product/field-accessories",
+          "page_class": "product",
+          "snippet": "\u00b7 60hz\u00a0 \u00b7\u00a0 1920 x 1080 \u00b7\u00a0 ips lcd \u00b7 mini hdmi / usb c."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "GCS Field Stand",
+      "category": "ground_segment",
+      "descriptor": "Collapsible rugged field stand custom-designed for MIRA X",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0061",
+          "line_start": 27,
+          "line_end": 27,
+          "url": "https://desertrotor.com/product/field-accessories",
+          "page_class": "product",
+          "snippet": "\u00a0\u2013 COLLAPSIBLE RUGGED FIELD STAND \u2013"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0061",
+          "line_start": 30,
+          "line_end": 30,
+          "url": "https://desertrotor.com/product/field-accessories",
+          "page_class": "product",
+          "snippet": "Sturdy, light, and tough, our custom fully collapsible field stand is custom designed for MIRA X for heavy duty quick deployment in the most remote and rugged locations."
+        }
+      ],
+      "notes": "Available in Desert Gold and Midnight Black."
+    },
+    {
+      "name": "Standard 6,600 mAh Li-Ion Battery",
+      "category": "power_systems",
+      "descriptor": "14.8 V 6.6 Ah Li-Ion GCS battery pack, ~2\u20133 hr runtime",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0056",
+          "line_start": 30,
+          "line_end": 30,
+          "url": "https://desertrotor.com/product/batteries",
+          "page_class": "product",
+          "snippet": "Standard 6,600 mAh Li-Ion Battery"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0056",
+          "line_start": 32,
+          "line_end": 35,
+          "url": "https://desertrotor.com/product/batteries",
+          "page_class": "product",
+          "snippet": "Our standard GCS Battery. Estimated 2-3 hour runtime depending on GCS configuration / radios.\n*   **Battery**: Li-ion Battery: 14.8V 6.6Ah (97.68Wh, 6A rate)\n*   **Voltage**: 14.8V (working) 16.8V ( peak) 11.0V ( cut-off)\n*   **Capacity**: 6600 mAh min. (97.68 wh)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Enhanced 10,500 mAh Li-Ion Battery",
+      "category": "power_systems",
+      "descriptor": "14.8 V 10.5 Ah Li-Ion GCS battery pack for extended runtime",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0056",
+          "line_start": 37,
+          "line_end": 40,
+          "url": "https://desertrotor.com/product/batteries",
+          "page_class": "product",
+          "snippet": "Enhanced 10,500 mAh Li-Ion Battery\n* * *\nFor further increased GCS runtimes, larger 10.5 Ah Li-Ion battery packs can be purchased. These packs are the same size as our 6.6 Ah packs and will fit the existing battery mounts.\n*   **Battery**: Li-ion Battery: 14.8V 10.5 Ah (151.2 Wh, 10A rate)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "BKPK Modular Batteries",
+      "category": "power_systems",
+      "descriptor": "IP67 MIL-STD-810H modular ~8 kWh battery system for GCS field ops",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0056",
+          "line_start": 62,
+          "line_end": 62,
+          "url": "https://desertrotor.com/product/batteries",
+          "page_class": "product",
+          "snippet": "BKPK delivers a resilient, composable energy platform purpose-built for the evolving demands of modern data centers, utilities and critical infrastructure."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0056",
+          "line_start": 65,
+          "line_end": 65,
+          "url": "https://desertrotor.com/product/batteries",
+          "page_class": "product",
+          "snippet": "BKPK modular batteries can be used for mobile power on Desert Rotor ground control stations, enabling longer runtime and field operations in remote or power-constrained environments than traditional batteries."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0056",
+          "line_start": 66,
+          "line_end": 70,
+          "url": "https://desertrotor.com/product/batteries",
+          "page_class": "product",
+          "snippet": "*   **Energy storage:** ~8 kWh total capacity (modular battery packs)\n*   **Max power output:** ~14-15 kW peak delivery\n*   **Maximum current:** Up to ~60 A output\n*   **Cycle life:** Designed for ~4,000 cycles (~10+ years)\n*   **Ruggedness:** IP67 rated and built to **MIL-STD-810H** for waterproof and drop-proof performance"
+        }
+      ],
+      "notes": "Third-party product (BKPK brand) resold/integrated by Desert Rotor; listed as selectable battery option in GCS configurator."
+    },
+    {
+      "name": "Tenergy T320 Portable Power Station",
+      "category": "power_systems",
+      "descriptor": "300 Wh portable power bank for extended MIRA X operation",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0056",
+          "line_start": 48,
+          "line_end": 48,
+          "url": "https://desertrotor.com/product/batteries",
+          "page_class": "product",
+          "snippet": "Tenergy T320 Portable Power Station (10,250mAh Battery)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0056",
+          "line_start": 50,
+          "line_end": 50,
+          "url": "https://desertrotor.com/product/batteries",
+          "page_class": "product",
+          "snippet": "To achieve significantly longer GCS run times the Tenergy T320 Power Bank can be used to power MIRA X. The increased 10,250mAh will power MIRA X for an estimated 3-5 hours depending on GCS configuration."
+        }
+      ],
+      "notes": "Third-party product (Tenergy brand) sold as GCS power accessory."
+    },
+    {
+      "name": "Tenergy T600 Portable Power Station",
+      "category": "power_systems",
+      "descriptor": "600 Wh LiFePO4 portable power bank for long-duration GCS operation",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0056",
+          "line_start": 55,
+          "line_end": 55,
+          "url": "https://desertrotor.com/product/batteries",
+          "page_class": "product",
+          "snippet": "Tenergy T600 Portable Power Station (40,500mAh Battery)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0056",
+          "line_start": 57,
+          "line_end": 57,
+          "url": "https://desertrotor.com/product/batteries",
+          "page_class": "product",
+          "snippet": "To achieve significantly longer GCS run times the Tenergy T600 Power Bank can be used to power MIRA X. The increased 40,500mAh will power MIRA X for an estimated 6-9 hours depending on GCS configuration."
+        }
+      ],
+      "notes": "Third-party product (Tenergy brand) sold as GCS power accessory."
+    },
+    {
+      "name": "OnLogic HX401 Embedded PC",
+      "category": "ground_segment",
+      "descriptor": "Fanless industrial embedded PC (Core i5/i7 Alder Lake) for GCS integration",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0059",
+          "line_start": 39,
+          "line_end": 47,
+          "url": "https://desertrotor.com/product/embedded-pc-configurations",
+          "page_class": "product",
+          "snippet": "**OnLogic HX401 Intel Alder Lake Core i5**\n**Recommended Applications**\n\\-Analog / Digital Radio Communications\n\\-Post Data Processing\n\\-Live Video / Sensors\n* * *\n**Processor**\nIntel Alder Lake 28W i5-1250PE\n* * *"
+        }
+      ],
+      "notes": "Third-party product (OnLogic brand) sold by Desert Rotor as GCS embedded PC option; i5 and i7 CPU variants."
+    },
+    {
+      "name": "Simply NUC Jean Canyon",
+      "category": "ground_segment",
+      "descriptor": "High-performance NUC PC with NVIDIA RTX discrete GPU for demanding GCS workloads",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0059",
+          "line_start": 80,
+          "line_end": 89,
+          "url": "https://desertrotor.com/product/embedded-pc-configurations",
+          "page_class": "product",
+          "snippet": "Jean Canyon Ultra 7\n**Simply NUC Jean Canyon \u2013 Intel Core\u2122 Ultra 9****![](https://desertrotor.com/wp-content/uploads/2018/05/Scorpion-Canyon.png)**\n**Processor**\nIntel Core\u2122 Ultra 7 255-HX\n* * *\n**Graphics**\nNVIDIA GeForce RTX 5060 w/ 8GB\n* * *\n**Memory**\nDual DDR5 | 32GB Primary (96GB Max) | Up to 6400MHz"
+        }
+      ],
+      "notes": "Third-party product (Simply NUC brand) sold by Desert Rotor; Intel Core Ultra 7 255-HX and Ultra 9 275-HX variants."
+    },
+    {
+      "name": "OneXGPU",
+      "category": "ground_segment",
+      "descriptor": "External AMD Radeon RX 7600M XT eGPU module for OnLogic HX401",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0059",
+          "line_start": 112,
+          "line_end": 114,
+          "url": "https://desertrotor.com/product/embedded-pc-configurations",
+          "page_class": "product",
+          "snippet": "OneXGPU\n**OneXGPU \u2013 AMD Radeon RX 7600M XT EGPU**\n\\[GPU Only \u2013 Must be used with our Onlogic HX401\\]**"
+        }
+      ],
+      "notes": "Third-party eGPU sold by Desert Rotor exclusively paired with OnLogic HX401."
+    }
+  ],
+  "unresolved_questions": [
+    "NDAA Section 848/889 compliance not addressed anywhere on the site for any product; only a Made-in-USA badge appears on the three GCS product pages.",
+    "Blue UAS cleared list status not mentioned for any product.",
+    "Communication links listed on /product/communicationlinks/ (RFD900x, Silvus StreamCaster, Persistent Systems MPU5, DTC BluSDR-6/30, Mobilicom SkyHopper/MCU-30, Doodle Labs, TBS Crossfire, Dragon Link, Triad THPR1006, etc.) appear to be third-party integration options without Desert Rotor SKUs; omitted.",
+    "Antenna products (Airborne Innovations R10/R40 tracking antenna, Optimum Solutions OS-PT series, 2.4 GHz Pepperbox, 2.4 GHz RHCP) are third-party items on the antenna page; omitted.",
+    "GCS Power Supply and Li-Ion EZ-Charger are bundled accessories, not separately purchasable SKUs; omitted.",
+    "93 skipped/failed crawl pages appear to be blog/about/support/shop-pagination; no additional named products expected."
+  ],
+  "fetch_requests": [],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 19,
+    "total_cost_usd": 1.2675154,
+    "created_at": "2026-05-03T01:19:07+00:00",
+    "extract_version": "0.1.0"
+  }
+}

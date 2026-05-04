@@ -1,0 +1,727 @@
+{
+  "target_id": "moog-inc",
+  "run_id": "canonical",
+  "display_name": "Moog Inc.",
+  "homepage_url": "https://www.moog.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/moog-inc/website",
+  "products": [
+    {
+      "name": "Fin Control Actuation Systems (FCAS)",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "Precision missile fin control actuation systems for guided weapons",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0460",
+          "line_start": 182,
+          "line_end": 185,
+          "url": "https://www.moog.com/products/actuators-servoactuators/defense/military-ground-vehicles-actuators.html",
+          "page_class": "product",
+          "snippet": "### Precision Missile Actuation Systems\n![fcas](/products/actuators-servoactuators/defense/_jcr_content/par/fullwidthcontainer_v_1017140698/par/columncontrol_771011/col1/image_1761095957_cop.coreimg.png/1716321534744/fcas-subsystem-blurred.png)\nMoog is a world leader in the design, development, and production of Fin Control Actuation Systems (FCAS).\n[Learn More >](/products/actuators-servoactuators/defense/precision-missile-actuation-systems.html)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "UUV Propulsion Motor",
+      "category": "propulsion_mechanical",
+      "descriptor": "Brushless motor for unmanned underwater vehicle propulsion",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0729",
+          "line_start": 568,
+          "line_end": 571,
+          "url": "https://www.moog.com/products/motors-servomotors/specialty-defense-motors/customizable-ruggedized-military-motors.html",
+          "page_class": "product",
+          "snippet": "](https://www.moog.com/products/motors-servomotors/specialty-defense-motors/brushless-servo-motor-2-in-1-motor.html \"Brushless Servo Motor (2-in-1 Motor)\")[\nUVV Propulsion Motor\n](https://www.moog.com/products/motors-servomotors/specialty-defense-motors/uuv-propulsion-motor.html \"UVV Propulsion Motor\")[\nDirect Drive Brushless DC Frameless Torque Motor"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Propulsion Systems (Spacecraft / eVTOL / UAV)",
+      "category": "propulsion_mechanical",
+      "descriptor": "Chemical, electric, and cold gas propulsion for spacecraft, eVTOL, and UAV",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0818",
+          "line_start": 128,
+          "line_end": 131,
+          "url": "https://www.moog.com/products/propulsion.html",
+          "page_class": "product",
+          "snippet": "](#)\nMoog Inc. is a leading provider of advanced propulsion solutions for a wide range of aerospace and defense applications. Our expertise spans across\u00a0chemical, electric, and cold gas propulsion systems**,**\u00a0and is suited for applications in spacecraft, eVTOL aircraft, and UAVs.\nOur components and systems offer comprehensive solutions to fit our customer's unique specifications.\nPropulsion Applications"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Integrated Motion Assemblies (Gimbals)",
+      "category": "isr_payloads",
+      "descriptor": "Precision gimbal systems for payload stabilization in space, defense, and aerospace",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0656",
+          "line_start": 124,
+          "line_end": 126,
+          "url": "https://www.moog.com/products/gimbals.html",
+          "page_class": "product",
+          "snippet": "Moog gimbal systems deliver unmatched precision, stability, and control. Engineered for mission-critical environments, our gimbals support payloads with exacting accuracy whether tracking satellites in orbit or stabilizing sensors in flight. Explore our specialized solutions designed to meet the rigorous standards of both space exploration and defense operations.\nAdvanced Gimbal Solutions for Space, Defense, and Aerospace Missions\n--------------------------------------------------------------------"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "2-Axis Motor Controllers (MC100D / MC500D / MC1000D)",
+      "category": "propulsion_electronics",
+      "descriptor": "Digital 2-axis brushless motor controllers for 24 V military vehicle turret drives",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0608",
+          "line_start": 124,
+          "line_end": 126,
+          "url": "https://www.moog.com/products/controllers-drives-software/defense-controllers-software/ground-vehicle-controllers/2-axis-motor-controllers-for-24v-military-vehicles.html",
+          "page_class": "news",
+          "snippet": "2-Axis Motor Controllers\n========================\n### For 24V Military Vehicles"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0608",
+          "line_start": 149,
+          "line_end": 151,
+          "url": "https://www.moog.com/products/controllers-drives-software/defense-controllers-software/ground-vehicle-controllers/2-axis-motor-controllers-for-24v-military-vehicles.html",
+          "page_class": "news",
+          "snippet": "### MC100D\nThe smallest controller in the family the MC100D can output 80Apk/axis in a compact, lightweight package. This controller has an\u00a0internal tilt/accelerometer sensor for improved stabilization performance.\n### MC500D"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Customizable Ruggedized Military Motors (D 323 / D 324 / D 325 / D 326 Series)",
+      "category": "propulsion_mechanical",
+      "descriptor": "Ruggedized brushless DC motors for combat vehicle turret control and stabilization",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0729",
+          "line_start": 123,
+          "line_end": 125,
+          "url": "https://www.moog.com/products/motors-servomotors/specialty-defense-motors/customizable-ruggedized-military-motors.html",
+          "page_class": "product",
+          "snippet": "Customizable Ruggedized Military Motors\n=======================================\n![](/products/motors-servomotors/specialty-defense-motors/customizable-ruggedized-military-motors/_jcr_content/par/fullwidthcontainer_v/par/columncontrol/col1/image.coreimg.png/1688061200400/dx-32-700-400.png)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0729",
+          "line_start": 147,
+          "line_end": 153,
+          "url": "https://www.moog.com/products/motors-servomotors/specialty-defense-motors/customizable-ruggedized-military-motors.html",
+          "page_class": "product",
+          "snippet": "### **LOW VOLTAGE MOTORS**\nFeatures\nModel D 323\nModel D 324\nModel D 325\nModel D 326\nModel D 326HT"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Genesys Avionics Suite",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "Comprehensive cockpit avionics suite for fixed and rotary-wing aircraft",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0531",
+          "line_start": 150,
+          "line_end": 152,
+          "url": "https://www.moog.com/products/avionics.html",
+          "page_class": "product",
+          "snippet": "### Genesys Avionics Suite\n#### The Genesys Avionics SuiteTM provides improved operational capabilities to fixed and rotary-wing aircraft through a complete, comprehensive, and affordable cockpit system.\n#### [Learn More](/products/avionics/aircraft-avionics/genesys-avionics-suite.html)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Defense Actuators (Multi-Purpose / Electromechanical / Electrohydrostatic)",
+      "category": "mechanical_subsystems",
+      "descriptor": "Electrohydraulic, electromechanical, and electrohydrostatic actuators for defense applications",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0460",
+          "line_start": 136,
+          "line_end": 137,
+          "url": "https://www.moog.com/products/actuators-servoactuators/defense/military-ground-vehicles-actuators.html",
+          "page_class": "product",
+          "snippet": "Moog is the premier supplier of electrohydraulic, electromechanical, electropneumatic, and electrohydrostatic actuators for the defense industry. Moog provides the broadest range of actuation solutions in the industry, from fractional horsepower actuators for tactical missiles\u00a0to over 100 horsepower actuators for submarines.\n[CONTACT OUR EXPERTS >](/contact-us/markets.defense.html)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Fiber Optic Rotary Joints (FORJs)",
+      "category": "communications",
+      "descriptor": "Single and multi-channel fiber optic rotary joints for transmitting optical signals across rotating interfaces",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0645",
+          "line_start": 121,
+          "line_end": 125,
+          "url": "https://www.moog.com/products/fiber-optic-rotary-joints.html",
+          "page_class": "product",
+          "snippet": "Fiber Optic Rotary Joints\n=========================\n![Slide Background](/content/dam/sites/moog/images/Products/Fiber_Optic_Devices/FORJ/forj-288-carousel-1.jpg)\n![Slide Background](/content/dam/sites/moog/images/Products/Fiber_Optic_Devices/FORJ/forj-h18-carousel-1.jpg)\n![Slide Background](/content/dam/sites/moog/images/Products/Fiber_Optic_Devices/FORJ/forj-292ra-carousel-1.jpg)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Slip Rings (Aerospace / Military)",
+      "category": "mechanical_subsystems",
+      "descriptor": "Electrical slip rings for transmitting power and signals across rotating interfaces in aerospace and military platforms",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0656",
+          "line_start": 142,
+          "line_end": 143,
+          "url": "https://www.moog.com/products/gimbals.html",
+          "page_class": "product",
+          "snippet": "Slip Rings\n](https://www.moog.com/products/slip-rings/aerospace-military-slip-rings.html \"Slip Rings\")["
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0645",
+          "line_start": 195,
+          "line_end": 196,
+          "url": "https://www.moog.com/products/fiber-optic-rotary-joints.html",
+          "page_class": "product",
+          "snippet": "Slip Rings\n](https://www.moog.com/products/slip-rings.html \"Slip Rings\")"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Aircraft Controllers and Software",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "Flight control computers, electronics, and software for pilot or automated aircraft control",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0596",
+          "line_start": 161,
+          "line_end": 164,
+          "url": "https://www.moog.com/products/controllers-drives-software.html",
+          "page_class": "product",
+          "snippet": "### Aircraft Controllers and Software\n![Product Images for PP (1000\u00d7 700 px) - 52](/products/controllers-drives-software/_jcr_content/par/fullwidthcontainer_v/par/fullwidthcontainer_v/par/columncontrol_copy_c/col1/columncontrol/col1/image_569955679.coreimg.png/1746554101183/mq25-acu-7x4.png)\nMoog's aircraft controllers and software serve as critical electronic systems and components that manage and control an aircraft's flight and various functions.\u00a0These systems include flight control computers, electronics, and software that enable pilot or automated control of the aircraft.\n["
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Turreted Weapon Systems (Turret Stabilization and Fire Control)",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "Precision turret stabilization, fire control, and ammunition handling systems for combat vehicles",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0460",
+          "line_start": 153,
+          "line_end": 154,
+          "url": "https://www.moog.com/products/actuators-servoactuators/defense/military-ground-vehicles-actuators.html",
+          "page_class": "product",
+          "snippet": "We provide expertise in precision turret control, stabilization, and ammunition handling. We design and manufacture innovative multi-axis controllers, linear and rotary elevation actuators, and rotary azimuth actuators.\n[Learn More >](/products/turreted-weapon-systems/turret-stabilization-fire-control.html)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Cascade Single Board Computer",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "Radiation-hardened 3U SpaceVPX single board computer for space avionics processing",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0531",
+          "line_start": 153,
+          "line_end": 153,
+          "url": "https://www.moog.com/products/avionics.html",
+          "page_class": "product",
+          "snippet": "### Cascade Single Board Computer"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0531",
+          "line_start": 125,
+          "line_end": 125,
+          "url": "https://www.moog.com/products/avionics.html",
+          "page_class": "product",
+          "snippet": "[![Slide Background](/content/dam/sites/moog/images/Products/space_avioncs_products/cascade-single-board-computer.png)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Silencer\u00ae Series Servo Drive Electronics",
+      "category": "propulsion_electronics",
+      "descriptor": "Compact brushless motor controllers in varied voltage and current ratings for servo drive applications",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0596",
+          "line_start": 149,
+          "line_end": 150,
+          "url": "https://www.moog.com/products/controllers-drives-software.html",
+          "page_class": "product",
+          "snippet": "Silencer\u00ae brushless controllers are available in a variety of voltage and current ratings. Their compact packaging minimizes space demands.\n["
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Servo Valves and Proportional Valves",
+      "category": "mechanical_subsystems",
+      "descriptor": "Hydraulic servo and proportional control valve product line for aerospace and defense",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0005",
+          "line_start": 19,
+          "line_end": 19,
+          "url": "https://www.moog.com",
+          "page_class": "homepage",
+          "snippet": "    *   [Servo Valves and Proportional Valves](/products/servovalves-servo-proportional-valves.html)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Third Generation Weapon Stores Management System (SMS)",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "MOSA-compliant COTS airborne weapons control and fire-control system integrating with aircraft sensors",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0431",
+          "line_start": 136,
+          "line_end": 137,
+          "url": "https://www.moog.com/markets/air-defense.html",
+          "page_class": "capability",
+          "snippet": "### **Weapon Stores Management**\nThe Third Generation Weapon Stores Management System (SMS) is a Modular Open System Approach (MOSA) compliant COTS weapons control system that seamlessly integrates with aircraft sensors and mission management systems to provide the crew with a superior fire-control solution."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Lightweight Dual Rail Launcher (DRL) with Integrated Hellfire Interface Unit (HIU)",
+      "category": "munitions",
+      "descriptor": "46 lb MIL-STD-1760 missile launcher rail for HELLFIRE and advanced weapon families on UAS and ISR platforms",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0431",
+          "line_start": 167,
+          "line_end": 168,
+          "url": "https://www.moog.com/markets/air-defense.html",
+          "page_class": "capability",
+          "snippet": "### Lightweight Dual Rail Launcher\n#### with Integrated Hellfire Interface Unit (HIU)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Multi-Purpose Rotary Actuators and Servoactuators",
+      "category": "mechanical_subsystems",
+      "descriptor": "Brush DC motor rotary actuators and servoactuators for UAV, RPV, target drones, and military aircraft",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0460",
+          "line_start": 122,
+          "line_end": 123,
+          "url": "https://www.moog.com/products/actuators-servoactuators/multi-purpose.html",
+          "page_class": "product",
+          "snippet": "Multi-Purpose Actuators and Servoactuators\n=========================================="
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0460",
+          "line_start": 133,
+          "line_end": 133,
+          "url": "https://www.moog.com/products/actuators-servoactuators/multi-purpose.html",
+          "page_class": "product",
+          "snippet": "Rotary Actuators"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Multi-Purpose Linear Actuators - Fractional Horsepower",
+      "category": "mechanical_subsystems",
+      "descriptor": "Fractional horsepower linear actuators translating rotary to linear motion for UAV and utility aircraft",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0460",
+          "line_start": 139,
+          "line_end": 139,
+          "url": "https://www.moog.com/products/actuators-servoactuators/multi-purpose.html",
+          "page_class": "product",
+          "snippet": "Linear Actuators - Fractional Horsepower"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0460",
+          "line_start": 143,
+          "line_end": 143,
+          "url": "https://www.moog.com/products/actuators-servoactuators/multi-purpose.html",
+          "page_class": "product",
+          "snippet": "Linear actuators\u00a0translate rotary motion into linear motion. Typically, they have \u00a0similar features and applications as rotary units."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Precision Missile Actuation Systems / Fin Control Actuation Systems (FCAS)",
+      "category": "mechanical_subsystems",
+      "descriptor": "Fin control actuation systems for tactical, hypersonic, and ballistic missile steering",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0844",
+          "line_start": 182,
+          "line_end": 182,
+          "url": "https://www.moog.com/products/actuators-servoactuators/defense/military-ground-vehicles-actuators.html",
+          "page_class": "product",
+          "snippet": "### Precision Missile Actuation Systems"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0844",
+          "line_start": 184,
+          "line_end": 184,
+          "url": "https://www.moog.com/products/actuators-servoactuators/defense/military-ground-vehicles-actuators.html",
+          "page_class": "product",
+          "snippet": "Moog is a world leader in the design, development, and production of Fin Control Actuation Systems (FCAS)."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Turreted Weapon Systems",
+      "category": "munitions",
+      "descriptor": "Precision turret control, stabilization, and fire control systems for combat vehicles",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0005",
+          "line_start": 21,
+          "line_end": 21,
+          "url": "https://www.moog.com",
+          "page_class": "homepage",
+          "snippet": "    *   [Turreted Weapon Systems](/products/turreted-weapon-systems.html)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0844",
+          "line_start": 151,
+          "line_end": 154,
+          "url": "https://www.moog.com/products/actuators-servoactuators/defense/military-ground-vehicles-actuators.html",
+          "page_class": "product",
+          "snippet": "### Land Actuation Systems\n![](/products/actuators-servoactuators/defense/_jcr_content/par/fullwidthcontainer_v_1324641837/par/columncontrol_771011_1543342169/col1/image_601807999.coreimg.png/1704296682296/turret-stabilization-prdct-grey.png)\nWe provide expertise in precision turret control, stabilization, and ammunition handling. We design and manufacture innovative multi-axis controllers, linear and rotary elevation actuators, and rotary azimuth actuators.\n[Learn More >](/products/turreted-weapon-systems/turret-stabilization-fire-control.html)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Slip Rings",
+      "category": "mechanical_subsystems",
+      "descriptor": "Rotary electrical signal and power transmission slip ring assemblies",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0005",
+          "line_start": 20,
+          "line_end": 20,
+          "url": "https://www.moog.com",
+          "page_class": "homepage",
+          "snippet": "    *   [Slip Rings](/products/slip-rings.html)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Motors and Servomotors",
+      "category": "propulsion_mechanical",
+      "descriptor": "Precision servo and motion control motor product family for aerospace and defense",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0005",
+          "line_start": 16,
+          "line_end": 16,
+          "url": "https://www.moog.com",
+          "page_class": "homepage",
+          "snippet": "    *   [Motors & Servomotors](/products/motors-servomotors.html)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Land Electromechanical Rotary Actuators",
+      "category": "mechanical_subsystems",
+      "descriptor": "EM rotary actuators for combat vehicle turret azimuth drives and heavy payload slew applications",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0844",
+          "line_start": 143,
+          "line_end": 143,
+          "url": "https://www.moog.com/products/actuators-servoactuators/defense/military-ground-vehicles-actuators.html",
+          "page_class": "product",
+          "snippet": "### Land Electromechanical Rotary Actuators"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0844",
+          "line_start": 145,
+          "line_end": 145,
+          "url": "https://www.moog.com/products/actuators-servoactuators/defense/military-ground-vehicles-actuators.html",
+          "page_class": "product",
+          "snippet": "These actuators are used for new and existing\u00a0combat vehicle platform control applications,\u00a0heavy payloads requiring high slew-to-cue\u00a0capability, and as a power drive unit for larger\u00a0mechanical actuated systems."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Land Electromechanical Linear Actuators",
+      "category": "mechanical_subsystems",
+      "descriptor": "EM linear actuators for main battle tanks, howitzers, and military ground vehicle leveling",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0844",
+          "line_start": 147,
+          "line_end": 147,
+          "url": "https://www.moog.com/products/actuators-servoactuators/defense/military-ground-vehicles-actuators.html",
+          "page_class": "product",
+          "snippet": "### Land Electromechanical Linear Actuators"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0844",
+          "line_start": 149,
+          "line_end": 149,
+          "url": "https://www.moog.com/products/actuators-servoactuators/defense/military-ground-vehicles-actuators.html",
+          "page_class": "product",
+          "snippet": "These actuators are used for modern main\u00a0battle tanks, new combat vehicle platform control\u00a0applications, howitzer gun laying systems,\u00a0elevation of heavy payloads, and for the leveling\u00a0of military ground vehicles such as trailers,\u00a0light trucks, and palleted weapon systems."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Hexapods, Positioning and Motion Systems",
+      "category": "mechanical_subsystems",
+      "descriptor": "Six-DOF hexapod platforms and precision multi-axis positioning systems",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0005",
+          "line_start": 15,
+          "line_end": 15,
+          "url": "https://www.moog.com",
+          "page_class": "homepage",
+          "snippet": "    *   [Hexapods, Positioning & Motion Systems](/products/hexapods-positioning-motion-systems.html)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Space and Missile Propulsion (Launch Vehicle and Missile Propulsion)",
+      "category": "propulsion_mechanical",
+      "descriptor": "Flight-proven propulsion controls and components for launch vehicles and tactical missiles",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0729",
+          "line_start": 122,
+          "line_end": 123,
+          "url": "https://www.moog.com/products/propulsion/space-propulsion.html",
+          "page_class": "product",
+          "snippet": "Space and Missile Propulsion\n============================"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0729",
+          "line_start": 132,
+          "line_end": 133,
+          "url": "https://www.moog.com/products/propulsion/space-propulsion.html",
+          "page_class": "product",
+          "snippet": "Moog is a premier solutions provider for propulsion controls for spacecraft fluids, launch vehicles, and tactical missiles. We provide the largest product offering of flight-proven products to complete all of your mission needs.\n["
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Satellite Buses",
+      "category": "airframes",
+      "descriptor": "Spacecraft bus platforms providing structure and systems for satellite missions",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0005",
+          "line_start": 18,
+          "line_end": 18,
+          "url": "https://www.moog.com",
+          "page_class": "homepage",
+          "snippet": "    *   [Satellite Buses](/products/satellite-buses.html)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Electromechanical Rotary Actuators for Gun/Turret/Radar Drives (Naval Systems)",
+      "category": "mechanical_subsystems",
+      "descriptor": "High-torque direct-drive brushless rotary actuators for naval combat turret weapon pointing and stabilization",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0531",
+          "line_start": 123,
+          "line_end": 125,
+          "url": "https://www.moog.com/products/actuators-servoactuators/defense/gun-turret-drives-for-naval-systems.html",
+          "page_class": "news",
+          "snippet": "Electromechanical Rotary Actuators\n==================================\n### Gun/Turret/Radar Drives for Naval Systems"
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 0,
+    "total_cost_usd": null,
+    "created_at": "2026-05-03T14:07:10+00:00",
+    "extract_version": "0.1.0"
+  }
+}

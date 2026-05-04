@@ -1,0 +1,301 @@
+{
+  "target_id": "cubepilot-pty-ltd",
+  "run_id": "canonical",
+  "display_name": "CubePilot Pty Ltd",
+  "homepage_url": "https://www.cubepilot.org",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/cubepilot-pty-ltd/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "flight_and_vehicle_control",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://www.cubepilot.org",
+            "page_class": "homepage",
+            "snippet": "CubePilot | Autopilot-on-Module | Blue Manufactured in USA | Blue Assembled in USA | Pixhawk Original Team"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 6,
+            "line_end": 6,
+            "url": "https://www.cubepilot.org",
+            "page_class": "homepage",
+            "snippet": "Autopilot-on-Module"
+          }
+        ],
+        "notes": "Autopilot-on-Module is explicitly named as the vendor's headline product category."
+      },
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 19,
+            "line_end": 19,
+            "url": "https://www.cubepilot.org",
+            "page_class": "homepage",
+            "snippet": "Precision RTK at basic GNSS pricing"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 22,
+            "line_end": 22,
+            "url": "https://www.cubepilot.org",
+            "page_class": "homepage",
+            "snippet": "GPS denied position hold"
+          }
+        ],
+        "notes": "Precision RTK GNSS and GPS-denied position hold products referenced on homepage."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Homepage confirms autopilot-on-module as core product and GNSS/navigation as secondary. No product detail pages fetched; category list may be incomplete."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Norlane",
+      "state_or_province": "Victoria",
+      "country": "Australia",
+      "address": "455 Melbourne road Norlane"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 27,
+        "line_end": 27,
+        "url": "https://www.cubepilot.org",
+        "page_class": "homepage",
+        "snippet": "CubePilot Global Pty Ltd. ABN 81 669 668 553. 455 Melbourne road Norlane, Vic, 3214, Australia."
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 1,
+        "line_end": 1,
+        "url": "https://www.cubepilot.org",
+        "page_class": "homepage",
+        "snippet": "CubePilot | Autopilot-on-Module | Blue Manufactured in USA | Blue Assembled in USA | Pixhawk Original Team"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 6,
+        "line_end": 6,
+        "url": "https://www.cubepilot.org",
+        "page_class": "homepage",
+        "snippet": "Autopilot-on-Module"
+      }
+    ],
+    "notes": "Sells autopilot-on-module and GNSS subsystems that integrate into third-party drone platforms; does not appear to sell complete UAS."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Cube",
+        "product_type": "autopilot-on-module",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 13,
+            "line_end": 13,
+            "url": "https://www.cubepilot.org",
+            "page_class": "homepage",
+            "snippet": "Most advanced Cube yet"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 2,
+            "line_end": 3,
+            "url": "https://www.cubepilot.org",
+            "page_class": "homepage",
+            "snippet": "*   Cube\nEcosystem"
+          }
+        ],
+        "notes": "Referenced as 'Most advanced Cube yet'; Cube Ecosystem listed in navigation."
+      },
+      {
+        "name": "RTK GNSS module",
+        "product_type": "RTK GNSS receiver",
+        "confidence": "low",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 19,
+            "line_end": 19,
+            "url": "https://www.cubepilot.org",
+            "page_class": "homepage",
+            "snippet": "Precision RTK at basic GNSS pricing"
+          }
+        ],
+        "notes": "Product name not given; inferred from 'Precision RTK at basic GNSS pricing' homepage teaser."
+      }
+    ],
+    "confidence": "low",
+    "status": "answered",
+    "notes": "Homepage names the Cube product and two other unnamed products by feature; no dedicated product pages were fetched so full product list is incomplete."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 1,
+        "line_end": 1,
+        "url": "https://www.cubepilot.org",
+        "page_class": "homepage",
+        "snippet": "CubePilot | Autopilot-on-Module | Blue Manufactured in USA | Blue Assembled in USA | Pixhawk Original Team"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 11,
+        "line_end": 11,
+        "url": "https://www.cubepilot.org",
+        "page_class": "homepage",
+        "snippet": "Blue Manufactured in USA"
+      }
+    ],
+    "notes": "Site prominently displays 'Blue Manufactured in USA' and 'Blue Assembled in USA' designations (adjacent Blue UAS compliance), but no explicit NDAA Section 848/889 claim is made."
+  },
+  "blue_uas": {
+    "value": "yes",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 1,
+        "line_end": 1,
+        "url": "https://www.cubepilot.org",
+        "page_class": "homepage",
+        "snippet": "CubePilot | Autopilot-on-Module | Blue Manufactured in USA | Blue Assembled in USA | Pixhawk Original Team"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 11,
+        "line_end": 11,
+        "url": "https://www.cubepilot.org",
+        "page_class": "homepage",
+        "snippet": "Blue Manufactured in USA"
+      }
+    ],
+    "notes": "Homepage title and body both display 'Blue Manufactured in USA' and 'Blue Assembled in USA', which are explicit DIU Blue UAS program designations."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 6,
+        "line_end": 6,
+        "url": "https://www.cubepilot.org",
+        "page_class": "homepage",
+        "snippet": "Autopilot-on-Module"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 8,
+        "line_end": 8,
+        "url": "https://www.cubepilot.org",
+        "page_class": "homepage",
+        "snippet": "Resellers"
+      }
+    ],
+    "notes": "Reseller network and catalog product ecosystem imply serial production. No product page confirmed lead times."
+  },
+  "unresolved_questions": [
+    "Full product line not visible \u2014 homepage only; Cube Orange+, Here4, Here Flow and other SKUs likely listed on product pages not yet fetched.",
+    "Explicit NDAA Section 848/889 compliance claim not found in corpus.",
+    "No dedicated about/contact page fetched to confirm company structure."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.cubepilot.org/#/autopilot-on-module",
+      "reason": "Would list Cube autopilot SKUs (Cube Orange+, Cube Purple, etc.), confirming product names, readiness level, and primary supply chain role.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role",
+        "readiness"
+      ],
+      "source_hint": "guessed from SPA nav item 'Autopilot-on-Module' on homepage",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.cubepilot.org/#/accessories",
+      "reason": "Would reveal GNSS, optical flow, and other accessory product names and types, completing the product list.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "guessed from SPA nav item 'Accessories' on homepage",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.cubepilot.org/#/about",
+      "reason": "About/company page would confirm headquarters details, NDAA compliance claims, and corporate structure.",
+      "expected_evidence": [
+        "headquarters",
+        "ndaa",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "guessed from 'About Us' footer link (#/about) on homepage",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.cubepilot.org/#/blue-manufactured-in-usa",
+      "reason": "Dedicated Blue UAS page would detail Blue UAS certification scope and likely include NDAA compliance statements.",
+      "expected_evidence": [
+        "blue_uas",
+        "ndaa"
+      ],
+      "source_hint": "guessed from 'Blue Manufactured in USA' nav item on homepage",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 5,
+    "total_cost_usd": 0.12138,
+    "created_at": "2026-05-03T00:28:17+00:00",
+    "extract_version": "0.1.0"
+  },
+  "tagline": "Australian autopilot-on-module flight controller supplier (Cube family) and precision RTK GNSS module provider, in production and Blue UAS certified. Manufacturing and assembly reportedly US-based. NDAA compliance status not publicly disclosed. GPS-denied navigation capability claimed but maturity undefined. Pixhawk ecosystem heritage noted; limited public contract evidence available."
+}

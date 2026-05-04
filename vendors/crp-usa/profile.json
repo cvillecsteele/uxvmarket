@@ -1,0 +1,162 @@
+{
+  "target_id": "crp-usa",
+  "run_id": "canonical",
+  "display_name": "CRP USA",
+  "homepage_url": "https://www.crp-usa.net",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/crp-usa/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "structures_and_materials",
+        "is_primary": true,
+        "confidence": "low",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 2,
+            "line_end": 2,
+            "url": "https://www.crp-usa.net",
+            "page_class": "homepage",
+            "snippet": "CRP Group websites"
+          }
+        ],
+        "notes": "Target metadata hints structures_materials; homepage returned only a CAPTCHA page so no direct product evidence available. CRP Group is widely known for Windform composite materials used in aerospace/drone manufacturing, but corpus evidence is absent."
+      }
+    ],
+    "confidence": "low",
+    "status": "answered",
+    "notes": "Corpus is nearly empty \u2014 homepage blocked by math CAPTCHA. Category assigned from target metadata hint only."
+  },
+  "headquarters": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "Target flag non_us suggests non-US HQ (CRP Group is based in Modena, Italy; CRP USA is a US subsidiary), but no corpus evidence for address."
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "low",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 2,
+        "line_end": 2,
+        "url": "https://www.crp-usa.net",
+        "page_class": "homepage",
+        "snippet": "CRP Group websites"
+      }
+    ],
+    "notes": "Inferred from target category hint (structures_materials). CRP Group/USA is known for Windform composite powders and machined parts sold to OEMs including drone manufacturers, but no corpus page confirms this role directly."
+  },
+  "products": {
+    "items": [],
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "notes": "Homepage returned only a CAPTCHA page; no product names found in corpus."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No compliance information retrievable from corpus."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No compliance information retrievable from corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "low",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 2,
+        "line_end": 2,
+        "url": "https://www.crp-usa.net",
+        "page_class": "homepage",
+        "snippet": "CRP Group websites"
+      }
+    ],
+    "notes": "CRP Group/USA sells catalog materials (Windform line) in serial production, but no corpus page confirms this directly."
+  },
+  "unresolved_questions": [
+    "Homepage blocked by math CAPTCHA \u2014 no actual site content retrieved",
+    "Products unknown (no product/capability pages fetched)",
+    "Headquarters address not confirmed",
+    "NDAA/Blue UAS compliance status unknown",
+    "Drone supply chain role needs confirmation from product pages"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.crp-usa.net/windform/",
+      "reason": "Windform is CRP's known composite material product line for aerospace/drone use; would confirm products, category, and supply chain role",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role",
+        "readiness"
+      ],
+      "source_hint": "guessed \u2014 homepage CAPTCHA blocked link discovery",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.crp-usa.net/about/",
+      "reason": "Would confirm headquarters city/state/country and company description",
+      "expected_evidence": [
+        "headquarters",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "guessed \u2014 homepage CAPTCHA blocked link discovery",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.crp-usa.net/contact/",
+      "reason": "Contact page typically lists street address and location for headquarters confirmation",
+      "expected_evidence": [
+        "headquarters"
+      ],
+      "source_hint": "guessed \u2014 homepage CAPTCHA blocked link discovery",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.crp-usa.net/compliance/",
+      "reason": "Would reveal NDAA/Blue UAS compliance status",
+      "expected_evidence": [
+        "ndaa",
+        "blue_uas"
+      ],
+      "source_hint": "guessed \u2014 homepage CAPTCHA blocked link discovery",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.crp-usa.net/materials/",
+      "reason": "Materials or products listing would confirm structures_and_materials category and enumerate product SKUs",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "readiness"
+      ],
+      "source_hint": "guessed \u2014 homepage CAPTCHA blocked link discovery",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "needs_more_fetches",
+  "tagline": "Structures and materials component supplier in production readiness. NDAA compliance status, specific product lines, and recent program engagement not publicly documented; homepage access currently restricted.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 5,
+    "total_cost_usd": 0.09019745,
+    "created_at": "2026-05-04T01:32:28+00:00",
+    "extract_version": "0.1.0"
+  }
+}

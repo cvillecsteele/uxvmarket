@@ -1,0 +1,383 @@
+{
+  "target_id": "asr-pioneer-aviation-safety-resources",
+  "run_id": "canonical",
+  "display_name": "ASR-Pioneer (Aviation Safety Resources)",
+  "homepage_url": "https://www.asr-pioneer.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/asr-pioneer-aviation-safety-resources/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "recovery_systems",
+        "is_primary": true,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 66,
+            "line_end": 67,
+            "url": "https://paradigmparachute.com/",
+            "page_class": "homepage",
+            "snippet": "#### Deceleration & Recovery\n](https://paradigmparachute.com/deceleration-recovery/)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0023",
+            "line_start": 25,
+            "line_end": 26,
+            "url": "https://paradigmparachute.com/deceleration-recovery",
+            "page_class": "other",
+            "snippet": "### Types Of Deceleration & Recovery\nPage Under Construction"
+          }
+        ],
+        "notes": "Deceleration & recovery parachutes including aircraft recovery and deceleration; also cargo, extraction, and personnel parachutes. No explicit UAS/drone-specific recovery products named in corpus."
+      },
+      {
+        "category": "mechanical_subsystems",
+        "is_primary": false,
+        "confidence": "low",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0018",
+            "line_start": 25,
+            "line_end": 28,
+            "url": "https://paradigmparachute.com/rigging-items",
+            "page_class": "other",
+            "snippet": "### AIRDROP/ PARACHUTE RIGGING ITEMS\nAIRDROP EQUIPMENT\n-----------------\nThe below equipment is used on all or one of the following airdrop platform system: \u201cType V, DRAS, & Combat Expendable (CEP)\u201d."
+          }
+        ],
+        "notes": "Rigging items, airdrop hardware components (clevis, link assemblies, tie-downs, multi-loops) sold as airdrop equipment."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "No UAV/UAS/drone content found anywhere in the corpus. UXV relevance is inferred from 'aircraft recovery & deceleration' product line."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Pensacola",
+      "state_or_province": "Florida",
+      "country": "United States",
+      "address": "7303 Plantation Road Pensacola FL 32504"
+    },
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 110,
+        "line_end": 110,
+        "url": "https://paradigmparachute.com/",
+        "page_class": "homepage",
+        "snippet": "*   Address: 7303 Plantation Road Pensacola FL 32504"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 29,
+        "line_end": 29,
+        "url": "https://paradigmparachute.com/",
+        "page_class": "homepage",
+        "snippet": "Paradigm focuses on combining and integrating all support elements needed to conduct airdrop operations and providing customers full solutions, including a mobile training team consisting of qualified trainers. We are a disabled veteran-owned small business strategically based in Pensacola, FL, and well-positioned with experience and world-class partners."
+      }
+    ],
+    "notes": "Address shown is for Paradigm Parachute & Defense Inc., which acquired ASR-Pioneer assets in April 2024. ASR-Pioneer's original operation was Mississippi-based per acquisition news. Contact page (paradigmparachute.com/contact) was skipped."
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "low",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 19,
+        "line_end": 19,
+        "url": "https://paradigmparachute.com/",
+        "page_class": "homepage",
+        "snippet": "Paradigm Parachute and Defense Inc. provides high quality, precision manufactured, cargo, personnel, and deceleration parachute products to global commercial and government customers."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0023",
+        "line_start": 22,
+        "line_end": 22,
+        "url": "https://paradigmparachute.com/deceleration-recovery",
+        "page_class": "other",
+        "snippet": "### Dependable Supplier of Military Parachute Applications and Equipment"
+      }
+    ],
+    "notes": "ASR-Pioneer (assets now held by Paradigm Parachute) manufactures military parachute systems including 'aircraft recovery & deceleration' products. No explicit UAS/drone-specific product line confirmed in corpus. UXV relevance is indirect via recovery parachute applicability."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "MSC-11 (G-16)",
+        "product_type": "cargo parachute system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0028",
+            "line_start": 67,
+            "line_end": 68,
+            "url": "https://paradigmparachute.com/cargo",
+            "page_class": "other",
+            "snippet": "-------------\nUS Army has certified the MSC-11 (G-16) Parachute System as a direct replacement for the aging G-11 parachute system throughout the US DOD. A single version of the G-16 is used to replace all versions of the G-11."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "G-11B/C/D",
+        "product_type": "cargo parachute",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0028",
+            "line_start": 37,
+            "line_end": 38,
+            "url": "https://paradigmparachute.com/cargo",
+            "page_class": "other",
+            "snippet": "G-11B/C/D\n1670-01-016-7841"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "G-12D/E",
+        "product_type": "cargo parachute",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0028",
+            "line_start": 43,
+            "line_end": 44,
+            "url": "https://paradigmparachute.com/cargo",
+            "page_class": "other",
+            "snippet": "G-12D/E\n1670-01-065-3755"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "G-14",
+        "product_type": "cargo parachute",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0028",
+            "line_start": 49,
+            "line_end": 50,
+            "url": "https://paradigmparachute.com/cargo",
+            "page_class": "other",
+            "snippet": "G-14\n1670-00-999-2658"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "15' EXT / 22' EXT / 28' EXT",
+        "product_type": "extraction parachutes",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0012",
+            "line_start": 31,
+            "line_end": 48,
+            "url": "https://paradigmparachute.com/extraction",
+            "page_class": "other",
+            "snippet": "15\u2019 EXT\n1670-01-063-3715\n11-1-2583\nFlat, Circular, Ring slot\n15 Ft\n2,250-8,500 lbs\n22\u2019 EXT\n1670-01-063-3716\n11-1-2584\nFlat, Circular, Ring slot\n22 Ft\n7,000-17,0000 lbs\n28\u2019 EXT\n1670-00-040-8135\n11-1-2146\nFlat, Circular, Ring slot\n28 Ft\n14,500-30,000 lbs"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Next-Gen SET-10 / SET-10R",
+        "product_type": "personnel parachute system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0026",
+            "line_start": 26,
+            "line_end": 27,
+            "url": "https://paradigmparachute.com/personnel-parachutes",
+            "page_class": "other",
+            "snippet": "### Next-Gen SET-10 and Next-Gen SET-10R\nFor Airborne Operations, SET-10 and SET-10XL steerable round main canopies are engineered to put Paratroopers safely on the ground from lower exit altitudes. The Next-Gen SET-10R system can be configured with 26 FT Military Lo-Po or 30 FT Lo-Po canopies to accommodate a wide range of exit weights and deployment speeds."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Smart Altimeter",
+        "product_type": "wrist-mounted tactical altimeter for parachutists",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0021",
+            "line_start": 24,
+            "line_end": 24,
+            "url": "https://paradigmparachute.com/paradigm-parachute-and-defense-unveils-next-generation-smart-altimeter-for-tactical-parachutists",
+            "page_class": "news",
+            "snippet": "Paradigm Parachute and Defense is proud to announce the launch of the most advanced altimeter to date, a rugged, wrist-mounted smart display built specifically for the needs of today\u2019s tactical parachutist."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Type V Airdrop Platform",
+        "product_type": "airdrop platform system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0016",
+            "line_start": 26,
+            "line_end": 27,
+            "url": "https://paradigmparachute.com/aerial-delivery",
+            "page_class": "other",
+            "snippet": "AIRDROP PLATFORMS \u201cTYPE V\u201d\n--------------------------"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ACPRS",
+        "product_type": "Advanced Cargo Parachute Release System",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0018",
+            "line_start": 37,
+            "line_end": 37,
+            "url": "https://paradigmparachute.com/rigging-items",
+            "page_class": "other",
+            "snippet": "US DoD replacement for the M1.\u00a0 Advanced Cargo Parachute Release System\u00a0**[(ACPRS) \\[PDF SPEC SHEET\\]](http://paradigmparachute.com/wp-content/uploads/2021/05/Talon-OL.pdf \"ACPRS [PDF SPEC SHEET]\")**"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Products page (paradigmparachute.com/products) was skipped; additional SKUs may exist there."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 31,
+        "line_end": 32,
+        "url": "https://paradigmparachute.com/",
+        "page_class": "homepage",
+        "snippet": "#### Berry Amendment Compliant/\nAmerican Made Products"
+      }
+    ],
+    "notes": "Site claims Berry Amendment Compliant / American Made Products, which is adjacent but does not satisfy NDAA Section 848/889 component-level requirements. No explicit NDAA claim found."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 89,
+        "line_end": 91,
+        "url": "https://paradigmparachute.com/",
+        "page_class": "homepage",
+        "snippet": "Can Paradigm produce low-quantity sustainment orders, in addition to high-rate production?\n------------------------------------------------------------------------------------------\nYes, Paradigm\u2019s highly trained staff and flexible operations can support various forms of customer demand, whether low-quantity replacement needs, or high-quantity extended performance contracts."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 35,
+        "line_end": 35,
+        "url": "https://paradigmparachute.com/",
+        "page_class": "homepage",
+        "snippet": "\u2013 Department of Defense Approved Contractor, CAGE: 8DT39"
+      }
+    ],
+    "notes": "Catalog products with NSNs/part numbers actively listed; FAQ confirms capability for 'low-quantity replacement needs, or high-quantity extended performance contracts'; DoD Approved Contractor (CAGE: 8DT39)."
+  },
+  "unresolved_questions": [
+    "No UAV/UAS/drone-specific products or applications mentioned in any fetched page \u2014 UXV supply chain role is inferential",
+    "ASR-Pioneer's original asr-pioneer.com homepage was not fetched (redirected to paradigmparachute.com), so pre-acquisition product lines are unknown",
+    "About-Us and Contact pages were skipped; original ASR-Pioneer headquarters (Mississippi-based) vs Paradigm's Pensacola address unclear for HQ determination"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://paradigmparachute.com/about-us",
+      "reason": "Would confirm company background, HQ details, and any UAS/drone-specific product mentions for ASR-Pioneer-derived capabilities",
+      "expected_evidence": [
+        "headquarters",
+        "drone_supply_chain_role",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://paradigmparachute.com/contact",
+      "reason": "Contact page with address would confirm or refine headquarters location (Pensacola vs original ASR-Pioneer Mississippi location)",
+      "expected_evidence": [
+        "headquarters"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=contact",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://paradigmparachute.com/products",
+      "reason": "Products catalog page would enumerate full product SKUs and confirm whether any UAS/drone recovery parachutes are offered",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.asr-pioneer.com",
+      "reason": "Original ASR-Pioneer homepage (target vendor's own URL) was not fetched; would confirm pre-acquisition product line including any UAV recovery systems",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role",
+        "headquarters"
+      ],
+      "source_hint": "guessed \u2014 manifest homepage_url",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "partial",
+  "tagline": "Pensacola-based manufacturer of military parachute systems\u2014cargo, personnel, extraction, deceleration, and aerial delivery\u2014plus rigging components and training. Disabled veteran-owned small business, ISO 9001 and NIST/CMMC compliant, Berry Amendment eligible. Recently acquired G-12E cargo parachute line and launched smart altimeter for tactical parachutists. NDAA compliance status and current program affiliations not publicly disclosed.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 14,
+    "total_cost_usd": 0.49571155000000006,
+    "created_at": "2026-05-03T21:32:02+00:00",
+    "extract_version": "0.1.0"
+  }
+}

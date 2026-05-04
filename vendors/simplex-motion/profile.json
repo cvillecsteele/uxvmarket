@@ -1,0 +1,309 @@
+{
+  "target_id": "simplex-motion",
+  "run_id": "canonical",
+  "display_name": "Simplex Motion",
+  "homepage_url": "https://simplexmotion.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/simplex-motion/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 68,
+            "line_end": 71,
+            "url": "https://simplexmotion.com",
+            "page_class": "homepage",
+            "snippet": "ESCs and drone motors\n---------------------\nDeveloped and manufactured in Sweden \u2013 ESC and drone motors for UAS\nAll ESCs has FOC, Field Oriented Control."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 119,
+            "line_end": 119,
+            "url": "https://simplexmotion.com",
+            "page_class": "homepage",
+            "snippet": "](/drone-motor/)"
+          }
+        ],
+        "notes": "Drone motors, servomotors, gearboxes, and motor drive units are core product lines designed and manufactured in Sweden"
+      },
+      {
+        "category": "propulsion_electronics",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 70,
+            "line_end": 71,
+            "url": "https://simplexmotion.com",
+            "page_class": "homepage",
+            "snippet": "Developed and manufactured in Sweden \u2013 ESC and drone motors for UAS\nAll ESCs has FOC, Field Oriented Control."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 115,
+            "line_end": 116,
+            "url": "https://simplexmotion.com",
+            "page_class": "homepage",
+            "snippet": "### ESC \u2013 Electronic Speed Control\n](/esc-electronic-speed-control/)"
+          }
+        ],
+        "notes": "ESC (Electronic Speed Control) with FOC explicitly listed for UAS; motor controllers also sold separately"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Gothenburg",
+      "state_or_province": null,
+      "country": "Sweden",
+      "address": "Banehagsliden 2, 414 51 Gothenburg"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0030",
+        "line_start": 71,
+        "line_end": 74,
+        "url": "https://simplexmotion.com/contact",
+        "page_class": "contact",
+        "snippet": "Simplex Motion AB\n[Banehagsliden 2](https://goo.gl/maps/45hBq94mVwizLxd97)\n414 51 Gothenburg\nSweden"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 68,
+        "line_end": 71,
+        "url": "https://simplexmotion.com",
+        "page_class": "homepage",
+        "snippet": "ESCs and drone motors\n---------------------\nDeveloped and manufactured in Sweden \u2013 ESC and drone motors for UAS\nAll ESCs has FOC, Field Oriented Control."
+      }
+    ],
+    "notes": "Makes drone motors and ESCs sold as components for UAS integration; also makes broader servomotor/controller line for industrial OEM customers"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "SC-Serie",
+        "product_type": "integrated servomotor family",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0072",
+            "line_start": 80,
+            "line_end": 80,
+            "url": "https://simplexmotion.com/new-manual-released",
+            "page_class": "product",
+            "snippet": "[SC-Serie](https://simplexmotion.com/documentation/TechnicalData/SimplexMotionTechnicalDataSC_01a.pdf)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SH-Serie",
+        "product_type": "integrated servomotor family",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0072",
+            "line_start": 81,
+            "line_end": 81,
+            "url": "https://simplexmotion.com/new-manual-released",
+            "page_class": "product",
+            "snippet": "[SH-Serie](https://simplexmotion.com/documentation/TechnicalData/SimplexMotionTechnicalDataSH_01a.pdf)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SM-Serie",
+        "product_type": "integrated servomotor family",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0072",
+            "line_start": 82,
+            "line_end": 82,
+            "url": "https://simplexmotion.com/new-manual-released",
+            "page_class": "product",
+            "snippet": "[SM-Serie](https://simplexmotion.com/documentation/TechnicalData/SimplexMotionTechnicalDataSM_01a.pdf)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TD100 ESC",
+        "product_type": "drone ESC, FOC, 6-12S/24-48V, 20-100A",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0086",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://simplexmotion.com/product/td100-esc-foc-6-12s-24-48v-20-100a",
+            "page_class": "news",
+            "snippet": "TD100 \u2013 ESC FOC 6-12S/24-48V 20-100A | Simplex Motion"
+          }
+        ],
+        "notes": "Product page captured but shows 'store coming soon'; SKU confirmed by page title/URL slug"
+      },
+      {
+        "name": "SimplexMotion100A",
+        "product_type": "integrated servomotor/motion controller",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0050",
+            "line_start": 69,
+            "line_end": 69,
+            "url": "https://simplexmotion.com/first-product-datasheet-released",
+            "page_class": "product",
+            "snippet": "The datasheet for the SimplexMotion100A product has now been released. It is still a draft but only small changes are anticipated until the product is released during the winter 2012/2013."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SimplexMotionHub",
+        "product_type": "multi-motor CNC hub accessory",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0011",
+            "line_start": 67,
+            "line_end": 67,
+            "url": "https://simplexmotion.com/accessory-product-simplexmotionhub-available",
+            "page_class": "product",
+            "snippet": "Accessory product SimplexMotionHub available"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Simplex Motion Speed Mode Motors",
+        "product_type": "speed-controlled servomotor",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0108",
+            "line_start": 76,
+            "line_end": 76,
+            "url": "https://simplexmotion.com/stand-alone-solutions",
+            "page_class": "capability",
+            "snippet": "Introducing the new Simplex Motion Speed Mode Motors. Do you need feedback and controlled speed even at low speeds? Simplex Motion Speed Mode Motors will do the job. https://simplexmotion.com/products/simplex-motion-speedmotors/"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Individual drone motor SKUs not yet publicly listed; store for ESC and drone motor product lines was under construction at time of mirror"
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 96,
+        "line_end": 97,
+        "url": "https://simplexmotion.com",
+        "page_class": "homepage",
+        "snippet": "### Made in Sweden\nSustainability is one of our main drivers. Having production in Sweden is giving us the maximum control of the quality and sustainability of our products."
+      }
+    ],
+    "notes": "Core servomotor lines in serial production with price list, resellers, and stock. Drone motor and ESC store was being relaunched at time of mirror ('coming soon'), suggesting those specific lines may be in transition."
+  },
+  "unresolved_questions": [
+    "Specific drone motor SKU names and specs not yet published on site",
+    "Conformity/compliance page (/conformity) not fetched \u2014 would confirm CE marking scope and any NDAA claims"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://simplexmotion.com/conformity/",
+      "reason": "Conformity page may contain CE, REACH, RoHS, or NDAA compliance declarations relevant to ndaa and blue_uas fields",
+      "expected_evidence": [
+        "ndaa",
+        "blue_uas"
+      ],
+      "source_hint": "linked from homepage nav under About Us > Conformity",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://simplexmotion.com/drone-motors/",
+      "reason": "Would list specific drone motor SKUs and specs; currently shows 'store coming soon' \u2014 a future fetch may reveal named products once store launches",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "readiness"
+      ],
+      "source_hint": "resource-0009, page_class=product, showed placeholder only",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://simplexmotion.com/esc-electronic-speed-control/",
+      "reason": "Would list ESC product SKUs beyond TD100; currently shows store placeholder",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "readiness"
+      ],
+      "source_hint": "resource-0002, page_class=product, showed 'coming soon' placeholder",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 22,
+    "total_cost_usd": 0.42215430000000004,
+    "created_at": "2026-05-03T01:21:21+00:00",
+    "extract_version": "0.1.0"
+  },
+  "tagline": "Swedish manufacturer of compact integrated servomotors (SC/SH/SM-series) with built-in controllers and encoders, plus FOC-based electronic speed controllers (TD100 ESC, 20\u2013100A) and speed-mode BLDC motors for UAS and robotics. Production-ready, but NDAA and Blue UAS certification status unknown; no named US defense contracts found in public record."
+}

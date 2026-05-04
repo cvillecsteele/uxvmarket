@@ -1,0 +1,376 @@
+{
+  "target_id": "unusual-machines",
+  "run_id": "canonical",
+  "display_name": "Unusual Machines",
+  "homepage_url": "https://www.unusualmachines.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/unusual-machines/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "propulsion_electronics",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0042",
+            "line_start": 71,
+            "line_end": 73,
+            "url": "https://www.unusualmachines.com/products",
+            "page_class": "product",
+            "snippet": "Brave 55A 4-in-1 Electronic Speed Controller (ESC)\n--------------------------------------------------\nBuilt in the USA, the Brave 55A is Blue UAS Certified. This 32-bit AM32 ESC boasts solder-free connections, current sensing and support for 3-8S input (10-35V), 55A continuous current (75A burst) and full DSHOT compatibility up to DSHOT1200. Experience the reliability, performance and mission-ready durability all in a single 30\u00d730 package."
+          }
+        ],
+        "notes": "Brave 55A 4-in-1 ESC; Blue UAS Certified"
+      },
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0042",
+            "line_start": 46,
+            "line_end": 48,
+            "url": "https://www.unusualmachines.com/products",
+            "page_class": "product",
+            "snippet": "Full Line Of Drone Motors \u2013 All Built In The USA\n------------------------------------------------\nEngineered for high-efficiency and durability across a wide range of mission requirements, Unusual Machines motors feature high-temperature windings and premium EZO bearings, delivering smooth, reliable thrust for both speed & torque applications. No matter the challenge, you can count on Unusual Machines for all your professional-grade propulsion needs."
+          }
+        ],
+        "notes": "Full line of drone motors built in USA"
+      },
+      {
+        "category": "flight_and_vehicle_control",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0042",
+            "line_start": 66,
+            "line_end": 67,
+            "url": "https://www.unusualmachines.com/products",
+            "page_class": "product",
+            "snippet": "Brave F7 Flight Controller\n--------------------------"
+          }
+        ],
+        "notes": "Brave F7 Flight Controller with BetaFlight support"
+      },
+      {
+        "category": "isr_payloads",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0042",
+            "line_start": 56,
+            "line_end": 57,
+            "url": "https://www.unusualmachines.com/products",
+            "page_class": "product",
+            "snippet": "Aura Analog FPV Camera Module\n-----------------------------"
+          }
+        ],
+        "notes": "Aura Analog FPV Camera Module, Sony STARVIS 2 sensor, NDAA compliant"
+      },
+      {
+        "category": "communications",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0042",
+            "line_start": 61,
+            "line_end": 62,
+            "url": "https://www.unusualmachines.com/products",
+            "page_class": "product",
+            "snippet": "Aura Video Transmitter (VTX)\n----------------------------"
+          }
+        ],
+        "notes": "Aura VTX, 5.8GHz analog, Blue UAS approved"
+      },
+      {
+        "category": "ground_segment",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0042",
+            "line_start": 51,
+            "line_end": 53,
+            "url": "https://www.unusualmachines.com/products",
+            "page_class": "product",
+            "snippet": "Fat Shark HDO+ Headset\n----------------------\nBuilt in the USA, the HDO+ delivers industry-leading situational awareness via dual 1920\u00d71080 OLED displays and a wide 50\u00b0 field of view. A built-in DVR, onboard ventilation, and a flexible 7\u201325V power input guarantee it\u2019s always mission-ready. Engineered for performance and reliability, the HDO+ sets the standard for professional-grade."
+          }
+        ],
+        "notes": "Fat Shark HDO+ FPV video goggles/headset"
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Products span six categories; propulsion_electronics (ESC) listed as primary per catalog. Motors, FC, FPV camera, VTX, and goggles cover additional categories."
+  },
+  "headquarters": {
+    "value": {
+      "city": null,
+      "state_or_province": null,
+      "country": "United States",
+      "address": null
+    },
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0042",
+        "line_start": 44,
+        "line_end": 44,
+        "url": "https://www.unusualmachines.com/products",
+        "page_class": "product",
+        "snippet": "Built for professionals and operators alike, Unusual Machines provides a full range of next-generation, high-performance drone components proudly built in the USA. From advanced flight electronics to precision-engineered propulsion systems, you can count on Unusual Machines for the cutting-edge solutions you want, the American manufacturing you require, and the reliable performance you demand."
+      }
+    ],
+    "notes": "NYSE-listed company (UMAC); products described as 'proudly built in the USA'. No explicit company HQ city/state in fetched pages; about-us/overview was skipped."
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0042",
+        "line_start": 43,
+        "line_end": 44,
+        "url": "https://www.unusualmachines.com/products",
+        "page_class": "product",
+        "snippet": "### **High-Performance, Fully NDAA Compliant Drone Components**\nBuilt for professionals and operators alike, Unusual Machines provides a full range of next-generation, high-performance drone components proudly built in the USA. From advanced flight electronics to precision-engineered propulsion systems, you can count on Unusual Machines for the cutting-edge solutions you want, the American manufacturing you require, and the reliable performance you demand."
+      }
+    ],
+    "notes": "Sells a full range of drone components (motors, ESCs, flight controllers, FPV cameras, VTXs, goggles) for professional operators and builders."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Unusual Machines Drone Motors",
+        "product_type": "drone motor line",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0042",
+            "line_start": 46,
+            "line_end": 46,
+            "url": "https://www.unusualmachines.com/products",
+            "page_class": "product",
+            "snippet": "Full Line Of Drone Motors \u2013 All Built In The USA"
+          }
+        ],
+        "notes": "Full line; no individual model names on this page"
+      },
+      {
+        "name": "Fat Shark HDO+",
+        "product_type": "FPV video headset",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0042",
+            "line_start": 51,
+            "line_end": 51,
+            "url": "https://www.unusualmachines.com/products",
+            "page_class": "product",
+            "snippet": "Fat Shark HDO+ Headset"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Aura Analog FPV Camera Module",
+        "product_type": "FPV analog camera",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0042",
+            "line_start": 56,
+            "line_end": 56,
+            "url": "https://www.unusualmachines.com/products",
+            "page_class": "product",
+            "snippet": "Aura Analog FPV Camera Module"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Aura Video Transmitter (VTX)",
+        "product_type": "5.8GHz analog video transmitter",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0042",
+            "line_start": 61,
+            "line_end": 61,
+            "url": "https://www.unusualmachines.com/products",
+            "page_class": "product",
+            "snippet": "Aura Video Transmitter (VTX)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Brave F7 Flight Controller",
+        "product_type": "drone flight controller",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0042",
+            "line_start": 66,
+            "line_end": 66,
+            "url": "https://www.unusualmachines.com/products",
+            "page_class": "product",
+            "snippet": "Brave F7 Flight Controller"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Brave 55A 4-in-1 ESC",
+        "product_type": "electronic speed controller",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0042",
+            "line_start": 71,
+            "line_end": 71,
+            "url": "https://www.unusualmachines.com/products",
+            "page_class": "product",
+            "snippet": "Brave 55A 4-in-1 Electronic Speed Controller (ESC)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "All products found on the /products page. Individual motor model names may exist on sub-pages not fetched."
+  },
+  "ndaa": {
+    "value": "yes",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0042",
+        "line_start": 43,
+        "line_end": 43,
+        "url": "https://www.unusualmachines.com/products",
+        "page_class": "product",
+        "snippet": "### **High-Performance, Fully NDAA Compliant Drone Components**"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0042",
+        "line_start": 58,
+        "line_end": 58,
+        "url": "https://www.unusualmachines.com/products",
+        "page_class": "product",
+        "snippet": "Built around the Sony 1/2.8\u201d STARVIS 2 CMOS sensor, the NDAA compliant Aura delivers improved low-light performance, enhanced dynamic range, and highly detailed analog video for demanding mission applications. With 1500 TVL resolution, a 150\u00b0 field of view, switchable 16:9/4:3 aspect ratios, and a flexible 5\u201325V input range, Aura ensures crisp, high-contrast image capture in the most challenging environments."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0042",
+        "line_start": 63,
+        "line_end": 63,
+        "url": "https://www.unusualmachines.com/products",
+        "page_class": "product",
+        "snippet": "Blue UAS approved and NDAA compliant, this high-performance 5.8GHz analog VTX is built for professional applications. Delivering up to 1W output power with selectable 25\u20131000mW levels, Raceband 1\u20138 channels, and Tramp protocol control for precise tuning. Designed with a durable M2 20\u00d720 mounting pattern, wide 7\u201336V input, and MMCX antenna connection, all in a lightweight 13g package."
+      }
+    ],
+    "notes": "Products page header claims 'Fully NDAA Compliant Drone Components'. Individual products (Aura FPV Camera, Aura VTX) also explicitly claim NDAA compliance."
+  },
+  "blue_uas": {
+    "value": "yes",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0042",
+        "line_start": 63,
+        "line_end": 63,
+        "url": "https://www.unusualmachines.com/products",
+        "page_class": "product",
+        "snippet": "Blue UAS approved and NDAA compliant, this high-performance 5.8GHz analog VTX is built for professional applications. Delivering up to 1W output power with selectable 25\u20131000mW levels, Raceband 1\u20138 channels, and Tramp protocol control for precise tuning. Designed with a durable M2 20\u00d720 mounting pattern, wide 7\u201336V input, and MMCX antenna connection, all in a lightweight 13g package."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0042",
+        "line_start": 73,
+        "line_end": 73,
+        "url": "https://www.unusualmachines.com/products",
+        "page_class": "product",
+        "snippet": "Built in the USA, the Brave 55A is Blue UAS Certified. This 32-bit AM32 ESC boasts solder-free connections, current sensing and support for 3-8S input (10-35V), 55A continuous current (75A burst) and full DSHOT compatibility up to DSHOT1200. Experience the reliability, performance and mission-ready durability all in a single 30\u00d730 package."
+      }
+    ],
+    "notes": "Aura VTX is 'Blue UAS approved'; Brave 55A ESC is 'Blue UAS Certified'."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0042",
+        "line_start": 43,
+        "line_end": 44,
+        "url": "https://www.unusualmachines.com/products",
+        "page_class": "product",
+        "snippet": "### **High-Performance, Fully NDAA Compliant Drone Components**\nBuilt for professionals and operators alike, Unusual Machines provides a full range of next-generation, high-performance drone components proudly built in the USA. From advanced flight electronics to precision-engineered propulsion systems, you can count on Unusual Machines for the cutting-edge solutions you want, the American manufacturing you require, and the reliable performance you demand."
+      }
+    ],
+    "notes": "Catalog SKUs with data sheets and request-a-quote forms; NYSE-listed company with serial production of drone components."
+  },
+  "unresolved_questions": [
+    "Company headquarters city and state not disclosed in fetched pages; about-us/overview page was skipped."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.unusualmachines.com/about-us/overview",
+      "reason": "Would confirm company headquarters city and state.",
+      "expected_evidence": [
+        "headquarters",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.unusualmachines.com/about-us",
+      "reason": "About Us page may list HQ address and company overview.",
+      "expected_evidence": [
+        "headquarters",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 19,
+    "total_cost_usd": 0.6137940000000001,
+    "created_at": "2026-05-03T00:34:18+00:00",
+    "extract_version": "0.1.0"
+  },
+  "tagline": "USA-built supplier of drone propulsion motors, flight controllers, electronic speed controllers, FPV cameras, video transmitters, and pilot headsets. NDAA-compliant and Blue UAS certified on select products (Aura VTX, Aura camera, Brave ESC). Publicly traded (NYSE: UMAC). Limited disclosure on motor NDAA status and full product certification roadmap."
+}

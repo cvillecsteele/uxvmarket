@@ -1,0 +1,292 @@
+{
+  "target_id": "pyroalliance",
+  "run_id": "canonical",
+  "display_name": "Pyroalliance",
+  "homepage_url": "https://pyroalliance.ariane.group",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/pyroalliance/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "flight_termination",
+        "is_primary": true,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0213",
+            "line_start": 88,
+            "line_end": 90,
+            "url": "https://pyroalliance.ariane.group/products/canopy-severance-or-fracturing-systems-2",
+            "page_class": "news",
+            "snippet": "Flight Termination System (FTS) for Aircraft\n![](https://pyroalliance.ariane.group/app/uploads/sites/5/2025/06/Flight-Termination-System-FTS-for-Aircraft-300x300.png)\n](https://pyroalliance.ariane.group/products/flight-termination-system-fts-for-aircraft/)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0229",
+            "line_start": 103,
+            "line_end": 103,
+            "url": "https://pyroalliance.ariane.group/products/pyrotechnic-cable-bolt-cutter-p-n-ml0041",
+            "page_class": "news",
+            "snippet": "Pyrotechnic Flight Termination System for launchers"
+          }
+        ],
+        "notes": "FTS for Aircraft product referenced but page skipped; Pyrotechnic FTS for launchers also listed. Both confirm flight termination hardware capability."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Pyroalliance's primary defense product relevance to UXV is the Flight Termination System for Aircraft. Other products (explosive bolts, actuators, pin pullers) serve missile/space programs primarily."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Les Mureaux",
+      "state_or_province": null,
+      "country": "France",
+      "address": "139, Route de Verneuil \u2013 BP 2052, 78132 Les Mureaux cedex"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0021",
+        "line_start": 61,
+        "line_end": 63,
+        "url": "https://pyroalliance.ariane.group/contact",
+        "page_class": "contact",
+        "snippet": "**Les Mureaux \u2013 Headquarters**\n139, Route de Verneuil \u2013 BP 2052\n78132 Les Mureaux cedex \u2013 France"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "low",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 49,
+        "line_end": 49,
+        "url": "https://pyroalliance.ariane.group",
+        "page_class": "homepage",
+        "snippet": "Pyroalliance is the leading supplier of high value-added pyrotechnic and mechanical solutions and equipment for defense needs (ballistic and tactical missiles, torpedoes, naval and aeronautical platforms). Our products are developed and qualified to deliver the multiple functions essential to the success of a weapon system's mission: ignite, transmit, propel, separate, release, deploy, cut, safeguard."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0213",
+        "line_start": 88,
+        "line_end": 88,
+        "url": "https://pyroalliance.ariane.group/products/canopy-severance-or-fracturing-systems-2",
+        "page_class": "news",
+        "snippet": "Flight Termination System (FTS) for Aircraft"
+      }
+    ],
+    "notes": "Pyroalliance supplies pyrotechnic components (FTS for aircraft, explosive bolts, actuators, pin pullers) to defense aeronautical platforms including potential UAV applications, but no explicit UAV/drone mention on site. Low confidence due to indirect UXV connection."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Explosive Bolt",
+        "product_type": "pyrotechnic separation device for solid rocket motor/missile",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0216",
+            "line_start": 36,
+            "line_end": 36,
+            "url": "https://pyroalliance.ariane.group/products/explosive-bolts",
+            "page_class": "product",
+            "snippet": "Explosive Bolt"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Pyrotechnic Through Bulkhead Initiator (TBI)",
+        "product_type": "pyrotechnic initiator for solid rocket motors",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0247",
+            "line_start": 36,
+            "line_end": 36,
+            "url": "https://pyroalliance.ariane.group/products/through-bulkhead-initiator-at-a-glance",
+            "page_class": "news",
+            "snippet": "Pyrotechnic Through Bulkhead Initiator (TBI)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Pin Puller / Pusher",
+        "product_type": "pyrotechnic actuating device for missiles and aircraft",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0227",
+            "line_start": 36,
+            "line_end": 36,
+            "url": "https://pyroalliance.ariane.group/products/pin-pullers-pushers",
+            "page_class": "product",
+            "snippet": "Pin Puller / Pusher"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Actuator",
+        "product_type": "pyrotechnic actuator for missile fin/wing deployment",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0208",
+            "line_start": 36,
+            "line_end": 36,
+            "url": "https://pyroalliance.ariane.group/products/actuators",
+            "page_class": "product",
+            "snippet": "Actuator"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Canopy Severance or Fracturing System",
+        "product_type": "pyrotechnic pilot safety system for military aircraft",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0213",
+            "line_start": 36,
+            "line_end": 37,
+            "url": "https://pyroalliance.ariane.group/products/canopy-severance-or-fracturing-systems-2",
+            "page_class": "news",
+            "snippet": "Canopy Severance or Fracturing system\n====================================="
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Pyrotechnic Cable/Bolt Cutter ML0041",
+        "product_type": "pyrotechnic cutter for space satellite release",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0229",
+            "line_start": 36,
+            "line_end": 36,
+            "url": "https://pyroalliance.ariane.group/products/pyrotechnic-cable-bolt-cutter-p-n-ml0041",
+            "page_class": "news",
+            "snippet": "Pyrotechnic Cable/Bolt Cutter P/N ML0041"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Flight Termination System (FTS) for Aircraft",
+        "product_type": "pyrotechnic flight termination system",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0213",
+            "line_start": 88,
+            "line_end": 88,
+            "url": "https://pyroalliance.ariane.group/products/canopy-severance-or-fracturing-systems-2",
+            "page_class": "news",
+            "snippet": "Flight Termination System (FTS) for Aircraft"
+          }
+        ],
+        "notes": "Product referenced by name; product page was skipped in crawl."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "More products exist (Bendable Linear Shaped Charge, Deflagrating Transfer Lines, Gas Generator, Retractor, Separation Nut, Pyrotechnic FTS for Launchers) from skipped or unrendered pages."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "French company (subsidiary of ArianeGroup); no NDAA mention anywhere in corpus."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS / Blue sUAS mention anywhere in corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0207",
+        "line_start": 44,
+        "line_end": 44,
+        "url": "https://pyroalliance.ariane.group/production-capabilities",
+        "page_class": "capability",
+        "snippet": "We continually adapt and update our production, test resources and methods to meet our customers\u2019 changing requirements. In particular, we are increasing production rates and competitiveness while also ensuring compliance with all applicable quality standards."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0216",
+        "line_start": 38,
+        "line_end": 38,
+        "url": "https://pyroalliance.ariane.group/products/explosive-bolts",
+        "page_class": "product",
+        "snippet": "Pyroalliance designs and manufactures a series of explosive bolts for defense applications."
+      }
+    ],
+    "notes": "Qualified products with specific part numbers and technical specifications; company describes increasing production rates. Serial manufacturing of energetic/pyrotechnic devices for space and defense programs."
+  },
+  "unresolved_questions": [
+    "No explicit UAV/drone mention on site; UXV relevance inferred from FTS for Aircraft product",
+    "FTS for Aircraft product page was skipped (misclassified as news)",
+    "Many product category pages returned 'Timber not activated' and are unreadable",
+    "NDAA and Blue UAS compliance not disclosed (French company)"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://pyroalliance.ariane.group/products/flight-termination-system-fts-for-aircraft",
+      "reason": "FTS for Aircraft product page would confirm FTS hardware details and application domains including UAV/drone, strengthening flight_termination category and component_supplier role",
+      "expected_evidence": [
+        "products_categories",
+        "drone_supply_chain_role",
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=news (misclassified)",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://pyroalliance.ariane.group/news/flight-termination-systems-by-pyroalliance-illustrated-application-through-recent-launch-of-south-korean-launcher-hanbit-nano",
+      "reason": "News article about FTS applications could mention UAV/drone use cases and confirm FTS product details",
+      "expected_evidence": [
+        "products_categories",
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=news",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "tagline": "French-based pyrotechnic component supplier producing flight termination systems, explosive bolts, initiators, and actuators for defense and aerospace platforms. NDAA and Blue UAS certification status unknown; minimal public evidence of US unmanned-systems integration or qualification.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 22,
+    "total_cost_usd": 0.3751818,
+    "created_at": "2026-05-04T05:29:23+00:00",
+    "extract_version": "0.1.0"
+  }
+}

@@ -1,0 +1,358 @@
+{
+  "target_id": "ducommun",
+  "run_id": "canonical",
+  "display_name": "Ducommun",
+  "homepage_url": "https://www.ducommun.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/ducommun/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0006",
+            "line_start": 72,
+            "line_end": 73,
+            "url": "http://www.ducommun.com/engineeredsolutions/products/Default.aspx",
+            "page_class": "product",
+            "snippet": "### **[Motors, Resolvers and Actuators](/engineeredsolutions/motorsResolvers/Default.aspx)**\nBrushless DC motors, AC induction motors, resolvers, and actuators. For extreme performance in tough environments including munitions, unmanned aerial vehicles, downhole oil & gas, and space satellites."
+          }
+        ],
+        "notes": "Brushless DC motors, stepper motors, AC motors, resolvers, and actuator assemblies explicitly listed for 'unmanned aerial vehicles' among target applications."
+      },
+      {
+        "category": "communications",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0006",
+            "line_start": 76,
+            "line_end": 77,
+            "url": "http://www.ducommun.com/engineeredsolutions/products/Default.aspx",
+            "page_class": "product",
+            "snippet": "### **[Radio Frequency (RF) Switch Products](/engineeredsolutions/RF/Default.aspx)**\nIndustry-leading Radio Frequency (RF) electromechanical switch products and other RF devices. For communications, radar, electronic warfare, data center, and automated test equipment applications."
+          }
+        ],
+        "notes": "RF electromechanical switch products for communications and radar applications."
+      },
+      {
+        "category": "electronic_warfare",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0006",
+            "line_start": 76,
+            "line_end": 77,
+            "url": "http://www.ducommun.com/engineeredsolutions/products/Default.aspx",
+            "page_class": "product",
+            "snippet": "### **[Radio Frequency (RF) Switch Products](/engineeredsolutions/RF/Default.aspx)**\nIndustry-leading Radio Frequency (RF) electromechanical switch products and other RF devices. For communications, radar, electronic warfare, data center, and automated test equipment applications."
+          }
+        ],
+        "notes": "RF switch products explicitly listed for electronic warfare applications."
+      },
+      {
+        "category": "structures_and_materials",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0011",
+            "line_start": 14,
+            "line_end": 21,
+            "url": "https://www.ducommun.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Structural Systems](/structuralsolutions/Default.aspx)\n        *   [Assembly](/structuralsolutions/assembly.aspx)\n        *   [Bonding](/structuralsolutions/bonding.aspx)\n        *   [Chem Mill](/structuralsolutions/chemMill.aspx)\n        *   [Forming](/structuralsolutions/forming.aspx)\n        *   [Machining](/structuralsolutions/machining.aspx)\n        *   [Tooling](/structuralsolutions/tooling.aspx)\n        *   [VersaCore Composite\u2122 technology](/structuralsolutions/vctechnology.aspx)"
+          }
+        ],
+        "notes": "Structural Systems division: assembly, bonding, chem mill, forming, machining, tooling, and VersaCore Composite\u2122 technology for aerospace customers."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Several additional capability pages (structural systems details, electronic systems) were skipped; list may be incomplete."
+  },
+  "headquarters": {
+    "value": {
+      "city": null,
+      "state_or_province": "California",
+      "country": "United States",
+      "address": null
+    },
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0006",
+        "line_start": 43,
+        "line_end": 43,
+        "url": "http://www.ducommun.com/engineeredsolutions/products/Default.aspx",
+        "page_class": "product",
+        "snippet": "Founded in 1849, Ducommun is the oldest continuing-operating company headquartered in the State of California. Through our long heritage, we have continuously adapted to provide our customers with innovative, scalable solutions to tough challenges."
+      }
+    ],
+    "notes": "Corpus only specifies 'State of California'; city-level address not disclosed in fetched pages. Facilities contact page (skipped) likely has more detail."
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0006",
+        "line_start": 72,
+        "line_end": 73,
+        "url": "http://www.ducommun.com/engineeredsolutions/products/Default.aspx",
+        "page_class": "product",
+        "snippet": "### **[Motors, Resolvers and Actuators](/engineeredsolutions/motorsResolvers/Default.aspx)**\nBrushless DC motors, AC induction motors, resolvers, and actuators. For extreme performance in tough environments including munitions, unmanned aerial vehicles, downhole oil & gas, and space satellites."
+      }
+    ],
+    "notes": "Motors, resolvers, and actuators are explicitly offered for unmanned aerial vehicles. Ducommun is a broad aerospace/defense manufacturer; UAV is one of several target markets, but the explicit product-level callout distinguishes them from broad_industrial."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Stepper Motors",
+        "product_type": "stepper motors for aerospace/UAV/industrial",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0007",
+            "line_start": 44,
+            "line_end": 48,
+            "url": "http://www.ducommun.com/engineeredsolutions/motorsResolvers/products.aspx",
+            "page_class": "product",
+            "snippet": "### [**Stepper Motors**](https://www.ducommun.com/engineeredsolutions/MotorsResolvers/test/Steppers.aspx)\n![](https://www.ducommun.com/images/text_graphics/bullet.png)Permanent Magnet\n![](https://www.ducommun.com/images/text_graphics/bullet.png)Hybrid\n![](https://www.ducommun.com/images/text_graphics/bullet.png)Variable Reluctance (VR)\n![](https://www.ducommun.com/images/text_graphics/bullet.png)2, 3 & 4-Phase"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DC-Motors (BLDC)",
+        "product_type": "brushless DC motors",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0007",
+            "line_start": 51,
+            "line_end": 56,
+            "url": "http://www.ducommun.com/engineeredsolutions/motorsResolvers/products.aspx",
+            "page_class": "product",
+            "snippet": "### [**DC-Motors**](https://www.ducommun.com/engineeredsolutions/MotorsResolvers/DC_Motors.aspx)\n![](https://www.ducommun.com/images/text_graphics/bullet.png)Brushless Motors (BLDC)\n![](https://www.ducommun.com/images/text_graphics/bullet.png)Coreless Motors\n![](https://www.ducommun.com/images/text_graphics/bullet.png)Pancake or Housed\n![](https://www.ducommun.com/images/text_graphics/bullet.png)Optional Gear Head\n![](https://www.ducommun.com/images/text_graphics/bullet.png)Feedback &/or Brake"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AC-Motors/Alternators",
+        "product_type": "AC induction motors and alternators",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0007",
+            "line_start": 58,
+            "line_end": 63,
+            "url": "http://www.ducommun.com/engineeredsolutions/motorsResolvers/products.aspx",
+            "page_class": "product",
+            "snippet": "### [**AC-Motors/Alternators**](https://www.ducommun.com/engineeredsolutions/MotorsResolvers/AC_Motors-Alternators.aspx)\n![](https://www.ducommun.com/images/text_graphics/bullet.png)Oil Exploration for\n![](https://www.ducommun.com/images/text_graphics/bullet.png)High Temp (260\u00b0C)\n![](https://www.ducommun.com/images/text_graphics/bullet.png)High Efficiency\n![](https://www.ducommun.com/images/text_graphics/bullet.png)Optional with Gear Head\n![](https://www.ducommun.com/images/text_graphics/bullet.png)Single & 3-Phase"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Resolvers",
+        "product_type": "angular position sensing resolvers",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0007",
+            "line_start": 65,
+            "line_end": 70,
+            "url": "http://www.ducommun.com/engineeredsolutions/motorsResolvers/products.aspx",
+            "page_class": "product",
+            "snippet": "### [**Resolvers**](https://www.ducommun.com/engineeredsolutions/MotorsResolvers/Resolvers.aspx)\n![](https://www.ducommun.com/images/text_graphics/bullet.png)High Accuracy\n![](https://www.ducommun.com/images/text_graphics/bullet.png)up to +/- 5 Arc-Sec\n![](https://www.ducommun.com/images/text_graphics/bullet.png)Pancake or Housed\n![](https://www.ducommun.com/images/text_graphics/bullet.png)Single, Dual & Multi-Speed\n![](https://www.ducommun.com/images/text_graphics/bullet.png)Brushless (Rotary Transformer)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Variable Reluctance Resolvers",
+        "product_type": "brushless variable reluctance resolvers",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0007",
+            "line_start": 72,
+            "line_end": 78,
+            "url": "http://www.ducommun.com/engineeredsolutions/motorsResolvers/products.aspx",
+            "page_class": "product",
+            "snippet": "### [**Variable Reluctance Resolvers (Brushless)**](https://www.ducommun.com/engineeredsolutions/MotorsResolvers/VariableReluctanceResolvers.aspx)\n![](https://www.ducommun.com/images/text_graphics/bullet.png)Accuracy up\n![](https://www.ducommun.com/images/text_graphics/bullet.png)to +/- 2 Arc-Min\n![](https://www.ducommun.com/images/text_graphics/bullet.png)Compact Design\n![](https://www.ducommun.com/images/text_graphics/bullet.png)Lightweight\n![](https://www.ducommun.com/images/text_graphics/bullet.png)No Rotary\n![](https://www.ducommun.com/images/text_graphics/bullet.png)Transformer Required"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Actuator Assemblies",
+        "product_type": "rotary/linear actuators with gear heads",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0007",
+            "line_start": 80,
+            "line_end": 83,
+            "url": "http://www.ducommun.com/engineeredsolutions/motorsResolvers/products.aspx",
+            "page_class": "product",
+            "snippet": "### [**Actuator Assemblies**](https://www.ducommun.com/engineeredsolutions/MotorsResolvers/Actuators.aspx)\n![](https://www.ducommun.com/images/text_graphics/bullet.png)Rotary/Linear\n![](https://www.ducommun.com/images/text_graphics/bullet.png)With Gear Head, Lead Screw, etc.\n![](https://www.ducommun.com/images/text_graphics/bullet.png)Permanent Magnet, Multi-Position"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "RF Switch Products",
+        "product_type": "RF electromechanical switch products",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0006",
+            "line_start": 76,
+            "line_end": 77,
+            "url": "http://www.ducommun.com/engineeredsolutions/products/Default.aspx",
+            "page_class": "product",
+            "snippet": "### **[Radio Frequency (RF) Switch Products](/engineeredsolutions/RF/Default.aspx)**\nIndustry-leading Radio Frequency (RF) electromechanical switch products and other RF devices. For communications, radar, electronic warfare, data center, and automated test equipment applications."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "FastFin\u00ae systems",
+        "product_type": "aerodynamic fin/stabilizer systems for rotary-wing aircraft",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0006",
+            "line_start": 48,
+            "line_end": 49,
+            "url": "http://www.ducommun.com/engineeredsolutions/products/Default.aspx",
+            "page_class": "product",
+            "snippet": "### **[Aerodynamic Systems](https://www.blraerospace.com)**\nLeading provider of aerodynamic systems that enhance the productivity, performance and safety of rotary- and fixed-wing aircraft on commercial and military platforms. Comprehensive portfolio of products includes FastFin\u00ae systems, winglet systems, propellers and flow modifiers."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "VersaCore Composite\u2122",
+        "product_type": "composite structural technology",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0011",
+            "line_start": 21,
+            "line_end": 21,
+            "url": "https://www.ducommun.com",
+            "page_class": "homepage",
+            "snippet": "        *   [VersaCore Composite\u2122 technology](/structuralsolutions/vctechnology.aspx)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Many product sub-pages (BLDC details, RF product catalog, HMI page, structural systems) were skipped; additional SKUs likely exist."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA Section 848/889 compliance claims found in any fetched page."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS / Blue sUAS claims found in any fetched page."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0012",
+        "line_start": 78,
+        "line_end": 79,
+        "url": "http://www.ducommun.com/engineeredsolutions/motorsResolvers/capabilities.aspx",
+        "page_class": "capability",
+        "snippet": "### **Aftermarket Offering**\n![](https://www.ducommun.com/images/text_graphics/bullet.png)In addition to our original \u00a0\u00a0\u00a0equipment, we offer \u00a0\u00a0\u00a0aftermarket spares and \u00a0\u00a0\u00a0a full range of MRO \u00a0\u00a0\u00a0services for the Upstream \u00a0\u00a0\u00a0Oil Exploration and \u00a0\u00a0\u00a0Military markets."
+      }
+    ],
+    "notes": "Aftermarket spares and MRO services indicate serial production posture. Volume manufacturing also referenced on product overview page."
+  },
+  "unresolved_questions": [
+    "HQ city-level address not in corpus; contact/facilities pages were skipped",
+    "NDAA Sec 889 compliance status not addressed on any fetched page",
+    "RF switch product catalog details skipped (class budget exhausted)",
+    "Structural systems detailed capabilities pages skipped"
+  ],
+  "fetch_requests": [
+    {
+      "url": "http://www.ducommun.com/dco/facilitiesContact.aspx",
+      "reason": "Facilities contact page likely lists city-level HQ address and site locations for Ducommun.",
+      "expected_evidence": [
+        "headquarters"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=contact",
+      "in_corpus_index": true
+    },
+    {
+      "url": "http://www.ducommun.com/dco/ContactUs.aspx",
+      "reason": "Main contact page would provide HQ city/address for Ducommun.",
+      "expected_evidence": [
+        "headquarters"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=contact",
+      "in_corpus_index": true
+    },
+    {
+      "url": "http://www.ducommun.com/dco/overview.aspx",
+      "reason": "About/Overview page likely describes Ducommun's primary business, UXV supply chain role, and potentially HQ location.",
+      "expected_evidence": [
+        "headquarters",
+        "drone_supply_chain_role",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=company",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 22,
+    "total_cost_usd": 0.6877682,
+    "created_at": "2026-05-03T14:58:22+00:00",
+    "extract_version": "0.1.0"
+  },
+  "tagline": "Brushless DC motors, stepper motors, high-precision resolvers, RF switches, and aerodynamic stabilization systems (FastFin\u00ae) for defense and aerospace platforms. In-house production across propulsion, sensors, communications, and structures. NDAA and Blue UAS certification status unknown; public evidence of major BAE Systems supplier relationship but limited unmanned-systems program visibility."
+}

@@ -1,0 +1,438 @@
+{
+  "target_id": "exail",
+  "run_id": "canonical",
+  "display_name": "Exail",
+  "homepage_url": "https://www.exail.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/exail/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "airframes",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 33,
+            "line_end": 34,
+            "url": "https://www.exail.com",
+            "page_class": "homepage",
+            "snippet": "*   [Unmanned Surface Vehicles](https://www.exail.com/product-range/unmanned-surface-vehicles-for-mine-countermeasures)\n*   [Autonomous Underwater Vehicles](https://www.exail.com/product-range/autonomous-underwater-vehicles-for-defense-applications)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 85,
+            "line_end": 85,
+            "url": "https://www.exail.com",
+            "page_class": "homepage",
+            "snippet": "[Unmanned Ground Vehicles](https://www.exail.com/product-range/unmanned-ground-vehicles)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0240",
+            "line_start": 413,
+            "line_end": 413,
+            "url": "https://www.exail.com/landing/unmanned-ground-vehicles",
+            "page_class": "capability",
+            "snippet": "Drawing on 80 years of robotics expertise, Exail offers a wide range of Unmanned Ground Vehicles (UGVs) to perform missions in restricted, confined, hazardous or hard-to-reach areas. Exail designs and manufactures state-of-the-art Unmanned Ground Vehicles to counter emerging threats in the sector of Defence & Security."
+          }
+        ],
+        "notes": "Complete AUV (A9-M, A18-M, A6K), USV (DriX series, Inspector 125), and UGV (IGUANA, CAMELEON, COBRA) platforms"
+      },
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0619",
+            "line_start": 404,
+            "line_end": 405,
+            "url": "https://www.exail.com/product-range/inertial-navigation-solutions-for-navies",
+            "page_class": "product",
+            "snippet": "Inertial navigation\nfor navies"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0619",
+            "line_start": 436,
+            "line_end": 448,
+            "url": "https://www.exail.com/product-range/inertial-navigation-solutions-for-navies",
+            "page_class": "product",
+            "snippet": "Phins\n![Marins m3](https://www.exail.com/media/11633/marins-m3_600x600.png)\nMarins M3\n![Marins m3](https://www.exail.com/media/11633/marins-m3_600x600.png)\nMarins M5\n![Exail produits marins m7 m8](https://www.exail.com/media/7712/exail-produits-marins-m7-m8_90x90.png)\nMarins M7\n![Exail produits marins m7 m8](https://www.exail.com/media/7712/exail-produits-marins-m7-m8_90x90.png)\nMarins M8\n![Exail produits marins m9 m11](https://www.exail.com/media/7713/exail-produits-marins-m9-m11_90x90.png)\nMarins M9\n![Exail produits marins m9 m11](https://www.exail.com/media/7713/exail-produits-marins-m9-m11_90x90.png)\nMarins M11"
+          }
+        ],
+        "notes": "Phins and Marins series INS/AHRS for naval platforms; ADVANS series for land/air forces; IMUs across multiple verticals"
+      },
+      {
+        "category": "ground_segment",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0648",
+            "line_start": 442,
+            "line_end": 442,
+            "url": "https://www.exail.com/product/a9-m-autonomous-underwater-vehicle",
+            "page_class": "news",
+            "snippet": "### Software for mission planning and analysis"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0731",
+            "line_start": 438,
+            "line_end": 438,
+            "url": "https://www.exail.com/product/t18-m-towed-sonar",
+            "page_class": "product",
+            "snippet": "Integrated into the [UMIS](https://www.exail.com/product-range/umis-unmanned-mcm-mine-countermeasure-integrated-system) Toolbox as part of Exail\u2019s comprehensive MCM system, it leverages [Umisoft](https://www.exail.com/product/umisoft-mine-countermeasure-software-system) software for real-time data processing and target detection and classification. This enables operators to rapidly analyze information and make critical decisions with unmatched efficiency and confidence."
+          }
+        ],
+        "notes": "UMIS (Unmanned MCM Integrated System) and Umisoft software for MCM mission planning, real-time monitoring, and command/control"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Saint-Germain-en-Laye",
+      "state_or_province": null,
+      "country": "France",
+      "address": "34 rue de la Croix de Fer, 78100 Saint-Germain-en-Laye"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0580",
+        "line_start": 412,
+        "line_end": 412,
+        "url": "https://www.exail.com/privacy-policy",
+        "page_class": "company",
+        "snippet": "The company responsible for processing your Data on behalf of Exail group of companies is Exail SAS, a corporation with its head office at 34 rue de la Croix de Fer; 78100 Saint-Germain-en-Laye (France), registered within the Versailles Trade and Companies Register under number 433 185 121."
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "oem",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0240",
+        "line_start": 413,
+        "line_end": 413,
+        "url": "https://www.exail.com/landing/unmanned-ground-vehicles",
+        "page_class": "capability",
+        "snippet": "Drawing on 80 years of robotics expertise, Exail offers a wide range of Unmanned Ground Vehicles (UGVs) to perform missions in restricted, confined, hazardous or hard-to-reach areas. Exail designs and manufactures state-of-the-art Unmanned Ground Vehicles to counter emerging threats in the sector of Defence & Security."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0648",
+        "line_start": 405,
+        "line_end": 407,
+        "url": "https://www.exail.com/product/a9-m-autonomous-underwater-vehicle",
+        "page_class": "news",
+        "snippet": "A9-M\n====\nAutonomous Underwater Vehicle for Defense & Security"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0646",
+        "line_start": 405,
+        "line_end": 407,
+        "url": "https://www.exail.com/product/a18-m-autonomous-underwater-vehicle",
+        "page_class": "news",
+        "snippet": "A18-M\n=====\nAutonomous Underwater Vehicle for Mine Countermeasures"
+      }
+    ],
+    "notes": "Designs and manufactures complete AUV, USV, and UGV platforms for naval defense and maritime operations"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "A9-M",
+        "product_type": "man-portable autonomous underwater vehicle",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0648",
+            "line_start": 405,
+            "line_end": 407,
+            "url": "https://www.exail.com/product/a9-m-autonomous-underwater-vehicle",
+            "page_class": "news",
+            "snippet": "A9-M\n====\nAutonomous Underwater Vehicle for Defense & Security"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "A18-M",
+        "product_type": "mid-size autonomous underwater vehicle (MCM)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0646",
+            "line_start": 405,
+            "line_end": 407,
+            "url": "https://www.exail.com/product/a18-m-autonomous-underwater-vehicle",
+            "page_class": "news",
+            "snippet": "A18-M\n=====\nAutonomous Underwater Vehicle for Mine Countermeasures"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "A6K",
+        "product_type": "ultra-deep water autonomous underwater vehicle (6000 m)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0232",
+            "line_start": 440,
+            "line_end": 440,
+            "url": "https://www.exail.com/landing/autonomous-underwater-vehicles-auv-solutions",
+            "page_class": "news",
+            "snippet": "![](https://www.exail.com/build/assets/responsive-exail-logo-76290455.svg)Ultra deep water AUV"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0232",
+            "line_start": 443,
+            "line_end": 443,
+            "url": "https://www.exail.com/landing/autonomous-underwater-vehicles-auv-solutions",
+            "page_class": "news",
+            "snippet": "[Utra Deepwater AUV](https://www.exail.com/product/a6k-ultra-deep-autonomous-underwater-vehicles)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DriX series",
+        "product_type": "uncrewed surface vessel",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 120,
+            "line_end": 120,
+            "url": "https://www.exail.com",
+            "page_class": "homepage",
+            "snippet": "*   [Uncrewed Surface Vessels](https://www.exail.com/product-range/drix-series-uncrewed-surface-vessels)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 445,
+            "line_end": 445,
+            "url": "https://www.exail.com",
+            "page_class": "homepage",
+            "snippet": "### Exail\u2019s DriX H-9 selected for Counter-UAS research by leading defense organization"
+          }
+        ],
+        "notes": "Includes DriX H-9, DriX O-16, DriX H-8 variants"
+      },
+      {
+        "name": "Inspector 125",
+        "product_type": "unmanned surface vehicle (MCM)",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0646",
+            "line_start": 420,
+            "line_end": 420,
+            "url": "https://www.exail.com/product/a18-m-autonomous-underwater-vehicle",
+            "page_class": "news",
+            "snippet": "*   Operation flexibility from\u00a0[Inspector 125 USV](https://www.exail.com/product/inspector-125-unmanned-surface-vehicle), MCM Ship, non-dedicated ship or from shore"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "IGUANA",
+        "product_type": "medium unmanned ground vehicle (EOD/IEDD/CBRN)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0240",
+            "line_start": 432,
+            "line_end": 432,
+            "url": "https://www.exail.com/landing/unmanned-ground-vehicles",
+            "page_class": "capability",
+            "snippet": "IGUANA - Medium UGV for EOD & Counter IED and CBRN"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "CAMELEON MK3",
+        "product_type": "portable unmanned ground vehicle",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0240",
+            "line_start": 441,
+            "line_end": 441,
+            "url": "https://www.exail.com/landing/unmanned-ground-vehicles",
+            "page_class": "capability",
+            "snippet": "CAMELEON MK3 \u2013 Portable UGV with multi-mission robotic arm capability"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "COBRA",
+        "product_type": "mini unmanned ground vehicle",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0240",
+            "line_start": 451,
+            "line_end": 451,
+            "url": "https://www.exail.com/landing/unmanned-ground-vehicles",
+            "page_class": "capability",
+            "snippet": "COBRA - Mini UGV for EOD IEDD, CBRN and Intelligence & Reconnaissance"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "T18-M",
+        "product_type": "towed synthetic aperture sonar",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0731",
+            "line_start": 404,
+            "line_end": 407,
+            "url": "https://www.exail.com/product/t18-m-towed-sonar",
+            "page_class": "product",
+            "snippet": "T18-M\ntowed sonar\n===================\nTowed Synthetic Aperture Sonar"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "UMIS",
+        "product_type": "unmanned MCM integrated system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0648",
+            "line_start": 444,
+            "line_end": 444,
+            "url": "https://www.exail.com/product/a9-m-autonomous-underwater-vehicle",
+            "page_class": "news",
+            "snippet": "A9-M, an essential component of the UMIS MCM TOOLBOX"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Phins",
+        "product_type": "fiber-optic gyroscope inertial navigation system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0619",
+            "line_start": 436,
+            "line_end": 436,
+            "url": "https://www.exail.com/product-range/inertial-navigation-solutions-for-navies",
+            "page_class": "product",
+            "snippet": "Phins"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Marins series",
+        "product_type": "high-end INS for warships and submarines",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0619",
+            "line_start": 438,
+            "line_end": 449,
+            "url": "https://www.exail.com/product-range/inertial-navigation-solutions-for-navies",
+            "page_class": "product",
+            "snippet": "Marins M3\n![Marins m3](https://www.exail.com/media/11633/marins-m3_600x600.png)\nMarins M5\n![Exail produits marins m7 m8](https://www.exail.com/media/7712/exail-produits-marins-m7-m8_90x90.png)\nMarins M7\n![Exail produits marins m7 m8](https://www.exail.com/media/7712/exail-produits-marins-m7-m8_90x90.png)\nMarins M8\n![Exail produits marins m9 m11](https://www.exail.com/media/7713/exail-produits-marins-m9-m11_90x90.png)\nMarins M9\n![Exail produits marins m9 m11](https://www.exail.com/media/7713/exail-produits-marins-m9-m11_90x90.png)\nMarins M11\nType"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "French company; no NDAA Section 848/889 compliance claim found."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS or Blue sUAS claim found anywhere in the corpus"
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 460,
+        "line_end": 460,
+        "url": "https://www.exail.com",
+        "page_class": "homepage",
+        "snippet": "### Exail announces first sale of DriX H-9 for civil offshore operations to a European client"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0648",
+        "line_start": 452,
+        "line_end": 452,
+        "url": "https://www.exail.com/product/a9-m-autonomous-underwater-vehicle",
+        "page_class": "news",
+        "snippet": "### Datasheet A9-M"
+      }
+    ],
+    "notes": "Products available with published datasheets; commercial sales reported (first sale of DriX H-9 for civil offshore operations)"
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "French OEM producing tactical unmanned airframes (A9-M, A18-M, A6K, DriX, Inspector 125, IGUANA, CAMELEON, COBRA) alongside sensors, navigation systems, and ground control. Primary market is naval mine countermeasures and defense; trusted by 70+ militaries. NDAA and Blue UAS certification status unknown; limited public US defense contract visibility.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 28,
+    "total_cost_usd": 1.1240572999999998,
+    "created_at": "2026-05-04T02:40:52+00:00",
+    "extract_version": "0.1.0"
+  }
+}

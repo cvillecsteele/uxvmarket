@@ -1,0 +1,49 @@
+{
+  "target_id": "sf-motorsporttechnik",
+  "run_id": "canonical",
+  "display_name": "SF Motorsporttechnik",
+  "homepage_url": "https://www.sf-motorsporttechnik.de",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/sf-motorsporttechnik/website",
+  "products": [],
+  "unresolved_questions": [
+    "The SF Motorsporttechnik website is a 'coming soon' placeholder (German: 'Neue Website in K\u00fcrze'). The only fetched page is the homepage, which contains no product listings, product names, or capability descriptions \u2014 only contact details and a legal imprint. No product enumeration is possible until the site is built out. External sources (UST directory) note 'Fuel Systems / Powertrain' as their domain, but no named products are confirmed from corpus evidence."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.sf-motorsporttechnik.de/produkte",
+      "reason": "Anticipated product index page once the new site launches; needed to enumerate any named products in the fuel systems / powertrain category.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "guessed standard German product URL pattern",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.sf-motorsporttechnik.de/products",
+      "reason": "English-language product index alternative URL; needed to enumerate products once the site is live.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "guessed standard product URL pattern",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.sf-motorsporttechnik.de/leistungen",
+      "reason": "German 'services/capabilities' page \u2014 may describe product lines when site launches.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "guessed standard German capability URL pattern",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "needs_more_fetches",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 5,
+    "total_cost_usd": 0.12227845,
+    "created_at": "2026-05-03T00:54:23+00:00",
+    "extract_version": "0.1.0"
+  }
+}

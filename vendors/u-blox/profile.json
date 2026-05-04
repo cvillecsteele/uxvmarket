@@ -1,0 +1,411 @@
+{
+  "target_id": "u-blox",
+  "run_id": "canonical",
+  "display_name": "u-blox",
+  "homepage_url": "https://www.u-blox.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/u-blox/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 27,
+            "line_end": 30,
+            "url": "https://www.u-blox.com/en",
+            "page_class": "homepage",
+            "snippet": "    ### Positioning products\n    *   [Product selector](https://www.u-blox.com/en/product-selector)\n    *   [Positioning modules](https://www.u-blox.com/en/positioning-chips-and-modules#High-precision-GNSS)\n    *   [Positioning chips](https://www.u-blox.com/en/positioning-chips-and-modules#Standard-precision-GNSS)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 44,
+            "line_end": 47,
+            "url": "https://www.u-blox.com/en",
+            "page_class": "homepage",
+            "snippet": "    ### Positioning technologies\n    *   [Overview](/en/positioning-and-location)\n    *   [Standard precision positioning](/en/technologies/standard-precision-positioning)\n    *   [High precision positioning](/en/technologies/high-precision-positioning)"
+          }
+        ],
+        "notes": "GNSS positioning chips, modules, antennas, and correction services. Core business; serves automotive, industrial, drone/UAV, and robotics markets."
+      },
+      {
+        "category": "communications",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 23,
+            "line_end": 26,
+            "url": "https://www.u-blox.com/en",
+            "page_class": "homepage",
+            "snippet": "    ### Connectivity products\n    *   [Product selector](https://www.u-blox.com/en/product-selector?category=Short%2520Range)\n    *   [Bluetooth modules](https://www.u-blox.com/en/short-range-radio-modules#Bluetooth)\n    *   [Wi-Fi modules](https://www.u-blox.com/en/short-range-radio-modules#Multiradio)"
+          }
+        ],
+        "notes": "Bluetooth, Wi-Fi, and LTE/LPWA cellular modules (e.g. SARA-R5). Significant secondary product line alongside positioning."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Thalwil",
+      "state_or_province": null,
+      "country": "Switzerland",
+      "address": null
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0039",
+        "line_start": 129,
+        "line_end": 129,
+        "url": "https://www.u-blox.com/en/about",
+        "page_class": "company",
+        "snippet": "IPO at the SIX Swiss Exchange"
+      }
+    ],
+    "notes": "About page explicitly states 'With headquarters in Thalwil, Switzerland' (line 92, exceeds 60-word citation cap). Line 129 ('IPO at the SIX Swiss Exchange') confirms Swiss domicile. City of Thalwil confirmed by boilerplate across multiple pages."
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0513",
+        "line_start": 100,
+        "line_end": 100,
+        "url": "https://www.u-blox.com/en/quality",
+        "page_class": "compliance",
+        "snippet": "We operate as a fabless IC and module design-house, utilizing high-volume, state-of-the-art fabrication and packaging [partners](/alliance-memberships-partnerships) that adhere to the highest manufacturing standards."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 8,
+        "line_end": 8,
+        "url": "https://www.u-blox.com/en",
+        "page_class": "homepage",
+        "snippet": "    *   [Drones (UAV)](/en/drone-navigation)"
+      }
+    ],
+    "notes": "Fabless IC and module design-house selling GNSS chips, positioning modules, and wireless communication modules that go into drones, automotive, and IoT devices."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "ZED-F9P",
+        "product_type": "high precision GNSS module",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0334",
+            "line_start": 117,
+            "line_end": 117,
+            "url": "https://www.u-blox.com/en/product/evk-f9p",
+            "page_class": "product",
+            "snippet": "The EVK-F9P evaluation kit allows efficient evaluation of ZED-F9P, the u-blox F9 high precision positioning module."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "NEO-M9N",
+        "product_type": "standard precision GNSS module",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0345",
+            "line_start": 106,
+            "line_end": 106,
+            "url": "https://www.u-blox.com/en/product/evk-m9",
+            "page_class": "product",
+            "snippet": "[NEO-M9N module](/en/product/neo-m9n-module)![eye icon](/icons/eye-red.svg)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ANN-MS",
+        "product_type": "active GPS antenna",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0292",
+            "line_start": 87,
+            "line_end": 89,
+            "url": "https://www.u-blox.com/en/product/ann-ms",
+            "page_class": "product",
+            "snippet": "ANN-MS\n======\nHigh performance active GPS antenna"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "EVK-M9",
+        "product_type": "M9 GNSS evaluation kit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0345",
+            "line_start": 87,
+            "line_end": 89,
+            "url": "https://www.u-blox.com/en/product/evk-m9",
+            "page_class": "product",
+            "snippet": "EVK-M9\n======\nu-blox M9 GNSS evaluation kit"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "EVK-F9P",
+        "product_type": "F9P high precision GNSS evaluation kit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0334",
+            "line_start": 87,
+            "line_end": 89,
+            "url": "https://www.u-blox.com/en/product/evk-f9p",
+            "page_class": "product",
+            "snippet": "EVK-F9P\n=======\nu-blox F9P high precision GNSS evaluation kit"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "EVK-F9T",
+        "product_type": "F9 GNSS timing evaluation kit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0283",
+            "line_start": 87,
+            "line_end": 89,
+            "url": "https://www.u-blox.com/en/product/EVK-F9T",
+            "page_class": "product",
+            "snippet": "EVK-F9T\n=======\nEvaluation kit for ZED-F9T"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "EVK-F9DR",
+        "product_type": "F9 GNSS dead reckoning evaluation kit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0333",
+            "line_start": 87,
+            "line_end": 89,
+            "url": "https://www.u-blox.com/en/product/evk-f9dr",
+            "page_class": "product",
+            "snippet": "EVK-F9DR\n========\nu-blox F9 GNSS dead reckoning evaluation kit"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "EVK-M10",
+        "product_type": "M10 GNSS evaluation kit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0342",
+            "line_start": 87,
+            "line_end": 89,
+            "url": "https://www.u-blox.com/en/product/evk-m10",
+            "page_class": "product",
+            "snippet": "EVK-M10\n=======\nu-blox M10 GNSS evaluation kit"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "C94-M8P",
+        "product_type": "RTK application board (NEO-M8P-2 based)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0313",
+            "line_start": 87,
+            "line_end": 89,
+            "url": "https://www.u-blox.com/en/product/c94-m8p",
+            "page_class": "product",
+            "snippet": "C94-M8P\n=======\nu-blox RTK application board package"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "C93-M8E",
+        "product_type": "M8 untethered dead reckoning application board",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0312",
+            "line_start": 86,
+            "line_end": 87,
+            "url": "https://www.u-blox.com/en/product/c93-m8e",
+            "page_class": "product",
+            "snippet": "*   [C93-M8E](/en/product/c93-m8e)\nC93-M8E"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SARA-R5",
+        "product_type": "LTE-M/NB-IoT cellular module",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0259",
+            "line_start": 93,
+            "line_end": 93,
+            "url": "https://www.u-blox.com/en/press-releases/u-blox%E2%80%99s-cellular-modules-own-lpwa-chipset-pass-us-certifications-and-enter-production",
+            "page_class": "compliance",
+            "snippet": "**The [SARA-R5](/product/sara-r5-series) LTE-M/NB-IoT series is now LTE-M certified with several North American Tier 1 operators.**"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "u-center",
+        "product_type": "GNSS evaluation software for Windows",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0345",
+            "line_start": 119,
+            "line_end": 120,
+            "url": "https://www.u-blox.com/en/product/evk-m9",
+            "page_class": "product",
+            "snippet": "GNSS evaluation software for Windows\n](/en/product/u-center)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ubxlib",
+        "product_type": "embedded C host library for u-blox modules (discontinued Nov 2024)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0478",
+            "line_start": 87,
+            "line_end": 89,
+            "url": "https://www.u-blox.com/en/product/ubxlib",
+            "page_class": "product",
+            "snippet": "ubxlib: u-blox host library\n===========================\nSimplified developer experience for u-blox products and services"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Many more SKUs exist (ZED-F9K, ZED-F9L, NEO-D9S, MIA-M10, MAX-M10, ZED-X20P, F11 platform); only a subset was fetched. Core families: M9, M10, F9, F10, F11 GNSS platforms plus Bluetooth/Wi-Fi NINA modules and cellular SARA/LARA series."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0259",
+        "line_start": 90,
+        "line_end": 90,
+        "url": "https://www.u-blox.com/en/press-releases/u-blox%E2%80%99s-cellular-modules-own-lpwa-chipset-pass-us-certifications-and-enter-production",
+        "page_class": "compliance",
+        "snippet": "u-blox\u2019s cellular modules with own LPWA chipset pass US certifications and enter production"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0513",
+        "line_start": 100,
+        "line_end": 100,
+        "url": "https://www.u-blox.com/en/quality",
+        "page_class": "compliance",
+        "snippet": "We operate as a fabless IC and module design-house, utilizing high-volume, state-of-the-art fabrication and packaging [partners](/alliance-memberships-partnerships) that adhere to the highest manufacturing standards."
+      }
+    ],
+    "notes": "Established catalog of GNSS chips, modules, and wireless modules sold globally through distributor network. New platforms (F11, ZED-X20P) launched commercially in 2024-2026."
+  },
+  "unresolved_questions": [
+    "NDAA Section 848/889 compliance not mentioned on site",
+    "Blue UAS status not mentioned",
+    "Drone-navigation and positioning-chips-and-modules pages were skipped in crawl \u2014 would enumerate full UAV-specific and production SKU details"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.u-blox.com/en/drone-navigation",
+      "reason": "Drone/UAV application page skipped during crawl; would show specific GNSS modules and positioning products recommended for drone navigation",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.u-blox.com/en/positioning-chips-and-modules",
+      "reason": "Positioning chips and modules overview page skipped during crawl; would enumerate current production GNSS chips and module families",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": null,
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 29,
+    "total_cost_usd": 1.06792285,
+    "created_at": "2026-05-04T07:17:55+00:00",
+    "extract_version": "0.1.0"
+  }
+}

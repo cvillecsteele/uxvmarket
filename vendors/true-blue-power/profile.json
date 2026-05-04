@@ -1,0 +1,265 @@
+{
+  "target_id": "true-blue-power",
+  "run_id": "canonical",
+  "display_name": "True Blue Power",
+  "homepage_url": "https://truebluepowerusa.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/true-blue-power/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "power_systems",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 16,
+            "line_end": 26,
+            "url": "https://www.mcico.com/truebluepower",
+            "page_class": "homepage",
+            "snippet": "    *   *   [Batteries](https://www.mcico.com/truebluepower/batteries?purchase_type=New+Outright%2CNew+Exchange)\n        *   [Battery Chargers](https://www.mcico.com/truebluepower/battery-chargers?purchase_type=New+Outright%2CNew+Exchange)\n        *   [Battery STC Kits](https://www.mcico.com/truebluepower/battery-stcs)\n        *   [Converters](https://www.mcico.com/truebluepower/converters?purchase_type=New+Outright%2CNew+Exchange)\n        *   [Emergency Battery Power Supplies](https://www.mcico.com/truebluepower/emergency-battery-power-supplies?purchase_type=New+Outright%2CNew+Exchange)\n        *   [Emergency Battery Power Supply STC Kits](https://www.mcico.com/truebluepower/emergency-battery-power-supply-stcs)\n        *   [Inverters](https://www.mcico.com/truebluepower/inverters?purchase_type=New+Outright%2CNew+Exchange)\n        *   [Inverter STC Kits](https://www.mcico.com/truebluepower/inverter-stcs)\n        *   [Outlets](https://www.mcico.com/truebluepower/outlets?purchase_type=New+Outright%2CNew+Exchange)\n        *   [USB Chargers](https://www.mcico.com/truebluepower/usb-chargers?purchase_type=New+Outright%2CNew+Exchange)\n        *   [Wireless Chargers](https://www.mcico.com/truebluepower/wireless-chargers?purchase_type=New+Outright%2CNew+Exchange)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-1028",
+            "line_start": 51,
+            "line_end": 58,
+            "url": "https://www.mcico.com/truebluepower/products",
+            "page_class": "product",
+            "snippet": "*   [![](https://www.mcico.com/media/catalog/category/6430040-1_a_1.png)](https://www.mcico.com/truebluepower/batteries?purchase_type=New+Outright%2CNew+Exchange \"Batteries\")\n    [True Blue Power Batteries](https://www.mcico.com/truebluepower/batteries?purchase_type=New+Outright%2CNew+Exchange \"Batteries \")\n*   [![](https://www.mcico.com/media/catalog/category/ACM-1260-101_a.png)](https://www.mcico.com/truebluepower/battery-chargers?purchase_type=New+Outright%2CNew+Exchange \"Battery Chargers\")\n    [True Blue Power Battery Chargers](https://www.mcico.com/truebluepower/battery-chargers?purchase_type=New+Outright%2CNew+Exchange \"Battery Chargers \")\n*   [![](https://www.mcico.com/media/catalog/category/lithium-ion_battery_STC_kits.png)](https://www.mcico.com/truebluepower/battery-stcs?purchase_type=New+Outright%2CNew+Exchange \"Battery STC Kits\")\n    [True Blue Power Battery STC Kits](https://www.mcico.com/truebluepower/battery-stcs?purchase_type=New+Outright%2CNew+Exchange \"Battery STC Kits \")\n*   [![](https://www.mcico.com/media/catalog/category/6432000-1_1.png)](https://www.mcico.com/truebluepower/converters?purchase_type=New+Outright%2CNew+Exchange \"Converters\")\n    [True Blue Power Converters](https://www.mcico.com/truebluepower/converters?purchase_type=New+Outright%2CNew+Exchange \"Converters \")"
+          }
+        ],
+        "notes": "Lithium-ion aircraft batteries, converters, inverters, emergency battery power supplies, USB/wireless chargers \u2014 core product line serves aviation including UAV/Advanced Air Mobility market"
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "All fetched products are aviation power systems. Advanced Air Mobility (UAV/autonomous) is listed as a target market but the market-specific page was not fetched."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Wichita",
+      "state_or_province": "Kansas",
+      "country": "United States",
+      "address": "9400 East 34th Street North, Wichita, Kansas 67226"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0927",
+        "line_start": 50,
+        "line_end": 57,
+        "url": "https://www.mcico.com/truebluepower/contact",
+        "page_class": "contact",
+        "snippet": "### Kansas\nMonday \u2013 Friday\n7:00 a.m. \u2013 7:00 p.m. (CDT)\n[316-630-0101](tel:13166300101)\n[800-821-1212](tel:18008211212)\n[tbp@mcico.com](mailto:tbp@mcico.com)\n9400 East 34th Street North\nWichita, Kansas 67226"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 161,
+        "line_end": 163,
+        "url": "https://www.mcico.com/truebluepower",
+        "page_class": "homepage",
+        "snippet": "*   KANSAS\n    [800-821-1212](tel:800-821-1212 \"800-821-1212\")\n*   CALIFORNIA"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 80,
+        "line_end": 83,
+        "url": "https://www.mcico.com/truebluepower",
+        "page_class": "homepage",
+        "snippet": "[![Advanced Air Mobility](https://www.mcico.com/media/wysiwyg/aam-market_1.jpg \"Advanced Air Mobility\")](https://www.mcico.com/truebluepower/advanced-air-mobility \"Advanced Air Mobility\")\n[![UAV and Autonomous](https://www.mcico.com/media/wysiwyg/Alamay_D723AK_MQ-4C_Triton_FOR_WEB_USE_2x_1_1.jpg \"UAV and Autonomous\")](https://www.mcico.com/truebluepower/advanced-air-mobility \"UAV and Autonomous\")\n### Advanced Air Mobility\n[Learn More](https://www.mcico.com/truebluepower/advanced-air-mobility)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 84,
+        "line_end": 87,
+        "url": "https://www.mcico.com/truebluepower",
+        "page_class": "homepage",
+        "snippet": "Custom Design\n-------------\nStreamline your product development process and leverage leading-edge technology. Our team of Mechanical, Software, Certification, and Electrical Engineers develop custom power solutions to meet your specific project requirements.\n[Learn More](https://www.mcico.com/truebluepower/tbp-custom-design)"
+      }
+    ],
+    "notes": "True Blue Power manufactures aviation power system components (lithium-ion batteries, inverters, AC-to-DC converters, emergency battery power supplies) sold to aircraft OEMs and operators, including the UAV/Advanced Air Mobility market."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Gen5 TB50 / TB20 Lithium-ion Aircraft Batteries",
+        "product_type": "lithium-ion aviation main ship battery",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 121,
+            "line_end": 121,
+            "url": "https://www.mcico.com/truebluepower",
+            "page_class": "homepage",
+            "snippet": "True Blue Power, the leading manufacturer of lithium-ion aircraft batteries, and 101 Aviation, a Texas-based company specializing in Supplemental Type Certificate (STC) development, today announced the True Blue Power Gen5 TB50 (50 amp-hour) and TB20 (20 amp-hour) lithium-ion batteries will be available for Gulfstream and Bombardier aircraft beginning Q1 2026 with additional aircraft certifications to follow."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TC800 Series Converters",
+        "product_type": "modular AC-to-DC aviation power converter",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 115,
+            "line_end": 115,
+            "url": "https://www.mcico.com/truebluepower",
+            "page_class": "homepage",
+            "snippet": "True Blue Power today introduced the company\u2019s modular TC800 Series Converters during the New Product Introduction session at the Aircraft Electronics Association (AEA) International Convention and Trade Show in Dallas, Texas."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TS32 Series / TS56 Emergency Battery Power Supplies",
+        "product_type": "NiMH emergency battery power supply for aircraft",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 117,
+            "line_end": 117,
+            "url": "https://www.mcico.com/truebluepower",
+            "page_class": "homepage",
+            "snippet": " [![New TS32 Series and TS56 nickel-metal hydride (NiMH) emergency battery power supplies](https://www.mcico.com/media/wysiwyg/ts32-ts56-press_phenom-300_thumb.png \"New TS32 Series and TS56 nickel-metal hydride (NiMH) emergency battery power supplies\")](https://www.mcico.com/truebluepower/resource-center/true-blue-power-emergency-batteries-increase-dispatch-reliability-and-reduce-maintenance-costs \"New TS32 Series and TS56 nickel-metal hydride (NiMH) emergency battery power supplies\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "StartStick",
+        "product_type": "lithium-ion portable aviation ground power unit (10/15/20 Ah)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0340",
+            "line_start": 107,
+            "line_end": 109,
+            "url": "https://www.mcico.com/brand/aviation_battery_systems",
+            "page_class": "capability",
+            "snippet": "    Model # StartStick 10\n    Ground Power Unit\n    Lithium-ion powered, 10 amp-hour capacity, portable"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "True Blue Charger PRO",
+        "product_type": "lithium-ion aircraft battery charger",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 106,
+            "line_end": 106,
+            "url": "https://www.mcico.com/truebluepower",
+            "page_class": "homepage",
+            "snippet": "[How To: Charge a Lithium-ion Aircraft Battery with the True Blue Charger PRO](https://www.mcico.com/truebluepower/resource-center/videos/charge-a-lithium-ion-aircraft-battery-with-the-true-blue-charger-pro \"How To: Charge a Lithium-ion Aircraft Battery with the True Blue Charger PRO\")"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Named product lines confirmed; individual battery SKUs and full catalog SKUs are on pages not yet fetched."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "Compliance page covers FAA, EASA, OSHA, EPA, and export compliance but makes no reference to NDAA Section 848/889."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "medium",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No mention of DIU Blue UAS or Blue sUAS authorisation anywhere in the corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0340",
+        "line_start": 103,
+        "line_end": 104,
+        "url": "https://www.mcico.com/brand/aviation_battery_systems",
+        "page_class": "capability",
+        "snippet": "18 Results\nSort by Default Part # Manufacturer Model Number [Set Descending Direction](# \"Set Descending Direction\")"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0920",
+        "line_start": 70,
+        "line_end": 70,
+        "url": "https://www.mcico.com/truebluepower/certifications",
+        "page_class": "compliance",
+        "snippet": "The Quality Management System at our Wichita, Kansas manufacturing facility is AS9100D and ISO 9001:2015 Certified."
+      }
+    ],
+    "notes": "Vendor publishes a 2026 Product Catalog, lists catalog SKUs with prices, has manufacturing facility in Wichita, Kansas certified AS9100D and ISO 9001:2015. Also offers custom design engineering services as a secondary mode."
+  },
+  "unresolved_questions": [
+    "Advanced Air Mobility / UAV-specific product offerings not confirmed \u2014 the market page (truebluepower/advanced-air-mobility) was not fetched.",
+    "Full battery SKU list (individual TB-series part numbers) on batteries product page not fetched.",
+    "NDAA Section 848/889 compliance status not disclosed anywhere in corpus."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.mcico.com/truebluepower/advanced-air-mobility",
+      "reason": "UAV/autonomous market page \u2014 would confirm specific products, applications, and any UAV-focused power solutions True Blue Power offers for drones.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=capability",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.mcico.com/truebluepower/batteries",
+      "reason": "Battery product listing \u2014 would reveal specific TB-series model numbers and part numbers for the lithium-ion battery line.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Manufactures lithium-ion aircraft batteries (Gen5 TB50/TB20), power converters (TC800), and emergency battery supplies (TS32/TS56) for general, business, commercial, and military aviation. Production-ready. NDAA and Blue UAS certification status unknown; public evidence on defense contracts or unmanned-systems integration is sparse.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 26,
+    "total_cost_usd": 0.7548538,
+    "created_at": "2026-05-04T07:06:02+00:00",
+    "extract_version": "0.1.0"
+  }
+}

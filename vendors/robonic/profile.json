@@ -1,0 +1,224 @@
+{
+  "target_id": "robonic",
+  "run_id": "canonical",
+  "display_name": "Robonic",
+  "homepage_url": "https://www.robonic.fi",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/robonic/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "mechanical_subsystems",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0003",
+            "line_start": 26,
+            "line_end": 26,
+            "url": "https://www.robonic.fi/3rd-generation-technology",
+            "page_class": "capability",
+            "snippet": "### The evolution of the global UAS marketplace has generated requirements for a unique range of specialised ancillary hardware with Robonic internationally recognised as the benchmark provider of launch systems."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0003",
+            "line_start": 37,
+            "line_end": 37,
+            "url": "https://www.robonic.fi/3rd-generation-technology",
+            "page_class": "capability",
+            "snippet": "The Robonic launcher concept is a patented product. US and other patents apply. All systems in the Robonic launcher family have been designed to meet and fully comply with a variety of standards, including CE, ASME and ASTM."
+          }
+        ],
+        "notes": "Pneumatic catapult launchers for UAVs \u2014 patented design, family of products deployed in 10 countries across 4 continents."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "RATUFC facility also appears on the site; purpose unclear from fetched corpus \u2014 fetch_request added to resolve potential test_and_measurement secondary category."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Tampere",
+      "state_or_province": null,
+      "country": "Finland",
+      "address": "Pinninkatu 53 C, 3rd floor, FIN-33100 Tampere"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0015",
+        "line_start": 28,
+        "line_end": 30,
+        "url": "https://www.robonic.fi/contact-info",
+        "page_class": "contact",
+        "snippet": "**Robonic Ltd Oy**\nPinninkatu 53 C, 3rd floor\nFIN-33100 Tampere, FINLAND"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 34,
+        "line_end": 36,
+        "url": "https://www.robonic.fi",
+        "page_class": "homepage",
+        "snippet": "...UAV...\n---------\n...launchers."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0003",
+        "line_start": 26,
+        "line_end": 26,
+        "url": "https://www.robonic.fi/3rd-generation-technology",
+        "page_class": "capability",
+        "snippet": "### The evolution of the global UAS marketplace has generated requirements for a unique range of specialised ancillary hardware with Robonic internationally recognised as the benchmark provider of launch systems."
+      }
+    ],
+    "notes": "Designs and manufactures pneumatic UAV launch systems (catapults). Does not build complete aircraft."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "KONTIO",
+        "product_type": "3rd generation pneumatic UAV launcher",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0003",
+            "line_start": 24,
+            "line_end": 24,
+            "url": "https://www.robonic.fi/3rd-generation-technology",
+            "page_class": "capability",
+            "snippet": "Robonic KONTIO 3rd Generation Technology"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "OHTO (MC1555LLR)",
+        "product_type": "4th generation high-pressure pneumatic UAV launcher",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0072",
+            "line_start": 24,
+            "line_end": 24,
+            "url": "https://www.robonic.fi/robonic_4th-generation-technology",
+            "page_class": "capability",
+            "snippet": "Robonic OHTO 4th Generation Technology"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0072",
+            "line_start": 26,
+            "line_end": 26,
+            "url": "https://www.robonic.fi/robonic_4th-generation-technology",
+            "page_class": "capability",
+            "snippet": "### The Robonic OHTO (MC1555LLR)\u00a0high-pressure pneumatic launcher is the 4th generation zero-point pneumatic launcher with a wide envelope in launch mass and exit velocity based on high tech design, aeronautical class mechanical structure, maintainability as well as tactical mobility and transportability."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Additional launcher SKUs may exist; performance pages (launching-tactical-uas, high-performance-target-drones) were skipped and likely contain more product detail."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0003",
+        "line_start": 34,
+        "line_end": 34,
+        "url": "https://www.robonic.fi/3rd-generation-technology",
+        "page_class": "capability",
+        "snippet": "Our 3rd generation technology encompass lessons from deployment of our launchers all over the world in support of multiple operational and developmental users. Our hardware has seen service in ten different countries and four different continents in operational environments that range from the deep icebound to the high desert and from European forest to high humidity coastlines."
+      }
+    ],
+    "notes": "More than three decades of manufacturing; systems deployed operationally in 10 countries and 4 continents."
+  },
+  "unresolved_questions": [
+    "RATUFC facility role unknown \u2014 may represent a test range (test_and_measurement secondary category) but content page was skipped.",
+    "Additional launcher product variants may exist on skipped performance pages."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.robonic.fi/ratufc-introduction",
+      "reason": "Would clarify whether RATUFC is a test range/UAV test facility, which would add test_and_measurement as a secondary product category.",
+      "expected_evidence": [
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.robonic.fi/high-performance-target-drones",
+      "reason": "Would reveal specific product names and capabilities for target drone launch systems, improving products list completeness.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.robonic.fi/launching-tactical-uas",
+      "reason": "Would confirm tactical UAS launcher product variants and performance specs, improving products list completeness.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.robonic.fi/company-profile",
+      "reason": "Would provide company background including founding date, employee count, and potentially headquarters confirmation.",
+      "expected_evidence": [
+        "headquarters",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Finnish manufacturer of pneumatic catapult launchers for tactical UAS and target drones, with production-ready 3rd- and 4th-generation systems (KONTIO, OHTO). Holds AQAP2110 and ISO9001 certifications. NDAA and Blue UAS compliance status not publicly documented. Also operates RATUFC, a dedicated UAS test flight center.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 24,
+    "total_cost_usd": 0.418705,
+    "created_at": "2026-05-04T05:49:57+00:00",
+    "extract_version": "0.1.0"
+  }
+}

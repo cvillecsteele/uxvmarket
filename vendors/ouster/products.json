@@ -1,0 +1,476 @@
+{
+  "target_id": "ouster",
+  "run_id": "canonical",
+  "display_name": "Ouster",
+  "homepage_url": "https://ouster.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/ouster/website",
+  "products": [
+    {
+      "name": "OS0",
+      "category": "sensors_and_navigation",
+      "descriptor": "Ultra-wide 90\u00b0 FOV digital lidar sensor, 35 m range",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0005",
+          "line_start": 48,
+          "line_end": 54,
+          "url": "https://ouster.com",
+          "page_class": "homepage",
+          "snippet": "OS0\n---\n*   Range at 10% Target 35 m\n*   Precision (up to) 0.8 cm +/-\n*   Vertical Resolution (up to) 1.4\u00b0\n*   Weight 500 g\n](/products/hardware/os0-lidar-sensor)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "OS1",
+      "category": "sensors_and_navigation",
+      "descriptor": "Mid-range 42.4\u00b0 FOV digital lidar sensor, 90 m range, Blue UAS approved",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "yes",
+      "blue_uas": "yes",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0005",
+          "line_start": 59,
+          "line_end": 65,
+          "url": "https://ouster.com",
+          "page_class": "homepage",
+          "snippet": "OS1\n---\n*   Range at 10% Target 90 m\n*   Precision (up to) 0.5 cm +/-\n*   Vertical Resolution (up to) 0.7\u00b0\n*   Weight 482 g\n](/products/hardware/os1-lidar-sensor)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0297",
+          "line_start": 23,
+          "line_end": 23,
+          "url": "https://ouster.com/insights/blog/ouster-os1-lidar-dod-approved-for-unmanned-aircraft-and-secure-government-operations",
+          "page_class": "compliance",
+          "snippet": "*   **NDAA Compliance:** Ouster\u2019s OS1 digital Lidar sensors are compliant with the National Defense Authorization Act (NDAA), as affirmed by Blue UAS approval. This is vital because, by **June 30, 2026**, the NDAA will restrict the U.S. government\u2019s procurement and use of Lidar from certain foreign countries. Our approval ensures readiness now, well before the deadline."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "OS2",
+      "category": "sensors_and_navigation",
+      "descriptor": "Long-range 22.5\u00b0 FOV digital lidar sensor, 200 m range",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0005",
+          "line_start": 70,
+          "line_end": 76,
+          "url": "https://ouster.com",
+          "page_class": "homepage",
+          "snippet": "OS2\n---\n*   Range at 10% Target 200 m\n*   Precision (up to) 2 cm +/-\n*   Vertical Resolution (up to) 0.36\u00b0\n*   Weight 1,100 g\n](/products/hardware/os2-lidar-sensor)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "OSDome",
+      "category": "sensors_and_navigation",
+      "descriptor": "Hemispherical 180\u00b0 FOV digital lidar sensor, 20 m range",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0005",
+          "line_start": 37,
+          "line_end": 43,
+          "url": "https://ouster.com",
+          "page_class": "homepage",
+          "snippet": "OSDome\n------\n*   Range at 10% Target 20 m\n*   Precision (up to) 1 cm +/-\n*   Vertical Resolution (up to) 1.4\u00b0\n*   Weight 470 g\n](/products/hardware/osdome-lidar-sensor)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "VLP 16",
+      "category": "sensors_and_navigation",
+      "descriptor": "Compact mid-range 360\u00b0 FOV lidar sensor, 200 m range, 16\u201332 channels",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0299",
+          "line_start": 12,
+          "line_end": 14,
+          "url": "https://ouster.com/products/hardware/vlp-16",
+          "page_class": "product",
+          "snippet": "VLP 16\n======\nMid-range lidar sensor"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0299",
+          "line_start": 43,
+          "line_end": 43,
+          "url": "https://ouster.com/products/hardware/vlp-16",
+          "page_class": "product",
+          "snippet": "With weights as low as 590g (without cabling and interfacing boxes), and a height x width of just 72 x89mm, the VLP 16 sensor is great fits for drone and UAV applications, as well as anything where size and weight are a key decision factor. Please contact us for full data sheets and configuration options."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "VLS 128",
+      "category": "sensors_and_navigation",
+      "descriptor": "Long-range 128-channel spinning lidar sensor, 300m+ range",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0298",
+          "line_start": 12,
+          "line_end": 14,
+          "url": "https://ouster.com/products/hardware/vls-128",
+          "page_class": "product",
+          "snippet": "VLS 128\n=======\nLong-range lidar sensor"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Gemini",
+      "category": "ground_segment",
+      "descriptor": "AI-enabled lidar perception software for security, ITS, and crowd analytics",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0300",
+          "line_start": 11,
+          "line_end": 13,
+          "url": "https://ouster.com/products/software/gemini",
+          "page_class": "product",
+          "snippet": "Gemini\n======\nPeople, object detection and classification for actionable, intuitive, and tailorable insights in traffic, security, crowd, and retail management and analytics."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "BlueCity",
+      "category": "ground_segment",
+      "descriptor": "Turnkey AI-driven lidar software for smart city traffic safety and operations",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0299",
+          "line_start": 11,
+          "line_end": 13,
+          "url": "https://ouster.com/products/software/bluecity",
+          "page_class": "product",
+          "snippet": "BlueCity\n========\nA turnkey solution for smart cities, traffic operations, planning and safety."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0299",
+          "line_start": 20,
+          "line_end": 21,
+          "url": "https://ouster.com/products/software/bluecity",
+          "page_class": "product",
+          "snippet": "Utilizing the power of digital lidar, Ouster BlueCity perception software is a turnkey and AI-enabled solution that provides real-time, on-demand traffic data to maximize efficiency and improve safety for smarter cities. Together, we can improve the efficiency of traffic infrastructure while working towards vision zero.\nDetailed data for meaningful improvements."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Ouster Studio",
+      "category": "ground_segment",
+      "descriptor": "Lidar data visualization and management software",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0005",
+          "line_start": 161,
+          "line_end": 168,
+          "url": "https://ouster.com",
+          "page_class": "homepage",
+          "snippet": "### Ouster Studio\n02\n### Ouster Gemini\n03\n### Ouster BlueCity\n*   And Viewer\n    Data Management\n    [Learn More](/products/software/ouster-studio)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Ouster Catalyst Edge Pro",
+      "category": "ground_segment",
+      "descriptor": "Validated edge processor hardware for running Gemini lidar perception software",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0300",
+          "line_start": 91,
+          "line_end": 91,
+          "url": "https://ouster.com/products/software/gemini",
+          "page_class": "product",
+          "snippet": "Gemini is simple to install and requires fewer sensors than camera-based systems. With the Gemini sensor meshing tool it's easy to save time when adding new sensors. Featuring the options of installing the software either on a validated Catalyst edge processor or one's own servers."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0300",
+          "line_start": 97,
+          "line_end": 97,
+          "url": "https://ouster.com/products/software/gemini",
+          "page_class": "product",
+          "snippet": "Your ComputerorOuster Catalyst Edge Pro"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "ZED Stereo Cameras",
+      "category": "isr_payloads",
+      "descriptor": "Stereo cameras for machine automation and digital twin applications",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0005",
+          "line_start": 133,
+          "line_end": 136,
+          "url": "https://ouster.com",
+          "page_class": "homepage",
+          "snippet": "    ![](https://ouster.imgix.net/1-ZED-Stereocameras.png?ixlib=js-3.8.0&q=75&auto=format%2Ccompress&max-w=2048)\n    ### ZED Stereo Cameras\n    Powerful stereo cameras built for machine automation and digital twin applications.\n    ](https://www.stereolabs.com/products/zed-x)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "ZED Mono Cameras",
+      "category": "isr_payloads",
+      "descriptor": "Monocular AI vision cameras available in 4K and global shutter variants",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0005",
+          "line_start": 129,
+          "line_end": 131,
+          "url": "https://ouster.com",
+          "page_class": "homepage",
+          "snippet": "    ### ZED Mono Cameras\n    The ultimate monocular camera for AI vision. Available in 4K and global shutter.\n    ](https://www.stereolabs.com/products/zed-x-one)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "ZED Box",
+      "category": "ground_segment",
+      "descriptor": "Edge AI compute unit for 3D perception, powered by NVIDIA\u00ae Jetson Orin\u2122",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0005",
+          "line_start": 139,
+          "line_end": 141,
+          "url": "https://ouster.com",
+          "page_class": "homepage",
+          "snippet": "    ### ZED Box\n    3D Perception and AI computing at the edge powered by NVIDIA\u00ae Jetson Orin\u2122\n    ](https://www.stereolabs.com/en-br/series/zed-box)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Catalyst Edge Pro",
+      "category": "ground_segment",
+      "descriptor": "Edge compute processor for running Ouster Gemini lidar perception software",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0302",
+          "line_start": 91,
+          "line_end": 98,
+          "url": "https://ouster.com/products/software/gemini",
+          "page_class": "product",
+          "snippet": "Gemini is simple to install and requires fewer sensors than camera-based systems. With the Gemini sensor meshing tool it's easy to save time when adding new sensors. Featuring the options of installing the software either on a validated Catalyst edge processor or one's own servers.\n![](https://ouster.imgix.net/Constellis_April2024_007_2025-03-18-022822_vvad.jpg?ixlib=js-3.8.0&q=75&auto=format%2Ccompress&max-w=2048)\nOuster Lidar Sensors\n--------------------\nComputer\n--------\nYour ComputerorOuster Catalyst Edge Pro\nSoftware"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Ouster Gemini",
+      "category": "ground_segment",
+      "descriptor": "AI-enabled lidar perception software for security, traffic, and crowd analytics",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0302",
+          "line_start": 11,
+          "line_end": 13,
+          "url": "https://ouster.com/products/software/gemini",
+          "page_class": "product",
+          "snippet": "Gemini\n======\nPeople, object detection and classification for actionable, intuitive, and tailorable insights in traffic, security, crowd, and retail management and analytics."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Ouster BlueCity",
+      "category": "ground_segment",
+      "descriptor": "Lidar-based traffic actuation and road analytics software for city management",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0005",
+          "line_start": 165,
+          "line_end": 180,
+          "url": "https://ouster.com",
+          "page_class": "homepage",
+          "snippet": "### Ouster BlueCity\n*   And Viewer\n    Data Management\n    [Learn More](/products/software/ouster-studio)\n    And Viewer\n    Data Management\n    [Learn More](/products/software/ouster-studio)\n*   For Digital Twinning and Security\n    Perception Middleware\n    [Learn More](/products/software/gemini)\n    For Digital Twinning and Security\n    Perception Middleware\n    [Learn More](/products/software/gemini)\n*   For City and Roadway Management\n    Traffic Actuation and Analytics\n    [Request a Demo](/products/software/bluecity)"
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "Catalyst Edge Pro product page (resource-0004) was fetched but contained empty content (1 line), so specs, readiness detail, and compliance claims could not be confirmed from that page \u2014 only secondary mention in the Gemini page was available.",
+    "Individual OS sensor product pages (OS0, OS1, OS2, OSDome) were all skipped_class_budget, preventing verification of per-SKU NDAA or compliance claims beyond the OS1 Blue UAS blog post.",
+    "Ouster Studio and BlueCity product pages were also skipped_class_budget; these products are classified from homepage mentions only.",
+    "ZED Mono Cameras, ZED Stereo Cameras, and ZED Box are Stereolabs products sold via Ouster's Stereolabs partnership; their detail pages live on stereolabs.com (out of scope for this mirror), so ndaa/blue_uas remain unknown."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://ouster.com/products/hardware/os0-lidar-sensor",
+      "reason": "Individual sensor product page skipped; would confirm specs, NDAA/Blue UAS status for OS0 specifically.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://ouster.com/products/hardware/os1-lidar-sensor",
+      "reason": "Individual sensor product page skipped; would confirm full specs and NDAA/Blue UAS claims on the product page itself.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://ouster.com/products/hardware/os2-lidar-sensor",
+      "reason": "Individual sensor product page skipped; would confirm specs and any compliance claims for OS2.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://ouster.com/products/hardware/osdome-lidar-sensor",
+      "reason": "Individual sensor product page skipped; would confirm OSDome specs and compliance status.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://ouster.com/products/software/ouster-studio",
+      "reason": "Ouster Studio product page skipped; needed for full feature description, readiness, and any compliance claims.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://ouster.com/products/software/bluecity",
+      "reason": "Ouster BlueCity product page skipped; needed for full feature description and readiness confirmation.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://ouster.com/products/hardware/catalyst-edge-pro",
+      "reason": "Catalyst Edge Pro product page was fetched (resource-0004) but returned empty content; a re-fetch may yield specs, pricing, and compliance data.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=fetched resource-0004 but text file is empty",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 30,
+    "total_cost_usd": 1.03768725,
+    "created_at": "2026-05-03T12:08:58+00:00",
+    "extract_version": "0.1.0"
+  }
+}

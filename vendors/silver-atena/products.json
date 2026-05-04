@@ -1,0 +1,468 @@
+{
+  "target_id": "silver-atena",
+  "run_id": "canonical",
+  "display_name": "Silver Atena",
+  "homepage_url": "https://www.silver-atena.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/silver-atena/website",
+  "products": [
+    {
+      "name": "Electric FAN",
+      "category": "propulsion_mechanical",
+      "descriptor": "Air-cooled electric propulsion unit up to 40 kW for aircraft, eVTOLs, and drones",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0081",
+          "line_start": 113,
+          "line_end": 113,
+          "url": "https://www.silver-atena.com/product-references/aerospace/electric-propulsion/electric-fan",
+          "page_class": "product",
+          "snippet": "Whether for urban air mobility, drones, or hybrid flight concepts \u2013 we deliver scalable, air-cooled solutions with up to 50 kW of power."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0081",
+          "line_start": 135,
+          "line_end": 136,
+          "url": "https://www.silver-atena.com/product-references/aerospace/electric-propulsion/electric-fan",
+          "page_class": "product",
+          "snippet": "*   Powerful 800 V system\n*   40 kW \u00a0(air-cooled)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Electric Propeller Drives",
+      "category": "propulsion_mechanical",
+      "descriptor": "Scalable electric propeller drive for aircraft and eVTOLs, 10\u2013500 kW with SiC inverter",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0082",
+          "line_start": 134,
+          "line_end": 137,
+          "url": "https://www.silver-atena.com/product-references/aerospace/electric-propulsion/electric-propeller-drives",
+          "page_class": "product",
+          "snippet": "*   **Compact Solution:**\u00a0 10 kW (air-cooled)\n*   **Powerful Solution:** 40 kW (air-cooled)\n*   **Customized Systems:** up to 500 kW\n    (with adapted cooling concept)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Flight Control Computer (FCC)",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "Universal avionics computer for safe flight control of manned and unmanned aircraft, drones, and helicopters",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0084",
+          "line_start": 111,
+          "line_end": 111,
+          "url": "https://www.silver-atena.com/product-references/aerospace/flight-control/flight-control-computer-fcc",
+          "page_class": "product",
+          "snippet": "The Silver Atena Universal FCC (Flight Control Computer) is a powerful avionics computer for the highly automated control of manned and unmanned small aircraft, drones, and helicopters."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0084",
+          "line_start": 143,
+          "line_end": 143,
+          "url": "https://www.silver-atena.com/product-references/aerospace/flight-control/flight-control-computer-fcc",
+          "page_class": "product",
+          "snippet": "*   UAVs / drones, OPVs, and RPAS"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "FADEC",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "Dual-channel full authority digital engine control unit for aircraft turbine and piston engines",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0085",
+          "line_start": 112,
+          "line_end": 113,
+          "url": "https://www.silver-atena.com/product-references/aerospace/propulsion/fadec",
+          "page_class": "product",
+          "snippet": "The dual-use capable Full Authority Digital Engine Control (FADEC) is a state-of-the-art, computer-controlled system to control all aspects of aircraft engine performance.\nIt provides full control over engine parameters of gas turbines (turboprop, turbofan, turboshaft) or piston engines, optimizing performance in real-time, enhancing flight safety, reducing pilot workload, and offers precise engine management."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "FAN Inverter",
+      "category": "propulsion_electronics",
+      "descriptor": "Air-cooled SiC-based drive inverter for electric aviation propulsion and eVTOL motors",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0083",
+          "line_start": 91,
+          "line_end": 93,
+          "url": "https://www.silver-atena.com/product-references/aerospace/electric-propulsion/fan-inverter",
+          "page_class": "product",
+          "snippet": "Drive inverters for aviation\n============================\nAir-cooled controllers for electric motors"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0083",
+          "line_start": 113,
+          "line_end": 113,
+          "url": "https://www.silver-atena.com/product-references/aerospace/electric-propulsion/fan-inverter",
+          "page_class": "product",
+          "snippet": "Whether as an integrated part of a complete system or as a standalone component, the air-cooled power inverter controls your electric motor with high dynamics, precision, and reliability \u2013 even in demanding continuous operation."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "H2 Tank Control",
+      "category": "power_systems",
+      "descriptor": "Safety control unit for cryogenic hydrogen tanks in aerospace fuel cell systems",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0086",
+          "line_start": 91,
+          "line_end": 93,
+          "url": "https://www.silver-atena.com/product-references/aerospace/propulsion/h2-tank-control",
+          "page_class": "product",
+          "snippet": "H2 Tank Control\n===============\nSafety control unit for cryogenic hydrogen tanks"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0086",
+          "line_start": 113,
+          "line_end": 113,
+          "url": "https://www.silver-atena.com/product-references/aerospace/propulsion/h2-tank-control",
+          "page_class": "product",
+          "snippet": "The H2 Aero Tank Controller manages all essential functions of a cryogenic hydrogen tank system under all flight conditions. It controls the refueling valves, monitors the fill level, temperature, and stable tank pressure, and ensures a reliable supply to the fuel cell."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Built-in devices 7\" and 12\"",
+      "category": "ground_segment",
+      "descriptor": "Ruggedized 7-inch and 12-inch vehicle-mounted displays for military and defence applications",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0097",
+          "line_start": 91,
+          "line_end": 93,
+          "url": "https://www.silver-atena.com/product-references/defence/control-and-display-devices/built-in-devices",
+          "page_class": "product",
+          "snippet": "Built-in devices 7\" and 12\"\n===========================\nfor demanding environments"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Mobile Control Device",
+      "category": "ground_segment",
+      "descriptor": "Ruggedized 10.1-inch military touchscreen control and display unit for vehicles and command facilities",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0099",
+          "line_start": 111,
+          "line_end": 111,
+          "url": "https://www.silver-atena.com/product-references/defence/control-and-display-devices/mobile-control-device",
+          "page_class": "product",
+          "snippet": "The Mobile Control Device from Silver Atena is a robust, modular control and display unit for military vehicles and command facilities."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0099",
+          "line_start": 113,
+          "line_end": 113,
+          "url": "https://www.silver-atena.com/product-references/defence/control-and-display-devices/mobile-control-device",
+          "page_class": "product",
+          "snippet": "Certified to MIL standards, it offers high reliability, glove-operable operation, and flexible integration into land, air, or sea-based platforms."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Central Control Unit",
+      "category": "ground_segment",
+      "descriptor": "MIL-certified ruggedized steering-handle control unit with 4.3-inch display for armored vehicles",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0098",
+          "line_start": 91,
+          "line_end": 93,
+          "url": "https://www.silver-atena.com/product-references/defence/control-and-display-devices/central-control-unit",
+          "page_class": "product",
+          "snippet": "Central Control Unit\n====================\nRuggedized control device for armored vehicles"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0098",
+          "line_start": 111,
+          "line_end": 111,
+          "url": "https://www.silver-atena.com/product-references/defence/control-and-display-devices/central-control-unit",
+          "page_class": "product",
+          "snippet": "The combination of steering handle and central control unit (CCU) is a robust, MIL-certified control solution for armored vehicles. It serves as the central human-machine interface for vehicle control under extreme operating conditions \u2013 from arctic cold to desert operations."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Battery Management Unit",
+      "category": "power_systems",
+      "descriptor": "Scalable BMS for 12\u2013800 V lithium batteries with ASIL-D safety classification",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0089",
+          "line_start": 111,
+          "line_end": 114,
+          "url": "https://www.silver-atena.com/product-references/automotive/energy-storage-supply/battery-management-unit",
+          "page_class": "product",
+          "snippet": "The battery management system (BMS) monitors and controls battery performance, ensuring that the battery operates within safe limits.\nIt monitors numerous parameters of each cell, preventing damage to the battery pack.\nThe BMS ensures a balanced charge, significantly extending battery life.\nIts scalability and reliability make it an essential component of any energy storage architecture."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0089",
+          "line_start": 137,
+          "line_end": 138,
+          "url": "https://www.silver-atena.com/product-references/automotive/energy-storage-supply/battery-management-unit",
+          "page_class": "product",
+          "snippet": "*   **Voltage**: 12 V, 48 V, 400 V, 800 V\n*   **Safety classification**: up to ASIL-D"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "DC Boost Charger",
+      "category": "power_systems",
+      "descriptor": "High-power DC/DC boost charger enabling 400 V\u2013800 V cross-compatibility for electric vehicles, up to 260 kW",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0090",
+          "line_start": 112,
+          "line_end": 112,
+          "url": "https://www.silver-atena.com/product-references/automotive/energy-storage-supply/dc-boost-charger",
+          "page_class": "product",
+          "snippet": "The DC Boost Charger enables 800 V electric vehicles to charge at 400 V charging stations and delivers continuous power of 75 kW and above."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0090",
+          "line_start": 133,
+          "line_end": 137,
+          "url": "https://www.silver-atena.com/product-references/automotive/energy-storage-supply/dc-boost-charger",
+          "page_class": "product",
+          "snippet": "*   **Input voltage**: 200 V to 800 V\n*   **Output voltage**: compatible with 400 V and 800 V systems\n*   **Output power**:\n    *   **Boost mode**: up to 75 kW continuous power\n    *   **Bypass mode**: up to 260 kW"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "High-Voltage Traction Inverter",
+      "category": "propulsion_electronics",
+      "descriptor": "400\u2013800 V SiC/Si traction inverter for electric drivetrain motors, up to 600 kW",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0095",
+          "line_start": 91,
+          "line_end": 93,
+          "url": "https://www.silver-atena.com/product-references/automotive/powertrain/high-voltage-traction-inverter",
+          "page_class": "product",
+          "snippet": "High-Voltage Traction Inverter\n==============================\nHigh-Performance Control of Electric Drivetrain Motors"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0095",
+          "line_start": 139,
+          "line_end": 140,
+          "url": "https://www.silver-atena.com/product-references/automotive/powertrain/high-voltage-traction-inverter",
+          "page_class": "product",
+          "snippet": "*   **Voltage range**: 400 V - 800 V\n*   **Power**: up to 600 kW"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Electric Turbocharger",
+      "category": "propulsion_electronics",
+      "descriptor": "High-speed SiC inverter for turbocompressors in fuel cell and combustion vehicles, up to 70 kW at 160,000 rpm",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0094",
+          "line_start": 91,
+          "line_end": 93,
+          "url": "https://www.silver-atena.com/product-references/automotive/powertrain/electric-turbocharger",
+          "page_class": "product",
+          "snippet": "Electric turbocharger\n=====================\nCompact inverter for high-speed turbo compressors"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0094",
+          "line_start": 134,
+          "line_end": 138,
+          "url": "https://www.silver-atena.com/product-references/automotive/powertrain/electric-turbocharger",
+          "page_class": "product",
+          "snippet": "*   **Technology**: Silicon carbide SiC (B6 bridge)\n*   **Control**: PWM up to 70 kHz for speeds up to 160,000 rpm\n*   **Speed \u200b\u200brequest**: 0 to nmax in <1 s\n*   **Voltage**: 48 V to 800 V\n*   **Power**: up to 70 kW"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "SLAT / FLAP Motor Control Electronics",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "Control electronics for aircraft SLAT/FLAP high-lift actuation systems",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0084",
+          "line_start": 38,
+          "line_end": 39,
+          "url": "https://www.silver-atena.com/product-references/aerospace/flight-control/flight-control-computer-fcc",
+          "page_class": "product",
+          "snippet": "            *   [SLAT / FLAP Motor Control Electronics](/product-references/aerospace/electric-actuation/slat-/-flap-motor-control-electronics \"\n                SLAT / FLAP Motor Control Electronics\")"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0079",
+          "line_start": 124,
+          "line_end": 124,
+          "url": "https://www.silver-atena.com/product-references/aerospace",
+          "page_class": "product",
+          "snippet": "*   **High-Lift Systems** \u2013 Control unit for flap and high-lift actuation to enhance lift and flight stability."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Fuel Cell DC/DC-Converter",
+      "category": "power_systems",
+      "descriptor": "SiC-based 800 V DC/DC converter for fuel cell electric vehicle powertrains, up to 200 kW",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0087",
+          "line_start": 12,
+          "line_end": 13,
+          "url": "https://www.silver-atena.com/product-references/automotive",
+          "page_class": "product",
+          "snippet": "            *   [Fuel Cell DC/DC-Converter](/product-references/automotive/energy-storage-supply/fuel-cell-dc/dc-converter \"\n                Fuel Cell DC/DC-Converter\")"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0087",
+          "line_start": 126,
+          "line_end": 126,
+          "url": "https://www.silver-atena.com/product-references/automotive",
+          "page_class": "product",
+          "snippet": "*   SiC fuel cell DC/DC 800 V: 200 kW"
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "SLAT / FLAP Motor Control Electronics (resource page skipped_class_budget): readiness, full specs, and any compliance claims could not be verified from corpus.",
+    "Fuel Cell DC/DC-Converter (resource page skipped_class_budget): readiness, full specs, and any compliance claims could not be verified from corpus; only known from nav menus and automotive landing page reference ('SiC fuel cell DC/DC 800 V: 200 kW')."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.silver-atena.com/product-references/aerospace/electric-actuation/slat-/-flap-motor-control-electronics",
+      "reason": "Product page was skipped (class budget exhausted). Needed to confirm readiness, full specifications, and any NDAA/compliance claims for SLAT / FLAP Motor Control Electronics.",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.silver-atena.com/product-references/automotive/energy-storage-supply/fuel-cell-dc/dc-converter",
+      "reason": "Product page was skipped (class budget exhausted). Needed to confirm readiness, full specifications, and any NDAA/compliance claims for Fuel Cell DC/DC-Converter.",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 45,
+    "total_cost_usd": 0.7276401000000001,
+    "created_at": "2026-05-04T06:21:56+00:00",
+    "extract_version": "0.1.0"
+  }
+}

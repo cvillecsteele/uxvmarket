@@ -1,0 +1,362 @@
+{
+  "target_id": "spi",
+  "run_id": "canonical",
+  "display_name": "SPI",
+  "homepage_url": "https://www.uav1.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/spi/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "isr_payloads",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 354,
+            "line_end": 360,
+            "url": "https://www.uav1.com",
+            "page_class": "homepage",
+            "snippet": "**\ud83d\ude81 UAV & Drone-Ready EO/IR Payloads**\nFully integrated payloads built for UAS, drones, and manned platforms.\n*   Gyro-Stabilized Gimbals (2 to 5 Axis)\n*   MEMS, IMU, and Gyro-Based Image Stabilization\n*   Custom Ball Turrets for Airborne, Marine & Ground Use\n*   Payloads for sUAS, VTOL, fixed-wing, and rotorcraft\nApplications include ISR, C-UAS, LRF targeting, and border enforcement."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 132,
+            "line_end": 134,
+            "url": "https://www.uav1.com",
+            "page_class": "homepage",
+            "snippet": "Browse Our Large Selection of Gyro Stabilized Thermal Drone Cameras\n-------------------------------------------------------------------\nThe epitome of stability and precision with our extensive range of gyro-stabilized thermal drone cameras, meticulously engineered to capture the most intricate details even in the most challenging conditions."
+          }
+        ],
+        "notes": "Core product line: gyro-stabilized EO/IR thermal gimbals for UAV/UAS integration (M1-D, M2D series, M7D) plus long-range PTZ cameras for ISR applications."
+      },
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0083",
+            "line_start": 183,
+            "line_end": 186,
+            "url": "https://www.uav1.com/contact-us",
+            "page_class": "contact",
+            "snippet": "1.  Novel Digital Imaging Sensors in Various Infrared Wavelengths\n2.  Innovative Image and Signal Processing Techniques\n3.  AI and Machine Learning for SWaP Constrained Devices\n4.  Computer Vision and Photogrammetry Solutions"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 368,
+            "line_end": 375,
+            "url": "https://www.uav1.com",
+            "page_class": "homepage",
+            "snippet": "**\ud83e\udde9 Specialty Sensors & Core Technologies**\n*   SWIR InGaAs Cameras & Sensors\n*   LLLTV Color Imaging Modules\n*   Digital Electronic Image Intensifiers\n*   OLED Microdisplays & Helmet-Mounted Displays\n*   Custom Weapon Sights, Binoculars & Clip-On Systems\n*   NVG / DNVG / DNVS / DI\u00b2 / EI\u00b2 Lines\n*   Rugged 4K Imaging and Ultra Low-Light Cameras"
+          }
+        ],
+        "notes": "SWIR InGaAs cameras, LLLTV sensors, IMU/MEMS-based image stabilization, and multi-spectral sensor modules sold as standalone components."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Las Vegas",
+      "state_or_province": "Nevada",
+      "country": "United States",
+      "address": "4100 W. Flamingo Rd. Building 1488"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0083",
+        "line_start": 93,
+        "line_end": 94,
+        "url": "https://www.uav1.com/contact-us",
+        "page_class": "contact",
+        "snippet": "4100 W. Flamingo Rd. Building 1488\nLas Vegas, NV 89103 USA"
+      }
+    ],
+    "notes": "Contact page shows 4100 W. Flamingo Rd., Las Vegas NV 89103. Advanced aerial page shows a second address (6620 South Tenaya Way, Building 200, Las Vegas, NV 89113) \u2014 likely a different facility."
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 354,
+        "line_end": 360,
+        "url": "https://www.uav1.com",
+        "page_class": "homepage",
+        "snippet": "**\ud83d\ude81 UAV & Drone-Ready EO/IR Payloads**\nFully integrated payloads built for UAS, drones, and manned platforms.\n*   Gyro-Stabilized Gimbals (2 to 5 Axis)\n*   MEMS, IMU, and Gyro-Based Image Stabilization\n*   Custom Ball Turrets for Airborne, Marine & Ground Use\n*   Payloads for sUAS, VTOL, fixed-wing, and rotorcraft\nApplications include ISR, C-UAS, LRF targeting, and border enforcement."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0083",
+        "line_start": 172,
+        "line_end": 175,
+        "url": "https://www.uav1.com/contact-us",
+        "page_class": "contact",
+        "snippet": "### Unmanned Aerial Systems and Integration:\n1.  Drone, UAV, UAS Cameras, Detectors, Sensors, and Imagers\n2.  Systems Integration in Electro-Optics/Optronics\n3.  Custom Design and Manufacturing for Specific Applications"
+      }
+    ],
+    "notes": "SPI (Sierra Pacific Innovations) designs and manufactures gyro-stabilized EO/IR thermal gimbals and multi-sensor payloads for integration on UAV/UAS platforms. They sell to UAV integrators and OEMs, not complete aircraft."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "M2D Mini (Micro) Gimbal",
+        "product_type": "gyro-stabilized thermal UAV gimbal camera",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 136,
+            "line_end": 140,
+            "url": "https://www.uav1.com",
+            "page_class": "homepage",
+            "snippet": "M2D Mini Gyro Stabilized Thermal Gimbal Camera\n----------------------------------------------\nFLIR EO/IR for UAV, UAS, and drones.\nSWAP Certified\n[View Product](https://www.uav1.com/m2d-micro-gimbal/ \"Link to M2D Mini Drone Camera Product Page\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "M2D V3 Gimbal",
+        "product_type": "gyro-stabilized thermal UAV gimbal camera",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 142,
+            "line_end": 146,
+            "url": "https://www.uav1.com",
+            "page_class": "homepage",
+            "snippet": "M2D V3 Thermal Imaging Gimbal Camera\n------------------------------------\nFLIR EO/IR for UAV, UAS, and drones.\nSWAP Certified\n[View Product](https://www.uav1.com/m2d-v3-gimbal/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "M2D V4 Gimbal",
+        "product_type": "gyro-stabilized thermal UAV gimbal camera",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 148,
+            "line_end": 152,
+            "url": "https://www.uav1.com",
+            "page_class": "homepage",
+            "snippet": "M2D V4 Mini Gyro Stabilized Thermal Gimbal Camera\n-------------------------------------------------\n360 Pan Tilit FLIR EO/IR for UAV, UAS, and drones.\nSWAP Certified\n[View Product](https://www.uav1.com/m2d-v4-thermal-gimbal/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "M2D V4V Gimbal",
+        "product_type": "long-range thermal UAV gimbal with 80x EO zoom",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 154,
+            "line_end": 158,
+            "url": "https://www.uav1.com",
+            "page_class": "homepage",
+            "snippet": "M2D V4V Long Range Thermal Imaging Gimbal\n-----------------------------------------\nIR and LONG RANGE 80x Telephoto EO Zoom Channel\nSWAP Certified\n[View Product](https://www.uav1.com/m2d-v4v-uncooled-uav-gimbal/ \"Link to M2D V4V Thermal Drone Camera Product Page\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "M2-D V4D Gimbal",
+        "product_type": "long-range continuous zoom thermal UAV gimbal",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 160,
+            "line_end": 164,
+            "url": "https://www.uav1.com",
+            "page_class": "homepage",
+            "snippet": "M2-D v4D Long Range Continuous Zoom Thermal Gimbal \\*80x IR/EO Zoom\n-------------------------------------------------------------------\nOne of our longest IR channel zoom ranges but not the farthest\nSWAP Certified\n[See Product](https://www.uav1.com/m2-d-v4d/ \"Link to m2d v4D Product Page\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "M2D V6 Gimbal",
+        "product_type": "ultra-light HD thermal UAV gimbal camera",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 166,
+            "line_end": 170,
+            "url": "https://www.uav1.com",
+            "page_class": "homepage",
+            "snippet": "M2D V6 HD Ultra Light Thermal Imaging Gimbal\n--------------------------------------------\nAvailable with Infrared or Visible 0.5 mRAD Laser\nSWAP Certified\n[View Product](https://www.uav1.com/m2d-v6-thermal-dron-gimbal-camera/ \"Link to M2d V6 Product Page\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "M7D Ultra Long Range Gimbal",
+        "product_type": "cooled MWIR long-range thermal UAV gimbal with LRF",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 172,
+            "line_end": 176,
+            "url": "https://www.uav1.com",
+            "page_class": "homepage",
+            "snippet": "M7D Ultra Long Range Thermal Imaging Gimbal\n-------------------------------------------\nLong range cooled MWIR EOIR zoom HD Gyrostabilized Multi Axis Thermal Imaging \u00a0FLIR Gimbal with Laser and LRF Rangefinder for UAS UAV Drones\nSWAP Certified\n[View Product](https://www.uav1.com/m7d-ultra-long-range-thermal-uav-uas-thermal-gimbal/ \"Link to M7D Ultra Long Range Product Page\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "M5 Long Range Thermal PTZ",
+        "product_type": "multi-sensor long-range thermal PTZ camera",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 250,
+            "line_end": 253,
+            "url": "https://www.uav1.com",
+            "page_class": "homepage",
+            "snippet": "### M5 Long Range Thermal FLIR Camera\nDefense and Security\nMulti-Spectral imaging with auto target tracking, LRF, and advanced AI\n[](https://www.uav1.com/m5-long-range-thermal-imaging-ptz/ \"M5 Long Range Thermal Imaging Solution\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "M7 Falcon Long Range PTZ",
+        "product_type": "multi-sensor long-range thermal PTZ camera",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 256,
+            "line_end": 259,
+            "url": "https://www.uav1.com",
+            "page_class": "homepage",
+            "snippet": "### M7 Falcon Long Range FLIR PTZ\nSecurity and Surveillance\nHeavy-duty 50+ Km detection multi sensor PTZ\n[](https://www.uav1.com/m7-falcon-ptz/ \"M7 Long Range PTZ Camera Product Page\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "M9 Cooled MWIR PTZ",
+        "product_type": "ultra long-range cooled MWIR thermal PTZ camera",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 261,
+            "line_end": 264,
+            "url": "https://www.uav1.com",
+            "page_class": "homepage",
+            "snippet": "### M9 Cooled MWIR FLIR PTZ Ultra Long Range\nMilitary and Maritime\nIP68+ ultra rugged MilSpec system up to 60 km DRI ranges\n[](https://www.uav1.com/m9-ultra-long-range-cooled-ptz-thermal-camera/ \"M9 Long Range PTZ Camera\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "M11 Ultra Long Range PTZ",
+        "product_type": "ultra long-range thermal imaging PTZ camera",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 266,
+            "line_end": 269,
+            "url": "https://www.uav1.com",
+            "page_class": "homepage",
+            "snippet": "### M11 Ultra Long Range FLIR Thermal Imaging\nIndustrial and Military\nRock steady ultra long range thermal camera\n[](https://www.uav1.com/m11-ultra-long-range-thermal-ptz/ \"M11 Long Range Thermal PTZ Camera Product Page\")"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Additional product families (thermal scopes, night vision binoculars/goggles, laser systems) exist but are primarily non-UAV products."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA Section 848/889 mention anywhere in corpus. Site references ITAR export controls but no NDAA claim."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 291,
+        "line_end": 291,
+        "url": "https://www.uav1.com",
+        "page_class": "homepage",
+        "snippet": "SPI is a proven battle-tested, full-service imaging company with over 20 years of experience."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 287,
+        "line_end": 287,
+        "url": "https://www.uav1.com",
+        "page_class": "homepage",
+        "snippet": "Our products are some of the most rugged thermal imaging systems on the market as they consistently exceed military standards for land, sea, and air."
+      }
+    ],
+    "notes": "20+ years of serial production; listed catalog SKUs with active online shop. Also offers custom engineering services as a secondary offering."
+  },
+  "unresolved_questions": [
+    "Contact page and aerial solutions page list two different Las Vegas addresses; could not confirm which is primary HQ.",
+    "ITAR regulated but NDAA compliance status not disclosed on site."
+  ],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Manufactures gyro-stabilized EO/IR thermal gimbals (M-series) and long-range PTZ thermal cameras for UAV/UAS platforms, plus thermal weapon sights; production-ready across multiple form factors from 160g micro gimbals to cooled MWIR systems. NDAA and Blue UAS certification status unknown; no major contract wins identified in public record.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 14,
+    "total_cost_usd": 0.5906880000000001,
+    "created_at": "2026-05-04T06:32:38+00:00",
+    "extract_version": "0.1.0"
+  }
+}

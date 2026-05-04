@@ -1,0 +1,419 @@
+{
+  "target_id": "kutta-technologies",
+  "run_id": "canonical",
+  "display_name": "Kutta Technologies",
+  "homepage_url": "https://kuttatech.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/kutta-technologies/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "ground_segment",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 42,
+            "line_end": 43,
+            "url": "https://kuttatech.com",
+            "page_class": "homepage",
+            "snippet": "Ground Control for\nUncrewed Systems"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0044",
+            "line_start": 40,
+            "line_end": 42,
+            "url": "https://kuttatech.com/unified-ground-control-station",
+            "page_class": "capability",
+            "snippet": "Unified Ground Control Station\n==============================\nUnified Ground Control Station (UGCS)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0043",
+            "line_start": 40,
+            "line_end": 43,
+            "url": "https://kuttatech.com/transportable-ground-station",
+            "page_class": "capability",
+            "snippet": "Transportable\nGround Station\n=================================\nTransportable Ground Station (TGS)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0013",
+            "line_start": 40,
+            "line_end": 42,
+            "url": "https://kuttatech.com/isr-mission-planner",
+            "page_class": "capability",
+            "snippet": "ISR Mission Planner\n===================\nISR Mission Planner"
+          }
+        ],
+        "notes": "Core products are GCS hardware (TGS, KTAC, KED) and software (UGCS, ISR Mission Planner, Unified Video Terminal, STANAG 4586 Interop). Homepage hero: 'Ground Control for Uncrewed Systems'."
+      },
+      {
+        "category": "flight_and_vehicle_control",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0006",
+            "line_start": 45,
+            "line_end": 45,
+            "url": "https://kuttatech.com/advanced-autonomy",
+            "page_class": "capability",
+            "snippet": "Our auto-router, sensor footprint, radio frequency line-of-sight, and route-and-area survey algorithm can be combined to create a powerful autonomy engine for your uncrewed systems."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0040",
+            "line_start": 49,
+            "line_end": 50,
+            "url": "https://kuttatech.com/small-mission-computer",
+            "page_class": "capability",
+            "snippet": "*   Designed for integration on Uncrewed Aerial Systems (UAS) and ground-based Vehicle Specific Modules (VSM) to achieve STANAG 4586 compliance\n*   Unifies the interfaces between the Command and Control (C2) elements on the ground and in the air to provide a common control interface across all classes and types of uncrewed aircraft"
+          }
+        ],
+        "notes": "Advanced Autonomy software provides auto-routing, airspace management, flight planning engine. SMC is designed for onboard UAS integration to achieve STANAG 4586 compliance across air and ground elements."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Vendor focus is UAS command & control \u2014 hardware GCS and software. SMC also functions as an airborne STANAG 4586 integration computer."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Phoenix",
+      "state_or_province": "Arizona",
+      "country": "United States",
+      "address": "2075 W Pinnacle Peak Rd, Suite 102, Phoenix, AZ 85027"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0009",
+        "line_start": 55,
+        "line_end": 58,
+        "url": "https://kuttatech.com/contact-us",
+        "page_class": "contact",
+        "snippet": "**ARIZONA Corporate Headquarters**\n2075 W Pinnacle Peak Rd,\nSuite 102\nPhoenix, AZ 85027"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 69,
+        "line_end": 71,
+        "url": "https://kuttatech.com",
+        "page_class": "homepage",
+        "snippet": "Mission Critical Technologies\n-----------------------------\nKutta actively pursues research and development projects, creates successful partnerships with commercial customers, and develops new technologies that enhance safety for Uncrewed Aerial Systems (UAS). Our experience and expertise in the latest technology trends and designs allow our customers to further their own product lines and integrate our products into their systems."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0044",
+        "line_start": 40,
+        "line_end": 42,
+        "url": "https://kuttatech.com/unified-ground-control-station",
+        "page_class": "capability",
+        "snippet": "Unified Ground Control Station\n==============================\nUnified Ground Control Station (UGCS)"
+      }
+    ],
+    "notes": "Sells major UAS subsystems \u2014 GCS hardware (TGS HMMWV shelter, KTAC handheld controller, SMC mission computer, KED) and GCS software (UGCS, ISR MP, Advanced Autonomy). Does not manufacture complete UAS platforms. Subsidiary of SNC."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Kutta Tactical Controller (KTAC 2.0)",
+        "product_type": "handheld UAS tactical controller",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 75,
+            "line_end": 76,
+            "url": "https://kuttatech.com",
+            "page_class": "homepage",
+            "snippet": "### Kutta Tactical Controller (KTAC)\nThe KTAC provides soldiers universal control for all types of uncrewed systems. The rugged, modular design uses smartphone technology and is designed to meet the environmental challenges of expeditionary on-the-move operations."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Small Mission Computer (SMC)",
+        "product_type": "ruggedized onboard/ground mission computing device",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0040",
+            "line_start": 43,
+            "line_end": 45,
+            "url": "https://kuttatech.com/small-mission-computer",
+            "page_class": "capability",
+            "snippet": "Small Mission Computer (SMC)\n----------------------------\nThe SMC is a ruggedized, general-purpose computing device that can be used in a wide variety of applications."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Transportable Ground Station (TGS)",
+        "product_type": "HMMWV-mounted shelter ground control station",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0043",
+            "line_start": 40,
+            "line_end": 43,
+            "url": "https://kuttatech.com/transportable-ground-station",
+            "page_class": "capability",
+            "snippet": "Transportable\nGround Station\n=================================\nTransportable Ground Station (TGS)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Kutta Edge Device (KED)",
+        "product_type": "edge computing device for UAS",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 13,
+            "line_end": 13,
+            "url": "https://kuttatech.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Kutta Edge Device](https://kuttatech.com/kutta-edge-device/)"
+          }
+        ],
+        "notes": "Listed in nav/product sheets; product detail page was skipped in crawl."
+      },
+      {
+        "name": "Unified Ground Control Station (UGCS)",
+        "product_type": "UAS command and control software (STANAG 4586)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0044",
+            "line_start": 40,
+            "line_end": 42,
+            "url": "https://kuttatech.com/unified-ground-control-station",
+            "page_class": "capability",
+            "snippet": "Unified Ground Control Station\n==============================\nUnified Ground Control Station (UGCS)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ISR Mission Planner",
+        "product_type": "ISR mission planning software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0013",
+            "line_start": 40,
+            "line_end": 42,
+            "url": "https://kuttatech.com/isr-mission-planner",
+            "page_class": "capability",
+            "snippet": "ISR Mission Planner\n===================\nISR Mission Planner"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Unified Video Terminal",
+        "product_type": "UAS video display software",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 17,
+            "line_end": 17,
+            "url": "https://kuttatech.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Unified Video Terminal](https://kuttatech.com/unified-video-terminal/)"
+          }
+        ],
+        "notes": "Listed in site nav; product detail page was skipped in crawl."
+      },
+      {
+        "name": "Advanced Autonomy",
+        "product_type": "UAS autonomy software engine (auto-routing, RF LOS, sensor footprint)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0006",
+            "line_start": 45,
+            "line_end": 45,
+            "url": "https://kuttatech.com/advanced-autonomy",
+            "page_class": "capability",
+            "snippet": "Our auto-router, sensor footprint, radio frequency line-of-sight, and route-and-area survey algorithm can be combined to create a powerful autonomy engine for your uncrewed systems."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "STANAG 4586 Interoperability",
+        "product_type": "UAS interoperability software",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 19,
+            "line_end": 19,
+            "url": "https://kuttatech.com",
+            "page_class": "homepage",
+            "snippet": "    *   [STANAG 4586 Interoperability](https://kuttatech.com/stanag-4586-interoperability/)"
+          }
+        ],
+        "notes": "Listed in site nav; product detail page was skipped in crawl."
+      },
+      {
+        "name": "MUM-178",
+        "product_type": "Manned/Unmanned Teaming Kit",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0026",
+            "line_start": 43,
+            "line_end": 43,
+            "url": "https://kuttatech.com/kutta-technologies-unveils-new-manned-unmanned-teaming-kit-mum-178",
+            "page_class": "news",
+            "snippet": "Kutta Technologies, Inc. has announced its new Manned / Unmanned Teaming Kit (MUM-178). The MUM-178 toolkit is one of the first products of its kind available to help facilitate the teaming of both manned and unmanned assets and it was developed based on DO-178C principles."
+          }
+        ],
+        "notes": "2014 news item; may be legacy or superseded by current UGCS MUM-T features."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Product detail pages for KTAC, KED, Unified Video Terminal, and STANAG 4586 Interoperability were skipped in the crawl. Their inclusion here is based on site nav and product sheet listings."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA Section 848/889 claim found in fetched pages. Vendor is a subsidiary of SNC (Sierra Nevada Corporation), a US defense firm, but no explicit NDAA compliance claim is made on the site."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS / Blue sUAS mention found in any fetched page."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0040",
+        "line_start": 53,
+        "line_end": 55,
+        "url": "https://kuttatech.com/small-mission-computer",
+        "page_class": "capability",
+        "snippet": "FEATURES:\n\u2022 1.8GHz Quad-core ARM Cortex-A53\n\u2022 Real-time 800MHz Cortex-M7 co-processor"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 112,
+        "line_end": 113,
+        "url": "https://kuttatech.com",
+        "page_class": "homepage",
+        "snippet": "###### Product Sheets\n*   [KTAC](/wp-content/uploads/2025/08/KUTTA-KTAC-2.0-Sales-Sheet-Both-Tethered-and-Untethered.pdf)"
+      }
+    ],
+    "notes": "Catalog SKUs with downloadable product data sheets (KTAC, SMC, UGCS, TGS/Shelters, KED). Products have specific listed technical specs and RFQ links on all product pages."
+  },
+  "unresolved_questions": [
+    "NDAA Section 848/889 compliance status not disclosed on site",
+    "Blue UAS cleared list status unknown",
+    "Kutta Edge Device product specifications and description (product page skipped)",
+    "Unified Video Terminal details (product page skipped)",
+    "STANAG 4586 Interoperability product details (page skipped)"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://kuttatech.com/kutta-tactical-controller",
+      "reason": "Product detail page for KTAC 2.0 \u2014 would confirm full specifications, production status, and any NDAA/compliance claims for the handheld UAS controller.",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://kuttatech.com/kutta-edge-device",
+      "reason": "Product detail page for Kutta Edge Device (KED) \u2014 only listed in nav/footer; no description fetched. Would confirm product type and category.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://kuttatech.com/unified-video-terminal",
+      "reason": "Product detail page for Unified Video Terminal \u2014 only listed in nav; no description fetched.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://kuttatech.com/stanag-4586-interoperability",
+      "reason": "Product detail page for STANAG 4586 Interoperability software \u2014 would clarify whether this is a standalone licensable product or a capability descriptor.",
+      "expected_evidence": [
+        "products",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://kuttatech.com/industries-we-serve",
+      "reason": "May contain NDAA/Blue UAS compliance claims and confirm primary customer segments (DoD, federal, commercial).",
+      "expected_evidence": [
+        "ndaa",
+        "blue_uas",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Phoenix-based ground-segment and flight-control subsystem supplier producing STANAG 4586\u2013compliant command-and-control software (UGCS variants), rugged handheld controllers (KTAC), mission computers, autonomy engines, and ISR planning tools. Production-ready across hardware and software. NDAA and Blue UAS certification status unknown; public evidence of integration partnerships and government use cases is limited.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 29,
+    "total_cost_usd": 0.76289875,
+    "created_at": "2026-05-04T03:45:15+00:00",
+    "extract_version": "0.1.0"
+  }
+}

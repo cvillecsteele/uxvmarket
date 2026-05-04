@@ -1,0 +1,285 @@
+{
+  "target_id": "nest-fly-technologies",
+  "run_id": "canonical",
+  "display_name": "Nest-Fly Technologies",
+  "homepage_url": "https://nest-fly.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/nest-fly-technologies/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "ground_segment",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 21,
+            "line_end": 21,
+            "url": "https://nest-fly.com",
+            "page_class": "homepage",
+            "snippet": "Drone Docking Systemen: de geheime sleutels tot luchtautonomie"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 23,
+            "line_end": 23,
+            "url": "https://nest-fly.com",
+            "page_class": "homepage",
+            "snippet": "**Het unieke universele Drone Docking Systeem van Nest-Fly Technologies**"
+          }
+        ],
+        "notes": "Drone docking stations (drone-in-a-box) are ground-segment infrastructure enabling autonomous drone operations; products include charging pads and protective boxes with API integration."
+      },
+      {
+        "category": "power_systems",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 10,
+            "line_end": 10,
+            "url": "https://nest-fly.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Drone Charging Pad](https://nest-fly.com/drone-charging-pad/)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 52,
+            "line_end": 52,
+            "url": "https://nest-fly.com",
+            "page_class": "homepage",
+            "snippet": "### Snelle oplading"
+          }
+        ],
+        "notes": "Drone Charging Pad is a standalone power/charging product using universal pogo-pin technology for up to 32 drone types."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Primary line is ground segment (docking stations); charging function also places them in power_systems."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Enschede",
+      "state_or_province": "Overijssel",
+      "country": "Netherlands",
+      "address": "Euregioweg 312, 7532 SN Enschede"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0007",
+        "line_start": 22,
+        "line_end": 23,
+        "url": "https://nest-fly.com/contact",
+        "page_class": "contact",
+        "snippet": "#### Bezoekadres\nEuregioweg 312, 7532 SN Enschede"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 23,
+        "line_end": 23,
+        "url": "https://nest-fly.com",
+        "page_class": "homepage",
+        "snippet": "**Het unieke universele Drone Docking Systeem van Nest-Fly Technologies**"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 37,
+        "line_end": 38,
+        "url": "https://nest-fly.com",
+        "page_class": "homepage",
+        "snippet": "#### Systeemintegratoren\nIntegreer drones naadloos binnen bestaande systemen van uw klanten met een betrouwbare docking infrastructuur. Nest-Fly ondersteunt systeemintegratoren met modulaire Drone Docking Systemen die eenvoudig te integreren zijn binnen IT-, security- en assetmanagementplatformen. Zo versnelt u implementaties en levert u schaalbare, autonome drone-oplossingen."
+      }
+    ],
+    "notes": "Sells complete drone docking subsystems (Drone Charging Pad, Falcon Box, Custom Box) to drone operators, system integrators, and drone manufacturers; does not build complete drones."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Drone Charging Pad",
+        "product_type": "Universal drone charging pad",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 10,
+            "line_end": 10,
+            "url": "https://nest-fly.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Drone Charging Pad](https://nest-fly.com/drone-charging-pad/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Falcon Box",
+        "product_type": "Drone-in-a-box docking station (weatherproof enclosure + charging)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 11,
+            "line_end": 11,
+            "url": "https://nest-fly.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Falcon Box (Falcon Docking)](https://nest-fly.com/falcon-box/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Custom Box",
+        "product_type": "Custom drone docking station",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 12,
+            "line_end": 12,
+            "url": "https://nest-fly.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Custom Box](https://nest-fly.com/custom-box/)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Product pages for each SKU are in the crawl index but were not fetched; product detail fetch requests added."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA or Section 889 compliance claims found anywhere in the corpus. Company is Dutch, so NDAA compliance is atypical for their primary market."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS or Blue sUAS claims found in corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 19,
+        "line_end": 19,
+        "url": "https://nest-fly.com",
+        "page_class": "homepage",
+        "snippet": "Laat uw drone slimmer werken met onze innovatieve producten"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 10,
+        "line_end": 12,
+        "url": "https://nest-fly.com",
+        "page_class": "homepage",
+        "snippet": "    *   [Drone Charging Pad](https://nest-fly.com/drone-charging-pad/)\n    *   [Falcon Box (Falcon Docking)](https://nest-fly.com/falcon-box/)\n    *   [Custom Box](https://nest-fly.com/custom-box/)"
+      }
+    ],
+    "notes": "Named catalog SKUs (Drone Charging Pad, Falcon Box, Custom Box) listed with dedicated product pages. News article mentions moving to new facility for 'development and production of our docking stations.' Founded 2021; small startup scale but clearly in production."
+  },
+  "unresolved_questions": [
+    "Specific product specifications and pricing for Drone Charging Pad, Falcon Box, and Custom Box (product pages were skipped)",
+    "Whether they hold any NDAA/Blue UAS certifications (no signal found)",
+    "Full company background and founding story (about page /over-ons was not fetched)"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://nest-fly.com/producten",
+      "reason": "Products overview page \u2014 would enumerate all product SKUs and confirm the full product lineup, supporting products and products_categories fields.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://nest-fly.com/drone-charging-pad",
+      "reason": "Product detail page for the Drone Charging Pad \u2014 would confirm specifications, pricing, and production readiness.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://nest-fly.com/falcon-box",
+      "reason": "Product detail page for the Falcon Box \u2014 would confirm specifications and distinguish subsystem vs component role.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://nest-fly.com/custom-box",
+      "reason": "Product detail page for the Custom Box \u2014 would clarify engineering services vs production offering.",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://nest-fly.com/over-ons",
+      "reason": "About page \u2014 would confirm company background, founding, and any compliance claims (NDAA, certifications).",
+      "expected_evidence": [
+        "headquarters",
+        "ndaa",
+        "blue_uas",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "tagline": "Manufactures universal drone docking and charging stations\u2014the Falcon Box (weatherproof drone-in-a-box enclosure), Drone Charging Pad (supports up to 32 drone types via pogo-pin contacts), and Custom Box variants. Netherlands-based, production-ready subsystem supplier targeting security, logistics, and industrial inspection operators. NDAA and Blue UAS certification status unknown; no named US government contracts visible in public record.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 10,
+    "total_cost_usd": 0.576854,
+    "created_at": "2026-05-04T04:36:48+00:00",
+    "extract_version": "0.1.0"
+  }
+}

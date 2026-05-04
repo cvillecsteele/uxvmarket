@@ -1,0 +1,293 @@
+{
+  "target_id": "marotta-controls",
+  "run_id": "canonical",
+  "display_name": "Marotta Controls",
+  "homepage_url": "https://marotta.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/marotta-controls/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "mechanical_subsystems",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0163",
+            "line_start": 97,
+            "line_end": 97,
+            "url": "https://marotta.com/products/control-systems/control-actuation-systems",
+            "page_class": "product",
+            "snippet": "All mechanical, electronic and software elements are fully integrated and suitable for fin or canard control applications and are designed to achieve high slew rates under high loads in extreme environments."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0163",
+            "line_start": 106,
+            "line_end": 107,
+            "url": "https://marotta.com/products/control-systems/control-actuation-systems",
+            "page_class": "product",
+            "snippet": "*   UAV\n*   UUV"
+          }
+        ],
+        "notes": "Control Actuation Systems (CAS) are electromechanical actuation assemblies (motors, gearboxes, ECUs) for fin/canard control on UAVs, missiles, and other platforms"
+      },
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 62,
+            "line_end": 63,
+            "url": "https://marotta.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Motors](https://marotta.com/motorfox-motors/)\n        *   [Motorfox Motors](https://marotta.com/motorfox-motors/)"
+          }
+        ],
+        "notes": "Motorfox Motors product line"
+      },
+      {
+        "category": "power_systems",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 57,
+            "line_end": 61,
+            "url": "https://marotta.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Electronic Motor Controls](https://marotta.com/products/power-systems/electronic-motor-controls/)\n            *   [Dual Pressure Controller](https://marotta.com/products/power-systems/dual-pressure-controller/)\n        *   [Power Conversion Systems](https://marotta.com/products/power-systems/power-conversion-systems/)\n            *   [1-STEP AC-DC Power Conversion](https://marotta.com/products/power-systems/power-conversion-systems/1-step/)\n            *   [Power Conversion](https://marotta.com/products/power-systems/power-supply-conversion/)"
+          }
+        ],
+        "notes": "Electronic Motor Controls and Power Conversion Systems product lines serve aerospace/defense platforms"
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Marotta is a broad aerospace/defense subsystems supplier; UAV relevance confirmed via explicit CAS applications listing UAV and UUV"
+  },
+  "headquarters": {
+    "value": {
+      "city": "Montville",
+      "state_or_province": "New Jersey",
+      "country": "United States",
+      "address": "78 Boonton Avenue, P.O. Box 427, Montville, New Jersey 07045"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 196,
+        "line_end": 199,
+        "url": "https://marotta.com",
+        "page_class": "homepage",
+        "snippet": "78 Boonton Avenue\nP.O. Box 427\nMontville, New Jersey 07045\nUSA Phone: +1.973.334.7800"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0163",
+        "line_start": 97,
+        "line_end": 97,
+        "url": "https://marotta.com/products/control-systems/control-actuation-systems",
+        "page_class": "product",
+        "snippet": "All mechanical, electronic and software elements are fully integrated and suitable for fin or canard control applications and are designed to achieve high slew rates under high loads in extreme environments."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0163",
+        "line_start": 106,
+        "line_end": 107,
+        "url": "https://marotta.com/products/control-systems/control-actuation-systems",
+        "page_class": "product",
+        "snippet": "*   UAV\n*   UUV"
+      }
+    ],
+    "notes": "Sells major actuation subsystems (CAS), motors, and power electronics explicitly serving UAV and UUV platforms alongside missiles and aerospace systems"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Control Actuation Systems (MCAS series)",
+        "product_type": "electromechanical fin/canard actuation system for UAV/missile",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0163",
+            "line_start": 137,
+            "line_end": 143,
+            "url": "https://marotta.com/products/control-systems/control-actuation-systems",
+            "page_class": "product",
+            "snippet": "#### MCAS0008\n[Download Datasheet](#form45347)\nFill out the form below to download MCAS0008\n--------------------------------------------\nSubmit\n[](https://marotta.com/wp-content/uploads/2025/07/MCAS-0025-1.jpg)\n#### MCAS0025"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "CoRe\u00ae Flow Controls",
+        "product_type": "solenoid valve product line for aerospace/space",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 31,
+            "line_end": 31,
+            "url": "https://marotta.com",
+            "page_class": "homepage",
+            "snippet": "            *   [CoRe\u00ae Flow Controls](https://marotta.com/products/flow-controls/solenoid-valves/core-flow-controls/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Motorfox Motors",
+        "product_type": "electric motors",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 62,
+            "line_end": 63,
+            "url": "https://marotta.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Motors](https://marotta.com/motorfox-motors/)\n        *   [Motorfox Motors](https://marotta.com/motorfox-motors/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "1-STEP AC-DC Power Conversion",
+        "product_type": "AC-DC power conversion unit",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 60,
+            "line_end": 60,
+            "url": "https://marotta.com",
+            "page_class": "homepage",
+            "snippet": "            *   [1-STEP AC-DC Power Conversion](https://marotta.com/products/power-systems/power-conversion-systems/1-step/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Multi-Function Valve (MFV)",
+        "product_type": "pressure/flow regulator and isolation valve for satellite propulsion",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0123",
+            "line_start": 90,
+            "line_end": 91,
+            "url": "https://marotta.com/marotta-controls-patented-multi-function-technology-now-itar-free",
+            "page_class": "compliance",
+            "snippet": "### _The Patented Multi-Function Valve Can Save Up to 50% on Weight and Cost_\nMontville, New Jersey (January 21, 2015) \u2013 Marotta Controls announces that its patented high performance miniature **[Multi-Function Valve](https://marotta.com/products/flow-controls/pressure-controls/)** (MFV) is now available as an **ITAR-Free** key component for satellite [electric propulsion](http://www.marotta.com/markets/space/satellite-propulsion-controls/) systems."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Many additional named products (Dual Pressure Controller, Delta-V In-Space Propulsion, Cold Gas Microthrusters) exist on skipped pages"
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0123",
+        "line_start": 87,
+        "line_end": 87,
+        "url": "https://marotta.com/marotta-controls-patented-multi-function-technology-now-itar-free",
+        "page_class": "compliance",
+        "snippet": "Marotta Controls\u2019 Patented Multi-Function Technology Now ITAR-Free"
+      }
+    ],
+    "notes": "Site claims ITAR-Free status for MFV but no mention of NDAA Section 848/889 compliance in the corpus"
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS or Blue sUAS mention anywhere in the fetched corpus"
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0095",
+        "line_start": 92,
+        "line_end": 92,
+        "url": "https://marotta.com/marotta-controls-completes-first-production-shipment-of-control-actuation-systems",
+        "page_class": "news",
+        "snippet": "The initial shipments call for 30+ units per month, a quantity that is expected to increase to 300+ units by mid-2023. Marotta Control\u2019s production facility easily supports this volume and has capacity to quickly scale to meet more than two times that demand."
+      }
+    ],
+    "notes": "CAS in serial production at 30+ units/month scaling to 300+/month by mid-2023; catalog SKUs listed across product pages"
+  },
+  "unresolved_questions": [
+    "Motorfox Motors page (not fetched) would confirm motor specs and UAV applicability",
+    "Markets/Tactical page (not fetched) would confirm UAV market positioning in detail",
+    "NDAA compliance not disclosed anywhere on site"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://marotta.com/motorfox-motors/",
+      "reason": "Would confirm Motorfox motor specs, target applications (UAV/UAS), and product SKUs to strengthen propulsion_mechanical category claim",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "guessed from homepage nav link",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://marotta.com/markets/tactical/",
+      "reason": "Tactical market page would confirm UAV/UAS-specific positioning and product applications beyond the CAS page listing",
+      "expected_evidence": [
+        "products_categories",
+        "drone_supply_chain_role",
+        "products"
+      ],
+      "source_hint": "guessed from homepage nav link",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "complete",
+  "tagline": "Designs and manufactures electromechanical actuation systems, flow controls, pneumatic compression, and power electronics for missile, UAV, and aerospace platforms. Core products include Control Actuation Systems for flight/thrust-vector control, MPACT\u00ae pneumatic compressor systems, CoRe\u00ae solenoid valves, and ruggedized motor controllers. NDAA and Blue UAS certification status unknown. Public evidence confirms production-ready subsystems across tactical and space markets; limited transparency on specific platform integrations or current defense contracts.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 17,
+    "total_cost_usd": 0.5209325499999999,
+    "created_at": "2026-05-04T04:06:46+00:00",
+    "extract_version": "0.1.0"
+  }
+}

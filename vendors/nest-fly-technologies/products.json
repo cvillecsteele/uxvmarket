@@ -1,0 +1,171 @@
+{
+  "target_id": "nest-fly-technologies",
+  "run_id": "canonical",
+  "display_name": "Nest-Fly Technologies",
+  "homepage_url": "https://nest-fly.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/nest-fly-technologies/website",
+  "products": [
+    {
+      "name": "Falcon Box (Falcon Docking)",
+      "category": "ground_segment",
+      "descriptor": "Weatherproof drone-in-a-box docking and charging station with protective enclosure",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 11,
+          "line_end": 11,
+          "url": "https://nest-fly.com",
+          "page_class": "homepage",
+          "snippet": "    *   [Falcon Box (Falcon Docking)](https://nest-fly.com/falcon-box/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 50,
+          "line_end": 50,
+          "url": "https://nest-fly.com",
+          "page_class": "homepage",
+          "snippet": "De Falcon Box is een combinatie van de Charging Pad, uitgerust met een beschermende kap. Deze kap is waterdicht en bestand tegen de elementen. Hierdoor staat uw drone in een veilig nest en is hij beschermd tegen diefstal en vandalisme."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Drone Charging Pad",
+      "category": "power_systems",
+      "descriptor": "Universal pogo-pin drone charging pad supporting up to 32 drone types",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 10,
+          "line_end": 10,
+          "url": "https://nest-fly.com",
+          "page_class": "homepage",
+          "snippet": "    *   [Drone Charging Pad](https://nest-fly.com/drone-charging-pad/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 53,
+          "line_end": 53,
+          "url": "https://nest-fly.com",
+          "page_class": "homepage",
+          "snippet": "Onze universele Charging Pad is uitgerust met polariteitsherkenning en een contactreinigingssysteem. De polariteitsherkenning draagt bij aan een veilig oplaadproces, terwijl het contactreinigingssysteem ervoor zorgt dat de pogo-pins in de NF-Power Legs geen oxidatielaag krijgen. Zo kan uw drone te allen tijde veilig, snel en effici\u00ebnt worden opgeladen."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Custom Box",
+      "category": "ground_segment",
+      "descriptor": "Custom-configured drone docking box solution",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 12,
+          "line_end": 12,
+          "url": "https://nest-fly.com",
+          "page_class": "homepage",
+          "snippet": "    *   [Custom Box](https://nest-fly.com/custom-box/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "NF-Power Legs",
+      "category": "mechanical_subsystems",
+      "descriptor": "Custom drone landing legs with integrated pogo-pin charging contacts",
+      "granularity": "family",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 53,
+          "line_end": 53,
+          "url": "https://nest-fly.com",
+          "page_class": "homepage",
+          "snippet": "Onze universele Charging Pad is uitgerust met polariteitsherkenning en een contactreinigingssysteem. De polariteitsherkenning draagt bij aan een veilig oplaadproces, terwijl het contactreinigingssysteem ervoor zorgt dat de pogo-pins in de NF-Power Legs geen oxidatielaag krijgen. Zo kan uw drone te allen tijde veilig, snel en effici\u00ebnt worden opgeladen."
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "Custom Box has no description in the fetched corpus beyond its name in the navigation menu \u2014 its exact configuration options, readiness, and whether it differs materially from the Falcon Box are unknown.",
+    "NF-Power Legs are described only briefly on the homepage (line 53); no dedicated product page was fetched, so variant count and pricing/readiness are unknown.",
+    "All three product detail pages (falcon-box, drone-charging-pad, custom-box) were skipped with status skipped_class_budget \u2014 NDAA and Blue UAS status cannot be determined from available corpus."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://nest-fly.com/falcon-box",
+      "reason": "Product detail page for Falcon Box (Falcon Docking) was skipped; needed for full descriptor, readiness, and any NDAA/Blue UAS claims.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://nest-fly.com/drone-charging-pad",
+      "reason": "Product detail page for Drone Charging Pad was skipped; needed for full descriptor, readiness, and any NDAA/Blue UAS claims.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://nest-fly.com/custom-box",
+      "reason": "Product detail page for Custom Box was skipped; corpus contains only its nav-menu name with no description or specs.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://nest-fly.com/producten",
+      "reason": "Products index page was skipped; may list additional SKUs or NF-Power Legs detail not visible in the homepage.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 10,
+    "total_cost_usd": 0.29314635,
+    "created_at": "2026-05-04T04:39:16+00:00",
+    "extract_version": "0.1.0"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "target_id": "fusion-engineering",
+  "run_id": "canonical",
+  "display_name": "Fusion Engineering",
+  "homepage_url": "https://fusion.engineering",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/fusion-engineering/website",
+  "products": [
+    {
+      "name": "Fusion Reflex IM",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "Multirotor flight controller introductory model with modular Rust-based software",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0026",
+          "line_start": 16,
+          "line_end": 16,
+          "url": "https://fusion.engineering/march-2021-fusion-reflex-im-release",
+          "page_class": "news",
+          "snippet": "Today is a huge milestone for Fusion Engineering. We are proud to announce the release of our first flight controller: Fusion Reflex Introductory Model (or in short, Fusion Reflex IM.)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0027",
+          "line_start": 15,
+          "line_end": 15,
+          "url": "https://fusion.engineering/may-2021-off-to-a-flying-start",
+          "page_class": "news",
+          "snippet": "We got a lot of great responses to our first product release, which we are very thankful for. With our Fusion Reflex IM being released, the first IM\u2019s are currently being shipped to our development partners. Integration will start soon; exciting times!"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Fusion Reflex",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "Multirotor drone flight controller product line with INDI-based control",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 17,
+          "line_end": 17,
+          "url": "https://fusion.engineering",
+          "page_class": "homepage",
+          "snippet": "#### The Fusion Reflex"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0026",
+          "line_start": 16,
+          "line_end": 16,
+          "url": "https://fusion.engineering/march-2021-fusion-reflex-im-release",
+          "page_class": "news",
+          "snippet": "Today is a huge milestone for Fusion Engineering. We are proud to announce the release of our first flight controller: Fusion Reflex Introductory Model (or in short, Fusion Reflex IM.)"
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "The dedicated product page https://fusion.engineering/reflex-im was not fetched (skipped_class_budget); it would confirm full specs, pricing, and readiness details for the Fusion Reflex IM.",
+    "The order page https://fusion.engineering/reflex-im-order-page was not fetched; it would clarify whether the IM is available as a standard catalog purchase vs. development-partner-only.",
+    "The page https://fusion.engineering/reflex-new-look was not fetched; it may describe a successor or updated version of the Fusion Reflex beyond the IM, which could represent an additional SKU."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://fusion.engineering/reflex-im",
+      "reason": "Primary product page for Fusion Reflex IM \u2014 would provide specs, readiness, and any NDAA/compliance claims not available in news articles.",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "ndaa",
+        "blue_uas"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://fusion.engineering/reflex-im-order-page",
+      "reason": "Order page linked from product release news; would confirm production readiness and whether unit is available as standard catalog purchase.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://fusion.engineering/reflex-new-look",
+      "reason": "May describe a redesigned or successor version of the Fusion Reflex beyond the Introductory Model, potentially a new SKU.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 11,
+    "total_cost_usd": 0.30116535,
+    "created_at": "2026-05-04T02:56:18+00:00",
+    "extract_version": "0.1.0"
+  }
+}

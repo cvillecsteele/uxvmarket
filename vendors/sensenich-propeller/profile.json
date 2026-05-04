@@ -1,0 +1,322 @@
+{
+  "target_id": "sensenich-propeller",
+  "run_id": "canonical",
+  "display_name": "Sensenich Propeller",
+  "homepage_url": "https://www.sensenich.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/sensenich-propeller/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 55,
+            "line_end": 56,
+            "url": "https://www.sensenich.com",
+            "page_class": "homepage",
+            "snippet": "### [UAV PROPELLERS](#)\nPropellers for small to medium size UAV\u2019s.\u00a0 Engineered for maximum efficiency and performance.\u00a0 Available in wood, carbon fiber, and aluminum."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 65,
+            "line_end": 65,
+            "url": "https://www.sensenich.com",
+            "page_class": "homepage",
+            "snippet": "Sensenich Propeller manufactures and services our own Fixed Pitch Wood, Aluminum and Composite Ground Adjustable Propellers for Airboats, Aircraft and UAVs."
+          }
+        ],
+        "notes": "Propellers (wood, aluminum, carbon fiber) for UAVs, aircraft, and airboats \u2014 the company's entire product line"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Plant City",
+      "state_or_province": "Florida",
+      "country": "United States",
+      "address": "2008 Wood Court, Plant City, FL 33563"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 87,
+        "line_end": 89,
+        "url": "https://www.sensenich.com",
+        "page_class": "homepage",
+        "snippet": "2008 Wood Court\nPlant City, FL 33563\nUSA"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0210",
+        "line_start": 34,
+        "line_end": 34,
+        "url": "https://www.sensenich.com/product-category/uav",
+        "page_class": "product",
+        "snippet": "Sensenich manufactures a full line of fixed pitch wooden propellers, fixed pitch composite propellers, and ground adjustable composite propellers for tactical size UAV\u2019s ."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 65,
+        "line_end": 65,
+        "url": "https://www.sensenich.com",
+        "page_class": "homepage",
+        "snippet": "Sensenich Propeller manufactures and services our own Fixed Pitch Wood, Aluminum and Composite Ground Adjustable Propellers for Airboats, Aircraft and UAVs."
+      }
+    ],
+    "notes": "Manufactures and sells propellers (mechanical propulsion components) for UAVs, aircraft, and airboats. UAV propeller line since the 1960s."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "2 Blade FP",
+        "product_type": "2-blade fixed-pitch wood UAV propeller",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0210",
+            "line_start": 38,
+            "line_end": 41,
+            "url": "https://www.sensenich.com/product-category/uav",
+            "page_class": "product",
+            "snippet": "*    [![2 Blade FP](https://www.sensenich.com/wp-content/uploads/2018/01/item_126_1344452097-400x400.jpg)\n    2 Blade FP\n    ----------\n    $0.00](https://www.sensenich.com/shop/uav/2-blade-fp/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "3 Blade FP",
+        "product_type": "3-blade fixed-pitch wood UAV propeller",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0210",
+            "line_start": 54,
+            "line_end": 57,
+            "url": "https://www.sensenich.com/product-category/uav",
+            "page_class": "product",
+            "snippet": "*    [![3 Blade FP](https://www.sensenich.com/wp-content/uploads/2018/01/item_133_1344459086-400x400.jpg)\n    3 Blade FP\n    ----------\n    $0.00](https://www.sensenich.com/shop/uav/3-blade-fp/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "4 Blade FP",
+        "product_type": "4-blade fixed-pitch wood UAV propeller",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0210",
+            "line_start": 50,
+            "line_end": 53,
+            "url": "https://www.sensenich.com/product-category/uav",
+            "page_class": "product",
+            "snippet": "*    [![4 Blade FP](https://www.sensenich.com/wp-content/uploads/2018/01/item_129_1344457477-400x400.jpg)\n    4 Blade FP\n    ----------\n    $0.00](https://www.sensenich.com/shop/uav/4-blade-fp/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Ground Adjustable Composite UAV Props",
+        "product_type": "ground-adjustable composite UAV propeller",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0210",
+            "line_start": 42,
+            "line_end": 45,
+            "url": "https://www.sensenich.com/product-category/uav",
+            "page_class": "product",
+            "snippet": "*    [![Ground Adjustable Composite UAV Props](https://www.sensenich.com/wp-content/uploads/2018/01/item_127_1344452719-400x400.jpg)\n    Ground Adjustable Composite UAV Props\n    -------------------------------------\n    $0.00](https://www.sensenich.com/shop/uav/gac/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Fixed Pitch Composite UAV Propellers",
+        "product_type": "fixed-pitch composite UAV propeller",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0210",
+            "line_start": 46,
+            "line_end": 49,
+            "url": "https://www.sensenich.com/product-category/uav",
+            "page_class": "product",
+            "snippet": "*    [![Fixed Pitch Composite UAV Propellers](https://www.sensenich.com/wp-content/uploads/2018/01/UAVrender6web-400x400.png)\n    Fixed Pitch Composite UAV Propellers\n    ------------------------------------\n    $0.00](https://www.sensenich.com/shop/uav/fpcuav/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Saber Blade",
+        "product_type": "carbon fiber airboat propeller blade",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0217",
+            "line_start": 39,
+            "line_end": 42,
+            "url": "https://www.sensenich.com/product-tag/saber",
+            "page_class": "product",
+            "snippet": "*   [![Saber Blade](https://www.sensenich.com/wp-content/uploads/2018/01/item_34_1369223192-400x400.jpg)\n    Saber Blade\n    -----------\n    $465.00](https://www.sensenich.com/shop/airboat/saber-blade/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "3 Blade 70\" Alpha Series",
+        "product_type": "carbon fiber airboat propeller",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0213",
+            "line_start": 39,
+            "line_end": 42,
+            "url": "https://www.sensenich.com/product-tag/alpha",
+            "page_class": "product",
+            "snippet": "*    [![3 Blade 70\" Alpha series](https://www.sensenich.com/wp-content/uploads/2018/01/3A0M8_L70A-e1599251671441-400x400.png)\n    3 Blade 70\u2033 Alpha series\n    ------------------------\n    $2,550.00](https://www.sensenich.com/shop/airboat/3-blade-70-alpha-series/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Talon Blade",
+        "product_type": "carbon fiber airboat propeller blade",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0221",
+            "line_start": 39,
+            "line_end": 42,
+            "url": "https://www.sensenich.com/product-tag/talon",
+            "page_class": "product",
+            "snippet": "*    [![Talon Blade](https://www.sensenich.com/wp-content/uploads/2025/02/R78Talon_RENDER-400x400.jpg)\n    Talon Blade\n    -----------\n    $540.00](https://www.sensenich.com/shop/airboat/talon-blade/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "2 Blade 70\" JM Series",
+        "product_type": "carbon fiber ground-adjustable airboat propeller",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0262",
+            "line_start": 29,
+            "line_end": 29,
+            "url": "https://www.sensenich.com/shop/airboat/2-blade-70-jm-series-propeller",
+            "page_class": "news",
+            "snippet": "2 Blade 70\u2033 JM Series Propeller"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "UAV propeller line and major airboat series captured; many more aircraft/airboat SKUs exist on skipped pages"
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 112,
+        "line_end": 112,
+        "url": "https://www.sensenich.com",
+        "page_class": "homepage",
+        "snippet": " ![Made in the USA icon](/wp-content/uploads/2025/04/madeintheusa01.png)"
+      }
+    ],
+    "notes": "Site displays a 'Made in USA' badge but makes no explicit NDAA Section 848/889 compliance claim."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0044",
+        "line_start": 91,
+        "line_end": 91,
+        "url": "https://www.sensenich.com/company",
+        "page_class": "company",
+        "snippet": "*   We are an FAA Production Certificate Holder and an FAA Approved Repair Station."
+      }
+    ],
+    "notes": "FAA Production Certificate Holder; catalog SKUs with prices listed; active e-commerce shop"
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [
+    {
+      "url": "https://www.sensenich.com/shop/uav/2-blade-fp/",
+      "reason": "Product detail page for 2 Blade FP UAV propeller \u2014 would confirm specifications and production status",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "guessed from product listing URL pattern",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.sensenich.com/engineering/",
+      "reason": "Engineering/custom fabrication page \u2014 would clarify whether custom UAV propeller design is a significant service line",
+      "expected_evidence": [
+        "drone_supply_chain_role",
+        "readiness",
+        "products"
+      ],
+      "source_hint": "linked from homepage nav",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "complete",
+  "tagline": "Manufactures fixed-pitch and ground-adjustable composite and wood propellers for tactical UAVs, plus certificated propellers for aircraft and airboats. Florida-based, 80+ year heritage. NDAA compliance status and specific UAV program applications not publicly documented; assessment of defense-sector readiness limited by sparse public contracting evidence.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 18,
+    "total_cost_usd": 0.3546585,
+    "created_at": "2026-05-04T06:08:35+00:00",
+    "extract_version": "0.1.0"
+  }
+}

@@ -1,0 +1,454 @@
+{
+  "target_id": "tersus-gnss",
+  "run_id": "canonical",
+  "display_name": "Tersus GNSS",
+  "homepage_url": "https://www.tersus-gnss.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/tersus-gnss/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0138",
+            "line_start": 189,
+            "line_end": 189,
+            "url": "https://www.tersus-gnss.com/company",
+            "page_class": "company",
+            "snippet": "Founded in 2014, we have been pioneers in design and development GNSS RTK products to better cater to the industry's needs. Our portfolios cover GNSS RTK, PPK OEM boards & receivers, David GNSS Survey Receivers, NeoRTK \\[GNSS survey systems\\], MatrixRTK \\[GNSS CORS systems\\], AG autosteer systems and inertial navigation systems."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0138",
+            "line_start": 190,
+            "line_end": 190,
+            "url": "https://www.tersus-gnss.com/company",
+            "page_class": "company",
+            "snippet": "Designed for ease of use, our solutions support multi-GNSS and provide flexible interfaces for a variety of applications, such as UAVs, surveying, mapping, precision agriculture, lane-level navigation, construction engineering, and deformation monitoring."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0189",
+            "line_start": 110,
+            "line_end": 111,
+            "url": "https://www.tersus-gnss.com/product/gnss-oem-boards",
+            "page_class": "product",
+            "snippet": "BX50L-TAP\nMulti-frequency GNSS OEM board delivers robust centimeter-level positioning with Tersus satellite-based PPP (TAP) service."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0191",
+            "line_start": 110,
+            "line_end": 111,
+            "url": "https://www.tersus-gnss.com/product/gnss-sensors",
+            "page_class": "product",
+            "snippet": "INS200\nHigh-precision Inertial Navigation System"
+          }
+        ],
+        "notes": "Core business: GNSS OEM boards (BX-series), RTK/PPK receivers, inertial navigation systems (INS200), GNSS smart antennas explicitly designed for UAVs and autonomous systems"
+      },
+      {
+        "category": "airframes",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0195",
+            "line_start": 101,
+            "line_end": 102,
+            "url": "https://www.tersus-gnss.com/product/marine-system",
+            "page_class": "product",
+            "snippet": "TheDuck\u2122\nAn efficient and productive unmanned surface vessel equipped with a single-beam echo sounder."
+          }
+        ],
+        "notes": "TheDuck\u2122 is a complete unmanned surface vessel (USV) for bathymetric survey"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": null,
+      "state_or_province": "Jiangsu",
+      "country": "China",
+      "address": null
+    },
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0138",
+        "line_start": 243,
+        "line_end": 243,
+        "url": "https://www.tersus-gnss.com/company",
+        "page_class": "company",
+        "snippet": "Copyright \u00a9 Tersus GNSS Inc. All rights reserved. [\u82cfICP\u59072023007558\u53f7](https://beian.miit.gov.cn/)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0138",
+        "line_start": 145,
+        "line_end": 145,
+        "url": "https://www.tersus-gnss.com/company",
+        "page_class": "company",
+        "snippet": "Tersus GNSS United States established"
+      }
+    ],
+    "notes": "ICP code \u82cfICP\u59072023007558\u53f7 in footer indicates Jiangsu province registration. Specific city not stated in corpus. US and Australia subsidiaries also exist."
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0138",
+        "line_start": 189,
+        "line_end": 189,
+        "url": "https://www.tersus-gnss.com/company",
+        "page_class": "company",
+        "snippet": "Founded in 2014, we have been pioneers in design and development GNSS RTK products to better cater to the industry's needs. Our portfolios cover GNSS RTK, PPK OEM boards & receivers, David GNSS Survey Receivers, NeoRTK \\[GNSS survey systems\\], MatrixRTK \\[GNSS CORS systems\\], AG autosteer systems and inertial navigation systems."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0138",
+        "line_start": 190,
+        "line_end": 190,
+        "url": "https://www.tersus-gnss.com/company",
+        "page_class": "company",
+        "snippet": "Designed for ease of use, our solutions support multi-GNSS and provide flexible interfaces for a variety of applications, such as UAVs, surveying, mapping, precision agriculture, lane-level navigation, construction engineering, and deformation monitoring."
+      }
+    ],
+    "notes": "Designs and manufactures GNSS RTK OEM boards, RTK/INS modules and receivers that are embedded into UAVs and autonomous systems by third-party OEMs. Also makes TheDuck\u2122 USV (complete platform) as secondary offering."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "BX50L-TAP",
+        "product_type": "multi-frequency GNSS OEM board with PPP",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0189",
+            "line_start": 110,
+            "line_end": 111,
+            "url": "https://www.tersus-gnss.com/product/gnss-oem-boards",
+            "page_class": "product",
+            "snippet": "BX50L-TAP\nMulti-frequency GNSS OEM board delivers robust centimeter-level positioning with Tersus satellite-based PPP (TAP) service."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "BX50M-TAP",
+        "product_type": "compact multi-frequency GNSS OEM board with PPP",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0189",
+            "line_start": 114,
+            "line_end": 115,
+            "url": "https://www.tersus-gnss.com/product/gnss-oem-boards",
+            "page_class": "product",
+            "snippet": "BX50M-TAP\nCompact multi-frequency GNSS OEM board delivers robust centimeter-level positioning with Tersus satellite-based PPP (TAP) service."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MX206 Module",
+        "product_type": "high-precision PPP/RTK module",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0189",
+            "line_start": 102,
+            "line_end": 103,
+            "url": "https://www.tersus-gnss.com/product/gnss-oem-boards",
+            "page_class": "product",
+            "snippet": "MX206 Module\nHigh-Precision PPP/RTK Module"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "LUKA GNSS Receiver",
+        "product_type": "ultra-compact IMU-GNSS smart antenna/receiver",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0192",
+            "line_start": 110,
+            "line_end": 111,
+            "url": "https://www.tersus-gnss.com/product/gnss-smart-antennas",
+            "page_class": "product",
+            "snippet": "LUKA GNSS Receiver\nUltra-compact IMU-GNSS receiver, easy to carry and operate."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Oscar GNSS Receiver",
+        "product_type": "GNSS smart antenna/receiver with ExtremeRTK tilt compensation",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0192",
+            "line_start": 114,
+            "line_end": 115,
+            "url": "https://www.tersus-gnss.com/product/gnss-smart-antennas",
+            "page_class": "product",
+            "snippet": "Oscar GNSS Receiver\nExtremeRTK\u2122 Patented Technology-powered GNSS receiver with calibration-free Tilt Compensation, engineered for Challenging Environments."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Oscar Trek GNSS Receiver",
+        "product_type": "versatile visual GNSS receiver with photogrammetry",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0192",
+            "line_start": 106,
+            "line_end": 107,
+            "url": "https://www.tersus-gnss.com/product/gnss-smart-antennas",
+            "page_class": "product",
+            "snippet": "Oscar Trek GNSS Receiver\nVersatile and Visual GNSS receiver, capturing images and measuring points in the field or later in the office."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TS21 & TS20 GNSS Receiver",
+        "product_type": "visual positioning GNSS receiver with dual cameras",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0192",
+            "line_start": 102,
+            "line_end": 103,
+            "url": "https://www.tersus-gnss.com/product/gnss-smart-antennas",
+            "page_class": "product",
+            "snippet": "TS21 & TS20 GNSS Receiver\nAn innovative integration of visual positioning technology, GNSS, IMU, and cameras."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Oscar ProBase GNSS Receiver",
+        "product_type": "GNSS super base station",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0192",
+            "line_start": 118,
+            "line_end": 119,
+            "url": "https://www.tersus-gnss.com/product/gnss-smart-antennas",
+            "page_class": "product",
+            "snippet": "Oscar ProBase GNSS Receiver\nA rugged, reliable GNSS super base station system up to 15 kilometers."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "David30 GNSS Receiver",
+        "product_type": "full-constellation high-precision GNSS sensor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0191",
+            "line_start": 102,
+            "line_end": 103,
+            "url": "https://www.tersus-gnss.com/product/gnss-sensors",
+            "page_class": "product",
+            "snippet": "David30 GNSS Receiver\nFull-Constellation High Precision GNSS Receiver, easy to integrate with various application systems."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "David30-D GNSS Receiver",
+        "product_type": "dual-antenna GNSS receiver for positioning and heading",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0191",
+            "line_start": 106,
+            "line_end": 107,
+            "url": "https://www.tersus-gnss.com/product/gnss-sensors",
+            "page_class": "product",
+            "snippet": "David30-D GNSS Receiver\nDual-antenna GNSS Receiver for both high-precision Positioning and Heading"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "INS200",
+        "product_type": "high-precision inertial navigation system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0191",
+            "line_start": 110,
+            "line_end": 111,
+            "url": "https://www.tersus-gnss.com/product/gnss-sensors",
+            "page_class": "product",
+            "snippet": "INS200\nHigh-precision Inertial Navigation System"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TheDuck\u2122",
+        "product_type": "unmanned surface vessel (USV) for bathymetric survey",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0195",
+            "line_start": 101,
+            "line_end": 102,
+            "url": "https://www.tersus-gnss.com/product/marine-system",
+            "page_class": "product",
+            "snippet": "TheDuck\u2122\nAn efficient and productive unmanned surface vessel equipped with a single-beam echo sounder."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TAP Service",
+        "product_type": "Tersus Precise Point Positioning (PPP) correction service",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 133,
+            "line_end": 134,
+            "url": "https://www.tersus-gnss.com",
+            "page_class": "homepage",
+            "snippet": "[TAP Service](https://www.tersus-gnss.com/product/tersus_advanced_positioning)\nTersus Precise Point Positioning Service"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Metaverse Painter 100",
+        "product_type": "GNSS-based product",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 100,
+            "line_end": 101,
+            "url": "https://www.tersus-gnss.com",
+            "page_class": "homepage",
+            "snippet": "Metaverse Painter 100\n[Learn More \\>](https://www.tersus-gnss.com/product/metaverse_painter_100)"
+          }
+        ],
+        "notes": "Listed on homepage; product detail page not fetched"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Key named products extracted from fetched product category pages. Additional individual product detail pages were skipped."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0189",
+        "line_start": 122,
+        "line_end": 124,
+        "url": "https://www.tersus-gnss.com/product/gnss-oem-boards",
+        "page_class": "product",
+        "snippet": "Brochure\\_GNSS Boards & Module [![](/assets/static/img/prod/down.png) ![](/assets/static/img/prod/down2.png)](/assets/upload/file/20250909103611206.pdf)\nDatasheet\\_BX50M-TAP [![](/assets/static/img/prod/down.png) ![](/assets/static/img/prod/down2.png)](/assets/upload/file/20240621154836259.pdf)\nDatasheet\\_BX50L-TAP [![](/assets/static/img/prod/down.png) ![](/assets/static/img/prod/down2.png)](/assets/upload/file/20240621154918428.pdf)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0138",
+        "line_start": 130,
+        "line_end": 131,
+        "url": "https://www.tersus-gnss.com/company",
+        "page_class": "company",
+        "snippet": "January 2014\nTersus GNSS Inc. established"
+      }
+    ],
+    "notes": "Established product catalog with datasheets, brochures, and dealer/reseller network. Founded 2014 with decade-long production history."
+  },
+  "unresolved_questions": [
+    "Exact city for China headquarters not found in corpus (only Jiangsu province inferred from ICP code)",
+    "Metaverse Painter 100 product details not available (skipped page)",
+    "NDAA compliance status unknown - no mention on site",
+    "Blue UAS status unknown - no mention on site"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.tersus-gnss.com/inquiry",
+      "reason": "Contact/sales inquiry page likely contains physical address for Tersus GNSS China HQ, which would confirm city and full headquarters address",
+      "expected_evidence": [
+        "headquarters"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.tersus-gnss.com/uav",
+      "reason": "UAV & Robotics industry page would detail which specific products are targeted at UAV applications and confirm component_supplier role",
+      "expected_evidence": [
+        "products_categories",
+        "drone_supply_chain_role",
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "China-based GNSS receiver and OEM board manufacturer supplying multi-constellation positioning sensors, antennas, and software for surveying, UAV, and autonomous systems. Produces TS21, Oscar, and LUKA receiver lines plus TheDuck unmanned surface vessel. NDAA and Blue UAS certification status unknown; public evidence of US defense-sector adoption or integration remains limited.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 25,
+    "total_cost_usd": 0.6832277,
+    "created_at": "2026-05-04T06:53:07+00:00",
+    "extract_version": "0.1.0"
+  }
+}

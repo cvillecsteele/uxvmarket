@@ -1,0 +1,202 @@
+{
+  "target_id": "verdego-aero",
+  "run_id": "canonical",
+  "display_name": "VerdeGo Aero",
+  "homepage_url": "https://verdegoaero.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/verdego-aero/website",
+  "products": [
+    {
+      "name": "VH-3 185 kW",
+      "category": "power_systems",
+      "descriptor": "185 kW piston-based hybrid-electric powerplant for commercial and military aviation",
+      "granularity": "sku",
+      "readiness": "prototype",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0095",
+          "line_start": 21,
+          "line_end": 22,
+          "url": "https://verdegoaero.com/product/vh3",
+          "page_class": "product",
+          "snippet": "### VH-3 185 kW\nVH-3 185 kW"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0095",
+          "line_start": 28,
+          "line_end": 28,
+          "url": "https://verdegoaero.com/product/vh3",
+          "page_class": "product",
+          "snippet": "Development of the VH-3 is supported by multiple U.S. Air Force and NASA programs involving \u00a0multiple airframe applications across different markets. A trusted partner of the Air Force, VerdeGo was awarded a program to develop and test the first production-intent VH-3 prototype, accelerating its path toward operational deployment."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "VH-4T 400 kW",
+      "category": "power_systems",
+      "descriptor": "400 kW turbine hybrid-electric powerplant family built around Pratt & Whitney PW206/PW207",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0092",
+          "line_start": 21,
+          "line_end": 22,
+          "url": "https://verdegoaero.com/product/250kw-to-500kw-high-performance-hybrids",
+          "page_class": "news",
+          "snippet": "### VH-4T 400 kW\nVH-4T 400 kW"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0092",
+          "line_start": 45,
+          "line_end": 45,
+          "url": "https://verdegoaero.com/product/250kw-to-500kw-high-performance-hybrids",
+          "page_class": "news",
+          "snippet": "*   Built around a certified helicopter engine, the Pratt & Whitney PW206/PW207"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0092",
+          "line_start": 31,
+          "line_end": 31,
+          "url": "https://verdegoaero.com/product/250kw-to-500kw-high-performance-hybrids",
+          "page_class": "news",
+          "snippet": "Inquire for ordering and delivery schedule."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "VH-4T-RD",
+      "category": "power_systems",
+      "descriptor": "375 kW series-only turbine hybrid powerplant variant for R&D and unmanned flight testing",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0092",
+          "line_start": 50,
+          "line_end": 56,
+          "url": "https://verdegoaero.com/product/250kw-to-500kw-high-performance-hybrids",
+          "page_class": "news",
+          "snippet": "### VH-4T-RD\n*   Max Cont Power Output: 375 kW\n*   SFC: 0.63 lb/HPhr (383 g/kWhr)\n*   Weight: 511 lbs (232 kg)\n*   Configuration: Series only\n*   Redundancy: not single fault tolerant\n*   Applications: suitable for R&D ground testing and unmanned flight testing"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0092",
+          "line_start": 31,
+          "line_end": 31,
+          "url": "https://verdegoaero.com/product/250kw-to-500kw-high-performance-hybrids",
+          "page_class": "news",
+          "snippet": "Inquire for ordering and delivery schedule."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "VH-4T-415",
+      "category": "power_systems",
+      "descriptor": "415 kW series/parallel fault-tolerant turbine hybrid powerplant for production applications",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0092",
+          "line_start": 57,
+          "line_end": 63,
+          "url": "https://verdegoaero.com/product/250kw-to-500kw-high-performance-hybrids",
+          "page_class": "news",
+          "snippet": "### VH-4T-415\n*   Max Cont Power Output: 415 kW\n*   SFC: 0.61 lb/HPhr (371 g/kWhr)\n*   Weight: 565 lbs (257 kg)\n*   Configuration: Series or Parallel\n*   Redundancy: single fault tolerant\n*   Applications: suitable for production applications"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0092",
+          "line_start": 31,
+          "line_end": 31,
+          "url": "https://verdegoaero.com/product/250kw-to-500kw-high-performance-hybrids",
+          "page_class": "news",
+          "snippet": "Inquire for ordering and delivery schedule."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "VH-5 Blended Turbofan",
+      "category": "power_systems",
+      "descriptor": "Electrically convertible turbofan switching between jet thrust and up to 1.5 MW electrical output for HSVTOL aircraft",
+      "granularity": "sku",
+      "readiness": "prototype",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0094",
+          "line_start": 21,
+          "line_end": 24,
+          "url": "https://verdegoaero.com/product/vh-5",
+          "page_class": "product",
+          "snippet": "### VH-5 Blended Turbofan\nVH-5 Blended Turbofan\n=====================\n### Electrically convertible turbofan"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0094",
+          "line_start": 28,
+          "line_end": 28,
+          "url": "https://verdegoaero.com/product/vh-5",
+          "page_class": "product",
+          "snippet": "VerdeGo Aero is currently working with leading airframers in the military and civilian markets to refine the VH-5 and its power-blending technologies, and define the sizing for the initial product that will bring these revolutionary capabilities to market. Airframers interested in participating in the VH-5 industry group should contact VerdeGo Aero."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Aircraft Integration",
+      "category": "power_systems",
+      "descriptor": "Engineering services for integrating VerdeGo hybrid-electric powerplants into customer aircraft",
+      "granularity": "category",
+      "readiness": "engineering_services",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0093",
+          "line_start": 21,
+          "line_end": 24,
+          "url": "https://verdegoaero.com/product/aircraft-integration",
+          "page_class": "product",
+          "snippet": "### Aircraft Integration\nSEAMLESS INTEGRATION FOR MAXIMUM PERFORMANCE\n============================================\nVerdeGo Aero brings unparalleled expertise in hybrid-electric powerplant integration, with a proven track record in commercial and military applications. As pioneers of hybrid-electric flight we invite you to harness our 15 years of industry-leading experience in this area to power innovation in your aircraft."
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "VH-5 Blended Turbofan readiness: page indicates VerdeGo is still refining the design and defining sizing with airframers \u2014 classified as prototype, but a definitive maturity designation is not stated on the page.",
+    "VH-3 185 kW readiness: page references 'first production-intent VH-3 prototype' \u2014 classified as prototype; product may advance to production_intent or low_rate_production as U.S. Air Force program matures."
+  ],
+  "fetch_requests": [],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 18,
+    "total_cost_usd": 0.3307266000000001,
+    "created_at": "2026-05-04T07:35:25+00:00",
+    "extract_version": "0.1.0"
+  }
+}

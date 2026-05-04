@@ -1,0 +1,365 @@
+{
+  "target_id": "inspired-flight-technologies",
+  "run_id": "canonical",
+  "display_name": "Inspired Flight Technologies",
+  "homepage_url": "https://inspiredflight.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/inspired-flight-technologies/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "airframes",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0035",
+            "line_start": 25,
+            "line_end": 25,
+            "url": "https://www.inspiredflight.com/about",
+            "page_class": "company",
+            "snippet": "We build secure, American-made aerial systems for teams who cannot afford failure."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0035",
+            "line_start": 26,
+            "line_end": 26,
+            "url": "https://www.inspiredflight.com/about",
+            "page_class": "company",
+            "snippet": "Inspired Flight Technologies (IFT) designs, assembles, and supports NDAA-compliant drone platforms in the United States. Built for inspection, mapping, research, and public safety, our systems combine mission-ready reliability with secure architecture and long-term support."
+          }
+        ],
+        "notes": "Complete drone platforms: IF800 TOMCAT quadcopter, IF1200/IF1200A hexacopter, GS-ONE"
+      },
+      {
+        "category": "ground_segment",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 185,
+            "line_end": 185,
+            "url": "https://www.inspiredflight.com/",
+            "page_class": "homepage",
+            "snippet": "INSPIRED SUITE"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 190,
+            "line_end": 190,
+            "url": "https://www.inspiredflight.com/",
+            "page_class": "homepage",
+            "snippet": "Elevate's cloud connectivity integrates Inspired Ground Control, Elevate, and PilotGo, providing all-in-one access to drone operations tools."
+          }
+        ],
+        "notes": "Inspired Suite: ELEVATE (cloud), IGC (Inspired Ground Control), PilotGo \u2014 all-in-one drone operations software"
+      },
+      {
+        "category": "isr_payloads",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 7,
+            "line_end": 7,
+            "url": "https://www.inspiredflight.com/",
+            "page_class": "homepage",
+            "snippet": "    *   [PAYLOADS](https://www.inspiredflight.com/payloads)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0130",
+            "line_start": 32,
+            "line_end": 32,
+            "url": "https://www.inspiredflight.com/post/new-product-catalog",
+            "page_class": "product",
+            "snippet": "Inspired Flight Technologies is proud to announce the release of our updated 2025 Product Catalog, featuring our latest U.S.-manufactured, NDAA-compliant drones, payloads, and mission-support accessories."
+          }
+        ],
+        "notes": "Payloads listed as a distinct product category in nav; 2025 catalog lists drones, payloads, and accessories; sells MicaSense Integration Kits"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "San Luis Obispo",
+      "state_or_province": "California",
+      "country": "United States",
+      "address": "225 Suburban Rd"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0044",
+        "line_start": 71,
+        "line_end": 71,
+        "url": "https://www.inspiredflight.com/contact",
+        "page_class": "contact",
+        "snippet": "225 Suburban Rd, San Luis Obispo, CA 93401"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "oem",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0035",
+        "line_start": 26,
+        "line_end": 26,
+        "url": "https://www.inspiredflight.com/about",
+        "page_class": "company",
+        "snippet": "Inspired Flight Technologies (IFT) designs, assembles, and supports NDAA-compliant drone platforms in the United States. Built for inspection, mapping, research, and public safety, our systems combine mission-ready reliability with secure architecture and long-term support."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0116",
+        "line_start": 47,
+        "line_end": 47,
+        "url": "https://www.inspiredflight.com/post/inspired-flight-technologies-announces-full-integration-of-micasense-multispectral-cameras-with-the",
+        "page_class": "news",
+        "snippet": "Founded in 2017, Inspired Flight Technologies is a leading American drone manufacturer dedicated to advancing secure, mission-ready aerial systems. The company\u2019s integrated hardware and software platforms are NDAA-compliant, cyber secure, and certified under the U.S. Department of Defense\u2019s Blue UAS program as well as AUVSI\u2019s Green UAS program, making them trusted for high-consequence government and commercial missions."
+      }
+    ],
+    "notes": "Designs, assembles, and supports complete drone platforms in the US; active shop and dealer network"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "IF800 TOMCAT",
+        "product_type": "quadcopter UAV",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 5,
+            "line_end": 5,
+            "url": "https://www.inspiredflight.com/",
+            "page_class": "homepage",
+            "snippet": "    *   [IF800 TOMCAT | QUADCOPTER](https://www.inspiredflight.com/if800)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "IF1200 / IF1200A",
+        "product_type": "heavy-lift hexacopter UAV",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 6,
+            "line_end": 6,
+            "url": "https://www.inspiredflight.com/",
+            "page_class": "homepage",
+            "snippet": "    *   [IF1200 | HEXACOPTER](https://www.inspiredflight.com/if1200)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0085",
+            "line_start": 32,
+            "line_end": 32,
+            "url": "https://www.inspiredflight.com/post/drone-amplified-expands-drone-based-firefighting-capabilities-with-inspired-flight-partnership",
+            "page_class": "news",
+            "snippet": "**Lincoln, Nebraska April 23rd, 2024** \u2013 Drone Amplified, a leader in drone-based firefighting technology, announces a strategic partnership with Inspired Flight Technologies (IFT), a top provider of advanced unmanned aircraft systems (UAS). This partnership brings the cutting-edge IGNIS 2 aerial ignition system to the Inspired Flight IF1200A drone platform."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "GS-ONE",
+        "product_type": "drone platform",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 37,
+            "line_end": 38,
+            "url": "https://www.inspiredflight.com/",
+            "page_class": "homepage",
+            "snippet": "GS-ONE\nBuilt for the Future"
+          }
+        ],
+        "notes": "Sold via shop.inspiredflight.com/products/gs-one; limited detail in corpus"
+      },
+      {
+        "name": "Inspired Suite",
+        "product_type": "drone operations software platform (ELEVATE, IGC, PilotGo)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 185,
+            "line_end": 185,
+            "url": "https://www.inspiredflight.com/",
+            "page_class": "homepage",
+            "snippet": "INSPIRED SUITE"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 190,
+            "line_end": 190,
+            "url": "https://www.inspiredflight.com/",
+            "page_class": "homepage",
+            "snippet": "Elevate's cloud connectivity integrates Inspired Ground Control, Elevate, and PilotGo, providing all-in-one access to drone operations tools."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Inspired Care",
+        "product_type": "drone support and service plan",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 224,
+            "line_end": 224,
+            "url": "https://www.inspiredflight.com/",
+            "page_class": "homepage",
+            "snippet": "INSPIRED CARE"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MicaSense Integration Kits",
+        "product_type": "multispectral payload integration accessory",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0116",
+            "line_start": 44,
+            "line_end": 44,
+            "url": "https://www.inspiredflight.com/post/inspired-flight-technologies-announces-full-integration-of-micasense-multispectral-cameras-with-the",
+            "page_class": "news",
+            "snippet": "The [**MicaSense Integration Kits**](https://shop.inspiredflight.com/products/micasense-integration-kit?utm_source=copyToPasteBoard&utm_medium=product-links&utm_content=web) for the IF800 Tomcat are available now through Inspired Flight\u2019s authorized dealers and direct sales channels."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": "yes",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0035",
+        "line_start": 26,
+        "line_end": 26,
+        "url": "https://www.inspiredflight.com/about",
+        "page_class": "company",
+        "snippet": "Inspired Flight Technologies (IFT) designs, assembles, and supports NDAA-compliant drone platforms in the United States. Built for inspection, mapping, research, and public safety, our systems combine mission-ready reliability with secure architecture and long-term support."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0086",
+        "line_start": 35,
+        "line_end": 35,
+        "url": "https://www.inspiredflight.com/post/drones-for-government",
+        "page_class": "compliance",
+        "snippet": "Inspired Flight is a leading provider of data-secure, reliable, US-built drones to the commercial market and is currently supplying the US government with Group 1 & 2 UAVs that comply with [**NDAA section 848 requirements**](https://storage.googleapis.com/inspiredflight-com/uploads/NDAA-Compliance-Statement%205.53.08%20PM.pdf)."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0116",
+        "line_start": 47,
+        "line_end": 47,
+        "url": "https://www.inspiredflight.com/post/inspired-flight-technologies-announces-full-integration-of-micasense-multispectral-cameras-with-the",
+        "page_class": "news",
+        "snippet": "Founded in 2017, Inspired Flight Technologies is a leading American drone manufacturer dedicated to advancing secure, mission-ready aerial systems. The company\u2019s integrated hardware and software platforms are NDAA-compliant, cyber secure, and certified under the U.S. Department of Defense\u2019s Blue UAS program as well as AUVSI\u2019s Green UAS program, making them trusted for high-consequence government and commercial missions."
+      }
+    ],
+    "notes": "Explicitly claims NDAA Section 848 compliance across multiple pages"
+  },
+  "blue_uas": {
+    "value": "yes",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0116",
+        "line_start": 47,
+        "line_end": 47,
+        "url": "https://www.inspiredflight.com/post/inspired-flight-technologies-announces-full-integration-of-micasense-multispectral-cameras-with-the",
+        "page_class": "news",
+        "snippet": "Founded in 2017, Inspired Flight Technologies is a leading American drone manufacturer dedicated to advancing secure, mission-ready aerial systems. The company\u2019s integrated hardware and software platforms are NDAA-compliant, cyber secure, and certified under the U.S. Department of Defense\u2019s Blue UAS program as well as AUVSI\u2019s Green UAS program, making them trusted for high-consequence government and commercial missions."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0080",
+        "line_start": 1,
+        "line_end": 1,
+        "url": "https://www.inspiredflight.com/post/blue-uas-manufacturer-inspired-flight-introduces-new-heavy-lift-drone-the-if1200a",
+        "page_class": "compliance",
+        "snippet": "Drone Life: Blue sUAS Manufacturer Inspired Flight Introduces New Heavy Lift Drone: the IF1200A"
+      }
+    ],
+    "notes": "Dec 2025 press release explicitly states certified under the U.S. DoD Blue UAS program; also referenced as 'Blue sUAS Manufacturer' in DroneLife article republished on IFT site"
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0130",
+        "line_start": 25,
+        "line_end": 25,
+        "url": "https://www.inspiredflight.com/post/new-product-catalog",
+        "page_class": "product",
+        "snippet": "2025 Inspired Flight Product Catalog Now Available"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0130",
+        "line_start": 32,
+        "line_end": 32,
+        "url": "https://www.inspiredflight.com/post/new-product-catalog",
+        "page_class": "product",
+        "snippet": "Inspired Flight Technologies is proud to announce the release of our updated 2025 Product Catalog, featuring our latest U.S.-manufactured, NDAA-compliant drones, payloads, and mission-support accessories."
+      }
+    ],
+    "notes": "Active online shop, 2025 product catalog, authorized dealer network, tiered Inspired Care support plans all confirm serial production"
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Small-to-medium multirotor airframes (IF800 TOMCAT quadcopter, IF1200/IF1200A hexacopter) plus ground control and ISR payload integration. NDAA-compliant, Blue UAS-listed, production-ready. Public evidence on defense/federal adoption remains thin; positioning targets commercial surveying, inspection, and research verticals.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 17,
+    "total_cost_usd": 0.55295885,
+    "created_at": "2026-05-04T03:33:40+00:00",
+    "extract_version": "0.1.0"
+  }
+}

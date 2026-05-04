@@ -1,0 +1,369 @@
+{
+  "target_id": "redler-technologies",
+  "run_id": "canonical",
+  "display_name": "Redler Technologies",
+  "homepage_url": "https://www.redlertechnologies.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/redler-technologies/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "propulsion_electronics",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 31,
+            "line_end": 34,
+            "url": "https://www.redlertechnologies.com",
+            "page_class": "homepage",
+            "snippet": "Servo Motor Solutions\nMotor Control Drivers\n---------------------\n[Motor Controllers](/products/motor-controllers/)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0032",
+            "line_start": 36,
+            "line_end": 38,
+            "url": "https://www.redlertechnologies.com/products/motor-controllers/micro-rayon-motor-controller",
+            "page_class": "product",
+            "snippet": "Micro Rayon Motor Controller\n----------------------------\nUltra-compact design with advanced motor control capabilities for small form factors"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 75,
+            "line_end": 79,
+            "url": "https://www.redlertechnologies.com",
+            "page_class": "homepage",
+            "snippet": "Servo Motor Drivers\nEfficient. Powerful. Control at Your Fingertips.\nInnovated for efficiency and adaptability, our motor drivers ensure smooth operation and maximum performance, even in the most demanding environments.\nOur precision-engineered servo motor drivers deliver exceptional control with minimal power consumption, perfect for applications where accuracy and reliability are paramount.\n[EXPLORE CAPABILITIES](/products/motor-controllers/)"
+          }
+        ],
+        "notes": "Motor controllers/servo motor drivers (Micro Rayon, TMC III, Rayon 70, Rayon 135, Rayon Single Board, EV Rider 200) explicitly marketed for UAV/drone applications."
+      },
+      {
+        "category": "power_systems",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 60,
+            "line_end": 65,
+            "url": "https://www.redlertechnologies.com",
+            "page_class": "homepage",
+            "snippet": "Built for Mission-Critical Performance\nPower Distribution Units\nReliable. Flexible. Ready for Any Challenge.\nEngineered for durability and precision, our PDUs ensure efficient, customizable power solutions in even the toughest environments.\nOur military-grade power distribution units deliver unparalleled reliability with advanced protection features, compact design, and seamless integration capabilities.\n[EXPLORE OUR SOLUTIONS](/products/power-distribution-units/)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0041",
+            "line_start": 36,
+            "line_end": 40,
+            "url": "https://www.redlertechnologies.com/products/power-distribution-units/power-rider-16-channel-pdu",
+            "page_class": "product",
+            "snippet": "Power Rider 16 Channel PDU\n--------------------------\nHigh-performance, multi-channel circuit breaker with advanced monitoring capabilities\n![Power Rider 16 Channel PDU](/images/products-wo-background-compressed/power-rider-16-ch.png)\nThe Power Rider 16CH is a high-performance, multi-channel circuit breaker designed to deliver robust protection and control across 16 independently configurable channels. With seamless communication options and advanced monitoring capabilities, it ensures efficient power management for diverse applications."
+          }
+        ],
+        "notes": "Power Distribution Units (Power Rider 16/12 channel) and Smart Circuit Breakers \u2014 military-grade power management products."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": null,
+      "state_or_province": null,
+      "country": "Israel",
+      "address": null
+    },
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 204,
+        "line_end": 204,
+        "url": "https://www.redlertechnologies.com",
+        "page_class": "homepage",
+        "snippet": "[![LINKEDIN icon](/redler-icon-pack-png/solidLINKEDIN.png)](https://il.linkedin.com/company/redler-technologies)[![INSTAGRAM icon](/redler-icon-pack-png/solidINSTAGRAM.png)](https://www.instagram.com/redler_tech/)[![YOUTUBE icon](/redler-icon-pack-png/solidYOUTUBE.png)](https://www.youtube.com/channel/UCpf2k5E-qaKHkA911VO8yIA)"
+      }
+    ],
+    "notes": "LinkedIn URL uses il.linkedin.com (Israeli subdomain); partners include IAI, Elbit, Rafael, IDF and Hebrew text for Israeli Ministry of Defense. City/address not disclosed in fetched pages; contact and about pages were skipped."
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 83,
+        "line_end": 83,
+        "url": "https://www.redlertechnologies.com",
+        "page_class": "homepage",
+        "snippet": "We design, develop, and deliver advanced motion and power control solutions, trusted by military and industrial leaders worldwide. From motor drivers to smart circuit breakers and custom-built systems, our technology ensures peak performance in the most demanding environments, including cutting-edge Combat Vehicles, unmanned aerial vehicle (UAV) platforms, AGVs and more."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0032",
+        "line_start": 67,
+        "line_end": 72,
+        "url": "https://www.redlertechnologies.com/products/motor-controllers/micro-rayon-motor-controller",
+        "page_class": "product",
+        "snippet": "![UAS icon](/redler-icon-pack-png/solidUAS.png)\nUAS\nUnmanned Aerial Vehicles requiring lightweight, reliable power and control systems\n![Drone icon](/redler-icon-pack-png/solidDRONE.png)\nDrone\nCommercial and military drones with precision flight control requirements"
+      }
+    ],
+    "notes": "Sells motor controllers and PDUs as components used in drones, UAVs, AGVs, military vehicles. Does not manufacture complete platforms."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Micro Rayon Motor Controller",
+        "product_type": "ultra-compact motor controller",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0032",
+            "line_start": 36,
+            "line_end": 38,
+            "url": "https://www.redlertechnologies.com/products/motor-controllers/micro-rayon-motor-controller",
+            "page_class": "product",
+            "snippet": "Micro Rayon Motor Controller\n----------------------------\nUltra-compact design with advanced motor control capabilities for small form factors"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TMC III",
+        "product_type": "servo motion controller",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0033",
+            "line_start": 36,
+            "line_end": 38,
+            "url": "https://www.redlertechnologies.com/products/motor-controllers/tmc-motor-controller",
+            "page_class": "product",
+            "snippet": "TMC III\n-------\nCompact, high-performance motor controller for precise digital motion control"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Rayon Single Board Motor Controller",
+        "product_type": "compact single-board motor controller",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0034",
+            "line_start": 36,
+            "line_end": 38,
+            "url": "https://www.redlertechnologies.com/products/motor-controllers/rayon-single-board-motor-controller",
+            "page_class": "product",
+            "snippet": "Rayon Single Board Motor Controller\n-----------------------------------\nCompact, high-power motor controller for space-constrained environments"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Rayon 70 Motor Controller",
+        "product_type": "high-power motor controller",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0047",
+            "line_start": 36,
+            "line_end": 38,
+            "url": "https://www.redlertechnologies.com/products/motor-controllers/rayon-70-motor-controller",
+            "page_class": "product",
+            "snippet": "Rayon 70 Motor Controller\n-------------------------\nEnhanced motor controller with high power density and versatile control options"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Rayon 135 Motor Controller",
+        "product_type": "motor controller",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0048",
+            "line_start": 35,
+            "line_end": 37,
+            "url": "https://www.redlertechnologies.com/products/motor-controllers/rayon-135-motor-controller",
+            "page_class": "product",
+            "snippet": "High Power\nRayon 135 Motor Controller\n--------------------------"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "EV Rider 200 Motor Controller",
+        "product_type": "electric mobility motor controller",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0049",
+            "line_start": 36,
+            "line_end": 38,
+            "url": "https://www.redlertechnologies.com/products/motor-controllers/ev-rider-200-motor-controller",
+            "page_class": "product",
+            "snippet": "EV Rider 200 Motor Controller\n-----------------------------\nEngineered for electric mobility precision with robust and versatile solution"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Power Rider 16 Channel PDU",
+        "product_type": "multi-channel power distribution unit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0041",
+            "line_start": 36,
+            "line_end": 38,
+            "url": "https://www.redlertechnologies.com/products/power-distribution-units/power-rider-16-channel-pdu",
+            "page_class": "product",
+            "snippet": "Power Rider 16 Channel PDU\n--------------------------\nHigh-performance, multi-channel circuit breaker with advanced monitoring capabilities"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Power Rider 16 Channel PDU Military Grade",
+        "product_type": "ruggedized military-grade PDU",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0011",
+            "line_start": 35,
+            "line_end": 37,
+            "url": "https://www.redlertechnologies.com/products/power-distribution-units/power-rider-16-channel-pdu-ruggedized",
+            "page_class": "news",
+            "snippet": "Power Rider 16 Channel PDU Military Grade\n-----------------------------------------\nMilitary-grade circuit breaker designed for mission-critical applications"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Power Rider 12 Channel PDU",
+        "product_type": "multi-channel power distribution unit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0009",
+            "line_start": 35,
+            "line_end": 37,
+            "url": "https://www.redlertechnologies.com/products/power-distribution-units/power-rider-12-channel-pdu",
+            "page_class": "product",
+            "snippet": "Power Rider 12 Channel PDU\n--------------------------\nAdvanced multi-channel circuit protection and power management for demanding applications"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Smart Circuit Breakers (Power Rider 150A, Power Rider High Voltage) mentioned in aerospace page but their individual product pages were not fetched."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0032",
+        "line_start": 62,
+        "line_end": 63,
+        "url": "https://www.redlertechnologies.com/products/motor-controllers/micro-rayon-motor-controller",
+        "page_class": "product",
+        "snippet": "Dimensions & Weight\n30.4 mm x 25 mm x 9.6 mm, 10 g"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0041",
+        "line_start": 50,
+        "line_end": 55,
+        "url": "https://www.redlertechnologies.com/products/power-distribution-units/power-rider-16-channel-pdu",
+        "page_class": "product",
+        "snippet": "Channels\n16 configurable channels, each with up to 25A capacity (50A with parallel operation)\nVoltage\nOperating voltage range: 9-48 VDC\nCurrent Capacity\nTotal unit current capacity up to 240A"
+      }
+    ],
+    "notes": "Named SKUs with full technical specifications and dimensional/weight data. Partners include major defense primes (Elbit, IAI, Rafael, General Dynamics, Textron). Technical documents listed as 'currently being prepared' but products appear production-ready."
+  },
+  "unresolved_questions": [
+    "Exact city/address of headquarters not in fetched pages",
+    "Smart Circuit Breaker product SKUs not individually fetched",
+    "NDAA compliance status unknown \u2014 no mention in corpus",
+    "Blue UAS status unknown \u2014 no mention in corpus"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.redlertechnologies.com/contact",
+      "reason": "Contact page would confirm headquarters city, address, and country for Israel HQ claim",
+      "expected_evidence": [
+        "headquarters"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=contact",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.redlertechnologies.com/about",
+      "reason": "About page would confirm headquarters location and company background",
+      "expected_evidence": [
+        "headquarters",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=company",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.redlertechnologies.com/products/smart-circuit-breakers/power-rider-150a-circuit-breaker/",
+      "reason": "Product page would list Smart Circuit Breaker SKU specs and confirm power_systems category with drone applications",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "linked from resource-0003 (aerospace page related products)",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "complete",
+  "tagline": "Israeli component supplier of DC servo motor controllers (Micro Rayon through Rayon 135 series) and solid-state power distribution units and smart circuit breakers (Power Rider line), serving aerospace, defense, and robotics sectors. Partners include General Dynamics, Elbit, Leonardo, and US Army. NDAA and Blue UAS certification status unknown; public evidence of actual US program integration is sparse despite partner roster.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 16,
+    "total_cost_usd": 0.31690155000000003,
+    "created_at": "2026-05-04T05:42:20+00:00",
+    "extract_version": "0.1.0"
+  }
+}

@@ -1,0 +1,318 @@
+{
+  "target_id": "meller-optics-inc",
+  "run_id": "canonical",
+  "display_name": "Meller Optics, Inc",
+  "homepage_url": "https://www.melleroptics.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/meller-optics-inc/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "isr_payloads",
+        "is_primary": true,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0039",
+            "line_start": 70,
+            "line_end": 70,
+            "url": "https://www.melleroptics.com/about",
+            "page_class": "company",
+            "snippet": "Meller Optics Designed\u00a0prototype sapphire internal optics for newly developed IR Missile Technology."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0039",
+            "line_start": 76,
+            "line_end": 76,
+            "url": "https://www.melleroptics.com/about",
+            "page_class": "company",
+            "snippet": "Meller Optics manufactured the windows for the Tomahawk missiles navigation systems, as well as the internal sapphire optics for the stinger missile."
+          }
+        ],
+        "notes": "Sapphire domes, windows, and lenses are used in EO/IR seeker/sensor systems for defense applications. History includes optics for IR missile seekers, Tomahawk navigation systems, stinger missile, and ASRAAM missile."
+      },
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": false,
+        "confidence": "low",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 108,
+            "line_end": 108,
+            "url": "https://www.melleroptics.com",
+            "page_class": "homepage",
+            "snippet": "*   [CUSTOM LIDAR OPTICS SUPPORT MISSION-CRITICAL PERFORMANCE](https://melleroptics.com/custom-lidar-optics-support-mission-critical-performance/ \"CUSTOM LIDAR OPTICS SUPPORT MISSION-CRITICAL PERFORMANCE\") Comments Off on CUSTOM LIDAR OPTICS SUPPORT MISSION-CRITICAL PERFORMANCE"
+          }
+        ],
+        "notes": "News headline references custom LIDAR optics for mission-critical performance, indicating they supply optics for LIDAR navigation sensors."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Meller Optics makes precision sapphire optical components (windows, domes, lenses) used in EO/IR sensor systems and LIDAR for aerospace/defense applications including UAS. Their products go into ISR payloads as components, and they also supply LIDAR optics for navigation. The external seed categorised them as structures_materials/Optics, but their components are more directly inputs to ISR payloads and navigation sensors than to airframes."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Providence",
+      "state_or_province": "Rhode Island",
+      "country": "United States",
+      "address": "120 Corliss Street, Providence, RI 02904"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 102,
+        "line_end": 104,
+        "url": "https://www.melleroptics.com",
+        "page_class": "homepage",
+        "snippet": "Meller Optics, Inc.\n120 Corliss Street\nProvidence, RI 02904"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0039",
+        "line_start": 97,
+        "line_end": 99,
+        "url": "https://www.melleroptics.com/about",
+        "page_class": "company",
+        "snippet": "Meller Optics, Inc.\n120 Corliss Street\nProvidence, RI 02904"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 75,
+        "line_end": 75,
+        "url": "https://www.melleroptics.com",
+        "page_class": "homepage",
+        "snippet": "Recognized for our custom fabrication capabilities since 1921, Meller Optics has consistently delivered high precision optics for critical applications in the aerospace, defense, electro-optics, medical instrumentation, process control, robotics, and industrial markets."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0042",
+        "line_start": 55,
+        "line_end": 55,
+        "url": "https://www.melleroptics.com/product-category/custom-fabrication",
+        "page_class": "product",
+        "snippet": "Our custom fabrication capabilities include the manufacture of tight-tolerance optics of all kinds, utilizing a full range of ultraviolet, visible, and infrared materials. In addition to providing our standard, off-the-shelf products, we take delicate, difficult to work with optical materials and fabricate functional components that meet your exacting specifications."
+      }
+    ],
+    "notes": "Meller Optics fabricates precision optical components (sapphire windows, domes, lenses, prisms) sold to OEMs and integrators for use in EO/IR sensors, LIDAR systems, and other electro-optical assemblies. They do not make complete systems."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Sapphire Windows",
+        "product_type": "precision sapphire optical windows (multiple quality grades)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 7,
+            "line_end": 11,
+            "url": "https://www.melleroptics.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Sapphire Windows](https://melleroptics.com/product-category/sapphire-windows/)\n        *   [Standard Quality Sapphire Windows](https://melleroptics.com/product-category/standard-quality-sapphire-windows/)\n        *   [Superior Quality Sapphire Windows](https://melleroptics.com/product-category/superior-quality-sapphire-windows/)\n        *   [High-Precision Quality Sapphire Windows](https://melleroptics.com/product-category/high-precision-quality-sapphire-windows/)\n        *   [Sapphire Centrifuge Windows](https://melleroptics.com/product-category/sapphire-windows/sapphire-centrifuge-windows/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Sapphire Domes",
+        "product_type": "sapphire optical domes for EO/IR seeker systems",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 16,
+            "line_end": 16,
+            "url": "https://www.melleroptics.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Sapphire Domes](https://melleroptics.com/product-category/sapphire-domes/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Sapphire Lenses",
+        "product_type": "precision sapphire lenses",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 17,
+            "line_end": 17,
+            "url": "https://www.melleroptics.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Sapphire Lenses](https://melleroptics.com/product-category/sapphire-lenses/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Sapphire Prisms",
+        "product_type": "precision sapphire prisms",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 18,
+            "line_end": 18,
+            "url": "https://www.melleroptics.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Sapphire Prisms](https://melleroptics.com/product-category/sapphire-prisms/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Sapphire Substrates",
+        "product_type": "sapphire optical substrates",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 12,
+            "line_end": 12,
+            "url": "https://www.melleroptics.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Sapphire Substrates](https://melleroptics.com/product-category/sapphire-substrates/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Sapphire & Quartz Waveplates",
+        "product_type": "optical waveplates",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 15,
+            "line_end": 15,
+            "url": "https://www.melleroptics.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Sapphire & Quartz Waveplates](https://melleroptics.com/product-category/sapphire-quartz-waveplates/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Quartz Centrifuge Windows",
+        "product_type": "quartz optical windows for centrifuge applications",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 19,
+            "line_end": 19,
+            "url": "https://www.melleroptics.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Quartz Centrifuge Windows](https://melleroptics.com/product-category/quartz-centrifuge-windows/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Custom Fabrication",
+        "product_type": "custom precision optics fabricated to customer specification",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0042",
+            "line_start": 55,
+            "line_end": 55,
+            "url": "https://www.melleroptics.com/product-category/custom-fabrication",
+            "page_class": "product",
+            "snippet": "Our custom fabrication capabilities include the manufacture of tight-tolerance optics of all kinds, utilizing a full range of ultraviolet, visible, and infrared materials. In addition to providing our standard, off-the-shelf products, we take delicate, difficult to work with optical materials and fabricate functional components that meet your exacting specifications."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Product families listed from site navigation. Many more individual SKUs exist within each category."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 57,
+        "line_end": 57,
+        "url": "https://www.melleroptics.com",
+        "page_class": "homepage",
+        "snippet": "##### ITAR REGISTERED \u2013 ISO 9001:2015 REGISTERED \u2013 DFARS/NIST COMPLIANT \u2013 MADE IN THE USA"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 93,
+        "line_end": 95,
+        "url": "https://www.melleroptics.com",
+        "page_class": "homepage",
+        "snippet": "DFARS / NIST COMPLIANT\n----------------------\nMADE IN THE USA"
+      }
+    ],
+    "notes": "Site claims DFARS/NIST compliant and Made in USA, but does not explicitly mention NDAA Section 848/889 compliance."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 110,
+        "line_end": 110,
+        "url": "https://www.melleroptics.com",
+        "page_class": "homepage",
+        "snippet": "Orders typically ship in 3-5 days. Please call the factory for expedited delivery or quantity discounts."
+      }
+    ],
+    "notes": "Stock products available with online shop, standard lead time of 3-5 days, with quantity discounts and expedited options. Products offered in tiered quality grades indicating serial production."
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Precision sapphire optics fabricator (windows, domes, lenses, prisms, substrates) for EO/IR and defense sensor applications. In production since 1921; ITAR-registered, ISO 9001:2015, DFARS/NIST compliant, US-made. NDAA and Blue UAS status not publicly disclosed. No major primes' contracts or programs identified in public record.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 7,
+    "total_cost_usd": 0.40130950000000004,
+    "created_at": "2026-05-04T04:11:42+00:00",
+    "extract_version": "0.1.0"
+  }
+}

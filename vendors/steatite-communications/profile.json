@@ -1,0 +1,387 @@
+{
+  "target_id": "steatite-communications",
+  "run_id": "canonical",
+  "display_name": "Steatite Communications",
+  "homepage_url": "https://steatite-communications.co.uk",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/steatite-communications/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "communications",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 50,
+            "line_end": 50,
+            "url": "https://steatite-communications.co.uk",
+            "page_class": "homepage",
+            "snippet": "Equipped with the Wave Relay\u00ae network, the MPU5 secure handheld radio is the most scalable and advanced MANET system in the world. Providing a secure voice, video, and high bandwidth data network anywhere, the MPU5 unites all your critical sensor and data sources in real time. Steatite is the UK's only authorised provider of this technology."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0015",
+            "line_start": 58,
+            "line_end": 58,
+            "url": "https://steatite-communications.co.uk/applications/unmanned-systems",
+            "page_class": "capability",
+            "snippet": "Tried and tested in the harshest environments the Wave Relay MANET complements any unmanned system, be it Air, Ground or Maritime. [Steatite](https://www.steatite.co.uk/) provides market-leading wireless RF unmanned communication solutions forged through market-leading partnerships to assist all areas of industry."
+          }
+        ],
+        "notes": "MANET radios, data links, and antennas (Wave Relay\u00ae product family) for tactical and unmanned-systems communications"
+      },
+      {
+        "category": "ground_segment",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0067",
+            "line_start": 59,
+            "line_end": 60,
+            "url": "https://steatite-communications.co.uk/rugged-engineering-solutions",
+            "page_class": "capability",
+            "snippet": "**Encompassing comprehensive capabilities : The CRiB**\nThe [CRiB](https://steatite-communications.co.uk/universal-command-and-control-terminal/) is a perfect example of our proficiency in innovative, rugged and reliable custom engineering, combining the skills and extensive capabilities of all our Business Units. Developed to be highly mobile, easy to use and quick to deploy, the CRiB provides a smart command and control system ideal for tactical operations."
+          }
+        ],
+        "notes": "Universal Command & Control Terminal (CRiB) \u2013 a Steatite-developed mobile C2 system"
+      },
+      {
+        "category": "isr_payloads",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 19,
+            "line_end": 19,
+            "url": "https://steatite-communications.co.uk",
+            "page_class": "homepage",
+            "snippet": "    *   [Dual Optical & Thermal PTZ Camera](https://steatite-communications.co.uk/dual-optical-and-thermal-ptz-camera/ \"Dual Optical &  Thermal PTZ Camera\")"
+          }
+        ],
+        "notes": "Dual Optical & Thermal PTZ Camera offered as UAV payload accessory"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Redditch",
+      "state_or_province": "Worcestershire",
+      "country": "United Kingdom",
+      "address": "Ravensbank Business Park, Acanthus Road, Redditch, Worcestershire, B98 9EX"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0025",
+        "line_start": 66,
+        "line_end": 71,
+        "url": "https://steatite-communications.co.uk/contact-us",
+        "page_class": "contact",
+        "snippet": "### STEATITE LTD (COMMUNICATIONS)\nSecure Communication Systems\nRavensbank Business Park\nAcanthus Road\nRedditch, Worcestershire\nB98 9EX, United Kingdom"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 50,
+        "line_end": 50,
+        "url": "https://steatite-communications.co.uk",
+        "page_class": "homepage",
+        "snippet": "Equipped with the Wave Relay\u00ae network, the MPU5 secure handheld radio is the most scalable and advanced MANET system in the world. Providing a secure voice, video, and high bandwidth data network anywhere, the MPU5 unites all your critical sensor and data sources in real time. Steatite is the UK's only authorised provider of this technology."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0015",
+        "line_start": 58,
+        "line_end": 58,
+        "url": "https://steatite-communications.co.uk/applications/unmanned-systems",
+        "page_class": "capability",
+        "snippet": "Tried and tested in the harshest environments the Wave Relay MANET complements any unmanned system, be it Air, Ground or Maritime. [Steatite](https://www.steatite.co.uk/) provides market-leading wireless RF unmanned communication solutions forged through market-leading partnerships to assist all areas of industry."
+      }
+    ],
+    "notes": "UK's only authorised provider of Persistent Systems' Wave Relay\u00ae MANET technology; supplies communications subsystems (data links, MANET radios, antennas, embedded modules) explicitly targeting UAV/UGV/USV platforms. Also develops own products (CRiB C2 terminal)."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "MPU5 Radio",
+        "product_type": "MANET handheld radio",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 79,
+            "line_end": 81,
+            "url": "https://steatite-communications.co.uk",
+            "page_class": "homepage",
+            "snippet": "*   ### MPU5 Radio\n    A Mobile Ad hoc Network (MANET) is a collection of mobile devices, that form a self-configuring network.\n    [Read more](https://www.steatite-communications.co.uk/wave-relay-mpu5-radio/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Embedded Module",
+        "product_type": "UAV/UGV integration MANET radio module",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 82,
+            "line_end": 84,
+            "url": "https://steatite-communications.co.uk",
+            "page_class": "homepage",
+            "snippet": "*   ### Embedded Module\n    The Embedded Module enables easy integration into Unmanned Systems and sensors, reducing SWaP.\n    [Read more](https://www.steatite-communications.co.uk/wave-relay-embedded-module/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "GVR5",
+        "product_type": "ground vehicle radio",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 7,
+            "line_end": 7,
+            "url": "https://steatite-communications.co.uk",
+            "page_class": "homepage",
+            "snippet": "    *   [GVR5](https://steatite-communications.co.uk/gvr5/ \"GVR5\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Multi-Band Tracking Antenna",
+        "product_type": "auto-tracking UAV antenna system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 88,
+            "line_end": 90,
+            "url": "https://steatite-communications.co.uk",
+            "page_class": "homepage",
+            "snippet": "*   ### Multi-Band Tracking Antenna\n    Track UAVs and Aircraft at long ranges with high throughput.\n    [Read more](https://www.steatite-communications.co.uk/wave-relay-auto-tracking-antenna-system/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Universal Command & Control Terminal (CRiB)",
+        "product_type": "rugged C2 terminal",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0067",
+            "line_start": 59,
+            "line_end": 60,
+            "url": "https://steatite-communications.co.uk/rugged-engineering-solutions",
+            "page_class": "capability",
+            "snippet": "**Encompassing comprehensive capabilities : The CRiB**\nThe [CRiB](https://steatite-communications.co.uk/universal-command-and-control-terminal/) is a perfect example of our proficiency in innovative, rugged and reliable custom engineering, combining the skills and extensive capabilities of all our Business Units. Developed to be highly mobile, easy to use and quick to deploy, the CRiB provides a smart command and control system ideal for tactical operations."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Mountable Mobile Communications Unit (MMCU)",
+        "product_type": "vehicle-mounted comms unit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 8,
+            "line_end": 8,
+            "url": "https://steatite-communications.co.uk",
+            "page_class": "homepage",
+            "snippet": "    *   [Mountable Mobile Communications Unit (MMCU)](https://steatite-communications.co.uk/mountable-mobile-communications-unit/ \"Mountable Mobile Communications Unit (MMCU)\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Dual Push-to-Talk (PTT)",
+        "product_type": "dual-channel PTT controller",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 85,
+            "line_end": 87,
+            "url": "https://steatite-communications.co.uk",
+            "page_class": "homepage",
+            "snippet": "*   ### Dual Push To Talk (PTT)\n    Enables dual channel communication via a single radio, enhancing the MPU5's RoIP capability.\n    [Read more](https://www.steatite-communications.co.uk/wave-relay-dual-ptt/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Integrated Antenna Series",
+        "product_type": "integrated MANET antenna",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 13,
+            "line_end": 13,
+            "url": "https://steatite-communications.co.uk",
+            "page_class": "homepage",
+            "snippet": "    *   [Integrated Antenna Series](https://steatite-communications.co.uk/integrated-antenna-series/ \"Integrated Antenna Series\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Cloud Relay\u2122",
+        "product_type": "cloud network relay",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 15,
+            "line_end": 15,
+            "url": "https://steatite-communications.co.uk",
+            "page_class": "homepage",
+            "snippet": "    *   [Cloud Relay\u2122](https://steatite-communications.co.uk/cloud-relay/ \"Cloud Relay\u2122\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Mobile AD-HOC Communications Environment (MACE)",
+        "product_type": "mobile MANET communications environment",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 18,
+            "line_end": 18,
+            "url": "https://steatite-communications.co.uk",
+            "page_class": "homepage",
+            "snippet": "    *   [Mobile AD-HOC Communications Environment (MACE)](https://steatite-communications.co.uk/mobile-ad-hoc-communications-environment/ \"Mobile AD-HOC Communications Environment (MACE)\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Dual Optical & Thermal PTZ Camera",
+        "product_type": "EO/IR PTZ camera",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 19,
+            "line_end": 19,
+            "url": "https://steatite-communications.co.uk",
+            "page_class": "homepage",
+            "snippet": "    *   [Dual Optical & Thermal PTZ Camera](https://steatite-communications.co.uk/dual-optical-and-thermal-ptz-camera/ \"Dual Optical &  Thermal PTZ Camera\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Rugged Display & Controller",
+        "product_type": "rugged display and controller unit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 14,
+            "line_end": 14,
+            "url": "https://steatite-communications.co.uk",
+            "page_class": "homepage",
+            "snippet": "    *   [Rugged Display & Controller](https://steatite-communications.co.uk/rugged-display-and-controller/ \"Rugged Display & Controller\")"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0057",
+        "line_start": 85,
+        "line_end": 88,
+        "url": "https://steatite-communications.co.uk/mpu5-radio-specifications",
+        "page_class": "product",
+        "snippet": "**Manufacturing:**\nManufactured in the USA\nISO 9001:2009 Certified\nDesigned to MIL-STD"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0067",
+        "line_start": 62,
+        "line_end": 62,
+        "url": "https://steatite-communications.co.uk/rugged-engineering-solutions",
+        "page_class": "capability",
+        "snippet": "**Using the skillset of the whole Steatite group we\u00a0 are able to offer designing, prototyping, testing and volume production of customised rugged technology. This enables us to deliver bespoke solutions for various elements of your project, with industry-leading expertise beyond just the world of communications."
+      }
+    ],
+    "notes": "Catalog products with detailed datasheets and spec sheets in production; group also offers prototyping through to volume production"
+  },
+  "unresolved_questions": [
+    "NDAA Section 848/889 compliance status not disclosed (UK-headquartered vendor, less likely to be relevant)",
+    "Blue UAS cleared list status not disclosed"
+  ],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "UK-based maker of Wave Relay\u00ae MANET communications systems for unmanned and tactical operations, including the MPU5 handheld radio, embedded modules, vehicle-mounted GVR5, command terminals, and L/S/C-band tracking antennas. Also supplies thermal/optical PTZ cameras and radio-over-IP gateways. Production-ready across all major product lines. NDAA and Blue UAS certification status unknown; no named US prime contracts found in public record.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 14,
+    "total_cost_usd": 0.4052981,
+    "created_at": "2026-05-04T06:32:40+00:00",
+    "extract_version": "0.1.0"
+  }
+}

@@ -1,0 +1,328 @@
+{
+  "target_id": "exyn-technologies",
+  "run_id": "canonical",
+  "display_name": "Exyn Technologies",
+  "homepage_url": "https://exyn.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/exyn-technologies/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0008",
+            "line_start": 71,
+            "line_end": 71,
+            "url": "https://www.exyn.com/nexys-platforms",
+            "page_class": "product",
+            "snippet": "Nexys is a platform agnostic autonomy and mapping payload, meaning it can be swapped from robot to robot depending on the use case or environment."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0009",
+            "line_start": 78,
+            "line_end": 78,
+            "url": "https://www.exyn.com/exynai-autonomy-and-mapping",
+            "page_class": "capability",
+            "snippet": "ExynAI is a proprietary LiDAR-based SLAM algorithm that enables Nexys to autonomously navigate unstructured, GPS-denied environments while simultaneously capturing a feature-rich, colorized digital twin that can be rendered on the same tablet used to plan missions."
+          }
+        ],
+        "notes": "Nexys is a LiDAR-based SLAM autonomy and mapping payload; core hardware deliverable is a LiDAR sensor subsystem for GPS-denied navigation and mapping."
+      },
+      {
+        "category": "flight_and_vehicle_control",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0009",
+            "line_start": 86,
+            "line_end": 86,
+            "url": "https://www.exyn.com/exynai-autonomy-and-mapping",
+            "page_class": "capability",
+            "snippet": "Our proprietary autonomy algorithms, coupled with our SLAM-based LiDAR scanning technology deliver survey-grade 3D models\u00a0without a pilot."
+          }
+        ],
+        "notes": "ExynAI provides Autonomy Level 4B autonomous flight and navigation control software embedded in Nexys, also licensed separately via SDK."
+      },
+      {
+        "category": "ground_segment",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0009",
+            "line_start": 106,
+            "line_end": 107,
+            "url": "https://www.exyn.com/en/products/exyn-nexys",
+            "page_class": "product",
+            "snippet": "ExynView Software\nControls capture and post processing in the same system, allowing for fast on premise processing for more streamlined workflows. Creates clean, georeferenced point clouds automatically with additional processing and filtering, and data interoperability into third party software applications.](/?hsLang=en) [![Check mark](https://www.exyn.com/hubfs/Check%20mark.png)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0009",
+            "line_start": 122,
+            "line_end": 122,
+            "url": "https://www.exyn.com/en/products/exyn-nexys",
+            "page_class": "product",
+            "snippet": "The Nexys comes paired with a ruggedized Dell Latitude tablet for easy mission planning for autonomous aerial exploration missions, or for monitoring the real-time status of a mobile mapping 3D capture - making mobile surveying simple, efficient, and accurate.\u00a0[explore exynview](https://www.exyn.com/exynview-software?hsLang=en)"
+          }
+        ],
+        "notes": "ExynView is the companion tablet software for mission planning and field post-processing of 3D point cloud data."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Philadelphia",
+      "state_or_province": "Pennsylvania",
+      "country": "United States",
+      "address": "2118 Washington Ave Suite 1000 Philadelphia, PA 19146"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0013",
+        "line_start": 243,
+        "line_end": 243,
+        "url": "https://www.exyn.com/privacy-policy",
+        "page_class": "company",
+        "snippet": "Physical Address: 2118 Washington Ave Suite 1000 Philadelphia, PA 19146"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0013",
+        "line_start": 216,
+        "line_end": 216,
+        "url": "https://www.exyn.com/privacy-policy",
+        "page_class": "company",
+        "snippet": "Exyn Technologies, Inc. and Range are headquartered in the United States. If you are located outside the United States, your personal information may be transferred to, stored, and processed in the United States or other countries where our service providers operate."
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0008",
+        "line_start": 71,
+        "line_end": 71,
+        "url": "https://www.exyn.com/nexys-platforms",
+        "page_class": "product",
+        "snippet": "Nexys is a platform agnostic autonomy and mapping payload, meaning it can be swapped from robot to robot depending on the use case or environment."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0007",
+        "line_start": 76,
+        "line_end": 77,
+        "url": "https://www.exyn.com/products/exynai-sdk",
+        "page_class": "product",
+        "snippet": "**Nexys API:** Integrators can leverage plug-and-play, rugged hardware and access the ExynAI firehose to build custom solutions and automations using their own apps.\n**Modular Software:** OEMs can integrate Exyn's modular autonomy, localization, and mapping software into their hardware."
+      }
+    ],
+    "notes": "Nexys is explicitly described as a 'platform agnostic autonomy and mapping payload' that attaches to third-party airframes (DJI, Freefly) and ground robots (Spot, HyDrone). ExynAI SDK is licensed to OEMs for embedding in their own hardware."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Exyn Nexys",
+        "product_type": "modular LiDAR autonomy and mapping payload",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0009",
+            "line_start": 68,
+            "line_end": 69,
+            "url": "https://www.exyn.com/en/products/exyn-nexys",
+            "page_class": "product",
+            "snippet": "Exyn Nexys\nA completely modular 3D mapping solution designed to reduce time to capture, increase safety, and drive efficiency for challenging, complex, or dangerous environments."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Nexys Pro",
+        "product_type": "advanced LiDAR mapping payload variant",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0009",
+            "line_start": 127,
+            "line_end": 128,
+            "url": "https://www.exyn.com/en/products/exyn-nexys",
+            "page_class": "product",
+            "snippet": " [![](https://www.exyn.com/hubfs/noun_Paper_79267.svg) One Sheet\nNexys Pro System Specifications Download](/nexys-pro-product-sheet?hsLang=en)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ExynAI",
+        "product_type": "autonomous SLAM mapping and navigation software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0009",
+            "line_start": 78,
+            "line_end": 78,
+            "url": "https://www.exyn.com/exynai-autonomy-and-mapping",
+            "page_class": "capability",
+            "snippet": "ExynAI is a proprietary LiDAR-based SLAM algorithm that enables Nexys to autonomously navigate unstructured, GPS-denied environments while simultaneously capturing a feature-rich, colorized digital twin that can be rendered on the same tablet used to plan missions."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ExynAI SDK",
+        "product_type": "autonomy and mapping SDK for OEMs and integrators",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0007",
+            "line_start": 69,
+            "line_end": 69,
+            "url": "https://www.exyn.com/products/exynai-sdk",
+            "page_class": "product",
+            "snippet": "OEMs and integrators can access ExynAI's cutting-edge autonomy, mapping, and localization through the Nexys API and ExynAI SDK. Whether you\u2019re building autonomous systems from scratch, augmenting current hardware capabilities, or enhancing existing workflows, Exyn\u2019s modular software and API\u2019s provide the tools to deliver precision, scalability, and reliability in even the most challenging environments."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ExynView",
+        "product_type": "data visualization and mission planning software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0009",
+            "line_start": 106,
+            "line_end": 107,
+            "url": "https://www.exyn.com/en/products/exyn-nexys",
+            "page_class": "product",
+            "snippet": "ExynView Software\nControls capture and post processing in the same system, allowing for fast on premise processing for more streamlined workflows. Creates clean, georeferenced point clouds automatically with additional processing and filtering, and data interoperability into third party software applications.](/?hsLang=en) [![Check mark](https://www.exyn.com/hubfs/Check%20mark.png)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Range",
+        "product_type": "defense-focused autonomous robotics platform (fully-owned subsidiary)",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0012",
+            "line_start": 133,
+            "line_end": 134,
+            "url": "https://www.exyn.com/about/company",
+            "page_class": "company",
+            "snippet": "### 2025\nExyn launches Range to deliver mission-ready autonomy and modular robotic capabilities for defense and other high-consequence environments where GPS-denied performance, flexibility, and rapid deployment matter most. Range is a fully-owned subsidiary of Exyn."
+          }
+        ],
+        "notes": "Range is a separate subsidiary brand at flyrange.com; specific product SKUs not captured in this corpus."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Range (defense subsidiary at flyrange.com) may have additional product SKUs not captured in this corpus."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0009",
+        "line_start": 94,
+        "line_end": 94,
+        "url": "https://www.exyn.com/exynai-autonomy-and-mapping",
+        "page_class": "capability",
+        "snippet": "**Proven Field-Ready Autonomy**: Validated across hundreds of deployments and tens of thousands of flights, with demonstrated resilience and reliability in diverse and challenging conditions, including dusty environments and obstacle-rich terrains."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0009",
+        "line_start": 70,
+        "line_end": 70,
+        "url": "https://www.exyn.com/en/products/exyn-nexys",
+        "page_class": "product",
+        "snippet": "[Purchase](https://www.exyn.com/purchase?hsLang=en)"
+      }
+    ],
+    "notes": "Products available for direct purchase, published spec sheets for Nexys and Nexys Pro, and extensive real-world deployment history cited."
+  },
+  "unresolved_questions": [
+    "NDAA Section 848/889 compliance status for Nexys hardware and Range defense products",
+    "Blue UAS / Blue sUAS clearance status",
+    "Specific product SKUs available through Range defense subsidiary (flyrange.com)"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.exyn.com/industries/defense",
+      "reason": "Defense industry page may contain NDAA compliance claims, Blue UAS status, and defense-specific product information for the Range subsidiary.",
+      "expected_evidence": [
+        "ndaa",
+        "blue_uas",
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=capability",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.flyrange.com/",
+      "reason": "Range is a fully-owned Exyn defense subsidiary that may have NDAA/Blue UAS compliance claims and distinct defense product SKUs not captured in the main exyn.com crawl.",
+      "expected_evidence": [
+        "ndaa",
+        "blue_uas",
+        "products",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_out_of_scope",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 24,
+    "total_cost_usd": 0.6987492,
+    "created_at": "2026-05-03T14:58:12+00:00",
+    "extract_version": "0.1.0"
+  },
+  "tagline": "Modular LiDAR SLAM mapping payload (Nexys) and autonomous navigation software (ExynAI) for GPS-denied aerial and ground robotics. Production-ready subsystem for OEMs and integrators; NDAA and Blue UAS certification status unknown. Public evidence limited on defense-sector contracts or government program integration."
+}

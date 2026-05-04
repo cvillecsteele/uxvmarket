@@ -1,0 +1,396 @@
+{
+  "target_id": "echomav-technologies",
+  "run_id": "canonical",
+  "display_name": "EchoMAV Technologies",
+  "homepage_url": "https://echomav.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/echomav-technologies/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "airframes",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0103",
+            "line_start": 113,
+            "line_end": 113,
+            "url": "https://echomav.com/products/monark-uas",
+            "page_class": "product",
+            "snippet": "MONARK UAS - Modular Tactical Drone"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 87,
+            "line_end": 90,
+            "url": "https://echomav.com",
+            "page_class": "homepage",
+            "snippet": "MK1\n---\nCompact Powerhouse for Critical Aerial Ops\nThe MK1 delivers compact versatility in tight spaces or fast-moving ops \u2014 the trusted partner for mission-critical decisions."
+          }
+        ],
+        "notes": "MONARK UAS (quadrotor) and MK1 UAS (VTOL hybrid) are complete drone platforms designed, built, and sold by EchoMAV"
+      },
+      {
+        "category": "flight_and_vehicle_control",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0061",
+            "line_start": 101,
+            "line_end": 101,
+            "url": "https://echomav.com/products/echopilot-ai",
+            "page_class": "product",
+            "snippet": "EchoPilot AI"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0061",
+            "line_start": 169,
+            "line_end": 171,
+            "url": "https://echomav.com/products/echopilot-ai",
+            "page_class": "product",
+            "snippet": "Flight Management Unit (FMU) Details\n------------------------------------\nThe Flight Management Unit is based on the Pixhawk open-hardware standard. Specifications are below:"
+          }
+        ],
+        "notes": "EchoPilot AI is an FMU (Flight Management Unit) / autopilot with PX4/ArduPilot firmware, sold separately as a subsystem"
+      },
+      {
+        "category": "isr_payloads",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0070",
+            "line_start": 91,
+            "line_end": 91,
+            "url": "https://echomav.com/products/echotherm-module",
+            "page_class": "product",
+            "snippet": "EchoTherm Module"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0103",
+            "line_start": 149,
+            "line_end": 154,
+            "url": "https://echomav.com/products/monark-uas",
+            "page_class": "product",
+            "snippet": "### Cameras\n*   EchoMAV Fermion Dual EO/Thermal\n*   MIPI-CSI2\n*   USB 2/3\n*   EchoTherm 320\n*   FLIR\u2122 Boson 320/640"
+          }
+        ],
+        "notes": "EchoTherm Module is a radiometric thermal camera; MONARK also supports EO/thermal cameras as ISR payloads"
+      },
+      {
+        "category": "ground_segment",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0023",
+            "line_start": 77,
+            "line_end": 77,
+            "url": "https://echomav.com/collections/ground-control-kits",
+            "page_class": "capability",
+            "snippet": "Collection: Ground Control Kits/Components"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0023",
+            "line_start": 132,
+            "line_end": 133,
+            "url": "https://echomav.com/collections/ground-control-kits",
+            "page_class": "capability",
+            "snippet": "### [ROGUE Gamepad Controller](/products/rogue-gamepad-controller)\nSale price"
+          }
+        ],
+        "notes": "ROGUE Gamepad Controller, MONARK GCS Kit ROGUE, and MONARK GCS Kit KTAC sold as ground control kits"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Lubbock",
+      "state_or_province": "Texas",
+      "country": "United States",
+      "address": "6310 Genoa Ave Suite B"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0032",
+        "line_start": 83,
+        "line_end": 83,
+        "url": "https://echomav.com/pages/contact",
+        "page_class": "contact",
+        "snippet": "##### **6310 Genoa Ave Suite B, Lubbock, TX 79424**"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "oem",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 190,
+        "line_end": 190,
+        "url": "https://echomav.com",
+        "page_class": "homepage",
+        "snippet": "We build modular drones, American-made tech, and real-world-ready teams \u2014 with products proven in tactical conditions."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0040",
+        "line_start": 85,
+        "line_end": 85,
+        "url": "https://echomav.com/pages/technology",
+        "page_class": "capability",
+        "snippet": "-------------------------------"
+      }
+    ],
+    "notes": "EchoMAV designs and manufactures complete UAS platforms (MONARK, MK1) and also sells subsystems (EchoPilot AI FMU, EchoTherm camera) to UxV manufacturers and integrators"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "MONARK UAS",
+        "product_type": "modular tactical quadrotor UAV",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0103",
+            "line_start": 113,
+            "line_end": 113,
+            "url": "https://echomav.com/products/monark-uas",
+            "page_class": "product",
+            "snippet": "MONARK UAS - Modular Tactical Drone"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MK1 UAS",
+        "product_type": "hybrid VTOL UAV",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 87,
+            "line_end": 90,
+            "url": "https://echomav.com",
+            "page_class": "homepage",
+            "snippet": "MK1\n---\nCompact Powerhouse for Critical Aerial Ops\nThe MK1 delivers compact versatility in tight spaces or fast-moving ops \u2014 the trusted partner for mission-critical decisions."
+          }
+        ],
+        "notes": "Up to 8 hours hybrid flight, 100-mile communications; MK1 product page (/pages/mk-1) was skipped in crawl"
+      },
+      {
+        "name": "EchoPilot AI",
+        "product_type": "flight management unit (FMU) with NVIDIA Jetson AI compute",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0061",
+            "line_start": 101,
+            "line_end": 101,
+            "url": "https://echomav.com/products/echopilot-ai",
+            "page_class": "product",
+            "snippet": "EchoPilot AI"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "EchoTherm Module",
+        "product_type": "thermal camera module for unmanned systems",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0070",
+            "line_start": 91,
+            "line_end": 91,
+            "url": "https://echomav.com/products/echotherm-module",
+            "page_class": "product",
+            "snippet": "EchoTherm Module"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SBX Autopilot Assembly",
+        "product_type": "autopilot assembly with compute module and MONARK software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0051",
+            "line_start": 82,
+            "line_end": 82,
+            "url": "https://echomav.com/products/autopilot-sbx-autopilot-assembly-w-compute-module-and-monark-software-loadout",
+            "page_class": "news",
+            "snippet": "Autopilot (SBX) Autopilot assembly w/compute module and MONARK Software Loadout"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ROGUE Gamepad Controller",
+        "product_type": "ground control station gamepad",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0023",
+            "line_start": 132,
+            "line_end": 133,
+            "url": "https://echomav.com/collections/ground-control-kits",
+            "page_class": "capability",
+            "snippet": "### [ROGUE Gamepad Controller](/products/rogue-gamepad-controller)\nSale price"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Sit(X) TAK service",
+        "product_type": "TAK networking service subscription (ATAK/WinTAK/iTAK)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0122",
+            "line_start": 82,
+            "line_end": 82,
+            "url": "https://echomav.com/products/sitx-tak-service",
+            "page_class": "product",
+            "snippet": "Sit(X) TAK service"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Additional products include MHS Series, Herelink Radio, Microhard Radio, Kutta KTAC 2.0, battery systems, carrier boards, and MONARK spare parts."
+  },
+  "ndaa": {
+    "value": "yes",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0061",
+        "line_start": 229,
+        "line_end": 230,
+        "url": "https://echomav.com/products/echopilot-ai",
+        "page_class": "product",
+        "snippet": "NDAA Certification\n*   2025 EchoMAV EchoPilot AI NDAA certification documentation can be downloaded\u00a0[here](https://echomav.com/wp-content/uploads/2020/03/EchoMAV-EchoPilot-NDAA-Certification-2025.pdf)."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0061",
+        "line_start": 269,
+        "line_end": 269,
+        "url": "https://echomav.com/products/echopilot-ai",
+        "page_class": "product",
+        "snippet": "*   The EchoPilot AI hardware is NDAA Compliant. For Blue UAS certification, we recommend using the TAA compliant Xavier NX (Taiwan COO) or Orin NX (USA COO) in conjunction with the EchoPilot AI."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0070",
+        "line_start": 199,
+        "line_end": 200,
+        "url": "https://echomav.com/products/echotherm-module",
+        "page_class": "product",
+        "snippet": "Is the EchoTherm NDAA Compliant? +\nYes! The EchoTherm is designed and manufactured in the USA."
+      }
+    ],
+    "notes": "EchoPilot AI has explicit 2025 NDAA certification documentation. EchoTherm explicitly NDAA compliant. MONARK built with NDAA-compliant electronics."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0061",
+        "line_start": 269,
+        "line_end": 269,
+        "url": "https://echomav.com/products/echopilot-ai",
+        "page_class": "product",
+        "snippet": "*   The EchoPilot AI hardware is NDAA Compliant. For Blue UAS certification, we recommend using the TAA compliant Xavier NX (Taiwan COO) or Orin NX (USA COO) in conjunction with the EchoPilot AI."
+      }
+    ],
+    "notes": "Site recommends TAA-compliant Jetson modules for Blue UAS certification use-cases but does not claim EchoMAV products are on the DIU Blue UAS Cleared List."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 229,
+        "line_end": 229,
+        "url": "https://echomav.com",
+        "page_class": "homepage",
+        "snippet": "Lead time for products is typically 6-8 weeks from when an order is placed."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0070",
+        "line_start": 94,
+        "line_end": 95,
+        "url": "https://echomav.com/products/echotherm-module",
+        "page_class": "product",
+        "snippet": "Sale price\n$1,495.00"
+      }
+    ],
+    "notes": "Products have published prices and 6-8 week lead times; stock levels displayed on product pages"
+  },
+  "unresolved_questions": [
+    "MK1 UAS full specifications and pricing not available (product page skipped in crawl)",
+    "Whether any EchoMAV complete platform is on the DIU Blue UAS Cleared List"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://echomav.com/pages/mk-1",
+      "reason": "MK1 VTOL UAS product page \u2014 would confirm full specifications, pricing, and production readiness for the MK1 platform, a primary product mentioned throughout the site",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=capability",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Manufactures MONARK and MK1 tactical UAS airframes, plus EchoPilot AI flight control and thermal imaging modules for military and ISR applications. NDAA-compliant, production-ready, Lubbock-based. Blue UAS certification status unknown. Website emphasizes field modularity and operator-centric design; limited public technical detail on airframe specs, payload capacity, or fielded program lineage.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 18,
+    "total_cost_usd": 0.63598,
+    "created_at": "2026-05-04T01:59:25+00:00",
+    "extract_version": "0.1.0"
+  }
+}

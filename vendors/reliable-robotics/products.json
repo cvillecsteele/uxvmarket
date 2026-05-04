@@ -1,0 +1,51 @@
+{
+  "target_id": "reliable-robotics",
+  "run_id": "canonical",
+  "display_name": "Reliable Robotics",
+  "homepage_url": "https://reliable.co/",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/reliable-robotics/website",
+  "products": [],
+  "unresolved_questions": [
+    "The homepage at reliable.co returned only 17 characters of text ('Reliable Robotics') \u2014 the page appears to be a JavaScript-rendered SPA or redirect that the HTTP-fetch strategy could not capture. No product, capability, or company pages were fetched. Reliable Robotics is categorised as flight_vehicle_control but no specific products can be identified from this corpus."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://reliable.co/technology",
+      "reason": "Likely product/technology page describing their autonomous aviation system; HTTP-fetch missed all sub-pages because the homepage JS was not executed.",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "ndaa"
+      ],
+      "source_hint": null,
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://reliable.co/solutions",
+      "reason": "Probable solutions/products page describing their autonomy stack for aircraft.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": null,
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://reliable.co/about",
+      "reason": "About page to confirm headquarters and company role.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": null,
+      "in_corpus_index": false
+    }
+  ],
+  "status": "needs_more_fetches",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 6,
+    "total_cost_usd": 0.059531600000000004,
+    "created_at": "2026-05-04T05:41:41+00:00",
+    "extract_version": "0.1.0"
+  }
+}

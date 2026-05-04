@@ -1,0 +1,254 @@
+{
+  "target_id": "uav-engines-ltd",
+  "run_id": "canonical",
+  "display_name": "UAV Engines Ltd",
+  "homepage_url": "https://www.uavenginesltd.co.uk",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/uav-engines-ltd/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0017",
+            "line_start": 13,
+            "line_end": 13,
+            "url": "https://uavenginesltd.co.uk/products",
+            "page_class": "product",
+            "snippet": "The UEL range of lightweight gasoline \u2013 fuelled Wankel-type rotary engines covers 20-120bhp (15-90kw)."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 17,
+            "line_end": 17,
+            "url": "https://uavenginesltd.co.uk/",
+            "page_class": "homepage",
+            "snippet": "Engines for various size tactical UAV\u2019s, target drones and single mission platforms."
+          }
+        ],
+        "notes": "Wankel-type rotary gasoline engines (20\u2013120 BHP) specifically designed for tactical UAVs, target drones, and single-mission platforms."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": null,
+      "state_or_province": "Staffordshire",
+      "country": "United Kingdom",
+      "address": null
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0027",
+        "line_start": 12,
+        "line_end": 12,
+        "url": "https://uavenginesltd.co.uk/terms-and-conditions/gdpr-policy",
+        "page_class": "company",
+        "snippet": "This policy pertains to this website by **UAV Engines Limited**, a company headquartered in Staffordshire, UK. This includes www.uavenginesltd.co.uk additional UAV Engines websites, and digital assets produced and or managed websites (together, the \u201cSite\u201d)."
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0017",
+        "line_start": 12,
+        "line_end": 13,
+        "url": "https://uavenginesltd.co.uk/products",
+        "page_class": "product",
+        "snippet": "ENGINES FOR VARIOUS SIZE TACTICAL UAVS, TARGET DRONES AND SINGLE MISSION PLATFORMS\nThe UEL range of lightweight gasoline \u2013 fuelled Wankel-type rotary engines covers 20-120bhp (15-90kw)."
+      }
+    ],
+    "notes": "Manufactures and sells Wankel rotary engines that are integrated into UAV platforms by airframe OEMs; also offers engine integration application services."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "AR731 \u2013 38 BHP",
+        "product_type": "Wankel rotary UAV target engine, air cooled, 38 BHP",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0020",
+            "line_start": 10,
+            "line_end": 13,
+            "url": "https://uavenginesltd.co.uk/products/ar731-38-bhp",
+            "page_class": "product",
+            "snippet": "**AR731 \u2013 38 BHP**\n---------------------\nUAV TARGET ENGINE\nThe AR731 has the highest power-to-weight ratio of any rotary engine in the world. It has been specifically designed and developed to be the ultimate engine for small target drones and short-life UAV\u2019s. TBO is 10 to 50 hours depending on duty cycle."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AR741 \u2013 38 BHP",
+        "product_type": "Wankel rotary UAV engine, air cooled, 38 BHP",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0017",
+            "line_start": 23,
+            "line_end": 24,
+            "url": "https://uavenginesltd.co.uk/products",
+            "page_class": "product",
+            "snippet": "[![](https://uavenginesltd.co.uk/wp-content/uploads/2019/02/ar741.jpg)](https://uavenginesltd.co.uk/products/ar741-38-bhp/)\n#### AR741 \u2013 38 BHP"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AR682 \u2013 75 BHP",
+        "product_type": "Wankel rotary UAV engine, 75 BHP at 6000 rpm",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0018",
+            "line_start": 10,
+            "line_end": 12,
+            "url": "https://uavenginesltd.co.uk/products/ar682-75-bhp",
+            "page_class": "product",
+            "snippet": "**AR682 \u2013 75 BHP**\n------------------\nROTARY ENGINE FOR UAVS"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AR682R \u2013 95 BHP",
+        "product_type": "Wankel rotary UAV engine, 95 BHP",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0017",
+            "line_start": 27,
+            "line_end": 28,
+            "url": "https://uavenginesltd.co.uk/products",
+            "page_class": "product",
+            "snippet": "[![](https://uavenginesltd.co.uk/wp-content/uploads/2019/02/ar682r-thumb.jpg)](https://uavenginesltd.co.uk/products/ar682r-95-bhp/)\n#### AR682R \u2013 95 BHP"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AR801 \u2013 50 BHP",
+        "product_type": "Wankel rotary UAV engine, 50 BHP",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0017",
+            "line_start": 29,
+            "line_end": 30,
+            "url": "https://uavenginesltd.co.uk/products",
+            "page_class": "product",
+            "snippet": "[![](https://uavenginesltd.co.uk/wp-content/uploads/2019/03/ar801-r-thumb.jpg)](https://uavenginesltd.co.uk/products/ar801-50-bhp/)\n#### AR801 \u2013 50 BHP"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AR801R \u2013 51 BHP",
+        "product_type": "Wankel rotary UAV engine, water cooled, 51 BHP",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0017",
+            "line_start": 31,
+            "line_end": 32,
+            "url": "https://uavenginesltd.co.uk/products",
+            "page_class": "product",
+            "snippet": "[![](https://uavenginesltd.co.uk/wp-content/uploads/2019/02/ar801r-thumb.jpg)](https://uavenginesltd.co.uk/products/ar801r-51-bhp/)\n#### AR801R \u2013 51 BHP"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0024",
+        "line_start": 18,
+        "line_end": 18,
+        "url": "https://uavenginesltd.co.uk/quality",
+        "page_class": "compliance",
+        "snippet": "We are approved by Lloyds Register to the highest level of certification appropriate to our position in the UK Aerospace manufacturing sector."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 23,
+        "line_end": 23,
+        "url": "https://uavenginesltd.co.uk/",
+        "page_class": "homepage",
+        "snippet": "Leading power solutions for small & medium sized UAVs in over 25 countries worldwide."
+      }
+    ],
+    "notes": "AS9100D / ISO 9001 certified; selling engines in over 25 countries for 30 years; published price list available on request."
+  },
+  "unresolved_questions": [
+    "Physical street address / city not disclosed on site \u2014 only Staffordshire county and country confirmed.",
+    "Development page (https://www.uavenginesltd.co.uk/development/) was not fetched; may contain additional product or capability details."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.uavenginesltd.co.uk/development/",
+      "reason": "Development page listed in site nav but not fetched; would clarify R&D vs production posture and potentially reveal additional product lines or capabilities.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "readiness"
+      ],
+      "source_hint": "guessed from site navigation menu on homepage",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "complete",
+  "tagline": "Manufactures lightweight Wankel rotary engines (38\u201395 BHP) for tactical UAVs, target drones, and surveillance platforms; six production SKUs with FAR-33 endurance certification on select models. UK-based, ISO 9001/AS9100 accredited, 30 years operational. NDAA and Blue UAS certification status unknown; minimal public evidence of US prime integration or current-generation platform adoption.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 16,
+    "total_cost_usd": 0.2515869,
+    "created_at": "2026-05-04T07:14:19+00:00",
+    "extract_version": "0.1.0"
+  }
+}

@@ -1,0 +1,500 @@
+{
+  "target_id": "ruffy-controls-inc",
+  "run_id": "canonical",
+  "display_name": "Ruffy Controls, Inc.",
+  "homepage_url": "https://www.ruffycontrols.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/ruffy-controls-inc/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "ground_segment",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0003",
+            "line_start": 57,
+            "line_end": 57,
+            "url": "https://ruffycontrols.com/unmanned-vehicles",
+            "page_class": "other",
+            "snippet": "Ruffy Controls specializes in precision control solutions that enhance UAV performance, ensuring high reliability, responsiveness, and durability in mission-critical environments. Our advanced control components\u2014joysticks, switches, and customized input devices\u2014play a vital role in military UAV operations, optimizing remote piloting, navigation, and payload management."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0003",
+            "line_start": 65,
+            "line_end": 65,
+            "url": "https://ruffycontrols.com/unmanned-vehicles",
+            "page_class": "other",
+            "snippet": "**Discover how Ruffy Controls can optimize your UAV operations. Common Controllers for UAV Applications:**"
+          }
+        ],
+        "notes": "Joystick, switch, and controller components designed for UAV/UGV remote controllers and ground control operator interfaces. TSD and TS3 series explicitly marketed for uncrewed systems."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Carlsbad",
+      "state_or_province": "California",
+      "country": "United States",
+      "address": "3258 Grey Hawk Ct., Carlsbad, CA 92010"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 408,
+        "line_end": 409,
+        "url": "https://ruffycontrols.com/",
+        "page_class": "homepage",
+        "snippet": "3258 GREY HAWK CT.\nCARLSBAD, CA 92010"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0003",
+        "line_start": 57,
+        "line_end": 58,
+        "url": "https://ruffycontrols.com/unmanned-vehicles",
+        "page_class": "other",
+        "snippet": "Ruffy Controls specializes in precision control solutions that enhance UAV performance, ensuring high reliability, responsiveness, and durability in mission-critical environments. Our advanced control components\u2014joysticks, switches, and customized input devices\u2014play a vital role in military UAV operations, optimizing remote piloting, navigation, and payload management.\nRuffy Controls\u2019 advanced input solutions are engineered to withstand the demanding conditions of military UAV operations."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0003",
+        "line_start": 121,
+        "line_end": 121,
+        "url": "https://ruffycontrols.com/unmanned-vehicles",
+        "page_class": "other",
+        "snippet": "Ruffy Controls develops and manufactures joystick and switch products for a large variety of industries including agricultural, defense, communications, industrial automation, transportation, and many more. Put the power and precision of Ruffy Controls at your fingertips."
+      }
+    ],
+    "notes": "Manufactures joystick and switch components that go into UAV remote controllers and GCS operator interfaces. Not a full GCS or platform OEM."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "TSD Series",
+        "product_type": "micro Hall effect joystick for uncrewed systems",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 320,
+            "line_end": 321,
+            "url": "https://ruffycontrols.com/",
+            "page_class": "homepage",
+            "snippet": "#### TSD Series\nMicro Hall effect joystick with threaded shaft"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 323,
+            "line_end": 323,
+            "url": "https://ruffycontrols.com/",
+            "page_class": "homepage",
+            "snippet": "The TSD Series is a micro, multi-axis Hall effect joystick purposely designed for uncrewed systems and robotics applications. Available with choice of M3 male or M2 or M3 female threading, the TSD Series allows users to easily adapt their own handle. The TSD Series is rated for over 2.5M actuations\u2026"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TS3 Series",
+        "product_type": "micro 2-axis Hall effect joystick for UAV/UGV remotes",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 336,
+            "line_end": 337,
+            "url": "https://ruffycontrols.com/",
+            "page_class": "homepage",
+            "snippet": "#### TS3 Series\nMicro 2 Axis Hall Effect Joystick"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MSA Series",
+        "product_type": "micro single axis Hall effect thumb controller",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0003",
+            "line_start": 66,
+            "line_end": 66,
+            "url": "https://ruffycontrols.com/unmanned-vehicles",
+            "page_class": "other",
+            "snippet": "### [MSA SERIES](https://ruffycontrols.com/product/msa-series/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TS2 Series",
+        "product_type": "micro 2-axis Hall effect joystick",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 221,
+            "line_end": 222,
+            "url": "https://ruffycontrols.com/",
+            "page_class": "homepage",
+            "snippet": "#### TS2 Series\nMicro 2 Axis Hall Effect Joystick"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TS1 Series",
+        "product_type": "miniature 2-axis Hall effect joystick",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 213,
+            "line_end": 214,
+            "url": "https://ruffycontrols.com/",
+            "page_class": "homepage",
+            "snippet": "#### TS1 Series\nMiniature 2 Axis Hall Effect Joystick"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MHS Series",
+        "product_type": "micro 4-way/8-way switching joystick",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 328,
+            "line_end": 329,
+            "url": "https://ruffycontrols.com/",
+            "page_class": "homepage",
+            "snippet": "#### MHS Series\nMicro switching joystick"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HS1 Series",
+        "product_type": "miniature hat switch",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 264,
+            "line_end": 265,
+            "url": "https://ruffycontrols.com/",
+            "page_class": "homepage",
+            "snippet": "#### HS1 Series\nMiniature Hat Switch"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SAT Series",
+        "product_type": "miniature single axis Hall effect thumb controller",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 237,
+            "line_end": 238,
+            "url": "https://ruffycontrols.com/",
+            "page_class": "homepage",
+            "snippet": "#### SAT Series\nMiniature Single Axis Hall Effect Thumb Controller"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HE1 Series",
+        "product_type": "fingertip precision multi-axis Hall effect joystick",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 205,
+            "line_end": 206,
+            "url": "https://ruffycontrols.com/",
+            "page_class": "homepage",
+            "snippet": "#### HE1 Series\nFingertip Precision Multi-Axis Hall Effect Joystick"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HE2 Series",
+        "product_type": "ruggedized fully sealed multi-axis Hall effect joystick",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 280,
+            "line_end": 281,
+            "url": "https://ruffycontrols.com/",
+            "page_class": "homepage",
+            "snippet": "#### HE2 Series\nRuggedized, Fully Sealed Multi-Axis Hall Effect Joystick"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HE3 Series",
+        "product_type": "redundant sensor fully sealed multi-axis Hall effect joystick",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 288,
+            "line_end": 289,
+            "url": "https://ruffycontrols.com/",
+            "page_class": "homepage",
+            "snippet": "#### HE3 Series\nRedundant Sensor, Fully Sealed Multi-Axis Hall Effect Joystick"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HED Series",
+        "product_type": "Hall effect USB desktop controller",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 173,
+            "line_end": 174,
+            "url": "https://ruffycontrols.com/",
+            "page_class": "homepage",
+            "snippet": "#### HED Series\nPremier Hall Effect USB Desktop Controller"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MFD Series",
+        "product_type": "multi-function USB desktop controller",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 296,
+            "line_end": 297,
+            "url": "https://ruffycontrols.com/",
+            "page_class": "homepage",
+            "snippet": "#### MFD Series\nMulti-Function USB Desktop Controller"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SG Series",
+        "product_type": "2-axis redundant sensor Hall effect hand grip joystick",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 312,
+            "line_end": 313,
+            "url": "https://ruffycontrols.com/",
+            "page_class": "homepage",
+            "snippet": "#### SG Series\n2 Axis, Redundant Sensor Hall Effect Hand Grip Joystick"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "FNR Series",
+        "product_type": "miniature single axis 3-position Hall effect switch",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 272,
+            "line_end": 273,
+            "url": "https://ruffycontrols.com/",
+            "page_class": "homepage",
+            "snippet": "#### FNR Series\nMiniature Single Axis 3-Position Hall Effect Switch"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "RT1 Series",
+        "product_type": "sealed toggle switch",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 245,
+            "line_end": 246,
+            "url": "https://ruffycontrols.com/",
+            "page_class": "homepage",
+            "snippet": "#### RT1 Series\nSealed Toggle Switch"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HCK Series",
+        "product_type": "precision Hall effect control knob",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 181,
+            "line_end": 182,
+            "url": "https://ruffycontrols.com/",
+            "page_class": "homepage",
+            "snippet": "#### HCK Series\nPrecision Hall Effect Control Knob"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SS1 Series",
+        "product_type": "miniature Hall effect switch stick",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 229,
+            "line_end": 230,
+            "url": "https://ruffycontrols.com/",
+            "page_class": "homepage",
+            "snippet": "#### SS1 Series\nMiniature Hall Effect Switch Stick"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SS2 Series",
+        "product_type": "fingertip limit switch joystick",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 256,
+            "line_end": 257,
+            "url": "https://ruffycontrols.com/",
+            "page_class": "homepage",
+            "snippet": "#### SS2 Series\nFingertip Limit Switch Joystick"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Full product line of joysticks, switches, and controllers. TSD and TS3 series explicitly designed for uncrewed systems. Many other series used in UAV/UGV remote controls."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 7,
+        "line_end": 7,
+        "url": "https://www.ruffycontrols.com",
+        "page_class": "homepage",
+        "snippet": "[![Made In The USA](http://ruffycontrols.com/wp-content/uploads/2016/04/Untitled-21.png)](http://ruffycontrols.com/wp-content/uploads/2016/04/Untitled-21.png)"
+      }
+    ],
+    "notes": "Site prominently displays 'Made In The USA' badge but makes no explicit NDAA Section 848/889 compliance claim."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0003",
+        "line_start": 125,
+        "line_end": 125,
+        "url": "https://ruffycontrols.com/unmanned-vehicles",
+        "page_class": "other",
+        "snippet": "### SHORTEST LEAD TIMES IN THE INDUSTRY!"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0003",
+        "line_start": 143,
+        "line_end": 143,
+        "url": "https://ruffycontrols.com/unmanned-vehicles",
+        "page_class": "other",
+        "snippet": "*   Built, and Stocked In-House!"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0003",
+        "line_start": 69,
+        "line_end": 69,
+        "url": "https://ruffycontrols.com/unmanned-vehicles",
+        "page_class": "other",
+        "snippet": "From $65.00"
+      }
+    ],
+    "notes": "Catalog products with listed prices (TSD from $92.75, MSA from $65.00), online ordering, stocked in-house, shortest lead times claim."
+  },
+  "unresolved_questions": [
+    "NDAA Section 848/889 compliance status not explicitly stated despite Made in USA positioning",
+    "Blue UAS cleared list status unknown"
+  ],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Manufactures Hall effect and mechanical joysticks, switches, and desktop controllers for unmanned-systems ground control stations in production; specializes in miniaturized, sealed, and redundant-sensor designs for UAV/UGV remote controls. NDAA compliance status and any prime contracts are not publicly disclosed; public evidence limited to product datasheets and made-in-USA claims.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 5,
+    "total_cost_usd": 0.34192925,
+    "created_at": "2026-05-04T05:54:59+00:00",
+    "extract_version": "0.1.0"
+  }
+}

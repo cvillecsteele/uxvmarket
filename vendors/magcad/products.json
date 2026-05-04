@@ -1,0 +1,207 @@
+{
+  "target_id": "magcad",
+  "run_id": "canonical",
+  "display_name": "MAGCAD",
+  "homepage_url": "https://www.magcad.de",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/magcad/website",
+  "products": [
+    {
+      "name": "StriekAir VTOL Propeller",
+      "category": "propulsion_mechanical",
+      "descriptor": "Custom lightweight folding propeller for VTOL and high-altitude UAV",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 49,
+          "line_end": 49,
+          "url": "https://www.magcad.de",
+          "page_class": "homepage",
+          "snippet": "**StriekAir VTOL Propeller** \u2013 Custom lightweight folding propeller optimized for VTOL and high-altitude UAV operations."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Flowcopter Propulsion System",
+      "category": "propulsion_mechanical",
+      "descriptor": "High-efficiency propulsion system development for next-generation UAV platform",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 48,
+          "line_end": 48,
+          "url": "https://www.magcad.de",
+          "page_class": "homepage",
+          "snippet": "**Flowcopter** \u2013 High-efficiency propulsion system development for a next-generation UAV platform."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "High-Speed Propeller Development",
+      "category": "propulsion_mechanical",
+      "descriptor": "Aerodynamic optimization engineering service for high-performance UAV propulsion",
+      "granularity": "category",
+      "readiness": "engineering_services",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 50,
+          "line_end": 50,
+          "url": "https://www.magcad.de",
+          "page_class": "homepage",
+          "snippet": "**High-Speed Propeller Development** \u2013 Advanced aerodynamic optimization for high-performance propulsion systems."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Custom UAV Carbon Propeller Development",
+      "category": "propulsion_mechanical",
+      "descriptor": "Custom carbon composite propeller design and manufacturing service for UAV",
+      "granularity": "category",
+      "readiness": "engineering_services",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 25,
+          "line_end": 25,
+          "url": "https://www.magcad.de",
+          "page_class": "homepage",
+          "snippet": "Combining aerodynamic design, composite engineering and precision manufacturing, **_MAGCAD_** develops lightweight and efficient propulsion solutions tailored to demanding UAV missions. The company supports drone manufacturers and aerospace innovators with custom carbon propeller development and propulsion system optimization."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 71,
+          "line_end": 71,
+          "url": "https://www.magcad.de",
+          "page_class": "homepage",
+          "snippet": "MADE IN GERMANY"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "UAV Propulsion System Optimization",
+      "category": "propulsion_mechanical",
+      "descriptor": "Engineering service for optimizing UAV propulsion system performance",
+      "granularity": "category",
+      "readiness": "engineering_services",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 25,
+          "line_end": 25,
+          "url": "https://www.magcad.de",
+          "page_class": "homepage",
+          "snippet": "Combining aerodynamic design, composite engineering and precision manufacturing, **_MAGCAD_** develops lightweight and efficient propulsion solutions tailored to demanding UAV missions. The company supports drone manufacturers and aerospace innovators with custom carbon propeller development and propulsion system optimization."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0005",
+          "line_start": 28,
+          "line_end": 28,
+          "url": "https://www.magcad.de/about",
+          "page_class": "company",
+          "snippet": "\u2013 propulsion system optimization \u2013"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Aerodynamic Simulation for Propeller Design",
+      "category": "propulsion_mechanical",
+      "descriptor": "Aerodynamic simulation service for UAV and VTOL propeller design validation",
+      "granularity": "category",
+      "readiness": "engineering_services",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0005",
+          "line_start": 29,
+          "line_end": 29,
+          "url": "https://www.magcad.de/about",
+          "page_class": "company",
+          "snippet": "\u2013 aerodynamic simulation \u2013"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 33,
+          "line_end": 33,
+          "url": "https://www.magcad.de",
+          "page_class": "homepage",
+          "snippet": "Based on your requirements, we develop initial concepts and validate them using our expertise and advanced simulation methods."
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "The services page (magcad.de/services) and projects page (magcad.de/projects) were both skipped due to class budget exhaustion; they likely contain fuller descriptions of individual service offerings and additional named project examples beyond the three project cards visible on the homepage.",
+    "StriekAir VTOL Propeller and Flowcopter Propulsion System appear as project cards on the homepage but lack detail pages \u2014 readiness and maturity cannot be confirmed without the /projects page.",
+    "No NDAA or Blue UAS compliance language found anywhere in the fetched corpus; all products default to unknown for those fields."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.magcad.de/services",
+      "reason": "Services page would enumerate MAGCAD's full offering of engineering services including propeller design, simulation, and optimization \u2014 directly supports products and readiness classification.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.magcad.de/projects",
+      "reason": "Projects page would list all named project examples (e.g. StriekAir, Flowcopter, High-Speed) with descriptions, enabling better readiness and granularity classification.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.magcad.de/references",
+      "reason": "References page may name additional customer-delivered products or systems that could qualify as production-readiness evidence.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 12,
+    "total_cost_usd": 0.21194299999999996,
+    "created_at": "2026-05-04T04:07:50+00:00",
+    "extract_version": "0.1.0"
+  }
+}

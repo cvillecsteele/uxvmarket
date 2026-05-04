@@ -1,0 +1,349 @@
+{
+  "target_id": "ouster",
+  "run_id": "canonical",
+  "display_name": "Ouster",
+  "homepage_url": "https://ouster.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/ouster/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://ouster.com",
+            "page_class": "homepage",
+            "snippet": "Digital Lidar Sensors for Automation, Drones & Robotics | Ouster | Ouster"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 204,
+            "line_end": 204,
+            "url": "https://ouster.com",
+            "page_class": "homepage",
+            "snippet": "### Robotics and Drones"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0047",
+            "line_start": 14,
+            "line_end": 14,
+            "url": "https://ouster.com/products/hardware/os0-lidar-sensor",
+            "page_class": "product",
+            "snippet": "An ultra-wide field-of-view sensor designed for short-range, high-precision perception in robotics, warehouse automation, and industrial applications."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0047",
+            "line_start": 50,
+            "line_end": 50,
+            "url": "https://ouster.com/products/hardware/os0-lidar-sensor",
+            "page_class": "product",
+            "snippet": "*   Ultra light weight for extended drone flight times and dual return mode for improved mapping capabilities, even in environments with small branches and wires."
+          }
+        ],
+        "notes": "Lidar sensors (OS0, OS1, OS2, OSDome) explicitly marketed for Robotics and Drones verticals; OS0 page notes 'ultra light weight for extended drone flight times'"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "San Francisco",
+      "state_or_province": "California",
+      "country": "United States",
+      "address": "350 Treat Avenue San Francisco, CA 94110"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0017",
+        "line_start": 19,
+        "line_end": 19,
+        "url": "https://ouster.com/privacy-policy",
+        "page_class": "company",
+        "snippet": "Ouster, Inc. is a corporation established in Delaware with a registered office at 350\u00a0Treat Avenue San Francisco, CA 94110, United States. Ouster has affiliates located\u00a0in Europe, North America and Asia."
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0005",
+        "line_start": 1,
+        "line_end": 1,
+        "url": "https://ouster.com",
+        "page_class": "homepage",
+        "snippet": "Digital Lidar Sensors for Automation, Drones & Robotics | Ouster | Ouster"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0014",
+        "line_start": 17,
+        "line_end": 17,
+        "url": "https://ouster.com/company/about-us",
+        "page_class": "company",
+        "snippet": "Ouster\u2019s high-resolution lidar sensors for long, mid, and short range applications \u2014 and our accompanying digital ecosystem \u2014 are enabling worldwide automation. Powering the next industrial revolution and a better future for the global workforce, our technology is in good hands with you."
+      }
+    ],
+    "notes": "Ouster sells lidar sensor components (OS0/1/2/OSDome) that drone builders integrate; drones are a named vertical but Ouster does not manufacture complete platforms"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "OS0",
+        "product_type": "ultra-wide FOV lidar sensor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0047",
+            "line_start": 12,
+            "line_end": 14,
+            "url": "https://ouster.com/products/hardware/os0-lidar-sensor",
+            "page_class": "product",
+            "snippet": "OS0\n===\nAn ultra-wide field-of-view sensor designed for short-range, high-precision perception in robotics, warehouse automation, and industrial applications."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "OS1",
+        "product_type": "mid-range lidar sensor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0009",
+            "line_start": 41,
+            "line_end": 44,
+            "url": "https://ouster.com/products/hardware/os1-lidar-sensor",
+            "page_class": "product",
+            "snippet": "Up to 5.2m points per second with 128 channels\nof vertical resolution.\n------------------------------------------------------------------------\nEngineered for industrial, robotics, mapping, security, crowd analytics, traffic, and automotive applications."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "OS2",
+        "product_type": "long-range lidar sensor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0010",
+            "line_start": 12,
+            "line_end": 14,
+            "url": "https://ouster.com/products/hardware/os2-lidar-sensor",
+            "page_class": "product",
+            "snippet": "OS2\n===\nA long-range sensor delivering high-resolution perception for large-scale infrastructure monitoring, security, and autonomous mobility."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "OSDome",
+        "product_type": "hemispherical lidar sensor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0011",
+            "line_start": 13,
+            "line_end": 14,
+            "url": "https://ouster.com/products/hardware/osdome-lidar-sensor",
+            "page_class": "product",
+            "snippet": "======\nOS Dome \u2013 A hemispherical lidar sensor with a 180\u00ba field of view, ideal for security, smart infrastructure, and autonomous system awareness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "VLP-16",
+        "product_type": "mid-range lidar sensor (legacy Velodyne)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0007",
+            "line_start": 12,
+            "line_end": 14,
+            "url": "https://ouster.com/products/hardware/vlp-16",
+            "page_class": "product",
+            "snippet": "VLP 16\n======\nMid-range lidar sensor"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "VLS-128",
+        "product_type": "long-range lidar sensor (legacy Velodyne)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0008",
+            "line_start": 12,
+            "line_end": 14,
+            "url": "https://ouster.com/products/hardware/vls-128",
+            "page_class": "product",
+            "snippet": "VLS 128\n=======\nLong-range lidar sensor"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Ouster Gemini",
+        "product_type": "AI lidar perception software for security/traffic/crowd analytics",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0006",
+            "line_start": 11,
+            "line_end": 13,
+            "url": "https://ouster.com/products/software/gemini",
+            "page_class": "product",
+            "snippet": "Gemini\n======\nPeople, object detection and classification for actionable, intuitive, and tailorable insights in traffic, security, crowd, and retail management and analytics."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Ouster BlueCity",
+        "product_type": "smart city traffic analytics software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0297",
+            "line_start": 11,
+            "line_end": 13,
+            "url": "https://ouster.com/products/software/bluecity",
+            "page_class": "product",
+            "snippet": "BlueCity\n========\nA turnkey solution for smart cities, traffic operations, planning and safety."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Ouster Studio",
+        "product_type": "lidar data visualization and management software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0300",
+            "line_start": 11,
+            "line_end": 13,
+            "url": "https://ouster.com/products/software/ouster-studio",
+            "page_class": "product",
+            "snippet": "Ouster Studio\n=============\nDigital Lidar Visualizer and Data Management."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": "yes",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0005",
+        "line_start": 278,
+        "line_end": 278,
+        "url": "https://ouster.com",
+        "page_class": "homepage",
+        "snippet": "*   [NDAA compliant OS1](/insights/blog/ouster-os1-lidar-dod-approved-for-unmanned-aircraft-and-secure-government-operations)"
+      }
+    ],
+    "notes": "Footer sitewide link explicitly labelled 'NDAA compliant OS1'; links to a blog post (skipped_class_budget) titled 'ouster-os1-lidar-dod-approved-for-unmanned-aircraft-and-secure-government-operations'. Claim applies to OS1 specifically; coverage for other SKUs not confirmed in available pages."
+  },
+  "blue_uas": {
+    "value": "yes",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0007",
+        "line_start": 13,
+        "line_end": 13,
+        "url": "https://ouster.com/insights/blog/ouster-os1-lidar-dod-approved-for-unmanned-aircraft-and-secure-government-operations",
+        "page_class": "compliance",
+        "snippet": "DoD-Approved OS1 Lidar for Unmanned Aircraft and Secure Government Operations"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0007",
+        "line_start": 29,
+        "line_end": 29,
+        "url": "https://ouster.com/insights/blog/ouster-os1-lidar-dod-approved-for-unmanned-aircraft-and-secure-government-operations",
+        "page_class": "compliance",
+        "snippet": "Ouster designs its digital lidar sensors with strong supply chain security in mind. The OS1's Blue UAS approval officially confirms this security and positions Ouster as a trusted supplier of 3D Lidar sensors for U.S. defense applications."
+      }
+    ],
+    "notes": "OS1 is explicitly on the Blue UAS Framework managed by DIU; first high-resolution 3D lidar sensor included."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0005",
+        "line_start": 267,
+        "line_end": 269,
+        "url": "https://ouster.com",
+        "page_class": "homepage",
+        "snippet": "Build faster with high-volume manufacturing and worldwide fulfillment.\n----------------------------------------------------------------------\nWe offer a scalable outsourced manufacturing and operate local fulfillment in three major global regions, ensuring efficient order fulfillment, faster lead times, and lower total costs for all our lidar sensors production."
+      }
+    ],
+    "notes": "Catalog SKUs with published specs and datasheets; site advertises high-volume manufacturing and worldwide regional fulfillment"
+  },
+  "unresolved_questions": [
+    "Which specific NDAA section(s) (848 vs 889) the OS1 is certified under, and whether OS0/OS2/OSDome carry the same certification"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://ouster.com/insights/blog/ouster-os1-lidar-dod-approved-for-unmanned-aircraft-and-secure-government-operations",
+      "reason": "Would confirm specific NDAA section (848/889) compliance details for OS1 and clarify whether other SKUs (OS0, OS2, OSDome) share the same compliance status",
+      "expected_evidence": [
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=compliance",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 18,
+    "total_cost_usd": 0.4936439,
+    "created_at": "2026-05-03T15:19:29+00:00",
+    "extract_version": "0.1.0"
+  },
+  "tagline": "Digital lidar sensor and perception-software supplier. Produces OS series (OS0\u2013OS2, OSDome) scanning lidars and VLP/VLS spinning variants ranging 35\u2013400m; OS1 NDAA-compliant. Recently acquired Stereolabs stereo/mono cameras and ZED Box edge compute. Blue UAS status unclear. Software stack includes Gemini (perception middleware), BlueCity (smart-city traffic), and Studio (point-cloud visualization). Public evidence supports production readiness across drone, robotics, security, and ITS verticals; limited visible DoD program attribution."
+}

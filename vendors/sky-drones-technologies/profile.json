@@ -1,0 +1,130 @@
+{
+  "target_id": "sky-drones-technologies",
+  "run_id": "canonical",
+  "display_name": "Sky-Drones Technologies",
+  "homepage_url": "https://sky-drones.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/sky-drones-technologies/website",
+  "products_categories": {
+    "items": [],
+    "confidence": "low",
+    "status": "unknown",
+    "notes": null
+  },
+  "headquarters": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "products": {
+    "items": [],
+    "confidence": "low",
+    "status": "unknown",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "unresolved_questions": [
+    "Homepage fetch timed out \u2014 no corpus content available. All fields unresolvable without a successful crawl.",
+    "Need to identify products (SmartAP autopilot, AIRLink, SmartAP GCS are known product lines from external knowledge but cannot be cited without corpus evidence)",
+    "Headquarters location unknown",
+    "NDAA/Blue UAS compliance status unknown",
+    "Supply chain role unclear without product evidence"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://sky-drones.com",
+      "reason": "Homepage fetch timed out during mirror run; retry needed to bootstrap all profile fields",
+      "expected_evidence": [
+        "products_categories",
+        "headquarters",
+        "drone_supply_chain_role",
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=failed, page_class=homepage",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://sky-drones.com/airlink",
+      "reason": "AIRLink is a known drone computer/autopilot product \u2014 would establish product line, category (flight_and_vehicle_control or communications), and readiness",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role",
+        "readiness"
+      ],
+      "source_hint": "guessed",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://sky-drones.com/smartap-autopilot",
+      "reason": "SmartAP autopilot product page would confirm subsystem supplier role and flight_and_vehicle_control category",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role",
+        "readiness"
+      ],
+      "source_hint": "guessed",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://sky-drones.com/about",
+      "reason": "Would provide headquarters/company information and background on the vendor",
+      "expected_evidence": [
+        "headquarters",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "guessed",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://sky-drones.com/contact",
+      "reason": "Would provide headquarters address/location",
+      "expected_evidence": [
+        "headquarters"
+      ],
+      "source_hint": "guessed",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "needs_more_fetches",
+  "tagline": "Manufacturer of unmanned systems; specific product lines, NDAA compliance status, and operational readiness level not publicly documented. Limited open-source evidence available to assess capabilities or current program involvement.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 4,
+    "total_cost_usd": 0.0588997,
+    "created_at": "2026-05-04T06:17:55+00:00",
+    "extract_version": "0.1.0"
+  }
+}

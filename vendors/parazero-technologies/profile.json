@@ -1,0 +1,392 @@
+{
+  "target_id": "parazero-technologies",
+  "run_id": "canonical",
+  "display_name": "ParaZero Technologies",
+  "homepage_url": "https://parazero.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/parazero-technologies/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "electronic_warfare",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0110",
+            "line_start": 50,
+            "line_end": 50,
+            "url": "https://parazero.com/defendair-multi-layered-cuas-solution",
+            "page_class": "capability",
+            "snippet": "DefendAir is the standard for layered counter-UAS interception, designed to neutralize hostile drones across multiple engagement ranges. Using ParaZero\u2019s patented net-based interception technology, DefendAir provides a controlled, non-explosive method for intercepting aerial threats while minimizing collateral damage."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0092",
+            "line_start": 51,
+            "line_end": 52,
+            "url": "https://parazero.com/about",
+            "page_class": "company",
+            "snippet": "Today, ParaZero applies this proven expertise **fully toward defense and national security missions**.\nBuilding on its safety heritage, ParaZero develops **mission-ready defense solutions** for contested and sensitive environments \u2014 including non-explosive counter-UAS systems (Anti-Drone), aerial interception, and advanced protection solutions designed to operate where traditional defenses are ineffective or impractical."
+          }
+        ],
+        "notes": "DefendAir is a multi-layered counter-UAS net-launcher system for kinetic interception of hostile drones. Company now explicitly positions itself as a defense/C-UAS company."
+      },
+      {
+        "category": "recovery_systems",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0177",
+            "line_start": 54,
+            "line_end": 55,
+            "url": "https://parazero.com/solutions/safeair-350",
+            "page_class": "capability",
+            "snippet": "The SafeAir 350 is an aerial safety system designed to support platforms up to 350 kg.\nSafeAir 350 combined with ParaZero\u2019s SmartAir Pro uses independent sensors to continuously monitor the aerial platform\u2019s flight data for anomalies. When critical failures are detected, a series of autonomous safety measures are triggered:"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0092",
+            "line_start": 50,
+            "line_end": 50,
+            "url": "https://parazero.com/about",
+            "page_class": "company",
+            "snippet": "The company\u2019s origins in 2014 are rooted in **[SafeAir](https://parazero.com/solutions/safeair-parachute-recovery-system/)\u2122**, its patented parachute-based drone safety system. SafeAir established ParaZero as a global leader in autonomous, life-critical aerial safety and laid the technological foundation for real-time monitoring, autonomous decision-making, and fail-safe aerial protection."
+          }
+        ],
+        "notes": "SafeAir product family: patented autonomous parachute recovery systems for drones across multiple weight classes (4.5 kg to 350 kg). Company's original core product line."
+      },
+      {
+        "category": "flight_termination",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0177",
+            "line_start": 77,
+            "line_end": 78,
+            "url": "https://parazero.com/solutions/safeair-350",
+            "page_class": "capability",
+            "snippet": "The system cuts power to the rotors to prevent cord entanglement and reduce the risk of laceration injuries\n### Black Box"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0177",
+            "line_start": 93,
+            "line_end": 93,
+            "url": "https://parazero.com/solutions/safeair-350",
+            "page_class": "capability",
+            "snippet": "*   Flight termination system (FTS)"
+          }
+        ],
+        "notes": "SafeAir explicitly includes an independent Flight Termination System (FTS) that cuts power to rotors during emergency."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Kfar Saba",
+      "state_or_province": null,
+      "country": "Israel",
+      "address": "1 HaTachana St., Kfar Saba, Israel 4453001"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0105",
+        "line_start": 59,
+        "line_end": 62,
+        "url": "https://parazero.com/contact",
+        "page_class": "contact",
+        "snippet": "1st HaTachana St.\nKfar Saba\nIsrael\n4453001"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0092",
+        "line_start": 53,
+        "line_end": 53,
+        "url": "https://parazero.com/about",
+        "page_class": "company",
+        "snippet": "Headquartered in Israel, ParaZero works with defense forces, government agencies, and allied partners worldwide to deliver **operationally proven, cost-effective, and aerial defense technologies** \u2014 designed for modern battlefields and increasingly complex urban airspace."
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0177",
+        "line_start": 46,
+        "line_end": 46,
+        "url": "https://parazero.com/solutions/safeair-350",
+        "page_class": "capability",
+        "snippet": "Equip your aerial platforms with the **#1 Drone Safety System**\u00a0on the market."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0092",
+        "line_start": 49,
+        "line_end": 49,
+        "url": "https://parazero.com/about",
+        "page_class": "company",
+        "snippet": "ParaZero is a mission-driven aerospace and defense technology company focused on protecting forces, assets, and airspace against emerging unmanned threats."
+      }
+    ],
+    "notes": "Makes parachute recovery subsystems (SafeAir family) that attach to third-party drone platforms, plus DefendAir C-UAS and DropAir airdrop systems. Does not manufacture complete UAS platforms."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "DefendAir",
+        "product_type": "Multi-layered counter-UAS net-launcher system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0110",
+            "line_start": 50,
+            "line_end": 50,
+            "url": "https://parazero.com/defendair-multi-layered-cuas-solution",
+            "page_class": "capability",
+            "snippet": "DefendAir is the standard for layered counter-UAS interception, designed to neutralize hostile drones across multiple engagement ranges. Using ParaZero\u2019s patented net-based interception technology, DefendAir provides a controlled, non-explosive method for intercepting aerial threats while minimizing collateral damage."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DropAir",
+        "product_type": "Precision aerial delivery/airdrop system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0167",
+            "line_start": 53,
+            "line_end": 55,
+            "url": "https://parazero.com/solutions",
+            "page_class": "capability",
+            "snippet": "### DropAir\n### Adaptable Precision Air Drop System\n[Learn More>>](https://parazero.com/dropair-precision-airdrop-system/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SafeAir 350",
+        "product_type": "Autonomous parachute recovery system (MTOW up to 350 kg)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0177",
+            "line_start": 44,
+            "line_end": 46,
+            "url": "https://parazero.com/solutions/safeair-350",
+            "page_class": "capability",
+            "snippet": "**SafeAir 350**\n---------------\nEquip your aerial platforms with the **#1 Drone Safety System**\u00a0on the market."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SafeAir M-200 Pro",
+        "product_type": "Autonomous parachute recovery system (ASTM F3322-18 compliant)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 178,
+            "line_end": 180,
+            "url": "https://parazero.com",
+            "page_class": "homepage",
+            "snippet": "    *   [SafeAir M-200 Pro (ASTM F3322-18 Compliant)](https://parazero.com/solutions/safeair-m-200-pro/)\n    *   [SafeAir M-200 Pro](https://parazero.com/solutions/safeair-m-200-astm-compliant-1/)\n    *   [SafeAir M-200 Pro (ASTM F3322-18 compliant)](https://parazero.com/solutions/safeair-m-200-astm-compliant/)"
+          }
+        ],
+        "notes": "ASTM F3322-18 compliant variant for medium-class drones"
+      },
+      {
+        "name": "SafeAir M-300 Pro",
+        "product_type": "Autonomous parachute recovery system for DJI Matrice 300-class",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 183,
+            "line_end": 183,
+            "url": "https://parazero.com",
+            "page_class": "homepage",
+            "snippet": "    *   [SafeAir M-300 Pro (ASTM F3322-18 compliant)](https://parazero.com/solutions/safeair-m-300-pro/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SafeAir M-600 Pro \u2013 Autonomous",
+        "product_type": "Autonomous parachute recovery system for DJI Matrice 600",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 184,
+            "line_end": 185,
+            "url": "https://parazero.com",
+            "page_class": "homepage",
+            "snippet": "    *   [SafeAir M-600](https://parazero.com/solutions/safeair-for-dji-matrice-600-1/)\n    *   [SafeAir M-600 Pro \u2013 Autonomous](https://parazero.com/solutions/safeair-m-600-pro-autonomous/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SafeAir M-30",
+        "product_type": "Parachute recovery system for DJI Matrice 30",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 190,
+            "line_end": 190,
+            "url": "https://parazero.com",
+            "page_class": "homepage",
+            "snippet": "    *   [SafeAir M-30](https://parazero.com/solutions/safeair-m-30/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SafeAir M4",
+        "product_type": "Parachute recovery system for DJI M4",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 191,
+            "line_end": 191,
+            "url": "https://parazero.com",
+            "page_class": "homepage",
+            "snippet": "    *   [SafeAir M4](https://parazero.com/solutions/m4/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SafeAir Mavic 3",
+        "product_type": "Parachute recovery system for DJI Mavic 3",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 193,
+            "line_end": 193,
+            "url": "https://parazero.com",
+            "page_class": "homepage",
+            "snippet": "    *   [SafeAir Mavic 3](https://parazero.com/solutions/safeair-mavic-3/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SafeAir Anzu Raptor",
+        "product_type": "Parachute recovery system for Anzu Raptor drone",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 192,
+            "line_end": 192,
+            "url": "https://parazero.com",
+            "page_class": "homepage",
+            "snippet": "    *   [SafeAir Anzu Raptor](https://parazero.com/solutions/safeair-anzu-raptor/)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA Section 848/889 mentions found anywhere in the corpus. Company is Israeli-headquartered."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS or Blue sUAS mentions found in the corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0177",
+        "line_start": 66,
+        "line_end": 67,
+        "url": "https://parazero.com/solutions/safeair-350",
+        "page_class": "capability",
+        "snippet": "Safeguard your flight operations with world-leading drone safety technology\n[BUY SafeAir](https://parazero.com/shop/)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0014",
+        "line_start": 45,
+        "line_end": 45,
+        "url": "https://parazero.com/2024/09/13/parazero-received-first-order-for-its-advanced-counter-unmanned-aerial-vehicles-solution-from-global-leading-tier-1-defense-company",
+        "page_class": "news",
+        "snippet": "ParaZero Received First Order for its Advanced Counter Unmanned Aerial Vehicles Solution from Global Leading Tier-1 Defense Company"
+      }
+    ],
+    "notes": "SafeAir family available via online shop with catalog SKUs and ASTM-certified products; received first order for DefendAir C-UAS from Tier-1 defense company in Sept 2024."
+  },
+  "unresolved_questions": [
+    "DropAir product page not in corpus \u2014 delivery specs and pricing not confirmed",
+    "SafeAir M-350 Pro page skipped \u2014 unclear if distinct from SafeAir 350"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://parazero.com/dropair-precision-airdrop-system/",
+      "reason": "DropAir product page not fetched; would confirm product specs, supply chain role, and readiness posture for this product line",
+      "expected_evidence": [
+        "products",
+        "drone_supply_chain_role",
+        "readiness"
+      ],
+      "source_hint": "guessed from homepage and solutions nav links",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "complete",
+  "tagline": "Israeli aerospace defense firm producing counter-UAS systems (DefendAir net-launching platform), precision airdrop (DropAir), and parachute recovery systems for commercial and military UAS. Public record sparse on US defense contracts, NDAA compliance status, or Blue UAS certification; company is Nasdaq-listed and claims production readiness across SafeAir product line for DJI platforms.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 17,
+    "total_cost_usd": 0.6466129,
+    "created_at": "2026-05-04T05:06:53+00:00",
+    "extract_version": "0.1.0"
+  }
+}

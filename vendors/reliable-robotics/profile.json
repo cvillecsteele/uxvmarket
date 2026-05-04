@@ -1,0 +1,113 @@
+{
+  "target_id": "reliable-robotics",
+  "run_id": "canonical",
+  "display_name": "Reliable Robotics",
+  "homepage_url": "https://reliable.co/",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/reliable-robotics/website",
+  "products_categories": {
+    "items": [],
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "notes": "Homepage is a JavaScript SPA; HTTP-only fetch yielded only the page title ('Reliable Robotics'). Raw HTML meta description mentions 'advanced automation' for aircraft but no product/capability pages were crawled."
+  },
+  "headquarters": {
+    "value": null,
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "evidence": [],
+    "notes": "No about/contact pages were fetched. Site is a JS SPA with no discovered links."
+  },
+  "drone_supply_chain_role": {
+    "value": null,
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "evidence": [],
+    "notes": "Insufficient corpus content to determine role. Meta description references aircraft automation but no substantive pages were crawled."
+  },
+  "products": {
+    "items": [],
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "notes": "No product or capability pages in corpus."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA-related signal in the corpus."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS signal in the corpus."
+  },
+  "readiness": {
+    "value": null,
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "evidence": [],
+    "notes": "No production/maturity information available from corpus."
+  },
+  "unresolved_questions": [
+    "What products does Reliable Robotics make (autonomous flight system for Cessna Caravan?)",
+    "Where is the company headquartered?",
+    "Is the primary role subsystem_supplier (autopilot/automation) or software_platform?",
+    "NDAA and Blue UAS compliance status unknown."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://reliable.co/technology",
+      "reason": "Would reveal the core product line (autonomous flight automation system) and supply chain role \u2014 key to products_categories and drone_supply_chain_role.",
+      "expected_evidence": [
+        "products_categories",
+        "drone_supply_chain_role",
+        "products",
+        "readiness"
+      ],
+      "source_hint": "guessed \u2014 SPA with no discovered links",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://reliable.co/about",
+      "reason": "Company/about page typically discloses headquarters city and state, founding story, and operational posture.",
+      "expected_evidence": [
+        "headquarters",
+        "drone_supply_chain_role",
+        "readiness"
+      ],
+      "source_hint": "guessed \u2014 SPA with no discovered links",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://reliable.co/contact",
+      "reason": "Contact page likely shows physical address / headquarters location.",
+      "expected_evidence": [
+        "headquarters"
+      ],
+      "source_hint": "guessed \u2014 SPA with no discovered links",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://reliable.co/safety",
+      "reason": "Safety/compliance page may reference NDAA or regulatory approvals (FAA certification, Blue UAS).",
+      "expected_evidence": [
+        "ndaa",
+        "blue_uas"
+      ],
+      "source_hint": "guessed \u2014 SPA with no discovered links",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "needs_more_fetches",
+  "tagline": "Autonomous flight-control systems and software for crewed and uncrewed aircraft. Company profile remains opaque in public sources\u2014no confirmed products, NDAA compliance status, certifications, or active defense contracts identified. Further vendor documentation required for supply-chain assessment.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 7,
+    "total_cost_usd": 0.11702299999999999,
+    "created_at": "2026-05-04T05:40:49+00:00",
+    "extract_version": "0.1.0"
+  }
+}

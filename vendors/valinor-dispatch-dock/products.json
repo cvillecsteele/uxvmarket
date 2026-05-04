@@ -1,0 +1,45 @@
+{
+  "target_id": "valinor-dispatch-dock",
+  "run_id": "canonical",
+  "display_name": "Valinor (Dispatch Dock)",
+  "homepage_url": "https://valinordefense.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/valinor-dispatch-dock/website",
+  "products": [],
+  "unresolved_questions": [
+    "Dispatch Dock: cannot classify \u2014 the mirror failed entirely (net::ERR_TUNNEL_CONNECTION_FAILED on https://valinordefense.com; 0 pages fetched, 0 text chars). No corpus evidence exists to cite name, descriptor, category, readiness, NDAA, or Blue UAS status. Requires a successful fetch of valinordefense.com before any product entry can be created."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://valinordefense.com",
+      "reason": "Homepage fetch failed (tunnel error); no corpus content exists at all. Need at least the homepage to identify the Dispatch Dock product and classify it.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=failed, page_class=homepage, resource_id=resource-0001",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://valinordefense.com/dispatch-dock",
+      "reason": "Likely dedicated product page for the Dispatch Dock SKU \u2014 would provide name, descriptor, readiness, and compliance evidence.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "guessed from product name Dispatch Dock and vendor display name",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "needs_more_fetches",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 4,
+    "total_cost_usd": 0.05672555,
+    "created_at": "2026-05-04T07:28:14+00:00",
+    "extract_version": "0.1.0"
+  }
+}

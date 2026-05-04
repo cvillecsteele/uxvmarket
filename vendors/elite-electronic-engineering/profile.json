@@ -1,0 +1,216 @@
+{
+  "target_id": "elite-electronic-engineering",
+  "run_id": "canonical",
+  "display_name": "Elite Electronic Engineering",
+  "homepage_url": "https://www.elitetest.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/elite-electronic-engineering/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "test_and_measurement",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 141,
+            "line_end": 143,
+            "url": "https://www.elitetest.com",
+            "page_class": "homepage",
+            "snippet": "Complete EMC, Environmental Stress, Photometric, and Wireless Testing Services\n==============================================================================\nFounded in 1954, Elite Electronic Engineering, Inc. is a full-service electromagnetic compatibility/interference (EMC/EMI), environmental stress, and photometric testing laboratory. We are the premier test provider for the automotive, aerospace, military, heavy equipment, electronics, and telecommunications industries."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 169,
+            "line_end": 170,
+            "url": "https://www.elitetest.com",
+            "page_class": "homepage",
+            "snippet": "#### EMI/EMC Testing\nThe industry\u2019s most capable Electromagnetic Compatibility (EMC) testing services."
+          }
+        ],
+        "notes": "Full-service EMC/EMI, environmental stress, photometric, and wireless testing laboratory serving aerospace, military, and commercial industries. Tests to MIL-STD-461, MIL-STD-810, RTCA DO-160, and other standards."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Downers Grove",
+      "state_or_province": "Illinois",
+      "country": "United States",
+      "address": "1516 Centre Circle, Downers Grove, IL 60515"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 224,
+        "line_end": 225,
+        "url": "https://www.elitetest.com",
+        "page_class": "homepage",
+        "snippet": "[1516 Centre Circle\nDowners Grove, IL 60515](https://goo.gl/maps/6jmYwcwk1SLkynDY7)"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "broad_industrial",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 143,
+        "line_end": 143,
+        "url": "https://www.elitetest.com",
+        "page_class": "homepage",
+        "snippet": "Founded in 1954, Elite Electronic Engineering, Inc. is a full-service electromagnetic compatibility/interference (EMC/EMI), environmental stress, and photometric testing laboratory. We are the premier test provider for the automotive, aerospace, military, heavy equipment, electronics, and telecommunications industries."
+      }
+    ],
+    "notes": "Testing lab serving aerospace, military, and automotive industries. No UXV-specific product line found. Provides compliance testing services relevant to UXV component manufacturers (MIL-STD-461, MIL-STD-810, DO-160) but no explicit drone/UAS focus."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "MIL-STD-461 Testing",
+        "product_type": "Military EMC testing service",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0015",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://www.elitetest.com/testing-services/emi-emc-testing/mil-std-461-testing",
+            "page_class": "other",
+            "snippet": "MIL STD 461 Testing | Elite Electronic Engineering, Inc."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "RTCA DO-160 Testing",
+        "product_type": "Commercial aviation EMC & environmental testing service",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0018",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://www.elitetest.com/testing-services/emi-emc-testing/rtca-do-160-testing",
+            "page_class": "other",
+            "snippet": "RTCA DO-160 | DO 160 Testing | Elite Electronic Engineering"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MIL-STD-810 Testing",
+        "product_type": "Military environmental stress testing service",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0065",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://www.elitetest.com/testing-services/environmental-stress-testing/mil-std-810-testing",
+            "page_class": "other",
+            "snippet": "MIL STD 810 Test Lab | Elite Electronic Engineering, Inc."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Vibration & Shock Testing",
+        "product_type": "Environmental stress testing service",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0019",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://www.elitetest.com/testing-services/environmental-stress-testing/vibration-and-shock-testing",
+            "page_class": "other",
+            "snippet": "Vibration Testing | Vibration Testing Services | Elite Electronics Engineering, Inc."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HALT/HASS Testing",
+        "product_type": "Highly Accelerated Life/Stress testing service",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0367",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://www.elitetest.com/testing-services/environmental-stress-testing/halt-hass",
+            "page_class": "other",
+            "snippet": "HALT Testing | HASS Testing | Elite Electronic Engineering, Inc."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 157,
+        "line_end": 157,
+        "url": "https://www.elitetest.com",
+        "page_class": "homepage",
+        "snippet": "Elite Electronic Engineering, Inc. is recognized worldwide as a leader in product qualification and compliance testing services. Few laboratories offer our combination of expert engineers, state-of-the-art equipment, and cutting-edge test facilities all in one location."
+      }
+    ],
+    "notes": "Actively operating test lab with scheduled services, certified staff, and accreditations (A2LA, NVLAP, ISO 17025). Offers quote-based scheduling."
+  },
+  "unresolved_questions": [
+    "No drone/UAV-specific mentions found anywhere in corpus \u2014 vendor serves aerospace and military but no explicit UXV product focus",
+    "NDAA and Blue UAS compliance not disclosed anywhere on the site"
+  ],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Independent test lab offering EMI/EMC, environmental stress, and regulatory compliance testing across military (MIL-STD-461, MIL-STD-810), aviation (RTCA DO-160), and commercial standards. NDAA and Blue UAS status unknown. Production-ready; serves aerospace, defense, automotive, and wireless sectors. Public evidence limited on unmanned-systems work specifically.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 17,
+    "total_cost_usd": 0.37695354999999997,
+    "created_at": "2026-05-04T02:07:26+00:00",
+    "extract_version": "0.1.0"
+  }
+}

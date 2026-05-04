@@ -1,0 +1,284 @@
+{
+  "target_id": "evolito",
+  "run_id": "canonical",
+  "display_name": "Evolito",
+  "homepage_url": "https://www.evolito.aero",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/evolito/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 77,
+            "line_end": 78,
+            "url": "https://evolito.aero/",
+            "page_class": "homepage",
+            "snippet": "### Axial flux motors\n##### Our motors are the smallest and lightest in their performance class, yielding high torque and power density."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0012",
+            "line_start": 49,
+            "line_end": 49,
+            "url": "https://evolito.aero/aerospace-solutions",
+            "page_class": "capability",
+            "snippet": "With revolutionary, lightweight, high torque dense and rate manufactured axial-flux electric motors at its core, Evolito provides **all key subsystems for an electric aircraft** optimised for safety and profitability:"
+          }
+        ],
+        "notes": "Axial flux electric motors are Evolito's core product, marketed specifically for aerospace (eVTOL, UAV, helicopter, fixed-wing)"
+      },
+      {
+        "category": "propulsion_electronics",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 81,
+            "line_end": 82,
+            "url": "https://evolito.aero/",
+            "page_class": "homepage",
+            "snippet": "### Motor controls & power inversion\n##### Evolito\u2019s motor controls (MCUs), have been designed for seamless integration with our axial flux electric motors."
+          }
+        ],
+        "notes": "Motor Controller Units (MCUs/inverters) designed for integration with their axial flux motors"
+      },
+      {
+        "category": "power_systems",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 85,
+            "line_end": 86,
+            "url": "https://evolito.aero/",
+            "page_class": "homepage",
+            "snippet": "### Battery management\n##### Evolito\u2019s battery solutions have been designed to allow for rapid development of an Expandable Energy Storage System."
+          }
+        ],
+        "notes": "Battery solutions and battery management systems; product page failed to mirror"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Bicester",
+      "state_or_province": "Oxfordshire",
+      "country": "United Kingdom",
+      "address": "Unit 1-3 Charles Shouler Way"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0020",
+        "line_start": 47,
+        "line_end": 51,
+        "url": "https://evolito.aero/contact-us",
+        "page_class": "contact",
+        "snippet": "Evolito Ltd\nUnit 1-3 Charles Shouler Way\nBicester\nOX25 2DS\nUnited Kingdom"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0012",
+        "line_start": 64,
+        "line_end": 64,
+        "url": "https://evolito.aero/aerospace-solutions",
+        "page_class": "capability",
+        "snippet": "Our holistic approach enables considered trade-offs between each component to achieve the most efficient, redundant and cost-effective solution for all aircraft architectures: eVTOLS, UAM, UAV, helicopters or General Aviation applications."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0006",
+        "line_start": 54,
+        "line_end": 54,
+        "url": "https://evolito.aero/about",
+        "page_class": "company",
+        "snippet": "Thanks to our experience supplying the series production automotive market, we know that power density, quality and scalability are critical to the success of original equipment manufacturers (OEMs)."
+      }
+    ],
+    "notes": "Supplies individual electric motors, MCUs, and battery management systems to OEMs (Vertical Aerospace, Electra, Flying Whales); does not manufacture complete aircraft"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Axial Flux Motors",
+        "product_type": "aerospace electric motor product line",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 77,
+            "line_end": 79,
+            "url": "https://evolito.aero/",
+            "page_class": "homepage",
+            "snippet": "### Axial flux motors\n##### Our motors are the smallest and lightest in their performance class, yielding high torque and power density.\n[Find out about our motors](https://evolito.aero/axial-flux-motors/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "D1500",
+        "product_type": "axial flux electric motor (aerospace)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0043",
+            "line_start": 53,
+            "line_end": 53,
+            "url": "https://evolito.aero/evolito-partners-with-cranfield-aerospace",
+            "page_class": "news",
+            "snippet": "> \u201cIt\u2019s great to see our D1500 motors, powering Cranfield\u2019s hydrogen electric aircraft. The Fresson project is the 1st application showcasing our high redundancy 2\u00d73 phase direct drive electric motor, providing industry leading torque & efficiency to the aircraft."
+          }
+        ],
+        "notes": "Specific model; 2\u00d73 phase direct drive; used in Cranfield Aerospace Project Fresson hydrogen aircraft"
+      },
+      {
+        "name": "Motor Controller Units (MCUs)",
+        "product_type": "motor controller / power inverter",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 81,
+            "line_end": 83,
+            "url": "https://evolito.aero/",
+            "page_class": "homepage",
+            "snippet": "### Motor controls & power inversion\n##### Evolito\u2019s motor controls (MCUs), have been designed for seamless integration with our axial flux electric motors.\n[Discover our MCUs](https://evolito.aero/motor-controller-units/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Battery Solutions",
+        "product_type": "battery management / expandable energy storage system",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 85,
+            "line_end": 86,
+            "url": "https://evolito.aero/",
+            "page_class": "homepage",
+            "snippet": "### Battery management\n##### Evolito\u2019s battery solutions have been designed to allow for rapid development of an Expandable Energy Storage System."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Product pages (axial-flux-motors, motor-controller-units) were skipped; specific SKUs may exist beyond what was captured"
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 71,
+        "line_end": 71,
+        "url": "https://evolito.aero/",
+        "page_class": "homepage",
+        "snippet": "Discover how Evolito reduces six of the seven wastes of lean manufacturing through automated efficient stock control for scalable production."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0033",
+        "line_start": 48,
+        "line_end": 48,
+        "url": "https://evolito.aero/evolito-awarded-bsis-as-en-9100",
+        "page_class": "news",
+        "snippet": "This achievement reflects our ongoing commitment to delivering safe, reliable, and high-quality products as we continue to scale our operations and support the future of electric flight."
+      }
+    ],
+    "notes": "AS/EN 9100 certified for manufacture of electric motors and motor control units; supplying named OEM partners (Vertical Aerospace, Electra, Flying Whales); references scalable production and lean manufacturing"
+  },
+  "unresolved_questions": [
+    "Specific SKU names and specs for the axial flux motor product line beyond D1500",
+    "Battery Solutions product details (page failed to mirror)",
+    "No NDAA or Blue UAS compliance signal found"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://evolito.aero/axial-flux-motors",
+      "reason": "Product page for the primary axial flux motor product line \u2014 would confirm specific model designations, power/torque specs, and full SKU list beyond the D1500",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://evolito.aero/motor-controller-units",
+      "reason": "Product page for Motor Controller Units \u2014 would confirm specific model names, specs, and whether MCUs are sold standalone or only bundled with motors",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://evolito.aero/battery-solutions",
+      "reason": "Battery Solutions product page \u2014 failed to mirror; would confirm product name, specs, and whether battery management is a standalone sellable product",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=failed",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "UK-based axial flux electric motor and controller supplier for eVTOL and hybrid-electric aircraft, in production with D1500 direct-drive motors and integrated MCUs. Selected by Vertical Aerospace (Valo), Electra (EL9), and Flying Whales; collaborating with Airbus on electric taxi systems. AS9100 certified. NDAA and Blue UAS status unknown; public evidence on US supply-chain eligibility and specific program roadmap is sparse.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 18,
+    "total_cost_usd": 0.39832325,
+    "created_at": "2026-05-04T02:31:17+00:00",
+    "extract_version": "0.1.0"
+  }
+}

@@ -1,0 +1,305 @@
+{
+  "target_id": "mgm-compro",
+  "run_id": "canonical",
+  "display_name": "MGM COMPRO",
+  "homepage_url": "https://mgm-compro.com/",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/mgm-compro/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "propulsion_electronics",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 63,
+            "line_end": 64,
+            "url": "https://mgm-compro.com/",
+            "page_class": "homepage",
+            "snippet": "Controllers | Inverters | ESCs\nHBCi controllers represent state of the art technology of electric motor control. Ranging from 3kW up to 400kW, manufactured in many variants to completely fulfill customers\u2019 needs. Unrivalled performance, power density ratio, redundancy, safety and innovation."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0071",
+            "line_start": 88,
+            "line_end": 88,
+            "url": "https://mgm-compro.com/company",
+            "page_class": "company",
+            "snippet": "MGM COMPRO significantly increases the number of delivered electric propulsion powertrains (EPS and ESS) for industrial and defence UAVs and eVTOLS."
+          }
+        ],
+        "notes": "ESCs, inverters, motor controllers (HBCi series) are the core product line; sold for UAVs, eVTOLs, UGVs, and aviation"
+      },
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 69,
+            "line_end": 70,
+            "url": "https://mgm-compro.com/",
+            "page_class": "homepage",
+            "snippet": "Electric motors\nThe all new generation of MGM COMPRO electric motors (BLDC / PMSM) brings enhanced potential to electric applications. Based on the innovative topology of the motor magnetic field and winding design, we have achieved higher power density than ever before."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 75,
+            "line_end": 76,
+            "url": "https://mgm-compro.com/",
+            "page_class": "homepage",
+            "snippet": "Gearbox Systems\nGearbox systems for high performance in-runner electric motors offer functionality for the control of single action hydraulic const. speed propellers. Parallelly provides range of safety features incl. the overspeed protection and conventional control logic."
+          }
+        ],
+        "notes": "BLDC/PMSM electric motors and gearbox systems for aviation, UAV, and UGV applications"
+      },
+      {
+        "category": "power_systems",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 57,
+            "line_end": 58,
+            "url": "https://mgm-compro.com/",
+            "page_class": "homepage",
+            "snippet": "ESS | Batteries\nEnergy Storage Systems designed according to the customers\u2019 requirements with the most sophisticated technology focusing on the best use of energy, intelligent BMS, active & passive safety systems, effective mass production and certification."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 81,
+            "line_end": 82,
+            "url": "https://mgm-compro.com/",
+            "page_class": "homepage",
+            "snippet": "BMS | Battery Management Systems\nMGM COMPRO BMS systems provide unique care for cells and complex storage systems (ESS). Innovative methods determining residual cell energy, modularity, unique safety, redundancy and cutting-edge paramaters throughout the whole BMS family."
+          }
+        ],
+        "notes": "Energy Storage Systems (ESS/batteries), Battery Management Systems (BMS), and industrial chargers"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Zlin",
+      "state_or_province": null,
+      "country": "Czech Republic",
+      "address": "Ruzova 307, 76302 Zlin"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 253,
+        "line_end": 254,
+        "url": "https://mgm-compro.com/",
+        "page_class": "homepage",
+        "snippet": "Ruzova 307, 76302 Zlin,\nCzech Republic"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0071",
+        "line_start": 88,
+        "line_end": 88,
+        "url": "https://mgm-compro.com/company",
+        "page_class": "company",
+        "snippet": "MGM COMPRO significantly increases the number of delivered electric propulsion powertrains (EPS and ESS) for industrial and defence UAVs and eVTOLS."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0071",
+        "line_start": 46,
+        "line_end": 46,
+        "url": "https://mgm-compro.com/company",
+        "page_class": "company",
+        "snippet": "With a focus on various applications such as Electric Aircrafts, eVTOLs, Drones, UAVs, UGVs, UUVs, USVs, boats, military applications, jet-surfs & wake-boards and beyond, we are dedicated to making an impact globally. Our commitment is underscored by the deployment of unique testing/equipment, providing customers with exceptional data analysis and a complete spectrum of information."
+      }
+    ],
+    "notes": "Sells complete electric propulsion systems (EPS), energy storage systems (ESS), motor controllers (ESCs/inverters), and BMS to UAV/eVTOL/UGV OEMs; does not manufacture complete aircraft"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "EPS 200",
+        "product_type": "electric propulsion system (200kW)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0133",
+            "line_start": 59,
+            "line_end": 59,
+            "url": "https://mgm-compro.com/eps-propulsion-systems",
+            "page_class": "capability",
+            "snippet": "EPS 200"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "EPS 400",
+        "product_type": "electric propulsion system (400kW)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0133",
+            "line_start": 63,
+            "line_end": 63,
+            "url": "https://mgm-compro.com/eps-propulsion-systems",
+            "page_class": "capability",
+            "snippet": "EPS 400"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HBCi Controllers",
+        "product_type": "electronic speed controllers / motor inverters",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 64,
+            "line_end": 64,
+            "url": "https://mgm-compro.com/",
+            "page_class": "homepage",
+            "snippet": "HBCi controllers represent state of the art technology of electric motor control. Ranging from 3kW up to 400kW, manufactured in many variants to completely fulfill customers\u2019 needs. Unrivalled performance, power density ratio, redundancy, safety and innovation."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "BMS-4i",
+        "product_type": "battery management system (4-cell series)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0048",
+            "line_start": 26,
+            "line_end": 26,
+            "url": "https://mgm-compro.com/bms-battery-management-systems/bms-4i",
+            "page_class": "capability",
+            "snippet": "BMS-4i"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "BMS-8i",
+        "product_type": "battery management system (up to 64-cell series)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0049",
+            "line_start": 26,
+            "line_end": 26,
+            "url": "https://mgm-compro.com/bms-battery-management-systems/bms-8i",
+            "page_class": "capability",
+            "snippet": "BMS-8i"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Named SKUs confirmed from fetched product pages; additional ESC/inverter model variants and ESS battery models likely exist on skipped pages"
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA Section 848/889 claim or adjacent US compliance language found anywhere in corpus. Company is Czech-based."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS or Blue sUAS claim found anywhere in corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 169,
+        "line_end": 171,
+        "url": "https://mgm-compro.com/",
+        "page_class": "homepage",
+        "snippet": "### Standard\nproducts\nComplete range of our off-the-shelf types of electric motors, inverters / ESCs / speed controllers 3kW up to 400kW, BMSs, electronic contactors, chargers and more."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 225,
+        "line_end": 226,
+        "url": "https://mgm-compro.com/",
+        "page_class": "homepage",
+        "snippet": "![5000 satisfied B2B customers](data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=)\n5000+ satisfied B2B customers"
+      }
+    ],
+    "notes": "Site advertises off-the-shelf catalog products, 5000+ B2B customers, 50+ export countries, and in-house serial manufacturing. Also offers custom-built solutions as a secondary mode."
+  },
+  "unresolved_questions": [
+    "Named ESC/inverter variant SKUs beyond HBCi family not confirmed (controllers/inverters-escs page was skipped)",
+    "Specific ESS battery model names not confirmed (ess-batteries page was skipped)"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://mgm-compro.com/controllers-inverters-escs/",
+      "reason": "Would list specific HBCi controller SKUs and power ratings to enumerate full product line",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "guessed from homepage nav link",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://mgm-compro.com/ess-batteries/",
+      "reason": "Would list specific ESS battery model names/SKUs for the power_systems product list",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "guessed from homepage nav link",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "complete",
+  "tagline": "Czech Republic-based supplier of integrated electric propulsion subsystems: 200\u2013400 kW EPS units, BLDC/PMSM motors, HBCi motor controllers (3\u2013400 kW), battery management systems (BMS-4i through BMS-16Ai), and custom energy storage for aviation and UAV platforms. Production-ready across all lines; references include Airbus, Bell, NASA, and Siemens. NDAA and Blue UAS certification status unknown. Public evidence of US defense integration limited.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 12,
+    "total_cost_usd": 0.52266515,
+    "created_at": "2026-05-04T04:17:08+00:00",
+    "extract_version": "0.1.0"
+  }
+}

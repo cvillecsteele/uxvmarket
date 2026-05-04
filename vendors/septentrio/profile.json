@@ -1,0 +1,458 @@
+{
+  "target_id": "septentrio",
+  "run_id": "canonical",
+  "display_name": "Septentrio",
+  "homepage_url": "https://www.septentrio.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/septentrio/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 207,
+            "line_end": 207,
+            "url": "https://www.septentrio.com",
+            "page_class": "homepage",
+            "snippet": "Resilient, high-accuracy GNSS receivers and inertial systems for demanding industrial applications, known for anti-jamming and anti-spoofing excellence."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0038",
+            "line_start": 219,
+            "line_end": 219,
+            "url": "https://www.septentrio.com/en/company/news/septentrio-launches-its-next-gen-gnss/ins-product-line-asterx-i3",
+            "page_class": "company",
+            "snippet": "Septentrio designs and manufactures multi-frequency multi-constellation GPS/GNSS positioning technology for demanding applications. Reliable centimeter-level positioning enables machine automation improving efficiency and safety. Septentrio provides positioning solutions for industrial applications such as robotics, construction, survey and mapping, maritime, logistics and unmanned aerial vehicles (UAVs)."
+          }
+        ],
+        "notes": "GNSS receivers (modules, OEM boards, rugged enclosures) and GNSS/INS systems (with IMU) are the core product lines. 12 products explicitly tagged for UAV application."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Leuven",
+      "state_or_province": null,
+      "country": "Belgium",
+      "address": "Greenhill Campus, Interleuvenlaan 15i, 3001 Leuven, Belgium"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0041",
+        "line_start": 212,
+        "line_end": 217,
+        "url": "https://www.septentrio.com/en/contact",
+        "page_class": "contact",
+        "snippet": "EMEA (HQ)\n---------\n### Belgium\nGreenhill Campus\nInterleuvenlaan 15i\n3001 Leuven, Belgium"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0038",
+        "line_start": 220,
+        "line_end": 220,
+        "url": "https://www.septentrio.com/en/company/news/septentrio-launches-its-next-gen-gnss/ins-product-line-asterx-i3",
+        "page_class": "company",
+        "snippet": "Septentrio has its headquarters in Leuven, Belgium and has a world-wide presence with offices in Los Angeles, Shanghai, Seoul and Yokohama as well as numerous partners around the world. To learn more about Septentrio and its [products](https://www.septentrio.com/en/products), visit\u00a0[septentrio.com](https://mail.inxco.be/t/j-l-xlrjijt-jlkltjze-t/) ."
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0038",
+        "line_start": 219,
+        "line_end": 219,
+        "url": "https://www.septentrio.com/en/company/news/septentrio-launches-its-next-gen-gnss/ins-product-line-asterx-i3",
+        "page_class": "company",
+        "snippet": "Septentrio designs and manufactures multi-frequency multi-constellation GPS/GNSS positioning technology for demanding applications. Reliable centimeter-level positioning enables machine automation improving efficiency and safety. Septentrio provides positioning solutions for industrial applications such as robotics, construction, survey and mapping, maritime, logistics and unmanned aerial vehicles (UAVs)."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0039",
+        "line_start": 217,
+        "line_end": 217,
+        "url": "https://www.septentrio.com/en/company/news/septentrio-announces-today-addition-asterx-i-s-its-gnss/ins-product-portfolio",
+        "page_class": "company",
+        "snippet": "Designed around demanding requirements for size, weight, power consumption and temperature variation, the AsteRx-i S is ideal for various applications such as inspection with UAV's, UAS photogrammetry, automation, robotics and logistics."
+      }
+    ],
+    "notes": "Designs and manufactures GNSS receiver modules, OEM boards, and GNSS/INS sensors that integrate into drones (UAVs), autonomous vehicles, and robots. Sells components to drone OEMs and integrators, not complete drone platforms."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "mosaic-X5",
+        "product_type": "compact GNSS module receiver",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0006",
+            "line_start": 451,
+            "line_end": 452,
+            "url": "https://www.septentrio.com/en/products/gnss-receivers",
+            "page_class": "product",
+            "snippet": "![Septentrio-mosaic-X5-GPS-GNSS-Module-receiver](/sites/default/files/styles/product_picture_overview/public/products/product/Septentrio-mosaic-X5-GNSS-receiver-module_0.png?itok=BmnRIQA4)\n### mosaic-X5"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "mosaic-H",
+        "product_type": "GNSS module with dual-antenna heading",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0006",
+            "line_start": 502,
+            "line_end": 503,
+            "url": "https://www.septentrio.com/en/products/gnss-receivers",
+            "page_class": "product",
+            "snippet": "![Septentrio-mosaic-H-GPS-Module-receiver-with-Heading](/sites/default/files/styles/product_picture_overview/public/products/product/Septentrio-mosaic-H-GNSS-receiver-module-with-heading_0.png?itok=GoVR5e95)\n### mosaic-H"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "mosaic-G5 P3H",
+        "product_type": "ultra-compact GNSS module with heading",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0006",
+            "line_start": 413,
+            "line_end": 414,
+            "url": "https://www.septentrio.com/en/products/gnss-receivers",
+            "page_class": "product",
+            "snippet": "![ Septentrio\\_mosaic-G5\\_P3H\\_front\\_back-GNSS-receiver-module](/sites/default/files/styles/product_picture_overview/public/products/product/Septentrio%20mosaic-G5-P3H-advanced-ultra-compact-GNSS-module-receiver-with-Heading.png?itok=ZMRqOGBy)\n### mosaic-G5 P3H"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "mosaic-T",
+        "product_type": "GNSS timing module receiver",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0006",
+            "line_start": 305,
+            "line_end": 307,
+            "url": "https://www.septentrio.com/en/products/gnss-receivers",
+            "page_class": "product",
+            "snippet": "![Septentrio mosaic-T Compact multi-frequency GPS / GNSS timing receiver module](/sites/default/files/styles/product_picture_overview/public/products/product/Septentrio-mosaic-T-GNSS-timing-receiver-module_0.png?itok=-b0G9_5V)\n### mosaic-T\nGNSS timing module receiver"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AsteRx-m3 Pro",
+        "product_type": "GNSS OEM board (rover)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0015",
+            "line_start": 223,
+            "line_end": 224,
+            "url": "https://www.septentrio.com/en/products/gnss-receivers/gnss-boards",
+            "page_class": "product",
+            "snippet": "### AsteRx-m3 Pro\nNew generation GNSS rover receiver"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AsteRx-m3 Pro+",
+        "product_type": "dual-antenna GNSS OEM board (rover and base)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0015",
+            "line_start": 228,
+            "line_end": 229,
+            "url": "https://www.septentrio.com/en/products/gnss-receivers/gnss-boards",
+            "page_class": "product",
+            "snippet": "### AsteRx-m3 Pro+\nNew generation dual-antenna GNSS rover & base station receiver"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AsteRx-m3 ProBase",
+        "product_type": "GNSS OEM board (base station)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0015",
+            "line_start": 233,
+            "line_end": 234,
+            "url": "https://www.septentrio.com/en/products/gnss-receivers/gnss-boards",
+            "page_class": "product",
+            "snippet": "### AsteRx-m3 ProBase\nNew generation GNSS base station receiver"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AsteRx-i3 D Pro",
+        "product_type": "GNSS/INS OEM board",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0007",
+            "line_start": 223,
+            "line_end": 224,
+            "url": "https://www.septentrio.com/en/products/gnss-ins-receivers",
+            "page_class": "product",
+            "snippet": "### AsteRx-i3 D Pro\nReady-to-use GNSS/INS single-board receiver"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AsteRx-i3 D Pro+",
+        "product_type": "GNSS/INS OEM board (extended sensor fusion)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0007",
+            "line_start": 228,
+            "line_end": 229,
+            "url": "https://www.septentrio.com/en/products/gnss-ins-receivers",
+            "page_class": "product",
+            "snippet": "### AsteRx-i3 D Pro+\nGNSS/INS for integrated solutions and ready for more sensor fusion"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AsteRx-i3 S Pro+",
+        "product_type": "GNSS/INS OEM board with tethered IMU",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0007",
+            "line_start": 233,
+            "line_end": 234,
+            "url": "https://www.septentrio.com/en/products/gnss-ins-receivers",
+            "page_class": "product",
+            "snippet": "### AsteRx-i3 S Pro+\nGNSS/INS OEM board with tethered IMU for flexible installation"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AsteRx SBi3 Pro",
+        "product_type": "ruggedized GNSS/INS receiver",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0007",
+            "line_start": 243,
+            "line_end": 244,
+            "url": "https://www.septentrio.com/en/products/gnss-ins-receivers",
+            "page_class": "product",
+            "snippet": "### AsteRx SBi3 Pro\nRuggedized receiver for high-accuracy positioning and 3D orientation"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AsteRx SBi3 Pro+",
+        "product_type": "ruggedized GNSS/INS receiver (extended sensor fusion)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0007",
+            "line_start": 248,
+            "line_end": 249,
+            "url": "https://www.septentrio.com/en/products/gnss-ins-receivers",
+            "page_class": "product",
+            "snippet": "### AsteRx SBi3 Pro+\nRugged GNSS/INS receiver (ready for more sensor fusion)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AsteRx SB3 Pro",
+        "product_type": "rugged GNSS rover receiver",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0006",
+            "line_start": 357,
+            "line_end": 358,
+            "url": "https://www.septentrio.com/en/products/gnss-receivers",
+            "page_class": "product",
+            "snippet": "### AsteRx SB3 Pro\nRugged multi-frequency GNSS rover receiver"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AsteRx SB3 ProBase",
+        "product_type": "ruggedized GNSS base station receiver",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0006",
+            "line_start": 367,
+            "line_end": 368,
+            "url": "https://www.septentrio.com/en/products/gnss-receivers",
+            "page_class": "product",
+            "snippet": "### AsteRx SB3 ProBase\nRuggedized GNSS base station receiver"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AsteRx EB",
+        "product_type": "rugged multi-frequency GNSS rover receiver",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0006",
+            "line_start": 337,
+            "line_end": 338,
+            "url": "https://www.septentrio.com/en/products/gnss-receivers",
+            "page_class": "product",
+            "snippet": "### AsteRx EB\nRugged multi-frequency GNSS rover receiver"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AntaRx-S3",
+        "product_type": "GNSS smart antenna (IP69K ruggedized)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0395",
+            "line_start": 225,
+            "line_end": 226,
+            "url": "https://www.septentrio.com/en/products/gnss-smart-antennas",
+            "page_class": "product",
+            "snippet": "### AntaRx-S3\nGNSS smart antenna in an ultra-ruggedized housing"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AntaRx-Si3",
+        "product_type": "GNSS/INS smart antenna (IP69K ruggedized)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0395",
+            "line_start": 230,
+            "line_end": 231,
+            "url": "https://www.septentrio.com/en/products/gnss-smart-antennas",
+            "page_class": "product",
+            "snippet": "### AntaRx-Si3\nGNSS/INS smart antenna in an ultra-ruggedized housing"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "70+ catalogued SKUs; representative selection listed. More products exist on skipped product pages."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "The compliance page covers only EU environmental directives (WEEE, RoHS, REACH). No mention of NDAA Section 848/889 anywhere in the corpus. Septentrio is a Belgian company."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No mention of DIU Blue UAS Cleared List or Blue sUAS anywhere in the corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0006",
+        "line_start": 209,
+        "line_end": 209,
+        "url": "https://www.septentrio.com/en/products/gnss-receivers",
+        "page_class": "product",
+        "snippet": "Septentrio\u00a0designs, manufactures and sells high-precision, multi-frequency, multi-constellation GNSS receivers for use in demanding applications. Our\u00a0GPS/GNSS receivers deliver accurate and reliable centimeter-level positioning. They are designed to perform solidly in the most challenging environments and come in different form factors: boards, modules housed receivers and smart antennas."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0038",
+        "line_start": 233,
+        "line_end": 233,
+        "url": "https://www.septentrio.com/en/company/news/septentrio-launches-its-next-gen-gnss/ins-product-line-asterx-i3",
+        "page_class": "company",
+        "snippet": "*   [Septentrio starts mass production of mosaic-G5 modules](/en/company/news/septentrio-starts-mass-production-mosaic-g5-modules)"
+      }
+    ],
+    "notes": "Large catalog of 70+ SKUs across modules, OEM boards, and housed receivers. Mass production of mosaic-G5 explicitly announced."
+  },
+  "unresolved_questions": [
+    "NDAA Section 848/889 compliance status not disclosed on fetched pages",
+    "Blue UAS listing status not mentioned in corpus"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.septentrio.com/en/environmental-compliance",
+      "reason": "Environmental compliance page would likely disclose NDAA Section 848/889 compliance, RoHS/REACH status, and other regulatory compliance relevant to US government procurement. Currently neither NDAA nor Blue UAS status can be determined.",
+      "expected_evidence": [
+        "ndaa",
+        "blue_uas"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=compliance, resource_id=resource-0044",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 16,
+    "total_cost_usd": 0.57141615,
+    "created_at": "2026-05-03T15:26:54+00:00",
+    "extract_version": "0.1.0"
+  },
+  "tagline": "Belgian GNSS/INS receiver and smart-antenna manufacturer in production across modular, board-level, and rugged-box form factors for UAV, autonomous vehicle, and robotics applications. Strong anti-jamming and anti-spoofing positioning claims; limited public evidence on NDAA compliance, Blue UAS certification, or US defense program adoption. Readiness status production-grade across portfolio."
+}

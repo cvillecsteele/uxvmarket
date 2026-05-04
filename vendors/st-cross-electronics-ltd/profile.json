@@ -1,0 +1,334 @@
+{
+  "target_id": "st-cross-electronics-ltd",
+  "run_id": "canonical",
+  "display_name": "St Cross Electronics Ltd",
+  "homepage_url": "https://www.st-cross-electronics.co.uk",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/st-cross-electronics-ltd/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "mechanical_subsystems",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 35,
+            "line_end": 35,
+            "url": "https://www.st-cross-electronics.co.uk",
+            "page_class": "homepage",
+            "snippet": "UK Specialists in the manufacture of custom cable assemblies and harnesses. Handling complexity from discrete wires to 1000 circuit looms."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 68,
+            "line_end": 68,
+            "url": "https://www.st-cross-electronics.co.uk",
+            "page_class": "homepage",
+            "snippet": "St. Cross Electronics, established in 1979, is a leading UK specialist in the manufacture and supply of custom cable assemblies and wire harnesses. We provide the complete interconnect solution, supported by a comprehensive range of cable termination tooling, from automated robotic CNC machinery to intricate hand tools, ensuring precision across all project scales."
+          }
+        ],
+        "notes": "Custom cable assemblies and wire harnesses \u2014 the company's entire business; cable assemblies/looms are the nearest match to mechanical_subsystems (cable carriers) in the category schema"
+      },
+      {
+        "category": "communications",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 25,
+            "line_end": 25,
+            "url": "https://www.st-cross-electronics.co.uk",
+            "page_class": "homepage",
+            "snippet": "    *   [RF Cables](https://www.st-cross-electronics.co.uk/services/rf-cables)"
+          }
+        ],
+        "notes": "RF cables service listed \u2014 used in drone antenna/data-link assemblies"
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "No dedicated product pages were fetched; category inferred from homepage service listing and about-us copy. UAV/drone blog post not fetched."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Southampton",
+      "state_or_province": "Hampshire",
+      "country": "United Kingdom",
+      "address": "Unit 14, Mount Pleasant Industrial Park, Southampton, SO14 0SP"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0131",
+        "line_start": 41,
+        "line_end": 43,
+        "url": "https://www.st-cross-electronics.co.uk/contact",
+        "page_class": "contact",
+        "snippet": "St Cross Electronics\nUnit 14, Mount Pleasant Industrial Park,\nSouthampton, SO14 0SP"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 35,
+        "line_end": 35,
+        "url": "https://www.st-cross-electronics.co.uk",
+        "page_class": "homepage",
+        "snippet": "UK Specialists in the manufacture of custom cable assemblies and harnesses. Handling complexity from discrete wires to 1000 circuit looms."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 43,
+        "line_end": 43,
+        "url": "https://www.st-cross-electronics.co.uk",
+        "page_class": "homepage",
+        "snippet": "Specialising in Defence, Medical, and Aerospace projects. Looms built to TYCO System 25 standards for high-reliability systems."
+      }
+    ],
+    "notes": "Manufactures custom cable assemblies, wire harnesses, military harnessing and RF cables \u2014 components that go into drone airframes and subsystems. Has a blog post specifically about UAVs/drones (not fetched). Customers include Cobham, BAE Systems, Thales."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Cable Assemblies",
+        "product_type": "custom cable assembly",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 17,
+            "line_end": 17,
+            "url": "https://www.st-cross-electronics.co.uk",
+            "page_class": "homepage",
+            "snippet": "    *   [Cable Assemblies](https://www.st-cross-electronics.co.uk/services/cable-assemblies)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Wiring Looms",
+        "product_type": "wire harness / loom",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 18,
+            "line_end": 18,
+            "url": "https://www.st-cross-electronics.co.uk",
+            "page_class": "homepage",
+            "snippet": "    *   [Wiring Looms](https://www.st-cross-electronics.co.uk/services/wiring-looms)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Military Harnessing",
+        "product_type": "defence-grade wire harness",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 20,
+            "line_end": 20,
+            "url": "https://www.st-cross-electronics.co.uk",
+            "page_class": "homepage",
+            "snippet": "    *   [Military Harnessing](https://www.st-cross-electronics.co.uk/services/military-harnessing)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Motorsport Harnessing",
+        "product_type": "motorsport/F1 wire loom",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 19,
+            "line_end": 19,
+            "url": "https://www.st-cross-electronics.co.uk",
+            "page_class": "homepage",
+            "snippet": "    *   [Motorsport Harnessing](https://www.st-cross-electronics.co.uk/services/motorsport-harnessing)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "RF Cables",
+        "product_type": "radio frequency cable assembly",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 25,
+            "line_end": 25,
+            "url": "https://www.st-cross-electronics.co.uk",
+            "page_class": "homepage",
+            "snippet": "    *   [RF Cables](https://www.st-cross-electronics.co.uk/services/rf-cables)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "IDC Ribbon Cables",
+        "product_type": "insulation-displacement ribbon cable assembly",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 21,
+            "line_end": 21,
+            "url": "https://www.st-cross-electronics.co.uk",
+            "page_class": "homepage",
+            "snippet": "    *   [IDC Ribbon Cables](https://www.st-cross-electronics.co.uk/services/idc-ribbon-cables)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "PVC Ribbon Cables",
+        "product_type": "PVC ribbon cable assembly",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 22,
+            "line_end": 22,
+            "url": "https://www.st-cross-electronics.co.uk",
+            "page_class": "homepage",
+            "snippet": "    *   [PVC Ribbon Cables](https://www.st-cross-electronics.co.uk/services/pvc-ribbon-cables)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Product/service detail pages (services/*) were all skipped by the crawler; product names taken from navigation menu on homepage. Dedicated service pages would confirm specifications."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 47,
+        "line_end": 47,
+        "url": "https://www.st-cross-electronics.co.uk",
+        "page_class": "homepage",
+        "snippet": "Unlock design efficiency via DFM. We scale production from prototypes to 100,000+ units using Komax automation."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 75,
+        "line_end": 75,
+        "url": "https://www.st-cross-electronics.co.uk",
+        "page_class": "homepage",
+        "snippet": "We offer controlled scalability via our primary Southampton, UK manufacturing base. Our facility\u00a0uses a rigorous Lean Manufacturing ethos, which is managed by our UK operations team. This site ensures cost-effective volume production of your cable assemblies and looms without compromising our UK-set quality standards."
+      }
+    ],
+    "notes": "Explicitly scales from prototypes to 100,000+ units using Komax automation. Uses Lean Manufacturing with Komax CNC robotic machinery."
+  },
+  "unresolved_questions": [
+    "What specific UAV/drone cable assembly products does St Cross offer? (UAV/drone blog post not fetched)",
+    "Are there any NDAA or Blue UAS claims on service or compliance pages?",
+    "Do military harnessing or RF cable pages mention drone-specific applications?"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.st-cross-electronics.co.uk/blog/why-choosing-st-cross-electronics-for-uavs-drones-matters/",
+      "reason": "Blog post specifically about UAVs/drones would confirm drone supply chain role, product specifics for UAV cable assemblies, and potentially NDAA or Blue UAS claims.",
+      "expected_evidence": [
+        "products_categories",
+        "drone_supply_chain_role",
+        "products",
+        "ndaa",
+        "blue_uas"
+      ],
+      "source_hint": "linked from homepage and all other fetched pages as latest blog post; not fetched in this run",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.st-cross-electronics.co.uk/services/military-harnessing",
+      "reason": "Military Harnessing service page would confirm drone/UAV-specific product lines and specifications relevant to defence UXV programmes.",
+      "expected_evidence": [
+        "products",
+        "drone_supply_chain_role",
+        "products_categories",
+        "ndaa"
+      ],
+      "source_hint": "linked from homepage navigation; not fetched in this run",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.st-cross-electronics.co.uk/services/cable-assemblies",
+      "reason": "Primary cable assemblies service page would enumerate named product families and confirm drone/aerospace applications.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role",
+        "readiness"
+      ],
+      "source_hint": "linked from homepage navigation; not fetched in this run",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.st-cross-electronics.co.uk/about-us/sectors",
+      "reason": "Sectors page would confirm which industries including UAV/UAS are served, directly supporting category and supply chain role answers.",
+      "expected_evidence": [
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "linked from homepage navigation; not fetched in this run",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 12,
+    "total_cost_usd": 0.25656789999999996,
+    "created_at": "2026-05-03T00:29:34+00:00",
+    "extract_version": "0.1.0"
+  },
+  "tagline": "UK-based custom cable assembly and harness manufacturer serving defence, aerospace, and medical sectors. Produces wiring looms up to 1000 circuits, military-grade harnesses to TYCO System 25, RF cables, and ribbon assemblies; ISO 9001/14001/45001 certified with 100% electrical testing. NDAA and Blue UAS certification status unknown. Public evidence confirms defence-sector customer base (BAE, Thales, Cobham) and recent UAV/drone positioning, but supply-chain clearance and current unmanned-systems contract details remain opaque."
+}

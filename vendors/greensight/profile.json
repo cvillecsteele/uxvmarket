@@ -1,0 +1,339 @@
+{
+  "target_id": "greensight",
+  "run_id": "canonical",
+  "display_name": "GreenSight",
+  "homepage_url": "https://greensightag.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/greensight/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "airframes",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0008",
+            "line_start": 18,
+            "line_end": 18,
+            "url": "https://www.greensightag.com/gs-platform",
+            "page_class": "product",
+            "snippet": "GreenSight develops and manufactures catalog and fully custom robotic vehicles to help our customers achieve their missions. We sell existing designs directly for customers to deploy for their applications, as well as design and manufacture fully custom units."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0008",
+            "line_start": 19,
+            "line_end": 24,
+            "url": "https://www.greensightag.com/gs-platform",
+            "page_class": "product",
+            "snippet": "Quadcopters\nFixed wing\nHybrids\nGround Vehicles\nRobotic Arms\nUnderwater"
+          }
+        ],
+        "notes": "Develops and manufactures quadcopters, fixed wing, hybrids, ground vehicles, robotic arms, and underwater vehicles"
+      },
+      {
+        "category": "flight_and_vehicle_control",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0008",
+            "line_start": 29,
+            "line_end": 29,
+            "url": "https://www.greensightag.com/gs-platform",
+            "page_class": "product",
+            "snippet": "UltraBlue avionics"
+          }
+        ],
+        "notes": "UltraBlue avionics listed as hardware component in the GS Platform"
+      },
+      {
+        "category": "isr_payloads",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0008",
+            "line_start": 30,
+            "line_end": 30,
+            "url": "https://www.greensightag.com/gs-platform",
+            "page_class": "product",
+            "snippet": "Payload cameras"
+          }
+        ],
+        "notes": "Payload cameras listed as hardware component"
+      },
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0008",
+            "line_start": 34,
+            "line_end": 34,
+            "url": "https://www.greensightag.com/gs-platform",
+            "page_class": "product",
+            "snippet": "Autonomy sensors"
+          }
+        ],
+        "notes": "Autonomy sensors listed as hardware component"
+      },
+      {
+        "category": "communications",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0008",
+            "line_start": 32,
+            "line_end": 32,
+            "url": "https://www.greensightag.com/gs-platform",
+            "page_class": "product",
+            "snippet": "Radios and modems"
+          }
+        ],
+        "notes": "Radios and modems listed as hardware component"
+      },
+      {
+        "category": "power_systems",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0008",
+            "line_start": 33,
+            "line_end": 33,
+            "url": "https://www.greensightag.com/gs-platform",
+            "page_class": "product",
+            "snippet": "Custom flight batteries"
+          }
+        ],
+        "notes": "Custom flight batteries listed as hardware component"
+      },
+      {
+        "category": "ground_segment",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0008",
+            "line_start": 36,
+            "line_end": 36,
+            "url": "https://www.greensightag.com/gs-platform",
+            "page_class": "product",
+            "snippet": "Fleet management, logistics, infrastructure, and connectivity"
+          }
+        ],
+        "notes": "Fleet management, logistics, infrastructure, and connectivity platform; TurfCloud SaaS product for turf/agriculture/defense applications"
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "GreenSight is primarily a complete drone platform OEM. Secondary categories represent in-house components and software included in the GS Platform stack."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Boston",
+      "state_or_province": "Massachusetts",
+      "country": "United States",
+      "address": "529 Main St, Suite 600, Boston, MA 02129"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0005",
+        "line_start": 19,
+        "line_end": 20,
+        "url": "https://www.greensightag.com/contact",
+        "page_class": "contact",
+        "snippet": "Boston, MA 02129\n+1 (844) 484-7336"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "oem",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0008",
+        "line_start": 18,
+        "line_end": 18,
+        "url": "https://www.greensightag.com/gs-platform",
+        "page_class": "product",
+        "snippet": "GreenSight develops and manufactures catalog and fully custom robotic vehicles to help our customers achieve their missions. We sell existing designs directly for customers to deploy for their applications, as well as design and manufacture fully custom units."
+      }
+    ],
+    "notes": "GreenSight designs and manufactures complete robotic vehicles (catalog and custom) and also provides a supporting software/cloud platform."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "GS Platform",
+        "product_type": "integrated robotics hardware, software, and cloud platform",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0008",
+            "line_start": 14,
+            "line_end": 14,
+            "url": "https://www.greensightag.com/gs-platform",
+            "page_class": "product",
+            "snippet": "A collection of robotic hardware, software and cloud products that enable users to rapidly progress from concept, to prototype, to operational system."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MACLUV",
+        "product_type": "autonomous maritime UAV (vessel landing)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0008",
+            "line_start": 58,
+            "line_end": 60,
+            "url": "https://www.greensightag.com/gs-platform",
+            "page_class": "product",
+            "snippet": "GreenSight\u2019s MACLUV Demonstrates Autonomous Vessel Landing 2025\n===============================================================\nMACLUV completed real-time tracking and UAV landings at sea during ANTX 2025, advancing autonomous maritime operations."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "UltraBlue avionics",
+        "product_type": "drone avionics / flight controller hardware",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0008",
+            "line_start": 29,
+            "line_end": 29,
+            "url": "https://www.greensightag.com/gs-platform",
+            "page_class": "product",
+            "snippet": "UltraBlue avionics"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TurfCloud",
+        "product_type": "drone fleet management SaaS for turf/agriculture",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0008",
+            "line_start": 50,
+            "line_end": 51,
+            "url": "https://www.greensightag.com/gs-platform",
+            "page_class": "product",
+            "snippet": "TurfCloud Expands Capabilities Through Integration with Syngenta\u2019s Spiio\u2122 Precision Soil Sensor System\n======================================================================================================"
+          }
+        ],
+        "notes": "Referenced as a product name in news headlines; also hosted at greensight.turfcloud.com"
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Product details on the defense page and specific airframe model names not captured due to skipped pages."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0008",
+        "line_start": 18,
+        "line_end": 18,
+        "url": "https://www.greensightag.com/gs-platform",
+        "page_class": "product",
+        "snippet": "GreenSight develops and manufactures catalog and fully custom robotic vehicles to help our customers achieve their missions. We sell existing designs directly for customers to deploy for their applications, as well as design and manufacture fully custom units."
+      }
+    ],
+    "notes": "Site states they sell existing catalog designs directly and also produce fully custom units."
+  },
+  "unresolved_questions": [
+    "NDAA Section 848/889 compliance not addressed on any fetched page",
+    "Blue UAS listing status unknown",
+    "Defense-specific product details (skipped page)",
+    "Full airframe model catalog not visible due to skipped product/application pages"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.greensightag.com/defense",
+      "reason": "Would reveal defense-specific products, any NDAA/Blue UAS compliance claims, and confirm drone_supply_chain_role for defense sector",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "drone_supply_chain_role",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.greensightag.com/agriculture",
+      "reason": "Would provide additional product names and application context to confirm airframes category and readiness level",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.greensightag.com/logbook/greensights-macluv-demonstrates-autonomous-vessel-landing-at-antx-coastal-trident-2025",
+      "reason": "Would provide technical details and readiness information for MACLUV autonomous maritime UAV product",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=news",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "tagline": "Multi-platform robotics manufacturer (quadcopter, fixed-wing, hybrid VTOL, UUV, UGV) with integrated GS Platform combining flight control, ground station, and cloud fleet management for defense and commercial missions. Notably positions MACLUV autonomous system for vessel landing. NDAA and Blue UAS certification status unknown; public evidence on defense contracts and operational deployments is sparse.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 9,
+    "total_cost_usd": 0.25428904999999996,
+    "created_at": "2026-05-04T03:05:59+00:00",
+    "extract_version": "0.1.0"
+  }
+}

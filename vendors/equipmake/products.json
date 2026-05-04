@@ -1,0 +1,211 @@
+{
+  "target_id": "equipmake",
+  "run_id": "canonical",
+  "display_name": "Equipmake",
+  "homepage_url": "https://equipmake.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/equipmake/website",
+  "products": [
+    {
+      "name": "Vertical Aerospace",
+      "category": "propulsion_mechanical",
+      "descriptor": "Custom direct-drive SPM motor and IGBT inverter EPU for eVTOL aircraft",
+      "granularity": "sku",
+      "readiness": "prototype",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0391",
+          "line_start": 68,
+          "line_end": 68,
+          "url": "https://equipmake.com/products/vertical-aerospace",
+          "page_class": "product",
+          "snippet": "    Equipmake has developed a custom direct-drive SPM motor and IGBT inverter system for Vertical Aerospace\u2019s pioneering electric Vertical Take-Off and Landing (eVTOL) aircraft."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0391",
+          "line_start": 70,
+          "line_end": 70,
+          "url": "https://equipmake.com/products/vertical-aerospace",
+          "page_class": "product",
+          "snippet": "    Equipmake\u2019s advanced Electric Propulsion Unit (EPU) was deployed in Vertical Aerospace\u2019s prototype during its first successful untethered flight test, marking Equipmake\u2019s entry into the rapidly expanding eVTOL market."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "H55",
+      "category": "propulsion_mechanical",
+      "descriptor": "Bespoke SPM motor for direct-drive light aircraft propeller",
+      "granularity": "sku",
+      "readiness": "low_rate_production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0383",
+          "line_start": 67,
+          "line_end": 67,
+          "url": "https://equipmake.com/products/h55",
+          "page_class": "product",
+          "snippet": "    Equipmake collaborated with Swiss electric aviation specialist H55 to develop a bespoke SPM motor designed for direct drive of a light aircraft propeller."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0148",
+          "line_start": 53,
+          "line_end": 53,
+          "url": "https://equipmake.com/equipmake-signs-aerospace-electric-motor-production-supply-agreement-with-h55",
+          "page_class": "news",
+          "snippet": "EQUIPMAKE SIGNS AEROSPACE ELECTRIC MOTOR PRODUCTION SUPPLY AGREEMENT WITH H55"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "AMPERE-220",
+      "category": "propulsion_mechanical",
+      "descriptor": "3D-printed additive-manufactured 220 kW permanent magnet electric motor",
+      "granularity": "sku",
+      "readiness": "prototype",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0377",
+          "line_start": 66,
+          "line_end": 66,
+          "url": "https://equipmake.com/products/ampere-220",
+          "page_class": "product",
+          "snippet": "    The key to AMPERE-220\u2019s performance is a combination of an advanced motor design with additive manufacturing, allowing its metal structure to be 3D printed, rather than milled from a solid billet."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0377",
+          "line_start": 70,
+          "line_end": 70,
+          "url": "https://equipmake.com/products/ampere-220",
+          "page_class": "product",
+          "snippet": "    The AMPERE-220 is currently in the A-Sample stage of development. However if suitable projects arise, we have the in-house resource to progress this product to it\u2019s projected capabilities."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "APM-200",
+      "category": "propulsion_mechanical",
+      "descriptor": "220 kW liquid-cooled spoke-architecture traction motor with integral epicyclic gearbox",
+      "granularity": "sku",
+      "readiness": "low_rate_production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0378",
+          "line_start": 52,
+          "line_end": 57,
+          "url": "https://equipmake.com/products/apm-200",
+          "page_class": "product",
+          "snippet": "APM-200\n=======\nThe Spoke Motor\n*   Automotive Validation to ISO16750-2, ISO60529 X7, ISO20653 6X, BS EN60068-2-52 Kb, BS EN60068-2-1,\u00a0 BS EN60068-2-2,\n*   Available with or without Inverter\n*   Low Volume Production Pricing Available"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "HPI-800",
+      "category": "propulsion_electronics",
+      "descriptor": "400\u2013800 V SiC motor controller inverter, 820 A peak, ASIL D rated",
+      "granularity": "sku",
+      "readiness": "prototype",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0386",
+          "line_start": 52,
+          "line_end": 54,
+          "url": "https://equipmake.com/products/hpi-800",
+          "page_class": "product",
+          "snippet": "HPI-800\n=======\nMotor Controller"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0386",
+          "line_start": 59,
+          "line_end": 59,
+          "url": "https://equipmake.com/products/hpi-800",
+          "page_class": "product",
+          "snippet": "*   This inverter is currently in the A-Sample stage of development"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "HPI-450",
+      "category": "propulsion_electronics",
+      "descriptor": "400\u2013800 V IGBT motor controller inverter, 450 A peak, for automotive and aerospace EV",
+      "granularity": "sku",
+      "readiness": "low_rate_production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0385",
+          "line_start": 52,
+          "line_end": 54,
+          "url": "https://equipmake.com/products/hpi-450",
+          "page_class": "product",
+          "snippet": "HPI-450\n=======\nMotor Controller"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0385",
+          "line_start": 58,
+          "line_end": 58,
+          "url": "https://equipmake.com/products/hpi-450",
+          "page_class": "product",
+          "snippet": "*   Low Volume Production Pricing Available"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Gilmour Space",
+      "category": "propulsion_mechanical",
+      "descriptor": "Bespoke 20,000 rpm fuel pump motor and SiC inverter for space launch vehicle",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0382",
+          "line_start": 72,
+          "line_end": 73,
+          "url": "https://equipmake.com/products/gilmore-space",
+          "page_class": "product",
+          "snippet": "    Equipmake is supplying Australian launch services company Gilmore Space Technologies with electric motors and inverters to support their onboard application\n    Equipmake developed a bespoke 20,000 rpm onboard application motor and inverter solution. Five systems are required per vehicle, demonstrating Equipmake\u2019s crucial role in advancing spaceflight technology. A total of 21 units were produced and delivered, with the first launch imminent."
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 0,
+    "total_cost_usd": null,
+    "created_at": "2026-05-04T02:28:52+00:00",
+    "extract_version": "0.1.0"
+  }
+}

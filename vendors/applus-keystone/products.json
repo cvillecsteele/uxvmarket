@@ -1,0 +1,678 @@
+{
+  "target_id": "applus-keystone",
+  "run_id": "canonical",
+  "display_name": "Applus+ Keystone",
+  "homepage_url": "https://keystonecompliance.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/applus-keystone/website",
+  "products": [
+    {
+      "name": "EMC/EMI Compliance Testing",
+      "category": "test_and_measurement",
+      "descriptor": "Electromagnetic compatibility and interference compliance testing across commercial and military standards",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0481",
+          "line_start": 339,
+          "line_end": 341,
+          "url": "https://keystonecompliance.com/military-aerospace",
+          "page_class": "other",
+          "snippet": "EMC Testing to Military and Aerospace Industry Standards\n--------------------------------------------------------\nThe EMC laboratory features nine anachoic chambers, a reverberation chamber, and ground planes able to conduct measurement capabilities. For a full list of Keystone\u2019s military EMC/EMI testing capabilities and standards, visit [Military EMC Testing](https://keystonecompliance.com/all-mil-emc-standards/)."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Climatics Testing",
+      "category": "test_and_measurement",
+      "descriptor": "Temperature, humidity, thermal shock, altitude, salt-fog, and weather environmental testing",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 340,
+          "line_end": 342,
+          "url": "https://keystonecompliance.com",
+          "page_class": "homepage",
+          "snippet": "### Climatics Testing\nTemperature, humidity, thermal shock, altitude, solar radiation, salt-fog, icing, freezing rain and wind are just some of the climatics tests our engineers have extensive expertise with.\n[Learn More](https://keystonecompliance.com/climatics/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Dynamics Testing (Vibration & Shock)",
+      "category": "test_and_measurement",
+      "descriptor": "Vibration and shock testing to military and commercial standards, ISO 17025 accredited",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 351,
+          "line_end": 353,
+          "url": "https://keystonecompliance.com",
+          "page_class": "homepage",
+          "snippet": "### Dynamics Testing\nApplus+ Keystone offers vibration and shock testing to nearly every military and commercial standard. Our accreditation and quality system permits our test reports to be recognized around the world.\n[Learn More](https://keystonecompliance.com/dynamics/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Ingress Protection (IP Code) Testing",
+      "category": "test_and_measurement",
+      "descriptor": "IP code ingress protection testing for solid and liquid ingress ratings per IEC 60529 and military standards",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0481",
+          "line_start": 360,
+          "line_end": 360,
+          "url": "https://keystonecompliance.com/military-aerospace",
+          "page_class": "other",
+          "snippet": "*   [Ingress Protection](https://keystonecompliance.com/ingress-protection-ip/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Autonomous Vehicle Laboratory Certification Testing",
+      "category": "test_and_measurement",
+      "descriptor": "ISO 17025-accredited EMC, environmental, and safety certification testing for autonomous vehicles and subsystems",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0081",
+          "line_start": 331,
+          "line_end": 332,
+          "url": "https://keystonecompliance.com/autonomous-vehicles",
+          "page_class": "news",
+          "snippet": "Autonomous Vehicle Laboratory Certification Testing\n==================================================="
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0081",
+          "line_start": 334,
+          "line_end": 334,
+          "url": "https://keystonecompliance.com/autonomous-vehicles",
+          "page_class": "news",
+          "snippet": "Keystone Compliance has developed an expertise in the testing of autonomous vehicles and their subsystems. Whether it be testing entire vehicles or individual systems and components, our ISO 17025 accredited testing lab has the necessary equipment and knowledge to complete a thorough testing program."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Product Reliability / Accelerated Life Cycle Testing",
+      "category": "test_and_measurement",
+      "descriptor": "Accelerated life cycle and reliability testing including HALT and HASS methodologies",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0479",
+          "line_start": 331,
+          "line_end": 332,
+          "url": "https://keystonecompliance.com/product-reliability-testing",
+          "page_class": "product",
+          "snippet": "Product Life Cycle Testing and Accelerated Life Cycle Testing\n============================================================="
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0479",
+          "line_start": 333,
+          "line_end": 333,
+          "url": "https://keystonecompliance.com/product-reliability-testing",
+          "page_class": "product",
+          "snippet": "In the fast-paced and evolving world of product development, a comprehensive understanding of the product life cycle is crucial for success."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "MIL-STD-461 EMC Testing",
+      "category": "test_and_measurement",
+      "descriptor": "EMC compliance testing to MIL-STD-461 for military electronic equipment",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 51,
+          "line_end": 51,
+          "url": "https://keystonecompliance.com",
+          "page_class": "homepage",
+          "snippet": "*   [MIL-STD-461 Overview](https://keystonecompliance.com/mil-std-461/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "MIL-STD-810 Environmental Testing",
+      "category": "test_and_measurement",
+      "descriptor": "Military standard environmental test methods for aerospace and ground equipment durability",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0260",
+          "line_start": 331,
+          "line_end": 332,
+          "url": "https://keystonecompliance.com/mil-std-810",
+          "page_class": "other",
+          "snippet": "MIL-STD-810 Environmental Test Methods\n======================================"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "MIL-STD-464 Airborne, Sea, & Ground EMC Testing",
+      "category": "test_and_measurement",
+      "descriptor": "EMC testing to MIL-STD-464 for airborne, sea, and ground military systems",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 52,
+          "line_end": 52,
+          "url": "https://keystonecompliance.com",
+          "page_class": "homepage",
+          "snippet": "*   [MIL-STD-464 Airborne, Sea, & Ground](https://keystonecompliance.com/mil-std-464/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "RTCA DO-160 EMC and Environmental Testing",
+      "category": "test_and_measurement",
+      "descriptor": "EMC and environmental testing to RTCA DO-160 for airborne equipment",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 59,
+          "line_end": 59,
+          "url": "https://keystonecompliance.com",
+          "page_class": "homepage",
+          "snippet": "*   [RTCA DO-160 EMC Testing](https://keystonecompliance.com/rtca-do-160-emc-standards/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 134,
+          "line_end": 134,
+          "url": "https://keystonecompliance.com",
+          "page_class": "homepage",
+          "snippet": "*   [RTCA D0-160 Airborne Equipment](https://keystonecompliance.com/rtcado-160/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "MIL-STD-188-125-1 HEMP Testing",
+      "category": "test_and_measurement",
+      "descriptor": "High-altitude electromagnetic pulse (HEMP) protection testing per MIL-STD-188-125-1",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0481",
+          "line_start": 49,
+          "line_end": 49,
+          "url": "https://keystonecompliance.com/military-aerospace",
+          "page_class": "other",
+          "snippet": "*   [MIL-STD-188-125-1 HEMP](https://keystonecompliance.com/mil-std-188-125-1/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Military & Aerospace Testing",
+      "category": "test_and_measurement",
+      "descriptor": "Comprehensive EMC and environmental compliance testing services for military and aerospace industry",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 78,
+          "line_end": 78,
+          "url": "https://keystonecompliance.com",
+          "page_class": "homepage",
+          "snippet": "*   [Military & Aerospace](https://keystonecompliance.com/military-aerospace/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 149,
+          "line_end": 149,
+          "url": "https://keystonecompliance.com",
+          "page_class": "homepage",
+          "snippet": "*   [Military & Aerospace](https://keystonecompliance.com/military-aerospace/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "UAV Compliance Testing",
+      "category": "test_and_measurement",
+      "descriptor": "EMC, environmental, and regulatory compliance testing services for UAV industry",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 82,
+          "line_end": 82,
+          "url": "https://keystonecompliance.com",
+          "page_class": "homepage",
+          "snippet": "*   [UAV](https://keystonecompliance.com/uav/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Cybersecurity Testing (IEC 62443 / CRA / RED)",
+      "category": "test_and_measurement",
+      "descriptor": "Cybersecurity compliance testing covering IEC 62443, EU Cyber Resilience Act, and Radio Equipment Directive",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 3,
+          "line_end": 6,
+          "url": "https://keystonecompliance.com",
+          "page_class": "homepage",
+          "snippet": "#### [**Cybersecurity Testing**](https://keystonecompliance.com/cybersecurity-and-penetration-testing/)\n*   [EN 18031 Cybersecurity Testing for the Radio Equipment Directive (RED)](https://keystonecompliance.com/en-18031-testing/)\n*   [EU Cyber Resilience Act (CRA) and Radio Equipment Directive](https://keystonecompliance.com/cra-and-red-compliance/)\n*   [IEC 62443 Cybersecurity Compliance Testing](https://keystonecompliance.com/iec-62443-cybersecurity/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Wireless Certification Testing",
+      "category": "test_and_measurement",
+      "descriptor": "Intentional radiator RF compliance testing for wireless devices across FCC, CE, and international standards",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0358",
+          "line_start": 330,
+          "line_end": 331,
+          "url": "https://www.keystonecompliance.com/wireless-testing",
+          "page_class": "other",
+          "snippet": "Wireless Testing\n================"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "UAV/UAS EMC/EMI, Mechanical, and Climatic Testing",
+      "category": "test_and_measurement",
+      "descriptor": "EMC/EMI, vibration, shock, and climatic compliance testing services for UAV and UAS platforms",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0259",
+          "line_start": 331,
+          "line_end": 331,
+          "url": "https://keystonecompliance.com/uav",
+          "page_class": "other",
+          "snippet": "Unmanned Aerial Vehicle (UAV) and Unmanned Aircraft Systems (UAS) EMC/EMI, Mechanical, and Climatic Testing"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "MIL-STD-461 Testing",
+      "category": "test_and_measurement",
+      "descriptor": "Military standard EMC/EMI emissions and susceptibility compliance testing for DoD electronic equipment",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0479",
+          "line_start": 331,
+          "line_end": 333,
+          "url": "https://keystonecompliance.com/mil-std-461",
+          "page_class": "other",
+          "snippet": "MIL-STD-461 EMC/EMI Compliance Testing\n======================================\nThe MIL STD 461 testing standard addresses electromagnetic interference (EMI) by analyzing the emissions of an electronic device and the susceptibility of a device to outside electromagnetic interference. The MIL-STD-461 test procedures define the test levels and test limits of electronic equipment used by the US military."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "RTCA DO-160 Testing",
+      "category": "test_and_measurement",
+      "descriptor": "Environmental conditions and test procedures compliance testing for airborne equipment",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0259",
+          "line_start": 345,
+          "line_end": 345,
+          "url": "https://keystonecompliance.com/uav",
+          "page_class": "other",
+          "snippet": "*   [RTCA/DO-160](https://keystonecompliance.com/rtca-do-160-emc-standards/): Environmental Conditions and Test Procedures for Airborne Equipment."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Military & Aerospace Compliance Testing",
+      "category": "test_and_measurement",
+      "descriptor": "ISO 17025 accredited EMC and environmental compliance testing for military and aerospace manufacturers",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0481",
+          "line_start": 331,
+          "line_end": 333,
+          "url": "https://keystonecompliance.com/military-aerospace",
+          "page_class": "other",
+          "snippet": "Military and Aerospace Testing\n==============================\nKeystone Compliance has developed a strong reputation as a leader in military and aerospace compliance testing. Having invested millions of dollars in test chambers and equipment, the EMC and environmental laboratories can accommodate large engine operating devices down to components and subcomponents. Our engineers prioritize quality and confidentiality for manufacturers seeking certification testing."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "MIL-STD-464 Testing",
+      "category": "test_and_measurement",
+      "descriptor": "Electromagnetic environmental effects compliance testing for airborne, sea, and ground military systems",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0481",
+          "line_start": 52,
+          "line_end": 52,
+          "url": "https://keystonecompliance.com/military-aerospace",
+          "page_class": "other",
+          "snippet": "*   [MIL-STD-464 Airborne, Sea, & Ground](https://keystonecompliance.com/mil-std-464/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "IEC 62443 Cybersecurity Compliance Testing",
+      "category": "test_and_measurement",
+      "descriptor": "Industrial automation and control systems cybersecurity verification testing per IEC 62443 series",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0550",
+          "line_start": 330,
+          "line_end": 330,
+          "url": "https://keystonecompliance.com/iec-62443-cybersecurity",
+          "page_class": "other",
+          "snippet": "IEC 62443 Cybersecurity Testing"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Vibration Testing",
+      "category": "test_and_measurement",
+      "descriptor": "Mechanical vibration testing service simulating operational forces on UAV and other equipment",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0259",
+          "line_start": 350,
+          "line_end": 350,
+          "url": "https://keystonecompliance.com/uav",
+          "page_class": "other",
+          "snippet": "*   **[Vibration Testing](https://keystonecompliance.com/vibration-testing/):** Simulates the vibrational forces UAVs encounter during flight."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Shock Testing",
+      "category": "test_and_measurement",
+      "descriptor": "Mechanical shock testing service assessing equipment resilience to sudden severe impacts",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0259",
+          "line_start": 351,
+          "line_end": 351,
+          "url": "https://keystonecompliance.com/uav",
+          "page_class": "other",
+          "snippet": "*   **[Shock Testing](https://keystonecompliance.com/shock-testing/):** Assesses the UAV\u2019s ability to withstand sudden, severe impacts."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Climatic Testing",
+      "category": "test_and_measurement",
+      "descriptor": "Environmental climatic testing covering temperature extremes, humidity, salt, sand, and dust exposure",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0259",
+          "line_start": 353,
+          "line_end": 353,
+          "url": "https://keystonecompliance.com/uav",
+          "page_class": "other",
+          "snippet": "Climatic Testing ensures UAVs can operate under various environmental conditions. This includes temperature extremes, humidity, and exposure to salt, sand, and other environmental factors."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Dynamics Testing",
+      "category": "test_and_measurement",
+      "descriptor": "Dynamics test lab services including vibration and shock for military and commercial equipment",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0481",
+          "line_start": 367,
+          "line_end": 367,
+          "url": "https://keystonecompliance.com/military-aerospace",
+          "page_class": "other",
+          "snippet": "For more information on specifics of this equipment, please visit our [Climatics Equipment](https://keystonecompliance.com/climatics-equipment/)\u00a0and\u00a0[Dynamics Equipment](https://keystonecompliance.com/dynamics-equipment/)\u00a0pages."
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "MIL-STD-464 Testing, MIL-STD-188-125-1 HEMP Testing: only found as navigation menu items \u2014 no dedicated fetched pages; dedicated pages likely exist in the 406 skipped URLs.",
+    "Dynamics Testing: body mention is a sidebar link only; dedicated dynamics page (keystonecompliance.com/dynamics/) was not fetched.",
+    "Ingress Protection (IP Code) Testing: cited from a body link; the dedicated IP page (keystonecompliance.com/ingress-protection-ip/) was not fetched.",
+    "Vibration Testing, Shock Testing, Climatic Testing: dedicated pages (keystonecompliance.com/vibration-testing/, /shock-testing/, /climatics/) were not fetched; descriptions drawn from UAV page body.",
+    "RTCA DO-160 Testing: dedicated EMC and environmental DO-160 pages exist but were not fetched; only referenced from UAV page body.",
+    "EMC/EMI Compliance Testing: dedicated page (keystonecompliance.com/emc-testing/) was not fetched; described from military-aerospace page body only."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://keystonecompliance.com/dynamics/",
+      "reason": "Dedicated Dynamics Testing service page \u2014 would confirm service description and any compliance claims for Dynamics Testing product entry.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": null,
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://keystonecompliance.com/mil-std-464/",
+      "reason": "Dedicated MIL-STD-464 page \u2014 only seen as a nav link; full page would confirm service details and any NDAA/compliance claims.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": null,
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://keystonecompliance.com/mil-std-188-125-1/",
+      "reason": "Dedicated MIL-STD-188-125-1 HEMP Testing page \u2014 only seen as a nav link; full page would confirm service scope.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": null,
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://keystonecompliance.com/ingress-protection-ip/",
+      "reason": "Dedicated Ingress Protection IP Code Testing page \u2014 would confirm full scope and capabilities.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": null,
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://keystonecompliance.com/vibration-testing/",
+      "reason": "Dedicated Vibration Testing service page \u2014 would confirm service scope, equipment details, and standards covered.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": null,
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://keystonecompliance.com/shock-testing/",
+      "reason": "Dedicated Shock Testing service page \u2014 would confirm service scope and standards.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": null,
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://keystonecompliance.com/climatics/",
+      "reason": "Dedicated Climatic Testing service page \u2014 would confirm temperature, humidity, and related test capabilities.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": null,
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://keystonecompliance.com/emc-testing/",
+      "reason": "Dedicated EMC/EMI Compliance Testing page \u2014 would confirm full scope and capabilities beyond the military-aerospace page summary.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": null,
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://keystonecompliance.com/rtcado-160/",
+      "reason": "Dedicated RTCA DO-160 environmental testing page \u2014 would confirm full scope of airborne equipment testing service.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": null,
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://keystonecompliance.com/rtca-do-160-emc-standards/",
+      "reason": "Dedicated RTCA DO-160 EMC standards page \u2014 would confirm EMC-specific DO-160 testing capabilities.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": null,
+      "in_corpus_index": false
+    }
+  ],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 37,
+    "total_cost_usd": 1.1002827499999996,
+    "created_at": "2026-05-03T21:28:30+00:00",
+    "extract_version": "0.1.0"
+  }
+}

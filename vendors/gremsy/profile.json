@@ -1,0 +1,373 @@
+{
+  "target_id": "gremsy",
+  "run_id": "canonical",
+  "display_name": "Gremsy",
+  "homepage_url": "https://gremsy.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/gremsy/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "isr_payloads",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0214",
+            "line_start": 113,
+            "line_end": 113,
+            "url": "https://gremsy.com/products/product-payloads/eo-ir-payloads/vio",
+            "page_class": "product",
+            "snippet": "Vio series is an advanced lightweight EO/IR payload, featuring a 4K zoom sensor, a 640x512 radiometric thermal camera, and an integrated 2400m laser rangefinder, ready for various industrial applications."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0212",
+            "line_start": 112,
+            "line_end": 112,
+            "url": "https://gremsy.com/products/product-payloads/eo-ir-payloads/lynx",
+            "page_class": "product",
+            "snippet": "LYNX redefines aerial intelligence for critical operations. It integrates ultra-compact design, dual-spectrum EO/IR imaging with up to 4K/60fps HDR, and intelligent AI for autonomous detection and tracking. This unparalleled synergy delivers macro-insight from previously impossible angles, empowering decisive action in the most challenging environments."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0192",
+            "line_start": 109,
+            "line_end": 109,
+            "url": "https://gremsy.com/products/product-gimbals/heavy-gimbals/aevo-gimbal",
+            "page_class": "product",
+            "snippet": "Aevo is the latest generation of heavy-lifting aerial gimbals, boasting a sturdy carbon frame construction, upgraded encoder, and a massive payload capability to give your system a remarkable level of stability and reliability."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0213",
+            "line_start": 115,
+            "line_end": 116,
+            "url": "https://gremsy.com/products/product-payloads/eo-ir-payloads/orus-l",
+            "page_class": "product",
+            "snippet": "Designed for high speed\nUAVs with up to 100km/h"
+          }
+        ],
+        "notes": "Gremsy's core product lines are drone camera gimbals and EO/IR/thermal/LRF payloads for UAVs."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Ho Chi Minh City",
+      "state_or_province": null,
+      "country": "Vietnam",
+      "address": "7th Floor, SCS Building, D1 St., Saigon Hi-Tech Park, Tang Nhon Phu Ward, Ho Chi Minh City, Viet Nam"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0088",
+        "line_start": 113,
+        "line_end": 114,
+        "url": "https://gremsy.com/contact",
+        "page_class": "contact",
+        "snippet": "**HEADQUARTERS**\n*   7th Floor, SCS Building, D1 St., Saigon Hi-Tech Park, Tang Nhon Phu Ward, Ho Chi Minh City, Viet Nam"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0192",
+        "line_start": 150,
+        "line_end": 150,
+        "url": "https://gremsy.com/products/product-gimbals/heavy-gimbals/aevo-gimbal",
+        "page_class": "product",
+        "snippet": "Aevo is an easy-to-install camera stabilization designed for M600 and Pixhawk-based drones using its unique dampening system."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0214",
+        "line_start": 113,
+        "line_end": 113,
+        "url": "https://gremsy.com/products/product-payloads/eo-ir-payloads/vio",
+        "page_class": "product",
+        "snippet": "Vio series is an advanced lightweight EO/IR payload, featuring a 4K zoom sensor, a 640x512 radiometric thermal camera, and an integrated 2400m laser rangefinder, ready for various industrial applications."
+      }
+    ],
+    "notes": "Gremsy designs and manufactures camera gimbal stabilizers and EO/IR payloads as major drone subsystems, sold to OEMs, system integrators, and UAV manufacturers."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "VIO",
+        "product_type": "EO/IR/LRF drone payload",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0214",
+            "line_start": 113,
+            "line_end": 113,
+            "url": "https://gremsy.com/products/product-payloads/eo-ir-payloads/vio",
+            "page_class": "product",
+            "snippet": "Vio series is an advanced lightweight EO/IR payload, featuring a 4K zoom sensor, a 640x512 radiometric thermal camera, and an integrated 2400m laser rangefinder, ready for various industrial applications."
+          }
+        ],
+        "notes": "Two variants: VIO F1 (assembled in US, Blue UAS cleared) and VIO G1 (assembled in Vietnam)."
+      },
+      {
+        "name": "LYNX",
+        "product_type": "EO/IR drone payload",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0212",
+            "line_start": 112,
+            "line_end": 112,
+            "url": "https://gremsy.com/products/product-payloads/eo-ir-payloads/lynx",
+            "page_class": "product",
+            "snippet": "LYNX redefines aerial intelligence for critical operations. It integrates ultra-compact design, dual-spectrum EO/IR imaging with up to 4K/60fps HDR, and intelligent AI for autonomous detection and tracking. This unparalleled synergy delivers macro-insight from previously impossible angles, empowering decisive action in the most challenging environments."
+          }
+        ],
+        "notes": "Available in NDAA-compliant version (Boson 640) and Standard version."
+      },
+      {
+        "name": "ORUS L",
+        "product_type": "EO/IR/LRF drone payload for high-speed UAVs",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0213",
+            "line_start": 115,
+            "line_end": 116,
+            "url": "https://gremsy.com/products/product-payloads/eo-ir-payloads/orus-l",
+            "page_class": "product",
+            "snippet": "Designed for high speed\nUAVs with up to 100km/h"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ZIO",
+        "product_type": "Zoom drone payload",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 52,
+            "line_end": 53,
+            "url": "https://gremsy.com",
+            "page_class": "homepage",
+            "snippet": "    *   [![ZIO](/Data/Sites/1/media/products-menu/payloads/zoom/menu-zio.jpg)](https://gremsy.com:443/products/product-payloads/zoom-payloads/zio \"ZIO\")\n        [ZIO](https://gremsy.com:443/products/product-payloads/zoom-payloads/zio \"ZIO\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AEVO",
+        "product_type": "Heavy aerial gimbal (up to 9 kg payload)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0192",
+            "line_start": 109,
+            "line_end": 109,
+            "url": "https://gremsy.com/products/product-gimbals/heavy-gimbals/aevo-gimbal",
+            "page_class": "product",
+            "snippet": "Aevo is the latest generation of heavy-lifting aerial gimbals, boasting a sturdy carbon frame construction, upgraded encoder, and a massive payload capability to give your system a remarkable level of stability and reliability."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Gremsy T3",
+        "product_type": "Mid-size 3-axis aerial gimbal",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 35,
+            "line_end": 36,
+            "url": "https://gremsy.com",
+            "page_class": "homepage",
+            "snippet": "    *   [![Gremsy T3](/Data/Sites/1/media/products-menu/gimbals/mid-size/menu-t3v3.png)](https://gremsy.com:443/products/product-gimbals/mid-size-gimbals/gremsy-t3v3 \"Gremsy T3\")\n        [Gremsy T3](https://gremsy.com:443/products/product-gimbals/mid-size-gimbals/gremsy-t3v3 \"Gremsy T3\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Gremsy T7",
+        "product_type": "Mid-size aerial gimbal",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 37,
+            "line_end": 38,
+            "url": "https://gremsy.com",
+            "page_class": "homepage",
+            "snippet": "    *   [![Gremsy T7](/Data/Sites/1/media/products-menu/gimbals/mid-size/menu-t7.png)](https://gremsy.com:443/products/product-gimbals/mid-size-gimbals/gremsy-t7 \"Gremsy T7\")\n        [Gremsy T7](https://gremsy.com:443/products/product-gimbals/mid-size-gimbals/gremsy-t7 \"Gremsy T7\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "G-Hadron",
+        "product_type": "Tiny aerial gimbal",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 7,
+            "line_end": 8,
+            "url": "https://gremsy.com",
+            "page_class": "homepage",
+            "snippet": "    *   [![G-Hadron](/Data/Sites/1/media/products-menu/gimbals/tiny/menu-g-hadron.jpg)](https://gremsy.com:443/products/product-gimbals/tiny-gimbals/g-hadron \"G-Hadron\")\n        [G-Hadron](https://gremsy.com:443/products/product-gimbals/tiny-gimbals/g-hadron \"G-Hadron\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Pixy series",
+        "product_type": "Light aerial gimbals (Pixy MR, Pixy LR, Pixy S, Pixy U, Pixy WP, Pixy PE, etc.)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 10,
+            "line_end": 12,
+            "url": "https://gremsy.com",
+            "page_class": "homepage",
+            "snippet": "    *   [![Two-Axis Pixy LR](/Data/Sites/1/media/products-menu/gimbals/light/menu-2axis-pixylr-new.jpg)](https://gremsy.com:443/products/product-gimbals/light-gimbals/two-axis-pixy-lr \"Two-Axis Pixy LR\")\n        [Two-Axis Pixy LR](https://gremsy.com:443/products/product-gimbals/light-gimbals/two-axis-pixy-lr \"Two-Axis Pixy LR\")\n    *   [![Pixy MR](/Data/Sites/1/media/products-menu/gimbals/light/menu-pixymr-new.jpg)](https://gremsy.com:443/products/product-gimbals/light-gimbals/pixy-mr \"Pixy MR\")"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": "yes",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0212",
+        "line_start": 117,
+        "line_end": 117,
+        "url": "https://gremsy.com/products/product-payloads/eo-ir-payloads/lynx",
+        "page_class": "product",
+        "snippet": "Lynx NDAA (Boson 640): 60Hz"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0207",
+        "line_start": 121,
+        "line_end": 121,
+        "url": "https://gremsy.com/products/product-gimbals/mid-size-gimbals/gremsy-t3v3",
+        "page_class": "product",
+        "snippet": "![](/assets/images/cer-icon-ndaa.png)\u00a0\u00a0\u00a0 ![](/assets/images/cer-icon-blueuas.png)"
+      }
+    ],
+    "notes": "LYNX has an explicit 'Lynx NDAA (Boson 640)' variant. Gremsy T3 product page shows NDAA certification icon alongside Blue UAS icon."
+  },
+  "blue_uas": {
+    "value": "yes",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0132",
+        "line_start": 129,
+        "line_end": 129,
+        "url": "https://gremsy.com/gremsy-vio-f1-achieves-blue-uas-clearance-a-strategic-milestone",
+        "page_class": "compliance",
+        "snippet": "Gremsy is pleased to announce that the VIO F1, our advanced (EO/IR/LRF) payload, has officially been added to the Blue UAS Framework. This achievement marks a significant step forward in the company\u2019s mission to provide secure, reliable, and high-performance UAV imaging solutions in multiple applications."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0132",
+        "line_start": 139,
+        "line_end": 139,
+        "url": "https://gremsy.com/gremsy-vio-f1-achieves-blue-uas-clearance-a-strategic-milestone",
+        "page_class": "compliance",
+        "snippet": "By meeting the security and interoperability requirements of the DIU\u2019s Blue UAS program, the VIO F1 is not only an innovative payload but also a commercial enabler for businesses seeking reliable UAV imaging solutions."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0207",
+        "line_start": 121,
+        "line_end": 121,
+        "url": "https://gremsy.com/products/product-gimbals/mid-size-gimbals/gremsy-t3v3",
+        "page_class": "product",
+        "snippet": "![](/assets/images/cer-icon-ndaa.png)\u00a0\u00a0\u00a0 ![](/assets/images/cer-icon-blueuas.png)"
+      }
+    ],
+    "notes": "VIO F1 officially added to the DIU Blue UAS Framework (April 2025). T3 product page also shows Blue UAS certification icon."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0214",
+        "line_start": 224,
+        "line_end": 226,
+        "url": "https://gremsy.com/products/product-payloads/eo-ir-payloads/vio",
+        "page_class": "product",
+        "snippet": "VIO F1\nVio F1 is assembled in the US and distributed by Gremsy US\n[ORDER NOW](https://gremsy.us)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0207",
+        "line_start": 115,
+        "line_end": 115,
+        "url": "https://gremsy.com/products/product-gimbals/mid-size-gimbals/gremsy-t3v3",
+        "page_class": "product",
+        "snippet": "[Watch Video](https://www.youtube.com/watch?v=LQzXEjOjRlM) [Buy Now](/gremsy-t3v3-store)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0192",
+        "line_start": 110,
+        "line_end": 110,
+        "url": "https://gremsy.com/products/product-gimbals/heavy-gimbals/aevo-gimbal",
+        "page_class": "product",
+        "snippet": "[ORDER NOW](https://gremsy.com/aevo-gimbal-store)"
+      }
+    ],
+    "notes": "Multiple product SKUs available via online store with ORDER NOW / Buy Now links. VIO F1 assembled in US; VIO G1 in Vietnam. Custom Gimbals engineering service also offered as secondary."
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Vietnam-based gimbal and ISR payload manufacturer in production across tiny, light, mid-size, and heavy platforms (Pixy, Mio, T3, T7, AEVO lines) plus EO/IR and zoom sensors (VIO, LYNX, ORUS L, ZIO). NDAA-compliant and Blue UAS certified. Limited public evidence on U.S. government contracts or integration status with major primes.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 16,
+    "total_cost_usd": 0.7016901,
+    "created_at": "2026-05-04T03:09:48+00:00",
+    "extract_version": "0.1.0"
+  }
+}

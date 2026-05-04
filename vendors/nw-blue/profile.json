@@ -1,0 +1,568 @@
+{
+  "target_id": "nw-blue",
+  "run_id": "canonical",
+  "display_name": "NW Blue",
+  "homepage_url": "https://nwblue.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/nw-blue/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "flight_and_vehicle_control",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 150,
+            "line_end": 151,
+            "url": "https://nwblue.com",
+            "page_class": "homepage",
+            "snippet": "### Autopilots\n](/collections/autopilot)["
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0320",
+            "line_start": 172,
+            "line_end": 174,
+            "url": "https://nwblue.com/products/pro-h757-fpv-flight-controller",
+            "page_class": "product",
+            "snippet": "### NW Blue PRO H757 FPV Flight Controller\nSKU:\u00a0NWB-PROH757\n#### **_Manufactured in U.S.A_**"
+          }
+        ],
+        "notes": "Autopilots are the core product line: CubePilot Cube Orange+, Cube Blue H7, and NW Blue's own PRO H757 FPV Flight Controller manufactured in USA"
+      },
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 185,
+            "line_end": 187,
+            "url": "https://nwblue.com",
+            "page_class": "homepage",
+            "snippet": "[CubePilot](/collections/cubepilot)\n### [Here4 Multiband RTK GNSS](/products/here4-multiband-rtk-gnss)\nSale price$237.00"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 582,
+            "line_end": 588,
+            "url": "https://nwblue.com",
+            "page_class": "homepage",
+            "snippet": "[\n](/products/sf30-c)\n[LightWare](/collections/lightware)\n### [SF30/C (100 m)](/products/sf30-c)\nSale price$299.00\nIn stock\n Add to cartQuick view"
+          }
+        ],
+        "notes": "Here4 Multiband RTK GNSS, HerePro, and LightWare lidar rangefinders (SF20/C, SF30/C, LW20/C)"
+      },
+      {
+        "category": "propulsion_electronics",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 426,
+            "line_end": 432,
+            "url": "https://nwblue.com",
+            "page_class": "homepage",
+            "snippet": "[\n](/products/40f3v2-40a-apd-esc-ndaa)\n[APD](/collections/apd)\n### [40F3v2 - 40A APD ESC NDAA](/products/40f3v2-40a-apd-esc-ndaa)\nSale price$105.00\nIn stock\n Add to cartQuick view"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0187",
+            "line_start": 380,
+            "line_end": 386,
+            "url": "https://nwblue.com/collections/ndaa-compliant-products",
+            "page_class": "compliance",
+            "snippet": "[\n](/products/120f3xv2-120a-apd-esc-ndaa)\n[APD](/collections/apd)\n### [120F3\\[x\\]v2 - 120A APD ESC NDAA](/products/120f3xv2-120a-apd-esc-ndaa)\nSale price$186.00\nPre-order available\n Pre-orderQuick view"
+          }
+        ],
+        "notes": "APD ESCs (40F3v2, 80F3xv2, 120F3xv2, 200F3xv2 NDAA), TBS Lucid 4in1 8S ESC, Hargrave nanoDRIVE 4LPi 4-in-1 ESC"
+      },
+      {
+        "category": "communications",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 222,
+            "line_end": 225,
+            "url": "https://nwblue.com",
+            "page_class": "homepage",
+            "snippet": "[\n](/products/herelink-blue-v1-1)\n[CubePilot](/collections/cubepilot)\n### [Herelink Blue v1.1 Bundle](/products/herelink-blue-v1-1)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0187",
+            "line_start": 191,
+            "line_end": 196,
+            "url": "https://nwblue.com/collections/ndaa-compliant-products",
+            "page_class": "compliance",
+            "snippet": "[\n](/products/rfd-900x-telemetry-bundle)\n[RFDesign](/collections/rfdesign)\n### [RFD 900x Telemetry Bundle. for CubePilot](/products/rfd-900x-telemetry-bundle)\nSale price$305.00\nIn stock"
+          }
+        ],
+        "notes": "Herelink data link, RFDesign RFD 900x telemetry modems, Team Black Sheep Crossfire"
+      },
+      {
+        "category": "power_systems",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 527,
+            "line_end": 533,
+            "url": "https://nwblue.com",
+            "page_class": "homepage",
+            "snippet": "[\n](/products/airbot-3-in-1-power-supply)\n[Airbot](/collections/airbot)\n### [Airbot 3-IN-1 Switching Power Supply](/products/airbot-3-in-1-power-supply)\nSale price$60.00\nIn stock\n Add to cartQuick view"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0187",
+            "line_start": 170,
+            "line_end": 176,
+            "url": "https://nwblue.com/collections/ndaa-compliant-products",
+            "page_class": "compliance",
+            "snippet": "[\n](/products/power-brick-mini)\n[CubePilot](/collections/cubepilot)\n### [Power Brick Mini](/products/power-brick-mini)\nSale price$32.00\nPre-order available\n Pre-orderQuick view"
+          }
+        ],
+        "notes": "CubePilot Power Brick Mini, Airbot PDBs, EchoUAS Power Management boards"
+      },
+      {
+        "category": "airframes",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 28,
+            "line_end": 29,
+            "url": "https://nwblue.com",
+            "page_class": "homepage",
+            "snippet": "*   [UAV Frames](/collections/uav-frames)\n*   [Partner UAVs](/collections/uavs)"
+          }
+        ],
+        "notes": "UAV Frames and Partner UAVs collections listed in navigation; specific frames not detailed in fetched pages"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Portland",
+      "state_or_province": "Oregon",
+      "country": "United States",
+      "address": "7805 SW 40th Ave, #19282, Portland, OR 97219-1643"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0207",
+        "line_start": 157,
+        "line_end": 159,
+        "url": "https://nwblue.com/pages/contact",
+        "page_class": "contact",
+        "snippet": "7805 SW 40th Ave\n#19282\nPortland, OR 97219-1643"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 654,
+        "line_end": 654,
+        "url": "https://nwblue.com",
+        "page_class": "homepage",
+        "snippet": "Portland, Oregon, USA"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "reseller",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 628,
+        "line_end": 629,
+        "url": "https://nwblue.com",
+        "page_class": "homepage",
+        "snippet": "**'As an authorized distributor and North American warehouse for CubePilot, we\u2019re driven not just by delivering the industry\u2019s most trusted UxV components, but by building lasting partnerships through unmatched support.'**\n\\- _Founders Ezekiel & Hillary_"
+      }
+    ],
+    "notes": "Self-described as authorized distributor and North American warehouse for CubePilot; also carries APD, LightWare, RFDesign, Team Black Sheep, Airbot, EchoUAS. Also manufactures own NW Blue-brand products (PRO H757 FPV Flight Controller, made in USA)."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "PRO H757 FPV Flight Controller",
+        "product_type": "flight controller / autopilot (NW Blue own brand, made in USA)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0320",
+            "line_start": 150,
+            "line_end": 152,
+            "url": "https://nwblue.com/products/pro-h757-fpv-flight-controller",
+            "page_class": "product",
+            "snippet": "PRO H757 FPV Flight Controller\n==============================\n[NW Blue](/collections/nw-blue)SKU: NWB-PROH757"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Cube Orange+",
+        "product_type": "autopilot (CubePilot)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 179,
+            "line_end": 181,
+            "url": "https://nwblue.com",
+            "page_class": "homepage",
+            "snippet": "### [Cube Orange+](/products/cube-orange)\nSale price$227.00\nPre-order available"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Cube Blue H7",
+        "product_type": "autopilot \u2013 USA-made Blue UAS listed (CubePilot)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 192,
+            "line_end": 195,
+            "url": "https://nwblue.com",
+            "page_class": "homepage",
+            "snippet": "[CubePilot](/collections/cubepilot)\n### [Cube Blue H7](/products/cube-blue-h7)\nSale price$750.00\nIn stock"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Here4 Multiband RTK GNSS",
+        "product_type": "GNSS / GPS module (CubePilot)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 185,
+            "line_end": 187,
+            "url": "https://nwblue.com",
+            "page_class": "homepage",
+            "snippet": "[CubePilot](/collections/cubepilot)\n### [Here4 Multiband RTK GNSS](/products/here4-multiband-rtk-gnss)\nSale price$237.00"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HerePro",
+        "product_type": "GNSS receiver (CubePilot)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0187",
+            "line_start": 394,
+            "line_end": 397,
+            "url": "https://nwblue.com/collections/ndaa-compliant-products",
+            "page_class": "compliance",
+            "snippet": "[\n](/products/herepro)\n[CubePilot](/collections/cubepilot)\n### [HerePro](/products/herepro)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Herelink Blue v1.1 Bundle",
+        "product_type": "integrated RC + HD video data link (CubePilot)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 222,
+            "line_end": 225,
+            "url": "https://nwblue.com",
+            "page_class": "homepage",
+            "snippet": "[\n](/products/herelink-blue-v1-1)\n[CubePilot](/collections/cubepilot)\n### [Herelink Blue v1.1 Bundle](/products/herelink-blue-v1-1)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "RFD 900x Telemetry Bundle",
+        "product_type": "900 MHz telemetry radio (RFDesign)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0187",
+            "line_start": 191,
+            "line_end": 196,
+            "url": "https://nwblue.com/collections/ndaa-compliant-products",
+            "page_class": "compliance",
+            "snippet": "[\n](/products/rfd-900x-telemetry-bundle)\n[RFDesign](/collections/rfdesign)\n### [RFD 900x Telemetry Bundle. for CubePilot](/products/rfd-900x-telemetry-bundle)\nSale price$305.00\nIn stock"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "APD ESC family (40F3v2 / 80F3xv2 / 120F3xv2 / 200F3xv2)",
+        "product_type": "brushless motor ESC family (APD)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 426,
+            "line_end": 432,
+            "url": "https://nwblue.com",
+            "page_class": "homepage",
+            "snippet": "[\n](/products/40f3v2-40a-apd-esc-ndaa)\n[APD](/collections/apd)\n### [40F3v2 - 40A APD ESC NDAA](/products/40f3v2-40a-apd-esc-ndaa)\nSale price$105.00\nIn stock\n Add to cartQuick view"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SF20/C and SF30/C",
+        "product_type": "lidar rangefinder (LightWare)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 582,
+            "line_end": 594,
+            "url": "https://nwblue.com",
+            "page_class": "homepage",
+            "snippet": "[\n](/products/sf30-c)\n[LightWare](/collections/lightware)\n### [SF30/C (100 m)](/products/sf30-c)\nSale price$299.00\nIn stock\n Add to cartQuick view\n[\n](/products/sf20-c)\n[LightWare](/collections/lightware)\n### [SF20/C (100 m)](/products/sf20-c)\nSale price$279.00\nPre-order available"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Tango 2 - NDAA Version",
+        "product_type": "RC transmitter controller (Team Black Sheep)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 377,
+            "line_end": 379,
+            "url": "https://nwblue.com",
+            "page_class": "homepage",
+            "snippet": "### [Tango 2 - NDAA Version](/products/tango-2)\nSale price$259.95\nPre-order available"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Crossfire NanoRX SE - NDAA Version",
+        "product_type": "RC receiver (Team Black Sheep)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 410,
+            "line_end": 415,
+            "url": "https://nwblue.com",
+            "page_class": "homepage",
+            "snippet": "](/products/crossfire-nanorx-se-ndaa-version)\n[Team Black Sheep](/collections/team-black-sheep)\n### [Crossfire NanoRX SE - NDAA Version](/products/crossfire-nanorx-se-ndaa-version)\nSale price$35.95\nIn stock\n Add to cartQuick view"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "nanoDRIVE 4LPi 4-in-1 ESC",
+        "product_type": "4-in-1 ESC (Hargrave Technologies)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0187",
+            "line_start": 415,
+            "line_end": 420,
+            "url": "https://nwblue.com/collections/ndaa-compliant-products",
+            "page_class": "compliance",
+            "snippet": "[\n](/products/nanodrive-4lpi-4-in-1-esc)\n[Hargrave Technologies](/collections/vendors?q=Hargrave%20Technologies)\n### [nanoDRIVE 4LPi 4-in-1 ESC](/products/nanodrive-4lpi-4-in-1-esc)\nSale price$269.00\nPre-order available"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Airbot Mini Carrier Board",
+        "product_type": "autopilot carrier board (Airbot)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 479,
+            "line_end": 484,
+            "url": "https://nwblue.com",
+            "page_class": "homepage",
+            "snippet": "](/products/airbot-mini-carrier-board-set)\n[CubePilot](/collections/cubepilot)\n### [Airbot Mini Carrier Board](/products/airbot-mini-carrier-board-set)\nSale price$140.00\nIn stock\n Add to cartQuick view"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "EchoUAS Power Management Board",
+        "product_type": "power distribution / management board (EchoUAS)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 565,
+            "line_end": 571,
+            "url": "https://nwblue.com",
+            "page_class": "homepage",
+            "snippet": "[\n](/products/echouas-power-management-board-60v-2ch-2x-5-3v)\n[EchoUAS](/collections/echouas)\n### [EchoUAS Power Management Board 60V 2CH 2x 5.3V](/products/echouas-power-management-board-60v-2ch-2x-5-3v)\nSale price$89.00\nIn stock\n Add to cartQuick view"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": "yes",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 142,
+        "line_end": 142,
+        "url": "https://nwblue.com",
+        "page_class": "homepage",
+        "snippet": "Trusted Source for BlueUAS & NDAA-Compliant UAV Components"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0187",
+        "line_start": 144,
+        "line_end": 146,
+        "url": "https://nwblue.com/collections/ndaa-compliant-products",
+        "page_class": "compliance",
+        "snippet": "NDAA Compliant Products\n=======================\n68 products"
+      }
+    ],
+    "notes": "Site explicitly markets NDAA-compliant products; dedicated NDAA collection with 68 products from CubePilot, APD, LightWare, RFDesign, TBS, EchoUAS"
+  },
+  "blue_uas": {
+    "value": "yes",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 172,
+        "line_end": 174,
+        "url": "https://nwblue.com",
+        "page_class": "homepage",
+        "snippet": "BlueUAS Framework Listed\n------------------------\nCybersecurity tested and approved for use when properly configured."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 142,
+        "line_end": 142,
+        "url": "https://nwblue.com",
+        "page_class": "homepage",
+        "snippet": "Trusted Source for BlueUAS & NDAA-Compliant UAV Components"
+      }
+    ],
+    "notes": "Homepage prominently features 'BlueUAS Framework Listed' section; products described as cybersecurity tested and approved; dedicated blueuas-listed-components collection"
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 2,
+        "line_end": 2,
+        "url": "https://nwblue.com",
+        "page_class": "homepage",
+        "snippet": "Global shipping - Most orders ship same day"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 650,
+        "line_end": 652,
+        "url": "https://nwblue.com",
+        "page_class": "homepage",
+        "snippet": "Secure online payments\nFast shipping and handling\nSame day processing on most in-stock orders"
+      }
+    ],
+    "notes": "Catalog SKUs with listed prices and stock status; same-day order processing on most in-stock orders; global shipping"
+  },
+  "unresolved_questions": [
+    "NW Blue's about-us page was not fetched; exact scope of own-manufactured NW Blue brand products beyond PRO H757 is unclear",
+    "Complete Partner UAVs collection not fetched; unclear which complete drone platforms they distribute"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://nwblue.com/pages/about-us",
+      "reason": "Would confirm company history, distributor vs manufacturer balance, and any additional certifications for the vendor itself",
+      "expected_evidence": [
+        "drone_supply_chain_role",
+        "ndaa",
+        "blue_uas"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://nwblue.com/collections/uavs",
+      "reason": "Partner UAVs collection would clarify which complete airframes NW Blue carries and whether they resell complete OEM drones",
+      "expected_evidence": [
+        "products_categories",
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Reseller of autopilots, GPS, ESCs, telemetry, and airframe components\u2014primarily CubePilot systems and allied platforms. NDAA-compliant and Blue UAS listed. Serves defense, commercial, and academic buyers with same-day shipping. Public evidence confirms certification status and product range; limited independent data on integration capability or program wins beyond retail operations.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 17,
+    "total_cost_usd": 0.5795063,
+    "created_at": "2026-05-04T04:48:12+00:00",
+    "extract_version": "0.1.0"
+  }
+}

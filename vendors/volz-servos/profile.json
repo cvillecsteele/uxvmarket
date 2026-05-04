@@ -1,0 +1,371 @@
+{
+  "target_id": "volz-servos",
+  "run_id": "canonical",
+  "display_name": "Volz Servos",
+  "homepage_url": "https://www.volz-servos.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/volz-servos/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "mechanical_subsystems",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://www.volz-servos.com",
+            "page_class": "homepage",
+            "snippet": "Premier Manufacturer of Electromechanical Actuators \u2022 Volz Servos"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0052",
+            "line_start": 76,
+            "line_end": 76,
+            "url": "https://www.volz-servos.com/advanced-air-mobility",
+            "page_class": "capability",
+            "snippet": "With more than 40 years of experience in air mobility, Volz is best known as a leading manufacturer of electromechanical actuators for aerial vehicles."
+          }
+        ],
+        "notes": "Volz's core product is electromechanical servo actuators \u2014 custom electromechanical mechanisms for UAV/AAM flight control surfaces, tilting mechanisms, landing gear, and propeller pitch"
+      },
+      {
+        "category": "flight_and_vehicle_control",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0052",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://www.volz-servos.com/advanced-air-mobility",
+            "page_class": "capability",
+            "snippet": "Certifiable Flight Control Actuators for AAM & eVTOL \u2022 Volz Servos"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 33,
+            "line_end": 33,
+            "url": "https://www.volz-servos.com",
+            "page_class": "homepage",
+            "snippet": "Advanced air mobility (AAM), unmanned aerial vehicles (UAVs) and even remotely operated vehicles (ROVs): Our technology controls it."
+          }
+        ],
+        "notes": "Actuators explicitly branded as 'Certifiable Flight Control Actuators' for UAV and AAM; used in control surfaces, VTOL tilting, and propeller pitch control"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Offenbach am Main",
+      "state_or_province": null,
+      "country": "Germany",
+      "address": "Heinrich-Krumm-Strasse 5"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0119",
+        "line_start": 49,
+        "line_end": 51,
+        "url": "https://www.volz-servos.com/privacy-policy",
+        "page_class": "company",
+        "snippet": "**Volz Servos GmbH**\nHeinrich-Krumm-Strasse 5\n63073 Offenbach am Main / Germany"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0052",
+        "line_start": 76,
+        "line_end": 76,
+        "url": "https://www.volz-servos.com/advanced-air-mobility",
+        "page_class": "capability",
+        "snippet": "With more than 40 years of experience in air mobility, Volz is best known as a leading manufacturer of electromechanical actuators for aerial vehicles."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 60,
+        "line_end": 60,
+        "url": "https://www.volz-servos.com",
+        "page_class": "homepage",
+        "snippet": "Volz servos are the technological standard for controlling UAVs due to their unbeaten reliability."
+      }
+    ],
+    "notes": "Supplies servo actuators as components to drone OEMs such as BETA Technologies, Dufour Aerospace, Quantum Systems, Zipline, Schiebel, and Insitu"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Standard Actuators (DA series)",
+        "product_type": "standard electromechanical servo actuators (13 mm \u2013 36 mm torque classes)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 8,
+            "line_end": 8,
+            "url": "https://www.volz-servos.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Standard Actuators](/actuators/standard-actuators/ \"Standard Actuators\")"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0080",
+            "line_start": 32,
+            "line_end": 35,
+            "url": "https://www.volz-servos.com/downloads/datasheets",
+            "page_class": "product",
+            "snippet": "### 13 mm class\nDatasheet DA 13\npdf\n735.0 KB"
+          }
+        ],
+        "notes": "Covers DA 13, DA 14, DA 14-N, DA 15, DA 15-N, DA 15-N-HT, DA 20, DA 20-N, DA 22, DA 22-BLDC, DA 26, DA 30, DA 30-HT, DA 36-LP"
+      },
+      {
+        "name": "Redundant Actuators (DA-D / Duplex series)",
+        "product_type": "dual-channel redundant electromechanical servo actuators",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 9,
+            "line_end": 9,
+            "url": "https://www.volz-servos.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Redundant Actuators](/actuators/redundant-actuators/ \"Redundant Actuators\")"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0080",
+            "line_start": 108,
+            "line_end": 112,
+            "url": "https://www.volz-servos.com/downloads/datasheets",
+            "page_class": "product",
+            "snippet": "### Redundant\nDatasheet DA 26-D\npdf\n894.4 KB\n[Download](/fileadmin/user_upload/Downloads/Datasheets/DA-26-Duplex_Datasheet_uni.pdf \"Datasheet DA 26-D\")"
+          }
+        ],
+        "notes": "Includes DA 26-D, DA 30-D, DA 30-HT-D, DA 58-D; triple-redundant position sensors and dual ACE"
+      },
+      {
+        "name": "Submersible Actuators (DA-SUB series)",
+        "product_type": "waterproof electromechanical servo actuators for maritime/UUV applications",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 10,
+            "line_end": 10,
+            "url": "https://www.volz-servos.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Submersible Actuators](/actuators/submersible-actuators/ \"Submersible Actuators\")"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0080",
+            "line_start": 125,
+            "line_end": 130,
+            "url": "https://www.volz-servos.com/downloads/datasheets",
+            "page_class": "product",
+            "snippet": "### Submersible\nDatasheet DA 22-SUB\npdf\n856.1 KB\n[Download](/fileadmin/user_upload/Downloads/Datasheets/DA-22-SUB_Datasheet_Rev_D.pdf \"Datasheet DA 22-SUB\")\nDatasheet DA 26-SUB"
+          }
+        ],
+        "notes": "Includes DA 22-SUB, DA 26-SUB"
+      },
+      {
+        "name": "OPV Actuators (DA-MCCS series)",
+        "product_type": "optionally-piloted-vehicle servo actuators with electromagnetic clutch",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 11,
+            "line_end": 11,
+            "url": "https://www.volz-servos.com",
+            "page_class": "homepage",
+            "snippet": "    *   [OPV Actuators](/actuators/opv-actuators/ \"OPV Actuators\")"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0080",
+            "line_start": 143,
+            "line_end": 148,
+            "url": "https://www.volz-servos.com/downloads/datasheets",
+            "page_class": "product",
+            "snippet": "### DA 30-MCCS - CCD\nDA 30-MCCS - CCD\npdf\n225.1 KB\n[Download](/fileadmin/user_upload/Downloads/CCD/DA_30-MCCS_Configuration_Control_477-6000-05-A_unspecific.pdf \"DA 30-MCCS - CCD\")\n### DA 30-HT-MCCS - CCD"
+          }
+        ],
+        "notes": "Includes DA 30-MCCS, DA 30-HT-MCCS, DA 30-HT-D-MCCS, DA 30-D-MCCS; electromagnetic clutch allows pilot override"
+      },
+      {
+        "name": "Throttle Actuators (DA-T series)",
+        "product_type": "throttle control servo actuators",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0080",
+            "line_start": 95,
+            "line_end": 100,
+            "url": "https://www.volz-servos.com/downloads/datasheets",
+            "page_class": "product",
+            "snippet": "### Throttle\nDatasheet DA 15-T\npdf\n618.6 KB\n[Download](/fileadmin/user_upload/Downloads/Datasheets/DA-15-T_Datasheet_Rev_C.pdf \"Datasheet DA 15-T\")\nDatasheet DA 20-T"
+          }
+        ],
+        "notes": "Includes DA 15-T, DA 20-T, DA 20-TS; compact fly-by-wire throttle actuators"
+      },
+      {
+        "name": "DA 26-D",
+        "product_type": "redundant duplex actuator",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0052",
+            "line_start": 112,
+            "line_end": 112,
+            "url": "https://www.volz-servos.com/advanced-air-mobility",
+            "page_class": "capability",
+            "snippet": "*   the DA 26-D: highest reliability due to redundancy (major components available twice, position sensor featuring a three-channel design)"
+          }
+        ],
+        "notes": "Used in Dufour Aerospace tilt-wing project; triple position sensor, dual critical components"
+      },
+      {
+        "name": "DA 15-T",
+        "product_type": "compact fly-by-wire throttle servo",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0052",
+            "line_start": 113,
+            "line_end": 113,
+            "url": "https://www.volz-servos.com/advanced-air-mobility",
+            "page_class": "capability",
+            "snippet": "*   The throttle servo DA 15-T (compact fly-by-wire actuator with short installation time and minimized installation space and overall weight)"
+          }
+        ],
+        "notes": "Used in Dufour Aerospace tilt-wing project; minimized installation space and weight"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "German manufacturer; no NDAA Section 848/889 claim found anywhere in corpus"
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS or Blue sUAS mention found in corpus"
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0054",
+        "line_start": 38,
+        "line_end": 38,
+        "url": "https://www.volz-servos.com/company",
+        "page_class": "company",
+        "snippet": "Drones, for example, are now capable of revolutionizing both local and supra-regional transport systems. With our know-how, we provide proven technology that can also easily go into series production."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0059",
+        "line_start": 23,
+        "line_end": 23,
+        "url": "https://www.volz-servos.com/company/news/detail/beta-technologies-and-volz-servos-sign-extensive-production-agreement",
+        "page_class": "company",
+        "snippet": "Volz for fly-by-wire aircraft system: Volz Servos has signed a production agreement with BETA Technologies as an electromechanical actuator partner for the ALIA project."
+      }
+    ],
+    "notes": "Full catalog of SKUs with datasheets; signed serial production agreement with BETA Technologies; EN/AS 9100 certified; AOG spare delivery capability stated"
+  },
+  "unresolved_questions": [
+    "No NDAA Section 848/889 compliance statement found \u2014 expected given German origin but worth checking UAV-specific page",
+    "Blue UAS cleared list status not mentioned anywhere in corpus"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.volz-servos.com/actuators/standard-actuators/",
+      "reason": "Would enumerate full standard actuator product lineup with specifications and named SKUs beyond the datasheets index",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "linked from homepage navigation and datasheets page",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.volz-servos.com/actuators/redundant-actuators/",
+      "reason": "Would confirm full Duplex/redundant actuator product lineup and specifications",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "linked from homepage navigation",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.volz-servos.com/uncrewed-aerial-vehicle/",
+      "reason": "UAV-specific page would confirm UAV applications and any NDAA or Blue UAS compliance claims",
+      "expected_evidence": [
+        "products_categories",
+        "ndaa",
+        "blue_uas"
+      ],
+      "source_hint": "linked from homepage navigation",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.volz-servos.com/imprint/",
+      "reason": "German Impressum typically contains full legal address and company registration confirming headquarters details",
+      "expected_evidence": [
+        "headquarters"
+      ],
+      "source_hint": "linked from footer of all fetched pages",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 19,
+    "total_cost_usd": 0.6634871500000001,
+    "created_at": "2026-05-03T01:03:00+00:00",
+    "extract_version": "0.1.0"
+  },
+  "tagline": "German-made electromechanical servo actuators (13\u201330 mm class) for UAV flight control, throttle management, and redundant systems. Production-ready across standard, high-torque, and submersible variants; integrated with BAE Systems, Airbus, Thales, and emerging AAM platforms. NDAA and Blue UAS certification status not publicly confirmed. No major U.S. domestic supply-chain presence documented."
+}

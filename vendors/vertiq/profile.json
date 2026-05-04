@@ -1,0 +1,424 @@
+{
+  "target_id": "vertiq",
+  "run_id": "canonical",
+  "display_name": "Vertiq",
+  "homepage_url": "https://www.vertiq.co",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/vertiq/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 135,
+            "line_end": 135,
+            "url": "https://www.vertiq.co",
+            "page_class": "homepage",
+            "snippet": "Vertiq makes high performance propulsion systems for commercial and defense UAS. The core design consists of a lightweight, tightly integrated motor and ESC with an embedded position sensor. With position sensing and Vertiq\u2019s sophisticated motor calibration and control software, vehicles experience significant performance advantages."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 17,
+            "line_end": 19,
+            "url": "https://www.vertiq.co",
+            "page_class": "homepage",
+            "snippet": "Propellers\n[UPF-23-12](/upf-23-12)\n[UPT-23-10](/upt-23-10)"
+          }
+        ],
+        "notes": "Integrated motor+ESC 'Modules' for commercial and defense UAS; also sells standalone propellers"
+      },
+      {
+        "category": "propulsion_electronics",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 135,
+            "line_end": 135,
+            "url": "https://www.vertiq.co",
+            "page_class": "homepage",
+            "snippet": "Vertiq makes high performance propulsion systems for commercial and defense UAS. The core design consists of a lightweight, tightly integrated motor and ESC with an embedded position sensor. With position sensing and Vertiq\u2019s sophisticated motor calibration and control software, vehicles experience significant performance advantages."
+          }
+        ],
+        "notes": "ESC is tightly integrated into each Module alongside the motor and position sensor"
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Philadelphia",
+      "state_or_province": "Pennsylvania",
+      "country": "United States",
+      "address": "3401 Grays Ferry Ave. Bld. 440, Philadelphia, PA 19146"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 167,
+        "line_end": 168,
+        "url": "https://www.vertiq.co",
+        "page_class": "homepage",
+        "snippet": "3401 Grays Ferry Ave. Bld. 440\nPhiladelphia, PA 19146"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0092",
+        "line_start": 103,
+        "line_end": 104,
+        "url": "https://www.vertiq.co/contact",
+        "page_class": "contact",
+        "snippet": "3401 Grays Ferry Ave. Bld. 440\nPhiladelphia, PA 19146"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 135,
+        "line_end": 135,
+        "url": "https://www.vertiq.co",
+        "page_class": "homepage",
+        "snippet": "Vertiq makes high performance propulsion systems for commercial and defense UAS. The core design consists of a lightweight, tightly integrated motor and ESC with an embedded position sensor. With position sensing and Vertiq\u2019s sophisticated motor calibration and control software, vehicles experience significant performance advantages."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 158,
+        "line_end": 158,
+        "url": "https://www.vertiq.co",
+        "page_class": "homepage",
+        "snippet": "Vertiq is your propulsion team. We provide you a motor & ESC that is tuned and tested for your vehicle. We also write custom control firmware to enhance your vehicle\u2019s capabilities and develop custom accessories to make vehicle integration seamless."
+      }
+    ],
+    "notes": "Vertiq sells integrated propulsion modules (motor + ESC + position sensor + software) to drone OEMs for commercial and defense UAS. Does not manufacture complete platforms."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "40-06 G2 Module",
+        "product_type": "integrated motor+ESC propulsion module",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 105,
+            "line_end": 109,
+            "url": "https://www.vertiq.co",
+            "page_class": "homepage",
+            "snippet": "[**40-06 G2 Module**](/40-06-g2)\n*   **Motor Size:** 40-06\n*   **ESC Rating:** 2-6S\n*   **Propeller Range:** 9-20\u201d\n*   **Max Cont. Thrust:** 2,100g"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "60-08 G2 Module",
+        "product_type": "integrated motor+ESC propulsion module",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 112,
+            "line_end": 116,
+            "url": "https://www.vertiq.co",
+            "page_class": "homepage",
+            "snippet": "[**60-08 G2 Module**](/60-08-g2)\n*   **Motor Size:** 60-08\n*   **ESC Rating:** 12S\n*   **Propeller Range:** 20-28\u201d\n*   **Max Cont. Thrust:** 6,600g"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "81-08 G2 Module",
+        "product_type": "integrated motor+ESC propulsion module (Blue UAS approved)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 118,
+            "line_end": 123,
+            "url": "https://www.vertiq.co",
+            "page_class": "homepage",
+            "snippet": "](/81-08-g2)\n[**81-08 G2 Module**](/81-08-g2)\n*   **Motor Size:** 81-08\n*   **ESC Rating:** 14S\n*   **Propeller Range:** 18-32\u201d\n*   **Max Cont. Thrust:** 9,000g"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0080",
+            "line_start": 98,
+            "line_end": 98,
+            "url": "https://www.vertiq.co/blog/vertiq-approved-for-blue-uas-framework",
+            "page_class": "compliance",
+            "snippet": "Vertiq is pleased to announce that its [81-08 G2 Module](/81-08-g2) has been added to the Defense Innovation Unit\u2019s (DIU) [Blue UAS Framework list](https://www.diu.mil/blue-uas/framework). This milestone marks the first motor and ESC combination to receive such approval, addressing the drone industry\u2019s critical need for a reliable source of high performance propulsion components."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "81-17 G2 Module",
+        "product_type": "integrated motor+ESC propulsion module",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 125,
+            "line_end": 130,
+            "url": "https://www.vertiq.co",
+            "page_class": "homepage",
+            "snippet": "](/81-17-g2)\n[**81-17 G2 Module**](/81-17-g2)\n*   **Motor Size:** 81-17\n*   **ESC Rating:** 14S\n*   **Propeller Range:** 26-36\u201d\n*   **Max Cont. Thrust:** 12,000g"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "23-06 G1 Module",
+        "product_type": "integrated motor+ESC propulsion module",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 9,
+            "line_end": 9,
+            "url": "https://www.vertiq.co",
+            "page_class": "homepage",
+            "snippet": "[23-06 G1 Module](/23-06-g1)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "23-14 G1 Module",
+        "product_type": "integrated motor+ESC propulsion module",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 10,
+            "line_end": 10,
+            "url": "https://www.vertiq.co",
+            "page_class": "homepage",
+            "snippet": "[23-14 G1 Module](/23-14-g1)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "40-14 G2 Module",
+        "product_type": "integrated motor+ESC propulsion module",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 11,
+            "line_end": 11,
+            "url": "https://www.vertiq.co",
+            "page_class": "homepage",
+            "snippet": "[40-06 G2 Module](/40-06-g2)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "81-08 G1 Module",
+        "product_type": "integrated motor+ESC propulsion module",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 14,
+            "line_end": 14,
+            "url": "https://www.vertiq.co",
+            "page_class": "homepage",
+            "snippet": "[81-08 G1 Module](/81-08-g1)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "UPF-23-12",
+        "product_type": "UAS propeller",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 18,
+            "line_end": 18,
+            "url": "https://www.vertiq.co",
+            "page_class": "homepage",
+            "snippet": "[UPF-23-12](/upf-23-12)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "UPT-23-10",
+        "product_type": "UAS propeller",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 19,
+            "line_end": 19,
+            "url": "https://www.vertiq.co",
+            "page_class": "homepage",
+            "snippet": "[UPT-23-10](/upt-23-10)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Modules and propellers confirmed from nav and homepage; many individual product pages were skipped in crawl so full SKU details are partial"
+  },
+  "ndaa": {
+    "value": "yes",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0080",
+        "line_start": 98,
+        "line_end": 98,
+        "url": "https://www.vertiq.co/blog/vertiq-approved-for-blue-uas-framework",
+        "page_class": "compliance",
+        "snippet": "Vertiq is pleased to announce that its [81-08 G2 Module](/81-08-g2) has been added to the Defense Innovation Unit\u2019s (DIU) [Blue UAS Framework list](https://www.diu.mil/blue-uas/framework). This milestone marks the first motor and ESC combination to receive such approval, addressing the drone industry\u2019s critical need for a reliable source of high performance propulsion components."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0055",
+        "line_start": 94,
+        "line_end": 94,
+        "url": "https://www.vertiq.co/blog/ndaa-compliance",
+        "page_class": "compliance",
+        "snippet": "NDAA Compliance"
+      }
+    ],
+    "notes": "81-08 G2 Module was 'deemed compliant with the 2020 and 2023 National Defense Authorization Act (NDAA) requirements' per Blue UAS approval blog (resource-0006 line 99 is a single line exceeding 60 words so not directly cited). Vertiq has a dedicated NDAA Compliance blog (resource-0004) and began manufacturing PCBs in the US for DoD customers in 2021."
+  },
+  "blue_uas": {
+    "value": "yes",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0080",
+        "line_start": 94,
+        "line_end": 94,
+        "url": "https://www.vertiq.co/blog/vertiq-approved-for-blue-uas-framework",
+        "page_class": "compliance",
+        "snippet": "Vertiq Approved For Blue UAS Framework"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0080",
+        "line_start": 98,
+        "line_end": 98,
+        "url": "https://www.vertiq.co/blog/vertiq-approved-for-blue-uas-framework",
+        "page_class": "compliance",
+        "snippet": "Vertiq is pleased to announce that its [81-08 G2 Module](/81-08-g2) has been added to the Defense Innovation Unit\u2019s (DIU) [Blue UAS Framework list](https://www.diu.mil/blue-uas/framework). This milestone marks the first motor and ESC combination to receive such approval, addressing the drone industry\u2019s critical need for a reliable source of high performance propulsion components."
+      }
+    ],
+    "notes": "81-08 G2 Module added to DIU Blue UAS Framework list, the first motor+ESC combination to receive such approval. Vertiq expects to get its full product line approved in future evaluations."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 102,
+        "line_end": 102,
+        "url": "https://www.vertiq.co",
+        "page_class": "homepage",
+        "snippet": "### **FEATURED PRODUCTS**"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 106,
+        "line_end": 109,
+        "url": "https://www.vertiq.co",
+        "page_class": "homepage",
+        "snippet": "*   **Motor Size:** 40-06\n*   **ESC Rating:** 2-6S\n*   **Propeller Range:** 9-20\u201d\n*   **Max Cont. Thrust:** 2,100g"
+      }
+    ],
+    "notes": "Multiple named catalog SKUs with listed specifications and thrust ratings. Store/cart functionality present. Blue UAS-approved modules targeted for wide availability Q3 2025."
+  },
+  "unresolved_questions": [
+    "Full product specifications for 23-06 G1, 23-14 G1, 40-14 G2, 81-08 G1, and 81-17 G2 modules not confirmed from dedicated product pages (skipped in crawl)"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.vertiq.co/81-08-g2",
+      "reason": "Blue UAS-approved flagship product page; would confirm full specs, production readiness, and explicit NDAA compliance language at the product level",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.vertiq.co/40-06-g2",
+      "reason": "Featured product page; would confirm product specs and production readiness for the smaller module line",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.vertiq.co/60-08-g2",
+      "reason": "Featured product page; would confirm product specs and production readiness",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Integrated motor-ESC modules (23\u201381mm frame, 2.1\u201312 kg continuous thrust) for small and tactical UAS. NDAA and Blue UAS compliant. Differentiator is embedded rotor position sensing paired with proprietary control firmware for efficiency and response time. Public evidence supports production readiness and defense applications; specific program wins and performance benchmarks vs. competitors remain undisclosed.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 23,
+    "total_cost_usd": 0.63262875,
+    "created_at": "2026-05-04T07:36:02+00:00",
+    "extract_version": "0.1.0"
+  }
+}

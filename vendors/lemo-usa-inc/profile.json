@@ -1,0 +1,410 @@
+{
+  "target_id": "lemo-usa-inc",
+  "run_id": "canonical",
+  "display_name": "LEMO USA, Inc.",
+  "homepage_url": "https://www.lemo.com/en",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/lemo-usa-inc/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "mechanical_subsystems",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 176,
+            "line_end": 177,
+            "url": "https://www.lemo.com/en",
+            "page_class": "homepage",
+            "snippet": "LEMO produces an extensive range of high quality custom and modular connectors which provide exceptional reliability for a host of applications in the most demanding environments.\n[Discover more](/en/lemo-circular-connectors)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0142",
+            "line_start": 183,
+            "line_end": 183,
+            "url": "https://www.lemo.com/en/industries/transportation-aerospace-uav",
+            "page_class": "other",
+            "snippet": "LEMO products can be found in communication systems (antenna emitters/receivers), navigation systems (autopilot/sensor modules), power and propulsion (power supply units), cameras and surveillance systems, ground control systems (display/control panels) and counter-drone systems (radio frequency inhibitors)."
+          }
+        ],
+        "notes": "LEMO's core business is precision circular push-pull connectors and cable assemblies used as components inside UAV and aerospace systems."
+      },
+      {
+        "category": "communications",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0142",
+            "line_start": 183,
+            "line_end": 183,
+            "url": "https://www.lemo.com/en/industries/transportation-aerospace-uav",
+            "page_class": "other",
+            "snippet": "LEMO products can be found in communication systems (antenna emitters/receivers), navigation systems (autopilot/sensor modules), power and propulsion (power supply units), cameras and surveillance systems, ground control systems (display/control panels) and counter-drone systems (radio frequency inhibitors)."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0148",
+            "line_start": 193,
+            "line_end": 193,
+            "url": "https://www.lemo.com/en/solutions/highlights/m-series-single-pair-ethernet",
+            "page_class": "capability",
+            "snippet": "Thanks to its robust ratchet coupling and IP68-rated sealing, the M Series SPE ensures a secure and reliable connection even in the most demanding environments. It provides a seamless, compact, and efficient solution for applications in UAVs, aerospace, automotive, and industrial automation."
+          }
+        ],
+        "notes": "LEMO connectors are explicitly used in UAV communication systems (antenna emitters/receivers) and the M Series SPE targets high-speed data links in UAVs."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Ecublens",
+      "state_or_province": null,
+      "country": "Switzerland",
+      "address": "Chemin des Champs Courbes 28, 1024 Ecublens, Switzerland"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0038",
+        "line_start": 155,
+        "line_end": 156,
+        "url": "https://www.lemo.com/en/contact-us",
+        "page_class": "contact",
+        "snippet": "LEMO SA (HEADQUARTERS)\n[Chemin des Champs Courbes 28, 1024 Ecublens, Switzerland](<https://maps.google.com/?q=Chemin des Champs Courbes 28, 1024 Ecublens, Switzerland>) [+41 21 695 16 00](<tel:+41 21 695 16 00>) [](fax:)[info@lemo.com](mailto:info@lemo.com) [Learn more](/en/subsidiary/lemo-sa-headquarters)"
+      }
+    ],
+    "notes": "This is the global LEMO SA headquarters. LEMO USA, Inc. is a US subsidiary; no US address was found in the corpus."
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0142",
+        "line_start": 183,
+        "line_end": 183,
+        "url": "https://www.lemo.com/en/industries/transportation-aerospace-uav",
+        "page_class": "other",
+        "snippet": "LEMO products can be found in communication systems (antenna emitters/receivers), navigation systems (autopilot/sensor modules), power and propulsion (power supply units), cameras and surveillance systems, ground control systems (display/control panels) and counter-drone systems (radio frequency inhibitors)."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0148",
+        "line_start": 203,
+        "line_end": 203,
+        "url": "https://www.lemo.com/en/solutions/highlights/m-series-single-pair-ethernet",
+        "page_class": "capability",
+        "snippet": "LEMO provides SPE connector assemblies with pre-qualified cables, delivering optimal performance and reliability in demanding environments such as UAVs, aerospace, automotive, and industrial automation. Each assembly is fully tested to ensure compliance and durability, enabling high-speed data and power transmission for sensors, cameras, LiDAR, radar, actuators, communication modules, and real-time monitoring in autonomous systems and robotics."
+      }
+    ],
+    "notes": "LEMO designs and manufactures precision circular connectors and cable assemblies sold as components that go into UAV communication, navigation, power, camera, and GCS subsystems."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "ORIGINALS",
+        "product_type": "circular push-pull connectors (original series)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 8,
+            "line_end": 8,
+            "url": "https://www.lemo.com/en",
+            "page_class": "homepage",
+            "snippet": "        *   [ORIGINALS](/int_en/solutions/originals.html)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "REDEL P Series",
+        "product_type": "plastic push-pull circular connectors",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0142",
+            "line_start": 198,
+            "line_end": 198,
+            "url": "https://www.lemo.com/en/industries/transportation-aerospace-uav",
+            "page_class": "other",
+            "snippet": "*   [**REDEL P Series - Push-Pull**](/int_en/solutions/redel/redel-p-push-pull.html)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "REDEL SP IP68 Series",
+        "product_type": "IP68-rated plastic push-pull connectors",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 24,
+            "line_end": 24,
+            "url": "https://www.lemo.com/en",
+            "page_class": "homepage",
+            "snippet": "        *   [REDEL SP IP68 Series](/en/solutions/highlights/redel-sp-ip68-series)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "OPTIMA M Series",
+        "product_type": "rugged ratchet-coupling circular connectors (IP68, Mil-STD)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0142",
+            "line_start": 201,
+            "line_end": 201,
+            "url": "https://www.lemo.com/en/industries/transportation-aerospace-uav",
+            "page_class": "other",
+            "snippet": "*   [**M Series - Rugged Ratchet Coupling**](/int_en/solutions/optima/m-ratchet-coupling.html)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "OPTIMA F Series",
+        "product_type": "rugged push-pull circular connectors (IP67, Mil-STD)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0143",
+            "line_start": 171,
+            "line_end": 172,
+            "url": "https://www.lemo.com/int_en/solutions/optima.html",
+            "page_class": "capability",
+            "snippet": "![F - Rugged Push-Pull](/media/catalog/category/F-series-880x544.png)\n[F - Rugged Push-Pull](https://www.lemo.com/int_en/solutions/optima/f-rugged-push-pull.html)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "OPTIMA D Series",
+        "product_type": "rugged miniature push-pull connectors (IP68, Mil-STD 810H)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0143",
+            "line_start": 175,
+            "line_end": 176,
+            "url": "https://www.lemo.com/int_en/solutions/optima.html",
+            "page_class": "capability",
+            "snippet": "![D - Rugged Miniature Push-Pull](/media/catalog/category/redel-d-series-880x544.png)\n[D - Rugged Miniature Push-Pull](https://www.lemo.com/int_en/solutions/optima/d-rugged-miniature-push-pull.html)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SUPREME",
+        "product_type": "high-performance rugged circular connectors",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 11,
+            "line_end": 11,
+            "url": "https://www.lemo.com/en",
+            "page_class": "homepage",
+            "snippet": "        *   [SUPREME](/int_en/solutions/supreme.html)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "00 NIM-CAMAC",
+        "product_type": "coaxial 50\u03a9 self-latching connectors for test & measurement",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0147",
+            "line_start": 176,
+            "line_end": 177,
+            "url": "https://www.lemo.com/int_en/solutions/specialties.html",
+            "page_class": "capability",
+            "snippet": "![00 - NIM-CAMAC](/media/catalog/category/00_series-880x544.png)\n[00 - NIM-CAMAC](https://www.lemo.com/int_en/solutions/specialties/00-nim-camac.html)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "3K.93C.Y SMPTE Hybrid",
+        "product_type": "hybrid fiber-optic connector for broadcast HDTV (SMPTE 304)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0147",
+            "line_start": 172,
+            "line_end": 173,
+            "url": "https://www.lemo.com/int_en/solutions/specialties.html",
+            "page_class": "capability",
+            "snippet": "![3K.93C.Y - SMPTE Hybrid](/media/catalog/category/3k93c_series-880x544.png)\n[3K.93C.Y - SMPTE Hybrid](https://www.lemo.com/int_en/solutions/specialties/3k-93c-y-smpte-hybrid.html)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "OPTIMA M Series Single Pair Ethernet (SPE)",
+        "product_type": "single-pair Ethernet circular connectors for UAV/aerospace data links",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0148",
+            "line_start": 193,
+            "line_end": 193,
+            "url": "https://www.lemo.com/en/solutions/highlights/m-series-single-pair-ethernet",
+            "page_class": "capability",
+            "snippet": "Thanks to its robust ratchet coupling and IP68-rated sealing, the M Series SPE ensures a secure and reliable connection even in the most demanding environments. It provides a seamless, compact, and efficient solution for applications in UAVs, aerospace, automotive, and industrial automation."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Technical cables",
+        "product_type": "high-performance interconnect cables",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 180,
+            "line_end": 181,
+            "url": "https://www.lemo.com/en",
+            "page_class": "homepage",
+            "snippet": "LEMO designs, tests and manufactures high quality cable solutions which meet the demands of the most exacting applications and industries.\n[Discover more](/en/cables)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Cable Assembly Service",
+        "product_type": "custom cable assembly services",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 18,
+            "line_end": 18,
+            "url": "https://www.lemo.com/en",
+            "page_class": "homepage",
+            "snippet": "        *   [Cable Assembly Service](/en/solutions/service/cable-assembly-service)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Core product families identified. Thousands of SKUs exist; only families listed here."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0143",
+        "line_start": 244,
+        "line_end": 244,
+        "url": "https://www.lemo.com/int_en/solutions/optima.html",
+        "page_class": "capability",
+        "snippet": "(2278 results)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 191,
+        "line_end": 191,
+        "url": "https://www.lemo.com/en",
+        "page_class": "homepage",
+        "snippet": "[Find the ideal solution](/int_en/productfinder)"
+      }
+    ],
+    "notes": "LEMO operates a full production catalog with thousands of SKUs (e.g., 2278 M Series results, 759 F Series results, 618 00 NIM-CAMAC results), an online product finder, and supports sample and quote requests, indicating serial production at scale."
+  },
+  "unresolved_questions": [
+    "LEMO USA, Inc. US headquarters address not found in corpus \u2014 global site only covers LEMO Group (Swiss parent)",
+    "NDAA Section 848/889 compliance status not disclosed",
+    "Blue UAS cleared list status not found"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.lemo.com/en/contact-us",
+      "reason": "Contact page would reveal LEMO USA, Inc. US address and potentially subsidiary contact details for headquarters field.",
+      "expected_evidence": [
+        "headquarters"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=contact",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.lemo.com/en/our-world/company/about-us",
+      "reason": "About Us page would confirm parent company headquarters (Switzerland) and potentially list US subsidiary location.",
+      "expected_evidence": [
+        "headquarters",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=company",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.lemo.com/en/our-world/company/facts-and-figures",
+      "reason": "Facts and figures page would provide company size, location data, and manufacturing scale for headquarters and readiness.",
+      "expected_evidence": [
+        "headquarters",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=company",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "tagline": "Swiss-headquartered manufacturer of push-pull circular connectors (ORIGINALS, REDEL, OPTIMA, SUPREME series) and technical cables serving defense, aerospace, and UAV applications. Production-ready across multiple environmental grades from standard to extreme. NDAA and Blue UAS certification status unknown; public evidence of specific unmanned-systems contracts or programs is not evident.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 13,
+    "total_cost_usd": 0.3469894,
+    "created_at": "2026-05-04T03:49:59+00:00",
+    "extract_version": "0.1.0"
+  }
+}

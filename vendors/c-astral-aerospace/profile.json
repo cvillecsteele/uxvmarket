@@ -1,0 +1,403 @@
+{
+  "target_id": "c-astral-aerospace",
+  "run_id": "canonical",
+  "display_name": "C-Astral Aerospace",
+  "homepage_url": "https://www.c-astral.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/c-astral-aerospace/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "airframes",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0098",
+            "line_start": 18,
+            "line_end": 18,
+            "url": "https://www.c-astral.com/en/about",
+            "page_class": "company",
+            "snippet": "C-ASTRAL Aerospace is a global market leader with an established reputation in the specialized, fixed-wing small Unmanned Aircraft Systems (UAS) manufacturing and services field."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 69,
+            "line_end": 70,
+            "url": "https://www.c-astral.com",
+            "page_class": "homepage",
+            "snippet": "Our Unmanned Aircraft Systems\n-----------------------------"
+          }
+        ],
+        "notes": "Complete fixed-wing and eVTOL UAS platforms (SQA eVTOL, Bramor C4EYE, Bramor ppX, Bramor aGX, ATLAS AS90X, MWT). Core business."
+      },
+      {
+        "category": "isr_payloads",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0007",
+            "line_start": 55,
+            "line_end": 55,
+            "url": "https://www.c-astral.com/en/unmanned-systems/sqa-evtol",
+            "page_class": "capability",
+            "snippet": "\u2022 EYE-X HD 8 gimbal camera"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0007",
+            "line_start": 144,
+            "line_end": 144,
+            "url": "https://www.c-astral.com/en/unmanned-systems/sqa-evtol",
+            "page_class": "capability",
+            "snippet": "80X EO - LWIR 8x / 40x EO - LWIR 2x"
+          }
+        ],
+        "notes": "EYE-X HD stabilized multi-sensor gimbal cameras designed and integrated in-house."
+      },
+      {
+        "category": "communications",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0007",
+            "line_start": 136,
+            "line_end": 136,
+            "url": "https://www.c-astral.com/en/unmanned-systems/sqa-evtol",
+            "page_class": "capability",
+            "snippet": "from 1 GHz up to 5 GHz in MANET, MIMO or NBP configurations"
+          }
+        ],
+        "notes": "DYN Micro Datalink is a proprietary datalink product with its own dedicated page (skipped). C-Astral develops proprietary MANET/MIMO mesh data links."
+      },
+      {
+        "category": "ground_segment",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0007",
+            "line_start": 48,
+            "line_end": 48,
+            "url": "https://www.c-astral.com/en/unmanned-systems/sqa-evtol",
+            "page_class": "capability",
+            "snippet": "With C3P you can plan and execute your flight missions, control the flight parameters and sensors in real-time and collect and aggregate geospatial data."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0007",
+            "line_start": 62,
+            "line_end": 62,
+            "url": "https://www.c-astral.com/en/unmanned-systems/sqa-evtol",
+            "page_class": "capability",
+            "snippet": "\u2022 C3P flight control software"
+          }
+        ],
+        "notes": "C3P command, control, communications and planning software with tablet GCS \u2014 has its own dedicated product page (skipped in crawl)."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "C3P Software and DYN Micro Datalink pages were skipped_class_budget; categories may be upgraded after those pages are fetched."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Ajdovscina",
+      "state_or_province": null,
+      "country": "Slovenia",
+      "address": "Mirce 26, SI-5270 Ajdovscina"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0005",
+        "line_start": 250,
+        "line_end": 254,
+        "url": "https://www.c-astral.com",
+        "page_class": "homepage",
+        "snippet": "##### Headquarters\nC-Astral d.o.o.\nMirce 26\nSI-5270 Ajdovscina\nSlovenia"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0098",
+        "line_start": 103,
+        "line_end": 105,
+        "url": "https://www.c-astral.com/en/about",
+        "page_class": "company",
+        "snippet": "C-astral d.o.o.\nMirce 26\nSI-5270 Ajdovscina"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "oem",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0098",
+        "line_start": 18,
+        "line_end": 18,
+        "url": "https://www.c-astral.com/en/about",
+        "page_class": "company",
+        "snippet": "C-ASTRAL Aerospace is a global market leader with an established reputation in the specialized, fixed-wing small Unmanned Aircraft Systems (UAS) manufacturing and services field."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0098",
+        "line_start": 100,
+        "line_end": 100,
+        "url": "https://www.c-astral.com/en/about",
+        "page_class": "company",
+        "snippet": "The company is a global market leader with established reputation in the specialized, fixed wing small Unmanned Aircraft Systems (UAS) manufacturing and services field, with a specific focus on high productivity, endurance, surveying and remote sensing between the commercial UAS operators, larger institutional networks."
+      }
+    ],
+    "notes": "Designs and manufactures complete fixed-wing and eVTOL UAS platforms, deployed by 10+ sovereign entities and 200+ commercial operators globally."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "SQA eVTOL",
+        "product_type": "eVTOL blended wing body UAS (ISR)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0007",
+            "line_start": 16,
+            "line_end": 16,
+            "url": "https://www.c-astral.com/en/unmanned-systems/sqa-evtol",
+            "page_class": "capability",
+            "snippet": "SQA eVTOL"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SQA2 eVTOL",
+        "product_type": "eVTOL blended wing body UAS (ISR, Red Dot Award winner)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0013",
+            "line_start": 15,
+            "line_end": 15,
+            "url": "https://www.c-astral.com/en/newsroom/72/c-astral-aerospace-unveils-new-stealthy-mwt-medi-wing-tactical-delivery-drone-and-awardwinning-sqa2-evtol-augmented-by-auterion-at-auvsi-xponential-2025",
+            "page_class": "news",
+            "snippet": "C-Astral Aerospace Unveils new, stealthy MWT (Medi Wing Tactical) Delivery Drone and AwardWinning SQA2 eVTOL Augmented by Auterion at AUVSI Xponential 2025"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Bramor C4EYE",
+        "product_type": "fixed-wing UAS for ISR / surveillance",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0006",
+            "line_start": 28,
+            "line_end": 28,
+            "url": "https://www.c-astral.com/en/unmanned-systems",
+            "page_class": "capability",
+            "snippet": "Bramor C4EYE"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Bramor ppX",
+        "product_type": "survey-grade fixed-wing UAS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0006",
+            "line_start": 60,
+            "line_end": 60,
+            "url": "https://www.c-astral.com/en/unmanned-systems",
+            "page_class": "capability",
+            "snippet": "Bramor ppX"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Bramor aGX",
+        "product_type": "precision agriculture fixed-wing UAS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0006",
+            "line_start": 50,
+            "line_end": 50,
+            "url": "https://www.c-astral.com/en/unmanned-systems",
+            "page_class": "capability",
+            "snippet": "Bramor aGX"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ATLAS AS90X",
+        "product_type": "small fixed-wing UAS for first responders / special ops",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0006",
+            "line_start": 39,
+            "line_end": 39,
+            "url": "https://www.c-astral.com/en/unmanned-systems",
+            "page_class": "capability",
+            "snippet": "ATLAS AS90X"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MWT (Medi Wing Tactical)",
+        "product_type": "high-speed tactical delivery drone (blended wing)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0013",
+            "line_start": 15,
+            "line_end": 15,
+            "url": "https://www.c-astral.com/en/newsroom/72/c-astral-aerospace-unveils-new-stealthy-mwt-medi-wing-tactical-delivery-drone-and-awardwinning-sqa2-evtol-augmented-by-auterion-at-auvsi-xponential-2025",
+            "page_class": "news",
+            "snippet": "C-Astral Aerospace Unveils new, stealthy MWT (Medi Wing Tactical) Delivery Drone and AwardWinning SQA2 eVTOL Augmented by Auterion at AUVSI Xponential 2025"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "C3P Software",
+        "product_type": "command, control, communications and planning software / GCS",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0007",
+            "line_start": 48,
+            "line_end": 48,
+            "url": "https://www.c-astral.com/en/unmanned-systems/sqa-evtol",
+            "page_class": "capability",
+            "snippet": "With C3P you can plan and execute your flight missions, control the flight parameters and sensors in real-time and collect and aggregate geospatial data."
+          }
+        ],
+        "notes": "Dedicated product page exists but was skipped in crawl; sold bundled with UAS systems and potentially standalone."
+      },
+      {
+        "name": "DYN Micro Datalink",
+        "product_type": "proprietary mesh datalink system",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 9,
+            "line_end": 9,
+            "url": "https://www.c-astral.com",
+            "page_class": "homepage",
+            "snippet": "*   [DYN Micro Datalink](/en/dyn-micro-datalink)"
+          }
+        ],
+        "notes": "Dedicated product page skipped in crawl; PDF brochure available from SQA product page."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "C3P Software and DYN Micro Datalink product pages were skipped; fetch requests added for more detail."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0098",
+        "line_start": 100,
+        "line_end": 100,
+        "url": "https://www.c-astral.com/en/about",
+        "page_class": "company",
+        "snippet": "The company is a global market leader with established reputation in the specialized, fixed wing small Unmanned Aircraft Systems (UAS) manufacturing and services field, with a specific focus on high productivity, endurance, surveying and remote sensing between the commercial UAS operators, larger institutional networks."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0013",
+        "line_start": 24,
+        "line_end": 24,
+        "url": "https://www.c-astral.com/en/newsroom/72/c-astral-aerospace-unveils-new-stealthy-mwt-medi-wing-tactical-delivery-drone-and-awardwinning-sqa2-evtol-augmented-by-auterion-at-auvsi-xponential-2025",
+        "page_class": "news",
+        "snippet": "C-Astral Aerospace, based in Slovenia (EU) designs high-endurance, blended wing body UAS since 2007, government and commercial use, with systems deployed in over 70 countries. The SQA2\u2019s Red Dot Award highlights its innovative design and global impact."
+      }
+    ],
+    "notes": "Field-proven systems deployed in 70+ countries with 120,000+ flight hours. Active spare parts quotation available."
+  },
+  "unresolved_questions": [
+    "C3P Software product page not fetched \u2014 unable to confirm if sold standalone or bundled-only, and exact feature set.",
+    "DYN Micro Datalink product page not fetched \u2014 datalink specs and standalone sales status unknown.",
+    "No NDAA/Blue UAS compliance information found; company is EU-based (Slovenia) so may not pursue US compliance listings."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.c-astral.com/en/c3p-software",
+      "reason": "Dedicated page for C3P software product; would clarify whether it is sold standalone (affecting ground_segment classification), feature set, and any compliance claims.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.c-astral.com/en/dyn-micro-datalink",
+      "reason": "Dedicated page for DYN Micro Datalink; would confirm product specs, standalone vs. bundled sale, and strengthen communications category evidence.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 21,
+    "total_cost_usd": 0.6279249000000001,
+    "created_at": "2026-05-03T14:53:46+00:00",
+    "extract_version": "0.1.0"
+  },
+  "tagline": "Slovenian OEM producing fixed-wing and blended-wing ISR platforms (Bramor C4EYE, SQA eVTOL, ATLAS AS90X) and survey-grade airframes with 3+ hour endurance, plus stabilized EO/IR gimbals and ground-control software. Field-proven in European operations. NDAA and Blue UAS certification status unknown; no named US defense contracts in public record."
+}

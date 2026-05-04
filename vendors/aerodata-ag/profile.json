@@ -1,0 +1,387 @@
+{
+  "target_id": "aerodata-ag",
+  "run_id": "canonical",
+  "display_name": "Aerodata AG",
+  "homepage_url": "https://www.aerodata.de",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/aerodata-ag/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "airframes",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0036",
+            "line_start": 103,
+            "line_end": 103,
+            "url": "https://www.aerodata.de/en/surveillance/aeroforce-x",
+            "page_class": "other",
+            "snippet": "The modular concept of our MALE UAS enables an adaptable design for a wide range of maritime surveillance scenarios."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0022",
+            "line_start": 100,
+            "line_end": 100,
+            "url": "https://www.aerodata.de/en/flight-inspection/aerofis-flybot",
+            "page_class": "other",
+            "snippet": "AeroFIS\u00ae Flybot"
+          }
+        ],
+        "notes": "AeroForce\u00ae X is a complete MALE UAS; AeroFIS\u00ae Flybot is a purpose-built multicopter UAS"
+      },
+      {
+        "category": "isr_payloads",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0018",
+            "line_start": 102,
+            "line_end": 102,
+            "url": "https://www.aerodata.de/en/surveillance/octopod",
+            "page_class": "other",
+            "snippet": "The OctoPod is our integrated package solution for the external installation of various monitoring sensors on the aircraft."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0018",
+            "line_start": 125,
+            "line_end": 125,
+            "url": "https://www.aerodata.de/en/surveillance/octopod",
+            "page_class": "other",
+            "snippet": "An EO/IR System integrates Electro-Optical (EO) and Infrared (IR) sensors for optical target identification, target tracking, and comprehensive evidence gathering. It enables surveillance and reconnaissance across various operational scenarios."
+          }
+        ],
+        "notes": "OctoPod is an integrated sensor pod carrying EO/IR, SLAR radar, laser fluorosensor and other maritime surveillance sensors"
+      },
+      {
+        "category": "ground_segment",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0021",
+            "line_start": 102,
+            "line_end": 102,
+            "url": "https://www.aerodata.de/en/surveillance/aeromission",
+            "page_class": "other",
+            "snippet": "AeroMission\u00ae, our integrated mission management system, is the solution for all airborne surveillance and reconnaissance scenarios."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0019",
+            "line_start": 100,
+            "line_end": 100,
+            "url": "https://www.aerodata.de/en/surveillance/prometheon",
+            "page_class": "other",
+            "snippet": "Prometheon"
+          }
+        ],
+        "notes": "AeroMission\u00ae is an integrated mission management system for airborne surveillance; Prometheon is a multi-domain information management and C2 system"
+      },
+      {
+        "category": "test_and_measurement",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0020",
+            "line_start": 104,
+            "line_end": 104,
+            "url": "https://www.aerodata.de/en/flight-inspection",
+            "page_class": "product",
+            "snippet": "For more safety in air traffic"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 104,
+            "line_end": 104,
+            "url": "https://www.aerodata.de/en",
+            "page_class": "homepage",
+            "snippet": "We are a globally represented company in specialised aviation and the world market leader in the field of flight inspection systems."
+          }
+        ],
+        "notes": "AeroFIS\u00ae flight inspection system is described as used worldwide for calibration and inspection of navigation systems; this is their primary legacy product line"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Braunschweig",
+      "state_or_province": null,
+      "country": "Germany",
+      "address": "Hermann-Blenk-Stra\u00dfe 34-36, 38108 Braunschweig"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 210,
+        "line_end": 212,
+        "url": "https://www.aerodata.de/en",
+        "page_class": "homepage",
+        "snippet": "Hermann-Blenk-Stra\u00dfe 34 - 36\n38108 Braunschweig\nDeutschland"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "oem",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0036",
+        "line_start": 102,
+        "line_end": 102,
+        "url": "https://www.aerodata.de/en/surveillance/aeroforce-x",
+        "page_class": "other",
+        "snippet": "With AeroForce\u00ae X, we offer an innovative, tailor-made complete solution that meets the growing demands in the field of intelligent surveillance and reconnaissance (ISR)."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0036",
+        "line_start": 103,
+        "line_end": 103,
+        "url": "https://www.aerodata.de/en/surveillance/aeroforce-x",
+        "page_class": "other",
+        "snippet": "The modular concept of our MALE UAS enables an adaptable design for a wide range of maritime surveillance scenarios."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0022",
+        "line_start": 102,
+        "line_end": 102,
+        "url": "https://www.aerodata.de/en/flight-inspection/aerofis-flybot",
+        "page_class": "other",
+        "snippet": "Our AeroFIS\u00ae Flybot is a small unmanned aircraft system (UAS) equipped with measuring devices and based on a multicopter. The AeroFIS\u00ae Flybot makes it possible to inspect navigation systems in a simple and cost-effective way."
+      }
+    ],
+    "notes": "Designs and manufactures complete UAS platforms (AeroForce\u00ae X MALE UAS, AeroFIS\u00ae Flybot multicopter). Also develops integrated mission management systems and integrates sensors into aircraft."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "AeroForce\u00ae X",
+        "product_type": "MALE UAS for maritime surveillance and reconnaissance",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0036",
+            "line_start": 100,
+            "line_end": 100,
+            "url": "https://www.aerodata.de/en/surveillance/aeroforce-x",
+            "page_class": "other",
+            "snippet": "AeroForce\u00ae X"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AeroFIS\u00ae Flybot",
+        "product_type": "Multicopter UAS for flight inspection of navigation systems",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0022",
+            "line_start": 100,
+            "line_end": 100,
+            "url": "https://www.aerodata.de/en/flight-inspection/aerofis-flybot",
+            "page_class": "other",
+            "snippet": "AeroFIS\u00ae Flybot"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AeroFIS\u00ae",
+        "product_type": "Automated flight inspection system for manned aircraft",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0020",
+            "line_start": 122,
+            "line_end": 124,
+            "url": "https://www.aerodata.de/en/flight-inspection",
+            "page_class": "product",
+            "snippet": "--------\nFlight inspection with precision\nMaximum accuracy, integrity and reliable results - our AeroFIS\u00ae flight inspection system offers all of this. It is not only characterised by minimal personnel deployment and short flight times, but also offers numerous other advantages. Among other things, AeroFIS\u00ae can be used to create flight inspection reports during the flight."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HeliFIS\u00ae",
+        "product_type": "Flight inspection system for helicopters",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0020",
+            "line_start": 146,
+            "line_end": 148,
+            "url": "https://www.aerodata.de/en/flight-inspection",
+            "page_class": "product",
+            "snippet": "HeliFIS\u00ae\n--------\nThe efficient solution for helicopters"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AeroMission\u00ae",
+        "product_type": "Integrated mission management system for airborne surveillance",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0021",
+            "line_start": 100,
+            "line_end": 102,
+            "url": "https://www.aerodata.de/en/surveillance/aeromission",
+            "page_class": "other",
+            "snippet": "AeroMission\u00ae\n============\nAeroMission\u00ae, our integrated mission management system, is the solution for all airborne surveillance and reconnaissance scenarios."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Prometheon",
+        "product_type": "Multi-domain information management system for surveillance/reconnaissance",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0019",
+            "line_start": 100,
+            "line_end": 100,
+            "url": "https://www.aerodata.de/en/surveillance/prometheon",
+            "page_class": "other",
+            "snippet": "Prometheon"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "OctoPod",
+        "product_type": "Integrated multi-sensor pod for maritime surveillance (belly-mounted)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0018",
+            "line_start": 100,
+            "line_end": 102,
+            "url": "https://www.aerodata.de/en/surveillance/octopod",
+            "page_class": "other",
+            "snippet": "OctoPod\n=======\nThe OctoPod is our integrated package solution for the external installation of various monitoring sensors on the aircraft."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0036",
+        "line_start": 104,
+        "line_end": 104,
+        "url": "https://www.aerodata.de/en/surveillance/aeroforce-x",
+        "page_class": "other",
+        "snippet": "The platform is ITAR-free, which means it can be used in international missions without US restrictions."
+      }
+    ],
+    "notes": "Site mentions ITAR-free status for AeroForce\u00ae X but does not address NDAA Section 848/889 compliance. Company is German-headquartered."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0020",
+        "line_start": 177,
+        "line_end": 177,
+        "url": "https://www.aerodata.de/en/flight-inspection",
+        "page_class": "product",
+        "snippet": "##### [Successful acceptance of two Flight Inspection Systems](/en/company/news-press/details/successful-acceptance-of-two-flight-inspection-systems-186/)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0020",
+        "line_start": 181,
+        "line_end": 182,
+        "url": "https://www.aerodata.de/en/flight-inspection",
+        "page_class": "product",
+        "snippet": "](/en/company/news-press/details/final-acceptance-and-delivery-of-a-flight-inspection-aircraft-to-turkish-aerospace-140/ \"Final Acceptance and delivery of a flight inspection aircraft to Turkish Aerospace\")\n##### [Final Acceptance and delivery of a flight inspection aircraft to Turkish Aerospace](/en/company/news-press/details/final-acceptance-and-delivery-of-a-flight-inspection-aircraft-to-turkish-aerospace-140/)"
+      }
+    ],
+    "notes": "Documented deliveries to NAV CANADA, Turkish Aerospace, and BULATSA. Catalog products with downloadable flyers and serial production deliveries."
+  },
+  "unresolved_questions": [
+    "AeroFIS\u00ae and HeliFIS\u00ae product pages were not fetched (skipped); additional detail on those products unavailable",
+    "No information on NDAA 848/889 compliance status"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.aerodata.de/en/flight-inspection/aerofis/",
+      "reason": "AeroFIS\u00ae product page would confirm product specifications and whether it is offered for unmanned platforms, improving products and drone_supply_chain_role confidence",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "guessed from site navigation on resource-0001 line 13",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.aerodata.de/en/flight-inspection/helifis/",
+      "reason": "HeliFIS\u00ae product page would confirm product type and whether it has UAS variants",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "guessed from site navigation on resource-0001 line 15",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "complete",
+  "tagline": "German OEM producing automated flight inspection systems (AeroFIS\u00ae, HeliFIS\u00ae), MALE ISR platforms (AeroForce\u00ae X), and airborne mission management payloads (AeroMission\u00ae, Prometheon, OctoPod). Claims market leadership in flight inspection; production-ready across airframes, payloads, and ground stations. NDAA and Blue UAS certification status unknown. Public evidence on surveillance product maturity and US contract history is sparse.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 17,
+    "total_cost_usd": 0.6673089500000001,
+    "created_at": "2026-05-03T20:52:39+00:00",
+    "extract_version": "0.1.0"
+  }
+}

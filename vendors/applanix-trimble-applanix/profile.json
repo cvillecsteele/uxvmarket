@@ -1,0 +1,375 @@
+{
+  "target_id": "applanix-trimble-applanix",
+  "run_id": "canonical",
+  "display_name": "Applanix (Trimble Applanix)",
+  "homepage_url": "https://www.applanix.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/applanix-trimble-applanix/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0004",
+            "line_start": 24,
+            "line_end": 29,
+            "url": "https://www.applanix.com/downloads/products/brochures/corporate-brochure.htm",
+            "page_class": "product",
+            "snippet": "*   Mobile position and orientation solutions for sensors and vehicles\n*   Industry-leading GNSS-aided inertial technology\n*   Direct Georeferencing solutions for imaging devices\n*   Sensor fusion and complex systems integrations\n*   Real-time and post-mission mobile mapping software and processes\n*   Deep understanding of Inertial technologies & manufacturing"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0004",
+            "line_start": 70,
+            "line_end": 71,
+            "url": "https://www.applanix.com/downloads/products/brochures/corporate-brochure.htm",
+            "page_class": "product",
+            "snippet": "#### Trimble APX UAV\nA high-performance GNSS-inertial (GNSS + INS) OEM solution for UAVs, offering enhanced mapping efficiency and accuracy in a compact and lightweight design"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0004",
+            "line_start": 75,
+            "line_end": 76,
+            "url": "https://www.applanix.com/downloads/products/brochures/corporate-brochure.htm",
+            "page_class": "product",
+            "snippet": "#### Trimble AP+ Air\nThe Trimble AP+ Air GNSS-inertial (GNSS + INS) system is a compact and versatile OEM solution designed for robust airborne positioning and direct georeferencing, seamlessly compatible with both UAVs and crewed platforms"
+          }
+        ],
+        "notes": "Core business: GNSS-aided inertial positioning systems (GNSS+INS OEM modules) for UAVs, aircraft, marine vessels, and land vehicles."
+      },
+      {
+        "category": "flight_and_vehicle_control",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0004",
+            "line_start": 85,
+            "line_end": 86,
+            "url": "https://www.applanix.com/downloads/products/brochures/corporate-brochure.htm",
+            "page_class": "product",
+            "snippet": "#### Trimble PX-1 RTX\nAdvanced air mobility solution for UAV navigation, guidance and control"
+          }
+        ],
+        "notes": "Trimble PX-1 RTX described as providing UAV navigation, guidance and control \u2014 autopilot-level functionality."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Product list extracted from single corporate brochure page; full breadth confirmed but individual product pages not fetched."
+  },
+  "headquarters": {
+    "value": null,
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "evidence": [],
+    "notes": "Contact page (https://www.applanix.com/en/contact) was discovered but skipped due to budget. No address disclosed on the fetched brochure page."
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0004",
+        "line_start": 65,
+        "line_end": 66,
+        "url": "https://www.applanix.com/downloads/products/brochures/corporate-brochure.htm",
+        "page_class": "product",
+        "snippet": "#### Trimble APX RTX\nThe Trimble APX RTX offers premium direct georeferencing solutions for UAV mapping sensors, enabling OEMs and drone payload integrators to easily achieve high-accuracy mapping in variable environments."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0004",
+        "line_start": 70,
+        "line_end": 71,
+        "url": "https://www.applanix.com/downloads/products/brochures/corporate-brochure.htm",
+        "page_class": "product",
+        "snippet": "#### Trimble APX UAV\nA high-performance GNSS-inertial (GNSS + INS) OEM solution for UAVs, offering enhanced mapping efficiency and accuracy in a compact and lightweight design"
+      }
+    ],
+    "notes": "Sells GNSS-INS positioning modules and systems explicitly marketed as OEM solutions for UAV manufacturers and integrators."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Applanix POS MV",
+        "product_type": "marine GNSS-inertial positioning system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0004",
+            "line_start": 40,
+            "line_end": 41,
+            "url": "https://www.applanix.com/downloads/products/brochures/corporate-brochure.htm",
+            "page_class": "product",
+            "snippet": "#### Applanix POS MV\nRobust and accurate full six degrees of freedom, this marine solution puts your destination in its sights."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Applanix POS AV",
+        "product_type": "airborne direct georeferencing GNSS-inertial system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0004",
+            "line_start": 45,
+            "line_end": 46,
+            "url": "https://www.applanix.com/downloads/products/brochures/corporate-brochure.htm",
+            "page_class": "product",
+            "snippet": "#### Applanix POS AV\nDesigned for direct georeferencing of airborne sensor data to zero in on tasks faster and more cost effectively"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Applanix POS LV",
+        "product_type": "land vehicle GNSS-inertial positioning system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0004",
+            "line_start": 50,
+            "line_end": 51,
+            "url": "https://www.applanix.com/downloads/products/brochures/corporate-brochure.htm",
+            "page_class": "product",
+            "snippet": "#### Applanix POS LV\nStable, reliable and repeatable positioning solutions for land-based vehicles\u2014even in GNSS-challenged locations"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Autonomy Development Platform",
+        "product_type": "navigation platform for autonomous ground vehicles",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0004",
+            "line_start": 55,
+            "line_end": 56,
+            "url": "https://www.applanix.com/downloads/products/brochures/corporate-brochure.htm",
+            "page_class": "product",
+            "snippet": "#### Autonomy Development Platform\nNavigation solutions that enable automakers, heavy equipment OEMs and suppliers to shift driverless tech into a higher gear."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Applanix POSPac",
+        "product_type": "post-processing positioning and orientation software family",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0004",
+            "line_start": 60,
+            "line_end": 61,
+            "url": "https://www.applanix.com/downloads/products/brochures/corporate-brochure.htm",
+            "page_class": "product",
+            "snippet": "#### Applanix POSPac\nA family of reliable land, sea and air solutions for your post-processing positioning and orientation data needs."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Trimble APX RTX",
+        "product_type": "UAV direct georeferencing OEM GNSS-inertial module",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0004",
+            "line_start": 65,
+            "line_end": 66,
+            "url": "https://www.applanix.com/downloads/products/brochures/corporate-brochure.htm",
+            "page_class": "product",
+            "snippet": "#### Trimble APX RTX\nThe Trimble APX RTX offers premium direct georeferencing solutions for UAV mapping sensors, enabling OEMs and drone payload integrators to easily achieve high-accuracy mapping in variable environments."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Trimble APX UAV",
+        "product_type": "GNSS-INS OEM module for UAVs",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0004",
+            "line_start": 70,
+            "line_end": 71,
+            "url": "https://www.applanix.com/downloads/products/brochures/corporate-brochure.htm",
+            "page_class": "product",
+            "snippet": "#### Trimble APX UAV\nA high-performance GNSS-inertial (GNSS + INS) OEM solution for UAVs, offering enhanced mapping efficiency and accuracy in a compact and lightweight design"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Trimble AP+ Air",
+        "product_type": "airborne GNSS-INS OEM system for UAVs and crewed platforms",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0004",
+            "line_start": 75,
+            "line_end": 76,
+            "url": "https://www.applanix.com/downloads/products/brochures/corporate-brochure.htm",
+            "page_class": "product",
+            "snippet": "#### Trimble AP+ Air\nThe Trimble AP+ Air GNSS-inertial (GNSS + INS) system is a compact and versatile OEM solution designed for robust airborne positioning and direct georeferencing, seamlessly compatible with both UAVs and crewed platforms"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Applanix AP+ Land",
+        "product_type": "land mobile mapping GNSS-INS OEM system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0004",
+            "line_start": 80,
+            "line_end": 81,
+            "url": "https://www.applanix.com/downloads/products/brochures/corporate-brochure.htm",
+            "page_class": "product",
+            "snippet": "#### Applanix AP+ Land\nNext-gen Trimble AP+ Land GNSS-inertial (GNSS + INS) OEM system with dual GNSS, onboard IMU, and Applanix IN-Fusion+ firmware for robust land mobile mapping and positioning"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Trimble PX-1 RTX",
+        "product_type": "UAV navigation, guidance and control system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0004",
+            "line_start": 85,
+            "line_end": 86,
+            "url": "https://www.applanix.com/downloads/products/brochures/corporate-brochure.htm",
+            "page_class": "product",
+            "snippet": "#### Trimble PX-1 RTX\nAdvanced air mobility solution for UAV navigation, guidance and control"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "All products listed from the corporate brochure page. Individual product detail pages were skipped; additional fetch requests added."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA, Section 848/889, or equivalent compliance language found in the fetched corpus."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS or Blue sUAS language found in the fetched corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0004",
+        "line_start": 38,
+        "line_end": 38,
+        "url": "https://www.applanix.com/downloads/products/brochures/corporate-brochure.htm",
+        "page_class": "product",
+        "snippet": "### Products and solutions"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0004",
+        "line_start": 93,
+        "line_end": 94,
+        "url": "https://www.applanix.com/downloads/products/brochures/corporate-brochure.htm",
+        "page_class": "product",
+        "snippet": "Taylor Dixon\nCo-Founder, SmartDrone Corporation"
+      }
+    ],
+    "notes": "Multiple named catalog products with active e-commerce cart and customer testimonials indicate serial production."
+  },
+  "unresolved_questions": [
+    "Headquarters city/country not found \u2014 contact page was not fetched",
+    "NDAA compliance status unknown",
+    "Blue UAS status unknown"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.applanix.com/en/contact",
+      "reason": "Would provide headquarters address, city, country and state/province for the vendor.",
+      "expected_evidence": [
+        "headquarters"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=contact",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.applanix.com/en/products/hardware/trimble-apx-uav",
+      "reason": "Product detail page for Trimble APX UAV would confirm specifications, readiness level, and any NDAA/compliance claims for UAV-specific product line.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "readiness",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.applanix.com/en/hardware/trimble-px-1-rtx",
+      "reason": "Product detail page for Trimble PX-1 RTX would clarify whether this is a flight controller/autopilot (flight_and_vehicle_control) or purely a navigation sensor, and surface any compliance claims.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.applanix.com/en/products/hardware/trimble-ap-air",
+      "reason": "Product detail page for Trimble AP+ Air to confirm UAV-specific positioning specs and compliance information.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=product",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "needs_more_fetches",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 7,
+    "total_cost_usd": 0.3683831000000001,
+    "created_at": "2026-05-03T00:28:08+00:00",
+    "extract_version": "0.1.0"
+  },
+  "tagline": "Manufactures GNSS-inertial navigation and positioning subsystems (POS family, APX/AP+ OEM boards) for airborne, marine, and land platforms, including direct-georeferencing solutions for UAV mapping and autonomy development. NDAA certification status and specific US defense contracts not confirmed in public record; Blue UAS listing not verified. Production-ready across multiple form factors."
+}

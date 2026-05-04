@@ -1,0 +1,49 @@
+{
+  "target_id": "cove",
+  "run_id": "canonical",
+  "display_name": "COVE",
+  "homepage_url": "https://www.coveocean.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/cove/website",
+  "products": [
+    {
+      "name": "Stella Maris Testing Solution",
+      "category": "test_and_measurement",
+      "descriptor": "Marine technology testbed with subsea platform, dockside station, and shoreside operations centre",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0422",
+          "line_start": 32,
+          "line_end": 34,
+          "url": "https://coveocean.com/programs-services/stella-maris-testing-solution",
+          "page_class": "capability",
+          "snippet": "##### Stella Maris Testing Solution\n### The ocean is now officially plug-and-play\nIntroducing COVE\u2019s Stella Maris Testing Solution\u2014the ultimate testbed for marine technology companies. This versatile and cost-effective testing solution includes a subsea platform, dockside testing station, shoreside operations centre, and 24/7 data access, offering everything you need for rapid product development, verification, and commercialization."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0422",
+          "line_start": 39,
+          "line_end": 43,
+          "url": "https://coveocean.com/programs-services/stella-maris-testing-solution",
+          "page_class": "capability",
+          "snippet": "**Subsea Platform**\nThe multi-sensor subsea platform enables long-term testing for product development, verification, and commercialization. Designed for extended deployments, it features integrated instruments connected to the operations center via a plug-and-play device for seamless monitoring.\n![](https://coveocean.com/wp-content/uploads/2024/08/Stella-Maris-Demo-Day1418.png)\n**Shoreside Operations Centre**\nThe Shoreside Operations Centre offers a fully equipped indoor facility for on-site work."
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 9,
+    "total_cost_usd": 0.10721734999999999,
+    "created_at": "2026-05-04T01:29:52+00:00",
+    "extract_version": "0.1.0"
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "target_id": "alexander-technologies",
+  "run_id": "canonical",
+  "display_name": "Alexander Technologies",
+  "homepage_url": "https://www.alexandertechnologies.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/alexander-technologies/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "power_systems",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 131,
+            "line_end": 131,
+            "url": "https://www.alexandertechnologies.com",
+            "page_class": "homepage",
+            "snippet": "Battery packs designed and manufactured using high-quality lithium-ion and lithium ferrous phosphate battery cells for the aviation and UAV industry."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0181",
+            "line_start": 84,
+            "line_end": 84,
+            "url": "https://www.alexandertechnologies.com/industries/aviation-uav",
+            "page_class": "other",
+            "snippet": "Powering the Future of Flight with Drone & UAV Battery Solutions"
+          }
+        ],
+        "notes": "Custom lithium-ion and LiPo battery packs for UAVs, commercial drones, and eVTOL platforms"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Peterlee",
+      "state_or_province": null,
+      "country": "United Kingdom",
+      "address": "2 Doxford Drive, South West Industrial Estate, Peterlee, SR8 2RL"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 253,
+        "line_end": 258,
+        "url": "https://www.alexandertechnologies.com",
+        "page_class": "homepage",
+        "snippet": "### Our Head Office:\nAlexander Technologies Europe Limited\n2 Doxford Drive,\nSouth West Industrial Estate,\nPeterlee, SR8 2RL\nUnited Kingdom"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 73,
+        "line_end": 73,
+        "url": "https://www.alexandertechnologies.com",
+        "page_class": "homepage",
+        "snippet": "Battery Pack Manufacturer for OEMs"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 92,
+        "line_end": 92,
+        "url": "https://www.alexandertechnologies.com",
+        "page_class": "homepage",
+        "snippet": "With more than 40 years of experience, Alexander Technologies is a UK battery pack manufacturer supporting OEMs worldwide with custom and [build-to-print battery pack manufacturing](https://www.alexandertechnologies.com/our-manufacturing-capabilities/). We support customers with volume manufacturing and long-term supply, as well as [custom battery design](https://www.alexandertechnologies.com/services/battery-pack-design/) and development."
+      }
+    ],
+    "notes": "Manufactures custom battery packs sold to drone/UAV OEMs; batteries are explicitly listed as components in the drone supply chain"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Core",
+        "product_type": "platform-based battery pack design and manufacture service",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0265",
+            "line_start": 101,
+            "line_end": 104,
+            "url": "https://www.alexandertechnologies.com/services/battery-pack-design",
+            "page_class": "news",
+            "snippet": "Core\n----\n#### Our proven electronics and firmware, with custom housing.\nBuilt on our proven hardware and firmware libraries with custom housing. A fast, predictable route into production for straightforward requirements."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Core+",
+        "product_type": "enhanced platform-based battery pack design and manufacture service",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0265",
+            "line_start": 105,
+            "line_end": 108,
+            "url": "https://www.alexandertechnologies.com/services/battery-pack-design",
+            "page_class": "news",
+            "snippet": "Core+\n-----\n#### As Core, with advanced features and customisation.\nEnhanced flexibility for non-standard functions, including new component development and extended firmware capability, as well as industry-specific regulatory requirements."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TotalCustom",
+        "product_type": "fully custom battery pack design from the ground up",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0265",
+            "line_start": 109,
+            "line_end": 112,
+            "url": "https://www.alexandertechnologies.com/services/battery-pack-design",
+            "page_class": "news",
+            "snippet": "TotalCustom\n-----------\n#### A fully custom battery designed from the ground up.\nA fully bespoke hardware and firmware design to meet your technical specification and/or enhanced regulatory requirements."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Custom drone battery packs",
+        "product_type": "custom lithium-ion/LiPo battery packs for commercial drones and UAVs",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0044",
+            "line_start": 76,
+            "line_end": 77,
+            "url": "https://www.alexandertechnologies.com/industries/aviation-uav/drones",
+            "page_class": "other",
+            "snippet": "Custom Battery Packs for Commercial Drones & UAVs\n================================================="
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Custom eVTOL battery packs",
+        "product_type": "custom lithium-ion battery packs for eVTOL platforms",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0263",
+            "line_start": 76,
+            "line_end": 77,
+            "url": "https://www.alexandertechnologies.com/industries/aviation-uav/evtol-battery-packs",
+            "page_class": "other",
+            "snippet": "Custom eVTOL Battery Pack Solutions for Air Mobility\n===================================================="
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Products are all custom/bespoke; Core/Core+/TotalCustom are named design service tiers. No off-the-shelf catalog SKUs."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0044",
+        "line_start": 97,
+        "line_end": 97,
+        "url": "https://www.alexandertechnologies.com/industries/aviation-uav/drones",
+        "page_class": "other",
+        "snippet": "*   Rapid ramp-up capabilities with the ability to produce 100,000 packs of portable size."
+      }
+    ],
+    "notes": "Volume production up to ~100,000 battery packs per week; 40 years of manufacturing history; 15 million battery packs delivered"
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Designs and manufactures custom Li-ion and LiFePO\u2084 battery packs for aviation, UAV, eVTOL, robotics, and e-mobility OEMs. UK-based (Peterlee), production-ready, 40+ years' experience. NDAA and Blue UAS certification status unknown; no named US defense contracts identified in public sources.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 12,
+    "total_cost_usd": 0.30609155,
+    "created_at": "2026-05-03T21:05:02+00:00",
+    "extract_version": "0.1.0"
+  }
+}

@@ -1,0 +1,383 @@
+{
+  "target_id": "maxtena",
+  "run_id": "canonical",
+  "display_name": "Maxtena",
+  "homepage_url": "https://www.maxtena.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/maxtena/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0040",
+            "line_start": 188,
+            "line_end": 189,
+            "url": "https://www.maxtena.com/Company/AboutUs",
+            "page_class": "company",
+            "snippet": "#1\nUAV GNSS RTK Antenna Solution"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 185,
+            "line_end": 185,
+            "url": "https://www.maxtena.com",
+            "page_class": "homepage",
+            "snippet": "FEATURING MAXTENA HELICORE\u00ae TECHNOLOGY, introducing our newest and most sophisticated GNSS L1/L2/L5 antenna M9PLUS-HCT-A-SMA"
+          }
+        ],
+        "notes": "GNSS antennas (helical, conformal wave, microstrip patch) covering GPS/GLONASS/Galileo/BeiDou L1/L2/L5 for navigation; explicitly claims '#1 UAV GNSS RTK Antenna Solution'"
+      },
+      {
+        "category": "communications",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 212,
+            "line_end": 214,
+            "url": "https://www.maxtena.com",
+            "page_class": "homepage",
+            "snippet": "Featuring Dynamic Aperture Technology (DAT\u2122) for UAV Application X18-U Antenna\n------------------------------------------------------------------------------\n###### Iridium Certus SATCOM High Gain Beamformer"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 219,
+            "line_end": 221,
+            "url": "https://www.maxtena.com",
+            "page_class": "homepage",
+            "snippet": "Featuring Artificial Intelligence for UAV Application X1-L Antenna\n------------------------------------------------------------------\n###### Iridium Certus SATCOM High Gain Active Antenna"
+          }
+        ],
+        "notes": "Iridium/Inmarsat/Thuraya/Globalstar SATCOM antennas; LTE/5G/WiFi/LoRa antennas; DAT beamforming platform for satellite comms; UAV-specific SATCOM products X18-U and X1-L"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Germantown",
+      "state_or_province": "Maryland",
+      "country": "United States",
+      "address": "20310-A Seneca Meadows Pkwy, Germantown MD 20876"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0040",
+        "line_start": 175,
+        "line_end": 175,
+        "url": "https://www.maxtena.com/Company/AboutUs",
+        "page_class": "company",
+        "snippet": "Headquartered in Washington DC Metro, and having additional offices in North America and Europe, Maxtena is at the forefront of wireless innovation."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 326,
+        "line_end": 327,
+        "url": "https://www.maxtena.com",
+        "page_class": "homepage",
+        "snippet": "Germantown MD 20876](https://goo.gl/maps/oTvBP3MNvrz1iWx87)\n![](/Content/Img/icons/mail.png) [info@maxtena.com](mailto:info@maxtena.com)"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 247,
+        "line_end": 247,
+        "url": "https://www.maxtena.com",
+        "page_class": "homepage",
+        "snippet": "We are engaged in designing, manufacturing and marketing a comprehensive range of embedded, external and custom Advanced RF antennas & systems for GNSS, ISM, SATCOM, MSS and 5G LTE applications."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0400",
+        "line_start": 182,
+        "line_end": 182,
+        "url": "https://www.maxtena.com/Technology/Microstrip",
+        "page_class": "capability",
+        "snippet": "Our microstrip technology solutions have been integrated in more than thirty thousand devices worldwide. Some of the devices include unmanned aerial vehicles (UAVs), animal and human tracking applications, consumer electronics and specialized military devices."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 179,
+        "line_end": 179,
+        "url": "https://www.maxtena.com",
+        "page_class": "homepage",
+        "snippet": "Maxtena's ruggedized advanced antennas and wireless solutions are integrated into a variety of platforms including vehicle tracking equipment, UAVs, military tactical radios and manpacks."
+      }
+    ],
+    "notes": "Designs and manufactures RF antennas (GNSS, SATCOM, LTE, WiFi) sold as components to OEMs and integrators; explicitly serves drones/UAVs as an application market"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "M9PLUS-HCT-A-SMA",
+        "product_type": "L1/L2/L5 active multi-frequency GNSS antenna (helical)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 185,
+            "line_end": 185,
+            "url": "https://www.maxtena.com",
+            "page_class": "homepage",
+            "snippet": "FEATURING MAXTENA HELICORE\u00ae TECHNOLOGY, introducing our newest and most sophisticated GNSS L1/L2/L5 antenna M9PLUS-HCT-A-SMA"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "M9HCT-A-SMA",
+        "product_type": "Multi-frequency L1/L2/L5 GNSS external antenna (Helicore technology)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 194,
+            "line_end": 194,
+            "url": "https://www.maxtena.com",
+            "page_class": "homepage",
+            "snippet": "Featuring Maxtena Helicore\u00ae Technology, introducing our active Multi-frequency M9HCT-A-SMA External Antenna"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "M9708CWT",
+        "product_type": "Multi-frequency L1/L2/L5 GNSS external antenna (conformal wave)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 204,
+            "line_end": 204,
+            "url": "https://www.maxtena.com",
+            "page_class": "homepage",
+            "snippet": "Featuring Conformal Wave Technology, introducing our Multi-frequency M9708CWT External Antenna"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "X18-U",
+        "product_type": "Iridium Certus SATCOM high-gain beamformer for UAV (DAT technology)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 212,
+            "line_end": 214,
+            "url": "https://www.maxtena.com",
+            "page_class": "homepage",
+            "snippet": "Featuring Dynamic Aperture Technology (DAT\u2122) for UAV Application X18-U Antenna\n------------------------------------------------------------------------------\n###### Iridium Certus SATCOM High Gain Beamformer"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "X1-L",
+        "product_type": "Iridium Certus SATCOM active antenna for UAV (DAT technology)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 219,
+            "line_end": 221,
+            "url": "https://www.maxtena.com",
+            "page_class": "homepage",
+            "snippet": "Featuring Artificial Intelligence for UAV Application X1-L Antenna\n------------------------------------------------------------------\n###### Iridium Certus SATCOM High Gain Active Antenna"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MEA-1575-TM-TNC",
+        "product_type": "GPS timing outdoor antenna (L1/GLONASS/Beidou/Galileo/QZSS)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 225,
+            "line_end": 225,
+            "url": "https://www.maxtena.com",
+            "page_class": "homepage",
+            "snippet": "Featuring latest Maxtena technology for precision timing applications, introducing our GPS timing solution MEA-1575-TM-TNC"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "X9",
+        "product_type": "Active electronically scanned phased array (AESA) beamforming antenna",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0397",
+            "line_start": 215,
+            "line_end": 216,
+            "url": "https://www.maxtena.com/Technology/DAT",
+            "page_class": "capability",
+            "snippet": "#### X9\nActive Electronically Scanned Phased Array (AESA) with Artificial Intelligence Module | Solid-State Design | Autonomous Satellite tracking and acquisition | Omnidirectional Mode"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "X16",
+        "product_type": "AESA phased array beamforming antenna",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0397",
+            "line_start": 233,
+            "line_end": 234,
+            "url": "https://www.maxtena.com/Technology/DAT",
+            "page_class": "capability",
+            "snippet": "#### X16\nActive Electronically Scanned Phased Array (AESA) | Solid-State Design | Autonomous Satellite tracking and acquisition | Omnidirectional Mode | Single coax cable connection for power, controls, and RF"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "M1227HCT-A-Emb",
+        "product_type": "Helical embedded active L1/L2 GPS/GLONASS GNSS antenna",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0221",
+            "line_start": 210,
+            "line_end": 211,
+            "url": "https://www.maxtena.com/Products/Antennas-Solutions/GNSS-antennas/Helical-GNSS-Antennas/Dual-bands-GNSS-Antennas/Embedded-Dual-bands-GNSS-Antennas",
+            "page_class": "product",
+            "snippet": "### M1227HCT-A-Emb\nHelical embedded active L1/L2 GPS GLONASS Active Antenna"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "M10HCT-A-TNC",
+        "product_type": "L1/L2/L5 active GNSS antenna (helical)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 269,
+            "line_end": 270,
+            "url": "https://www.maxtena.com",
+            "page_class": "homepage",
+            "snippet": "#### M10HCT-A-TNC\nL1 \u2013 L2 \u2013 L5 Active GNSS Antenna"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Named product SKUs from homepage and product pages; catalog has hundreds more SKUs across GNSS, SATCOM, LTE, WiFi, IoT families"
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA Section 848/889 compliance claim found. Site mentions RoHS compliance and ISO 9001 but not NDAA."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS / Blue sUAS mention found anywhere in the corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 253,
+        "line_end": 253,
+        "url": "https://www.maxtena.com",
+        "page_class": "homepage",
+        "snippet": "We are world\u2019s leading antennas manufacturer."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 235,
+        "line_end": 235,
+        "url": "https://www.maxtena.com",
+        "page_class": "homepage",
+        "snippet": "Off-the-shelf orders & customized integrations"
+      }
+    ],
+    "notes": "Sells off-the-shelf catalog products with specific SKUs; self-described as world's leading antenna manufacturer; also offers custom integration engineering services as secondary offering"
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [
+    {
+      "url": "https://www.maxtena.com/Product/ViewDetail/236",
+      "reason": "X18-U UAV-specific Iridium SATCOM beamformer product detail page - would confirm specifications and drone-specific applications",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.maxtena.com/Products/Defense-Solutions/",
+      "reason": "Defense Solutions product category page - would reveal any NDAA-relevant compliance claims or defense-specific drone products",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "products_categories"
+      ],
+      "source_hint": "linked from resource-0001 homepage nav",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "complete",
+  "tagline": "Active multi-frequency GNSS antennas (helical and conformal patch) spanning L1\u2013L5 and L-Band, plus phased-array satellite terminals with autonomous tracking and RF cybersecurity. Maryland-based, in production. NDAA compliance status and specific defense contracts not publicly documented.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 21,
+    "total_cost_usd": 0.6694586,
+    "created_at": "2026-05-04T04:14:24+00:00",
+    "extract_version": "0.1.0"
+  }
+}

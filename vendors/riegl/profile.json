@@ -1,0 +1,375 @@
+{
+  "target_id": "riegl",
+  "run_id": "canonical",
+  "display_name": "RIEGL",
+  "homepage_url": "https://www.riegl.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/riegl/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "isr_payloads",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 60,
+            "line_end": 61,
+            "url": "https://www.riegl.com/en-usa",
+            "page_class": "homepage",
+            "snippet": "    *   [UAV-based Scanning](#)\n        *   [Overview](/en-usa/products/segment/uav-based-laser-scanning)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 173,
+            "line_end": 175,
+            "url": "https://www.riegl.com/en-usa",
+            "page_class": "homepage",
+            "snippet": "### UAV-based Scanning\n_RIEGL_ UAV-based laser scanners (ULS) acquire data utilizing high-end uncrewed airborne platforms.\n](/en-usa/products/segment/uav-based-laser-scanning)["
+          }
+        ],
+        "notes": "LiDAR scanning payloads designed to mount on UAV platforms \u2014 the VUX and miniVUX series are their primary UAV product lines"
+      },
+      {
+        "category": "ground_segment",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 110,
+            "line_end": 114,
+            "url": "https://www.riegl.com/en-usa",
+            "page_class": "homepage",
+            "snippet": "        *   Kinematic\n            *   [RiPROCESS](/en-usa/products/detail/riprocess)\n            *   [RiACQUIRE](/en-usa/products/detail/riacquire)\n            *   [RiUNITE](/en-usa/products/detail/riunite)\n            *   [RiPARAMETER](/en-usa/products/detail/riparameter)"
+          }
+        ],
+        "notes": "Software packages including RiACQUIRE (data acquisition) and RiPROCESS (kinematic processing) support UAV scanning workflows"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "RIEGL is primarily a LiDAR sensor manufacturer; UAV-specific products are sensor payloads mounted on third-party drone platforms"
+  },
+  "headquarters": {
+    "value": {
+      "city": "Horn",
+      "state_or_province": "Lower Austria",
+      "country": "Austria",
+      "address": null
+    },
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0474",
+        "line_start": 146,
+        "line_end": 146,
+        "url": "https://www.riegl.com/en-austria/news-insights/article/riegl-minivux-3uav-with-riloc-r-e-series-production-started",
+        "page_class": "news",
+        "snippet": "Announced for the first time at Intergeo 2023, RiLOC\u00ae\\-E gained a lot of interest in the market. _RIEGL_ intensified their efforts in development and after an intensive phase of testing, series production has started. End of June, the first miniVUX-3UAV LiDAR sensors equipped with this new fully integrated subsystem for localization and orientation left the premises in Horn."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 308,
+        "line_end": 314,
+        "url": "https://www.riegl.com/en-usa",
+        "page_class": "homepage",
+        "snippet": "Welcome to _RIEGL_\n==================\nHeadquarters Worldwide\n[_RIEGL_ Austria](/de-oesterreich/)\nEurope, Africa, MENA\nalso all regions not listed here\nHeadquarters North America"
+      }
+    ],
+    "notes": "RIEGL Austria is designated as worldwide headquarters. Production facility in Horn confirmed in miniVUX-3UAV series production article. State (Lower Austria) inferred from Horn geography."
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 60,
+        "line_end": 74,
+        "url": "https://www.riegl.com/en-usa",
+        "page_class": "homepage",
+        "snippet": "    *   [UAV-based Scanning](#)\n        *   [Overview](/en-usa/products/segment/uav-based-laser-scanning)\n        *   [_RIEGL_ VUX-24024](/en-usa/products/detail/riegl-vux-240-24)\n        *   [_RIEGL_ VUX-18024](/en-usa/products/detail/riegl-vux-180-24)\n        *   [_RIEGL_ VUX-16023](/en-usa/products/detail/riegl-vux-160-23)\n        *   [_RIEGL_ VUX-12023](/en-usa/products/detail/riegl-vux-120-23)\n        *   [_RIEGL_ VUX-10025](/en-usa/products/detail/riegl-vux-100-25)\n        *   [_RIEGL_ VUX-1UAV22](/en-usa/products/detail/riegl-vux-1uav-22)\n        *   [_RIEGL_ miniVUX-1UAV](/en-usa/products/detail/riegl-minivux-1uav)\n        *   [_RIEGL_ miniVUX-3UAV](/en-usa/products/detail/riegl-minivux-3uav)\n        *   [_RIEGL_ VQ-840-GE](/en-usa/products/detail/riegl-vq-840-ge)\n        *   [_RIEGL_ VUX-820-G NEW](/en-usa/products/detail/riegl-vux-820-g)\n        *   [_RIEGL_ VQ-860-G](/en-usa/products/detail/riegl-vq-860-g)\n        *   [_RIEGL_ VQ-840-GL](/en-usa/products/detail/riegl-vq-840-gl)\n        Not sure which product is right for you? Find the right product for your application with our"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0474",
+        "line_start": 159,
+        "line_end": 159,
+        "url": "https://www.riegl.com/en-austria/news-insights/article/riegl-minivux-3uav-with-riloc-r-e-series-production-started",
+        "page_class": "news",
+        "snippet": "As the _RIEGL_ miniVUX-SYS with RiLOC-E is very lightweight (just 1.75 kg / 2.2 lbs), integration to a wide range of drones is possible. Another plus point is the simple handling when integrating onto drones. The system can be integrated onto the user\u2019s drone directly onsite and configured using the software supplied \u2013 a really great relief for worldwide use!"
+      }
+    ],
+    "notes": "RIEGL makes LiDAR scanner components (VUX, miniVUX series) that integrate onto third-party UAV platforms; they do not manufacture complete drone airframes"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "RIEGL miniVUX-3UAV",
+        "product_type": "UAV LiDAR scanner",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0474",
+            "line_start": 144,
+            "line_end": 144,
+            "url": "https://www.riegl.com/en-austria/news-insights/article/riegl-minivux-3uav-with-riloc-r-e-series-production-started",
+            "page_class": "news",
+            "snippet": "_RIEGL_ miniVUX-3UAV with RiLOC\u00ae\\-E: Series Production Started"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "RIEGL miniVUX-1UAV",
+        "product_type": "compact UAV LiDAR scanner",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 68,
+            "line_end": 68,
+            "url": "https://www.riegl.com/en-usa",
+            "page_class": "homepage",
+            "snippet": "        *   [_RIEGL_ miniVUX-1UAV](/en-usa/products/detail/riegl-minivux-1uav)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "RIEGL VUX-1UAV22",
+        "product_type": "UAV LiDAR scanner",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 67,
+            "line_end": 67,
+            "url": "https://www.riegl.com/en-usa",
+            "page_class": "homepage",
+            "snippet": "        *   [_RIEGL_ VUX-1UAV22](/en-usa/products/detail/riegl-vux-1uav-22)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "RIEGL VUX series (VUX-240/180/160/120/100)",
+        "product_type": "high-performance UAV LiDAR scanner family",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 62,
+            "line_end": 66,
+            "url": "https://www.riegl.com/en-usa",
+            "page_class": "homepage",
+            "snippet": "        *   [_RIEGL_ VUX-24024](/en-usa/products/detail/riegl-vux-240-24)\n        *   [_RIEGL_ VUX-18024](/en-usa/products/detail/riegl-vux-180-24)\n        *   [_RIEGL_ VUX-16023](/en-usa/products/detail/riegl-vux-160-23)\n        *   [_RIEGL_ VUX-12023](/en-usa/products/detail/riegl-vux-120-23)\n        *   [_RIEGL_ VUX-10025](/en-usa/products/detail/riegl-vux-100-25)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "RIEGL VUX-820-G",
+        "product_type": "UAV/bathymetric LiDAR scanner",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 71,
+            "line_end": 71,
+            "url": "https://www.riegl.com/en-usa",
+            "page_class": "homepage",
+            "snippet": "        *   [_RIEGL_ VUX-820-G NEW](/en-usa/products/detail/riegl-vux-820-g)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "RIEGL VQ-840-GE",
+        "product_type": "UAV/bathymetric LiDAR scanning system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 70,
+            "line_end": 70,
+            "url": "https://www.riegl.com/en-usa",
+            "page_class": "homepage",
+            "snippet": "        *   [_RIEGL_ VQ-840-GE](/en-usa/products/detail/riegl-vq-840-ge)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "RIEGL VP-1",
+        "product_type": "helicopter pod for airborne laser scanning",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0818",
+            "line_start": 145,
+            "line_end": 147,
+            "url": "https://www.riegl.com/en-usa/products/detail/riegl-vp-1",
+            "page_class": "product",
+            "snippet": "_RIEGL_ VP-1\n=======================================\nThe _RIEGL_ VP-1 Helicopter Pod is designed to offer smooth integration of airborne laser scanning systems into manned helicopters. The small and lightweight pod can be mounted on standard hard points and typical camera mounts. Quick release adapter brackets and a minimum of external cabling (i.e. power supply, LAN, GPS antenna) allow quick system installation and removal."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "RiPROCESS",
+        "product_type": "kinematic LiDAR data processing software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 111,
+            "line_end": 111,
+            "url": "https://www.riegl.com/en-usa",
+            "page_class": "homepage",
+            "snippet": "            *   [RiPROCESS](/en-usa/products/detail/riprocess)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "RiACQUIRE",
+        "product_type": "LiDAR data acquisition software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 112,
+            "line_end": 112,
+            "url": "https://www.riegl.com/en-usa",
+            "page_class": "homepage",
+            "snippet": "            *   [RiACQUIRE](/en-usa/products/detail/riacquire)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "RiSCAN PRO",
+        "product_type": "terrestrial LiDAR data processing software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 107,
+            "line_end": 107,
+            "url": "https://www.riegl.com/en-usa",
+            "page_class": "homepage",
+            "snippet": "            *   [RiSCAN PRO](/en-usa/products/detail/riscan-pro)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Extensive product catalog; UAV-specific scanner lines are VUX and miniVUX series."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 151,
+        "line_end": 151,
+        "url": "https://www.riegl.com/en-usa",
+        "page_class": "homepage",
+        "snippet": "_RIEGL_ USA, the North American headquarters of _RIEGL_, is CMMC Level 2 compliant, ensuring secure operations for U.S. customers. _RIEGL_ USA delivers cutting-edge laser scanning solutions for surveying applications and provides comprehensive sales, support, service, and training across North America. Explore the forefront of LiDAR innovation with _RIEGL_ USA."
+      }
+    ],
+    "notes": "Site mentions CMMC Level 2 compliance for RIEGL USA but makes no explicit NDAA Section 848/889 claim."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS or Blue sUAS mention found in any fetched page."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0474",
+        "line_start": 144,
+        "line_end": 144,
+        "url": "https://www.riegl.com/en-austria/news-insights/article/riegl-minivux-3uav-with-riloc-r-e-series-production-started",
+        "page_class": "news",
+        "snippet": "_RIEGL_ miniVUX-3UAV with RiLOC\u00ae\\-E: Series Production Started"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0474",
+        "line_start": 146,
+        "line_end": 146,
+        "url": "https://www.riegl.com/en-austria/news-insights/article/riegl-minivux-3uav-with-riloc-r-e-series-production-started",
+        "page_class": "news",
+        "snippet": "Announced for the first time at Intergeo 2023, RiLOC\u00ae\\-E gained a lot of interest in the market. _RIEGL_ intensified their efforts in development and after an intensive phase of testing, series production has started. End of June, the first miniVUX-3UAV LiDAR sensors equipped with this new fully integrated subsystem for localization and orientation left the premises in Horn."
+      }
+    ],
+    "notes": "Series production explicitly confirmed for miniVUX-3UAV with RiLOC-E. Full catalog of listed SKUs indicates ongoing serial production."
+  },
+  "unresolved_questions": [
+    "Exact street address of RIEGL Austria headquarters not found in corpus (Horn, Lower Austria confirmed but no street address)",
+    "NDAA 889 compliance status not explicitly addressed on website"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.riegl.com/en-austria/imprint",
+      "reason": "Imprint page would contain legal registered address of RIEGL Austria headquarters, resolving exact street address",
+      "expected_evidence": [
+        "headquarters"
+      ],
+      "source_hint": "crawl_index url=https://www.riegl.com/en-austria/imprint",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.riegl.com/en-austria/company",
+      "reason": "Company/about page would confirm headquarters details, possibly NDAA compliance certificates",
+      "expected_evidence": [
+        "headquarters",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index url=https://www.riegl.com/en-austria/company",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Austrian LiDAR specialist producing compact UAV scanners (miniVUX, VUX-series) and airborne/terrestrial systems across multiple platforms. Ground segment software (RiPROCESS) handles kinematic data processing. NDAA and Blue UAS certification status unknown; public evidence on US defense contracts is thin. Established production readiness across UAV payload line.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 20,
+    "total_cost_usd": 0.5855258,
+    "created_at": "2026-05-04T05:50:29+00:00",
+    "extract_version": "0.1.0"
+  }
+}

@@ -1,0 +1,451 @@
+{
+  "target_id": "curtiss-wright-defense-solutions",
+  "run_id": "canonical",
+  "display_name": "Curtiss-Wright Defense Solutions",
+  "homepage_url": "https://defense-solutions.curtisswright.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/curtiss-wright-defense-solutions/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "flight_and_vehicle_control",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 93,
+            "line_end": 96,
+            "url": "https://defense-solutions.curtisswright.com",
+            "page_class": "homepage",
+            "snippet": "        *   [SFF Mission Computer Systems](/products/computing-systems/sff \"SFF Mission Computer Systems\")\n            *   [USFF Mission Computers](/products/computing-systems/sff?pid=855)\n            *   [SFF Mission Computers](/products/computing-systems/sff?pid=149)\n            *   [P/XMC Mission Computer](/products/computing-systems/sff?pid=856)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 465,
+            "line_end": 465,
+            "url": "https://defense-solutions.curtisswright.com",
+            "page_class": "homepage",
+            "snippet": "Capabilities"
+          }
+        ],
+        "notes": "SFF and USFF Mission Computers for unmanned/airborne platforms; MOSA embedded computing for UAV mission systems"
+      },
+      {
+        "category": "communications",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 44,
+            "line_end": 50,
+            "url": "https://defense-solutions.curtisswright.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Networking & Communications](/products/networking-communications \"Networking & Communications\")\n        *   [PacStar Communications Solutions](/products/networking-communications/pacstar \"PacStar Communications Solutions\")\n            *   [Modular Hardware](/products/networking-communications/pacstar?pid=982 \"Tactical, rugged, low-SWaP networking and communications hardware\")\n            *   [Commercial Solutions for Classified (CSfC)](/products/networking-communications/pacstar?pid=983 \"Enables transmission of classified information using commercial-grade encryption solutions\")\n            *   [Integrated Solutions](/products/networking-communications/pacstar?pid=398)\n            *   [IQ-Core Software](/products/networking-communications/pacstar?pid=397)\n            *   [Enterprise IT Solutions (EITS)](/products/networking-communications/pacstar?pid=984)"
+          }
+        ],
+        "notes": "PacStar tactical networking and comms hardware; TDL processing; IQ-Core software"
+      },
+      {
+        "category": "test_and_measurement",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 68,
+            "line_end": 75,
+            "url": "https://defense-solutions.curtisswright.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Flight Test & Monitoring](/products/flight-test \"Flight Test & Monitoring\")\n        *   [Data Acquisition Systems](/products/flight-test/data-acquisition \"Data Acquisition Systems\")\n            *   [TTC Miniature Data Acquisition Systems](/products/flight-test/data-acquisition?pid=741)\n            *   [Axon Data Acquisition Systems](/products/flight-test/data-acquisition?pid=276)\n            *   [Acra KAM-500 Data Acquisition Systems](/products/flight-test/data-acquisition?pid=285)\n            *   [TTC CDAU & nDAU Systems](/products/flight-test/data-acquisition?pid=302)\n        *   [Flight Test & Monitoring Recorders](/products/storage-recorders/test-recorders)\n        *   [Telemetry & Flight Safety](/products/flight-test/radio-frequency)"
+          }
+        ],
+        "notes": "Acra KAM-500, Axon, TTC data acquisition; flight test telemetry, recorders, and ground station systems"
+      },
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 161,
+            "line_end": 167,
+            "url": "https://defense-solutions.curtisswright.com",
+            "page_class": "homepage",
+            "snippet": "            *   [C5ISR/EW Modular Open Suite of Standards (CMOSS)](/capabilities/open-architectures/mosa/army-cmoss)\n            *   [Vehicle Integration for C4ISR/EW Interoperability (VICTORY)](/capabilities/open-architectures/mosa/vehicle-integration-c4isrew-interoperability)\n            *   [Future Airborne Capability Environment (FACE)](/capabilities/open-architectures/mosa/future-airborne-capability-environment)\n            *   [Modular Open Radio Frequency Architecture (MORA)](/capabilities/open-architectures/mosa/modular-open-radio-frequency-architecture)\n        *   [Other Open Architectures](/capabilities/open-architectures/other \"Other Open Architectures\")\n            *   [Assured Positioning, Navigation and Timing (A-PNT)](/capabilities/open-architectures/other/assured-positioning-navigation-and-timing)\n            *   [Enterprise Open System Architecture (E-OSA)](/capabilities/open-architectures/other/enterprise-open-system-architecture)"
+          }
+        ],
+        "notes": "Assured Positioning, Navigation and Timing (A-PNT); FPGA/sensor processing cards"
+      },
+      {
+        "category": "ground_segment",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 77,
+            "line_end": 77,
+            "url": "https://defense-solutions.curtisswright.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Ground Station Systems](/products/flight-test/ground-stations)"
+          }
+        ],
+        "notes": "Ground Station Systems for flight test and monitoring"
+      },
+      {
+        "category": "mechanical_subsystems",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 124,
+            "line_end": 132,
+            "url": "https://defense-solutions.curtisswright.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Aiming & Stabilization](/products/motion-control/turret-drive-stabilization-system \"Aiming & Stabilization\")\n            *   [Rotary Gear Drives](/products/motion-control/aiming-and-stabilization-systems/rotary-gear-drives)\n            *   [Linear Gear Drives](/products/motion-control/aiming-and-stabilization-systems/linear-drives)\n            *   [Hand Controllers](/products/motion-control/hand-controllers)\n            *   [Gyroscopes](/products/motion-control/aiming-and-stabilization-systems/gyroscopes)\n        *   [Ammunition Handling Systems](/products/motion-control/ammunition-handling-systems \"Ammunition Handling Systems\")\n            *   [Hydraulic Ramming](/products/motion-control/ammunition-handling/flick-rammer)\n        *   [Electromechanical Actuation](/products/motion-control/electromechanical-actuation \"Electromechanical Actuation\")\n            *   [Rapid Actuation Direct Drive System](/products/motion-control/electromechanical/radds)"
+          }
+        ],
+        "notes": "Aiming and stabilization gear drives, motion controllers, electromechanical actuation"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Ashburn",
+      "state_or_province": "Virginia",
+      "country": "United States",
+      "address": "20130 Lakeview Center Plaza, Suite 200, Ashburn, VA 20147"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0021",
+        "line_start": 437,
+        "line_end": 440,
+        "url": "https://defense-solutions.curtisswright.com/about/company/locations",
+        "page_class": "contact",
+        "snippet": "Ashburn, VA\n-----------\n##### Ashburn, VA\n20130 Lakeview Center Plaza, Suite 200, Ashburn, VA 20147, United States"
+      }
+    ],
+    "notes": "Ashburn VA listed first on global locations page as primary US location for Defense Solutions division."
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0077",
+        "line_start": 439,
+        "line_end": 439,
+        "url": "https://defense-solutions.curtisswright.com/capabilities/domains/air",
+        "page_class": "capability",
+        "snippet": "Our highly engineered aerospace solutions span mission computing, data acquisition, graphics/displays, communication networks, sensor processing, storage, flight testing, and structural monitoring. They are recognized for their size, weight, power efficiency, reliability, and ruggedness. Curtiss-Wright technologies for aerospace are trusted to test and power the most contemporary manned and unmanned military and commercial aviation systems."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0005",
+        "line_start": 465,
+        "line_end": 465,
+        "url": "https://defense-solutions.curtisswright.com",
+        "page_class": "homepage",
+        "snippet": "Capabilities"
+      }
+    ],
+    "notes": "Sells SFF/USFF mission computers, embedded computing modules, comms systems, and storage/recorders integrated into UAV platforms by OEMs."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "PacStar 400 Series",
+        "product_type": "tactical rugged networking/communications hardware",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 44,
+            "line_end": 50,
+            "url": "https://defense-solutions.curtisswright.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Networking & Communications](/products/networking-communications \"Networking & Communications\")\n        *   [PacStar Communications Solutions](/products/networking-communications/pacstar \"PacStar Communications Solutions\")\n            *   [Modular Hardware](/products/networking-communications/pacstar?pid=982 \"Tactical, rugged, low-SWaP networking and communications hardware\")\n            *   [Commercial Solutions for Classified (CSfC)](/products/networking-communications/pacstar?pid=983 \"Enables transmission of classified information using commercial-grade encryption solutions\")\n            *   [Integrated Solutions](/products/networking-communications/pacstar?pid=398)\n            *   [IQ-Core Software](/products/networking-communications/pacstar?pid=397)\n            *   [Enterprise IT Solutions (EITS)](/products/networking-communications/pacstar?pid=984)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "IQ-Core Software",
+        "product_type": "network management software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 49,
+            "line_end": 49,
+            "url": "https://defense-solutions.curtisswright.com",
+            "page_class": "homepage",
+            "snippet": "            *   [IQ-Core Software](/products/networking-communications/pacstar?pid=397)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TCG LinkPRO",
+        "product_type": "tactical data link software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 145,
+            "line_end": 145,
+            "url": "https://defense-solutions.curtisswright.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Tactical Data Link Software](/products/networking-communications/tdl-processing/mission-software/linkpro)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Acra KAM-500",
+        "product_type": "data acquisition system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 72,
+            "line_end": 72,
+            "url": "https://defense-solutions.curtisswright.com",
+            "page_class": "homepage",
+            "snippet": "            *   [Acra KAM-500 Data Acquisition Systems](/products/flight-test/data-acquisition?pid=285)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Axon Data Acquisition Systems",
+        "product_type": "flight test data acquisition",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 71,
+            "line_end": 71,
+            "url": "https://defense-solutions.curtisswright.com",
+            "page_class": "homepage",
+            "snippet": "            *   [Axon Data Acquisition Systems](/products/flight-test/data-acquisition?pid=276)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TTC Miniature Data Acquisition Systems",
+        "product_type": "miniature flight test data acquisition",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 70,
+            "line_end": 70,
+            "url": "https://defense-solutions.curtisswright.com",
+            "page_class": "homepage",
+            "snippet": "            *   [TTC Miniature Data Acquisition Systems](/products/flight-test/data-acquisition?pid=741)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SFF Mission Computers",
+        "product_type": "small form factor mission computers for airborne platforms",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 93,
+            "line_end": 95,
+            "url": "https://defense-solutions.curtisswright.com",
+            "page_class": "homepage",
+            "snippet": "        *   [SFF Mission Computer Systems](/products/computing-systems/sff \"SFF Mission Computer Systems\")\n            *   [USFF Mission Computers](/products/computing-systems/sff?pid=855)\n            *   [SFF Mission Computers](/products/computing-systems/sff?pid=149)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "USFF Mission Computers",
+        "product_type": "ultra-small form factor mission computers",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 94,
+            "line_end": 94,
+            "url": "https://defense-solutions.curtisswright.com",
+            "page_class": "homepage",
+            "snippet": "            *   [USFF Mission Computers](/products/computing-systems/sff?pid=855)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "VPX Processor Cards",
+        "product_type": "OpenVPX SBC and DSP modules",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 10,
+            "line_end": 11,
+            "url": "https://defense-solutions.curtisswright.com",
+            "page_class": "homepage",
+            "snippet": "            *   [3U VPX Processor Cards](/products/computing/processors?pid=187 \"3U OpenVPX SBC and DSP Modules based on Intel, NXP Power Architecture and Arm Processors\")\n            *   [6U VPX Processor Cards](/products/computing/processors?pid=191 \"6U OpenVPX SBC and DSP Modules based on Intel and NXP Power Architecture Processors\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "FPGA & Sensor Processor Cards",
+        "product_type": "VPX/XMC FPGA and sensor processing modules",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 17,
+            "line_end": 18,
+            "url": "https://defense-solutions.curtisswright.com",
+            "page_class": "homepage",
+            "snippet": "        *   [FPGA & Sensor Processor Cards](/products/computing/fpga-cards \"FPGA & Sensor Processor Cards\")\n            *   [VPX FPGA & Sensor Processor Cards](/products/computing/fpga-cards?pid=193 \"Adaptive SoC/FPGA and Sensor processing for the most demanding HPEC systems\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "NC120A Nano Motion Controller",
+        "product_type": "compact motion controller",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 135,
+            "line_end": 135,
+            "url": "https://defense-solutions.curtisswright.com",
+            "page_class": "homepage",
+            "snippet": "            *   [NC120A Nano Motion Controller](/products/motion-control/motion-controllers/NC120A-nano-motion-controller)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Fabric100",
+        "product_type": "100 GbE embedded computing connectivity ecosystem",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 21,
+            "line_end": 21,
+            "url": "https://defense-solutions.curtisswright.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Fabric100 100 GbE Cards](/products/computing/Fabric100)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Many more SKUs on product pages not fully fetched (1065 skipped/failed pages)"
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA Section 848/889 claim found in the fetched corpus."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS or Blue sUAS claim found in the corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0005",
+        "line_start": 524,
+        "line_end": 524,
+        "url": "https://defense-solutions.curtisswright.com",
+        "page_class": "homepage",
+        "snippet": "Delivering responsiveness, flexibility, reliability, and quality, our 17 global manufacturing facilities help satisfy local regional requirements."
+      }
+    ],
+    "notes": "17 global manufacturing facilities; extensive catalog of named COTS SKUs available for production delivery."
+  },
+  "unresolved_questions": [
+    "No explicit NDAA Sec 848/889 compliance claim found - may exist on product datasheets in the 1065 skipped pages",
+    "Thousands of product SKUs not individually enumerable from the 46 fetched pages"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://defense-solutions.curtisswright.com/products/computing-systems/sff",
+      "reason": "Would confirm SFF/USFF mission computer SKU details and explicit UAV deployment claims, sharpening flight_and_vehicle_control primary category confidence",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://defense-solutions.curtisswright.com/capabilities/open-architectures/other/assured-positioning-navigation-and-timing",
+      "reason": "A-PNT page would confirm sensors_and_navigation category with specific product details",
+      "expected_evidence": [
+        "products_categories",
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_budget",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 19,
+    "total_cost_usd": 1.1675388999999998,
+    "created_at": "2026-05-03T13:56:14+00:00",
+    "extract_version": "0.1.0"
+  },
+  "tagline": "Supplies flight control computers, embedded processors, data acquisition systems, and tactical networking hardware (PacStar, IQ-Core, TTC, Axon, Acra lines) across VPX, VME, and small-form-factor architectures. Strong presence in test-and-measurement and mission computing for defense platforms. NDAA and Blue UAS certification status not publicly confirmed; limited disclosure of specific unmanned-systems integration or program wins in open sources."
+}

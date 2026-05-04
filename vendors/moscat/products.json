@@ -1,0 +1,196 @@
+{
+  "target_id": "moscat",
+  "run_id": "canonical",
+  "display_name": "MOSCAT",
+  "homepage_url": "https://moscatingenieria.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/moscat/website",
+  "products": [
+    {
+      "name": "eFI control unit",
+      "category": "propulsion_electronics",
+      "descriptor": "Electronic fuel injection ECU for 2T/4T/rotary UAV engines",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0009",
+          "line_start": 17,
+          "line_end": 17,
+          "url": "https://moscatingenieria.com/products.html",
+          "page_class": "product",
+          "snippet": "It allows the control of all engine processes: fuel injection, dual ignition, engine speed (fly-by-wire), redundant fuel supply, propeller pitch, sensors and actuators diagnosis, engine health monitoring. Control algorithms specifically designed for two strokes engines."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0009",
+          "line_start": 24,
+          "line_end": 25,
+          "url": "https://moscatingenieria.com/products.html",
+          "page_class": "product",
+          "snippet": "*   Compatible with reciprocating 2T, 4T and rotary engines\nAvailable, among others, for Desert Aircraft DA120, DA150 and 3W-150 engines. For more details, please contact us."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "FP400 fuel pump",
+      "category": "propulsion_mechanical",
+      "descriptor": "Micro gear fuel pump for UAV reliability and endurance",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0009",
+          "line_start": 29,
+          "line_end": 30,
+          "url": "https://moscatingenieria.com/products.html",
+          "page_class": "product",
+          "snippet": "### Fuel pumps\nMicro gears fuel pump. Designed to satisfy the requirements of UAV reliability, endurance and maintainability."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0009",
+          "line_start": 33,
+          "line_end": 39,
+          "url": "https://moscatingenieria.com/products.html",
+          "page_class": "product",
+          "snippet": "*   Maximum flow 18 l/h @ 2,5 bar\n*   Maximum pressure 5 bar\n*   Dimensions 57 x 22 mm\n*   Weight 95 gr\n*   Rated voltage 12 VDC\n*   Maximum power 15 W\n*   Compatible with AV-Gas, commercial gasoline, diesel, kerosene, JP-X, methanol"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "BMC03 brushless control unit",
+      "category": "propulsion_electronics",
+      "descriptor": "Brushless motor speed controller for UAV fuel pumps",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0009",
+          "line_start": 44,
+          "line_end": 46,
+          "url": "https://moscatingenieria.com/products.html",
+          "page_class": "product",
+          "snippet": "### Controller for brushless motors\nThe BMC03 controller regulates precisely the speed of brushless motors without being affected by variations in voltage, typical in battery powered systems. It is specifically designed for the control of UAV fuel pumps, although its application is extended to more general applications.\nTechnical specifications"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0009",
+          "line_start": 48,
+          "line_end": 54,
+          "url": "https://moscatingenieria.com/products.html",
+          "page_class": "product",
+          "snippet": "*   Dimensions 60 x 40 x 10.3 mm\n*   Weight 16 gr\n*   Power supply 10-30 V DC\n*   Maximum consumption 10 A (peak)\n*   Commutation frequency 80 kHz\n*   Speed control signal PWM @ 50Hz (1-2 ms)\n[Download PDF](pdf/BMC03_rev0_EN.pdf)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Integrated Fuel System",
+      "category": "propulsion_mechanical",
+      "descriptor": "Integrated UAV fuel system solution",
+      "granularity": "category",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 35,
+          "line_end": 37,
+          "url": "https://moscatingenieria.com",
+          "page_class": "homepage",
+          "snippet": "![](img/fuel_system_small.png)\n#### Integrated Fuel System\n](products.html)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Throttle Bodies - Sensors",
+      "category": "propulsion_mechanical",
+      "descriptor": "Throttle bodies and sensors for UAV engine management",
+      "granularity": "category",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 38,
+          "line_end": 41,
+          "url": "https://moscatingenieria.com",
+          "page_class": "homepage",
+          "snippet": "[\n![](img/throttle_body_hardness.png)\n#### Throttle Bodies - Sensors\n](products.html)"
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "Integrated Fuel System and Throttle Bodies - Sensors appear only as category labels on the homepage with no product detail page or specs in the corpus; granularity and readiness cannot be confirmed.",
+    "Three product datasheets (eFI_rev0_EN.pdf, FP400_rev1_EN.pdf, BMC03_rev0_EN.pdf) were skipped and would provide additional specs and readiness signals."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://moscatingenieria.com/pdf/eFI_rev0_EN.pdf",
+      "reason": "Datasheet for eFI control unit; would confirm specs, readiness, and any compliance claims.",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=document",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://moscatingenieria.com/pdf/FP400_rev1_EN.pdf",
+      "reason": "Datasheet for FP400 fuel pump; would confirm specs and readiness.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=document",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://moscatingenieria.com/pdf/BMC03_rev0_EN.pdf",
+      "reason": "Datasheet for BMC03 brushless control unit; would confirm specs and readiness.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=document",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://moscatingenieria.com/company.html",
+      "reason": "Company page may contain product details for Integrated Fuel System and Throttle Bodies - Sensors not found elsewhere in corpus.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 13,
+    "total_cost_usd": 0.19439545,
+    "created_at": "2026-05-04T04:28:28+00:00",
+    "extract_version": "0.1.0"
+  }
+}

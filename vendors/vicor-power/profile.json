@@ -1,0 +1,351 @@
+{
+  "target_id": "vicor-power",
+  "run_id": "canonical",
+  "display_name": "Vicor Power",
+  "homepage_url": "https://www.vicorpower.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/vicor-power/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "power_systems",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 91,
+            "line_end": 93,
+            "url": "https://www.vicorpower.com",
+            "page_class": "homepage",
+            "snippet": "High density power conversion\nOptimized for 48V\npower delivery"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0415",
+            "line_start": 90,
+            "line_end": 92,
+            "url": "https://www.vicorpower.com/mil-cots/power-systems",
+            "page_class": "capability",
+            "snippet": "**MIL-COTS VPX Power Supply Systems**\n=====================================\nStandard VITA 62; SOSA Aligned; and Configurable Power Systems"
+          }
+        ],
+        "notes": "AC-DC converters, DC-DC converters, MIL-COTS power supplies, VPX power systems, SOSA-aligned power supplies, and custom power systems for commercial and defense/aerospace markets."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Vicor is a broad power conversion component/system supplier. Their products are primarily power conversion ICs, modules, and power supply systems. The UAV industry vertical references power components (DC-DC converters, tethered drone power systems) that fit power_systems."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Andover",
+      "state_or_province": "Massachusetts",
+      "country": "United States",
+      "address": "25 Frontage Road, Andover, MA 01810"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0104",
+        "line_start": 120,
+        "line_end": 123,
+        "url": "https://www.vicorpower.com/contact-us",
+        "page_class": "contact",
+        "snippet": "Headquarters\n------------\n25 Frontage Road\nAndover, MA 01810"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0103",
+        "line_start": 132,
+        "line_end": 132,
+        "url": "https://www.vicorpower.com/all-products/vicor-power-systems/vicor-power-systems-commerical",
+        "page_class": "product",
+        "snippet": "### Tethered surveillance drone"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 65,
+        "line_end": 66,
+        "url": "https://www.vicorpower.com",
+        "page_class": "homepage",
+        "snippet": "        *   [Test and Measurement](/industries-and-innovations/test-and-measurement)\n        *   [UAVs](/industries-and-innovations/uavs)"
+      }
+    ],
+    "notes": "Vicor sells power conversion components and power supply systems that go into drones and defense platforms. They have an explicit UAVs industry vertical and a tethered surveillance drone custom power system example. They do not manufacture complete drones."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "VITA 62 power supply",
+        "product_type": "MIL-COTS VPX power supply (3U/6U)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0411",
+            "line_start": 95,
+            "line_end": 97,
+            "url": "https://www.vicorpower.com/mil-cots-power-systems/vita-62",
+            "page_class": "capability",
+            "snippet": "VITA 62 power supply\n====================\nMIL-COTS power supplies that are designed for 3U and 6U OpenVPX systems"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SOSA\u2122 aligned power supply",
+        "product_type": "MIL-COTS SOSA-aligned 3U VPX power supply",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0098",
+            "line_start": 95,
+            "line_end": 97,
+            "url": "https://www.vicorpower.com/all-products/mil-cots/power-systems/sosa",
+            "page_class": "product",
+            "snippet": "SOSA\u2122 aligned power supply\n==========================\nThe Vicor SOSA-aligned power supply is a COTs power supply that is designed for 3U Open VPX systems that are developed to the SOSA standard. The module utilizes Vicor proprietary technology to enable high efficiency and power density for this highly rugged, conduction-cooled model."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Badger\u2122",
+        "product_type": "MIL-COTS PFC power supply",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0403",
+            "line_start": 95,
+            "line_end": 97,
+            "url": "https://www.vicorpower.com/mil-cots-power-systems/badger_mil-cots_pfc_power_supply",
+            "page_class": "capability",
+            "snippet": "Badger\u2122 MIL-COTS PFC power supply\n=================================\nA ruggedized, extremely low-profile PFC power supply from Vicor Power Systems"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Javelin",
+        "product_type": "MIL-COTS PFC power supply",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0405",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://www.vicorpower.com/mil-cots-power-systems/javelin_mil-cots_pfc_power_supply",
+            "page_class": "capability",
+            "snippet": "Javelin PFC Mil Power Supply | Cots Products | Vicor        [Skip to main content](#main)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "LoPAC MI",
+        "product_type": "MIL-COTS AC-DC switcher power supply",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0406",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://www.vicorpower.com/mil-cots-power-systems/lopac_mi_ac-dc_switcher_power_supplies",
+            "page_class": "capability",
+            "snippet": "LoPAC MI COTS | AC-DC Switcher | Mil Power Supplies | Vicor        [Skip to main content](#main)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "FlatPAC-N MI",
+        "product_type": "MIL-COTS power supply",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0404",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://www.vicorpower.com/mil-cots-power-systems/flatpacen_mi",
+            "page_class": "capability",
+            "snippet": "FlatPAC-EN MI | Low Profile Mil Cots Power Supply | Vicor        [Skip to main content](#main)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "VIPAC",
+        "product_type": "MIL-COTS power system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0410",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://www.vicorpower.com/mil-cots-power-systems/mil-cots_vipac_power_system",
+            "page_class": "capability",
+            "snippet": "VIPAC Military Power System | Mil Cots Products| Vicor        [Skip to main content](#main)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MI-MegaMod",
+        "product_type": "MIL-COTS DC-DC converter family",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0408",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://www.vicorpower.com/mil-cots-power-systems/mil-cots_mi-megamod_family_dc-dc_converters",
+            "page_class": "capability",
+            "snippet": "MI-MegaMod | DC-DC Converters for Military Power Systems        [Skip to main content](#main)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MegaPAC MI",
+        "product_type": "MIL-COTS PFC power supply",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0416",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://www.vicorpower.com/mil-cots/power-systems/megapac-mi",
+            "page_class": "capability",
+            "snippet": "PFC MegaPAC MI Mil Cot Power Supplies for Military Applications| Vicor        [Skip to main content](#main)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MI COMPAC",
+        "product_type": "MIL-COTS DC power supply",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0407",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://www.vicorpower.com/mil-cots-power-systems/mi-compac_dc_power_supply",
+            "page_class": "capability",
+            "snippet": "MI-ComPAC Mil Standard DC DC Power Supply | Cots Systems | Vicor        [Skip to main content](#main)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Vicor Power Systems (Custom Commercial)",
+        "product_type": "Custom commercial power supply systems",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0103",
+            "line_start": 132,
+            "line_end": 132,
+            "url": "https://www.vicorpower.com/all-products/vicor-power-systems/vicor-power-systems-commerical",
+            "page_class": "product",
+            "snippet": "### Tethered surveillance drone"
+          }
+        ],
+        "notes": "Includes tethered drone power supply (8kW) as a custom application example."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Vicor also sells a broad catalog of AC-DC and DC-DC converter components/modules. Only named MIL-COTS power system product families listed here."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "medium",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0411",
+        "line_start": 113,
+        "line_end": 116,
+        "url": "https://www.vicorpower.com/mil-cots-power-systems/vita-62",
+        "page_class": "capability",
+        "snippet": "VIT270H3U600C002\nPart Number: VIT270H3U600C002\nNominal Input (V):\n270"
+      }
+    ],
+    "notes": "Vicor lists catalog part numbers with datasheets and distributes through Arrow, Avnet, Digi-Key, and Mouser. Full serial production with listed SKUs."
+  },
+  "unresolved_questions": [
+    "NDAA Section 848/889 compliance status not disclosed on site.",
+    "Blue UAS cleared list status not mentioned on site.",
+    "UAV-specific product page (industries-and-innovations/uavs) was not fetched; may contain more specific product offerings for drone applications."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.vicorpower.com/industries-and-innovations/uavs",
+      "reason": "Vicor has a dedicated UAVs industry page that would confirm the scope and nature of their drone power supply offerings, helping sharpen products_categories and drone_supply_chain_role.",
+      "expected_evidence": [
+        "products_categories",
+        "drone_supply_chain_role",
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=capability",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.vicorpower.com/all-products/vicor-power-systems/vicor-power-systems-aerospace-and-defense",
+      "reason": "Aerospace and defense custom power systems page would enumerate additional named product references and confirm UAV-specific applications.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=news",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Manufactures modular DC-DC converters, AC-DC power supplies, and MIL-COTS OpenVPX power systems (VITA 62, SOSA-aligned). Production-ready components span 48V architectures and high-density conversion for defense/aerospace platforms. NDAA and Blue UAS certification status not publicly confirmed; limited public evidence of active defense primes integration or specific program awards.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 23,
+    "total_cost_usd": 0.55264145,
+    "created_at": "2026-05-04T07:37:02+00:00",
+    "extract_version": "0.1.0"
+  }
+}

@@ -1,0 +1,283 @@
+{
+  "target_id": "doodle-labs",
+  "run_id": "canonical",
+  "display_name": "Doodle Labs",
+  "homepage_url": "https://doodlelabs.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/doodle-labs/website",
+  "products": [
+    {
+      "name": "Mesh Rider Mini",
+      "category": "communications",
+      "descriptor": "Ultra-lightweight 34 g OEM mesh radio for drones, 80 Mbps, 50+ km range",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0165",
+          "line_start": 46,
+          "line_end": 47,
+          "url": "https://doodlelabs.com/product/mini",
+          "page_class": "product",
+          "snippet": "Mini\n===="
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0165",
+          "line_start": 57,
+          "line_end": 58,
+          "url": "https://doodlelabs.com/product/mini",
+          "page_class": "product",
+          "snippet": "Dimensions: 46x51x6.5mm\nWeight: 34g"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0165",
+          "line_start": 64,
+          "line_end": 67,
+          "url": "https://doodlelabs.com/product/mini",
+          "page_class": "product",
+          "snippet": "Defense: L, S\nCommercial: ISM, WiFi\nMax Tx Power: 1.6 watts (32 dBm)\nMIMO: 2\u00d72"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Mesh Rider Nano\u00b2",
+      "category": "communications",
+      "descriptor": "Ultra-compact 48 g mesh radio for small drones, 80 Mbps, 50+ km range",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0166",
+          "line_start": 46,
+          "line_end": 47,
+          "url": "https://doodlelabs.com/product/nano2",
+          "page_class": "product",
+          "snippet": "Nano\u00b2\n====="
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0166",
+          "line_start": 57,
+          "line_end": 58,
+          "url": "https://doodlelabs.com/product/nano2",
+          "page_class": "product",
+          "snippet": "Dimensions: 46.9x35x20.74mm\nWeight: 48.3g"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0166",
+          "line_start": 64,
+          "line_end": 68,
+          "url": "https://doodlelabs.com/product/nano2",
+          "page_class": "product",
+          "snippet": "Defense: L, S\nCommercial: ISM, WiFi\nMax Tx Power: 1.6 watts (32 dBm)\nMIMO: 2\u00d72\nChannel Sizes: 20/15/10/5/3 MHz"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Mesh Rider OEM",
+      "category": "communications",
+      "descriptor": "Versatile 102 g OEM mesh radio board, 80 Mbps, L/S/C-band, 50+ km range",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0167",
+          "line_start": 46,
+          "line_end": 47,
+          "url": "https://doodlelabs.com/product/oem",
+          "page_class": "product",
+          "snippet": "OEM\n==="
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0167",
+          "line_start": 57,
+          "line_end": 59,
+          "url": "https://doodlelabs.com/product/oem",
+          "page_class": "product",
+          "snippet": "Dimensions: 57x86x13mm\nWeight: 102 grams\nInterfaces: Ethernet (100 Base-T); USB-Dev; USB-Host, UART, WiFi"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0167",
+          "line_start": 64,
+          "line_end": 67,
+          "url": "https://doodlelabs.com/product/oem",
+          "page_class": "product",
+          "snippet": "Defense: L, S,\u202fNATO-C, VHF\nCommercial: ISM, WiFi, Japan Robotics\nChannel Sizes: 20/15/10/5/3 MHz\nMax Tx Power: 1.6 watts (32 dBm)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Mesh Rider Wearable",
+      "category": "communications",
+      "descriptor": "Ruggedized wearable mesh radio with integrated battery, 80 Mbps, 80+ km air-to-ground",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0168",
+          "line_start": 45,
+          "line_end": 47,
+          "url": "https://doodlelabs.com/product/wearable",
+          "page_class": "product",
+          "snippet": "A powerful tactical mesh network\nWearable\n========"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0168",
+          "line_start": 57,
+          "line_end": 63,
+          "url": "https://doodlelabs.com/product/wearable",
+          "page_class": "product",
+          "snippet": "Dimensions: 134.3mm x 63.0mm x 17.0mm\nWeight: 311 grams\nInterfaces: Ethernet (100 Base-T); USB-Dev; USB-Host, UART\nConnectors: USB-C locking x2\nAntenna Connectors: TNC\nPower Consumption: 14W (peak) 6W (receive) 2W standby\nBattery Capacity: 35 Wh (Expected run time 8-10 hours)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0168",
+          "line_start": 68,
+          "line_end": 71,
+          "url": "https://doodlelabs.com/product/wearable",
+          "page_class": "product",
+          "snippet": "Defense: L, S, NATO-C, Public Safety\nCommercial: ISM, WiFi, Japan Robotics, Federal\nMax Tx Power: 1.6 watts (32 dBm)\nChannel Sizes: 20/15/10/5/3 MHz"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Mesh Rider Boost",
+      "category": "communications",
+      "descriptor": "2\u00d72 MIMO power amplifier for Mesh Rider radios, 36 dBm (4 W) Tx, C-band",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0164",
+          "line_start": 45,
+          "line_end": 47,
+          "url": "https://doodlelabs.com/product/boost",
+          "page_class": "product",
+          "snippet": "Extend range. Strengthen links.\nBoost\n====="
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0164",
+          "line_start": 55,
+          "line_end": 57,
+          "url": "https://doodlelabs.com/product/boost",
+          "page_class": "product",
+          "snippet": "Dimensions: 46.9 \u00d7 35.0 \u00d7 20.74 mm (without heatsink)\nDimensions: 46.9 \u00d7 35.0 \u00d7 26.38 mm (with heatsink)\nWeight: 147 g (without heatsink)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0164",
+          "line_start": 63,
+          "line_end": 65,
+          "url": "https://doodlelabs.com/product/boost",
+          "page_class": "product",
+          "snippet": "Frequency Range: 4400 \u2013 6400 MHz\nMax Tx Power: 36 dBm (4W)\nTransmit Gain: Up to 13 dB"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Helix Mesh Rider\u00ae Radio",
+      "category": "communications",
+      "descriptor": "Blue UAS-cleared tactical mesh radio, Blue UAS Framework certified, chosen for U.S. Army SRR program",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "yes",
+      "blue_uas": "yes",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0038",
+          "line_start": 54,
+          "line_end": 54,
+          "url": "https://doodlelabs.com/blog/japan-robotics-band-certification",
+          "page_class": "compliance",
+          "snippet": "All Doodle Labs products are fully NDAA compliant and Helix Mesh Rider\u00ae Radio is specifically designed to\u00a0[comply with Blue UAS Architecture](https://doodlelabs.com/government-defense/)."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0022",
+          "line_start": 76,
+          "line_end": 76,
+          "url": "https://doodlelabs.com/blog/diu-blue-uas-refresh-challenge",
+          "page_class": "compliance",
+          "snippet": "Doodle Labs\u2019 Helix Mesh Rider Radio is on DIU\u2019s\u00a0[Blue UAS Framework cleared components list](https://doodlelabs.com/how-doodle-labs-helix-mesh-rider-radio-achieves-blue-uas-compliance/), fully-certified for DoD and international use without restriction."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0179",
+          "line_start": 45,
+          "line_end": 45,
+          "url": "https://doodlelabs.com/two-red-cat-announces-production-selection-for-us-army-srr-program",
+          "page_class": "news",
+          "snippet": "*   Cybersecurity: Fully NDAA compliant and Blue UAS certified."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Mesh Rider OS",
+      "category": "communications",
+      "descriptor": "Embedded hardware-and-software stack powering all Mesh Rider radios with configurable waveform and deep API access",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0176",
+          "line_start": 24,
+          "line_end": 24,
+          "url": "https://doodlelabs.com/technology",
+          "page_class": "capability",
+          "snippet": "Mesh Rider OS"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0176",
+          "line_start": 29,
+          "line_end": 29,
+          "url": "https://doodlelabs.com/technology",
+          "page_class": "capability",
+          "snippet": "Mesh Rider OS is a complete hardware and software stack engineered at every layer for mission-critical performance, and optimized for reliability in the harshest conditions. The full system is purpose-built to deliver resilient connectivity when it matters most."
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 0,
+    "total_cost_usd": null,
+    "created_at": "2026-05-04T01:50:07+00:00",
+    "extract_version": "0.1.0"
+  }
+}

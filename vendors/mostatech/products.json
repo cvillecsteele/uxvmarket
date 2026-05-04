@@ -1,0 +1,32 @@
+{
+  "target_id": "mostatech",
+  "run_id": "canonical",
+  "display_name": "MostaTech",
+  "homepage_url": "https://www.mostatech.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/mostatech/website",
+  "products": [],
+  "unresolved_questions": [
+    "The homepage fetch failed with net::ERR_TUNNEL_CONNECTION_FAILED (all three strategies tried: http-fetch, http-proxy, browser). Zero pages were retrieved, so no products can be enumerated. MostaTech is flagged as non_us in the target notes; the site may be geo-blocked or require a different network path."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.mostatech.com",
+      "reason": "Homepage fetch failed with tunnel connection error on all strategies; a retry may succeed if network conditions change or a different proxy is used.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=failed, page_class=homepage, resource-0001",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "needs_more_fetches",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 4,
+    "total_cost_usd": 0.040310799999999994,
+    "created_at": "2026-05-04T04:26:47+00:00",
+    "extract_version": "0.1.0"
+  }
+}

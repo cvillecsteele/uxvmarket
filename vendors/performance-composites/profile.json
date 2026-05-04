@@ -1,0 +1,180 @@
+{
+  "target_id": "performance-composites",
+  "run_id": "canonical",
+  "display_name": "Performance Composites",
+  "homepage_url": "https://performancecomposites.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/performance-composites/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "structures_and_materials",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 108,
+            "line_end": 108,
+            "url": "https://performancecomposites.com",
+            "page_class": "homepage",
+            "snippet": "#### Performance Composites is a full service composites manufacturer providing engineered composite products to leading OEMs for various industries."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 132,
+            "line_end": 134,
+            "url": "https://performancecomposites.com",
+            "page_class": "homepage",
+            "snippet": "###### High Performance Drone Box\nOn the front of cutting edge technology with department of defense contractor, PCI helped develop and manufacture defense drone cases. Using high temp pre-preg tooling the cases are made to withst\u2026\n*   [Read More](/high-performance-drone-box/)"
+          }
+        ],
+        "notes": "Core business is fabricating fiberglass and carbon fiber composite structural parts for OEM customers across industries; drone case is one application."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Drone involvement is a single featured project (defense drone cases). No other UXV-specific product categories evident from fetched pages."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Compton",
+      "state_or_province": "California",
+      "country": "United States",
+      "address": "1418 Alameda St, Compton, CA 90221"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 212,
+        "line_end": 214,
+        "url": "https://performancecomposites.com",
+        "page_class": "homepage",
+        "snippet": "Compton\n*   1418 Alameda St\n    Compton, CA 90221"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "low",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 132,
+        "line_end": 134,
+        "url": "https://performancecomposites.com",
+        "page_class": "homepage",
+        "snippet": "###### High Performance Drone Box\nOn the front of cutting edge technology with department of defense contractor, PCI helped develop and manufacture defense drone cases. Using high temp pre-preg tooling the cases are made to withst\u2026\n*   [Read More](/high-performance-drone-box/)"
+      }
+    ],
+    "notes": "Drone involvement is peripheral \u2014 one featured project making composite cases for a DoD drone contractor. Primary business is broad industrial composites manufacturing."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "High Performance Drone Box",
+        "product_type": "composite drone case/enclosure",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 132,
+            "line_end": 134,
+            "url": "https://performancecomposites.com",
+            "page_class": "homepage",
+            "snippet": "###### High Performance Drone Box\nOn the front of cutting edge technology with department of defense contractor, PCI helped develop and manufacture defense drone cases. Using high temp pre-preg tooling the cases are made to withst\u2026\n*   [Read More](/high-performance-drone-box/)"
+          }
+        ],
+        "notes": "Defense drone cases made with high-temp pre-preg tooling for a DoD contractor."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "The drone box detail page was skipped (skipped_class_budget). Fetch request submitted."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0060",
+        "line_start": 75,
+        "line_end": 75,
+        "url": "https://performancecomposites.com/quality-control",
+        "page_class": "compliance",
+        "snippet": "*   Made in USA"
+      }
+    ],
+    "notes": "Site claims 'Made in USA' on quality control page but makes no explicit NDAA Section 848/889 compliance claim."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 96,
+        "line_end": 98,
+        "url": "https://performancecomposites.com",
+        "page_class": "homepage",
+        "snippet": "Reliable On-Time Delivery of Your Composite Parts\n*   Receive your composite products on time! Our production team is dedicated to on-time delivery, and we consistently achieve 100% on-time delivery ratings from our customers.\n*   Receive the fastest response time from the composite industry. Our typical production through-put time is less than 2 weeks."
+      }
+    ],
+    "notes": "ISO 9001:2015 certified serial production with on-time delivery focus, JIT delivery, and typical throughput under 2 weeks."
+  },
+  "unresolved_questions": [
+    "Drone supply chain role is low confidence \u2014 one peripheral project; high-performance-drone-box detail page was skipped.",
+    "No NDAA/Blue UAS compliance claims anywhere on fetched pages."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://performancecomposites.com/high-performance-drone-box",
+      "reason": "Featured project page for defense drone cases; would confirm product details, whether this is a recurring product line or one-off, and whether NDAA compliance is claimed for defense work.",
+      "expected_evidence": [
+        "products",
+        "drone_supply_chain_role",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://performancecomposites.com/about-us",
+      "reason": "About Us page would confirm headquarters and whether drone/defense is a significant business focus.",
+      "expected_evidence": [
+        "headquarters",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "tagline": "Manufactures custom carbon-fiber and fiberglass composite structures\u2014cases, fairings, battery trays, tooling\u2014primarily for transportation and industrial OEMs. ISO 9001:2015 certified, in production. Notable: High Performance Drone Box for DoD contractor. NDAA compliance status undisclosed; no Blue UAS certification found. Public evidence limited to commercial portfolio; defense-sector involvement unclear beyond single named drone product.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 17,
+    "total_cost_usd": 0.36053915,
+    "created_at": "2026-05-04T05:07:24+00:00",
+    "extract_version": "0.1.0"
+  }
+}

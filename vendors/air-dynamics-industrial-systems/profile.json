@@ -1,0 +1,346 @@
+{
+  "target_id": "air-dynamics-industrial-systems",
+  "run_id": "canonical",
+  "display_name": "Air Dynamics Industrial Systems",
+  "homepage_url": "https://www.airdynamics.net",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/air-dynamics-industrial-systems/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "test_and_measurement",
+        "is_primary": true,
+        "confidence": "low",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0191",
+            "line_start": 215,
+            "line_end": 215,
+            "url": "https://www.airdynamics.net/desert-wind-mil-std-test-chamber",
+            "page_class": "news",
+            "snippet": "Military equipment used in extreme desert conditions must meet demanding testing standards. The Air Dynamics-engineered Desert Wind\u2122 is a MIL-STD-810 blowing sand and dust test chamber designed to ensure all equipment is up to the task of operating in the desert."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0191",
+            "line_start": 238,
+            "line_end": 238,
+            "url": "https://www.airdynamics.net/desert-wind-mil-std-test-chamber",
+            "page_class": "news",
+            "snippet": "Desert Wind\u2122 test chambers ensure products reliably perform to specs in harsh environments. They can help reduce or eliminate field failure of electronics, vehicles, and military equipment. The patented design allows testing to meet or exceed the following standards: MIL-STD-810H, DO-160G, MIL-STD-202, and AECTP 300, Method 313."
+          }
+        ],
+        "notes": "Desert Wind\u2122 MIL-STD-810H test chambers used by U.S. military (Naval Air Warfare Center, DoD) to test equipment in desert conditions; could test UXV/drone components but no explicit drone connection stated"
+      }
+    ],
+    "confidence": "low",
+    "status": "answered",
+    "notes": "No UXV-specific category is clearly applicable. Primary business is industrial vacuum, dust collection, and air handling. Only tenuous UXV relevance is through MIL-STD-810H test chambers used for military/aerospace qualification testing."
+  },
+  "headquarters": {
+    "value": {
+      "city": "York",
+      "state_or_province": "Pennsylvania",
+      "country": "United States",
+      "address": "180 Roosevelt Ave, York, PA 17401"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 378,
+        "line_end": 379,
+        "url": "https://www.airdynamics.net",
+        "page_class": "homepage",
+        "snippet": "180 Roosevelt Ave,\nYork, PA 17401"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "broad_industrial",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 212,
+        "line_end": 212,
+        "url": "https://www.airdynamics.net",
+        "page_class": "homepage",
+        "snippet": "Advancing the State-of-the-Art\u2122 Since 1991 Industrial Manufacturer of Dust Collection, Vacuum, and Conveyance Systems [View Our Products](products/) [Explore Engineering & Design](engineering-and-design/)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 239,
+        "line_end": 239,
+        "url": "https://www.airdynamics.net",
+        "page_class": "homepage",
+        "snippet": "Air Dynamics Industrial Systems Corporation specializes in designing and manufacturing advanced air cleaning and purification devices (APCD), industrial vacuum systems (both portable and central), pneumatic conveying systems, and MIL-STD-810H environmental test chambers for blowing sand and dust. We provide tailored solutions to address complex challenges where air, materials, gases, temperature, and humidity intersect."
+      }
+    ],
+    "notes": "Industrial manufacturer of air handling, vacuum, dust collection, and MIL-STD environmental test equipment serving aerospace/defense primes (Lockheed Martin, Northrop Grumman, Boeing, BAE Systems, Pratt & Whitney, US Army, US Navy). No UXV-specific product line anywhere in corpus."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Desert Wind\u2122 MIL-STD 810H Blowing Sand and Dust Environmental Test Chamber",
+        "product_type": "MIL-STD-810H blowing sand and dust test chamber",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0191",
+            "line_start": 213,
+            "line_end": 215,
+            "url": "https://www.airdynamics.net/desert-wind-mil-std-test-chamber",
+            "page_class": "news",
+            "snippet": "MIL-STD 810H Sand and Dust Environmental Test Chambers\n======================================================\nMilitary equipment used in extreme desert conditions must meet demanding testing standards. The Air Dynamics-engineered Desert Wind\u2122 is a MIL-STD-810 blowing sand and dust test chamber designed to ensure all equipment is up to the task of operating in the desert."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Desert Wind\u2122 Jet Propulsion Engine Abrasion Testing & Validation System",
+        "product_type": "jet engine abrasion test system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0014",
+            "line_start": 213,
+            "line_end": 215,
+            "url": "https://www.airdynamics.net/desert-wind-jet-propulsion-engine-abrasion-testing-and-validation-system",
+            "page_class": "news",
+            "snippet": "Desert Wind\u2122 Jet Propulsion Engine Abrasion Testing & Validation System\n=======================================================================\nDesert Wind\u2122 jet engine abrasion testing systems simulate up to 20 years of operational conditions in a controlled environment. Through repeatable testing parameters, they provide unmatched data to [aerospace](aerospace/) and military decision-makers, ensuring safety and operational readiness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Desert Wind\u2122 Compact",
+        "product_type": "compact blowing sand and dust environmental test chamber",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 36,
+            "line_end": 36,
+            "url": "https://www.airdynamics.net",
+            "page_class": "homepage",
+            "snippet": "        *   [Desert Wind\u2122 \u2013 Compact Blowing Sand and Dust Environmental Test Chamber](desert-wind-compact/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Model CV-22",
+        "product_type": "industrial central vacuum system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0156",
+            "line_start": 219,
+            "line_end": 220,
+            "url": "https://www.airdynamics.net/model-cv-22",
+            "page_class": "other",
+            "snippet": "Central Vacuum Model CV-22\n2 User Continuous Vacuum System"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Model CV-36",
+        "product_type": "industrial central vacuum system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 25,
+            "line_end": 25,
+            "url": "https://www.airdynamics.net",
+            "page_class": "homepage",
+            "snippet": "        *   [Model CV-36](model-cv-36/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Model CV-48",
+        "product_type": "industrial central vacuum system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 26,
+            "line_end": 26,
+            "url": "https://www.airdynamics.net",
+            "page_class": "homepage",
+            "snippet": "        *   [Model CV-48](model-cv-48/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Model CV-60",
+        "product_type": "industrial central vacuum system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 27,
+            "line_end": 27,
+            "url": "https://www.airdynamics.net",
+            "page_class": "homepage",
+            "snippet": "        *   [Model CV-60](model-cv-60/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Model CV-60-TT",
+        "product_type": "industrial central vacuum system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 28,
+            "line_end": 28,
+            "url": "https://www.airdynamics.net",
+            "page_class": "homepage",
+            "snippet": "        *   [Model CV-60-TT](model-cv-60-tt/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "PL\u0112CO 22",
+        "product_type": "industrial portable HEPA vacuum cleaner",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 49,
+            "line_end": 49,
+            "url": "https://www.airdynamics.net",
+            "page_class": "homepage",
+            "snippet": "        *   [PL\u0112CO 22](pleco-22/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ActiveWall\u2122 Fabric Filter Dust Collector",
+        "product_type": "fabric filter dust collector",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 39,
+            "line_end": 39,
+            "url": "https://www.airdynamics.net",
+            "page_class": "homepage",
+            "snippet": "        *   [ActiveWall\u2122 Fabric Filter Dust Collector](activewall/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Kitchen Sentry\u2122 Hydrodynamic CKV Air Scrubber",
+        "product_type": "commercial kitchen ventilation wet scrubber",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 20,
+            "line_end": 20,
+            "url": "https://www.airdynamics.net",
+            "page_class": "homepage",
+            "snippet": "        *   [Kitchen Sentry\u2122 Hydrodynamic CKV Air Scrubber](kitchen-sentry-tm-commercial-kitchen-ventilation-wet-scrubber-hood/)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 214,
+        "line_end": 214,
+        "url": "https://www.airdynamics.net",
+        "page_class": "homepage",
+        "snippet": "VETERAN OWNED. COMMUNITY ORIENTED. AMERICAN PRIDE. Built in the USA\u2014Free from Foreign Tariff Risk"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 263,
+        "line_end": 263,
+        "url": "https://www.airdynamics.net",
+        "page_class": "homepage",
+        "snippet": "As a proud veteran-owned small business, founded in 1991, we stand out with a commitment to innovation and excellence. Our product lineup includes four USPTO patents. All Air Dynamics products are designed and manufactured in the USA, ensuring premium quality and reliability."
+      }
+    ],
+    "notes": "Site claims 'Built in the USA' and 'All Air Dynamics products are designed and manufactured in the USA' but makes no explicit NDAA Section 848/889 compliance claim."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 240,
+        "line_end": 240,
+        "url": "https://www.airdynamics.net",
+        "page_class": "homepage",
+        "snippet": "Our 22,000 sq ft facility in York, PA, is home to the design, engineering, and manufacturing of these systems, with over 30 years of expertise and seven USPTO patents. Trusted by clients like Boeing, Lockheed Martin, and MARS, we deliver solutions that improve process efficiency, enhance safety, and ensure long-term, reliable performance."
+      }
+    ],
+    "notes": "34-year-old manufacturer with 22,000 sq ft facility, catalog SKUs with product spec sheets, serial production of industrial systems."
+  },
+  "unresolved_questions": [
+    "No UXV/drone-specific products or applications mentioned anywhere in the corpus despite serving major defense primes and U.S. military branches",
+    "MIL-STD-810H test chambers could test drone/UXV components but no explicit UXV application claimed"
+  ],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Manufactures MIL-STD 810H environmental test chambers (Desert Wind\u2122 series) for blowing sand/dust and jet engine abrasion testing, plus industrial air pollution control systems (central vacuums, dust collectors, scrubbers, pneumatic conveying). NDAA and Blue UAS certification status unknown. Primary customer base appears to be aerospace, defense, and heavy manufacturing; public evidence of unmanned-systems integration or defense primes' supply chains is thin.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 14,
+    "total_cost_usd": 0.37325689999999995,
+    "created_at": "2026-05-03T20:56:51+00:00",
+    "extract_version": "0.1.0"
+  }
+}

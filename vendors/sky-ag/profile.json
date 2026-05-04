@@ -1,0 +1,376 @@
+{
+  "target_id": "sky-ag",
+  "run_id": "canonical",
+  "display_name": "Sky AG",
+  "homepage_url": "https://sky-ag.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/sky-ag/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "airframes",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 154,
+            "line_end": 167,
+            "url": "https://sky-ag.com",
+            "page_class": "homepage",
+            "snippet": "##### DJI AGRAS T100\n$48,505\\*\nOrder Now\n](/dji-agras-t100/)\n[\n##### DJI AGRAS T50\n$36,699\\*\nOrder Now\n](/agras-t50/)\n[\n##### DJI Mavic 3M\n$5,495\\*\nOrder Now\n](/mavic-3m/)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 200,
+            "line_end": 206,
+            "url": "https://sky-ag.com",
+            "page_class": "homepage",
+            "snippet": "##### DJI Matrice 4 Series\nOrder Now\n](/matrice-4-series/)\n[\n##### DJI Matrice 400\nOrder Now\n](/matrice-400/)"
+          }
+        ],
+        "notes": "Resells complete DJI agricultural and enterprise drone platforms (AGRAS T100, T50, Mavic 3M, Matrice 4 Series, Matrice 400)"
+      },
+      {
+        "category": "isr_payloads",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0012",
+            "line_start": 112,
+            "line_end": 114,
+            "url": "https://sky-ag.com/metscan-v1",
+            "page_class": "other",
+            "snippet": "==========\n##### UAV-Based Aerial Methane Sensing System\n[Home](https://sky-ag.com/) \u00bb MetScan v1"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 211,
+            "line_end": 213,
+            "url": "https://sky-ag.com",
+            "page_class": "homepage",
+            "snippet": "##### Soarability Sniffer 4D\nOrder Now\n](/sniffer-4d/)"
+          }
+        ],
+        "notes": "Resells Soarability Sniffer 4D (multi-gas detection) and MetScan v1 (methane sensing) payloads, and CitySense environmental sensor"
+      },
+      {
+        "category": "recovery_systems",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 13,
+            "line_end": 13,
+            "url": "https://sky-ag.com",
+            "page_class": "homepage",
+            "snippet": "    *   [AVSS Parachute Recovery System](https://sky-ag.com/parachute-recovery-system/)"
+          }
+        ],
+        "notes": "Resells AVSS Parachute Recovery System"
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Also offers drone services (greenhouse shading, thermal inspections, precision agriculture field services) but hardware resale is primary"
+  },
+  "headquarters": {
+    "value": {
+      "city": "Langley",
+      "state_or_province": "BC",
+      "country": "Canada",
+      "address": null
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 2,
+        "line_end": 2,
+        "url": "https://sky-ag.com",
+        "page_class": "homepage",
+        "snippet": "[![SkyAG Solutions - Agriculture Drones for sale in Langley, BC, Canada. Drones for farming and greenhouse maintenance services](https://sky-ag.com/wp-content/uploads/2020/09/SkyAg-logo.png)](https://sky-ag.com)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 170,
+        "line_end": 170,
+        "url": "https://sky-ag.com",
+        "page_class": "homepage",
+        "snippet": "SkyAG offers agriculture drone services in Langley, BC and the surrounding area"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "reseller",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 154,
+        "line_end": 167,
+        "url": "https://sky-ag.com",
+        "page_class": "homepage",
+        "snippet": "##### DJI AGRAS T100\n$48,505\\*\nOrder Now\n](/dji-agras-t100/)\n[\n##### DJI AGRAS T50\n$36,699\\*\nOrder Now\n](/agras-t50/)\n[\n##### DJI Mavic 3M\n$5,495\\*\nOrder Now\n](/mavic-3m/)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0018",
+        "line_start": 123,
+        "line_end": 130,
+        "url": "https://sky-ag.com/enterprise-drones",
+        "page_class": "other",
+        "snippet": "DJI Enterprise Drones\n---------------------\n[\n#### Matrice 400\n](/matrice-400/)\n[\n#### Matrice 4 Series\n](/matrice-4-series/)"
+      }
+    ],
+    "notes": "Resells DJI drones and third-party accessories (Soarability, AVSS) with minimal value-add; also operates drones for agricultural services"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "DJI AGRAS T100",
+        "product_type": "agricultural spray/spread drone",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0038",
+            "line_start": 112,
+            "line_end": 113,
+            "url": "https://sky-ag.com/dji-agras-t100",
+            "page_class": "other",
+            "snippet": "DJI AGRAS T100\n=============="
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DJI AGRAS T50",
+        "product_type": "agricultural spray drone",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 159,
+            "line_end": 161,
+            "url": "https://sky-ag.com",
+            "page_class": "homepage",
+            "snippet": "##### DJI AGRAS T50\n$36,699\\*\nOrder Now"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DJI Mavic 3M",
+        "product_type": "multispectral mapping drone",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 163,
+            "line_end": 166,
+            "url": "https://sky-ag.com",
+            "page_class": "homepage",
+            "snippet": "[\n##### DJI Mavic 3M\n$5,495\\*\nOrder Now"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DJI Matrice 4 Series",
+        "product_type": "enterprise drone series",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 200,
+            "line_end": 202,
+            "url": "https://sky-ag.com",
+            "page_class": "homepage",
+            "snippet": "##### DJI Matrice 4 Series\nOrder Now\n](/matrice-4-series/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DJI Matrice 400",
+        "product_type": "enterprise drone",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 204,
+            "line_end": 206,
+            "url": "https://sky-ag.com",
+            "page_class": "homepage",
+            "snippet": "##### DJI Matrice 400\nOrder Now\n](/matrice-400/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Soarability Sniffer 4D",
+        "product_type": "multi-gas detection drone payload",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 211,
+            "line_end": 213,
+            "url": "https://sky-ag.com",
+            "page_class": "homepage",
+            "snippet": "##### Soarability Sniffer 4D\nOrder Now\n](/sniffer-4d/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Soarability MetScan v1",
+        "product_type": "UAV-based methane sensing payload",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0012",
+            "line_start": 111,
+            "line_end": 113,
+            "url": "https://sky-ag.com/metscan-v1",
+            "page_class": "other",
+            "snippet": "MetScan v1\n==========\n##### UAV-Based Aerial Methane Sensing System"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AVSS Parachute Recovery System",
+        "product_type": "drone parachute recovery system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 13,
+            "line_end": 13,
+            "url": "https://sky-ag.com",
+            "page_class": "homepage",
+            "snippet": "    *   [AVSS Parachute Recovery System](https://sky-ag.com/parachute-recovery-system/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "CitySense",
+        "product_type": "environmental sensing system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0011",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://sky-ag.com/citysense",
+            "page_class": "other",
+            "snippet": "CitySense - Environmental Sensing System                                                                   [Skip to content](#content)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Speedip v2",
+        "product_type": "drone accessory",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 16,
+            "line_end": 16,
+            "url": "https://sky-ag.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Speedip v2](https://sky-ag.com/speedip/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SkyDeck Hauler Drone Trailers",
+        "product_type": "drone transport trailer",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 14,
+            "line_end": 14,
+            "url": "https://sky-ag.com",
+            "page_class": "homepage",
+            "snippet": "    *   [SkyDeck Hauler Drone Trailers](https://sky-ag.com/skydeck-hauler-drone-trailers/)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA or Section 848/889 language found anywhere in the corpus. SkyAG primarily resells DJI drones (Chinese-made); no compliance claim made."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS or Blue sUAS mention found. DJI products are not on the DIU Blue UAS Cleared List."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 154,
+        "line_end": 161,
+        "url": "https://sky-ag.com",
+        "page_class": "homepage",
+        "snippet": "##### DJI AGRAS T100\n$48,505\\*\nOrder Now\n](/dji-agras-t100/)\n[\n##### DJI AGRAS T50\n$36,699\\*\nOrder Now"
+      }
+    ],
+    "notes": "Listed catalog SKUs with prices (AGRAS T100 at $48,505, T50 at $36,699, Mavic 3M at $5,495) available for order"
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Canadian reseller of DJI agricultural and enterprise drones (AGRAS T100/T50, Matrice series, Mavic 3M) plus complementary sensors (gas detection, meteorology), parachute recovery systems, and field-service equipment. NDAA and Blue UAS certification status unknown. Public record thin on defense/government contracts or supply-chain commitments beyond commercial agriculture and greenhouse operations.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 12,
+    "total_cost_usd": 0.33484765000000005,
+    "created_at": "2026-05-04T06:18:23+00:00",
+    "extract_version": "0.1.0"
+  }
+}

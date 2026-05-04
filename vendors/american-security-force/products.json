@@ -1,0 +1,597 @@
+{
+  "target_id": "american-security-force",
+  "run_id": "canonical",
+  "display_name": "American Security Force",
+  "homepage_url": "https://www.americansecurityforce.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/american-security-force/website",
+  "products": [
+    {
+      "name": "Remote Drone Docking Station",
+      "category": "ground_segment",
+      "descriptor": "Autonomous drone docking station with self-charging for 24/7 drone operations",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 86,
+          "line_end": 87,
+          "url": "https://www.americansecurityforce.com",
+          "page_class": "homepage",
+          "snippet": "*   Weather-resistant drone docking stations with autonomous charging\n*   Secure data transmission and remote command access"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 29,
+          "line_end": 29,
+          "url": "https://www.americansecurityforce.com",
+          "page_class": "homepage",
+          "snippet": "        *   [Remote Drone Docking Station](https://www.americansecurityforce.com/remote-surveillance-technology/remote-drone-docking-station/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Surveillance Drones",
+      "category": "isr_payloads",
+      "descriptor": "Aerial drone surveillance service with HD video streaming and autonomous patrol",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 82,
+          "line_end": 82,
+          "url": "https://www.americansecurityforce.com",
+          "page_class": "homepage",
+          "snippet": "Our [surveillance drones](https://www.americansecurityforce.com/remote-surveillance-technology/surveillance-drones/) offer rapid deployment, live HD video streaming, and intelligent tracking. They are perfect for wide-area and hard-to-reach security coverage. Supported by autonomous drone docking stations, these units ensure 24/7 protection with minimal manual intervention."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 131,
+          "line_end": 132,
+          "url": "https://www.americansecurityforce.com",
+          "page_class": "homepage",
+          "snippet": "### [Surveillance Drones](/security-technology/drone-security-system/)\nHigh-tech aerial surveillance with security drones for real-time monitoring of wide areas, enhancing threat detection and rapid response."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Sentinel Surveillance Services",
+      "category": "isr_payloads",
+      "descriptor": "Portable 360-degree surveillance towers for construction sites and critical infrastructure",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 127,
+          "line_end": 128,
+          "url": "https://www.americansecurityforce.com",
+          "page_class": "homepage",
+          "snippet": "### [Sentinel Surveillance](https://www.americansecurityforce.com/remote-surveillance-technology/sentinel-surveillance-services/)\nPortable 360-degree surveillance units designed to monitor construction sites, industrial complexes, and critical infrastructures."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Mobile Surveillance Trailers Rental",
+      "category": "isr_payloads",
+      "descriptor": "Towable trailer-mounted surveillance units with 360\u00b0 cameras, thermal imaging, and deterrence lighting for rent",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0177",
+          "line_start": 70,
+          "line_end": 72,
+          "url": "https://www.americansecurityforce.com/remote-surveillance-technology/mobile-surveillance-trailers",
+          "page_class": "capability",
+          "snippet": "Mobile Surveillance Trailers Rental\n===================================\nRent a Mobile Surveillance Unit with Us and Get Security That Moves with You 24/7"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0177",
+          "line_start": 139,
+          "line_end": 139,
+          "url": "https://www.americansecurityforce.com/remote-surveillance-technology/mobile-surveillance-trailers",
+          "page_class": "capability",
+          "snippet": "Our mobile surveillance trailers are available for rent across California, Arizona, and Nevada."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Solar-Powered Surveillance Trailers",
+      "category": "isr_payloads",
+      "descriptor": "Self-sustaining solar-powered mobile surveillance trailers for off-grid 24/7 security monitoring",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0182",
+          "line_start": 70,
+          "line_end": 72,
+          "url": "https://www.americansecurityforce.com/remote-surveillance-technology/solar-powered-surveillance-trailers",
+          "page_class": "capability",
+          "snippet": "Solar-Powered Surveillance Trailers\n===================================\nSafeguard your business premises day and night, even during power outages or in highly remote locations, with a resilient solar surveillance trailer."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Monitoring and Response Center",
+      "category": "ground_segment",
+      "descriptor": "Global Security Operations Center (GSOC) providing 24/7 remote surveillance monitoring and incident response",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0178",
+          "line_start": 70,
+          "line_end": 72,
+          "url": "https://www.americansecurityforce.com/remote-surveillance-technology/monitoring-and-response-center",
+          "page_class": "capability",
+          "snippet": "Monitoring and Security Response Center\n=======================================\nRely on our dedicated security response center and team of experts to effectively oversee and manage your business premise\u2019s safety."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Video Surveillance System",
+      "category": "isr_payloads",
+      "descriptor": "Scalable fixed-camera video surveillance systems with analytics, remote monitoring, and PTZ control",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0185",
+          "line_start": 70,
+          "line_end": 72,
+          "url": "https://www.americansecurityforce.com/remote-surveillance-technology/video-surveillance-system",
+          "page_class": "capability",
+          "snippet": "Video Surveillance System\n=========================\nKeep your premises under a watchful eye 24/7 with a high-quality, custom video surveillance system, including cameras and recording equipment."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Electronic Access Control Solutions",
+      "category": "ground_segment",
+      "descriptor": "Scalable electronic access control systems including biometric readers, card readers, and multi-site web platforms",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0174",
+          "line_start": 70,
+          "line_end": 72,
+          "url": "https://www.americansecurityforce.com/remote-surveillance-technology/electronic-access-control-solutions",
+          "page_class": "capability",
+          "snippet": "Electronic Access Control Systems\n=================================\nRegulate and monitor entry to your premises and sensitive locations with advanced electronic access control systems that seamlessly integrate with your existing security solutions."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Fire & Intrusion Monitoring Solutions",
+      "category": "ground_segment",
+      "descriptor": "Fire and burglar alarm design, installation, and 24/7 monitoring services integrated with emergency response",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0176",
+          "line_start": 70,
+          "line_end": 72,
+          "url": "https://www.americansecurityforce.com/remote-surveillance-technology/fire-intrusion-monitoring-solutions",
+          "page_class": "capability",
+          "snippet": "Fire & Intrusion Monitoring Solutions\n=====================================\nIntegrate fire and intrusion monitoring systems to protect everyone on your premises and ensure a rapid response to security emergencies."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Cybersecurity Services",
+      "category": "ground_segment",
+      "descriptor": "Managed cybersecurity consulting and implementation for small to mid-size businesses",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0184",
+          "line_start": 70,
+          "line_end": 72,
+          "url": "https://www.americansecurityforce.com/security-services/cybersecurity",
+          "page_class": "compliance",
+          "snippet": "Cybersecurity Services\n======================\nDefend against digital threats that could disrupt your business\u2019s operations with our specialized cybersecurity services and solutions."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0184",
+          "line_start": 81,
+          "line_end": 81,
+          "url": "https://www.americansecurityforce.com/security-services/cybersecurity",
+          "page_class": "compliance",
+          "snippet": "We at [American Security Force](/) are well-versed in various operating systems, networks, and databases. We work with just about any technology that a small to mid-size business would encounter. We use this expertise to help clients with small to mid-sized cybersecurity projects."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Mobile Surveillance Trailers",
+      "category": "isr_payloads",
+      "descriptor": "Portable self-sustaining surveillance trailer units for large outdoor area monitoring",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 123,
+          "line_end": 124,
+          "url": "https://www.americansecurityforce.com",
+          "page_class": "homepage",
+          "snippet": "### [Mobile Surveillance Trailers](https://www.americansecurityforce.com/security-technology/mobile-surveillance-trailers/)\nPortable self-sustaining surveillance units designed to monitor large outdoor areas, deterring criminal acts and detecting suspicious activity"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Video Surveillance",
+      "category": "isr_payloads",
+      "descriptor": "IP-based security video monitoring with high-resolution cameras, analytics, and remote access",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0174",
+          "line_start": 70,
+          "line_end": 72,
+          "url": "https://www.americansecurityforce.com/remote-surveillance-technology/video-monitoring-solutions",
+          "page_class": "capability",
+          "snippet": "Enhanced Security Video Monitoring Solutions\n============================================\nMaintain control over your premises and capture crucial footage in real-time with our comprehensive security video monitoring solutions."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0174",
+          "line_start": 83,
+          "line_end": 83,
+          "url": "https://www.americansecurityforce.com/remote-surveillance-technology/video-monitoring-solutions",
+          "page_class": "capability",
+          "snippet": "Our IP-based surveillance leverages your existing infrastructure and networking communications. Get cost-effective, scalable, and reliable security video monitoring tailored to your needs."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Monitor & Response Center",
+      "category": "ground_segment",
+      "descriptor": "Remote security monitoring and response center service for live surveillance oversight",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 33,
+          "line_end": 33,
+          "url": "https://www.americansecurityforce.com",
+          "page_class": "homepage",
+          "snippet": "        *   [Monitor & Response Center](https://www.americansecurityforce.com/remote-surveillance-technology/monitoring-and-response-center/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Electronic Access Control",
+      "category": "ground_segment",
+      "descriptor": "Scalable electronic access control systems with biometric readers, cards, and multi-site management",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0176",
+          "line_start": 70,
+          "line_end": 72,
+          "url": "https://www.americansecurityforce.com/remote-surveillance-technology/electronic-access-control-solutions",
+          "page_class": "capability",
+          "snippet": "Electronic Access Control Systems\n=================================\nRegulate and monitor entry to your premises and sensitive locations with advanced electronic access control systems that seamlessly integrate with your existing security solutions."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0176",
+          "line_start": 97,
+          "line_end": 102,
+          "url": "https://www.americansecurityforce.com/remote-surveillance-technology/electronic-access-control-solutions",
+          "page_class": "capability",
+          "snippet": "*   PC solutions for small, mid-sized, and enterprise-level applications\n*   Web-based multi-site electronic access control system\n*   Access control cards and readers for secure entry\n*   Photo ID badges\n*   Networked biometric readers\n*   Single door edge devices for streamlined control"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Fire & Intrusion Monitoring",
+      "category": "ground_segment",
+      "descriptor": "Fire and intrusion monitoring solutions integrated with broader security systems",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 34,
+          "line_end": 34,
+          "url": "https://www.americansecurityforce.com",
+          "page_class": "homepage",
+          "snippet": "        *   [Fire & Intrusion Monitoring](https://www.americansecurityforce.com/remote-surveillance-technology/fire-intrusion-monitoring-solutions/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 227,
+          "line_end": 227,
+          "url": "https://www.americansecurityforce.com",
+          "page_class": "homepage",
+          "snippet": "American Security Force offers comprehensive security services, including [security guard services](/security-services/security-guard-services/), [mobile patrol units](/security-services/security-patrol-services/), [fire and intrusion monitoring](/security-technology/fire-instrusion-monitoring-solutions/), [formally dressed guards for exclusive events](/security-services/executive-protection/), and [comprehensive event security](/security-services/event-security-services/). Our guards are fully equipped to handle any security situation, effectively preventing crimes like theft and trespassing."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Remote Surveillance",
+      "category": "isr_payloads",
+      "descriptor": "Remote security surveillance service combining technology and monitoring for nationwide deployment",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 73,
+          "line_end": 73,
+          "url": "https://www.americansecurityforce.com",
+          "page_class": "homepage",
+          "snippet": "[Remote Surveillance](/security-services/remote-security-surveillance/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 168,
+          "line_end": 168,
+          "url": "https://www.americansecurityforce.com",
+          "page_class": "homepage",
+          "snippet": "Our [remote security surveillance](/security-services/remote-security-surveillance/) systems are available nationwide and can be deployed anywhere you need enhanced security. Here are other common industries we can secure:"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Security Guards",
+      "category": "ground_segment",
+      "descriptor": "Licensed security guard service for hotels, retail, offices, and other commercial sites",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 112,
+          "line_end": 113,
+          "url": "https://www.americansecurityforce.com",
+          "page_class": "homepage",
+          "snippet": "### [Security Guards](/security-services/security-guard-services/)\nWhether you run a hotel, retail store, or office, our visible and powerful presence seamlessly fits into your environment and enhances security."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Security Patrol",
+      "category": "ground_segment",
+      "descriptor": "Mobile security patrol service with 24/7 vigilance and proactive threat response",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 108,
+          "line_end": 109,
+          "url": "https://www.americansecurityforce.com",
+          "page_class": "homepage",
+          "snippet": "### [Security Patrol](/security-services/security-patrol-services/)\nOur expertly trained security officers empower businesses of all sizes with 24/7 vigilance, proactive protection, and prompt response to any threat."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Executive Protection",
+      "category": "ground_segment",
+      "descriptor": "Formally dressed executive protection service for high-profile individuals and events",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 14,
+          "line_end": 14,
+          "url": "https://www.americansecurityforce.com",
+          "page_class": "homepage",
+          "snippet": "        *   [Executive Protection](https://www.americansecurityforce.com/security-services/executive-protection/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 227,
+          "line_end": 227,
+          "url": "https://www.americansecurityforce.com",
+          "page_class": "homepage",
+          "snippet": "American Security Force offers comprehensive security services, including [security guard services](/security-services/security-guard-services/), [mobile patrol units](/security-services/security-patrol-services/), [fire and intrusion monitoring](/security-technology/fire-instrusion-monitoring-solutions/), [formally dressed guards for exclusive events](/security-services/executive-protection/), and [comprehensive event security](/security-services/event-security-services/). Our guards are fully equipped to handle any security situation, effectively preventing crimes like theft and trespassing."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Intelligence Services",
+      "category": "isr_payloads",
+      "descriptor": "Intelligence gathering and analysis services for security threat assessment",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 18,
+          "line_end": 18,
+          "url": "https://www.americansecurityforce.com",
+          "page_class": "homepage",
+          "snippet": "        *   [Intelligence Services](https://www.americansecurityforce.com/security-services/intelligence-services/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 260,
+          "line_end": 260,
+          "url": "https://www.americansecurityforce.com",
+          "page_class": "homepage",
+          "snippet": "*   [Intelligence Services](https://www.americansecurityforce.com/security-services/intelligence-services/)"
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "All 14 prioritized products were located and recorded, but product-specific detail pages for most items were skipped (status: skipped_class_budget). Descriptions and classifications rely primarily on the homepage (resource-0001) and two capability pages (resource-0003 video monitoring, resource-0004 electronic access control). Drone-specific details (model names, sensor specs, payload capacity) remain unknown.",
+    "No NDAA or Blue UAS compliance claims were found in any fetched page.",
+    "Remote Surveillance (service page) and Surveillance Drones (product page) overlap in scope \u2014 the site treats these as distinct offerings but the corpus does not contain their individual detail pages to confirm differentiation."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.americansecurityforce.com/remote-surveillance-technology/surveillance-drones",
+      "reason": "Primary drone product page \u2014 would confirm drone model names, specs, and any NDAA/Blue UAS claims",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=capability",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.americansecurityforce.com/remote-surveillance-technology/remote-drone-docking-station",
+      "reason": "Drone docking station detail page \u2014 would clarify whether this is a standalone product or bundled service, and surface specs",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=capability",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.americansecurityforce.com/remote-surveillance-technology/sentinel-surveillance-services",
+      "reason": "Sentinel surveillance tower detail page \u2014 would clarify product specs and whether it is a tower product or service",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=capability",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.americansecurityforce.com/remote-surveillance-technology/mobile-surveillance-trailers",
+      "reason": "Mobile surveillance trailer detail page \u2014 would confirm specs, rental vs. purchase model, and any compliance claims",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=capability",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.americansecurityforce.com/remote-surveillance-technology/monitoring-and-response-center",
+      "reason": "Monitor & Response Center detail page \u2014 would clarify service scope and staffing model",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=capability",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.americansecurityforce.com/remote-surveillance-technology/fire-intrusion-monitoring-solutions",
+      "reason": "Fire & Intrusion Monitoring detail page \u2014 would clarify product scope and technology used",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=capability",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 29,
+    "total_cost_usd": 0.8701976499999998,
+    "created_at": "2026-05-03T21:15:54+00:00",
+    "extract_version": "0.1.0"
+  }
+}

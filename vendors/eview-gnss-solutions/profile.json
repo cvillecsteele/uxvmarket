@@ -1,0 +1,398 @@
+{
+  "target_id": "eview-gnss-solutions",
+  "run_id": "canonical",
+  "display_name": "Eview GNSS Solutions",
+  "homepage_url": "https://gnss-solutions.com/",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/eview-gnss-solutions/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 47,
+            "line_end": 47,
+            "url": "https://gnss-solutions.com/",
+            "page_class": "homepage",
+            "snippet": "Eview GNSS Solutions is the leading provider of advanced anti-jamming GNSS receiver, modules , and smart antennas powered by Septentrio technology. Our specialized GNSS Solutions deliver reliable positioning for military, infrastructure, and UAV applications where standard GNSS receiver systems fail. Discover why professionals choose Eview for superior anti-jamming protection."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 60,
+            "line_end": 60,
+            "url": "https://gnss-solutions.com/",
+            "page_class": "homepage",
+            "snippet": "Eview GNSS designs and develops advanced multi-frequency, multi-constellation GPS/GNSS positioning technology tailored for demanding applications across diverse industries. Our GNSS devices integrate modern GNSS technology to achieve reliable, centimeter-level accuracy, ensuring precision even in the most challenging conditions."
+          }
+        ],
+        "notes": "GNSS receivers, RTK boards, modules, and smart antennas based on Septentrio Mosaic-X5 technology, used in UAV/navigation applications"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Burnaby",
+      "state_or_province": "BC",
+      "country": "Canada",
+      "address": "6856 Linden Ave, Burnaby, BC V5E 3G4"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0030",
+        "line_start": 87,
+        "line_end": 89,
+        "url": "https://gnss-solutions.com/contact-us",
+        "page_class": "contact",
+        "snippet": "6856 Linden Ave\nBurnaby, BC V5E 3G4\nCanada"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 153,
+        "line_end": 153,
+        "url": "https://gnss-solutions.com/",
+        "page_class": "homepage",
+        "snippet": "We focus on developing GNSS solutions for industries such as robotics, construction, surveying, mapping, unmanned aerial vehicles (UAVs), maritime, logistics, and more. Our goal is to empower your business with durable, high-performance technology that delivers reliable, centimeter-level accuracy under demanding conditions."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 107,
+        "line_end": 107,
+        "url": "https://gnss-solutions.com/",
+        "page_class": "homepage",
+        "snippet": "Disover our range of high-accuracy GNSS receivers, GNSS modules, and smart antennas designed for resilience in complex environments. Our resilient GNSS boards leverage the latest anti-jamming and anti-spoofing technology; these pioneering innovative\u00a0solutions ensure reliable and precise positioning for UAVs, GPS devices, and more."
+      }
+    ],
+    "notes": "Sells GNSS boards, receiver modules, and smart antennas that integrate into UAV/drone navigation systems; explicitly lists UAV as an application vertical"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "simpleRTK3B Pro",
+        "product_type": "GNSS RTK board",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0073",
+            "line_start": 50,
+            "line_end": 50,
+            "url": "https://gnss-solutions.com/product/simplertk3b-pro",
+            "page_class": "product",
+            "snippet": "simpleRTK3B Pro"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "simpleRTK3B Heading",
+        "product_type": "GNSS heading board",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 16,
+            "line_end": 16,
+            "url": "https://gnss-solutions.com/",
+            "page_class": "homepage",
+            "snippet": "        *   [simpleRTK3B Heading](https://gnss-solutions.com/product/simplertk3b-heading/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "simpleRTK3B mPCIe",
+        "product_type": "GNSS mPCIe board",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 17,
+            "line_end": 17,
+            "url": "https://gnss-solutions.com/",
+            "page_class": "homepage",
+            "snippet": "        *   [simpleRTK3B mPCIe](https://gnss-solutions.com/product/simplertk3b-mpcie/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Mosaic Click",
+        "product_type": "GNSS add-on board",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0067",
+            "line_start": 52,
+            "line_end": 52,
+            "url": "https://gnss-solutions.com/product/mosaic-click",
+            "page_class": "product",
+            "snippet": "Mosaic Click"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Mosaic-X5 CAN GNSS",
+        "product_type": "GNSS board with CAN interface",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 20,
+            "line_end": 20,
+            "url": "https://gnss-solutions.com/",
+            "page_class": "homepage",
+            "snippet": "        *   [Mosaic-X5 CAN GNSS](https://gnss-solutions.com/product/mosaic-x5-can-gnss/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "M-2 GNSS Board",
+        "product_type": "GNSS board (M.2 form factor)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 21,
+            "line_end": 21,
+            "url": "https://gnss-solutions.com/",
+            "page_class": "homepage",
+            "snippet": "        *   [M-2 GNSS Board](https://gnss-solutions.com/product/m-2-gnss-board/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Linnet Mosaic-X5",
+        "product_type": "GNSS board",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 22,
+            "line_end": 22,
+            "url": "https://gnss-solutions.com/",
+            "page_class": "homepage",
+            "snippet": "        *   [Linnet Mosaic-X5](https://gnss-solutions.com/product/linnet-mosaic-x5/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SparkFun Triband GNSS RTK",
+        "product_type": "GNSS RTK breakout board",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 23,
+            "line_end": 23,
+            "url": "https://gnss-solutions.com/",
+            "page_class": "homepage",
+            "snippet": "        *   [SparkFun Triband GNSS RTK](https://gnss-solutions.com/product/sparkfun-triband-gnss-rtk/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SparkFun RTK Mosaic-X5",
+        "product_type": "GNSS box receiver",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 25,
+            "line_end": 25,
+            "url": "https://gnss-solutions.com/",
+            "page_class": "homepage",
+            "snippet": "        *   [SparkFun RTK Mosaic-X5](https://gnss-solutions.com/product/sparkfun-rtk-mosaic-x5/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HB6 Pro",
+        "product_type": "GNSS box receiver",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 26,
+            "line_end": 26,
+            "url": "https://gnss-solutions.com/",
+            "page_class": "homepage",
+            "snippet": "        *   [HB6 Pro](https://gnss-solutions.com/?post_type=product&p=13872)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HB6",
+        "product_type": "GNSS box receiver",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 27,
+            "line_end": 27,
+            "url": "https://gnss-solutions.com/",
+            "page_class": "homepage",
+            "snippet": "        *   [HB6](https://gnss-solutions.com/?post_type=product&p=13866)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HB9",
+        "product_type": "GNSS box receiver",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 28,
+            "line_end": 28,
+            "url": "https://gnss-solutions.com/",
+            "page_class": "homepage",
+            "snippet": "        *   [HB9](https://gnss-solutions.com/?post_type=product&p=13867)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "RB3 AsteRx-m3 Pro+",
+        "product_type": "Rugged GNSS box receiver",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 32,
+            "line_end": 32,
+            "url": "https://gnss-solutions.com/",
+            "page_class": "homepage",
+            "snippet": "        *   [RB3 AsteRx-m3 Pro+](https://gnss-solutions.com/?post_type=product&p=13870)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "A9 Smart Antenna",
+        "product_type": "GNSS smart antenna",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 70,
+            "line_end": 71,
+            "url": "https://gnss-solutions.com/",
+            "page_class": "homepage",
+            "snippet": "### A9 Smart Antenna\nTheA9 Smart Antenna, powered by the Septentrio Mosaic-X5 GNSS module, provides outstanding performance with rapid signal acquisition, high precision, and exceptional resilience in challenging environments."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Product lines based on Septentrio Mosaic-X5 module; additional SKUs (simpleRTK3B Micro, H-DK, X5DK) exist but detail pages not fetched"
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 132,
+        "line_end": 132,
+        "url": "https://gnss-solutions.com/",
+        "page_class": "homepage",
+        "snippet": "We\u2019re leading manufacturer of GNSS RTK Receivers"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0073",
+        "line_start": 54,
+        "line_end": 54,
+        "url": "https://gnss-solutions.com/product/simplertk3b-pro",
+        "page_class": "product",
+        "snippet": "SKU: MP 001-2-1 Category: [GNSS Board](https://gnss-solutions.com/product-category/products/gnss-board/)"
+      }
+    ],
+    "notes": "Catalog products with assigned SKUs sold via quote; company self-describes as leading manufacturer with production facilities"
+  },
+  "unresolved_questions": [
+    "NDAA/Blue UAS compliance not addressed anywhere on site",
+    "Governing law in T&Cs appears to be a template placeholder"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://gnss-solutions.com/applications/uav-gnss/",
+      "reason": "UAV application page would confirm specific UAV-focused GNSS product use cases and strengthen drone supply chain role classification",
+      "expected_evidence": [
+        "drone_supply_chain_role",
+        "products_categories"
+      ],
+      "source_hint": "guessed from navigation menu link",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "complete",
+  "tagline": "Reseller of Septentrio-based GNSS receivers, boards, and antennas emphasizing anti-jamming/anti-spoofing capability via AIM+ technology. Product line spans compact modules (simpleRTK3B, Mosaic Click) to ruggedized boxes; serves UAV, marine, robotics, and survey markets. NDAA and Blue UAS certification status unknown. Public evidence of actual defense or allied-system deployments is sparse.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 14,
+    "total_cost_usd": 0.28340805,
+    "created_at": "2026-05-04T02:28:19+00:00",
+    "extract_version": "0.1.0"
+  }
+}

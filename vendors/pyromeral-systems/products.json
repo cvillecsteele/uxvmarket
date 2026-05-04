@@ -1,0 +1,195 @@
+{
+  "target_id": "pyromeral-systems",
+  "run_id": "canonical",
+  "display_name": "Pyromeral Systems",
+  "homepage_url": "https://www.pyromeral.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/pyromeral-systems/website",
+  "products": [
+    {
+      "name": "Structural Heat-Resistant Composites and Fire Barriers",
+      "category": "structures_and_materials",
+      "descriptor": "Structural composite parts and fire barrier components for continuous high-temperature exposure",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 5,
+          "line_end": 5,
+          "url": "https://www.pyromeral.com",
+          "page_class": "homepage",
+          "snippet": "    *   [Structural Heat-Resistant Composites and Fire Barriers](https://pyromeral.com/structural-heat-resistant-composites-and-fire-barriers/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 74,
+          "line_end": 75,
+          "url": "https://www.pyromeral.com",
+          "page_class": "homepage",
+          "snippet": " ![](//pyromeral.com/wp-content/plugins/revslider/sr6/assets/assets/dummy.png \"video-pyromeral-2026_5.jpeg\") Specialist in\nComposites and Materials for High Temperatures"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Oxide / Oxide Composites (PyroXide)",
+      "category": "structures_and_materials",
+      "descriptor": "Oxide/oxide ceramic matrix composite product line for high-temperature structural applications",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 6,
+          "line_end": 6,
+          "url": "https://www.pyromeral.com",
+          "page_class": "homepage",
+          "snippet": "    *   [Oxide / Oxide Composites (PyroXide)](https://pyromeral.com/oxide-oxide-composites-pyroxide/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 74,
+          "line_end": 75,
+          "url": "https://www.pyromeral.com",
+          "page_class": "homepage",
+          "snippet": " ![](//pyromeral.com/wp-content/plugins/revslider/sr6/assets/assets/dummy.png \"video-pyromeral-2026_5.jpeg\") Specialist in\nComposites and Materials for High Temperatures"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Hot Glass Handling (TACTYLIT)",
+      "category": "structures_and_materials",
+      "descriptor": "Specialty composite material for hot glass handling applications",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 7,
+          "line_end": 7,
+          "url": "https://www.pyromeral.com",
+          "page_class": "homepage",
+          "snippet": "    *   [Hot Glass Handling (TACTYLIT)](https://pyromeral.com/hot-glass-handling-tactylit/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 74,
+          "line_end": 75,
+          "url": "https://www.pyromeral.com",
+          "page_class": "homepage",
+          "snippet": " ![](//pyromeral.com/wp-content/plugins/revslider/sr6/assets/assets/dummy.png \"video-pyromeral-2026_5.jpeg\") Specialist in\nComposites and Materials for High Temperatures"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Custom-Made Solutions",
+      "category": "structures_and_materials",
+      "descriptor": "Custom-engineered high-temperature composite and material solutions",
+      "granularity": "category",
+      "readiness": "engineering_services",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 8,
+          "line_end": 8,
+          "url": "https://www.pyromeral.com",
+          "page_class": "homepage",
+          "snippet": "    *   [Custom-Made Solutions](https://pyromeral.com/custom-made-solutions/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 74,
+          "line_end": 75,
+          "url": "https://www.pyromeral.com",
+          "page_class": "homepage",
+          "snippet": " ![](//pyromeral.com/wp-content/plugins/revslider/sr6/assets/assets/dummy.png \"video-pyromeral-2026_5.jpeg\") Specialist in\nComposites and Materials for High Temperatures"
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "All four product detail pages were skipped (skipped_budget or skipped_class_budget) \u2014 only the homepage was fetched. Product descriptors, readiness, and compliance details are derived solely from nav-menu entries and the homepage about blurb. Readiness is inferred as 'production' for named product families based on the vendor's 15+ year F1/motorsport/defense history, but no explicit catalog/pricing language was confirmed.",
+    "NDAA and Blue UAS status cannot be determined without fetching product or compliance pages.",
+    "Hot Glass Handling (TACTYLIT) may be primarily an industrial (non-UXV) product; its UXV relevance is indirect (high-temp composite material supplier to missiles/UAVs per homepage)."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://pyromeral.com/structural-heat-resistant-composites-and-fire-barriers",
+      "reason": "Product detail page for the main composite/fire-barrier product family \u2014 needed to confirm readiness, specs, and any NDAA/compliance claims.",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=news (misclassified \u2014 URL matches product name)",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://pyromeral.com/oxide-oxide-composites-pyroxide",
+      "reason": "Product detail page for PyroXide oxide/oxide composite line \u2014 needed to confirm specs, readiness, and compliance.",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://pyromeral.com/hot-glass-handling-tactylit",
+      "reason": "Product detail page for TACTYLIT hot glass handling material \u2014 needed to confirm specs and UXV relevance.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://pyromeral.com/custom-made-solutions",
+      "reason": "Capability page for custom-made solutions \u2014 needed to confirm scope and engineering services details.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=capability",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://pyromeral.com/product-pages",
+      "reason": "Product index page \u2014 may list additional SKUs or sub-products not visible from the homepage nav.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=product",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 9,
+    "total_cost_usd": 0.1920715,
+    "created_at": "2026-05-04T05:37:41+00:00",
+    "extract_version": "0.1.0"
+  }
+}

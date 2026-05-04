@@ -1,0 +1,199 @@
+{
+  "target_id": "ampaire",
+  "run_id": "canonical",
+  "display_name": "Ampaire",
+  "homepage_url": "https://ampaire.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/ampaire/website",
+  "products": [
+    {
+      "name": "AmpDrive",
+      "category": "propulsion_electronics",
+      "descriptor": "Hybrid-electric propulsion system powering Ampaire's aircraft fleet",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0038",
+          "line_start": 61,
+          "line_end": 62,
+          "url": "https://www.ampaire.com/vehicles",
+          "page_class": "other",
+          "snippet": "Our AmpDrive technology uniquely enables energy optimized planes across all aviation markets by using electric propulsion where it is most impactful.\nAmpaire's hybrid electric powertrain accelerates development and certification of subsequent aircrafts using the same or scaled components."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "AMP-H570",
+      "category": "propulsion_mechanical",
+      "descriptor": "764 SHP hybrid-electric engine retrofit for regional turboprop aircraft",
+      "granularity": "sku",
+      "readiness": "low_rate_production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0046",
+          "line_start": 17,
+          "line_end": 19,
+          "url": "https://www.ampaire.com/amp-h570",
+          "page_class": "other",
+          "snippet": "#### AMP-H570\n#### AMP-H570\n##### Hybrid-Electric Engine"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0046",
+          "line_start": 24,
+          "line_end": 28,
+          "url": "https://www.ampaire.com/amp-h570",
+          "page_class": "other",
+          "snippet": "The AMP-H570 sets a new standard in regional aviation, delivering breakthrough efficiency, reliability, and performance without the high costs typically associated with green technologies.\n\u200b\nRetrofit to existing aircraft at cost parity with PT6 engines\n\u200b\nFirst Hybrid-Electric Engine to achieve FAA G1 certification stage: [Press Release](https://www.ampaire.com/_files/ugd/a0e619_03d4f57e5418465bb3d53ad9397aafd3.pdf)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Eco Caravan",
+      "category": "airframes",
+      "descriptor": "Hybrid-electric Cessna Caravan variant for sustainable regional air travel",
+      "granularity": "sku",
+      "readiness": "low_rate_production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0038",
+          "line_start": 28,
+          "line_end": 30,
+          "url": "https://www.ampaire.com/vehicles",
+          "page_class": "other",
+          "snippet": "Eco Caravan\n-----------\nThe future of sustainable air travel. Today."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Electric EEL",
+      "category": "airframes",
+      "descriptor": "Hybrid-electric testbed aircraft for short-haul regional flights",
+      "granularity": "sku",
+      "readiness": "prototype",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0038",
+          "line_start": 20,
+          "line_end": 22,
+          "url": "https://www.ampaire.com/vehicles",
+          "page_class": "other",
+          "snippet": "Electric EEL.\n-------------\nTestbed aircraft. Short-haul regional flights. Today."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Eco Otter",
+      "category": "airframes",
+      "descriptor": "1 MW hybrid-electric low-emission variant of the DHC-6 Twin Otter turboprop",
+      "granularity": "sku",
+      "readiness": "prototype",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0031",
+          "line_start": 20,
+          "line_end": 22,
+          "url": "https://www.ampaire.com/vehicles/eco-otter-aircraft",
+          "page_class": "other",
+          "snippet": "Eco Otter\n---------\nThis 1 MW aircraft is a low-emission variant of the workhorse Twin Otter turboprop, used the world over as a regional airliner, cargo hauler and bush plane, as well as in a variety of specialized operations from surveillance to parachute jumping."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0038",
+          "line_start": 36,
+          "line_end": 38,
+          "url": "https://www.ampaire.com/vehicles",
+          "page_class": "other",
+          "snippet": "Eco Otter\n---------\nRegional airliner. Specialized Operations. Tomorrow."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Tailwind\u2122",
+      "category": "airframes",
+      "descriptor": "Clean-sheet fully-electric aircraft designed for zero-emissions regional travel",
+      "granularity": "sku",
+      "readiness": "prototype",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0038",
+          "line_start": 44,
+          "line_end": 46,
+          "url": "https://www.ampaire.com/vehicles",
+          "page_class": "other",
+          "snippet": "Tailwind\u2122.\n----------\nRevolutionizing travel. Clean-sheet design. Beyond."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0043",
+          "line_start": 44,
+          "line_end": 44,
+          "url": "https://www.ampaire.com/vehicles/tailwind%E2%84%A2-aircraft",
+          "page_class": "other",
+          "snippet": "\\*Disclaimer: The specifications listed are the performance targets driving our technical development and are subject to change without notice."
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "Eco Caravan and Electric EEL detail pages were not fetched (skipped_class_budget); their readiness and specifications were inferred from the vehicles overview page only.",
+    "AmpDrive readiness=production is supported by the homepage paragraph citing 30,000+ miles flown, but that line (resource-0001 L66) exceeded the 60-word citation cap so only the vehicles-page technology description was cited.",
+    "No NDAA or Blue UAS claims found anywhere in the corpus for any product."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.ampaire.com/vehicles/eco-caravan",
+      "reason": "Dedicated Eco Caravan product page was skipped; needed to confirm readiness level, specs, and any compliance claims.",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.ampaire.com/vehicles/electric-eel-aircraft",
+      "reason": "Dedicated Electric EEL product page was skipped; needed to confirm readiness level (testbed vs prototype vs low-rate), specs, and any compliance claims.",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 12,
+    "total_cost_usd": 0.5008411500000001,
+    "created_at": "2026-05-03T21:21:41+00:00",
+    "extract_version": "0.1.0"
+  }
+}

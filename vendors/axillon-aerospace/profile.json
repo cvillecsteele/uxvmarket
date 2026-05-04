@@ -1,0 +1,286 @@
+{
+  "target_id": "axillon-aerospace",
+  "run_id": "canonical",
+  "display_name": "Axillon Aerospace",
+  "homepage_url": "https://axillonaerospace.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/axillon-aerospace/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "structures_and_materials",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 48,
+            "line_end": 51,
+            "url": "https://axillonaerospace.com",
+            "page_class": "homepage",
+            "snippet": "Mission-Critical\nAerospace Composites\n=======================================\nStrength Through Innovation"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 83,
+            "line_end": 83,
+            "url": "https://axillonaerospace.com/capabilities",
+            "page_class": "capability",
+            "snippet": "Our components are qualified and in use across fixed-wing, rotary, unmanned, naval, and ground-based systems."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0026",
+            "line_start": 80,
+            "line_end": 81,
+            "url": "https://axillonaerospace.com/products/next-gen-radomes",
+            "page_class": "product",
+            "snippet": "### Launched Effects and UAVs\nGroups 1-5 of unmanned aerial vehicles"
+          }
+        ],
+        "notes": "Core business is manufacturing engineered carbon fiber composite structures, engine composites, electro-thermal ice protection, and radomes for aerospace/defense platforms including UAVs."
+      },
+      {
+        "category": "communications",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0025",
+            "line_start": 41,
+            "line_end": 41,
+            "url": "https://axillonaerospace.com/products/next-gen-antennas",
+            "page_class": "product",
+            "snippet": "Antennas Built for Operations in Congested Spectrums"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0025",
+            "line_start": 48,
+            "line_end": 50,
+            "url": "https://axillonaerospace.com/products/next-gen-antennas",
+            "page_class": "product",
+            "snippet": "### Spirals and Interferometer Arrays\n### High Power Horns and Notches\n### Conformal Datalink and LO Antennas"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0025",
+            "line_start": 80,
+            "line_end": 81,
+            "url": "https://axillonaerospace.com/products/next-gen-antennas",
+            "page_class": "product",
+            "snippet": "### Launched Effects and UAVs\nGroups 1-5 of unmanned aerial vehicles"
+          }
+        ],
+        "notes": "Next-Gen Antennas product line covers spirals, interferometer arrays, conformal datalink antennas, high-power horns/notches for EW and UAV platforms Groups 1-5."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": null,
+      "state_or_province": null,
+      "country": "United States",
+      "address": null
+    },
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0019",
+        "line_start": 51,
+        "line_end": 51,
+        "url": "https://axillonaerospace.com/news/axillon-aerospacefuel-containment-sale",
+        "page_class": "news",
+        "snippet": "Axillon Aerospace is a leading provider of engineered carbon fiber composite components and fuel containment solutions for the defense and commercial aerospace markets. The business generates annual sales of approximately $400 million, operates six manufacturing locations across the USA and Mexico, and employs approximately 1,700 people. For more information, please visit [www.axillonaerospace.com](https://www.axillonaerospace.com)."
+      }
+    ],
+    "notes": "Site confirms operations across the USA and Mexico; phone number (678) is Georgia area code but no explicit corporate HQ address stated. The fuel-containment division (since sold) was based in Rockmart, GA; corporate HQ for remaining Engineered Composites not explicitly published."
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0005",
+        "line_start": 83,
+        "line_end": 83,
+        "url": "https://axillonaerospace.com/capabilities",
+        "page_class": "capability",
+        "snippet": "Our components are qualified and in use across fixed-wing, rotary, unmanned, naval, and ground-based systems."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0026",
+        "line_start": 80,
+        "line_end": 81,
+        "url": "https://axillonaerospace.com/products/next-gen-radomes",
+        "page_class": "product",
+        "snippet": "### Launched Effects and UAVs\nGroups 1-5 of unmanned aerial vehicles"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0025",
+        "line_start": 80,
+        "line_end": 81,
+        "url": "https://axillonaerospace.com/products/next-gen-antennas",
+        "page_class": "product",
+        "snippet": "### Launched Effects and UAVs\nGroups 1-5 of unmanned aerial vehicles"
+      }
+    ],
+    "notes": "Sells finished composite structural components, radomes, antennas, and electro-thermal assemblies that go into aerospace/defense platforms including UAVs Groups 1-5. Does not make complete drone platforms."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Engine Composites",
+        "product_type": "composite components for aerospace engines",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 70,
+            "line_end": 71,
+            "url": "https://axillonaerospace.com",
+            "page_class": "homepage",
+            "snippet": "### Engine Composites\nComposite components for engines with state-of-the-art manufacturing capabilities"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Composite Structures",
+        "product_type": "structural composite parts (launched effects, leading edges, sponsons, panels)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 74,
+            "line_end": 75,
+            "url": "https://axillonaerospace.com",
+            "page_class": "homepage",
+            "snippet": "### Composite Structures\nUnrivalled knowledge of material selection, design, manufacturing, assembly and qualification"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Electro-Thermal Ice Protection",
+        "product_type": "heated composite structures for ice protection",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 78,
+            "line_end": 79,
+            "url": "https://axillonaerospace.com",
+            "page_class": "homepage",
+            "snippet": "### Electro-Thermal Ice Protection\nIntegrating heated structures within advanced composites for high strength, reduced weight and superior corrosion-resistance"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "High Performance Radomes",
+        "product_type": "composite radome assemblies for EW, CNI, SATCOM, ISR, UAVs Groups 1-5",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 82,
+            "line_end": 83,
+            "url": "https://axillonaerospace.com",
+            "page_class": "homepage",
+            "snippet": "### High Performance Radomes\nEngineered to communicate, deny, and track under high stakes environments"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Next-Gen Antennas",
+        "product_type": "EW and datalink antennas for aerospace/UAV platforms",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 86,
+            "line_end": 87,
+            "url": "https://axillonaerospace.com",
+            "page_class": "homepage",
+            "snippet": "### Next-Gen Antennas\nProviding spectrum dominance in contested domains."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "Site mentions ITAR Compliant, AS9100, NADCAP certifications but no NDAA Section 848/889 claim anywhere in corpus."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS or Blue sUAS mention anywhere in corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 53,
+        "line_end": 58,
+        "url": "https://axillonaerospace.com",
+        "page_class": "homepage",
+        "snippet": "*   1.7K\n    Team Members\n*   1.23M\n    Square Feet\n*   5\n    Manufacturing Sites"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0019",
+        "line_start": 51,
+        "line_end": 51,
+        "url": "https://axillonaerospace.com/news/axillon-aerospacefuel-containment-sale",
+        "page_class": "news",
+        "snippet": "Axillon Aerospace is a leading provider of engineered carbon fiber composite components and fuel containment solutions for the defense and commercial aerospace markets. The business generates annual sales of approximately $400 million, operates six manufacturing locations across the USA and Mexico, and employs approximately 1,700 people. For more information, please visit [www.axillonaerospace.com](https://www.axillonaerospace.com)."
+      }
+    ],
+    "notes": "~$400M annual sales, 1,700 employees, five manufacturing sites, NADCAP/AS9100 certified. Full serial production posture."
+  },
+  "unresolved_questions": [
+    "Corporate HQ city/address not explicitly published on website; phone 678 area code suggests Georgia but no confirmation after fuel containment sale."
+  ],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Supplier of composite structures, engine components, electro-thermal ice protection, and RF/antenna systems for defense and commercial aerospace. Production-ready across five facilities. NDAA and Blue UAS certification status unknown; public evidence of specific defense programs or platform integration limited.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 17,
+    "total_cost_usd": 0.433729,
+    "created_at": "2026-05-03T21:47:37+00:00",
+    "extract_version": "0.1.0"
+  }
+}

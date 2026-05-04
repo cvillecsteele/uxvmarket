@@ -1,0 +1,40 @@
+{
+  "target_id": "rapita-systems",
+  "run_id": "canonical",
+  "display_name": "Rapita Systems",
+  "homepage_url": "https://www.rapitasystems.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/rapita-systems/website",
+  "products": [
+    {
+      "name": "Rapita Verification Suite (RVS)",
+      "category": "test_and_measurement",
+      "descriptor": "Integrated toolsuite for verification of safety-critical software",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0768",
+          "line_start": 128,
+          "line_end": 129,
+          "url": "http://www.rapitasystems.com/products/faqs/what-rvs",
+          "page_class": "product",
+          "snippet": "R**VS**\u00a0is the leading toolsuite for the verification of critical software.\nUsed globally in the aerospace and automotive industries, it includes tools for functional and requirements-based\u00a0testing, timing analysis including worst-case execution time analysis, and structural code coverage analysis."
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 0,
+    "total_cost_usd": null,
+    "created_at": "2026-05-04T05:46:29+00:00",
+    "extract_version": "0.1.0"
+  }
+}

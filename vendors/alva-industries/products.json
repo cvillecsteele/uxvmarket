@@ -1,0 +1,569 @@
+{
+  "target_id": "alva-industries",
+  "run_id": "canonical",
+  "display_name": "Alva Industries",
+  "homepage_url": "https://www.alvaindustries.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/alva-industries/website",
+  "products": [
+    {
+      "name": "SlimTorq\u2122 Motors",
+      "category": "propulsion_mechanical",
+      "descriptor": "Thin, lightweight slotless frameless BLDC torque motor family, 25\u2013160 mm OD",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 51,
+          "line_end": 54,
+          "url": "https://www.alvaindustries.com",
+          "page_class": "homepage",
+          "snippet": "SlimTorq\u2122\n============\nThe thinnest & lightest torque motors\n====================================="
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 88,
+          "line_end": 91,
+          "url": "https://www.alvaindustries.com",
+          "page_class": "homepage",
+          "snippet": "![](https://cdn.prod.website-files.com/699c4aff7e6c7ae9385d8997/699c4aff7e6c7ae9385d8a07_ALVA.svg)\n### SlimTorq\u2122 Motors\nThe thinnest & lightest torque motor.\n![](https://cdn.prod.website-files.com/699c4aff7e6c7ae9385d8997/699c4aff7e6c7ae9385d8a08_Plus-icon-ALVA.svg)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "SlimTorq\u2122 STM-190-35",
+      "category": "propulsion_mechanical",
+      "descriptor": "190 mm OD frameless slotless direct-drive torque motor with zero cogging",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0290",
+          "line_start": 49,
+          "line_end": 49,
+          "url": "https://www.alvaindustries.com/post/alva-industries-expands-slimtorq-tm-portfolio-with-new-stm-190-35-motor-size",
+          "page_class": "news",
+          "snippet": "Alva Industries Expands SlimTorq\u2122 Portfolio with New STM-190-35 Motor Size"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0290",
+          "line_start": 57,
+          "line_end": 57,
+          "url": "https://www.alvaindustries.com/post/alva-industries-expands-slimtorq-tm-portfolio-with-new-stm-190-35-motor-size",
+          "page_class": "news",
+          "snippet": "The addition of the STM-190-35 brings the SlimTorq\u2122 STM portfolio to nine available motor sizes, spanning different outer diameters and lengths. Each size can be configured with multiple inner diameter options, winding patterns, and custom configurations, allowing engineers to tailor the motor to their specific application requirements."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "SlimTorq\u2122 Motor Kit",
+      "category": "propulsion_mechanical",
+      "descriptor": "Evaluation and testing kit combining SlimTorq\u2122 frameless motor, bearings, encoder, and aluminium housing",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0293",
+          "line_start": 51,
+          "line_end": 51,
+          "url": "https://www.alvaindustries.com/product/motor-kit",
+          "page_class": "product",
+          "snippet": "Motor Kit"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0293",
+          "line_start": 56,
+          "line_end": 56,
+          "url": "https://www.alvaindustries.com/product/motor-kit",
+          "page_class": "product",
+          "snippet": "Motor kits from Alva Industries combine the [SlimTorq\u2122](/slimtorq-motors) frameless rotor and stator into an adaptable package for engineers who want to integrate, test, or evaluate high-performance torque motors without committing to a complete test assembly in early project stages. The motor kits include the slotless, cogging-free motor together with bearings, RLS AksIM-2\u2122 encoders and aluminium housings for mounting."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "SlimTorq\u2122 Torque Motor",
+      "category": "propulsion_mechanical",
+      "descriptor": "Frameless BLDC torque motor optimized for high torque, low speed, and precision direct-drive applications",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0297",
+          "line_start": 51,
+          "line_end": 55,
+          "url": "https://www.alvaindustries.com/product/torque-motor",
+          "page_class": "product",
+          "snippet": "Torque Motor\n============\nPower-Dense & Precise\n---------------------\nHigh Torque & Ultra Precision"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "SlimTorq\u2122 Gimbal Motor",
+      "category": "propulsion_mechanical",
+      "descriptor": "Slotless frameless torque motor for gimbal stabilization systems, zero cogging, lightweight",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0290",
+          "line_start": 51,
+          "line_end": 54,
+          "url": "https://www.alvaindustries.com/product/gimbal-motors",
+          "page_class": "product",
+          "snippet": "Gimbal Motors\n=============\nPrecision Motion & Zero Cogging\n-------------------------------"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "SlimTorq\u2122 Slotless Motor",
+      "category": "propulsion_mechanical",
+      "descriptor": "Ironless slotless BLDC motor with high copper fill factor and zero cogging, 25\u2013160 mm OD",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0296",
+          "line_start": 51,
+          "line_end": 55,
+          "url": "https://www.alvaindustries.com/product/slotless-motor",
+          "page_class": "product",
+          "snippet": "Slotless Motor\n==============\nSilent & Powerfull\n------------------\nZero Cogging & High Efficiency"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "SlimTorq\u2122 Frameless Motor",
+      "category": "propulsion_mechanical",
+      "descriptor": "Stator-and-rotor-only frameless BLDC motor for direct integration into customer housings",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0289",
+          "line_start": 51,
+          "line_end": 56,
+          "url": "https://www.alvaindustries.com/product/frameless-motor",
+          "page_class": "product",
+          "snippet": "Frameless motor\n===============\nCompact & Lightweight\n---------------------\nThe Thinnest & Lightest Frameless Torque Motor\n[Product Catalog](/product-catalog)[Product Selector](/product-selector)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "SlimTorq\u2122 Radial Flux Motor",
+      "category": "propulsion_mechanical",
+      "descriptor": "Slim, high-power-density radial flux BLDC motor with Halbach-array rotor, 25\u2013160 mm OD",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0294",
+          "line_start": 51,
+          "line_end": 55,
+          "url": "https://www.alvaindustries.com/product/radial-flux-motor",
+          "page_class": "product",
+          "snippet": "Radial Flux Motor\n=================\nSlim & High-Power Density\n-------------------------\n[Product Catalog](/product-catalog)[Product Selector](/product-selector)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "SlimTorq\u2122 Hollow Shaft Motor",
+      "category": "propulsion_mechanical",
+      "descriptor": "Frameless BLDC motor with large open center bore for routing cables, tubes, or integrating encoders",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0291",
+          "line_start": 51,
+          "line_end": 54,
+          "url": "https://www.alvaindustries.com/product/hollow-shaft-motor",
+          "page_class": "product",
+          "snippet": "Hollow Shaft Motor\n==================\nCompact & Power Dense\n---------------------"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "SlimTorq\u2122 BLDC Motor",
+      "category": "propulsion_mechanical",
+      "descriptor": "Compact slotless brushless DC motor with sinusoidal back-EMF and Halbach rotor, 25\u2013160 mm OD",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0286",
+          "line_start": 51,
+          "line_end": 54,
+          "url": "https://www.alvaindustries.com/product/brushless-direct-current-bldc-motors",
+          "page_class": "product",
+          "snippet": "Brushless Direct Current (BLDC) Motors\n======================================\nCompact & Precise\n-----------------"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "SlimTorq\u2122 Custom Motor",
+      "category": "propulsion_mechanical",
+      "descriptor": "Engineer-to-order frameless motor tailored to customer-specific dimensions, torque, and winding requirements",
+      "granularity": "sku",
+      "readiness": "engineering_services",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0287",
+          "line_start": 51,
+          "line_end": 51,
+          "url": "https://www.alvaindustries.com/product/custom-motor",
+          "page_class": "product",
+          "snippet": "Custom Motor"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0287",
+          "line_start": 56,
+          "line_end": 56,
+          "url": "https://www.alvaindustries.com/product/custom-motor",
+          "page_class": "product",
+          "snippet": "Custom motors are designed to meet specific application requirements that standard off-the-shelf motors cannot deliver. Unlike generic options, custom motors are designed to meet the unique needs of specific applications. This makes them essential for industries where adaptability is not only a wish but a requirement."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "FiberPrinting\u2122 Slotless Motors",
+      "category": "propulsion_mechanical",
+      "descriptor": "OEM/licensing offering of ironless slotless motors built with FiberPrinting\u2122 stator technology",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0294",
+          "line_start": 55,
+          "line_end": 56,
+          "url": "https://www.alvaindustries.com/technology-provider",
+          "page_class": "capability",
+          "snippet": "### FiberPrinting\u2122 Slotless Motors\nAlva's FiberPrinting\u2122 Slotless Motors, offer superior precision & torque density. In combination of zero cogging torque & perfectly linear behavior, they also rival slotted motor in terms of power & torque density. With virtually no saturation & reduced losses, they deliver high performance & compactness for precision applications."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Halbach Rotors",
+      "category": "propulsion_mechanical",
+      "descriptor": "Halbach array permanent-magnet rotors for maximised magnetic field density in electric motors",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0294",
+          "line_start": 71,
+          "line_end": 72,
+          "url": "https://www.alvaindustries.com/technology-provider",
+          "page_class": "capability",
+          "snippet": "### Halbach Rotors\nAt Alva, we manufacture Halbach Array rotors to redefine motor excellence. The Halbach Array rotor is a magnetic array featuring radial & tangential magnets meticulously arranged to maximize magnetic field strength. Halbach arrays offer a stronger magnetic field relative to the magnetic mass & volume compared to traditional radial arrays."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Marine Thruster (SlimTorq\u2122)",
+      "category": "propulsion_mechanical",
+      "descriptor": "SlimTorq\u2122 frameless motor configured for marine thruster and underwater vehicle propulsion applications",
+      "granularity": "family",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0303",
+          "line_start": 115,
+          "line_end": 116,
+          "url": "https://www.alvaindustries.com/technology-provider/fiberprinting",
+          "page_class": "capability",
+          "snippet": "Gimbal Motors\n](/product/gimbal-motors)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Direct Drives (SlimTorq\u2122)",
+      "category": "propulsion_mechanical",
+      "descriptor": "SlimTorq\u2122 motors marketed for direct-drive applications without intermediate gearing",
+      "granularity": "family",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0303",
+          "line_start": 118,
+          "line_end": 119,
+          "url": "https://www.alvaindustries.com/technology-provider/fiberprinting",
+          "page_class": "capability",
+          "snippet": "Marine Thruster\n](/product/marine-thruster)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "SlimTorq\u2122",
+      "category": "propulsion_mechanical",
+      "descriptor": "Slotless thin-section frameless torque motor series with zero cogging",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0296",
+          "line_start": 58,
+          "line_end": 58,
+          "url": "https://www.alvaindustries.com/slimtorq-motors",
+          "page_class": "other",
+          "snippet": "SlimTorq\u2122 is a slotless thin-section frameless motor series for high-precision applications. The SlimTorq\u2122 motor series has zero cogging, high torque density, no saturation & large through-hole."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0296",
+          "line_start": 163,
+          "line_end": 163,
+          "url": "https://www.alvaindustries.com/slimtorq-motors",
+          "page_class": "other",
+          "snippet": "Depending on the version of the motor, the lead time may vary. As a general rule of thumb, for units that are standard configurations, the lead time for small volumes (1-5 units) is around 6-8 weeks. For bigger volumes or small customizations the lead time may change, please reach out to us at [sales@alvaindustries.com](mailto:sales@alvaindustries.com) or call us."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "SlimTorq\u2122 Lite",
+      "category": "propulsion_mechanical",
+      "descriptor": "Lightweight variant of SlimTorq\u2122 optimised for minimum mass with large through-hole",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0296",
+          "line_start": 115,
+          "line_end": 117,
+          "url": "https://www.alvaindustries.com/slimtorq-motors",
+          "page_class": "other",
+          "snippet": "### SlimTorq\u2122\n### Lite\nThe Lite version is designed & optimised to be as light as possible while sustaining a high torque-density. It\u2019s a good choice for weight sensitive applications. It allows the added value of a large through-hole to simplify mechanical integration."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "SlimTorq\u2122 Max",
+      "category": "propulsion_mechanical",
+      "descriptor": "High-performance variant of SlimTorq\u2122 optimised for maximum torque and motor constant",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0296",
+          "line_start": 121,
+          "line_end": 123,
+          "url": "https://www.alvaindustries.com/slimtorq-motors",
+          "page_class": "other",
+          "snippet": "### SlimTorq\u2122\n### Max\nThe Max version is designed & optimised for maximum performance, i.e. with the highest possible torque & motor-constant the space envelope allows for. It\u2019s a good choice for applications that require the maximum performance in combination with compactness."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Hydra-100",
+      "category": "propulsion_mechanical",
+      "descriptor": "Rim-drive marine thruster demonstrator with FiberPrinted\u2122 stator and integrated impeller rotor",
+      "granularity": "sku",
+      "readiness": "prototype",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0287",
+          "line_start": 95,
+          "line_end": 95,
+          "url": "https://www.alvaindustries.com/product/marine-thruster",
+          "page_class": "product",
+          "snippet": "The Hydra-100 marine thruster specifications can be seen above. If additional information is needed, [contact us](https://www.alvaindustries.com/contact) to learn more."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0287",
+          "line_start": 108,
+          "line_end": 108,
+          "url": "https://www.alvaindustries.com/product/marine-thruster",
+          "page_class": "product",
+          "snippet": "The Hydra-100 is rated at 48V."
+        }
+      ],
+      "notes": "Described on the product page as a \"marine thruster demonstrator\" (line 64 of resource-0003, a single long line exceeding the citation word limit). Readiness set to prototype accordingly."
+    },
+    {
+      "name": "SlimTorq\u2122 Direct Drives",
+      "category": "propulsion_mechanical",
+      "descriptor": "SlimTorq\u2122 frameless motors configured for direct-drive applications across 8 sizes",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0297",
+          "line_start": 61,
+          "line_end": 63,
+          "url": "https://www.alvaindustries.com/product/direct-drives",
+          "page_class": "product",
+          "snippet": "SlimTorq\u2122\nDirect Drives\n-------------------------"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0297",
+          "line_start": 127,
+          "line_end": 127,
+          "url": "https://www.alvaindustries.com/product/direct-drives",
+          "page_class": "product",
+          "snippet": "Normally the lead time is 6-8 weeks."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "TorqStudio",
+      "category": "ground_segment",
+      "descriptor": "Web-based motor design and simulation platform for winding selection and performance evaluation",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0290",
+          "line_start": 55,
+          "line_end": 55,
+          "url": "https://www.alvaindustries.com/post/alva-industries-expands-slimtorq-tm-portfolio-with-new-stm-190-35-motor-size",
+          "page_class": "news",
+          "snippet": "To support system-level design and evaluation, the STM-190-35 is fully supported in Alva\u2019s TorqStudio design and simulation platform. [TorqStudio](https://torqstudio.alvaindustries.com/login) allows engineers to evaluate motor performance, explore winding options, and optimize motor selection early in the design process based on application-specific requirements."
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "Hydra-100 readiness: the product page (resource-0003 line 64) describes it as 'a marine thruster demonstrator' \u2014 that single line exceeds the citation word limit so could not be directly cited. Readiness set to prototype based on the demonstrator language read during analysis.",
+    "FiberPrinting\u2122 Slotless Motors and Halbach Rotors are marketed as technology-provider offerings (OEM/licensing) distinct from the retail SlimTorq\u2122 series; their dedicated pages (technology-provider/slotless-motors, technology-provider/halbach-rotors) were skipped_budget and may contain additional SKU details.",
+    "TorqStudio is hosted on a subdomain (torqstudio.alvaindustries.com) not fetched; its full feature set and any pricing/readiness language are unknown from this corpus."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.alvaindustries.com/technology-provider/slotless-motors",
+      "reason": "Dedicated page for FiberPrinting\u2122 Slotless Motors technology offering; would confirm product granularity, readiness, and any OEM/licensing specifics not visible in the technology-provider index page.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=capability",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.alvaindustries.com/technology-provider/halbach-rotors",
+      "reason": "Dedicated page for Halbach Rotors product; would confirm whether these are sold as standalone components and clarify readiness and available configurations.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=capability",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.alvaindustries.com/technology-provider/fiberprinting",
+      "reason": "Details the FiberPrinting\u2122 manufacturing technology underlying all SlimTorq\u2122 motors; would help clarify NDAA/compliance claims and production licensing specifics.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=capability",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://torqstudio.alvaindustries.com/",
+      "reason": "TorqStudio subdomain; would confirm product description, feature set, and any pricing/readiness language for this design-and-simulation platform.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_budget (resource_id=null at line 146)",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 42,
+    "total_cost_usd": 1.0892366,
+    "created_at": "2026-05-03T21:15:32+00:00",
+    "extract_version": "0.1.0"
+  }
+}

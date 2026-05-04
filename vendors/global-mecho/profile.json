@@ -1,0 +1,469 @@
+{
+  "target_id": "global-mecho",
+  "run_id": "canonical",
+  "display_name": "Global Mecho",
+  "homepage_url": "https://globalmecho.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/global-mecho/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "airframes",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0051",
+            "line_start": 89,
+            "line_end": 89,
+            "url": "https://globalmecho.com/30l-foldable-agriculture-rc-quadcopter-drone-for-spraying-m30",
+            "page_class": "news",
+            "snippet": "30L Foldable RC Agriculture Quadcopter M30"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0050",
+            "line_start": 90,
+            "line_end": 90,
+            "url": "https://globalmecho.com/commercial-fixed-wing-hybrid-vtol-drone-uav-sf120",
+            "page_class": "news",
+            "snippet": "Commercial Fixed-Wing Hybrid VTOL Drone UAV SF120"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 154,
+            "line_end": 163,
+            "url": "https://globalmecho.com",
+            "page_class": "homepage",
+            "snippet": "[Agriculture Drone](https://globalmecho.com/agriculture-drone/)\n[Delivery Drone](https://globalmecho.com/delivery-drone/)\n[Fixed-Wing Drone](https://globalmecho.com/commercial-fixed-wing-hybrid-vtol-drone-uav-sf120/)\n[Inspection Drone](https://globalmecho.com/inspection-drone/)\n[Cleaning Drone](https://globalmecho.com/cleaning-drone/)\n[Drone Dock](https://globalmecho.com/drone-dock/)\n[Smart Drone Battery](https://globalmecho.com/18s-30000mah-rechargeable-rc-agriculture-drone-battery/)\n[Drone Battery Charger](https://globalmecho.com/portable-lipo-lihv-drone-battery-charger/)\n[Drone Accessories](https://globalmecho.com/drone-accessories-parts/)\n[Restaurant Delivery Robot](https://globalmecho.com/restaurant-food-delivery-robot-hotel-meal-delivery-robot-w3/)"
+          }
+        ],
+        "notes": "Complete multirotor and fixed-wing drone platforms sold under named SKUs"
+      },
+      {
+        "category": "flight_and_vehicle_control",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0011",
+            "line_start": 89,
+            "line_end": 89,
+            "url": "https://globalmecho.com/drone-flight-controller-with-gps-control-modular-n7",
+            "page_class": "news",
+            "snippet": "Drone Flight Controller with GPS Control Modular N7"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0011",
+            "line_start": 105,
+            "line_end": 106,
+            "url": "https://globalmecho.com/drone-flight-controller-with-gps-control-modular-n7",
+            "page_class": "news",
+            "snippet": "**N7 Drone Flight Controller**\n**SKU\uff1a** N7"
+          }
+        ],
+        "notes": "N7 flight controller with GPS, compatible with PX4/ArduPilot"
+      },
+      {
+        "category": "power_systems",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 21,
+            "line_end": 26,
+            "url": "https://globalmecho.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Smart Drone Battery](https://globalmecho.com/18s-30000mah-rechargeable-rc-agriculture-drone-battery/)\n    *   [Drone Battery Charger](https://globalmecho.com/portable-lipo-lihv-drone-battery-charger/) Menu Toggle\n        *   [Drone Charger PC1080](https://globalmecho.com/1080w-dual-channel-universal-drone-lipo-battery-charger-pc1080/)\n        *   [Drone Charger PC1500](https://globalmecho.com/1500w-universal-lipo-drone-multi-battery-charger-pc1500/)\n        *   [Drone Charger PC2500](https://globalmecho.com/2500w-drone-power-charger-for-lipo-lihv-batteries-pc2500/)\n        *   [Drone Charger PC3000H](https://globalmecho.com/3000w-drone-fast-charger-for-lipo-lihv-batteries-pc3000h/)"
+          }
+        ],
+        "notes": "Smart drone batteries and LiPo/LiHV battery chargers (PC1080, PC1500, PC2500, PC3000H)"
+      },
+      {
+        "category": "isr_payloads",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 32,
+            "line_end": 34,
+            "url": "https://globalmecho.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Drone Gimbal Camera A2](https://globalmecho.com/waterproof-1080p-hd-fpv-uav-drone-camera-and-gimbal-a2/)\n        *   [Drone EO/IR Camera with Gimbal ZT30](https://globalmecho.com/drone-electro-optical-and-infrared-camera-with-gimbal-zt30/)\n        *   [4K Mini Dual-Sensor Gimbal Drone Camera ZT6](https://globalmecho.com/about-mecho-2-2-2-2-2/)"
+          }
+        ],
+        "notes": "Drone gimbal cameras including EO/IR model ZT30 and 4K dual-sensor ZT6"
+      },
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 30,
+            "line_end": 31,
+            "url": "https://globalmecho.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Drone Power System X11](https://globalmecho.com/drone-brushless-motor-propeller-esc-power-system-x11/)\n        *   [Drone Electric Propulsion System E6](https://globalmecho.com/about-mecho-2-2-2-2/)"
+          }
+        ],
+        "notes": "Drone Power System X11 (brushless motor, propeller, ESC) and Electric Propulsion System E6"
+      },
+      {
+        "category": "ground_segment",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 18,
+            "line_end": 20,
+            "url": "https://globalmecho.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Drone Dock](https://globalmecho.com/drone-dock/) Menu Toggle\n        *   [Drone Dock LP02](https://globalmecho.com/autonomous-charging-drone-docking-station-lp02/)\n        *   [Drone Dock M710](https://globalmecho.com/automatic-uav-drone-charging-dock-station-m710/)"
+          }
+        ],
+        "notes": "Autonomous drone docking stations (LP02, M710) and remote controller H12"
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Primarily a drone OEM selling complete platforms; also sells subsystem accessories"
+  },
+  "headquarters": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No physical address disclosed on site. Email domain gzdtg.com and WeChat-branded imagery suggest China origin; the news article (resource-0007 line 100) references 'overseas international markets', consistent with a Chinese company. The about-mecho page is skipped in the corpus and would likely confirm location."
+  },
+  "drone_supply_chain_role": {
+    "value": "oem",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 93,
+        "line_end": 93,
+        "url": "https://globalmecho.com",
+        "page_class": "homepage",
+        "snippet": "Mecho is a high-tech driven company offering smart solutions for automation across various industries."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0051",
+        "line_start": 99,
+        "line_end": 100,
+        "url": "https://globalmecho.com/30l-foldable-agriculture-rc-quadcopter-drone-for-spraying-m30",
+        "page_class": "news",
+        "snippet": "**30L Foldable RC Agriculture Drone**\n**SKU:** M30"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0050",
+        "line_start": 96,
+        "line_end": 97,
+        "url": "https://globalmecho.com/commercial-fixed-wing-hybrid-vtol-drone-uav-sf120",
+        "page_class": "news",
+        "snippet": "**SF120 Fixed-Wing Drone**\n**SKU:** SF120"
+      }
+    ],
+    "notes": "Designs and sells named drone platform SKUs (M30, M50, SD40-2, DH-X8, SF120, E900, C60, D15R, SW50) plus accessory subsystems"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Agriculture Drone M30",
+        "product_type": "30L agricultural spraying quadcopter UAV",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0051",
+            "line_start": 89,
+            "line_end": 89,
+            "url": "https://globalmecho.com/30l-foldable-agriculture-rc-quadcopter-drone-for-spraying-m30",
+            "page_class": "news",
+            "snippet": "30L Foldable RC Agriculture Quadcopter M30"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Agriculture Drone M50",
+        "product_type": "50L agricultural spraying quadcopter UAV",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 7,
+            "line_end": 7,
+            "url": "https://globalmecho.com",
+            "page_class": "homepage",
+            "snippet": "        *   [50L Agriculture Drone M50](https://globalmecho.com/50l-large-obstacle-avoidance-fold-spray-drone-agricolas-m50/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Delivery Drone SD40-2",
+        "product_type": "10km cargo delivery drone",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 9,
+            "line_end": 9,
+            "url": "https://globalmecho.com",
+            "page_class": "homepage",
+            "snippet": "        *   [10km Delivery Drone SD40-2](https://globalmecho.com/long-distance-cargo-drone-for-medical-package-delivery-sd40-2/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Delivery Drone DH-X8",
+        "product_type": "84km long-range heavy cargo delivery UAV",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 10,
+            "line_end": 10,
+            "url": "https://globalmecho.com",
+            "page_class": "homepage",
+            "snippet": "        *   [84km Delivery Drone DH-X8](https://globalmecho.com/84km-long-range-delivery-uav-drone-for-heavy-cargo-parcel-packages-transportation-dh-x8/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Fixed-Wing Drone SF120",
+        "product_type": "commercial fixed-wing hybrid VTOL drone",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0050",
+            "line_start": 90,
+            "line_end": 90,
+            "url": "https://globalmecho.com/commercial-fixed-wing-hybrid-vtol-drone-uav-sf120",
+            "page_class": "news",
+            "snippet": "Commercial Fixed-Wing Hybrid VTOL Drone UAV SF120"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Cleaning Drone SW50",
+        "product_type": "foldable pressure-washing drone",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 16,
+            "line_end": 16,
+            "url": "https://globalmecho.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Cleaning Drone SW50](https://globalmecho.com/foldable-pressure-washing-drone-for-building-window-cleaning-sw50/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Drone Dock LP02",
+        "product_type": "autonomous drone charging docking station",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 19,
+            "line_end": 19,
+            "url": "https://globalmecho.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Drone Dock LP02](https://globalmecho.com/autonomous-charging-drone-docking-station-lp02/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Drone Dock M710",
+        "product_type": "automatic UAV drone charging dock station",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 20,
+            "line_end": 20,
+            "url": "https://globalmecho.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Drone Dock M710](https://globalmecho.com/automatic-uav-drone-charging-dock-station-m710/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Drone Flight Controller N7",
+        "product_type": "drone flight controller with GPS, PX4/ArduPilot compatible",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0011",
+            "line_start": 89,
+            "line_end": 89,
+            "url": "https://globalmecho.com/drone-flight-controller-with-gps-control-modular-n7",
+            "page_class": "news",
+            "snippet": "Drone Flight Controller with GPS Control Modular N7"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Drone EO/IR Camera with Gimbal ZT30",
+        "product_type": "electro-optical and infrared gimbal camera",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 33,
+            "line_end": 33,
+            "url": "https://globalmecho.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Drone EO/IR Camera with Gimbal ZT30](https://globalmecho.com/drone-electro-optical-and-infrared-camera-with-gimbal-zt30/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Drone Power System X11",
+        "product_type": "brushless motor, propeller, and ESC power system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 30,
+            "line_end": 30,
+            "url": "https://globalmecho.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Drone Power System X11](https://globalmecho.com/drone-brushless-motor-propeller-esc-power-system-x11/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Drone Charger PC1080 / PC1500 / PC2500 / PC3000H",
+        "product_type": "LiPo/LiHV drone battery charger family",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 23,
+            "line_end": 26,
+            "url": "https://globalmecho.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Drone Charger PC1080](https://globalmecho.com/1080w-dual-channel-universal-drone-lipo-battery-charger-pc1080/)\n        *   [Drone Charger PC1500](https://globalmecho.com/1500w-universal-lipo-drone-multi-battery-charger-pc1500/)\n        *   [Drone Charger PC2500](https://globalmecho.com/2500w-drone-power-charger-for-lipo-lihv-batteries-pc2500/)\n        *   [Drone Charger PC3000H](https://globalmecho.com/3000w-drone-fast-charger-for-lipo-lihv-batteries-pc3000h/)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Additional products on skipped pages: Inspection Drone E900, Inspection Drone C60, Cleaning Drone D15R, Drone Gimbal Camera A2, ZT6 camera, Drone Remote Controller H12, Drone Electric Propulsion System E6, Smart Drone Battery"
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0051",
+        "line_start": 99,
+        "line_end": 100,
+        "url": "https://globalmecho.com/30l-foldable-agriculture-rc-quadcopter-drone-for-spraying-m30",
+        "page_class": "news",
+        "snippet": "**30L Foldable RC Agriculture Drone**\n**SKU:** M30"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0050",
+        "line_start": 96,
+        "line_end": 97,
+        "url": "https://globalmecho.com/commercial-fixed-wing-hybrid-vtol-drone-uav-sf120",
+        "page_class": "news",
+        "snippet": "**SF120 Fixed-Wing Drone**\n**SKU:** SF120"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0011",
+        "line_start": 105,
+        "line_end": 106,
+        "url": "https://globalmecho.com/drone-flight-controller-with-gps-control-modular-n7",
+        "page_class": "news",
+        "snippet": "**N7 Drone Flight Controller**\n**SKU\uff1a** N7"
+      }
+    ],
+    "notes": "Multiple catalog SKUs with full specs published; 'Require Info / Quote' CTAs indicate available-for-sale production items"
+  },
+  "unresolved_questions": [
+    "Headquarters location not stated on any fetched page - contact page was not crawled",
+    "NDAA/Blue UAS compliance status unknown"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://globalmecho.com/contact/",
+      "reason": "Contact page likely contains physical address and HQ location for the company",
+      "expected_evidence": [
+        "headquarters"
+      ],
+      "source_hint": "guessed from site navigation link visible on all pages",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "partial",
+  "tagline": "Multi-rotor and hybrid airframes for agriculture, inspection, and delivery, plus flight controllers, propulsion, and payloads. Production-ready across eight drone models; notable depth in long-range delivery (84 km) and autonomous docking. HQ location, NDAA and Blue UAS status unknown; limited public evidence on US defense contracts or supply-chain integration.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 18,
+    "total_cost_usd": 0.6020951999999999,
+    "created_at": "2026-05-04T03:05:48+00:00",
+    "extract_version": "0.1.0"
+  }
+}

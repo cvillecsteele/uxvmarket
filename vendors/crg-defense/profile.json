@@ -1,0 +1,438 @@
+{
+  "target_id": "crg-defense",
+  "run_id": "canonical",
+  "display_name": "CRG Defense",
+  "homepage_url": "https://crgdefense.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/crg-defense/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "power_systems",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 51,
+            "line_end": 51,
+            "url": "https://crgdefense.com",
+            "page_class": "homepage",
+            "snippet": "Delivering reliable energy in the harshest operational environments, whether it\u2019s next-gen batteries, high-efficiency electric propulsion, or power management systems."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0040",
+            "line_start": 26,
+            "line_end": 26,
+            "url": "https://crgdefense.com/2026/01/15/crg-defense-responds-to-federal-uas-component-sourcing-restrictions-with-american-made-battery-and-propulsion-solutions",
+            "page_class": "news",
+            "snippet": "CRG Defense responds to Federal UAS component sourcing restrictions with American-made battery and propulsion solutions"
+          }
+        ],
+        "notes": "Battery cells, battery packs, and energy systems explicitly marketed to drone OEMs as NDAA Section 842-compliant domestic alternatives"
+      },
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0082",
+            "line_start": 39,
+            "line_end": 39,
+            "url": "https://crgdefense.com/electric-machines-and-control-systems",
+            "page_class": "capability",
+            "snippet": "*   Aerospace \u2013 UAV propulsion, eVTOL actuation, airborne auxiliary systems"
+          }
+        ],
+        "notes": "Electric motors for UAV propulsion; platforms spanning 1.5 kW to 50 kW demonstrated"
+      },
+      {
+        "category": "propulsion_electronics",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0082",
+            "line_start": 35,
+            "line_end": 35,
+            "url": "https://crgdefense.com/electric-machines-and-control-systems",
+            "page_class": "capability",
+            "snippet": "*   Power Electronics & Controls \u2013 High-voltage (400\u2013800\u202fVDC) controller development, advanced switching topologies, EMI/EMC mitigation, firmware optimization, and control algorithm tuning"
+          }
+        ],
+        "notes": "Motor controllers (25 kW commercially available); high-voltage (400\u2013800 VDC) controller development"
+      },
+      {
+        "category": "communications",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0060",
+            "line_start": 43,
+            "line_end": 43,
+            "url": "https://crgdefense.com/category/products",
+            "page_class": "product",
+            "snippet": "[CRG Defense AeroVox drone communication system demonstrated at U.S. border](https://crgdefense.com/2025/12/02/crg-defense-aerovox-drone-communication-system-demonstrated-at-u-s-border/)"
+          }
+        ],
+        "notes": "AeroVox is a two-way drone communications payload demonstrated at U.S. border and UTAC 2025"
+      },
+      {
+        "category": "airframes",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0039",
+            "line_start": 37,
+            "line_end": 37,
+            "url": "https://crgdefense.com/2026/01/15/crg-defense-adds-argo-500-hyperspeed-to-expand-manufacturing-grade-additive-production",
+            "page_class": "news",
+            "snippet": "CRG Defense has applied its additive manufacturing capabilities across a wide range of programs and products, including its **[Heavy Lift Drone](https://crgdefense.com/systems-division/)**, **[CRG G-Series soldier-worn battery](https://crgdefense.com/battery-cells-packs/#G-series)**, and various other UAS platforms."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0022",
+            "line_start": 31,
+            "line_end": 31,
+            "url": "https://crgdefense.com/2024/09/16/crgs-bellbird-successfully-tested-by-the-department-of-homeland-security",
+            "page_class": "compliance",
+            "snippet": "CRG achieved a significant milestone in developing its High-Fidelity Drone Audio System, known as Bellbird. The system was successfully tested by the Department of Homeland Security Science and Technology Directorate during an operational field assessment organized by the National Urban Security Technology division of at Mississippi State University\u2019s Raspet Flight Research Laboratory."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0096",
+            "line_start": 45,
+            "line_end": 45,
+            "url": "https://crgdefense.com/systems-division",
+            "page_class": "capability",
+            "snippet": "The Detection Rover is a rugged, semi-autonomous ground vehicle built for situational awareness. Featuring onboard AI and 360\u00b0 video sensors, it autonomously navigates challenging terrain while collecting real-time environmental data to support ISTAR missions and perimeter security."
+          }
+        ],
+        "notes": "Heavy Lift Drone (UAS platform), Bellbird (complete VTOL UAS for aerial comms), Detection Rover (semi-autonomous UGV for ISTAR)"
+      },
+      {
+        "category": "structures_and_materials",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0039",
+            "line_start": 30,
+            "line_end": 30,
+            "url": "https://crgdefense.com/2026/01/15/crg-defense-adds-argo-500-hyperspeed-to-expand-manufacturing-grade-additive-production",
+            "page_class": "news",
+            "snippet": "_CRG Defense\u2019s new ARGO 500 HYPERSPEED system provides precision, filament-based additive manufacturing for certifiable aerospace parts and advanced industrial components. It processes high-temperature super polymers such as PEEK, Carbon PEEK and PEKK, enabling metal-like performance in a 500-millimeter build space._"
+          }
+        ],
+        "notes": "Additive manufacturing with ARGO 500 and ARGO 1000 systems producing certifiable aerospace parts from high-temp polymers (PEEK, PEKK)"
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Miamisburg",
+      "state_or_province": "Ohio",
+      "country": "United States",
+      "address": "8821 Washington Church Road"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0064",
+        "line_start": 28,
+        "line_end": 29,
+        "url": "https://crgdefense.com/contact-us",
+        "page_class": "contact",
+        "snippet": "8821 Washington Church Road\nMiamisburg, OH\u00a0 45342"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0040",
+        "line_start": 26,
+        "line_end": 26,
+        "url": "https://crgdefense.com/2026/01/15/crg-defense-responds-to-federal-uas-component-sourcing-restrictions-with-american-made-battery-and-propulsion-solutions",
+        "page_class": "news",
+        "snippet": "CRG Defense responds to Federal UAS component sourcing restrictions with American-made battery and propulsion solutions"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0040",
+        "line_start": 42,
+        "line_end": 42,
+        "url": "https://crgdefense.com/2026/01/15/crg-defense-responds-to-federal-uas-component-sourcing-restrictions-with-american-made-battery-and-propulsion-solutions",
+        "page_class": "news",
+        "snippet": "For more information about CRG Defense\u2019s compliant battery and propulsion solutions, [**Contact Us**](https://crgdefense.com/contact-us?source=News-page-about-CRG-Defense-responding-to-Federal-UAS-component-sourcing-restrictions%20)"
+      }
+    ],
+    "notes": "Primary UAS positioning is as domestic supplier of batteries, motors, and propulsion systems to drone OEMs/integrators. Also develops complete drone platforms (Bellbird, Heavy Lift Drone, Detection Rover) under government R&D contracts."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "AeroVox",
+        "product_type": "two-way drone communications/audio payload",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0060",
+            "line_start": 43,
+            "line_end": 43,
+            "url": "https://crgdefense.com/category/products",
+            "page_class": "product",
+            "snippet": "[CRG Defense AeroVox drone communication system demonstrated at U.S. border](https://crgdefense.com/2025/12/02/crg-defense-aerovox-drone-communication-system-demonstrated-at-u-s-border/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Bellbird (High-Fidelity Drone Audio System)",
+        "product_type": "VTOL UAS aerial comms/loudspeaker platform",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0022",
+            "line_start": 26,
+            "line_end": 26,
+            "url": "https://crgdefense.com/2024/09/16/crgs-bellbird-successfully-tested-by-the-department-of-homeland-security",
+            "page_class": "compliance",
+            "snippet": "CRG\u2019s Bellbird successfully tested by the Department of Homeland Security"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Battery Cells & Packs (CRG G-Series)",
+        "product_type": "UAS/soldier-worn battery packs",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0039",
+            "line_start": 37,
+            "line_end": 37,
+            "url": "https://crgdefense.com/2026/01/15/crg-defense-adds-argo-500-hyperspeed-to-expand-manufacturing-grade-additive-production",
+            "page_class": "news",
+            "snippet": "CRG Defense has applied its additive manufacturing capabilities across a wide range of programs and products, including its **[Heavy Lift Drone](https://crgdefense.com/systems-division/)**, **[CRG G-Series soldier-worn battery](https://crgdefense.com/battery-cells-packs/#G-series)**, and various other UAS platforms."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Electric Machines and Control Systems",
+        "product_type": "UAV propulsion motors and motor controllers",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0082",
+            "line_start": 39,
+            "line_end": 39,
+            "url": "https://crgdefense.com/electric-machines-and-control-systems",
+            "page_class": "capability",
+            "snippet": "*   Aerospace \u2013 UAV propulsion, eVTOL actuation, airborne auxiliary systems"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Detection Rover",
+        "product_type": "semi-autonomous ISR UGV",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0096",
+            "line_start": 45,
+            "line_end": 45,
+            "url": "https://crgdefense.com/systems-division",
+            "page_class": "capability",
+            "snippet": "The Detection Rover is a rugged, semi-autonomous ground vehicle built for situational awareness. Featuring onboard AI and 360\u00b0 video sensors, it autonomously navigates challenging terrain while collecting real-time environmental data to support ISTAR missions and perimeter security."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Heavy Lift Drone",
+        "product_type": "heavy-lift UAS platform",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0039",
+            "line_start": 37,
+            "line_end": 37,
+            "url": "https://crgdefense.com/2026/01/15/crg-defense-adds-argo-500-hyperspeed-to-expand-manufacturing-grade-additive-production",
+            "page_class": "news",
+            "snippet": "CRG Defense has applied its additive manufacturing capabilities across a wide range of programs and products, including its **[Heavy Lift Drone](https://crgdefense.com/systems-division/)**, **[CRG G-Series soldier-worn battery](https://crgdefense.com/battery-cells-packs/#G-series)**, and various other UAS platforms."
+          }
+        ],
+        "notes": "Mentioned as internal platform for additive manufacturing capability demonstration; dedicated product page not fetched"
+      },
+      {
+        "name": "MoTES (Modular Total Environmental Sensor)",
+        "product_type": "wearable/integrated environmental sensor suite for air, ground, and air platforms",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0096",
+            "line_start": 47,
+            "line_end": 47,
+            "url": "https://crgdefense.com/systems-division",
+            "page_class": "capability",
+            "snippet": "Modular Total Environmental Sensor (MoTES)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Battery Cells & Packs and AeroVox product pages were skipped in crawl; additional SKUs likely exist"
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0040",
+        "line_start": 26,
+        "line_end": 26,
+        "url": "https://crgdefense.com/2026/01/15/crg-defense-responds-to-federal-uas-component-sourcing-restrictions-with-american-made-battery-and-propulsion-solutions",
+        "page_class": "news",
+        "snippet": "CRG Defense responds to Federal UAS component sourcing restrictions with American-made battery and propulsion solutions"
+      }
+    ],
+    "notes": "Site claims compliance with NDAA Section 842 (FY2026, battery sourcing from foreign entities of concern) and FCC Covered List requirements \u2014 adjacent to but not the same as NDAA Sec 848/889. No explicit 848/889 claim found."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 31,
+        "line_end": 31,
+        "url": "https://crgdefense.com",
+        "page_class": "homepage",
+        "snippet": "Founded in 1997, CRG Defense is a secure, scalable defense company, purpose-built for rapid deployment of defense and dual-use technologies into field-ready systems. From prototype to production \u2014 CRG Defense delivers mission-critical innovation across systems, materials, power, and infrastructure."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0082",
+        "line_start": 44,
+        "line_end": 44,
+        "url": "https://crgdefense.com/electric-machines-and-control-systems",
+        "page_class": "capability",
+        "snippet": "*   AS9100D-Compliant, Full-Lifecycle Delivery \u2013 From initial concept through operational deployment"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0082",
+        "line_start": 47,
+        "line_end": 47,
+        "url": "https://crgdefense.com/electric-machines-and-control-systems",
+        "page_class": "capability",
+        "snippet": "*   Ready Now \u2013 Fielded systems, platform-proven experience, and commercially available controller hardware"
+      }
+    ],
+    "notes": "AS9100D-compliant processes, commercially available controller hardware, and active production of batteries and propulsion systems. Some products (AeroVox, Bellbird) are still being refined based on field testing feedback."
+  },
+  "unresolved_questions": [
+    "Whether AeroVox and Bellbird are sold as complete drone systems (airframes) or strictly as payload subsystems",
+    "Whether any products explicitly claim NDAA Section 848/889 compliance or Blue UAS listing",
+    "Full battery/motor product catalog SKUs and specifications for drone applications"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://crgdefense.com/battery-cells-packs",
+      "reason": "Product page for batteries would confirm specific SKUs, power specs for drone applications, and any NDAA 848/889 or Blue UAS compliance claims",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://crgdefense.com/aerovox",
+      "reason": "Product page for AeroVox would confirm full product spec, whether it is sold as standalone payload or complete drone system, and any compliance certifications",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://crgdefense.com/power-division",
+      "reason": "Power Division overview would confirm full battery and propulsion product line, production capacity, and NDAA-relevant compliance claims",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "ndaa",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://crgdefense.com/additivemanufacturing",
+      "reason": "Additive manufacturing page would confirm specific structures/materials products and production capability for UAS airframe parts",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Miamisburg-based subsystem supplier across power systems, propulsion, communications, airframes, and structures for unmanned and manned platforms. Produces battery cells and packs (G-Series), electric machines and control systems, AeroVox drone, and sensor packages (MoTES, Bellbird audio). NDAA and Blue UAS certification status unknown; public evidence of production readiness and B-1 modernization work, but supply-chain visibility gaps remain.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 22,
+    "total_cost_usd": 0.7560445000000001,
+    "created_at": "2026-05-04T01:36:50+00:00",
+    "extract_version": "0.1.0"
+  }
+}

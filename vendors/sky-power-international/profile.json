@@ -1,0 +1,414 @@
+{
+  "target_id": "sky-power-international",
+  "run_id": "canonical",
+  "display_name": "Sky Power International",
+  "homepage_url": "https://www.skypower.online",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/sky-power-international/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://skypower.online/",
+            "page_class": "homepage",
+            "snippet": "Sky Power \u2013 High-Performance UAV Propulsion Systems    [Skip to content](#content)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0041",
+            "line_start": 45,
+            "line_end": 45,
+            "url": "https://skypower.online/company",
+            "page_class": "company",
+            "snippet": "Sky Power GmbH, based in Bad Homburg, Germany, is the leading engine manufacturer of [two-stroke internal combustion and Wankel engines](https://skypower.online/engines/), as well as for hybrid applications, for unmanned aerial systems (UAS). We develop and manufacture all UAV engines in Germany and place particular emphasis on quality and reliability."
+          }
+        ],
+        "notes": "Two-stroke, Wankel, and hybrid combustion engines purpose-built for UAV/UAS propulsion"
+      },
+      {
+        "category": "power_systems",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0076",
+            "line_start": 57,
+            "line_end": 58,
+            "url": "https://skypower.online/propulsion-systems",
+            "page_class": "capability",
+            "snippet": "Generator operation\nUse of the engines to generate electricity for electric propulsion or on-board electronics \u2013 ideal for energy-intensive applications."
+          }
+        ],
+        "notes": "Engines configured as generators or range extenders to power on-board UAV electronics"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Bad Homburg",
+      "state_or_province": "Hessen",
+      "country": "Germany",
+      "address": "Hollerstra\u00dfe 12, 61350 Bad Homburg"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0042",
+        "line_start": 63,
+        "line_end": 67,
+        "url": "https://skypower.online/contact",
+        "page_class": "contact",
+        "snippet": "**Sky Power GmbH**\nHollerstra\u00dfe 12\n61350 Bad Homburg\nGermany\n*   [info@skypower.online](http://info@skypower.online)"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0041",
+        "line_start": 45,
+        "line_end": 45,
+        "url": "https://skypower.online/company",
+        "page_class": "company",
+        "snippet": "Sky Power GmbH, based in Bad Homburg, Germany, is the leading engine manufacturer of [two-stroke internal combustion and Wankel engines](https://skypower.online/engines/), as well as for hybrid applications, for unmanned aerial systems (UAS). We develop and manufacture all UAV engines in Germany and place particular emphasis on quality and reliability."
+      }
+    ],
+    "notes": "Manufactures UAV propulsion engines (two-stroke ICE and Wankel) sold to UAV OEMs and integrators"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "SP-28 CR",
+        "product_type": "UAV gas engine",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 58,
+            "line_end": 58,
+            "url": "https://skypower.online/",
+            "page_class": "homepage",
+            "snippet": "SP-28 CR"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SP-55 TS ROS",
+        "product_type": "UAV two-stroke gas engine",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 63,
+            "line_end": 63,
+            "url": "https://skypower.online/",
+            "page_class": "homepage",
+            "snippet": "SP-55 TS ROS"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SP-55 FI TS ROS",
+        "product_type": "UAV two-stroke fuel-injected engine",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 68,
+            "line_end": 68,
+            "url": "https://skypower.online/",
+            "page_class": "homepage",
+            "snippet": "SP-55 FI TS ROS"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SP-110 FI TS ROS",
+        "product_type": "UAV two-stroke fuel-injected engine",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 88,
+            "line_end": 88,
+            "url": "https://skypower.online/",
+            "page_class": "homepage",
+            "snippet": "SP-110 FI TS ROS"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SP-170 FI TS ROS",
+        "product_type": "UAV two-stroke fuel-injected engine",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 103,
+            "line_end": 103,
+            "url": "https://skypower.online/",
+            "page_class": "homepage",
+            "snippet": "SP-170 FI TS ROS"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SP-180 SRE hybrid",
+        "product_type": "UAV Wankel hybrid engine",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 118,
+            "line_end": 118,
+            "url": "https://skypower.online/",
+            "page_class": "homepage",
+            "snippet": "SP-180 SRE hybrid"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SP-180 HF SRE",
+        "product_type": "UAV Wankel heavy-fuel hybrid engine",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0064",
+            "line_start": 52,
+            "line_end": 53,
+            "url": "https://skypower.online/hybrid-systems",
+            "page_class": "capability",
+            "snippet": "### SP-180 HF SRE\nAnother variant is the [SP-180 HF SRE](https://skypower-international.com/product/sp-180-hf-sre/), which has been optimized for operation with heavy fuel and is therefore ideal for ISR missions."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SP-210 FI TS ROS",
+        "product_type": "UAV two-stroke fuel-injected engine",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 123,
+            "line_end": 123,
+            "url": "https://skypower.online/",
+            "page_class": "homepage",
+            "snippet": "SP-210 FI TS ROS"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SP-275 FI TS ROS",
+        "product_type": "UAV two-stroke fuel-injected engine",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 138,
+            "line_end": 138,
+            "url": "https://skypower.online/",
+            "page_class": "homepage",
+            "snippet": "SP-275 FI TS ROS"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SP-275 TS CR",
+        "product_type": "UAV two-stroke carburetor engine",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 143,
+            "line_end": 143,
+            "url": "https://skypower.online/",
+            "page_class": "homepage",
+            "snippet": "SP-275 TS CR"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SP-360 DRE",
+        "product_type": "UAV Wankel engine",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 163,
+            "line_end": 163,
+            "url": "https://skypower.online/",
+            "page_class": "homepage",
+            "snippet": "SP-360 DRE"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SP-540 TRE",
+        "product_type": "UAV Wankel engine",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 168,
+            "line_end": 168,
+            "url": "https://skypower.online/",
+            "page_class": "homepage",
+            "snippet": "SP-540 TRE"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SP-170 HF FI TS ROS",
+        "product_type": "UAV heavy-fuel fuel-injected engine",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 173,
+            "line_end": 173,
+            "url": "https://skypower.online/",
+            "page_class": "homepage",
+            "snippet": "SP-170 HF FI TS ROS"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SP-210 HF FI TS ROS",
+        "product_type": "UAV heavy-fuel fuel-injected engine",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 183,
+            "line_end": 183,
+            "url": "https://skypower.online/",
+            "page_class": "homepage",
+            "snippet": "SP-210 HF FI TS ROS"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Large SP-series engine line with additional SKUs visible on homepage. Shop pages at skypower-international.com were not fetched."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0077",
+        "line_start": 53,
+        "line_end": 53,
+        "url": "https://skypower.online/quality",
+        "page_class": "compliance",
+        "snippet": "\u201cMade in Germany\u201d has stood for top quality, precision and reliability for decades. This seal represents the combination of traditional craftsmanship, technological progress and a clear commitment to excellence. Products bearing this label are valued worldwide and enjoy the trust of companies and end consumers alike."
+      }
+    ],
+    "notes": "Site claims 'Made in Germany' and ISO 9001:2015 certification but makes no NDAA Section 848/889 compliance claim"
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 449,
+        "line_end": 449,
+        "url": "https://skypower.online/",
+        "page_class": "homepage",
+        "snippet": "Before delivery, every engine is tested. An inspection certificate is our standard."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 59,
+        "line_end": 59,
+        "url": "https://skypower.online/",
+        "page_class": "homepage",
+        "snippet": "Configurate in shop"
+      }
+    ],
+    "notes": "Operates an online shop with catalog SKUs; every engine tested and provided with inspection certificate before delivery"
+  },
+  "unresolved_questions": [
+    "Full product SKU list from shop domain not mirrored; SP-56, SP-110 TS, and other variants visible on homepage may have additional configurations"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://skypower-international.com/product-category/engines/",
+      "reason": "Shop product category page would enumerate full engine SKU catalog and confirm all available models",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "guessed from shop domain linked from homepage",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "complete",
+  "tagline": "German-made 2-stroke boxer and Wankel rotary engines (55\u2013275 cc displacement) for tactical UAVs, with fuel injection, twin-spark ignition, and heavy-fuel variants optimized for ISR endurance. Production-ready; NDAA and Blue UAS certification status unknown. No major U.S. defense contracts identified in public record.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 15,
+    "total_cost_usd": 0.4322716,
+    "created_at": "2026-05-04T06:22:01+00:00",
+    "extract_version": "0.1.0"
+  }
+}

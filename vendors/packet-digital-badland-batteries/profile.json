@@ -1,0 +1,329 @@
+{
+  "target_id": "packet-digital-badland-batteries",
+  "run_id": "canonical",
+  "display_name": "Packet Digital / Badland Batteries",
+  "homepage_url": "https://packetdigital.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/packet-digital-badland-batteries/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "power_systems",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 37,
+            "line_end": 37,
+            "url": "https://packetdigital.com",
+            "page_class": "homepage",
+            "snippet": "#### We design, test, and manufacture smart batteries and power systems for cutting-edge UAS platforms around the world"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0050",
+            "line_start": 33,
+            "line_end": 35,
+            "url": "https://packetdigital.com/power-products/maximum-power-point-tracker",
+            "page_class": "product",
+            "snippet": "**Maximum Power Point Tracker**\n===============================\n##### **Efficient UAS Solar Power Management System**"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0051",
+            "line_start": 33,
+            "line_end": 36,
+            "url": "https://packetdigital.com/power-products/power-management-and-distribution",
+            "page_class": "product",
+            "snippet": "**A Drone Power Distribution Board Is For Those Who Refuse To Compromise**\n==========================================================================\n##### **Packet Digital\u2019s power distribution board (PDB) cuts no corners in design.**\nDesigned to enhance efficiency, reliability, battery endurance, and safety \u2013 this is an ideal PDB for mission-critical UAVs."
+          }
+        ],
+        "notes": "Smart batteries (with BMS), smart chargers, MPPTs, and power distribution boards for UAS. Also building a battery cell manufacturing plant."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Fleet Management Software (battery fleet tracking) is battery-ecosystem software, grouped under power_systems. Skipped product pages may reveal additional categories."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Fargo",
+      "state_or_province": "North Dakota",
+      "country": "United States",
+      "address": "3241 S. University Drive, Fargo, ND 58104"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0030",
+        "line_start": 44,
+        "line_end": 45,
+        "url": "https://packetdigital.com/contact-us",
+        "page_class": "contact",
+        "snippet": "### **Headquarters**\n3241 S. University Drive, Fargo, ND 58104"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 37,
+        "line_end": 38,
+        "url": "https://packetdigital.com",
+        "page_class": "homepage",
+        "snippet": "#### We design, test, and manufacture smart batteries and power systems for cutting-edge UAS platforms around the world\nWe work closely with our customers to understand their requirements, and we are able to develop high-performance batteries that extend flight times, even with increased payloads, and offer simple, reliable operation over a longer lifetime."
+      }
+    ],
+    "notes": "Designs and manufactures smart batteries, chargers, MPPTs, and power electronics specifically for UAS platforms. Batteries are explicitly a component_supplier product per the rubric."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Smart Batteries",
+        "product_type": "UAS smart battery packs with BMS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 5,
+            "line_end": 5,
+            "url": "https://packetdigital.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Smart Batteries](https://packetdigital.com/batteries/smart-batteries/ \"Smart Batteries\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Smart Chargers",
+        "product_type": "UAS battery smart chargers",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 6,
+            "line_end": 6,
+            "url": "https://packetdigital.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Smart Chargers](https://packetdigital.com/batteries/smart-chargers/ \"Smart Chargers\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Fleet Management Software",
+        "product_type": "battery fleet management software for UAS operators",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 7,
+            "line_end": 7,
+            "url": "https://packetdigital.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Fleet Management Software](https://packetdigital.com/batteries/fleet-management-software/ \"Fleet Management Software\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Badland Batteries",
+        "product_type": "battery product sub-brand (consumer/commercial)",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 8,
+            "line_end": 8,
+            "url": "https://packetdigital.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Badland Batteries](https://www.badlandbatteries.com/ \"Badland Batteries\")"
+          }
+        ],
+        "notes": "Sub-brand with separate website (badlandbatteries.com); out-of-scope for mirror."
+      },
+      {
+        "name": "MPPT-6SBB",
+        "product_type": "maximum power point tracker for solar UAS (buck-boost, 6S)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0050",
+            "line_start": 53,
+            "line_end": 53,
+            "url": "https://packetdigital.com/power-products/maximum-power-point-tracker",
+            "page_class": "product",
+            "snippet": "**MPPT-6SBB**"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MPPT-12SBB",
+        "product_type": "maximum power point tracker for solar UAS (buck-boost, 12S)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0050",
+            "line_start": 54,
+            "line_end": 54,
+            "url": "https://packetdigital.com/power-products/maximum-power-point-tracker",
+            "page_class": "product",
+            "snippet": "**MPPT-12SBB**"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Power Distribution Board",
+        "product_type": "drone power distribution board (PDB), 200A, 10S",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0051",
+            "line_start": 33,
+            "line_end": 36,
+            "url": "https://packetdigital.com/power-products/power-management-and-distribution",
+            "page_class": "product",
+            "snippet": "**A Drone Power Distribution Board Is For Those Who Refuse To Compromise**\n==========================================================================\n##### **Packet Digital\u2019s power distribution board (PDB) cuts no corners in design.**\nDesigned to enhance efficiency, reliability, battery endurance, and safety \u2013 this is an ideal PDB for mission-critical UAVs."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Smart Batteries, Smart Chargers, and Fleet Management Software product pages were skipped (class budget exhausted); product SKU details unknown."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 43,
+        "line_end": 43,
+        "url": "https://packetdigital.com",
+        "page_class": "homepage",
+        "snippet": "##### Manufactured in the USA"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 62,
+        "line_end": 62,
+        "url": "https://packetdigital.com",
+        "page_class": "homepage",
+        "snippet": "Certifications & Compliance"
+      }
+    ],
+    "notes": "Homepage shows 'Manufactured in the USA' and a 'Certifications & Compliance' section with an image banner (CertBanner), but no NDAA/889 text is extractable from the corpus. Domestic manufacture is emphasized heavily."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0024",
+        "line_start": 43,
+        "line_end": 43,
+        "url": "https://packetdigital.com/capabilities/battery-pack-assembly",
+        "page_class": "capability",
+        "snippet": "*   Prototype and volume production"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0064",
+        "line_start": 42,
+        "line_end": 42,
+        "url": "https://packetdigital.com/tag/battery-technology",
+        "page_class": "capability",
+        "snippet": "FARGO, N.D. (Feb. 2, 2024) \u2014 Packet Digital, a leading provider of batteries and charging systems for autonomous systems, announced the opening of its second facility, a 25,000-square-foot manufacturing plant in Fargo, N.D. The facility will enable Packet Digital to significantly increase production capacity to meet growing demands for its innovative products. The ribbon-cutting ceremony \\[\u2026\\]"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 71,
+        "line_end": 71,
+        "url": "https://packetdigital.com",
+        "page_class": "homepage",
+        "snippet": "    FARGO, N.D. (April 8, 2026) \u2014 Packet Digital, a leading unmanned aircraft systems (UAS) and autonomous battery cell and pack manufacturer, announced that it has been awarded a $27 million contract by the Naval Air Warfare Center Aircraft Division to scale domestic manufacturing of battery cells."
+      }
+    ],
+    "notes": "25,000 sq ft manufacturing facility opened Feb 2024; volume production of battery packs and PCBs; $27M Phase III Navy SBIR for battery cell manufacturing scale-up; 80,000 sq ft cell plant under construction."
+  },
+  "unresolved_questions": [
+    "NDAA Sec 848/889 compliance status not explicitly stated (Certifications & Compliance image not readable)",
+    "Blue UAS cleared list status unknown",
+    "Full smart battery and smart charger SKU catalog not available (pages skipped)",
+    "Badland Batteries sub-brand product details (out-of-scope domain)"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://packetdigital.com/batteries/smart-batteries",
+      "reason": "Would show smart battery product details including any NDAA/Blue UAS compliance claims and product SKUs.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://packetdigital.com/batteries/smart-chargers",
+      "reason": "Would show smart charger product details and SKUs for UAS battery charging.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://packetdigital.com/batteries/fleet-management-software",
+      "reason": "Would show fleet management software details and clarify if it qualifies as ground_segment category.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Fargo-based designer and manufacturer of smart battery packs, power distribution boards, and solar MPPTs for UAS platforms. Products include DroneCAN-enabled smart batteries with cell-level BMS, 200 A power distribution boards, and buck-boost solar trackers (MPPT-6SBB, MPPT-12SBB). US domestic manufacturing claimed; NDAA and Blue UAS certification status not publicly disclosed. Recent $27M Naval contract for battery cell manufacturing scale-up. Public technical depth limited; independent performance validation sparse.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 22,
+    "total_cost_usd": 0.48949855,
+    "created_at": "2026-05-04T04:57:20+00:00",
+    "extract_version": "0.1.0"
+  }
+}

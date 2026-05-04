@@ -1,0 +1,128 @@
+{
+  "target_id": "saft",
+  "run_id": "canonical",
+  "display_name": "Saft",
+  "homepage_url": "https://www.saftbatteries.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/saft/website",
+  "products_categories": {
+    "items": [],
+    "confidence": "low",
+    "status": "unknown",
+    "notes": "Mirror failed \u2014 homepage returned no content. Saft is categorised as power_systems in the target manifest, but no corpus text is available to cite."
+  },
+  "headquarters": {
+    "value": null,
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "evidence": [],
+    "notes": "No corpus text available to cite. Fetch requests submitted for homepage and contact page."
+  },
+  "drone_supply_chain_role": {
+    "value": null,
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "evidence": [],
+    "notes": "No corpus text available to cite."
+  },
+  "products": {
+    "items": [],
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "notes": "No corpus text available to cite."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No corpus text available."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No corpus text available."
+  },
+  "readiness": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No corpus text available."
+  },
+  "unresolved_questions": [
+    "Homepage fetch failed \u2014 all fields unresolvable without re-fetch",
+    "Is Saft NDAA Section 848/889 compliant for its defense battery lines?",
+    "Which specific battery products are marketed for UAV/drone applications?"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.saftbatteries.com",
+      "reason": "Homepage fetch failed (status=failed in crawl_index); re-fetching would provide headquarters, product overview, and supply-chain role evidence.",
+      "expected_evidence": [
+        "headquarters",
+        "drone_supply_chain_role",
+        "products",
+        "products_categories",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=failed, page_class=homepage",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.saftbatteries.com/markets/defense",
+      "reason": "Defense market page would confirm drone/UAV battery products, supply-chain role, NDAA compliance claims, and readiness level.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role",
+        "ndaa",
+        "readiness"
+      ],
+      "source_hint": "guessed",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.saftbatteries.com/contact-us",
+      "reason": "Contact page would provide headquarters city, state/province, and country.",
+      "expected_evidence": [
+        "headquarters"
+      ],
+      "source_hint": "guessed",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.saftbatteries.com/markets/aerospace-defense",
+      "reason": "Aerospace & defense market page likely lists UAV/drone battery products and certifications including NDAA compliance.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "ndaa",
+        "blue_uas",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "guessed",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.saftbatteries.com/about-saft",
+      "reason": "Company overview page likely contains headquarters location and corporate description useful for supply-chain role classification.",
+      "expected_evidence": [
+        "headquarters",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "guessed",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "needs_more_fetches",
+  "tagline": "Saft manufactures batteries and energy-storage systems for defense and aerospace applications. Public evidence of unmanned-systems products or programs is thin; role, headquarters location, NDAA compliance status, and specific UAS supplier relationships remain unclear from available sources.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 5,
+    "total_cost_usd": 0.08773995000000001,
+    "created_at": "2026-05-04T06:01:24+00:00",
+    "extract_version": "0.1.0"
+  }
+}

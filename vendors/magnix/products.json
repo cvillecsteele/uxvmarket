@@ -1,0 +1,185 @@
+{
+  "target_id": "magnix",
+  "run_id": "canonical",
+  "display_name": "magniX",
+  "homepage_url": "https://magnix.aero/",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/magnix/website",
+  "products": [
+    {
+      "name": "magni650 Electric Propulsion Unit (EPU)",
+      "category": "propulsion_mechanical",
+      "descriptor": "High-power electric propulsion unit for regional and commercial aircraft",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 66,
+          "line_end": 66,
+          "url": "https://magnix.aero/",
+          "page_class": "homepage",
+          "snippet": "The Eviation Alice successfully completed its inaugural flight, the first ever by a \"clean sheet design\" all-electric commuter airplane built from the ground up around the electric propulsion system. Alice is powered by two magnix magni650 Electric Propulsion Units (EPUs)."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 62,
+          "line_end": 62,
+          "url": "https://magnix.aero/",
+          "page_class": "homepage",
+          "snippet": "A De Havilland Dash 8, converted by Universal Hydrogen, successfully completed its first flight, becoming the world's largest flight-tested hydrogen electric airplane. A magni650 electric propulsion unit, provided with electricity by a hydrogen fuel cell system, was used to replace one of the airplane's two conventional turboprop engines."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "magni500 Electric Propulsion Unit (EPU)",
+      "category": "propulsion_mechanical",
+      "descriptor": "750 HP electric propulsion unit for general aviation retrofit",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 74,
+          "line_end": 74,
+          "url": "https://magnix.aero/",
+          "page_class": "homepage",
+          "snippet": "A Cessna Grand Caravan 208B, powered by a magniX 750HP magni500 EPU, became then-world\u2019s largest all-electric commercially-focused aircraft to take to the skies in Moses Lake, WA."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 78,
+          "line_end": 78,
+          "url": "https://magnix.aero/",
+          "page_class": "homepage",
+          "snippet": "A De Havilland Beaver seaplane operated by Harbour Air, retrofitted with a magniX magni500 750HP EPU, made the world's first flight as an all-electric commercially-focused aircraft in Vancouver, Canada."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Samson Batteries",
+      "category": "power_systems",
+      "descriptor": "High energy density aerospace batteries for electric and hybrid aircraft",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 92,
+          "line_end": 92,
+          "url": "https://magnix.aero/",
+          "page_class": "homepage",
+          "snippet": "magniX Samson Batteries to Power Bye Aerospace\u2019s eFlyer Prototype Training Aircraft"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 45,
+          "line_end": 45,
+          "url": "https://magnix.aero/",
+          "page_class": "homepage",
+          "snippet": "Safe, certifiable batteries with industry\u2011leading energy density"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "magniAIR",
+      "category": "propulsion_mechanical",
+      "descriptor": "Air-cooled electric engine for general aviation and flight training aircraft",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 26,
+          "line_end": 26,
+          "url": "https://magnix.aero/",
+          "page_class": "homepage",
+          "snippet": "Existing fleets of flight training aircraft are aging and costs are rising. Electric flight promises a solution, with lower operating costs, higher reliability, and reduced maintenance making aviation more affordable and safer for the next generation of pilots. The magniAIR air-cooled engine is designed for general aviation, targeting the class of aircraft used for flight training and recreational flying."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 87,
+          "line_end": 87,
+          "url": "https://magnix.aero/",
+          "page_class": "homepage",
+          "snippet": "magniX Launches New Electric Engine for the General Aviation Market"
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "The /powertrains page (skipped_class_budget) likely contains specs and full model lineup for magni650 and magni500 EPUs.",
+    "The /batteries page (skipped_class_budget) likely contains detailed specs and SKU breakdown for Samson Batteries.",
+    "The magniAIR launch news page (/detail/magnix-launches-new-electric-engine-for-the-general-aviation-market, skipped) would confirm exact specs and readiness for magniAIR.",
+    "No NDAA or Blue UAS compliance claims found in the fetched corpus for any product."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://magnix.aero/powertrains",
+      "reason": "Product detail page for magni650 and magni500 EPUs \u2014 would provide specs, readiness evidence, and confirm full model lineup.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://magnix.aero/batteries",
+      "reason": "Product detail page for Samson Batteries \u2014 would provide specs, SKU breakdown, and readiness evidence.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://magnix.aero/detail/magnix-launches-new-electric-engine-for-the-general-aviation-market",
+      "reason": "News article announcing magniAIR launch \u2014 would confirm readiness, specs, and any compliance claims.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=news",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://magnix.aero/detail/magnix-samson-batteries-to-power-bye-aerospace-s-eflyer-prototype-training-aircraft",
+      "reason": "News article about Samson Batteries deployment \u2014 would provide product detail and readiness evidence.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=news",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 12,
+    "total_cost_usd": 0.2448611,
+    "created_at": "2026-05-04T04:08:51+00:00",
+    "extract_version": "0.1.0"
+  }
+}

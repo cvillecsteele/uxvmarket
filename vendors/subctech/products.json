@@ -1,0 +1,446 @@
+{
+  "target_id": "subctech",
+  "run_id": "canonical",
+  "display_name": "SubCtech",
+  "homepage_url": "https://subctech.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/subctech/website",
+  "products": [
+    {
+      "name": "Vehicle Batteries (Li-Ion PowerPack\u2122)",
+      "category": "power_systems",
+      "descriptor": "Li-Ion PowerPack\u2122 batteries for AUVs and other marine vehicles",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0260",
+          "line_start": 170,
+          "line_end": 171,
+          "url": "https://subctech.com/products",
+          "page_class": "product",
+          "snippet": "[Vehicle Batteries](/ocean-power/vehicle-batteries/)\nLi-ion batteries built in the Li-Ion PowerPack\u2122 for AUVs and other vehicles"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Subsea Batteries",
+      "category": "power_systems",
+      "descriptor": "High-power underwater Li-Ion rechargeable battery systems",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0260",
+          "line_start": 165,
+          "line_end": 166,
+          "url": "https://subctech.com/products",
+          "page_class": "product",
+          "snippet": "[Subsea Batteries](https://subctech.com/wp-content/uploads/2024/08/header_hp-dark_3.jpg)\nHigh power underwater Lithium-ion rechargeable batteries"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Basic Batteries",
+      "category": "power_systems",
+      "descriptor": "Rechargeable Li-Ion battery systems for ocean applications",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0260",
+          "line_start": 160,
+          "line_end": 161,
+          "url": "https://subctech.com/products",
+          "page_class": "product",
+          "snippet": "[Basic Batteries](/ocean-power/basic-batteries)\nRechargeable Li-ion batteries are amongst the most efficient batteries"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Customised Batteries",
+      "category": "power_systems",
+      "descriptor": "Custom-built Li-Ion batteries engineered to customer specifications",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0260",
+          "line_start": 180,
+          "line_end": 181,
+          "url": "https://subctech.com/products",
+          "page_class": "product",
+          "snippet": "[Customised Batteries](/ocean-power/customized-batteries/)\nWe build batteries to your needs"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Charger",
+      "category": "power_systems",
+      "descriptor": "Safe, gentle charger for Li-Ion PowerPack\u2122 battery systems",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0260",
+          "line_start": 185,
+          "line_end": 186,
+          "url": "https://subctech.com/products",
+          "page_class": "product",
+          "snippet": "[Charger](/ocean-power/charger/)\nOur charger technology charges the PowerPacks\u2122 safely and gently"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Energy Storage Systems (ESS)",
+      "category": "power_systems",
+      "descriptor": "High-performance Li-Ion subsea energy storage system for offshore applications up to 6 MWh",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0246",
+          "line_start": 169,
+          "line_end": 170,
+          "url": "https://subctech.com/ocean-power/energy_storage_systems",
+          "page_class": "capability",
+          "snippet": "Energy Storage Systems\n======================"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0246",
+          "line_start": 172,
+          "line_end": 174,
+          "url": "https://subctech.com/ocean-power/energy_storage_systems",
+          "page_class": "capability",
+          "snippet": "Typical applications for our Energy Storage Systems:\n\u2022 Backup energy source for offshore applications with high energy demands (>1 MWh)\n\u2022 At Oil & Gas production facilities to ensure that critical control systems and sensors are continuously powered"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Li-Ion PowerLogger\u2122",
+      "category": "sensors_and_navigation",
+      "descriptor": "Autonomous subsea data logger with integrated Li-Ion battery in a single housing",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0233",
+          "line_start": 168,
+          "line_end": 170,
+          "url": "https://subctech.com/ocean-monitoring/systems/subsea/powerlogger",
+          "page_class": "capability",
+          "snippet": "Li-Ion PowerLogger\u2122\n===================\nThe PowerLogger\u2122 is a combination of subsea data loggers and the Li-Ion technology of the Powerpacks\u2122. It is a complete and autonomous measuring system in a housing."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Frames (ROV/AUV Inspection-Sensor-Pack)",
+      "category": "sensors_and_navigation",
+      "descriptor": "Subsea sensor frame with data logger for ROV or AUV inspection missions",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0229",
+          "line_start": 180,
+          "line_end": 182,
+          "url": "https://subctech.com/ocean-monitoring/systems/subsea/frames",
+          "page_class": "capability",
+          "snippet": "ROV Inspection-Sensor-Pack\n--------------------------\nROV Inspection-Sensor-Pack installed on a typical inspection-class ROV"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0229",
+          "line_start": 219,
+          "line_end": 221,
+          "url": "https://subctech.com/ocean-monitoring/systems/subsea/frames",
+          "page_class": "capability",
+          "snippet": "Specification\n*   Depth rating shallow water of up to 6000m\n*   Free configuration of various sensors"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Subsea NetDI\u00ae Logger",
+      "category": "sensors_and_navigation",
+      "descriptor": "Highly reliable versatile subsea data logger and controller",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0228",
+          "line_start": 181,
+          "line_end": 184,
+          "url": "https://subctech.com/ocean-monitoring/systems/subsea",
+          "page_class": "capability",
+          "snippet": "![](/wp-content/uploads/2020/02/subsea_net_di.jpg)](/ocean-monitoring/systems/subsea/subsea-netdilogger/)[\n](/ocean-monitoring/systems/subsea/subsea-netdilogger/)\n[Subsea NetDI\u00ae Logger](/ocean-monitoring/systems/subsea/subsea-netdilogger/)\nHighly reliable versatile controller"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Subsea MicroDI\u00ae Logger",
+      "category": "sensors_and_navigation",
+      "descriptor": "Compact subsea data logger designed for rough environmental conditions",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0224",
+          "line_start": 210,
+          "line_end": 213,
+          "url": "https://subctech.com/ocean-monitoring/systems",
+          "page_class": "capability",
+          "snippet": "![](/wp-content/uploads/2020/02/subsea_micro_di.jpg)](/ocean-monitoring/systems/subsea/subsea-microdilogger/)[\n](/ocean-monitoring/systems/subsea/subsea-microdilogger/)\n[Subsea MircoDI\u00ae Logger](/ocean-monitoring/systems/subsea/subsea-microdilogger/)\nMicroDI\u00ae (Micro Data Interface) data Logger is especially designed for rough environmental condition"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "NetDI\u00ae Deck-Unit",
+      "category": "sensors_and_navigation",
+      "descriptor": "Surface deck-mounted data logger for complex sensor measuring, controlling and regulation tasks",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0227",
+          "line_start": 168,
+          "line_end": 170,
+          "url": "https://subctech.com/ocean-monitoring/systems/netdi",
+          "page_class": "capability",
+          "snippet": "NetDI\u00ae Deck-Unit\n================\nThe NetDI\u00ae data logger was developed over many years to fulfill complex measuring, controlling and regulation tasks. A multitasking real-time kernel takes care of the processes of all tasks. It works on the basis of an embedded industrial ARM. The 7\u201c touchscreen visualizes data in a quick-look window."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "OceanPack\u2122 AQUA",
+      "category": "sensors_and_navigation",
+      "descriptor": "Water-quality monitoring system for aquaculture and maritime applications measuring pCO2, O2, pH, nitrate",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0237",
+          "line_start": 167,
+          "line_end": 168,
+          "url": "https://subctech.com/ocean-monitoring/systems/surface/oceanpack-aqua",
+          "page_class": "capability",
+          "snippet": "OceanPack\u2122 AQUA\n==============="
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0237",
+          "line_start": 221,
+          "line_end": 223,
+          "url": "https://subctech.com/ocean-monitoring/systems/surface/oceanpack-aqua",
+          "page_class": "capability",
+          "snippet": "Benefits\n*   High precision sensor system with maritime science and offshore industry specifications\n*   Long-term solid and autonomous measurements"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "OceanPack\u2122 BUOY",
+      "category": "sensors_and_navigation",
+      "descriptor": "Compact pCO2 buoy analyzer for precise shallow-water ocean measurements",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0232",
+          "line_start": 168,
+          "line_end": 170,
+          "url": "https://subctech.com/ocean-monitoring/systems/subsea/oceanpack_buoy",
+          "page_class": "capability",
+          "snippet": "OceanPack\u2122 BUOY\n===============\nThe OceanPack\u2122 _p_CO2 BUOY Analyzer was developed for precise measurements in shallow water. It is very small and easy to maintain."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "OceanView\u2122 Software",
+      "category": "ground_segment",
+      "descriptor": "Data management software and 19\" rack server for visualizing and storing OceanPack\u2122 sensor data",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0241",
+          "line_start": 166,
+          "line_end": 168,
+          "url": "https://subctech.com/ocean-monitoring/systems/surface/oceanview",
+          "page_class": "capability",
+          "snippet": "OceanView\u2122\n==========\nOceanView\u2122 software & data-server \u2013 19\u201d rack data management system & Windows\u00ae software"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "OceanPack\u2122 RACK",
+      "category": "sensors_and_navigation",
+      "descriptor": "Rack-mounted surface environmental monitoring and ocean exploration system",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0260",
+          "line_start": 194,
+          "line_end": 195,
+          "url": "https://subctech.com/products",
+          "page_class": "product",
+          "snippet": "[OceanPack\u2122 RACK](/ocean-monitoring/systems/surface/oceanpack-rack/)\nThe environmental monitoring and exploration of the sea"
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "Vehicle Batteries, Subsea Batteries, Basic Batteries, Customised Batteries, Charger, OceanPack\u2122 RACK, Subsea NetDI\u00ae Logger, and Subsea MicroDI\u00ae Logger dedicated product pages were in the crawl_index but not fetched; specifications, capacity ranges, and depth ratings for these products are unknown.",
+    "OceanPack\u2122 RACK description is only a brief tagline; no specs or detailed product info available in corpus.",
+    "Subsea MicroDI\u00ae Logger name appears in corpus as 'Subsea MircoDI\u00ae Logger' (likely a typo); classified as 'Subsea MicroDI\u00ae Logger' per prioritized list and inline description text."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://subctech.com/ocean-power/vehicle-batteries",
+      "reason": "Dedicated product page for Vehicle Batteries (Li-Ion PowerPack\u2122); would reveal battery specs, capacity ranges, and depth ratings.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped, resource at line 4665",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://subctech.com/ocean-power/subsea-batteries",
+      "reason": "Dedicated product page for Subsea Batteries; would reveal depth ratings, voltage, capacity specs.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped, resource at line 4623",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://subctech.com/ocean-power/basic-batteries",
+      "reason": "Dedicated product page for Basic Batteries; would reveal Li-Ion specs and product variants.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped, resource at line 4455",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://subctech.com/ocean-power/customized-batteries",
+      "reason": "Dedicated product page for Customised Batteries; would reveal capability scope and ordering process.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped, resource at line 4539",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://subctech.com/ocean-power/charger",
+      "reason": "Dedicated product page for Charger; would reveal charger specs and compatible PowerPack models.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped, resource at line 4497",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://subctech.com/ocean-monitoring/systems/surface/oceanpack-rack",
+      "reason": "Dedicated product page for OceanPack\u2122 RACK; only tagline available in corpus, no specs.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped, resource at line 4329",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://subctech.com/ocean-monitoring/systems/subsea/subsea-netdilogger",
+      "reason": "Dedicated product page for Subsea NetDI\u00ae Logger; only brief description in corpus.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped, resource at line 4119",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://subctech.com/ocean-monitoring/systems/subsea/subsea-microdilogger",
+      "reason": "Dedicated product page for Subsea MicroDI\u00ae Logger; only brief description in corpus.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped, resource at line 4077",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 42,
+    "total_cost_usd": 1.05471535,
+    "created_at": "2026-05-04T06:43:45+00:00",
+    "extract_version": "0.1.0"
+  }
+}

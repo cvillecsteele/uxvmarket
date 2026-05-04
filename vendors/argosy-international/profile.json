@@ -1,0 +1,285 @@
+{
+  "target_id": "argosy-international",
+  "run_id": "canonical",
+  "display_name": "Argosy International",
+  "homepage_url": "https://www.argosyinternational.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/argosy-international/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "structures_and_materials",
+        "is_primary": true,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 187,
+            "line_end": 187,
+            "url": "https://www.argosyinternational.com",
+            "page_class": "homepage",
+            "snippet": "Argosy's honeycomb core is used in aerospace structures such as radomes, wings, tail cones, spacecraft, satellites, and flooring applications."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 128,
+            "line_end": 128,
+            "url": "https://www.argosyinternational.com",
+            "page_class": "homepage",
+            "snippet": "Argosy supplies a wide range of composite materials and related products for aerospace and other industries requiring high-performance materials, including entire families of:"
+          }
+        ],
+        "notes": "Aluminum and aramid honeycomb core used in aerospace structures (radomes, wings, tail cones); carbon fiber distribution. These are raw structural inputs applicable to drone airframes."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Argosy is a broad aerospace/industrial materials distributor. Honeycomb core and carbon fiber are structural materials used in aerospace including UAV applications, but no specific UXV product line exists."
+  },
+  "headquarters": {
+    "value": {
+      "city": "New York",
+      "state_or_province": "New York",
+      "country": "United States",
+      "address": "225 West 34th Street, Suite 800, New York, NY, USA 10122"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 273,
+        "line_end": 274,
+        "url": "https://www.argosyinternational.com",
+        "page_class": "homepage",
+        "snippet": "*   225 West 34th Street, Suite 800,\n    New York, NY, USA 10122"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "broad_industrial",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 119,
+        "line_end": 119,
+        "url": "https://www.argosyinternational.com",
+        "page_class": "homepage",
+        "snippet": "### Global supplier of specialty materials and services that solve challenging technical and business problems"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 184,
+        "line_end": 184,
+        "url": "https://www.argosyinternational.com",
+        "page_class": "homepage",
+        "snippet": "Argosy\u2019s specialty materials and services are used in a wide range of markets"
+      }
+    ],
+    "notes": "Global supplier of specialty aerospace materials (honeycomb core, carbon fiber) and automotive crash test equipment. No UXV-specific product line \u2014 serves aerospace, automotive safety, building/construction markets broadly."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "3000 Series Aluminum Honeycomb Core",
+        "product_type": "commercial-grade aluminum honeycomb structural core",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 7,
+            "line_end": 7,
+            "url": "https://www.argosyinternational.com",
+            "page_class": "homepage",
+            "snippet": "    *   [3000 Series Aluminum Honeycomb Core](https://www.argosyinternational.com/products/honeycomb/aluminum-honeycomb-core-3000-series/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "5000 Series Aluminum Honeycomb Core",
+        "product_type": "aerospace-grade aluminum honeycomb structural core",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 8,
+            "line_end": 8,
+            "url": "https://www.argosyinternational.com",
+            "page_class": "homepage",
+            "snippet": "    *   [5000 Series Aluminum Honeycomb Core](https://www.argosyinternational.com/products/honeycomb/5000-series-aluminum-honeycomb/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Aramid Honeycomb Core",
+        "product_type": "para-aramid/meta-aramid honeycomb structural core",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 9,
+            "line_end": 9,
+            "url": "https://www.argosyinternational.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Aramid Honeycomb Core](https://www.argosyinternational.com/products/honeycomb/aramid-honeycomb/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Vented Aluminum Honeycomb",
+        "product_type": "vented aluminum honeycomb core",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 10,
+            "line_end": 10,
+            "url": "https://www.argosyinternational.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Vented Aluminum Honeycomb](https://www.argosyinternational.com/products/honeycomb/vented-aluminum-honeycomb/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AE-MDB Side Impact Barrier",
+        "product_type": "automotive crash test barrier",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 24,
+            "line_end": 24,
+            "url": "https://www.argosyinternational.com",
+            "page_class": "homepage",
+            "snippet": "    *   [AE-MDB Side Impact Barrier](https://www.argosyinternational.com/products/crash-test-barriers/ae-mdb-crash-test-barrier/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ODB Frontal Impact Barrier",
+        "product_type": "automotive crash test barrier",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 21,
+            "line_end": 21,
+            "url": "https://www.argosyinternational.com",
+            "page_class": "homepage",
+            "snippet": "    *   [ODB Frontal Impact Barrier](https://www.argosyinternational.com/products/crash-test-barriers/odb-frontal-impact-barrier/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ATD Energy Absorber",
+        "product_type": "aluminum honeycomb energy absorber for crash test",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 43,
+            "line_end": 43,
+            "url": "https://www.argosyinternational.com",
+            "page_class": "homepage",
+            "snippet": "    *   [ATD Energy Absorber](https://www.argosyinternational.com/products/energy-absorbers/atd-aluminum-honeycomb-energy-absorber/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "FLEX-PLI Energy Absorber",
+        "product_type": "aluminum honeycomb energy absorber for crash test",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 44,
+            "line_end": 44,
+            "url": "https://www.argosyinternational.com",
+            "page_class": "homepage",
+            "snippet": "    *   [FLEX-PLI Energy Absorber](https://www.argosyinternational.com/products/energy-absorbers/flex-pli-aluminum-honeycomb-energy-absorber/)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Primary products are honeycomb core materials and crash test barriers. Carbon fiber and infrastructure repair materials distributed under partner brands."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 166,
+        "line_end": 166,
+        "url": "https://www.argosyinternational.com",
+        "page_class": "homepage",
+        "snippet": "Strong global partnering ability, unique ability to \u201cspec-in products,\u201d successful manufacturing joint ventures, compliance & Quality AS9100/AS9120 QMS certificated, strong global aerospace prime and tier relationships, unique supply chain solutions, and value-added distribution services."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0094",
+        "line_start": 116,
+        "line_end": 116,
+        "url": "https://www.argosyinternational.com/about/quality-certifications",
+        "page_class": "company",
+        "snippet": "Argosy is AS9100/AS9120 QMS certified and adheres to ISO9001 standards, demonstrating our commitment to supplying customers with the highest-quality products and services."
+      }
+    ],
+    "notes": "Established catalog products with AS9100/AS9120 certification, over 35 years in business, serving major aerospace primes (Boeing, Airbus) and automotive OEMs at scale."
+  },
+  "unresolved_questions": [
+    "No drone/UAV/UAS-specific products or market segments mentioned anywhere in the corpus. Honeycomb core and carbon fiber are incidentally applicable to drone structures but are not marketed for that purpose.",
+    "No NDAA or Blue UAS compliance statements found."
+  ],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Manufactures aerospace-grade aluminum and aramid honeycomb core for sandwich structures, plus crash-test barriers and energy absorbers for automotive safety validation. Also distributes carbon fiber, composite repair systems, and AI manufacturing software. NDAA and Blue UAS status unknown; primary market appears automotive test infrastructure rather than unmanned systems platforms.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 11,
+    "total_cost_usd": 0.26493855,
+    "created_at": "2026-05-03T21:24:37+00:00",
+    "extract_version": "0.1.0"
+  }
+}

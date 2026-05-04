@@ -1,0 +1,287 @@
+{
+  "target_id": "axiom-honeycomb",
+  "run_id": "canonical",
+  "display_name": "Axiom Honeycomb",
+  "homepage_url": "https://axiommaterials.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/axiom-honeycomb/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "structures_and_materials",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 86,
+            "line_end": 86,
+            "url": "https://axiommaterials.com",
+            "page_class": "homepage",
+            "snippet": "Axiom Materials, Inc. is a leading manufacturer of advanced composite materials, specializing in ceramic matrix composites (CMCs), prepregs, honeycomb core, film adhesives, and ancillary composite products. Our mission is to deliver high-quality materials with exceptional customer service and innovative design."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0085",
+            "line_start": 88,
+            "line_end": 90,
+            "url": "https://axiommaterials.com/products",
+            "page_class": "product",
+            "snippet": "Honeycomb Core\n--------------\nAxiom manufactures Aerospace and Commercial Grade Nomex\u00ae Honeycomb to suit most aerospace and commercial applications."
+          }
+        ],
+        "notes": "Sells honeycomb cores (Nomex\u00ae, Kraft paper), composite prepregs (epoxy, BMI, phenolic, CMC), and film adhesives \u2014 raw structural material inputs used in airframe manufacturing."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Axiom is an advanced composite materials manufacturer selling structural raw materials (prepregs, honeycomb, adhesives) across aerospace, military, automotive, industrial, and other markets. No other UXV-specific product categories observed."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Santa Ana",
+      "state_or_province": "California",
+      "country": "United States",
+      "address": "2320 Pullman St."
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0090",
+        "line_start": 65,
+        "line_end": 68,
+        "url": "https://axiommaterials.com/contact",
+        "page_class": "contact",
+        "snippet": "Axiom Materials, Inc.\n![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E)\n2320 Pullman St.\nSanta Ana, CA 92705"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 87,
+        "line_end": 87,
+        "url": "https://axiommaterials.com",
+        "page_class": "homepage",
+        "snippet": "We pride ourselves on our agility and flexibility, working closely with clients globally in aerospace, military, automotive, industrial, sports, and medical industries to develop cutting-edge & next-generation solutions."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0085",
+        "line_start": 90,
+        "line_end": 90,
+        "url": "https://axiommaterials.com/products",
+        "page_class": "product",
+        "snippet": "Axiom manufactures Aerospace and Commercial Grade Nomex\u00ae Honeycomb to suit most aerospace and commercial applications."
+      }
+    ],
+    "notes": "Axiom sells structural materials (honeycomb cores, composite prepregs, film adhesives) that go into drone/UAV airframe construction. The rubric explicitly includes 'materials' in the component_supplier definition. Broadly aerospace/industrial with no UXV-specific product line."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Nomex\u00ae Honeycomb",
+        "product_type": "Aerospace and commercial grade honeycomb core",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0085",
+            "line_start": 90,
+            "line_end": 90,
+            "url": "https://axiommaterials.com/products",
+            "page_class": "product",
+            "snippet": "Axiom manufactures Aerospace and Commercial Grade Nomex\u00ae Honeycomb to suit most aerospace and commercial applications."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AHK Kraft Paper Honeycomb",
+        "product_type": "Structural kraft paper/phenolic honeycomb core",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0084",
+            "line_start": 59,
+            "line_end": 61,
+            "url": "https://axiommaterials.com/products/kraft-honeycomb",
+            "page_class": "product",
+            "snippet": "Kraft Honeycomb\n---------------\n**AHK KRAFT PAPER/PHENOLIC COATED HONEYCOMB**"
+          }
+        ],
+        "notes": "Conforms to MIL-H-21040 C and ASTM E 1091; available in multiple densities"
+      },
+      {
+        "name": "Ceramic Matrix Composites (CMC Prepregs)",
+        "product_type": "Oxide-Oxide CMC prepreg materials",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0085",
+            "line_start": 62,
+            "line_end": 62,
+            "url": "https://axiommaterials.com/products",
+            "page_class": "product",
+            "snippet": "Ceramic Matrix Composites"
+          }
+        ],
+        "notes": "World's largest producer of Oxide-Oxide CMC prepregs per products page"
+      },
+      {
+        "name": "Composite Prepregs",
+        "product_type": "Thermoset composite prepregs (epoxy, BMI, phenolic, cyanate ester, vinyl ester, polyimide)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0085",
+            "line_start": 70,
+            "line_end": 72,
+            "url": "https://axiommaterials.com/products",
+            "page_class": "product",
+            "snippet": "Composite Prepregs\n------------------\nSpecially formulated resin systems include epoxy, BMI, phenolic, polyester, cyanate ester, vinyl ester and polyimide."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Film Adhesives",
+        "product_type": "Metal and composite bonding adhesives, surfacing and lightning strike films",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0085",
+            "line_start": 80,
+            "line_end": 82,
+            "url": "https://axiommaterials.com/products",
+            "page_class": "product",
+            "snippet": "Film Adhesives\n--------------\nMetal and composite bonding adhesives, surfacing and lightning strike films, and other bonding solutions."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Tooling Prepregs & Ancillary Products",
+        "product_type": "Tooling prepregs, primers, adhesives, panel fillers, sealing resins",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0085",
+            "line_start": 99,
+            "line_end": 101,
+            "url": "https://axiommaterials.com/products",
+            "page_class": "product",
+            "snippet": "Tooling Prepregs & Ancillary Products\n-------------------------------------\nA variety of tooling prepregs, primers, adhesives, prepreg peel-plys, panel fillers, sealing resins are available."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Several product detail pages were skipped (aerospace-grade Nomex honeycomb, ceramic matrix composites detail, composite prepregs detail). Additional product SKUs likely exist."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0091",
+        "line_start": 64,
+        "line_end": 64,
+        "url": "https://axiommaterials.com/facilities-capabilities",
+        "page_class": "capability",
+        "snippet": "Axiom operates 10 equipment lines to produce woven fabric prepregs, unidirectional tapes, honeycomb core, and thin film adhesives. All lines are automated with SPC controls to manufacture high quality materials consistently."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 88,
+        "line_end": 88,
+        "url": "https://axiommaterials.com",
+        "page_class": "homepage",
+        "snippet": "Axiom Materials, Inc. is proudly AS9100D and ISO 9001:2015 certified, ensuring the highest standards in our operations. Since being acquired by KORDSA in 2019, we have continued to expand our capabilities and reach."
+      }
+    ],
+    "notes": "5 manufacturing facilities in Southern California, 10 automated production equipment lines, AS9100D/ISO9001:2015 certified, standard catalog products with published specifications."
+  },
+  "unresolved_questions": [
+    "No NDAA Sec 848/889 compliance claim found in corpus",
+    "No Blue UAS mention found in corpus",
+    "Aerospace-grade Nomex honeycomb product detail page not fetched (skipped_class_budget)",
+    "Drone/UAV specific market applications not explicitly stated on site"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://axiommaterials.com/products/aerospace-grade-nomex-honeycomb",
+      "reason": "Would provide detailed Nomex honeycomb product specifications, confirming aerospace/UAV-specific use cases and product SKUs",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://axiommaterials.com/axiom-honeycomb",
+      "reason": "Main honeycomb product landing page \u2014 would enumerate full honeycomb product line and confirm UXV-relevant applications",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped (resource_id=null), page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://axiommaterials.com/products/ceramic-matrix-composites",
+      "reason": "Would detail CMC product line including Air Mobility applications potentially confirming UAV/eVTOL supply chain relevance",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Manufactures aerospace-grade and commercial honeycomb cores (Nomex\u00ae, kraft), composite prepregs (carbon, aramid, fiberglass, ceramic matrix composite), and film adhesives for aerospace, defense, and industrial markets. Production-ready across Southern California facilities. NDAA and Blue UAS certification status unknown; no major defense contracts identified in public record.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 15,
+    "total_cost_usd": 0.34504180000000007,
+    "created_at": "2026-05-03T21:46:19+00:00",
+    "extract_version": "0.1.0"
+  }
+}

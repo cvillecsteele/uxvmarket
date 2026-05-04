@@ -1,0 +1,312 @@
+{
+  "target_id": "mks-zeus-servos",
+  "run_id": "canonical",
+  "display_name": "MKS & Zeus Servos",
+  "homepage_url": "https://www.MKSservosUSA.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/mks-zeus-servos/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 15,
+            "line_end": 19,
+            "url": "https://www.mksservosusa.com/home.php",
+            "page_class": "homepage",
+            "snippet": "*   [Zeus Servo Line](home.php?cat=37 \"Zeus Servo Line\")\n*   [MKS DroneCAN](home.php?cat=43 \"MKS DroneCAN\")\n*   [X6 High Voltage Brushless Servos](home.php?cat=27 \"X6 High Voltage Brushless Servos\")\n*   [X8 High Voltage Brushless Servos](home.php?cat=24 \"X8 High Voltage Brushless Servos\")\n*   [Jet Line](home.php?cat=29 \"Jet Line\")"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 20,
+            "line_end": 25,
+            "url": "https://www.mksservosusa.com/home.php",
+            "page_class": "homepage",
+            "snippet": "*   [High Voltage Brushless Servos](home.php?cat=17 \"High Voltage Brushless Servos\")\n*   [High Voltage Coreless Servos](home.php?cat=3 \"High Voltage Coreless Servos\")\n*   [760us/560Hz Rudder Servos](home.php?cat=19 \"760us/560Hz Rudder Servos\")\n*   [Brushless Servos](home.php?cat=2 \"Brushless Servos\")\n*   [Camera Gimbals servo](home.php?cat=22 \"Camera Gimbals servo\")\n*   [Standard Servos](home.php?cat=4 \"Standard Servos\")"
+          }
+        ],
+        "notes": "Servo actuators (brushless, coreless, high-voltage, rudder, jet-line) for RC/UAV applications; external classification also places them under 'Powertrain'"
+      },
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 34,
+            "line_end": 34,
+            "url": "https://www.mksservosusa.com/home.php",
+            "page_class": "homepage",
+            "snippet": "*   [GYRO](home.php?cat=11 \"GYRO\")"
+          }
+        ],
+        "notes": "GYRO product category on storefront"
+      },
+      {
+        "category": "isr_payloads",
+        "is_primary": false,
+        "confidence": "low",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 24,
+            "line_end": 24,
+            "url": "https://www.mksservosusa.com/home.php",
+            "page_class": "homepage",
+            "snippet": "*   [Camera Gimbals servo](home.php?cat=22 \"Camera Gimbals servo\")"
+          }
+        ],
+        "notes": "Camera Gimbals servo category; servos are components within gimbal systems"
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Product category pages (home.php?cat=*) were not fetched; full category detail is inferred from navigation links only"
+  },
+  "headquarters": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No city, state, or address is visible in the fetched pages. 'USA' in the brand name suggests US-based but no location is disclosed."
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 16,
+        "line_end": 16,
+        "url": "https://www.mksservosusa.com/home.php",
+        "page_class": "homepage",
+        "snippet": "*   [MKS DroneCAN](home.php?cat=43 \"MKS DroneCAN\")"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 17,
+        "line_end": 20,
+        "url": "https://www.mksservosusa.com/home.php",
+        "page_class": "homepage",
+        "snippet": "*   [X6 High Voltage Brushless Servos](home.php?cat=27 \"X6 High Voltage Brushless Servos\")\n*   [X8 High Voltage Brushless Servos](home.php?cat=24 \"X8 High Voltage Brushless Servos\")\n*   [Jet Line](home.php?cat=29 \"Jet Line\")\n*   [High Voltage Brushless Servos](home.php?cat=17 \"High Voltage Brushless Servos\")"
+      }
+    ],
+    "notes": "Sells servo actuators and gyros as discrete components for RC/UAV platforms. 'MKS DroneCAN' category confirms explicit drone-market targeting. Zeus Servo Line appears to be their own branded product line."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Zeus Servo Line",
+        "product_type": "servo actuator line",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 15,
+            "line_end": 15,
+            "url": "https://www.mksservosusa.com/home.php",
+            "page_class": "homepage",
+            "snippet": "*   [Zeus Servo Line](home.php?cat=37 \"Zeus Servo Line\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MKS DroneCAN",
+        "product_type": "DroneCAN servo",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 16,
+            "line_end": 16,
+            "url": "https://www.mksservosusa.com/home.php",
+            "page_class": "homepage",
+            "snippet": "*   [MKS DroneCAN](home.php?cat=43 \"MKS DroneCAN\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "X6 High Voltage Brushless Servos",
+        "product_type": "brushless servo series",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 17,
+            "line_end": 17,
+            "url": "https://www.mksservosusa.com/home.php",
+            "page_class": "homepage",
+            "snippet": "*   [X6 High Voltage Brushless Servos](home.php?cat=27 \"X6 High Voltage Brushless Servos\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "X8 High Voltage Brushless Servos",
+        "product_type": "brushless servo series",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 18,
+            "line_end": 18,
+            "url": "https://www.mksservosusa.com/home.php",
+            "page_class": "homepage",
+            "snippet": "*   [X8 High Voltage Brushless Servos](home.php?cat=24 \"X8 High Voltage Brushless Servos\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Jet Line",
+        "product_type": "servo line for jet aircraft",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 19,
+            "line_end": 19,
+            "url": "https://www.mksservosusa.com/home.php",
+            "page_class": "homepage",
+            "snippet": "*   [Jet Line](home.php?cat=29 \"Jet Line\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HS75",
+        "product_type": "servo",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 8,
+            "line_end": 8,
+            "url": "https://www.mksservosusa.com/home.php",
+            "page_class": "homepage",
+            "snippet": "*   [![](https://www.mksservosusa.com/images/XBI/HS75%28H%29_ad_v1.jpg \"HS75\")](./product.php?productid=287 \"HS75\")"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Individual product detail pages (product.php) failed to load; many more SKUs likely exist across the 20+ product categories"
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA compliance claim found in the two fetched pages"
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS / Blue sUAS claim found in the fetched pages"
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 6,
+        "line_end": 6,
+        "url": "https://www.mksservosusa.com/home.php",
+        "page_class": "homepage",
+        "snippet": "Welcome to the MKS Servos USA store"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 42,
+        "line_end": 42,
+        "url": "https://www.mksservosusa.com/home.php",
+        "page_class": "homepage",
+        "snippet": "0 item(s) Cart is empty"
+      }
+    ],
+    "notes": "Operating a live e-commerce store with shopping cart, multiple named product lines, and dealer network indicates production-volume availability"
+  },
+  "unresolved_questions": [
+    "Headquarters location not disclosed \u2014 contact page (help.php?mode=update&section=contactus) was skipped",
+    "NDAA/Blue UAS compliance status unknown",
+    "Full product SKU list not captured \u2014 product detail pages failed to load"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.mksservosusa.com/help.php?mode=update&section=contactus",
+      "reason": "Contact page likely contains headquarters address (city, state, country) for the vendor",
+      "expected_evidence": [
+        "headquarters"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.mksservosusa.com/home.php?cat=43",
+      "reason": "MKS DroneCAN product category page; would confirm specific drone-targeted products and component-supplier role",
+      "expected_evidence": [
+        "products",
+        "drone_supply_chain_role",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.mksservosusa.com/home.php?cat=37",
+      "reason": "Zeus Servo Line category page; would list specific Zeus SKUs and confirm product details",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.mksservosusa.com/pages.php?pageid=3",
+      "reason": "Terms & Conditions page; may contain NDAA compliance claims or country-of-origin information",
+      "expected_evidence": [
+        "ndaa",
+        "headquarters"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "tagline": "Manufactures servo actuators and flight-control components for unmanned aircraft, including brushless and high-voltage servo families, DroneCAN interface modules, and gyro stabilization units. Production-ready across multiple form factors and voltage classes. NDAA compliance status, Blue UAS certification, and prime integrator adoption remain undocumented in public sources.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 9,
+    "total_cost_usd": 0.33972050000000004,
+    "created_at": "2026-05-04T04:25:03+00:00",
+    "extract_version": "0.1.0"
+  }
+}

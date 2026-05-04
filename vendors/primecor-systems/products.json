@@ -1,0 +1,256 @@
+{
+  "target_id": "primecor-systems",
+  "run_id": "canonical",
+  "display_name": "PrimeCor Systems",
+  "homepage_url": "https://primecorsys.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/primecor-systems/website",
+  "products": [
+    {
+      "name": "PrimeCor Tracker",
+      "category": "sensors_and_navigation",
+      "descriptor": "GNSS and LTE Remote ID module for UAS regulatory compliance",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0050",
+          "line_start": 39,
+          "line_end": 39,
+          "url": "https://primecorsys.com/en/primecor-tracker-user-manual-2",
+          "page_class": "product",
+          "snippet": "This innovative device not only provides precise GNSS location broadcasting for your UAS but also transmits UAS location data via the mobile network to UTM/U-space services, thereby enabling visualization of drone geolocation and fulfillment of Remote ID regulatory requirements."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0050",
+          "line_start": 42,
+          "line_end": 43,
+          "url": "https://primecorsys.com/en/primecor-tracker-user-manual-2",
+          "page_class": "product",
+          "snippet": "**When you purchase PrimeCor Tracker, you will receive:**\n*   1 x PrimeCor tracker"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0050",
+          "line_start": 102,
+          "line_end": 102,
+          "url": "https://primecorsys.com/en/primecor-tracker-user-manual-2",
+          "page_class": "product",
+          "snippet": "PrimeCor Tracker complies with EN 4709-002, enabling operators to meet the requirements of direct remote identification as outlined in Implementing Regulation (EU) 2019/947\u00a0**[(Declaration of Compliance)](https://primecorsys.com/wp-content/uploads/2024/05/EU-declaration-of-conformity-sent-v.1.pdf).**\u00a0All drones operating in specific category and drones with class marks operating in the open category will be required to have direct remote identification."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "PrimeCor Zero",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "C5/C6 UAS conversion kit for EASA STS safety compliance",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0050",
+          "line_start": 27,
+          "line_end": 30,
+          "url": "https://primecorsys.com/en/primecor-tracker-user-manual-2",
+          "page_class": "product",
+          "snippet": "PRIMECOR ZERO\n-------------\n#### C5-C6 UAS conversion kit\nU-space safety management system designed to ensure approved execution of safety-critical unmanned urban operations and in-line with the highest reliability requirements from civil authorities."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0042",
+          "line_start": 56,
+          "line_end": 57,
+          "url": "https://primecorsys.com/en/easa-standard-scenarios-sts-01-sts-02-compliance",
+          "page_class": "compliance",
+          "snippet": "[**PrimeCor Zero**](https://primecorsys.com/en/service-zero/) is a unique solution that enables drone manufacturers to **adapt existing platforms** to meet C5 or C6 requirements **without altering the drone\u2019s core architecture**.\n**Key benefits for manufacturers:**"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "PrimeCor Enhanced Containment",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "Geocaging system to enforce UAS operational volume boundaries",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 69,
+          "line_end": 69,
+          "url": "https://primecorsys.com",
+          "page_class": "homepage",
+          "snippet": "PrimeCor Enhanced Containment"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 90,
+          "line_end": 90,
+          "url": "https://primecorsys.com",
+          "page_class": "homepage",
+          "snippet": "Gracias a su tecnolog\u00eda geocaging **[PrimeCor cuidar\u00e1 que el UAV pueda moverse de forma controlada sin salirse de su volumen operacional](https://primecorsys.com/solucion-enhanced-containment/)** aprobado y as\u00ed, evitar coaliciones con otras aeronaves que incluso pueden ser tripuladas o entrar en zonas de mayor riesgo en tierra."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Autopilot \u2013 Flight Control System (FCS)",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "Custom UAS autopilot designed per client platform and mission",
+      "granularity": "sku",
+      "readiness": "engineering_services",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0059",
+          "line_start": 28,
+          "line_end": 28,
+          "url": "https://primecorsys.com/flight-control-system-fcs-autopiloto-drones",
+          "page_class": "news",
+          "snippet": "El sistema de control de vuelo (Flight Control Systems, FCS), com\u00fanmente llamado autopiloto, es el \u00abcore\u00bb de cualquier aeronave no tripulada. Por ello, **PrimeCor propone un dise\u00f1o personalizado para cada tipo de dron, UAS o UAV**, garantizando as\u00ed la m\u00e1xima fiabilidad y rendimiento en cada misi\u00f3n."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0059",
+          "line_start": 47,
+          "line_end": 47,
+          "url": "https://primecorsys.com/flight-control-system-fcs-autopiloto-drones",
+          "page_class": "news",
+          "snippet": "Agenda tu reuni\u00f3n escribiendo a\u00a0 sales@primecorsys.com"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "PrimeCor One",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "UAS safety system for SAIL III and IV high-risk operations",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0059",
+          "line_start": 39,
+          "line_end": 39,
+          "url": "https://primecorsys.com/flight-control-system-fcs-autopiloto-drones",
+          "page_class": "news",
+          "snippet": "**PrimeCor One**, desarrollado para operaciones con niveles de riesgo **SAIL III y SAIL IV**, con funcionalidades de seguridad y redundancia."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "PrimeCor Cloud",
+      "category": "ground_segment",
+      "descriptor": "Cloud Safety-as-a-Service for UAS fleet management and UTM/U-space integration",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0075",
+          "line_start": 24,
+          "line_end": 27,
+          "url": "https://primecorsys.com/servicio-cloud-safety-as-a-service",
+          "page_class": "news",
+          "snippet": "PrimeCor Cloud\nSafety-as-a-Service\n------------------------------------\nPrimeCor Cloud proporciona servicios basados en la nube a pilotos remotos, operadores o coordinadores de flotas para supervisar, controlar y gestionar sus operaciones, veh\u00edculos y actividades de mantenimiento de forma integrada."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0075",
+          "line_start": 23,
+          "line_end": 23,
+          "url": "https://primecorsys.com/servicio-cloud-safety-as-a-service",
+          "page_class": "news",
+          "snippet": "[Acceso PrimeCor Cloud](https://app.cloud.primecorsys.com/)"
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "PrimeCor One: only a brief mention on the FCS page (resource-0011 line 39); no dedicated product page was fetched or found indexed. Readiness is unknown.",
+    "PrimeCor Enhanced Containment: dedicated page (solucion-enhanced-containment) was skipped due to class budget exhaustion; readiness and full feature set unknown.",
+    "All products: ndaa and blue_uas are unknown \u2014 PrimeCor is a Spanish company whose compliance language is entirely EASA/EU-focused with no US NDAA or DIU Blue UAS mentions anywhere in corpus.",
+    "Spanish-language product pages (solucion-primecor-tracker, solucion-primecor-zero) were fetched as resource-0001/0010/0011; English equivalents (en/service-tracker, en/service-zero, en/service-cloud, en/en-uav-autopilots) were all skipped_class_budget and may contain additional specification detail."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://primecorsys.com/solucion-enhanced-containment",
+      "reason": "Dedicated product page for PrimeCor Enhanced Containment; skipped due to class budget. Needed to determine readiness, feature set, and any compliance claims.",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://primecorsys.com/en/service-zero",
+      "reason": "English product page for PrimeCor Zero; would confirm production readiness and provide EN-language feature/compliance details.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://primecorsys.com/en/service-tracker",
+      "reason": "English product page for PrimeCor Tracker; may contain additional specs and readiness/compliance language beyond the user manual page.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://primecorsys.com/en/en-uav-autopilots",
+      "reason": "English Autopilot/FCS product page; would clarify whether the FCS offering is a catalog product or pure engineering service.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://primecorsys.com/en/service-cloud",
+      "reason": "English product page for PrimeCor Cloud; would confirm production readiness and subscription model details.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 23,
+    "total_cost_usd": 0.5776900500000001,
+    "created_at": "2026-05-04T05:29:42+00:00",
+    "extract_version": "0.1.0"
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "target_id": "anello-photonics",
+  "run_id": "canonical",
+  "display_name": "ANELLO Photonics",
+  "homepage_url": "https://www.anellophotonics.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/anello-photonics/website",
+  "products": [
+    {
+      "name": "ANELLO Aerial INS",
+      "category": "sensors_and_navigation",
+      "descriptor": "3-axis optical gyro INS for UAVs and VTOLs in GPS-denied environments",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0138",
+          "line_start": 175,
+          "line_end": 176,
+          "url": "https://www.anellophotonics.com/products/aerial-ins",
+          "page_class": "product",
+          "snippet": "### ANELLO AERIAL INS\nHigh-Performance INS for Autonomous Aerial Operations In GPS-Denied Environments"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0138",
+          "line_start": 182,
+          "line_end": 188,
+          "url": "https://www.anellophotonics.com/products/aerial-ins",
+          "page_class": "product",
+          "snippet": "*   Reference-grade 100Hz position, velocity and attitude\n*   3-axis SiPhOG\u2122 with < 0.5\u00ba/hr unaided heading drift\n*   Dual triple-frequency GNSS receivers\n*   Resilience in heavy shock and vibration environments\n*   Highly accurate dead reckoning solution for GNSS-denied navigation\n*   ANELLO AI Sensor Fusion Engine with GNSS spoofing detection\n*   Compact and lightweight design with low power consumption < 6 W"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "ANELLO X3 IMU",
+      "category": "sensors_and_navigation",
+      "descriptor": "World's smallest 3-axis optical gyro IMU for aerial and maritime platforms",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0156",
+          "line_start": 175,
+          "line_end": 180,
+          "url": "https://www.anellophotonics.com/products/x3-imu",
+          "page_class": "product",
+          "snippet": "### ANELLO X3 IMU\nUltra-Compact 3-Axis Optical Gyro IMU\nfor Aerial and Maritime Missions\nINTRODUCTION\n------------\nThe ANELLO X3 IMU is world's smallest and lightest 3-Axis high performance optical gyroscope IMU."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0156",
+          "line_start": 191,
+          "line_end": 200,
+          "url": "https://www.anellophotonics.com/products/x3-imu",
+          "page_class": "product",
+          "snippet": "*   Integrated with PX4 & ArduPilot\n*   < 0.03 m/s/\u221ahr Accel VRW\n*   < 0.5\u00b0/hr Gyro Bias Instability\n*   < 0.05\u00b0/\u221ahr Angular Random Walk\n*   Fully Calibrated Measurements\n*   \u00b18G full-scale range magnetometer with 0.4mG total RMS noise\n*   3-Axis SiPhOG\u2122\n*   24 Total Sensor Channels\n*   Safety Rated RTOS and CPU\n*   RS-422 and UART"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "ANELLO Maritime INS",
+      "category": "sensors_and_navigation",
+      "descriptor": "3-axis optical gyro INS for ASVs and AUVs in GPS-denied environments",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0153",
+          "line_start": 175,
+          "line_end": 176,
+          "url": "https://www.anellophotonics.com/products/maritime-ins",
+          "page_class": "product",
+          "snippet": "### ANELLO MARITIME INS\nHigh-Performance INS for Autonomous Maritime Operations in GPS-Denied Environments"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0153",
+          "line_start": 183,
+          "line_end": 188,
+          "url": "https://www.anellophotonics.com/products/maritime-ins",
+          "page_class": "product",
+          "snippet": "*   Reference-grade 100Hz position, velocity and attitude\n*   3-axis SiPhOG\u2122 with < 0.5\u00ba/hr unaided heading drift\n*   Dual triple-frequency GNSS receivers with static heading capability\n*   Resilience in heavy shock and vibration environments\n*   Highly accurate dead reckoning solution\n*   ANELLO AI Sensor Fusion Engine with GNSS spoofing detection"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "ANELLO CMOSS PNT A-100",
+      "category": "sensors_and_navigation",
+      "descriptor": "3U-VPX CMOSS PNT card with optical gyro INS for military GPS-denied navigation",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0139",
+          "line_start": 175,
+          "line_end": 177,
+          "url": "https://www.anellophotonics.com/products/cmoss-pnt",
+          "page_class": "product",
+          "snippet": "ANELLO CMOSS PNT A-100\nLong-Term Navigation in GPS-Denied using on-board Optical Gyroscope INS\nANELLO CMOSS PNT A-100"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0139",
+          "line_start": 183,
+          "line_end": 190,
+          "url": "https://www.anellophotonics.com/products/cmoss-pnt",
+          "page_class": "product",
+          "snippet": "*   3U-VPX Standards-based CMOSS PNT Card\n*   Internal Optical Gyro and 6-Axis Inertial Measurement Unit\n*   GPS-Denied Dead-Reckoning\n*   Automatic Zero-Touch Alignment, On-Board Sensor Fusion\n*   Accurate in Severely Degraded and GPS-Denied Conditions\n*   VICTORY Messaging, 1000BASE-KX Control Plane Ethernet\n*   Standard Civilian GPS and Optional M-Code GPS\n*   Front Panel USB-C Maintenance Port, Key Loading, and Status LEDs"
+        }
+      ],
+      "notes": "Datasheet available by request only (not public download); supports M-Code GPS and VICTORY messaging."
+    },
+    {
+      "name": "ANELLO Ground INS/ATAK Kit",
+      "category": "sensors_and_navigation",
+      "descriptor": "Optical gyro INS with ATAK interface for GPS-denied ground vehicle navigation",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0151",
+          "line_start": 175,
+          "line_end": 177,
+          "url": "https://www.anellophotonics.com/products/ground-ins-atak-kit",
+          "page_class": "product",
+          "snippet": "### ANELLO GROUND INS/ATAK KIT\nReal-Time Navigation In GPS-Denied Environments\n\\*Previously known as ANELLO GNSS INS/ATAK KIT"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0151",
+          "line_start": 180,
+          "line_end": 180,
+          "url": "https://www.anellophotonics.com/products/ground-ins-atak-kit",
+          "page_class": "product",
+          "snippet": "The ANELLO GROUND INS/ATAK Kit utilizes advanced optical gyroscope technology to deliver real time high-accuracy positioning in environments where GPS is unavailable. The kit is available now and can quickly be installed into any vehicle in under 20 minutes."
+        }
+      ],
+      "notes": "Previously known as ANELLO GNSS INS/ATAK KIT. Page states 'available now'."
+    },
+    {
+      "name": "ANELLO Ground INS",
+      "category": "sensors_and_navigation",
+      "descriptor": "Optical gyro INS for long-term GNSS-denied autonomous ground navigation",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0150",
+          "line_start": 175,
+          "line_end": 177,
+          "url": "https://www.anellophotonics.com/products/ground-ins",
+          "page_class": "product",
+          "snippet": "### ANELLO GROUND INS\\*\nHigh-Performance Optical Gyro INS for Autonomous Navigation on Every Terrain\n\\*Previously known as ANELLO GNSS INS"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0150",
+          "line_start": 191,
+          "line_end": 196,
+          "url": "https://www.anellophotonics.com/products/ground-ins",
+          "page_class": "product",
+          "snippet": "### KEY FEATURES\n*   Reference-grade 100 Hz Position, Velocity and Attitude\n*   < 0.5\u00ba/hr Unaided Heading Drift\n*   Accurate in severe multipath and GNSS-denied\n*   Dual 184-channel five constellation dual-band GNSS Receivers\n*   GPS, Glonass, Galileo, Beidou (Compass), QZSS"
+        }
+      ],
+      "notes": "Previously known as ANELLO GNSS INS."
+    },
+    {
+      "name": "ANELLO Ground IMU",
+      "category": "sensors_and_navigation",
+      "descriptor": "Rugged optical gyro IMU for harsh-environment robotics and construction autonomy",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0149",
+          "line_start": 175,
+          "line_end": 177,
+          "url": "https://www.anellophotonics.com/products/ground-imu",
+          "page_class": "product",
+          "snippet": "### ANELLO GROUND IMU\\*\nRugged Optical Gyro IMU for Robotics and Construction Autonomy\n\\*Previously known as ANELLO IMU+"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0149",
+          "line_start": 183,
+          "line_end": 191,
+          "url": "https://www.anellophotonics.com/products/ground-imu",
+          "page_class": "product",
+          "snippet": "### KEY FEATURES\n*   Complete 6 Degrees of Freedom Inertial System\n*   AHRS functionality for real-time 3D orientation - roll/pitch/yaw\n*   High-Performance ANELLO Optical Gyroscope for the Z axis\n*   200 Hz Data Output Rate\n*   Two RS-232 Interfaces\n*   Small Form Factor < 10in3\n*   Low Power Consumption of 2.5W\n*   Wide Temperature Range of -40 to +70\u00baC"
+        }
+      ],
+      "notes": "Previously known as ANELLO IMU+."
+    },
+    {
+      "name": "ANELLO Evaluation Kit",
+      "category": "sensors_and_navigation",
+      "descriptor": "GNSS/INS evaluation kit with optical gyro for development and field testing",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0142",
+          "line_start": 175,
+          "line_end": 176,
+          "url": "https://www.anellophotonics.com/products/gnss-ins-evaluation-kit",
+          "page_class": "product",
+          "snippet": "### ANELLO EVALUATION KIT\nTest the Future of Navigation Today"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0142",
+          "line_start": 199,
+          "line_end": 207,
+          "url": "https://www.anellophotonics.com/products/gnss-ins-evaluation-kit",
+          "page_class": "product",
+          "snippet": "### KEY FEATURES\n*   Reference-grade 100 Hz Position, Velocity, and Attitude\n*   < 0.5\u00ba/Hr Unaided Heading Drift\n*   Accurate in severe multipath and GNSS denied\n*   Dual 184-channel five constellation dual-band GNSS receivers\n*   GPS, Glonass, Galileo, Beidou (Compass), QZSS\n*   Reliable Autonomous Land Vehicles, Advanced ADAS Systems\n*   Precise Heavy Equipment and Machine Control\n*   Convenient and Fast Setup"
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 16,
+    "total_cost_usd": 0.5704741,
+    "created_at": "2026-05-03T11:15:42+00:00",
+    "extract_version": "0.1.0"
+  }
+}

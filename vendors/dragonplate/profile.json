@@ -1,0 +1,317 @@
+{
+  "target_id": "dragonplate",
+  "run_id": "canonical",
+  "display_name": "DragonPlate",
+  "homepage_url": "https://dragonplate.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/dragonplate/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "structures_and_materials",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://dragonplate.com",
+            "page_class": "homepage",
+            "snippet": "DragonPlate | Engineered Carbon Fiber Composite Sheets, Tubes and Structural Components | Made in USA"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 255,
+            "line_end": 255,
+            "url": "https://dragonplate.com",
+            "page_class": "homepage",
+            "snippet": "DragonPlate\u00ae Engineered Carbon Fiber Composites"
+          }
+        ],
+        "notes": "Core business: carbon fiber composite sheets, plates, tubes, and structural parts (angle, I-beams, C-channel, hat stiffeners) sold as raw inputs for high-performance structures including UAV airframes."
+      },
+      {
+        "category": "mechanical_subsystems",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0419",
+            "line_start": 12,
+            "line_end": 12,
+            "url": "https://dragonplate.com/tube-connector-systems",
+            "page_class": "capability",
+            "snippet": "DragonPlate's three tube connector systems make it easy to build carbon fiber tube structures, trusses and space frames."
+          }
+        ],
+        "notes": "Modular tube connector systems, tangent tube mounts, and pultruded/square tube structures for building carbon fiber frames and trusses."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Also sells adhesives and Carbon Fiber Quadcopter Kits but primary business is structural composite materials."
+  },
+  "headquarters": {
+    "value": {
+      "city": null,
+      "state_or_province": null,
+      "country": "United States",
+      "address": null
+    },
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 1,
+        "line_end": 1,
+        "url": "https://dragonplate.com",
+        "page_class": "homepage",
+        "snippet": "DragonPlate | Engineered Carbon Fiber Composite Sheets, Tubes and Structural Components | Made in USA"
+      }
+    ],
+    "notes": "Made in USA stated in page title; phone 315-252-2559 is a central New York area code. City/state not disclosed on fetched pages; company page (dragonplate.com/company) was skipped."
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0264",
+        "line_start": 15,
+        "line_end": 15,
+        "url": "https://dragonplate.com/carbon-fiber-tangent-tube-mount",
+        "page_class": "news",
+        "snippet": "These brackets are well suited for mounting [carbon fiber tubes](/carbon-fiber-tubes) in robotic end effectors, electronic rack shelving, support plates for scientific equipment, table tops, UAVs, and many other applications."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0343",
+        "line_start": 8,
+        "line_end": 8,
+        "url": "https://dragonplate.com/kevlar-composite-products",
+        "page_class": "product",
+        "snippet": "Dragonplate works with a wide array of both commercial and military customers to develop customized carbon fiber Kevlar solutions ranging from flat panels to flame retardant tubes and I-Beams to fully custom-molded contours."
+      }
+    ],
+    "notes": "Sells carbon fiber composite materials and structural parts used in UAV/drone construction. Explicitly lists UAVs as an application area. Has catalog SKUs for Quadcopter Kits."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "EconomyPlate\u2122",
+        "product_type": "carbon fiber sheet",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 80,
+            "line_end": 81,
+            "url": "https://dragonplate.com",
+            "page_class": "homepage",
+            "snippet": "](solid-carbon-fiber-sheets-plates \"Sheets & Plates\")[![](https://tools.dragonplate.com/img/category/economyplate-carbon-fiber-sheets-mega.webp \"EconomyPlate\u2122 Carbon Fiber Sheets\")\nEconomyPlate\u2122 Carbon Fiber Sheets"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ArtisanPlate\u2122",
+        "product_type": "carbon fiber sheet",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 96,
+            "line_end": 97,
+            "url": "https://dragonplate.com",
+            "page_class": "homepage",
+            "snippet": "](two-sided-cf-sheets \"Two Sided CF Sheets\")[![](https://tools.dragonplate.com/img/category/carbon-fiber-artisan-sheets-mega.webp \"ArtisanPlate\u2122 Carbon Fiber Sheets\")\nArtisanPlate\u2122 Carbon Fiber Sheets"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Tangent Tube Mount\u2122",
+        "product_type": "carbon fiber tube connector bracket",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0264",
+            "line_start": 9,
+            "line_end": 11,
+            "url": "https://dragonplate.com/carbon-fiber-tangent-tube-mount",
+            "page_class": "news",
+            "snippet": "![](/Images/thumbs/0010685_05-carbon-fiber-tangent-tube-mount-3-long.jpeg)Tangent Tube Mount\u2122\n---------------------------------------------------------------------------------------------\nThe **Tangent Tube Mount\u2122** makes it easy to attach a carbon fiber tube to a plate or other flat surface. The curved portion of the mount is bonded to a carbon fiber tube, and the flat side is bonded/bolted to the plate."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "D-Tube Neck Beam\u2122",
+        "product_type": "carbon fiber structural component",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 173,
+            "line_end": 174,
+            "url": "https://dragonplate.com",
+            "page_class": "homepage",
+            "snippet": "](carbon-fiber-c-channel \"C-Channel\")[![](https://tools.dragonplate.com/img/category/carbon-fiber-d-tube-mega.webp \"D-Tube Neck Beam\u2122\")\nD-Tube Neck Beam\u2122"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Carbon Fiber Quadcopter Kits",
+        "product_type": "quadcopter frame kit",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 250,
+            "line_end": 252,
+            "url": "https://dragonplate.com",
+            "page_class": "homepage",
+            "snippet": "[![](https://tools.dragonplate.com/img/category/carbon-fiber-quadcopter-kits-page-mega.webp \"Carbon Fiber Quadcopter Kits Page\")\nCarbon Fiber Quadcopter Kits Page\n](carbon-fiber-quadcopter-kits-page \"Carbon Fiber Quadcopter Kits Page\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Modular Carbon Fiber Tube Connectors",
+        "product_type": "carbon fiber tube connector system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0419",
+            "line_start": 27,
+            "line_end": 27,
+            "url": "https://dragonplate.com/tube-connector-systems",
+            "page_class": "capability",
+            "snippet": "[Modular Carbon Fiber Tube Connectors](/modular-carbon-fiber-tube-connectors \"Show products in category Modular Carbon Fiber Tube Connectors\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Gurit PVC40 Foam Core Carbon Fiber Sandwich Sheets",
+        "product_type": "carbon fiber foam core sandwich panel",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0325",
+            "line_start": 33,
+            "line_end": 34,
+            "url": "https://dragonplate.com/gurit-1-foam-core-3-layer",
+            "page_class": "news",
+            "snippet": "**FDPLAXC7040-1x3\\_0606**\n[Gurit PVC40 1\" Foam Core - 3 Layer Carbon Fiber 6\" x 6\"](/gurit-pvc40-1-foam-core-3-layer-carbon-fiber-6-x-6)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Extensive catalog with hundreds of SKUs across sheets, tubes, structural components, and connectors. Only representative named product lines captured here."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 1,
+        "line_end": 1,
+        "url": "https://dragonplate.com",
+        "page_class": "homepage",
+        "snippet": "DragonPlate | Engineered Carbon Fiber Composite Sheets, Tubes and Structural Components | Made in USA"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 305,
+        "line_end": 305,
+        "url": "https://dragonplate.com",
+        "page_class": "homepage",
+        "snippet": "Our Commitment to Quality We don't sell cheap imported carbon fiber tubes, plates, or sheets, or make our tubes, plates, or sheets from off-spec, expired, or surplus materials. [Quality Statement](/our-commitment-to-quality-to-our-customers \"Quality Statement\")"
+      }
+    ],
+    "notes": "Site claims 'Made in USA' and explicitly rejects 'cheap imported' materials, but no NDAA Section 848/889 compliance claim found anywhere in the corpus."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS or Blue sUAS mention anywhere in the corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0343",
+        "line_start": 18,
+        "line_end": 22,
+        "url": "https://dragonplate.com/kevlar-composite-products",
+        "page_class": "product",
+        "snippet": "Sort by Name: A to ZName: Z to APositionPrice: Low to HighPrice: High to LowCreated on\nDisplay 15306090 per page\nSKU\nDESCRIPTION\nPRICE"
+      }
+    ],
+    "notes": "Active e-commerce store with hundreds of catalog SKUs, listed prices, and add-to-cart functionality. Also offers custom fabrication and CNC cutting services as a secondary offering."
+  },
+  "unresolved_questions": [
+    "Exact city and state of headquarters (ALLRed & Associates Inc.).",
+    "Whether Carbon Fiber Quadcopter Kits are complete frame kits or subassemblies.",
+    "Any NDAA Section 848/889 compliance disclosures not visible in fetched pages."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://dragonplate.com/company",
+      "reason": "Company/About page would confirm headquarters city and state for ALLRed & Associates Inc., the parent company operating DragonPlate. Currently only country (USA) is inferred from phone number area code.",
+      "expected_evidence": [
+        "headquarters"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=company",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://dragonplate.com/carbon-fiber-quadcopter-kits",
+      "reason": "Product page for quadcopter kits would confirm whether DragonPlate sells complete frame kits (potential airframes category) or only raw materials/parts, and clarify drone supply chain role scope.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=news",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "needs_more_fetches",
+  "tagline": "US-based supplier of carbon fiber and Kevlar composite structures and materials\u2014tubes, sheets, sandwich panels, connectors, and quadcopter airframe kits. ISO-certified, production-ready inventory. NDAA and Blue UAS certification status unknown; no major defense contracts identified in public record. Primary market appears to be commercial/hobbyist drone builders and general composite fabrication rather than prime contractors.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 16,
+    "total_cost_usd": 0.6671921,
+    "created_at": "2026-05-04T01:48:55+00:00",
+    "extract_version": "0.1.0"
+  }
+}

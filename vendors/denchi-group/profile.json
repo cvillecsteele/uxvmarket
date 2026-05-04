@@ -1,0 +1,349 @@
+{
+  "target_id": "denchi-group",
+  "run_id": "canonical",
+  "display_name": "Denchi Group",
+  "homepage_url": "https://denchigroup.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/denchi-group/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "power_systems",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 52,
+            "line_end": 52,
+            "url": "https://denchigroup.com",
+            "page_class": "homepage",
+            "snippet": "Denchi is an engineering and manufacturing business that specialises in high reliability battery systems."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0023",
+            "line_start": 38,
+            "line_end": 38,
+            "url": "https://denchigroup.com/our-markets/defence/products/sparrowhawk-battery",
+            "page_class": "product",
+            "snippet": "### SPARROWHAWK - BATTERY"
+          }
+        ],
+        "notes": "Battery packs and chargers for UAV, military vehicles, and soldier systems; includes UAV-specific lithium-ion battery packs"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Thurso",
+      "state_or_province": "Scotland",
+      "country": "United Kingdom",
+      "address": "Denchi House, Thurso Business Park, Thurso, Caithness, KW14 7XW, UK"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 126,
+        "line_end": 127,
+        "url": "https://denchigroup.com",
+        "page_class": "homepage",
+        "snippet": "Denchi House, Thurso Business Park,\nThurso, Caithness, KW14 7XW, UK"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0023",
+        "line_start": 38,
+        "line_end": 38,
+        "url": "https://denchigroup.com/our-markets/defence/products/sparrowhawk-battery",
+        "page_class": "product",
+        "snippet": "### SPARROWHAWK - BATTERY"
+      }
+    ],
+    "notes": "Designs and manufactures battery components for UAVs (Sparrowhawk UAV battery) and military platforms; does not build complete UAS platforms"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Sparrowhawk Battery",
+        "product_type": "UAV lithium-ion battery pack",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0023",
+            "line_start": 38,
+            "line_end": 38,
+            "url": "https://denchigroup.com/our-markets/defence/products/sparrowhawk-battery",
+            "page_class": "product",
+            "snippet": "### SPARROWHAWK - BATTERY"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SMV (Small Vehicle Military Auxiliary) Battery",
+        "product_type": "military vehicle auxiliary lithium-ion battery",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0038",
+            "line_start": 35,
+            "line_end": 35,
+            "url": "https://denchigroup.com/our-markets/defence/products/smv-small-vehicle-military-auxiliary-battery",
+            "page_class": "news",
+            "snippet": "### SMV (Small Vehicle Military Auxiliary)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "M1 Family Battery",
+        "product_type": "single-use lithium thionyl chloride battery",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0020",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://denchigroup.com/our-markets/defence/products/m1-family-single-use-lithium-thionyl-chloride-battery",
+            "page_class": "news",
+            "snippet": "M1 Lithium Primary Battery LiSOCL2 | Denchi Group"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "RSC Rugged Smart Charger",
+        "product_type": "rugged military battery charger",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0039",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://denchigroup.com/our-markets/defence/products/rsc-rugged-smart-charger-charger",
+            "page_class": "product",
+            "snippet": "RSC - Military Rugged Smart Charger | Denchi Group"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SPC Soldier Portable Charger",
+        "product_type": "soldier portable battery charger",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0007",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://denchigroup.com/our-markets/defence/products/spc-soldier-portable-charger-charger",
+            "page_class": "product",
+            "snippet": "SPC Rugged Military Battery Charger| Denchi Group"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "BB-2590 Bench Charger",
+        "product_type": "battery bench charger",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0006",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://denchigroup.com/our-markets/defence/products/bb-2590-bench-charger",
+            "page_class": "product",
+            "snippet": "Charger for BB2590 lithium-ion battery | Denchi Group"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Solar Re-Charging Kit",
+        "product_type": "solar battery charging kit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://denchigroup.com/our-markets/defence/products/solar-re-charging-kit-charger",
+            "page_class": "product",
+            "snippet": "Soldier portable solar battery charging kit | Denchi Group"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "KVMS Key Variable Management System Battery",
+        "product_type": "military key variable management system battery",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0019",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://denchigroup.com/our-markets/defence/products/kvms-key-variable-management-system-battery",
+            "page_class": "news",
+            "snippet": "KVMS battery for Bowman System| Denchi Group"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "VPT VHF Portable Transceiver Battery",
+        "product_type": "VHF transceiver battery",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0034",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://denchigroup.com/our-markets/defence/products/vpt-vhf-portable-transceiver-battery",
+            "page_class": "product",
+            "snippet": "VPT Battery for Bowman VHF Radio | Denchi Group"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "BB2590 Smart Battery",
+        "product_type": "military smart battery",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 58,
+            "line_end": 59,
+            "url": "https://denchigroup.com",
+            "page_class": "homepage",
+            "snippet": "### BB2590 SMART BATTERY\nKeeps your army on the move"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Lithium-Ion 6T Vehicle Battery",
+        "product_type": "military vehicle lithium-ion battery",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 72,
+            "line_end": 73,
+            "url": "https://denchigroup.com",
+            "page_class": "homepage",
+            "snippet": "### LITHIUM-ION 6T VEHICLE BATTERY\nFor lower system & through life costs"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Additional products exist on skipped pages (mining, commercial/industrial lines)"
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0021",
+        "line_start": 69,
+        "line_end": 71,
+        "url": "https://denchigroup.com/about-us",
+        "page_class": "other",
+        "snippet": "Made in Britain\n---------------\nAll of our products are designed, manufactured and tested from our factory in Thurso, Scotland"
+      }
+    ],
+    "notes": "Site claims 'Made in Britain' with products designed, manufactured and tested in Thurso, Scotland, but no explicit NDAA Section 848/889 compliance claim"
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 40,
+        "line_end": 40,
+        "url": "https://denchigroup.com",
+        "page_class": "homepage",
+        "snippet": "Supplying the military with rugged and reliable battery systems for over 20 years."
+      }
+    ],
+    "notes": "Supplies military with battery systems for over 20 years; products have part numbers and downloadable specifications; major defence customers include BAE, Lockheed Martin, General Dynamics, MOD"
+  },
+  "unresolved_questions": [
+    "Whether any products explicitly carry NDAA Section 848/889 compliance certification",
+    "Full product range for commercial/industrial and mining lines not fully captured"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://denchigroup.com/our-markets/defence/products/bb-2590-smart-battery",
+      "reason": "BB2590 Smart Battery product page skipped due to budget; would confirm product specs and potential UAV application claims",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, skip_reason=not selected within max_pages=8",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://denchigroup.com/our-markets/defence/products/6t-lithium-ion-battery",
+      "reason": "6T Lithium-Ion Battery product page skipped due to budget; would confirm product details and military vehicle use cases",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, skip_reason=not selected within max_pages=8",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "UK-based military battery and charger manufacturer supplying smart lithium-ion packs (BB-2590), vehicle batteries (6T), and ancillary power systems to defence primes including BAE, General Dynamics, Lockheed Martin, and MOD for over 20 years. NDAA and Blue UAS certification status unknown; public evidence of end-use programs limited.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 16,
+    "total_cost_usd": 0.27520115,
+    "created_at": "2026-05-04T01:40:28+00:00",
+    "extract_version": "0.1.0"
+  }
+}

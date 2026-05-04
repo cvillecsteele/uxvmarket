@@ -1,0 +1,379 @@
+{
+  "target_id": "aeroprobe-corporation",
+  "run_id": "canonical",
+  "display_name": "Aeroprobe Corporation",
+  "homepage_url": "https://www.aeroprobe.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/aeroprobe-corporation/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 147,
+            "line_end": 147,
+            "url": "https://www.aeroprobe.com",
+            "page_class": "homepage",
+            "snippet": "Aeroprobe\u2019s innovative flight system solutions cater to the unique demands of Uncrewed Aerial Vehicles (UAVs) and other autonomous platforms, featuring [Multi-function Air Data Probes](https://www.aeroprobe.com/multi-function-air-data-probes/) and [Micro Air Data Computers](https://www.aeroprobe.com/micro-air-data-computer-models/). These cutting-edge offerings are designed to provide essential data for safe and efficient flight operations."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 149,
+            "line_end": 149,
+            "url": "https://www.aeroprobe.com",
+            "page_class": "homepage",
+            "snippet": "Complementing our probes, our Micro Air Data Computers are compact and highly sophisticated, processing critical flight data with exceptional accuracy. They enable real-time data analysis and mission-critical decision-making. Throughout our development process, Aeroprobe places a strong emphasis on minimizing size, weight, and power requirements, ensuring that our solutions are efficient and optimized for the needs of UAVs and autonomous platforms."
+          }
+        ],
+        "notes": "Micro Air Data Computers (\u00b5ADC) and Multi-function Air Data Probes providing airspeed, angle-of-attack, altitude data for UAVs/autonomous platforms."
+      },
+      {
+        "category": "test_and_measurement",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 64,
+            "line_end": 68,
+            "url": "https://www.aeroprobe.com",
+            "page_class": "homepage",
+            "snippet": "*   Multi-hole Probes and Rakes\n*   Advanced engineering analysis and design\n*   Built using Hybrid manufacturing technology\n*   On-site calibration wind tunnels\n*   Data processing and analysis software tools"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0016",
+            "line_start": 52,
+            "line_end": 52,
+            "url": "https://www.aeroprobe.com/aeroflow",
+            "page_class": "other",
+            "snippet": "AeroFlow is the premier [Multi-hole Probe](https://www.aeroprobe.com/multi-hole-probes/) data processing and visualization application for aerodynamicists. It applies Multi-hole Probe aerodynamic calibrations to measured pressure data to calculate the flow velocity vector, total and static pressure, Mach number, and total temperature."
+          }
+        ],
+        "notes": "Multi-hole probes, Kiel probes, rakes, on-site aerodynamic probe calibration in wind tunnels, and AeroFlow data-processing software."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Christiansburg",
+      "state_or_province": "Virginia",
+      "country": "United States",
+      "address": "200 Technology Drive, Christiansburg, VA 24073"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 224,
+        "line_end": 224,
+        "url": "https://www.aeroprobe.com",
+        "page_class": "homepage",
+        "snippet": "200 Technology Drive, Christiansburg, VA 24073"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 53,
+        "line_end": 53,
+        "url": "https://www.aeroprobe.com",
+        "page_class": "homepage",
+        "snippet": "Faster. Higher. Smarter. Autonomous. The next generation of Uncrewed Aerial Vehicles will be mission critical. At Aeroprobe we are committed to providing pilots and autopilots with the best on-board flow & inertial measurement information so your platform can perform with excellence."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 147,
+        "line_end": 147,
+        "url": "https://www.aeroprobe.com",
+        "page_class": "homepage",
+        "snippet": "Aeroprobe\u2019s innovative flight system solutions cater to the unique demands of Uncrewed Aerial Vehicles (UAVs) and other autonomous platforms, featuring [Multi-function Air Data Probes](https://www.aeroprobe.com/multi-function-air-data-probes/) and [Micro Air Data Computers](https://www.aeroprobe.com/micro-air-data-computer-models/). These cutting-edge offerings are designed to provide essential data for safe and efficient flight operations."
+      }
+    ],
+    "notes": "Sells air data sensors, probes, and micro air data computers that integrate into UAV platforms."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Nova \u00b5ADC",
+        "product_type": "micro air data computer",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0028",
+            "line_start": 64,
+            "line_end": 66,
+            "url": "https://www.aeroprobe.com/uads-nova-specifications-download",
+            "page_class": "product",
+            "snippet": "NOVA:\nOptimized for use with a\u00a0[Pitot-Static Probe](https://www.aeroprobe.com/pitot-static-probes/), the Nova provides air data across a wide range of airspeeds from 10 to over 612 knots indicated airspeed.\nIts compact, lightweight design is built for durability and dependable operation while delivering high performance without breaking your SWaP budget."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Micro Air Data Computers (\u00b5ADC)",
+        "product_type": "air data computer family (Gen4 Atlas, Horizon, Nova)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 154,
+            "line_end": 154,
+            "url": "https://www.aeroprobe.com",
+            "page_class": "homepage",
+            "snippet": "Micro Air Data Computers collect data from various sensors, such as Multi-function Air Data Probes or Pitot Probes and processes this data to provide accurate and real-time information to the aircraft\u2019s flight control systems, navigation systems, and displays."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Multi-function Air Data Probes",
+        "product_type": "air data probe for UAV flight systems",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 158,
+            "line_end": 158,
+            "url": "https://www.aeroprobe.com",
+            "page_class": "homepage",
+            "snippet": "Multi-function Air Data Probes are an effective lightweight solution for measuring angle-of-attack, angle-of-sideslip, airspeed, and altitude where mobility is critical.](https://www.aeroprobe.com/multi-function-air-data-probes/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Pitot-Static Probes",
+        "product_type": "heated drained pitot-static probes for uncrewed platforms",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0024",
+            "line_start": 48,
+            "line_end": 48,
+            "url": "https://www.aeroprobe.com/pitot-static-probes",
+            "page_class": "other",
+            "snippet": "PITOT/PITOT-STATIC PROBE"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0024",
+            "line_start": 51,
+            "line_end": 51,
+            "url": "https://www.aeroprobe.com/pitot-static-probes",
+            "page_class": "other",
+            "snippet": "Heated Drained Pitot-Static Probes"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Total Air Temperature (TAT) Probes",
+        "product_type": "air temperature probe",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 168,
+            "line_end": 168,
+            "url": "https://www.aeroprobe.com",
+            "page_class": "homepage",
+            "snippet": "A Total Air Temperature (TAT) Probe has the same design as a Kiel probe, but also includes a thermocouple or RTD to measure the temperature of the air flow."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Multi-hole Probes",
+        "product_type": "aerodynamic flow measurement probes",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 178,
+            "line_end": 178,
+            "url": "https://www.aeroprobe.com",
+            "page_class": "homepage",
+            "snippet": "A Multi-hole Probes measure flow speed and direction with high accuracy."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "OmniProbes",
+        "product_type": "high-angularity aerodynamic probes",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 183,
+            "line_end": 183,
+            "url": "https://www.aeroprobe.com",
+            "page_class": "homepage",
+            "snippet": "Omniprobes are frequently used for high-angularity wake measurements around automobile wheels, wake measurements behind automobiles and rolling-road wind tunnels."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Kiel Probes",
+        "product_type": "total pressure probe",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 189,
+            "line_end": 189,
+            "url": "https://www.aeroprobe.com",
+            "page_class": "homepage",
+            "snippet": "Kiel Probes are used to measure the total pressure of a flow with high accuracy over a wide range of flow angles."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AeroFlow",
+        "product_type": "multi-hole probe data processing and visualization software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0016",
+            "line_start": 52,
+            "line_end": 52,
+            "url": "https://www.aeroprobe.com/aeroflow",
+            "page_class": "other",
+            "snippet": "AeroFlow is the premier [Multi-hole Probe](https://www.aeroprobe.com/multi-hole-probes/) data processing and visualization application for aerodynamicists. It applies Multi-hole Probe aerodynamic calibrations to measured pressure data to calculate the flow velocity vector, total and static pressure, Mach number, and total temperature."
+          }
+        ],
+        "notes": "Includes AeroFlow ENGINE (DLL) and AeroFlow STUDIO (GUI)."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Additional named \u00b5ADS product models (Apollo, Atlas, Horizon, Defiant, Hyperion, Endurance) exist on skipped spec-download pages."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 58,
+        "line_end": 58,
+        "url": "https://www.aeroprobe.com",
+        "page_class": "homepage",
+        "snippet": "*   Designed and manufactured in the USA"
+      }
+    ],
+    "notes": "Site states 'Designed and manufactured in the USA' but no explicit NDAA Sec 848/889 compliance claim found. About/Quality page was skipped."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 58,
+        "line_end": 58,
+        "url": "https://www.aeroprobe.com",
+        "page_class": "homepage",
+        "snippet": "*   Designed and manufactured in the USA"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0041",
+        "line_start": 62,
+        "line_end": 62,
+        "url": "https://www.aeroprobe.com/about-aeroprobe",
+        "page_class": "other",
+        "snippet": "[Perry Johnson Registrars, INC. ISO 9001:2015](http://www.aeroprobe.com/wp-content/uploads/2025/03/Perry-Johnson-Registrars-Inc.-Certificate-of-Registration-for-Aeroprobe-Corporation-March-2025-March-2028.pdf)"
+      }
+    ],
+    "notes": "ISO 9001:2015 certified manufacturer; 'Designed and manufactured in the USA'; catalog SKUs with spec sheets available; 30+ years in business."
+  },
+  "unresolved_questions": [
+    "Additional \u00b5ADS product models (Apollo, Atlas, Horizon, Defiant, Hyperion, Endurance) on skipped spec pages not retrieved.",
+    "NDAA Section 848/889 compliance status not explicitly stated on site."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.aeroprobe.com/micro-air-data-computer-models",
+      "reason": "Would enumerate all \u00b5ADC SKU models and confirm product family scope (Atlas, Horizon, Nova, etc.).",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=capability",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.aeroprobe.com/air-data-systems",
+      "reason": "Capability page for air data systems \u2014 would clarify UAV-specific product scope.",
+      "expected_evidence": [
+        "products_categories",
+        "products",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=capability",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.aeroprobe.com/uads-apollo-specifications-download",
+      "reason": "Product spec page for \u00b5ADS Apollo \u2014 would confirm additional named product SKU.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=product",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Produces eight variants of micro air data computers and associated air data probes (pitot-static, multi-function, TAT) optimized for UAV flight across altitude and maneuver envelopes, plus multi-hole probes and calibration services for aerodynamic testing. US-manufactured, MIL-STD and DO-qualified. NDAA and Blue UAS certification status unknown; public evidence of specific defense primes or programs limited.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 19,
+    "total_cost_usd": 0.4815332,
+    "created_at": "2026-05-03T20:56:41+00:00",
+    "extract_version": "0.1.0"
+  }
+}

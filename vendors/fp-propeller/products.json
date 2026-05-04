@@ -1,0 +1,411 @@
+{
+  "target_id": "fp-propeller",
+  "run_id": "canonical",
+  "display_name": "FP-Propeller",
+  "homepage_url": "https://www.fp-propeller.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/fp-propeller/website",
+  "products": [
+    {
+      "name": "VPH3-BE Electric Two Blade Variable Pitch Hub",
+      "category": "propulsion_mechanical",
+      "descriptor": "Electrically actuated two-blade variable pitch hub for constant-speed propellers",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 17,
+          "line_end": 23,
+          "url": "https://www.fp-propeller.com",
+          "page_class": "homepage",
+          "snippet": "Electric Two Blade\nConstant speed propeller\n---------------------------------------------\nTarragon\nRotax 912iS\nHub model : VPH3-BE\nFp-propeller HHS blades"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "VPH5-TE Electric Three Blade Variable Pitch Hub",
+      "category": "propulsion_mechanical",
+      "descriptor": "Electrically actuated three-blade variable pitch hub, pusher configuration",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 38,
+          "line_end": 44,
+          "url": "https://www.fp-propeller.com",
+          "page_class": "homepage",
+          "snippet": "Electric Three Blade\nPusher Constant speed propeller\n------------------------------------------------------\nEla Eclipse Autogyro\nRotax 914Ul\nHub model: VPH5-TE\nWarpdrive C68 blades"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "VPH6-TE Electric Three Blade Variable Pitch Hub",
+      "category": "propulsion_mechanical",
+      "descriptor": "Electrically actuated three-blade variable pitch constant-speed hub",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 45,
+          "line_end": 51,
+          "url": "https://www.fp-propeller.com",
+          "page_class": "homepage",
+          "snippet": "Electric Three Blade\nConstant speed propeller\n-----------------------------------------------\nKFA Safari\nRotax 915iS\nHub model: VPH6-TE\nSensenich R75DN blades"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "VPH6-TH Hydraulic Three Blade Variable Pitch Hub",
+      "category": "propulsion_mechanical",
+      "descriptor": "Hydraulically actuated three-blade variable pitch constant-speed hub",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 24,
+          "line_end": 30,
+          "url": "https://www.fp-propeller.com",
+          "page_class": "homepage",
+          "snippet": "Hydraulic Three Blade\nConstant speed propeller\n------------------------------------------------\nZlin Savage\nRotax 915iS\nHub model:VPH6-TH\nSensenich R75DN blades"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Dual Mode Governor",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "Electronic dual-mode governor for variable pitch propeller constant-speed control",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 80,
+          "line_end": 82,
+          "url": "https://www.fp-propeller.com",
+          "page_class": "homepage",
+          "snippet": "![](https://www.fp-propeller.com/wp-content/uploads/2025/02/techn_HP_06.jpg)\n#### Dual Mode Governor\n![](https://www.fp-propeller.com/wp-content/uploads/2025/02/techn_HP_01.jpg)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "FP-propeller HHS blades",
+      "category": "propulsion_mechanical",
+      "descriptor": "Proprietary carbon fiber composite propeller blades in HHS design",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 17,
+          "line_end": 23,
+          "url": "https://www.fp-propeller.com",
+          "page_class": "homepage",
+          "snippet": "Electric Two Blade\nConstant speed propeller\n---------------------------------------------\nTarragon\nRotax 912iS\nHub model : VPH3-BE\nFp-propeller HHS blades"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Propellers for aircrafts (Variable Pitch / Constant Speed)",
+      "category": "propulsion_mechanical",
+      "descriptor": "In-flight variable pitch constant-speed propellers for ultralight aircraft",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 59,
+          "line_end": 61,
+          "url": "https://www.fp-propeller.com",
+          "page_class": "homepage",
+          "snippet": "Constant speed propellers\n-------------------------\nWe design and make in-flight variable pitch propellers for Ultra Lights and UAV. Blades are in carbon fiber and are made by the most advanced technology"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "UAV propellers",
+      "category": "propulsion_mechanical",
+      "descriptor": "Variable pitch propellers for UAV applications",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 11,
+          "line_end": 11,
+          "url": "https://www.fp-propeller.com",
+          "page_class": "homepage",
+          "snippet": "[Propellers for aircrafts](/propellers-for-aircrafts) [Reverse option for seaplanes](/reverse-option-for-seaplanes/) [Pusher propellers for autogyros](/pusher-propellers-for-autogyros/) [UAV propellers](/uav-propellers/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Reverse option for seaplanes",
+      "category": "propulsion_mechanical",
+      "descriptor": "Variable pitch propeller with reverse pitch capability for seaplane water operations",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 52,
+          "line_end": 58,
+          "url": "https://www.fp-propeller.com",
+          "page_class": "homepage",
+          "snippet": "Electric Three Blade Pusher\nConstant speed propeller with Reverse\n-------------------------------------------------------------------\nSeamax M22\nRotax 914UL\nHub model: VPH5-TE\nWarpdrive C70 blades"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Pusher propellers for autogyros",
+      "category": "propulsion_mechanical",
+      "descriptor": "Pusher configuration variable pitch propellers for autogyros",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 38,
+          "line_end": 44,
+          "url": "https://www.fp-propeller.com",
+          "page_class": "homepage",
+          "snippet": "Electric Three Blade\nPusher Constant speed propeller\n------------------------------------------------------\nEla Eclipse Autogyro\nRotax 914Ul\nHub model: VPH5-TE\nWarpdrive C68 blades"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Hi speed propeller",
+      "category": "propulsion_mechanical",
+      "descriptor": "Two-blade constant-speed propeller optimized for high-speed ultralight aircraft",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0016",
+          "line_start": 50,
+          "line_end": 51,
+          "url": "http://www.fp-propeller.com/e_products_fix.html",
+          "page_class": "product",
+          "snippet": "*   [Hi speed propeller](e_propellers_fp2.html)\n*   [\"Reverse\" propeller for Sea Plane](e_propellers_rev.html)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 120,
+          "line_end": 121,
+          "url": "https://www.fp-propeller.com",
+          "page_class": "homepage",
+          "snippet": "Some aircraft with our two-blade propeller for HIGH SPEED\n---------------------------------------------------------"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Ground adjustable propellers",
+      "category": "propulsion_mechanical",
+      "descriptor": "Ground-adjustable propellers from Sensenich, DUC H\u00e9lices, Warp Drive, and Whirl Wind, sold as official dealer",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0120",
+          "line_start": 19,
+          "line_end": 30,
+          "url": "https://www.fp-propeller.com/ground-adjustable-and-fixed-pitch-propellers",
+          "page_class": "news",
+          "snippet": "Ground adjustable propellers\n----------------------------\nFp propeller is official dealer of world famous propeller makers. We can supply all the products listed in maker\u2019s website.\nEnclosed please find the related links:\n![](https://www.fp-propeller.com/wp-content/uploads/2025/03/image_2025-03-05_232651163.png)\n#### Sensenich (wood, carbon composite and metal propellers)\n![](https://www.fp-propeller.com/wp-content/uploads/2025/03/Catto-Logo.jpg)\n#### CATTO Propeller (carbon composite propeller)\n![](https://www.fp-propeller.com/wp-content/uploads/2025/03/image_2025-03-05_233014102.png)\n#### Warp Drive (composite propeller)\n![](https://www.fp-propeller.com/wp-content/uploads/2025/03/image_2025-03-05_233433277.png)\n#### Whirl Wind (carbon composite propellers)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Fixed pitch propellers (Sensenich W68T2ET-J)",
+      "category": "propulsion_mechanical",
+      "descriptor": "Sensenich W68T2ET-J fixed pitch propeller for Tecnam aircraft, stocked by FP-Propeller as official dealer",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0120",
+          "line_start": 31,
+          "line_end": 37,
+          "url": "https://www.fp-propeller.com/ground-adjustable-and-fixed-pitch-propellers",
+          "page_class": "news",
+          "snippet": "Fixed pitch propellers\n----------------------\nFp propeller is official dealer of Sensenich fixed pitch propellers\n![](https://www.fp-propeller.com/wp-content/uploads/2025/03/image_2025-03-05_232651163.png)\nSensenich (wood and metal propellers)\nAvailable in our warehouse the new fixed pitch propeller\nW68T2ET-J For Tecnam Aircraft"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Accessories",
+      "category": "mechanical_subsystems",
+      "descriptor": "Propeller accessories and components for variable pitch systems",
+      "granularity": "category",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 12,
+          "line_end": 12,
+          "url": "https://www.fp-propeller.com",
+          "page_class": "homepage",
+          "snippet": "[Accessories](/accessories)"
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "Specific UAV propeller SKUs/models not resolvable \u2014 the /uav-propellers and e_propellers_uav.html pages were skipped.",
+    "Accessories catalog contents unknown \u2014 /accessories page was skipped.",
+    "FP-propeller HHS blades specific dimensions/variants not detailed \u2014 e_propellers_fp3_hhs.html was skipped.",
+    "Dual Mode Governor specifications (electrical interface, compatible hub models) not resolvable from fetched pages.",
+    "Hi speed propeller specific model designations not available \u2014 e_propellers_fp2.html was skipped.",
+    "Reverse option for seaplanes and pusher propeller for autogyros product pages were skipped, so no SKU-level detail is available."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.fp-propeller.com/uav-propellers",
+      "reason": "UAV propeller product page \u2014 needed to identify specific UAV propeller SKUs/models beyond the category-level entry.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "http://www.fp-propeller.com/e_propellers_uav.html",
+      "reason": "Legacy UAV propeller product page \u2014 may contain UAV-specific hub models and specs.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "http://www.fp-propeller.com/e_propellers_gov.html",
+      "reason": "Governor product page \u2014 needed to confirm Dual Mode Governor specs, part number, and whether it is a standalone product.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "http://www.fp-propeller.com/e_propellers_fp2.html",
+      "reason": "Hi speed propeller product page \u2014 needed to identify specific model designations and hub compatibility.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "http://www.fp-propeller.com/e_propellers_fp3_hhs.html",
+      "reason": "FP-propeller HHS blades product page \u2014 needed to confirm HHS blade sizes, variants, and specs.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.fp-propeller.com/accessories",
+      "reason": "Accessories product page \u2014 needed to enumerate specific accessory SKUs.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.fp-propeller.com/reverse-option-for-seaplanes",
+      "reason": "Reverse seaplane propeller page \u2014 needed for SKU-level detail on the reverse pitch product.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.fp-propeller.com/pusher-propellers-for-autogyros",
+      "reason": "Autogyro pusher propeller page \u2014 needed for SKU-level detail on autogyro pusher products.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "http://www.fp-propeller.com/e_propellers_acc.html",
+      "reason": "Legacy accessories product page \u2014 may list specific accessory parts.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 38,
+    "total_cost_usd": 0.79453905,
+    "created_at": "2026-05-04T02:51:37+00:00",
+    "extract_version": "0.1.0"
+  }
+}

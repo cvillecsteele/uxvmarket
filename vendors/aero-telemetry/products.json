@@ -1,0 +1,267 @@
+{
+  "target_id": "aero-telemetry",
+  "run_id": "canonical",
+  "display_name": "Aero Telemetry",
+  "homepage_url": "https://www.aerotelemetry.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/aero-telemetry/website",
+  "products": [
+    {
+      "name": "DRV Series\u2122",
+      "category": "communications",
+      "descriptor": "Airborne PCM telemetry data link system for UAVs",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0012",
+          "line_start": 104,
+          "line_end": 108,
+          "url": "https://www.aerotelemetry.com/airborne-pcm-telemetry-systems",
+          "page_class": "capability",
+          "snippet": "DRV SERIES\u2122\n-----------\n\u200b\n-\nThe Aero Telemetry DRV Series\u2122 airborne PCM telemetry data link was designed specifically for use on Unmanned Air Vehicles. This entry level integrated air-flight data package provides UAV operators with a reliable and cost effective telemetry downlink."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0012",
+          "line_start": 89,
+          "line_end": 91,
+          "url": "https://www.aerotelemetry.com/airborne-pcm-telemetry-systems",
+          "page_class": "capability",
+          "snippet": "*   Fully Integrated Airborne PCM Telemetry Data Link\n*   Complete Air-Data Sensor Package\n*   COTS/Non-Developmental Item"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Cross-X Series\u2122",
+      "category": "flight_termination",
+      "descriptor": "High-speed cruciform canopy flight termination parachute system",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0058",
+          "line_start": 98,
+          "line_end": 98,
+          "url": "https://www.aerotelemetry.com/recovery-parachute-systems",
+          "page_class": "capability",
+          "snippet": "Aero Telemetry designs and manufactures flight termination and vehicle recovery parachute systems for many applications. The Cross-X Series\u2122 of high-speed canopies are Commercial Off The Shelf stock items."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0058",
+          "line_start": 116,
+          "line_end": 124,
+          "url": "https://www.aerotelemetry.com/recovery-parachute-systems",
+          "page_class": "capability",
+          "snippet": "CROSS-X SERIES\u2122 HIGH SPEED FLIGHT TERMINATION PARACHUTE SYSTEMS\n![HPERX\\_header.jpg](https://static.wixstatic.com/media/139de8_693b06fc89584369a4943ab02db77180~mv2.jpg/v1/crop/x_181,y_0,w_355,h_292/fill/w_385,h_316,al_c,lg_1,q_80,enc_avif,quality_auto/HPERX_header.jpg)\nCROSS-X SERIES\u2122\nHIGH SPEED FLIGHT TERMINATION\nPARACHUTE SYSTEMS\n-------------------------------------------------------------------\n\u200b\n-\nREF: ANT-T-ESTA1"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Antenna Systems",
+      "category": "communications",
+      "descriptor": "Airborne and ground-station antennas for UHF/L/S-band UAV telemetry",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0020",
+          "line_start": 87,
+          "line_end": 95,
+          "url": "https://www.aerotelemetry.com/antenna-systems",
+          "page_class": "capability",
+          "snippet": "[OMNI-DIRECTIONAL BASE STATION ANTENNAS](https://www.aerotelemetry.com/antenna-systems)\n*   UHF / LL / UL / S & C-Band Omni-Directional Data Antennas\n*   400 - 500 MHz, Portable Base Station Antenna, 6.2dB Gain\n*   Base Antenna 6dB Gain\n\u200b\n[AIRBORNE INSTRUMENTATION](https://www.aerotelemetry.com/antenna-systems)\n*   Miniature Airborne L/S-Band Blade Antenna\n*   Airborne L/S-Band Blade Antenna\n*   Airborne Broadband Flush-Mounted Antennas"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0020",
+          "line_start": 118,
+          "line_end": 125,
+          "url": "https://www.aerotelemetry.com/antenna-systems",
+          "page_class": "capability",
+          "snippet": "2.2 - 2.4 GHZ, OMNI DIRECTIONAL DATA ANTENNA\n--------------------------------------------\n\u200b\nREF: ANT-OA-10\\-S\n*   2.2 to 2.4 GHz\n*   2.4 to 2.5 GHz ISM / WiFi Band\n*   N-Connector, 4 dB gain\n*   Fiberglass radome, DC grounded"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Airborne Voice Relay",
+      "category": "communications",
+      "descriptor": "UAV-to-ATC voice relay for standard air traffic control frequencies",
+      "granularity": "category",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0056",
+          "line_start": 113,
+          "line_end": 115,
+          "url": "https://www.aerotelemetry.com/products",
+          "page_class": "product",
+          "snippet": "[AIRBORNE VOICE RELAY](https://www.aerotelemetry.com/airborne-voice-relay)\n--------------------------------------------------------------------------\nOriginally developed for the Predator UAV our\u00a0 Airborne voice communication relay system is used to allow ATC personnel to communicate directly with the remote operator of the UAV on Standard commercial Air Traffic Frequencies."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Amplifiers",
+      "category": "communications",
+      "descriptor": "RF power amplifiers for airborne and ground-based applications",
+      "granularity": "category",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0056",
+          "line_start": 138,
+          "line_end": 142,
+          "url": "https://www.aerotelemetry.com/products",
+          "page_class": "product",
+          "snippet": "[AMPLIFIERS](https://www.aerotelemetry.com/copy-of-airborne-voice-relay)\n------------------------------------------------------------------------\n![3-bars-bullet-icon-wings-left.png](https://static.wixstatic.com/media/139de8_f8d84ef6f147494ab0cd79a22b48aa4f~mv2.png/v1/fill/w_51,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/3-bars-bullet-icon-wings-left.png)\n![3-bars-bullet-icon-wings.png](https://static.wixstatic.com/media/139de8_ad842b1124d441a4b695a6bad16bcf32~mv2.png/v1/fill/w_51,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/3-bars-bullet-icon-wings.png)\nAero Telemetry designs and manufactures RF power amplifiers for a wide variety of airborne and ground based applications."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "UAV Landing Gear",
+      "category": "mechanical_subsystems",
+      "descriptor": "Hydraulically actuated retractable landing gear for unmanned air vehicles",
+      "granularity": "category",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0056",
+          "line_start": 96,
+          "line_end": 97,
+          "url": "https://www.aerotelemetry.com/products",
+          "page_class": "product",
+          "snippet": "The most complex system on any airplane in the retractable landing gear.\nAero Telemetry has designed and manufactured hydraulically actuated\u00a0 landing gear systems for several unique unmanned air vehicle projects for more than 25 years"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "P-15 Round Canopy Recovery Parachute System",
+      "category": "recovery_systems",
+      "descriptor": "15-foot round canopy parachute for slow-speed UAV vehicle recovery",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0058",
+          "line_start": 202,
+          "line_end": 205,
+          "url": "https://www.aerotelemetry.com/recovery-parachute-systems",
+          "page_class": "capability",
+          "snippet": "115 FOOT ROUND CANOPY RECOVERY PARACHUTE SYSTEM\nREF: P-15\nVehicle recovery, slow speed deployment, round canopy parachute. Assembled 15' Main Parachute, deployment bag, risers, french links, & drogue chute.\n$895"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Active Drogue Chute (P-DRS)",
+      "category": "recovery_systems",
+      "descriptor": "Spring-loaded active drogue chute accessory for rapid main canopy deployment",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0058",
+          "line_start": 207,
+          "line_end": 210,
+          "url": "https://www.aerotelemetry.com/recovery-parachute-systems",
+          "page_class": "capability",
+          "snippet": "ACTIVE DROGUE CHUTE\nREF: P-DRS\nActive Drogue Chute with riser and internal coil spring for fastest deployment.\n$145"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Passive Drogue Chute (P-DRP)",
+      "category": "recovery_systems",
+      "descriptor": "Passive drogue chute accessory for main canopy deployment on UAV parachute systems",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0058",
+          "line_start": 211,
+          "line_end": 214,
+          "url": "https://www.aerotelemetry.com/recovery-parachute-systems",
+          "page_class": "capability",
+          "snippet": "PASSIVE DROGUE CHUTE\nREF: P-DRP\nDrogue Chute performance is critical to main canopy deployment. Passive Drogue Chute, riser and french links are included as optional items on all of the main canopies listed in this catalog.\n$75"
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "UAV Landing Gear, Airborne Voice Relay, and Amplifiers product pages were skipped (66 total skipped/failed pages); specific model numbers and pricing for these products are not available in the corpus.",
+    "No NDAA or Blue UAS compliance claims found anywhere in the corpus for any product.",
+    "The DRV Series\u2122 sub-models (DRV-1000, DRV-2000, DRV-3000, DRV-4000) are enumerated on resource-0005; they are grouped here as a family rather than individual SKUs."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.aerotelemetry.com/uav-landing-gear",
+      "reason": "Individual product page for UAV Landing Gear was not fetched; would enable specific model names, specs, and readiness classification for that product.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "linked from resource-0002 products page nav",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.aerotelemetry.com/airborne-voice-relay",
+      "reason": "Individual product page for Airborne Voice Relay was not fetched; would enable specific model names, part numbers, and readiness classification.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "linked from resource-0002 products page nav",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.aerotelemetry.com/copy-of-airborne-voice-relay",
+      "reason": "Individual product page for Amplifiers was not fetched; would enable specific model names, frequency ranges, and readiness classification.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "linked from resource-0002 products page nav",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 11,
+    "total_cost_usd": 0.6804963,
+    "created_at": "2026-05-03T01:02:11+00:00",
+    "extract_version": "0.1.0"
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "target_id": "ultra-motion",
+  "run_id": "canonical",
+  "display_name": "Ultra Motion",
+  "homepage_url": "https://www.ultramotion.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/ultra-motion/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "mechanical_subsystems",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://www.ultramotion.com",
+            "page_class": "homepage",
+            "snippet": "Ultra Motion \u2013 Linear Actuators"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0077",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://www.ultramotion.com/news-feed/the-servo-cylinder-a-quick-look-at-this-leading-uav-actuator-solution",
+            "page_class": "news",
+            "snippet": "The Servo Cylinder: A Quick Look at This Leading UAV Actuator Solution \u2013 Ultra Motion"
+          }
+        ],
+        "notes": "Linear and rotary electromechanical servo actuators for UAV control surfaces, swashplates, and other motion control applications."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Cutchogue",
+      "state_or_province": "New York",
+      "country": "United States",
+      "address": "22355 County Road 48, Unit 21, Cutchogue, NY 11935"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0125",
+        "line_start": 150,
+        "line_end": 153,
+        "url": "https://www.ultramotion.com/servo-cylinder-datasheet",
+        "page_class": "product",
+        "snippet": "Ultra Motion\n22355 County Road 48\nUnit 21\nCutchogue, NY 11935"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0077",
+        "line_start": 1,
+        "line_end": 1,
+        "url": "https://www.ultramotion.com/news-feed/the-servo-cylinder-a-quick-look-at-this-leading-uav-actuator-solution",
+        "page_class": "news",
+        "snippet": "The Servo Cylinder: A Quick Look at This Leading UAV Actuator Solution \u2013 Ultra Motion"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 16,
+        "line_end": 16,
+        "url": "https://www.ultramotion.com",
+        "page_class": "homepage",
+        "snippet": "    *   [Uncrewed Vehicles](/industries/uncrewed-vehicles/)"
+      }
+    ],
+    "notes": "Designs and manufactures electromechanical linear and rotary servo actuators integrated into UAVs as control surface actuators."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "A-Series Servo Cylinder",
+        "product_type": "electromechanical linear servo actuator with integrated BLDC electronics",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 9,
+            "line_end": 9,
+            "url": "https://www.ultramotion.com",
+            "page_class": "homepage",
+            "snippet": "    *   [A-Series (Servo Cylinder)](/servo-cylinder/)"
+          }
+        ],
+        "notes": "Includes AM (ruggedized), AU (subsea), A1 (standard), A2 (industrial) variants"
+      },
+      {
+        "name": "L-Series Linear Servo Actuator",
+        "product_type": "precision linear servo actuator with integrated BLDC electronics",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 6,
+            "line_end": 6,
+            "url": "https://www.ultramotion.com",
+            "page_class": "homepage",
+            "snippet": "    *   [L-Series (Linear Servo)](https://www.ultramotion.com/l-series/)"
+          }
+        ],
+        "notes": "Includes L2M and L2D (redundant) variants"
+      },
+      {
+        "name": "T-Series Rotary Servo Actuator",
+        "product_type": "rotary servo actuator with integrated BLDC electronics",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 7,
+            "line_end": 7,
+            "url": "https://www.ultramotion.com",
+            "page_class": "homepage",
+            "snippet": "    *   [T-Series (Rotary Servo)](https://www.ultramotion.com/t-series-rotary/)"
+          }
+        ],
+        "notes": "Includes T3M and T3U (subsea) variants"
+      },
+      {
+        "name": "R-Series Actuator",
+        "product_type": "power-dense electromechanical linear actuator for aerospace/spaceflight",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 8,
+            "line_end": 8,
+            "url": "https://www.ultramotion.com",
+            "page_class": "homepage",
+            "snippet": "    *   [R-Series (Power Dense)](https://www.ultramotion.com/r-series-actuator/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "U-Series Underwater Linear Actuator",
+        "product_type": "pressure-compensated oil-filled subsea linear actuator",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 5,
+            "line_end": 5,
+            "url": "https://www.ultramotion.com",
+            "page_class": "homepage",
+            "snippet": "    *   [U-Series (Underwater)](/u-series)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Power Supply Unit",
+        "product_type": "unregulated AC to DC power supply for DC motion control applications",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 12,
+            "line_end": 12,
+            "url": "https://www.ultramotion.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Power Supply Unit](https://www.ultramotion.com/power-supply-unit/)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0125",
+        "line_start": 150,
+        "line_end": 153,
+        "url": "https://www.ultramotion.com/servo-cylinder-datasheet",
+        "page_class": "product",
+        "snippet": "Ultra Motion\n22355 County Road 48\nUnit 21\nCutchogue, NY 11935"
+      }
+    ],
+    "notes": "Site displays a 'Made in USA' badge and lists US manufacturing facility, but no explicit NDAA Section 848/889 compliance claim is made."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 5,
+        "line_end": 12,
+        "url": "https://www.ultramotion.com",
+        "page_class": "homepage",
+        "snippet": "    *   [U-Series (Underwater)](/u-series)\n    *   [L-Series (Linear Servo)](https://www.ultramotion.com/l-series/)\n    *   [T-Series (Rotary Servo)](https://www.ultramotion.com/t-series-rotary/)\n    *   [R-Series (Power Dense)](https://www.ultramotion.com/r-series-actuator/)\n    *   [A-Series (Servo Cylinder)](/servo-cylinder/)\n        *   [Configurator](https://www.ultramotion.com/servo-cylinder-configurator/ \"Servo Cylinder Configurator\")\n    *   [Legacy](/linear-actuators/#b-series)\n    *   [Power Supply Unit](https://www.ultramotion.com/power-supply-unit/)"
+      }
+    ],
+    "notes": "Full catalog of named product lines with online configurator, established since 1994. COTS and custom-engineered products available."
+  },
+  "unresolved_questions": [
+    "NDAA Section 848/889 compliance status not stated on website",
+    "Blue UAS cleared list status not found"
+  ],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Manufactures electromechanical linear and rotary servo actuators for aerospace, defense, subsea, and uncrewed-vehicle applications\u2014ranging from ruggedized cylinders with MIL-SPEC connectors to pressure-compensated subsea units rated beyond 6,000m. NDAA and Blue UAS certification status undisclosed. 30-year production heritage; limited public evidence of active prime contracts or defense programs.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 15,
+    "total_cost_usd": 0.62546515,
+    "created_at": "2026-05-04T07:28:50+00:00",
+    "extract_version": "0.1.0"
+  }
+}

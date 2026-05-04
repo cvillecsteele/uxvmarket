@@ -1,0 +1,130 @@
+{
+  "target_id": "brs-aerospace",
+  "run_id": "canonical",
+  "display_name": "BRS Aerospace",
+  "homepage_url": "https://brsaerospace.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/brs-aerospace/website",
+  "products": [
+    {
+      "name": "WARPS (Whole Aircraft Recovery Parachute System)",
+      "category": "recovery_systems",
+      "descriptor": "ballistic whole-aircraft recovery parachute system family",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 35,
+          "line_end": 35,
+          "url": "https://brsaerospace.com",
+          "page_class": "homepage",
+          "snippet": "#### Ballistic Recovery Systems was founded in 1980 by Boris Popov of Saint Paul, Minnesota, after he survived a 400-foot (120 m) fall in a partially collapsed hang glider in 1975. As a result, Popov invented the WARPS, the Whole Aircraft Recovery Parachute System."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 38,
+          "line_end": 39,
+          "url": "https://brsaerospace.com",
+          "page_class": "homepage",
+          "snippet": "###### SINCE 1980\nWe have saved over 504 lives"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "BRS System for Cessna 172/182",
+      "category": "recovery_systems",
+      "descriptor": "FAA/EASA Part 23-certified retrofit whole-aircraft parachute for Cessna 172 and 182",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 37,
+          "line_end": 37,
+          "url": "https://brsaerospace.com",
+          "page_class": "homepage",
+          "snippet": "BRS is the only Whole Aircraft Recovery Parachute System certified as a retrofit for the Cessna 172s and Cessna 182s."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 47,
+          "line_end": 48,
+          "url": "https://brsaerospace.com",
+          "page_class": "homepage",
+          "snippet": "Developed and certified FAA/EASA Part 23 systems for Cessna 172, Cessna 182, Bristell B23, Elixir, Tecnam P-Mentor and others coming.\n![](https://brsaerospace.com/wp-content/uploads/2024/03/IPS-Feat-edited.jpg)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Cirrus Airframe Parachute System (CAPS)",
+      "category": "recovery_systems",
+      "descriptor": "type-certified whole-aircraft parachute co-developed with Cirrus for SR20/SR22",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 43,
+          "line_end": 44,
+          "url": "https://brsaerospace.com",
+          "page_class": "homepage",
+          "snippet": "#### Developed the Cirrus Airframe Parachute System\nCollaborated with Cirrus Aircraft to develop the first Recovery Parachute System to be used on a line of type certified aircraft: the Cirrus SR20, followed by the Cirrus SR22 in 2001."
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "The corpus has no fetched product-detail pages (cessna/, rebuild/, support/ all skipped); specific model numbers, pricing, and UAV-targeted product SKUs remain unknown. Press release (resource-0008 line 37) confirms BRS sells systems for 'unmanned vehicles' but no named UAV product appears in fetched pages. FAA/EASA Part 23-certified systems for Bristell B23, Elixir, and Tecnam P-Mentor (resource-0001 lines 47-48) may each be distinct named SKUs \u2014 unverifiable without dedicated product pages."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://brsaerospace.com/cessna/",
+      "reason": "Dedicated Cessna product page likely contains specific SKU details, model numbers, and pricing for BRS System for Cessna 172/182 \u2014 would resolve readiness and potentially NDAA fields.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "linked from resource-0001 nav and mentioned in homepage body",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://brsaerospace.com/rebuild/",
+      "reason": "Rebuild page likely describes repack/rebuild service offering, which may represent a distinct service SKU or product line not yet enumerated.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "linked from resource-0001 nav",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://brsaerospace.com/support/",
+      "reason": "Support page may list compatible aircraft models or specific product part numbers for BRS systems, including any UAV-targeted products mentioned in the press release.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "linked from resource-0001 nav",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 15,
+    "total_cost_usd": 0.31091094999999996,
+    "created_at": "2026-05-03T00:57:44+00:00",
+    "extract_version": "0.1.0"
+  }
+}

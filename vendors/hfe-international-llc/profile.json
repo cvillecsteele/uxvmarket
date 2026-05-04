@@ -1,0 +1,465 @@
+{
+  "target_id": "hfe-international-llc",
+  "run_id": "canonical",
+  "display_name": "HFE International, LLC",
+  "homepage_url": "https://www.hfe.aero",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/hfe-international-llc/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 56,
+            "line_end": 57,
+            "url": "https://hfe.aero/",
+            "page_class": "homepage",
+            "snippet": "    ### DA 100 EFI MIL SPEC UAV Engine\n    ](https://hfe.aero/shop/engines/da-100-efi-mil-spec-uav-engine/)$23,017.50 \u2013 $26,023.46Price range: $23,017.50 through $26,023.46"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 64,
+            "line_end": 65,
+            "url": "https://hfe.aero/",
+            "page_class": "homepage",
+            "snippet": "    ### DA 70 EFI UAV Engine\n    ](https://hfe.aero/shop/engines/da-70-efi-uav-engine/)$11,887.62 \u2013 $15,431.25Price range: $11,887.62 through $15,431.25"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0285",
+            "line_start": 49,
+            "line_end": 50,
+            "url": "https://hfe.aero/product/efi",
+            "page_class": "product",
+            "snippet": "    ### DA 70 EFI UAV Engine\n    ](https://hfe.aero/shop/engines/da-70-efi-uav-engine/)$11,887.62 \u2013 $15,431.25Price range: $11,887.62 through $15,431.25"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 48,
+            "line_end": 49,
+            "url": "https://hfe.aero/",
+            "page_class": "homepage",
+            "snippet": "    ### GenPod\u00ae 70 LRU\n    ](https://hfe.aero/shop/engines/genpod-70/)$24,652.00"
+          }
+        ],
+        "notes": "Core product line is UAV piston engines with EFI systems (DA EFI series, Mil-Spec EFI series, GenPod\u00ae packages)"
+      },
+      {
+        "category": "propulsion_electronics",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 162,
+            "line_end": 163,
+            "url": "https://hfe.aero/",
+            "page_class": "homepage",
+            "snippet": "    ### Velocity HC\n    ](https://hfe.aero/shop/accessories/currawong-velocity-escs/velocity-hc/)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 171,
+            "line_end": 172,
+            "url": "https://hfe.aero/",
+            "page_class": "homepage",
+            "snippet": "    ### Velocity HT\n    ](https://hfe.aero/shop/accessories/currawong-velocity-escs/velocity-ht/)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 180,
+            "line_end": 181,
+            "url": "https://hfe.aero/",
+            "page_class": "homepage",
+            "snippet": "    ### Velocity HS\n    ](https://hfe.aero/shop/accessories/currawong-velocity-escs/velocity-hs/)"
+          }
+        ],
+        "notes": "Resells Currawong Velocity ESC line (HC, HT, HS variants) for UAVs"
+      },
+      {
+        "category": "test_and_measurement",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 14,
+            "line_end": 14,
+            "url": "https://hfe.aero/",
+            "page_class": "homepage",
+            "snippet": "    *   [Engine Dyno Testing](https://hfe.aero/engine-services/engine-dyno-testing/)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 18,
+            "line_end": 18,
+            "url": "https://hfe.aero/",
+            "page_class": "homepage",
+            "snippet": "    *   [Thermal Chamber Services](https://hfe.aero/engine-services/thermal-chamber-services/)"
+          }
+        ],
+        "notes": "Offers engine dyno testing and thermal chamber services for small UAV engines"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Tucson",
+      "state_or_province": "Arizona",
+      "country": "United States",
+      "address": "8060 E. Research Ct., Tucson, AZ 85710"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0161",
+        "line_start": 50,
+        "line_end": 50,
+        "url": "https://hfe.aero/contact-us",
+        "page_class": "contact",
+        "snippet": "**HFE International** is a small high-tech company addressing the growing demand for reliable small engines. HFE is located in Tucson, Arizona."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0161",
+        "line_start": 58,
+        "line_end": 58,
+        "url": "https://hfe.aero/contact-us",
+        "page_class": "contact",
+        "snippet": "### **Address:** 8060 E. Research Ct., Tucson, AZ 85710"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 56,
+        "line_end": 57,
+        "url": "https://hfe.aero/",
+        "page_class": "homepage",
+        "snippet": "    ### DA 100 EFI MIL SPEC UAV Engine\n    ](https://hfe.aero/shop/engines/da-100-efi-mil-spec-uav-engine/)$23,017.50 \u2013 $26,023.46Price range: $23,017.50 through $26,023.46"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 64,
+        "line_end": 65,
+        "url": "https://hfe.aero/",
+        "page_class": "homepage",
+        "snippet": "    ### DA 70 EFI UAV Engine\n    ](https://hfe.aero/shop/engines/da-70-efi-uav-engine/)$11,887.62 \u2013 $15,431.25Price range: $11,887.62 through $15,431.25"
+      }
+    ],
+    "notes": "HFE designs and sells EFI engine packages for UAVs (DA EFI series, GenPod\u00ae, Mil-Spec EFI), plus resells Volz servos and Currawong ESCs. Portfolio confirms propulsion design work for UAV platforms."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "GenPod\u00ae 70 LRU",
+        "product_type": "UAV engine package (Line Replaceable Unit)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 48,
+            "line_end": 49,
+            "url": "https://hfe.aero/",
+            "page_class": "homepage",
+            "snippet": "    ### GenPod\u00ae 70 LRU\n    ](https://hfe.aero/shop/engines/genpod-70/)$24,652.00"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "GenPod\u00ae 100 LRU",
+        "product_type": "UAV engine package (Line Replaceable Unit)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0357",
+            "line_start": 57,
+            "line_end": 58,
+            "url": "https://hfe.aero/product/quick-mount-interface",
+            "page_class": "news",
+            "snippet": "    ### GenPod\u00ae 100 LRU\n    ](https://hfe.aero/shop/engines/genpod-100/)$25,155.00"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DA 70 EFI UAV Engine",
+        "product_type": "EFI piston engine for UAV",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 64,
+            "line_end": 65,
+            "url": "https://hfe.aero/",
+            "page_class": "homepage",
+            "snippet": "    ### DA 70 EFI UAV Engine\n    ](https://hfe.aero/shop/engines/da-70-efi-uav-engine/)$11,887.62 \u2013 $15,431.25Price range: $11,887.62 through $15,431.25"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DA 100 EFI UAV Engine",
+        "product_type": "EFI piston engine for UAV",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0285",
+            "line_start": 57,
+            "line_end": 58,
+            "url": "https://hfe.aero/product/efi",
+            "page_class": "product",
+            "snippet": "    ### DA 100 EFI UAV Engine\n    ](https://hfe.aero/shop/engines/da-100-efi-uav-engine/)$11,900.11 \u2013 $15,466.24Price range: $11,900.11 through $15,466.24"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DA 50 EFI UAV Engine",
+        "product_type": "EFI piston engine for UAV",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0266",
+            "line_start": 49,
+            "line_end": 50,
+            "url": "https://hfe.aero/product/da-50",
+            "page_class": "product",
+            "snippet": "    ### DA 50 EFI UAV Engine\n    ](https://hfe.aero/shop/engines/da-50-efi-uav-engine/)$7,092.00 \u2013 $10,932.62Price range: $7,092.00 through $10,932.62"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DA 120 EFI UAV Engine",
+        "product_type": "EFI piston engine for UAV",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0285",
+            "line_start": 73,
+            "line_end": 74,
+            "url": "https://hfe.aero/product/efi",
+            "page_class": "product",
+            "snippet": "    ### DA 120 EFI UAV Engine\n    ](https://hfe.aero/shop/engines/da-120-efi-uav-engine/)$12,190.13 \u2013 $15,540.81Price range: $12,190.13 through $15,540.81"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DA 150 EFI UAV Engine",
+        "product_type": "EFI piston engine for UAV",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0285",
+            "line_start": 89,
+            "line_end": 90,
+            "url": "https://hfe.aero/product/efi",
+            "page_class": "product",
+            "snippet": "    ### DA 150 EFI UAV Engine\n    ](https://hfe.aero/shop/engines/da-150-efi-uav-engine/)$10,540.00 \u2013 $14,595.62Price range: $10,540.00 through $14,595.62"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DA 50 EFI MIL SPEC UAV Engine",
+        "product_type": "Mil-spec EFI piston engine for UAV",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0285",
+            "line_start": 65,
+            "line_end": 66,
+            "url": "https://hfe.aero/product/efi",
+            "page_class": "product",
+            "snippet": "    ### DA 50 EFI MIL SPEC UAV Engine\n    ](https://hfe.aero/shop/engines/da-50-efi-mil-spec-uav-engine/)$21,432.00 \u2013 $24,559.28Price range: $21,432.00 through $24,559.28"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DA 100 EFI MIL SPEC UAV Engine",
+        "product_type": "Mil-spec EFI piston engine for UAV",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 56,
+            "line_end": 57,
+            "url": "https://hfe.aero/",
+            "page_class": "homepage",
+            "snippet": "    ### DA 100 EFI MIL SPEC UAV Engine\n    ](https://hfe.aero/shop/engines/da-100-efi-mil-spec-uav-engine/)$23,017.50 \u2013 $26,023.46Price range: $23,017.50 through $26,023.46"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DA 120 EFI MIL SPEC UAV Engine",
+        "product_type": "Mil-spec EFI piston engine for UAV",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0285",
+            "line_start": 97,
+            "line_end": 98,
+            "url": "https://hfe.aero/product/efi",
+            "page_class": "product",
+            "snippet": "    ### DA 120 EFI MIL SPEC UAV Engine\n    ](https://hfe.aero/shop/engines/da-120-efi-mil-spec-uav-engine/)$21,143.39 \u2013 $30,377.89Price range: $21,143.39 through $30,377.89"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Velocity HC",
+        "product_type": "UAV ESC (Currawong, resold)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 162,
+            "line_end": 163,
+            "url": "https://hfe.aero/",
+            "page_class": "homepage",
+            "snippet": "    ### Velocity HC\n    ](https://hfe.aero/shop/accessories/currawong-velocity-escs/velocity-hc/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Volz Servo DA 13-05-32",
+        "product_type": "UAV servo (Volz, resold)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0385",
+            "line_start": 47,
+            "line_end": 48,
+            "url": "https://hfe.aero/product/uas",
+            "page_class": "product",
+            "snippet": "    ### Volz Servo DA 13-05-32\n    ](https://hfe.aero/shop/accessories/servos/volz-servo-da-13-05-32/)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Additional Volz servo models and Velocity HT/HS ESCs also stocked. Many product pages were skipped in the crawl."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 35,
+        "line_end": 35,
+        "url": "https://hfe.aero/",
+        "page_class": "homepage",
+        "snippet": "Now available with generator options. ![black background](//hfe.aero/wp-content/plugins/revslider/sr6/assets/assets/dummy.png \"sliderbg\") ![hfe logo](//hfe.aero/wp-content/plugins/revslider/sr6/assets/assets/dummy.png) ![ISO certified company logo](//hfe.aero/wp-content/plugins/revslider/sr6/assets/assets/dummy.png) ISO 9001:2015 Certified IPC 610 Certified | IPC 620 Certified"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 48,
+        "line_end": 49,
+        "url": "https://hfe.aero/",
+        "page_class": "homepage",
+        "snippet": "    ### GenPod\u00ae 70 LRU\n    ](https://hfe.aero/shop/engines/genpod-70/)$24,652.00"
+      }
+    ],
+    "notes": "Active e-commerce shop with listed catalog SKUs and specific prices. ISO 9001:2015 certified."
+  },
+  "unresolved_questions": [
+    "No NDAA Section 848/889 compliance claims found anywhere in corpus",
+    "No Blue UAS cleared list claim found",
+    "About-us page returned only 1 line of content \u2014 full company description not available"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://hfe.aero/about-us/",
+      "reason": "Would provide company background, any compliance/NDAA claims, and supply chain role confirmation not found in contact page",
+      "expected_evidence": [
+        "drone_supply_chain_role",
+        "ndaa",
+        "headquarters"
+      ],
+      "source_hint": "guessed from nav link on homepage",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://hfe.aero/shop/engines/genpod-70/",
+      "reason": "Full GenPod 70 product detail would confirm specs, UAV-specificity, and any NDAA/compliance claims for flagship product",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "products_categories"
+      ],
+      "source_hint": "linked from homepage product listing",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "complete",
+  "tagline": "Tucson-based supplier of EFI gasoline piston engines (35\u2013150 cc) and line-replaceable engine pods for tactical UAS, plus electronic speed controllers and heavy-duty servos. Offers DA MIL SPEC variants and dyno/thermal testing services. NDAA and Blue UAS certification status unknown; public program affiliations not evident.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 24,
+    "total_cost_usd": 0.65412045,
+    "created_at": "2026-05-04T03:18:27+00:00",
+    "extract_version": "0.1.0"
+  }
+}

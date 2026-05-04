@@ -1,0 +1,353 @@
+{
+  "target_id": "somag-ag-jena",
+  "run_id": "canonical",
+  "display_name": "SOMAG AG Jena",
+  "homepage_url": "https://www.somag-ag.de",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/somag-ag-jena/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "isr_payloads",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 115,
+            "line_end": 115,
+            "url": "https://www.somag-ag.de",
+            "page_class": "homepage",
+            "snippet": "SOMAG\u2019s multi-purpose stabilization platforms are suitable for a broad range of applications, such as mapping and surveying jobs, surveillance and reconnaissance missions, as well as video recording or data transmission projects. Get an idea of the possibilities in our collection of application examples."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0127",
+            "line_start": 101,
+            "line_end": 101,
+            "url": "https://www.somag-ag.de/products/airborne-gyro-mounts",
+            "page_class": "news",
+            "snippet": "    SOMAG Airborne Mounts reduce the existing movements at the sensor on average by factor 50"
+          }
+        ],
+        "notes": "Gyro stabilization mounts (gimbals) for airborne, marine, and land applications; designed for operation inside airplanes, helicopters or UAVs carrying cameras, LiDARs and hyperspectral sensors; gimbals explicitly listed in isr_payloads category definition"
+      },
+      {
+        "category": "mechanical_subsystems",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0127",
+            "line_start": 104,
+            "line_end": 105,
+            "url": "https://www.somag-ag.de/products/airborne-gyro-mounts",
+            "page_class": "news",
+            "snippet": "*   **Passive Vibration Isolation Ring**\n    decoupling of high frequency vibrations (>15 Hz)"
+          }
+        ],
+        "notes": "Precision mechanical systems with passive vibration isolation rings and sensor adapters"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Jena",
+      "state_or_province": "Thuringia",
+      "country": "Germany",
+      "address": "Am Zementwerk 2, 07745 Jena"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0107",
+        "line_start": 192,
+        "line_end": 195,
+        "url": "https://www.somag-ag.de/company/about",
+        "page_class": "company",
+        "snippet": "**SOMAG AG Jena**\nAm Zementwerk 2\n07745 Jena\nGermany"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0107",
+        "line_start": 105,
+        "line_end": 105,
+        "url": "https://www.somag-ag.de/company/about",
+        "page_class": "company",
+        "snippet": "*   **Experience as OEM partner**"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0127",
+        "line_start": 100,
+        "line_end": 103,
+        "url": "https://www.somag-ag.de/products/airborne-gyro-mounts",
+        "page_class": "news",
+        "snippet": "*   **Highest Stabilization Accuracy**\n    SOMAG Airborne Mounts reduce the existing movements at the sensor on average by factor 50\n*   **Highest Compatibility on the Market**\n    with existing airborne sensor systems"
+      }
+    ],
+    "notes": "Designs and manufactures gyro stabilization mounts (gimbals) as major subsystems sold to drone OEMs and sensor integrators; explicitly an OEM partner for leading sensor manufacturers (Phase One, RIEGL, Vexcel)"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "GSM 5000",
+        "product_type": "airborne gyro stabilization mount",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0127",
+            "line_start": 116,
+            "line_end": 119,
+            "url": "https://www.somag-ag.de/products/airborne-gyro-mounts",
+            "page_class": "news",
+            "snippet": "#### GSM 5000\nGyro Stabilization Mount\n![](https://www.somag-ag.de/wp-content/uploads/2025/07/Teaser_GSM5000-1.png)\n[GSM 5000](https://www.somag-ag.de/products/airborne-gyro-mounts/gsm-5000/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DSM 400",
+        "product_type": "airborne dynamic stabilization mount",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0127",
+            "line_start": 120,
+            "line_end": 123,
+            "url": "https://www.somag-ag.de/products/airborne-gyro-mounts",
+            "page_class": "news",
+            "snippet": "#### DSM 400\nDynamic Stabilization Mount\n![Gyro Stabilization Mount DSM 400](https://www.somag-ag.de/wp-content/uploads/2021/12/Teaser_mask_DSM-400.png)\n[DSM 400](https://www.somag-ag.de/products/airborne-gyro-mounts/dsm-400/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "CSM 40",
+        "product_type": "airborne compact stabilization mount",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0127",
+            "line_start": 124,
+            "line_end": 127,
+            "url": "https://www.somag-ag.de/products/airborne-gyro-mounts",
+            "page_class": "news",
+            "snippet": "#### CSM 40\nCompact Stabilization Mount\n![Gyro Stabilized Mount CSM 40](https://www.somag-ag.de/wp-content/uploads/2021/12/Teaser_mask_CSM-40.png)\n[CSM 40](https://www.somag-ag.de/products/airborne-gyro-mounts/csm-40/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "GSM 4000",
+        "product_type": "airborne gyro stabilization mount",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 15,
+            "line_end": 16,
+            "url": "https://www.somag-ag.de",
+            "page_class": "homepage",
+            "snippet": "        Gyro Stabilization\n        Mount GSM 4000](https://www.somag-ag.de/products/airborne-gyro-mounts/gsm-4000/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "OSM 5000 Marine",
+        "product_type": "offshore stabilization mount",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 35,
+            "line_end": 36,
+            "url": "https://www.somag-ag.de",
+            "page_class": "homepage",
+            "snippet": "        Offshore Stabilization\n        Mount OSM 5000](https://www.somag-ag.de/products/marine-gyro-mounts/osm-5000-marine/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "NSM 500 Marine",
+        "product_type": "nautical stabilization mount",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 39,
+            "line_end": 40,
+            "url": "https://www.somag-ag.de",
+            "page_class": "homepage",
+            "snippet": "        Nautical Stabilization\n        Mount NSM 500](https://www.somag-ag.de/products/marine-gyro-mounts/nsm-500-marine/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "RSM 50 Marine",
+        "product_type": "ruggedized marine stabilization mount",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 43,
+            "line_end": 44,
+            "url": "https://www.somag-ag.de",
+            "page_class": "homepage",
+            "snippet": "        Ruggedized Stabilization\n        Mount RSM 50](https://www.somag-ag.de/products/marine-gyro-mounts/rsm-50-marine/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "OSM 5000 Land",
+        "product_type": "offroad stabilization mount",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 51,
+            "line_end": 52,
+            "url": "https://www.somag-ag.de",
+            "page_class": "homepage",
+            "snippet": "        Offroad Stabilization\n        Mount OSM 5000](https://www.somag-ag.de/products/land-gyro-mounts/osm-5000-land/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "NSM 500 Land",
+        "product_type": "nimble land stabilization mount",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 55,
+            "line_end": 56,
+            "url": "https://www.somag-ag.de",
+            "page_class": "homepage",
+            "snippet": "        Nimble Stabilization\n        Mount NSM 500](https://www.somag-ag.de/products/land-gyro-mounts/nsm-500-land/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "RSM 50 Land",
+        "product_type": "ruggedized land stabilization mount",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 59,
+            "line_end": 60,
+            "url": "https://www.somag-ag.de",
+            "page_class": "homepage",
+            "snippet": "        Ruggedized Stabilization\n        Mount RSM 50](https://www.somag-ag.de/products/land-gyro-mounts/rsm-50-land/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SOMAG Mount Control App",
+        "product_type": "mount control software",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 63,
+            "line_end": 63,
+            "url": "https://www.somag-ag.de",
+            "page_class": "homepage",
+            "snippet": "        Mount Control App](https://www.somag-ag.de/products/accessories/somag-mount-control-app/)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA Section 848/889 compliance claims found. Company is German-headquartered with no US compliance disclosures."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS or Blue sUAS mention found anywhere in the corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0107",
+        "line_start": 103,
+        "line_end": 103,
+        "url": "https://www.somag-ag.de/company/about",
+        "page_class": "company",
+        "snippet": "*   **Quality made in Germany**"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0109",
+        "line_start": 137,
+        "line_end": 137,
+        "url": "https://www.somag-ag.de/contact",
+        "page_class": "contact",
+        "snippet": "At SOMAG, we are dedicated to helping our customers stay at the forefront of stabilization technology. To make upgrading to our latest systems easier, we offer a trade-in program for older equipment."
+      }
+    ],
+    "notes": "World market leader in aerial photogrammetry stabilization platforms; catalog SKUs with detailed specs; DIN ISO 9001 certified; global distribution in 50+ countries; trade-in program indicates large established installed base"
+  },
+  "unresolved_questions": [
+    "NDAA Section 848/889 compliance not disclosed \u2014 German company with no US-market compliance claims",
+    "Blue UAS cleared list status unknown"
+  ],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "German manufacturer of gyro-stabilized gimbal mounts for airborne, marine, and land ISR payloads (0\u2013300 kg), ranging from compact three-axis airborne units (CSM 40, DSM 400, GSM 4000/5000) to ruggedized two-axis marine and offroad platforms (OSM/NSM/RSM series). Production-ready, established since 2004, with custom engineering and software options available. NDAA and Blue UAS certification status unknown; no named US defense contracts identified in public record.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 11,
+    "total_cost_usd": 0.3696696,
+    "created_at": "2026-05-04T06:25:31+00:00",
+    "extract_version": "0.1.0"
+  }
+}

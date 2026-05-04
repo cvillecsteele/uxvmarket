@@ -1,0 +1,294 @@
+{
+  "target_id": "likeabird",
+  "run_id": "canonical",
+  "display_name": "LikeAbird",
+  "homepage_url": "https://likeabird.eu",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/likeabird/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "ground_segment",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 64,
+            "line_end": 65,
+            "url": "https://likeabird.eu",
+            "page_class": "homepage",
+            "snippet": "INDUSTRIAL-GRADE RADIO CONTROL SYSTEMS\nRugged IP65 protected radio control solutions for UAV, USV and UGV applications."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0022",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://likeabird.eu/remote-control-systems",
+            "page_class": "capability",
+            "snippet": "NOVA USCT 4.3 Remote Control System - LikeAbird - Innovation Is Our Passion"
+          }
+        ],
+        "notes": "Flagship product is the NOVA USCT 4.3 rugged handheld GCS for UAV/USV/UGV VLOS and BVLOS operations, developed with HETRONIC"
+      },
+      {
+        "category": "power_systems",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 68,
+            "line_end": 69,
+            "url": "https://likeabird.eu",
+            "page_class": "homepage",
+            "snippet": "BMS & POWER CONDITIONING\nModular custom smart battery management solutions for ground and remote vehicle use. Smart BEC, DC/DC, power distribution solutions and more..."
+          }
+        ],
+        "notes": "Dual Smart BMS and power conditioning products for ground and remote vehicle use"
+      },
+      {
+        "category": "communications",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 71,
+            "line_end": 72,
+            "url": "https://likeabird.eu",
+            "page_class": "homepage",
+            "snippet": "DATA LINK ETHERNET DEVICES\nSerial to ethernet gateways and switches for autopilot and flight controller connections over wireless, 4G/LTE, satcom data links and more..."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 74,
+            "line_end": 75,
+            "url": "https://likeabird.eu",
+            "page_class": "homepage",
+            "snippet": "REDUNDANT 4G/LTE ROUTERS\nLocal and centralized redundant 4G/LTE and Iridium satellite connectivity solutions for drone to cloud operations. Global M2M/IoT SIM cards and data plans..."
+          }
+        ],
+        "notes": "IP data link ethernet devices, redundant 4G/LTE routers, and SATCOM solutions for drone connectivity"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Larnaca",
+      "state_or_province": null,
+      "country": "Cyprus",
+      "address": "Lordou Vyronos, 61-63, 6023 Larnaca"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0010",
+        "line_start": 33,
+        "line_end": 36,
+        "url": "https://likeabird.eu/contact-us",
+        "page_class": "contact",
+        "snippet": "LikeAbird Ltd\nLordou Vyronos, 61-63\n6023 Larnaca\nCyprus"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 95,
+        "line_end": 95,
+        "url": "https://likeabird.eu",
+        "page_class": "homepage",
+        "snippet": "LikeAbird specializes in the custom design and manufacture of\u00a0innovative systems, products and solutions for the unmanned (air/land/sea) and robotic industry. \u00a0Our product line includes advanced industrial-grade radio control systems and ground stations, smart batteries and power solutions, Ethernet/IP and 4G/LTE connectivities ."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0005",
+        "line_start": 25,
+        "line_end": 26,
+        "url": "https://likeabird.eu/about",
+        "page_class": "company",
+        "snippet": "### CUSTOM ENGINEERING\nTAILORED TO INDIVIDUAL CUSTOMER NEEDS"
+      }
+    ],
+    "notes": "Designs and manufactures rugged GCS, BMS/power systems, and IP/communications subsystems for UAV/USV/UGV. Partners with HETRONIC for the NOVA USCT GCS line; own-design BMS and ethernet gateway products."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "NOVA USCT 4.3",
+        "product_type": "rugged handheld ground control station",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0022",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://likeabird.eu/remote-control-systems",
+            "page_class": "capability",
+            "snippet": "NOVA USCT 4.3 Remote Control System - LikeAbird - Innovation Is Our Passion"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0022",
+            "line_start": 22,
+            "line_end": 23,
+            "url": "https://likeabird.eu/remote-control-systems",
+            "page_class": "capability",
+            "snippet": "##### NOVA USCT 4.3\nPERFORMANCE, RELIABILITY, QUALITY!"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Dual Smart Battery Management System",
+        "product_type": "smart BMS for ground/remote vehicle use",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 25,
+            "line_end": 25,
+            "url": "https://likeabird.eu",
+            "page_class": "homepage",
+            "snippet": "DUAL SMART BATTERY MANAGEMENT SYSTEM"
+          }
+        ],
+        "notes": "Named in homepage hero section; dedicated product page was not fetched"
+      },
+      {
+        "name": "Serial Ethernet Gateway",
+        "product_type": "serial-to-ethernet gateway for autopilot IP connectivity",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 38,
+            "line_end": 38,
+            "url": "https://likeabird.eu",
+            "page_class": "homepage",
+            "snippet": "SERIAL ETHERNET GATEWAY"
+          }
+        ],
+        "notes": "Named in homepage hero section; dedicated IP devices product page was skipped"
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Product pages for BMS, ethernet switches, SATCOM, and IP datalinks were skipped; named SKUs from those lines are unknown"
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0022",
+        "line_start": 42,
+        "line_end": 42,
+        "url": "https://likeabird.eu/remote-control-systems",
+        "page_class": "capability",
+        "snippet": "TECHNICAL SPECIFICATIONS"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0005",
+        "line_start": 25,
+        "line_end": 26,
+        "url": "https://likeabird.eu/about",
+        "page_class": "company",
+        "snippet": "### CUSTOM ENGINEERING\nTAILORED TO INDIVIDUAL CUSTOMER NEEDS"
+      }
+    ],
+    "notes": "Catalog products with published technical specifications and downloadable datasheets; also offers custom engineering services as a secondary mode"
+  },
+  "unresolved_questions": [
+    "Named SKUs for BEYSAT SATCOM product line (BGAN, Certus, NB variants) not confirmed \u2014 product pages skipped",
+    "Exact BMS product name/SKU not confirmed \u2014 dedicated power-bms page skipped",
+    "Ethernet switch/gateway specific model names not confirmed \u2014 page skipped"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://likeabird.eu/power-bms",
+      "reason": "Would reveal specific BMS product names/SKUs and confirm power_systems category scope",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://likeabird.eu/ethernet-switches-and-gateways",
+      "reason": "Would reveal specific ethernet gateway/switch SKUs and confirm communications category scope",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://likeabird.eu/satcom",
+      "reason": "Would confirm BEYSAT SATCOM product names and variants (BGAN, Certus, NB) visible only from crawl_index URL slugs",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://likeabird.eu/ip-datalinks",
+      "reason": "Would confirm IP datalink/router product names and specs for communications category",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Supplies rugged handheld ground control stations (NOVA USCT 4.3), smart battery management systems, serial-to-Ethernet gateways, and 4G/LTE routers for UAV/UGV/USV operations. Cyprus-based subsystem vendor serving integrators including Vertical Aerospace and Skyports. NDAA and Blue UAS certification status unknown; public evidence of US defense contracts or formal program participation not evident.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 13,
+    "total_cost_usd": 0.5313775000000001,
+    "created_at": "2026-05-04T03:59:10+00:00",
+    "extract_version": "0.1.0"
+  }
+}

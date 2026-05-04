@@ -1,0 +1,261 @@
+{
+  "target_id": "eliot",
+  "run_id": "canonical",
+  "display_name": "Eliot",
+  "homepage_url": "https://www.eliot-aam.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/eliot/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "airframes",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0039",
+            "line_start": 35,
+            "line_end": 37,
+            "url": "https://www.eliot-aam.com/products/et15",
+            "page_class": "product",
+            "snippet": "ET 15\n=====\nShortening distances to save lives"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0038",
+            "line_start": 35,
+            "line_end": 37,
+            "url": "https://www.eliot-aam.com/products/casta",
+            "page_class": "product",
+            "snippet": "CASTA\n=====\nModular UAV for precision cargo missions"
+          }
+        ],
+        "notes": "ET15 (eVTOL/hybrid-VTOL cargo UAV) and CASTA (multirotor cargo UAV) are complete unmanned aircraft platforms designed and manufactured by Eliot."
+      },
+      {
+        "category": "flight_termination",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0040",
+            "line_start": 116,
+            "line_end": 116,
+            "url": "https://www.eliot-aam.com/products/fts",
+            "page_class": "product",
+            "snippet": "The Flight Termination System (FTS) is a safety solution designed to enhance the operational security of Unmanned Aerial Vehicles (UAVs)."
+          }
+        ],
+        "notes": "FTS (Flight Termination System) is a standalone hardware product sold for integration into any UAV, EASA-compliant and compatible with MOC Light-UAS.2511.01."
+      },
+      {
+        "category": "ground_segment",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0041",
+            "line_start": 87,
+            "line_end": 87,
+            "url": "https://www.eliot-aam.com/products/uatracker",
+            "page_class": "product",
+            "snippet": "Our software is designed to ensure compliance, efficiency, and seamless management of your drone fleet."
+          }
+        ],
+        "notes": "UATracker is a drone fleet management software platform covering fleet inventory, crew management, mission planning, maintenance scheduling, and real-time monitoring."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "\u00c9vora",
+      "state_or_province": null,
+      "country": "Portugal",
+      "address": "R. Lu\u00eds Adelino Fonseca, Lt 1A, Pact - Pq do Alentejo Ciencia Tecnologia, Herdade da Barba Rala 7005-841 \u00c9vora"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0036",
+        "line_start": 39,
+        "line_end": 39,
+        "url": "https://www.eliot-aam.com/privacy",
+        "page_class": "company",
+        "snippet": "Eliot, with registered address at R. Lu\u00eds Adelino Fonseca, Lt 1A, Pact - Pq do Alentejo Ciencia Tecnologia, Herdade da Barba Rala 7005-841 \u00c9vora, collects the personal data necessary for contact and communication with the users of its site, such as:"
+      }
+    ],
+    "notes": "Registered address from privacy policy. Contact page also lists 14 Tottenham Road, London, England. News consistently references Portugal as home country; company received Portuguese government PRR funding."
+  },
+  "drone_supply_chain_role": {
+    "value": "oem",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0039",
+        "line_start": 98,
+        "line_end": 98,
+        "url": "https://www.eliot-aam.com/products/et15",
+        "page_class": "product",
+        "snippet": "Our flying platform is designed to revolutionize air mobility, addressing critical needs in medical, emergency, and defense logistics."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0038",
+        "line_start": 111,
+        "line_end": 111,
+        "url": "https://www.eliot-aam.com/products/casta",
+        "page_class": "product",
+        "snippet": "The CASTA platform is a cutting-edge multirotor system designed to test and validate enabling technologies for Advanced Air Mobility (AAM)."
+      }
+    ],
+    "notes": "Eliot designs and manufactures complete UAV platforms (ET15, CASTA). Also sells a standalone FTS subsystem and UATracker fleet management software, but the primary business is complete-platform development."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "ET15",
+        "product_type": "eVTOL / hybrid-VTOL cargo UAV",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0039",
+            "line_start": 35,
+            "line_end": 37,
+            "url": "https://www.eliot-aam.com/products/et15",
+            "page_class": "product",
+            "snippet": "ET 15\n=====\nShortening distances to save lives"
+          }
+        ],
+        "notes": "65 kg MTOW, 15 kg / 55 L payload, 100 km range, 120 km/h cruise. Targets medical logistics, emergency response, defense logistics. Fully electric with hybrid option."
+      },
+      {
+        "name": "CASTA",
+        "product_type": "multirotor cargo UAV platform",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0038",
+            "line_start": 35,
+            "line_end": 37,
+            "url": "https://www.eliot-aam.com/products/casta",
+            "page_class": "product",
+            "snippet": "CASTA\n=====\nModular UAV for precision cargo missions"
+          }
+        ],
+        "notes": "45 kg MTOW, 15 kg payload, 30 km range, 35 km/h cruise. Quadcopter (octocopter config available). Used for AAM tech validation and cargo missions."
+      },
+      {
+        "name": "FTS",
+        "product_type": "flight termination system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0040",
+            "line_start": 35,
+            "line_end": 37,
+            "url": "https://www.eliot-aam.com/products/fts",
+            "page_class": "product",
+            "snippet": "FTS\n===\nEnabling technology for urban and semi-urban operations"
+          }
+        ],
+        "notes": "Ground unit + air unit. EASA compliant; compatible with MOC Light-UAS.2511.01. Customisation available. Cut-off up to 50 A / 12S."
+      },
+      {
+        "name": "UATracker",
+        "product_type": "drone fleet management software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0041",
+            "line_start": 35,
+            "line_end": 37,
+            "url": "https://www.eliot-aam.com/products/uatracker",
+            "page_class": "product",
+            "snippet": "UATracker\n=========\nThe Brain Behind the Fleet"
+          }
+        ],
+        "notes": "Agnostic platform; covers fleet inventory, maintenance scheduling, crew/pilot certification, mission planning, real-time monitoring. Seamless DJI Enterprise integration."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA Section 848/889 mention anywhere in the corpus. Company is Portuguese; NDAA compliance is US-specific and not addressed on site."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS / Blue sUAS mention anywhere in the corpus."
+  },
+  "readiness": {
+    "value": "prototype",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0014",
+        "line_start": 66,
+        "line_end": 66,
+        "url": "https://www.eliot-aam.com/news",
+        "page_class": "news",
+        "snippet": "](/news-posts/eliot-operates-the-first-unmanned-aircraft-test-flight-in-the-scope-of-the-advanced-air-mobility-project)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0038",
+        "line_start": 111,
+        "line_end": 111,
+        "url": "https://www.eliot-aam.com/products/casta",
+        "page_class": "product",
+        "snippet": "The CASTA platform is a cutting-edge multirotor system designed to test and validate enabling technologies for Advanced Air Mobility (AAM)."
+      }
+    ],
+    "notes": "ET15 completed its first unmanned test flight at Hospital S\u00e3o Jo\u00e3o in Oct 2025; CASTA is explicitly described as a platform to 'test and validate enabling technologies.' Company received a PEL Startup Award in 2025. FTS and UATracker may be at a higher readiness level."
+  },
+  "unresolved_questions": [
+    "London address on contact page vs. \u00c9vora registered address \u2014 likely a UK commercial office separate from registered HQ in Portugal."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.eliot-aam.com/about-us",
+      "reason": "Would confirm company formation, founding story, team location, and any additional office addresses to resolve London vs. \u00c9vora HQ ambiguity.",
+      "expected_evidence": [
+        "headquarters",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Portuguese OEM producing electric fixed-wing (ET15) and modular multirotor (CASTA) cargo UAVs with 15 kg payload, plus a MOC Light-compliant flight termination system and fleet management software. Currently at prototype readiness. NDAA and Blue UAS certification status unknown. Public evidence limited; positioning targets logistics and defense but supplier chain visibility and US regulatory pathway remain unclear.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 22,
+    "total_cost_usd": 0.6587752,
+    "created_at": "2026-05-04T02:05:16+00:00",
+    "extract_version": "0.1.0"
+  }
+}

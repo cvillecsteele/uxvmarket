@@ -1,0 +1,268 @@
+{
+  "target_id": "locus-lock",
+  "run_id": "canonical",
+  "display_name": "Locus Lock",
+  "homepage_url": "https://www.locuslock.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/locus-lock/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 46,
+            "line_end": 48,
+            "url": "https://www.locuslock.com",
+            "page_class": "homepage",
+            "snippet": "Revolutionary GNSS Technology\n=============================\nOur software-first approach delivers elite GNSS performance."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0024",
+            "line_start": 27,
+            "line_end": 27,
+            "url": "https://www.locuslock.com/products/leo100",
+            "page_class": "product",
+            "snippet": "LEO100 GNSS SDR"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0024",
+            "line_start": 33,
+            "line_end": 33,
+            "url": "https://www.locuslock.com/products/leo100",
+            "page_class": "product",
+            "snippet": "Turnkey software-defined GNSS receiver engineered for precision navigation in the most challenging environments."
+          }
+        ],
+        "notes": "GNSS SDR receivers (LEO100) providing precise navigation/positioning. Anti-jamming and anti-spoofing are hardened features of the navigation sensor, not dedicated EW products."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Westminster",
+      "state_or_province": "Colorado",
+      "country": "United States",
+      "address": "8787 Turnpike Dr. #280"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0011",
+        "line_start": 44,
+        "line_end": 45,
+        "url": "https://www.locuslock.com/contact-us",
+        "page_class": "contact",
+        "snippet": "8787 Turnpike Dr. #280\nWestminster, CO 80031"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0010",
+        "line_start": 61,
+        "line_end": 61,
+        "url": "https://www.locuslock.com/about",
+        "page_class": "company",
+        "snippet": "Located in Westminster, CO"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0019",
+        "line_start": 32,
+        "line_end": 32,
+        "url": "https://www.locuslock.com/post/locus-lock-s-gnss-sdr-platform-joins-defense-innovation-unit-s-blue-uas-framework-cleared-list",
+        "page_class": "compliance",
+        "snippet": "The LEO100 GNSS-SDR platform leverages cutting-edge software-defined GNSS technology to provide precise, resilient, and secure navigation solutions. Its addition to the Blue UAS Framework Cleared List ensures that government agencies and defense partners can seamlessly adopt this technology to enhance the capabilities of their sUAS platforms."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 66,
+        "line_end": 67,
+        "url": "https://www.locuslock.com",
+        "page_class": "homepage",
+        "snippet": "Drones and Unmanned Aerial Vehicles\nAerial platforms"
+      }
+    ],
+    "notes": "Sells GNSS SDR receiver components (LEO100) that integrate into sUAS and other UAS platforms. Product is a sensor/navigation component, not a full autopilot or GCS subsystem."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "LEO100 GNSS SDR",
+        "product_type": "software-defined GNSS receiver",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0024",
+            "line_start": 27,
+            "line_end": 27,
+            "url": "https://www.locuslock.com/products/leo100",
+            "page_class": "product",
+            "snippet": "LEO100 GNSS SDR"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0023",
+            "line_start": 42,
+            "line_end": 43,
+            "url": "https://www.locuslock.com/products",
+            "page_class": "product",
+            "snippet": "LEO100 GNSS SDR\nProduction-ready software-defined GNSS receiver for advanced positioning applications."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Software-Only GNSS Solution",
+        "product_type": "software-only GNSS positioning solution",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0023",
+            "line_start": 45,
+            "line_end": 47,
+            "url": "https://www.locuslock.com/products",
+            "page_class": "product",
+            "snippet": "Software-defined GNSS solutions delivered entirely in software, built for existing systems.\n\u200b\nAdvanced capabilities deployed on your current hardware stack. Contact us to discuss integration."
+          }
+        ],
+        "notes": "Unnamed product line \u2014 no branded SKU found on site; described as GNSS capabilities deployable on customer's existing hardware stack."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": "yes",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0024",
+        "line_start": 38,
+        "line_end": 38,
+        "url": "https://www.locuslock.com/products/leo100",
+        "page_class": "product",
+        "snippet": "![](https://static.wixstatic.com/media/2dc480_5c75e56dee334b139adb2994557138fe~mv2.png/v1/fill/w_180,h_85,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/NDAA_compliant.png)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0019",
+        "line_start": 1,
+        "line_end": 1,
+        "url": "https://www.locuslock.com/post/locus-lock-s-gnss-sdr-platform-joins-defense-innovation-unit-s-blue-uas-framework-cleared-list",
+        "page_class": "compliance",
+        "snippet": "Locus Lock\u2019s GNSS-SDR Platform Joins Defense Innovation Unit\u2019s Blue UAS Framework Cleared List"
+      }
+    ],
+    "notes": "LEO100 product page displays an NDAA_compliant.png badge. Blue UAS announcement page (resource-0006) states the certification 'underscores the platform's compliance with the National Defense Authorization Act (NDAA)' (line 29 of that resource, not cited due to >60-word line length)."
+  },
+  "blue_uas": {
+    "value": "yes",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0019",
+        "line_start": 1,
+        "line_end": 1,
+        "url": "https://www.locuslock.com/post/locus-lock-s-gnss-sdr-platform-joins-defense-innovation-unit-s-blue-uas-framework-cleared-list",
+        "page_class": "compliance",
+        "snippet": "Locus Lock\u2019s GNSS-SDR Platform Joins Defense Innovation Unit\u2019s Blue UAS Framework Cleared List"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0019",
+        "line_start": 32,
+        "line_end": 32,
+        "url": "https://www.locuslock.com/post/locus-lock-s-gnss-sdr-platform-joins-defense-innovation-unit-s-blue-uas-framework-cleared-list",
+        "page_class": "compliance",
+        "snippet": "The LEO100 GNSS-SDR platform leverages cutting-edge software-defined GNSS technology to provide precise, resilient, and secure navigation solutions. Its addition to the Blue UAS Framework Cleared List ensures that government agencies and defense partners can seamlessly adopt this technology to enhance the capabilities of their sUAS platforms."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0024",
+        "line_start": 39,
+        "line_end": 39,
+        "url": "https://www.locuslock.com/products/leo100",
+        "page_class": "product",
+        "snippet": "![](https://static.wixstatic.com/media/2dc480_4778a2d8a16f48ab9deda618f851d47c~mv2.webp/v1/fill/w_188,h_76,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Blue%20UAS%20DIU.webp)"
+      }
+    ],
+    "notes": "LEO100 GNSS-SDR added to DIU Blue UAS Framework Cleared List on December 19, 2024 per resource-0006."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0023",
+        "line_start": 43,
+        "line_end": 43,
+        "url": "https://www.locuslock.com/products",
+        "page_class": "product",
+        "snippet": "Production-ready software-defined GNSS receiver for advanced positioning applications."
+      }
+    ],
+    "notes": "Products page describes the LEO100 as 'Production-ready'. Also listed on DIU Blue UAS Cleared List indicating operational readiness."
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [
+    {
+      "url": "https://locuslock.com/leo100-gnss-sdr-receiver",
+      "reason": "Alternate product page for LEO100 linked from compliance post; may include datasheet specs, NDAA detail, and additional product SKUs.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.locuslock.com/post/devcom-armaments-center-crada",
+      "reason": "DEVCOM CRADA news post may reveal additional product capabilities, government partnerships, or readiness milestones relevant to supply chain role.",
+      "expected_evidence": [
+        "products",
+        "drone_supply_chain_role",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Software-defined GNSS receivers and RTK positioning engines for precision navigation in UAVs, ground vehicles, and defense platforms. LEO100 production-ready; NDAA and Blue UAS certified. Public evidence on deployment scale and customer integration remains limited.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 10,
+    "total_cost_usd": 0.43923059999999997,
+    "created_at": "2026-05-04T04:00:00+00:00",
+    "extract_version": "0.1.0"
+  }
+}

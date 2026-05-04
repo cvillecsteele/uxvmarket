@@ -1,0 +1,420 @@
+{
+  "target_id": "emcore",
+  "run_id": "canonical",
+  "display_name": "EMCORE",
+  "homepage_url": "https://www.emcore.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/emcore/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 134,
+            "line_end": 134,
+            "url": "https://www.emcore.com",
+            "page_class": "homepage",
+            "snippet": "The EMCORE broad tactical-grade product portfolio includes Gyros & Multi-Axis Sensors, Internal Measurement Units (IMU), Internal Navigation Systems, and the TACNAV Tactical Navigation suite of products for military land vehicle navigation."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0104",
+            "line_start": 150,
+            "line_end": 150,
+            "url": "https://www.emcore.com/product/geo-fog-3d-dual-inertial-navigation-system-ins-non-itar",
+            "page_class": "compliance",
+            "snippet": "Unmanned, manned autonomous systems"
+          }
+        ],
+        "notes": "Full line of FOG and Quartz MEMS gyroscopes, IMUs, and INS systems explicitly marketed for UAV, UGV, ROV, and UUV autonomous navigation"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Tinley Park",
+      "state_or_province": "Illinois",
+      "country": "United States",
+      "address": "8412 W. 185th Street, Tinley Park, IL 60487"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0047",
+        "line_start": 134,
+        "line_end": 136,
+        "url": "https://www.emcore.com/contact-us",
+        "page_class": "contact",
+        "snippet": "CORPORATE HEADQUARTERS\n======================\n##### 8412 W. 185th StreetTinley Park, IL 60487"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0117",
+        "line_start": 144,
+        "line_end": 145,
+        "url": "https://www.emcore.com/product/sdn500-gpsins-tactical-grade-navigation-system-non-itar",
+        "page_class": "compliance",
+        "snippet": "APPLICATIONS\nUnmanned Aerial Vehicles"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0116",
+        "line_start": 156,
+        "line_end": 159,
+        "url": "https://www.emcore.com/product/sdi500-tactical-grade-inertial-measurement-unit-imu-non-itar",
+        "page_class": "compliance",
+        "snippet": "Torpedo Guidance\nDefense Fixed Wing\nUnmanned Aerial Vehicles\nDefense Helicopter"
+      }
+    ],
+    "notes": "Sells gyroscopes, IMUs, and INS units to OEMs and integrators for integration into UAVs and other unmanned platforms"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "GEO-FOG 3D Dual INS (NON-ITAR)",
+        "product_type": "FOG-based dual-antenna GPS/INS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0104",
+            "line_start": 117,
+            "line_end": 118,
+            "url": "https://www.emcore.com/product/geo-fog-3d-dual-inertial-navigation-system-ins-non-itar",
+            "page_class": "compliance",
+            "snippet": "### GEO-FOG 3D DUAL INERTIAL NAVIGATION SYSTEM (INS) (NON-ITAR)\n**Rugged, High-Accuracy INS and AHRS with Exclusive PIC technology and Embedded GNSS**"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SDN-500 GPS/INS Tactical Grade Navigation System (NON-ITAR)",
+        "product_type": "Miniature MEMS GPS/INS navigation system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0117",
+            "line_start": 117,
+            "line_end": 118,
+            "url": "https://www.emcore.com/product/sdn500-gpsins-tactical-grade-navigation-system-non-itar",
+            "page_class": "compliance",
+            "snippet": "### SDN-500 GPS/INS TACTICAL GRADE NAVIGATION SYSTEM (NON-ITAR)\n**Miniature MEMS Integrated GPS/INS Tactical System**"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SDI-500 Tactical Grade IMU (NON-ITAR)",
+        "product_type": "Quartz MEMS tactical inertial measurement unit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0116",
+            "line_start": 117,
+            "line_end": 118,
+            "url": "https://www.emcore.com/product/sdi500-tactical-grade-inertial-measurement-unit-imu-non-itar",
+            "page_class": "compliance",
+            "snippet": "### SDI-500 TACTICAL GRADE INERTIAL MEASUREMENT UNIT (IMU) (NON-ITAR)\n**Compact, Rugged Tactical Grade MEMS Inertial Measurement Unit**"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SDC-500 MEMS IMU (License Free)",
+        "product_type": "Commercial/industrial Quartz MEMS IMU",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0111",
+            "line_start": 117,
+            "line_end": 118,
+            "url": "https://www.emcore.com/product/sdc500-mems-inertial-measurement-unit-imu-license-free",
+            "page_class": "news",
+            "snippet": "### SDC-500 MEMS INERTIAL MEASUREMENT UNIT (IMU) (LICENSE FREE)\n**Ideal for High-Precision Commercial & Industrial Applications**"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TAC-DSP-1750 Fiber Optic Gyro",
+        "product_type": "Single/dual-axis closed-loop FOG",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0119",
+            "line_start": 120,
+            "line_end": 121,
+            "url": "https://www.emcore.com/product/tac-dsp-1750-fiber-optic-gyro",
+            "page_class": "news",
+            "snippet": "### TAC-DSP-1750 FIBER OPTIC GYRO\n**Engineered for the Tightest Spaces**"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "EG-1300 Fiber Optic Gyroscope (FOG)",
+        "product_type": "Navigation-grade closed-loop FOG",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0102",
+            "line_start": 117,
+            "line_end": 117,
+            "url": "https://www.emcore.com/product/eg-1300-fiber-optic-gyroscope-fog",
+            "page_class": "news",
+            "snippet": "### EG-1300 FIBER OPTIC GYROSCOPE (FOG)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "QRS-28 Multi-Axis Gyroscope (NON-ITAR)",
+        "product_type": "MEMS dual-axis rate gyroscope",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0109",
+            "line_start": 117,
+            "line_end": 118,
+            "url": "https://www.emcore.com/product/qrs28-multi-axis-gyroscope-non-itar-2",
+            "page_class": "compliance",
+            "snippet": "### QRS-28 MULTI-AXIS GYROSCOPE (NON-ITAR)\n**MEMS Miniature Dual-Axis Gyroscope**"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TACNAV TLS",
+        "product_type": "Tactical navigation system for turreted military vehicles",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0121",
+            "line_start": 117,
+            "line_end": 118,
+            "url": "https://www.emcore.com/product/tacnav-tls",
+            "page_class": "product",
+            "snippet": "### TACNAV\u00ae TLS\n**Easy-to-integrate Tactical Navigation for Turreted Vehicles**"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TACNAV UMD",
+        "product_type": "Universal multilingual display for military tactical navigation",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0122",
+            "line_start": 117,
+            "line_end": 118,
+            "url": "https://www.emcore.com/product/tacnav-umd",
+            "page_class": "product",
+            "snippet": "### TACNAV\u00ae UMD\n**Multilingual Display for Military Navigation**"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TACNAV Light",
+        "product_type": "Digital compass-based battlefield navigation for light vehicles",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0120",
+            "line_start": 117,
+            "line_end": 118,
+            "url": "https://www.emcore.com/product/tacnav-light",
+            "page_class": "product",
+            "snippet": "### TACNAV\u00ae LIGHT\n**The Ideal Solution for Affordable Tactical Navigation for Light Vehicles**"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "C-100 Compass Engine",
+        "product_type": "Fluxgate compass/heading sensor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0098",
+            "line_start": 117,
+            "line_end": 118,
+            "url": "https://www.emcore.com/product/c100-compass-engine",
+            "page_class": "product",
+            "snippet": "### C-100 COMPASS ENGINE\n**A Compass Engine to meet Your Demanding Heading Sensor Applications**"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "EG-200 Fiber Optic Gyroscope (FOG) (NON-ITAR)",
+        "product_type": "Closed-loop tactical-grade FOG",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 138,
+            "line_end": 138,
+            "url": "https://www.emcore.com",
+            "page_class": "homepage",
+            "snippet": "#### [EG-200 FIBER OPTIC GYROSCOPE (FOG) (NON-ITAR)](https://www.emcore.com/product/eg-200-fiber-optic-gyroscope-fog-non-itar-in-development/ \"Read more about EG-200 FIBER OPTIC GYROSCOPE (FOG) (NON-ITAR)\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DSP-3400 Fiber Optic Gyro (FOG) (NON-ITAR)",
+        "product_type": "Open-loop tactical-grade FOG",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 143,
+            "line_end": 143,
+            "url": "https://www.emcore.com",
+            "page_class": "homepage",
+            "snippet": "#### [DSP-3400 FIBER OPTIC GYRO (FOG) (NON-ITAR)](https://www.emcore.com/product/dsp-3400-fiber-optic-gyro-fog-non-itar/ \"Read more about DSP-3400 FIBER OPTIC GYRO (FOG) (NON-ITAR)\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SDG-1400 Single-Axis Analog Gyroscope (NON-ITAR)",
+        "product_type": "Quartz MEMS single-axis gyroscope",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 148,
+            "line_end": 148,
+            "url": "https://www.emcore.com",
+            "page_class": "homepage",
+            "snippet": "#### [SDG-1400 SINGLE-AXIS ANALOG GYROSCOPE (NON-ITAR)](https://www.emcore.com/product/sdg1400-single-axis-analog-gyroscope-non-itar/ \"Read more about SDG-1400 SINGLE-AXIS ANALOG GYROSCOPE (NON-ITAR)\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "QRS-14 Single-Axis Analog Gyroscope (NON-ITAR)",
+        "product_type": "Quartz MEMS single-axis gyroscope",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 152,
+            "line_end": 152,
+            "url": "https://www.emcore.com",
+            "page_class": "homepage",
+            "snippet": "](https://www.emcore.com/product/qrs14-single-axis-analog-gyroscope-non-itar/ \"Read more about QRS-14 SINGLE-AXIS ANALOG GYROSCOPE (NON-ITAR)\")"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0104",
+        "line_start": 117,
+        "line_end": 117,
+        "url": "https://www.emcore.com/product/geo-fog-3d-dual-inertial-navigation-system-ins-non-itar",
+        "page_class": "compliance",
+        "snippet": "### GEO-FOG 3D DUAL INERTIAL NAVIGATION SYSTEM (INS) (NON-ITAR)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0117",
+        "line_start": 117,
+        "line_end": 117,
+        "url": "https://www.emcore.com/product/sdn500-gpsins-tactical-grade-navigation-system-non-itar",
+        "page_class": "compliance",
+        "snippet": "### SDN-500 GPS/INS TACTICAL GRADE NAVIGATION SYSTEM (NON-ITAR)"
+      }
+    ],
+    "notes": "Products carry Non-ITAR (export) designations but no explicit NDAA Section 848/889 compliance claim found"
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0119",
+        "line_start": 147,
+        "line_end": 147,
+        "url": "https://www.emcore.com/product/tac-dsp-1750-fiber-optic-gyro",
+        "page_class": "news",
+        "snippet": "*   Commercial off-the-shelf (COTS) product"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 179,
+        "line_end": 179,
+        "url": "https://www.emcore.com",
+        "page_class": "homepage",
+        "snippet": "EMCORE has vertically-integrated manufacturing capability at its facilities in Concord, CA, and Tinley Park, IL. Our manufacturing facilities all maintain ISO 9001 quality management certification, and we are AS9100 aerospace quality certified at our Concord facility."
+      }
+    ],
+    "notes": "AS9100/ISO 9001 certified vertically integrated manufacturing; catalog COTS products with datasheets and OEM ordering"
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Fiber optic gyroscopes, tactical-grade IMUs, and integrated GPS/INS navigation systems for UAVs, ground vehicles, and missile guidance. Most products are non-ITAR and in production; TACNAV systems are SOCOM type-classified for military vehicles. NDAA and Blue UAS certification status not publicly documented.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 23,
+    "total_cost_usd": 0.71873085,
+    "created_at": "2026-05-04T02:11:28+00:00",
+    "extract_version": "0.1.0"
+  }
+}

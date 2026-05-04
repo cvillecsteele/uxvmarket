@@ -1,0 +1,166 @@
+{
+  "target_id": "ark-electronics",
+  "run_id": "canonical",
+  "display_name": "ARK Electronics",
+  "homepage_url": "https://arkelectronics.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/ark-electronics/website",
+  "products_categories": {
+    "items": [],
+    "confidence": "high",
+    "status": "unknown",
+    "notes": "ARK Electronics is a general EMS/PCBA contract manufacturer. No UXV-specific product lines or customers found. Industries: Industrial, Automotive, Power Electronics, Telecom, TV & Home Entertainment, Consumer Electronics."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Irvine",
+      "state_or_province": "California",
+      "country": "United States",
+      "address": "400 Spectrum Center Drive, Suite 2150, Irvine, CA 92618"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0151",
+        "line_start": 89,
+        "line_end": 94,
+        "url": "https://arkelectronics.com/contact-us",
+        "page_class": "contact",
+        "snippet": "### International Headquarters\nArk Electronics USA, Inc.\n400 Spectrum Center Drive\nSuite 2150\nIrvine, CA 92618\nUSA"
+      }
+    ],
+    "notes": "International HQ is Irvine, CA; manufacturing HQ is Qingdao, China."
+  },
+  "drone_supply_chain_role": {
+    "value": "broad_industrial",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 57,
+        "line_end": 60,
+        "url": "https://arkelectronics.com",
+        "page_class": "homepage",
+        "snippet": "End-to-End Electronics Manufacturing Solutions\n==============================================\nFrom high-quality PCBA to streamlined Electronics Manufacturing Services,\nArk delivers cost-effective solutions at scale."
+      }
+    ],
+    "notes": "ARK Electronics is a broad electronics contract manufacturer (EMS/PCBA) with no specifically UXV-oriented product line. No mention of drones, UAVs, or UAS anywhere on the site."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Contract Manufacturing (PCBA/EMS)",
+        "product_type": "electronics contract manufacturing / PCBA",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 73,
+            "line_end": 75,
+            "url": "https://arkelectronics.com",
+            "page_class": "homepage",
+            "snippet": "Contract Manufacturing\n----------------------\nStreamlined PCBA and cost-effective electronics manufacturing\u00a0services\u00a0delivered with precision"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Design Engineering",
+        "product_type": "electronics design and engineering services",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0095",
+            "line_start": 67,
+            "line_end": 70,
+            "url": "https://arkelectronics.com/capabilities",
+            "page_class": "capability",
+            "snippet": "Design Engineering\n------------------\nWe turn your ideas into breakthrough designs. Using manufacturing expertise and the latest technologies, we maximize efficiency, capability, manufacturability, while delivering an attractive, innovative, and appealing form factor.\n[Learn More](https://arkelectronics.com/digital-heroes/design-engineering/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "EveryWord\u2122",
+        "product_type": "far-field voice/audio module (IoT)",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0021",
+            "line_start": 65,
+            "line_end": 66,
+            "url": "https://arkelectronics.com/arkx-labs-jv",
+            "page_class": "other",
+            "snippet": "### Learn more about EveryWord\u2122\n[Get the Development kit](https://arkxlabsshop.com/)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Named SKUs are limited; primary offerings are EMS services. EveryWord\u2122 is a product via ArkX Labs subsidiary."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA Section 848/889 claims in corpus. Manufacturing HQ is in Qingdao, China."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 65,
+        "line_end": 66,
+        "url": "https://arkelectronics.com",
+        "page_class": "homepage",
+        "snippet": "*   High volume 5-Sigma quality manufacturing\n*   Low to medium-volume integration"
+      }
+    ],
+    "notes": "ARK explicitly advertises high-volume 5-Sigma quality manufacturing and cost-effective solutions at scale."
+  },
+  "unresolved_questions": [
+    "No UXV-specific product line or drone customer evidence found in corpus; vendor appears to be a general electronics contract manufacturer.",
+    "Manufacturing HQ is China (Qingdao); could raise NDAA component-sourcing questions but site does not address this."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://arkelectronics.com/industries/",
+      "reason": "Would confirm whether defense, aerospace, or drone/UAS industries are served, which would directly affect drone_supply_chain_role and products_categories.",
+      "expected_evidence": [
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "guessed from nav menu link on homepage",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "complete",
+  "tagline": "Contract manufacturer providing PCBA, EMS, and design engineering services; operates ArkX Labs joint venture producing Amazon pre-qualified far-field voice/audio modules (Cirrus Logic/NXP). Also offers cellular IoT product certification. NDAA and Blue UAS status unknown. Public evidence limited on defense/unmanned-systems experience or current program involvement.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 15,
+    "total_cost_usd": 0.31448875,
+    "created_at": "2026-05-03T21:30:31+00:00",
+    "extract_version": "0.1.0"
+  }
+}

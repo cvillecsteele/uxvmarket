@@ -1,0 +1,306 @@
+{
+  "target_id": "likeabird",
+  "run_id": "canonical",
+  "display_name": "LikeAbird",
+  "homepage_url": "https://likeabird.eu",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/likeabird/website",
+  "products": [
+    {
+      "name": "NOVA USCT 4.3",
+      "category": "ground_segment",
+      "descriptor": "Rugged handheld ground control station for VLOS and BVLOS UAV/UGV/USV operations",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0022",
+          "line_start": 22,
+          "line_end": 23,
+          "url": "https://likeabird.eu/remote-control-systems",
+          "page_class": "capability",
+          "snippet": "##### NOVA USCT 4.3\nPERFORMANCE, RELIABILITY, QUALITY!"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0022",
+          "line_start": 55,
+          "line_end": 55,
+          "url": "https://likeabird.eu/remote-control-systems",
+          "page_class": "capability",
+          "snippet": "### 8xxMHz 9xxMHz 2.4GHz 5.8GHz"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "NOVA XXL USCT Kit",
+      "category": "ground_segment",
+      "descriptor": "Accessory kit for NOVA USCT GCS including belly pack, battery, charger, harness, and shoulder hook",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0022",
+          "line_start": 80,
+          "line_end": 91,
+          "url": "https://likeabird.eu/remote-control-systems",
+          "page_class": "capability",
+          "snippet": "NOVA XXL USCT KIT\n-----------------\n![Belly Pack](https://likeabird.eu/wp-content/uploads/2021/10/Hetronic_Belly-Pack-300x93.png)\nBelly Pack\n![Battery Charger](https://likeabird.eu/wp-content/uploads/2021/10/Hetronic_Charger-300x248.png)\nBattery Charger\n![Chest Harness](https://likeabird.eu/wp-content/uploads/2021/10/Hetronic_Chest-Harness-211x300.png)\nChest Harness\n![Li-Ion Battery](https://likeabird.eu/wp-content/uploads/2021/10/Hetronic_Li-Ion_small.png)\nLi-Ion Battery\n![Shoulder Hook](https://likeabird.eu/wp-content/uploads/2021/10/NOVA-Hook_small-124x300.png)\nShoulder Hook"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "NOVA Config Tool",
+      "category": "ground_segment",
+      "descriptor": "PC configuration software for NOVA USCT transmitter flight modes, channel assignments, and telemetry",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0022",
+          "line_start": 76,
+          "line_end": 78,
+          "url": "https://likeabird.eu/remote-control-systems",
+          "page_class": "capability",
+          "snippet": "------------------\n### PC H-Link\nNOVA Config Tool"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Dual Smart Battery Management System",
+      "category": "power_systems",
+      "descriptor": "Redundant smart BMS for safe battery power in ground operations",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 25,
+          "line_end": 29,
+          "url": "https://likeabird.eu",
+          "page_class": "homepage",
+          "snippet": "DUAL SMART BATTERY MANAGEMENT SYSTEM\nSAFE REDUNDANT\nBATTERY POWER FOR\nGROUND OPERATIONS\n\\>"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Serial Ethernet Gateway",
+      "category": "communications",
+      "descriptor": "Serial-to-Ethernet gateway providing IP connectivity for PX4 and autopilot systems",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 38,
+          "line_end": 40,
+          "url": "https://likeabird.eu",
+          "page_class": "homepage",
+          "snippet": "SERIAL ETHERNET GATEWAY\nPROVIDE PX4 WITH\nIP CONNECTIVITY"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 71,
+          "line_end": 72,
+          "url": "https://likeabird.eu",
+          "page_class": "homepage",
+          "snippet": "DATA LINK ETHERNET DEVICES\nSerial to ethernet gateways and switches for autopilot and flight controller connections over wireless, 4G/LTE, satcom data links and more..."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Redundant 4G/LTE Routers",
+      "category": "communications",
+      "descriptor": "Redundant 4G/LTE and Iridium satellite routers for drone-to-cloud connectivity with global M2M/IoT SIM plans",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 74,
+          "line_end": 75,
+          "url": "https://likeabird.eu",
+          "page_class": "homepage",
+          "snippet": "REDUNDANT 4G/LTE ROUTERS\nLocal and centralized redundant 4G/LTE and Iridium satellite connectivity solutions for drone to cloud operations. Global M2M/IoT SIM cards and data plans..."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Power \u2013 BMS",
+      "category": "power_systems",
+      "descriptor": "Modular smart battery management and power conditioning solutions for ground and remote vehicle use",
+      "granularity": "category",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 68,
+          "line_end": 69,
+          "url": "https://likeabird.eu",
+          "page_class": "homepage",
+          "snippet": "BMS & POWER CONDITIONING\nModular custom smart battery management solutions for ground and remote vehicle use. Smart BEC, DC/DC, power distribution solutions and more..."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "IP Devices (Ethernet Switches and Gateways)",
+      "category": "communications",
+      "descriptor": "Ethernet switches and serial-to-IP gateways for autopilot connectivity over wireless, 4G/LTE, and SATCOM links",
+      "granularity": "category",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 71,
+          "line_end": 72,
+          "url": "https://likeabird.eu",
+          "page_class": "homepage",
+          "snippet": "DATA LINK ETHERNET DEVICES\nSerial to ethernet gateways and switches for autopilot and flight controller connections over wireless, 4G/LTE, satcom data links and more..."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Engineering Services (Custom UxV Solutions)",
+      "category": "ground_segment",
+      "descriptor": "Custom design and prototyping services for UxV radio control, power, and data-link systems",
+      "granularity": "category",
+      "readiness": "engineering_services",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0005",
+          "line_start": 22,
+          "line_end": 26,
+          "url": "https://likeabird.eu/about",
+          "page_class": "company",
+          "snippet": "##### ENGINNERING SERVICE\nCONTACT US TO DISCUSS YOU NEXT CUSTOM PROJECT\n](#)\n### CUSTOM ENGINEERING\nTAILORED TO INDIVIDUAL CUSTOMER NEEDS"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0005",
+          "line_start": 33,
+          "line_end": 35,
+          "url": "https://likeabird.eu/about",
+          "page_class": "company",
+          "snippet": "### PROTOTYPING AND INTEGRATION\nBRING YOUR PROJECT TO LIFE\nBase on your concrete use case we develop proof of concepts prototypes customized for you. This enables you to see the benefit of your examples prior to definition of the requirements of your final solution."
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "BeySat BGAN, BeySat Certus, and BeySat NB are listed in the priority product set but their dedicated pages (satcom-beysat-bgan, satcom-beysat-certus, satcom-beysat-nb) were all skipped (class_budget exhausted). The SATCOM parent page (likeabird.eu/satcom) was also skipped. No body text about these products appears in any fetched page, so they cannot be classified.",
+    "The Dual Smart Battery Management System detail page (index.php/duplicated-nova-usct-4-3-remote-control-system-1251) has status=failed; only the homepage banner was available as evidence.",
+    "The Power-BMS product page (likeabird.eu/power-bms) and IP Devices page (likeabird.eu/ethernet-switches-and-gateways) were both skipped; those products are classified at category granularity from homepage text only.",
+    "The Redundant 4G/LTE Routers detail page (likeabird.eu/ip-datalinks) was skipped; exact SKUs within that family are unknown."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://likeabird.eu/satcom-beysat-bgan",
+      "reason": "BeySat BGAN is a prioritized product with no corpus evidence; this page would provide name, descriptor, category, and readiness.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://likeabird.eu/satcom-beysat-certus",
+      "reason": "BeySat Certus is a prioritized product with no corpus evidence; this page would provide name, descriptor, category, and readiness.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://likeabird.eu/satcom-beysat-nb",
+      "reason": "BeySat NB is a prioritized product with no corpus evidence; this page would provide name, descriptor, category, and readiness.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://likeabird.eu/satcom",
+      "reason": "SATCOM parent page would reveal full BeySat product line and any additional SATCOM products not yet enumerated.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://likeabird.eu/power-bms",
+      "reason": "Power-BMS product page would reveal individual BMS SKUs (beyond the Dual Smart BMS) and readiness/specs.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://likeabird.eu/ethernet-switches-and-gateways",
+      "reason": "IP Devices page would enumerate individual Ethernet switch and gateway SKUs with specs.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://likeabird.eu/ip-datalinks",
+      "reason": "Routers/IP datalinks page would enumerate individual 4G/LTE router SKUs.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 22,
+    "total_cost_usd": 0.6501629499999999,
+    "created_at": "2026-05-04T04:03:40+00:00",
+    "extract_version": "0.1.0"
+  }
+}

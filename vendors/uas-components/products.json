@@ -1,0 +1,475 @@
+{
+  "target_id": "uas-components",
+  "run_id": "canonical",
+  "display_name": "UAS Components",
+  "homepage_url": "https://uascomponents.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/uas-components/website",
+  "products": [
+    {
+      "name": "USG-405 EO/IR/LRF",
+      "category": "isr_payloads",
+      "descriptor": "Triple-sensor gyro-stabilized gimbal with Full HD 30\u00d7 EO, LWIR thermal, and 5 km laser rangefinder",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0033",
+          "line_start": 35,
+          "line_end": 37,
+          "url": "https://uascomponents.com/camera-systems/usg-405",
+          "page_class": "capability",
+          "snippet": "*   USG-405 EO/IR/LRF\nUSG-405 EO/IR/LRF ISR gimbal\n----------------------------"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0033",
+          "line_start": 43,
+          "line_end": 47,
+          "url": "https://uascomponents.com/camera-systems/usg-405",
+          "page_class": "capability",
+          "snippet": "*   Daylight camera: Full HD with 30x optical zoom and 4x digital zoom\n    Resolution: 1920x1080\n*   Thermal camera: LWIR with 5x optical zoom and 4x digital zoom\n    Resolution: 640x512\n*   Laser Range Finder (LRF) with a range of up to 5 km"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "USG-232 EO/IR/LRF",
+      "category": "isr_payloads",
+      "descriptor": "Multi-sensor gyro-stabilized gimbal with Full HD 30\u00d7 EO, LWIR thermal, and 5 km laser rangefinder; 1.1 kg",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0029",
+          "line_start": 35,
+          "line_end": 36,
+          "url": "https://uascomponents.com/camera-systems/usg-232",
+          "page_class": "capability",
+          "snippet": "*   USG-232 EO/IR/LRF\nUSG-232 EO/IR/LRF"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0029",
+          "line_start": 44,
+          "line_end": 47,
+          "url": "https://uascomponents.com/camera-systems/usg-232",
+          "page_class": "capability",
+          "snippet": "*   Daylight camera: Full HD with 30x optical zoom and 4x digital zoom\n    Resolution: 1920x1080\n*   Thermal camera: LWIR\u00a04x digital zoomResolution: 640x512\n*   Laser Range Finder (LRF) with a range of up to 5 km"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "USG-231 EO",
+      "category": "isr_payloads",
+      "descriptor": "Lightweight gyro-stabilized EO gimbal with Full HD 30\u00d7 optical zoom for fixed-wing and VTOL UAVs; 600 g",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0027",
+          "line_start": 35,
+          "line_end": 36,
+          "url": "https://uascomponents.com/camera-systems/usg-231",
+          "page_class": "capability",
+          "snippet": "*   USG-231 EO\nUSG-231 EO gimbal"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0027",
+          "line_start": 49,
+          "line_end": 55,
+          "url": "https://uascomponents.com/camera-systems/usg-231",
+          "page_class": "capability",
+          "snippet": "*   Daylight camera: Full HD with 30x optical zoom and 4x digital zoom\n    Resolution: 1920x1080\n*   Sensor Type: CMOS\n*   360\u00b0 continuous rotation\n*   Field of View: 63.7\u00b0 to 2.3\u00b0\n*   Dimensions (L\u00d7H): 109\u0445147 mm\n    Weight: 600 g"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "USG-231T IR",
+      "category": "isr_payloads",
+      "descriptor": "Compact gyro-stabilized LWIR thermal gimbal for night surveillance on fixed-wing and VTOL UAVs; 690 g",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0028",
+          "line_start": 35,
+          "line_end": 36,
+          "url": "https://uascomponents.com/camera-systems/usg-231t",
+          "page_class": "capability",
+          "snippet": "*   USG-231T IR\nUSG-231T IR"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0028",
+          "line_start": 44,
+          "line_end": 50,
+          "url": "https://uascomponents.com/camera-systems/usg-231t",
+          "page_class": "capability",
+          "snippet": "*   Uncooled microbolometerLens: 55 mm\n*   Resolution: 640\u00d7512Pixel Pitch: 12 \u00b5m\n*   4x digital zoom\n*   360\u00b0 continuous rotation\n*   Dimensions (L\u00d7H): 109\u0445144 mm\n    Weight: 690 g\n*   Environmental Protection: Weather-resistant"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "USG-261 EO",
+      "category": "isr_payloads",
+      "descriptor": "Ultra-lightweight gyro-stabilized EO gimbal with Full HD 10\u00d7 optical zoom for small UAVs; 300 g",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0030",
+          "line_start": 35,
+          "line_end": 36,
+          "url": "https://uascomponents.com/camera-systems/usg-261",
+          "page_class": "capability",
+          "snippet": "*   USG-261 EO\nUSG-261 EO gimbal"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0030",
+          "line_start": 43,
+          "line_end": 49,
+          "url": "https://uascomponents.com/camera-systems/usg-261",
+          "page_class": "capability",
+          "snippet": "*   Daylight camera: Full HD with 10x optical zoom and 3x digital zoom\n    Resolution: 1920x1080\n*   Sensor Type: CMOS\n*   Field of View: 63.7\u00b0 to 2.3\u00b0\n*   360\u00b0 continuous rotation\n*   Dimensions (L\u00d7H): 90x119 mm\n    Weight: 300 g"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "USG-261T IR",
+      "category": "isr_payloads",
+      "descriptor": "Compact gyro-stabilized LWIR thermal gimbal for night operations on small UAVs and multirotors; 390 g",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0031",
+          "line_start": 35,
+          "line_end": 36,
+          "url": "https://uascomponents.com/camera-systems/usg-261t",
+          "page_class": "capability",
+          "snippet": "*   USG-261T IR\nUSG-261T IR"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0031",
+          "line_start": 44,
+          "line_end": 48,
+          "url": "https://uascomponents.com/camera-systems/usg-261t",
+          "page_class": "capability",
+          "snippet": "*   Uncooled microbolometerLens: 35 mm\n*   Resolution: 640\u00d7512Pixel Pitch: 12 \u00b5m\n*   4x digital zoom\n*   360\u00b0 continuous rotation\n*   Dimensions (L\u00d7H): 90 x 128 mmWeight: 390 g"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "USG-331 EO",
+      "category": "isr_payloads",
+      "descriptor": "3-axis gyro-stabilized EO gimbal with Full HD 30\u00d7 zoom for precision daylight surveillance; 800 g",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0032",
+          "line_start": 35,
+          "line_end": 36,
+          "url": "https://uascomponents.com/camera-systems/usg-331",
+          "page_class": "capability",
+          "snippet": "*   USG-331 EO\nUSG-331 EO gimbal"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0032",
+          "line_start": 44,
+          "line_end": 51,
+          "url": "https://uascomponents.com/camera-systems/usg-331",
+          "page_class": "capability",
+          "snippet": "TECHNICAL SPECIFICATIONS\n*   Daylight camera: Full HD with 30x optical zoom and 4x digital zoom\n    Resolution: 1920x1080\n*   Sensor Type: CMOS\n*   360\u00b0 continuous rotation\n*   Field of View: 63.7\u00b0 to 2.3\u00b0\n*   Dimensions (L\u00d7H): 144\u0445162 mmWeight: 800 g\n*   Environmental Protection: Weather-resistant"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "SCL-1 Launch Kit",
+      "category": "ground_segment",
+      "descriptor": "Bungee catapult launcher for UAVs up to 14 kg at 18 m/s launch speed",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0042",
+          "line_start": 36,
+          "line_end": 38,
+          "url": "https://uascomponents.com/launch-and-landing-systems/scl1",
+          "page_class": "capability",
+          "snippet": "SCL-1 Bungee Catapult\n---------------------\nBasic mechanical launcher for UAVs up to 14 kg"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0042",
+          "line_start": 47,
+          "line_end": 50,
+          "url": "https://uascomponents.com/launch-and-landing-systems/scl1",
+          "page_class": "capability",
+          "snippet": "------------------------\nGeneral\n*   \u25cf\u2002Max UAV Weight: 14 kg\u25cf\u2002Max Launch Speed (for 12 kg UAV): 18 m/s\u25cf\u2002Max Acceleration: 20 G\u25cf\u2002Launch Rail Angle: 13\u00b0\u25cf\u2002Carriage Travel Distance: 2.4 m\nPower Supply"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "SCL-2 Launch Kit",
+      "category": "ground_segment",
+      "descriptor": "Bungee catapult launcher with remote control unit for UAVs up to 15 kg at 18 m/s",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0043",
+          "line_start": 35,
+          "line_end": 36,
+          "url": "https://uascomponents.com/launch-and-landing-systems/scl2",
+          "page_class": "capability",
+          "snippet": "*   SCL-2 Bungee\nSCL-2 Bungee"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0043",
+          "line_start": 52,
+          "line_end": 55,
+          "url": "https://uascomponents.com/launch-and-landing-systems/scl2",
+          "page_class": "capability",
+          "snippet": "*   \u25cf Maximum UAV launch weight: 15 kg\n    \u25cf Maximum launch speed (15 kg UAV): 18 m/s\n    \u25cf Maximum acceleration: 25 G\n    \u25cf Rail angle relative to surface: 15\u00b0"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "GLS-1 Launch Kit",
+      "category": "ground_segment",
+      "descriptor": "High-power pneumatic catapult launcher for UAVs up to 40 kg takeoff weight",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0036",
+          "line_start": 44,
+          "line_end": 47,
+          "url": "https://uascomponents.com/launch-and-landing-systems",
+          "page_class": "capability",
+          "snippet": "[](/launch-and-landing-systems/gls1a)\nGLS-1 Launch Kit\nGLS-1 is a high-power pneumatic launch system for UAVs with a takeoff weight of up to 40 kg.\n[Learn more](/launch-and-landing-systems/gls1a)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Parachute System CS-01",
+      "category": "recovery_systems",
+      "descriptor": "Automatic parachute recovery system for UAVs or payloads weighing 8\u201312 kg",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0036",
+          "line_start": 48,
+          "line_end": 51,
+          "url": "https://uascomponents.com/launch-and-landing-systems",
+          "page_class": "capability",
+          "snippet": "[](/launch-and-landing-systems/cs-01)\nParachute System CS-01\nParachute System CS-01 is designed for safe, automatic landing of UAVs or payloads weighing 8 to 12 kg.\n[Learn more](/launch-and-landing-systems/cs-01)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "AT-2 Antenna Tracker",
+      "category": "communications",
+      "descriptor": "Long-range dual-axis antenna tracker for UAV communications at 220+ km when mast-mounted",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0049",
+          "line_start": 83,
+          "line_end": 86,
+          "url": "https://uascomponents.com/products",
+          "page_class": "product",
+          "snippet": "[](/antennas/at-2)\n### AT-2 Antenna Tracker\nA versatile long-range antenna tracker designed for extended missions at distances 220+ km when mast-mounted.\n[Learn more](/antennas/at-2)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "AT-1 Antenna Tracker",
+      "category": "communications",
+      "descriptor": "Robust ground antenna tracker for long-distance UAV communication at 130+ km range",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0049",
+          "line_start": 79,
+          "line_end": 82,
+          "url": "https://uascomponents.com/products",
+          "page_class": "product",
+          "snippet": "[](/antennas/at-1)\n### AT-1 Antenna Tracker\nA robust ground antenna tracker for stable, long-distance UAV communication.Effective range: 130+ km.\n[Learn more](/antennas/at-1)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Silvus StreamCaster 4400 Enhanced 4x4 MIMO Radio",
+      "category": "communications",
+      "descriptor": "High-performance 4\u00d74 MIMO tactical radio for extended-range UAV communications",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0049",
+          "line_start": 91,
+          "line_end": 94,
+          "url": "https://uascomponents.com/products",
+          "page_class": "product",
+          "snippet": "[](/antennas/silvus-4400)\n### Silvus StreamCaster4400 Enhanced 4x4 MIMO Radio\nHigh-performance multichannel MIMO radio designed for extended-range operations.\n[Learn more](/antennas/silvus-4400)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Video Processing Block",
+      "category": "isr_payloads",
+      "descriptor": "Onboard video processing unit providing stabilization, object tracking, and IP streaming for gimbal systems; 200 g",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0034",
+          "line_start": 36,
+          "line_end": 37,
+          "url": "https://uascomponents.com/camera-systems/vpb",
+          "page_class": "capability",
+          "snippet": "VPB-4 Video Processing Block\n----------------------------"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0034",
+          "line_start": 52,
+          "line_end": 52,
+          "url": "https://uascomponents.com/camera-systems/vpb",
+          "page_class": "capability",
+          "snippet": "The VPB-4 connects to a compatible camera system \u2013 such as the USG-231 or USG-261 \u2013 via two interfaces: USB 3.0 and XP1.Once connected, the unit captures the camera\u2019s video signal, processes it (stabilization, tracking, etc.), and relays it to the operator interface.This module is included as standard with most UAS Components stabilized EO/IR gimbal systems."
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "AT-1 and AT-2 antenna tracker detail pages were skipped (skipped_class_budget); product descriptions sourced from catalog listing page only \u2014 specs, weight, and dimensions unknown.",
+    "Silvus StreamCaster 4400 Enhanced 4x4 MIMO Radio detail page was skipped; description sourced from catalog listing only.",
+    "GLS-1 Launch Kit detail page (launch-and-landing-systems/gls1a) was skipped; only brief catalog description available \u2014 launch speed, weight, and full specs unknown.",
+    "Parachute System CS-01 detail page was skipped; only brief catalog description available \u2014 deployment specs unknown."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://uascomponents.com/antennas/at-1",
+      "reason": "Detail page for AT-1 Antenna Tracker was skipped; need specs, range, and weight to fully classify the product.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://uascomponents.com/antennas/at-2",
+      "reason": "Detail page for AT-2 Antenna Tracker was skipped; need specs, range, and weight to fully classify the product.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://uascomponents.com/antennas/silvus-4400",
+      "reason": "Detail page for Silvus StreamCaster 4400 Enhanced 4x4 MIMO Radio was skipped; need full specs including frequency, range, and power.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://uascomponents.com/launch-and-landing-systems/gls1a",
+      "reason": "Detail page for GLS-1 Launch Kit was skipped; need launch speed, acceleration, dimensions, and weight specs.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://uascomponents.com/launch-and-landing-systems/cs-01",
+      "reason": "Detail page for Parachute System CS-01 was skipped; need deployment specs, canopy diameter, and descent rate.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 43,
+    "total_cost_usd": 0.8377603999999998,
+    "created_at": "2026-05-04T07:19:57+00:00",
+    "extract_version": "0.1.0"
+  }
+}

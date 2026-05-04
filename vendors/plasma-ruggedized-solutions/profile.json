@@ -1,0 +1,248 @@
+{
+  "target_id": "plasma-ruggedized-solutions",
+  "run_id": "canonical",
+  "display_name": "Plasma Ruggedized Solutions",
+  "homepage_url": "https://www.plasmarugged.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/plasma-ruggedized-solutions/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "structures_and_materials",
+        "is_primary": true,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 116,
+            "line_end": 116,
+            "url": "https://www.plasmarugged.com",
+            "page_class": "homepage",
+            "snippet": "Global Provider of Custom Ruggedized Coatings and Engineering Solutions"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 130,
+            "line_end": 130,
+            "url": "https://www.plasmarugged.com",
+            "page_class": "homepage",
+            "snippet": "Delivering a thinner protective layer than other coating processes, [parylene coating services](parylene-coating) offer electrical properties and high chemical resistance. Parylene coating has advantages over traditional coating methods. Using vacuum deposition, parylene coatings can permeate crevices without clogging or blocking device components for critical applications."
+          }
+        ],
+        "notes": "Provides conformal coatings (parylene, acrylic, urethane, silicone), potting/encapsulation, and proprietary formulated polymer materials used in aerospace, defense, and drone-adjacent electronics."
+      },
+      {
+        "category": "test_and_measurement",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0126",
+            "line_start": 159,
+            "line_end": 160,
+            "url": "https://www.plasmarugged.com/quality-assurance",
+            "page_class": "compliance",
+            "snippet": "*   [ROSE testing](rose-testing-services) for the cleanliness of PCBs, as well as IPC and MIL-spec compliance\n*   [Ionic testing](ionic-contamination-testing) to detect conductive contamination before coating"
+          }
+        ],
+        "notes": "Offers ionic testing, hi-pot/continuity testing, cross-section analysis, 2D X-ray diffraction, and ROSE testing."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "PRS is an industrial ruggedization services company, not a drone-specific supplier. Their polymer coatings serve as protective materials for electronic assemblies used across aerospace, defense, robotics, and EW applications."
+  },
+  "headquarters": {
+    "value": {
+      "city": "San Jose",
+      "state_or_province": "California",
+      "country": "United States",
+      "address": "2284 Ringwood Ave. Suite A, San Jose, CA 95131"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 184,
+        "line_end": 185,
+        "url": "https://www.plasmarugged.com",
+        "page_class": "homepage",
+        "snippet": "2284 Ringwood Ave. Suite A - San Jose, CA 95131\nPhone: [408-954-8405](tel:4089548405)"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "broad_industrial",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 116,
+        "line_end": 116,
+        "url": "https://www.plasmarugged.com",
+        "page_class": "homepage",
+        "snippet": "Global Provider of Custom Ruggedized Coatings and Engineering Solutions"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 93,
+        "line_end": 101,
+        "url": "https://www.plasmarugged.com",
+        "page_class": "homepage",
+        "snippet": "    *   [Aerospace & Defense](https://www.plasmarugged.com/aerospace-defense)\n    *   [Robotics & Electromechanical Systems](https://www.plasmarugged.com/robotics-electromechanical-systems)\n    *   [Medical Equipment & Devices](https://www.plasmarugged.com/medical-equipment-devices)\n    *   [Automotive & Trucking](https://www.plasmarugged.com/automotive-trucking)\n    *   [MEMS & Nanotechnology](https://www.plasmarugged.com/mems-nanotechnology)\n    *   [Cyber Security](https://www.plasmarugged.com/cyber-security)\n    *   [Alternative Energy and Oil & Gas](https://www.plasmarugged.com/alternative-energy-and-oil-gas)\n    *   [Electric Vehicle Conformal Coating Services](https://www.plasmarugged.com/electric-vehicles)\n    *   [Electronic Warfare Systems](https://www.plasmarugged.com/electronic-warfare-systems)"
+      }
+    ],
+    "notes": "PRS is a multi-industry conformal coating and ruggedized engineering services firm. They serve aerospace, defense, medical, automotive, robotics, and other industries. No UXV-specific product line; drone mentions are only as a context of industries they serve."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Blue Spark\u2122 Parylene Dimer",
+        "product_type": "proprietary parylene coating material",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 46,
+            "line_end": 46,
+            "url": "https://www.plasmarugged.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Blue Spark\u2122 Parylene Dimer](https://www.plasmarugged.com/blue-spark)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Parylene C, PRS XY-C\u2122 Dimer",
+        "product_type": "parylene coating dimer material",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 47,
+            "line_end": 47,
+            "url": "https://www.plasmarugged.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Parylene C, PRS XY-C\u2122 Dimer](https://www.plasmarugged.com/parylene-xy-c-dimer)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Kryptos-17 Epoxy Resin System",
+        "product_type": "potting/encapsulation epoxy resin",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 48,
+            "line_end": 48,
+            "url": "https://www.plasmarugged.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Kryptos-17 Epoxy Resin System](https://www.plasmarugged.com/kryptos)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Kronos-10\u2122 Underfill Material",
+        "product_type": "BGA underfill material",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 49,
+            "line_end": 49,
+            "url": "https://www.plasmarugged.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Kronos-10\u2122 Underfill Material](https://www.plasmarugged.com/kronos)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Portable Conformal Coating Inspection Box",
+        "product_type": "UV inspection device for conformal coatings",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0122",
+            "line_start": 118,
+            "line_end": 120,
+            "url": "https://www.plasmarugged.com/product-offerings-aftermarket",
+            "page_class": "product",
+            "snippet": "Portable Conformal Coating Inspection Box\n-----------------------------------------\nThe portable [conformal coating inspection box](uploads/pdfs/GM2010_InspectionBox_TDS%20Rev%202.0.pdf) is design for practical conformal coating inspection of printed circuit printed boards. Conformal coatings contain UV indicators for ease of inspection under black lights.\u00a0 The portable conformal coating box makes inspection of conformal coatings easy and convenient.\u00a0\u00a0["
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "PRS primarily sells services. Proprietary materials (Blue Spark, XY-C, Kryptos-17, Kronos-10) are named product SKUs; the inspection box is a hardware product."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 163,
+        "line_end": 163,
+        "url": "https://www.plasmarugged.com",
+        "page_class": "homepage",
+        "snippet": "**With a 5-7 day turnaround and [quality assured](quality-assurance), we deliver products and services tailored to your needs.**"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 120,
+        "line_end": 120,
+        "url": "https://www.plasmarugged.com",
+        "page_class": "homepage",
+        "snippet": "With locations in [San Jose](san-jose) and [Huntington Beach](huntington-beach), California, PRS operates more than 40,000 square feet of advanced manufacturing space, allowing us to support high-volume production across\u00a0various\u00a0[industries](industries-served)\u00a0such\u00a0as [aerospace](aerospace-defense), [defense](aerospace-defense), [medical](medical-equipment-devices), and industrial manufacturing.\u00a0 Our full-service fabrication capabilities, including [5-axis CNC machining](5-axis-cnc-milling-machine), enable us to produce complex, high-precision components that meet the most demanding engineering requirements."
+      }
+    ],
+    "notes": "PRS advertises a 5-7 day turnaround, supports high-volume production across 40,000+ sq ft of manufacturing space, and holds NADCAP and AS9100 certifications."
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Conformal coating and parylene coating services for PCBs, including proprietary formulations (Blue Spark\u2122 Parylene Dimer, Kryptos-17 Epoxy, Kronos-10\u2122 Underfill) and vapor-deposition, potting, and BGA underfill capabilities. CMMC, Nadcap, NASA, and ITAR certified. NDAA and Blue UAS status not publicly confirmed; no named defense primes or UAS programs identified in available sources.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 17,
+    "total_cost_usd": 0.49202914999999997,
+    "created_at": "2026-05-04T05:14:52+00:00",
+    "extract_version": "0.1.0"
+  }
+}

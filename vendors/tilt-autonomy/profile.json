@@ -1,0 +1,412 @@
+{
+  "target_id": "tilt-autonomy",
+  "run_id": "canonical",
+  "display_name": "TILT Autonomy",
+  "homepage_url": "https://tiltautonomy.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/tilt-autonomy/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "flight_and_vehicle_control",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 41,
+            "line_end": 41,
+            "url": "https://tiltautonomy.com",
+            "page_class": "homepage",
+            "snippet": "At the core of every autonomous system lies Guidance, Navigation, and Control (GNC). It\u2019s the backbone that empowers machines to make real-time decisions, adapt to dynamic environments, and achieve precise outcomes. Our team possesses deep expertise in Guidance, Navigation, and Control (GNC) systems for precise positioning and maneuverability for land, sea and air."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 33,
+            "line_end": 33,
+            "url": "https://tiltautonomy.com",
+            "page_class": "homepage",
+            "snippet": "We believe that true quality in vehicle autonomy can only be achieved by mastering the entire process from start to finish. That's why we focus on end-to-end solutions, integrating expertise across every stage of development, from design and prototyping to testing and deployment. By controlling the entire workflow, we ensure seamless integration, optimal performance, and unparalleled reliability."
+          }
+        ],
+        "notes": "Core expertise is GNC systems, autonomy stacks, and NAVCOM control module"
+      },
+      {
+        "category": "airframes",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0024",
+            "line_start": 17,
+            "line_end": 17,
+            "url": "https://tiltautonomy.com/maritime-autonomous-rescue-vehicle-case-study",
+            "page_class": "news",
+            "snippet": "Accelerating USV Autonomy for Combat Search and Rescue\u200b"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 45,
+            "line_end": 45,
+            "url": "https://tiltautonomy.com",
+            "page_class": "homepage",
+            "snippet": "Developed from the ground up in just 90 days, MARV showcases what expert, focused teams can do. From sensor fusion and guidance algorithms to propulsion control and power management, every subsystem was engineered to perform complex tasks in a maritime environment."
+          }
+        ],
+        "notes": "MARV is a complete USV built from the ground up; described as a prototype demonstrator, not a catalog product"
+      },
+      {
+        "category": "ground_segment",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0024",
+            "line_start": 47,
+            "line_end": 48,
+            "url": "https://tiltautonomy.com/maritime-autonomous-rescue-vehicle-case-study",
+            "page_class": "news",
+            "snippet": "### ENDGAME: Ground Control and Command Hub\nTILT's integrated Ground Control Station served as the central interface for mission execution and oversight. Through the TILT GCS, a single operator could coordinate with external systems and:"
+          }
+        ],
+        "notes": "ENDGAME is their proprietary GCS for mission planning and execution"
+      },
+      {
+        "category": "communications",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0023",
+            "line_start": 22,
+            "line_end": 22,
+            "url": "https://tiltautonomy.com/lightweight-poe-for-starlink-approved-for-dius-blue-uas-framework",
+            "page_class": "compliance",
+            "snippet": "Our Lightweight PoE device enables DC-powered Starlink integration in autonomous air and ground platforms, providing ruggedized, high-efficiency connectivity with advanced DroneCAN support. Unlike other solutions, it allows operators to enable/disable power and monitor voltage and current telemetry, ensuring greater control and situational awareness for defense missions."
+          }
+        ],
+        "notes": "Lightweight PoE for Starlink enables satellite connectivity on UxS platforms; approved for Blue UAS Framework as a Data Transmission Device"
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "TILT's primary expertise is full-stack UxS autonomy (GNC, autonomy stacks, hardware modules). Secondary categories include airframes (MARV USV), ground_segment (ENDGAME GCS), and communications (Lightweight PoE for Starlink). List may be incomplete as product pages (/suas-class, /lightweight-poe-for-starlink, /rugged-poe-for-starlink) were skipped."
+  },
+  "headquarters": {
+    "value": {
+      "city": null,
+      "state_or_province": null,
+      "country": "United States",
+      "address": null
+    },
+    "confidence": "low",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 52,
+        "line_end": 52,
+        "url": "https://tiltautonomy.com",
+        "page_class": "homepage",
+        "snippet": "Our team blends top talent from Silicon Valley and the military, bringing together decades of experience in autonomy design and production. Meet a few of the passionate individuals driving our mission at TILT."
+      }
+    ],
+    "notes": "No explicit city or address disclosed on the site. US entity confirmed by DoD/US military partnerships, US exercises, and company registration. Testing conducted in Chesapeake Bay (Mid-Atlantic) but that is a test site, not stated HQ."
+  },
+  "drone_supply_chain_role": {
+    "value": "integrator",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 39,
+        "line_end": 39,
+        "url": "https://tiltautonomy.com",
+        "page_class": "homepage",
+        "snippet": "Whether you\u2019re developing a new vehicle from the ground up or enhancing an existing one with autonomous capabilities, our expertise ensures that your platform\u2014new or legacy\u2014can be seamlessly integrated into an open-source framework."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 33,
+        "line_end": 33,
+        "url": "https://tiltautonomy.com",
+        "page_class": "homepage",
+        "snippet": "We believe that true quality in vehicle autonomy can only be achieved by mastering the entire process from start to finish. That's why we focus on end-to-end solutions, integrating expertise across every stage of development, from design and prototyping to testing and deployment. By controlling the entire workflow, we ensure seamless integration, optimal performance, and unparalleled reliability."
+      }
+    ],
+    "notes": "TILT integrates third-party components (ArduPilot autopilot, SIMRAD radar, FLIR cameras, Starlink) with their own custom modules (NAVCOM, BCM) into complete autonomous systems for defense customers. They also sell standalone hardware (Lightweight PoE), which edges toward subsystem_supplier."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "MARV",
+        "product_type": "autonomous unmanned surface vessel (USV) / combat search-and-rescue demonstrator",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0024",
+            "line_start": 17,
+            "line_end": 17,
+            "url": "https://tiltautonomy.com/maritime-autonomous-rescue-vehicle-case-study",
+            "page_class": "news",
+            "snippet": "Accelerating USV Autonomy for Combat Search and Rescue\u200b"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0025",
+            "line_start": 17,
+            "line_end": 17,
+            "url": "https://tiltautonomy.com/marv-demonstrates-maritime-search-capabilities-at-exercise-northern-strike",
+            "page_class": "news",
+            "snippet": "TILT Autonomy recently participated in the Exercise Northern Strike based out of Alpena, Michigan, deploying the **[MARV, Maritime Autonomous Rescue Vehicle](https://tiltautonomy.com/maritime-autonomous-rescue-vehicle-case-study/)**, in coordination with the **[Joint Personnel Recovery Agency (JPRA)](https://www.jpra.mil/)**."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Lightweight PoE for Starlink",
+        "product_type": "power over ethernet device for Starlink integration in UxS platforms",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0023",
+            "line_start": 14,
+            "line_end": 14,
+            "url": "https://tiltautonomy.com/lightweight-poe-for-starlink-approved-for-dius-blue-uas-framework",
+            "page_class": "compliance",
+            "snippet": "Lightweight PoE for Starlink Approved for DIU\u2019s Blue UAS Framework"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0023",
+            "line_start": 22,
+            "line_end": 22,
+            "url": "https://tiltautonomy.com/lightweight-poe-for-starlink-approved-for-dius-blue-uas-framework",
+            "page_class": "compliance",
+            "snippet": "Our Lightweight PoE device enables DC-powered Starlink integration in autonomous air and ground platforms, providing ruggedized, high-efficiency connectivity with advanced DroneCAN support. Unlike other solutions, it allows operators to enable/disable power and monitor voltage and current telemetry, ensuring greater control and situational awareness for defense missions."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ENDGAME",
+        "product_type": "ground control station / autonomy development platform",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0024",
+            "line_start": 47,
+            "line_end": 48,
+            "url": "https://tiltautonomy.com/maritime-autonomous-rescue-vehicle-case-study",
+            "page_class": "news",
+            "snippet": "### ENDGAME: Ground Control and Command Hub\nTILT's integrated Ground Control Station served as the central interface for mission execution and oversight. Through the TILT GCS, a single operator could coordinate with external systems and:"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "NAVCOM",
+        "product_type": "autonomy and control core module (autopilot, sensor fusion, power distribution)",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0024",
+            "line_start": 57,
+            "line_end": 58,
+            "url": "https://tiltautonomy.com/maritime-autonomous-rescue-vehicle-case-study",
+            "page_class": "news",
+            "snippet": "### NAVCOM: Autonomy and Control Core\nThe TILT NAVCOM module houses MARV\u2019s autopilot, sensor power distribution, and sensor interfaces. It performs real-time sensor fusion and autopilot functions while communicating across:"
+          }
+        ],
+        "notes": "Described as a TILT proprietary module used in MARV; may be available as a standalone product"
+      },
+      {
+        "name": "BCM",
+        "product_type": "Boat Control Module \u2014 translates autonomy commands into vessel actuation",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0024",
+            "line_start": 62,
+            "line_end": 63,
+            "url": "https://tiltautonomy.com/maritime-autonomous-rescue-vehicle-case-study",
+            "page_class": "news",
+            "snippet": "### BCM: Executing Commands in the Vessel\nThe TILT Boat Control Module translates NAVCOM\u2019s high-level autonomy decisions into actuation: throttle, steering, and feedback sensors. It also handles telemetry like fuel state and manual override detection."
+          }
+        ],
+        "notes": "Described as a TILT proprietary module used in MARV"
+      },
+      {
+        "name": "Small Drone Operations Course",
+        "product_type": "sUAS operations training course",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 6,
+            "line_end": 6,
+            "url": "https://tiltautonomy.com",
+            "page_class": "homepage",
+            "snippet": "*   [Small Drone Operations Course](https://tiltautonomy.com/suas-class/)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "NAVCOM and BCM are described as internal MARV modules, not confirmed as separately sold products. Product pages for Lightweight PoE variants were skipped."
+  },
+  "ndaa": {
+    "value": "yes",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0023",
+        "line_start": 20,
+        "line_end": 20,
+        "url": "https://tiltautonomy.com/lightweight-poe-for-starlink-approved-for-dius-blue-uas-framework",
+        "page_class": "compliance",
+        "snippet": "The Blue UAS Framework is the Department of Defense\u2019s (DoD) initiative to streamline the approval process for secure, NDAA-compliant commercial drone and autonomy technologies. By joining this ecosystem, TILT Autonomy\u2019s Lightweight PoE is now recognized as a secure, government-vetted solution for powering and integrating Starlink connectivity into unmanned systems."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0023",
+        "line_start": 17,
+        "line_end": 17,
+        "url": "https://tiltautonomy.com/lightweight-poe-for-starlink-approved-for-dius-blue-uas-framework",
+        "page_class": "compliance",
+        "snippet": "We\u2019re proud to share that TILT Autonomy\u2019s Lightweight Power over Ethernet (PoE) device has been officially approved by the [Defense Innovation Unit (DIU)](https://www.diu.mil/) for inclusion in the Blue UAS Framework under the \u201cData Transmission Device\u201d category."
+      }
+    ],
+    "notes": "TILT's Lightweight PoE is approved for the Blue UAS Framework, which is explicitly described as being for 'NDAA-compliant' technologies. This constitutes an implicit but documented NDAA compliance claim for that product."
+  },
+  "blue_uas": {
+    "value": "yes",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0023",
+        "line_start": 17,
+        "line_end": 17,
+        "url": "https://tiltautonomy.com/lightweight-poe-for-starlink-approved-for-dius-blue-uas-framework",
+        "page_class": "compliance",
+        "snippet": "We\u2019re proud to share that TILT Autonomy\u2019s Lightweight Power over Ethernet (PoE) device has been officially approved by the [Defense Innovation Unit (DIU)](https://www.diu.mil/) for inclusion in the Blue UAS Framework under the \u201cData Transmission Device\u201d category."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 92,
+        "line_end": 92,
+        "url": "https://tiltautonomy.com",
+        "page_class": "homepage",
+        "snippet": "### [Lightweight PoE for Starlink Approved for DIU\u2019s Blue UAS Framework](https://tiltautonomy.com/lightweight-poe-for-starlink-approved-for-dius-blue-uas-framework/)"
+      }
+    ],
+    "notes": "Lightweight PoE for Starlink explicitly approved by DIU for inclusion in the Blue UAS Framework under 'Data Transmission Device' category."
+  },
+  "readiness": {
+    "value": "prototype",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0024",
+        "line_start": 79,
+        "line_end": 79,
+        "url": "https://tiltautonomy.com/maritime-autonomous-rescue-vehicle-case-study",
+        "page_class": "news",
+        "snippet": "In less than three months, MARV evolved from concept to operational prototype. It didn\u2019t just prove that autonomy was possible, it showed that with the right architecture, autonomy could be fielded quickly, with mission-relevant performance."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0019",
+        "line_start": 17,
+        "line_end": 17,
+        "url": "https://tiltautonomy.com/engineering-without-the-gridlock-how-small-teams-move-fast-and-solve-big-problems",
+        "page_class": "news",
+        "snippet": "In early 2025, the Air Force\u2019s Blue Horizons program tasked TILT Autonomy to design and build an autonomous surface vehicle (ASV) capable of finding and recovering downed Airmen in the ocean. This was an extremely demanding project, but TILT successfully delivered a [working prototype in just three months](https://tiltautonomy.com/maritime-autonomous-rescue-vehicle-case-study/)."
+      }
+    ],
+    "notes": "MARV is explicitly described as an 'operational prototype' delivered in three months. TILT also converts manned platforms for DoD clients as one-off projects. The Lightweight PoE device is in production and Blue UAS approved. Primary business posture is prototyping/custom development for defense."
+  },
+  "unresolved_questions": [
+    "Headquarters city and state not disclosed on site",
+    "NAVCOM and BCM module availability as standalone products vs. MARV-only components unclear",
+    "Full product line unknown \u2014 /suas-class, /lightweight-poe-for-starlink, /rugged-poe-for-starlink pages were skipped"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://tiltautonomy.com/suas-class",
+      "reason": "Product/capability page for their Small Drone Operations Course \u2014 would clarify whether this is a training service and confirm supply chain role (service_provider dimension)",
+      "expected_evidence": [
+        "products",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://tiltautonomy.com/lightweight-poe-for-starlink",
+      "reason": "Product page for the Lightweight PoE for Starlink \u2014 would confirm pricing, availability, and production status; could also confirm NDAA/Blue UAS compliance language",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://tiltautonomy.com/rugged-poe-for-starlink",
+      "reason": "Second PoE product variant page \u2014 would expand product list and confirm whether TILT has a product family",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://tiltautonomy.com/defense-innovation-unit-diu-and-singapore-ministry-of-defence-mindef-recognize-tilt-autonomy-for-advancing-suas-communications",
+      "reason": "News about DIU and Singapore MINDEF recognition for sUAS communications \u2014 would confirm Blue UAS status and clarify communications product line",
+      "expected_evidence": [
+        "blue_uas",
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=news",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "tagline": "Integrator of flight control, ground segment, and communications for autonomous unmanned systems across air and maritime domains. Core offerings include NAVCOM (autonomy/autopilot module), ENDGAME (GCS/development platform), MARV (prototype autonomous surface vessel), and NDAA/Blue UAS\u2013certified Starlink PoE adapter. Readiness levels mixed: production-ready comms hardware; prototype maritime vehicle; control modules and C2 systems status unclear in public record. Leadership from DIU/Anduril backgrounds. Limited third-party validation or contract announcements visible.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 9,
+    "total_cost_usd": 0.5950742499999999,
+    "created_at": "2026-05-04T06:51:55+00:00",
+    "extract_version": "0.1.0"
+  }
+}

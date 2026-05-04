@@ -1,0 +1,335 @@
+{
+  "target_id": "gladiator-technologies",
+  "run_id": "canonical",
+  "display_name": "Gladiator Technologies",
+  "homepage_url": "https://gladiatortechnologies.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/gladiator-technologies/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 112,
+            "line_end": 112,
+            "url": "https://gladiatortechnologies.com",
+            "page_class": "homepage",
+            "snippet": "Gladiator Technologies is a leading designer and manufacturer of high performance MEMS inertial sensors, systems including IMUs, INS, Gyroscopes and Accelerometers."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 73,
+            "line_end": 74,
+            "url": "https://gladiatortechnologies.com",
+            "page_class": "homepage",
+            "snippet": "*   Fixed Wing UAVs\n*   UUVs, UGVs, Airships"
+          }
+        ],
+        "notes": "MEMS IMUs, gyroscopes, and accelerometers for navigation, flight control, and stabilization in UAVs, UGVs, and UUVs"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Solely sensors/navigation components; no airframes or other subsystems"
+  },
+  "headquarters": {
+    "value": {
+      "city": "Snoqualmie",
+      "state_or_province": "Washington",
+      "country": "United States",
+      "address": "35329 SE Center St, Snoqualmie, WA 98065"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0037",
+        "line_start": 30,
+        "line_end": 30,
+        "url": "https://gladiatortechnologies.com/about",
+        "page_class": "company",
+        "snippet": "We design and manufacture our products in our facility located in Snoqualmie, WA USA."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0029",
+        "line_start": 12,
+        "line_end": 14,
+        "url": "https://gladiatortechnologies.com/2023/12/gladiator-technologies-has-moved-to-a-new-facility",
+        "page_class": "news",
+        "snippet": "**New Address:**\n35329 SE Center St\nSnoqualmie, WA, USA, 98065"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 73,
+        "line_end": 74,
+        "url": "https://gladiatortechnologies.com",
+        "page_class": "homepage",
+        "snippet": "*   Fixed Wing UAVs\n*   UUVs, UGVs, Airships"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 112,
+        "line_end": 112,
+        "url": "https://gladiatortechnologies.com",
+        "page_class": "homepage",
+        "snippet": "Gladiator Technologies is a leading designer and manufacturer of high performance MEMS inertial sensors, systems including IMUs, INS, Gyroscopes and Accelerometers."
+      }
+    ],
+    "notes": "Sells MEMS IMUs, gyroscopes, and accelerometers as components to drone OEMs and system integrators. Listed applications include Fixed Wing UAVs, UUVs, UGVs."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "GA50",
+        "product_type": "open loop MEMS accelerometer",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0065",
+            "line_start": 56,
+            "line_end": 56,
+            "url": "https://gladiatortechnologies.com/products",
+            "page_class": "product",
+            "snippet": "### GA50"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "A300D",
+        "product_type": "three-axis digital MEMS accelerometer",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0065",
+            "line_start": 65,
+            "line_end": 66,
+            "url": "https://gladiatortechnologies.com/products",
+            "page_class": "product",
+            "snippet": "### A300D\nThe new A300D is Gladiator Technologies\u2019 ultra-low noise three-axis digital MEMS accelerometer with high dynamic range sensors. At only 0.6 cubic inches, the A300D accelerometer comes factory calibrated over the full temperature range, conditioned over environments."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "A40",
+        "product_type": "single-axis MEMS accelerometer",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0065",
+            "line_start": 111,
+            "line_end": 112,
+            "url": "https://gladiatortechnologies.com/products",
+            "page_class": "product",
+            "snippet": "### A40 Accelerometer\nThe\u00a0A40 Accelerometer\u00a0is a small, ultra-low noise,\u00a0single-axis MEMS accel. This robust accel is designed to handle 500g shock and 5.74g RMS vibration in an EMI resistant housing. Its price and performance are ideal for low frequency motion and tilt measurement."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "G300D",
+        "product_type": "three-axis MEMS gyroscope",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0065",
+            "line_start": 162,
+            "line_end": 162,
+            "url": "https://gladiatortechnologies.com/products",
+            "page_class": "product",
+            "snippet": "### G300D Triax Gyro"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "G200",
+        "product_type": "analog dual-axis MEMS gyroscope",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0065",
+            "line_start": 209,
+            "line_end": 210,
+            "url": "https://gladiatortechnologies.com/products",
+            "page_class": "product",
+            "snippet": "### G200\n_Analog Dual-Axis Gyro_"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "G150Z",
+        "product_type": "single-axis analog MEMS gyroscope",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0065",
+            "line_start": 227,
+            "line_end": 228,
+            "url": "https://gladiatortechnologies.com/products",
+            "page_class": "product",
+            "snippet": "### G150Z\n_Single Axis Analog Gyro_"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "LandMark005 IMU",
+        "product_type": "six-axis MEMS IMU",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0065",
+            "line_start": 279,
+            "line_end": 280,
+            "url": "https://gladiatortechnologies.com/products",
+            "page_class": "product",
+            "snippet": "### LandMark\u2122005 IMU\nThe\u00a0LandMark\u2122005 IMU is Gladiator Technologies\u2019 high speed, six-axis MEMS Inertial Measurement Unit (IMU) equipped with low noise sensors, VELOX\u2122 high speed processing and user configurable firmware.\u00a0 Only 0.6 cubic inches, the LandMark\u2122005 comes factory calibrated over the full temperature range, conditioned over environments."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "LandMark007 IMU",
+        "product_type": "high-dynamic six-axis MEMS IMU",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0065",
+            "line_start": 314,
+            "line_end": 315,
+            "url": "https://gladiatortechnologies.com/products",
+            "page_class": "product",
+            "snippet": "### LandMark\u2122007 IMU\nHigh speed, six-axis IMU built for high dynamic environments."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "LandMark007X IMU",
+        "product_type": "high-dynamic six-axis MEMS IMU",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0065",
+            "line_start": 333,
+            "line_end": 334,
+            "url": "https://gladiatortechnologies.com/products",
+            "page_class": "product",
+            "snippet": "### LandMark\u2122007X IMU\nHigh Dynamic 6 Axis IMU"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MRM60 IMU",
+        "product_type": "six-axis analog MEMS IMU",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0065",
+            "line_start": 352,
+            "line_end": 353,
+            "url": "https://gladiatortechnologies.com/products",
+            "page_class": "product",
+            "snippet": "### MRM60 IMU\n_Analog Output_"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Additional product sub-pages (individual gyroscope, accelerometer pages) were skipped in crawl; listed products derive from the all-products page"
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0065",
+        "line_start": 366,
+        "line_end": 366,
+        "url": "https://gladiatortechnologies.com/products",
+        "page_class": "product",
+        "snippet": "All Products are NON-ITAR"
+      }
+    ],
+    "notes": "Site states 'All Products are NON-ITAR' but makes no explicit NDAA Section 848/889 compliance claim"
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0037",
+        "line_start": 35,
+        "line_end": 35,
+        "url": "https://gladiatortechnologies.com/about",
+        "page_class": "company",
+        "snippet": "Our repeatable manufacturing systems have fully automated environmental conditioning and calibration test equipment scaled for high volume production."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0029",
+        "line_start": 10,
+        "line_end": 10,
+        "url": "https://gladiatortechnologies.com/2023/12/gladiator-technologies-has-moved-to-a-new-facility",
+        "page_class": "news",
+        "snippet": "2023 brought big changes at Gladiator Technologies. We moved to a new 25,000 square foot facility that has given us needed space for our growing team, new equipment and increased production capacity."
+      }
+    ],
+    "notes": "About page cites automated test equipment scaled for high volume production; 2023 facility move added increased production capacity"
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "MEMS inertial sensors and IMUs\u2014gyroscopes, accelerometers, and integrated navigation systems\u2014optimized for low noise and high-speed processing in defense and unmanned platforms. AS9100D certified; NDAA and Blue UAS status not publicly disclosed. Limited public evidence of major prime contracts or DoD programs.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 15,
+    "total_cost_usd": 0.3664832,
+    "created_at": "2026-05-04T03:00:13+00:00",
+    "extract_version": "0.1.0"
+  }
+}

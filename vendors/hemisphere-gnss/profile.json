@@ -1,0 +1,440 @@
+{
+  "target_id": "hemisphere-gnss",
+  "run_id": "canonical",
+  "display_name": "Hemisphere GNSS",
+  "homepage_url": "https://hemispheregnss.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/hemisphere-gnss/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0017",
+            "line_start": 51,
+            "line_end": 51,
+            "url": "http://www.hemispheregnss.com/company",
+            "page_class": "company",
+            "snippet": "Building on a powerful intellectual property portfolio, Hemisphere GNSS has become a leader in the high-performance satellite positioning and heading marketplace with a robust technology foundation and a relentless focus on innovation."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0419",
+            "line_start": 43,
+            "line_end": 43,
+            "url": "https://www.hemispheregnss.com/product/vector-vs-i8-inertial-navigation-system",
+            "page_class": "news",
+            "snippet": "Vector\u2122 VS-i8 Inertial Navigation System"
+          }
+        ],
+        "notes": "Core business: GNSS OEM boards, receivers, smart antennas, INS, and GNSS antennas for high-precision positioning and heading. VS-i8 INS explicitly listed for UAV applications."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Tempe",
+      "state_or_province": "Arizona",
+      "country": "United States",
+      "address": "1700 N Desert Drive Ste 101, Tempe, AZ 85288"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0005",
+        "line_start": 133,
+        "line_end": 136,
+        "url": "http://www.hemispheregnss.com/",
+        "page_class": "homepage",
+        "snippet": "HEADQUARTERS, U.S. OPERATIONS, & DISTRIBUTION/FULFILLMENT\n---------------------------------------------------------\n[1700 N Desert Drive Ste 101,](https://maps.app.goo.gl/ZAsUZJSRgZuCytsA7)\n[Tempe, AZ 85288 USA](https://www.hemispheregnss.com/contact/_wp_link_placeholder)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0017",
+        "line_start": 54,
+        "line_end": 54,
+        "url": "http://www.hemispheregnss.com/company",
+        "page_class": "company",
+        "snippet": "Hemisphere is headquartered in Tempe, AZ, USA, delivering its tailored solutions on a global scale with sales in more than 55 countries. Hemisphere also wholly-owns and operates Outback Guidance, based out of Hiawatha, KS, USA, designing, manufacturing, and selling highly-refined precision agriculture steering solutions through a global dealer channel."
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0463",
+        "line_start": 63,
+        "line_end": 63,
+        "url": "https://www.hemispheregnss.com/products/antennas",
+        "page_class": "product",
+        "snippet": "The multi-GNSS, multi-frequency HA32 is a high-performance UAV GNSS antenna designed to receive GPS, BeiDou, GLONASS, Galileo, QZSS, SBAS, and Atlas L-band signals."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0419",
+        "line_start": 48,
+        "line_end": 48,
+        "url": "https://www.hemispheregnss.com/product/vector-vs-i8-inertial-navigation-system",
+        "page_class": "news",
+        "snippet": "The Hemisphere VS-i8 is a high accuracy, high precision, Inertial Navigation System (INS) product. Featuring Honeywell\u00ae proprietary sensor fusion technology, the VS-i8 leverages a powerful multi-frequency, multi-constellation, RTK-ready navigation and positioning solution for a wide variety of GNSS platforms and applications."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0017",
+        "line_start": 53,
+        "line_end": 53,
+        "url": "http://www.hemispheregnss.com/company",
+        "page_class": "company",
+        "snippet": "Hemisphere\u2019s innovative GNSS-based solutions are focused on agriculture, construction & mining, marine, and L-band correction service markets, delivered via OEM partners, and under the Hemisphere brand through a global dealer network."
+      }
+    ],
+    "notes": "Sells GNSS OEM boards, antennas, receivers, and INS modules to OEM integrators and end users. Dedicated UAV products include HA32 UAV GNSS Antenna and VS-i8 INS."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Vector\u2122 VS-i8 Inertial Navigation System",
+        "product_type": "GNSS/INS inertial navigation system (UAV, marine, mapping)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0419",
+            "line_start": 43,
+            "line_end": 43,
+            "url": "https://www.hemispheregnss.com/product/vector-vs-i8-inertial-navigation-system",
+            "page_class": "news",
+            "snippet": "Vector\u2122 VS-i8 Inertial Navigation System"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0419",
+            "line_start": 48,
+            "line_end": 48,
+            "url": "https://www.hemispheregnss.com/product/vector-vs-i8-inertial-navigation-system",
+            "page_class": "news",
+            "snippet": "The Hemisphere VS-i8 is a high accuracy, high precision, Inertial Navigation System (INS) product. Featuring Honeywell\u00ae proprietary sensor fusion technology, the VS-i8 leverages a powerful multi-frequency, multi-constellation, RTK-ready navigation and positioning solution for a wide variety of GNSS platforms and applications."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HA32 UAV GNSS Antenna",
+        "product_type": "UAV GNSS antenna",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0463",
+            "line_start": 59,
+            "line_end": 60,
+            "url": "https://www.hemispheregnss.com/products/antennas",
+            "page_class": "product",
+            "snippet": "[HA32 UAV GNSS Antenna](https://www.hemispheregnss.com/product/ha32-uav-gnss-antenna/?portfolioCats=20%2C25)[](https://www.hemispheregnss.com/product/ha32-uav-gnss-antenna/?portfolioCats=20%2C25)\n[HA32 UAV GNSS Antenna](https://www.hemispheregnss.com/product/ha32-uav-gnss-antenna/?portfolioCats=20%2C25)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Phantom\u2122 20 & 34 GNSS OEM Boards",
+        "product_type": "GNSS OEM positioning boards",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0377",
+            "line_start": 43,
+            "line_end": 43,
+            "url": "https://www.hemispheregnss.com/product/phantom-20-34-gnss-oem-boards",
+            "page_class": "news",
+            "snippet": "Phantom\u2122 20 & 34 GNSS OEM Boards"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Phantom\u2122 40 GNSS OEM Board",
+        "product_type": "GNSS OEM positioning board",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0031",
+            "line_start": 71,
+            "line_end": 72,
+            "url": "http://www.hemispheregnss.com/products/oem-boards",
+            "page_class": "product",
+            "snippet": "[Phantom\u2122 40 GNSS OEM Board](https://www.hemispheregnss.com/product/phantom-40-gnss-oem-board/?portfolioCats=30%2C21%2C22%2C23)[](https://www.hemispheregnss.com/product/phantom-40-gnss-oem-board/?portfolioCats=30%2C21%2C22%2C23)\n[Phantom\u2122 40 GNSS OEM Board](https://www.hemispheregnss.com/product/phantom-40-gnss-oem-board/?portfolioCats=30%2C21%2C22%2C23)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Vega\u2122 GNSS Compass Boards (28, 34, 40, 60)",
+        "product_type": "GNSS OEM compass boards",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0031",
+            "line_start": 51,
+            "line_end": 52,
+            "url": "http://www.hemispheregnss.com/products/oem-boards",
+            "page_class": "product",
+            "snippet": "[Vega\u2122 34 GNSS Compass Board](https://www.hemispheregnss.com/product/vega-34-gnss-compass-board/?portfolioCats=30%2C21%2C22%2C23)[](https://www.hemispheregnss.com/product/vega-34-gnss-compass-board/?portfolioCats=30%2C21%2C22%2C23)\n[Vega\u2122 34 GNSS Compass Board](https://www.hemispheregnss.com/product/vega-34-gnss-compass-board/?portfolioCats=30%2C21%2C22%2C23)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SBX-4 DGPS Beacon OEM Board",
+        "product_type": "DGPS beacon OEM board",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0031",
+            "line_start": 122,
+            "line_end": 123,
+            "url": "http://www.hemispheregnss.com/products/oem-boards",
+            "page_class": "product",
+            "snippet": "[SBX-4 DGPS Beacon OEM Board](https://www.hemispheregnss.com/product/sbx-4-dgps-beacon-oem-board/?portfolioCats=30%2C21%2C22%2C23)\n----------------------------------------------------------------------------------------------------------------------------------"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "R632 GNSS Receiver",
+        "product_type": "GNSS receiver",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0377",
+            "line_start": 127,
+            "line_end": 127,
+            "url": "https://www.hemispheregnss.com/product/phantom-20-34-gnss-oem-boards",
+            "page_class": "news",
+            "snippet": "[R632 GNSS Receiver](https://www.hemispheregnss.com/product/r632-gnss-receiver/?portfolioCats=21%2C33)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Vector\u2122 VR500 GNSS Smart Antenna",
+        "product_type": "GNSS smart antenna (position & heading)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0419",
+            "line_start": 111,
+            "line_end": 112,
+            "url": "https://www.hemispheregnss.com/product/vector-vs-i8-inertial-navigation-system",
+            "page_class": "news",
+            "snippet": "[Vector\u2122 VR500 GNSS Smart Antenna](https://www.hemispheregnss.com/product/vector-vr500-gnss-smart-antenna/?portfolioCats=29%2C22%2C27)[](https://www.hemispheregnss.com/product/vector-vr500-gnss-smart-antenna/?portfolioCats=29%2C22%2C27)\n[Vector\u2122 VR500 GNSS Smart Antenna](https://www.hemispheregnss.com/product/vector-vr500-gnss-smart-antenna/?portfolioCats=29%2C22%2C27)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Vector\u2122 V500 GNSS Smart Antenna",
+        "product_type": "GNSS smart antenna",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0419",
+            "line_start": 98,
+            "line_end": 99,
+            "url": "https://www.hemispheregnss.com/product/vector-vs-i8-inertial-navigation-system",
+            "page_class": "news",
+            "snippet": "[Vector\u2122 V500 GNSS Smart Antenna](https://www.hemispheregnss.com/product/vector-v500-gnss-smart-antenna/?portfolioCats=29%2C22%2C27)[](https://www.hemispheregnss.com/product/vector-v500-gnss-smart-antenna/?portfolioCats=29%2C22%2C27)\n[Vector\u2122 V500 GNSS Smart Antenna](https://www.hemispheregnss.com/product/vector-v500-gnss-smart-antenna/?portfolioCats=29%2C22%2C27)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Vector\u2122 V123 & V133 GNSS Smart Antennas",
+        "product_type": "GNSS smart antennas (marine)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0419",
+            "line_start": 86,
+            "line_end": 87,
+            "url": "https://www.hemispheregnss.com/product/vector-vs-i8-inertial-navigation-system",
+            "page_class": "news",
+            "snippet": "[Vector\u2122 V123 & V133 GNSS Smart Antennas](https://www.hemispheregnss.com/product/vector-v123-v133-gnss-smart-antennas/?portfolioCats=29%2C22%2C27)[](https://www.hemispheregnss.com/product/vector-v123-v133-gnss-smart-antennas/?portfolioCats=29%2C22%2C27)\n[Vector\u2122 V123 & V133 GNSS Smart Antennas](https://www.hemispheregnss.com/product/vector-v123-v133-gnss-smart-antennas/?portfolioCats=29%2C22%2C27)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "C631 GNSS Smart Antenna",
+        "product_type": "GNSS smart antenna (RTK, surveying)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0419",
+            "line_start": 134,
+            "line_end": 135,
+            "url": "https://www.hemispheregnss.com/product/vector-vs-i8-inertial-navigation-system",
+            "page_class": "news",
+            "snippet": "[C631 GNSS Smart Antenna](https://www.hemispheregnss.com/product/c631-gnss-smart-antenna/?portfolioCats=29%2C22%2C27)[](https://www.hemispheregnss.com/product/c631-gnss-smart-antenna/?portfolioCats=29%2C22%2C27)\n[C631 GNSS Smart Antenna](https://www.hemispheregnss.com/product/c631-gnss-smart-antenna/?portfolioCats=29%2C22%2C27)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "A631 GNSS Smart Antenna",
+        "product_type": "GNSS smart antenna (marine)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0419",
+            "line_start": 65,
+            "line_end": 66,
+            "url": "https://www.hemispheregnss.com/product/vector-vs-i8-inertial-navigation-system",
+            "page_class": "news",
+            "snippet": "[A631 GNSS Smart Antenna](https://www.hemispheregnss.com/product/a631-gnss-smart-antenna/?portfolioCats=29%2C22%2C27)[](https://www.hemispheregnss.com/product/a631-gnss-smart-antenna/?portfolioCats=29%2C22%2C27)\n[A631 GNSS Smart Antenna](https://www.hemispheregnss.com/product/a631-gnss-smart-antenna/?portfolioCats=29%2C22%2C27)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Atlas\u00ae GNSS Global Correction Service",
+        "product_type": "L-band GNSS correction service",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0480",
+            "line_start": 105,
+            "line_end": 106,
+            "url": "https://www.hemispheregnss.com/technology",
+            "page_class": "capability",
+            "snippet": "Atlas\u00ae\nScalable, Global GNSS Correction Service for All High-Precision Applications"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "LandMetrix\u2122 OEM Agriculture Solution Toolkit",
+        "product_type": "OEM agriculture software/hardware toolkit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0419",
+            "line_start": 145,
+            "line_end": 146,
+            "url": "https://www.hemispheregnss.com/product/vector-vs-i8-inertial-navigation-system",
+            "page_class": "news",
+            "snippet": "[LandMetrix\u2122 OEM Agriculture Solution Toolkit](https://www.hemispheregnss.com/product/landmetrix-oem-agriculture-solution-toolkit/?portfolioCats=29%2C22%2C27)[](https://www.hemispheregnss.com/product/landmetrix-oem-agriculture-solution-toolkit/?portfolioCats=29%2C22%2C27)\n[LandMetrix\u2122 OEM Agriculture Solution Toolkit](https://www.hemispheregnss.com/product/landmetrix-oem-agriculture-solution-toolkit/?portfolioCats=29%2C22%2C27)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "A-series GNSS Antennas (A21, A25, A42, A43, A45, A46, A65)",
+        "product_type": "GNSS antennas (various frequencies and applications)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0463",
+            "line_start": 65,
+            "line_end": 66,
+            "url": "https://www.hemispheregnss.com/products/antennas",
+            "page_class": "product",
+            "snippet": "![](https://www.hemispheregnss.com/wp-content/uploads/a1-300x214.png)\n[A21/A31 Antenna](https://www.hemispheregnss.com/product/a21-a31-antenna/?portfolioCats=20%2C25)[](https://www.hemispheregnss.com/product/a21-a31-antenna/?portfolioCats=20%2C25)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Product list covers fetched pages; HA32 UAV GNSS Antenna product page was skipped (skipped_class_budget) but product is clearly described in antenna category pages."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "Compliance page covers ISO 9001:2015, EU DoC, RoHS, REACH, and Conflict Minerals \u2014 no NDAA Section 848/889 mention anywhere in the corpus."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No mention of Blue UAS or Blue sUAS anywhere in the corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0017",
+        "line_start": 54,
+        "line_end": 54,
+        "url": "http://www.hemispheregnss.com/company",
+        "page_class": "company",
+        "snippet": "Hemisphere is headquartered in Tempe, AZ, USA, delivering its tailored solutions on a global scale with sales in more than 55 countries. Hemisphere also wholly-owns and operates Outback Guidance, based out of Hiawatha, KS, USA, designing, manufacturing, and selling highly-refined precision agriculture steering solutions through a global dealer channel."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0377",
+        "line_start": 62,
+        "line_end": 63,
+        "url": "https://www.hemispheregnss.com/product/phantom-20-34-gnss-oem-boards",
+        "page_class": "news",
+        "snippet": "[User Guide](https://www.hemispheregnss.com/wp-content/uploads/875-0433-10_A4-Phantom-20_34-GNSS-OEM-Board-Integrator-Guide.pdf)\n[Datasheet](https://www.hemispheregnss.com/wp-content/uploads/875-0527-10__Phantom20_34_DataSheet-2.pdf)"
+      }
+    ],
+    "notes": "Catalog products with standard SKUs sold in 55+ countries through a global dealer network."
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [
+    {
+      "url": "https://www.hemispheregnss.com/product/ha32-uav-gnss-antenna",
+      "reason": "Dedicated UAV GNSS antenna product page would confirm UAV-specific specs and any compliance claims relevant to the drone supply chain profile.",
+      "expected_evidence": [
+        "products",
+        "drone_supply_chain_role",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 18,
+    "total_cost_usd": 0.7420114999999999,
+    "created_at": "2026-05-03T11:37:18+00:00",
+    "extract_version": "0.1.0"
+  },
+  "tagline": "Manufactures multi-frequency GNSS OEM boards (Phantom, Vega), receivers, antennas, and inertial-navigation systems for UAV and robotics integration, plus the Atlas L-band global correction service. Production-ready across portfolio. NDAA and Blue UAS certification status unknown; public evidence of defense/allied unmanned-systems adoption is thin."
+}

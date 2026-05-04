@@ -1,0 +1,577 @@
+{
+  "target_id": "norbit",
+  "run_id": "canonical",
+  "display_name": "NORBIT",
+  "homepage_url": "https://norbit.com/subsea/",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/norbit/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0275",
+            "line_start": 16,
+            "line_end": 16,
+            "url": "https://norbit.com/oceans/subsea/multibeam-sonar-systems",
+            "page_class": "capability",
+            "snippet": "NORBIT's multibeam sonar systems are built on a modular platform, enabling configuration for surface vessels, subsea vehicles and deep-water operations. From compact shallow-water solutions to depth-rated systems for ROV and AUV integration, each system is engineered to deliver high-resolution bathymetric data across demanding survey conditions."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0275",
+            "line_start": 37,
+            "line_end": 38,
+            "url": "https://norbit.com/oceans/subsea/multibeam-sonar-systems",
+            "page_class": "capability",
+            "snippet": "**Sonars for subsea vehicles**\nDepth-rated systems for ROV and AUV"
+          }
+        ],
+        "notes": "Multibeam sonar systems (WINGHEAD X, WBMS X, WINGHEAD B43/B44/F11/B57S/B59S) explicitly engineered for ROV and AUV integration; also used on USVs for hydrographic survey."
+      },
+      {
+        "category": "isr_payloads",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0142",
+            "line_start": 58,
+            "line_end": 59,
+            "url": "https://norbit.com/explore-our-solutions/products/seacop",
+            "page_class": "product",
+            "snippet": "[Go to product](/explore-our-solutions/products/securus)\n![SeaView product](https://cdn.sanity.io/images/7xbh1ny1/production/bafe8018532d279002b9cc9c52bdd49ccdd647a6-2280x2006.png?w=3840&q=85&fit=max&auto=format)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0142",
+            "line_start": 74,
+            "line_end": 75,
+            "url": "https://norbit.com/explore-our-solutions/products/seacop",
+            "page_class": "product",
+            "snippet": "[Go to product](/explore-our-solutions/products/guardpoint-70)\n![GuardPoint 100](https://cdn.sanity.io/images/7xbh1ny1/production/567dd5c657e717b5f841b06ceac64ba7e67e76b7-4000x5328.png?w=3840&q=85&fit=max&auto=format)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0142",
+            "line_start": 66,
+            "line_end": 67,
+            "url": "https://norbit.com/explore-our-solutions/products/seacop",
+            "page_class": "product",
+            "snippet": "[Go to product](/explore-our-solutions/products/seadarq)\n![](https://cdn.sanity.io/images/7xbh1ny1/production/a1e822038078aa442dcf3233b170dc86afd48142-1536x1024.png?w=3840&q=85&fit=max&auto=format)"
+          }
+        ],
+        "notes": "GuardPoint series (underwater intruder detection sonars), SECurus (EO/IR maritime surveillance), SeaDarQ (oil spill detection radar) are ISR payloads for maritime security."
+      },
+      {
+        "category": "ground_segment",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0142",
+            "line_start": 13,
+            "line_end": 15,
+            "url": "https://norbit.com/explore-our-solutions/products/seacop",
+            "page_class": "product",
+            "snippet": "SeaCOP Core Platform\n====================\nThe foundation for unified maritime situational awareness"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0142",
+            "line_start": 20,
+            "line_end": 21,
+            "url": "https://norbit.com/explore-our-solutions/products/seacop",
+            "page_class": "product",
+            "snippet": "SeaCOP Core Platform is the operational foundation of NORBIT Aptomar\u2019s offering. It integrates sensor inputs, structures operational intelligence, and gives operators a configurable environment for monitoring, decision-making, and coordinated response.\nBy consolidating relevant operational data into one system, SeaCOP helps organizations reduce ambiguity, improve response times, and manage surveillance, environmental monitoring, and operational governance through a single platform."
+          }
+        ],
+        "notes": "SeaCOP Core Platform integrates sensor inputs for maritime situational awareness, monitoring, and coordinated response \u2014 a maritime C2/ground-segment equivalent."
+      },
+      {
+        "category": "flight_and_vehicle_control",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0275",
+            "line_start": 97,
+            "line_end": 99,
+            "url": "https://norbit.com/oceans/subsea/multibeam-sonar-systems",
+            "page_class": "capability",
+            "snippet": "DCT Autopilot\n-------------\nAutopilot solution for USV/ASV"
+          }
+        ],
+        "notes": "DCT Autopilot is an autopilot solution for USV/ASV."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Trondheim",
+      "state_or_province": null,
+      "country": "Norway",
+      "address": "Stiklestadveien 1, 7041 Trondheim"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0135",
+        "line_start": 13,
+        "line_end": 13,
+        "url": "https://norbit.com/explore-our-solutions",
+        "page_class": "capability",
+        "snippet": "NORBIT ASA Stiklestadveien 1, 7041 Trondheim, Norway"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0115",
+        "line_start": 20,
+        "line_end": 20,
+        "url": "https://norbit.com/defence-capabilities",
+        "page_class": "capability",
+        "snippet": "*   Payload electronics for unmanned systems (air, surface, subsea, land)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0275",
+        "line_start": 37,
+        "line_end": 38,
+        "url": "https://norbit.com/oceans/subsea/multibeam-sonar-systems",
+        "page_class": "capability",
+        "snippet": "**Sonars for subsea vehicles**\nDepth-rated systems for ROV and AUV"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0155",
+        "line_start": 29,
+        "line_end": 29,
+        "url": "https://norbit.com/explore-our-solutions/products/winghead-x",
+        "page_class": "product",
+        "snippet": "NORBIT\u2019s extensive R&D expertise has led to the development of these cutting-edge multibeam sonar systems, designed from the ground up to offer new technology solutions for a wide range of applications, from small USVs to large vessel hull mounts, providing unparalleled data accuracy in the most demanding underwater environments."
+      }
+    ],
+    "notes": "Sells sonar subsystems (WINGHEAD/WBMS series) for ROV/AUV/USV integration, a DCT Autopilot for USV/ASV, and explicitly provides payload electronics for unmanned systems (air, surface, subsea, land) via their PIR contract manufacturing segment."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "WINGHEAD X",
+        "product_type": "ultra high resolution wideband multibeam bathymetry sonar",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0275",
+            "line_start": 28,
+            "line_end": 30,
+            "url": "https://norbit.com/oceans/subsea/multibeam-sonar-systems",
+            "page_class": "capability",
+            "snippet": "WINGHEAD X\n----------\nUltra High Resolution Wideband Multibeam Bathymetry Sonar"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "WBMS X",
+        "product_type": "high resolution wideband multibeam bathymetry sonar",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0275",
+            "line_start": 33,
+            "line_end": 35,
+            "url": "https://norbit.com/oceans/subsea/multibeam-sonar-systems",
+            "page_class": "capability",
+            "snippet": "WBMS X\n------\nHigh Resolution Wideband Multibeam Bathymetry Sonar"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "WINGHEAD B43",
+        "product_type": "1500m depth-rated sonar for ROV/AUV",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0275",
+            "line_start": 44,
+            "line_end": 46,
+            "url": "https://norbit.com/oceans/subsea/multibeam-sonar-systems",
+            "page_class": "capability",
+            "snippet": "WINGHEAD B43\n------------\n1500m Depth rated, Ultra high Resolution Sonar system for Subsea"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "WINGHEAD B44",
+        "product_type": "4500m/6000m depth-rated sonar for ROV/AUV",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0275",
+            "line_start": 49,
+            "line_end": 51,
+            "url": "https://norbit.com/oceans/subsea/multibeam-sonar-systems",
+            "page_class": "capability",
+            "snippet": "WINGHEAD B44\n------------\n4500m/6000m depth rated, Ultra high Resolution Sonar system"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "WINGHEAD B57S",
+        "product_type": "ultra high-resolution long-range motion-stabilised multibeam sonar",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0275",
+            "line_start": 73,
+            "line_end": 75,
+            "url": "https://norbit.com/oceans/subsea/multibeam-sonar-systems",
+            "page_class": "capability",
+            "snippet": "WINGHEAD B57S\n-------------\nUltra High-Resolution Long Range Motion Stabilised System"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "WINGHEAD B59S",
+        "product_type": "high-resolution long-range motion-stabilised bathymetric sonar",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0275",
+            "line_start": 78,
+            "line_end": 80,
+            "url": "https://norbit.com/oceans/subsea/multibeam-sonar-systems",
+            "page_class": "capability",
+            "snippet": "WINGHEAD B59S\n-------------\nSuperior performance high-resolution long range motion stabilised bathymetric system"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "WINGHEAD F11",
+        "product_type": "ultra high resolution forward-looking sonar for ROV/AUV",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0275",
+            "line_start": 65,
+            "line_end": 67,
+            "url": "https://norbit.com/oceans/subsea/multibeam-sonar-systems",
+            "page_class": "capability",
+            "snippet": "WINGHEAD F11 & F11 DS\n---------------------\nUtra high resolution Forward Looking sonar with 900m or 4500m depth rating"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "WBMS FLS",
+        "product_type": "compact forward-looking sonar depth-rated to 6000m",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0275",
+            "line_start": 60,
+            "line_end": 62,
+            "url": "https://norbit.com/oceans/subsea/multibeam-sonar-systems",
+            "page_class": "capability",
+            "snippet": "WBMS FLS compact and FLS Wide\n-----------------------------\nCompact Forward looking sonar with depth rating up to 6000m."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DCT Autopilot",
+        "product_type": "autopilot solution for USV/ASV",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0275",
+            "line_start": 97,
+            "line_end": 99,
+            "url": "https://norbit.com/oceans/subsea/multibeam-sonar-systems",
+            "page_class": "capability",
+            "snippet": "DCT Autopilot\n-------------\nAutopilot solution for USV/ASV"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "iLiDAR",
+        "product_type": "turnkey integrated mobile LiDAR system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0275",
+            "line_start": 102,
+            "line_end": 104,
+            "url": "https://norbit.com/oceans/subsea/multibeam-sonar-systems",
+            "page_class": "capability",
+            "snippet": "iLiDAR\n------\nTurnkey Integrated Mobile iLiDAR system for complete above water 3D point cloud"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SeaCOP Core Platform",
+        "product_type": "maritime situational awareness C2 platform",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0142",
+            "line_start": 13,
+            "line_end": 15,
+            "url": "https://norbit.com/explore-our-solutions/products/seacop",
+            "page_class": "product",
+            "snippet": "SeaCOP Core Platform\n====================\nThe foundation for unified maritime situational awareness"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SECurus",
+        "product_type": "maritime EO/IR surveillance sensor station",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0142",
+            "line_start": 58,
+            "line_end": 59,
+            "url": "https://norbit.com/explore-our-solutions/products/seacop",
+            "page_class": "product",
+            "snippet": "[Go to product](/explore-our-solutions/products/securus)\n![SeaView product](https://cdn.sanity.io/images/7xbh1ny1/production/bafe8018532d279002b9cc9c52bdd49ccdd647a6-2280x2006.png?w=3840&q=85&fit=max&auto=format)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SeaView",
+        "product_type": "shore-based maritime visual awareness system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0142",
+            "line_start": 62,
+            "line_end": 63,
+            "url": "https://norbit.com/explore-our-solutions/products/seacop",
+            "page_class": "product",
+            "snippet": "[Go to product](/explore-our-solutions/products/seaview)\n![](https://cdn.sanity.io/images/7xbh1ny1/production/a4af19b5676f30c982b8c66ceac828543955a8f1-1920x490.png?w=3840&q=85&fit=max&auto=format)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SeaDarQ",
+        "product_type": "oil spill detection radar system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0142",
+            "line_start": 66,
+            "line_end": 67,
+            "url": "https://norbit.com/explore-our-solutions/products/seacop",
+            "page_class": "product",
+            "snippet": "[Go to product](/explore-our-solutions/products/seadarq)\n![](https://cdn.sanity.io/images/7xbh1ny1/production/a1e822038078aa442dcf3233b170dc86afd48142-1536x1024.png?w=3840&q=85&fit=max&auto=format)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SeaTarget",
+        "product_type": "advanced maritime surveillance solution",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0142",
+            "line_start": 70,
+            "line_end": 71,
+            "url": "https://norbit.com/explore-our-solutions/products/seacop",
+            "page_class": "product",
+            "snippet": "[Go to product](/explore-our-solutions/products/seatarget)\n![GuardPoint 70 Sonarhead product picture](https://cdn.sanity.io/images/7xbh1ny1/production/282d493cf3aebde3c48ad3ea5451092ac301f545-2169x1287.png?rect=477,0,1544,1287&w=3840&q=85&fit=max&auto=format)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "GuardPoint 70",
+        "product_type": "underwater intruder detection sonar",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0142",
+            "line_start": 74,
+            "line_end": 75,
+            "url": "https://norbit.com/explore-our-solutions/products/seacop",
+            "page_class": "product",
+            "snippet": "[Go to product](/explore-our-solutions/products/guardpoint-70)\n![GuardPoint 100](https://cdn.sanity.io/images/7xbh1ny1/production/567dd5c657e717b5f841b06ceac64ba7e67e76b7-4000x5328.png?w=3840&q=85&fit=max&auto=format)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "GuardPoint 100",
+        "product_type": "shallow-water underwater intruder detection sonar",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0142",
+            "line_start": 78,
+            "line_end": 79,
+            "url": "https://norbit.com/explore-our-solutions/products/seacop",
+            "page_class": "product",
+            "snippet": "[Go to product](/explore-our-solutions/products/guardpoint-100)\n![GuardPoint 200 intruder detection sonar](https://cdn.sanity.io/images/7xbh1ny1/production/28c4ce096e7638a4b8200293d98971b3294ebe33-2000x1706.png?w=3840&q=85&fit=max&auto=format)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "GuardPoint 200",
+        "product_type": "compact underwater intruder detection sonar",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0142",
+            "line_start": 82,
+            "line_end": 83,
+            "url": "https://norbit.com/explore-our-solutions/products/seacop",
+            "page_class": "product",
+            "snippet": "[Go to product](/explore-our-solutions/products/guardpoint-200)\n![GuardPoint 400](https://cdn.sanity.io/images/7xbh1ny1/production/b685033d0b03b755e470bfdc52785c9cff50daba-768x519.png?w=3840&q=85&fit=max&auto=format)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "GuardPoint 400",
+        "product_type": "portable underwater intruder detection sonar",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0142",
+            "line_start": 86,
+            "line_end": 87,
+            "url": "https://norbit.com/explore-our-solutions/products/seacop",
+            "page_class": "product",
+            "snippet": "[Go to product](/explore-our-solutions/products/guardpoint-400)\nDownloads"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "NORTrace",
+        "product_type": "sonar performance prediction software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0141",
+            "line_start": 13,
+            "line_end": 15,
+            "url": "https://norbit.com/explore-our-solutions/products/nortrace",
+            "page_class": "product",
+            "snippet": "NORTrace\n========\nNORBIT\u2019s ultimate Sonar Performance Prediction tool for estimating sonar performance under changing acoustical, oceanographic and meteorological conditions."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA Section 848/889 claims found in the corpus. Norwegian OEM; NDAA compliance claims are uncommon for non-US suppliers."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS or Blue sUAS claims found in the corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0115",
+        "line_start": 29,
+        "line_end": 31,
+        "url": "https://norbit.com/defence-capabilities",
+        "page_class": "capability",
+        "snippet": "Highly automated, scalable production\n-------------------------------------\nCutting-edge production capacity powered by next-generation machinery. Close to 25 MEUR invested in advanced systems since 2020 - ensuring precision, efficiency, and scalability in every production line."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0115",
+        "line_start": 44,
+        "line_end": 44,
+        "url": "https://norbit.com/defence-capabilities",
+        "page_class": "capability",
+        "snippet": "Trusted partner for security and defence"
+      }
+    ],
+    "notes": "NORBIT advertises serial production with three facilities in Mid-Norway, high-volume SMT production, and ~25 MEUR invested in production equipment since 2020. Ongoing large-scale contract manufacturing programs in defence/security."
+  },
+  "unresolved_questions": [
+    "NDAA Section 848/889 compliance status not disclosed (Norwegian OEM)",
+    "Blue UAS cleared list status not disclosed",
+    "Full list of PIR contract manufacturing products for unmanned systems not publicly disclosed"
+  ],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Manufactures integrated sensor and navigation subsystems for unmanned platforms, including synthetic aperture radar, bathymetric systems, and inertial/GNSS modules under the WINGHEAD and WBMS product lines. Norwegian firm in production-ready status with limited public visibility on U.S. defense certifications (NDAA compliance, Blue UAS status unknown) or named U.S. program integration.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 18,
+    "total_cost_usd": 1.1157148499999998,
+    "created_at": "2026-05-04T04:46:46+00:00",
+    "extract_version": "0.1.0"
+  }
+}

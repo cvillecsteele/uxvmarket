@@ -1,0 +1,121 @@
+{
+  "target_id": "amprius-technologies",
+  "run_id": "canonical",
+  "display_name": "Amprius Technologies",
+  "homepage_url": "https://amprius.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/amprius-technologies/website",
+  "products": [
+    {
+      "name": "SiCore\u00ae",
+      "category": "power_systems",
+      "descriptor": "High-energy-density silicon anode lithium-ion battery family for drones and aviation",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 35,
+          "line_end": 35,
+          "url": "https://amprius.com",
+          "page_class": "homepage",
+          "snippet": "Nokia Drone Networks Integrates Amprius SiCore\u00ae Batteries to Advance High-Reliability Operations"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 328,
+          "line_end": 328,
+          "url": "https://amprius.com",
+          "page_class": "homepage",
+          "snippet": "SiCoreThe highest-performing, most energy-dense batteries."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "500 Wh/kg Battery",
+      "category": "power_systems",
+      "descriptor": "500 Wh/kg silicon anode lithium-ion battery cell platform",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0012",
+          "line_start": 65,
+          "line_end": 65,
+          "url": "https://amprius.com/about",
+          "page_class": "company",
+          "snippet": "##### BREAKING NEWS: Amprius Creates a 500Wh/kg Battery"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "390 Wh/kg polymer electrolyte cell",
+      "category": "power_systems",
+      "descriptor": "390 Wh/kg polymer electrolyte lithium-ion cell for military wearable applications",
+      "granularity": "sku",
+      "readiness": "low_rate_production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0007",
+          "line_start": 27,
+          "line_end": 27,
+          "url": "https://amprius.com/amprius-technologies-passes-military-performance-specification-nail-penetration-test-with-unprecedented-390-wh-kg-cell",
+          "page_class": "news",
+          "snippet": "Amprius Technologies Passes Military Performance Specification Nail Penetration Test With Unprecedented 390 Wh/kg Cell"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0007",
+          "line_start": 36,
+          "line_end": 36,
+          "url": "https://amprius.com/amprius-technologies-passes-military-performance-specification-nail-penetration-test-with-unprecedented-390-wh-kg-cell",
+          "page_class": "news",
+          "snippet": "A purchase order for thirty battery packs has been placed by the U.S. Army for capability demonstration."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Silicon Nanowire Anode Platform",
+      "category": "power_systems",
+      "descriptor": "Patented silicon nanowire anode technology platform for ultra-high-energy-density battery cells",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0127",
+          "line_start": 30,
+          "line_end": 30,
+          "url": "https://amprius.com/bae-systems",
+          "page_class": "capability",
+          "snippet": "**FREMONT, Calif., \u2013 Oct. 25, 2022** \u2013 Amprius Technologies, Inc. (\u201cAmprius\u201d) (NYSE: AMPX), a leader in ultra-high energy density lithium-ion batteries with its Silicon Nanowire Anode Platform, today announced that it has entered into a three-year cooperation agreement with BAE Systems."
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 0,
+    "total_cost_usd": null,
+    "created_at": "2026-05-03T21:28:32+00:00",
+    "extract_version": "0.1.0"
+  }
+}

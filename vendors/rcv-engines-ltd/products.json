@@ -1,0 +1,321 @@
+{
+  "target_id": "rcv-engines-ltd",
+  "run_id": "canonical",
+  "display_name": "RCV Engines Ltd",
+  "homepage_url": "https://www.rcvengines.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/rcv-engines-ltd/website",
+  "products": [
+    {
+      "name": "RCV DF70LC",
+      "category": "propulsion_mechanical",
+      "descriptor": "70cc four-stroke twin-cylinder liquid-cooled heavy-fuel UAV engine with EFI",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0015",
+          "line_start": 1,
+          "line_end": 1,
+          "url": "https://rcvengines.com/rcv-df70lc",
+          "page_class": "other",
+          "snippet": "RCV Engines | DF70LC 4-Stroke Twin Cylinder Engine"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0015",
+          "line_start": 59,
+          "line_end": 59,
+          "url": "https://rcvengines.com/rcv-df70lc",
+          "page_class": "other",
+          "snippet": "Designed as a UAV engine not modified from a hobby engine"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0015",
+          "line_start": 74,
+          "line_end": 76,
+          "url": "https://rcvengines.com/rcv-df70lc",
+          "page_class": "other",
+          "snippet": "70cc\nCooling\nLiquid cooled"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "RCV DF70",
+      "category": "propulsion_mechanical",
+      "descriptor": "70cc four-stroke twin-cylinder air-cooled heavy-fuel UAV engine with EFI",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0009",
+          "line_start": 1,
+          "line_end": 1,
+          "url": "https://rcvengines.com/rcv-df70",
+          "page_class": "other",
+          "snippet": "RCV Engines | DF70 4-Stroke Twin Cylinder Engine"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0009",
+          "line_start": 59,
+          "line_end": 59,
+          "url": "https://rcvengines.com/rcv-df70",
+          "page_class": "other",
+          "snippet": "Designed as a UAV engine not modified from a hobby engine"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0009",
+          "line_start": 65,
+          "line_end": 70,
+          "url": "https://rcvengines.com/rcv-df70",
+          "page_class": "other",
+          "snippet": "Engine Type\n4-stroke twin cylinder rotating valve fuel injected\nFuel Type\nKerosene based fuels (incl. JP5, JP8, Jet A1), gasoline\nMax. Power\n4.2kW (5.7 HP) @ 8500 rpm"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "RCV DF35",
+      "category": "propulsion_mechanical",
+      "descriptor": "35cc four-stroke single-cylinder heavy-fuel UAV engine with EFI",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0006",
+          "line_start": 1,
+          "line_end": 1,
+          "url": "https://rcvengines.com/rcv-df35",
+          "page_class": "other",
+          "snippet": "RCV Engines | DF35 Four-Stroke Single-Cylinder Engine"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0006",
+          "line_start": 59,
+          "line_end": 59,
+          "url": "https://rcvengines.com/rcv-df35",
+          "page_class": "other",
+          "snippet": "Designed as a UAV engine not modified from a hobby engine"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0006",
+          "line_start": 65,
+          "line_end": 70,
+          "url": "https://rcvengines.com/rcv-df35",
+          "page_class": "other",
+          "snippet": "Engine Type\n4-stroke single cylinder rotating valve fuel injected\nFuel Type\nKerosene based fuels (incl. JP5, JP8, Jet A1), gasoline\nMax. Power\n2.2kW (3.0 HP) @ 8500 rpm"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "EFI Engine Control System",
+      "category": "propulsion_electronics",
+      "descriptor": "Lightweight waterproof ECU with altitude compensation for UAV piston engines",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0020",
+          "line_start": 45,
+          "line_end": 45,
+          "url": "https://rcvengines.com/efi-engine-control-system",
+          "page_class": "other",
+          "snippet": "EFI Engine Control System"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0020",
+          "line_start": 47,
+          "line_end": 48,
+          "url": "https://rcvengines.com/efi-engine-control-system",
+          "page_class": "other",
+          "snippet": "Lightweight/Waterproof/Compact ECU casing\nAltitude compensation relative to pressure/temperature"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0020",
+          "line_start": 59,
+          "line_end": 66,
+          "url": "https://rcvengines.com/efi-engine-control-system",
+          "page_class": "other",
+          "snippet": "Weight\n30g (0.66 lb.)\nSupply voltage\n12V DC\nTypical power draw\n20 W including ignition\nEngine power range\n1 to 15 kW (up to 40 kW with uprated fuel pump)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Hybrid/Generator",
+      "category": "power_systems",
+      "descriptor": "Heavy-fuel RCV engines for hybrid platforms and man-portable generator systems",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 64,
+          "line_end": 66,
+          "url": "https://rcvengines.com/",
+          "page_class": "homepage",
+          "snippet": "Hybrid/Generator\n----------------\nReliable heavy fuel capability for hybrid platforms and man-portable generator systems."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Engine Development",
+      "category": "propulsion_mechanical",
+      "descriptor": "Custom engine design and development service for application-specific optimisation",
+      "granularity": "category",
+      "readiness": "engineering_services",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 69,
+          "line_end": 71,
+          "url": "https://rcvengines.com/",
+          "page_class": "homepage",
+          "snippet": "Engine Development\n------------------\nDesign & development capability to achieve optimised performance in specific applications."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Forest &amp; Garden",
+      "category": "propulsion_mechanical",
+      "descriptor": "RCV rotary-valve engines for handheld forest and garden power tools",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 59,
+          "line_end": 61,
+          "url": "https://rcvengines.com/",
+          "page_class": "homepage",
+          "snippet": "Forest & Garden\n---------------\nBest in class performance and emission for hand-held Forest & Garden applications."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Hybrid/Generator Engine Solutions",
+      "category": "power_systems",
+      "descriptor": "Multi-fuel RCV engines configured for hybrid and portable power generation applications",
+      "granularity": "category",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0008",
+          "line_start": 1,
+          "line_end": 1,
+          "url": "https://rcvengines.com/hybrid-generator",
+          "page_class": "other",
+          "snippet": "RCV Engines | Hybrid and Generator Engine Solutions"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0008",
+          "line_start": 49,
+          "line_end": 49,
+          "url": "https://rcvengines.com/hybrid-generator",
+          "page_class": "other",
+          "snippet": "RCV\u2019s multi-fuel capability makes the engine an ideal power unit for hybrid and portable power applications"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0008",
+          "line_start": 55,
+          "line_end": 55,
+          "url": "https://rcvengines.com/hybrid-generator",
+          "page_class": "other",
+          "snippet": "RCV has provided multiple engines for power generation programs including man portable power, motorcycle, air vehicle and marine applications"
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "Hybrid/Generator Engine Solutions is an application page rather than a discrete buyable SKU \u2014 no specific product name, part number, or order language found; classified as category-level entry.",
+    "No NDAA or Blue UAS compliance claims found anywhere in the corpus for any product."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://rcvengines.com/technology",
+      "reason": "Capability page skipped due to budget \u2014 may contain additional product details or compliance claims for the DF engine range.",
+      "expected_evidence": [
+        "products",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=capability",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://rcvengines.com/wp-content/uploads/2020/06/RCV-Flyer-DF-Engines-A4-size-air-cooled.pdf",
+      "reason": "Product flyer for DF35/DF70 air-cooled engines \u2014 may contain additional spec detail or compliance claims.",
+      "expected_evidence": [
+        "products",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=document",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://rcvengines.com/wp-content/uploads/2020/06/RCV-Flyer-DF-Engines-A4-size-liquid-cooled.pdf",
+      "reason": "Product flyer for DF70LC liquid-cooled engine \u2014 may contain additional spec detail or compliance claims.",
+      "expected_evidence": [
+        "products",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=document",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://rcvengines.com/wp-content/uploads/2020/06/RCV-Flyer-ECU-V4-A4-size.pdf",
+      "reason": "EFI Engine Control System product flyer \u2014 may contain compliance claims or additional specs.",
+      "expected_evidence": [
+        "products",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=document",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 14,
+    "total_cost_usd": 0.45355604999999993,
+    "created_at": "2026-05-04T05:42:02+00:00",
+    "extract_version": "0.1.0"
+  }
+}

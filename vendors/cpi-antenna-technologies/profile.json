@@ -1,0 +1,388 @@
+{
+  "target_id": "cpi-antenna-technologies",
+  "run_id": "canonical",
+  "display_name": "CPI Antenna Technologies",
+  "homepage_url": "https://www.cpii.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/cpi-antenna-technologies/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "communications",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0264",
+            "line_start": 8,
+            "line_end": 10,
+            "url": "https://www.cpii.com/products/telemetry-antennas-189",
+            "page_class": "product",
+            "snippet": "### [Common Data Links (LOS)](/antenna-technologies/product/common-data-links-los-92)\n*   [Airborne Data Terminals (LOS)](/antenna-technologies/product/common-data-links-los-92/airborne-data-terminals-los-393)\n*   [Ground Data Terminals (LOS)](/antenna-technologies/product/common-data-links-los-92/ground-data-terminals-los-377)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0233",
+            "line_start": 11,
+            "line_end": 11,
+            "url": "https://www.cpii.com/products/antennas-15",
+            "page_class": "product",
+            "snippet": "[Common Data Links (CDLs)](/products/common-data-links-cdls-180)"
+          }
+        ],
+        "notes": "Makes Common Data Links (CDLs) with Airborne Data Terminals for military platforms, plus broad antenna portfolio including VSAT, Earth Station, Telemetry/Tracking antennas."
+      },
+      {
+        "category": "isr_payloads",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0251",
+            "line_start": 8,
+            "line_end": 9,
+            "url": "https://www.cpii.com/products/military-aircraft-radomes-262",
+            "page_class": "product",
+            "snippet": "### [Intelligence, Surveillance and Reconnaissance (ISR) Pods - AdamWorks](/composite-structures/product/intelligence-surveillance-and-reconnaissance-isr-pods-adamworks-187)\n*   [AgilePod](/composite-structures/product/intelligence-surveillance-and-reconnaissance-isr-pods-adamworks-187/agilepod-896)"
+          }
+        ],
+        "notes": "AgilePod is an ISR pod product under the AdamWorks (Composite Structures) division."
+      },
+      {
+        "category": "structures_and_materials",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0257",
+            "line_start": 8,
+            "line_end": 14,
+            "url": "https://www.cpii.com/products/radomes-pods-16",
+            "page_class": "product",
+            "snippet": "[Aircraft Radomes](/products/aircraft-radomes-170)\n[Commercial Aircraft Radomes](/products/commercial-aircraft-radomes-261)\n[Ground-based Radomes - ESSCO](/products/ground-based-radomes-essco-264)\n[Intelligence, Surveillance and Reconnaissance (ISR) Pods - AdamWorks](/products/intelligence-surveillance-and-reconnaissance-isr-pods-adamworks-272)\n[Military Aircraft Radomes](/products/military-aircraft-radomes-262)\n[Shipboard Radomes](/products/shipboard-radomes-171)\n[Submarine Radomes](/products/submarine-radomes-172)"
+          }
+        ],
+        "notes": "Military aircraft radomes and composite radome structures for defense/airborne platforms."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Primary category is communications (antennas, CDLs, data links). Also makes ISR pods (AgilePod via AdamWorks/Composite Structures division) and radomes for aircraft platforms."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Plano",
+      "state_or_province": "Texas",
+      "country": "United States",
+      "address": "1000 Klein Road, Plano, TX 75074"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0153",
+        "line_start": 8,
+        "line_end": 10,
+        "url": "https://www.cpii.com/locations",
+        "page_class": "contact",
+        "snippet": "#### Corporate Headquarters\n1000 Klein Road\nPlano, TX 75074 USA"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0264",
+        "line_start": 8,
+        "line_end": 10,
+        "url": "https://www.cpii.com/products/telemetry-antennas-189",
+        "page_class": "product",
+        "snippet": "### [Common Data Links (LOS)](/antenna-technologies/product/common-data-links-los-92)\n*   [Airborne Data Terminals (LOS)](/antenna-technologies/product/common-data-links-los-92/airborne-data-terminals-los-393)\n*   [Ground Data Terminals (LOS)](/antenna-technologies/product/common-data-links-los-92/ground-data-terminals-los-377)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0251",
+        "line_start": 8,
+        "line_end": 9,
+        "url": "https://www.cpii.com/products/military-aircraft-radomes-262",
+        "page_class": "product",
+        "snippet": "### [Intelligence, Surveillance and Reconnaissance (ISR) Pods - AdamWorks](/composite-structures/product/intelligence-surveillance-and-reconnaissance-isr-pods-adamworks-187)\n*   [AgilePod](/composite-structures/product/intelligence-surveillance-and-reconnaissance-isr-pods-adamworks-187/agilepod-896)"
+      }
+    ],
+    "notes": "CPI Antenna Technologies sells Common Data Links (CDLs) with Airborne Data Terminals and ISR pods (AgilePod) that are major drone subsystems. The company is a large multi-market defense/commercial firm but has explicitly named UXV-relevant subsystem product lines."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Common Data Links (LOS)",
+        "product_type": "military data link system with airborne, ground and shipboard data terminals",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0264",
+            "line_start": 8,
+            "line_end": 11,
+            "url": "https://www.cpii.com/products/telemetry-antennas-189",
+            "page_class": "product",
+            "snippet": "### [Common Data Links (LOS)](/antenna-technologies/product/common-data-links-los-92)\n*   [Airborne Data Terminals (LOS)](/antenna-technologies/product/common-data-links-los-92/airborne-data-terminals-los-393)\n*   [Ground Data Terminals (LOS)](/antenna-technologies/product/common-data-links-los-92/ground-data-terminals-los-377)\n*   [Shipboard Data Terminals (Satcom/LOS)](/antenna-technologies/product/common-data-links-los-92/shipboard-data-terminals-satcomlos-394)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AgilePod",
+        "product_type": "ISR pod",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0251",
+            "line_start": 8,
+            "line_end": 9,
+            "url": "https://www.cpii.com/products/military-aircraft-radomes-262",
+            "page_class": "product",
+            "snippet": "### [Intelligence, Surveillance and Reconnaissance (ISR) Pods - AdamWorks](/composite-structures/product/intelligence-surveillance-and-reconnaissance-isr-pods-adamworks-187)\n*   [AgilePod](/composite-structures/product/intelligence-surveillance-and-reconnaissance-isr-pods-adamworks-187/agilepod-896)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Military Aircraft Radomes",
+        "product_type": "radome for military aircraft/UAS platforms",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0251",
+            "line_start": 10,
+            "line_end": 11,
+            "url": "https://www.cpii.com/products/military-aircraft-radomes-262",
+            "page_class": "product",
+            "snippet": "### [Military Aircraft Radomes](/composite-structures/product/military-aircraft-radomes-181)\n*   [Military Aircraft Radomes](/composite-structures/product/military-aircraft-radomes-181/military-aircraft-radomes-875)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Starfield Tactical Antenna",
+        "product_type": "tactical antenna",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 26,
+            "line_end": 27,
+            "url": "https://www.cpii.com",
+            "page_class": "homepage",
+            "snippet": "[CPI Debuts New Starfield Tactical Antenna and Latest Stardust Gateway Antenna at Satellite 2026](/news/cpi-debuts-new-starfield-tactical-antenna-and-latest-stardust-gateway-antenna-at-satellite-2026)\n**February 4, 2026**"
+          }
+        ],
+        "notes": "Debuted at Satellite 2026 per March 2026 news."
+      },
+      {
+        "name": "Stardust Gateway Antenna",
+        "product_type": "gateway antenna",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 26,
+            "line_end": 27,
+            "url": "https://www.cpii.com",
+            "page_class": "homepage",
+            "snippet": "[CPI Debuts New Starfield Tactical Antenna and Latest Stardust Gateway Antenna at Satellite 2026](/news/cpi-debuts-new-starfield-tactical-antenna-and-latest-stardust-gateway-antenna-at-satellite-2026)\n**February 4, 2026**"
+          }
+        ],
+        "notes": "Debuted at Satellite 2026 per March 2026 news."
+      },
+      {
+        "name": "GaN Solid State Power Amplifiers (SSPAs)",
+        "product_type": "GaN solid-state power amplifier",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0239",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://www.cpii.com/products/gan-solid-state-power-amplifiers-152",
+            "page_class": "news",
+            "snippet": "Satcom SSPAs & BUCs - Power Electronics: Amplifier\u00a0Products - Communications & Power Industries (CPI)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "GaAs Solid State Power Amplifiers",
+        "product_type": "GaAs solid-state power amplifier",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0238",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://www.cpii.com/products/gaas-solid-state-power-amplifiers-253",
+            "page_class": "news",
+            "snippet": "Satcom SSPAs & BUCs - Power Electronics: Amplifier\u00a0Products - Communications & Power Industries (CPI)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Traveling Wave Tube Amplifiers (TWTAs)",
+        "product_type": "vacuum tube-based power amplifier",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0265",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://www.cpii.com/products/traveling-wave-tube-amplifiers-twtas-251",
+            "page_class": "news",
+            "snippet": "Satcom TWTAs - Power Electronics: Amplifier\u00a0Products - Communications & Power Industries (CPI)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Orbital Systems Antenna Positioners",
+        "product_type": "satellite/UAV tracking antenna positioners (1.8m\u20137.3m)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0254",
+            "line_start": 29,
+            "line_end": 31,
+            "url": "https://www.cpii.com/products/radar-antennas-183",
+            "page_class": "product",
+            "snippet": "[Orbital Systems - 1.8AEBP - 1.8m 2-Axis EL-AZ Antenna Positioner](</docs/datasheets/398/1.8AEBP-1.8m Positioner Data Sheet C.01.pdf>)\n[Orbital Systems - 2.4AEBP - 2.4m 2-Axis EL-AZ Antenna Positioner](</docs/datasheets/398/2.4AEBP-2.4 Data Sheet D.01.pdf>)\n[Orbital Systems - 3.0AE3BP - 3.0m 3-Axis EL-AZ Antenna Positioner](</docs/datasheets/398/3.0AE3BP_2.8m Positioner 3 axis B.01.pdf>)"
+          }
+        ],
+        "notes": "Supports UAV/RPV tracking applications."
+      },
+      {
+        "name": "VSAT Antennas",
+        "product_type": "VSAT antenna systems",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0266",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://www.cpii.com/products/vsat-antennas-249",
+            "page_class": "product",
+            "snippet": "VSAT Antennas - Antennas - Products & Services - Communications & Power Industries (CPI)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Very large product portfolio. Listing the key drone-relevant named products; many more catalog SKUs exist."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0024",
+        "line_start": 8,
+        "line_end": 8,
+        "url": "https://www.cpii.com/about",
+        "page_class": "company",
+        "snippet": "#### CPI is a world leader in small, medium and\u00a0large aperture antennas, components and systems"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0254",
+        "line_start": 29,
+        "line_end": 31,
+        "url": "https://www.cpii.com/products/radar-antennas-183",
+        "page_class": "product",
+        "snippet": "[Orbital Systems - 1.8AEBP - 1.8m 2-Axis EL-AZ Antenna Positioner](</docs/datasheets/398/1.8AEBP-1.8m Positioner Data Sheet C.01.pdf>)\n[Orbital Systems - 2.4AEBP - 2.4m 2-Axis EL-AZ Antenna Positioner](</docs/datasheets/398/2.4AEBP-2.4 Data Sheet D.01.pdf>)\n[Orbital Systems - 3.0AE3BP - 3.0m 3-Axis EL-AZ Antenna Positioner](</docs/datasheets/398/3.0AE3BP_2.8m Positioner 3 axis B.01.pdf>)"
+      }
+    ],
+    "notes": "Established large-scale manufacturer with catalog products across antenna systems, amplifiers, radomes and composites. Products sold with specific model numbers and data sheets."
+  },
+  "unresolved_questions": [
+    "No NDAA Section 848/889 compliance claim found in corpus",
+    "No Blue UAS / Blue sUAS cleared list claim found",
+    "AgilePod detailed product page not fetched \u2014 extent of UAV vs. manned aircraft use unclear",
+    "CDL-specific product pages (Airborne Data Terminals) not fetched \u2014 exact UAV platform compatibility unknown"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.cpii.com/products/common-data-links-cdls-180",
+      "reason": "Would confirm CDL product details including whether Airborne Data Terminals are specifically for UAS platforms, sharpening subsystem_supplier role and communications category confidence.",
+      "expected_evidence": [
+        "drone_supply_chain_role",
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "linked from multiple product pages as /products/common-data-links-cdls-180",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.cpii.com/products/intelligence-surveillance-and-reconnaissance-isr-pods-adamworks-272",
+      "reason": "Would confirm ISR pod details (AgilePod) and whether it is deployed on UAS platforms, confirming isr_payloads category.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "linked from multiple product pages as ISR Pods - AdamWorks",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.cpii.com/news/cpi-receives-mda-contract-award-for-shield",
+      "reason": "SHIELD contract with Missile Defense Agency may relate to UAS/drone defense applications, clarifying supply chain role.",
+      "expected_evidence": [
+        "drone_supply_chain_role",
+        "products"
+      ],
+      "source_hint": "skipped_class_budget in crawl_index",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "tagline": "Manufactures antenna systems, power amplifiers (solid-state and tube-based), and radomes for defense and satellite communications; supplies Common Data Links, Starfield Tactical Antenna, and Stardust Gateway Antenna. Recent wins include MDA SHIELD contract. NDAA compliance and Blue UAS certification status not publicly documented.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 27,
+    "total_cost_usd": 0.79435555,
+    "created_at": "2026-05-04T01:32:58+00:00",
+    "extract_version": "0.1.0"
+  }
+}

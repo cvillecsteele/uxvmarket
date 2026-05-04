@@ -1,0 +1,253 @@
+{
+  "target_id": "parallel-flight-technologies",
+  "run_id": "canonical",
+  "display_name": "Parallel Flight Technologies",
+  "homepage_url": "https://www.parallelflight.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/parallel-flight-technologies/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "airframes",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 62,
+            "line_end": 62,
+            "url": "https://www.parallelflight.com",
+            "page_class": "homepage",
+            "snippet": "HEAVY LIFT HYBRID UAS"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 78,
+            "line_end": 78,
+            "url": "https://www.parallelflight.com",
+            "page_class": "homepage",
+            "snippet": "Firefly, is a pick up truck in the sky, designed to carry **100 lb for up to 1.4 hours \u2014** delivering significantly greater endurance than all electric systems. Two-person portable and refuelable in under 5 minutes, Firefly enables sustained operations with minimal infrastructure."
+          }
+        ],
+        "notes": "Firefly is a complete heavy-lift hybrid multirotor UAS platform (100 lb payload, 1.4 hr endurance), Made in USA"
+      },
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0070",
+            "line_start": 67,
+            "line_end": 67,
+            "url": "https://www.parallelflight.com/technology",
+            "page_class": "capability",
+            "snippet": "### PHEM"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0070",
+            "line_start": 71,
+            "line_end": 71,
+            "url": "https://www.parallelflight.com/technology",
+            "page_class": "capability",
+            "snippet": "PHEM combines the power and duration of an internal combustion engine with the responsiveness of an electric motor. The 14x higher energy density of gas over batteries enables increased energy storage and scalable propulsion architecture."
+          }
+        ],
+        "notes": "PHEM (Parallel Hybrid Electric Multirotor) hybrid ICE+electric propulsion architecture described as scalable and adaptable for other eVTOLs/UASs; also partnered with LIFT Aircraft for hybridization"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": null,
+      "state_or_province": "California",
+      "country": "United States",
+      "address": null
+    },
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0062",
+        "line_start": 70,
+        "line_end": 70,
+        "url": "https://www.parallelflight.com/mission",
+        "page_class": "capability",
+        "snippet": "Parallel Flight Technologies was founded in response to the California \\[and global\\] wildfire crisis, after several founding team members\u2019 homes and livelihoods were threatened by catastrophic wildfires in the Santa Cruz mountains."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 64,
+        "line_end": 64,
+        "url": "https://www.parallelflight.com",
+        "page_class": "homepage",
+        "snippet": "### 100 LB PAYLOAD FOR 1.4 HOURS | MADE IN USA"
+      }
+    ],
+    "notes": "Site founding story references 'Santa Cruz mountains' in California; homepage title says 'Made in USA'. External press refers to 'Made in Santa Cruz County' but specific city/address not stated on site."
+  },
+  "drone_supply_chain_role": {
+    "value": "oem",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 78,
+        "line_end": 78,
+        "url": "https://www.parallelflight.com",
+        "page_class": "homepage",
+        "snippet": "Firefly, is a pick up truck in the sky, designed to carry **100 lb for up to 1.4 hours \u2014** delivering significantly greater endurance than all electric systems. Two-person portable and refuelable in under 5 minutes, Firefly enables sustained operations with minimal infrastructure."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 66,
+        "line_end": 68,
+        "url": "https://www.parallelflight.com",
+        "page_class": "homepage",
+        "snippet": "BUILT FOR MISSIONS ELECTRIC DRONES CAN\u2019T COMPLETE\n-------------------------------------------------\nParallel Flight\u2019s hybrid propulsion technology enables significantly greater payload, range, and endurance than all-electric UAVs\u2014unlocking mission profiles that would otherwise require multiple systems or traditional aircraft."
+      }
+    ],
+    "notes": "Designs and manufactures complete heavy-lift UAS (Firefly) with proprietary hybrid propulsion; fulfills orders to commercial and government customers"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Firefly",
+        "product_type": "heavy-lift hybrid multirotor UAS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 78,
+            "line_end": 78,
+            "url": "https://www.parallelflight.com",
+            "page_class": "homepage",
+            "snippet": "Firefly, is a pick up truck in the sky, designed to carry **100 lb for up to 1.4 hours \u2014** delivering significantly greater endurance than all electric systems. Two-person portable and refuelable in under 5 minutes, Firefly enables sustained operations with minimal infrastructure."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0067",
+            "line_start": 99,
+            "line_end": 99,
+            "url": "https://www.parallelflight.com/press",
+            "page_class": "news",
+            "snippet": "    Parallel Flight Technologies Receives Order From Alpha Drones for Multiple Units of its Hybrid Heavy-Lift UAV, Firefly"
+          }
+        ],
+        "notes": "100 lb payload capacity, up to 1.4 hours endurance; hybrid ICE+electric propulsion; two-person portable; FAA 44807 exemption obtained; orders received from Alpha Drones and others"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Firefly product page (/firefly) was skipped in crawl; additional specs may be available there"
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 64,
+        "line_end": 64,
+        "url": "https://www.parallelflight.com",
+        "page_class": "homepage",
+        "snippet": "### 100 LB PAYLOAD FOR 1.4 HOURS | MADE IN USA"
+      }
+    ],
+    "notes": "'Made in USA' claimed on homepage but no explicit NDAA Section 848/889 compliance claim found in corpus"
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS / Blue sUAS mention found anywhere in the fetched pages"
+  },
+  "readiness": {
+    "value": "low_rate_production",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0067",
+        "line_start": 71,
+        "line_end": 71,
+        "url": "https://www.parallelflight.com/press",
+        "page_class": "news",
+        "snippet": "    DRONE XL: Parallel Flight Firefly Clears FAA Hurdle, Heads to Market"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0067",
+        "line_start": 99,
+        "line_end": 99,
+        "url": "https://www.parallelflight.com/press",
+        "page_class": "news",
+        "snippet": "    Parallel Flight Technologies Receives Order From Alpha Drones for Multiple Units of its Hybrid Heavy-Lift UAV, Firefly"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0067",
+        "line_start": 80,
+        "line_end": 80,
+        "url": "https://www.parallelflight.com/press",
+        "page_class": "news",
+        "snippet": "    Office of Naval Research Awards Parallel Flight Technologies $3.74M Contract to Develop Maritime-Capable Firefly UAS"
+      }
+    ],
+    "notes": "FAA 44807 exemption obtained for commercial operations ('Heads to Market' 2026); orders received from Alpha Drones for multiple units and India's UAV Systems (multi-million dollar deal); ONR contract for maritime-capable Firefly variant indicates ongoing R&D alongside early commercial sales"
+  },
+  "unresolved_questions": [
+    "Specific HQ city/address not stated on site (Santa Cruz County area implied by external press)",
+    "PHEM technology \u2014 unclear if sold/licensed separately or only embedded in Firefly",
+    "Full Firefly product spec sheet and any other product variants not captured (Firefly page was skipped)"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.parallelflight.com/firefly",
+      "reason": "Primary product page \u2014 would confirm full Firefly specs, production status, pricing/ordering info, and any product variants (e.g. maritime Firefly); critical for readiness and products fields",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.parallelflight.com/industries",
+      "reason": "Industries/applications page would confirm market positioning and whether PHEM is offered as a standalone subsystem to other OEMs, helping confirm drone_supply_chain_role and products_categories",
+      "expected_evidence": [
+        "products_categories",
+        "drone_supply_chain_role",
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "tagline": "Heavy-lift hybrid UAS manufacturer producing the Firefly platform (100 lb payload, 1.4 hr endurance, made in USA) and PHEM hybrid propulsion architecture. Active ONR development contract for maritime-capable variant; FAA Part 107 exemption granted. NDAA compliance and Blue UAS certification status undisclosed. Limited public evidence on production volume, customer base, or export licensing details beyond reference to prior Firefly PS1 export transaction.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 22,
+    "total_cost_usd": 0.5038106499999999,
+    "created_at": "2026-05-04T04:59:51+00:00",
+    "extract_version": "0.1.0"
+  }
+}

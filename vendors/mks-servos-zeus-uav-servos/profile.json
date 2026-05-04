@@ -1,0 +1,278 @@
+{
+  "target_id": "mks-servos-zeus-uav-servos",
+  "run_id": "canonical",
+  "display_name": "MKS Servos (Zeus UAV Servos)",
+  "homepage_url": "https://www.zeus-actuators.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/mks-servos-zeus-uav-servos/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "flight_and_vehicle_control",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 65,
+            "line_end": 65,
+            "url": "https://zeus-actuators.com/7.5mm",
+            "page_class": "other",
+            "snippet": "The Z750 is suitable for miniature UAVs(unmanned aerial vehicles), which has a thickness of only 7.5mm and is equipped with a non-worn-out Hall effect angle sensor. The actuator can be perfectly installed inside the flap, which brings great convenience for the structural design of the folding wing aircraft..."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0004",
+            "line_start": 67,
+            "line_end": 67,
+            "url": "https://zeus-actuators.com/About-Us",
+            "page_class": "other",
+            "snippet": "**O**\u3000In 2015, the \u201cZeus Servo\u201d brand was established, which dedicated to developing of servos for industrial and commercial/military UAVs and mechanical control, production of various actuators for every requires."
+          }
+        ],
+        "notes": "UAV servo actuators with DroneCAN interface designed to actuate control surfaces on UAVs. Products span 7.5mm to 42mm form factors."
+      },
+      {
+        "category": "mechanical_subsystems",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0009",
+            "line_start": 63,
+            "line_end": 65,
+            "url": "https://zeus-actuators.com/22mm",
+            "page_class": "other",
+            "snippet": "Dimensions: 43.00mm x 22.50mm x 48.90mm Weight: 95.00g\n[Z2200-12V](https://zeus-actuators.com/22mm/Z2200-12V)\nThe Z2200 series offers immense torque in a compact size, with the highest rated torque for its relative dimensions. It is ideal for long-duration aircraft and can withstand strong gusts of wind..."
+          }
+        ],
+        "notes": "Servo actuators are electromechanical mechanisms (gear trains, brushless motors, Hall sensors) \u2014 the physical mechanical subsystem."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Yilan City",
+      "state_or_province": "Yilan County",
+      "country": "Taiwan",
+      "address": "No.3, Ln. 120, Sec. 3, Yixing Rd., Yilan City, Yilan County 26054, Taiwan (R.O.C.)"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0002",
+        "line_start": 50,
+        "line_end": 52,
+        "url": "https://zeus-actuators.com/Contact-Us",
+        "page_class": "contact",
+        "snippet": "Company Address\nNo.3, Ln. 120, Sec. 3, Yixing Rd., Yilan City, Yilan County 26054, Taiwan (R.O.C.)\n](https://goo.gl/maps/Y2MtcZbb4LFQsuhD8)"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0004",
+        "line_start": 67,
+        "line_end": 67,
+        "url": "https://zeus-actuators.com/About-Us",
+        "page_class": "other",
+        "snippet": "**O**\u3000In 2015, the \u201cZeus Servo\u201d brand was established, which dedicated to developing of servos for industrial and commercial/military UAVs and mechanical control, production of various actuators for every requires."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0005",
+        "line_start": 64,
+        "line_end": 65,
+        "url": "https://zeus-actuators.com/7.5mm",
+        "page_class": "other",
+        "snippet": "[Z750](https://zeus-actuators.com/7.5mm/Z750)\nThe Z750 is suitable for miniature UAVs(unmanned aerial vehicles), which has a thickness of only 7.5mm and is equipped with a non-worn-out Hall effect angle sensor. The actuator can be perfectly installed inside the flap, which brings great convenience for the structural design of the folding wing aircraft..."
+      }
+    ],
+    "notes": "Zeus sells servo actuator components (not complete UAVs) for use by UAV OEMs and integrators."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Z750",
+        "product_type": "7.5mm UAV servo actuator",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 64,
+            "line_end": 65,
+            "url": "https://zeus-actuators.com/7.5mm",
+            "page_class": "other",
+            "snippet": "[Z750](https://zeus-actuators.com/7.5mm/Z750)\nThe Z750 is suitable for miniature UAVs(unmanned aerial vehicles), which has a thickness of only 7.5mm and is equipped with a non-worn-out Hall effect angle sensor. The actuator can be perfectly installed inside the flap, which brings great convenience for the structural design of the folding wing aircraft..."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Z1500 series",
+        "product_type": "15mm UAV servo actuator (12V and 24V variants)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0008",
+            "line_start": 64,
+            "line_end": 65,
+            "url": "https://zeus-actuators.com/15mm",
+            "page_class": "other",
+            "snippet": "[Z1500-12V](https://zeus-actuators.com/15mm/Z1500)\nThe Z1500 series has ultra lifespan persistence and pass the operational test over 2000hrs under a rated load of 3kg-cm, which is suitable for the extraordinary reliability and lifespan required by various industrial applications of motion/remote control..."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Z1538",
+        "product_type": "15mm DualCAN UAV servo actuator",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0008",
+            "line_start": 100,
+            "line_end": 100,
+            "url": "https://zeus-actuators.com/15mm",
+            "page_class": "other",
+            "snippet": "[Z1538](https://zeus-actuators.com/15mm/Z1538)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Z2200 series",
+        "product_type": "22mm UAV servo actuator (12V and 24V variants)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0009",
+            "line_start": 64,
+            "line_end": 65,
+            "url": "https://zeus-actuators.com/22mm",
+            "page_class": "other",
+            "snippet": "[Z2200-12V](https://zeus-actuators.com/22mm/Z2200-12V)\nThe Z2200 series offers immense torque in a compact size, with the highest rated torque for its relative dimensions. It is ideal for long-duration aircraft and can withstand strong gusts of wind..."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "P500 series",
+        "product_type": "25mm UAV servo actuator for unmanned helicopters (12V and 24V variants)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0011",
+            "line_start": 64,
+            "line_end": 65,
+            "url": "https://zeus-actuators.com/25mm",
+            "page_class": "other",
+            "snippet": "[P500-12V](https://zeus-actuators.com/25mm/P500-12V)\nThe P500 series has fast reaction and instantaneous powerful torque, which is suitable for the unmanned helicopters that require fast steering and high-speed response..."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Product line spans 7.5mm through 42mm. Additional named models: Z900, Z1100, Z2300, HB135WP (33mm), P1000 (38mm), Z4200 (42mm)."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA compliance claim found on homepage. Vendor is non-US (Taiwan). No compliance page in corpus."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS claim found on homepage."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0004",
+        "line_start": 52,
+        "line_end": 52,
+        "url": "https://zeus-actuators.com/About-Us",
+        "page_class": "other",
+        "snippet": "Building on the renowned quality standards of MKS Servo, every Zeus series product is developed and manufactured under the strict guidelines of ISO 9001 and AS9100 quality management systems. This ensures that our actuators meet the highest benchmarks of performance, safety, and compliance demanded by the global defense industry."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0004",
+        "line_start": 76,
+        "line_end": 76,
+        "url": "https://zeus-actuators.com/About-Us",
+        "page_class": "other",
+        "snippet": "**O**\u3000Zeus Servo undergoes quality inspections at every stage of production."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0004",
+        "line_start": 84,
+        "line_end": 84,
+        "url": "https://zeus-actuators.com/About-Us",
+        "page_class": "other",
+        "snippet": "**O**\u3000Top specification Servo type have passed through the strict environmental of MIL-STD-810F military certification."
+      }
+    ],
+    "notes": "AS9100 and ISO 9001 certified manufacturing, quality inspections at every stage of production, 2000+ hour endurance tested, MIL-STD-810F and MIL-STD-461G certified variants."
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [
+    {
+      "url": "https://zeus-actuators.com/Zeus/Our-Customer",
+      "reason": "Would confirm which UAV OEM customers use Zeus servos, supporting drone_supply_chain_role and products evidence.",
+      "expected_evidence": [
+        "drone_supply_chain_role",
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://zeus-actuators.com/Zeus/Help-Support",
+      "reason": "May contain NDAA compliance, export control, or Blue UAS listing information.",
+      "expected_evidence": [
+        "ndaa",
+        "blue_uas"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Taiwan-based producer of DroneCAN servo actuators in ten sizes (7.5mm to 42mm), with variants supporting 24V systems. In production across multiple form factors for small and medium UAS. Website indicates AS9100 certification and AeroVironment supply relationship, but NDAA compliance status, Blue UAS listing, and formal U.S. defense qualification remain undocumented in public sources.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 5,
+    "total_cost_usd": 0.1511973,
+    "created_at": "2026-05-04T04:20:18+00:00",
+    "extract_version": "0.1.0"
+  }
+}

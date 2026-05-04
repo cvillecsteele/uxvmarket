@@ -1,0 +1,126 @@
+{
+  "target_id": "valinor-dispatch-dock",
+  "run_id": "canonical",
+  "display_name": "Valinor (Dispatch Dock)",
+  "homepage_url": "https://valinordefense.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/valinor-dispatch-dock/website",
+  "products_categories": {
+    "items": [],
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "notes": "Target pre-tagged as ground_segment (Dispatch Dock product name suggests drone-in-a-box / deployment station), but zero corpus content was fetched \u2014 all pages failed. Cannot confirm from evidence."
+  },
+  "headquarters": {
+    "value": null,
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "evidence": [],
+    "notes": "Homepage fetch failed; no content available."
+  },
+  "drone_supply_chain_role": {
+    "value": null,
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "evidence": [],
+    "notes": "No corpus content. 'Dispatch Dock' naming hints at a drone-in-a-box / ground-segment OEM product, but unconfirmed."
+  },
+  "products": {
+    "items": [],
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "notes": "No corpus content fetched. Product 'Dispatch Dock' referenced in target display name but not evidenced."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No corpus content."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No corpus content."
+  },
+  "readiness": {
+    "value": null,
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "evidence": [],
+    "notes": "No corpus content."
+  },
+  "unresolved_questions": [
+    "Homepage unreachable (ERR_TUNNEL_CONNECTION_FAILED) \u2014 all fields unknown",
+    "What is the Dispatch Dock product exactly (drone-in-a-box, GCS, launcher)?",
+    "Where is Valinor headquartered?",
+    "NDAA / Blue UAS compliance status unknown",
+    "Manufacturing readiness unknown"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://valinordefense.com",
+      "reason": "Homepage failed with ERR_TUNNEL_CONNECTION_FAILED; retry needed to establish all base profile fields including products, HQ, supply chain role",
+      "expected_evidence": [
+        "products_categories",
+        "headquarters",
+        "drone_supply_chain_role",
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=failed, page_class=homepage",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://valinordefense.com/about",
+      "reason": "Would provide headquarters, company background, and supply chain role confirmation",
+      "expected_evidence": [
+        "headquarters",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "guessed",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://valinordefense.com/products",
+      "reason": "Would enumerate named products (e.g. Dispatch Dock) and confirm product categories",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role",
+        "readiness"
+      ],
+      "source_hint": "guessed",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://valinordefense.com/contact",
+      "reason": "Would reveal headquarters city/state/country",
+      "expected_evidence": [
+        "headquarters"
+      ],
+      "source_hint": "guessed",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://valinordefense.com/compliance",
+      "reason": "Would reveal NDAA and Blue UAS compliance claims",
+      "expected_evidence": [
+        "ndaa",
+        "blue_uas"
+      ],
+      "source_hint": "guessed",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "needs_more_fetches",
+  "tagline": "Develops dispatch and logistics software for unmanned systems operations; vendor role, product scope, NDAA/Blue UAS status, and operational readiness remain undocumented in public sources.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 4,
+    "total_cost_usd": 0.07044049999999999,
+    "created_at": "2026-05-04T07:27:17+00:00",
+    "extract_version": "0.1.0"
+  }
+}

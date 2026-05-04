@@ -1,0 +1,301 @@
+{
+  "target_id": "lyten",
+  "run_id": "canonical",
+  "display_name": "Lyten",
+  "homepage_url": "https://lyten.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/lyten/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "power_systems",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0218",
+            "line_start": 42,
+            "line_end": 43,
+            "url": "https://lyten.com/products/battery-systems",
+            "page_class": "product",
+            "snippet": "### UAV Cells & Packs\nUltra-lightweight, lithium-sulfur propulsion for Unmanned Aerial Systems. U.S. sourced and manufactured using no nickel, manganese, cobalt or graphite (NDAA compliant)."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0145",
+            "line_start": 31,
+            "line_end": 32,
+            "url": "https://lyten.com/2025/05/08/lyten-announces-next-generation-drone-propulsion-initiative-to-support-us-national-security-needs-with-american-made-lithium-sulfur-batteries",
+            "page_class": "compliance",
+            "snippet": "*   _**Lyten allocating manufacturing capacity in its California production facilities to meet needs of U.S. defense, UAV, and satellite sectors.**_\n*   _**Lyten now taking orders for its latest lithium-sulfur battery for unmanned aerial vehicles (UAVs).**_"
+          }
+        ],
+        "notes": "Lithium-sulfur and lithium-ion battery cells and packs for UAVs/UAS, as well as large-scale BESS products (Voltpack, Voltrack)."
+      },
+      {
+        "category": "structures_and_materials",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 53,
+            "line_end": 54,
+            "url": "https://lyten.com",
+            "page_class": "homepage",
+            "snippet": "### [3D Printer Filament](/products/3d-printer-filament/)\nFast. Quality. Strong."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 59,
+            "line_end": 60,
+            "url": "https://lyten.com",
+            "page_class": "homepage",
+            "snippet": "### [Structural Adhesive](/products/structural-adhesive/)\nHigh-Strength Structural Bonding Powered by Supermaterials."
+          }
+        ],
+        "notes": "3D Graphene-enhanced printer filament and structural adhesive sold into motorsports, aerospace, and defense markets."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "San Jose",
+      "state_or_province": "California",
+      "country": "United States",
+      "address": "145 Baytech Dr., San Jose, CA 95134"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0199",
+        "line_start": 29,
+        "line_end": 31,
+        "url": "https://lyten.com/contact-us",
+        "page_class": "contact",
+        "snippet": "Corporate Office\n----------------\n145 Baytech Dr., San Jose, CA 95134"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0145",
+        "line_start": 30,
+        "line_end": 32,
+        "url": "https://lyten.com/2025/05/08/lyten-announces-next-generation-drone-propulsion-initiative-to-support-us-national-security-needs-with-american-made-lithium-sulfur-batteries",
+        "page_class": "compliance",
+        "snippet": "*   _**Lyten launching a drone propulsion unit to scale delivery of ultra-lightweight, U.S. sourced and manufactured lithium-sulfur batteries for drone applications.**_\n*   _**Lyten allocating manufacturing capacity in its California production facilities to meet needs of U.S. defense, UAV, and satellite sectors.**_\n*   _**Lyten now taking orders for its latest lithium-sulfur battery for unmanned aerial vehicles (UAVs).**_"
+      }
+    ],
+    "notes": "Lyten sells lithium-sulfur battery cells and packs that power drones built by others (e.g., Titan Dynamics). They do not manufacture drone airframes."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "UAV/UAS Cells & Packs",
+        "product_type": "Lithium-sulfur battery cells and packs for unmanned aerial vehicles",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0218",
+            "line_start": 42,
+            "line_end": 43,
+            "url": "https://lyten.com/products/battery-systems",
+            "page_class": "product",
+            "snippet": "### UAV Cells & Packs\nUltra-lightweight, lithium-sulfur propulsion for Unmanned Aerial Systems. U.S. sourced and manufactured using no nickel, manganese, cobalt or graphite (NDAA compliant)."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Lithium-Sulfur Cells",
+        "product_type": "High energy density lithium-sulfur battery cells",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0218",
+            "line_start": 38,
+            "line_end": 39,
+            "url": "https://lyten.com/products/battery-systems",
+            "page_class": "product",
+            "snippet": "### Lithium-Sulfur Cells\nHigh energy density. Light weight. Sourced and manufactured in the US using industrial by-products."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Lithium-ion Cells",
+        "product_type": "High-performance lithium-ion battery cells",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0218",
+            "line_start": 62,
+            "line_end": 63,
+            "url": "https://lyten.com/products/battery-systems",
+            "page_class": "product",
+            "snippet": "### Lithium-ion Cells\nHigh-performance lithium-ion cells tailored to customer specifications."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Voltpack Mobile System",
+        "product_type": "Modular battery energy storage system (BESS), 281\u20131,405 kWh",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0218",
+            "line_start": 72,
+            "line_end": 73,
+            "url": "https://lyten.com/products/battery-systems",
+            "page_class": "product",
+            "snippet": "### Voltpack Mobile System\nA stand-alone, modular system designed as a plug and play energy storage solution at the edge. Scalable from 281 kWh to 1,405 kWh for commercial, industrial and data centers. Made in Poland."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Voltrack",
+        "product_type": "Energy storage rack for BESS integration",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0218",
+            "line_start": 82,
+            "line_end": 83,
+            "url": "https://lyten.com/products/battery-systems",
+            "page_class": "product",
+            "snippet": "### Voltrack\nA flexible energy storage rack designed for safety and ready for integration into a wide range BESS solutions. Certified for global integration. Made in Poland."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Lyten 3D Graphene 3D Printer Filament",
+        "product_type": "Graphene-enhanced 3D printing filament for aerospace and defense",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 53,
+            "line_end": 54,
+            "url": "https://lyten.com",
+            "page_class": "homepage",
+            "snippet": "### [3D Printer Filament](/products/3d-printer-filament/)\nFast. Quality. Strong."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Structural Adhesive",
+        "product_type": "High-strength structural bonding adhesive",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 59,
+            "line_end": 60,
+            "url": "https://lyten.com",
+            "page_class": "homepage",
+            "snippet": "### [Structural Adhesive](/products/structural-adhesive/)\nHigh-Strength Structural Bonding Powered by Supermaterials."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": "yes",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0218",
+        "line_start": 43,
+        "line_end": 43,
+        "url": "https://lyten.com/products/battery-systems",
+        "page_class": "product",
+        "snippet": "Ultra-lightweight, lithium-sulfur propulsion for Unmanned Aerial Systems. U.S. sourced and manufactured using no nickel, manganese, cobalt or graphite (NDAA compliant)."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0145",
+        "line_start": 39,
+        "line_end": 39,
+        "url": "https://lyten.com/2025/05/08/lyten-announces-next-generation-drone-propulsion-initiative-to-support-us-national-security-needs-with-american-made-lithium-sulfur-batteries",
+        "page_class": "compliance",
+        "snippet": "Lyten\u2019s lithium-sulfur batteries are free from nickel, manganese, cobalt, and graphite \u2014 minerals dominated by Chinese supply chains \u2014 enabling a secure, National Defense Appropriations Act (NDAA)-compliant energy solution for defense platforms. Lithium-Sulfur batteries, with their higher energy density, are designed to support longer flights, heavier payloads, and extended operational range."
+      }
+    ],
+    "notes": "UAV/UAS battery cells explicitly described as 'NDAA compliant' on product page and in press release (free of nickel, manganese, cobalt, graphite)."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0145",
+        "line_start": 32,
+        "line_end": 32,
+        "url": "https://lyten.com/2025/05/08/lyten-announces-next-generation-drone-propulsion-initiative-to-support-us-national-security-needs-with-american-made-lithium-sulfur-batteries",
+        "page_class": "compliance",
+        "snippet": "*   _**Lyten now taking orders for its latest lithium-sulfur battery for unmanned aerial vehicles (UAVs).**_"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0218",
+        "line_start": 45,
+        "line_end": 45,
+        "url": "https://lyten.com/products/battery-systems",
+        "page_class": "product",
+        "snippet": "Li-S for UAVs is available today. Contact us to learn more."
+      }
+    ],
+    "notes": "Lyten is currently taking orders for drone Li-S batteries and allocating production capacity in California facilities. Also manufacturing BESS products in Poland."
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Manufactures US-sourced lithium-sulfur and lithium-ion battery cells and packs for unmanned systems (NDAA-compliant); also produces 3D graphene-enhanced filament, adhesives, and concrete admixture. Recently acquired Northvolt Sweden assets. Public evidence on current UAS program integration and production volumes is limited.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 10,
+    "total_cost_usd": 0.34538155000000004,
+    "created_at": "2026-05-04T03:59:12+00:00",
+    "extract_version": "0.1.0"
+  }
+}

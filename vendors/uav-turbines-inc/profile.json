@@ -1,0 +1,265 @@
+{
+  "target_id": "uav-turbines-inc",
+  "run_id": "canonical",
+  "display_name": "UAV Turbines Inc.",
+  "homepage_url": "https://www.uavturbines.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/uav-turbines-inc/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 12,
+            "line_end": 12,
+            "url": "https://uavturbines.com/",
+            "page_class": "homepage",
+            "snippet": "UAVT\u2019s Turbine Aerospace Systems are sized for drones ranging in take-off weight from 300 to 2,500 pounds. UAVT uses propellers to produce propulsion and can be configured for either horizontal or vertical flight."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 15,
+            "line_end": 15,
+            "url": "https://uavturbines.com/",
+            "page_class": "homepage",
+            "snippet": "While military and commercial drone markets increasingly favor runway-independent VTOL systems, fixed-wing drones remain essential for specific missions. UAVT provides propulsion solutions for both configurations, by either being the prime mover in a turboprop design or a hybrid range extender for battery powered drones."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 16,
+            "line_end": 16,
+            "url": "https://uavturbines.com/",
+            "page_class": "homepage",
+            "snippet": "Our advanced gearbox technology and recuperator enable long endurance missions. The gearbox accommodates variable pitch propellers, delivering superior climb rates and dash speeds compared to fixed pitch alternatives. Our heat-exchanger technology provides fuel efficiency equivalent to internal combustion engines."
+          }
+        ],
+        "notes": "Micro-turbine engines with gearboxes, variable-pitch propellers, and rotors for drones 300\u20132,500 lb GTOW"
+      },
+      {
+        "category": "power_systems",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 45,
+            "line_end": 47,
+            "url": "https://uavturbines.com/",
+            "page_class": "homepage",
+            "snippet": "While diesel systems dominate the generator market, UAVT\u2019s compact, lightweight turbine engine has enabled the development of portable generators for two major market segments:\n*   Man portable ground power gensets for specialized needs, and\u2026\n*   Electric aerospace applications that require an efficient range extender."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 51,
+            "line_end": 51,
+            "url": "https://uavturbines.com/",
+            "page_class": "homepage",
+            "snippet": "UAVT\u2019s **25kW** generator sets offer extraordinary size and weight advantages over traditional diesel units: 75% lighter and 50% smaller, delivering critical logistical benefits. Specialized military operations requiring substantial electricity and rapid mobility will be early adopters of UAVT\u2019s APEX (Advanced Portable Expeditionary) generators."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 57,
+            "line_end": 58,
+            "url": "https://uavturbines.com/",
+            "page_class": "homepage",
+            "snippet": "Recognizing this power density limitation five years ago, UAVT developed a high-speed generator to replace the gearbox used in propeller applications.\nThe result is a high-power-to-weight ratio system that provides sufficient electrical power in a compact, lightweight package to serve as a hybrid range extender for larger drones that are required to carry meaningful payloads more than a short distance."
+          }
+        ],
+        "notes": "25 kW man-portable turbine generator sets (APEX series) and hybrid aerospace range-extender generators"
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Site nav also references 'Electric Power Generation' and 'Aerospace Range Extender' as distinct product lines; coverage is from homepage only"
+  },
+  "headquarters": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No city, state, or address found in the single fetched page. Contact form present but no address shown."
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 12,
+        "line_end": 12,
+        "url": "https://uavturbines.com/",
+        "page_class": "homepage",
+        "snippet": "UAVT\u2019s Turbine Aerospace Systems are sized for drones ranging in take-off weight from 300 to 2,500 pounds. UAVT uses propellers to produce propulsion and can be configured for either horizontal or vertical flight."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 40,
+        "line_end": 40,
+        "url": "https://uavturbines.com/",
+        "page_class": "homepage",
+        "snippet": "Since its formation, UAVT has focused exclusively on developing commercial and military products powered by micro-turbine engine systems. Turbine engines offer significant advantages over diesel and other internal combustion engines: superior reliability, durability, and fuel flexibility, plus lower operating noise and lower total cost of ownership."
+      }
+    ],
+    "notes": "Sells complete micro-turbine propulsion modules and generator sets that integrate into third-party drone platforms; does not manufacture complete aircraft"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Monarch 5 Engine",
+        "product_type": "micro-turbine engine / turboprop prime mover",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 13,
+            "line_end": 13,
+            "url": "https://uavturbines.com/",
+            "page_class": "homepage",
+            "snippet": "The above video shows our Monarch 5 Engine serving as the prime mover for a 480lb take-off weight TigerShark drone."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 17,
+            "line_end": 17,
+            "url": "https://uavturbines.com/",
+            "page_class": "homepage",
+            "snippet": "The Monarch 5 engine demonstration with the 480-pound TigerShark drone platform validated our system\u2019s capabilities. Flight tests confirmed significant performance improvements over reciprocating engines."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "APEX (Advanced Portable Expeditionary)",
+        "product_type": "25 kW man-portable turbine generator set",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 51,
+            "line_end": 51,
+            "url": "https://uavturbines.com/",
+            "page_class": "homepage",
+            "snippet": "UAVT\u2019s **25kW** generator sets offer extraordinary size and weight advantages over traditional diesel units: 75% lighter and 50% smaller, delivering critical logistical benefits. Specialized military operations requiring substantial electricity and rapid mobility will be early adopters of UAVT\u2019s APEX (Advanced Portable Expeditionary) generators."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 53,
+            "line_end": 53,
+            "url": "https://uavturbines.com/",
+            "page_class": "homepage",
+            "snippet": "Subsequent to demonstrations for various US Department of Defense organizations, APEX prototypes will be field tested in late 2025."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Image filenames suggest an LTS40R product line but it is not named in the fetched text. Additional product pages not fetched."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "prototype",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 53,
+        "line_end": 53,
+        "url": "https://uavturbines.com/",
+        "page_class": "homepage",
+        "snippet": "Subsequent to demonstrations for various US Department of Defense organizations, APEX prototypes will be field tested in late 2025."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 17,
+        "line_end": 17,
+        "url": "https://uavturbines.com/",
+        "page_class": "homepage",
+        "snippet": "The Monarch 5 engine demonstration with the 480-pound TigerShark drone platform validated our system\u2019s capabilities. Flight tests confirmed significant performance improvements over reciprocating engines."
+      }
+    ],
+    "notes": "APEX generators are explicitly at prototype stage (field testing planned late 2025); Monarch 5 described as 'demonstration' with validated flight tests \u2014 no production claim made for either line"
+  },
+  "unresolved_questions": [
+    "Headquarters city/state/country not disclosed on homepage",
+    "LTS40R product line name visible in image filename but not confirmed in text",
+    "NDAA/Blue UAS compliance status unknown",
+    "Whether any products are in production vs. prototype only"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://uavturbines.com/contact",
+      "reason": "Would provide headquarters address, city, and state for the headquarters field",
+      "expected_evidence": [
+        "headquarters"
+      ],
+      "source_hint": "guessed standard /contact path; not in crawl_index",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://uavturbines.com/about",
+      "reason": "Would confirm headquarters location and company background including production readiness claims",
+      "expected_evidence": [
+        "headquarters",
+        "readiness",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "guessed standard /about path; not in crawl_index",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://uavturbines.com/technology-development",
+      "reason": "Nav item 'Technology Development' likely contains product specs, NDAA compliance claims, and additional named products (LTS40R observed in image filename)",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "ndaa",
+        "readiness"
+      ],
+      "source_hint": "guessed from nav item visible on homepage",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "partial",
+  "tagline": "Designs and develops microturbine propulsion and power-generation systems for tactical drones (300\u20132,500 lb class). Core products include the Monarch 5 engine for fixed-wing and hybrid platforms, and the APEX portable generator family. All offerings remain at prototype or early demonstration stage; NDAA compliance and Blue UAS certification status unknown. Public evidence confirms flight testing on TigerShark platform and DoD generator demonstrations planned for late 2025, but no production contracts or fielded systems identified.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 6,
+    "total_cost_usd": 0.1676268,
+    "created_at": "2026-05-04T07:19:43+00:00",
+    "extract_version": "0.1.0"
+  }
+}

@@ -1,0 +1,359 @@
+{
+  "target_id": "hartzell-propeller",
+  "run_id": "canonical",
+  "display_name": "Hartzell Propeller",
+  "homepage_url": "https://hartzellprop.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/hartzell-propeller/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0014",
+            "line_start": 50,
+            "line_end": 52,
+            "url": "https://hartzellprop.com/products/propeller-systems",
+            "page_class": "product",
+            "snippet": "Propellers\n==========\nHartzell has been the leader in aircraft propeller systems for over 90 years. We have over 400 different blade designs available which can be configured in hubs with 2- through 6-blades to provide optimal performance for the aircraft designer modifier. All Hartzell propellers are constant-speed and are available with optional de-ice systems."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 148,
+            "line_end": 151,
+            "url": "https://hartzellprop.com",
+            "page_class": "homepage",
+            "snippet": "Propellers\n----------\nHartzell has been the leader in aircraft propeller systems for nearly a century. We have over 400 different blade designs available which can be configured in hubs with 2- through 6-blades to provide optimal performance for the aircraft designer modifier. To find a propeller specific to your aircraft, use our [Application Guide](https://hartzellprop.com/services/product-support-library/manuals/application-guide/)\u00a0or [contact us](https://hartzellprop.com/contact/).\n[View Propellers](https://hartzellprop.com/products/propeller-systems/)"
+          }
+        ],
+        "notes": "Propellers for piston, turboprop, electric/hybrid, and UAV aircraft \u2014 over 400 blade designs, 2- through 6-blade configurations"
+      },
+      {
+        "category": "mechanical_subsystems",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 155,
+            "line_end": 163,
+            "url": "https://hartzellprop.com",
+            "page_class": "homepage",
+            "snippet": "[![products-spinners](https://hartzellprop.com/wp-content/uploads/products-spinners1.jpg)\n### Aluminum / Composite Spinners\n](https://hartzellprop.com/products/spinners/)\n[![products-governors](https://hartzellprop.com/wp-content/uploads/products-governors1.jpg)\n### Governors\n](https://hartzellprop.com/products/governors/)\n[![products-de-ice](https://hartzellprop.com/wp-content/uploads/products-de-ice1.jpg)\n### Propeller De-Ice / Ice Protection\n](https://hartzellprop.com/products/propeller-de-ice-protection/)"
+          }
+        ],
+        "notes": "Governors, spinners, and propeller de-ice/ice protection systems sold as supporting products"
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "UAV-specific propeller page (hartzellprop.com/government/uav) and Advanced Air Mobility page both skipped; UAV-specific product details not confirmed in fetched corpus"
+  },
+  "headquarters": {
+    "value": {
+      "city": "Piqua",
+      "state_or_province": "Ohio",
+      "country": "United States",
+      "address": "One Propeller Place, Piqua, Ohio 45356"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0035",
+        "line_start": 52,
+        "line_end": 56,
+        "url": "https://hartzellprop.com/contact",
+        "page_class": "contact",
+        "snippet": "WORLD HEADQUARTERS\n------------------\n**Hartzell Propeller LLC**\nOne Propeller Place\nPiqua, Ohio 45356"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0005",
+        "line_start": 185,
+        "line_end": 187,
+        "url": "https://hartzellprop.com",
+        "page_class": "homepage",
+        "snippet": "[![help-government](https://hartzellprop.com/wp-content/uploads/help-government1.png)](https://hartzellprop.com/government/ \"GOVERNMENT\")\n### [GOVERNMENT](https://hartzellprop.com/government/ \"GOVERNMENT\")\n*   [UAV](https://hartzellprop.com/government/uav/ \"UAV\")"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0021",
+        "line_start": 104,
+        "line_end": 106,
+        "url": "https://hartzellprop.com/composite-propeller-technology",
+        "page_class": "capability",
+        "snippet": "![Hartzell-Composite-Propeller-Aircraft-Platforms-Electric-Aircraft](https://hartzellprop.com/wp-content/uploads/Hartzell-Composite-Propeller-Aircraft-Platforms-Electric-Aircraft.jpg)\n### Advanced Air Mobility and Electric Aircraft\nAdvance the future of flight with lightweight carbon fiber composite propeller solutions for a new generation of electric, hybrid-electric, and alternative propulsion aircraft."
+      }
+    ],
+    "notes": "Hartzell sells propellers (mechanical propulsion components) explicitly into UAV/government markets and Advanced Air Mobility platforms; dedicated UAV product page exists but was not fetched"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Top Prop STC Propellers",
+        "product_type": "propeller conversion/upgrade series (STC-approved)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 86,
+            "line_end": 88,
+            "url": "https://hartzellprop.com",
+            "page_class": "homepage",
+            "snippet": "Top Prop Conversion Program\n---------------------------\nA propeller conversion is one of the smartest investments you can make for your aircraft. Hartzell Propeller Top Prop Conversions allow you to upgrade to our innovative new designs featuring scimitar blades, blended airfoils, and rugged structural composite materials."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Falcon Series Propeller",
+        "product_type": "constant speed propeller for Rotax 916 engines",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 54,
+            "line_end": 57,
+            "url": "https://hartzellprop.com",
+            "page_class": "homepage",
+            "snippet": "*   INTRODUCING THE FALCON SERIES PROPELLER FOR ROTAX\n    =================================================\n    Hartzell's lightest constant speed propeller for Rotax 916 engines.\n    [Learn More](https://hartzellprop.com/light-sport-aircraft-propellers/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Carbon Voyager",
+        "product_type": "3-blade carbon fiber composite propeller (Cessna Skywagon fleet)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 62,
+            "line_end": 65,
+            "url": "https://hartzellprop.com",
+            "page_class": "homepage",
+            "snippet": "*   Backcountry Brawn\n    =================\n    Hartzell's new 3-blade Carbon Voyager for the Cessna Skywagon fleet.\n    [Learn more](https://hartzellprop.com/press-release-carbon-voyager-propellers-stc-approved/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Talon Aerobatic Propeller",
+        "product_type": "3-blade carbon fiber composite aerobatic propeller (GB1 GameBird)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 70,
+            "line_end": 73,
+            "url": "https://hartzellprop.com",
+            "page_class": "homepage",
+            "snippet": "*   The Talon Aerobatic Propeller\n    =============================\n    Cutting-edge three-blade carbon fiber composite propeller for the entire GB1 GameBird fleet.\n    [Learn More](https://hartzellprop.com/press-release-composite-talon-propeller-approved-for-gb1-gamebird-aircraft/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Outlaw Propeller",
+        "product_type": "2-blade carbon fiber composite propeller (Mooney M20 Series)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 74,
+            "line_end": 77,
+            "url": "https://hartzellprop.com",
+            "page_class": "homepage",
+            "snippet": "*   The New Outlaw Propeller for Mooney M20 Series\n    ==============================================\n    A lightweight, two-blade carbon fiber composite propeller with unlimited life blades.\n    [Learn More](https://hartzellprop.com/press-release-mooney-m20-propeller-the-outlaw/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Yukon Propeller",
+        "product_type": "carbon fiber propeller for Cessna Caravans",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 101,
+            "line_end": 103,
+            "url": "https://hartzellprop.com",
+            "page_class": "homepage",
+            "snippet": "### Meet the Yukon Propeller: The Carbon Fiber Game-Changer for Cessna Caravans\nApril 27, 2026\n](https://hartzellprop.com/blog-hartzell-yukon-propeller-for-cessna-caravans/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ASC-II (Advanced Structural Composite) blade",
+        "product_type": "composite propeller blade (carbon fiber woven braided)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0013",
+            "line_start": 52,
+            "line_end": 52,
+            "url": "https://hartzellprop.com/products/propeller-systems/composite-propellers-piston-engine-aircraft",
+            "page_class": "product",
+            "snippet": "With over 30 years of experience in the design and manufacturing of structural composite blades, Hartzell introduced the second generation Advance Structural Composite (ASC-II) blade in 2006. Several certified OEM airframe manufacturers have selected the ASC-II blade as standard equipment because of the low weight, low inertia, and low life cycle costs that it offers their customers."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Governors",
+        "product_type": "aircraft propeller governor/controller",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 158,
+            "line_end": 160,
+            "url": "https://hartzellprop.com",
+            "page_class": "homepage",
+            "snippet": "[![products-governors](https://hartzellprop.com/wp-content/uploads/products-governors1.jpg)\n### Governors\n](https://hartzellprop.com/products/governors/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Aluminum / Composite Spinners",
+        "product_type": "propeller spinner",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 155,
+            "line_end": 157,
+            "url": "https://hartzellprop.com",
+            "page_class": "homepage",
+            "snippet": "[![products-spinners](https://hartzellprop.com/wp-content/uploads/products-spinners1.jpg)\n### Aluminum / Composite Spinners\n](https://hartzellprop.com/products/spinners/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Propeller De-Ice / Ice Protection",
+        "product_type": "propeller de-icing system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 161,
+            "line_end": 163,
+            "url": "https://hartzellprop.com",
+            "page_class": "homepage",
+            "snippet": "[![products-de-ice](https://hartzellprop.com/wp-content/uploads/products-de-ice1.jpg)\n### Propeller De-Ice / Ice Protection\n](https://hartzellprop.com/products/propeller-de-ice-protection/)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Specific UAV-targeted propeller products not confirmed; government/uav and advanced-air-mobility pages were skipped during crawl"
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0029",
+        "line_start": 53,
+        "line_end": 53,
+        "url": "https://hartzellprop.com/about",
+        "page_class": "company",
+        "snippet": "**Hartzell Propeller LLC**\u00a0is the global leader in advanced aircraft propeller design and manufacturing technology. Because of our concentration and commitment to propeller driven aviation, we are the supplier of choice for nearly every major aircraft manufacturer."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0037",
+        "line_start": 52,
+        "line_end": 54,
+        "url": "https://hartzellprop.com/services/product-support-library/certifications-and-qualifications",
+        "page_class": "compliance",
+        "snippet": "As a global leader in advanced aircraft propeller design and manufacturing, Hartzell Propeller carries a number of certifications and qualifications to assure that we meet all criteria to be a trusted and reliable partner. Download and view our certifications and qualifications below:\n[**Hartzell Propeller FAA Production Certificate**](https://hartzellprop.com/wp-content/uploads/PC10.pdf)\n[**Hartzell Propeller AS9100D with ISO 9001 Certificate**](https://hartzellprop.com/wp-content/uploads/4378-Hartzell-Propeller-AS-9100-RE-01-2026.pdf)"
+      }
+    ],
+    "notes": "Established manufacturer with over 90 years in production; FAA Production Certificate held; over 400 blade designs in serial production catalog"
+  },
+  "unresolved_questions": [
+    "UAV-specific propeller product line details not confirmed (government/uav page skipped)",
+    "Advanced Air Mobility specific propeller models not confirmed (advanced-air-mobility page skipped)"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://hartzellprop.com/government/uav",
+      "reason": "Would confirm specific UAV propeller products and strengthen component_supplier role classification for UXV supply chain",
+      "expected_evidence": [
+        "products",
+        "drone_supply_chain_role",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://hartzellprop.com/advanced-air-mobility",
+      "reason": "Would confirm propeller products for electric/hybrid aircraft and AAM platforms, including any UAV-specific offerings",
+      "expected_evidence": [
+        "products",
+        "drone_supply_chain_role",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_budget",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 20,
+    "total_cost_usd": 0.4922899,
+    "created_at": "2026-05-03T14:57:45+00:00",
+    "extract_version": "0.1.0"
+  },
+  "tagline": "Manufactures constant-speed composite and aluminum propellers for piston and turboprop aircraft, plus emerging electric/hybrid platforms; strength in STC retrofit kits (Top Prop line) and light-sport/experimental kitplane segments. NDAA and Blue UAS status unknown. Public evidence sparse on unmanned-systems applications or defense-sector qualification; current portfolio appears oriented toward manned GA and emerging advanced air mobility rather than tactical UAS."
+}

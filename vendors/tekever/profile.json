@@ -1,0 +1,331 @@
+{
+  "target_id": "tekever",
+  "run_id": "canonical",
+  "display_name": "Tekever",
+  "homepage_url": "https://www.tekever.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/tekever/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "airframes",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0091",
+            "line_start": 25,
+            "line_end": 26,
+            "url": "https://www.tekever.com/platforms",
+            "page_class": "product",
+            "snippet": "### TEKEVER offers mission-oriented product lines through its unmanned aerial systems business unit,\nproviding the customer with Data and Intelligence Services."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0091",
+            "line_start": 28,
+            "line_end": 31,
+            "url": "https://www.tekever.com/platforms",
+            "page_class": "product",
+            "snippet": "ARX\n===\n### ARX\nThe Game Changer"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0091",
+            "line_start": 34,
+            "line_end": 37,
+            "url": "https://www.tekever.com/platforms",
+            "page_class": "product",
+            "snippet": "AR5\n===\n### AR5\nMission: Patrolling"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0091",
+            "line_start": 40,
+            "line_end": 43,
+            "url": "https://www.tekever.com/platforms",
+            "page_class": "product",
+            "snippet": "AR3\n===\n### AR3\nYour Mission, Your Configuration"
+          }
+        ],
+        "notes": "TEKEVER designs and manufactures complete fixed-wing UAS platforms: AR3, AR5, and ARX."
+      },
+      {
+        "category": "ground_segment",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 73,
+            "line_end": 75,
+            "url": "https://www.tekever.com",
+            "page_class": "homepage",
+            "snippet": "ATLAS\n=====\nReal-time Intelligence as-a-service"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0122",
+            "line_start": 28,
+            "line_end": 34,
+            "url": "https://www.tekever.com/specs",
+            "page_class": "product",
+            "snippet": "Prepare Mission - UAV Mission Enhancer ATLAS\n============================================\n*   Create mission briefs\n*   Define objectives on map\n*   Choose aircraft\n*   Define mission parameters\n*   Manage approval process with customisable workflow"
+          }
+        ],
+        "notes": "ATLAS is TEKEVER's real-time intelligence-as-a-service platform for mission planning, live UAV mission management, and sensor data integration."
+      },
+      {
+        "category": "isr_payloads",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0049",
+            "line_start": 29,
+            "line_end": 29,
+            "url": "https://www.tekever.com/news/tekever-and-apex-partner-to-deliver-advanced-isr-drone-capabilities-to-taiwan",
+            "page_class": "news",
+            "snippet": "TEKEVER to deploy AI-driven UAS in Taiwan for ISR missions. Partnership will combine TEKEVER\u2019s technology with Apex\u2019s local expertise"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 52,
+            "line_end": 53,
+            "url": "https://www.tekever.com",
+            "page_class": "homepage",
+            "snippet": "### TEKEVER offers mission-oriented product lines through its unmanned aerial systems business unit,\nproviding the customer with Data and Intelligence Services."
+          }
+        ],
+        "notes": "TEKEVER delivers ISR data and intelligence services through its UAS platforms; ISR is the primary mission type. Partners integrate EO/IR and hyperspectral payloads."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Lisboa",
+      "state_or_province": null,
+      "country": "Portugal",
+      "address": "Edif\u00edcio Gon\u00e7alves Zarco, R. da Cintura do Porto de Lisboa, 1350-352 Lisboa"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0015",
+        "line_start": 43,
+        "line_end": 46,
+        "url": "https://www.tekever.com/contact",
+        "page_class": "contact",
+        "snippet": "Headquarters\nEdif\u00edcio Gon\u00e7alves Zarco\nR. da Cintura do Porto de Lisboa\n1350-352 Lisboa, Portugal"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "oem",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0091",
+        "line_start": 25,
+        "line_end": 26,
+        "url": "https://www.tekever.com/platforms",
+        "page_class": "product",
+        "snippet": "### TEKEVER offers mission-oriented product lines through its unmanned aerial systems business unit,\nproviding the customer with Data and Intelligence Services."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0009",
+        "line_start": 47,
+        "line_end": 47,
+        "url": "https://www.tekever.com/about",
+        "page_class": "company",
+        "snippet": "TEKEVER became a key player in the UAS market and Europe\u2019s leading provider of unmanned aerial vehicles. The other existing business lines focus on Digital Transformation services (TEKEVER Digital) and on developing Satellite Systems and Technologies (TEKEVER Space)."
+      }
+    ],
+    "notes": "TEKEVER designs and manufactures its own complete UAS platforms (AR3, AR5, ARX) sold to defence and civil customers globally."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "AR3",
+        "product_type": "fixed-wing UAS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 67,
+            "line_end": 70,
+            "url": "https://www.tekever.com",
+            "page_class": "homepage",
+            "snippet": "AR3\n===\n### AR3\nYour Mission, Your Configuration"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AR5",
+        "product_type": "fixed-wing UAS (patrolling/maritime surveillance)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 61,
+            "line_end": 64,
+            "url": "https://www.tekever.com",
+            "page_class": "homepage",
+            "snippet": "AR5\n===\n### AR5\nMission: Patrolling"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ARX",
+        "product_type": "fixed-wing UAS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 55,
+            "line_end": 58,
+            "url": "https://www.tekever.com",
+            "page_class": "homepage",
+            "snippet": "ARX\n===\n### ARX\nThe Game Changer"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ATLAS",
+        "product_type": "UAV mission management / real-time intelligence-as-a-service platform",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 73,
+            "line_end": 75,
+            "url": "https://www.tekever.com",
+            "page_class": "homepage",
+            "snippet": "ATLAS\n=====\nReal-time Intelligence as-a-service"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Product detail pages for AR3 (/ar3-evo/) and AR5 (/ar5/) exist but were skipped; additional spec detail may be available there."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "Compliance page lists AS9100, ISO 9001, and Cyber Essentials. No mention of NDAA Section 848/889 anywhere in corpus. TEKEVER is a Portuguese/UK company."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No mention of Blue UAS or Blue sUAS anywhere in the corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 82,
+        "line_end": 82,
+        "url": "https://www.tekever.com",
+        "page_class": "homepage",
+        "snippet": "The new Cahors site enters its transformation phase to support TEKEVER\u2019s drone production and space activities in France"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 97,
+        "line_end": 97,
+        "url": "https://www.tekever.com",
+        "page_class": "homepage",
+        "snippet": "TEKEVER has secured a new framework contract valued at \u20ac30 million with the European Maritime Safety Agency (EMSA) to provide Unmanned Aerial Systems (UAS) for maritime operations."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0045",
+        "line_start": 29,
+        "line_end": 29,
+        "url": "https://www.tekever.com/news/tekever-acquires-west-wales-airport-to-advance-uk-and-nato-defence-capabilities",
+        "page_class": "news",
+        "snippet": "Acquisition marks a step forward in TEKEVER\u2019s \u00a3400m OVERMATCH programme. West Wales Airport to become a national hub for the testing and evaluation of unmanned systems"
+      }
+    ],
+    "notes": "Operational deployments to Ukraine, UK Home Office, Royal Navy, and \u20ac30M EMSA contract. Cahors industrial production site ramping up. AR5 and AR3 in serial production."
+  },
+  "unresolved_questions": [
+    "Specific technical specs (MTOW, endurance, payload capacity) for AR3/AR5/ARX not in corpus \u2014 skipped product pages would resolve.",
+    "NDAA compliance status unknown \u2014 TEKEVER is European with nascent US office.",
+    "Whether ATLAS qualifies as a separately licensable SaaS product or is bundled with platform purchase."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.tekever.com/ar5/",
+      "reason": "AR5 product page would confirm specs, production status, and operational details for the flagship maritime surveillance UAS.",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "products_categories"
+      ],
+      "source_hint": "linked from resource-0001 nav (line 17)",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.tekever.com/ar3-evo/",
+      "reason": "AR3 product page would confirm AR3 specs and configuration options relevant to readiness and category classification.",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "products_categories"
+      ],
+      "source_hint": "linked from resource-0001 nav (line 16)",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.tekever.com/atlas/",
+      "reason": "ATLAS dedicated page would clarify whether it is sold as a standalone SaaS/ground-segment product or is bundled with UAS platforms.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "linked from resource-0001 nav (line 7)",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "complete",
+  "tagline": "Portuguese fixed-wing UAS maker (AR3, AR5, ARX) for maritime patrol and ISR, plus ATLAS ground-control software. Active in European defense and civil markets; secured \u20ac30M EMSA contract (2025) and French SAR satellite work. NDAA and Blue UAS certification status unknown; US market penetration unclear from public record.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 15,
+    "total_cost_usd": 0.4161668,
+    "created_at": "2026-05-04T06:48:10+00:00",
+    "extract_version": "0.1.0"
+  }
+}

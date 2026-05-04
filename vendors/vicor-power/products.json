@@ -1,0 +1,79 @@
+{
+  "target_id": "vicor-power",
+  "run_id": "canonical",
+  "display_name": "Vicor Power",
+  "homepage_url": "https://www.vicorpower.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/vicor-power/website",
+  "products": [
+    {
+      "name": "SOSA\u2122 aligned power supply",
+      "category": "power_systems",
+      "descriptor": "Rugged 3U OpenVPX COTs power supply aligned to SOSA standard",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0098",
+          "line_start": 95,
+          "line_end": 97,
+          "url": "https://www.vicorpower.com/all-products/mil-cots/power-systems/sosa",
+          "page_class": "product",
+          "snippet": "SOSA\u2122 aligned power supply\n==========================\nThe Vicor SOSA-aligned power supply is a COTs power supply that is designed for 3U Open VPX systems that are developed to the SOSA standard. The module utilizes Vicor proprietary technology to enable high efficiency and power density for this highly rugged, conduction-cooled model."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0098",
+          "line_start": 480,
+          "line_end": 481,
+          "url": "https://www.vicorpower.com/all-products/mil-cots/power-systems/sosa",
+          "page_class": "product",
+          "snippet": "![Military standard compliance to MIL\u2011STD 704F, 461G, 810G, 1275E](/files/live/sites/vicor/files/images/icons/on-white/icon-defense-aero-on-white.svg)\nMilitary standard compliance to MIL\u2011STD\u00a0704F, 461G, 810G, 1275E"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "VITA 62 power supply",
+      "category": "power_systems",
+      "descriptor": "MIL-COTS 3U/6U OpenVPX power supply, 28V or 270VDC input, up to 1000W",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0411",
+          "line_start": 95,
+          "line_end": 97,
+          "url": "https://www.vicorpower.com/mil-cots-power-systems/vita-62",
+          "page_class": "capability",
+          "snippet": "VITA 62 power supply\n====================\nMIL-COTS power supplies that are designed for 3U and 6U OpenVPX systems"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0411",
+          "line_start": 267,
+          "line_end": 267,
+          "url": "https://www.vicorpower.com/mil-cots-power-systems/vita-62",
+          "page_class": "capability",
+          "snippet": "Military standard compliance to MIL\u2011STD\u00a0704F, 461G, 810G, 1275E"
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 0,
+    "total_cost_usd": null,
+    "created_at": "2026-05-04T07:43:34+00:00",
+    "extract_version": "0.1.0"
+  }
+}

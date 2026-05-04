@@ -1,0 +1,376 @@
+{
+  "target_id": "honeywell",
+  "run_id": "canonical",
+  "display_name": "Honeywell",
+  "homepage_url": "https://aerospace.honeywell.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/honeywell/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0027",
+            "line_start": 292,
+            "line_end": 292,
+            "url": "https://aerospace.honeywell.com/us/en/products-and-services/products/navigation-and-sensors/navigation-systems/honeywell-compact-inertial-navigation-system",
+            "page_class": "product",
+            "snippet": "**The Honeywell Aerospace Compact Inertial Navigation System (HCINS) is a low size, weight, and power (SWaP) solution designed for all classes of unmanned aerial vehicles (UAVs). Engineered to ensure safe and reliable navigation during intermittent GNSS disruptions.**"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-1499",
+            "line_start": 283,
+            "line_end": 283,
+            "url": "https://aerospace.honeywell.com/us/en/products-and-services/products/navigation-and-sensors/navigation-systems/honeywell-radar-velocity-system",
+            "page_class": "product",
+            "snippet": "The Honeywell Radar Velocity System (HRVS) is a compact, lightweight, and low-power radar-based navigation-aiding solution designed for resilient UAV operations. Leveraging advanced millimeter wave sensing technology (60\u201364 GHz or 76\u201381 GHz), HRVS delivers precise range, velocity, and angle measurements with centimeter-level accuracy\u2014regardless of environmental conditions such as rain, fog, dust, or snow."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-1439",
+            "line_start": 282,
+            "line_end": 282,
+            "url": "https://aerospace.honeywell.com/us/en/products-and-services/products/navigation-and-sensors/inertial-measurement-units/hg3900-mems-inertial-measurement-unit",
+            "page_class": "product",
+            "snippet": "The next generation HG3900 IMU uses all-silicon MEMS (microelectromechanical system) technology to create a low size, weight and power (SWaP) package that performs as well or better than similar-sized IMUs using fiber optic gyroscope (FOG) or ring laser gyroscope (RLG) technology."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-1362",
+            "line_start": 283,
+            "line_end": 283,
+            "url": "https://aerospace.honeywell.com/us/en/products-and-services/products/navigation-and-sensors/inertial-measurement-units/hguide-hg4930-mems-inertial-measurement-unit",
+            "page_class": "news",
+            "snippet": "The HG4930 is an ultra-rugged tactical grade MEMS IMU designed for use in very challenging environments. Based on 20 years of legacy development it is capable of matching performance of some FOG based IMUs in a lower SWaP-C package with vastly increased reliability."
+          }
+        ],
+        "notes": "Products span INS (HCINS), radar velocity (HRVS), MEMS IMUs (HG3900, HGuide series), and magnetometers \u2014 all under Honeywell's Navigation and Sensors product line."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Phoenix",
+      "state_or_province": "Arizona",
+      "country": "US",
+      "address": null
+    },
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0529",
+        "url": null,
+        "page_class": "news",
+        "snippet": "PHOENIX, Nov 20, 2025 \u2013 Honeywell (NASDAQ: HON) announced today it has received U.S. government authorization for the remaining variants of its M-Code Global Positioning System (GPS) Inertial Navigation Systems (EGI)"
+      }
+    ],
+    "notes": "Press release dateline 'PHOENIX' identifies the Honeywell Aerospace Technologies division location. Honeywell International corporate HQ is Charlotte, NC."
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0027",
+        "line_start": 292,
+        "line_end": 292,
+        "url": "https://aerospace.honeywell.com/us/en/products-and-services/products/navigation-and-sensors/navigation-systems/honeywell-compact-inertial-navigation-system",
+        "page_class": "product",
+        "snippet": "**The Honeywell Aerospace Compact Inertial Navigation System (HCINS) is a low size, weight, and power (SWaP) solution designed for all classes of unmanned aerial vehicles (UAVs). Engineered to ensure safe and reliable navigation during intermittent GNSS disruptions.**"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0533",
+        "line_start": 284,
+        "line_end": 284,
+        "url": "https://aerospace.honeywell.com/us/en/products-and-services/products/navigation-and-sensors/inertial-measurement-units/hguide-i300-mems-inertial-measurement-unit",
+        "page_class": "news",
+        "snippet": "The i300 also supports accurate and dependable guidance, control and pointing capabilities under the most demanding environments. The i300\u2019s extremely low SWaP-C make the unit ideal for a wide range of Defence and Industrial applications, including Autonomous platforms, Agriculture, UAVs, marine, oil and gas, robotics, survey and mapping, stabilized platforms, transportation."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-1362",
+        "line_start": 283,
+        "line_end": 283,
+        "url": "https://aerospace.honeywell.com/us/en/products-and-services/products/navigation-and-sensors/inertial-measurement-units/hguide-hg4930-mems-inertial-measurement-unit",
+        "page_class": "news",
+        "snippet": "The HG4930 is an ultra-rugged tactical grade MEMS IMU designed for use in very challenging environments. Based on 20 years of legacy development it is capable of matching performance of some FOG based IMUs in a lower SWaP-C package with vastly increased reliability."
+      }
+    ],
+    "notes": "Honeywell Aerospace supplies navigation sensors, IMUs, and magnetometers to UAV manufacturers and integrators. Products explicitly marketed for UAV integration."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Honeywell Compact Inertial Navigation System (HCINS)",
+        "product_type": "inertial navigation system for UAVs",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0027",
+            "line_start": 274,
+            "line_end": 274,
+            "url": "https://aerospace.honeywell.com/us/en/products-and-services/products/navigation-and-sensors/navigation-systems/honeywell-compact-inertial-navigation-system",
+            "page_class": "product",
+            "snippet": "Honeywell Compact Inertial Navigation System"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Honeywell Radar Velocity System (HRVS)",
+        "product_type": "radar-based navigation-aiding system for UAVs",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-1499",
+            "line_start": 274,
+            "line_end": 274,
+            "url": "https://aerospace.honeywell.com/us/en/products-and-services/products/navigation-and-sensors/navigation-systems/honeywell-radar-velocity-system",
+            "page_class": "product",
+            "snippet": "Honeywell Radar Velocity System"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HG3900 MEMS Inertial Measurement Unit",
+        "product_type": "MEMS IMU",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-1439",
+            "line_start": 274,
+            "line_end": 274,
+            "url": "https://aerospace.honeywell.com/us/en/products-and-services/products/navigation-and-sensors/inertial-measurement-units/hg3900-mems-inertial-measurement-unit",
+            "page_class": "product",
+            "snippet": "HG3900 MEMS Inertial Measurement Unit"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HGuide i300 MEMS Inertial Measurement Unit",
+        "product_type": "industrial-grade MEMS IMU",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0533",
+            "line_start": 274,
+            "line_end": 274,
+            "url": "https://aerospace.honeywell.com/us/en/products-and-services/products/navigation-and-sensors/inertial-measurement-units/hguide-i300-mems-inertial-measurement-unit",
+            "page_class": "news",
+            "snippet": "HGuide i300 MEMS Inertial Measurement Unit"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HGuide i400 MEMS Inertial Measurement Unit",
+        "product_type": "near-tactical grade MEMS IMU",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-1388",
+            "line_start": 274,
+            "line_end": 274,
+            "url": "https://aerospace.honeywell.com/us/en/products-and-services/products/navigation-and-sensors/inertial-measurement-units/hguide-i400-mems-inertial-measurement-unit",
+            "page_class": "news",
+            "snippet": "HGuide i400 MEMS Inertial Measurement Unit"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HGuide HG4930 MEMS Inertial Measurement Unit",
+        "product_type": "tactical-grade MEMS IMU",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-1362",
+            "line_start": 274,
+            "line_end": 274,
+            "url": "https://aerospace.honeywell.com/us/en/products-and-services/products/navigation-and-sensors/inertial-measurement-units/hguide-hg4930-mems-inertial-measurement-unit",
+            "page_class": "news",
+            "snippet": "HGuide HG4930 MEMS Inertial Measurement Unit"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HGuide HG4930 S-Class MEMS Inertial Measurement Unit",
+        "product_type": "tactical-grade MEMS IMU for stabilization",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-1360",
+            "line_start": 274,
+            "line_end": 274,
+            "url": "https://aerospace.honeywell.com/us/en/products-and-services/products/navigation-and-sensors/inertial-measurement-units/hguide-hg4930-s-class-mems-inertial-measurement-unit",
+            "page_class": "news",
+            "snippet": "HGuide HG4930 S-Class MEMS Inertial Measurement Unit"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HMC2003 3-Axis Magnetometer",
+        "product_type": "analog 3-axis magnetometer",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-1442",
+            "line_start": 274,
+            "line_end": 274,
+            "url": "https://aerospace.honeywell.com/us/en/products-and-services/products/navigation-and-sensors/sensors/hmc2003-3-axis-magnetometer",
+            "page_class": "product",
+            "snippet": "HMC2003 3-Axis Magnetometer"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HMR2300 3-Axis Magnetometer",
+        "product_type": "digital 3-axis magnetometer",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-1417",
+            "line_start": 274,
+            "line_end": 274,
+            "url": "https://aerospace.honeywell.com/us/en/products-and-services/products/navigation-and-sensors/sensors/hmr2300-3-axis-magnetometer",
+            "page_class": "product",
+            "snippet": "HMR2300 3-Axis Magnetometer"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Integrated Compassing Solutions (HMC6343 / HMR3300)",
+        "product_type": "tilt-compensated compass modules",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-1389",
+            "line_start": 289,
+            "line_end": 289,
+            "url": "https://aerospace.honeywell.com/us/en/products-and-services/products/navigation-and-sensors/sensors/integrated-compassing-solutions",
+            "page_class": "product",
+            "snippet": "Ideal for UAVs and other demanding applications, the HMR3300 delivers dependable magnetic sensing and is fully **RoHS 3 compliant**, making it a smart choice for modern, environmentally conscious designs."
+          }
+        ],
+        "notes": "Page covers HMC6343 integrated compass and HMR3300 digital compass; both listed for UAV applications."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Corpus covers the Navigation and Sensors product line only. Honeywell Aerospace also makes avionics, engines, APUs, and control systems \u2014 those pages were not fetched."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA Section 848/889 compliance claim found anywhere in the 42 fetched pages. The HGuide o480 is noted as 'Designed and manufactured in the EU', which may have NDAA implications not addressed on the site."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS or Blue sUAS mention found in the corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-1439",
+        "line_start": 283,
+        "line_end": 283,
+        "url": "https://aerospace.honeywell.com/us/en/products-and-services/products/navigation-and-sensors/inertial-measurement-units/hg3900-mems-inertial-measurement-unit",
+        "page_class": "product",
+        "snippet": "The HG3900 is designed and built at a Honeywell Aerospace facility in the USA. It typically has an ECCN of 7A003.d.1 but can vary depending on model selected. It generally requires an export license"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-1388",
+        "line_start": 287,
+        "line_end": 287,
+        "url": "https://aerospace.honeywell.com/us/en/products-and-services/products/navigation-and-sensors/inertial-measurement-units/hguide-i400-mems-inertial-measurement-unit",
+        "page_class": "news",
+        "snippet": "The HGuide i400 is designed and built at a Honeywell Aerospace\u00a0facility. It has an ECCN of 7A994 and is generally available without an export license."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0027",
+        "line_start": 462,
+        "line_end": 465,
+        "url": "https://aerospace.honeywell.com/us/en/products-and-services/products/navigation-and-sensors/navigation-systems/honeywell-compact-inertial-navigation-system",
+        "page_class": "product",
+        "snippet": "[Resilient UAV Navigation Suite](https://prod-edam.honeywell.com/content/dam/honeywell-edam/aero/en-us/products/navigation-and-sensors/common/documents/hon-aero-n61-3165-000-002-resilient-uav-navigation-suite-brochure-en.pdf?download=false)\nBrochure\n22 Oct 2025\n2.17 MB"
+      }
+    ],
+    "notes": "Products designed and built at Honeywell facilities; all product pages include Parts/SKU ordering sections. Brochures dated Oct 2025 and Mar 2026 confirm active production."
+  },
+  "unresolved_questions": [
+    "Headquarters city/state not disclosed in corpus \u2014 about-honeywell-aerospace page was skipped",
+    "NDAA compliance status not disclosed",
+    "Blue UAS listing status not disclosed",
+    "Products outside Navigation and Sensors (e.g. propulsion, avionics, engines) were not fetched"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://aerospace.honeywell.com/us/en/about-us/about-honeywell-aerospace",
+      "reason": "Company overview page likely contains headquarters city/state/country for Honeywell Aerospace Technologies, and may disclose NDAA compliance or export/regulatory certifications.",
+      "expected_evidence": [
+        "headquarters",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://aerospace.honeywell.com/us/en/products-and-services/products/navigation-and-sensors",
+      "reason": "Navigation and Sensors product category page would enumerate the full product portfolio, confirming completeness of product list and any drone-specific sub-lines.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_budget",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 21,
+    "total_cost_usd": 0.9304798999999999,
+    "created_at": "2026-05-02T18:13:30+00:00",
+    "extract_version": "0.1.0"
+  },
+  "tagline": "Manufactures MEMS inertial navigation systems (IMUs, INS/GNSS navigators), mmWave radar velocity-aiding, and GNSS anti-jamming for UAVs across all size classes and loitering munitions. Product line spans tactical-grade (HG3900, HG4930) to export-unrestricted compact units (i300, i700). NDAA and Blue UAS certification status unknown; public evidence does not clearly establish production volume, active program integration, or supply-chain risk factors."
+}

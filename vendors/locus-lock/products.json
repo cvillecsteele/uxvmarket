@@ -1,0 +1,139 @@
+{
+  "target_id": "locus-lock",
+  "run_id": "canonical",
+  "display_name": "Locus Lock",
+  "homepage_url": "https://www.locuslock.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/locus-lock/website",
+  "products": [
+    {
+      "name": "LEO100 GNSS SDR",
+      "category": "sensors_and_navigation",
+      "descriptor": "Production-ready turnkey software-defined GNSS receiver for precision navigation",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "yes",
+      "blue_uas": "yes",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0023",
+          "line_start": 42,
+          "line_end": 43,
+          "url": "https://www.locuslock.com/products",
+          "page_class": "product",
+          "snippet": "LEO100 GNSS SDR\nProduction-ready software-defined GNSS receiver for advanced positioning applications."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0024",
+          "line_start": 38,
+          "line_end": 39,
+          "url": "https://www.locuslock.com/products/leo100",
+          "page_class": "product",
+          "snippet": "![](https://static.wixstatic.com/media/2dc480_5c75e56dee334b139adb2994557138fe~mv2.png/v1/fill/w_180,h_85,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/NDAA_compliant.png)\n![](https://static.wixstatic.com/media/2dc480_4778a2d8a16f48ab9deda618f851d47c~mv2.webp/v1/fill/w_188,h_76,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Blue%20UAS%20DIU.webp)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0019",
+          "line_start": 24,
+          "line_end": 24,
+          "url": "https://www.locuslock.com/post/locus-lock-s-gnss-sdr-platform-joins-defense-innovation-unit-s-blue-uas-framework-cleared-list",
+          "page_class": "compliance",
+          "snippet": "Locus Lock\u2019s GNSS-SDR Platform Joins Defense Innovation Unit\u2019s Blue UAS Framework Cleared List"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "RTK Software Engine",
+      "category": "sensors_and_navigation",
+      "descriptor": "Optional RTK software add-on for centimeter-level GNSS positioning without hardware changes",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0024",
+          "line_start": 49,
+          "line_end": 49,
+          "url": "https://www.locuslock.com/products/leo100",
+          "page_class": "product",
+          "snippet": "Carrier-phase-based positioning enables high-precision performance, with an optional RTK software engine available for even higher accuracy without hardware changes."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Software-Only Solutions",
+      "category": "sensors_and_navigation",
+      "descriptor": "GNSS software capabilities deployable on existing customer hardware stacks",
+      "granularity": "category",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0023",
+          "line_start": 45,
+          "line_end": 50,
+          "url": "https://www.locuslock.com/products",
+          "page_class": "product",
+          "snippet": "Software-defined GNSS solutions delivered entirely in software, built for existing systems.\n\u200b\nAdvanced capabilities deployed on your current hardware stack. Contact us to discuss integration.\n[Contact Us](https://www.locuslock.com/contact-us)\nSoftware-Only Solutions,\nBuilt for Your Systems"
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "RTK Software Engine readiness, NDAA, and Blue UAS status are unknown \u2014 the corpus only mentions it in passing as an optional add-on (resource-0003 line 49) with no ordering or compliance language specific to this component.",
+    "Software-Only Solutions has no specific NDAA or Blue UAS claim in the corpus; the Blue UAS/NDAA certifications cited in resource-0006 reference the LEO100 platform specifically.",
+    "The LEO100 datasheet PDF (https://www.locuslock.com/_files/ugd/2dc480_c523f9fea0ad478da5ca5473aa191f51.pdf) was not fetched; it may contain detailed specs and compliance details for all three products."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.locuslock.com/_files/ugd/2dc480_c523f9fea0ad478da5ca5473aa191f51.pdf",
+      "reason": "LEO100 datasheet PDF linked from the product page \u2014 would confirm specs, readiness, and any per-product NDAA/Blue UAS claims for LEO100, RTK Software Engine, and Software-Only Solutions.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, discovered from https://www.locuslock.com/products/leo100",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.locuslock.com/faq",
+      "reason": "FAQ page may clarify product differences between LEO100 hardware, RTK Software Engine, and Software-Only Solutions, including readiness and ordering details.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://locuslock.com/leo100-gnss-sdr-receiver",
+      "reason": "Alternate product URL linked from Blue UAS news post \u2014 may be a distinct or more detailed LEO100 product page with additional compliance and readiness evidence.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 10,
+    "total_cost_usd": 0.29620235,
+    "created_at": "2026-05-04T04:02:59+00:00",
+    "extract_version": "0.1.0"
+  }
+}

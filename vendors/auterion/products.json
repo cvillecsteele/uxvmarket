@@ -1,0 +1,292 @@
+{
+  "target_id": "auterion",
+  "run_id": "canonical",
+  "display_name": "Auterion",
+  "homepage_url": "https://auterion.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/auterion/website",
+  "products": [
+    {
+      "name": "Skynode X",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "All-in-one integrated autopilot, mission computer, and LTE module for autonomous UAS",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "yes",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0191",
+          "line_start": 97,
+          "line_end": 104,
+          "url": "https://auterion.com/product/skynode-x",
+          "page_class": "product",
+          "snippet": "### Skynode X\nThe all-in-one solution to power a fleet of\nautonomous robots\n===============================================================\n![](https://i0.wp.com/auterion.com/wp-content/uploads/2023/10/auterion-skynode-x-min.png?resize=1080%2C206&ssl=1 \"auterion-skynode-x-min\")\nA fully integrated autopilot and mission computer\nto enable any drone with the Auterion software platform.\n**Now 30% thinner, 15% lighter and with upgraded performance.**"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0191",
+          "line_start": 125,
+          "line_end": 126,
+          "url": "https://auterion.com/product/skynode-x",
+          "page_class": "product",
+          "snippet": "#### NDAA compliant, open system standards\nBuilt on a secure open source software base, using widely adopted industry standards including MAVLink and PX4 autopilot."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Skynode S",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "Compact chip-down flight controller with AI/computer-vision mission computer for small UAS",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "yes",
+      "blue_uas": "yes",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0190",
+          "line_start": 97,
+          "line_end": 101,
+          "url": "https://auterion.com/product/skynode-s",
+          "page_class": "product",
+          "snippet": "### Skynode S\nBring AI and computer vision to small autonomous systems\n========================================================\nSkynode S is the compact, low-cost, chip-down controller that enables any small UAS system with the Auterion software platform. Featuring a custom designed, powerful mission computer to deploy AI and computer vision applications at scale.\n[Learn more about Skynode S](https://auterion.com/company/contact-us/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0190",
+          "line_start": 102,
+          "line_end": 102,
+          "url": "https://auterion.com/product/skynode-s",
+          "page_class": "product",
+          "snippet": "![](https://i0.wp.com/auterion.com/wp-content/uploads/2025/05/auterion-skynode-s-blue-uas-cleared-scaled.png?resize=1080%2C529&ssl=1 \"auterion-skynode-s-blue-uas-cleared\")"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0190",
+          "line_start": 126,
+          "line_end": 127,
+          "url": "https://auterion.com/product/skynode-s",
+          "page_class": "product",
+          "snippet": "#### NDAA compliant, open system standards\nBuilt on a secure open source software base, using widely adopted industry standards like MAVLink and PX4 autopilot."
+        }
+      ],
+      "notes": "Image title on product page reads 'auterion-skynode-s-blue-uas-cleared', confirming Blue UAS cleared status."
+    },
+    {
+      "name": "AuterionOS",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "Vendor-independent onboard operating system for autonomous drone and robot fleets",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0178",
+          "line_start": 97,
+          "line_end": 102,
+          "url": "https://auterion.com/product/auterion-os",
+          "page_class": "product",
+          "snippet": "### AuterionOS\nOperate a connected robotics fleet\n==================================\nAuterionOS is the only vendor-independent operating system that runs onboard a fleet of interconnected robots.\nIncluded in every Skynode and select partner manufacturers free of charge\n[](#)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Nemyx",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "Swarm autonomy and coordination software for combat drone fleets built on AuterionOS",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0184",
+          "line_start": 97,
+          "line_end": 101,
+          "url": "https://auterion.com/product/nemyx",
+          "page_class": "product",
+          "snippet": "### Introducing Nemyx\nNemyx: coordinated swarms at scale\n==================================\nSwarm autonomy. Built on AuterionOS. Scalable, mission-focused.\n[Watch Live Demonstration](#live-demonstration)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0184",
+          "line_start": 119,
+          "line_end": 123,
+          "url": "https://auterion.com/product/nemyx",
+          "page_class": "product",
+          "snippet": "### Proven Performance\nAuterion Achieves Global First in Combat Drone Swarms\n-----------------------------------------------------\nSingle Operator Strikes Three Targets Simultaneously in U.S. Live-Fire Swarm Test\n[Read the press release](https://auterion.com/auterion-global-first-drone-swarm-live-fire/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Auterion LR",
+      "category": "airframes",
+      "descriptor": "Long-range one-way attack drone capability with precision strike up to 1,000-mile range",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0182",
+          "line_start": 97,
+          "line_end": 100,
+          "url": "https://auterion.com/product/long-range",
+          "page_class": "product",
+          "snippet": "### AUTERION LR\nLong Range One Way Attack \u2013 Scalable Deep Strike Capability\n===========================================================\nAuterion\u2019s Long Range One Way Attack capability delivers precision effects at distances of up to 1,000 miles. Proven in Ukraine and ready for allied deployment, it combines combat-tested hardware with Auterion\u2019s open, software-defined autonomy stack to deliver resilient, scalable strike capability."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0182",
+          "line_start": 143,
+          "line_end": 151,
+          "url": "https://auterion.com/product/long-range",
+          "page_class": "product",
+          "snippet": "Auterion\u2019s Long Range capability is designed for industrial-scale production across allied nations. Through partnerships with Ukrainian, U.S., and European manufacturers, Auterion enables rapid co-production, ensuring availability and resilience across supply chains.\n![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201080%20605'%3E%3C/svg%3E \"auterion-long-range-05\")\n\ue0f5\nProduction ramp to hundreds of units per month\n\ue0f5\nCo-production opportunities with allied nations\n\ue0f5\nProven supply chains from battlefield to factory floor\n### Proven Performance"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Auterion Mission Control",
+      "category": "ground_segment",
+      "descriptor": "Mission planning and autonomous flight execution app for Auterion-powered vehicles",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0183",
+          "line_start": 97,
+          "line_end": 101,
+          "url": "https://auterion.com/product/mission-control",
+          "page_class": "product",
+          "snippet": "### Auterion Mission Control\nControl any autonomous robot with one app\n=========================================\nAuterion Mission Control is the app to plan and execute autonomous missions for any Auterion-powered vehicle.\n[Contact Our Sales Team](https://auterion.com/company/contact-us/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Auterion Suite",
+      "category": "ground_segment",
+      "descriptor": "Cloud fleet management and operations platform for AuterionOS-powered drones with subscription pricing",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0197",
+          "line_start": 98,
+          "line_end": 102,
+          "url": "https://auterion.com/product/suite",
+          "page_class": "product",
+          "snippet": "### Auterion Suite\nManage your robotics program from one place\n===========================================\nAuterion Suite is the cloud operations center for AuterionOS-powered robots. It turns live telemetry, video and precision geo data into a single view of your commercial fleet \u2013 health, maintenance, and operations in real time.\n[Try Auterion Suite](https://suite.auterion.com/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0197",
+          "line_start": 155,
+          "line_end": 163,
+          "url": "https://auterion.com/product/suite",
+          "page_class": "product",
+          "snippet": "Basic\n-----\nGet started with Auterion connected workflows and streamline your operations with the Suite functionalities\n$0\n*   Manage up to 2 vehicles\n*   Collaborate with up to 5 users\n*   Monitor up to 4 batteries\n*   Operate up to 5 missions\n*   Reporting and Notifications"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Auterion RTK powered by PointOne",
+      "category": "sensors_and_navigation",
+      "descriptor": "LTE-delivered RTK GNSS correction subscription for centimeter-level drone positioning",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0186",
+          "line_start": 97,
+          "line_end": 100,
+          "url": "https://auterion.com/product/pointone-rtk",
+          "page_class": "product",
+          "snippet": "Fly Smarter, Land Safer: Auterion RTK Powered by PointOne\nThe simplest, most accurate way to get centimeter-level positioning. Instantly.\n[Get the App Now on our Store](https://suite.auterion.com/store?productId=197)\nThe Challenge"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0186",
+          "line_start": 131,
+          "line_end": 134,
+          "url": "https://auterion.com/product/pointone-rtk",
+          "page_class": "product",
+          "snippet": "Pricing\n-------\nRTK licenses are available from $1,425 per vehicle per year. For organizations scaling across fleets, our team offers tailored bundles with Auterion Suite and multi-vehicle packages to deliver maximum ROI and operational efficiency. Reach out to sales to explore the right plan for your business.\n[Get the App Now on our Store](https://suite.auterion.com/store?productId=197)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Skynode\u2122 Evaluation Kit",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "Integration starter kit including Skynode X and all necessary peripherals for initial development",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0191",
+          "line_start": 185,
+          "line_end": 188,
+          "url": "https://auterion.com/product/skynode-x",
+          "page_class": "product",
+          "snippet": "![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20960%20960'%3E%3C/svg%3E)\n#### Skynode\u2122 Evaluation Kit\nEvery Skynode\u2122 journey begins with the evaluation kit to facilitate your first integration, including Skynode\u2122 X and all the necessary peripherals in one box.\n[Learn more \u2192](https://docs.auterion.com/hardware-integration/skynode/evaluation-kit)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Auterion Suite Simulation",
+      "category": "ground_segment",
+      "descriptor": "Cloud-based drone simulation environment for pilot training and autonomous mission practice",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0200",
+          "line_start": 97,
+          "line_end": 102,
+          "url": "https://auterion.com/product/suite/simulation",
+          "page_class": "product",
+          "snippet": "SIMULATION FOR OPERATORS AND PILOTS\nTrain your pilots, practice your operations\n===========================================\nSimulation enables your operators and pilots to practice more often, and with less set up and risk. It even enables them to test new vehicles.\n[Learn more](#easy)\n![](https://i0.wp.com/auterion.com/wp-content/uploads/2021/03/auterion-mission-control-simuation-10022020.png?resize=1080%2C915&ssl=1 \"Simulation\")"
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 22,
+    "total_cost_usd": 0.7716921499999999,
+    "created_at": "2026-05-03T11:18:34+00:00",
+    "extract_version": "0.1.0"
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "target_id": "harwin",
+  "run_id": "canonical",
+  "display_name": "Harwin",
+  "homepage_url": "https://www.harwin.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/harwin/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "mechanical_subsystems",
+        "is_primary": true,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://www.harwin.com",
+            "page_class": "homepage",
+            "snippet": "High-Reliability Connectors, EMC Shielding, PCB Hardware | Harwin"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 75,
+            "line_end": 78,
+            "url": "https://www.harwin.com",
+            "page_class": "homepage",
+            "snippet": "UAVs\nHigh quality connections for camera drones to unmanned planes.\nUAVs\n](/markets/uav-applications)"
+          }
+        ],
+        "notes": "Connectors and PCB hardware are physical interconnect mechanisms serving all drone subsystems."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Harwin makes high-reliability connectors and PCB hardware. No single category in the taxonomy perfectly covers 'electronic connectors/interconnects'; mechanical_subsystems (cable carriers, custom mechanisms) is the closest fit."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Portsmouth",
+      "state_or_province": "Hampshire",
+      "country": "United Kingdom",
+      "address": "Fitzherbert Road, Farlington, Portsmouth, PO6 1RT, UK"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0216",
+        "line_start": 42,
+        "line_end": 42,
+        "url": "https://www.harwin.com/contact",
+        "page_class": "contact",
+        "snippet": "##### Harwin PLC: Europe, Global Headquarters (Europe, Africa)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0216",
+        "line_start": 51,
+        "line_end": 51,
+        "url": "https://www.harwin.com/contact",
+        "page_class": "contact",
+        "snippet": "Fitzherbert Road, Farlington, Portsmouth, PO6 1RT, UK"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 75,
+        "line_end": 78,
+        "url": "https://www.harwin.com",
+        "page_class": "homepage",
+        "snippet": "UAVs\nHigh quality connections for camera drones to unmanned planes.\nUAVs\n](/markets/uav-applications)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0339",
+        "line_start": 51,
+        "line_end": 53,
+        "url": "https://www.harwin.com/products/KA1-0400005",
+        "page_class": "product",
+        "snippet": "8.50mm Pitch High-Reliability Connector - Kona\n*   Individual straight female solder contact, suitable for 8 AWG cable, up to 60A per contact nominal.\n*   Use with thumbscrew cable housings [KA1-2010298F1](/products/KA1-2010298F1), [KA1-2010398F1](/products/KA1-2010398F1), [KA1-2010498F1](/products/KA1-2010498F1) or reverse fix panel mount cable housings [KA1-2010298F2](/products/KA1-2010298F2), [KA1-2010398F2](/products/KA1-2010398F2), [KA1-2010498F2](/products/KA1-2010498F2)."
+      }
+    ],
+    "notes": "Harwin designs and manufactures individual connector contacts, connector housings, and cable assemblies that are integrated into drones and other systems by OEMs."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Kona",
+        "product_type": "high-reliability power connector (8.5mm pitch, up to 60A)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0339",
+            "line_start": 51,
+            "line_end": 52,
+            "url": "https://www.harwin.com/products/KA1-0400005",
+            "page_class": "product",
+            "snippet": "8.50mm Pitch High-Reliability Connector - Kona\n*   Individual straight female solder contact, suitable for 8 AWG cable, up to 60A per contact nominal."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Datamate J-Tek",
+        "product_type": "high-reliability signal connector (2mm pitch)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0388",
+            "line_start": 51,
+            "line_end": 53,
+            "url": "https://www.harwin.com/products/M80-1950005",
+            "page_class": "product",
+            "snippet": "2.00mm Pitch High-Reliability Connector - Datamate J-Tek\n*   Small Bore signal contact, for 24-28 AWG wire (\u00d81.1mm max insulation).\n*   Use with male crimp connectors in the Datamate J-Tek and Mix-Tek ranges."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HRi range",
+        "product_type": "high-reliability connector family",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 106,
+            "line_end": 107,
+            "url": "https://www.harwin.com",
+            "page_class": "homepage",
+            "snippet": "HRi\n](/hri-range)["
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "EZi range",
+        "product_type": "connector family",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 108,
+            "line_end": 109,
+            "url": "https://www.harwin.com",
+            "page_class": "homepage",
+            "snippet": "EZi\n](/ezi-range)["
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "BBi range",
+        "product_type": "connector family",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 110,
+            "line_end": 111,
+            "url": "https://www.harwin.com",
+            "page_class": "homepage",
+            "snippet": "BBi\n](/bbi-range)["
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Cable Assemblies",
+        "product_type": "hi-rel custom cable assemblies",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 28,
+            "line_end": 29,
+            "url": "https://www.harwin.com",
+            "page_class": "homepage",
+            "snippet": "Specify hi-rel cable assemblies for your 'must not fail' applications.\n[Start Building](/cable-configurator)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Product catalog is extensive with thousands of SKUs; families listed here. Many product pages were skipped by the mirror."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "medium",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0086",
+        "line_start": 25,
+        "line_end": 25,
+        "url": "https://www.harwin.com/about",
+        "page_class": "company",
+        "snippet": "This is no idle boast. As an EN 9100 / AS9100D certified manufacturer, we focus on quality, safety and technology. We continually improve our quality systems and invest in advanced manufacturing & automation."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0339",
+        "line_start": 55,
+        "line_end": 57,
+        "url": "https://www.harwin.com/products/KA1-0400005",
+        "page_class": "product",
+        "snippet": "Checking stock availability...\nCheck Availability\nOrder Sample"
+      }
+    ],
+    "notes": "Harwin sells catalog SKUs with part numbers, stock availability checking, and a global distributor network."
+  },
+  "unresolved_questions": [
+    "No NDAA Section 848/889 compliance claim found in corpus.",
+    "No Blue UAS listing claim found in corpus.",
+    "UAV market page not fetched \u2014 would confirm connector product lines used in drones."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.harwin.com/markets/uav-applications",
+      "reason": "UAV market page would confirm specific connector product lines sold for drone applications and any NDAA/compliance claims relevant to UAV customers.",
+      "expected_evidence": [
+        "products_categories",
+        "products",
+        "ndaa",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "tagline": "UK-based supplier of high-reliability connectors and cable assemblies for aerospace, defense, and industrial applications. Core product families include Kona (8.5mm power connectors to 60A), Datamate series (2\u20134mm signal and mixed-power connectors with jackscrew or latch retention), and configurable hi-rel cable assemblies. Production-ready across all lines. NDAA compliance status and Blue UAS certification status unknown; public evidence of defense/aerospace adoption exists but lacks official program attribution.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 17,
+    "total_cost_usd": 0.36362055,
+    "created_at": "2026-05-04T03:12:57+00:00",
+    "extract_version": "0.1.0"
+  }
+}

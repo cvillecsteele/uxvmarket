@@ -1,0 +1,335 @@
+{
+  "target_id": "epropelled",
+  "run_id": "canonical",
+  "display_name": "ePropelled",
+  "homepage_url": "https://epropelled.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/epropelled/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 86,
+            "line_end": 87,
+            "url": "https://epropelled.com",
+            "page_class": "homepage",
+            "snippet": "SPARROW SERIES\n](/collections/sparrow-series)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0402",
+            "line_start": 70,
+            "line_end": 70,
+            "url": "https://epropelled.com/pages/uncrewed-ground-vehicles",
+            "page_class": "capability",
+            "snippet": "ePropelled designs top-performing propulsion motors, controllers, and hybrid power solutions for uncrewed ground vehicles (UGVs)."
+          }
+        ],
+        "notes": "Brushless motors for UAVs (Sparrow Series) and propulsion motors for UGVs (Rhino Series) are the core product lines."
+      },
+      {
+        "category": "propulsion_electronics",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0437",
+            "line_start": 74,
+            "line_end": 76,
+            "url": "https://epropelled.com/products/sparrow-series-amc-6s20a-esc-drone-motor-controller",
+            "page_class": "news",
+            "snippet": "Sparrow Series AMC 6S20A ESC Drone Motor Controller\n===================================================\n$179.00"
+          }
+        ],
+        "notes": "Sparrow Series AMC ESC/motor controllers (AMC 6S20A, 6S40A, 6S20AW) sold as standalone drone motor controllers."
+      },
+      {
+        "category": "power_systems",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0402",
+            "line_start": 92,
+            "line_end": 92,
+            "url": "https://epropelled.com/pages/uncrewed-ground-vehicles",
+            "page_class": "capability",
+            "snippet": "ePropelled\u2019s Atlas hybrid power generation and management systems ensure reliable, efficient performance in demanding ground environments. USA-designed, they enable extended range, lower operational costs, and quiet operation while supporting full vehicle autonomy and mission agility. With onboard electric generation, power conversion, and ePConnect\u2122 diagnostics, Atlas enhances endurance and overall drivetrain performance for land-based UGV applications."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 134,
+            "line_end": 134,
+            "url": "https://epropelled.com",
+            "page_class": "homepage",
+            "snippet": "[ePropelled Announces 2026 Expansion of Hercules\u2122 Starter Generator Line, Introducing Advanced Customization and Scalable Hybrid Power Solutions](/blogs/press-releases/epropelled-announces-2026-expansion-of-hercules%E2%84%A2-starter-generator-line-introducing-advanced-customization-and-scalable-hybrid-power-solutions)"
+          }
+        ],
+        "notes": "Atlas Series hybrid power generation/management for UGVs; Hercules Series starter generators for hybrid UAV power."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Laconia",
+      "state_or_province": "New Hampshire",
+      "country": "United States",
+      "address": "144 Lexington Drive, Laconia, NH 03246"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0396",
+        "line_start": 70,
+        "line_end": 76,
+        "url": "https://epropelled.com/pages/locations",
+        "page_class": "contact",
+        "snippet": "Headquarters and Manufacturing Center (US)\n------------------------------------------\n**Address\n**ePropelled Inc.\n144 Lexington Drive\nLaconia, NH 03246\nUSA"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 77,
+        "line_end": 77,
+        "url": "https://epropelled.com",
+        "page_class": "homepage",
+        "snippet": "From the highest-quality manufacturing and test facilities ePropelled delivers a broad range of custom and industry-standard drone propulsion and power designs at volume."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0402",
+        "line_start": 70,
+        "line_end": 70,
+        "url": "https://epropelled.com/pages/uncrewed-ground-vehicles",
+        "page_class": "capability",
+        "snippet": "ePropelled designs top-performing propulsion motors, controllers, and hybrid power solutions for uncrewed ground vehicles (UGVs)."
+      }
+    ],
+    "notes": "Sells motors, ESCs, and hybrid power systems as components to OEMs building UAV, UGV, and USV platforms."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Sparrow Series brushless motors",
+        "product_type": "brushless motors for UAVs (multiple SKUs: APM 1404, APM 2207.5, APM 3115, APM 4006, APM 5010, APM 6007, APM 7005)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 86,
+            "line_end": 87,
+            "url": "https://epropelled.com",
+            "page_class": "homepage",
+            "snippet": "SPARROW SERIES\n](/collections/sparrow-series)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Sparrow Series AMC ESC drone motor controllers",
+        "product_type": "ESC / motor controller for drones (AMC 6S20A, AMC 6S40A, AMC 6S20AW)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0437",
+            "line_start": 74,
+            "line_end": 76,
+            "url": "https://epropelled.com/products/sparrow-series-amc-6s20a-esc-drone-motor-controller",
+            "page_class": "news",
+            "snippet": "Sparrow Series AMC 6S20A ESC Drone Motor Controller\n===================================================\n$179.00"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Rhino Series UGV motors",
+        "product_type": "propulsion motors for uncrewed ground vehicles (GPM35, GPM50, GPM70)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0434",
+            "line_start": 68,
+            "line_end": 69,
+            "url": "https://epropelled.com/products/rhino-series-gpm35",
+            "page_class": "product",
+            "snippet": "Rhino Series **GPM35**\nCompact Power for Autonomous Mobility"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Atlas Series",
+        "product_type": "hybrid power generation and management systems for UGVs",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0402",
+            "line_start": 92,
+            "line_end": 92,
+            "url": "https://epropelled.com/pages/uncrewed-ground-vehicles",
+            "page_class": "capability",
+            "snippet": "ePropelled\u2019s Atlas hybrid power generation and management systems ensure reliable, efficient performance in demanding ground environments. USA-designed, they enable extended range, lower operational costs, and quiet operation while supporting full vehicle autonomy and mission agility. With onboard electric generation, power conversion, and ePConnect\u2122 diagnostics, Atlas enhances endurance and overall drivetrain performance for land-based UGV applications."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Hercules Series starter generators",
+        "product_type": "starter generator line for hybrid UAV/UAS power",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 134,
+            "line_end": 134,
+            "url": "https://epropelled.com",
+            "page_class": "homepage",
+            "snippet": "[ePropelled Announces 2026 Expansion of Hercules\u2122 Starter Generator Line, Introducing Advanced Customization and Scalable Hybrid Power Solutions](/blogs/press-releases/epropelled-announces-2026-expansion-of-hercules%E2%84%A2-starter-generator-line-introducing-advanced-customization-and-scalable-hybrid-power-solutions)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Falcon Series",
+        "product_type": "UAV propulsion system (product line)",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 90,
+            "line_end": 92,
+            "url": "https://epropelled.com",
+            "page_class": "homepage",
+            "snippet": "Uncrewed Aerial Vehicles\nFALCON SERIES\n](/collections/falcon-series)"
+          }
+        ],
+        "notes": "Listed on homepage as a UAV product collection; no dedicated product page fetched."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0041",
+        "line_start": 93,
+        "line_end": 93,
+        "url": "https://epropelled.com/blogs/blog/scaling-american-made-uas-building-a-sustainable-ndaa-compliant-future",
+        "page_class": "compliance",
+        "snippet": "As we continue shaping the future of American-made UAS, collaboration and innovation remain at the heart of our success. We must build scalable, NDAA-compliant, and sustainable solutions that strengthen our industrial base, ensuring that U.S. technology remains competitive on a global scale."
+      }
+    ],
+    "notes": "CEO blog advocates for building NDAA-compliant systems and cites American-made UAS, but no explicit Section 848/889 compliance claim for ePropelled products is made."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0011",
+        "line_start": 76,
+        "line_end": 76,
+        "url": "https://epropelled.com/blogs/blog/blue-uas-guidelines-building-trust-in-dod-approved-drone-systems",
+        "page_class": "compliance",
+        "snippet": "At ePropelled, we view Blue UAS not just as a compliance framework\u2014but as a blueprint for credible innovation. As a propulsion technology provider to several UAS platforms, and additionally program-compliant manufacturers supplying to the USA, we are actively aligning our systems with Blue UAS requirements and pursuing certification through the Blue UAS Framework."
+      }
+    ],
+    "notes": "Site explicitly states ePropelled is 'actively aligning our systems with Blue UAS requirements and pursuing certification through the Blue UAS Framework' \u2014 pursuing, not yet achieved."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 77,
+        "line_end": 77,
+        "url": "https://epropelled.com",
+        "page_class": "homepage",
+        "snippet": "From the highest-quality manufacturing and test facilities ePropelled delivers a broad range of custom and industry-standard drone propulsion and power designs at volume."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0437",
+        "line_start": 74,
+        "line_end": 76,
+        "url": "https://epropelled.com/products/sparrow-series-amc-6s20a-esc-drone-motor-controller",
+        "page_class": "news",
+        "snippet": "Sparrow Series AMC 6S20A ESC Drone Motor Controller\n===================================================\n$179.00"
+      }
+    ],
+    "notes": "Sells catalog SKUs with listed prices (e.g. AMC 6S20A at $179), ISO 9001:2015 certified manufacturing, and advertises propulsion designs delivered 'at volume'."
+  },
+  "unresolved_questions": [
+    "Falcon Series product details and specs \u2014 no dedicated page was fetched",
+    "Explicit NDAA Section 848/889 compliance claim not found; company discusses NDAA aspirationally"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://epropelled.com/collections/falcon-series",
+      "reason": "Would confirm Falcon Series product SKUs, specs, and propulsion type for UAV \u2014 currently only referenced by name on homepage.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://epropelled.com/pages/uncrewed-aerial-vehicles",
+      "reason": "Would enumerate full UAV product line including Falcon and Hercules series to confirm product SKUs and categories.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Brushless motors, ESCs, and starter-generators for UAVs, UGVs, and USVs across Sparrow, Rhino, Atlas, Hercules, and Falcon series. Laconia, New Hampshire\u2013based component supplier in production. NDAA and Blue UAS certification status unknown; public evidence of defense integration is sparse.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 22,
+    "total_cost_usd": 0.6964514499999999,
+    "created_at": "2026-05-04T02:22:01+00:00",
+    "extract_version": "0.1.0"
+  }
+}

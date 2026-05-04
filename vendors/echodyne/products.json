@@ -1,0 +1,235 @@
+{
+  "target_id": "echodyne",
+  "run_id": "canonical",
+  "display_name": "Echodyne",
+  "homepage_url": "https://www.echodyne.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/echodyne/website",
+  "products": [
+    {
+      "name": "EchoShield\u00ae",
+      "category": "sensors_and_navigation",
+      "descriptor": "Medium-range pulse-Doppler MESA radar for multi-mission ground and airspace surveillance",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0277",
+          "line_start": 1,
+          "line_end": 1,
+          "url": "https://www.echodyne.com/radar-systems/echoshield",
+          "page_class": "capability",
+          "snippet": "EchoShield\u00ae Radar \u2013 Long-Range 4D Drone Detection & Tracking"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0277",
+          "line_start": 112,
+          "line_end": 113,
+          "url": "https://www.echodyne.com/radar-systems/echoshield",
+          "page_class": "capability",
+          "snippet": "The market-leading medium-range radar combines low SWaP, mission agility, and full mobility to deliver superior situational awareness on any platform or system in any domain.\n["
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0277",
+          "line_start": 145,
+          "line_end": 145,
+          "url": "https://www.echodyne.com/radar-systems/echoshield",
+          "page_class": "capability",
+          "snippet": "EchoShield radars are commercially exportable under ECCN 6A008.e."
+        }
+      ],
+      "notes": "ECCN 6A008.e export classification cited; no NDAA \u00a7848/889 claim found."
+    },
+    {
+      "name": "EchoGuard\u00ae",
+      "category": "sensors_and_navigation",
+      "descriptor": "Short-range FMCW MESA radar with ultra-low SWaP for C-UAS and perimeter surveillance",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0276",
+          "line_start": 1,
+          "line_end": 1,
+          "url": "https://www.echodyne.com/radar-systems/echoguard",
+          "page_class": "capability",
+          "snippet": "EchoGuard\u00ae Radar \u2013 Compact C-UAS & Ground Surveillance Radar"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0276",
+          "line_start": 112,
+          "line_end": 113,
+          "url": "https://www.echodyne.com/radar-systems/echoguard",
+          "page_class": "capability",
+          "snippet": "The market-leading short-range radar combines ultra-low SWaP, maximum portability, and category-leading reliability and performance to deliver high-definition situational awareness across air and surface domains.\n["
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0276",
+          "line_start": 146,
+          "line_end": 146,
+          "url": "https://www.echodyne.com/radar-systems/echoguard",
+          "page_class": "capability",
+          "snippet": "EchoGuard radars are commercially exportable under ECCN 6A008.e."
+        }
+      ],
+      "notes": "ECCN 6A008.e export classification cited; no NDAA \u00a7848/889 claim found. Available in Tan, Green, Gray, White; kits include QSK, LDK, TMK."
+    },
+    {
+      "name": "EchoFlight\u00ae",
+      "category": "sensors_and_navigation",
+      "descriptor": "Short-range FMCW airborne MESA radar for UAS detect-and-avoid and air-air surveillance",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0275",
+          "line_start": 1,
+          "line_end": 1,
+          "url": "https://www.echodyne.com/radar-systems/echoflight",
+          "page_class": "capability",
+          "snippet": "EchoFlight\u00ae Airborne Radar \u2013 Lightweight Detect-and-Avoid"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0275",
+          "line_start": 111,
+          "line_end": 112,
+          "url": "https://www.echodyne.com/radar-systems/echoflight",
+          "page_class": "capability",
+          "snippet": "###### The market-leading short-range airborne radar combines ultra-low SWaP and high performance to extend situational awareness as far as the UAS can operate.\n["
+        }
+      ],
+      "notes": "Weight <1 kg, power <50 W; designed as UAS-mounted airborne sensor. No export or compliance claims found in corpus."
+    },
+    {
+      "name": "EchoWare\u2122",
+      "category": "ground_segment",
+      "descriptor": "Software platform for unified management and networking of Echodyne MESA radar systems",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0278",
+          "line_start": 1,
+          "line_end": 1,
+          "url": "https://www.echodyne.com/radar-systems/echoware",
+          "page_class": "capability",
+          "snippet": "EchoWare\u2122 - Multiple radars in one seamless, managed radar system"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0278",
+          "line_start": 100,
+          "line_end": 101,
+          "url": "https://www.echodyne.com/radar-systems/echoware",
+          "page_class": "capability",
+          "snippet": "### EchoWare delivers.\nEchoWare is Echodyne's next-generation software platform built on a modern, software-defined architecture. It manages and operates a network of Echodyne radars as a unified system\u2014from single-radar tactical deployments to complex multi-site networks spanning vast operational areas."
+        }
+      ],
+      "notes": "Runs on Ubuntu 20.04/22.04 or Windows 10/11 (x86-64, min 4-core, 16 GB RAM). Supports headless API mode, protocol translators, and managed track handoff across radar networks."
+    },
+    {
+      "name": "EchoGuard CR",
+      "category": "sensors_and_navigation",
+      "descriptor": "Close-range 3D MESA radar for urban perimeter and C-UAS surveillance",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0156",
+          "line_start": 103,
+          "line_end": 104,
+          "url": "https://www.echodyne.com/newsroom/echodyne-expands-product-line",
+          "page_class": "news",
+          "snippet": "**EchoGuard CR**\nEchoGuard CR radar uses MESA radar technology to meet demand for high-performance radar for close range security within commercial budgets. The solution delivers advanced 3D perimeter surveillance for critical infrastructure with reduced energy output for greater accuracy in cluttered and busy semi-/urban environments."
+        }
+      ],
+      "notes": "Announced October 2020; not listed on current (2026) product pages. May have been rebranded to or superseded by current EchoGuard."
+    },
+    {
+      "name": "RadarHub",
+      "category": "ground_segment",
+      "descriptor": "Pre-engineered hardware control cabinet for managing up to 5 networked radars",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0156",
+          "line_start": 106,
+          "line_end": 107,
+          "url": "https://www.echodyne.com/newsroom/echodyne-expands-product-line",
+          "page_class": "news",
+          "snippet": "**RadarHub**\nRadarHub is a pre-engineered control cabinet solution that simplifies deployment, networking, and operations of multi-radar installations. The solution connects up to 5 radars and conveniently manages all key performance parameters, including power and network, through a single interface."
+        }
+      ],
+      "notes": "Announced October 2020 alongside EchoGuard CR; not listed on current (2026) product pages. Likely superseded by EchoWare software platform. UL-508A compliant construction mentioned."
+    }
+  ],
+  "unresolved_questions": [
+    "EchoGuard CR (2020) vs current EchoGuard: unclear if these are the same product rebranded or separate SKUs; current product pages use only 'EchoGuard' without CR suffix.",
+    "RadarHub (2020 hardware cabinet) vs EchoWare (current software platform): both serve multi-radar management; RadarHub absent from current website \u2014 likely discontinued.",
+    "ADLS page (/uas-aam/adls) appears in site navigation but was not fetched \u2014 could be a distinct product.",
+    "No NDAA \u00a7848/889 or Blue UAS compliance claims found anywhere in the 21 fetched pages; 295 skipped pages not checked.",
+    "EchoFlight ECCN classification not stated on its product page (EchoShield and EchoGuard both cite ECCN 6A008.e); unclear if EchoFlight carries the same export classification."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.echodyne.com/uas-aam/adls",
+      "reason": "ADLS appears in site navigation under UAS/AAM alongside DFR, Airborne Radar, and Ground Stations; could be a distinct product (e.g., Automatic Dependent Landing System) not covered by fetched pages.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "linked from navigation on every fetched page",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.echodyne.com/defense/isr",
+      "reason": "ISR is listed as a defense application area; page may describe EchoShield/EchoFlight in an ISR-specific context and could surface compliance or additional product SKU info.",
+      "expected_evidence": [
+        "products",
+        "ndaa"
+      ],
+      "source_hint": "linked from navigation on every fetched page",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.echodyne.com/defense/otm-radar",
+      "reason": "OTM Radar listed as a separate defense category; may describe a distinct OTM-configured SKU or compliance claims not present on main product pages.",
+      "expected_evidence": [
+        "products",
+        "ndaa"
+      ],
+      "source_hint": "linked from navigation on every fetched page",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 20,
+    "total_cost_usd": 0.62175185,
+    "created_at": "2026-05-03T01:21:17+00:00",
+    "extract_version": "0.1.0"
+  }
+}

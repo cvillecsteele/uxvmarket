@@ -1,0 +1,368 @@
+{
+  "target_id": "blue-sky-network",
+  "run_id": "canonical",
+  "display_name": "Blue Sky Network",
+  "homepage_url": "https://blueskynetwork.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/blue-sky-network/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "communications",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0250",
+            "line_start": 134,
+            "line_end": 135,
+            "url": "https://naltec.com/solutions/autonomous",
+            "page_class": "news",
+            "snippet": "### [SkyLink\u00ae 7100](https://naltec.com/products/skylink-7100/)\nProvides continuous satellite voice and data connectivity for aviation and UAV operations\u2026"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0250",
+            "line_start": 109,
+            "line_end": 109,
+            "url": "https://naltec.com/solutions/autonomous",
+            "page_class": "news",
+            "snippet": "From autonomous workboats to uncrewed aerial vehicles (UAV) to self-driving cars, our proven low size, weight, and power (SWaP) solutions enable continuous, highly-reliable connectivity and assured positioning, navigational, and timing (PNT) awareness, worldwide. Our beyond visual line of sight (BVLOS) communications capabilities offer effortless remote command and control (C2) of operations, fleets, and assets across land, sea, and air."
+          }
+        ],
+        "notes": "Satellite comms terminals and data links explicitly for UAV/UAS operations; SkyLink 7100 targets aviation and UAV"
+      },
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0255",
+            "line_start": 98,
+            "line_end": 100,
+            "url": "https://naltec.com/products/altm-gen2-mini",
+            "page_class": "product",
+            "snippet": "ALTM GEN2 Mini\n==============\nLow size, weight and power (SWaP) module designed for easy integration."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0320",
+            "line_start": 144,
+            "line_end": 144,
+            "url": "https://naltec.com/about",
+            "page_class": "company",
+            "snippet": "#### NAL Research integrates APNT into defense, aviation, & uncrewed systems"
+          }
+        ],
+        "notes": "ALTM GEN2 Mini is an APNT/PNT module for GPS-denied environments; APNT integrated into uncrewed systems"
+      },
+      {
+        "category": "ground_segment",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 153,
+            "line_end": 156,
+            "url": "https://naltec.com/",
+            "page_class": "homepage",
+            "snippet": "[![](https://naltec.com/wp-content/uploads/2023/07/Laptop-SkyRouter-GLOBAL_TRAVELER-APP-2025.webp)](https://naltec.com/products/skyrouter/)\n### [SkyRouter\u2122](https://naltec.com/products/skyrouter/)\nThe industry-leading fleet tracking and communication tool to manage your assets, lower operating costs, and\u2026\n[Read More](https://naltec.com/products/skyrouter/)"
+          }
+        ],
+        "notes": "SkyRouter is a fleet tracking and communications management cloud platform"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Manassas",
+      "state_or_province": "Virginia",
+      "country": "United States",
+      "address": "11100 Endeavor Ct., Suite 300, Manassas, VA 20109"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 243,
+        "line_end": 247,
+        "url": "https://naltec.com/",
+        "page_class": "homepage",
+        "snippet": "Headquarters\n------------\n11100 Endeavor Ct., Suite 300\nManassas, VA 20109\nUnited States"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 165,
+        "line_end": 166,
+        "url": "https://naltec.com/",
+        "page_class": "homepage",
+        "snippet": "\u201cIntegrating NAL Technologies' (Naltec) SATCOM solution into our uncrewed aircraft system (UAS) is a key enabler for scaling safe, effective, and long-endurance missions using beyond visual line of sight (BVLOS) and command and control (C2) capabilities.\u201d\nDavid YoelCEO of American Aerospace Technologies"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0250",
+        "line_start": 133,
+        "line_end": 135,
+        "url": "https://naltec.com/solutions/autonomous",
+        "page_class": "news",
+        "snippet": "[![](https://naltec.com/wp-content/uploads/2023/08/2021-5-13-b-WORKING-1000px-1-SkyLink-7100-2025.webp)](https://naltec.com/products/skylink-7100/)\n### [SkyLink\u00ae 7100](https://naltec.com/products/skylink-7100/)\nProvides continuous satellite voice and data connectivity for aviation and UAV operations\u2026"
+      }
+    ],
+    "notes": "Supplies SATCOM and APNT hardware subsystems integrated into UAS platforms by OEM customers (e.g. American Aerospace Technologies testimonial)"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "SkyLink\u00ae 7100",
+        "product_type": "satellite communications terminal for aviation and UAV",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0250",
+            "line_start": 133,
+            "line_end": 136,
+            "url": "https://naltec.com/solutions/autonomous",
+            "page_class": "news",
+            "snippet": "[![](https://naltec.com/wp-content/uploads/2023/08/2021-5-13-b-WORKING-1000px-1-SkyLink-7100-2025.webp)](https://naltec.com/products/skylink-7100/)\n### [SkyLink\u00ae 7100](https://naltec.com/products/skylink-7100/)\nProvides continuous satellite voice and data connectivity for aviation and UAV operations\u2026\n[Read More](https://naltec.com/products/skylink-7100/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SkyLink\u00ae 5100",
+        "product_type": "land-based satellite communications terminal",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0250",
+            "line_start": 129,
+            "line_end": 132,
+            "url": "https://naltec.com/solutions/autonomous",
+            "page_class": "news",
+            "snippet": "[![](https://naltec.com/wp-content/uploads/2023/07/SkyLink-Product_Image-001-2025.webp)](https://naltec.com/products/skylink-5100/)\n### [SkyLink\u00ae 5100](https://naltec.com/products/skylink-5100/)\nLand-based satellite communication solution delivering voice and data connectivity, powered by Iridum Certus\u00ae\u2026\n[Read More](https://naltec.com/products/skylink-5100/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Tactical Box: SkyLink\u00ae",
+        "product_type": "mission-critical satellite communications tactical unit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0250",
+            "line_start": 121,
+            "line_end": 124,
+            "url": "https://naltec.com/solutions/autonomous",
+            "page_class": "news",
+            "snippet": "[![](https://naltec.com/wp-content/uploads/2023/07/CPN-EVERY-SKYLINK-3764_email-2025-1024x1024.webp)](https://naltec.com/products/skylink-tactical-box/)\n### [Tactical Box: SkyLink\u00ae](https://naltec.com/products/skylink-tactical-box/)\nDelivers mission-critical communications from any location on the planet, with the added protection of\u2026\n[Read More](https://naltec.com/products/skylink-tactical-box/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ALTM GEN2 Mini",
+        "product_type": "alternative PNT/APNT module for GPS-denied environments",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0255",
+            "line_start": 98,
+            "line_end": 100,
+            "url": "https://naltec.com/products/altm-gen2-mini",
+            "page_class": "product",
+            "snippet": "ALTM GEN2 Mini\n==============\nLow size, weight and power (SWaP) module designed for easy integration."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "9602",
+        "product_type": "lightweight satellite tracker, multiple variants",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0264",
+            "line_start": 98,
+            "line_end": 100,
+            "url": "https://naltec.com/products/9602",
+            "page_class": "product",
+            "snippet": "9602\n====\nLightweight satellite trackers delivering connectivity to high-value, untethered, and non-powered assets."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SkyRouter\u2122",
+        "product_type": "fleet tracking and communications management platform",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 153,
+            "line_end": 156,
+            "url": "https://naltec.com/",
+            "page_class": "homepage",
+            "snippet": "[![](https://naltec.com/wp-content/uploads/2023/07/Laptop-SkyRouter-GLOBAL_TRAVELER-APP-2025.webp)](https://naltec.com/products/skyrouter/)\n### [SkyRouter\u2122](https://naltec.com/products/skyrouter/)\nThe industry-leading fleet tracking and communication tool to manage your assets, lower operating costs, and\u2026\n[Read More](https://naltec.com/products/skyrouter/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SHOUT nano 200",
+        "product_type": "personal GPS tracking device",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 149,
+            "line_end": 152,
+            "url": "https://naltec.com/",
+            "page_class": "homepage",
+            "snippet": "[![The SHOUT nano 200 device from NAL Technologies](https://naltec.com/wp-content/uploads/2025/11/SHOUT-nano-200-v2-Transparent_lightened-827x1024.webp)](https://naltec.com/products/shout-nano-200/)\n### [SHOUT nano 200](https://naltec.com/products/shout-nano-200/)\nA personal GPS tracking device that makes ensuring the safety and keeping track of personnel\u2026\n[Read More](https://naltec.com/products/shout-nano-200/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "PntGuard\u2122",
+        "product_type": "maritime GNSS threat resilience solution",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 145,
+            "line_end": 148,
+            "url": "https://naltec.com/",
+            "page_class": "homepage",
+            "snippet": "[![](https://naltec.com/wp-content/uploads/2025/11/PntGuard-BDU-ADU_March26-1024x711.png)](https://naltec.com/products/pntguard/)\n### [PntGuard\u2122](https://naltec.com/products/pntguard/)\nThe ultimate maritime-security solution for protection against GNSS-threats, even in remote, contested environments\u2026\n[Read More](https://naltec.com/products/pntguard/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "A3LA",
+        "product_type": "small form factor satellite modem",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0250",
+            "line_start": 137,
+            "line_end": 140,
+            "url": "https://naltec.com/solutions/autonomous",
+            "page_class": "news",
+            "snippet": "[![A3LA-RG](https://naltec.com/wp-content/uploads/2025/12/A3LA-RG.webp)](https://naltec.com/products/a3la/)\n### [A3LA](https://naltec.com/products/a3la/)\nCost-effective, small form factor modem delivering resilient connectivity and communications.\u2026\n[Read More](https://naltec.com/products/a3la/)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "More products exist (catalog has 5+ pages); only page 1 fetched. Additional products include HawkEye 5500, Quicksilver, docking stations, satellite phones."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA Section 848/889 compliance claims found anywhere in the corpus. The compliance page (resource-0034) covers GDPR privacy policy only."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS or Blue sUAS list mentions found in any fetched page."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0256",
+        "line_start": 98,
+        "line_end": 100,
+        "url": "https://naltec.com/products",
+        "page_class": "product",
+        "snippet": "Product Catalog\n===============\nBrowse our industry-leading satellite and voice communications solutions and seamlessly connect your high-value assets and operations, anytime and anywhere."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0264",
+        "line_start": 115,
+        "line_end": 116,
+        "url": "https://naltec.com/products/9602",
+        "page_class": "product",
+        "snippet": "9602-LP, 9602-A, 9602-AB, 9602-BTI, 9602-NAL\nThe 9602 satellite trackers by NAL Technologies are low size, weight, and power (SWaP) solutions leveraging Iridium\u2019s Short Burst Data\u00ae \u00a0(SBD\u00ae) services to provide cost-effective connectivity for commercial and government customers."
+      }
+    ],
+    "notes": "Multiple catalog SKUs with documented specs, variants, quick-start guides; ISO 9001 certified as of 2025"
+  },
+  "unresolved_questions": [
+    "No NDAA Section 848/889 compliance claim found in fetched pages",
+    "No Blue UAS listing claim found in fetched pages",
+    "Product catalog has 5+ pages; only page 1 fetched \u2014 additional products not enumerated",
+    "Vendor originally Blue Sky Network, rebranded as NAL Technologies (Naltec) in Jan 2026 after merger with NAL Research"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://naltec.com/products/skylink-7100/",
+      "reason": "SkyLink 7100 is the primary UAV-targeted comms product; full product page would confirm specs and any NDAA claims",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "products_categories"
+      ],
+      "source_hint": "guessed from product listing in resource-0002",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://naltec.com/products/page/2/",
+      "reason": "Product catalog page 2 would reveal additional SKUs beyond the first 12 shown in resource-0004",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "linked from resource-0004 pagination",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "complete",
+  "tagline": "Iridium-centric satellite modem, tracker, and PNT module supplier serving UAV command-and-control, aviation, and asset tracking via QuickNav, SkyLink, ALTM, and SHOUT product families. NDAA and Blue UAS certification status unknown; public evidence of US defense adoption thin.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 20,
+    "total_cost_usd": 0.7291974999999999,
+    "created_at": "2026-05-03T21:56:16+00:00",
+    "extract_version": "0.1.0"
+  }
+}

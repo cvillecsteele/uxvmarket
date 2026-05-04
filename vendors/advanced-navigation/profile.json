@@ -1,0 +1,467 @@
+{
+  "target_id": "advanced-navigation",
+  "run_id": "canonical",
+  "display_name": "Advanced Navigation",
+  "homepage_url": "https://www.advancednavigation.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/advanced-navigation/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "url": null,
+            "page_class": "homepage",
+            "snippet": "Field-proven inertial navigation systems built for denied, degraded, and disrupted environments \u2013 where failure isn't an option."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0011",
+            "url": null,
+            "page_class": "company",
+            "snippet": "Advanced Navigation is a global leader in navigation and autonomous systems, delivering accuracy and performance when GNSS signals are weak or lost."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0274",
+            "url": null,
+            "page_class": "capability",
+            "snippet": "Advanced Navigation is a leading manufacturer of fibre-optic gyroscopes (FOG) and digital fibre-optic gyroscope (DFOG) inertial navigation systems (INS)."
+          }
+        ],
+        "notes": "Core product families: MEMS and FOG IMU/AHRS, MEMS and FOG GNSS/INS, GNSS compass, acoustic underwater positioning"
+      },
+      {
+        "category": "airframes",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0375",
+            "url": null,
+            "page_class": "capability",
+            "snippet": "Hydrus Revolutionary underwater vehicle Depth Rating 300 m Video Resolution 4K @ 60 FPS Range 2 km Endurance 3 hrs"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0011",
+            "url": null,
+            "page_class": "company",
+            "snippet": "the company has progressed into deep technology fields, including robotics, inertial, photonic and quantum sensing, artificial intelligence, underwater acoustics, and GPS antennas and receivers."
+          }
+        ],
+        "notes": "Hydrus is a complete micro autonomous underwater vehicle (AUV/UUV) listed under Acoustic Navigation & Micro AUV"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Sydney",
+      "state_or_province": "NSW",
+      "country": "Australia",
+      "address": "Level 12, 255 George Street"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0011",
+        "url": null,
+        "page_class": "company",
+        "snippet": "Headquartered in Sydney, Australia, with research and production facilities nationwide and offices globally. Advanced Navigation is an Australian manufacturer exporting worldwide."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0075",
+        "url": null,
+        "page_class": "contact",
+        "snippet": "APAC +61 2 7908 9385 Level 12, 255 George Street Sydney NSW 2000 Australia"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0431",
+        "url": null,
+        "page_class": "capability",
+        "snippet": "Integrate our INS into your drones, autonomous vehicles, or subsea platforms, and market them to a global customer base with significantly fewer regulatory hurdles."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "url": null,
+        "page_class": "homepage",
+        "snippet": "Field-proven inertial navigation systems built for denied, degraded, and disrupted environments \u2013 where failure isn't an option."
+      }
+    ],
+    "notes": "Primary business is selling INS/IMU/AHRS navigation subsystems that integrate into customer drone and autonomous platforms. Also manufactures the Hydrus complete micro AUV."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Motus",
+        "product_type": "MEMS IMU/AHRS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0375",
+            "url": null,
+            "page_class": "capability",
+            "snippet": "Motus Ultra-high accuracy MEMS IMU Roll & Pitch 0.05 \u00b0 Heading (Magnetic) 0.8 \u00b0 Bias Instability 0.2 \u00b0/hr Update Rate 1000 Hz"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Certus Mini A",
+        "product_type": "MEMS AHRS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0375",
+            "url": null,
+            "page_class": "capability",
+            "snippet": "Certus Mini A Attitude and heading reference system Roll & Pitch 0.1 \u00b0 Heading (Magnetic) 0.8 \u00b0 Update Rate 1000 Hz"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Boreas A70 & A90",
+        "product_type": "FOG IMU/AHRS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0375",
+            "url": null,
+            "page_class": "capability",
+            "snippet": "Boreas A70 & A90 Ultra-high performance FOG IMU/AHRS Roll & Pitch 0.01 \u00b0 Heading (Gyrocompass) 0.1 \u00b0 seclat Bias Instability 0.01 \u00b0/hr"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Certus Mini N",
+        "product_type": "MEMS GNSS/INS (single antenna)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0375",
+            "url": null,
+            "page_class": "capability",
+            "snippet": "Certus Mini N Navigation, single antenna Roll & Pitch 0.1 \u00b0 Heading (Velocity) 0.2 \u00b0 RTK Positioning 10 mm Update Rate 1000 Hz"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Certus Mini D",
+        "product_type": "MEMS GNSS/INS (dual antenna)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0375",
+            "url": null,
+            "page_class": "capability",
+            "snippet": "Certus Mini D Dual-antenna Navigation Roll & Pitch 0.1 \u00b0 Heading (GNSS) 0.1 \u00b0 RTK Positioning 10 mm Update Rate 1000 Hz"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Certus",
+        "product_type": "MEMS GNSS/INS (dual antenna)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0375",
+            "url": null,
+            "page_class": "capability",
+            "snippet": "Certus Market-leading dual antenna INS Roll & Pitch 0.1 \u00b0 Heading (GNSS) 0.1 \u00b0 Bias Instability 3 \u00b0/hr Position Accuracy 10 mm"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Certus Evo",
+        "product_type": "Ultra-high accuracy MEMS GNSS/INS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "url": null,
+            "page_class": "homepage",
+            "snippet": "Certus Evo Combining ultra-high accuracy MEMS with intelligent software and dual-antenna RTK GNSS, ensuring reliable positioning and heading."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Boreas A50 & D50",
+        "product_type": "Compact FOG GNSS/INS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "url": null,
+            "page_class": "homepage",
+            "snippet": "Boreas A50 & D50 Compact FOG INS with a north-seeking gyrocompass and an option for Electronic Protection."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Boreas D70 & D90",
+        "product_type": "Digital FOG GNSS/INS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "url": null,
+            "page_class": "homepage",
+            "snippet": "Boreas D70 & D90 High-level precision and reliability with FOG technology, providing ultra-fast accuracy, position and orientation."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "GNSS Compass",
+        "product_type": "Plug-and-play GNSS/INS satellite compass",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0375",
+            "url": null,
+            "page_class": "capability",
+            "snippet": "GNSS Compass Plug-and-play GNSS/INS navigation and heading solution View Solution"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Hydrus",
+        "product_type": "Micro autonomous underwater vehicle (AUV)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0375",
+            "url": null,
+            "page_class": "capability",
+            "snippet": "Hydrus Revolutionary underwater vehicle Depth Rating 300 m Video Resolution 4K @ 60 FPS Range 2 km Endurance 3 hrs"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Subsonus",
+        "product_type": "USBL acoustic underwater positioning system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0375",
+            "url": null,
+            "page_class": "capability",
+            "snippet": "Subsonus Next-generation USBL/Modem Position Accuracy 0.1 m Roll & Pitch 0.1 \u00b0 Acoustic Heading 0.3 \u00b0 Range & Depth 1,000 m"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Subsonus Tag",
+        "product_type": "Acoustic positioning transponder",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0375",
+            "url": null,
+            "page_class": "capability",
+            "snippet": "Subsonus Tag Acoustic positioning transponder Position Accuracy 0.25 m Range 1,000 m Depth Rating 2,000 m Battery Life 18 months"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Chimera Land",
+        "product_type": "3D laser velocity sensor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0375",
+            "url": null,
+            "page_class": "capability",
+            "snippet": "Chimera Land Provides highly accurate 3D body velocity updates directly to our INS navigation filter"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Air Data Unit",
+        "product_type": "Pitot airspeed and barometric altitude sensor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0375",
+            "url": null,
+            "page_class": "capability",
+            "snippet": "Air Data Unit Measures pitot airspeed and barometric altitude in fixed-wing aircraft"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "OBDII Odometer",
+        "product_type": "Vehicle speed sensor (OBD-II)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0375",
+            "url": null,
+            "page_class": "capability",
+            "snippet": "OBDII Odometer Outputs real-time vehicle speed over an RS232 serial data interface"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Additional accessories visible in nav but without 10-word product-page descriptions: Poseidon (subsea GNSS antenna), Kinematica (GNSS/INS PPK software). Legacy products with datasheet pages but not in current nav: Spatial, Spatial FOG Dual, Orientus."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0431",
+        "url": null,
+        "page_class": "capability",
+        "snippet": "Advanced Navigation delivers high-performance INS solutions manufactured without ITAR-controlled components, allowing you to achieve both market-leading technical capabilities and unrestricted global deployment."
+      }
+    ],
+    "notes": "Site explicitly promotes ITAR-free status throughout but does not mention NDAA Section 848/889 compliance anywhere in the corpus. ITAR-free is the adjacent compliance claim."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0429",
+        "url": null,
+        "page_class": "capability",
+        "snippet": "Advanced Navigation is ISO9001 certified and follows its strategic framework to proactively identify improvements across the business."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0011",
+        "url": null,
+        "page_class": "company",
+        "snippet": "Our rigorous automated testing surpasses industry standards to guarantee customers receive the most reliable and consistent products possible."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0011",
+        "url": null,
+        "page_class": "company",
+        "snippet": "Our state-of-the-art facilities manage every phase of development from design and quality testing to automated manufacturing across photonics, pressure-tolerant electronics, acoustic technologies, and FOG components."
+      }
+    ],
+    "notes": "Serial production with vertically integrated, ISO9001-certified, automated manufacturing in Australia. Catalog SKUs with published datasheets; shortest industry lead time claimed."
+  },
+  "unresolved_questions": [
+    "NDAA Section 848/889 compliance status not disclosed on site",
+    "Blue UAS cleared list status unknown",
+    "Hydrus product page not fetched \u2014 only the datasheet download page was crawled; full AUV specification and capability description absent"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.advancednavigation.com/robotics/micro-auv/hydrus/",
+      "reason": "Full Hydrus product page (parent of the datasheet subpage) would provide AUV capability description, confirming complete-platform UUV classification for airframes category.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "guessed \u2014 resource-0008 is the /datasheet child; product page is the parent URL",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.advancednavigation.com/terms/defence-export-control-requirements/",
+      "reason": "Defence Export Control Requirements page linked from Terms & Conditions (resource-0035); may contain NDAA Section 848/889 or component-origin compliance statements.",
+      "expected_evidence": [
+        "ndaa"
+      ],
+      "source_hint": "linked from resource-0035",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.advancednavigation.com/defense/counter-uas/",
+      "reason": "Counter-UAS application page would confirm navigation subsystem supply role to drone-defeat platforms and sharpen drone_supply_chain_role and products_categories evidence.",
+      "expected_evidence": [
+        "drone_supply_chain_role",
+        "products_categories"
+      ],
+      "source_hint": "linked from main nav in resource-0001",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.advancednavigation.com/aerospace/",
+      "reason": "Aerospace application page would detail which products serve UAV/UAS use cases, supporting sensors_and_navigation primary category and products evidence.",
+      "expected_evidence": [
+        "products_categories",
+        "products"
+      ],
+      "source_hint": "linked from main nav in resource-0001",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 22,
+    "total_cost_usd": 1.8416099499999998,
+    "created_at": "2026-05-02T12:47:23+00:00",
+    "extract_version": "0.1.0"
+  },
+  "tagline": "Sydney-based maker of inertial navigation systems\u2014MEMS and fiber-optic IMU/AHRS, GNSS/INS, acoustic positioning, and subsea platforms. Certus and Boreas lines dominate the precision-navigation portfolio across air, land, and sea. NDAA and Blue UAS certification status unknown; public evidence of defense adoption (Boeing, Anduril) and mining traction is solid, but supply-chain integration details and US regulatory clearance remain opaque."
+}

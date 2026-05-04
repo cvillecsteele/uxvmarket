@@ -1,0 +1,440 @@
+{
+  "target_id": "safran-federal-systems",
+  "run_id": "canonical",
+  "display_name": "Safran Federal Systems",
+  "homepage_url": "https://www.safranfederalsystems.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/safran-federal-systems/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0046",
+            "line_start": 113,
+            "line_end": 115,
+            "url": "https://www.safranfederalsystems.com/air-ins",
+            "page_class": "capability",
+            "snippet": "###### BlackNaute\u2122\nGPS-denied navigation - Open systems ready\nPerfectly suited for military helicopters, aircraft, fighter jets, and UAVs, the BlackNaute\u2122 Embedded GNSS and Time INS (EGTI) sets the new standard for resilient navigation performance."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0046",
+            "line_start": 124,
+            "line_end": 126,
+            "url": "https://www.safranfederalsystems.com/air-ins",
+            "page_class": "capability",
+            "snippet": "###### SkyNaute\u2122\nUltra compact hybrid inertial reference system\nSkyNaute\u2122 hybrid inertial/GNSS navigation system meets all the safety and reliability requirements for airplanes, helicopters and drones. Thanks to the HRG Crystal\u2122, SkyNaute\u2122 is the most competitive aeronautical navigation system on the market."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 143,
+            "line_end": 143,
+            "url": "https://www.safranfederalsystems.com",
+            "page_class": "homepage",
+            "snippet": "###### [Inertial Navigation and IMUs](https://www.safranfederalsystems.com/ins)"
+          }
+        ],
+        "notes": "Primary drone-relevant product lines are INS (BlackNaute\u2122, SkyNaute\u2122) and STIM MEMS IMUs explicitly suited for UAVs/drones."
+      },
+      {
+        "category": "test_and_measurement",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 128,
+            "line_end": 128,
+            "url": "https://www.safranfederalsystems.com",
+            "page_class": "homepage",
+            "snippet": "###### [GNSS Testing & Simulation](https://www.safranfederalsystems.com/gnss-testing-and-simulation)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 119,
+            "line_end": 121,
+            "url": "https://www.safranfederalsystems.com",
+            "page_class": "homepage",
+            "snippet": "Safran Federal Systems announces BroadSim Genesis launch at JNC 2025\n--------------------------------------------------------------------\n[LEARN MORE \u2192](https://www.safranfederalsystems.com/media-and-news/safran-federal-systems-announces-the-launch-of-the-broadsim-genesis-at-ion-jnc-2025)"
+          }
+        ],
+        "notes": "BroadSim family (Genesis, Solo, Wavefront) are GNSS simulation and testing systems."
+      },
+      {
+        "category": "electronic_warfare",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 163,
+            "line_end": 164,
+            "url": "https://www.safranfederalsystems.com",
+            "page_class": "homepage",
+            "snippet": "### Navigation Warfare\nNavigation Warfare is emerging as a powerful non-kinetic strategy to counter adversaries.\u00a0 Our solutions, forged through years of operational expertise and relentless innovation, empower you to dominate the spectrum in the face of evolving threats."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 43,
+            "line_end": 45,
+            "url": "https://www.safranfederalsystems.com",
+            "page_class": "homepage",
+            "snippet": "    *   [BroadSense](https://www.safranfederalsystems.com/broadsense)\n    *   [BroadShield](https://www.safranfederalsystems.com/broadshield)\n    *   [BroadSword](https://www.safranfederalsystems.com/navwar)"
+          }
+        ],
+        "notes": "NAVWAR product line (BroadSense, BroadShield, BroadSword) for GPS jamming/spoofing detection and defeat. CUAS application listed in nav."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Rochester",
+      "state_or_province": "New York",
+      "country": "United States",
+      "address": "320 N Goodman St Suite 101 Rochester, NY 14607"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0076",
+        "line_start": 115,
+        "line_end": 118,
+        "url": "https://www.safranfederalsystems.com/contact",
+        "page_class": "contact",
+        "snippet": "Safran Federal Systems Headquarters\n-----------------------------------\n[Button](https://goo.gl/maps/iEsRYqVtbttmRcwA6)\n320 N Goodman St Suite 101 Rochester, NY 14607"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0046",
+        "line_start": 113,
+        "line_end": 115,
+        "url": "https://www.safranfederalsystems.com/air-ins",
+        "page_class": "capability",
+        "snippet": "###### BlackNaute\u2122\nGPS-denied navigation - Open systems ready\nPerfectly suited for military helicopters, aircraft, fighter jets, and UAVs, the BlackNaute\u2122 Embedded GNSS and Time INS (EGTI) sets the new standard for resilient navigation performance."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0104",
+        "line_start": 117,
+        "line_end": 117,
+        "url": "https://www.safranfederalsystems.com/media-and-news/orolia-defense-%26-security-ignites-new-era-as-safran-federal-systems-at-the-2023-joint-navigation-conference",
+        "page_class": "compliance",
+        "snippet": "Safran Federal Systems provides Resilient PNT solutions and custom engineering services to U.S. Government agencies, defense organizations and their contractors. Safran Federal Systems is authorized to work on the full spectrum of U.S. Government classified and unclassified projects, in addition to supporting strategic partnerships for key defense PNT technologies."
+      }
+    ],
+    "notes": "Sells INS, IMU, and PNT subsystems explicitly designed for UAVs and other defense platforms."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "BlackNaute\u2122",
+        "product_type": "Embedded GNSS and Time INS (EGTI) for UAVs/aircraft",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0046",
+            "line_start": 113,
+            "line_end": 115,
+            "url": "https://www.safranfederalsystems.com/air-ins",
+            "page_class": "capability",
+            "snippet": "###### BlackNaute\u2122\nGPS-denied navigation - Open systems ready\nPerfectly suited for military helicopters, aircraft, fighter jets, and UAVs, the BlackNaute\u2122 Embedded GNSS and Time INS (EGTI) sets the new standard for resilient navigation performance."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SkyNaute\u2122",
+        "product_type": "Hybrid inertial/GNSS navigation system for drones/aircraft",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0046",
+            "line_start": 124,
+            "line_end": 127,
+            "url": "https://www.safranfederalsystems.com/air-ins",
+            "page_class": "capability",
+            "snippet": "###### SkyNaute\u2122\nUltra compact hybrid inertial reference system\nSkyNaute\u2122 hybrid inertial/GNSS navigation system meets all the safety and reliability requirements for airplanes, helicopters and drones. Thanks to the HRG Crystal\u2122, SkyNaute\u2122 is the most competitive aeronautical navigation system on the market.\n[![Geonyx.png](https://static.wixstatic.com/media/ca7423_b56068209b9447fc8df045a59e865f7e~mv2.png/v1/fill/w_300,h_250,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Geonyx.png)](https://www.safranfederalsystems.com/skynaute)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "STIM Product Suite",
+        "product_type": "High-end MEMS IMU/gyro",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0189",
+            "line_start": 106,
+            "line_end": 111,
+            "url": "https://www.safranfederalsystems.com/stim-products",
+            "page_class": "product",
+            "snippet": "STIM Product Suite\nHigh-End MEMS Gyro Market\n==============================================\n![STIM Inertial Measurement Units](https://static.wixstatic.com/media/ca7423_7171cc3608634cacab35f885074c9955~mv2.png/v1/fill/w_444,h_384,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/STIMs%20non-hermetic_0_25x.png)\nSTIM Product Suite\nPRODUCT \u00a0 |\u00a0\u00a0 INERTIAL NAVIGATION SYSTEMS"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "BroadSim Genesis",
+        "product_type": "GNSS simulation system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 119,
+            "line_end": 121,
+            "url": "https://www.safranfederalsystems.com",
+            "page_class": "homepage",
+            "snippet": "Safran Federal Systems announces BroadSim Genesis launch at JNC 2025\n--------------------------------------------------------------------\n[LEARN MORE \u2192](https://www.safranfederalsystems.com/media-and-news/safran-federal-systems-announces-the-launch-of-the-broadsim-genesis-at-ion-jnc-2025)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "BroadSim Solo",
+        "product_type": "GNSS simulation system",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 12,
+            "line_end": 12,
+            "url": "https://www.safranfederalsystems.com",
+            "page_class": "homepage",
+            "snippet": "    *   [BroadSim Solo](https://www.safranfederalsystems.com/broadsim-solo)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "BroadSim Wavefront",
+        "product_type": "GNSS simulation system",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 13,
+            "line_end": 13,
+            "url": "https://www.safranfederalsystems.com",
+            "page_class": "homepage",
+            "snippet": "    *   [BroadSim Wavefront](https://www.safranfederalsystems.com/broadsim-wavefront)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Open Systems PNT Card",
+        "product_type": "CMOSS/MOSA-aligned PNT card for military platforms",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0142",
+            "line_start": 118,
+            "line_end": 118,
+            "url": "https://www.safranfederalsystems.com/open-systems-pnt-card",
+            "page_class": "capability",
+            "snippet": "This Open Systems PNT Card represents a modular, open-architecture approach for delivering assured Positioning, Navigation, and Timing (PNT) within threat-filled environments. It integrates GNSS, inertial sensing, precision timing oscillators, and advanced jamming/spoofing detection while maintaining compatibility with CRPA/AJAS antennas. The design demonstrates how PNT assurance can be achieved using MOSA-aligned, standards-based building blocks rather than proprietary, monolithic solutions."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "VersaPNT",
+        "product_type": "Assured PNT system",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 23,
+            "line_end": 23,
+            "url": "https://www.safranfederalsystems.com",
+            "page_class": "homepage",
+            "snippet": "    *   [VersaPNT](https://www.safranfederalsystems.com/versapnt)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SecureSync M-Code",
+        "product_type": "M-Code precision timing system",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 21,
+            "line_end": 21,
+            "url": "https://www.safranfederalsystems.com",
+            "page_class": "homepage",
+            "snippet": "    *   [SecureSync M-Code](https://www.safranfederalsystems.com/securesync-m-code)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Personnel Recovery Device",
+        "product_type": "Second-generation Cospas-Sarsat personal locator beacon for U.S. Army",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0080",
+            "line_start": 113,
+            "line_end": 115,
+            "url": "https://www.safranfederalsystems.com/custom-solutions",
+            "page_class": "capability",
+            "snippet": "###### Personnel Recovery Device\nWorld's First Cospas-Sasat Certified Second-Generation Beacon\nOur Personnel Recovery Device is the world\u2019s first personal locator beacon built specifically for the US Army that utilizes the Second Generation Cospas-Sarsat signaling technology for the most demanding search and rescue environments. It\u2019s an innovative robust, ruggedized, dual-mode, user-friendly beacon."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "BroadShield",
+        "product_type": "GNSS spoofing detection (NAVWAR)",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 44,
+            "line_end": 44,
+            "url": "https://www.safranfederalsystems.com",
+            "page_class": "homepage",
+            "snippet": "    *   [BroadShield](https://www.safranfederalsystems.com/broadshield)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA Section 848/889 compliance claim found in any fetched page."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS or Blue sUAS claim found in any fetched page."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0189",
+        "line_start": 131,
+        "line_end": 132,
+        "url": "https://www.safranfederalsystems.com/stim-products",
+        "page_class": "product",
+        "snippet": "Click to download the STIM data sheet.\n[VIEW DATA SHEET](https://www.safranfederalsystems.com/_files/ugd/60c643_fd2ed2700b144d36bce4c05e1be3b2ad.pdf)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 119,
+        "line_end": 121,
+        "url": "https://www.safranfederalsystems.com",
+        "page_class": "homepage",
+        "snippet": "Safran Federal Systems announces BroadSim Genesis launch at JNC 2025\n--------------------------------------------------------------------\n[LEARN MORE \u2192](https://www.safranfederalsystems.com/media-and-news/safran-federal-systems-announces-the-launch-of-the-broadsim-genesis-at-ion-jnc-2025)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 110,
+        "line_end": 112,
+        "url": "https://www.safranfederalsystems.com",
+        "page_class": "homepage",
+        "snippet": "Safran Federal Systems Demonstrates Blacknaute\u2122 Inertial Navigation System on U.S. Army Black Hawk Following AUSA Debut\n------------------------------------------------------------------------------------------------------------------------------\nSafran Federal Systems, a trusted U.S. Department of Defense mission partner and leader in Assured Positioning, Navigation and Timing (A-PNT), announced the successful flight demonstration of its [Blacknaute\u2122](https://www.safranfederalsystems.com/blacknaute) Inertial Navigation System (INS) aboard a U.S. Army UH-60 Black Hawk helicopter."
+      }
+    ],
+    "notes": "STIM product suite has published data sheets; BroadSim Genesis launched at JNC 2025; BlackNaute\u2122 flight-demonstrated on U.S. Army Black Hawk."
+  },
+  "unresolved_questions": [
+    "NDAA Section 848/889 compliance status not disclosed \u2014 Business Credentials page was skipped in crawl",
+    "Blue UAS cleared list status unknown",
+    "CUAS product details not fetched",
+    "NAVWAR product page not fetched"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.safranfederalsystems.com/business-credentials",
+      "reason": "May contain NDAA/ITAR/compliance declarations that would resolve ndaa and blue_uas fields",
+      "expected_evidence": [
+        "ndaa",
+        "blue_uas"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=compliance",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.safranfederalsystems.com/cuas",
+      "reason": "Counter-UAS application page would clarify electronic_warfare category and drone-specific products",
+      "expected_evidence": [
+        "products_categories",
+        "products",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.safranfederalsystems.com/navwar",
+      "reason": "NAVWAR product page would detail BroadSense/BroadShield/BroadSword confirming electronic_warfare category",
+      "expected_evidence": [
+        "products_categories",
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "GNSS testing and simulation (BroadSim suite, Skydel engine), inertial navigation systems (BlackNaute, SkyNaute), assured PNT subsystems (VersaPNT, SecureSync M-Code), and NAVWAR capabilities (BroadSense, BroadShield). Rochester-based Safran Federal Systems holds production-ready inventory across sensors, navigation, and EW domains. NDAA and Blue UAS certification status unknown; public record shows Army Black Hawk INS integration but lacks visible prime contract announcements or supply-chain visibility documentation.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 20,
+    "total_cost_usd": 0.67010585,
+    "created_at": "2026-05-04T06:01:16+00:00",
+    "extract_version": "0.1.0"
+  }
+}

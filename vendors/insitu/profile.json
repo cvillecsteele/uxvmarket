@@ -1,0 +1,535 @@
+{
+  "target_id": "insitu",
+  "run_id": "canonical",
+  "display_name": "Insitu",
+  "homepage_url": "https://www.insitu.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/insitu/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "airframes",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 16,
+            "line_end": 19,
+            "url": "https://www.insitu.com",
+            "page_class": "homepage",
+            "snippet": "    [UAVs](#)\n    *   [Integrator](https://www.insitu.com/products/integrator)\n    *   [ScanEagle](https://www.insitu.com/products/scaneagle)\n    *   [RQ-21A](https://www.insitu.com/products/rq21a)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0020",
+            "line_start": 61,
+            "line_end": 61,
+            "url": "https://www.insitu.com/about",
+            "page_class": "company",
+            "snippet": "Insitu is a pioneer in the design, development, production, and operation of high-performance, cost-effective uncrewed aircraft systems."
+          }
+        ],
+        "notes": "Complete UAS platforms: ScanEagle, Integrator, RQ-21A Blackjack"
+      },
+      {
+        "category": "isr_payloads",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 20,
+            "line_end": 30,
+            "url": "https://www.insitu.com",
+            "page_class": "homepage",
+            "snippet": "    [Payloads](#)\n    *   [Alticam 14](https://www.insitu.com/products/alticam14)\n    *   [Alticam 06](https://www.insitu.com/products/alticam-06)\n    *   [EO960](https://www.insitu.com/products/eo960)\n    *   [EOIR5](https://www.insitu.com/products/eoir5)\n    *   [Dual Imager](https://www.insitu.com/products/dual-imager)\n    *   [NSP-3](https://www.insitu.com/products/nsp-3)\n    *   [NSP-5](https://www.insitu.com/products/nsp-5)\n    *   [WAMI](https://www.insitu.com/products/redkite_wami)\n    *   [PT-6](https://www.insitu.com/products/pt-6)\n    *   [The Warden HSOR](https://www.insitu.com/products/the-warden-hsor)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0016",
+            "line_start": 91,
+            "line_end": 96,
+            "url": "https://www.insitu.com/products/integrator",
+            "page_class": "product",
+            "snippet": "*   [AC14](https://www.insitu.com/products/alticam14) EO telescope (high-zoom day FMV)\n*   [Hyper-Spectral Optical Radar](/products/the-warden-hsor)\n*   [Dual Imager](https://www.insitu.com/products/dual-imager) (MWIR/EO \u2013 day & night FMV)\n*   [PT-6](https://www.insitu.com/products/pt-6) AI-assisted maritime surface search\n*   [NSP-5](https://www.insitu.com/products/nsp-5) SAR/MTI/CCD multi-int tactical radar\n*   [WAMI](https://www.insitu.com/products/redkite_wami) Wide-area motion imagery for day (Redkite) and night (Blackkite)"
+          }
+        ],
+        "notes": "EO/IR turrets, SAR, WAMI, hyperspectral payloads: Alticam 14, Alticam 06, EO960, EOIR5, Dual Imager, NSP-3, NSP-5, WAMI, PT-6, The Warden HSOR"
+      },
+      {
+        "category": "ground_segment",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 31,
+            "line_end": 37,
+            "url": "https://www.insitu.com",
+            "page_class": "homepage",
+            "snippet": "    [Software](#)\n    *   [Common Ground Control Station (cGCS)](https://www.insitu.com/products/cgcs)\n    *   [INEXA Control](https://www.insitu.com/products/inexa)\n    *   [Catalina](https://www.insitu.com/products/catalina)\n    *   [TacitView](https://www.insitu.com/products/tacitview)\n    *   [Media Management Suite (MMS)](https://www.insitu.com/products/media-management-suite-mms)\n    *   [Tungsten SDK](https://www.insitu.com/products/tungsten-sdk)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0006",
+            "line_start": 62,
+            "line_end": 66,
+            "url": "https://www.insitu.com/products/cgcs",
+            "page_class": "product",
+            "snippet": "**Command and control multiple uncrewed systems from a single, small, expeditionary workstation.**\n###### Small footprint\nOperate from a laptop with short, medium, and long-range options including vehicle- and tripod-mounted antennas.\n###### Open Systems Design\nOpen architecture and fully supported Software Development Kit (SDK). Controls all Insitu platforms as well as non-Insitu UxS."
+          }
+        ],
+        "notes": "cGCS hardware GCS plus software suite: INEXA Control, TacitView, Catalina, MMS, Tungsten SDK"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Bingen",
+      "state_or_province": "Washington",
+      "country": "United States",
+      "address": "118 East Columbia River Way"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0020",
+        "line_start": 63,
+        "line_end": 63,
+        "url": "https://www.insitu.com/about",
+        "page_class": "company",
+        "snippet": "We are a wholly owned subsidiary of The Boeing Company and are headquartered in Bingen, Washington with offices in Oregon, Australia, the UAE, and the United Kingdom."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0005",
+        "line_start": 101,
+        "line_end": 103,
+        "url": "https://www.insitu.com",
+        "page_class": "homepage",
+        "snippet": "*   118 East Columbia River Way Bingen, WA 98605 **USA**\n    **TEL** +1.509.493.8600\n    **FAX** +1.509.493.8601"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "oem",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0020",
+        "line_start": 61,
+        "line_end": 61,
+        "url": "https://www.insitu.com/about",
+        "page_class": "company",
+        "snippet": "Insitu is a pioneer in the design, development, production, and operation of high-performance, cost-effective uncrewed aircraft systems."
+      }
+    ],
+    "notes": "Designs, develops, produces, and operates complete UAS platforms. Wholly owned subsidiary of The Boeing Company."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "ScanEagle",
+        "product_type": "long-endurance fixed-wing UAS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0013",
+            "line_start": 57,
+            "line_end": 61,
+            "url": "https://www.insitu.com/products/scaneagle",
+            "page_class": "product",
+            "snippet": "ScanEagle\nThe UAS that invented the agile ISR category\n============================================\n**Offering VTOL, SATCOM, and advancing resilience capabilities**\nWith over 1.6 million combat flight hours, ScanEagle is the industry\u2019s most trusted long-endurance UAS. Electronic resilience features, SATCOM, VTOL, AI-enabled payloads, and the same best-in class endurance make today\u2019s updated ScanEagle ready for the battlespace of tomorrow."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Integrator",
+        "product_type": "versatile fixed-wing UAS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0016",
+            "line_start": 57,
+            "line_end": 60,
+            "url": "https://www.insitu.com/products/integrator",
+            "page_class": "product",
+            "snippet": "Integrator\nOne aircraft, infinite possibilities\n====================================\nThe Integrator is the most versatile UAS in its class, with a modular design to fit every mission. Endless configuration options include no-sacrifice VTOL and extended-range SATCOM capabilities."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "RQ-21A Blackjack",
+        "product_type": "U.S. Navy/Marine Corps program-of-record UAS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0010",
+            "line_start": 57,
+            "line_end": 60,
+            "url": "https://www.insitu.com/products/rq21a",
+            "page_class": "product",
+            "snippet": "RQ-21A\nProgram of Record for the U.S. Navy and U.S. Marine Corps\n=========================================================\nExpeditionary, payload flexible and the most versatile UAS in its class."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Alticam 14",
+        "product_type": "multi-imager EO/IR/SWIR turret payload",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0016",
+            "line_start": 180,
+            "line_end": 182,
+            "url": "https://www.insitu.com/products/integrator",
+            "page_class": "product",
+            "snippet": "Alticam 14\n----------\nMulti-Imager, Multi-Feed turret with MWIR, SWIR and EO"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Alticam 06",
+        "product_type": "advanced laser targeting EO payload",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0013",
+            "line_start": 175,
+            "line_end": 177,
+            "url": "https://www.insitu.com/products/scaneagle",
+            "page_class": "product",
+            "snippet": "Alticam 06\n----------\nAdvanced Laser Targeting Support for ScanEagle UAS"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "EO960",
+        "product_type": "multi-imager multi-feed EO turret payload",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0013",
+            "line_start": 160,
+            "line_end": 162,
+            "url": "https://www.insitu.com/products/scaneagle",
+            "page_class": "product",
+            "snippet": "EO960\n-----\nMulti-Imager, Multi-Feed turret with EO telescope and zoom"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "EOIR5",
+        "product_type": "EO/IR payload with laser designator",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0016",
+            "line_start": 98,
+            "line_end": 98,
+            "url": "https://www.insitu.com/products/integrator",
+            "page_class": "product",
+            "snippet": "*   [EOIR-5](https://www.insitu.com/products/eoir5)/[Alticam 14](https://www.insitu.com/products/alticam14) Laser designator/pointer/rangefinder"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Dual Imager",
+        "product_type": "MWIR/EO day-night payload",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0013",
+            "line_start": 170,
+            "line_end": 172,
+            "url": "https://www.insitu.com/products/scaneagle",
+            "page_class": "product",
+            "snippet": "Dual Imager\n-----------\nIncreasing expeditionary capabilities with more payload options"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "NSP-3",
+        "product_type": "multi-INT all-weather ISR payload",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0013",
+            "line_start": 180,
+            "line_end": 182,
+            "url": "https://www.insitu.com/products/scaneagle",
+            "page_class": "product",
+            "snippet": "NSP-3\n-----\nMulti-INT, all-weather ISR capabilities normally found on larger platforms"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "NSP-5",
+        "product_type": "SAR/MTI/CCD multi-int tactical radar payload",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0016",
+            "line_start": 185,
+            "line_end": 187,
+            "url": "https://www.insitu.com/products/integrator",
+            "page_class": "product",
+            "snippet": "NSP-5\n-----\nMulti-INT, all-weather ISR capabilities normally found on larger platforms"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "WAMI (RedKite/Blackkite)",
+        "product_type": "wide-area motion imagery payload",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0016",
+            "line_start": 96,
+            "line_end": 96,
+            "url": "https://www.insitu.com/products/integrator",
+            "page_class": "product",
+            "snippet": "*   [WAMI](https://www.insitu.com/products/redkite_wami) Wide-area motion imagery for day (Redkite) and night (Blackkite)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "PT-6",
+        "product_type": "AI-assisted maritime surface search payload",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0016",
+            "line_start": 190,
+            "line_end": 192,
+            "url": "https://www.insitu.com/products/integrator",
+            "page_class": "product",
+            "snippet": "PT-6\n----\nSearch, interrogate, and prosecute from one long endurance platform via state-of-the-art, automated wide-area search with high-powered zoom optics, across multiple spectral bands."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "The Warden HSOR",
+        "product_type": "autonomous hyperspectral optical radar payload",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0016",
+            "line_start": 195,
+            "line_end": 197,
+            "url": "https://www.insitu.com/products/integrator",
+            "page_class": "product",
+            "snippet": "The Warden HSOR\n---------------\nAutonomous, real-time, wide-area, optical & hyperspectral search sensor optimized for Integrator UAS"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Common Ground Control Station (cGCS)",
+        "product_type": "small expeditionary ground control station",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0006",
+            "line_start": 57,
+            "line_end": 62,
+            "url": "https://www.insitu.com/products/cgcs",
+            "page_class": "product",
+            "snippet": "Common Ground Control Station\ncGCS\nCommon Ground Control Station\nSmall Tactical Ground Control Station\n=====================================\n**Command and control multiple uncrewed systems from a single, small, expeditionary workstation.**"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "INEXA Control",
+        "product_type": "multi-UAS command and control software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0016",
+            "line_start": 176,
+            "line_end": 177,
+            "url": "https://www.insitu.com/products/integrator",
+            "page_class": "product",
+            "snippet": "-------------\nCommand and control multiple unmanned aircraft from a single workstation"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TacitView",
+        "product_type": "FMV media manipulation and management software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0013",
+            "line_start": 186,
+            "line_end": 187,
+            "url": "https://www.insitu.com/products/scaneagle",
+            "page_class": "product",
+            "snippet": "---------\nTacitView delivers FMV media manipulation and management tools"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Catalina",
+        "product_type": "UAS software product",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 34,
+            "line_end": 34,
+            "url": "https://www.insitu.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Catalina](https://www.insitu.com/products/catalina)"
+          }
+        ],
+        "notes": "Listed in product nav; product page resource-0011 exists but not described in depth here"
+      },
+      {
+        "name": "Media Management Suite (MMS)",
+        "product_type": "UAS media management software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 36,
+            "line_end": 36,
+            "url": "https://www.insitu.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Media Management Suite (MMS)](https://www.insitu.com/products/media-management-suite-mms)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Tungsten SDK",
+        "product_type": "ISR motion imagery software development kit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0019",
+            "line_start": 56,
+            "line_end": 60,
+            "url": "https://www.insitu.com/products/tungsten-sdk",
+            "page_class": "product",
+            "snippet": "Tungsten\nTungsten\nSoftware Development Kit\n========================\nBuilding blocks for powerful still and motion imagery media applications"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0005",
+        "line_start": 85,
+        "line_end": 85,
+        "url": "https://www.insitu.com",
+        "page_class": "homepage",
+        "snippet": "With more than **1.6 million operational flight hours** over land, at sea, and around the globe, covering more than 30 international customers, Insitu is a trusted partner for uncrewed aerial systems worldwide."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0020",
+        "line_start": 61,
+        "line_end": 61,
+        "url": "https://www.insitu.com/about",
+        "page_class": "company",
+        "snippet": "Insitu is a pioneer in the design, development, production, and operation of high-performance, cost-effective uncrewed aircraft systems."
+      }
+    ],
+    "notes": "Serial production of multiple UAS platforms with 1.6M+ combat flight hours; RQ-21A is U.S. Navy/Marine Corps program of record; 30+ international customers."
+  },
+  "unresolved_questions": [
+    "NDAA Section 848/889 compliance status not disclosed on site",
+    "Blue UAS cleared list status not mentioned"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.insitu.com/supplier-policies",
+      "reason": "Supplier policies page may contain NDAA Section 848/889 compliance claims or other regulatory disclosures relevant to NDAA and Blue UAS fields.",
+      "expected_evidence": [
+        "ndaa",
+        "blue_uas"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 18,
+    "total_cost_usd": 0.64930395,
+    "created_at": "2026-05-03T15:13:32+00:00",
+    "extract_version": "0.1.0"
+  },
+  "tagline": "Manufacturer of runway-independent fixed-wing tactical UAS (ScanEagle, Integrator, RQ-21A Blackjack for USN/USMC) and integrated ISR payloads (SAR, EO/MWIR, hyperspectral, WAMI) with ground control and autonomy software. 1.6M+ operational flight hours across 30+ international customers. NDAA and Blue UAS certification status unknown; public evidence does not confirm current federal procurement compliance posture."
+}

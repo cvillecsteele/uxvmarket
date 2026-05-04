@@ -1,0 +1,270 @@
+{
+  "target_id": "rcv-engines-ltd",
+  "run_id": "canonical",
+  "display_name": "RCV Engines Ltd",
+  "homepage_url": "https://www.rcvengines.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/rcv-engines-ltd/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 48,
+            "line_end": 48,
+            "url": "https://rcvengines.com/",
+            "page_class": "homepage",
+            "snippet": "Multi-fuel propulsion systems for Unmanned Vehicles."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0006",
+            "line_start": 59,
+            "line_end": 59,
+            "url": "https://rcvengines.com/rcv-df35",
+            "page_class": "other",
+            "snippet": "Designed as a UAV engine not modified from a hobby engine"
+          }
+        ],
+        "notes": "UAV-specific small internal combustion engines (DF35, DF70, DF70LC) using patented rotary valve technology, designed as UAV engines for fixed-wing and VTOL platforms"
+      },
+      {
+        "category": "propulsion_electronics",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0020",
+            "line_start": 45,
+            "line_end": 47,
+            "url": "https://rcvengines.com/efi-engine-control-system",
+            "page_class": "other",
+            "snippet": "EFI Engine Control System\n-------------------------\nLightweight/Waterproof/Compact ECU casing"
+          }
+        ],
+        "notes": "EFI Engine Control System (ECU) with altitude compensation, fuel injection control, ignition drivers, and CAN bus communications \u2014 sold as a distinct product alongside the engines"
+      },
+      {
+        "category": "power_systems",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0008",
+            "line_start": 49,
+            "line_end": 49,
+            "url": "https://rcvengines.com/hybrid-generator",
+            "page_class": "other",
+            "snippet": "RCV\u2019s multi-fuel capability makes the engine an ideal power unit for hybrid and portable power applications"
+          }
+        ],
+        "notes": "Engines supplied for hybrid platforms and man-portable power generation applications"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Bournemouth",
+      "state_or_province": null,
+      "country": "United Kingdom",
+      "address": null
+    },
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 2,
+        "line_end": 2,
+        "url": "https://rcvengines.com/",
+        "page_class": "homepage",
+        "snippet": "[](https://www.linkedin.com/company/rcv-engines-ltd)[+44 (0) 1202 877044](tel:01202877044)"
+      }
+    ],
+    "notes": "UK confirmed by +44 phone number. Bournemouth inferred from phone area code 01202; /about and /contact-us pages were skipped so no street address available."
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 48,
+        "line_end": 48,
+        "url": "https://rcvengines.com/",
+        "page_class": "homepage",
+        "snippet": "Multi-fuel propulsion systems for Unmanned Vehicles."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0006",
+        "line_start": 59,
+        "line_end": 59,
+        "url": "https://rcvengines.com/rcv-df35",
+        "page_class": "other",
+        "snippet": "Designed as a UAV engine not modified from a hobby engine"
+      }
+    ],
+    "notes": "RCV makes small UAV ICE engines and ECUs \u2014 components integrated into UAV platforms by OEM customers. Site explicitly states engines are 'designed as a UAV engine not modified from a hobby engine'. Does not manufacture complete UAVs."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "RCV DF35",
+        "product_type": "4-stroke single-cylinder UAV engine (35cc, 2.2kW, multi-fuel)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0006",
+            "line_start": 45,
+            "line_end": 45,
+            "url": "https://rcvengines.com/rcv-df35",
+            "page_class": "other",
+            "snippet": "DF35 Single Cyl Engine"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "RCV DF70",
+        "product_type": "4-stroke twin-cylinder UAV engine (70cc, 4.2kW, air-cooled, multi-fuel)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0009",
+            "line_start": 45,
+            "line_end": 45,
+            "url": "https://rcvengines.com/rcv-df70",
+            "page_class": "other",
+            "snippet": "DF70 Twin Cyl Engine"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "RCV DF70LC",
+        "product_type": "4-stroke twin-cylinder UAV engine (70cc, 4.2kW, liquid-cooled, multi-fuel)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0015",
+            "line_start": 45,
+            "line_end": 45,
+            "url": "https://rcvengines.com/rcv-df70lc",
+            "page_class": "other",
+            "snippet": "DF70LC Twin Cyl Engine"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "EFI Engine Control System",
+        "product_type": "Electronic fuel injection ECU for UAV engines (30g, CAN bus, altitude compensation)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0020",
+            "line_start": 45,
+            "line_end": 47,
+            "url": "https://rcvengines.com/efi-engine-control-system",
+            "page_class": "other",
+            "snippet": "EFI Engine Control System\n-------------------------\nLightweight/Waterproof/Compact ECU casing"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA or compliance signal anywhere in the fetched corpus; vendor is UK-based"
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS / DIU mention in the fetched corpus"
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0006",
+        "line_start": 63,
+        "line_end": 64,
+        "url": "https://rcvengines.com/rcv-df35",
+        "page_class": "other",
+        "snippet": "Specifications\n--------------"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0009",
+        "line_start": 63,
+        "line_end": 64,
+        "url": "https://rcvengines.com/rcv-df70",
+        "page_class": "other",
+        "snippet": "Specifications\n--------------"
+      }
+    ],
+    "notes": "Catalog SKUs (DF35, DF70, DF70LC, EFI ECU) published with full specifications, TBO figures, and downloadable product flyers. Engineering development/licensing service also offered as a secondary capability."
+  },
+  "unresolved_questions": [
+    "Full street address for headquarters not confirmed (about and contact pages skipped)",
+    "No NDAA or Blue UAS compliance information found in any fetched pages"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://rcvengines.com/about",
+      "reason": "Skipped /about page would confirm headquarters city and street address, currently inferred only from phone area code",
+      "expected_evidence": [
+        "headquarters"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=company",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://rcvengines.com/contact-us",
+      "reason": "Skipped contact page would provide full postal address for headquarters confirmation",
+      "expected_evidence": [
+        "headquarters"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=contact",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "UK-based manufacturer of 4-stroke rotary-valve UAV engines (DF70LC, DF70, DF35 series) running on heavy fuels, plus electronic fuel injection controllers with altitude compensation. Production-ready across multiple displacements and cooling variants. Also serves hybrid platforms and generator systems. NDAA and Blue UAS certification status unknown; limited public evidence of US defense program adoption beyond a SeaLandAire testimonial reference to an \"ADARO program.\"",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 8,
+    "total_cost_usd": 0.32172425,
+    "created_at": "2026-05-04T05:39:18+00:00",
+    "extract_version": "0.1.0"
+  }
+}

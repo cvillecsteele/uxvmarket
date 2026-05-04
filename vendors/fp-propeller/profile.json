@@ -1,0 +1,246 @@
+{
+  "target_id": "fp-propeller",
+  "run_id": "canonical",
+  "display_name": "FP-Propeller",
+  "homepage_url": "https://www.fp-propeller.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/fp-propeller/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 61,
+            "line_end": 61,
+            "url": "https://www.fp-propeller.com",
+            "page_class": "homepage",
+            "snippet": "We design and make in-flight variable pitch propellers for Ultra Lights and UAV. Blades are in carbon fiber and are made by the most advanced technology"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0119",
+            "line_start": 27,
+            "line_end": 27,
+            "url": "https://www.fp-propeller.com/contact",
+            "page_class": "contact",
+            "snippet": "More recently we faced the UAV application, where we developed with great success a in-flight variable pitch propeller for Wankel engines"
+          }
+        ],
+        "notes": "Company designs and manufactures in-flight variable pitch propeller hubs and blades for Ultra Light aircraft and UAVs. Also resells ground adjustable and fixed pitch propellers from Sensenich, Catto, Warp Drive, Whirl Wind."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Ferrara",
+      "state_or_province": "FE",
+      "country": "Italy",
+      "address": "Via C. Colombo, 37/E, 44124 Ferrara (FE) - ITALY"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0119",
+        "line_start": 159,
+        "line_end": 161,
+        "url": "https://www.fp-propeller.com/contact",
+        "page_class": "contact",
+        "snippet": "Via C. Colombo, 37/E\n44124 Ferrara (FE) -ITALY\nVAT No.: IT01836830388"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 61,
+        "line_end": 61,
+        "url": "https://www.fp-propeller.com",
+        "page_class": "homepage",
+        "snippet": "We design and make in-flight variable pitch propellers for Ultra Lights and UAV. Blades are in carbon fiber and are made by the most advanced technology"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0119",
+        "line_start": 27,
+        "line_end": 27,
+        "url": "https://www.fp-propeller.com/contact",
+        "page_class": "contact",
+        "snippet": "More recently we faced the UAV application, where we developed with great success a in-flight variable pitch propeller for Wankel engines"
+      }
+    ],
+    "notes": "Makes propeller components (variable pitch hubs, blades) for UAVs and ultralight aircraft; components sold for installation on third-party platforms."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "VPH3-BE",
+        "product_type": "Electric Two Blade constant speed variable pitch propeller hub",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 22,
+            "line_end": 22,
+            "url": "https://www.fp-propeller.com",
+            "page_class": "homepage",
+            "snippet": "Hub model : VPH3-BE"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "VPH6-TH",
+        "product_type": "Hydraulic Three Blade constant speed variable pitch propeller hub",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 29,
+            "line_end": 29,
+            "url": "https://www.fp-propeller.com",
+            "page_class": "homepage",
+            "snippet": "Hub model:VPH6-TH"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "VPH5-TE",
+        "product_type": "Electric Three Blade constant speed variable pitch propeller hub",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 43,
+            "line_end": 43,
+            "url": "https://www.fp-propeller.com",
+            "page_class": "homepage",
+            "snippet": "Hub model: VPH5-TE"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "VPH6-TE",
+        "product_type": "Electric Three Blade constant speed variable pitch propeller hub",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 50,
+            "line_end": 50,
+            "url": "https://www.fp-propeller.com",
+            "page_class": "homepage",
+            "snippet": "Hub model: VPH6-TE"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "UAV Variable Pitch Propeller",
+        "product_type": "In-flight variable pitch propeller for Wankel engine UAVs",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0119",
+            "line_start": 27,
+            "line_end": 27,
+            "url": "https://www.fp-propeller.com/contact",
+            "page_class": "contact",
+            "snippet": "More recently we faced the UAV application, where we developed with great success a in-flight variable pitch propeller for Wankel engines"
+          }
+        ],
+        "notes": "Specific model designation not disclosed; UAV propeller page was not fetched."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "UAV propeller product page (/uav-propellers/) was not fetched; additional UAV-specific SKUs may exist."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 69,
+        "line_end": 70,
+        "url": "https://www.fp-propeller.com",
+        "page_class": "homepage",
+        "snippet": "TBO of the Hub is 2000 hours.\nBlade life is depending from the composite material type and is specified by blades maker"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0119",
+        "line_start": 24,
+        "line_end": 25,
+        "url": "https://www.fp-propeller.com/contact",
+        "page_class": "contact",
+        "snippet": "In 1999 we developed and presented to the \u201cBassano\u201d meeting the first in-flight variable pitch for Ultra Light in Italy.\nToday, after long and methodical testing of our propellers on different aircrafts, we confirm the top reliability and extremely long life of our hubs and blades."
+      }
+    ],
+    "notes": "Catalog SKUs listed (VPH3-BE, VPH5-TE, VPH6-TE, VPH6-TH), TBO of 2000 hours specified, active dealer/installer network across multiple countries."
+  },
+  "unresolved_questions": [
+    "UAV propeller specific model names and specifications not available (UAV product page not fetched)",
+    "No NDAA or Blue UAS compliance information found anywhere in the corpus"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.fp-propeller.com/uav-propellers/",
+      "reason": "UAV propeller product page would list specific UAV propeller SKUs, confirm UAV product line details, and potentially clarify NDAA/compliance claims for UAV applications.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "linked from resource-0001 nav menu and resource-0015 nav menu",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "complete",
+  "tagline": "Manufactures electrically and hydraulically actuated variable-pitch propeller hubs (VPH series) and constant-speed governors for ultralight aircraft and UAVs, with carbon-fiber blades and 2,000-hour TBO on hubs. Also stocks ground-adjustable and fixed-pitch propellers as authorized dealer. NDAA and Blue UAS compliance status unknown; public evidence limited to product specs and aircraft integrations.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 16,
+    "total_cost_usd": 0.28307985,
+    "created_at": "2026-05-04T02:45:51+00:00",
+    "extract_version": "0.1.0"
+  }
+}

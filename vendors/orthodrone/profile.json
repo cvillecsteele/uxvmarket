@@ -1,0 +1,260 @@
+{
+  "target_id": "orthodrone",
+  "run_id": "canonical",
+  "display_name": "Orthodrone",
+  "homepage_url": "https://www.orthodrone.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/orthodrone/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "isr_payloads",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 45,
+            "line_end": 45,
+            "url": "https://www.orthodrone.com",
+            "page_class": "homepage",
+            "snippet": "![Survey-Grade Unmanned Aerial LiDAR](//www.orthodrone.com/wp-content/uploads/2021/07/lidar-f.jpg)![With industry-leading LiDAR systems, we acquire consistent data and generate precise models -- even through dense vegetation.](//www.orthodrone.com/wp-content/uploads/2021/01/lidar-b.jpg)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 41,
+            "line_end": 41,
+            "url": "https://www.orthodrone.com",
+            "page_class": "homepage",
+            "snippet": "["
+          }
+        ],
+        "notes": "Core service is ultra-high-resolution spatial data acquisition using LiDAR and metric camera payloads deployed on their hybrid UAS."
+      },
+      {
+        "category": "airframes",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 19,
+            "line_end": 19,
+            "url": "https://www.orthodrone.com",
+            "page_class": "homepage",
+            "snippet": "Utilizing customized hybrid UAS with survey-grade sensors and in-house control solutions, we are your versatile and reliable partner for surveying and modeling."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 48,
+            "line_end": 48,
+            "url": "https://www.orthodrone.com",
+            "page_class": "homepage",
+            "snippet": "![Customized Hybrid Multi-Rotor UAS](//www.orthodrone.com/wp-content/uploads/2021/01/uas-f.jpg)![Our made-to-measure UAS provide for maximum mission time, efficiency and flexibility, as well as superior data quality.](//www.orthodrone.com/wp-content/uploads/2021/01/uas-b.jpg)"
+          }
+        ],
+        "notes": "Orthodrone builds and operates its own customized hybrid multi-rotor UAS with proprietary technology."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Primarily a drone service provider operating for clients; also develops proprietary customized hybrid UAS for its own use. Services page not fetched \u2014 secondary category mix could expand."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Kiel",
+      "state_or_province": "Schleswig-Holstein",
+      "country": "Germany",
+      "address": "Schauenburgerstr. 116, 24118 Kiel"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0047",
+        "line_start": 19,
+        "line_end": 22,
+        "url": "https://www.orthodrone.com/impressum-datenschutz",
+        "page_class": "news",
+        "snippet": "Orthodrone GmbH\nSchauenburgerstr. 116\n24118 Kiel\nDeutschland"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "service_provider",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 1,
+        "line_end": 1,
+        "url": "https://www.orthodrone.com",
+        "page_class": "homepage",
+        "snippet": "Orthodrone \u2022 UAS Services & Geospatial Solutions"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 18,
+        "line_end": 20,
+        "url": "https://www.orthodrone.com",
+        "page_class": "homepage",
+        "snippet": "We offer advanced, ultra-high-resolution spatial data acquisition and scientific analyses services for your industry or research needs.\nUtilizing customized hybrid UAS with survey-grade sensors and in-house control solutions, we are your versatile and reliable partner for surveying and modeling.\nOur on-site spatial data services revolutionize asset management for the energy, transport and infrastructure sectors."
+      }
+    ],
+    "notes": "Orthodrone operates its own customized hybrid UAS to deliver spatial data acquisition, LiDAR surveys, photogrammetry and inspections for clients. Primary positioning is as a UAS services and geospatial solutions company, not a product seller."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Survey-Grade Unmanned Aerial LiDAR",
+        "product_type": "drone LiDAR survey service",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 45,
+            "line_end": 45,
+            "url": "https://www.orthodrone.com",
+            "page_class": "homepage",
+            "snippet": "![Survey-Grade Unmanned Aerial LiDAR](//www.orthodrone.com/wp-content/uploads/2021/07/lidar-f.jpg)![With industry-leading LiDAR systems, we acquire consistent data and generate precise models -- even through dense vegetation.](//www.orthodrone.com/wp-content/uploads/2021/01/lidar-b.jpg)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Ultra-High Resolution Photogrammetry",
+        "product_type": "drone photogrammetry service",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 42,
+            "line_end": 42,
+            "url": "https://www.orthodrone.com",
+            "page_class": "homepage",
+            "snippet": "![Ultra-High Resolution Photogrammetry](//www.orthodrone.com/wp-content/uploads/2021/01/photogrammetry-f.jpg)![Utilizing our onboard processing unit (OPU), we simultaneously control multiple cutting-edge metric camera payloads.](//www.orthodrone.com/wp-content/uploads/2021/07/photogrammetry-b.jpg)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Customized Hybrid Multi-Rotor UAS",
+        "product_type": "bespoke hybrid multi-rotor drone platform",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 48,
+            "line_end": 48,
+            "url": "https://www.orthodrone.com",
+            "page_class": "homepage",
+            "snippet": "![Customized Hybrid Multi-Rotor UAS](//www.orthodrone.com/wp-content/uploads/2021/01/uas-f.jpg)![Our made-to-measure UAS provide for maximum mission time, efficiency and flexibility, as well as superior data quality.](//www.orthodrone.com/wp-content/uploads/2021/01/uas-b.jpg)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "low",
+    "status": "answered",
+    "notes": "No named product SKUs on the homepage; the vendor lists service offerings. Services page skipped \u2014 may contain more detail on specific service packages or UAS products."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 344,
+        "line_end": 346,
+        "url": "https://www.orthodrone.com",
+        "page_class": "homepage",
+        "snippet": "Sharper Shape\nOrthodrone has provided sharp, unmanned LiDAR data for our projects since 2019, utilizing customized hybrid UAS.\nHappy to work with such a talented and energetic team!"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 352,
+        "line_end": 354,
+        "url": "https://www.orthodrone.com",
+        "page_class": "homepage",
+        "snippet": "Netze BW\nThe high point density of Orthodrone\u2019s UAV-based LiDAR provides a high-resolution overview of our assets and the surrounding vegetation.\nTheir online viewer gave us direct access to the clouds of powerlines, masts and terrain, which made it possible to share the information with our staff in the blink of an eye."
+      }
+    ],
+    "notes": "Actively delivering services to paying clients across multiple industries (energy, ports, scientific research). Multiple client testimonials confirm operational track record."
+  },
+  "unresolved_questions": [
+    "Services page (https://www.orthodrone.com/services) was not fetched \u2014 could confirm specific named service packages, pricing models, and whether they sell custom UAS platforms to third parties.",
+    "Journal/blog articles not fetched \u2014 could provide more detail on specific UAS types, sensors, and technical capabilities.",
+    "Cannot determine NDAA or Blue UAS compliance status from available pages."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.orthodrone.com/services",
+      "reason": "Primary services page would confirm specific service offerings, named products/SKUs, and whether they sell or lease UAS platforms to third parties \u2014 needed to sharpen supply chain role and products list.",
+      "expected_evidence": [
+        "products",
+        "drone_supply_chain_role",
+        "products_categories",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.orthodrone.com/journal/uas-dam-surveys",
+      "reason": "Journal article on UAS dam surveys would reveal specific UAS models, sensor payloads, and technical specs used in missions \u2014 helps refine products_categories and products.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.orthodrone.com/journal/unmanned-lidar-powerline-surveys",
+      "reason": "Journal article on LiDAR powerline surveys would reveal specific UAS and sensor systems used \u2014 helps confirm isr_payloads and airframes categories.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "tagline": "German service provider offering customized hybrid multi-rotor UAS, survey-grade LiDAR, and ultra-high-resolution photogrammetry for infrastructure inspection and geospatial analysis. Operates proprietary onboard processing unit (OPU) for multi-payload control. Active in energy, transport, maritime, and research sectors with demonstrated cold-climate and offshore capability. NDAA and Blue UAS certification status unknown; no major US prime contracts identified in public record.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 6,
+    "total_cost_usd": 0.43246565,
+    "created_at": "2026-05-04T04:51:26+00:00",
+    "extract_version": "0.1.0"
+  }
+}

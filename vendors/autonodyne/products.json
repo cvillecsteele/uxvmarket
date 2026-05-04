@@ -1,0 +1,134 @@
+{
+  "target_id": "autonodyne",
+  "run_id": "canonical",
+  "display_name": "Autonodyne",
+  "homepage_url": "https://autonodyne.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/autonodyne/website",
+  "products": [
+    {
+      "name": "Software Command & Control",
+      "category": "ground_segment",
+      "descriptor": "Multi-vehicle C2 software for autonomous and manned-unmanned teaming",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 43,
+          "line_end": 44,
+          "url": "https://autonodyne.com",
+          "page_class": "homepage",
+          "snippet": "Software Command & Control\n--------------------------"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 54,
+          "line_end": 56,
+          "url": "https://autonodyne.com",
+          "page_class": "homepage",
+          "snippet": "For software licensing and packaging contact [sales@autonodyne.com](mailto:sales@autonodyne.com?)\n### Software for your Unmanned Vehicles\nAutonodyne software has been integrated on more than 60 makes/models of unmanned platforms. Enabling support for 15 communication protocols, 16 datalink radios, and the ability to host the software on multiple hardware platforms."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Autonomy Behaviors",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "Library of named autonomous behavior modules for air, sea, and land UxVs",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0004",
+          "line_start": 39,
+          "line_end": 41,
+          "url": "https://autonodyne.com/autonomy-behaviors",
+          "page_class": "capability",
+          "snippet": "Autonomy Behaviors\n==================\nBehaviors Magnify Functionality"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 57,
+          "line_end": 59,
+          "url": "https://autonodyne.com",
+          "page_class": "homepage",
+          "snippet": "### Autonomy Behaviors\nAutonodyne\u2019s library of software behaviors permits your vehicle or team of vehicles to perform a variety of mission-specific maneuvers autonomously.\nFor a complete inventory of our behaviors see [Autonomy\u00a0Behaviors.](/autonomy-behaviors)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Counter UAS & Red-Teaming Services",
+      "category": "ground_segment",
+      "descriptor": "Counter-UAS testing, training, and red-team adversary services using Autonodyne autonomy software",
+      "granularity": "category",
+      "readiness": "engineering_services",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 51,
+          "line_end": 52,
+          "url": "https://autonodyne.com",
+          "page_class": "homepage",
+          "snippet": "Testing of 3rd-party counter-UAS systems, training aids for organizations preparing for deployment, testing detection and tracking systems, identifying gaps, hardening protection of high value assets, etc.\n#### Counter UAS & Red-Teaming Services"
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "The /home page (containing HMI and Core Technologies sections) was not fetched; an HMI product may exist as a distinct offering.",
+    "The Autonomy Behaviors PDF datasheet was not fetched; it may contain a more complete product listing and any compliance claims.",
+    "No NDAA or Blue UAS claims were found in the fetched corpus."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://autonodyne.com/home",
+      "reason": "Contains HMI and Hardware Agnostic product sections (nav anchors #hmi, #softwareforuvs, #coretechnologies) that were not fetched \u2014 may reveal additional named products or HMI product details.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "skipped in crawl_index (skipped_class_budget)",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://autonodyne.com/s/Autonodyne-Autonomy-Behaviors-Original-26-Oct-2019-Updated-27-Nov-2023-Copy.pdf",
+      "reason": "Linked datasheet from the Autonomy Behaviors page \u2014 full inventory of behaviors, potential product details, compliance or readiness claims.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "readiness"
+      ],
+      "source_hint": "skipped in crawl_index (skipped_budget); linked from resource-0002 line 43",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://autonodyne.com/section",
+      "reason": "Top-level section navigation page \u2014 may list additional products or capability categories not visible from homepage.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "skipped in crawl_index (skipped_class_budget)",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 7,
+    "total_cost_usd": 0.2561628,
+    "created_at": "2026-05-03T00:55:15+00:00",
+    "extract_version": "0.1.0"
+  }
+}

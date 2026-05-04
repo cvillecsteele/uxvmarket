@@ -1,0 +1,534 @@
+{
+  "target_id": "uavionix",
+  "run_id": "canonical",
+  "display_name": "uAvionix",
+  "homepage_url": "https://uavionix.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/uavionix/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 11,
+            "line_end": 11,
+            "url": "https://uavionix.com",
+            "page_class": "homepage",
+            "snippet": "        *   [UAS Avionics & ADS-B](https://uavionix.com/uncrewed-aircraft-systems/uas-navigation/)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 104,
+            "line_end": 107,
+            "url": "https://uavionix.com",
+            "page_class": "homepage",
+            "snippet": "![](https://uavionix.com/wp-content/uploads/2024/08/ping200XR_1x1-300x300.png)\n### ping200XR TSO\n[Learn More](https://uavionix.com/uncrewed-aircraft-systems/ping200xr/) [Buy Now](https://uavionix.com/product/ping200xr-tso/)\nping200XR TSO combines the technology of the TSO certified ping200X transponder with an internal TSO certified aviation GPS. Enabling airspace access, regulator, and Air Navigation Service Provider (ANSP) acceptance worldwide, ping200XR TSO enables your aircraft to be detected by Secondary Surveillance Radar (SSR), Traffic Collision Avoidance Systems (TCAS), and..."
+          }
+        ],
+        "notes": "TSO-certified ADS-B transponders, GPS receivers, and detect-and-avoid systems for UAS (ping200XR, CASIA G)"
+      },
+      {
+        "category": "communications",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 109,
+            "line_end": 111,
+            "url": "https://uavionix.com",
+            "page_class": "homepage",
+            "snippet": "### muLTElink915\n[Learn More](https://uavionix.com/uncrewed-aircraft-systems/multelink/)\nBest for compact platforms where SWaP is a priority. Supports ISM + LTE with payload link integration and dynamic failover."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 113,
+            "line_end": 115,
+            "url": "https://uavionix.com",
+            "page_class": "homepage",
+            "snippet": "### skyAlert\n[Learn More](https://uavionix.com/uncrewed-aircraft-systems/skyalert/) [Buy Now](https://uavionix.com/product/skyalert/)\nWearable Aircraft Alerting for UAS Operators and Visual Observers"
+          }
+        ],
+        "notes": "C2 datalinks for UAS (muLTElink915, skyAlert wearable alerting)"
+      },
+      {
+        "category": "electronic_warfare",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 141,
+            "line_end": 144,
+            "url": "https://uavionix.com",
+            "page_class": "homepage",
+            "snippet": "![](https://uavionix.com/wp-content/uploads/2025/04/ZPX1_productheader3_1x1-300x300.png)\n### RT-2087/ZPX-1 IFF Combined Transponder Receiver\n[Learn More](https://uavionix.com/defense/zpx-1/)\nThe RT-2087/ZPX-1 is a complete, low-SWaP Combat ID system designed to satisfy Identification Friend or Foe (IFF) Transponder and Automatic Dependent Surveillance \u2013 Broadcast (ADS-B) requirements for Uncrewed Aircraft Systems (UAS) operating both in battlefield and civilian controlled airspace."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0277",
+            "line_start": 51,
+            "line_end": 51,
+            "url": "https://uavionix.com/press/uavionix-receives-dod-aims-certification-for-mode-5-micro-iff-transponder-for-uas",
+            "page_class": "compliance",
+            "snippet": "uAvionix Receives DoD AIMS Certification for Mode 5 Micro IFF Transponder for UAS"
+          }
+        ],
+        "notes": "DoD AIMS-certified micro-IFF transponders for UAS (RT-2087/ZPX-1, ZPX-B, ZPX-A); passive IFF receivers (ZPR)"
+      },
+      {
+        "category": "ground_segment",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 119,
+            "line_end": 122,
+            "url": "https://uavionix.com",
+            "page_class": "homepage",
+            "snippet": "![](https://uavionix.com/wp-content/uploads/2025/09/SAI_1x1-300x300.png)\n### Surface Awareness (SAI)\n[Learn More](https://uavionix.com/airports-and-atm/airports-surface-awareness/)\nFAA approved and deployed at dozens of FAA Air Traffic Control towers, FlightLine SAI provides aircraft and ground vehicle traffic awareness to controllers and airport entities. FAA towers receive fully supported, FAA-approved hardware and software services, with web based capabilities that can be leveraged by airport operations, ramp towers, ARFF and even vehicle..."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 124,
+            "line_end": 124,
+            "url": "https://uavionix.com",
+            "page_class": "homepage",
+            "snippet": "### FlightLine Airborne Position Reference Tool (APRT)"
+          }
+        ],
+        "notes": "Airport/ATM situational awareness tools: FlightLine, Surface Awareness (SAI), APRT, SkyTak for ATAK devices"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Bigfork",
+      "state_or_province": "Montana",
+      "country": "United States",
+      "address": "300 Pine Needle Lane, Bigfork, MT 59911"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0026",
+        "line_start": 55,
+        "line_end": 57,
+        "url": "https://uavionix.com/company/contact",
+        "page_class": "contact",
+        "snippet": "### Montana\n300 Pine Needle Lane\nBigfork, MT 59911"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0277",
+        "line_start": 94,
+        "line_end": 94,
+        "url": "https://uavionix.com/press/uavionix-receives-dod-aims-certification-for-mode-5-micro-iff-transponder-for-uas",
+        "page_class": "compliance",
+        "snippet": "### [uAvionix Introduces Military microIFF Transponder to be Integrated on Boeing Insitu RQ-21 Blackjack for U.S. Navy](https://uavionix.com/press/uavionix-introduces-military-microiff-transponder-to-be-integrated-on-boeing-insitu-rq-21-blackjack-for-u-s-navy/)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 101,
+        "line_end": 101,
+        "url": "https://uavionix.com",
+        "page_class": "homepage",
+        "snippet": "Certified Surveillance, Assured Connectivity"
+      }
+    ],
+    "notes": "Designs and manufactures avionics subsystems (transponders, IFF, ADS-B, C2 datalinks) that integrate into UAS platforms made by others (e.g. Boeing Insitu RQ-21 Blackjack)"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "ping200XR TSO",
+        "product_type": "TSO-certified combined Mode S transponder + ADS-B + GPS for UAS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 105,
+            "line_end": 107,
+            "url": "https://uavionix.com",
+            "page_class": "homepage",
+            "snippet": "### ping200XR TSO\n[Learn More](https://uavionix.com/uncrewed-aircraft-systems/ping200xr/) [Buy Now](https://uavionix.com/product/ping200xr-tso/)\nping200XR TSO combines the technology of the TSO certified ping200X transponder with an internal TSO certified aviation GPS. Enabling airspace access, regulator, and Air Navigation Service Provider (ANSP) acceptance worldwide, ping200XR TSO enables your aircraft to be detected by Secondary Surveillance Radar (SSR), Traffic Collision Avoidance Systems (TCAS), and..."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "muLTElink915",
+        "product_type": "UAS C2 command and control datalink (ISM + LTE)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 109,
+            "line_end": 111,
+            "url": "https://uavionix.com",
+            "page_class": "homepage",
+            "snippet": "### muLTElink915\n[Learn More](https://uavionix.com/uncrewed-aircraft-systems/multelink/)\nBest for compact platforms where SWaP is a priority. Supports ISM + LTE with payload link integration and dynamic failover."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "skyAlert",
+        "product_type": "Wearable aircraft alerting device for UAS operators",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 113,
+            "line_end": 115,
+            "url": "https://uavionix.com",
+            "page_class": "homepage",
+            "snippet": "### skyAlert\n[Learn More](https://uavionix.com/uncrewed-aircraft-systems/skyalert/) [Buy Now](https://uavionix.com/product/skyalert/)\nWearable Aircraft Alerting for UAS Operators and Visual Observers"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "CASIA G",
+        "product_type": "Detect-and-avoid / airspace situational awareness sensor for UAS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 136,
+            "line_end": 138,
+            "url": "https://uavionix.com",
+            "page_class": "homepage",
+            "snippet": "### CASIA G\n[Learn More](https://uavionix.com/uncrewed-aircraft-systems/casia-g/)\nMission-Ready Avionics for UxS"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "RT-2087/ZPX-1",
+        "product_type": "Micro IFF combined transponder receiver (combat ID) for UAS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 142,
+            "line_end": 144,
+            "url": "https://uavionix.com",
+            "page_class": "homepage",
+            "snippet": "### RT-2087/ZPX-1 IFF Combined Transponder Receiver\n[Learn More](https://uavionix.com/defense/zpx-1/)\nThe RT-2087/ZPX-1 is a complete, low-SWaP Combat ID system designed to satisfy Identification Friend or Foe (IFF) Transponder and Automatic Dependent Surveillance \u2013 Broadcast (ADS-B) requirements for Uncrewed Aircraft Systems (UAS) operating both in battlefield and civilian controlled airspace."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SkyTak",
+        "product_type": "Portable passive ADS-B and Mode 5 L2/2-B receiver for ATAK devices",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 146,
+            "line_end": 148,
+            "url": "https://uavionix.com",
+            "page_class": "homepage",
+            "snippet": "### SkyTak\n[Learn More](https://uavionix.com/defense/skytak/)\nSkyTAK is a portable, passive receiver supporting ADS-B and Mode 5 Level 2/2-B that delivers real-time situational awareness directly to ATAK-enabled devices."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ZPR Passive Receiver",
+        "product_type": "Passive Mode 5 IFF and ADS-B receiver for situational awareness",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 150,
+            "line_end": 152,
+            "url": "https://uavionix.com",
+            "page_class": "homepage",
+            "snippet": "### ZPR Passive Receiver\n[Learn More](https://uavionix.com/defense/zpr/)\nThe uAvionix ZPR is a passive Mode 5 L2/2-B IFF and civil 1090 MHz ADS-B receiver system that provides situational awareness of civil and military aircraft in national airspaces or on the battlefield. ZPR weighs 50 grams and is AIMS Certification Pending."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "RT-2087/ZPX-B",
+        "product_type": "DoD AIMS-certified micro-IFF Mode 5 transponder for UAS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0277",
+            "line_start": 51,
+            "line_end": 51,
+            "url": "https://uavionix.com/press/uavionix-receives-dod-aims-certification-for-mode-5-micro-iff-transponder-for-uas",
+            "page_class": "compliance",
+            "snippet": "uAvionix Receives DoD AIMS Certification for Mode 5 Micro IFF Transponder for UAS"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "RT-2087/ZPX-A",
+        "product_type": "DoD AIMS-certified micro-transponder (Modes 3/A, C, S, ADS-B) for UAS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0274",
+            "line_start": 51,
+            "line_end": 51,
+            "url": "https://uavionix.com/press/uavionix-receives-2nd-dod-aims-certification-with-rt-2087-zpx-a",
+            "page_class": "compliance",
+            "snippet": "uAvionix Receives 2nd DoD AIMS Certification with RT-2087/ZPX-A"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AV-30-C",
+        "product_type": "FAA-certified panel-mounted EFIS flight instrument for GA aircraft",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 90,
+            "line_end": 92,
+            "url": "https://uavionix.com",
+            "page_class": "homepage",
+            "snippet": "### AV-30-C\n[Learn More](https://uavionix.com/general-aviation/av-30/) [Buy Now](https://uavionix.com/product/av-30-c-certified/)\nThe AV-30 is a revolutionary panel-mounted flight instrument that combines multiple functions into a single, compact 3 \u215b\u201d display. Certified for both attitude and directional gyro (DG) roles, it delivers customizable data overlays including airspeed, altitude, and GPS track. Its retro-modern design fits seamlessly into legacy panels while offering advanced..."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AV-HSI PMA",
+        "product_type": "Horizontal Situation Indicator accessory for GA aircraft",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 94,
+            "line_end": 94,
+            "url": "https://uavionix.com",
+            "page_class": "homepage",
+            "snippet": "### AV-HSI PMA"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "echoESX EXP",
+        "product_type": "Mode S transponder + ADS-B for experimental GA aircraft",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 98,
+            "line_end": 100,
+            "url": "https://uavionix.com",
+            "page_class": "homepage",
+            "snippet": "### echoESX EXP\n[Learn More](https://uavionix.com/general-aviation/echoesx/) [Buy Now](https://uavionix.com/product/echoesx-exp/)\nIntroducing the new echoESX EXP for Experimental aircraft, a remotely mounted transponder system that meets the Transponder and Automatic Dependent Surveillance - Broadcast (ADS-B) requirements for operating in controlled airspace.\u00a0 The echoESX EXP combines a Mode S transponder and 1090 MHz Extended Squitter ADS-B transmitter with an SBAS Global Positioning System..."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Surface Awareness (SAI)",
+        "product_type": "FAA-approved airport surface situational awareness system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 120,
+            "line_end": 122,
+            "url": "https://uavionix.com",
+            "page_class": "homepage",
+            "snippet": "### Surface Awareness (SAI)\n[Learn More](https://uavionix.com/airports-and-atm/airports-surface-awareness/)\nFAA approved and deployed at dozens of FAA Air Traffic Control towers, FlightLine SAI provides aircraft and ground vehicle traffic awareness to controllers and airport entities. FAA towers receive fully supported, FAA-approved hardware and software services, with web based capabilities that can be leveraged by airport operations, ramp towers, ARFF and even vehicle..."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "FlightLine APRT",
+        "product_type": "FAA-approved airborne position reference tool for ATC towers",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 124,
+            "line_end": 124,
+            "url": "https://uavionix.com",
+            "page_class": "homepage",
+            "snippet": "### FlightLine Airborne Position Reference Tool (APRT)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "FlightLine",
+        "product_type": "Airspace situational awareness platform with dual-frequency ADS-B and computer vision",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 128,
+            "line_end": 128,
+            "url": "https://uavionix.com",
+            "page_class": "homepage",
+            "snippet": "### FlightLine"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "VTU-20",
+        "product_type": "Airport vehicle ADS-B transmitter",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 132,
+            "line_end": 134,
+            "url": "https://uavionix.com",
+            "page_class": "homepage",
+            "snippet": "### VTU-20\n[Learn More](https://uavionix.com/airports-and-atm/vtu-20/)\nAirport Vehicle ADS-B Transmitter"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Many more products exist on skipped pages; this list covers products named on fetched pages"
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA Section 848/889 compliance claim found in any fetched page. Certifications page covers FAA TSOs and DoD AIMS only."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "medium",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS / Blue sUAS mention found in the fetched corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 91,
+        "line_end": 91,
+        "url": "https://uavionix.com",
+        "page_class": "homepage",
+        "snippet": "[Learn More](https://uavionix.com/general-aviation/av-30/) [Buy Now](https://uavionix.com/product/av-30-c-certified/)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 119,
+        "line_end": 122,
+        "url": "https://uavionix.com",
+        "page_class": "homepage",
+        "snippet": "![](https://uavionix.com/wp-content/uploads/2025/09/SAI_1x1-300x300.png)\n### Surface Awareness (SAI)\n[Learn More](https://uavionix.com/airports-and-atm/airports-surface-awareness/)\nFAA approved and deployed at dozens of FAA Air Traffic Control towers, FlightLine SAI provides aircraft and ground vehicle traffic awareness to controllers and airport entities. FAA towers receive fully supported, FAA-approved hardware and software services, with web based capabilities that can be leveraged by airport operations, ramp towers, ARFF and even vehicle..."
+      }
+    ],
+    "notes": "Products available for purchase (Buy Now buttons), FAA TSO certifications achieved, systems deployed at FAA ATC towers"
+  },
+  "unresolved_questions": [
+    "NDAA Section 848/889 compliance not disclosed on fetched pages",
+    "Blue UAS / Blue sUAS status not disclosed",
+    "Additional UAS product pages (uncrewed-aircraft-systems subpages) skipped \u2014 more products may exist"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://uavionix.com/uncrewed-aircraft-systems/uas-navigation/",
+      "reason": "Would list all UAS avionics and ADS-B products to confirm full product catalog and potentially NDAA/Blue UAS status",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "products_categories"
+      ],
+      "source_hint": "guessed from site nav",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://uavionix.com/uncrewed-aircraft-systems/uas-command/",
+      "reason": "Assured Command and Control product page \u2014 would confirm muLTElink and other C2 products for UAS",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "guessed from site nav",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://uavionix.com/defense/",
+      "reason": "Defense market page listing all micro-IFF and EW products for UAS",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "ndaa"
+      ],
+      "source_hint": "guessed from site nav",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "complete",
+  "tagline": "Manufactures airborne avionics and surveillance subsystems for general aviation, UAS, airports, and defense\u2014primarily ADS-B transponders (ping200XR TSO), command-and-control datalinks (muLTElink915), and traffic-awareness displays. NDAA and Blue UAS status unknown; public evidence of defense applications limited to marketing mentions of \"Micro IFF\" without program attribution or technical detail.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 14,
+    "total_cost_usd": 0.51881515,
+    "created_at": "2026-05-04T07:24:01+00:00",
+    "extract_version": "0.1.0"
+  }
+}

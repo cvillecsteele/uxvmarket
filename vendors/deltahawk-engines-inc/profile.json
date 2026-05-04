@@ -1,0 +1,264 @@
+{
+  "target_id": "deltahawk-engines-inc",
+  "run_id": "canonical",
+  "display_name": "DeltaHawk Engines, Inc",
+  "homepage_url": "https://www.deltahawk.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/deltahawk-engines-inc/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 85,
+            "line_end": 85,
+            "url": "https://www.deltahawk.com",
+            "page_class": "homepage",
+            "snippet": "To the first clean sheet piston engine design FAA certified in over 60 years"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0052",
+            "line_start": 70,
+            "line_end": 70,
+            "url": "https://www.deltahawk.com/news",
+            "page_class": "news",
+            "snippet": "DeltaHawk Engines announces the formation of DeltaHawk Defense, a dedicated division focused on propulsion solutions for drone, uncrewed, and unmanned aerial systems."
+          }
+        ],
+        "notes": "Jet-fueled compression-ignition piston aircraft engines (DHK family). Explicitly targeted at drone/uncrewed systems via DeltaHawk Defense division."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Racine",
+      "state_or_province": "Wisconsin",
+      "country": "United States",
+      "address": "2300 South Street"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0031",
+        "line_start": 62,
+        "line_end": 64,
+        "url": "https://www.deltahawk.com/contact",
+        "page_class": "contact",
+        "snippet": "2300 South Street\nRacine, WI 53404\nUSA"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0052",
+        "line_start": 70,
+        "line_end": 70,
+        "url": "https://www.deltahawk.com/news",
+        "page_class": "news",
+        "snippet": "DeltaHawk Engines announces the formation of DeltaHawk Defense, a dedicated division focused on propulsion solutions for drone, uncrewed, and unmanned aerial systems."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0011",
+        "line_start": 67,
+        "line_end": 67,
+        "url": "https://www.deltahawk.com/2024/03/12/uncrewed-systems-technology",
+        "page_class": "capability",
+        "snippet": "[Read the article](https://www.ust-media.com/ust-magazine/UST054/64/) or learn more about the [military applications](https://www.deltahawk.com/military-applications/) of the DeltaHawk engine."
+      }
+    ],
+    "notes": "DeltaHawk makes jet-fueled piston aircraft engines that go into aircraft including drones/UAS. April 2026 they formed DeltaHawk Defense focused on propulsion for drone/UAS. Primary deliverable is the engine (propulsion component); customers are OEMs and integrators."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "DHK4A180",
+        "product_type": "180 HP jet-fueled compression-ignition piston aircraft engine",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0052",
+            "line_start": 121,
+            "line_end": 121,
+            "url": "https://www.deltahawk.com/news",
+            "page_class": "news",
+            "snippet": "DeltaHawk Engines, Inc. and Piper Aircraft, Inc. are excited to announce the new Piper Seminole DX a diesel-powered PA-44 Seminole featuring DeltaHawk\u2019s FAA-certified, DHK4A180 180-horsepower, heavy fuel, compression ignition engine."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DHK4A200",
+        "product_type": "200 HP jet-fueled piston aircraft engine",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0010",
+            "line_start": 73,
+            "line_end": 73,
+            "url": "https://www.deltahawk.com/2024/02/01/deltahawk-introduces-higher-power-engine-options",
+            "page_class": "news",
+            "snippet": "Testing is underway at DeltaHawk Engines as two new higher horsepower versions of its FAA Certified DHK4A180 engine are introduced. The 200 horsepower DHK4A200 is slated for certification and delivery in 2026 followed by the 235 horsepower DHK4A235."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DHK4A235",
+        "product_type": "235 HP jet-fueled piston aircraft engine",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0010",
+            "line_start": 73,
+            "line_end": 73,
+            "url": "https://www.deltahawk.com/2024/02/01/deltahawk-introduces-higher-power-engine-options",
+            "page_class": "news",
+            "snippet": "Testing is underway at DeltaHawk Engines as two new higher horsepower versions of its FAA Certified DHK4A180 engine are introduced. The 200 horsepower DHK4A200 is slated for certification and delivery in 2026 followed by the 235 horsepower DHK4A235."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DHK6A3550",
+        "product_type": "350 HP jet-fueled piston aircraft engine",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0052",
+            "line_start": 131,
+            "line_end": 131,
+            "url": "https://www.deltahawk.com/news",
+            "page_class": "news",
+            "snippet": "Bushliner Aircraft has entered a collaborative relationship with DeltaHawk Engines to begin integration of a DeltaHawk\u2019s 350 hp DHK6A3550 Jet-Fuel Powered Diesel engine into the Bushliner 1850."
+          }
+        ],
+        "notes": "Mentioned in Bushliner 1850 partnership news; full specs not available from corpus."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Additional UAS-specific engine variants may be announced under the DeltaHawk Defense division; see fetch_requests for skipped pages."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 27,
+        "line_end": 27,
+        "url": "https://www.deltahawk.com",
+        "page_class": "homepage",
+        "snippet": "![Made in the USA](/wp-content/themes/DeltaHawk/img/Website-MadeInUSA.png)"
+      }
+    ],
+    "notes": "Site displays a 'Made in USA' badge but makes no explicit NDAA Section 848/889 compliance claim."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "low_rate_production",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0030",
+        "line_start": 91,
+        "line_end": 91,
+        "url": "https://www.deltahawk.com/company",
+        "page_class": "company",
+        "snippet": "Final FAA certification achieved! Design, performance and technical upgrades are underway along with more endurance testing. Production ramp-up is in full-swing, and we expect first engine deliveries to commence in 2026."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0052",
+        "line_start": 121,
+        "line_end": 121,
+        "url": "https://www.deltahawk.com/news",
+        "page_class": "news",
+        "snippet": "DeltaHawk Engines, Inc. and Piper Aircraft, Inc. are excited to announce the new Piper Seminole DX a diesel-powered PA-44 Seminole featuring DeltaHawk\u2019s FAA-certified, DHK4A180 180-horsepower, heavy fuel, compression ignition engine."
+      }
+    ],
+    "notes": "FAA Type Certification achieved 2023; production ramp-up in full swing; first deliveries expected 2026. Piper Seminole DX announced July 2025. Low-rate production transitioning toward full production."
+  },
+  "unresolved_questions": [
+    "Specific UAS engine variants from DeltaHawk Defense division not detailed in corpus",
+    "NDAA compliance status not explicitly stated",
+    "Full MQ-52 Guardian propulsion specifications not available from corpus"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.deltahawk.com/2026/04/13/deltahawk-launches-defense-division-for-uas-engines",
+      "reason": "Would detail the DeltaHawk Defense division's UAS-specific product lineup, potential NDAA compliance claims, and supply chain role confirmation for drone/UAS market.",
+      "expected_evidence": [
+        "products",
+        "drone_supply_chain_role",
+        "ndaa",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=news",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.deltahawk.com/military-applications",
+      "reason": "Military/government applications page would confirm UAS engine use cases, list specific drone applications, and may contain NDAA or compliance disclosures.",
+      "expected_evidence": [
+        "products",
+        "drone_supply_chain_role",
+        "ndaa",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.deltahawk.com/engines/apeiron-mq-52-guardian",
+      "reason": "Engine application page for the Apeiron MQ-52 Guardian military drone; would provide specific UAS propulsion product details and confirm drone supply chain role.",
+      "expected_evidence": [
+        "products",
+        "drone_supply_chain_role",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "tagline": "Manufactures jet-fueled piston aircraft engines (180\u2013235 hp) marketed for UAS, general aviation, and hybrid applications; DHK4A180 is FAA-certified, DHK4A200 certification slated 2026. Low-rate production status. NDAA and Blue UAS certification status not disclosed. Limited public evidence of government contracts or mil-spec qualification pathway.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 19,
+    "total_cost_usd": 0.5539035499999999,
+    "created_at": "2026-05-04T01:42:14+00:00",
+    "extract_version": "0.1.0"
+  }
+}

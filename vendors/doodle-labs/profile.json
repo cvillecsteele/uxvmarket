@@ -1,0 +1,326 @@
+{
+  "target_id": "doodle-labs",
+  "run_id": "canonical",
+  "display_name": "Doodle Labs",
+  "homepage_url": "https://doodlelabs.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/doodle-labs/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "communications",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0169",
+            "line_start": 24,
+            "line_end": 27,
+            "url": "https://doodlelabs.com/products",
+            "page_class": "product",
+            "snippet": "Mesh Rider Radios\n=================\nOur Mesh Rider radios are available in multiple use-case optimized form factors and operate in a wide range of multiband frequency combinations. We specialize in providing resilient connectivity for advanced robotics systems for defense and commercial applications.\nNothing connects drones and robotics better than Mesh Rider."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 68,
+            "line_end": 70,
+            "url": "https://doodlelabs.com",
+            "page_class": "homepage",
+            "snippet": "### Mesh Rider OS\nOur patented mobile mesh technology is built for the most demanding, high-mobility environments. With a cutting-edge waveform, Mesh Rider is the intelligence behind our wireless platform delivering ultra-reliable, low-latency, high-speed datalinks across long distances. **Mesh Rider is designed for** resilient communications in complex, mission-critical operations.\n[Learn More](https://doodlelabs.com/technology/#mesh-rider-os)"
+          }
+        ],
+        "notes": "Mesh Rider Radio datalinks for drones and robotics \u2014 primary product line"
+      },
+      {
+        "category": "electronic_warfare",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 49,
+            "line_end": 51,
+            "url": "https://doodlelabs.com",
+            "page_class": "homepage",
+            "snippet": "Electronic Warfare:\nAdvanced anti jamming and resiliency features for reliable performance in contested environments.\n[Learn More](https://doodlelabs.com/capabilities/electronic-warfare/)"
+          }
+        ],
+        "notes": "Anti-jamming and EW resilience features built into radios"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Marina Del Rey",
+      "state_or_province": "California",
+      "country": "United States",
+      "address": "13274 Fiji Way, Suite 250, Marina Del Rey, CA 90292"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0069",
+        "line_start": 129,
+        "line_end": 129,
+        "url": "https://doodlelabs.com/capabilities/electronic-warfare",
+        "page_class": "capability",
+        "snippet": "*   Doodle Labs, 13274 Fiji Way, Suite 250, Marina Del Rey, CA 90292"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0177",
+        "line_start": 57,
+        "line_end": 59,
+        "url": "https://doodlelabs.com/terms-of-use",
+        "page_class": "company",
+        "snippet": "Doodle Labs LLC\n13274 Fiji Way\nMarina Del Rey, CA 90292"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0169",
+        "line_start": 26,
+        "line_end": 27,
+        "url": "https://doodlelabs.com/products",
+        "page_class": "product",
+        "snippet": "Our Mesh Rider radios are available in multiple use-case optimized form factors and operate in a wide range of multiband frequency combinations. We specialize in providing resilient connectivity for advanced robotics systems for defense and commercial applications.\nNothing connects drones and robotics better than Mesh Rider."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0089",
+        "line_start": 31,
+        "line_end": 31,
+        "url": "https://doodlelabs.com/case-studies/freefly-systems",
+        "page_class": "capability",
+        "snippet": "The **Astro** by **Freefly Systems** is a highly adaptable, NDAA-compliant drone built for demanding commercial, industrial, and government missions. With **Doodle Labs\u2019 RM-1700-22M3 Mini Mesh Rider Radio** integrated into its communications stack, Astro delivers long-range, high-bandwidth, and resilient connectivity across complex environments. The result: a future-ready UAS platform trusted for BVLOS operations, real-time inspection, and data-heavy aerial workflows."
+      }
+    ],
+    "notes": "Makes mesh radio components integrated into drones by OEMs (Freefly, Teal, etc.)"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Nano\u00b2",
+        "product_type": "mesh radio (drone datalink)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 74,
+            "line_end": 95,
+            "url": "https://doodlelabs.com",
+            "page_class": "homepage",
+            "snippet": "Nano\u00b2\n![Mini](https://doodlelabs.com/wp-content/uploads/2025/10/mini-white.png)\nMini\n![OEM](https://doodlelabs.com/wp-content/uploads/2025/10/oem-white.png)\nOEM\n![Boost](https://doodlelabs.com/wp-content/uploads/2026/03/Boost-white.png)\nBoost\n![Wearable](https://doodlelabs.com/wp-content/uploads/2025/10/wearable-white.png)\nWearable\n[Nano\u00b2](#) [Mini](#) [OEM](#) [Boost](#) [Wearable](#)\n![Nano\u00b2](https://doodlelabs.com/wp-content/uploads/2026/03/nano2-new.png)\nCompact Without Compromise.\nThroughput\n80 Mbps (20 MHz channel)\nRange\nOver 50+ km streaming video\nWeight\n48.3 grams\nFrequencies\n255MHz \u2013 2510 MHz;\nincluding L and S Band\n[Learn More](https://doodlelabs.com/product/nano2/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Mini",
+        "product_type": "mesh radio (drone datalink)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 96,
+            "line_end": 107,
+            "url": "https://doodlelabs.com",
+            "page_class": "homepage",
+            "snippet": "![Mini](https://doodlelabs.com/wp-content/uploads/2025/10/mini-new.png)\nDesigned for drones & deployed at scale globally.\nThroughput\n80 Mbps (20 MHz channel)\nRange\nOver 50+ km streaming video\nWeight\n34 grams\nFrequencies\n255MHz \u2013 2510 MHz;\nincluding L and S Band\n[Learn More](https://doodlelabs.com/product/mini/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "OEM",
+        "product_type": "mesh radio board (OEM integration)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 108,
+            "line_end": 119,
+            "url": "https://doodlelabs.com",
+            "page_class": "homepage",
+            "snippet": "![OEM](https://doodlelabs.com/wp-content/uploads/2025/10/OEM_thumbnail_90x90px.png)\nVersatile, designed for ease of integration\nThroughput\n80 Mbps (20 MHz channel)\nRange\nOver 50+ km streaming video\nWeight\n102 grams\nFrequencies\n255 MHz \u2013 5925 MHz;\nincluding L, S, and C Band\n[Learn More](https://doodlelabs.com/product/oem/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Boost",
+        "product_type": "RF power amplifier for mesh radio",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 120,
+            "line_end": 131,
+            "url": "https://doodlelabs.com",
+            "page_class": "homepage",
+            "snippet": "![Boost](https://doodlelabs.com/wp-content/uploads/2026/03/Boost-new-2-1.png)\nImproves link margin to sustain high-throughput communications.\nThroughput\nMaintains high data rates by improving signal strength and link quality\nRange\nExtends operational range through 36 dBm (4W) transmit amplification\nWeight\n147 grams\nFrequencies\n4400 \u2013 6400 MHz;\nC Band\n[Learn More](https://doodlelabs.com/product/boost/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Wearable",
+        "product_type": "ruggedized mesh radio (wearable/ground unit)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 132,
+            "line_end": 143,
+            "url": "https://doodlelabs.com",
+            "page_class": "homepage",
+            "snippet": "![Wearable](https://doodlelabs.com/wp-content/uploads/2025/10/Wearable_thumbnail_90x90px.png)\nRuggedized and easy to deploy\nThroughput\n80 Mbps (20 MHz channel)\nRange\nOver 50+ km streaming video ground to air, up to 2 km ground to ground\nWeight\n311 grams\nFrequencies\n255 MHz \u2013 5925 MHz;\nincluding L, S, and C Band\n[Learn More](https://doodlelabs.com/product/wearable/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Helix Mesh Rider Radio",
+        "product_type": "mesh radio (Blue UAS-cleared datalink)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0022",
+            "line_start": 76,
+            "line_end": 76,
+            "url": "https://doodlelabs.com/blog/diu-blue-uas-refresh-challenge",
+            "page_class": "compliance",
+            "snippet": "Doodle Labs\u2019 Helix Mesh Rider Radio is on DIU\u2019s\u00a0[Blue UAS Framework cleared components list](https://doodlelabs.com/how-doodle-labs-helix-mesh-rider-radio-achieves-blue-uas-compliance/), fully-certified for DoD and international use without restriction."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": "yes",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0038",
+        "line_start": 54,
+        "line_end": 54,
+        "url": "https://doodlelabs.com/blog/japan-robotics-band-certification",
+        "page_class": "compliance",
+        "snippet": "All Doodle Labs products are fully NDAA compliant and Helix Mesh Rider\u00ae Radio is specifically designed to\u00a0[comply with Blue UAS Architecture](https://doodlelabs.com/government-defense/)."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0073",
+        "line_start": 37,
+        "line_end": 37,
+        "url": "https://doodlelabs.com/capabilities/supply-chain",
+        "page_class": "capability",
+        "snippet": "NDAA-compliant radios, on the Blue UAS Framework, and certified for Commercial and Defense use globally."
+      }
+    ],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": "yes",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0022",
+        "line_start": 76,
+        "line_end": 76,
+        "url": "https://doodlelabs.com/blog/diu-blue-uas-refresh-challenge",
+        "page_class": "compliance",
+        "snippet": "Doodle Labs\u2019 Helix Mesh Rider Radio is on DIU\u2019s\u00a0[Blue UAS Framework cleared components list](https://doodlelabs.com/how-doodle-labs-helix-mesh-rider-radio-achieves-blue-uas-compliance/), fully-certified for DoD and international use without restriction."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0038",
+        "line_start": 54,
+        "line_end": 54,
+        "url": "https://doodlelabs.com/blog/japan-robotics-band-certification",
+        "page_class": "compliance",
+        "snippet": "All Doodle Labs products are fully NDAA compliant and Helix Mesh Rider\u00ae Radio is specifically designed to\u00a0[comply with Blue UAS Architecture](https://doodlelabs.com/government-defense/)."
+      }
+    ],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0073",
+        "line_start": 33,
+        "line_end": 33,
+        "url": "https://doodlelabs.com/capabilities/supply-chain",
+        "page_class": "capability",
+        "snippet": "Built for large-volume production with consistent RF performance. Capable of ramping from low-rate production to thousands of units per month without disruption."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 57,
+        "line_end": 59,
+        "url": "https://doodlelabs.com",
+        "page_class": "homepage",
+        "snippet": "Supply Chain:\nHigh volume production built to scale and keep missions on schedule.\n[Learn More](https://doodlelabs.com/capabilities/supply-chain/)"
+      }
+    ],
+    "notes": "High-volume serial production capability; supplies global OEMs and defense primes at scale"
+  },
+  "unresolved_questions": [
+    "About-us page was skipped (class budget); could confirm exact founding date and more HQ details",
+    "Helix Mesh Rider Radio relationship to current Nano\u00b2/Mini product line not fully mapped"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://doodlelabs.com/about-us",
+      "reason": "Would confirm headquarters details, founding story, and any additional company information not on the contact/compliance pages",
+      "expected_evidence": [
+        "headquarters",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Produces ultra-lightweight mesh radios (Nano\u00b2, Mini, OEM, Wearable) delivering 80 Mbps over 50+ km for small unmanned systems, with electronic-warfare resilience and configurable waveforms. NDAA-compliant and Blue UAS Framework certified; selected for U.S. Army Short Range Reconnaissance program. Production-ready across multiple form factors; public evidence supports claims but scalability to contested multi-platform environments requires field validation.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 22,
+    "total_cost_usd": 0.3811595,
+    "created_at": "2026-05-04T01:41:44+00:00",
+    "extract_version": "0.1.0"
+  }
+}

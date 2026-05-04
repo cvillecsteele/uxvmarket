@@ -1,0 +1,190 @@
+{
+  "target_id": "pipistrel",
+  "run_id": "canonical",
+  "display_name": "Pipistrel",
+  "homepage_url": "https://www.pipistrel-aircraft.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/pipistrel/website",
+  "products": [
+    {
+      "name": "Nuuva V300",
+      "category": "airframes",
+      "descriptor": "Long-range autonomous hybrid-electric cargo eVTOL UAV with 300 kg payload",
+      "granularity": "sku",
+      "readiness": "prototype",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0026",
+          "line_start": 82,
+          "line_end": 84,
+          "url": "https://www.pipistrel-aircraft.com/air-cargo",
+          "page_class": "capability",
+          "snippet": "#### NUUVA V300: The future of air cargo transport\nThe ultimate autonomous cargo eVTOL with dramatic range, economics, payload, and reliability.\n[Download Brochure](/wp-content/uploads/2025/06/2025_Nuuva_Brochure_Digital.pdf)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0026",
+          "line_start": 108,
+          "line_end": 112,
+          "url": "https://www.pipistrel-aircraft.com/air-cargo",
+          "page_class": "capability",
+          "snippet": "MODEL\nNUUVA V300\nHYBRID POWERTRAIN\n8 x Pipistrel E-811 EASA certified electric engines\n1 x High-efficiency FADEC IC engine"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Nuuva V20",
+      "category": "airframes",
+      "descriptor": "Small autonomous hybrid-electric cargo eVTOL UAV with up to 20 kg payload",
+      "granularity": "sku",
+      "readiness": "prototype",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0026",
+          "line_start": 89,
+          "line_end": 90,
+          "url": "https://www.pipistrel-aircraft.com/air-cargo",
+          "page_class": "capability",
+          "snippet": "##### What is the Nuuva V20?\nThe smaller sibling of the Nuuva family, the V20, shares the same architecture and advantages of the larger V300 but is designed as a lightweight cargo courier carrying payloads of up to 20 kg."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Surveyor",
+      "category": "airframes",
+      "descriptor": "Multi-mission surveillance aircraft available manned, UAV, or optionally piloted",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0137",
+          "line_start": 53,
+          "line_end": 53,
+          "url": "https://www.pipistrel-aircraft.com/special-missions",
+          "page_class": "product",
+          "snippet": "Pipistrel\u2019s special mission platform (Surveyor) is trusted across the world by defence, surveillance, and civil authorities in multiple configurations. Fully customizable the Surveyor can be deployed as manned, UAV or Optionally piloted and offers an effective low cost solution to the most demanding of requirements."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0137",
+          "line_start": 64,
+          "line_end": 64,
+          "url": "https://www.pipistrel-aircraft.com/special-missions",
+          "page_class": "product",
+          "snippet": "Pipistrel offer fully customised surveyor platforms to meet customers specific needs covering 6 models either as standalone surveillance platforms or turnkey UAV system. Typical mission options include:"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "E-811",
+      "category": "propulsion_mechanical",
+      "descriptor": "EASA type-certified 57.6 kW liquid-cooled electric aircraft motor",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0026",
+          "line_start": 112,
+          "line_end": 112,
+          "url": "https://www.pipistrel-aircraft.com/air-cargo",
+          "page_class": "capability",
+          "snippet": "1 x High-efficiency FADEC IC engine"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0101",
+          "line_start": 104,
+          "line_end": 107,
+          "url": "https://www.pipistrel-aircraft.com/products/velis-electro",
+          "page_class": "product",
+          "snippet": "Engine\nPipistrel E-811 EASA Type-Certified\nMax power\n57.6 kW MTOP"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Velis Electro",
+      "category": "airframes",
+      "descriptor": "EASA type-certified two-seat electric training aircraft",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0101",
+          "line_start": 67,
+          "line_end": 67,
+          "url": "https://www.pipistrel-aircraft.com/products/velis-electro",
+          "page_class": "product",
+          "snippet": "Today the Velis Electro is the first ever type-certified, electric-powered aircraft, fully approved for pilot training in Day VFR operations in more than 30 countries. Pilots will enjoy ease of operation with an intuitive powertrain and impressive ergonomics."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0101",
+          "line_start": 92,
+          "line_end": 93,
+          "url": "https://www.pipistrel-aircraft.com/products/velis-electro",
+          "page_class": "product",
+          "snippet": "#### VELIS ELECTRO: Arriving from the future, EASA type-certified now\nThe greenest way of learning to fly!"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Virus SW 121",
+      "category": "airframes",
+      "descriptor": "Two-seat high-wing light sport aircraft and cross-country cruiser family",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0102",
+          "line_start": 72,
+          "line_end": 72,
+          "url": "https://www.pipistrel-aircraft.com/products/virus-sw",
+          "page_class": "product",
+          "snippet": "Uncompromised Performance"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0102",
+          "line_start": 101,
+          "line_end": 102,
+          "url": "https://www.pipistrel-aircraft.com/products/virus-sw",
+          "page_class": "product",
+          "snippet": "#### VIRUS:\nThe fastest high-wing cruiser"
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 0,
+    "total_cost_usd": null,
+    "created_at": "2026-05-04T05:22:15+00:00",
+    "extract_version": "0.1.0"
+  }
+}

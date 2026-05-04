@@ -1,0 +1,84 @@
+{
+  "target_id": "taisync-technology-inc",
+  "run_id": "canonical",
+  "display_name": "Taisync Technology Inc.",
+  "homepage_url": "https://www.taisync.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/taisync-technology-inc/website",
+  "products": [
+    {
+      "name": "Modules",
+      "category": "communications",
+      "descriptor": "Pre-built long-range wireless video/data transmitter and receiver modules for drone integration",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 25,
+          "line_end": 28,
+          "url": "https://www.taisync.com",
+          "page_class": "homepage",
+          "snippet": "### **Modules**\n##### Pre-built modules for putting long-range video and data transmitter and receiver in your drone or robotics platform.\nMore Information\n[](/modules)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Custom Solutions",
+      "category": "communications",
+      "descriptor": "Custom PCBA and software development for long-range video/data transmission to customer specifications",
+      "granularity": "category",
+      "readiness": "engineering_services",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0009",
+          "line_start": 29,
+          "line_end": 32,
+          "url": "https://www.taisync.com/custom-solutions",
+          "page_class": "capability",
+          "snippet": "Our teams work together in a series of 1-3 meetings to lock in all customer requirements, scope customization work, agree on production costs and generate a memorandum of understanding.\n4\n#### Stage 4 - Customization\nUpon contract signing, our team customizes PCBA and software to requirements for delivery within established timelines."
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "The /modules page (https://www.taisync.com/modules) was skipped_class_budget; it is the main product listing page and likely contains specific module SKU names, part numbers, and specs. Without it, only a coarse category-level entry is possible.",
+    "No NDAA Section 848/889 or Blue UAS compliance information found in any fetched page.",
+    "External source notes reference '5G Radio | Antennas | Design Software | Ground Control Systems | Radio Links & Telemetry | Video Encoding' as Taisync product categories, but no matching named SKUs were visible in the fetched corpus."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.taisync.com/modules",
+      "reason": "Primary product catalog page listing individual module SKUs by name and specs; skipped in current mirror run, blocking enumeration of specific product names and readiness levels",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "skipped in crawl_index (skipped_class_budget); linked from homepage resource-0001 and contact page resource-0006",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.taisync.com/application",
+      "reason": "Application page likely describes which specific modules are used in which UAS/robotics platforms, providing product context and readiness signals",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "skipped in crawl_index (skipped_class_budget); linked from homepage resource-0001",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 9,
+    "total_cost_usd": 0.19591975,
+    "created_at": "2026-05-03T00:57:59+00:00",
+    "extract_version": "0.1.0"
+  }
+}

@@ -1,0 +1,360 @@
+{
+  "target_id": "kde-direct",
+  "run_id": "canonical",
+  "display_name": "KDE Direct",
+  "homepage_url": "https://www.kdedirect.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/kde-direct/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 8,
+            "line_end": 10,
+            "url": "https://www.kdedirect.com",
+            "page_class": "homepage",
+            "snippet": "*   [Motors](https://www.kdedirect.com/pages/motors)\n    *   [Direct-Drive](https://www.kdedirect.com/collections/uas-multi-rotor-brushless-motors)\n    *   [Shaft-Drive](https://www.kdedirect.com/collections/xf-single-rotor-brushless-motors)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 14,
+            "line_end": 15,
+            "url": "https://www.kdedirect.com",
+            "page_class": "homepage",
+            "snippet": "*   [Propellers](https://www.kdedirect.com/pages/propellers)\n    *   [Carbon Propellers](https://www.kdedirect.com/collections/multi-rotor-propeller-blades)"
+          }
+        ],
+        "notes": "Brushless motors (direct-drive and shaft-drive) and carbon fiber propellers are KDE Direct's core products"
+      },
+      {
+        "category": "propulsion_electronics",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 12,
+            "line_end": 13,
+            "url": "https://www.kdedirect.com",
+            "page_class": "homepage",
+            "snippet": "    *   [ESC](https://www.kdedirect.com/collections/uas-multi-rotor-electronics)\n    *   [UBEC](https://www.kdedirect.com/collections/universal-battery-eliminator-circuit-ubec)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0674",
+            "line_start": 49,
+            "line_end": 51,
+            "url": "https://www.kdedirect.com/products/kde-ubecuvc",
+            "page_class": "product",
+            "snippet": "**KDE-UBECUVC**\n---------------\nBattery Eliminator Circuit (UBEC) for Multi- and Single-Rotor (UAS) Series"
+          }
+        ],
+        "notes": "ESC (Electronic Speed Controllers) and UBEC (Universal Battery Eliminator Circuits) are a significant second product line"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Bend",
+      "state_or_province": "Oregon",
+      "country": "United States",
+      "address": "20760 Carmen Loop STE 140, Bend, OR 97702"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0600",
+        "line_start": 52,
+        "line_end": 55,
+        "url": "https://www.kdedirect.com/pages/privacy-policy",
+        "page_class": "company",
+        "snippet": "KDE Direct, LLC\nATTN: Privacy Policy Review\n20760 Carmen Loop STE 140\nBend, OR 97702"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 47,
+        "line_end": 47,
+        "url": "https://www.kdedirect.com",
+        "page_class": "homepage",
+        "snippet": "### \\[+\\] \u00a0\u00a0\u00a0\u00a0\u00a0power your next creation with KDE Direct brushless motors."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0565",
+        "line_start": 55,
+        "line_end": 55,
+        "url": "https://www.kdedirect.com/pages/about",
+        "page_class": "company",
+        "snippet": "KDE Direct is a global brand driven by innovation and quality products. The heavy lift brushless motor series, specialized electronic speed controller (ESC) systems, standardization of ESC CAN bus technology, and carbon fiber propellers have set the standard in the UAV industry. Specializing in robust solutions, reliable propulsion systems, and custom integrated solutions, KDE Direct provides world class customer support."
+      }
+    ],
+    "notes": "Sells brushless motors, ESCs, UBECs, and propellers as components for third-party UAS/drone builds"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "KDE UAS Multi-Rotor Brushless Motor Series",
+        "product_type": "direct-drive brushless motors for multi-rotor UAS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 8,
+            "line_end": 9,
+            "url": "https://www.kdedirect.com",
+            "page_class": "homepage",
+            "snippet": "*   [Motors](https://www.kdedirect.com/pages/motors)\n    *   [Direct-Drive](https://www.kdedirect.com/collections/uas-multi-rotor-brushless-motors)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "KDE XF Single-Rotor Brushless Motor Series",
+        "product_type": "shaft-drive brushless motors for single-rotor UAS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 10,
+            "line_end": 10,
+            "url": "https://www.kdedirect.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Shaft-Drive](https://www.kdedirect.com/collections/xf-single-rotor-brushless-motors)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "KDE UAS Electronic Speed Controller (ESC) Series",
+        "product_type": "multi-rotor ESC (40A, 85A, 95A, 125A variants)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0654",
+            "line_start": 53,
+            "line_end": 55,
+            "url": "https://www.kdedirect.com/products/kde-dma",
+            "page_class": "product",
+            "snippet": "**KDE-DMA**\n-----------\nDevice Manager Adapter for UAS Electronic Speed Controller (ESC) Series"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "KDE-125UVC-USA",
+        "product_type": "125A ESC for multi-rotor UAS, USA-manufactured variant",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0654",
+            "line_start": 374,
+            "line_end": 375,
+            "url": "https://www.kdedirect.com/products/kde-dma",
+            "page_class": "product",
+            "snippet": "![Product rendering](//www.kdedirect.com/cdn/shop/files/KDE-125UVC-USA_Rendering_medium_e505be3a-918a-4054-a7c5-0bf8881df553_medium.jpg?v=1748473340)\nKDE-125UVC-USA Electronic Speed Controller (ESC) for Multi-Rotor (UAS) Series"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "KDE-UBECUVC",
+        "product_type": "Universal Battery Eliminator Circuit (UBEC) for multi- and single-rotor UAS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0674",
+            "line_start": 49,
+            "line_end": 51,
+            "url": "https://www.kdedirect.com/products/kde-ubecuvc",
+            "page_class": "product",
+            "snippet": "**KDE-UBECUVC**\n---------------\nBattery Eliminator Circuit (UBEC) for Multi- and Single-Rotor (UAS) Series"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "KDE Carbon Fiber Propeller Blade Series",
+        "product_type": "carbon fiber propeller blades for multi-rotor UAS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 14,
+            "line_end": 15,
+            "url": "https://www.kdedirect.com",
+            "page_class": "homepage",
+            "snippet": "*   [Propellers](https://www.kdedirect.com/pages/propellers)\n    *   [Carbon Propellers](https://www.kdedirect.com/collections/multi-rotor-propeller-blades)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "KDE-DPA-ML",
+        "product_type": "folding propeller blade adapter, dual-edition, for multi-rotor UAS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0655",
+            "line_start": 52,
+            "line_end": 54,
+            "url": "https://www.kdedirect.com/products/kde-dpa-ml",
+            "page_class": "product",
+            "snippet": "**KDE-DPA-ML**\n--------------\n(legacy version) Propeller Blade Adapter (ML), Dual-Edition for Multi-Rotor (UAS) Series"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "KDE-HPAHL",
+        "product_type": "heavy-lift propeller blade adapter, hex-edition, for multi-rotor UAS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0659",
+            "line_start": 53,
+            "line_end": 55,
+            "url": "https://www.kdedirect.com/products/kde-hpahl",
+            "page_class": "product",
+            "snippet": "**KDE-HPAHL**\n-------------\nHeavy-Lift Propeller Blade Adapter, Hex-Edition for Multi-Rotor (UAS) Series"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "KDE-DMA",
+        "product_type": "device manager adapter for ESC firmware programming",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0654",
+            "line_start": 53,
+            "line_end": 55,
+            "url": "https://www.kdedirect.com/products/kde-dma",
+            "page_class": "product",
+            "snippet": "**KDE-DMA**\n-----------\nDevice Manager Adapter for UAS Electronic Speed Controller (ESC) Series"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Key product families captured; many more individual motor and propeller SKUs exist on skipped pages"
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 56,
+        "line_end": 56,
+        "url": "https://www.kdedirect.com",
+        "page_class": "homepage",
+        "snippet": "Designed in the USA"
+      }
+    ],
+    "notes": "Site claims 'Designed in the USA' and prominently features the KDE-125UVC-USA ESC (likely a domestic-supply variant), but no explicit NDAA Section 848/889 compliance claim found in the corpus. The KDE-125UVC-USA product page was skipped."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 51,
+        "line_end": 52,
+        "url": "https://www.kdedirect.com",
+        "page_class": "homepage",
+        "snippet": "##### Powering Future Focused Applications\nDriven by innovation and high-quality, KDE Direct's mission continues to center around developing leading technology and providing world-class customer support. As the leader in component design and production of brushless motors, ESC\u2019s, and propellers, KDE Direct is setting the standard for UAV propulsion systems."
+      }
+    ],
+    "notes": "Products listed with prices and 'Add to Cart' functionality; described as having 'component design and production' at scale for over a decade"
+  },
+  "unresolved_questions": [
+    "NDAA Section 848/889 compliance status \u2014 KDE-125UVC-USA may be a domestically-manufactured NDAA-compliant product but its product page was not fetched",
+    "Blue UAS listing status not confirmed"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.kdedirect.com/collections/uas-multi-rotor-electronics/products/kde-125uvc-usa",
+      "reason": "Homepage banner prominently features this USA-variant ESC; its product page would confirm whether NDAA compliance is explicitly claimed",
+      "expected_evidence": [
+        "ndaa",
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.kdedirect.com/products/kde-125uvc-usa",
+      "reason": "Alternate URL for the KDE-125UVC-USA product page \u2014 would confirm NDAA compliance claim and full product details",
+      "expected_evidence": [
+        "ndaa",
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.kdedirect.com/collections/uas-multi-rotor-brushless-motors",
+      "reason": "Main motor collection page; would enumerate full UAS brushless motor SKU lineup for complete products list",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Designs and manufactures brushless motors, electronic speed controllers, and carbon-fiber propellers for multi-rotor and single-rotor UAS platforms. Founded 2008, US-based, production-ready components used in commercial and industrial applications. NDAA and Blue UAS certification status unknown; public evidence on defense contracts or program integration absent.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 26,
+    "total_cost_usd": 0.65170635,
+    "created_at": "2026-05-04T03:41:49+00:00",
+    "extract_version": "0.1.0"
+  }
+}

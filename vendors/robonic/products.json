@@ -1,0 +1,177 @@
+{
+  "target_id": "robonic",
+  "run_id": "canonical",
+  "display_name": "Robonic",
+  "homepage_url": "https://www.robonic.fi",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/robonic/website",
+  "products": [
+    {
+      "name": "Robonic OHTO (MC1555LLR)",
+      "category": "mechanical_subsystems",
+      "descriptor": "4th-generation high-pressure pneumatic UAV catapult launcher",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0072",
+          "line_start": 26,
+          "line_end": 26,
+          "url": "https://www.robonic.fi/robonic_4th-generation-technology",
+          "page_class": "capability",
+          "snippet": "### The Robonic OHTO (MC1555LLR)\u00a0high-pressure pneumatic launcher is the 4th generation zero-point pneumatic launcher with a wide envelope in launch mass and exit velocity based on high tech design, aeronautical class mechanical structure, maintainability as well as tactical mobility and transportability."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0072",
+          "line_start": 34,
+          "line_end": 34,
+          "url": "https://www.robonic.fi/robonic_4th-generation-technology",
+          "page_class": "capability",
+          "snippet": "The OHTO is another of the Robonic universal launcher family which is designed to launch various tactical unmanned aerial vehicles as well as target drones in varying climatic and operational conditions."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Robonic KONTIO",
+      "category": "mechanical_subsystems",
+      "descriptor": "3rd-generation pneumatic catapult launcher for tactical UAVs and target drones",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0003",
+          "line_start": 24,
+          "line_end": 24,
+          "url": "https://www.robonic.fi/3rd-generation-technology",
+          "page_class": "capability",
+          "snippet": "Robonic KONTIO 3rd Generation Technology"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0003",
+          "line_start": 32,
+          "line_end": 32,
+          "url": "https://www.robonic.fi/3rd-generation-technology",
+          "page_class": "capability",
+          "snippet": "For more than three decades our experts have designed, developed and manufactured pneumatic catapults that have continually proven capable of expanding the operational envelope of all forms of unmanned aircraft and target drones. Our first generation hardware was developed to support specific platform requirements for a superior launcher that would operate in the harsh climatic extremes above the Arctic Circle."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "MC2055",
+      "category": "mechanical_subsystems",
+      "descriptor": "Pneumatic catapult launcher for tactical UAVs (3rd-generation family)",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0003",
+          "line_start": 28,
+          "line_end": 28,
+          "url": "https://www.robonic.fi/3rd-generation-technology",
+          "page_class": "capability",
+          "snippet": "[![](https://www.robonic.fi/wp-content/uploads/2015/08/Robonic_H450-on-MC2055_1000x650.jpg)](https://www.robonic.fi/wp-content/uploads/2015/08/Robonic_H450-on-MC2055_1000x650.jpg)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "UAV Launcher Interface Adapter",
+      "category": "mechanical_subsystems",
+      "descriptor": "Custom-designed airframe-to-launcher interface adapter hardware",
+      "granularity": "category",
+      "readiness": "engineering_services",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0072",
+          "line_start": 37,
+          "line_end": 37,
+          "url": "https://www.robonic.fi/robonic_4th-generation-technology",
+          "page_class": "capability",
+          "snippet": "Robonic also supports air vehicle and launcher interface (adapter) design and manufacture as well as integration of the air vehicle on the launcher and into the UAV system."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "RATUFC (Robonic Air Traffic UAS Test Flight Center)",
+      "category": "test_and_measurement",
+      "descriptor": "Dedicated UAS test flight center facility offered as a service",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 41,
+          "line_end": 42,
+          "url": "https://www.robonic.fi",
+          "page_class": "homepage",
+          "snippet": "[![RATUFC-logo\\_button](https://www.robonic.fi/wp-content/uploads/2012/10/RATUFC-logo_button.png)](https://www.robonic.fi/wp-content/uploads/2012/10/RATUFC-logo_button.png)\n[RATUFC Facilities](https://www.robonic.fi/?p=1007)"
+        }
+      ],
+      "notes": "Main RATUFC introduction page (ratufc-introduction) was skipped in mirror; details on airfield (EFKM/Kemij\u00e4rvi), customers, and facts pages also skipped. Evidence limited to homepage navigation reference and logo attachment pages."
+    }
+  ],
+  "unresolved_questions": [
+    "MC2055 is evidenced only by image filenames on resource-0002 (line 28); no descriptive body text was found naming it as a distinct product \u2014 it appears to be a 3rd-generation launcher alongside KONTIO but corpus has no dedicated page for it.",
+    "RATUFC details (airfield EFKM, customers, facts, air-space management) are almost entirely on skipped pages; only the homepage nav reference and logo attachment pages were fetched, so its full service scope is unconfirmed.",
+    "UAV Launcher Interface Adapter has no distinct model number or product page \u2014 identified from a single sentence on the OHTO page describing a custom design-and-manufacture service."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.robonic.fi/ratufc-introduction",
+      "reason": "Primary RATUFC facility introduction page \u2014 needed to confirm product/service scope, airfield location, capabilities offered, and any compliance claims for RATUFC.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.robonic.fi/ratufc-facts",
+      "reason": "RATUFC facts page would provide structured details on facility capabilities, airspace, and operational readiness.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.robonic.fi/ratufc-airfield-efkm",
+      "reason": "Airfield page shows launchers in use (MC2555LLR referenced in image filenames) and could confirm MC2055/MC2555LLR as distinct SKUs and RATUFC operational status.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 24,
+    "total_cost_usd": 0.4528174500000002,
+    "created_at": "2026-05-04T05:54:10+00:00",
+    "extract_version": "0.1.0"
+  }
+}

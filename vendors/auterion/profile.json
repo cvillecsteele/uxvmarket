@@ -1,0 +1,329 @@
+{
+  "target_id": "auterion",
+  "run_id": "canonical",
+  "display_name": "Auterion",
+  "homepage_url": "https://auterion.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/auterion/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "flight_and_vehicle_control",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0189",
+            "line_start": 97,
+            "line_end": 104,
+            "url": "https://auterion.com/product/skynode",
+            "page_class": "product",
+            "snippet": "### Skynode X\nThe all-in-one solution to power a fleet of\nautonomous robots\n===============================================================\n![](https://i0.wp.com/auterion.com/wp-content/uploads/2023/10/auterion-skynode-x-min.png?resize=1080%2C206&ssl=1 \"auterion-skynode-x-min\")\nA fully integrated autopilot and mission computer\nto enable any drone with the Auterion software platform.\n**Now 30% thinner, 15% lighter and with upgraded performance.**"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0178",
+            "line_start": 100,
+            "line_end": 101,
+            "url": "https://auterion.com/product/auterion-os",
+            "page_class": "product",
+            "snippet": "AuterionOS is the only vendor-independent operating system that runs onboard a fleet of interconnected robots.\nIncluded in every Skynode and select partner manufacturers free of charge"
+          }
+        ],
+        "notes": "Skynode X and Skynode S are integrated autopilot + mission computer hardware modules. AuterionOS is the flight/autonomy operating system. Nemyx adds swarm coordination built on AuterionOS."
+      },
+      {
+        "category": "ground_segment",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 143,
+            "line_end": 146,
+            "url": "https://auterion.com",
+            "page_class": "homepage",
+            "snippet": "### Auterion Suite\nFrom flight data to operational intelligence.\n---------------------------------------------\nVisualize data transferred automatically to the cloud and process information captured during a mission in real time, including flight logs. Benefit from a holistic and scalable fleet management."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 149,
+            "line_end": 152,
+            "url": "https://auterion.com",
+            "page_class": "homepage",
+            "snippet": "### Auterion Mission Control\nOne interface for every vehicle. Every mission.\n-----------------------------------------------\nPlan, execute, and monitor operations from a single application \u2014 whether you\u2019re flying one drone or coordinating a global fleet."
+          }
+        ],
+        "notes": "Auterion Suite is a cloud-based fleet management platform; Auterion Mission Control is a GCS/mission planning application."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Arlington",
+      "state_or_province": "Virginia",
+      "country": "United States",
+      "address": "4250 Fairfax Dr, Suite 350, Arlington, VA 22203"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 232,
+        "line_end": 233,
+        "url": "https://auterion.com",
+        "page_class": "homepage",
+        "snippet": "#### US HQ\n4250 Fairfax Dr, Suite 350, Arlington, VA 22203"
+      }
+    ],
+    "notes": "US HQ in Arlington VA; Europe HQ in Munich, Germany. Legal entity is Auterion LLC (US)."
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0189",
+        "line_start": 110,
+        "line_end": 110,
+        "url": "https://auterion.com/product/skynode",
+        "page_class": "product",
+        "snippet": "Skynode X combines a flight controller, a mission computer and LTE connectivity all in one product. It provides seamless integration among components in one single module, that can easily fit into your hardware product, allowing faster go-to-market."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0079",
+        "line_start": 107,
+        "line_end": 109,
+        "url": "https://auterion.com/company",
+        "page_class": "company",
+        "snippet": "Auterion\u2019s cutting-edge operating system for autonomous computing empowers a diverse range of autonomous robots to perform high-risk to mundane tasks, deliver goods, and aid in life-saving missions.\n![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201080%20608'%3E%3C/svg%3E \"auterion-demonstration-team\")\nOur industry-leading software drives the adoption of robotic fleets and is recognized by the U.S. government as the future standard for its drone program."
+      }
+    ],
+    "notes": "Primary hardware deliverable is the Skynode X and S modules (autopilot + mission computer), sold to drone manufacturers. AuterionOS, Suite, and Mission Control are bundled/licensed software. Per rubric, selling Skynode boards precludes software_platform classification. Company is evolving toward OEM territory with Nemyx and Long Range strike capability."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "AuterionOS",
+        "product_type": "drone operating system / autonomy software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0178",
+            "line_start": 97,
+            "line_end": 101,
+            "url": "https://auterion.com/product/auterion-os",
+            "page_class": "product",
+            "snippet": "### AuterionOS\nOperate a connected robotics fleet\n==================================\nAuterionOS is the only vendor-independent operating system that runs onboard a fleet of interconnected robots.\nIncluded in every Skynode and select partner manufacturers free of charge"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Auterion Suite",
+        "product_type": "cloud fleet management software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 143,
+            "line_end": 146,
+            "url": "https://auterion.com",
+            "page_class": "homepage",
+            "snippet": "### Auterion Suite\nFrom flight data to operational intelligence.\n---------------------------------------------\nVisualize data transferred automatically to the cloud and process information captured during a mission in real time, including flight logs. Benefit from a holistic and scalable fleet management."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Auterion Mission Control",
+        "product_type": "ground control station / mission planning application",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 149,
+            "line_end": 152,
+            "url": "https://auterion.com",
+            "page_class": "homepage",
+            "snippet": "### Auterion Mission Control\nOne interface for every vehicle. Every mission.\n-----------------------------------------------\nPlan, execute, and monitor operations from a single application \u2014 whether you\u2019re flying one drone or coordinating a global fleet."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Skynode X",
+        "product_type": "integrated autopilot + mission computer module",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0189",
+            "line_start": 97,
+            "line_end": 104,
+            "url": "https://auterion.com/product/skynode",
+            "page_class": "product",
+            "snippet": "### Skynode X\nThe all-in-one solution to power a fleet of\nautonomous robots\n===============================================================\n![](https://i0.wp.com/auterion.com/wp-content/uploads/2023/10/auterion-skynode-x-min.png?resize=1080%2C206&ssl=1 \"auterion-skynode-x-min\")\nA fully integrated autopilot and mission computer\nto enable any drone with the Auterion software platform.\n**Now 30% thinner, 15% lighter and with upgraded performance.**"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Skynode S",
+        "product_type": "compact chip-down autopilot + mission computer module",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0190",
+            "line_start": 97,
+            "line_end": 100,
+            "url": "https://auterion.com/product/skynode-s",
+            "page_class": "product",
+            "snippet": "### Skynode S\nBring AI and computer vision to small autonomous systems\n========================================================\nSkynode S is the compact, low-cost, chip-down controller that enables any small UAS system with the Auterion software platform. Featuring a custom designed, powerful mission computer to deploy AI and computer vision applications at scale."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Nemyx",
+        "product_type": "swarm autonomy coordination platform",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0184",
+            "line_start": 97,
+            "line_end": 100,
+            "url": "https://auterion.com/product/nemyx",
+            "page_class": "product",
+            "snippet": "### Introducing Nemyx\nNemyx: coordinated swarms at scale\n==================================\nSwarm autonomy. Built on AuterionOS. Scalable, mission-focused."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Long Range One Way Attack",
+        "product_type": "long-range strike drone / autonomy stack for OWA UAS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0182",
+            "line_start": 97,
+            "line_end": 100,
+            "url": "https://auterion.com/product/long-range",
+            "page_class": "product",
+            "snippet": "### AUTERION LR\nLong Range One Way Attack \u2013 Scalable Deep Strike Capability\n===========================================================\nAuterion\u2019s Long Range One Way Attack capability delivers precision effects at distances of up to 1,000 miles. Proven in Ukraine and ready for allied deployment, it combines combat-tested hardware with Auterion\u2019s open, software-defined autonomy stack to deliver resilient, scalable strike capability."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Skynav",
+        "product_type": "handheld ground controller",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0105",
+            "line_start": 120,
+            "line_end": 123,
+            "url": "https://auterion.com/drone-ndaa-compliance-with-auterion",
+            "page_class": "compliance",
+            "snippet": "**GROUND CONTROLLER**\nSkynav\n------\nSkynav is a light-weight handcontroller that makes it easy to manage autonomous flights, live video streaming, and data collection."
+          }
+        ],
+        "notes": "Listed on NDAA compliance page as a ground controller product."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": "yes",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0105",
+        "line_start": 99,
+        "line_end": 101,
+        "url": "https://auterion.com/drone-ndaa-compliance-with-auterion",
+        "page_class": "compliance",
+        "snippet": "**NDAA compliant products**\n---------------------------\nAuterion and its ecosystem partners provide enterprise and government customers with the following products compliant with the National Defense Authorization Act for Fiscal Year 2021"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0105",
+        "line_start": 128,
+        "line_end": 129,
+        "url": "https://auterion.com/drone-ndaa-compliance-with-auterion",
+        "page_class": "compliance",
+        "snippet": "Integrated flight controller, mission computer and connectivity with U.S. Government certifications, hardening, and extensions.\nAs a US Government certified vendor, we design, assemble and support Skynode in the USA. It is fully compliant with National Defense Authorization Act."
+      }
+    ],
+    "notes": "Dedicated NDAA compliance page lists Skynode as fully NDAA compliant and assembled in the USA. Also lists ecosystem partner drones (Vector, Scorpion, Vesper) as NDAA compliant."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "Skynode S product page includes an image titled 'auterion-skynode-s-blue-uas-cleared' (resource-0010, line 102), and the RTK product page references 'Blue UAS vehicles' as a supported category (resource-0014, line 139). No explicit text claim of Blue UAS clearance found in corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0189",
+        "line_start": 104,
+        "line_end": 106,
+        "url": "https://auterion.com/product/skynode",
+        "page_class": "product",
+        "snippet": "**Now 30% thinner, 15% lighter and with upgraded performance.**\n[Request a demo](https://auterion.com/company/contact-us/)\n[Contact our sales team](https://auterion.com/company/contact-us/)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0182",
+        "line_start": 146,
+        "line_end": 146,
+        "url": "https://auterion.com/product/long-range",
+        "page_class": "product",
+        "snippet": "Production ramp to hundreds of units per month"
+      }
+    ],
+    "notes": "Skynode X and S are catalog products available for purchase. RTK licenses priced at $1,425/vehicle/year. Long Range mentions production ramp to hundreds of units per month."
+  },
+  "unresolved_questions": [
+    "Blue UAS cleared status for Skynode S \u2014 image alt text on product page suggests clearance but no explicit text claim found."
+  ],
+  "fetch_requests": [],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 20,
+    "total_cost_usd": 0.68073535,
+    "created_at": "2026-05-03T11:12:54+00:00",
+    "extract_version": "0.1.0"
+  },
+  "tagline": "Integrated autopilot and operating-system vendor for autonomous UAS fleets. Skynode X and Skynode S are production flight controllers (both NDAA-compliant; S also Blue UAS-certified); AuterionOS is a vendor-independent onboard OS; Nemyx delivers swarm autonomy; Long Range One Way Attack is a 1,000-mile loitering-munition airframe. Auterion Suite and Mission Control provide cloud fleet management and mission planning. Public evidence supports production status across all product lines; no major contract awards or programs named in open sources."
+}

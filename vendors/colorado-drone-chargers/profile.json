@@ -1,0 +1,267 @@
+{
+  "target_id": "colorado-drone-chargers",
+  "run_id": "canonical",
+  "display_name": "Colorado Drone Chargers",
+  "homepage_url": "https://www.coloradodronechargers.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/colorado-drone-chargers/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "power_systems",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0013",
+            "line_start": 33,
+            "line_end": 33,
+            "url": "https://www.coloradodronechargers.com/anzu-press-release",
+            "page_class": "news",
+            "snippet": "**COLORADO SPRINGS, Colo.** (August 13, 2024)\u00a0\u2013\u00a0[Colorado Drone Chargers](/) (CDC), a leading designer and manufacturer of commercial drone charging systems, recently announced the release of a new drone battery charging system to support the [Anzu Raptor](https://www.anzurobotics.com/anzu-raptor/) drone from Anzu Robotics."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 49,
+            "line_end": 49,
+            "url": "https://www.coloradodronechargers.com",
+            "page_class": "homepage",
+            "snippet": "Stop waiting on slow factory chargers and start staying in the air with the fastest, **most efficient** portable charging systems on the market. Designed for rugged environments and commercial professionals, our systems charge multiple batteries and your accessories\u00a0simultaneously so you can get more flight time with less batteries."
+          }
+        ],
+        "notes": "Designs and manufactures Portable Rapid Charging Systems (PRCS) for drone batteries; chargers power 4 batteries + USB accessories simultaneously."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Colorado Springs",
+      "state_or_province": "Colorado",
+      "country": "United States",
+      "address": null
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0013",
+        "line_start": 46,
+        "line_end": 46,
+        "url": "https://www.coloradodronechargers.com/anzu-press-release",
+        "page_class": "news",
+        "snippet": "Based in Colorado Springs, Colorado Drone Chargers is a USA veteran-owned business. The"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0018",
+        "line_start": 42,
+        "line_end": 42,
+        "url": "https://www.coloradodronechargers.com/cuav-press-release",
+        "page_class": "news",
+        "snippet": "Based in Colorado Springs, and founded in 2017, Colorado Drone Chargers designs and"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0013",
+        "line_start": 33,
+        "line_end": 33,
+        "url": "https://www.coloradodronechargers.com/anzu-press-release",
+        "page_class": "news",
+        "snippet": "**COLORADO SPRINGS, Colo.** (August 13, 2024)\u00a0\u2013\u00a0[Colorado Drone Chargers](/) (CDC), a leading designer and manufacturer of commercial drone charging systems, recently announced the release of a new drone battery charging system to support the [Anzu Raptor](https://www.anzurobotics.com/anzu-raptor/) drone from Anzu Robotics."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0013",
+        "line_start": 47,
+        "line_end": 47,
+        "url": "https://www.coloradodronechargers.com/anzu-press-release",
+        "page_class": "news",
+        "snippet": "company designs and manufactures products supporting leading drone brands including: [Anzu\u00a0Robotics](https://www.anzurobotics.com/), [Autel Robotics](https://shop.autelrobotics.com/), [DJI](https://www.dji.com/), [Freefly Systems](https://freeflysystems.com/), [Parrot](https://www.parrot.com/us/drones), [Skydio](https://www.skydio.com/) and [Teal Drones](https://tealdrones.com/). Colorado Drone\u00a0Chargers offers a lifetime warranty on all products and free shipping in the contiguous U.S."
+      }
+    ],
+    "notes": "Designs and manufactures external drone battery charging accessories (PRCS) supporting leading drone brands; does not manufacture drones."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Portable Rapid Charging System (PRCS) series",
+        "product_type": "multi-battery drone charger family (14 models listed)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0026",
+            "line_start": 33,
+            "line_end": 33,
+            "url": "https://www.coloradodronechargers.com/owner-s-manuals",
+            "page_class": "product",
+            "snippet": "**Autel EVO II PRCS Autel EVO Max 4T/N DJI Avata PRCS DJI Inspire 1/Matrice 600 PRCS DJI Inspire 2/Matrice 200 Series PRCS DJI Matrice 4T PRCS DJI Mavic 2 PRCS DJI Mavic 3 PRCS DJI Phantom 4 PRCS Freefly SL8 PRCS Parrot ANAFI USA PRCS Parrot ANAFI UKR PRCS Skydio X2 PRCS TEAL Golden Eagle PRCS**"
+          }
+        ],
+        "notes": "Covers: Autel EVO II, Autel EVO Max 4T/N, DJI Avata, DJI Inspire 1/Matrice 600, DJI Inspire 2/Matrice 200, DJI Matrice 4T, DJI Mavic 2, DJI Mavic 3, DJI Phantom 4, Freefly SL8, Parrot ANAFI USA, Parrot ANAFI UKR, Skydio X2, TEAL Golden Eagle"
+      },
+      {
+        "name": "Anzu Raptor PRCS",
+        "product_type": "portable rapid charging system for Anzu Raptor drone",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0013",
+            "line_start": 34,
+            "line_end": 34,
+            "url": "https://www.coloradodronechargers.com/anzu-press-release",
+            "page_class": "news",
+            "snippet": "The [Colorado Drone Chargers Anzu Raptor Portable Rapid Charging System (PRCS)](/shop/colorado-drone-chargers-anzu-raptor-prcs-2337) is a multi-battery drone charging system compatible with Anzu Raptor batteries."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DJI Avata 2 PRCS",
+        "product_type": "portable rapid charging system for DJI Avata 2 drone",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 36,
+            "line_end": 37,
+            "url": "https://www.coloradodronechargers.com",
+            "page_class": "homepage",
+            "snippet": "**The Avata 2 Portable Rapid Charging System is public safety's top choice.**\n[**Get Your Avata 2 Charger**](/shop/colorado-drone-chargers-dji-avata-2-prcs-2343)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DJI Matrice 4T PRCS",
+        "product_type": "portable rapid charging system for DJI Matrice 4T drone",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 30,
+            "line_end": 33,
+            "url": "https://www.coloradodronechargers.com",
+            "page_class": "homepage",
+            "snippet": "DJI Matrice 4T\n--------------\n**Complete your Matrice 4T system with our NEWEST charger.**\n[**Shop Now**](/shop/matrice-4t-colorado-drone-chargers-dji-matrice-4t-prcs-2356)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Parrot ANAFI UKR PRCS",
+        "product_type": "portable rapid charging system for Parrot ANAFI UKR drone",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0024",
+            "line_start": 34,
+            "line_end": 34,
+            "url": "https://www.coloradodronechargers.com/news",
+            "page_class": "news",
+            "snippet": "**COLORADO SPRINGS, Colo. (June 16, 2025)**\u00a0\u2013\u00a0Colorado Drone Chargers\u2122 (CDC),\u00a0announced the official launch of its new Parrot ANAFI UKR Portable Rapid Charging System (PRCS)."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "15+ named PRCS models across DJI, Parrot, Skydio, Freefly, TEAL, Autel, Anzu brands; additional SKUs exist on /shop (skipped)."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 43,
+        "line_end": 44,
+        "url": "https://www.coloradodronechargers.com",
+        "page_class": "homepage",
+        "snippet": "#### Explore our Charger line-up\nFind a rapid battery charger for your DJI, Parrot, Skydio, Freefly, TEAL, Anzu or Autel drone."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0013",
+        "line_start": 47,
+        "line_end": 47,
+        "url": "https://www.coloradodronechargers.com/anzu-press-release",
+        "page_class": "news",
+        "snippet": "company designs and manufactures products supporting leading drone brands including: [Anzu\u00a0Robotics](https://www.anzurobotics.com/), [Autel Robotics](https://shop.autelrobotics.com/), [DJI](https://www.dji.com/), [Freefly Systems](https://freeflysystems.com/), [Parrot](https://www.parrot.com/us/drones), [Skydio](https://www.skydio.com/) and [Teal Drones](https://tealdrones.com/). Colorado Drone\u00a0Chargers offers a lifetime warranty on all products and free shipping in the contiguous U.S."
+      }
+    ],
+    "notes": "Active online shop with 15+ catalog SKUs; 550+ customers in all 50 US states; lifetime warranty on all products."
+  },
+  "unresolved_questions": [
+    "Full product SKU list on /shop not fetched; additional models may exist beyond the 15 confirmed.",
+    "No NDAA Section 848/889 or Blue UAS compliance claims found in fetched pages."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.coloradodronechargers.com/shop",
+      "reason": "Would confirm full product catalog with all SKU names, pricing, and any compliance labeling (NDAA-eligible products like Parrot ANAFI USA support might indicate claims).",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.coloradodronechargers.com/our-story",
+      "reason": "Would confirm headquarters address, founding story, and any veteran-owned / compliance certifications relevant to NDAA or Blue UAS.",
+      "expected_evidence": [
+        "headquarters",
+        "ndaa",
+        "blue_uas",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 10,
+    "total_cost_usd": 0.56401055,
+    "created_at": "2026-05-03T00:31:24+00:00",
+    "extract_version": "0.1.0"
+  },
+  "tagline": "Manufactures portable rapid charging systems for commercial drone batteries across DJI, Parrot, Skydio, Freefly, and other platforms; systems charge up to four batteries simultaneously in ~60 minutes. Veteran-owned, production-ready, serves 200+ public safety entities and 50+ government agencies. NDAA and Blue UAS certification status not publicly documented."
+}

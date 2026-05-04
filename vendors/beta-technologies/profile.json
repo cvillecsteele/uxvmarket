@@ -1,0 +1,384 @@
+{
+  "target_id": "beta-technologies",
+  "run_id": "canonical",
+  "display_name": "BETA Technologies",
+  "homepage_url": "https://beta.team/",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/beta-technologies/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "airframes",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 50,
+            "line_end": 58,
+            "url": "https://beta.team/",
+            "page_class": "homepage",
+            "snippet": "ALIA VTOL Vertical takeoff & landing\nall-electric aircraft\n![ALIA\\_G\\_SIDE\\_15\\_RD28may2024-VTOL-small](https://beta.team/hs-fs/hubfs/Illustrations/ALIA_G_SIDE_15_RD28may2024-VTOL-small.png?length=520&name=ALIA_G_SIDE_15_RD28may2024-VTOL-small.png)\nALIA CTOL Conventional takeoff & landing\nall-electric aircraft\n![ALIA\\_G\\_SIDE\\_15\\_RD28may2024-CTOL-small](https://beta.team/hs-fs/hubfs/Illustrations/ALIA_G_SIDE_15_RD28may2024-CTOL-small.png?length=520&name=ALIA_G_SIDE_15_RD28may2024-CTOL-small.png)\nALIA VTOL Vertical takeoff & landing\nall-electric aircraft\nALIA CTOL Conventional takeoff & landing"
+          }
+        ],
+        "notes": "ALIA VTOL and ALIA CTOL are complete electric aircraft platforms designed and manufactured by BETA."
+      },
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 23,
+            "line_end": 23,
+            "url": "https://beta.team/",
+            "page_class": "homepage",
+            "snippet": "    *   [Motor](https://beta.team/motor)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 69,
+            "line_end": 69,
+            "url": "https://beta.team/",
+            "page_class": "homepage",
+            "snippet": "December 2, 2025 Eve Air Mobility Selects BETA Technologies as Pusher Motor Supplier Eve Air Mobility has selected BETA Technologies\u00a0to supply electric pusher motors for its conforming prototypes and production aircraft.](https://beta.team/stories/eve-air-mobility-selects-beta-technologies-as-pusher-motor-supplier?hsLang=en)["
+          }
+        ],
+        "notes": "BETA sells electric pusher motors; Eve Air Mobility selected BETA as motor supplier."
+      },
+      {
+        "category": "power_systems",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 112,
+            "line_end": 114,
+            "url": "https://beta.team/",
+            "page_class": "homepage",
+            "snippet": "Stay Charged\n------------\nBETA Charge Cubes, Mini Cubes and Thermal Management System \u00a0(TMS) Cubes are multimodal to meet the charge needs of electric aircraft and electric vehicles ensuring the safest, fastest and most reliable charge.[JOIN THE CHARGE NETWORK](https://cta-service-cms2.hubspot.com/web-interactives/public/v1/track/click?encryptedPayload=AVxigLKuXatqWnPkZ6pAbHD9Uru3EUyjj5xxjlxFDd%2FuxFHJbla8rOQIauz5wbQndapJOH1umsFoDxeEaMQy%2F3xO8cHSFQd7XfubwcNBbU6Fj82znfyxtRMWSKaOpIgB7eh7hB5UnbFn9L8LaKrpefyEsyrEPd7hBddqCD%2BSp6OIU3OMIS1e%2F8zwoDMaGqsLmcji1edw&portalId=47449398)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 24,
+            "line_end": 24,
+            "url": "https://beta.team/",
+            "page_class": "homepage",
+            "snippet": "    *   [Battery](https://beta.team/battery)"
+          }
+        ],
+        "notes": "BETA produces aircraft batteries and Charge Cubes / Mini Cubes / TMS Cubes for electric aircraft charging."
+      },
+      {
+        "category": "flight_and_vehicle_control",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 25,
+            "line_end": 25,
+            "url": "https://beta.team/",
+            "page_class": "homepage",
+            "snippet": "    *   [Flight Controls](https://beta.team/flight-control-computers)"
+          }
+        ],
+        "notes": "BETA offers Flight Controls (flight control computers) as a named product line; aircraft uses fly-by-wire technology developed in-house."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Product pages (aircraft, motor, battery, charge, defense, flight-controls) were skipped; categories inferred from homepage nav and press releases. Charge Cubes classified as power_systems (aircraft charging infrastructure)."
+  },
+  "headquarters": {
+    "value": {
+      "city": "South Burlington",
+      "state_or_province": "Vermont",
+      "country": "United States",
+      "address": "1150 Airport Drive, South Burlington, Vermont 05403"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0013",
+        "line_start": 92,
+        "line_end": 92,
+        "url": "https://beta.team/privacy-policy",
+        "page_class": "company",
+        "snippet": "BETA Technologies.\u00a0[1150 Airport Drive South Burlington Vermont 05403](https://www.google.com/maps/place/1150+Airport+Dr,+South+Burlington,+VT+05403/@44.4664016,-73.1568485,17z/data=!3m1!4b1!4m5!3m4!1s0x4cca7985970e4387:0x80739e04233d6a93!8m2!3d44.4664016!4d-73.1546598)"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "oem",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0005",
+        "line_start": 44,
+        "line_end": 44,
+        "url": "https://beta.team/",
+        "page_class": "homepage",
+        "snippet": "An aerospace company manufacturing electric flight."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0005",
+        "line_start": 74,
+        "line_end": 76,
+        "url": "https://beta.team/",
+        "page_class": "homepage",
+        "snippet": "BETA's advanced technologies are built in a 188,000-square-foot,\nnet-zero manufacturing and production space. From certified motors\nto UL-listed Charge Cubes, our facility uniquely positions BETA as an industry leader."
+      }
+    ],
+    "notes": "BETA designs and manufactures complete electric VTOL and CTOL aircraft (ALIA family). Also sells subsystems (motors, batteries, flight controls) to other OEMs."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "ALIA VTOL",
+        "product_type": "electric VTOL aircraft",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 50,
+            "line_end": 51,
+            "url": "https://beta.team/",
+            "page_class": "homepage",
+            "snippet": "ALIA VTOL Vertical takeoff & landing\nall-electric aircraft"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ALIA CTOL",
+        "product_type": "electric conventional takeoff and landing aircraft",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 53,
+            "line_end": 54,
+            "url": "https://beta.team/",
+            "page_class": "homepage",
+            "snippet": "ALIA CTOL Conventional takeoff & landing\nall-electric aircraft"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Charge Cube",
+        "product_type": "electric aircraft charging station",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 112,
+            "line_end": 114,
+            "url": "https://beta.team/",
+            "page_class": "homepage",
+            "snippet": "Stay Charged\n------------\nBETA Charge Cubes, Mini Cubes and Thermal Management System \u00a0(TMS) Cubes are multimodal to meet the charge needs of electric aircraft and electric vehicles ensuring the safest, fastest and most reliable charge.[JOIN THE CHARGE NETWORK](https://cta-service-cms2.hubspot.com/web-interactives/public/v1/track/click?encryptedPayload=AVxigLKuXatqWnPkZ6pAbHD9Uru3EUyjj5xxjlxFDd%2FuxFHJbla8rOQIauz5wbQndapJOH1umsFoDxeEaMQy%2F3xO8cHSFQd7XfubwcNBbU6Fj82znfyxtRMWSKaOpIgB7eh7hB5UnbFn9L8LaKrpefyEsyrEPd7hBddqCD%2BSp6OIU3OMIS1e%2F8zwoDMaGqsLmcji1edw&portalId=47449398)"
+          }
+        ],
+        "notes": "Also Mini Cube and TMS Cube variants mentioned."
+      },
+      {
+        "name": "BETA Motor",
+        "product_type": "electric aircraft propulsion motor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 69,
+            "line_end": 69,
+            "url": "https://beta.team/",
+            "page_class": "homepage",
+            "snippet": "December 2, 2025 Eve Air Mobility Selects BETA Technologies as Pusher Motor Supplier Eve Air Mobility has selected BETA Technologies\u00a0to supply electric pusher motors for its conforming prototypes and production aircraft.](https://beta.team/stories/eve-air-mobility-selects-beta-technologies-as-pusher-motor-supplier?hsLang=en)["
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "BETA Battery",
+        "product_type": "aircraft battery",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 24,
+            "line_end": 24,
+            "url": "https://beta.team/",
+            "page_class": "homepage",
+            "snippet": "    *   [Battery](https://beta.team/battery)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "BETA Flight Controls",
+        "product_type": "fly-by-wire flight control computers",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 25,
+            "line_end": 25,
+            "url": "https://beta.team/",
+            "page_class": "homepage",
+            "snippet": "    *   [Flight Controls](https://beta.team/flight-control-computers)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Named product families confirmed from homepage nav and news. Individual product detail pages were skipped; further specifics on SKUs would require fetching those pages."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0005",
+        "line_start": 74,
+        "line_end": 76,
+        "url": "https://beta.team/",
+        "page_class": "homepage",
+        "snippet": "BETA's advanced technologies are built in a 188,000-square-foot,\nnet-zero manufacturing and production space. From certified motors\nto UL-listed Charge Cubes, our facility uniquely positions BETA as an industry leader."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0005",
+        "line_start": 89,
+        "line_end": 89,
+        "url": "https://beta.team/",
+        "page_class": "homepage",
+        "snippet": "With an established customer base for both CTOL and VTOL aircraft, and more than 800 aircraft in the backlog, BETA is funded by military contracts, firm deposits, charging sales, federal financing from the Export-Import Bank of the United States (EXIM) and equity investment."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0009",
+        "line_start": 43,
+        "line_end": 43,
+        "url": "https://beta.team/stories/inside-betas-first-flight-of-its-production-model",
+        "page_class": "news",
+        "snippet": "Inside BETA's first flight of its production model"
+      }
+    ],
+    "notes": "188,000 sq ft manufacturing and production facility; 800+ aircraft in backlog; first flight of production model documented."
+  },
+  "unresolved_questions": [
+    "Exact product specs and SKU details for Motor, Battery, and Flight Controls product lines (pages skipped)",
+    "Defense-specific product offerings at beta.team/defense (skipped)",
+    "NDAA Section 848/889 compliance status not disclosed"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://beta.team/aircraft",
+      "reason": "Would confirm full ALIA aircraft specifications, variants, and production delivery claims to sharpen airframes category and readiness evidence.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://beta.team/motor",
+      "reason": "Would confirm motor product name, specs, and customer applications, strengthening propulsion_mechanical category claim.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://beta.team/battery",
+      "reason": "Would confirm battery product details and power_systems category evidence.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://beta.team/charge",
+      "reason": "Would confirm Charge Cube product line details and power_systems category evidence.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://beta.team/defense",
+      "reason": "Would reveal defense-specific products (e.g. uncrewed cargo variants, military configurations) relevant to drone_supply_chain_role and products_categories.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://beta.team/flight-control-computers",
+      "reason": "Would confirm flight control computer product details for flight_and_vehicle_control category.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 16,
+    "total_cost_usd": 0.47871805,
+    "created_at": "2026-05-03T14:52:39+00:00",
+    "extract_version": "0.1.0"
+  },
+  "tagline": "All-electric VTOL and fixed-wing airframes in production (ALIA series), plus certified electric motors, fly-by-wire flight controls, batteries, and multimodal charging infrastructure. Four reported DoD engagements; 800+ aircraft backlog. NDAA compliance and Blue UAS certification status unknown; public evidence on military integration is thin beyond logistics claims."
+}

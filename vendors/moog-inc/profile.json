@@ -1,0 +1,498 @@
+{
+  "target_id": "moog-inc",
+  "run_id": "canonical",
+  "display_name": "Moog Inc.",
+  "homepage_url": "https://www.moog.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/moog-inc/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "flight_and_vehicle_control",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0017",
+            "line_start": 149,
+            "line_end": 149,
+            "url": "https://www.moog.com/products/actuators-servoactuators.html",
+            "page_class": "product",
+            "snippet": "Actuators or Servo Actuators\u00a0are used as a mechanism to induce or control motion in mechanical systems. They are devices that transform an input signal (usually electrical) into motion."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0019",
+            "line_start": 162,
+            "line_end": 163,
+            "url": "https://www.moog.com/products/controllers-drives-software.html",
+            "page_class": "product",
+            "snippet": "![Product Images for PP (1000\u00d7 700 px) - 52](/products/controllers-drives-software/_jcr_content/par/fullwidthcontainer_v/par/fullwidthcontainer_v/par/columncontrol_copy_c/col1/columncontrol/col1/image_569955679.coreimg.png/1746554101183/mq25-acu-7x4.png)\nMoog's aircraft controllers and software serve as critical electronic systems and components that manage and control an aircraft's flight and various functions.\u00a0These systems include flight control computers, electronics, and software that enable pilot or automated control of the aircraft."
+          }
+        ],
+        "notes": "Servo actuators and flight control electronics are Moog's flagship products, used in UAV flight surfaces and control systems."
+      },
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0010",
+            "line_start": 129,
+            "line_end": 130,
+            "url": "https://www.moog.com/products/propulsion.html",
+            "page_class": "product",
+            "snippet": "Moog Inc. is a leading provider of advanced propulsion solutions for a wide range of aerospace and defense applications. Our expertise spans across\u00a0chemical, electric, and cold gas propulsion systems**,**\u00a0and is suited for applications in spacecraft, eVTOL aircraft, and UAVs.\nOur components and systems offer comprehensive solutions to fit our customer's unique specifications."
+          }
+        ],
+        "notes": "Propulsion page explicitly mentions spacecraft, eVTOL aircraft, and UAVs."
+      },
+      {
+        "category": "power_systems",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0011",
+            "line_start": 146,
+            "line_end": 149,
+            "url": "https://www.moog.com/products/alternators.html",
+            "page_class": "product",
+            "snippet": "### TYPICAL APPLICATIONS\n*   Auxiliary power generation\n*   Wind energy\n*   Onboard power generation for manned and unmanned vehicles"
+          }
+        ],
+        "notes": "AG Matrix alternators listed with typical application of onboard power generation for manned and unmanned vehicles."
+      },
+      {
+        "category": "isr_payloads",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0020",
+            "line_start": 124,
+            "line_end": 124,
+            "url": "https://www.moog.com/products/gimbals.html",
+            "page_class": "product",
+            "snippet": "Moog gimbal systems deliver unmatched precision, stability, and control. Engineered for mission-critical environments, our gimbals support payloads with exacting accuracy whether tracking satellites in orbit or stabilizing sensors in flight. Explore our specialized solutions designed to meet the rigorous standards of both space exploration and defense operations."
+          }
+        ],
+        "notes": "Gimbal systems for sensor stabilization in flight; ISR-relevant."
+      },
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0454",
+            "line_start": 131,
+            "line_end": 131,
+            "url": "https://www.moog.com/products/avionics.html",
+            "page_class": "product",
+            "snippet": "Moog Inc. is a leading provider of advanced avionics systems, specializing in the design and manufacture of aircraft navigation and engine instrumentation, custom military display systems, and space avionics. With over 35 years of experience, Moog contributes significantly to the success of numerous aerospace and space platforms. Their products include:"
+          }
+        ],
+        "notes": "Avionics including navigation instruments, cockpit displays; Genesys Avionics Suite for fixed/rotary-wing."
+      },
+      {
+        "category": "munitions",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0006",
+            "line_start": 178,
+            "line_end": 183,
+            "url": "https://www.moog.com/products.html",
+            "page_class": "product",
+            "snippet": "    *   [Test Systems](https://www.moog.com/products/test-systems.html)\n    *   [Turreted Weapon Systems](https://www.moog.com/products/turreted-weapon-systems.html)\n*   ### V\n    *   [Vibration Control](https://www.moog.com/products/vibration-suppression-control.html)\n*   ### W\n    *   [Weapon Stores Management](https://www.moog.com/products/weapon-stores-management.html)"
+          }
+        ],
+        "notes": "Turreted Weapon Systems and Weapon Stores Management are listed catalog product lines."
+      },
+      {
+        "category": "mechanical_subsystems",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0008",
+            "line_start": 124,
+            "line_end": 126,
+            "url": "https://www.moog.com/products/motors-servomotors/specialty-defense-motors/customizable-ruggedized-military-motors.html",
+            "page_class": "product",
+            "snippet": "=======================================\n![](/products/motors-servomotors/specialty-defense-motors/customizable-ruggedized-military-motors/_jcr_content/par/fullwidthcontainer_v/par/columncontrol/col1/image.coreimg.png/1688061200400/dx-32-700-400.png)\nFor over 50 years, Moog\u2019s experience with\u00a0innovative, high performance control systems\u00a0has been recognized worldwide. Our ability to\u00a0design and manufacture state-of-the-art\u00a0electromechanical control systems, combined\u00a0with the unique capability to develop and\u00a0manufacture brushless D.C. motors, has\u00a0allowed Moog to generate an unmatched\u00a0expertise in the area of precision turret control,\u00a0stabilization and ammunition handling."
+          }
+        ],
+        "notes": "Brushless DC motors for precision turret control, stabilization, and ammunition handling."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Moog is a broad aerospace/defense/industrial company; UXV relevance spans multiple categories, with flight control actuation as the primary drone supply chain contribution."
+  },
+  "headquarters": {
+    "value": {
+      "city": "East Aurora",
+      "state_or_province": "New York",
+      "country": "United States",
+      "address": "400 Jamison Road, East Aurora, NY, USA 14052"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0020",
+        "line_start": 155,
+        "line_end": 155,
+        "url": "https://www.moog.com/about-us/privacy-policy.html",
+        "page_class": "company",
+        "snippet": "Any data provided to Moog on the Sites is controlled by Moog Inc., 400 Jamison Road, East Aurora, NY, USA 14052."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0005",
+        "line_start": 146,
+        "line_end": 146,
+        "url": "https://www.moog.com",
+        "page_class": "homepage",
+        "snippet": "East Aurora, NY \u2013 The Board of Directors of Moog declared a quarterly dividend of $0.30 per share on the Company\u2019s issued and outstanding shares of Class A and Class B common stock."
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0010",
+        "line_start": 129,
+        "line_end": 130,
+        "url": "https://www.moog.com/products/propulsion.html",
+        "page_class": "product",
+        "snippet": "Moog Inc. is a leading provider of advanced propulsion solutions for a wide range of aerospace and defense applications. Our expertise spans across\u00a0chemical, electric, and cold gas propulsion systems**,**\u00a0and is suited for applications in spacecraft, eVTOL aircraft, and UAVs.\nOur components and systems offer comprehensive solutions to fit our customer's unique specifications."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0011",
+        "line_start": 146,
+        "line_end": 149,
+        "url": "https://www.moog.com/products/alternators.html",
+        "page_class": "product",
+        "snippet": "### TYPICAL APPLICATIONS\n*   Auxiliary power generation\n*   Wind energy\n*   Onboard power generation for manned and unmanned vehicles"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0017",
+        "line_start": 149,
+        "line_end": 149,
+        "url": "https://www.moog.com/products/actuators-servoactuators.html",
+        "page_class": "product",
+        "snippet": "Actuators or Servo Actuators\u00a0are used as a mechanism to induce or control motion in mechanical systems. They are devices that transform an input signal (usually electrical) into motion."
+      }
+    ],
+    "notes": "Moog supplies actuators, motors, propulsion components, gimbals, and avionics that are integrated into drone platforms by OEMs. Role classified as component_supplier given actuators and motors are the most drone-relevant outputs, though some offerings (gimbal assemblies, avionics suites) approach subsystem level."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Actuators and Servo Actuators",
+        "product_type": "electrohydraulic and electromechanical actuators for aerospace and defense",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0017",
+            "line_start": 149,
+            "line_end": 149,
+            "url": "https://www.moog.com/products/actuators-servoactuators.html",
+            "page_class": "product",
+            "snippet": "Actuators or Servo Actuators\u00a0are used as a mechanism to induce or control motion in mechanical systems. They are devices that transform an input signal (usually electrical) into motion."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AG Matrix\u2122 Series Alternators",
+        "product_type": "frameless permanent magnet alternators for power generation including unmanned vehicles",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0011",
+            "line_start": 126,
+            "line_end": 126,
+            "url": "https://www.moog.com/products/alternators.html",
+            "page_class": "product",
+            "snippet": "Moog offers a wide selection of alternators for a variety of power generation applications. The\u00a0**AG Matrix\u2122 Series**\u00a0alternators utilize high energy rare earth magnets and dense slot fills to achieve higher AC ouput power."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Propulsion Systems",
+        "product_type": "chemical, electric, and cold gas propulsion for spacecraft, eVTOL, and UAVs",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0010",
+            "line_start": 129,
+            "line_end": 130,
+            "url": "https://www.moog.com/products/propulsion.html",
+            "page_class": "product",
+            "snippet": "Moog Inc. is a leading provider of advanced propulsion solutions for a wide range of aerospace and defense applications. Our expertise spans across\u00a0chemical, electric, and cold gas propulsion systems**,**\u00a0and is suited for applications in spacecraft, eVTOL aircraft, and UAVs.\nOur components and systems offer comprehensive solutions to fit our customer's unique specifications."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Integrated Motion Assemblies (Gimbals)",
+        "product_type": "gimbal systems for sensor stabilization in space and defense",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0020",
+            "line_start": 124,
+            "line_end": 124,
+            "url": "https://www.moog.com/products/gimbals.html",
+            "page_class": "product",
+            "snippet": "Moog gimbal systems deliver unmatched precision, stability, and control. Engineered for mission-critical environments, our gimbals support payloads with exacting accuracy whether tracking satellites in orbit or stabilizing sensors in flight. Explore our specialized solutions designed to meet the rigorous standards of both space exploration and defense operations."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Customizable Ruggedized Military Motors",
+        "product_type": "brushless DC motors for combat vehicle turret and stabilization",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0008",
+            "line_start": 124,
+            "line_end": 126,
+            "url": "https://www.moog.com/products/motors-servomotors/specialty-defense-motors/customizable-ruggedized-military-motors.html",
+            "page_class": "product",
+            "snippet": "=======================================\n![](/products/motors-servomotors/specialty-defense-motors/customizable-ruggedized-military-motors/_jcr_content/par/fullwidthcontainer_v/par/columncontrol/col1/image.coreimg.png/1688061200400/dx-32-700-400.png)\nFor over 50 years, Moog\u2019s experience with\u00a0innovative, high performance control systems\u00a0has been recognized worldwide. Our ability to\u00a0design and manufacture state-of-the-art\u00a0electromechanical control systems, combined\u00a0with the unique capability to develop and\u00a0manufacture brushless D.C. motors, has\u00a0allowed Moog to generate an unmatched\u00a0expertise in the area of precision turret control,\u00a0stabilization and ammunition handling."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Genesys Avionics Suite",
+        "product_type": "integrated cockpit avionics for fixed and rotary-wing aircraft",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0454",
+            "line_start": 150,
+            "line_end": 152,
+            "url": "https://www.moog.com/products/avionics.html",
+            "page_class": "product",
+            "snippet": "### Genesys Avionics Suite\n#### The Genesys Avionics SuiteTM provides improved operational capabilities to fixed and rotary-wing aircraft through a complete, comprehensive, and affordable cockpit system.\n#### [Learn More](/products/avionics/aircraft-avionics/genesys-avionics-suite.html)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Silencer\u00ae Series Servo Drives",
+        "product_type": "compact brushless motor drive electronics",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0019",
+            "line_start": 149,
+            "line_end": 149,
+            "url": "https://www.moog.com/products/controllers-drives-software.html",
+            "page_class": "product",
+            "snippet": "Silencer\u00ae brushless controllers are available in a variety of voltage and current ratings. Their compact packaging minimizes space demands."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "2-Axis Motor Controllers (MC100D / MC500D / MC1000D)",
+        "product_type": "defense motor controllers for military vehicle gun turrets",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0029",
+            "line_start": 124,
+            "line_end": 124,
+            "url": "https://www.moog.com/products/controllers-drives-software/defense-controllers-software/ground-vehicle-controllers/2-axis-motor-controllers-for-24v-military-vehicles.html",
+            "page_class": "news",
+            "snippet": "2-Axis Motor Controllers"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0029",
+            "line_start": 149,
+            "line_end": 151,
+            "url": "https://www.moog.com/products/controllers-drives-software/defense-controllers-software/ground-vehicle-controllers/2-axis-motor-controllers-for-24v-military-vehicles.html",
+            "page_class": "news",
+            "snippet": "### MC100D\nThe smallest controller in the family the MC100D can output 80Apk/axis in a compact, lightweight package. This controller has an\u00a0internal tilt/accelerometer sensor for improved stabilization performance.\n### MC500D"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Turreted Weapon Systems",
+        "product_type": "precision turret control and fire control systems",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0006",
+            "line_start": 178,
+            "line_end": 179,
+            "url": "https://www.moog.com/products.html",
+            "page_class": "product",
+            "snippet": "    *   [Test Systems](https://www.moog.com/products/test-systems.html)\n    *   [Turreted Weapon Systems](https://www.moog.com/products/turreted-weapon-systems.html)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Weapon Stores Management",
+        "product_type": "aircraft weapon stores management systems",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0006",
+            "line_start": 182,
+            "line_end": 183,
+            "url": "https://www.moog.com/products.html",
+            "page_class": "product",
+            "snippet": "*   ### W\n    *   [Weapon Stores Management](https://www.moog.com/products/weapon-stores-management.html)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Moog Protokraft Multiplexers and Media Converters",
+        "product_type": "optical transceivers, Ethernet switches and media converters for aerospace/defense",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0030",
+            "line_start": 145,
+            "line_end": 151,
+            "url": "https://www.moog.com/products/multiplexers-media-converters.html",
+            "page_class": "news",
+            "snippet": "### Moog Protokraft (Aerospace and Defense Applications)\n![Web Product Page Image](/products/multiplexers-media-converters/_jcr_content/par/fullwidthcontainer_v/par/fullwidthcontainer_c/par/columncontrol_copy_c/col2/columncontrol_copy/col1/image_copy.coreimg.jpeg/1707419488699/optical-transceivers-product-image.jpeg)\n*   Optical Transceivers\n*   Ethernet Media Converters\n*   Ethernet Switches\n[Learn More >](/products/multiplexers-media-converters/electronic-signal-conversion.html)\nMoog Protokraft\u00a0designs and manufactures high-speed optoelectronic components and communication subsystems for use in harsh environment networking equipment applications. Serving primarily aerospace and defense applications, Moog Protokraft offers a variety of solutions, including:"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Many additional products exist on skipped pages. Listed items represent named product families confirmed on fetched pages."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA Section 848/889 compliance claim found in the fetched corpus."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS or Blue sUAS claim found in the fetched corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0027",
+        "line_start": 121,
+        "line_end": 123,
+        "url": "https://www.moog.com/about-us/certifications.html",
+        "page_class": "compliance",
+        "snippet": "Moog Certifications\n===================\n### Moog, Inc. attains a variety of business related certifications that are appropriate to support the objectives at each site, which may include AS/EN/JISQ 9100, ISO/EN/JIS 9001, ISO 13485, FAA/EASA/CAAC, and/or special process.The achievement of these certifications reflects our commitment to our policy and objectives."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0029",
+        "line_start": 149,
+        "line_end": 151,
+        "url": "https://www.moog.com/products/controllers-drives-software/defense-controllers-software/ground-vehicle-controllers/2-axis-motor-controllers-for-24v-military-vehicles.html",
+        "page_class": "news",
+        "snippet": "### MC100D\nThe smallest controller in the family the MC100D can output 80Apk/axis in a compact, lightweight package. This controller has an\u00a0internal tilt/accelerometer sensor for improved stabilization performance.\n### MC500D"
+      }
+    ],
+    "notes": "Multiple global production facilities with AS9100 certification. Named catalog SKUs with full specifications (MC100D, MC500D, MC1000D, AG Matrix series). 75-year manufacturing history."
+  },
+  "unresolved_questions": [
+    "drone_supply_chain_role is medium confidence \u2014 Moog is a broad aerospace/defense/industrial company with explicit UAV mentions but UXV is one of many markets.",
+    "Additional drone-specific products may exist on skipped product sub-pages."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.moog.com/products/actuators-servoactuators/multi-purpose.html",
+      "reason": "This actuators sub-page shows a drone image and is listed as multi-purpose; would confirm UAV-specific actuator SKUs and clarify component vs. subsystem role.",
+      "expected_evidence": [
+        "products",
+        "drone_supply_chain_role",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.moog.com/products/propulsion/space-propulsion.html",
+      "reason": "Sub-page for propulsion products; would detail UAV propulsion SKUs and confirm extent of drone-specific propulsion offerings.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.moog.com/markets/air-defense.html",
+      "reason": "Air defense market page would detail UAV/counter-UAS products and sharpen drone supply chain role and product categories.",
+      "expected_evidence": [
+        "drone_supply_chain_role",
+        "products_categories",
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=capability",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 16,
+    "total_cost_usd": 0.6435756,
+    "created_at": "2026-05-03T15:19:34+00:00",
+    "extract_version": "0.1.0"
+  },
+  "tagline": "Manufacturer of flight control actuators, propulsion systems, gimbals, motor controllers, and turret stabilization systems for defense platforms including missiles, combat vehicles, and spacecraft. Production-ready across multiple unmanned-systems categories. NDAA and Blue UAS certification status unknown; public evidence of current unmanned-systems program participation is limited despite broad component relevance to UAS architectures."
+}

@@ -1,0 +1,138 @@
+{
+  "target_id": "cubepilot-pty-ltd",
+  "run_id": "canonical",
+  "display_name": "CubePilot Pty Ltd",
+  "homepage_url": "https://www.cubepilot.org",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/cubepilot-pty-ltd/website",
+  "products": [
+    {
+      "name": "Cube",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "autopilot-on-module flight controller family",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "yes",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 1,
+          "line_end": 6,
+          "url": "https://www.cubepilot.org",
+          "page_class": "homepage",
+          "snippet": "CubePilot | Autopilot-on-Module | Blue Manufactured in USA | Blue Assembled in USA | Pixhawk Original Team\n*   Cube\nEcosystem\n*   Accessories\nNews\nAutopilot-on-Module"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 11,
+          "line_end": 13,
+          "url": "https://www.cubepilot.org",
+          "page_class": "homepage",
+          "snippet": "Blue Manufactured in USA\n![](/assets/icons/nav-logo-bg.png)![](/assets/icons/logo.png)\nMost advanced Cube yet"
+        }
+      ],
+      "notes": "Site title and nav trademark explicitly carry 'Blue Manufactured in USA | Blue Assembled in USA' labels; NDAA not explicitly cited."
+    },
+    {
+      "name": "RTK GNSS module",
+      "category": "sensors_and_navigation",
+      "descriptor": "precision RTK GNSS module at competitive pricing",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 19,
+          "line_end": 19,
+          "url": "https://www.cubepilot.org",
+          "page_class": "homepage",
+          "snippet": "Precision RTK at basic GNSS pricing"
+        }
+      ],
+      "notes": "Homepage slide tagline 'Precision RTK at basic GNSS pricing'; specific product name (e.g. Here3+/Here4) not resolved from corpus."
+    },
+    {
+      "name": "GPS-denied navigation sensor",
+      "category": "sensors_and_navigation",
+      "descriptor": "sensor enabling position hold in GPS-denied environments",
+      "granularity": "category",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 23,
+          "line_end": 23,
+          "url": "https://www.cubepilot.org",
+          "page_class": "homepage",
+          "snippet": "Learn more"
+        }
+      ],
+      "notes": "Homepage slide tagline 'GPS denied position hold'; specific product name (e.g. HereFlow optical flow) not resolved from corpus."
+    }
+  ],
+  "unresolved_questions": [
+    "Homepage slide 2 ('Distance is the soul of beauty') refers to an unidentified product \u2014 likely a long-range comms or camera product; no product name in corpus.",
+    "Specific Cube SKUs (e.g. Cube Orange+, Cube Black, Cube Blue) not resolvable from homepage alone; product sub-pages needed.",
+    "RTK GNSS product name (Here3+, Here4, HerePro, etc.) not confirmed from corpus.",
+    "GPS-denied sensor product name (HereFlow or similar) not confirmed from corpus.",
+    "Site is an Angular 12 SPA with hash routing (#/) \u2014 interior product pages were not crawled; all four product slides link to deeper routes."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.cubepilot.org/#/cube/overview",
+      "reason": "Cube product family detail page \u2014 needed to enumerate specific SKUs (Cube Orange+, Cube Black, etc.) and confirm NDAA/Blue UAS per-SKU claims.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas"
+      ],
+      "source_hint": "hash route inferred from SPA nav structure",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.cubepilot.org/#/here-series",
+      "reason": "Here GNSS product family page \u2014 needed to name and classify RTK GNSS and GPS-denied sensor products (Here3+, Here4, HereFlow).",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas"
+      ],
+      "source_hint": "hash route inferred from SPA nav structure",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://docs.cubepilot.org",
+      "reason": "CubePilot docs portal likely lists all current product families with spec tables useful for classification.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "commonly associated docs subdomain for CubePilot",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.cubepilot.org/#/ecosystem",
+      "reason": "Ecosystem/accessories section may reveal additional named products (CubeNode, CubeID, etc.).",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "hash route inferred from 'Ecosystem' nav item",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 7,
+    "total_cost_usd": 0.21498540000000002,
+    "created_at": "2026-05-03T00:57:07+00:00",
+    "extract_version": "0.1.0"
+  }
+}

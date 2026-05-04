@@ -1,0 +1,571 @@
+{
+  "target_id": "lidarusa",
+  "run_id": "canonical",
+  "display_name": "LiDARUSA",
+  "homepage_url": "https://www.lidarusa.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/lidarusa/website",
+  "products": [
+    {
+      "name": "LIBERTY 64 NDAA Compliant LiDAR System",
+      "category": "isr_payloads",
+      "descriptor": "NDAA-compliant 64-channel UAV LiDAR system, Made in USA, priced from $52,990",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "yes",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 70,
+          "line_end": 72,
+          "url": "https://www.lidarusa.com",
+          "page_class": "homepage",
+          "snippet": "**LIBERTY 64 NDAA LiDAR**\n--------------------------\nThis NDAA LiDAR system is priced staring at $52,990.\u00a0 Robust efficient NDAA LiDAR Made in the USA."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Surveyor 32",
+      "category": "isr_payloads",
+      "descriptor": "UAV/car/backpack LiDAR mapping system for DJI M300",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0046",
+          "line_start": 1,
+          "line_end": 1,
+          "url": "https://www.lidarusa.com/matrice-200-300-series-875590.html",
+          "page_class": "other",
+          "snippet": "Surveyor 32 UAV LiDAR System - DJI M300 - LIDAR USA - UAV DRONE 3D LIDAR MOBILE MODELING MAPPING GIS EXPERTS"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0046",
+          "line_start": 59,
+          "line_end": 60,
+          "url": "https://www.lidarusa.com/matrice-200-300-series-875590.html",
+          "page_class": "other",
+          "snippet": "![Surveyor 32 UAV LiDAR](/uploads/5/4/1/5/54154851/editor/xyht-10-2022-best-value.jpg?1665166926)\n[DOWNLOAD Surveyor 32 DATASHEET](/uploads/5/4/1/5/54154851/surveyor_32_uav_mms_combo_04_2022.pdf)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Surveyor 32 MAX",
+      "category": "isr_payloads",
+      "descriptor": "Extended-range UAV LiDAR with dual 24MP cameras for DJI M300, flies to 120m",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0039",
+          "line_start": 59,
+          "line_end": 61,
+          "url": "https://www.lidarusa.com/matrice-200-300-series-875590-311856.html",
+          "page_class": "news",
+          "snippet": "![Surveyor 32 Max UAV LiDAR](/uploads/5/4/1/5/54154851/editor/screenshot-2022-04-29-091035.png?1665499162)\nThe Surveyor 32 MAX is our newest lightweight and longer range LiDAR system.\u00a0 You can now fly at the Max height of 120 meters\\* and carry dual integrated 24MP cameras on the DJI m300.\n[DOWNLOAD Surveyor 32 DATASHEET](/uploads/5/4/1/5/54154851/surveyor_32_uav_mms_combo_04_2023.pdf)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Revolution 120",
+      "category": "isr_payloads",
+      "descriptor": "Multi-use UAV/car/backpack LiDAR mapping system with NDAA badge",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "yes",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 7,
+          "line_end": 7,
+          "url": "https://www.lidarusa.com",
+          "page_class": "homepage",
+          "snippet": "    *   [Revolution 120](/revolution-120.html)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0082",
+          "line_start": 61,
+          "line_end": 62,
+          "url": "https://www.lidarusa.com/revolution-120.html",
+          "page_class": "other",
+          "snippet": "![Revolution 120 R120 UAV LiDAR](/uploads/5/4/1/5/54154851/published/website-test_7.png?1706735328)\n![Picture](/uploads/5/4/1/5/54154851/published/ndaa.png?1706735399)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "SURVEYOR 16",
+      "category": "isr_payloads",
+      "descriptor": "UAV LiDAR mapping system",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 18,
+          "line_end": 18,
+          "url": "https://www.lidarusa.com",
+          "page_class": "homepage",
+          "snippet": "*   [SURVEYOR 16](/surveyor-16.html)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Surveyor DUAL VUX - Riegl",
+      "category": "isr_payloads",
+      "descriptor": "Dual Riegl VUX high-accuracy UAV LiDAR system",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 13,
+          "line_end": 13,
+          "url": "https://www.lidarusa.com",
+          "page_class": "homepage",
+          "snippet": "        *   [Surveyor DUAL VUX - Riegl](/surveyor-dual-vux---riegl.html)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Surveyor VUX Riegl",
+      "category": "isr_payloads",
+      "descriptor": "High-accuracy Riegl VUX UAV/car/backpack LiDAR survey system",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "yes",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0029",
+          "line_start": 59,
+          "line_end": 62,
+          "url": "https://www.lidarusa.com/surveyor-vux-riegl.html",
+          "page_class": "other",
+          "snippet": "![Picture](/uploads/5/4/1/5/54154851/published/mms.png?1706739200)\n![Picture](/uploads/5/4/1/5/54154851/published/ndaa.png?1706739216)\nSurveyor VUX - Riegl System\n---------------------------"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "SURVEYOR MINIV2 Riegl",
+      "category": "isr_payloads",
+      "descriptor": "Compact Riegl-based mini UAV LiDAR system, second generation",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "yes",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0073",
+          "line_start": 59,
+          "line_end": 62,
+          "url": "https://www.lidarusa.com/surveyor-miniv2-riegl.html",
+          "page_class": "other",
+          "snippet": "![Picture](/uploads/5/4/1/5/54154851/published/surveyorminiv2-10-2022.png?1665166724)\n![Picture](/uploads/5/4/1/5/54154851/mms_orig.png)\n![Picture](/uploads/5/4/1/5/54154851/published/ndaa.png?1706735513)\nSurveyor mini V2 - Riegl System"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "SURVEYOR MINIV3 Riegl",
+      "category": "isr_payloads",
+      "descriptor": "Compact Riegl-based mini UAV LiDAR system, third generation",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "yes",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0080",
+          "line_start": 59,
+          "line_end": 63,
+          "url": "https://www.lidarusa.com/surveyor-miniv3-riegl.html",
+          "page_class": "other",
+          "snippet": "SURVEYOR MINIV3 - Riegl System\n![Picture](/uploads/5/4/1/5/54154851/editor/full-page-miniv-2019.png?1552678558)\n![Picture](/uploads/5/4/1/5/54154851/published/mms.png?1706738744)\nSurveyor miniV3\n![Picture](/uploads/5/4/1/5/54154851/published/ndaa.png?1706738751)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Surveyor CL360",
+      "category": "isr_payloads",
+      "descriptor": "Optech CL-360 high-accuracy UAV/car/backpack LiDAR survey system",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "yes",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0041",
+          "line_start": 68,
+          "line_end": 71,
+          "url": "https://www.lidarusa.com/surveyor-cl360.html",
+          "page_class": "other",
+          "snippet": "![Picture](/uploads/5/4/1/5/54154851/editor/mms.png?1706740366)\n![Picture](/uploads/5/4/1/5/54154851/published/websitecl-360.png?1706740453)\n![Picture](/uploads/5/4/1/5/54154851/editor/ndaa.png?1706740378)\n![Picture](/uploads/5/4/1/5/54154851/editor/datasheet-cl360.png?1582329753)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0041",
+          "line_start": 93,
+          "line_end": 93,
+          "url": "https://www.lidarusa.com/surveyor-cl360.html",
+          "page_class": "other",
+          "snippet": "The Surveyor CL360 is a high accuracy LiDAR System capable of being mounted to a UAV, Car, or Backpack.\u00a0 Paired with our high accuracy IMU this system delivers Survey Grade Accuracy.\u00a0 After performing several months of testing in very difficult locations we have verified this system is one of the most accuracy LiDAR systems you can purchase for the money."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Surveyor miniVUX-1DL - Riegl",
+      "category": "isr_payloads",
+      "descriptor": "Riegl miniVUX-1DL UAV LiDAR survey system with datasheet available",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0076",
+          "line_start": 59,
+          "line_end": 59,
+          "url": "https://www.lidarusa.com/surveyor-minivux-1dl---riegl.html",
+          "page_class": "news",
+          "snippet": "Surveyor mini VUX DL - Riegl System"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0076",
+          "line_start": 65,
+          "line_end": 67,
+          "url": "https://www.lidarusa.com/surveyor-minivux-1dl---riegl.html",
+          "page_class": "news",
+          "snippet": "Click the Link Below to Download the Datasheet / Brochure\n---------------------------------------------------------\n[DataSheet](/uploads/5/4/1/5/54154851/snoopy_miniv_7-18-19_1.pdf)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "ScanLook Snoopy A-Series",
+      "category": "isr_payloads",
+      "descriptor": "Sub-3 kg multi-platform LiDAR system with tactical grade INS and onboard computer",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0082",
+          "line_start": 81,
+          "line_end": 83,
+          "url": "https://www.lidarusa.com/uav--mms-systems.html",
+          "page_class": "capability",
+          "snippet": "ScanLook Snoopy A-Series\n-------------------------\nContending as a featherweight (less than 3kg) , the **Snoopy A-Series**\u00a0covers large areas quickly with a tactical grade INS; 8, 16, or 32 laser LiDAR unit; and built-in on-board computer. It harnesses a force to be reckoned with on any mobile platform."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "ScanLook Snoopy V-Series",
+      "category": "isr_payloads",
+      "descriptor": "Sub-3 kg multi-platform LiDAR system with tactical grade INS and onboard computer",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0082",
+          "line_start": 87,
+          "line_end": 89,
+          "url": "https://www.lidarusa.com/uav--mms-systems.html",
+          "page_class": "capability",
+          "snippet": "ScanLook Snoopy V-Series\n-------------------------\nContending as a featherweight (less than 3kg) , the **Snoopy V-Series**\u00a0covers large areas quickly with a tactical grade INS; 8, 16, or 32 laser LiDAR unit; and built-in on-board computer. It harnesses a force to be reckoned with on any mobile platform."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "ScanLook Revolution",
+      "category": "isr_payloads",
+      "descriptor": "~1 kg lightweight LiDAR system with integrated INS and WiFi interface for UAV/mobile mapping",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0082",
+          "line_start": 107,
+          "line_end": 107,
+          "url": "https://www.lidarusa.com/uav--mms-systems.html",
+          "page_class": "capability",
+          "snippet": "ScanLook Revolution"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0082",
+          "line_start": 110,
+          "line_end": 110,
+          "url": "https://www.lidarusa.com/uav--mms-systems.html",
+          "page_class": "capability",
+          "snippet": "Coming in as a bantamweight (~1kg), **Revolution** is great for mapping large areas quickly and effectively with a seamlessly integrated INS, 8 or 16 laser LiDAR unit, and WiFi controlled user interface with removable thumb stick storage."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "ScanLook TreX",
+      "category": "isr_payloads",
+      "descriptor": "Trimble/Applanix APX-15-based UAV LiDAR system integrated into Trimble workflow",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0082",
+          "line_start": 100,
+          "line_end": 100,
+          "url": "https://www.lidarusa.com/uav--mms-systems.html",
+          "page_class": "capability",
+          "snippet": "ScanLook TreX"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0082",
+          "line_start": 102,
+          "line_end": 102,
+          "url": "https://www.lidarusa.com/uav--mms-systems.html",
+          "page_class": "capability",
+          "snippet": "Introducing the Trimble / Applanix Line\u200b. \u00a0ScanLook TreX uses the The APX-15 UAV which\u00a0is\u00a0tailored specifically for addressing the needs of small, light UAVs. \u00a0Integrated directly into your Trimble workflow."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Surveyor 16",
+      "category": "isr_payloads",
+      "descriptor": "UAV LiDAR mapping system for DJI M350",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0117",
+          "line_start": 1,
+          "line_end": 1,
+          "url": "https://www.lidarusa.com/surveyor-16.html",
+          "page_class": "other",
+          "snippet": "Surveyor 16 UAV LiDAR System - DJI M350 - LIDAR USA - UAV DRONE 3D LIDAR MOBILE MODELING MAPPING GIS EXPERTS"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0117",
+          "line_start": 59,
+          "line_end": 60,
+          "url": "https://www.lidarusa.com/surveyor-16.html",
+          "page_class": "other",
+          "snippet": "![Surveyor 32 UAV LiDAR](/uploads/5/4/1/5/54154851/published/screenshot-2024-11-01-081647.png?1730487348)\n[DOWNLOAD DATASHEET](/uploads/5/4/1/5/54154851/surveyor_16_uav_10_24.pdf)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "HiWay Mapper Z & Snoopy Custom",
+      "category": "isr_payloads",
+      "descriptor": "Mobile mapping LiDAR system in single/dual/triple configurations for highway survey",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 16,
+          "line_end": 16,
+          "url": "https://www.lidarusa.com",
+          "page_class": "homepage",
+          "snippet": "        *   [HiWay Mapper Z & Snoopy Custom](/hiway-mapper-z--snoopy-custom.html)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 73,
+          "line_end": 77,
+          "url": "https://www.lidarusa.com",
+          "page_class": "homepage",
+          "snippet": "[![Highway Mapper ZF High Accuracy MMS LiDAR](/uploads/5/4/1/5/54154851/editor/dsc-0499edit.jpg?1665502731)](/hiway-mapper-z--snoopy-custom.html)\n**Highway Mapper**\n------------------\nMobile Mapping as never been more accurate or affordable.\n\u200bSingle, Dual, Triple Configurations"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "SL 800 UAV",
+      "category": "airframes",
+      "descriptor": "Heavy-lift multirotor UAV, 20 kg MTOW, 28-inch carbon fibre props, for LiDAR survey",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0083",
+          "line_start": 62,
+          "line_end": 69,
+          "url": "https://www.lidarusa.com/uav--drones.html",
+          "page_class": "other",
+          "snippet": "SL 800 UAV\n----------\n![Picture](/uploads/5/4/1/5/54154851/editor/img-0540.jpg?1643983633)\n*   **Span:\u00a01.32 m (52\u2033) Motor to motor**\n*   **Dry Weight:\u00a07.35kg (including\u00a0LiDAR dampening plate and quick release mount)**\n*   **MTOW:\u00a020kg (44 lbs)**\n*   **Endurance:\u00a010-45 minutes (Dependent on payload and battery size)**\n*   **Max Survey Speed:\u00a012m/s**"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "GALAXY 950 HELI",
+      "category": "airframes",
+      "descriptor": "All-electric helicopter UAV with 45-minute flight time and optional RGB/thermal payloads",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0083",
+          "line_start": 94,
+          "line_end": 101,
+          "url": "https://www.lidarusa.com/uav--drones.html",
+          "page_class": "other",
+          "snippet": "GALAXY\u00a0950 HELI\n---------------\n![Picture](/uploads/5/4/1/5/54154851/published/lidar-usa-customer-requested-images-5.jpg?1643984594)\n*   45 Min. Flight Time ALL Electric\n*   Jupiter Flight Controller\n*   Transport Cases\n*   Non Ballistic Parachute\n*   Optional: RGB, Gimbal, Thermal, Inspection, Custom"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Harris Hybrid",
+      "category": "airframes",
+      "descriptor": "Hybrid-power UAV with 2+ hour flight time, Made in the USA",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0083",
+          "line_start": 125,
+          "line_end": 131,
+          "url": "https://www.lidarusa.com/uav--drones.html",
+          "page_class": "other",
+          "snippet": "Harris Hybrid\n-------------\n![Picture](/uploads/5/4/1/5/54154851/editor/image-2.png?1581115459)\n*   **2+ Hour Flight Time**\n*   **\u200bMade in the USA**\n*   PixHawk Flight Controller\n*   Optional: RGB, Gimbal, Thermal"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "FT3000 VTOL",
+      "category": "airframes",
+      "descriptor": "Electric fixed-wing VTOL UAV with 50-minute flight time and PixHawk autopilot",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0083",
+          "line_start": 118,
+          "line_end": 124,
+          "url": "https://www.lidarusa.com/uav--drones.html",
+          "page_class": "other",
+          "snippet": "FT3000 VTOL\n-----------\n![Picture](/uploads/5/4/1/5/54154851/editor/snoopy-ft3000-vtol.jpg?1581120078)\n*   50 Minute Flight Time\n*   Electric\n*   PixHawk Flight Controller\n*   True VTOL capability"
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "Liberty 64 NDAA Compliant LiDAR System dedicated product page was not fetched (skipped_budget); specs and full NDAA claim text are unavailable \u2014 only homepage description was used.",
+    "Surveyor DUAL VUX - Riegl dedicated product page was not fetched (skipped_budget); readiness and NDAA status are unknown.",
+    "HiWay Mapper Z & Snoopy Custom dedicated product page was not fetched (skipped_budget); readiness and NDAA status are unknown.",
+    "Surveyor 32, Surveyor 32 MAX, and Surveyor 16 product pages were fetched but show no NDAA badge \u2014 NDAA status marked unknown for those three SKUs."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.lidarusa.com/liberty-64-ndaa-compliant-lidar-system.html",
+      "reason": "Dedicated product page for Liberty 64 NDAA Compliant LiDAR System was skipped_budget; needed for full specs, NDAA claim text, and pricing confirmation.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, line 683",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.lidarusa.com/surveyor-dual-vux---riegl.html",
+      "reason": "Dedicated product page for Surveyor DUAL VUX - Riegl was skipped_budget; needed to confirm product descriptor, readiness, and NDAA status.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, line 1177",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.lidarusa.com/hiway-mapper-z--snoopy-custom.html",
+      "reason": "Dedicated product page for HiWay Mapper Z & Snoopy Custom was skipped_budget; needed for product specs, readiness, and NDAA status.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, line 578",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 38,
+    "total_cost_usd": 0.8970469000000001,
+    "created_at": "2026-05-04T03:57:38+00:00",
+    "extract_version": "0.1.0"
+  }
+}

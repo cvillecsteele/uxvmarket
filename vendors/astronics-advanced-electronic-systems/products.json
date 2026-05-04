@@ -1,0 +1,91 @@
+{
+  "target_id": "astronics-advanced-electronic-systems",
+  "run_id": "canonical",
+  "display_name": "Astronics Advanced Electronic Systems",
+  "homepage_url": "https://www.astronics.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/astronics-advanced-electronic-systems/website",
+  "products": [
+    {
+      "name": "CorePower\u00ae",
+      "category": "power_systems",
+      "descriptor": "Modular airframe power generation, distribution, and conversion product line for MEA, eVTOL, and UAV platforms",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0329",
+          "line_start": 164,
+          "line_end": 167,
+          "url": "https://www.astronics.com/power-systems",
+          "page_class": "capability",
+          "snippet": "#### Airframe Power\n](/airframe-power)\nModern, efficient, extensive line of CorePower\u00ae products for power generation, distribution, and conversion.\n["
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0328",
+          "line_start": 150,
+          "line_end": 152,
+          "url": "https://www.astronics.com/power-solutions-for-the-more-electric-aircraft",
+          "page_class": "news",
+          "snippet": "Power Solutions for the More Electric Aircraft\n==============================================\nCertified Power Solutions TODAY"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Airframe Electrical Power Systems",
+      "category": "power_systems",
+      "descriptor": "Airframe electrical power generation, conversion, and distribution systems for traditional and unmanned aircraft",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0297",
+          "line_start": 227,
+          "line_end": 230,
+          "url": "https://www.astronics.com/industries/defense-solutions",
+          "page_class": "capability",
+          "snippet": "#### Airframe Electrical Power Systems\n](/airframe-power)\nFor traditional and unmanned systems.\n["
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Aircraft Interface Devices (AID)",
+      "category": "sensors_and_navigation",
+      "descriptor": "Secure airborne gateway that collects and serves avionics bus data to EFBs, IFEC, and connected aircraft systems",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0086",
+          "line_start": 160,
+          "line_end": 162,
+          "url": "https://www.astronics.com/aircraft-data-systems",
+          "page_class": "capability",
+          "snippet": "Aircraft Interface Devices (AID)\nSecure devices gather and serve avionics data to EFB, IFEC and other aircraft systems\n](/aircraft-interface-devices-\\(aid\\))["
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 0,
+    "total_cost_usd": null,
+    "created_at": "2026-05-03T21:44:31+00:00",
+    "extract_version": "0.1.0"
+  }
+}

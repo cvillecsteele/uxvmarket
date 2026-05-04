@@ -1,0 +1,371 @@
+{
+  "target_id": "pipistrel",
+  "run_id": "canonical",
+  "display_name": "Pipistrel",
+  "homepage_url": "https://www.pipistrel-aircraft.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/pipistrel/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "airframes",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0026",
+            "line_start": 61,
+            "line_end": 61,
+            "url": "https://www.pipistrel-aircraft.com/air-cargo",
+            "page_class": "capability",
+            "snippet": "The ultimate Hybrid-electric cargo VTOL unmanned cargo aircraft has arrived. The Nuuva V300 is a revolutionary design for long range logistics operations and cargo delivery. Built on the back of Pipistrel\u2019s innovative design and technological advancement of electric-hybrid propulsion systems, the Nuuva V300 is optimized to deliver 600 pound payloads over 300 nautical miles."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0137",
+            "line_start": 53,
+            "line_end": 53,
+            "url": "https://www.pipistrel-aircraft.com/special-missions",
+            "page_class": "product",
+            "snippet": "Pipistrel\u2019s special mission platform (Surveyor) is trusted across the world by defence, surveillance, and civil authorities in multiple configurations. Fully customizable the Surveyor can be deployed as manned, UAV or Optionally piloted and offers an effective low cost solution to the most demanding of requirements."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0137",
+            "line_start": 64,
+            "line_end": 64,
+            "url": "https://www.pipistrel-aircraft.com/special-missions",
+            "page_class": "product",
+            "snippet": "Pipistrel offer fully customised surveyor platforms to meet customers specific needs covering 6 models either as standalone surveillance platforms or turnkey UAV system. Typical mission options include:"
+          }
+        ],
+        "notes": "Pipistrel designs and manufactures complete aircraft including the Nuuva V300/V20 autonomous UAVs, the Surveyor optionally-piloted/UAV surveillance platform, and a full line of general aviation aircraft."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Ajdov\u0161\u010dina",
+      "state_or_province": null,
+      "country": "Slovenia",
+      "address": "Gori\u0161ka cesta 50a, SI-5270 Ajdov\u0161\u010dina"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0044",
+        "line_start": 61,
+        "line_end": 64,
+        "url": "https://www.pipistrel-aircraft.com/contact",
+        "page_class": "contact",
+        "snippet": "PIPISTREL d.o.o.\nGORI\u0160KA CESTA 50a\nSI \u2013 5270 AJDOV\u0160\u010cINA\nSLOVENIA"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0023",
+        "line_start": 89,
+        "line_end": 92,
+        "url": "https://www.pipistrel-aircraft.com/about",
+        "page_class": "company",
+        "snippet": "Pipistrel d.o.o.\nGori\u0161ka cesta 50a\nSI-5270 Ajdov\u0161\u010dina\nSlovenia"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "oem",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0023",
+        "line_start": 78,
+        "line_end": 78,
+        "url": "https://www.pipistrel-aircraft.com/about",
+        "page_class": "company",
+        "snippet": "The birthplace of Pipistrel; with main focus on aircraft manufacturing, maintenance and aircraft sales"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0026",
+        "line_start": 86,
+        "line_end": 86,
+        "url": "https://www.pipistrel-aircraft.com/air-cargo",
+        "page_class": "capability",
+        "snippet": "The Nuuva V300 is a revolutionary long-range large-capacity heavy-weight autonomous eVTOL UAV\\* for logistics and aerial cargo delivery. It operates 10x more economically than today\u2019s helicopters, requires no runways, and brings enhanced safety and reliability using Pipistrel\u2019s type-certified electric engines."
+      }
+    ],
+    "notes": "Pipistrel designs and manufactures complete aircraft and autonomous UAV platforms (Nuuva V300/V20, Surveyor). Part of Textron eAviation since April 2022."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Nuuva V300",
+        "product_type": "autonomous cargo eVTOL UAV",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0026",
+            "line_start": 86,
+            "line_end": 86,
+            "url": "https://www.pipistrel-aircraft.com/air-cargo",
+            "page_class": "capability",
+            "snippet": "The Nuuva V300 is a revolutionary long-range large-capacity heavy-weight autonomous eVTOL UAV\\* for logistics and aerial cargo delivery. It operates 10x more economically than today\u2019s helicopters, requires no runways, and brings enhanced safety and reliability using Pipistrel\u2019s type-certified electric engines."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Nuuva V20",
+        "product_type": "lightweight cargo courier UAV",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0026",
+            "line_start": 90,
+            "line_end": 90,
+            "url": "https://www.pipistrel-aircraft.com/air-cargo",
+            "page_class": "capability",
+            "snippet": "The smaller sibling of the Nuuva family, the V20, shares the same architecture and advantages of the larger V300 but is designed as a lightweight cargo courier carrying payloads of up to 20 kg."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Surveyor",
+        "product_type": "special missions surveillance UAV/OPA platform",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0137",
+            "line_start": 53,
+            "line_end": 53,
+            "url": "https://www.pipistrel-aircraft.com/special-missions",
+            "page_class": "product",
+            "snippet": "Pipistrel\u2019s special mission platform (Surveyor) is trusted across the world by defence, surveillance, and civil authorities in multiple configurations. Fully customizable the Surveyor can be deployed as manned, UAV or Optionally piloted and offers an effective low cost solution to the most demanding of requirements."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Velis Electro",
+        "product_type": "type-certified electric training aircraft",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 58,
+            "line_end": 59,
+            "url": "https://www.pipistrel-aircraft.com",
+            "page_class": "homepage",
+            "snippet": "[Velis Electro](https://www.pipistrel-aircraft.com/products/velis-electro/)\nFirst ever type-certified electric-powered aircraft, fully approved for pilot training in Day VFR operations."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Alpha Trainer",
+        "product_type": "light sport training aircraft",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 61,
+            "line_end": 62,
+            "url": "https://www.pipistrel-aircraft.com",
+            "page_class": "homepage",
+            "snippet": "[Alpha Trainer](https://www.pipistrel-aircraft.com/products/alpha-trainer/)\nCombining performance and efficiency, the smart training choice is equipped with all essential features for success."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Panthera",
+        "product_type": "four-seat general aviation aircraft",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 55,
+            "line_end": 56,
+            "url": "https://www.pipistrel-aircraft.com",
+            "page_class": "homepage",
+            "snippet": "[Panthera](https://www.pipistrel-aircraft.com/products/panthera/)\nThe sleekest and most efficient four-seater with retractable landing gear for your comfortable and affordable travels."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Explorer",
+        "product_type": "CS-LSA category aircraft",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 64,
+            "line_end": 65,
+            "url": "https://www.pipistrel-aircraft.com",
+            "page_class": "homepage",
+            "snippet": "[Explorer](https://www.pipistrel-aircraft.com/products/explorer/)\nThe highest performing aircraft in the CS-LSA category, experience durability, speed and advanced flying capability."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Virus SW",
+        "product_type": "light sport / microsport aircraft",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 12,
+            "line_end": 12,
+            "url": "https://www.pipistrel-aircraft.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Virus SW![](https://www.pipistrel-aircraft.com/wp-content/uploads/2023/04/virus-still.gif)](https://www.pipistrel-aircraft.com/products/virus-sw/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Taurus Electro",
+        "product_type": "electric motorglider",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 14,
+            "line_end": 14,
+            "url": "https://www.pipistrel-aircraft.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Taurus Electro![](https://www.pipistrel-aircraft.com/wp-content/uploads/2023/04/taurus-electro.jpg)](https://www.pipistrel-aircraft.com/products/taurus-electro/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Sinus",
+        "product_type": "motorglider",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 15,
+            "line_end": 15,
+            "url": "https://www.pipistrel-aircraft.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Sinus![](https://www.pipistrel-aircraft.com/wp-content/uploads/2023/04/sinus-still.gif)](https://www.pipistrel-aircraft.com/products/sinus/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Velis Club",
+        "product_type": "general aviation aircraft",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 8,
+            "line_end": 8,
+            "url": "https://www.pipistrel-aircraft.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Velis Club![](https://www.pipistrel-aircraft.com/wp-content/uploads/2023/04/velis-club-still.gif)](https://www.pipistrel-aircraft.com/products/velis-club/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "E-811",
+        "product_type": "EASA type-certified electric engine",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0101",
+            "line_start": 105,
+            "line_end": 105,
+            "url": "https://www.pipistrel-aircraft.com/products/velis-electro",
+            "page_class": "product",
+            "snippet": "Pipistrel E-811 EASA Type-Certified"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA Section 848/889 mention anywhere in the corpus. Pipistrel is a Slovenian OEM within Textron Inc."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS or Blue sUAS mention anywhere in the corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0099",
+        "line_start": 78,
+        "line_end": 78,
+        "url": "https://www.pipistrel-aircraft.com/products/taurus-electro",
+        "page_class": "product",
+        "snippet": "Taurus Electro was the world\u2019s first fully electric 2-seat airplane in serial production available on the market."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0023",
+        "line_start": 172,
+        "line_end": 172,
+        "url": "https://www.pipistrel-aircraft.com/about",
+        "page_class": "company",
+        "snippet": "In its 30 years, Pipistrel has grown from an enthusiastic hobby hang-glider garage manufacture into a world-renowned small aircraft producer, recognised by leading global aviation authorities."
+      }
+    ],
+    "notes": "Pipistrel has sold 2,500+ aircraft in 97 countries with multiple models in serial production. The Nuuva V300/V20 UAVs appear to be in a pre-production / customer acquisition phase."
+  },
+  "unresolved_questions": [
+    "Nuuva V300/V20 production status \u2014 contact form language suggests pre-production meetings with prospective customers, but no explicit production launch date found",
+    "E-811 electric engine sold as standalone component or only used internally"
+  ],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Slovenian OEM producing electric and hybrid-electric airframes spanning general aviation trainers (Velis Electro, EASA type-certified), light sport aircraft, and autonomous cargo eVTOLs (Nuuva V300, V20). Also manufactures EASA type-certified electric propulsion (E-811 motor). Now owned by Textron. NDAA and Blue UAS certification status unknown; public evidence does not confirm active U.S. defense or allied government contracts.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 18,
+    "total_cost_usd": 0.5349246999999999,
+    "created_at": "2026-05-04T05:15:55+00:00",
+    "extract_version": "0.1.0"
+  }
+}

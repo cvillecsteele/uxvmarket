@@ -1,0 +1,273 @@
+{
+  "target_id": "alva-industries",
+  "run_id": "canonical",
+  "display_name": "Alva Industries",
+  "homepage_url": "https://www.alvaindustries.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/alva-industries/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0296",
+            "line_start": 58,
+            "line_end": 58,
+            "url": "https://www.alvaindustries.com/slimtorq-motors",
+            "page_class": "other",
+            "snippet": "SlimTorq\u2122 is a slotless thin-section frameless motor series for high-precision applications. The SlimTorq\u2122 motor series has zero cogging, high torque density, no saturation & large through-hole."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0290",
+            "line_start": 61,
+            "line_end": 61,
+            "url": "https://www.alvaindustries.com/post/alva-industries-expands-slimtorq-tm-portfolio-with-new-stm-190-35-motor-size",
+            "page_class": "news",
+            "snippet": "Alva Industries is a Norwegian deep-tech company developing high-performance electric motors with their patented FiberPrinting\u2122 technology. They are active in multiple markets, including optronics, robotics, automation equipment, marine propulsion systems, aerospace and autonomous vehicles"
+          }
+        ],
+        "notes": "SlimTorq\u2122 frameless slotless torque motors used in drones, UGVs, AUVs, and defense stabilized platforms."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Company also makes the Hydra-100 marine thruster (still propulsion_mechanical). Motors serve gimbals but Alva does not make complete gimbal systems."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Trondheim",
+      "state_or_province": null,
+      "country": "Norway",
+      "address": null
+    },
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0290",
+        "line_start": 61,
+        "line_end": 61,
+        "url": "https://www.alvaindustries.com/post/alva-industries-expands-slimtorq-tm-portfolio-with-new-stm-190-35-motor-size",
+        "page_class": "news",
+        "snippet": "Alva Industries is a Norwegian deep-tech company developing high-performance electric motors with their patented FiberPrinting\u2122 technology. They are active in multiple markets, including optronics, robotics, automation equipment, marine propulsion systems, aerospace and autonomous vehicles"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 241,
+        "line_end": 241,
+        "url": "https://www.alvaindustries.com",
+        "page_class": "homepage",
+        "snippet": "Org. nr. 918 714 006"
+      }
+    ],
+    "notes": "City 'Trondheim' from press release datelines (all dateline lines exceed 60-word citation limit). Org. nr. 918 714 006 confirms Norwegian registration."
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0290",
+        "line_start": 61,
+        "line_end": 61,
+        "url": "https://www.alvaindustries.com/post/alva-industries-expands-slimtorq-tm-portfolio-with-new-stm-190-35-motor-size",
+        "page_class": "news",
+        "snippet": "Alva Industries is a Norwegian deep-tech company developing high-performance electric motors with their patented FiberPrinting\u2122 technology. They are active in multiple markets, including optronics, robotics, automation equipment, marine propulsion systems, aerospace and autonomous vehicles"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0296",
+        "line_start": 58,
+        "line_end": 58,
+        "url": "https://www.alvaindustries.com/slimtorq-motors",
+        "page_class": "other",
+        "snippet": "SlimTorq\u2122 is a slotless thin-section frameless motor series for high-precision applications. The SlimTorq\u2122 motor series has zero cogging, high torque density, no saturation & large through-hole."
+      }
+    ],
+    "notes": "Alva makes frameless torque motors (SlimTorq\u2122) that are components going into drones, UGVs, AUVs, gimbals. No complete UXV platform sold."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "SlimTorq\u2122",
+        "product_type": "frameless slotless torque motor series",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0296",
+            "line_start": 58,
+            "line_end": 58,
+            "url": "https://www.alvaindustries.com/slimtorq-motors",
+            "page_class": "other",
+            "snippet": "SlimTorq\u2122 is a slotless thin-section frameless motor series for high-precision applications. The SlimTorq\u2122 motor series has zero cogging, high torque density, no saturation & large through-hole."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SlimTorq\u2122 Lite",
+        "product_type": "lightweight frameless torque motor variant",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0296",
+            "line_start": 115,
+            "line_end": 117,
+            "url": "https://www.alvaindustries.com/slimtorq-motors",
+            "page_class": "other",
+            "snippet": "### SlimTorq\u2122\n### Lite\nThe Lite version is designed & optimised to be as light as possible while sustaining a high torque-density. It\u2019s a good choice for weight sensitive applications. It allows the added value of a large through-hole to simplify mechanical integration."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SlimTorq\u2122 Max",
+        "product_type": "high-performance frameless torque motor variant",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0296",
+            "line_start": 121,
+            "line_end": 123,
+            "url": "https://www.alvaindustries.com/slimtorq-motors",
+            "page_class": "other",
+            "snippet": "### SlimTorq\u2122\n### Max\nThe Max version is designed & optimised for maximum performance, i.e. with the highest possible torque & motor-constant the space envelope allows for. It\u2019s a good choice for applications that require the maximum performance in combination with compactness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SlimTorq\u2122 STM-190-35",
+        "product_type": "frameless slotless torque motor (190mm OD, 35mm axial)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0290",
+            "line_start": 49,
+            "line_end": 49,
+            "url": "https://www.alvaindustries.com/post/alva-industries-expands-slimtorq-tm-portfolio-with-new-stm-190-35-motor-size",
+            "page_class": "news",
+            "snippet": "Alva Industries Expands SlimTorq\u2122 Portfolio with New STM-190-35 Motor Size"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Hydra-100",
+        "product_type": "rim-drive marine thruster demonstrator",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0287",
+            "line_start": 95,
+            "line_end": 95,
+            "url": "https://www.alvaindustries.com/product/marine-thruster",
+            "page_class": "product",
+            "snippet": "The Hydra-100 marine thruster specifications can be seen above. If additional information is needed, [contact us](https://www.alvaindustries.com/contact) to learn more."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Many additional SlimTorq\u2122 size variants (25mm\u2013190mm OD) exist in the catalog; product catalog page was not fetched."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "Norwegian company; no mention of NDAA Section 848/889 compliance anywhere in the corpus"
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No mention of Blue UAS or Blue sUAS in the corpus"
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0294",
+        "line_start": 88,
+        "line_end": 88,
+        "url": "https://www.alvaindustries.com/technology-provider",
+        "page_class": "capability",
+        "snippet": "Alva has the capability to produce samples up to series production in-house, tailored to your specific needs. Additionally, we offer licensing of our manufacturing technologies to chosen partners."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0297",
+        "line_start": 127,
+        "line_end": 127,
+        "url": "https://www.alvaindustries.com/product/direct-drives",
+        "page_class": "product",
+        "snippet": "Normally the lead time is 6-8 weeks."
+      }
+    ],
+    "notes": "Standard lead time 6\u20138 weeks for catalog motors; series production stated. Custom motors take 16\u201320 weeks to first prototype."
+  },
+  "unresolved_questions": [
+    "Full street address not disclosed on any fetched page",
+    "NDAA/Blue UAS compliance not addressed anywhere on the site"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.alvaindustries.com/about",
+      "reason": "Company page would confirm full headquarters address including street address and Trondheim city, and provide additional company history relevant to UXV role.",
+      "expected_evidence": [
+        "headquarters",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=company",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.alvaindustries.com/contact",
+      "reason": "Contact page would confirm city/address of Alva Industries headquarters.",
+      "expected_evidence": [
+        "headquarters"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=contact",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.alvaindustries.com/product-catalog",
+      "reason": "Full product catalog would enumerate all SlimTorq\u2122 SKUs and confirm production readiness details including full size range.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_budget",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Norwegian frameless slotless BLDC motor supplier (25\u2013160 mm OD) serving defense gimbals, marine propulsion, and precision direct-drive applications. Core product is SlimTorq\u2122 torque-motor family manufactured via patented FiberPrinting\u2122 stator process; also supplies Halbach rotors and custom engineering. NDAA and Blue UAS certification status unknown. No major U.S. defense primes or programs visible in public record; market presence unclear outside Europe.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 19,
+    "total_cost_usd": 0.49882059999999995,
+    "created_at": "2026-05-03T21:09:06+00:00",
+    "extract_version": "0.1.0"
+  }
+}

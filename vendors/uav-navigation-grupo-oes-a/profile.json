@@ -1,0 +1,463 @@
+{
+  "target_id": "uav-navigation-grupo-oes-a",
+  "run_id": "canonical",
+  "display_name": "UAV Navigation-Grupo Oes\u00eda",
+  "homepage_url": "https://www.uavnavigation.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/uav-navigation-grupo-oes-a/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "flight_and_vehicle_control",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 250,
+            "line_end": 250,
+            "url": "https://www.uavnavigation.com",
+            "page_class": "homepage",
+            "snippet": "UAV Navigation is a 100% Spanish capital, private and independent specialized in the design of **guidance, navigation and control solutions (GNC)** for Unmanned Aerial Vehicles (UAVs) since 2004."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0233",
+            "line_start": 115,
+            "line_end": 115,
+            "url": "https://www.uavnavigation.com/products/autopilots/vector-400",
+            "page_class": "product",
+            "snippet": "VECTOR-400"
+          }
+        ],
+        "notes": "Core business is autopilots and GNC (guidance, navigation, control) solutions for UAVs including fixed-wing, rotary-wing, VTOL, target drones, and USVs."
+      },
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 213,
+            "line_end": 213,
+            "url": "https://www.uavnavigation.com",
+            "page_class": "homepage",
+            "snippet": "The cornerstone of the Company\u2019s success is a comprehensive, in-house capability to develop Attitude & Heading Reference Systems (AHRS), flight control algorithms and to fuse the data provided by multiple sensors."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 52,
+            "line_end": 52,
+            "url": "https://www.uavnavigation.com",
+            "page_class": "homepage",
+            "snippet": "            *   [GNSS-Denied Navigation Kit](/products/navigation-systems/gnss-denied-navigation-kit)"
+          }
+        ],
+        "notes": "AHRS-IMU (POLAR-300), GNSS-Denied Navigation Kit, DGC01 Dual GNSS Compass, VNS01 Visual Navigation System, MG01 Magnetometer are in-house developed navigation sensor products."
+      },
+      {
+        "category": "ground_segment",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 217,
+            "line_end": 217,
+            "url": "https://www.uavnavigation.com",
+            "page_class": "homepage",
+            "snippet": "Visionair is the all-in-one UAV Navigation's (UAVN) standard Ground Control Station (GCS) software for configuring, planning and executing UAV missions."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 65,
+            "line_end": 65,
+            "url": "https://www.uavnavigation.com",
+            "page_class": "homepage",
+            "snippet": "            *   [GHU-100 - Ground Hub Unit](/products/ground-control-station/GHU100)"
+          }
+        ],
+        "notes": "Visionair GCS software and GHU-100 Ground Hub Unit are dedicated ground control station products."
+      },
+      {
+        "category": "test_and_measurement",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 84,
+            "line_end": 84,
+            "url": "https://www.uavnavigation.com",
+            "page_class": "homepage",
+            "snippet": "            *   [VECTOR-HIL](/products/simulation/vector-hil)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 86,
+            "line_end": 86,
+            "url": "https://www.uavnavigation.com",
+            "page_class": "homepage",
+            "snippet": "            *   [VECTOR-SIL](/products/simulation/vector-sil)"
+          }
+        ],
+        "notes": "VECTOR-HIL (hardware-in-the-loop) and VECTOR-SIL (software-in-the-loop) simulation products for testing UAV flight control systems."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Madrid",
+      "state_or_province": null,
+      "country": "Spain",
+      "address": null
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0078",
+        "line_start": 244,
+        "line_end": 244,
+        "url": "https://www.uavnavigation.com/company/general-terms-conditions",
+        "page_class": "company",
+        "snippet": "Following the principles of lawfulness, fairness and transparency, we make this Privacy Policy available to you in our location in Madrid (Espa\u00f1a) / Email [rgpd@uavnavigation.com](mailto:rgpd@uavnavigation.com)."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0078",
+        "line_start": 297,
+        "line_end": 297,
+        "url": "https://www.uavnavigation.com/company/general-terms-conditions",
+        "page_class": "company",
+        "snippet": "All materials shall be delivered to our facilities at Madrid, unless otherwise indicated, and both the delivery notes and each individual package must be correctly identified with the following information:"
+      }
+    ],
+    "notes": "Headquarters in Madrid; secondary manufacturing facility in Valdepe\u00f1as, Castilla La Mancha."
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0019",
+        "line_start": 121,
+        "line_end": 121,
+        "url": "https://www.uavnavigation.com/company",
+        "page_class": "company",
+        "snippet": "UAV Navigation-Grupo Oes\u00eda's flight control solutions are **u****sed by a variety of Tier 1 aerospace manufacturers**\u00a0in a wide range of Unmanned Aerial Vehicles (UAV) - also known as Remotely Piloted Aircraft Systems (RPAS) or 'drones'."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 251,
+        "line_end": 251,
+        "url": "https://www.uavnavigation.com",
+        "page_class": "homepage",
+        "snippet": "UAV Navigation's flight control solutions are **used by a variety of Tier 1 aerospace manufacturers** in a wide range of Unmanned Aerial Vehicles (UAV) - also known as Remotely Piloted Aircraft Systems (RPAS) or 'drones'."
+      }
+    ],
+    "notes": "Sells autopilots, navigation systems, and GCS hardware/software to Tier 1 aerospace manufacturers and drone OEMs rather than manufacturing complete platforms."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "VECTOR-400",
+        "product_type": "autopilot / flight control system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0233",
+            "line_start": 115,
+            "line_end": 115,
+            "url": "https://www.uavnavigation.com/products/autopilots/vector-400",
+            "page_class": "product",
+            "snippet": "VECTOR-400"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "VECTOR-600",
+        "product_type": "autopilot / flight control system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 47,
+            "line_end": 47,
+            "url": "https://www.uavnavigation.com",
+            "page_class": "homepage",
+            "snippet": "            *   [VECTOR-600](/products/autopilots/vector-600)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "POLAR-300 AHRS-IMU",
+        "product_type": "attitude & heading reference system / inertial measurement unit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 54,
+            "line_end": 54,
+            "url": "https://www.uavnavigation.com",
+            "page_class": "homepage",
+            "snippet": "            *   [POLAR-300 \\- AHRS-IMU](/products/navigation-systems/polar-300-ahrs-imu)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "GNSS-Denied Navigation Kit",
+        "product_type": "GNSS-denied navigation solution kit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 52,
+            "line_end": 52,
+            "url": "https://www.uavnavigation.com",
+            "page_class": "homepage",
+            "snippet": "            *   [GNSS-Denied Navigation Kit](/products/navigation-systems/gnss-denied-navigation-kit)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DGC01",
+        "product_type": "dual GNSS compass",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 58,
+            "line_end": 58,
+            "url": "https://www.uavnavigation.com",
+            "page_class": "homepage",
+            "snippet": "            *   [DGC01 - Dual GNSS Compass](/products/navigation-systems/dgc01-dual-gnss-compass)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "VNS01",
+        "product_type": "visual navigation system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 56,
+            "line_end": 56,
+            "url": "https://www.uavnavigation.com",
+            "page_class": "homepage",
+            "snippet": "            *   [VNS01 - Visual Navigation System](/products/navigation-systems/vns01-visual-navigation-system)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MG01",
+        "product_type": "magnetometer",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 60,
+            "line_end": 60,
+            "url": "https://www.uavnavigation.com",
+            "page_class": "homepage",
+            "snippet": "            *   [MG01 - Magnetometer](/products/navigation-systems/mg01-magnetometer)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "GHU-100",
+        "product_type": "ground hub unit (GCS hardware)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 65,
+            "line_end": 65,
+            "url": "https://www.uavnavigation.com",
+            "page_class": "homepage",
+            "snippet": "            *   [GHU-100 - Ground Hub Unit](/products/ground-control-station/GHU100)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Visionair",
+        "product_type": "ground control station software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 217,
+            "line_end": 217,
+            "url": "https://www.uavnavigation.com",
+            "page_class": "homepage",
+            "snippet": "Visionair is the all-in-one UAV Navigation's (UAVN) standard Ground Control Station (GCS) software for configuring, planning and executing UAV missions."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "VECTOR-MCC",
+        "product_type": "mission control computer",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 72,
+            "line_end": 72,
+            "url": "https://www.uavnavigation.com",
+            "page_class": "homepage",
+            "snippet": "            *   [VECTOR-MCC](/products/mission-control-computer/vector-mcc)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "FDR01",
+        "product_type": "flight data recorder",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 77,
+            "line_end": 77,
+            "url": "https://www.uavnavigation.com",
+            "page_class": "homepage",
+            "snippet": "            *   [FDR01 - Flight Data Recorder](/products/peripherals/flight-data-recorder)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "VECTOR-HIL",
+        "product_type": "hardware-in-the-loop simulation",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 84,
+            "line_end": 84,
+            "url": "https://www.uavnavigation.com",
+            "page_class": "homepage",
+            "snippet": "            *   [VECTOR-HIL](/products/simulation/vector-hil)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "VECTOR-SIL",
+        "product_type": "software-in-the-loop simulation",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 86,
+            "line_end": 86,
+            "url": "https://www.uavnavigation.com",
+            "page_class": "homepage",
+            "snippet": "            *   [VECTOR-SIL](/products/simulation/vector-sil)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "UAV Navigation is a 100% Spanish-capital private company. No mention of NDAA Section 848/889 compliance anywhere in the corpus."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No mention of DIU Blue UAS Cleared List or Blue sUAS authorisation in the corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0222",
+        "line_start": 125,
+        "line_end": 125,
+        "url": "https://www.uavnavigation.com/high-quality-manufacturing",
+        "page_class": "compliance",
+        "snippet": "Mass Production Across Multiple Aerospace-Grade Facilities"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0222",
+        "line_start": 138,
+        "line_end": 138,
+        "url": "https://www.uavnavigation.com/high-quality-manufacturing",
+        "page_class": "compliance",
+        "snippet": "We have **streamlined our procedures** to deliver large-scale orders on time, even with tight industry demands, without compromising the **quality of our products**. Our processes are optimized for **rapid, reliable service**, ensuring every system reaches the client ready to perform at the **highest level**."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0222",
+        "line_start": 149,
+        "line_end": 149,
+        "url": "https://www.uavnavigation.com/high-quality-manufacturing",
+        "page_class": "compliance",
+        "snippet": "UAV Navigation\u2013Grupo Oes\u00eda operates under a **robust manufacturing and quality management system certified to ISO 9001, AS/EN 9100, ISO 14001, UNE, ECSS, and MIL-STD standards**. This framework ensures excellence in both product reliability and environmental responsibility, reinforcing our leadership in the aerospace and defense sectors."
+      }
+    ],
+    "notes": "Explicit large-scale production page; two manufacturing centers in Spain; ISO 9001, AS/EN 9100, MIL-STD qualified production lines; SMT and ESA-verified assembly for volume production."
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Spanish flight-control and navigation-systems supplier offering production-ready autopilots (VECTOR-400/600) for fixed-wing, rotary, VTOL, and target platforms, plus GNSS-denied navigation kits, AHRS-IMU modules, dual-GNSS compasses, and ground-control software. Public evidence of operational deployments exists but NDAA and Blue UAS certification status remain undisclosed.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 18,
+    "total_cost_usd": 0.67717145,
+    "created_at": "2026-05-04T07:17:49+00:00",
+    "extract_version": "0.1.0"
+  }
+}

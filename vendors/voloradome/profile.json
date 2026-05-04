@@ -1,0 +1,285 @@
+{
+  "target_id": "voloradome",
+  "run_id": "canonical",
+  "display_name": "VoloRadome",
+  "homepage_url": "https://voloradome.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/voloradome/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "structures_and_materials",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0002",
+            "line_start": 103,
+            "line_end": 103,
+            "url": "https://voloradome.com",
+            "page_class": "homepage",
+            "snippet": "###### Composite Radome"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0002",
+            "line_start": 68,
+            "line_end": 68,
+            "url": "https://voloradome.com",
+            "page_class": "homepage",
+            "snippet": "We provide excellent quality RADOMs for satellite communication antennas and terminals based on your needs. We design, develop and produce sandwich radomes that are the ideal solution for shipboard and fixed-site tactical SATCOM applications and can function across various SATCOM bands."
+          }
+        ],
+        "notes": "Radomes are composite/dielectric structural enclosures (fiberglass, carbon fiber, Kevlar) protecting radar/antenna systems on air, land, and sea platforms."
+      },
+      {
+        "category": "communications",
+        "is_primary": false,
+        "confidence": "low",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0002",
+            "line_start": 68,
+            "line_end": 68,
+            "url": "https://voloradome.com",
+            "page_class": "homepage",
+            "snippet": "We provide excellent quality RADOMs for satellite communication antennas and terminals based on your needs. We design, develop and produce sandwich radomes that are the ideal solution for shipboard and fixed-site tactical SATCOM applications and can function across various SATCOM bands."
+          }
+        ],
+        "notes": "Radomes serve SATCOM, TT&C, and radar communication systems, enabling RF signal transmission without significant attenuation."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Kahramankazan",
+      "state_or_province": "Ankara",
+      "country": "Turkey",
+      "address": "Saray OSB Mah. Sabiha G\u00f6k\u00e7en Bulvar\u0131 No:14 Kahramankazan/ANKARA"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0009",
+        "line_start": 19,
+        "line_end": 19,
+        "url": "https://voloradome.com/contact-us",
+        "page_class": "contact",
+        "snippet": "Saray OSB Mah. Sabiha G\u00f6k\u00e7en Bulvar\u0131 No:14 Kahramankazan/ANKARA"
+      }
+    ],
+    "notes": "US office also at 3000 S. Hulen Street Ste 124 #1077 Fort Worth, TX 76109, but Turkey is the primary manufacturing facility."
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "low",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0002",
+        "line_start": 83,
+        "line_end": 83,
+        "url": "https://voloradome.com",
+        "page_class": "homepage",
+        "snippet": "### Aerospace and Defense Radomes"
+      }
+    ],
+    "notes": "Volo Radomes makes composite radome enclosures for aerospace and defense platforms. No explicit UAS/drone mention; UXV relevance inferred from airborne radomes for defense platforms."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Satcom Radomes",
+        "product_type": "sandwich radome for SATCOM antennas and terminals",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0002",
+            "line_start": 67,
+            "line_end": 68,
+            "url": "https://voloradome.com",
+            "page_class": "homepage",
+            "snippet": "### Satcom Radomes\nWe provide excellent quality RADOMs for satellite communication antennas and terminals based on your needs. We design, develop and produce sandwich radomes that are the ideal solution for shipboard and fixed-site tactical SATCOM applications and can function across various SATCOM bands."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TT&C Radomes",
+        "product_type": "radome for Telemetry Tracking & Command subsystems",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0002",
+            "line_start": 73,
+            "line_end": 74,
+            "url": "https://voloradome.com",
+            "page_class": "homepage",
+            "snippet": "### TT&C Radomes\nWe produce RADOMs for Telemetry Tracking & Command subsystems to be used at satellites and spacecrafts. We reduce your maintenance and repair costs by ensuring that your TT&C systems are protected from the corrosive effects of external factors and can operate effectively under all weather conditions."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Air Traffic Control Radomes",
+        "product_type": "radome for ATC radar systems",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0002",
+            "line_start": 78,
+            "line_end": 79,
+            "url": "https://voloradome.com",
+            "page_class": "homepage",
+            "snippet": "### Air Traffic Control Radomes\nWe meet the radom needs of airports, leading radar manufacturers and civil aviation authorities all around the world. With our high quality radomes which have durability against 240-300 km/h wind speed at least, we enable precise measurements with the reliability required by aerospace applications."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Aerospace and Defense Radomes",
+        "product_type": "radome for air, land and sea defense platforms",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0002",
+            "line_start": 83,
+            "line_end": 83,
+            "url": "https://voloradome.com",
+            "page_class": "homepage",
+            "snippet": "### Aerospace and Defense Radomes"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Weather Radomes",
+        "product_type": "sandwich radome for weather radar systems",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0002",
+            "line_start": 88,
+            "line_end": 88,
+            "url": "https://voloradome.com",
+            "page_class": "homepage",
+            "snippet": "### Weather Radomes"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Custom Radomes",
+        "product_type": "custom-designed radome per customer specifications",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0002",
+            "line_start": 121,
+            "line_end": 122,
+            "url": "https://voloradome.com",
+            "page_class": "homepage",
+            "snippet": "###### Custom Radome\nCustom radomes are designed to meet specific customer requirements, including size, shape, and material composition. Custom radomes are used in a wide range of applications, including military and civilian aviation, weather monitoring, and communication systems. Custom radomes are essential for enabling new technologies and applications, and are often designed to meet unique and challenging requirements."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Product lines listed on homepage; specific radome SKUs would require the skipped /radomes page."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0002",
+        "line_start": 68,
+        "line_end": 68,
+        "url": "https://voloradome.com",
+        "page_class": "homepage",
+        "snippet": "We provide excellent quality RADOMs for satellite communication antennas and terminals based on your needs. We design, develop and produce sandwich radomes that are the ideal solution for shipboard and fixed-site tactical SATCOM applications and can function across various SATCOM bands."
+      }
+    ],
+    "notes": "Site states they design, develop, and produce radomes with a Turkey manufacturing facility; also offers custom engineering."
+  },
+  "unresolved_questions": [
+    "No explicit UAS/drone product mention; UXV relevance inferred from aerospace/defense airborne radome applications",
+    "No NDAA or Blue UAS compliance information found",
+    "Specific radome product SKUs not available (radomes page was skipped)"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://voloradome.com/radomes",
+      "reason": "Would list specific radome product models/SKUs and potentially confirm UAS-specific applications, clarifying component_supplier role and readiness.",
+      "expected_evidence": [
+        "products",
+        "drone_supply_chain_role",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://voloradome.com/about-us",
+      "reason": "Would confirm headquarters, company history, and potentially clarify UAS/drone market focus or compliance claims.",
+      "expected_evidence": [
+        "headquarters",
+        "drone_supply_chain_role",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://voloradome.com/solutions",
+      "reason": "Would provide more detail on defense and aerospace applications, potentially including UAS-specific radome solutions.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=capability",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "tagline": "Turkish radome manufacturer producing protective enclosures for defense radar, satellite communications, and air-traffic-control systems across airborne, naval, and ground platforms. Offers custom composite designs with electromagnetic analysis and structural certification services. NDAA compliance status and specific U.S. program involvement unknown; public evidence limited to commercial portfolio.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 9,
+    "total_cost_usd": 0.32356835,
+    "created_at": "2026-05-04T07:46:45+00:00",
+    "extract_version": "0.1.0"
+  }
+}

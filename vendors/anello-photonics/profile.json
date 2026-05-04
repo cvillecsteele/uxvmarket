@@ -1,0 +1,291 @@
+{
+  "target_id": "anello-photonics",
+  "run_id": "canonical",
+  "display_name": "ANELLO Photonics",
+  "homepage_url": "https://www.anellophotonics.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/anello-photonics/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0134",
+            "line_start": 182,
+            "line_end": 182,
+            "url": "https://www.anellophotonics.com/media-kit",
+            "page_class": "news",
+            "snippet": "As a provider of tactical-grade IMU and INS solutions, ANELLO delivers high-performance, solid-state navigation systems that operate with exceptional reliability in GPS-denied and contested environments. Our compact, cost-efficient photonic architectures are engineered for mission-critical applications across land, air and sea."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 184,
+            "line_end": 184,
+            "url": "https://www.anellophotonics.com",
+            "page_class": "homepage",
+            "snippet": "ANELLO Photonics builds next-generation inertial sensors you can trust. Our systems combine silicon photonics with advanced sensor fusion to deliver fiber-optic\u2013class precision in a smaller, lighter, and more cost-efficient form factor - powering autonomy across land, air and sea."
+          }
+        ],
+        "notes": "Primary product line: Silicon Photonics Optical Gyroscope (SiPhOG\u2122)-based IMUs and INS for GPS-denied navigation across aerial, ground and maritime platforms."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Santa Clara",
+      "state_or_province": "California",
+      "country": "United States",
+      "address": "4699 Old Ironsides Drive, Suite 150"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0110",
+        "line_start": 178,
+        "line_end": 179,
+        "url": "https://www.anellophotonics.com/contact",
+        "page_class": "contact",
+        "snippet": "#### 4699 Old Ironsides Drive, Suite 150\nSanta Clara, CA 95054"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0134",
+        "line_start": 181,
+        "line_end": 181,
+        "url": "https://www.anellophotonics.com/media-kit",
+        "page_class": "news",
+        "snippet": "ANELLO Photonics is a Silicon Valley\u2013based technology leader pioneering the future of navigation.\u00a0From our headquarters in Santa Clara, CA, we developed the ANELLO SiPhOG\u2122, the industry\u2019s first Silicon Photonics Optical Gyroscope\u00a0built on advanced integrated photonic system-on-chip technology."
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0134",
+        "line_start": 182,
+        "line_end": 182,
+        "url": "https://www.anellophotonics.com/media-kit",
+        "page_class": "news",
+        "snippet": "As a provider of tactical-grade IMU and INS solutions, ANELLO delivers high-performance, solid-state navigation systems that operate with exceptional reliability in GPS-denied and contested environments. Our compact, cost-efficient photonic architectures are engineered for mission-critical applications across land, air and sea."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0156",
+        "line_start": 183,
+        "line_end": 183,
+        "url": "https://www.anellophotonics.com/products/x3-imu",
+        "page_class": "product",
+        "snippet": "The ANELLO X3 IMU\u2019s high-performance and plug-and-play integration streamline development, making it an ideal choice for aerial and maritime platforms such as drones, UAVs, VTOLs, UUVs, and ROVs that require dependable navigation in challenging environments."
+      }
+    ],
+    "notes": "Sells IMU and INS navigation sensor hardware (SiPhOG\u2122-based) that integrate into third-party UAVs, AUVs, ground robots, and maritime vessels. Not an OEM of complete drone platforms."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "ANELLO X3 IMU",
+        "product_type": "3-axis optical gyro IMU",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0156",
+            "line_start": 175,
+            "line_end": 177,
+            "url": "https://www.anellophotonics.com/products/x3-imu",
+            "page_class": "product",
+            "snippet": "### ANELLO X3 IMU\nUltra-Compact 3-Axis Optical Gyro IMU\nfor Aerial and Maritime Missions"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ANELLO Aerial INS",
+        "product_type": "inertial navigation system for UAVs/VTOLs",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0138",
+            "line_start": 175,
+            "line_end": 176,
+            "url": "https://www.anellophotonics.com/products/aerial-ins",
+            "page_class": "product",
+            "snippet": "### ANELLO AERIAL INS\nHigh-Performance INS for Autonomous Aerial Operations In GPS-Denied Environments"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ANELLO Ground INS",
+        "product_type": "optical gyro INS for ground vehicles",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0150",
+            "line_start": 175,
+            "line_end": 177,
+            "url": "https://www.anellophotonics.com/products/ground-ins",
+            "page_class": "product",
+            "snippet": "### ANELLO GROUND INS\\*\nHigh-Performance Optical Gyro INS for Autonomous Navigation on Every Terrain\n\\*Previously known as ANELLO GNSS INS"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ANELLO Ground IMU",
+        "product_type": "rugged optical gyro IMU for robotics/construction",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0149",
+            "line_start": 175,
+            "line_end": 177,
+            "url": "https://www.anellophotonics.com/products/ground-imu",
+            "page_class": "product",
+            "snippet": "### ANELLO GROUND IMU\\*\nRugged Optical Gyro IMU for Robotics and Construction Autonomy\n\\*Previously known as ANELLO IMU+"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ANELLO Maritime INS",
+        "product_type": "INS for autonomous surface vessels and AUVs",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0153",
+            "line_start": 175,
+            "line_end": 176,
+            "url": "https://www.anellophotonics.com/products/maritime-ins",
+            "page_class": "product",
+            "snippet": "### ANELLO MARITIME INS\nHigh-Performance INS for Autonomous Maritime Operations in GPS-Denied Environments"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ANELLO Ground INS/ATAK Kit",
+        "product_type": "defense navigation kit with ATAK interface",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0151",
+            "line_start": 175,
+            "line_end": 177,
+            "url": "https://www.anellophotonics.com/products/ground-ins-atak-kit",
+            "page_class": "product",
+            "snippet": "### ANELLO GROUND INS/ATAK KIT\nReal-Time Navigation In GPS-Denied Environments\n\\*Previously known as ANELLO GNSS INS/ATAK KIT"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ANELLO Evaluation Kit",
+        "product_type": "GNSS/INS evaluation kit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0142",
+            "line_start": 175,
+            "line_end": 176,
+            "url": "https://www.anellophotonics.com/products/gnss-ins-evaluation-kit",
+            "page_class": "product",
+            "snippet": "### ANELLO EVALUATION KIT\nTest the Future of Navigation Today"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ANELLO CMOSS PNT A-100",
+        "product_type": "3U-VPX CMOSS-compliant PNT card for defense",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0139",
+            "line_start": 175,
+            "line_end": 178,
+            "url": "https://www.anellophotonics.com/products/cmoss-pnt",
+            "page_class": "product",
+            "snippet": "ANELLO CMOSS PNT A-100\nLong-Term Navigation in GPS-Denied using on-board Optical Gyroscope INS\nANELLO CMOSS PNT A-100\nLong-Term Navigation in GPS-Denied using on-board Optical Gyroscope INS"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0151",
+        "line_start": 180,
+        "line_end": 180,
+        "url": "https://www.anellophotonics.com/products/ground-ins-atak-kit",
+        "page_class": "product",
+        "snippet": "The ANELLO GROUND INS/ATAK Kit utilizes advanced optical gyroscope technology to deliver real time high-accuracy positioning in environments where GPS is unavailable. The kit is available now and can quickly be installed into any vehicle in under 20 minutes."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 301,
+        "line_end": 301,
+        "url": "https://www.anellophotonics.com",
+        "page_class": "homepage",
+        "snippet": "[ANELLO Photonics Announces Availability](https://www.prnewswire.com/news-releases/anello-photonics-announces-availability-of-the-anello-imu-with-optical-gyroscope-technology-for-autonomous-construction-robotics-mining-trucking-and-defense-applications-301917711.html) **\u2192**"
+      }
+    ],
+    "notes": "Multiple catalog SKUs with full datasheets available for download, a reseller program, product launches announced at CES 2026, and at least one product explicitly described as 'available now'. Also holds government production contracts (DoW APFIT, US Navy SBIR Phase II)."
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 24,
+    "total_cost_usd": 0.5594908000000001,
+    "created_at": "2026-05-03T11:10:38+00:00",
+    "extract_version": "0.1.0"
+  },
+  "tagline": "Manufactures optical-gyro inertial navigation systems (INS) and inertial measurement units (IMU) for UAVs, autonomous ground vehicles, and maritime platforms operating in GPS-denied environments. Products span aerial, ground, and maritime domains; includes ATAK-integrated kit for tactical use. Public evidence on NDAA compliance, Blue UAS certification, or active defense contracts is absent or thin. Silicon photonics core technology claimed but independent validation not readily available."
+}

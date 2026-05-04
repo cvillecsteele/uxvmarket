@@ -1,0 +1,423 @@
+{
+  "target_id": "modalai",
+  "run_id": "canonical",
+  "display_name": "ModalAI",
+  "homepage_url": "https://www.modalai.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/modalai/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "flight_and_vehicle_control",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 236,
+            "line_end": 236,
+            "url": "https://www.modalai.com",
+            "page_class": "homepage",
+            "snippet": "Blue UAS Framework companion computer with built-in PX4/Ardupilot flight controller that enables smaller, smarter, and safer drones and robots"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0746",
+            "line_start": 244,
+            "line_end": 244,
+            "url": "https://www.modalai.com/products/voxl-2",
+            "page_class": "product",
+            "snippet": "VOXL\u00ae 2 Next Generation Blue UAS 2.0 Autonomous AI Autopilot"
+          }
+        ],
+        "notes": "VOXL 2 and VOXL 2 Mini are AI autopilot companion computers with integrated PX4/ArduPilot flight controllers; Flight Core v2 is a dedicated PX4 flight controller."
+      },
+      {
+        "category": "propulsion_electronics",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0670",
+            "line_start": 229,
+            "line_end": 231,
+            "url": "https://www.modalai.com/products/m0138",
+            "page_class": "product",
+            "snippet": "High Performance 4-in-1 Electronic Speed Controller\n---------------------------------------------------\nThis high-performance ESC supports over 300A burst current using 100A MOSFETs per channel. Communicate reliably with low-latency digital UART from your flight controller to your 4-in-1 ESC. This ESC is designed, built and tested in the USA and is NDAA '20 Section 848 compliant."
+          }
+        ],
+        "notes": "VOXL ESC FPV and VOXL ESC Mini are US-assembled 4-in-1 ESCs compatible with PX4/VOXL 2."
+      },
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 223,
+            "line_end": 224,
+            "url": "https://www.modalai.com",
+            "page_class": "homepage",
+            "snippet": "Onboard VIO for Autonomous Navigation\nStarling 2 and VOXL SDK accelerate the development of GPS-denied navigation, AI and flight for sUAS"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0746",
+            "line_start": 252,
+            "line_end": 253,
+            "url": "https://www.modalai.com/products/voxl-2",
+            "page_class": "product",
+            "snippet": "*   15 TOPS AI embedded Neural Processing Unit (NPU)\n*   Integrated flight controller on DSP with TDK\u00ae ICM-42688 IMU and ICP-10111 Barometer"
+          }
+        ],
+        "notes": "VOXL 2 includes onboard IMU; ModalAI sells dedicated image sensor modules for VIO/GPS-denied navigation."
+      },
+      {
+        "category": "communications",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0676",
+            "line_start": 214,
+            "line_end": 215,
+            "url": "https://www.modalai.com/products/m0184",
+            "page_class": "product",
+            "snippet": "ELRS 915MHz Gemini Receiver - Blue UAS Framework, NDAA-compliant, Assembled in USA (M0184)\n=========================================================================================="
+          }
+        ],
+        "notes": "ELRS 915MHz Gemini Receiver (M0184), VOXL Microhard Modem, MVX FPV Video Receiver (VRX) - data links, radios, FPV video."
+      },
+      {
+        "category": "airframes",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0181",
+            "line_start": 212,
+            "line_end": 213,
+            "url": "https://www.modalai.com/collections/blue-uas-cleared-drones",
+            "page_class": "compliance",
+            "snippet": "Stinger Vision FPV and Seeker Vision FPV (5\" and 7\") are now on the Blue UAS Cleared list.\nBoth variants of Seeker Vision FPV are now available to government customers through ADS, Inc, CHS6 and can be purchased via P-card by reaching out at\u00a0**[modalai.com](https://www.modalai.com/pages/blue-uas-cleared-fpv-customer-intake-form \"https://www.modalai.com/pages/blue-uas-cleared-fpv-customer-intake-form\")[](https://www.modalai.com/pages/blue-uas-cleared-fpv-customer-intake-form \"https://www.modalai.com/pages/blue-uas-cleared-fpv-customer-intake-form\")**."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0592",
+            "line_start": 226,
+            "line_end": 228,
+            "url": "https://www.modalai.com/pages/blue-uas",
+            "page_class": "compliance",
+            "snippet": "Stinger Vision FPV\n------------------\n575g | 12+ minutes flight time | Autonomous FPV | Blue UAS Cleared"
+          }
+        ],
+        "notes": "Stinger Vision FPV and Seeker Vision FPV are complete Blue UAS cleared FPV drones; Starling 2 Max is a complete GPS-denied development drone."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "San Diego",
+      "state_or_province": "California",
+      "country": "United States",
+      "address": "10855 Sorrento Valley Rd, Suite 2, San Diego, CA 92121"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0597",
+        "line_start": 225,
+        "line_end": 227,
+        "url": "https://www.modalai.com/pages/contact-us",
+        "page_class": "contact",
+        "snippet": "10855 Sorrento Valley Rd\nSuite 2\nSan Diego, CA 92121"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 303,
+        "line_end": 303,
+        "url": "https://www.modalai.com",
+        "page_class": "homepage",
+        "snippet": "ModalAI\u00ae accelerates autonomy by providing innovators with robot and drone perception and communications systems that are manufactured in the U.S.A. Our highly-integrated AI-powered modules empower a variety of industries to utilize aerial and ground autonomous navigations systems that communicate on 4G and 5G cellular networks. Learn more [about ModalAI.](/pages/about-us \"About Us\")"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 1,
+        "line_end": 1,
+        "url": "https://www.modalai.com",
+        "page_class": "homepage",
+        "snippet": "ModalAI, Inc. | Assembled in USA | Autopilots that Accelerate Drone and Robot Autonomy"
+      }
+    ],
+    "notes": "Primary business is selling VOXL 2 autopilot/companion computer to OEM drone makers (Inspired Flight, Cleo Robotics, XTEND, Corvus Drones all integrate VOXL). Also produces complete FPV drones (Stinger/Seeker Vision FPV) and a reference drone (Starling 2 Max)."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "VOXL 2",
+        "product_type": "AI autopilot companion computer (PX4/ArduPilot flight controller)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0746",
+            "line_start": 222,
+            "line_end": 224,
+            "url": "https://www.modalai.com/products/voxl-2",
+            "page_class": "product",
+            "snippet": "VOXL\u00ae 2\n=======\n$1,269.99"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "VOXL 2 Mini",
+        "product_type": "compact AI autopilot companion computer",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0592",
+            "line_start": 277,
+            "line_end": 280,
+            "url": "https://www.modalai.com/pages/blue-uas",
+            "page_class": "compliance",
+            "snippet": "![ModalAI, Inc. Dev Kit VOXL<sup>\u00ae</sup> 2 Mini](//www.modalai.com/cdn/shop/files/modalai-inc-dev-kit-voxl-sup-reg-sup-2-mini-1172801574_600x600.png?v=1749673359)\nVOXL\u00ae 2 Mini\nfrom $1,199.99\n](/products/voxl-2-mini)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Stinger Vision FPV",
+        "product_type": "Blue UAS Cleared autonomous FPV drone (3.5\" sUAS)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0592",
+            "line_start": 226,
+            "line_end": 228,
+            "url": "https://www.modalai.com/pages/blue-uas",
+            "page_class": "compliance",
+            "snippet": "Stinger Vision FPV\n------------------\n575g | 12+ minutes flight time | Autonomous FPV | Blue UAS Cleared"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Seeker Vision FPV",
+        "product_type": "Blue UAS Cleared FPV drone (5\" and 7\" variants)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0181",
+            "line_start": 212,
+            "line_end": 213,
+            "url": "https://www.modalai.com/collections/blue-uas-cleared-drones",
+            "page_class": "compliance",
+            "snippet": "Stinger Vision FPV and Seeker Vision FPV (5\" and 7\") are now on the Blue UAS Cleared list.\nBoth variants of Seeker Vision FPV are now available to government customers through ADS, Inc, CHS6 and can be purchased via P-card by reaching out at\u00a0**[modalai.com](https://www.modalai.com/pages/blue-uas-cleared-fpv-customer-intake-form \"https://www.modalai.com/pages/blue-uas-cleared-fpv-customer-intake-form\")[](https://www.modalai.com/pages/blue-uas-cleared-fpv-customer-intake-form \"https://www.modalai.com/pages/blue-uas-cleared-fpv-customer-intake-form\")**."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Starling 2 Max",
+        "product_type": "GPS-denied outdoor development drone",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0592",
+            "line_start": 272,
+            "line_end": 275,
+            "url": "https://www.modalai.com/pages/blue-uas",
+            "page_class": "compliance",
+            "snippet": "![ModalAI, Inc. Drone Starling 2 Max Outdoor GPS-denied Development Drone](//www.modalai.com/cdn/shop/files/modalai-inc-drone-starling-2-max-outdoor-gps-denied-development-drone-1125059458_600x600.png?v=1738708179)\nStarling 2 Max GPS-denied Development Drone\nfrom $3,199.99\n](/products/starling-2-max)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "VOXL ESC FPV 4-in-1 (M0138)",
+        "product_type": "4-in-1 electronic speed controller",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0670",
+            "line_start": 217,
+            "line_end": 217,
+            "url": "https://www.modalai.com/products/m0138",
+            "page_class": "product",
+            "snippet": "VOXL ESC FPV 4-in-1 with Built-in Power Module (MDK-M0138)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ELRS 915MHz Gemini Receiver (M0184)",
+        "product_type": "Blue UAS Framework radio receiver, NDAA-compliant",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0676",
+            "line_start": 214,
+            "line_end": 215,
+            "url": "https://www.modalai.com/products/m0184",
+            "page_class": "product",
+            "snippet": "ELRS 915MHz Gemini Receiver - Blue UAS Framework, NDAA-compliant, Assembled in USA (M0184)\n=========================================================================================="
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MVX FPV Video Receiver (VRX)",
+        "product_type": "FPV video receiver with DisplayPort/HDMI output",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0592",
+            "line_start": 312,
+            "line_end": 315,
+            "url": "https://www.modalai.com/pages/blue-uas",
+            "page_class": "compliance",
+            "snippet": "![ModalAI, Inc. MVX VRX with DisplayPort to Mini-HDMI Adapter, Battery, and XT30 Y-Cable for Power, Incl. Cables MVX FPV Video Receiver (VRX)](//www.modalai.com/cdn/shop/files/modalai-inc-mvx-vrx-with-displayport-to-mini-hdmi-adapter-battery-and-xt30-y-cable-for-power-incl-cables-mvx-fpv-video-receiver-vrx-1218935170_600x600.png?v=1769905508)\nMVX FPV Video Receiver (VRX)\nfrom $1,499.99\n](/products/vrx)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Flight Core v2",
+        "product_type": "PX4 flight controller board",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 20,
+            "line_end": 20,
+            "url": "https://www.modalai.com",
+            "page_class": "homepage",
+            "snippet": "        [Flight Core v2 - PX4](https://www.modalai.com/products/flight-core-v2)"
+          }
+        ],
+        "notes": "Listed in product navigation; no dedicated product page in corpus."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": "yes",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0592",
+        "line_start": 211,
+        "line_end": 213,
+        "url": "https://www.modalai.com/pages/blue-uas",
+        "page_class": "compliance",
+        "snippet": "Commitment to NDAA Compliance\n-----------------------------\nModalAI offers a collection of autopilots, accessories, and development drones as part of the Blue UAS program. All of which comply with the following:"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 242,
+        "line_end": 245,
+        "url": "https://www.modalai.com",
+        "page_class": "homepage",
+        "snippet": "*   #### NDAA Compliant\n    *   FY 2024 NDAA, Sections 1823-1833\n    *   FY 2023 NDAA, Section 817\n    *   FY 2020 NDAA, Section 848"
+      }
+    ],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": "yes",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0181",
+        "line_start": 212,
+        "line_end": 213,
+        "url": "https://www.modalai.com/collections/blue-uas-cleared-drones",
+        "page_class": "compliance",
+        "snippet": "Stinger Vision FPV and Seeker Vision FPV (5\" and 7\") are now on the Blue UAS Cleared list.\nBoth variants of Seeker Vision FPV are now available to government customers through ADS, Inc, CHS6 and can be purchased via P-card by reaching out at\u00a0**[modalai.com](https://www.modalai.com/pages/blue-uas-cleared-fpv-customer-intake-form \"https://www.modalai.com/pages/blue-uas-cleared-fpv-customer-intake-form\")[](https://www.modalai.com/pages/blue-uas-cleared-fpv-customer-intake-form \"https://www.modalai.com/pages/blue-uas-cleared-fpv-customer-intake-form\")**."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0592",
+        "line_start": 243,
+        "line_end": 247,
+        "url": "https://www.modalai.com/pages/blue-uas",
+        "page_class": "compliance",
+        "snippet": "*   #### Blue UAS Cleared\n    *   Avionics US-made by ModalAI\n    *   VTX US-made by ModalAI\n    *   VRX w/ HDMI Output US-made by ModalAI\n    *   Built around Blue UAS Framework components"
+      }
+    ],
+    "notes": "Stinger Vision FPV and Seeker Vision FPV (5\" and 7\") are on the DIU Blue UAS Cleared List. VOXL 2 is listed as a Blue UAS Framework component."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0597",
+        "line_start": 230,
+        "line_end": 231,
+        "url": "https://www.modalai.com/pages/contact-us",
+        "page_class": "contact",
+        "snippet": "We ship internationally!\nMost products ship within 10 business days."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0746",
+        "line_start": 232,
+        "line_end": 235,
+        "url": "https://www.modalai.com/products/voxl-2",
+        "page_class": "product",
+        "snippet": "Expected to ship within 30 business days from San Diego, CA\n+\nHardware Lifecycle\n\u21aa Active Production [(Definition)](https://www.modalai.com/pages/product-lifecycle-definitions)"
+      }
+    ],
+    "notes": "Products list prices, ship within 10-30 business days from San Diego CA; VOXL 2 carries 'Active Production' lifecycle designation."
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 20,
+    "total_cost_usd": 0.7276725,
+    "created_at": "2026-05-03T12:00:19+00:00",
+    "extract_version": "0.1.0"
+  },
+  "tagline": "San Diego-based maker of autonomous flight control systems (VOXL 2, VOXL 2 Mini autopilots) and Blue UAS\u2013cleared FPV drones (Stinger Vision, Seeker Vision). Also supplies ESCs, vision sensors, and communications modules for drone integration. NDAA-compliant, production-ready. Strong ecosystem ties (PX4, Qualcomm, ROS). Limited public evidence of major defense prime contracts; marketing emphasizes commercial/developer use cases."
+}

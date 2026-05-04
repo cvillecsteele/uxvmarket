@@ -1,0 +1,256 @@
+{
+  "target_id": "competition-composites-inc",
+  "run_id": "canonical",
+  "display_name": "Competition Composites Inc.",
+  "homepage_url": "https://www.cci.one",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/competition-composites-inc/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "structures_and_materials",
+        "is_primary": true,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 169,
+            "line_end": 169,
+            "url": "https://www.cci.one",
+            "page_class": "homepage",
+            "snippet": "What began as **_Phil\u2019s Foils_**, crafting high-performance marine products, has grown into a full-service composite fabrication facility offering design, tooling, and manufacturing across a wide range of applications."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 161,
+            "line_end": 162,
+            "url": "https://www.cci.one",
+            "page_class": "homepage",
+            "snippet": "### [Radomes](/radomes)\nPrecision-built, RF-transparent enclosures built to protect and perform in the harshest conditions."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0028",
+            "line_start": 168,
+            "line_end": 168,
+            "url": "https://www.cci.one/news-updates/government-visit-highlights-ccis-dual-use-capabilities",
+            "page_class": "compliance",
+            "snippet": "*   Radome systems supporting an Australian counter-drone security organization"
+          }
+        ],
+        "notes": "Composite radomes, enclosures, panels, marine foils \u2014 structural composite parts. Radomes explicitly supplied to an Australian counter-drone security org."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "CCI is primarily a composites fabricator. UXV-adjacent products are radomes (composite RF-transparent enclosures) supplied to a counter-drone security organization, plus communication shelters. No drone airframe components explicitly sold."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Arnprior",
+      "state_or_province": "Ontario",
+      "country": "Canada",
+      "address": "251 5th Avenue"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0012",
+        "line_start": 157,
+        "line_end": 159,
+        "url": "https://www.cci.one/contact",
+        "page_class": "contact",
+        "snippet": "251, 5th Ave.,\nArnprior, Ontario, Canada,\nK7S 3M3"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "broad_industrial",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 168,
+        "line_end": 169,
+        "url": "https://www.cci.one",
+        "page_class": "homepage",
+        "snippet": "Since 2002, Competition Composites Inc. (CCI) has been serving the global sailing and composites communities with precision-built components and reliable service.\nWhat began as **_Phil\u2019s Foils_**, crafting high-performance marine products, has grown into a full-service composite fabrication facility offering design, tooling, and manufacturing across a wide range of applications."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0028",
+        "line_start": 168,
+        "line_end": 168,
+        "url": "https://www.cci.one/news-updates/government-visit-highlights-ccis-dual-use-capabilities",
+        "page_class": "compliance",
+        "snippet": "*   Radome systems supporting an Australian counter-drone security organization"
+      }
+    ],
+    "notes": "Primarily a composites fabricator serving marine, defense, and industrial sectors. One active program supplies radomes to an Australian counter-drone security organization, but CCI has no UXV-specific product line."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Radomes",
+        "product_type": "RF-transparent composite protective enclosures for antenna systems",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 161,
+            "line_end": 162,
+            "url": "https://www.cci.one",
+            "page_class": "homepage",
+            "snippet": "### [Radomes](/radomes)\nPrecision-built, RF-transparent enclosures built to protect and perform in the harshest conditions."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Communication Shelters",
+        "product_type": "Composite communication enclosures for remote/field use",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0028",
+            "line_start": 167,
+            "line_end": 167,
+            "url": "https://www.cci.one/news-updates/government-visit-highlights-ccis-dual-use-capabilities",
+            "page_class": "compliance",
+            "snippet": "*   Remote communications shelters in development for the RCMP"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Didi Mini Rudder",
+        "product_type": "Marine composite rudder (MiniTransat 6.5)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0079",
+            "line_start": 151,
+            "line_end": 152,
+            "url": "https://www.cci.one/shop-rudders/dix-design",
+            "page_class": "news",
+            "snippet": "### **Dix Design DidiMini Rudder**\nIf you\u2019re building a Didi Mini (MiniTransat 6.5) you\u2019ll want to get your foils from Phil. Shown here is the rudder \u2013 you\u2019ll need two!"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Hampton One Design Rudder",
+        "product_type": "Marine composite rudder",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0107",
+            "line_start": 147,
+            "line_end": 151,
+            "url": "https://www.cci.one/shop-rudders/hampton-one-design",
+            "page_class": "news",
+            "snippet": "Hampton One Design\n==================\nAug 18\nWritten By [Emry](/shop-rudders?author=5ccba67795f4210001a0cf5f)\nThis design came from a Hampton One Design fleet member who sent me his own laminated blank for milling. We\u2019ve built a few more since that first one."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Didi26 Keel",
+        "product_type": "Marine composite keel core",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0079",
+            "line_start": 169,
+            "line_end": 170,
+            "url": "https://www.cci.one/shop-rudders/dix-design",
+            "page_class": "news",
+            "snippet": "### **Dix Design Didi26 Keel**\nThe Didi26 keel core is one large piece of laminated timber! You don\u2019t really want to shape that yourself, do you? Let our CNC do it for you."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Named product lines found. More rudder SKUs exist in shop (Hanse, Hinckley, etc.) but text not fetched."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "Canadian company; Controlled Goods (Canadian defense) certified but no NDAA Section 848/889 claim anywhere in corpus."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS or Blue sUAS mention anywhere in corpus."
+  },
+  "readiness": {
+    "value": "low_rate_production",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 170,
+        "line_end": 170,
+        "url": "https://www.cci.one",
+        "page_class": "homepage",
+        "snippet": "Today, clients trust CCI to deliver everything from one-off prototypes to short-run production, always with a commitment to quality, consistency, and technical integrity."
+      }
+    ],
+    "notes": "Site explicitly states 'one-off prototypes to short-run production'. Shop lists specific named rudder SKUs available to order. Custom fabrication orientation."
+  },
+  "unresolved_questions": [
+    "No product pages (radomes, marine, engineered parts) were fetched \u2014 only 6 of 8 pages had text files; PDFs (ISO/Controlled Goods certs) had no text extraction. Additional rudder SKU pages (Hanse, Hinckley, etc.) exist in shop but were skipped."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.cci.one/radomes",
+      "reason": "Would confirm radome product details, UXV/defense customer specifics, and whether radomes are positioned as UXV-supply-chain components",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.cci.one/about-us",
+      "reason": "Would confirm company history, primary market sectors, and whether UXV/defense is a stated focus",
+      "expected_evidence": [
+        "drone_supply_chain_role",
+        "products_categories",
+        "headquarters"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "tagline": "Canadian composite fabricator producing radomes, communication shelters, custom panels, tanks, and engineered parts for defence and critical infrastructure; also manufactures marine foils and competition sailboat components. ISO 9001:2015 and Controlled Goods certified. Public evidence of U.S. Naval Observatory work. NDAA compliance status unknown; no Blue UAS designation found.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 23,
+    "total_cost_usd": 0.5870323000000002,
+    "created_at": "2026-05-04T01:24:58+00:00",
+    "extract_version": "0.1.0"
+  }
+}

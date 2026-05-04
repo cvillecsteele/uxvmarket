@@ -1,0 +1,332 @@
+{
+  "target_id": "defensync",
+  "run_id": "canonical",
+  "display_name": "DefenSync",
+  "homepage_url": "https://www.defensync.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/defensync/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "electronic_warfare",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 21,
+            "line_end": 25,
+            "url": "https://www.defensync.com",
+            "page_class": "homepage",
+            "snippet": "    [GPS JAMMING](https://www.defensync.com/gps-jamming)\n    [RADIO FREQUENCY JAMMING](https://www.defensync.com/rf-jamming)\n    [LASER BEAM](https://www.defensync.com/laser-beam)\n    ###### INTERCEPTION\n    [RF CYBER-TAKEOVER](https://www.defensync.com/rf-cybertakeover)"
+          }
+        ],
+        "notes": "GPS jamming, RF jamming, laser beam interception, and RF cyber-takeover are core C-UAS offerings"
+      },
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0033",
+            "line_start": 44,
+            "line_end": 46,
+            "url": "https://www.defensync.com/radar",
+            "page_class": "other",
+            "snippet": "Radio Frequency 360\u00b0 Detector\n-----------------------------\nDefenSync SkyDefender / Detection"
+          }
+        ],
+        "notes": "RF 360\u00b0 detection (SkyDefender), radar, for drone detection"
+      },
+      {
+        "category": "isr_payloads",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 19,
+            "line_end": 19,
+            "url": "https://www.defensync.com",
+            "page_class": "homepage",
+            "snippet": "    [ELECTRO-OPTICAL SENSORS](https://www.defensync.com/electro-optical-sensors)"
+          }
+        ],
+        "notes": "Electro-optical sensors for drone detection"
+      },
+      {
+        "category": "ground_segment",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0007",
+            "line_start": 44,
+            "line_end": 46,
+            "url": "https://www.defensync.com/skyeye-command-and-control",
+            "page_class": "other",
+            "snippet": "SkyEye : Safeguarding the Skies\n-------------------------------\nCommand and Control System"
+          }
+        ],
+        "notes": "SkyEye / Aerial Fortress C2 system for centralized counter-UAS command and control"
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Petach Tikva",
+      "state_or_province": null,
+      "country": "Israel",
+      "address": "37 Amal St. Petach Tikva, Israel, 4951337"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 176,
+        "line_end": 177,
+        "url": "https://www.defensync.com",
+        "page_class": "homepage",
+        "snippet": "37 Amal St. Petach Tikva,\nIsrael,\u00a04951337"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "integrator",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 53,
+        "line_end": 53,
+        "url": "https://www.defensync.com",
+        "page_class": "homepage",
+        "snippet": "DefenSync specializes in integration of counter UAS (Unmanned Aerial Systems) solutions. With a vision to be the industry leader, we consistently deliver innovative and reliable solutions tailored to our valued client\u2019s needs."
+      }
+    ],
+    "notes": "DefenSync specializes in integrating third-party C-UAS technologies (detection, jamming, EO, C2) into customized solutions. Also resells Skydio drones as an authorized partner."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "SkyDefender",
+        "product_type": "counter-UAS RF 360\u00b0 detection system",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0033",
+            "line_start": 44,
+            "line_end": 46,
+            "url": "https://www.defensync.com/radar",
+            "page_class": "other",
+            "snippet": "Radio Frequency 360\u00b0 Detector\n-----------------------------\nDefenSync SkyDefender / Detection"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SkyEye",
+        "product_type": "centralized C-UAS command and control system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0007",
+            "line_start": 44,
+            "line_end": 46,
+            "url": "https://www.defensync.com/skyeye-command-and-control",
+            "page_class": "other",
+            "snippet": "SkyEye : Safeguarding the Skies\n-------------------------------\nCommand and Control System"
+          }
+        ],
+        "notes": "Also referred to as 'Aerial Fortress'"
+      },
+      {
+        "name": "GPS Jamming",
+        "product_type": "counter-UAS GPS jamming solution",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 21,
+            "line_end": 21,
+            "url": "https://www.defensync.com",
+            "page_class": "homepage",
+            "snippet": "    [GPS JAMMING](https://www.defensync.com/gps-jamming)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "RF Jamming",
+        "product_type": "counter-UAS radio frequency jamming solution",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 22,
+            "line_end": 22,
+            "url": "https://www.defensync.com",
+            "page_class": "homepage",
+            "snippet": "    [RADIO FREQUENCY JAMMING](https://www.defensync.com/rf-jamming)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Laser Beam",
+        "product_type": "counter-UAS laser interception system",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 23,
+            "line_end": 23,
+            "url": "https://www.defensync.com",
+            "page_class": "homepage",
+            "snippet": "    [LASER BEAM](https://www.defensync.com/laser-beam)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "RF Cyber-Takeover",
+        "product_type": "counter-UAS RF cyber-takeover system",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 25,
+            "line_end": 25,
+            "url": "https://www.defensync.com",
+            "page_class": "homepage",
+            "snippet": "    [RF CYBER-TAKEOVER](https://www.defensync.com/rf-cybertakeover)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Skydio X10",
+        "product_type": "AI-powered autonomous drone (resold via Skydio partnership)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0041",
+            "line_start": 57,
+            "line_end": 58,
+            "url": "https://www.defensync.com/skydiox10",
+            "page_class": "other",
+            "snippet": "### AI - Powered Drone Technology\nThe best sensors for a drone this small, piloted by the most advanced AI in the sky. To get the data you need, wherever and whenever you need it."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Skydio X10D",
+        "product_type": "defense drone (resold via Skydio partnership)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 33,
+            "line_end": 33,
+            "url": "https://www.defensync.com",
+            "page_class": "homepage",
+            "snippet": "    [SKYDIO X10D](https://www.defensync.com/skydiox10d)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": "yes",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0041",
+        "line_start": 384,
+        "line_end": 384,
+        "url": "https://www.defensync.com/skydiox10",
+        "page_class": "other",
+        "snippet": "    NDAA Compliance:\u00a0NDAA Compliant"
+      }
+    ],
+    "notes": "NDAA compliance stated in the Skydio X10 product specification (the drone DefenSync resells). No NDAA claim for DefenSync's own C-UAS integration products."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 148,
+        "line_end": 151,
+        "url": "https://www.defensync.com",
+        "page_class": "homepage",
+        "snippet": "###### Detection Area\n103\n---\n###### Sensors Deployed"
+      }
+    ],
+    "notes": "Active catalog of C-UAS products and Skydio drone resale; customer deployments cited (103 sensors deployed, 11,980 sq. km detection area)"
+  },
+  "unresolved_questions": [
+    "Whether DefenSync's own branded C-UAS products (SkyDefender, SkyEye/Aerial Fortress) are manufactured in-house or sourced from OEM partners",
+    "Whether DefenSync holds any Blue UAS or DIU program authorizations",
+    "NDAA compliance of DefenSync's own integration products beyond resold Skydio hardware"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.defensync.com/company",
+      "reason": "Company page would confirm ownership structure, NDAA/compliance statements for DefenSync's own products, and whether products are manufactured in-house or sourced from partners",
+      "expected_evidence": [
+        "headquarters",
+        "ndaa",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_budget",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Israel-based counter-UAS integrator offering detection (radar, RF/EO sensors), jamming (GPS, RF, laser), RF cyber-takeover, and SkyEye C2 platform; also distributes Skydio X10/X10D autonomous drones. NDAA and Blue UAS certification status unknown. Public evidence on operational deployment, performance specs, and government contracts is thin.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 18,
+    "total_cost_usd": 0.5346632,
+    "created_at": "2026-05-04T01:41:28+00:00",
+    "extract_version": "0.1.0"
+  }
+}

@@ -1,0 +1,361 @@
+{
+  "target_id": "harris-aerial",
+  "run_id": "canonical",
+  "display_name": "Harris Aerial",
+  "homepage_url": "https://harrisaerial.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/harris-aerial/website",
+  "products": [
+    {
+      "name": "Carrier H6 Electric",
+      "category": "airframes",
+      "descriptor": "battery-powered heavy-lift hexacopter, 8 kg payload, 48-minute flight time",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0023",
+          "line_start": 90,
+          "line_end": 93,
+          "url": "https://harrisaerial.com/carrier-h6-platform",
+          "page_class": "product",
+          "snippet": "The **Carrier H6 Electric** is a long-duration, heavy-lift hexacopter powered by smart lithium polymer batteries. It\u2019s ideal when you need a clean electric platform\u2014while still supporting serious payload versatility for surveying, payload deployment, search & rescue equipment, and thermal imaging missions.\n**Highlights**\n*   **8 kg max payload (17.6 lbs)**\n*   **48 minute** flight time"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Carrier H6 Hybrid",
+      "category": "airframes",
+      "descriptor": "gas-electric hybrid hexacopter with 2.4 kW EFI generator, 5 kg payload, up to 5-hour endurance",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0023",
+          "line_start": 84,
+          "line_end": 86,
+          "url": "https://harrisaerial.com/carrier-h6-platform",
+          "page_class": "product",
+          "snippet": "The **Carrier H6 Hybrid EFI** is a high-endurance, gas-electric hybrid built around a **2.4kW electronic fuel injection generator** for long-duration missions. It\u2019s optimized for applications like LiDAR surveying, photogrammetry, corridor mapping, and utility inspections\u2014where staying airborne longer reduces battery swaps and increases daily coverage.\n**Highlights**\n*   **5 kg max payload**"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Carrier H6 Hydrone",
+      "category": "airframes",
+      "descriptor": "hydrogen fuel-cell hybrid hexacopter, near-silent, up to 2.5-hour endurance, 5 kg payload",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0023",
+          "line_start": 97,
+          "line_end": 97,
+          "url": "https://harrisaerial.com/carrier-h6-platform",
+          "page_class": "product",
+          "snippet": "The **Carrier H6 Hydrone** is a hybrid electric drone powered by a hydrogen fuel cell, designed for extended endurance while maintaining the **nearly silent operation** of an electric platform. It\u2019s equipped with [Intelligent Energy](chatgpt://generic-entity?number=1)\u2019s **2.4kW fuel cell power module**, delivering long flight times for scientific-grade sensors such as multispectral cameras, professional DSLRs, and LiDAR."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Carrier Hx8",
+      "category": "airframes",
+      "descriptor": "compact coaxial octocopter with 8 kg payload and high motor redundancy",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 87,
+          "line_end": 90,
+          "url": "https://harrisaerial.com",
+          "page_class": "homepage",
+          "snippet": "Carrier Hx8\n-----------\nCompact co-axial octocopter with 8kg payload capacity and unmatched motor redunandcy.\n[Learn More](https://harrisaerial.com/Hx8-lander/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Carrier H6HL",
+      "category": "airframes",
+      "descriptor": "heavy-lift hexacopter with 40 kg max payload capacity",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 92,
+          "line_end": 95,
+          "url": "https://harrisaerial.com",
+          "page_class": "homepage",
+          "snippet": "Carrier H6HL\n------------\n40kg Maximum Payload, our heaviest lifting multirotor to date.\n[Learn More](https://harrisaerial.com/carrier-drones/carrier-h6hl/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Carrier Hx8 Tether",
+      "category": "airframes",
+      "descriptor": "tethered variant of the Carrier Hx8 octocopter for persistent aerial operations",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0023",
+          "line_start": 151,
+          "line_end": 152,
+          "url": "https://harrisaerial.com/carrier-h6-platform",
+          "page_class": "product",
+          "snippet": "*   [Carrier Hx8](https://harrisaerial.com/carrier-drones/carrier-Hx8/)\n*   [Carrier Hx8 Tether](https://harrisaerial.com/Hx8-tether/)"
+        }
+      ],
+      "notes": "Product page (harrisaerial.com/hx8-tether/) was not fetched; named consistently in site navigation under Carrier Drones."
+    },
+    {
+      "name": "C-GCS",
+      "category": "ground_segment",
+      "descriptor": "professional GCS with 19-inch HD sunlight-viewable display and HOTAS controls",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0040",
+          "line_start": 73,
+          "line_end": 73,
+          "url": "https://harrisaerial.com/ground-control/c-gcs",
+          "page_class": "capability",
+          "snippet": "Introducing our Professional Ground Control Station with a daylight-viewable 19 inch HD Video Display, Mission Planning Screen, Smooth 3-axis joystick, and much more. C-GCS is fully compatible with all of Harris Aerial\u2019s Carrier drones and easily integrated with most third-party drone platforms. C-GCS is a revolutionary break-through in safe and easy operation of unmanned aerial vehicles"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "C-NAVIGATOR",
+      "category": "ground_segment",
+      "descriptor": "compact rugged NDAA-compliant handheld GCS with broadband datalink and mission planning",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "yes",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0041",
+          "line_start": 70,
+          "line_end": 73,
+          "url": "https://harrisaerial.com/ground-control/c-navigator",
+          "page_class": "capability",
+          "snippet": "C-NAVIGATOR\n-----------\n##### Carrier Navigator\nC-NAVIGATOR is Harris Aerial\u2019s compact and rugged NDAA compliant handheld Ground Control Station.\u00a0 C-NAVIGATOR combines rugged design, powerful computing, and a strong broadband datalink to make the ultimate GCS.\u00a0 Harris Aerial\u2019s HA Ground Control software enables real-time telemetry information, video streaming, sensor control, and mission planning all from a single controller."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0041",
+          "line_start": 84,
+          "line_end": 84,
+          "url": "https://harrisaerial.com/ground-control/c-navigator",
+          "page_class": "capability",
+          "snippet": "C-NAVIGATOR is fully compliant with the 2020 National Defense Authorization Act, Sec 848."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "C-SRoC",
+      "category": "ground_segment",
+      "descriptor": "military soldier robotic controller GCS on Panasonic FZ-S1 with Nett Warrior port, NDAA-compliant",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "yes",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0039",
+          "line_start": 70,
+          "line_end": 73,
+          "url": "https://harrisaerial.com/ground-control-2/c-sroc",
+          "page_class": "capability",
+          "snippet": "C-SRoC\n------\n##### Soldier Robotic Controller\nIntroducing the SRoC (Soldier Robotic Controller): A Ruggedized GCS with Advanced Features, built on the robust Panasonic FZ-S1, offers a standardized, non-customizable solution designed for modern GCS users in defense robotics."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0039",
+          "line_start": 85,
+          "line_end": 85,
+          "url": "https://harrisaerial.com/ground-control-2/c-sroc",
+          "page_class": "capability",
+          "snippet": "C-SRoC is fully compliant with the 2020 National Defense Authorization Act, Sec 848."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Phoenix miniRanger 3",
+      "category": "isr_payloads",
+      "descriptor": "compact UAV LiDAR scanner with 360\u00b0 FOV, 250 m range, sold by Harris Aerial",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0081",
+          "line_start": 59,
+          "line_end": 60,
+          "url": "https://harrisaerial.com/payloads/phoenix-miniranger-uav-lidar-solution",
+          "page_class": "capability",
+          "snippet": "Phoenix Miniranger 3-UAV LIDAR Solution\n---------------------------------------"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0081",
+          "line_start": 97,
+          "line_end": 99,
+          "url": "https://harrisaerial.com/payloads/phoenix-miniranger-uav-lidar-solution",
+          "page_class": "capability",
+          "snippet": "#### Build the system you need to meet the growing demands of your clients in varying industries, from mining to agriculture and construction to forestry.\n*   Ideal for heavy-lifting Carrier HX8 AND Carrier H6 platforms\n*   Survey-Grade (cm-level) accuracy with 250m+ laser range and outstanding intensity calibration on high altitude and high speed missions"
+        }
+      ],
+      "notes": "Third-party product from Phoenix LiDAR Systems sold/integrated by Harris Aerial."
+    },
+    {
+      "name": "Sentera 6X Multispectral Sensor",
+      "category": "isr_payloads",
+      "descriptor": "6-band multispectral imaging payload for precision agriculture on Carrier drones",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0096",
+          "line_start": 60,
+          "line_end": 62,
+          "url": "https://harrisaerial.com/sentera-6x-multispectral-sensor",
+          "page_class": "product",
+          "snippet": "Sentera 6X Multispectral Sensor\n===============================\n###### Six Spectral Bands. Field-Level Crop Intelligence."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0096",
+          "line_start": 63,
+          "line_end": 63,
+          "url": "https://harrisaerial.com/sentera-6x-multispectral-sensor",
+          "page_class": "product",
+          "snippet": "The Sentera 6X captures six discrete spectral bands \u2014 including Red Edge and Near-Infrared \u2014 enabling NDVI, NDRE, and advanced vegetation index mapping that standard RGB drone cameras simply cannot produce. Paired with Harris Aerial's heavy-lift Carrier drones, the 6X covers hundreds of acres per mission with calibrated, agronomically actionable data."
+        }
+      ],
+      "notes": "Third-party product from Sentera sold/integrated by Harris Aerial; dedicated product page on harrisaerial.com."
+    }
+  ],
+  "unresolved_questions": [
+    "NDAA compliance status for airframe products (H6 Electric, H6 Hybrid, H6 Hydrone, Hx8, H6HL) \u2014 company-level NDAA claim exists on homepage but no per-product-page NDAA citation was found in the fetched corpus.",
+    "Carrier Hx8 Tether product page was skipped; nature and specs of tether system are unknown beyond the product name in navigation.",
+    "Payloads index page was not fetched; additional named payload products (EO/IR cameras, hyperspectral cameras, gimbals, magnetometers, GPR) listed in site nav could not be enumerated.",
+    "Carrier H4 Hybrid mentioned in 2018 news article \u2014 appears to be a superseded predecessor to the H6 Hybrid; excluded as no longer in current product nav."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://harrisaerial.com/carrier-drones/carrier-h6-electric/",
+      "reason": "Individual product page for Carrier H6 Electric was not fetched; would provide NDAA status, full specs, and readiness signals.",
+      "expected_evidence": [
+        "products",
+        "ndaa"
+      ],
+      "source_hint": "linked from resource-0005 nav and footer",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://harrisaerial.com/carrier-drones/carrier-h6-hybrid/",
+      "reason": "Individual product page for Carrier H6 Hybrid was not fetched; would provide NDAA status, full specs, and readiness signals.",
+      "expected_evidence": [
+        "products",
+        "ndaa"
+      ],
+      "source_hint": "linked from resource-0005 nav and footer",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://harrisaerial.com/carrier-drones/carrier-h6-hydrone/",
+      "reason": "Individual product page for Carrier H6 Hydrone was not fetched; would provide NDAA status, full specs, and readiness signals.",
+      "expected_evidence": [
+        "products",
+        "ndaa"
+      ],
+      "source_hint": "linked from resource-0005 nav and footer",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://harrisaerial.com/carrier-drones/carrier-hx8/",
+      "reason": "Individual product page for Carrier Hx8 was not fetched; would provide full specs, readiness signals, and NDAA status.",
+      "expected_evidence": [
+        "products",
+        "ndaa"
+      ],
+      "source_hint": "linked from resource-0001 nav",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://harrisaerial.com/carrier-drones/carrier-h6hl/",
+      "reason": "Individual product page for Carrier H6HL was not fetched; would provide full specs, readiness, and NDAA status for 40 kg heavy-lift platform.",
+      "expected_evidence": [
+        "products",
+        "ndaa"
+      ],
+      "source_hint": "linked from resource-0001 nav",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://harrisaerial.com/hx8-tether/",
+      "reason": "Product page for Carrier Hx8 Tether was not fetched; only name evidence from nav; need description, specs, and readiness.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "linked from resource-0005 nav and footer",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://harrisaerial.com/payloads/",
+      "reason": "Main payloads index page was not fetched; would enumerate all named payload products (LiDAR, EO/IR, hyperspectral, multispectral, gimbals, magnetometers, GPR) sold by Harris Aerial.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": null,
+      "in_corpus_index": false
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 20,
+    "total_cost_usd": 0.8718589,
+    "created_at": "2026-05-02T19:24:10+00:00",
+    "extract_version": "0.1.0"
+  }
+}

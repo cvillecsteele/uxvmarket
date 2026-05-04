@@ -1,0 +1,372 @@
+{
+  "target_id": "airborne-systems",
+  "run_id": "canonical",
+  "display_name": "Airborne Systems",
+  "homepage_url": "https://www.airbornetechnologies.at",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/airborne-systems/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "isr_payloads",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 16,
+            "line_end": 16,
+            "url": "https://www.airbornetechnologies.at/en",
+            "page_class": "homepage",
+            "snippet": "We offer fast & flexible integrated mission solutions for fixed-wing, rotary-wing aircraft and unmanned aerial vehicles to help our clients achieve their various important & special missions be it Search & Rescue, Aerial Surveying, Airborne Law Enforcement, Maritime Patrol or even Intelligence, Surveillance & Reconnaissance operations."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0029",
+            "line_start": 16,
+            "line_end": 16,
+            "url": "https://www.airbornetechnologies.at/en/airborne-linx",
+            "page_class": "other",
+            "snippet": "With our Mission System Airborne LINX, we connect all sensors and communication systems on board any aircraft for maximum mission control."
+          }
+        ],
+        "notes": "Airborne LINX mission management system and SCAR-Pod sensor pods are core ISR/surveillance products for manned aircraft and UAVs"
+      },
+      {
+        "category": "structures_and_materials",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0037",
+            "line_start": 51,
+            "line_end": 55,
+            "url": "https://www.airbornetechnologies.at/en/capabilities",
+            "page_class": "capability",
+            "snippet": "*   Carbon Fibre Parts & Milling\n*   Electrical Components Production\n*   Radome Production\n*   Cable Harness Production\n*   Metal Components Production"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0044",
+            "line_start": 39,
+            "line_end": 40,
+            "url": "https://www.airbornetechnologies.at/en/easa-certifications",
+            "page_class": "compliance",
+            "snippet": "Scope of Work:\nManufacture and assembly of wiring harnesses, electrical and electronic equipment, structural and non-structural parts and appliances from carbon fibre-reinforced plastic, metal and other materials, based on approved and non-approved design data."
+          }
+        ],
+        "notes": "In-house production of carbon fibre parts, radomes, and structural components"
+      },
+      {
+        "category": "mechanical_subsystems",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 89,
+            "line_end": 91,
+            "url": "https://www.airbornetechnologies.at/en",
+            "page_class": "homepage",
+            "snippet": "[Camera Lifts](/en/mission-solutions/camera-lifts/)\n[Brackets](/en/mission-solutions/brackets/)\n[Radomes](/en/mission-solutions/radomes/)"
+          }
+        ],
+        "notes": "Camera lifts and brackets as named product lines"
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Company primarily serves manned aircraft but explicitly includes UAVs. Product mix spans ISR mission systems, structural parts, and mechanical accessories."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Wiener Neustadt",
+      "state_or_province": null,
+      "country": "Austria",
+      "address": "Viktor-Lang-Stra\u00dfe 8, 2700 Wiener Neustadt"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 115,
+        "line_end": 115,
+        "url": "https://www.airbornetechnologies.at/en",
+        "page_class": "homepage",
+        "snippet": "Viktor-Lang-Stra\u00dfe 8, 2700 Wiener Neustadt, Austria"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "integrator",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 24,
+        "line_end": 24,
+        "url": "https://www.airbornetechnologies.at/en",
+        "page_class": "homepage",
+        "snippet": "We are your One-Stop-Shop for Integration & Modification Excellence"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 26,
+        "line_end": 26,
+        "url": "https://www.airbornetechnologies.at/en",
+        "page_class": "homepage",
+        "snippet": "We design, integrate and certify state-of-the-art special mission equipment and systems into new & existing airframes."
+      }
+    ],
+    "notes": "Primary business is converting aircraft (including UAVs) into special mission platforms via design, integration, and EASA certification. Also sells proprietary hardware (SCAR-Pods, Airborne LINX) as part of integration offerings."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Airborne LINX",
+        "product_type": "airborne mission management system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0029",
+            "line_start": 13,
+            "line_end": 16,
+            "url": "https://www.airbornetechnologies.at/en/airborne-linx",
+            "page_class": "other",
+            "snippet": "Airborne Linx\n-------------\n[Connect & Control](#connect-control) [Installation Your Way](#installation-your-way) [Core Components](#core-components) [System Architecture](#system-architecture)\nWith our Mission System Airborne LINX, we connect all sensors and communication systems on board any aircraft for maximum mission control."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SCAR-Pod Family",
+        "product_type": "carbon fibre quick-attach sensor pods",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 86,
+            "line_end": 86,
+            "url": "https://www.airbornetechnologies.at/en",
+            "page_class": "homepage",
+            "snippet": "[SCAR-Pod Family](/en/mission-solutions/scar-pod-family/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Workstation",
+        "product_type": "airborne mission workstation",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 87,
+            "line_end": 87,
+            "url": "https://www.airbornetechnologies.at/en",
+            "page_class": "homepage",
+            "snippet": "[Workstation](/en/mission-solutions/workstation/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Mission Management Unit",
+        "product_type": "touchscreen operator interface / human-machine interface",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0029",
+            "line_start": 56,
+            "line_end": 56,
+            "url": "https://www.airbornetechnologies.at/en/airborne-linx",
+            "page_class": "other",
+            "snippet": "The Human Machine Interface is the Mission Management Unit (MMU), allowing the operator to control the entire LINX architecture on a simple-to-use touchscreen. Embedded either in an ergonomic workstation or on a tablet, the MMU leads the field in simplifying the management of any combination of sensors."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Camera Lifts",
+        "product_type": "camera deployment mechanisms",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 89,
+            "line_end": 89,
+            "url": "https://www.airbornetechnologies.at/en",
+            "page_class": "homepage",
+            "snippet": "[Camera Lifts](/en/mission-solutions/camera-lifts/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Brackets",
+        "product_type": "carbon fibre sensor mounting brackets",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 90,
+            "line_end": 90,
+            "url": "https://www.airbornetechnologies.at/en",
+            "page_class": "homepage",
+            "snippet": "[Brackets](/en/mission-solutions/brackets/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Radomes",
+        "product_type": "custom radomes for airborne antenna systems",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 91,
+            "line_end": 91,
+            "url": "https://www.airbornetechnologies.at/en",
+            "page_class": "homepage",
+            "snippet": "[Radomes](/en/mission-solutions/radomes/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "CLEAR VIEW Exhaust Deflector Kit",
+        "product_type": "certified exhaust gas deflection kit for Cessna 208B Caravan",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0015",
+            "line_start": 17,
+            "line_end": 17,
+            "url": "https://www.airbornetechnologies.at/en/mission-solutions/exhaust-gas-deflection",
+            "page_class": "capability",
+            "snippet": "The\u00a0CLEAR VIEW Exhaust Deflector Kit\u00a0is a fully certified solution designed to eliminate heat distortion in airborne imaging. Specifically engineered for the\u00a0Cessna 208B Caravan\u00a0and certified under\u00a0EASA STC-AT-188, this innovative system ensures crystal-clear imagery for surveillance, reconnaissance and mapping missions."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Individual product pages for SCAR-Pod Family, Workstation, MMU, Camera Lifts, Brackets, and Radomes were skipped; full product specs unavailable."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "Austrian company (Airborne Technologies GmbH). No NDAA Section 848/889 claims anywhere in corpus. Brackets page mentions 'Non-ITAR' as a feature, but no NDAA compliance claim."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS or Blue sUAS mention anywhere in the corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0037",
+        "line_start": 21,
+        "line_end": 21,
+        "url": "https://www.airbornetechnologies.at/en/capabilities",
+        "page_class": "capability",
+        "snippet": "With a track record of developing more than 100 STCs and conducting over 300 aircraft changes, our clients benefit tenfold from our knowledge and expertise."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0044",
+        "line_start": 35,
+        "line_end": 37,
+        "url": "https://www.airbornetechnologies.at/en/easa-certifications",
+        "page_class": "compliance",
+        "snippet": "EASA Part 21 G approved Production Organisation\n-----------------------------------------------\nApproval No: AT.21G.0021"
+      }
+    ],
+    "notes": "EASA Part 21G Production Organisation approval; 100+ STCs and 300+ aircraft changes on record; catalog products available."
+  },
+  "unresolved_questions": [
+    "UAV-specific project history not confirmed (past-performance page skipped)",
+    "Full SCAR-Pod Family product specifications not available (product page skipped)",
+    "Mission Management Unit and Workstation full specs unavailable"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.airbornetechnologies.at/en/mission-solutions/scar-pod-family",
+      "reason": "Would confirm SCAR-Pod specs, sensor types, and whether pods are sold standalone to UAV OEMs or only as part of integration services; sharpens isr_payloads category confidence and product list",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=capability",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.airbornetechnologies.at/en/past-performance",
+      "reason": "Would confirm specific UAV/UAS integration projects, strengthening drone supply chain role evidence and readiness posture",
+      "expected_evidence": [
+        "drone_supply_chain_role",
+        "readiness",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.airbornetechnologies.at/en/mission-solutions/mission-management-unit",
+      "reason": "Would provide full MMU product specs and confirm whether it is sold as a standalone subsystem",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=capability",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.airbornetechnologies.at/en/mission-solutions/workstation",
+      "reason": "Would confirm Workstation product details and UAV applicability",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=capability",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Austrian integrator of ISR payloads and mission systems for manned aircraft. Core products: SCAR-Pod family (EO/IR, RADAR, ViDAR variants), Airborne LINX architecture, Mission Management Unit, and airborne workstations. EASA-certified for design and installation; A400M program partner announced 2026. NDAA and Blue UAS certification status unknown. Public evidence of US/allied adoption limited; primarily European market presence evident.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 21,
+    "total_cost_usd": 0.57975015,
+    "created_at": "2026-05-03T20:59:24+00:00",
+    "extract_version": "0.1.0"
+  }
+}

@@ -1,0 +1,410 @@
+{
+  "target_id": "kulr-technology-group",
+  "run_id": "canonical",
+  "display_name": "KULR Technology Group",
+  "homepage_url": "https://kulr.ai",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/kulr-technology-group/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "power_systems",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0484",
+            "line_start": 146,
+            "line_end": 146,
+            "url": "https://kulr.ai/products/kulr-one-air-batteries",
+            "page_class": "product",
+            "snippet": "KULR ONE\u00ae Air, a meticulously crafted lithium-ion battery system engineered to excel in UAV/UAM applications."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 35,
+            "line_end": 35,
+            "url": "https://kulr.ai",
+            "page_class": "homepage",
+            "snippet": "        An advanced lithium-ion battery system engineered for UAV/UAM applications."
+          }
+        ],
+        "notes": "KULR ONE\u00ae Air (K1A) series batteries explicitly engineered for UAV/UAM applications; also KULR ONE\u00ae Space batteries, kBMS, Thermal Runaway Shield."
+      },
+      {
+        "category": "test_and_measurement",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 99,
+            "line_end": 99,
+            "url": "https://kulr.ai",
+            "page_class": "homepage",
+            "snippet": "        KULR\u2019s Test and Analysis Division can provide services with a multichannel cell level electrical cyclers with up to 120 A per cell capability."
+          }
+        ],
+        "notes": "NASA WI 037A Cell Screening, Cell Cycling (120A), Module Cycling (200V/200A), Abuse Testing and Calorimetry services offered."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Webster",
+      "state_or_province": "Texas",
+      "country": "United States",
+      "address": "555 Forge River Road, Unit 100"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 282,
+        "line_end": 285,
+        "url": "https://kulr.ai",
+        "page_class": "homepage",
+        "snippet": "Headquarters\n555 Forge River Road\nUnit 100\nWebster, TX 77598"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0484",
+        "line_start": 146,
+        "line_end": 146,
+        "url": "https://kulr.ai/products/kulr-one-air-batteries",
+        "page_class": "product",
+        "snippet": "KULR ONE\u00ae Air, a meticulously crafted lithium-ion battery system engineered to excel in UAV/UAM applications."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 206,
+        "line_end": 206,
+        "url": "https://kulr.ai",
+        "page_class": "homepage",
+        "snippet": "KULR Secures Initial Defense Drone Battery Orders with Customer Opportunity Exceeding $5 Million for 2026"
+      }
+    ],
+    "notes": "Sells battery packs (KULR ONE\u00ae Air K1A series) and battery components (TRS, kBMS, thermal management materials) that are integrated into drone platforms by OEMs."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "KULR ONE\u00ae Air (K1A) 6S1P",
+        "product_type": "UAV/UAM lithium-ion battery pack",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0484",
+            "line_start": 149,
+            "line_end": 149,
+            "url": "https://kulr.ai/products/kulr-one-air-batteries",
+            "page_class": "product",
+            "snippet": "KULR ONE\u00ae AIR\u00a0(K1A) 6S1P"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "KULR ONE\u00ae Air (K1A) 6S3P",
+        "product_type": "UAV/UAM lithium-ion battery pack",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0484",
+            "line_start": 154,
+            "line_end": 154,
+            "url": "https://kulr.ai/products/kulr-one-air-batteries",
+            "page_class": "product",
+            "snippet": "KULR ONE\u00ae AIR\u00a0(K1A) 6S3P"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "KULR ONE\u00ae Air (K1A) 6S4P",
+        "product_type": "UAV/UAM lithium-ion battery pack",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0484",
+            "line_start": 160,
+            "line_end": 160,
+            "url": "https://kulr.ai/products/kulr-one-air-batteries",
+            "page_class": "product",
+            "snippet": "KULR ONE\u00ae AIR (K1A) 6S4P"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "KULR ONE\u00ae Space (K1S) 100 Series",
+        "product_type": "space lithium-ion battery system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 12,
+            "line_end": 12,
+            "url": "https://kulr.ai",
+            "page_class": "homepage",
+            "snippet": "        KULR ONE\u00ae\u00a0Space, a meticulously crafted lithium-ion battery system engineered to excel in space applications"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "KULR ONE\u00ae Space (K1S) 200 Series",
+        "product_type": "space lithium-ion battery system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 18,
+            "line_end": 18,
+            "url": "https://kulr.ai",
+            "page_class": "homepage",
+            "snippet": "        KULR ONE\u00ae\u00a0Space, a meticulously crafted lithium-ion battery system engineered to excel in space applications"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "KULR ONE\u00ae Space (K1S) 300-LT Series",
+        "product_type": "space lithium-ion battery system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 24,
+            "line_end": 24,
+            "url": "https://kulr.ai",
+            "page_class": "homepage",
+            "snippet": "        KULR ONE\u00ae Space LT, a meticulously crafted lithium-ion battery system engineered to excel in space applications"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "KULR ONE\u00ae Space (K1S) 400 Series",
+        "product_type": "space lithium-ion battery system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 30,
+            "line_end": 30,
+            "url": "https://kulr.ai",
+            "page_class": "homepage",
+            "snippet": "        KULR ONE\u00ae\u00a0Space, a meticulously crafted lithium-ion battery system engineered to excel in space applications"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Thermal Runaway Shield\u2122 (TRS)",
+        "product_type": "battery thermal runaway protection component",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 54,
+            "line_end": 54,
+            "url": "https://kulr.ai",
+            "page_class": "homepage",
+            "snippet": "        Prevent cell-to-cell propagation due to thermal runaway"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "KULR Battery Management System (kBMS)",
+        "product_type": "radiation-tolerant battery management system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 59,
+            "line_end": 59,
+            "url": "https://kulr.ai",
+            "page_class": "homepage",
+            "snippet": "        Safe. Intelligent. Flight Ready."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SafeX Safe Storage Solutions",
+        "product_type": "battery safe storage and transport cases",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 74,
+            "line_end": 74,
+            "url": "https://kulr.ai",
+            "page_class": "homepage",
+            "snippet": "        Total battery thermal runaway and propagation containment for storage and transportation."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "PCM Heat Sink",
+        "product_type": "phase-change material thermal management component",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 79,
+            "line_end": 79,
+            "url": "https://kulr.ai",
+            "page_class": "homepage",
+            "snippet": "        Absorb high heat fluxes and remit steadily over time."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Fiber Thermal Interface (FTI)",
+        "product_type": "carbon fiber thermal interface material",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 84,
+            "line_end": 84,
+            "url": "https://kulr.ai",
+            "page_class": "homepage",
+            "snippet": "        High performance z-axis oriented carbon Fiber Thermal Interface Material"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MOLICEL 18650-M35A (WI 037 Screened)",
+        "product_type": "screened lithium-ion cells for aerospace/flight",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 64,
+            "line_end": 64,
+            "url": "https://kulr.ai",
+            "page_class": "homepage",
+            "snippet": "        Flight ready cells with associated initial lot assessment (ILA), lot acceptance testing (LAT), and WI 037 screening"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Xero Vibe\u00ae Fan",
+        "product_type": "machine-learning balanced cooling fan",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 124,
+            "line_end": 124,
+            "url": "https://kulr.ai",
+            "page_class": "homepage",
+            "snippet": "        The KULR Xero Vibe\u00ae Fan is the ultimate cooling solution for AI farms, data centers, and high-performance server environments."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 168,
+        "line_end": 169,
+        "url": "https://kulr.ai",
+        "page_class": "homepage",
+        "snippet": "battery Production\nBattery Prototyping and Volume Production in AS9100 Controlled Environment"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0145",
+        "line_start": 145,
+        "line_end": 145,
+        "url": "https://kulr.ai/kulr-achieves-as9100-certification",
+        "page_class": "compliance",
+        "snippet": "KULR Achieves AS9100 Certification"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 206,
+        "line_end": 206,
+        "url": "https://kulr.ai",
+        "page_class": "homepage",
+        "snippet": "KULR Secures Initial Defense Drone Battery Orders with Customer Opportunity Exceeding $5 Million for 2026"
+      }
+    ],
+    "notes": "AS9100 certified facility; advertises volume production alongside prototyping; secured initial defense drone battery production orders (April 2026)."
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Designs and manufactures lithium-ion battery systems for UAV, UAM, and space applications, plus thermal management and runaway-mitigation components (Thermal Runaway Shield\u2122, phase-change materials). Production-ready across multiple energy densities. NDAA and Blue UAS certification status unknown; public procurement record is thin.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 12,
+    "total_cost_usd": 0.4658551,
+    "created_at": "2026-05-04T03:40:14+00:00",
+    "extract_version": "0.1.0"
+  }
+}

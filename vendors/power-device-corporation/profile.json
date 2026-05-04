@@ -1,0 +1,324 @@
+{
+  "target_id": "power-device-corporation",
+  "run_id": "canonical",
+  "display_name": "Power Device Corporation",
+  "homepage_url": "https://powerdevicecorp.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/power-device-corporation/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "power_systems",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0142",
+            "line_start": 172,
+            "line_end": 172,
+            "url": "https://powerdevicecorp.com/en/power/solid-statepowercontrollers/boardsandpdus/28v-238a-16-channel-sspc-pdu-d-sub-connector",
+            "page_class": "news",
+            "snippet": "PDC's 16-channel solid state power controller (SSPC) power distribution unit controls, protects, and continuously monitors up to 238A to 16 independent electrical system loads, in a ruggedized military-grade form factor."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0142",
+            "line_start": 196,
+            "line_end": 201,
+            "url": "https://powerdevicecorp.com/en/power/solid-statepowercontrollers/boardsandpdus/28v-238a-16-channel-sspc-pdu-d-sub-connector",
+            "page_class": "news",
+            "snippet": "*   Military Land Vehicles\n*   Commercial Trucks\n*   Industrial Controls\n*   Military and Commercial Ships\n*   Weapon Systems\n*   Unmanned Vehicles"
+          }
+        ],
+        "notes": "SSPCs (Solid-State Power Controllers) and power supplies for aerospace, defense, and UAV/Unmanned Vehicles applications are the core product line"
+      },
+      {
+        "category": "propulsion_electronics",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 94,
+            "line_end": 96,
+            "url": "https://powerdevicecorp.com/en",
+            "page_class": "homepage",
+            "snippet": "    [Motor Control](https://powerdevicecorp.com/en/motioncontrol/motorcontrol)\n    *   [Controllers](https://powerdevicecorp.com/en/motioncontrol/motorcontrol/controllers)\n    *   [Drives](https://powerdevicecorp.com/en/motioncontrol/motorcontrol/drives)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 110,
+            "line_end": 110,
+            "url": "https://powerdevicecorp.com/en",
+            "page_class": "homepage",
+            "snippet": "    PDC is a leader in high reliability motor control and synchro/resolver motion feedback solutions for defense, civil aerospace, space, and industrial applications. PDC's motor control solutions deliver high reliability postion, torque and speed control, while our synchro/resolver motion feedback solutions provide high accuracy positioning, direction and speed data for high reliability applications."
+          }
+        ],
+        "notes": "Motor controllers and drives for precision motor control in aerospace/defense applications, applicable to drone actuation and propulsion"
+      },
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 88,
+            "line_end": 93,
+            "url": "https://powerdevicecorp.com/en",
+            "page_class": "homepage",
+            "snippet": "    [Motion Feedback - Synchro/Resolver](https://powerdevicecorp.com/en/motioncontrol/motionfeedbacksynchroresolver)\n    *   [Synchro/Resolver to Digital](https://powerdevicecorp.com/en/motioncontrol/motionfeedbacksynchroresolver/synchroresolvertodigital-1)\n    *   [Digital to Synchro/Resolver](https://powerdevicecorp.com/en/motioncontrol/motionfeedbacksynchroresolver/digitaltosynchroresolver)\n    *   [Sine Reference Oscillators](https://powerdevicecorp.com/en/motioncontrol/motionfeedbacksynchroresolver/referenceoscillators-1)\n    *   [Synchro Boosters](https://powerdevicecorp.com/en/motioncontrol/motionfeedbacksynchroresolver/synchroboosters)\n    *   [Resistor Networks](https://powerdevicecorp.com/en/motioncontrol/motionfeedbacksynchroresolver/resistornetworks)"
+          }
+        ],
+        "notes": "Synchro/Resolver to Digital converters and motion feedback products provide position sensing for aerospace and defense platforms"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Bohemia",
+      "state_or_province": "New York",
+      "country": "United States",
+      "address": "105 Wilbur Place & 40 Orville Drive, Bohemia, NY 11716"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0046",
+        "line_start": 176,
+        "line_end": 178,
+        "url": "https://powerdevicecorp.com/en/about/overview/about-us",
+        "page_class": "company",
+        "snippet": "105 Wilbur Place & 40 Orville Drive\nBohemia, NY, 11716\nUSA"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 263,
+        "line_end": 265,
+        "url": "https://powerdevicecorp.com/en",
+        "page_class": "homepage",
+        "snippet": "105 Wilbur Place & 40 Orville Drive\nBohemia, NY, 11716\nUSA"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 206,
+        "line_end": 206,
+        "url": "https://powerdevicecorp.com/en",
+        "page_class": "homepage",
+        "snippet": "Select Application Fixed Wing \u00a0\u00a0\u00a0\u00a0IFEC Vertical Lift Aerospace \u00a0\u00a0\u00a0\u00a0Fixed Wing \u00a0\u00a0\u00a0\u00a0Vertical Lift \u00a0\u00a0\u00a0\u00a0UAVs \u00a0\u00a0\u00a0\u00a0Missiles Ground Vehicles Naval Satellites & Space Systems Factory Automation Pump/Valve Control Subsea"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0142",
+        "line_start": 196,
+        "line_end": 201,
+        "url": "https://powerdevicecorp.com/en/power/solid-statepowercontrollers/boardsandpdus/28v-238a-16-channel-sspc-pdu-d-sub-connector",
+        "page_class": "news",
+        "snippet": "*   Military Land Vehicles\n*   Commercial Trucks\n*   Industrial Controls\n*   Military and Commercial Ships\n*   Weapon Systems\n*   Unmanned Vehicles"
+      }
+    ],
+    "notes": "PDC makes board/module-level components (SSPCs, power supplies, motor controllers, rad-hard ICs) used in drones and other platforms. UAVs and Unmanned Vehicles are listed as explicit target applications. They do not make complete drone platforms."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "28V, 238A, 16-Channel SSPC PDU",
+        "product_type": "solid-state power controller / power distribution unit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0142",
+            "line_start": 153,
+            "line_end": 153,
+            "url": "https://powerdevicecorp.com/en/power/solid-statepowercontrollers/boardsandpdus/28v-238a-16-channel-sspc-pdu-d-sub-connector",
+            "page_class": "news",
+            "snippet": "### 28V, 238A, 16-Channel SSPC PDU (D-sub connector)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "PDC Sirius Solid-State Data Recorder",
+        "product_type": "radiation-tolerant solid-state data recorder (3U SpaceVPX)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0164",
+            "line_start": 153,
+            "line_end": 153,
+            "url": "https://powerdevicecorp.com/en/space-rad-hard/rad-hard/solid-state-data-recorders/pdc-sirius-solid-state-data-recorder",
+            "page_class": "news",
+            "snippet": "### PDC Sirius Solid-State Data Recorder"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "PDC Osiris Computer Module",
+        "product_type": "space-qualified single board computer",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 178,
+            "line_end": 179,
+            "url": "https://powerdevicecorp.com/en",
+            "page_class": "homepage",
+            "snippet": "PDC Osiris Computer Module\n[Read More](https://powerdevicecorp.com/en/space-rad-hard/rad-hard/sbcsforspace/pdc-osiris-computer-module?partNumber=POC-DXM1B1X-A)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SCS3740G2",
+        "product_type": "3U SpaceVPX Rad Hard SBC",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 181,
+            "line_end": 182,
+            "url": "https://powerdevicecorp.com/en",
+            "page_class": "homepage",
+            "snippet": "High-Speed, SWaP Optimized 3U SpaceVPX Rad Hard SBC\n[Read More](https://powerdevicecorp.com/en/space-rad-hard/rad-hard/sbcsforspace/3u-spacevpx-rad-hard-sbc?partNumber=SCS3740G2)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "280W IFEC PED Power Supply Unit",
+        "product_type": "civil aerospace power supply (28V, 280W)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 165,
+            "line_end": 167,
+            "url": "https://powerdevicecorp.com/en",
+            "page_class": "homepage",
+            "snippet": "### PED Charging Solutions\n_August 2022_\u00a0\u2013\u00a0PDC's 280W converter supplies 28V power for USB charging ports for Portable Electronic Devices (PED) to up to 24 seats, with a compact, high output, and cost effective solution that delivers the industry's best power efficiency performance.\n[Read More](https://powerdevicecorp.com/en/power/powersupplies/civilaerospacepowersupplies/systemlrus/280w-ifec-ped-power-supply-unit?partNumber=SP-280)"
+          }
+        ],
+        "notes": "Part number SP-280"
+      },
+      {
+        "name": "Synchro/Resolver to Digital Converters",
+        "product_type": "motion feedback / position sensor IC family",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 89,
+            "line_end": 89,
+            "url": "https://powerdevicecorp.com/en",
+            "page_class": "homepage",
+            "snippet": "    *   [Synchro/Resolver to Digital](https://powerdevicecorp.com/en/motioncontrol/motionfeedbacksynchroresolver/synchroresolvertodigital-1)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Catalog has hundreds of SKUs; named flagship products listed. Many product pages were skipped due to budget constraints."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 148,
+        "line_end": 148,
+        "url": "https://powerdevicecorp.com/en",
+        "page_class": "homepage",
+        "snippet": "    **High Reliability Smart Power Distribution/Control & Power Conversion Technology**...\u00a0proven Solid-State Power Controllers (SSPCs) _with over 1 million nodes installed on military systems_,\u00a0and\u00a0power supplies for aerospace & defense _with over 180,000 units installed on civil aircraft_."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0056",
+        "line_start": 158,
+        "line_end": 158,
+        "url": "https://powerdevicecorp.com/en/applications/defense/ground-vehicles",
+        "page_class": "capability",
+        "snippet": "#### 1,000,000 SSPC nodes installed on military vehicles since 1988!"
+      }
+    ],
+    "notes": "Over 1 million SSPC nodes installed on military vehicles since 1988; over 180,000 units on civil aircraft; catalog products with standard part numbers"
+  },
+  "unresolved_questions": [
+    "NDAA Section 848/889 compliance status not mentioned on site",
+    "Blue UAS cleared list status not mentioned",
+    "Full product list for defense power supplies and motor controllers not retrieved (many product pages skipped)"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://powerdevicecorp.com/en/applications/defense/aerospace",
+      "reason": "Defense aerospace applications page would confirm UAV/missile product applicability for SSPCs and motor controllers",
+      "expected_evidence": [
+        "drone_supply_chain_role",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=capability",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://powerdevicecorp.com/en/about/overview/business-policies",
+      "reason": "Business policies page may contain NDAA or ITAR compliance statements",
+      "expected_evidence": [
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Manufactures power distribution, conversion, and motion-control components for aerospace and defense platforms\u2014solid-state power controllers, 28V supplies, data recorders, and synchro/resolver converters in production. NDAA and Blue UAS certification status not publicly confirmed; end-use applications span manned and unmanned systems, but specific unmanned-platform integrations lack public documentation.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 15,
+    "total_cost_usd": 0.6480069000000002,
+    "created_at": "2026-05-04T05:23:57+00:00",
+    "extract_version": "0.1.0"
+  }
+}

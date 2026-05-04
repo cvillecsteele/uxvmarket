@@ -1,0 +1,445 @@
+{
+  "target_id": "beta-technologies",
+  "run_id": "canonical",
+  "display_name": "BETA Technologies",
+  "homepage_url": "https://beta.team/",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/beta-technologies/website",
+  "products": [
+    {
+      "name": "ALIA VTOL",
+      "category": "airframes",
+      "descriptor": "All-electric vertical takeoff and landing aircraft with 50 ft wingspan and 5-passenger capacity",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0378",
+          "line_start": 48,
+          "line_end": 52,
+          "url": "https://beta.team/aircraft",
+          "page_class": "other",
+          "snippet": "ALIA VTOL Vertical takeoff & landing\nall-electric aircraft\n![ALIA\\_G\\_SIDE\\_15\\_RD28may2024-VTOL-small](https://beta.team/hs-fs/hubfs/Illustrations/ALIA_G_SIDE_15_RD28may2024-VTOL-small.png?length=520&name=ALIA_G_SIDE_15_RD28may2024-VTOL-small.png)\nALIA CTOL Conventional takeoff & landing\nall-electric aircraft"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0378",
+          "line_start": 88,
+          "line_end": 110,
+          "url": "https://beta.team/aircraft",
+          "page_class": "other",
+          "snippet": "ALIA VTOL Vertical takeoff & landing\nall-electric aircraft\nWingspan\n50 ft\nCargo Capacity\n200 ft\u00b3\nPassenger Capacity\n5 Passengers\nCharge Time\n1 hr\nLanding Locations\nAirports, Vertiports\nPiloting\nSingle Pilot, Instrument Flight Rules Capable\nTraining\nDual Pilot Configuration\nPropulsion\nOne H500A Electric Motor\nFour V600A Electric Lift Motors\nMax Speed\n153 kts\nPropeller\nOne 5-Blade Fixed-Pitch Propeller"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "ALIA CTOL",
+      "category": "airframes",
+      "descriptor": "All-electric conventional takeoff and landing aircraft with 50 ft wingspan and 5-passenger capacity",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0378",
+          "line_start": 51,
+          "line_end": 53,
+          "url": "https://beta.team/aircraft",
+          "page_class": "other",
+          "snippet": "ALIA CTOL Conventional takeoff & landing\nall-electric aircraft\n![ALIA\\_G\\_SIDE\\_15\\_RD28may2024-CTOL-small](https://beta.team/hs-fs/hubfs/Illustrations/ALIA_G_SIDE_15_RD28may2024-CTOL-small.png?length=520&name=ALIA_G_SIDE_15_RD28may2024-CTOL-small.png)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0378",
+          "line_start": 112,
+          "line_end": 135,
+          "url": "https://beta.team/aircraft",
+          "page_class": "other",
+          "snippet": "ALIA CTOL Conventional takeoff & landing\nall-electric aircraft\nWingspan\n50 ft\nCargo Capacity\n200 ft\u00b3\nPassenger Capacity\n5 Passengers\nCharge Time\n1 hr\nLanding Locations\nAirports\nPiloting\nSingle Pilot, Instrument Flight Rules Capable\nTraining\nDual Pilot Configuration\nPropulsion\nOne H500A Electric Motor\nMax Speed\n153 kts\nMax demonstrated range\n336 nm\nPropeller\nOne 5-Blade Fixed-Pitch Propeller"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "BETA 250XT",
+      "category": "airframes",
+      "descriptor": "Electric/hybrid VTOL military cargo drone with autonomous capability",
+      "granularity": "sku",
+      "readiness": "prototype",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0293",
+          "line_start": 48,
+          "line_end": 48,
+          "url": "https://beta.team/stories/beta-technologies-builds-out-autonomous-capabilities",
+          "page_class": "news",
+          "snippet": "**![BETA---250XT-Props-Spinning\\_11.25](https://beta.team/hs-fs/hubfs/BETA---250XT-Props-Spinning_11.25.jpg?width=1920&height=1278&name=BETA---250XT-Props-Spinning_11.25.jpg)**"
+        }
+      ],
+      "notes": "Named only via image filename in corpus (BETA---250XT-Props-Spinning_11.25.jpg); Reuters headline references 'military cargo drone'. Full product page not fetched."
+    },
+    {
+      "name": "Flight Control Computers",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "Fly-by-wire flight control system for electric aviation platforms",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0005",
+          "line_start": 25,
+          "line_end": 25,
+          "url": "https://beta.team/",
+          "page_class": "homepage",
+          "snippet": "    *   [Flight Controls](https://beta.team/flight-control-computers)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Motor",
+      "category": "propulsion_mechanical",
+      "descriptor": "Certified electric propulsion motor for eVTOL and fixed-wing aircraft",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0005",
+          "line_start": 23,
+          "line_end": 23,
+          "url": "https://beta.team/",
+          "page_class": "homepage",
+          "snippet": "    *   [Motor](https://beta.team/motor)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0005",
+          "line_start": 74,
+          "line_end": 76,
+          "url": "https://beta.team/",
+          "page_class": "homepage",
+          "snippet": "BETA's advanced technologies are built in a 188,000-square-foot,\nnet-zero manufacturing and production space. From certified motors\nto UL-listed Charge Cubes, our facility uniquely positions BETA as an industry leader."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Battery",
+      "category": "power_systems",
+      "descriptor": "Electric aviation battery pack for eVTOL and fixed-wing aircraft",
+      "granularity": "category",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0005",
+          "line_start": 24,
+          "line_end": 24,
+          "url": "https://beta.team/",
+          "page_class": "homepage",
+          "snippet": "    *   [Battery](https://beta.team/battery)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Charge Cube",
+      "category": "ground_segment",
+      "descriptor": "320 kW DC fast charger for permanent airport installation, CCS protocol, charges ALIA in under 50 minutes",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0340",
+          "line_start": 42,
+          "line_end": 44,
+          "url": "https://beta.team/charge-cube",
+          "page_class": "other",
+          "snippet": "Charge Cube\n===========\nA charge solution designed for permanent installation at airports."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0340",
+          "line_start": 48,
+          "line_end": 62,
+          "url": "https://beta.team/charge-cube",
+          "page_class": "other",
+          "snippet": "AC Voltage Connection\n480 Vac, 3 Phase, 60 Hz\nAC Grid Current\n420 Amps\nOutput Power - Peak, Continuous\n320 kW\nBattery Charge Range\nUp to 1,000 VDC\nOutput Current - Peak, Continuous\n350 Amps\nAuthorization\nPhone App + Plug and Charge\nCharging Protocol\nCCS\n[Download Sheet](https://cta-service-cms2.hubspot.com/web-interactives/public/v1/track/click?encryptedPayload=AVxigLJz2GiUbmdNzVdemZscyioQAo%2Brz08NIDjlLNp8vhvxjFlYV6HSCmQLnBOYiirBAp5I15xNpr4QLvMN%2Fb6dKl3Uz3Fca8GZzLt%2Bo%2BeNCF8jVptJBOaWYi717EVNZOP1W0ujjj%2FwrN8ef5oIXybvaxdXcIp9%2BfUceI%2Bb7eTz%2B9T7rFpF5YqYufG3vbjiza8dCy8r%2F5Mb0lCc1S%2B97TzvZPzunKYnKMVPvm6tBlw4%2FfwnYflukbp6Y9J4JFUHWZAA7qvJYh6lXXjOBD0b6Vr%2Fz1VA&portalId=47449398)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Mini Cube",
+      "category": "ground_segment",
+      "descriptor": "Compact charging unit for electric aircraft and EVs",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0005",
+          "line_start": 114,
+          "line_end": 114,
+          "url": "https://beta.team/",
+          "page_class": "homepage",
+          "snippet": "BETA Charge Cubes, Mini Cubes and Thermal Management System \u00a0(TMS) Cubes are multimodal to meet the charge needs of electric aircraft and electric vehicles ensuring the safest, fastest and most reliable charge.[JOIN THE CHARGE NETWORK](https://cta-service-cms2.hubspot.com/web-interactives/public/v1/track/click?encryptedPayload=AVxigLKuXatqWnPkZ6pAbHD9Uru3EUyjj5xxjlxFDd%2FuxFHJbla8rOQIauz5wbQndapJOH1umsFoDxeEaMQy%2F3xO8cHSFQd7XfubwcNBbU6Fj82znfyxtRMWSKaOpIgB7eh7hB5UnbFn9L8LaKrpefyEsyrEPd7hBddqCD%2BSp6OIU3OMIS1e%2F8zwoDMaGqsLmcji1edw&portalId=47449398)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "TMS Cube",
+      "category": "ground_segment",
+      "descriptor": "Thermal Management System charging cube for electric aviation infrastructure",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0005",
+          "line_start": 114,
+          "line_end": 114,
+          "url": "https://beta.team/",
+          "page_class": "homepage",
+          "snippet": "BETA Charge Cubes, Mini Cubes and Thermal Management System \u00a0(TMS) Cubes are multimodal to meet the charge needs of electric aircraft and electric vehicles ensuring the safest, fastest and most reliable charge.[JOIN THE CHARGE NETWORK](https://cta-service-cms2.hubspot.com/web-interactives/public/v1/track/click?encryptedPayload=AVxigLKuXatqWnPkZ6pAbHD9Uru3EUyjj5xxjlxFDd%2FuxFHJbla8rOQIauz5wbQndapJOH1umsFoDxeEaMQy%2F3xO8cHSFQd7XfubwcNBbU6Fj82znfyxtRMWSKaOpIgB7eh7hB5UnbFn9L8LaKrpefyEsyrEPd7hBddqCD%2BSp6OIU3OMIS1e%2F8zwoDMaGqsLmcji1edw&portalId=47449398)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Flight Training",
+      "category": "ground_segment",
+      "descriptor": "Customized pilot and maintainer training programs for ALIA aircraft",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0005",
+          "line_start": 119,
+          "line_end": 122,
+          "url": "https://beta.team/",
+          "page_class": "homepage",
+          "snippet": "Customized Training Programs\n----------------------------\nBETA has now qualified more than 30 company pilots in ALIA and has trained dozens of pilots and maintainers from the US Air Force, US Army, UPS, United Therapeutics, Bristow, Air New Zealand and more.\n[CUSTOMIZE YOUR TRAINING](https://cta-service-cms2.hubspot.com/web-interactives/public/v1/track/click?encryptedPayload=AVxigLJGtAvmJ%2F3y%2BBbMGvd3FBdFVUfzfduW65tYGdtMKtHKseOpORKqdGllMkEGswFREWb%2FidpLHomQ%2B3bAZjrMnq33lwCKj8hZwLefTvdknIFFnqTYYQ5WpROhS%2BKTIdWp57zP2%2F%2FApnupHmn2P4MOas6BHkpqWEVFFH8JDERswIm6AUD9CeOSl0lotA%3D%3D&portalId=47449398)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "ALIA MV250",
+      "category": "airframes",
+      "descriptor": "Autonomous hybrid-electric VTOL aircraft for contested logistics with 2,000 lb payload and 250+ nm range",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0042",
+          "line_start": 34,
+          "line_end": 43,
+          "url": "https://beta.team/defense",
+          "page_class": "other",
+          "snippet": "ALIA MV250\n----------\nMV250 Autonomous Hybrid VTOL Aircraft\nALIA MV250\n![MV250\\_SIDE-1](https://beta.team/hubfs/MV250_SIDE-1.png)\n250+ nm Range w/2000 lbs.\n\\*1300+ nm ferry range\n2,000 lbs Payload\n250 ft\u00b3 Cabin Volume\n\\*3x JMIC Capable"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0042",
+          "line_start": 54,
+          "line_end": 54,
+          "url": "https://beta.team/defense",
+          "page_class": "other",
+          "snippet": "ALIA aircraft and their core enabling systems are manufactured in Vermont, USA, at BETA\u2019s 188,000-square-foot, state-of-the-art production facility where CTOL and VTOL aircraft are rolling off the line."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "H500A",
+      "category": "propulsion_mechanical",
+      "descriptor": "High-efficiency direct-drive pusher electric motor, 427 kW max power, 98% efficiency",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0247",
+          "line_start": 67,
+          "line_end": 84,
+          "url": "https://beta.team/motor",
+          "page_class": "other",
+          "snippet": "Electric Engine: H500A 2 Stators + 2 Inverters\n----------------------------------------------\nConfiguration\nPusher\nGearbox\nN/A Direct Drive\nCooling\nAir\nMax Shaft rpm\n2550 rpm\nMax Power\n427 kW\nTakeoff Power\n394 kW\nMax Continuous Power\n300 kW\nMax Torque (Takeoff)\n1475 Nm"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0247",
+          "line_start": 56,
+          "line_end": 59,
+          "url": "https://beta.team/motor",
+          "page_class": "other",
+          "snippet": "Over 86,000 hours of propulsion system testing\n98% Efficiency H500A is 98%\nefficient. The best legacy engines are ~30%\n4x Redundancy BETA\u2019s V600A lift motor features 4x redundancy. The H500A features 2x redundancy"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "V600A",
+      "category": "propulsion_mechanical",
+      "descriptor": "Quad-redundant direct-drive lift electric motor, 455 kW max power, 684 mm diameter",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0247",
+          "line_start": 115,
+          "line_end": 132,
+          "url": "https://beta.team/motor",
+          "page_class": "other",
+          "snippet": "Electric Engine: V600A 4 Stators + 4 Inverters\n----------------------------------------------\nConfiguration\nLift\nGearbox\nN/A Direct Drive\nCooling\nAir\nMax Shaft rpm\n1500 rpm\nMax Power\n455 kW\nMax Continuous Power\n314 kW\nMax Torque\n2900 Nm\nMax Continuous Torque\n2000 Nm"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0247",
+          "line_start": 56,
+          "line_end": 59,
+          "url": "https://beta.team/motor",
+          "page_class": "other",
+          "snippet": "Over 86,000 hours of propulsion system testing\n98% Efficiency H500A is 98%\nefficient. The best legacy engines are ~30%\n4x Redundancy BETA\u2019s V600A lift motor features 4x redundancy. The H500A features 2x redundancy"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Flight Control Computer (FCC)",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "Fly-by-wire flight control computer for AAM/eVTOL aircraft, DO-160G qualified, Part 23/25 applicable",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0270",
+          "line_start": 42,
+          "line_end": 47,
+          "url": "https://beta.team/flight-control-computers",
+          "page_class": "other",
+          "snippet": "Flight Control Computer\n=======================\nBuilt to the highest standards of reliability and performance,\nBETA\u2019s innovative flight control computer (FCC) serves as the\nnerve center of a modern aircraft \u2014 and is ready for integration\ninto a variety of aircraft platforms."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0270",
+          "line_start": 122,
+          "line_end": 130,
+          "url": "https://beta.team/flight-control-computers",
+          "page_class": "other",
+          "snippet": "Temperature Range\n\\-40\u00b0C to +70\u00b0C\nPower Supply\n<30 W at 28V (22-32V)\nWeight\n<4lbs\nDimensions\n8.75 x 8.25 x 3in\nInterfaces"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "BETA Energy Storage System (Battery Pack)",
+      "category": "power_systems",
+      "descriptor": "Aviation-grade lithium battery pack, 45 kWh, 832 V max, with integrated BMS and thermal runaway containment",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0075",
+          "line_start": 69,
+          "line_end": 82,
+          "url": "https://beta.team/battery",
+          "page_class": "other",
+          "snippet": "--------------\nNameplate Energy\n45 kWh\nVoltage\n832 V max\nPeak Power\n400+ kW\nContinuous Power\n115 kW\nDimensions\n1.215m x 0.666m x 0.315m \u00a0 (47.8\" x 26.2\" x 12.4\") \\[W x D x H\\]\nWeight\n255 kg (176 Wh/kg)\nCooling"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0075",
+          "line_start": 83,
+          "line_end": 87,
+          "url": "https://beta.team/battery",
+          "page_class": "other",
+          "snippet": "Capable of Liquid Cooling for Fast Recharge\nFeatures\nInternal Battery Management System (BMS), Electrical Fusing, and Contactors\nSafety\nSubpack Thermal Runaway Containment, Redundant Fire Detection"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Thermal Management System (TMS) Cube",
+      "category": "power_systems",
+      "descriptor": "Battery conditioning unit supporting fast-turn operations, 50 kW cooling, SAE AIR8487 protocol",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0073",
+          "line_start": 54,
+          "line_end": 56,
+          "url": "https://beta.team/charge",
+          "page_class": "other",
+          "snippet": "Thermal Management Cube A battery conditioning system to support fast turn operations.\nA battery conditioning system to support fast turn operations.\n[See the TMS Cube](https://cta-service-cms2.hubspot.com/web-interactives/public/v1/track/click?encryptedPayload=AVxigLJ7HkCEJiSKetG9pH8YhbUarQNrCaeweGunWL5qSg8LrAa%2FF9bek7PGoK%2F%2FExdc4uEOXs9Ln%2FQ7OhIuky4h%2BVh6nN7peHEcFoSZE2rfLJAenZ3gKsrUJELaSl64tIVU6zuSEEK4eL%2FoJOuTd7YtQ4JSwdAeZbS8eW5bDAsBH6gUXMUUGpGAFEhJLGwsguqs%2F5Vt%2B6T0UMXlJuOOsFg%3D&portalId=47449398)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0340",
+          "line_start": 64,
+          "line_end": 83,
+          "url": "https://beta.team/charge-cube",
+          "page_class": "other",
+          "snippet": "Thermal Management System\n-------------------------\nProtocol\nSAE AIR8487\nLiquid Temperature\n15\u00b0C to 21\u00b0C\nFlow\n60 lpm\nPressure\n20 psi normal\n60 psi maximum\nAC Input Voltage\n3P 480 VAC\nAC Input Current\n40 Amps\nAC Input Frequency\n60 Hz\nHeating / Cooling Power\n10 kW / 50 kW\n[Download Sheet](https://cta-service-cms2.hubspot.com/web-interactives/public/v1/track/click?encryptedPayload=AVxigLK2Pr6z5CX%2FmGF4LiCncIazXGm3nrGtSSMsCA4qwzrTMdDjvCH6mdP85C3zc%2F72AnrWN%2BL8SB1QXwuCLpUeXBQUQyaGz5Vo%2FjOh%2FEs%2Bj1ZXnBHtEaUiB9Bqew%2Bajdj9xB1u%2Fgch%2BR%2Fc4CDQeJhqw4WJe9gd9aMgyyQwCDix53H5%2BxTMW2T%2BE4LLcQTEHGfe6Hcr%2BVyBZiBTNRo5ZpLng93TOYTYSfOIJQwyxPBk3F4pa5bTocYSKs58YabWgP01S%2FJ95qkbVtT4QZSyYA%3D%3D&portalId=47449398)"
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 14,
+    "total_cost_usd": 0.45489015000000005,
+    "created_at": "2026-05-03T11:16:40+00:00",
+    "extract_version": "0.1.0"
+  }
+}

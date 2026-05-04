@@ -1,0 +1,359 @@
+{
+  "target_id": "neu-motors",
+  "run_id": "canonical",
+  "display_name": "NeU Motors",
+  "homepage_url": "https://neumotors.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/neu-motors/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 20,
+            "line_end": 20,
+            "url": "https://neumotors.com",
+            "page_class": "homepage",
+            "snippet": "Neumotors offers brushless motor engineering and manufacturing. \u00a0Our product line includes brushless motors and controllers from 50 watts to 50kW output. With hundreds of motors and thousands of configurations in our catalog, Neumotors can provide a great BLDC solution for your prototype or production needs."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 3,
+            "line_end": 3,
+            "url": "https://neumotors.com",
+            "page_class": "homepage",
+            "snippet": "*   [MOTORS](https://neumotors.com/brushless-motor-manufacturing/)"
+          }
+        ],
+        "notes": "BLDC motors (50W\u201350kW) and gearboxes are the company's primary own-brand products."
+      },
+      {
+        "category": "propulsion_electronics",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 4,
+            "line_end": 4,
+            "url": "https://neumotors.com",
+            "page_class": "homepage",
+            "snippet": "*   [CONTROLLERS](https://neumotors.com/brushless-motor-controllers-escs/)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0232",
+            "line_start": 29,
+            "line_end": 29,
+            "url": "https://neumotors.com/product/apd-40f3",
+            "page_class": "product",
+            "snippet": "APD 40F3 brushless motor controller"
+          }
+        ],
+        "notes": "Resells/distributes ESCs/motor controllers from APD and Hargrave (microDRIVE LP)."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "San Diego",
+      "state_or_province": "California",
+      "country": "United States",
+      "address": "4631 Viewridge Ave Unit B, San Diego, CA 92123"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0149",
+        "line_start": 28,
+        "line_end": 30,
+        "url": "https://neumotors.com/contact-us",
+        "page_class": "contact",
+        "snippet": "**NEUTRONICS ENTERPRISES LLC\n4631 Viewridge Ave Unit B\nSan Diego, CA 92123**"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 20,
+        "line_end": 20,
+        "url": "https://neumotors.com",
+        "page_class": "homepage",
+        "snippet": "Neumotors offers brushless motor engineering and manufacturing. \u00a0Our product line includes brushless motors and controllers from 50 watts to 50kW output. With hundreds of motors and thousands of configurations in our catalog, Neumotors can provide a great BLDC solution for your prototype or production needs."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 23,
+        "line_end": 23,
+        "url": "https://neumotors.com",
+        "page_class": "homepage",
+        "snippet": "OEM production solutions often require customized engineering and manufacturing \u2013 we welcome your requests! With many years of supplying top aerospace firms, we have the tools and experience in our San Diego, CA, offices to design custom BLDC drive solutions."
+      }
+    ],
+    "notes": "Designs and manufactures BLDC motors and distributes ESCs; all are components that go into drones and other aerospace platforms."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "NeuMotors BLDC Motor line",
+        "product_type": "brushless DC motors, 50W\u201350kW",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 20,
+            "line_end": 20,
+            "url": "https://neumotors.com",
+            "page_class": "homepage",
+            "snippet": "Neumotors offers brushless motor engineering and manufacturing. \u00a0Our product line includes brushless motors and controllers from 50 watts to 50kW output. With hundreds of motors and thousands of configurations in our catalog, Neumotors can provide a great BLDC solution for your prototype or production needs."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "APD 40F3",
+        "product_type": "brushless motor controller / ESC (25V, 100A, 6S LiPo)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0232",
+            "line_start": 26,
+            "line_end": 29,
+            "url": "https://neumotors.com/product/apd-40f3",
+            "page_class": "product",
+            "snippet": "APD 40F3\n========\n$82.50\nAPD 40F3 brushless motor controller"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "APD 80F3",
+        "product_type": "brushless motor controller / ESC",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0221",
+            "line_start": 33,
+            "line_end": 35,
+            "url": "https://neumotors.com/product-tag/ndaa",
+            "page_class": "compliance",
+            "snippet": "    APD 80F3\n    --------\n    $97.90](https://neumotors.com/product/apd-80f3/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "APD 120F3",
+        "product_type": "brushless motor controller / ESC",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0221",
+            "line_start": 28,
+            "line_end": 30,
+            "url": "https://neumotors.com/product-tag/ndaa",
+            "page_class": "compliance",
+            "snippet": "*   [![APD 120F3](https://neumotors.com/wp-content/uploads/2023/03/120F3Xv2-1-150x150.jpg)\n    APD 120F3\n    ---------"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "APD 200F3",
+        "product_type": "brushless motor controller / ESC",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0221",
+            "line_start": 40,
+            "line_end": 42,
+            "url": "https://neumotors.com/product-tag/ndaa",
+            "page_class": "compliance",
+            "snippet": "*   [![APD 200F3](https://neumotors.com/wp-content/uploads/2023/03/200-square-150x150.jpg)\n    APD 200F3\n    ---------"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "APD HV series",
+        "product_type": "high-voltage brushless motor controller / ESC (240\u2013400A, 14\u201320 cell)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0221",
+            "line_start": 36,
+            "line_end": 51,
+            "url": "https://neumotors.com/product-tag/ndaa",
+            "page_class": "compliance",
+            "snippet": "*   [![APD HV  240 14 cell](https://neumotors.com/wp-content/uploads/2022/07/HVP_1-Medium-150x150.jpg)\n    APD HV 240 14 cell\n    ------------------\n    $1,208.90](https://neumotors.com/product/apd-hv-240-14-cell/)\n*   [![APD 200F3](https://neumotors.com/wp-content/uploads/2023/03/200-square-150x150.jpg)\n    APD 200F3\n    ---------\n    $317.90](https://neumotors.com/product/apd-200f3/)\n*   [![APD HV 400 16 cell](https://neumotors.com/wp-content/uploads/2022/07/HV14_1-Medium-150x150.jpg)\n    APD HV 400 16 cell\n    ------------------\n    $2,088.90](https://neumotors.com/product/apd-hv-400-16-cell/)\n*   [![APD HV 300 20 cell](https://neumotors.com/wp-content/uploads/2022/07/HVP_1-Medium-150x150.jpg)\n    APD HV 300 20 cell\n    ------------------\n    $2,088.90](https://neumotors.com/product/apd-hv-300-20-cell/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "APD UHV 400 20 cell",
+        "product_type": "ultra-high-voltage brushless motor controller / ESC",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0221",
+            "line_start": 56,
+            "line_end": 59,
+            "url": "https://neumotors.com/product-tag/ndaa",
+            "page_class": "compliance",
+            "snippet": "*   [![APD UHV 400 20 cell](https://neumotors.com/wp-content/uploads/2024/04/UHV201500-150x150.jpg)\n    APD UHV 400 20 cell\n    -------------------\n    $2,748.90](https://neumotors.com/product/apd-uhv-400-20-cell/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "microDRIVE | LP",
+        "product_type": "NDAA CAN multirotor ESC (Hargrave brand)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0248",
+            "line_start": 27,
+            "line_end": 29,
+            "url": "https://neumotors.com/product/microdrivelp",
+            "page_class": "product",
+            "snippet": "microDRIVE | LP\n===============\nPlease call Neutronics for product application guidance and pricing."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "PDB360",
+        "product_type": "360A power distribution board",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0250",
+            "line_start": 21,
+            "line_end": 23,
+            "url": "https://neumotors.com/product/pdb360",
+            "page_class": "product",
+            "snippet": "PDB360 360 amp Power Distribution Board\n=======================================\n$75.90"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "NeuMotors motors page lists 'hundreds of motors and thousands of configurations' \u2014 individual motor SKUs were on a dynamically-rendered table not captured in text. ESC and accessory SKUs are well-documented."
+  },
+  "ndaa": {
+    "value": "yes",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0222",
+        "line_start": 20,
+        "line_end": 22,
+        "url": "https://neumotors.com/product-tag/ndaa-848",
+        "page_class": "compliance",
+        "snippet": "NDAA 848\n========\nShowing 1\u20139 of 18 results"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0232",
+        "line_start": 33,
+        "line_end": 33,
+        "url": "https://neumotors.com/product/apd-40f3",
+        "page_class": "product",
+        "snippet": "SKU: Co2049 Categories: [APD F SERIES](https://neumotors.com/product-category/brushlesss-speed-controllers/apd/apd_f_series/), [Controllers](https://neumotors.com/product-category/controllers/) Tags: [APD](https://neumotors.com/product-tag/apd/), [APD ESC](https://neumotors.com/product-tag/apd-esc/), [brushless motor controller](https://neumotors.com/product-tag/brushless-motor-controller/), [Castle Creations](https://neumotors.com/product-tag/castle-creations/), [ESC](https://neumotors.com/product-tag/esc/), [JETI](https://neumotors.com/product-tag/jeti/), [made in usa](https://neumotors.com/product-tag/made-in-usa/), [MGM COMPRO](https://neumotors.com/product-tag/mgm-compro/), [NDAA](https://neumotors.com/product-tag/ndaa/), [NDAA 848](https://neumotors.com/product-tag/ndaa-848/), [not china](https://neumotors.com/product-tag/not-china/), [YGE](https://neumotors.com/product-tag/yge/)"
+      }
+    ],
+    "notes": "Site maintains dedicated 'NDAA 848' product tag with 18 tagged products (e.g. APD F-series ESCs). 'Not china' tag used alongside NDAA 848 tag on same products."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 20,
+        "line_end": 20,
+        "url": "https://neumotors.com",
+        "page_class": "homepage",
+        "snippet": "Neumotors offers brushless motor engineering and manufacturing. \u00a0Our product line includes brushless motors and controllers from 50 watts to 50kW output. With hundreds of motors and thousands of configurations in our catalog, Neumotors can provide a great BLDC solution for your prototype or production needs."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 26,
+        "line_end": 26,
+        "url": "https://neumotors.com",
+        "page_class": "homepage",
+        "snippet": "Neumotors brushless motors are assembled in California, Philippines and/or China from components sourced globally. We are happy to work with customers to meet their sourcing requirements. All motors are designed and individually tested in our ISO9001 certified San Diego facility."
+      }
+    ],
+    "notes": "Hundreds of catalog motor SKUs with listed prices and 'Add to cart'; ISO 9001 certified facility; also offers custom engineering as a secondary mode."
+  },
+  "unresolved_questions": [
+    "Individual NeuMotors motor SKUs were on a dynamically-rendered table (resource-0002) that did not capture in text \u2014 motor model numbers not enumerated.",
+    "Blue UAS status not mentioned anywhere in corpus."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://neumotors.com/brushless-motor-manufacturing/",
+      "reason": "Motor catalog page likely lists individual NeuMotors motor SKUs and would confirm full product breadth for propulsion_mechanical category.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "readiness"
+      ],
+      "source_hint": "guessed from homepage nav link",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "complete",
+  "tagline": "BLDC motors (50 W\u201350 kW, COTS and custom) and brushless motor controllers (APD and microDRIVE lines, 25V\u2013UHV, all NDAA-compliant) designed and tested in San Diego. ISO 9001 certified. Public evidence limited on defense primes' adoption; Blue UAS status unknown.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 17,
+    "total_cost_usd": 0.2902303,
+    "created_at": "2026-05-04T04:35:52+00:00",
+    "extract_version": "0.1.0"
+  }
+}

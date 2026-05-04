@@ -1,0 +1,637 @@
+{
+  "target_id": "asr-pioneer-aviation-safety-resources",
+  "run_id": "canonical",
+  "display_name": "ASR-Pioneer (Aviation Safety Resources)",
+  "homepage_url": "https://www.asr-pioneer.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/asr-pioneer-aviation-safety-resources/website",
+  "products": [
+    {
+      "name": "Para-Cushion 303 Back",
+      "category": "recovery_systems",
+      "descriptor": "Back-style personnel parachute system with harness/container and canopy options",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0023",
+          "line_start": 18,
+          "line_end": 19,
+          "url": "https://paradigmparachute.com/products/para-cushion-303-back",
+          "page_class": "product",
+          "snippet": "Para-Cushion 303 Back\n====================="
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0023",
+          "line_start": 23,
+          "line_end": 26,
+          "url": "https://paradigmparachute.com/products/para-cushion-303-back",
+          "page_class": "product",
+          "snippet": "303 Back is recommended for use in airplanes where head room is at a minimum and moving forward in the cockpit is not restricted. 303 Back comes with:\n*   Harness/Container\n*   Mid-Lite Parachute or 30 FT Lo-Po\n*   Ripcord"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0023",
+          "line_start": 31,
+          "line_end": 31,
+          "url": "https://paradigmparachute.com/products/para-cushion-303-back",
+          "page_class": "product",
+          "snippet": "303 Back measures 24\u2033 (60 cm) tall by 16\u2033 (40 cm) wide by 3\u2033 (7 cm) thick\\* and weighs approximately 15 lbs (6.5 kg)\\*\\*. In many cases, by removing the back cushion of the seat pan, the pilot may place 303 Back in its place."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Mid-Lite Canopy (26 FT)",
+      "category": "recovery_systems",
+      "descriptor": "26-foot mid-lite parachute canopy for personnel back parachute systems",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0023",
+          "line_start": 25,
+          "line_end": 25,
+          "url": "https://paradigmparachute.com/products/para-cushion-303-back",
+          "page_class": "product",
+          "snippet": "*   Mid-Lite Parachute or 30 FT Lo-Po"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0023",
+          "line_start": 32,
+          "line_end": 32,
+          "url": "https://paradigmparachute.com/products/para-cushion-303-back",
+          "page_class": "product",
+          "snippet": "\\*with 26 FT Mid-Lite canopy; 4.5\u2033 (11.43 cm) thick with 30 FT Lo-Po canopy"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "30 FT Lo-Po Canopy",
+      "category": "recovery_systems",
+      "descriptor": "30-foot low-porosity parachute canopy for heavier personnel back parachute systems",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0023",
+          "line_start": 25,
+          "line_end": 25,
+          "url": "https://paradigmparachute.com/products/para-cushion-303-back",
+          "page_class": "product",
+          "snippet": "*   Mid-Lite Parachute or 30 FT Lo-Po"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0023",
+          "line_start": 33,
+          "line_end": 33,
+          "url": "https://paradigmparachute.com/products/para-cushion-303-back",
+          "page_class": "product",
+          "snippet": "\\*\\*with 26 FT Mid-Lite canopy; 19.5 lbs (8.85 kg) with 30 FT Lo-Po canopy"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Cargo Parachutes",
+      "category": "recovery_systems",
+      "descriptor": "Military cargo parachute systems for airdrop operations",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 41,
+          "line_end": 42,
+          "url": "https://paradigmparachute.com/",
+          "page_class": "homepage",
+          "snippet": "#### Cargo Parachutes\n](https://paradigmparachute.com/cargo/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Extraction Parachutes",
+      "category": "recovery_systems",
+      "descriptor": "Extraction parachute systems for cargo and equipment airdrop",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 46,
+          "line_end": 47,
+          "url": "https://paradigmparachute.com/",
+          "page_class": "homepage",
+          "snippet": "#### Extraction Parachutes\n](https://paradigmparachute.com/extraction/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Deceleration & Recovery Parachutes",
+      "category": "recovery_systems",
+      "descriptor": "Aircraft deceleration and recovery parachute systems",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 66,
+          "line_end": 67,
+          "url": "https://paradigmparachute.com/",
+          "page_class": "homepage",
+          "snippet": "#### Deceleration & Recovery\n](https://paradigmparachute.com/deceleration-recovery/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Aerial Delivery Equipment",
+      "category": "recovery_systems",
+      "descriptor": "Aerial delivery equipment for military airdrop operations",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 51,
+          "line_end": 52,
+          "url": "https://paradigmparachute.com/",
+          "page_class": "homepage",
+          "snippet": "#### Aerial Delivery Equipment\n](https://paradigmparachute.com/aerial-delivery/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Airdrop/Parachutes Rigging Items",
+      "category": "mechanical_subsystems",
+      "descriptor": "Airdrop and parachute rigging hardware and components",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 56,
+          "line_end": 57,
+          "url": "https://paradigmparachute.com/",
+          "page_class": "homepage",
+          "snippet": "#### Airdrop/ Parachutes Rigging Items\n](https://paradigmparachute.com/rigging-items/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Personnel Parachutes",
+      "category": "recovery_systems",
+      "descriptor": "Military personnel parachute systems for airborne operations",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 60,
+          "line_end": 62,
+          "url": "https://paradigmparachute.com/",
+          "page_class": "homepage",
+          "snippet": "[\n#### Personnel Equipment\n](https://paradigmparachute.com/personnel-parachutes/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Parachute Training Courses / Mobile Training Team",
+      "category": "ground_segment",
+      "descriptor": "Parachute rigging and airdrop operations training with mobile training team",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 71,
+          "line_end": 72,
+          "url": "https://paradigmparachute.com/",
+          "page_class": "homepage",
+          "snippet": "#### Training Courses/Mobile Training Team\n](https://paradigmparachute.com/training/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 29,
+          "line_end": 29,
+          "url": "https://paradigmparachute.com/",
+          "page_class": "homepage",
+          "snippet": "Paradigm focuses on combining and integrating all support elements needed to conduct airdrop operations and providing customers full solutions, including a mobile training team consisting of qualified trainers. We are a disabled veteran-owned small business strategically based in Pensacola, FL, and well-positioned with experience and world-class partners."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "G-12E Cargo Parachute",
+      "category": "recovery_systems",
+      "descriptor": "Military G-12E heavy cargo parachute acquired via ASR-Pioneer asset purchase",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 103,
+          "line_end": 104,
+          "url": "https://paradigmparachute.com/",
+          "page_class": "homepage",
+          "snippet": "![](https://paradigmparachute.com/wp-content/uploads/2022/07/G-12E_vertical-1200x795.jpg)April 3, 2024\n[Paradigm Parachute & Defense Acquires ASR-Pioneer Assets, Expands Product Offerings and Global Reach](https://paradigmparachute.com/paradigm-parachute-and-defense-inc-acquires-asr-pioneer-assets/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Next-Generation Smart Altimeter for Tactical Parachutists",
+      "category": "sensors_and_navigation",
+      "descriptor": "Next-generation smart altimeter device for tactical military parachutists",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 99,
+          "line_end": 100,
+          "url": "https://paradigmparachute.com/",
+          "page_class": "homepage",
+          "snippet": "![](https://paradigmparachute.com/wp-content/uploads/2025/06/Paradigm-Parachute-Altimeter-scaled.jpeg)June 9, 2025\n[Paradigm Parachute and Defense Unveils Next-Generation Smart Altimeter for Tactical Parachutists](https://paradigmparachute.com/paradigm-parachute-and-defense-unveils-next-generation-smart-altimeter-for-tactical-parachutists/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "MSC-11 (G-16) Modular Semispherical Cruciform Parachute",
+      "category": "recovery_systems",
+      "descriptor": "US Army-certified 101 ft modular semispherical cruciform cargo parachute, replaces G-11",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0028",
+          "line_start": 68,
+          "line_end": 68,
+          "url": "https://paradigmparachute.com/cargo",
+          "page_class": "other",
+          "snippet": "US Army has certified the MSC-11 (G-16) Parachute System as a direct replacement for the aging G-11 parachute system throughout the US DOD. A single version of the G-16 is used to replace all versions of the G-11."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0028",
+          "line_start": 70,
+          "line_end": 70,
+          "url": "https://paradigmparachute.com/cargo",
+          "page_class": "other",
+          "snippet": "Modular Semispherical Cruciform Parachute and Parachute Inlet Control System are covered by U.S. Patents & manufactured by Paradigm Parachute and Defense Inc."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "ACPRS (Advanced Cargo Parachute Release System)",
+      "category": "recovery_systems",
+      "descriptor": "US DoD replacement for the M1 cargo parachute release system",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0018",
+          "line_start": 34,
+          "line_end": 37,
+          "url": "https://paradigmparachute.com/rigging-items",
+          "page_class": "other",
+          "snippet": "**[ACPRS \\[PDF SPEC SHEET\\]](http://paradigmparachute.com/wp-content/uploads/2021/05/Talon-OL.pdf \"ACPRS [PDF SPEC SHEET]\")**\n1670-01-608-4698\nWA-25002-001\nUS DoD replacement for the M1.\u00a0 Advanced Cargo Parachute Release System\u00a0**[(ACPRS) \\[PDF SPEC SHEET\\]](http://paradigmparachute.com/wp-content/uploads/2021/05/Talon-OL.pdf \"ACPRS [PDF SPEC SHEET]\")**"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Airdrop Platforms Type V",
+      "category": "mechanical_subsystems",
+      "descriptor": "Heavy-duty military airdrop platforms in 8\u201332 ft sizes for low-velocity airdrops",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0016",
+          "line_start": 26,
+          "line_end": 34,
+          "url": "https://paradigmparachute.com/aerial-delivery",
+          "page_class": "other",
+          "snippet": "AIRDROP PLATFORMS \u201cTYPE V\u201d\n--------------------------\nEach platform will come with the following items:\n*   20 ea. Tiedown Clevis\n*   1 set Extraction Bracket Assembly\n*   1 ea. Inside EFTA Bracket\n*   1 ea. Outside EFTA Bracket\n*   2 ea. Tandem Link Assembly\n*   2 ea. Suspension Link Assembly"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "G-12D/E Cargo Parachute",
+      "category": "recovery_systems",
+      "descriptor": "64 ft flat circular cargo parachute for 501\u20132,200 lb loads",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0028",
+          "line_start": 43,
+          "line_end": 48,
+          "url": "https://paradigmparachute.com/cargo",
+          "page_class": "other",
+          "snippet": "G-12D/E\n1670-01-065-3755\n11-1-2620\nFlat, Circular\n64 Ft\n501-2,200 lbs"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "G-11B/C/D Cargo Parachute",
+      "category": "recovery_systems",
+      "descriptor": "100 ft flat circular cargo parachute for 2,270\u20135,000 lb loads, clusterable to 42,000 lbs",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0028",
+          "line_start": 37,
+          "line_end": 42,
+          "url": "https://paradigmparachute.com/cargo",
+          "page_class": "other",
+          "snippet": "G-11B/C/D\n1670-01-016-7841\n11-1-2566\nFlat, Circular\n100 Ft\n2,270-5000 lbs"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0028",
+          "line_start": 79,
+          "line_end": 79,
+          "url": "https://paradigmparachute.com/cargo",
+          "page_class": "other",
+          "snippet": "*   Special Features: Can be clustered in 2-8 parachutes for loads up to 42,000 lbs."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "28 FT EXT Extraction Parachute",
+      "category": "recovery_systems",
+      "descriptor": "28 ft flat circular ring-slot extraction parachute for 14,500\u201330,000 lb loads",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0012",
+          "line_start": 43,
+          "line_end": 48,
+          "url": "https://paradigmparachute.com/extraction",
+          "page_class": "other",
+          "snippet": "28\u2019 EXT\n1670-00-040-8135\n11-1-2146\nFlat, Circular, Ring slot\n28 Ft\n14,500-30,000 lbs"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "22 FT EXT Extraction Parachute",
+      "category": "recovery_systems",
+      "descriptor": "22 ft flat circular ring-slot extraction parachute for 7,000\u201317,000 lb loads",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0012",
+          "line_start": 37,
+          "line_end": 42,
+          "url": "https://paradigmparachute.com/extraction",
+          "page_class": "other",
+          "snippet": "22\u2019 EXT\n1670-01-063-3716\n11-1-2584\nFlat, Circular, Ring slot\n22 Ft\n7,000-17,0000 lbs"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "15 FT EXT Extraction Parachute",
+      "category": "recovery_systems",
+      "descriptor": "15 ft flat circular ring-slot extraction parachute for 2,250\u20138,500 lb loads",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0012",
+          "line_start": 31,
+          "line_end": 36,
+          "url": "https://paradigmparachute.com/extraction",
+          "page_class": "other",
+          "snippet": "15\u2019 EXT\n1670-01-063-3715\n11-1-2583\nFlat, Circular, Ring slot\n15 Ft\n2,250-8,500 lbs"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Extraction Force Transfer Assembly (EFTA)",
+      "category": "mechanical_subsystems",
+      "descriptor": "Multi-size mechanical assembly transferring extraction parachute force to airdrop platform load",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0016",
+          "line_start": 70,
+          "line_end": 76,
+          "url": "https://paradigmparachute.com/aerial-delivery",
+          "page_class": "other",
+          "snippet": "EXTRACTION FORCE TRANSFER ASSEMBLY\n----------------------------------\n**Size**\n**NSN**\n**P/N**\n12 ft.\n1670-00-434-5783"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "DDM-10000B Electro-Mechanical Dereefer",
+      "category": "mechanical_subsystems",
+      "descriptor": "Electro-mechanical parachute dereefer with 2-second time delay, special order 3\u201330 s",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0018",
+          "line_start": 103,
+          "line_end": 107,
+          "url": "https://paradigmparachute.com/rigging-items",
+          "page_class": "other",
+          "snippet": "Electro-Mechanical Dereefer, Parachute\n1670-01-630-0376\nDDM-10000B\n2 Second Time Delay\nSpecial order for a fixed time delay between 3 \u2013 30 seconds."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Next-Gen SET-10 / SET-10R Personnel Parachute System",
+      "category": "recovery_systems",
+      "descriptor": "Steerable round main canopy personnel parachute system for airborne operations at lower exit altitudes",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0026",
+          "line_start": 26,
+          "line_end": 27,
+          "url": "https://paradigmparachute.com/personnel-parachutes",
+          "page_class": "other",
+          "snippet": "### Next-Gen SET-10 and Next-Gen SET-10R\nFor Airborne Operations, SET-10 and SET-10XL steerable round main canopies are engineered to put Paratroopers safely on the ground from lower exit altitudes. The Next-Gen SET-10R system can be configured with 26 FT Military Lo-Po or 30 FT Lo-Po canopies to accommodate a wide range of exit weights and deployment speeds."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Paradigm Smart Altimeter",
+      "category": "sensors_and_navigation",
+      "descriptor": "Rugged wrist-mounted digital altimeter for tactical parachutists with color display and jump logging",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0021",
+          "line_start": 24,
+          "line_end": 24,
+          "url": "https://paradigmparachute.com/paradigm-parachute-and-defense-unveils-next-generation-smart-altimeter-for-tactical-parachutists",
+          "page_class": "news",
+          "snippet": "Paradigm Parachute and Defense is proud to announce the launch of the most advanced altimeter to date, a rugged, wrist-mounted smart display built specifically for the needs of today\u2019s tactical parachutist."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "G-14 Cargo Parachute",
+      "category": "recovery_systems",
+      "descriptor": "34 ft flat circular cargo parachute for loads up to 500 lbs, used with A-22 and A-21",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0028",
+          "line_start": 49,
+          "line_end": 54,
+          "url": "https://paradigmparachute.com/cargo",
+          "page_class": "other",
+          "snippet": "G-14\n1670-00-999-2658\n11-1-578\nFlat, Circular\n34 Ft\n500 lbs"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0028",
+          "line_start": 103,
+          "line_end": 106,
+          "url": "https://paradigmparachute.com/cargo",
+          "page_class": "other",
+          "snippet": "G-14\n----\n*   Special Features: Can be clustered\n*   Used with A-22, A-21"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Airdrop Container A-22",
+      "category": "mechanical_subsystems",
+      "descriptor": "Military airdrop container with 2,200 lb max load capacity",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0016",
+          "line_start": 111,
+          "line_end": 114,
+          "url": "https://paradigmparachute.com/aerial-delivery",
+          "page_class": "other",
+          "snippet": "A-22\n1670-00-587-3421\n50B7702\n2,200 lbs Max"
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 23,
+    "total_cost_usd": 0.7099752500000001,
+    "created_at": "2026-05-03T21:36:44+00:00",
+    "extract_version": "0.1.0"
+  }
+}

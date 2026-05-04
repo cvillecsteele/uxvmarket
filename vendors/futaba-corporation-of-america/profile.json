@@ -1,0 +1,425 @@
+{
+  "target_id": "futaba-corporation-of-america",
+  "run_id": "canonical",
+  "display_name": "Futaba Corporation of America",
+  "homepage_url": "https://www.futabairc.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/futaba-corporation-of-america/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "mechanical_subsystems",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0114",
+            "line_start": 28,
+            "line_end": 29,
+            "url": "https://futabairc.com/product/bla1hd",
+            "page_class": "product",
+            "snippet": "Brushless Digital Mini Servo \u00a0![](https://futabairc.com/wp-content/uploads/2019/07/S.Bus2_.svg)\n-------------------------------------------------------------------------------------------------"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0135",
+            "line_start": 28,
+            "line_end": 29,
+            "url": "https://futabairc.com/product/bla6hb",
+            "page_class": "product",
+            "snippet": "Brushless Digital Mini Servo \u00a0![](https://futabairc.com/wp-content/uploads/2019/07/S.Bus2_.svg)\n-------------------------------------------------------------------------------------------------"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0098",
+            "line_start": 28,
+            "line_end": 29,
+            "url": "https://futabairc.com/product/aj9da41",
+            "page_class": "product",
+            "snippet": "High Powered Servo \u00a0![](https://futabairc.com/wp-content/uploads/2019/07/S.Bus2_.svg)\n---------------------------------------------------------------------------------------"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0027",
+            "line_start": 45,
+            "line_end": 45,
+            "url": "https://futabairc.com/news",
+            "page_class": "news",
+            "snippet": "### [Industrial Servos are not just for UAVs](https://futabairc.com/general/futaba-industrial-servos-are-not-just-for-uavs/)"
+          }
+        ],
+        "notes": "Industrial servo actuators (brushless digital, analog, and high-powered) are the dominant product line, used as UAV control surface/mechanism actuators"
+      },
+      {
+        "category": "communications",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0137",
+            "line_start": 31,
+            "line_end": 32,
+            "url": "https://futabairc.com/product/fmt-02",
+            "page_class": "product",
+            "snippet": "14-Channel 2.4 GHz Radio\n------------------------"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0137",
+            "line_start": 37,
+            "line_end": 37,
+            "url": "https://futabairc.com/product/fmt-02",
+            "page_class": "product",
+            "snippet": "*   \u2013 Fully assignable switches (three/two-position)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0138",
+            "line_start": 33,
+            "line_end": 33,
+            "url": "https://futabairc.com/product/fmt-03",
+            "page_class": "product",
+            "snippet": "18-Channel 2.4 GHz Radio"
+          }
+        ],
+        "notes": "RC transmitters (FMT-02, FMT-03) are 2.4 GHz radio systems supporting multirotor operation; transmitters are now discontinued/obsolete but still listed in the product catalog"
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Huntsville",
+      "state_or_province": "Alabama",
+      "country": "United States",
+      "address": "2681 Wall Triana Highway, Huntsville, AL 35824"
+    },
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0013",
+        "line_start": 39,
+        "line_end": 41,
+        "url": "https://futabairc.com/contact",
+        "page_class": "contact",
+        "snippet": "##### Our Office\n2681 Wall Triana Hwy\nHuntsville, AL 35824"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 59,
+        "line_end": 61,
+        "url": "https://futabairc.com/",
+        "page_class": "homepage",
+        "snippet": "Futaba Corporation of America\n2681 Wall Triana Highway\nHuntsville, AL,35824"
+      }
+    ],
+    "notes": "The IRC-division website contact page and all page footers show Huntsville, AL. The About page states FCA overall is 'Headquartered in Hoffman Estates, IL' with Huntsville as one of three US locations."
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0130",
+        "line_start": 25,
+        "line_end": 25,
+        "url": "https://futabairc.com/product/bla21-starter-kit-for-dronecan-and-pwm",
+        "page_class": "news",
+        "snippet": "BLA21 Starter Kit for DroneCAN and PWM"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0130",
+        "line_start": 32,
+        "line_end": 32,
+        "url": "https://futabairc.com/product/bla21-starter-kit-for-dronecan-and-pwm",
+        "page_class": "news",
+        "snippet": "You can easily set parameters, check status, and check operation by using the Windows application Futaba Drone CAN Tools found here on GitHub: [https://github.com/FutabaCorp/FUTABA\\_DroneCAN\\_Tools](https://github.com/FutabaCorp/FUTABA_DroneCAN_Tools)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0027",
+        "line_start": 45,
+        "line_end": 45,
+        "url": "https://futabairc.com/news",
+        "page_class": "news",
+        "snippet": "### [Industrial Servos are not just for UAVs](https://futabairc.com/general/futaba-industrial-servos-are-not-just-for-uavs/)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0140",
+        "line_start": 26,
+        "line_end": 26,
+        "url": "https://futabairc.com/products",
+        "page_class": "product",
+        "snippet": "Showing 1\u201310 of 45 results"
+      }
+    ],
+    "notes": "Sells catalog servo components and RC radio components that go into drones. BLA series servos support DroneCAN protocol. News article title implies UAVs are a primary market segment: 'Industrial Servos are not just for UAVs'."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "BLA series brushless digital servos",
+        "product_type": "brushless digital servo actuator (UAV/industrial)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0114",
+            "line_start": 25,
+            "line_end": 25,
+            "url": "https://futabairc.com/product/bla1hd",
+            "page_class": "product",
+            "snippet": "BLA1HD(7.4V)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0135",
+            "line_start": 25,
+            "line_end": 25,
+            "url": "https://futabairc.com/product/bla6hb",
+            "page_class": "product",
+            "snippet": "BLA6HB (7.4V)"
+          }
+        ],
+        "notes": "Includes BLA1HD, BLA6HB, BLA15, BLA21, BLA34 sub-variants with DroneCAN/PWM/S.Bus support"
+      },
+      {
+        "name": "AD series analog servos",
+        "product_type": "analog servo actuator (industrial)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0086",
+            "line_start": 25,
+            "line_end": 25,
+            "url": "https://futabairc.com/product/ad0ba",
+            "page_class": "product",
+            "snippet": "AD0BA (6.0V) \u2013 Discontinued"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0140",
+            "line_start": 38,
+            "line_end": 38,
+            "url": "https://futabairc.com/products",
+            "page_class": "product",
+            "snippet": "![](https://futabairc.com/wp-content/uploads/2019/08/AD1FA-uai-258x258.jpg)](https://futabairc.com/product/ad1fa/)"
+          }
+        ],
+        "notes": "Includes AD0BA, AD1FA, AD1HA, AD2HA, AD12, AD13, AD20 sub-variants"
+      },
+      {
+        "name": "AJ9DA series high-powered servos",
+        "product_type": "high-powered servo actuator (industrial)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0098",
+            "line_start": 25,
+            "line_end": 25,
+            "url": "https://futabairc.com/product/aj9da41",
+            "page_class": "product",
+            "snippet": "AJ9DA41 (12V)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0098",
+            "line_start": 28,
+            "line_end": 28,
+            "url": "https://futabairc.com/product/aj9da41",
+            "page_class": "product",
+            "snippet": "High Powered Servo \u00a0![](https://futabairc.com/wp-content/uploads/2019/07/S.Bus2_.svg)"
+          }
+        ],
+        "notes": "Includes AJ9DA41/42/43/44 variants; IP64 rated; up to 84 kgf\u00b7cm torque"
+      },
+      {
+        "name": "FMT-02",
+        "product_type": "14-channel 2.4 GHz RC transmitter (discontinued)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0137",
+            "line_start": 28,
+            "line_end": 28,
+            "url": "https://futabairc.com/product/fmt-02",
+            "page_class": "product",
+            "snippet": "FMT-02 (14-Channel) \u2013 Discontinued"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0137",
+            "line_start": 37,
+            "line_end": 37,
+            "url": "https://futabairc.com/product/fmt-02",
+            "page_class": "product",
+            "snippet": "*   \u2013 Fully assignable switches (three/two-position)"
+          }
+        ],
+        "notes": "Supports Multirotor/Airplane/Helicopter/Glider; uses FASSTest and S.Bus2"
+      },
+      {
+        "name": "FMT-03",
+        "product_type": "18-channel 2.4 GHz RC transmitter (discontinued)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0138",
+            "line_start": 30,
+            "line_end": 30,
+            "url": "https://futabairc.com/product/fmt-03",
+            "page_class": "product",
+            "snippet": "FMT-03 (18-Channel) \u2013 Discontinued"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0138",
+            "line_start": 40,
+            "line_end": 40,
+            "url": "https://futabairc.com/product/fmt-03",
+            "page_class": "product",
+            "snippet": "*   \u2013 Operation Type: Multirotor/Airplane/Helicopter/Glider"
+          }
+        ],
+        "notes": "IP64 rated; supports Multirotor/Airplane/Helicopter/Glider; FASSTest and S.Bus2"
+      },
+      {
+        "name": "CIU-3",
+        "product_type": "USB servo programmer/interface",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0136",
+            "line_start": 28,
+            "line_end": 28,
+            "url": "https://futabairc.com/product/ciu-3",
+            "page_class": "product",
+            "snippet": "CIU-3 Servo Programmer"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "BLA21 Starter Kit for DroneCAN and PWM",
+        "product_type": "DroneCAN development/integration starter kit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0130",
+            "line_start": 25,
+            "line_end": 25,
+            "url": "https://futabairc.com/product/bla21-starter-kit-for-dronecan-and-pwm",
+            "page_class": "news",
+            "snippet": "BLA21 Starter Kit for DroneCAN and PWM"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0130",
+            "line_start": 29,
+            "line_end": 29,
+            "url": "https://futabairc.com/product/bla21-starter-kit-for-dronecan-and-pwm",
+            "page_class": "news",
+            "snippet": "**Currently not available outside of the Americas.**"
+          }
+        ],
+        "notes": "USB interface with Windows app for parameter setting and status monitoring via DroneCAN"
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "45+ catalog SKUs; key product families listed. Many additional SKUs exist on skipped pages."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA Section 848/889 claims or adjacent compliance language found in the corpus."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS or Blue sUAS claims found in the corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0140",
+        "line_start": 26,
+        "line_end": 26,
+        "url": "https://futabairc.com/products",
+        "page_class": "product",
+        "snippet": "Showing 1\u201310 of 45 results"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 63,
+        "line_end": 64,
+        "url": "https://futabairc.com/",
+        "page_class": "homepage",
+        "snippet": "![](https://futabairc.com/wp-content/uploads/2020/06/DKE_Logo-uai-258x143.png)\n](https://www.digikey.com/en/supplier-centers/futaba \"Digi-Key\")"
+      }
+    ],
+    "notes": "45+ catalog SKUs available for quote; products available through Digi-Key distribution; active production products alongside obsolete lines"
+  },
+  "unresolved_questions": [
+    "Current active transmitter model(s) \u2014 FMT-02 and FMT-03 are both discontinued; unclear if a replacement transmitter is in the active catalog",
+    "Formal HQ address: About page states FCA overall is headquartered in Hoffman Estates, IL, but that line (0020 line 41) exceeds citation word limit and no shorter corroboration is available"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://futabairc.com/transmitters/",
+      "reason": "Would show currently active transmitter SKUs to determine if any in-production RC transmitters exist beyond the discontinued FMT-02/FMT-03",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "readiness"
+      ],
+      "source_hint": "guessed from site nav",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://futabairc.com/general/futaba-industrial-servos-are-not-just-for-uavs/",
+      "reason": "Full article text of 'Industrial Servos are not just for UAVs' would confirm UAV-specific product use cases and potentially mention NDAA or compliance claims",
+      "expected_evidence": [
+        "products_categories",
+        "drone_supply_chain_role",
+        "ndaa"
+      ],
+      "source_hint": "linked from resource-0026 news page",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "complete",
+  "tagline": "Manufactures brushless and analog servos (BLA, AJ9DA, AD series) and linear actuators in 7.4V\u201328V configurations, including DroneCAN-capable BLA21 variants with MIL-STD-810H vibration compliance. Huntsville-based component supplier with 45+ years in RC actuators; NDAA and Blue UAS certification status unknown. Public evidence limited to product datasheets and industrial RC marketing; defense program integration unclear.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 24,
+    "total_cost_usd": 0.5789335999999999,
+    "created_at": "2026-05-04T02:56:07+00:00",
+    "extract_version": "0.1.0"
+  }
+}

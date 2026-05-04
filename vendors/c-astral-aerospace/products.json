@@ -1,0 +1,280 @@
+{
+  "target_id": "c-astral-aerospace",
+  "run_id": "canonical",
+  "display_name": "C-Astral Aerospace",
+  "homepage_url": "https://www.c-astral.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/c-astral-aerospace/website",
+  "products": [
+    {
+      "name": "SQA eVTOL",
+      "category": "airframes",
+      "descriptor": "Blended-wing VTOL UAS for ISR, up to 3h endurance, 40 km range",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0074",
+          "line_start": 19,
+          "line_end": 24,
+          "url": "https://www.c-astral.com/en/unmanned-systems",
+          "page_class": "capability",
+          "snippet": "SQA eVTOL\n---------\n*   up to 3h\n*   80xEO/8xIR/ Lidar\n*   160 km\n*   Failsafe parachute"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Bramor C4EYE",
+      "category": "airframes",
+      "descriptor": "Battlefield-proven fixed-wing ISR UAS, up to 3.5h endurance, encrypted datalink",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0084",
+          "line_start": 16,
+          "line_end": 18,
+          "url": "https://www.c-astral.com/en/unmanned-systems/bramor-c4eye",
+          "page_class": "capability",
+          "snippet": "Bramor C4EYE\n============\nBattlefield and special OPS proven"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0084",
+          "line_start": 36,
+          "line_end": 36,
+          "url": "https://www.c-astral.com/en/unmanned-systems/bramor-c4eye",
+          "page_class": "capability",
+          "snippet": "The field proven BRAMOR C4EYE UAS line is suitable for operations where real-time or near real time video observation and surveillance capability is of utmost importance. With an endurance of up to 3 hours, a standard data and payload link of up to 40km LOS, or the optional MANET digital communications capabilities."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "MWT (Medi Wing Tactical)",
+      "category": "airframes",
+      "descriptor": "High-speed stealthy blended-wing tactical delivery UAS, 60 km range, up to 300 km/h",
+      "granularity": "sku",
+      "readiness": "prototype",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0065",
+          "line_start": 15,
+          "line_end": 15,
+          "url": "https://www.c-astral.com/en/newsroom/72/c-astral-aerospace-unveils-new-stealthy-mwt-medi-wing-tactical-delivery-drone-and-awardwinning-sqa2-evtol-augmented-by-auterion-at-auvsi-xponential-2025",
+          "page_class": "news",
+          "snippet": "C-Astral Aerospace Unveils new, stealthy MWT (Medi Wing Tactical) Delivery Drone and AwardWinning SQA2 eVTOL Augmented by Auterion at AUVSI Xponential 2025"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0065",
+          "line_start": 21,
+          "line_end": 21,
+          "url": "https://www.c-astral.com/en/newsroom/72/c-astral-aerospace-unveils-new-stealthy-mwt-medi-wing-tactical-delivery-drone-and-awardwinning-sqa2-evtol-augmented-by-auterion-at-auvsi-xponential-2025",
+          "page_class": "news",
+          "snippet": "C-Astral will also debut a game-changing delivery drone at Xponential, enhanced by Auterion\u2019s autonomous targeting capabilities and C-Astral\u2019s proprietary datalinks. This high-speed, stealthy UAS, with anti-radar materials and GPS-independent operation, redefines tactical logistics for secure, rapid payload delivery in challenging environments."
+        }
+      ],
+      "notes": "Debuted at AUVSI Xponential 2025; no buy/order language present in corpus."
+    },
+    {
+      "name": "ATLAS AS90X",
+      "category": "airframes",
+      "descriptor": "Compact under-3 kg fixed-wing UAV for first responders and special ops, 90 min endurance",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0075",
+          "line_start": 16,
+          "line_end": 18,
+          "url": "https://www.c-astral.com/en/unmanned-systems/atlas-as90x",
+          "page_class": "capability",
+          "snippet": "ATLAS AS90X\n===========\nAdvanced Technology Light Acquisition System"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0074",
+          "line_start": 39,
+          "line_end": 46,
+          "url": "https://www.c-astral.com/en/unmanned-systems",
+          "page_class": "capability",
+          "snippet": "ATLAS AS90X\n-----------\n*   < 90 min\n*   EO 40x/ IR 4x / LI\n*   90 km\n*   15 km2\n*   Para\n*   Water resistant"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "C3P Software",
+      "category": "ground_segment",
+      "descriptor": "Command, control, communications and mission planning software for C-Astral UAS",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0074",
+          "line_start": 8,
+          "line_end": 8,
+          "url": "https://www.c-astral.com/en/unmanned-systems",
+          "page_class": "capability",
+          "snippet": "*   [C3P Software](/en/c3p-software)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0092",
+          "line_start": 48,
+          "line_end": 48,
+          "url": "https://www.c-astral.com/en/unmanned-systems/sqa-evtol",
+          "page_class": "capability",
+          "snippet": "With C3P you can plan and execute your flight missions, control the flight parameters and sensors in real-time and collect and aggregate geospatial data."
+        }
+      ],
+      "notes": "Dedicated product page (/en/c3p-software) was skipped; classified from references across product pages."
+    },
+    {
+      "name": "Bramor ppX",
+      "category": "airframes",
+      "descriptor": "Survey-grade PPK fixed-wing UAS for photogrammetry, sub-centimeter GSD, 3.5h endurance",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0088",
+          "line_start": 16,
+          "line_end": 18,
+          "url": "https://www.c-astral.com/en/unmanned-systems/bramor-ppx",
+          "page_class": "capability",
+          "snippet": "Bramor ppX\n==========\nSurvey Grade UAS"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0088",
+          "line_start": 36,
+          "line_end": 36,
+          "url": "https://www.c-astral.com/en/unmanned-systems/bramor-ppx",
+          "page_class": "capability",
+          "snippet": "The BRAMOR ppX (GNSS PPK - Post Processing Kinematic) UAS is ideally suited for surveying and remote sensing applications that need a fast high precision set of results, down to sub-centimeter GSD level also in the absence of a grid of ground control points."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "DYN Micro Datalink",
+      "category": "communications",
+      "descriptor": "Micro datalink for C-Astral UAS platforms",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0074",
+          "line_start": 9,
+          "line_end": 9,
+          "url": "https://www.c-astral.com/en/unmanned-systems",
+          "page_class": "capability",
+          "snippet": "*   [DYN Micro Datalink](/en/dyn-micro-datalink)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0092",
+          "line_start": 41,
+          "line_end": 42,
+          "url": "https://www.c-astral.com/en/unmanned-systems/sqa-evtol",
+          "page_class": "capability",
+          "snippet": "#### DYN Micro Datalink\n(PDF, 957.62 kB)](/en/download/610)["
+        }
+      ],
+      "notes": "Dedicated product page (/en/dyn-micro-datalink) was skipped; classified from navigation listing and brochure download reference on SQA eVTOL page."
+    },
+    {
+      "name": "Bramor aGX",
+      "category": "airframes",
+      "descriptor": "Multispectral fixed-wing UAS for precision agriculture mapping, up to 3h endurance",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0080",
+          "line_start": 16,
+          "line_end": 18,
+          "url": "https://www.c-astral.com/en/unmanned-systems/bramor-agx",
+          "page_class": "capability",
+          "snippet": "Bramor aGX\n==========\nRevolutionary agriculture remote sensing system"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0080",
+          "line_start": 35,
+          "line_end": 35,
+          "url": "https://www.c-astral.com/en/unmanned-systems/bramor-agx",
+          "page_class": "capability",
+          "snippet": "Discover the revolutionary precision agriculture service for smart fertilizer application, based on multispectral UAS mapping and soil sample analysis. See deeper - Fertilize smarter!"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "EYE-X HD",
+      "category": "isr_payloads",
+      "descriptor": "Stabilized EO/IR multi-sensor gimbal camera family for C-Astral UAS platforms",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0084",
+          "line_start": 52,
+          "line_end": 52,
+          "url": "https://www.c-astral.com/en/unmanned-systems/bramor-c4eye",
+          "page_class": "capability",
+          "snippet": "_The stabilized C-Astral EYE-X family of gimbals provides electro-optical CCD and state of the art un-cooled micro-bolometer based thermal imaging capabilities with the optional laser illuminator_"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0092",
+          "line_start": 55,
+          "line_end": 55,
+          "url": "https://www.c-astral.com/en/unmanned-systems/sqa-evtol",
+          "page_class": "capability",
+          "snippet": "\u2022 EYE-X HD 8 gimbal camera"
+        }
+      ],
+      "notes": "Multiple variants noted in corpus: HD1, HD4, HD8. Supplied as standard payload with SQA eVTOL, ATLAS AS90X, and Bramor C4EYE."
+    }
+  ],
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 19,
+    "total_cost_usd": 0.6531944,
+    "created_at": "2026-05-03T11:27:13+00:00",
+    "extract_version": "0.1.0"
+  }
+}

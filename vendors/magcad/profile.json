@@ -1,0 +1,164 @@
+{
+  "target_id": "magcad",
+  "run_id": "canonical",
+  "display_name": "MAGCAD",
+  "homepage_url": "https://www.magcad.de",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/magcad/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 24,
+            "line_end": 24,
+            "url": "https://www.magcad.de",
+            "page_class": "homepage",
+            "snippet": "**_MAGCAD_** is a German engineering company specializing in advanced UAV and VTOL propulsion systems. Since 2015, the company has focused on the development, optimization and manufacturing of high-performance propeller systems for drone applications."
+          }
+        ],
+        "notes": "Designs and manufactures custom carbon propellers for UAV and VTOL applications; services include CAD geometry, composite engineering, mold-making, and manufacturing."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Services and projects pages were skipped; secondary categories may exist but are unconfirmed."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Norderstedt",
+      "state_or_province": null,
+      "country": "Germany",
+      "address": "Alsterstieg 6b, D-22851 Norderstedt"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0009",
+        "line_start": 35,
+        "line_end": 37,
+        "url": "https://www.magcad.de/privacy-policy",
+        "page_class": "company",
+        "snippet": "Manfred Greve\nAlsterstieg 6b\nD-22851 Norderstedt \u2013 GERMANY"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 24,
+        "line_end": 24,
+        "url": "https://www.magcad.de",
+        "page_class": "homepage",
+        "snippet": "**_MAGCAD_** is a German engineering company specializing in advanced UAV and VTOL propulsion systems. Since 2015, the company has focused on the development, optimization and manufacturing of high-performance propeller systems for drone applications."
+      }
+    ],
+    "notes": "Designs and manufactures custom carbon propellers (components) for drone OEMs and aerospace innovators. All work is bespoke; end deliverable is a physical propeller."
+  },
+  "products": {
+    "items": [],
+    "confidence": "low",
+    "status": "unknown",
+    "notes": "No named catalog SKUs found. Project references (Flowcopter, StriekAir VTOL Propeller) are client project examples, not MAGCAD's own product lines. The services and projects pages were skipped."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 70,
+        "line_end": 71,
+        "url": "https://www.magcad.de",
+        "page_class": "homepage",
+        "snippet": "INNOVATION -\nMADE IN GERMANY"
+      }
+    ],
+    "notes": "Site claims 'INNOVATION - MADE IN GERMANY' but does not address NDAA Section 848/889 compliance."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS or Blue sUAS mention anywhere in the corpus."
+  },
+  "readiness": {
+    "value": "engineering_services",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 44,
+        "line_end": 45,
+        "url": "https://www.magcad.de",
+        "page_class": "homepage",
+        "snippet": "### 6\\. Production & Delivery\nOnce testing is complete, we take care of the manufacturing \u2013 from single units to big series."
+      }
+    ],
+    "notes": "Business model is bespoke custom engineering: consultation \u2192 concept/simulation \u2192 design/engineering \u2192 prototype \u2192 testing \u2192 production. No catalog SKUs; every project is custom-engineered. Manufacturing ('from single units to big series') is the output of each engineering engagement, not serial catalog production."
+  },
+  "unresolved_questions": [
+    "No named product SKUs identified \u2014 services and projects pages were skipped",
+    "Secondary product categories (e.g. structures_and_materials for composite propeller work) unconfirmed"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.magcad.de/services",
+      "reason": "Would reveal specific service offerings and potentially named product SKUs or propeller product families; key for confirming engineering_services readiness and component_supplier role",
+      "expected_evidence": [
+        "products",
+        "drone_supply_chain_role",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.magcad.de/projects",
+      "reason": "Would list completed project case studies revealing specific propeller products, client drone OEMs served, and scope of capabilities",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.magcad.de/references",
+      "reason": "References page would confirm drone OEM customers and help validate supply chain role and product category claims",
+      "expected_evidence": [
+        "drone_supply_chain_role",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "tagline": "German propeller design and manufacturing specialist for UAV and VTOL systems, offering custom carbon composite development, aerodynamic optimization, and propulsion engineering services. Known projects include Flowcopter and StriekAir VTOL propeller. NDAA and Blue UAS compliance status not disclosed; limited public evidence of US defense program engagement.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 10,
+    "total_cost_usd": 0.3282053,
+    "created_at": "2026-05-04T04:05:51+00:00",
+    "extract_version": "0.1.0"
+  }
+}

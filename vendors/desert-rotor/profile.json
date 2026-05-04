@@ -1,0 +1,335 @@
+{
+  "target_id": "desert-rotor",
+  "run_id": "canonical",
+  "display_name": "Desert Rotor",
+  "homepage_url": "https://desertrotor.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/desert-rotor/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "ground_segment",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://desertrotor.com",
+            "page_class": "homepage",
+            "snippet": "Desert Rotor \u2013 Commercial and Military Ground Control Stations For Unmanned Systems"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 41,
+            "line_end": 41,
+            "url": "https://desertrotor.com",
+            "page_class": "homepage",
+            "snippet": "At Desert Rotor, we design innovative, customizable ground control systems built for the unique needs of unmanned operators worldwide. With scalable solutions, U.S.-based support, and a client-focused approach, we partner with you to bring your unmanned operations to the next level. Discover how our expertise and technology empower your mission."
+          }
+        ],
+        "notes": "Core business is Ground Control Stations (MIRA X, COMMAND XD, FENNEC XS) for unmanned systems across air, land, and sea."
+      },
+      {
+        "category": "communications",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 10,
+            "line_end": 11,
+            "url": "https://desertrotor.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Communication Links](https://desertrotor.com/product/communicationlinks/)\n    *   [Antenna Systems](https://desertrotor.com/product/antennas/)"
+          }
+        ],
+        "notes": "Sells Communication Links and Antenna Systems as distinct product lines."
+      },
+      {
+        "category": "power_systems",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0056",
+            "line_start": 25,
+            "line_end": 26,
+            "url": "https://desertrotor.com/product/batteries",
+            "page_class": "product",
+            "snippet": "**Battery & Power Systems**\nBATTERY OPTIONS"
+          }
+        ],
+        "notes": "Sells Li-Ion battery packs and modular BKPK power systems for GCS field use."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Scottsdale",
+      "state_or_province": "Arizona",
+      "country": "United States",
+      "address": "7302 E Helm Dr, Suite # 2004"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0015",
+        "line_start": 45,
+        "line_end": 48,
+        "url": "https://desertrotor.com/contact-us",
+        "page_class": "contact",
+        "snippet": "HQ\n--\n7302 E Helm Dr, Suite # 2004\nScottsdale, AZ 85260 U.S.A"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 41,
+        "line_end": 41,
+        "url": "https://desertrotor.com",
+        "page_class": "homepage",
+        "snippet": "At Desert Rotor, we design innovative, customizable ground control systems built for the unique needs of unmanned operators worldwide. With scalable solutions, U.S.-based support, and a client-focused approach, we partner with you to bring your unmanned operations to the next level. Discover how our expertise and technology empower your mission."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 57,
+        "line_end": 59,
+        "url": "https://desertrotor.com",
+        "page_class": "homepage",
+        "snippet": "GLOBALLY TRUSTED IN\nGROUND CONTROL SOLUTIONS\nAt Desert Rotor, we pride ourselves on taking a consultative approach with our clients. Our team provides world-class, USA-based support, ensuring that you have the assistance you need when you need it. Our ground control stations are cost-effective solutions designed to meet your operational needs."
+      }
+    ],
+    "notes": "Designs and manufactures GCS platforms (a major drone subsystem), plus communication links, antennas, and power systems for unmanned operators."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "MIRA X HOTAS",
+        "product_type": "portable ground control station",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 44,
+            "line_end": 44,
+            "url": "https://desertrotor.com",
+            "page_class": "homepage",
+            "snippet": "Our flagship model, MIRA X balances high performance with maximum portability. The most powerful and portable GCS on the market."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "COMMAND XD HOTAS",
+        "product_type": "table-top / rack-mount ground control station",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0057",
+            "line_start": 26,
+            "line_end": 27,
+            "url": "https://desertrotor.com/product/command-ground-control-station",
+            "page_class": "product",
+            "snippet": "All new Ground Control Station Form Factor\n\u2013 Designed to be mounted inside unmanned vans, trucks, and command centers! \u2013"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "FENNEC XS",
+        "product_type": "handheld ground control station (in development)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0060",
+            "line_start": 26,
+            "line_end": 28,
+            "url": "https://desertrotor.com/product/fennec-xs-gcs",
+            "page_class": "product",
+            "snippet": "UNDER DEVELOPMENT!\nULTRA POWERFUL HANDHELD GCS.\nFENNEC XS, GCS Handheld Platform by Desert Rotor"
+          }
+        ],
+        "notes": "Listed as under development; production version design not yet final."
+      },
+      {
+        "name": "GCS PanoView",
+        "product_type": "panoramic display expansion for MIRA X GCS",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 81,
+            "line_end": 82,
+            "url": "https://desertrotor.com",
+            "page_class": "homepage",
+            "snippet": "###### GCS PanoView\nUnlock new levels of workable screen space with GCS PanoView, an immersive option for the MIRA X GCS. Offering a panoramic view of your mission data, PanoView enhances situational awareness and control for any operation. Learn more about how it elevates the MIRA X experience."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Standard 6,600 mAh Li-Ion Battery",
+        "product_type": "GCS field battery pack",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0056",
+            "line_start": 30,
+            "line_end": 30,
+            "url": "https://desertrotor.com/product/batteries",
+            "page_class": "product",
+            "snippet": "Standard 6,600 mAh Li-Ion Battery"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Enhanced 10,500 mAh Li-Ion Battery",
+        "product_type": "GCS field battery pack",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0056",
+            "line_start": 37,
+            "line_end": 37,
+            "url": "https://desertrotor.com/product/batteries",
+            "page_class": "product",
+            "snippet": "Enhanced 10,500 mAh Li-Ion Battery"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "GCS Field Stand",
+        "product_type": "portable field stand for GCS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 84,
+            "line_end": 85,
+            "url": "https://desertrotor.com",
+            "page_class": "homepage",
+            "snippet": "###### GCS Field Stand\nTake your ground control operations anywhere with the GCS Field Stand, designed to provide a stable and portable solution for outdoor missions. Built for rugged environments, this durable stand enhances your MIRA X GCS setup on the go. Click to see how it supports your mission, wherever it takes you.![](https://desertrotor.com/wp-content/uploads/2024/10/DSC_2178-copy-w_-bg.png)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": "yes",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 60,
+        "line_end": 60,
+        "url": "https://desertrotor.com",
+        "page_class": "homepage",
+        "snippet": "NDAA Compliant"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0022",
+        "line_start": 39,
+        "line_end": 39,
+        "url": "https://desertrotor.com/media-2",
+        "page_class": "news",
+        "snippet": "NDAA & Section 8 compliant"
+      }
+    ],
+    "notes": "Site explicitly claims 'NDAA Compliant' on homepage and 'NDAA & Section 8 compliant' on client spotlight page. Specific section number is partially stated; DoD approved with CAGE Code 8TAT7."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0062",
+        "line_start": 285,
+        "line_end": 285,
+        "url": "https://desertrotor.com/product/gcs",
+        "page_class": "product",
+        "snippet": "**Reseller, Dealer, and Quantity Rates Available, Contact Us For More Details**"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 44,
+        "line_end": 44,
+        "url": "https://desertrotor.com",
+        "page_class": "homepage",
+        "snippet": "Our flagship model, MIRA X balances high performance with maximum portability. The most powerful and portable GCS on the market."
+      }
+    ],
+    "notes": "MIRA X and COMMAND XD are available catalog products with a quote configurator, reseller/dealer rates, and listed SKUs. FENNEC XS is separately flagged as in development."
+  },
+  "unresolved_questions": [
+    "NDAA Section 848/889 specificity \u2014 site says 'NDAA Compliant' and 'NDAA & Section 8 compliant' but does not spell out Section 848 or 889 explicitly.",
+    "Blue UAS cleared list status not mentioned anywhere in corpus.",
+    "About-Us page was not fetched \u2014 may contain additional company history and capability details."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://desertrotor.com/about-us/",
+      "reason": "About page would confirm company founding, full product scope, and any additional compliance certifications (NDAA specifics, export controls).",
+      "expected_evidence": [
+        "headquarters",
+        "drone_supply_chain_role",
+        "ndaa",
+        "readiness"
+      ],
+      "source_hint": "guessed standard /about-us/ path; linked from homepage nav",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 13,
+    "total_cost_usd": 0.27550185,
+    "created_at": "2026-05-03T01:10:22+00:00",
+    "extract_version": "0.1.0"
+  },
+  "tagline": "Manufactures portable and rackmount HOTAS ground control stations (MIRA X, COMMAND XD) plus power systems and field accessories for unmanned operations. NDAA-compliant, USA-made. Limited public evidence on specific platform integrations or operational deployments; Blue UAS certification status unknown."
+}

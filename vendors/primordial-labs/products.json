@@ -1,0 +1,43 @@
+{
+  "target_id": "primordial-labs",
+  "run_id": "canonical",
+  "display_name": "Primordial Labs",
+  "homepage_url": "https://www.primordial-labs.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/primordial-labs/website",
+  "products": [
+    {
+      "name": "Anura",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "Natural language human-machine interface for voice control of uncrewed systems",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0051",
+          "line_start": 37,
+          "line_end": 39,
+          "url": "https://www.primordial-labs.com/product",
+          "page_class": "product",
+          "snippet": "**Meet Anura, the next-generation human-machine interface.**\n============================================================\nAnura is a next-generation human-machine interface. We pair a natural language interface with an embodied agent to bring intuitive, conversational collaboration capabilities to any uncrewed system."
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "Blue UAS and NDAA compliance status for Anura not disclosed on any fetched page.",
+    "Readiness classified as production based on 'Request a Quote' CTA and active integrations with Teal 2 and Skydio X2D, but no pricing or lead-time language confirmed."
+  ],
+  "fetch_requests": [],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 8,
+    "total_cost_usd": 0.20051565000000002,
+    "created_at": "2026-05-04T05:26:12+00:00",
+    "extract_version": "0.1.0"
+  }
+}

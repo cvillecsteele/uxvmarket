@@ -1,0 +1,298 @@
+{
+  "target_id": "axialtech",
+  "run_id": "canonical",
+  "display_name": "AxialTech",
+  "homepage_url": "https://axialtech.eu",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/axialtech/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 14,
+            "line_end": 14,
+            "url": "https://axialtech.eu",
+            "page_class": "homepage",
+            "snippet": "AxialTech works on advanced BLDC motors for UAVs in defence, aerospace, and industrial sectors, entirely designed and produced within NATO-aligned regions."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 14,
+            "line_end": 14,
+            "url": "https://axialtech.eu/uav-motors",
+            "page_class": "other",
+            "snippet": "High-performance UAV BLDC motors for civilian and defence applications."
+          }
+        ],
+        "notes": "BLDC motors (Sentinel, Falcon, Titan) for UAVs \u2014 agricultural, defense, and heavy-lift applications"
+      },
+      {
+        "category": "propulsion_electronics",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 54,
+            "line_end": 55,
+            "url": "https://axialtech.eu/uav-motors",
+            "page_class": "other",
+            "snippet": "### ESC controllers for precision and efficiency\nAll **AxialTech**'s motors are paired with cutting-edge **Electronic Speed Controllers (ESC)**, designed to deliver precise control, optimal performance, and seamless integration. These ESCs are specifically engineered to complement our high-performance BLDC motors, ensuring that each motor operates at its peak efficiency while maintaining reliability even in the most demanding environments."
+          }
+        ],
+        "notes": "ESC controllers paired with their BLDC motors"
+      },
+      {
+        "category": "mechanical_subsystems",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0007",
+            "line_start": 14,
+            "line_end": 14,
+            "url": "https://axialtech.eu/robotic-actuators",
+            "page_class": "other",
+            "snippet": "We are redefining the boundaries of robotic motion with our advanced **robotic actuators**, designed for humanoid and quadrupedal robots. Leveraging our expertise in high-performance **BLDC motors**, we are creating actuators that are not only smaller and more precise but also more versatile, enabling the next generation of robotic systems."
+          }
+        ],
+        "notes": "Robotic actuators (linear actuators) for humanoid/quadrupedal robots \u2014 secondary product line"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "London",
+      "state_or_province": "England",
+      "country": "United Kingdom",
+      "address": "63-66 Hatton Garden, 5th Floor, Suite 23, London, EC1N 8LE"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0009",
+        "line_start": 35,
+        "line_end": 40,
+        "url": "https://axialtech.eu/about",
+        "page_class": "company",
+        "snippet": "### Office in the UK\nSales & engineering office\nAxialTech Innovations LTD\n63 - 66 Hatton Garden, 5th Floor, Suite 23\nLondon, UK, EC1N 8LE\nCompany no.: 11958971"
+      }
+    ],
+    "notes": "Legal entity AxialTech Innovations LTD registered in UK (Company no. 11958971). Polish branch in Wroc\u0142aw (as Maventors PSA, KRS 0001042655) with manufacturing in Kalety, Poland."
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 37,
+        "line_end": 37,
+        "url": "https://axialtech.eu",
+        "page_class": "homepage",
+        "snippet": "AxialTech's mission is to ensure European technological independence in critical defence and aerospace applications by providing world-class BLDC motors that meet the most demanding operational conditions. We aim to be the leading European supplier of high-performance motors, supporting civil and military drone operations globally."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0005",
+        "line_start": 66,
+        "line_end": 66,
+        "url": "https://axialtech.eu/uav-motors",
+        "page_class": "other",
+        "snippet": "AxialTech\u2019s motors are designed and manufactured in Europe, ensuring secure, reliable, and high-performance solutions for defence, industrial, and agricultural drone applications. With a focus on energy efficiency, durability, and compliance with stringent NATO and EU regulations, our motors deliver the power and precision needed for the most demanding missions."
+      }
+    ],
+    "notes": "Designs and manufactures BLDC motors and ESCs sold to UAV OEMs and integrators."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Sentinel",
+        "product_type": "BLDC motor for agricultural UAVs",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 16,
+            "line_end": 17,
+            "url": "https://axialtech.eu/uav-motors",
+            "page_class": "other",
+            "snippet": "#### Sentinel\nWith 6.5 kg of thrust and a lightweight design, the Sentinel is engineered for agricultural drones. It is built to be dustproof and waterproof, with a focus on durability and long-term performance in agricultural environments. The Sentinel ensures minimal downtime and maintenance, which is crucial for high-yield farming."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Falcon",
+        "product_type": "BLDC motor for defense UAVs",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 29,
+            "line_end": 30,
+            "url": "https://axialtech.eu/uav-motors",
+            "page_class": "other",
+            "snippet": "#### Falcon\nDelivering 17kg of thrust and equipped with dustproof and waterproof features, the Falcon is crafted for defence drones. Its robust design ensures top-tier performance under the most challenging operational conditions, making it ideal for use in Unmanned Aerial Vehicles and other defence-related unmanned systems."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Titan",
+        "product_type": "BLDC motor for heavy-lift UAVs",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 42,
+            "line_end": 43,
+            "url": "https://axialtech.eu/uav-motors",
+            "page_class": "other",
+            "snippet": "#### Titan\nThe Titan stands out for its impressive thrust-to-weight ratio. With an IP56 rating, it is designed to operate in harsh weather conditions, providing long-term reliability in demanding environments. It also boasts high torque, which is ideal for heavy-lift drones that require strong, stable propulsion for transporting payloads."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AxialTech ESC controllers",
+        "product_type": "Electronic Speed Controllers for UAV BLDC motors",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 54,
+            "line_end": 55,
+            "url": "https://axialtech.eu/uav-motors",
+            "page_class": "other",
+            "snippet": "### ESC controllers for precision and efficiency\nAll **AxialTech**'s motors are paired with cutting-edge **Electronic Speed Controllers (ESC)**, designed to deliver precise control, optimal performance, and seamless integration. These ESCs are specifically engineered to complement our high-performance BLDC motors, ensuring that each motor operates at its peak efficiency while maintaining reliability even in the most demanding environments."
+          }
+        ],
+        "notes": "No specific ESC product name given; described as paired with Sentinel/Falcon/Titan motors"
+      },
+      {
+        "name": "Robotic actuators",
+        "product_type": "Linear actuators for humanoid/quadrupedal robots",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0007",
+            "line_start": 12,
+            "line_end": 14,
+            "url": "https://axialtech.eu/robotic-actuators",
+            "page_class": "other",
+            "snippet": "Robotic actuators\n-----------------\nWe are redefining the boundaries of robotic motion with our advanced **robotic actuators**, designed for humanoid and quadrupedal robots. Leveraging our expertise in high-performance **BLDC motors**, we are creating actuators that are not only smaller and more precise but also more versatile, enabling the next generation of robotic systems."
+          }
+        ],
+        "notes": "Second product line; no individual SKU names disclosed"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 29,
+        "line_end": 29,
+        "url": "https://axialtech.eu",
+        "page_class": "homepage",
+        "snippet": "We believe in Europe\u2019s need for independence in critical technologies, particularly in the defence and aerospace sectors. By providing motors developed and manufactured entirely in Europe, we ensure that our products are free from reliance on non-EU components, safeguarding supply chains and meeting NATO standards."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0005",
+        "line_start": 70,
+        "line_end": 70,
+        "url": "https://axialtech.eu/uav-motors",
+        "page_class": "other",
+        "snippet": "Full compliance with NATO and EU standards ensures robust, secure solutions."
+      }
+    ],
+    "notes": "No NDAA Sec 848/889 claim found. Adjacent compliance claims: European-only manufacturing, 'free from reliance on non-EU components', 'Full compliance with NATO and EU standards'."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS / Blue sUAS mention anywhere in the corpus."
+  },
+  "readiness": {
+    "value": "low_rate_production",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0005",
+        "line_start": 65,
+        "line_end": 66,
+        "url": "https://axialtech.eu/uav-motors",
+        "page_class": "other",
+        "snippet": "### Why choose AxialTech motors?\nAxialTech\u2019s motors are designed and manufactured in Europe, ensuring secure, reliable, and high-performance solutions for defence, industrial, and agricultural drone applications. With a focus on energy efficiency, durability, and compliance with stringent NATO and EU regulations, our motors deliver the power and precision needed for the most demanding missions."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0010",
+        "line_start": 15,
+        "line_end": 16,
+        "url": "https://axialtech.eu/funding",
+        "page_class": "other",
+        "snippet": "*   Opracowanie, przetestowanie i optymalizacja kompaktowego silnika BLDC klasy 3110 do zastosowa\u0144 w bezza\u0142ogowych statkach powietrznych (UAV).\n*   Przeprowadzenie test\u00f3w prototypu silnika w warunkach laboratoryjnych, w tym pomiary charakterystyk ci\u0105gu, KV, pr\u0105du i mocy."
+      }
+    ],
+    "notes": "Three named motor SKUs (Sentinel, Falcon, Titan) with detailed specs and photos suggest limited production. 2025 EU Startup Booster grant (200 000 PLN) covers prototype development of a new BLDC class 3110 motor. Company has 12+ staff and 5+ industrial partners."
+  },
+  "unresolved_questions": [
+    "Primary operational HQ is ambiguous: UK entity (AxialTech Innovations LTD) vs. Polish entity (Maventors PSA) which holds EU funding and manufacturing; UK listed as primary 'Office' not branch.",
+    "Readiness uncertain \u2014 2025 grant is for prototype work on new BLDC class 3110 motor, but Sentinel/Falcon/Titan appear to be existing products with no production volume data disclosed."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://axialtech.eu/terms-and-conditions",
+      "reason": "Skipped company-class page; may contain governing law jurisdiction confirming UK vs. Poland as primary HQ, and possibly NDAA/compliance language.",
+      "expected_evidence": [
+        "headquarters",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=company",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "UK-based supplier of high-performance BLDC motors and electronic speed controllers for UAVs in defence and industrial applications, designed and produced within NATO-aligned regions. Currently in low-rate production with EU startup funding. NDAA and Blue UAS certification status unknown; limited public evidence of fielded defense contracts or integration on named platforms.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 9,
+    "total_cost_usd": 0.29363010000000006,
+    "created_at": "2026-05-03T21:44:42+00:00",
+    "extract_version": "0.1.0"
+  }
+}

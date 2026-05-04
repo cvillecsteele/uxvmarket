@@ -1,0 +1,271 @@
+{
+  "target_id": "simplex-motion",
+  "run_id": "canonical",
+  "display_name": "Simplex Motion",
+  "homepage_url": "https://simplexmotion.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/simplex-motion/website",
+  "products": [
+    {
+      "name": "SC-Serie",
+      "category": "propulsion_mechanical",
+      "descriptor": "Compact integrated servomotor family with built-in controller and encoder",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0072",
+          "line_start": 69,
+          "line_end": 69,
+          "url": "https://simplexmotion.com/new-manual-released",
+          "page_class": "product",
+          "snippet": "Today a new manual is released for all our motor models!"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0072",
+          "line_start": 80,
+          "line_end": 80,
+          "url": "https://simplexmotion.com/new-manual-released",
+          "page_class": "product",
+          "snippet": "[SC-Serie](https://simplexmotion.com/documentation/TechnicalData/SimplexMotionTechnicalDataSC_01a.pdf)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "SH-Serie",
+      "category": "propulsion_mechanical",
+      "descriptor": "Compact integrated servomotor family with built-in controller and encoder",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0072",
+          "line_start": 69,
+          "line_end": 69,
+          "url": "https://simplexmotion.com/new-manual-released",
+          "page_class": "product",
+          "snippet": "Today a new manual is released for all our motor models!"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0072",
+          "line_start": 81,
+          "line_end": 81,
+          "url": "https://simplexmotion.com/new-manual-released",
+          "page_class": "product",
+          "snippet": "[SH-Serie](https://simplexmotion.com/documentation/TechnicalData/SimplexMotionTechnicalDataSH_01a.pdf)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "SM-Serie",
+      "category": "propulsion_mechanical",
+      "descriptor": "Compact integrated servomotor family with built-in controller and encoder (includes SM100A)",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0072",
+          "line_start": 69,
+          "line_end": 69,
+          "url": "https://simplexmotion.com/new-manual-released",
+          "page_class": "product",
+          "snippet": "Today a new manual is released for all our motor models!"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0072",
+          "line_start": 82,
+          "line_end": 82,
+          "url": "https://simplexmotion.com/new-manual-released",
+          "page_class": "product",
+          "snippet": "[SM-Serie](https://simplexmotion.com/documentation/TechnicalData/SimplexMotionTechnicalDataSM_01a.pdf)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "TD100 ESC",
+      "category": "propulsion_electronics",
+      "descriptor": "FOC electronic speed controller for UAS, 6\u201312S / 24\u201348 V, 20\u2013100 A",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0086",
+          "line_start": 1,
+          "line_end": 1,
+          "url": "https://simplexmotion.com/product/td100-esc-foc-6-12s-24-48v-20-100a",
+          "page_class": "news",
+          "snippet": "TD100 \u2013 ESC FOC 6-12S/24-48V 20-100A | Simplex Motion"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 68,
+          "line_end": 71,
+          "url": "https://simplexmotion.com",
+          "page_class": "homepage",
+          "snippet": "ESCs and drone motors\n---------------------\nDeveloped and manufactured in Sweden \u2013 ESC and drone motors for UAS\nAll ESCs has FOC, Field Oriented Control."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "SimplexMotionHub",
+      "category": "mechanical_subsystems",
+      "descriptor": "Multi-motor connectivity hub connecting up to 4 servomotors to a host controller",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0011",
+          "line_start": 65,
+          "line_end": 67,
+          "url": "https://simplexmotion.com/accessory-product-simplexmotionhub-available",
+          "page_class": "product",
+          "snippet": "*   Accessory product SimplexMotionHub available\n2014-01-10\nAccessory product SimplexMotionHub available"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Simplex Motion Speed Mode Motors",
+      "category": "propulsion_mechanical",
+      "descriptor": "Speed-controlled BLDC motor family with closed-loop feedback down to low speeds",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0108",
+          "line_start": 75,
+          "line_end": 76,
+          "url": "https://simplexmotion.com/stand-alone-solutions",
+          "page_class": "capability",
+          "snippet": "### Simplex Motion Speed Motors\nIntroducing the new Simplex Motion Speed Mode Motors. Do you need feedback and controlled speed even at low speeds? Simplex Motion Speed Mode Motors will do the job. https://simplexmotion.com/products/simplex-motion-speedmotors/"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Motor Drive Units",
+      "category": "propulsion_mechanical",
+      "descriptor": "Customized integrated assemblies combining servomotors, gearboxes, and/or brakes",
+      "granularity": "category",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 74,
+          "line_end": 77,
+          "url": "https://simplexmotion.com",
+          "page_class": "homepage",
+          "snippet": "Drive Units\n-----------\nMotor Drive Units and Wheel Drive Units \u2013 Servomotors, gearboxes and/or brakes.\nCustomized to application needs."
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "SimplexMotion100A (first product, 2012) appears to have been folded into the SM-Serie (SM100A). The corpus does not confirm whether it remains a separately sold SKU or was superseded \u2014 additional product page fetches would clarify.",
+    "Drone motor product names are not visible in any fetched page (drone-motors category page showed 'coming soon'); fetch_requests submitted for that URL.",
+    "Gearbox product names are entirely absent from the corpus; gearboxes appear in the nav and in drive-unit descriptions but no model names were found.",
+    "TD100 ESC product detail page (resource-0017) rendered as 'coming soon' store placeholder \u2014 specs are only inferred from the URL slug (FOC, 6-12S, 24-48V, 20-100A)."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://simplexmotion.com/drone-motors",
+      "reason": "Product category page for drone motors; skipped during crawl \u2014 needed to identify named drone motor SKUs and specs.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "skipped in crawl_index, status skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://simplexmotion.com/esc-electronic-speed-control",
+      "reason": "ESC product category page; skipped during crawl \u2014 needed to confirm TD100 specs and identify any other ESC SKUs.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "skipped in crawl_index, status skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://simplexmotion.com/servomotors",
+      "reason": "Servomotors product listing page; skipped \u2014 needed to enumerate individual SC/SH/SM-Serie SKUs and current product count.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "skipped in crawl_index, status skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://simplexmotion.com/speed-control-motors",
+      "reason": "Speed control motors category page; skipped \u2014 needed to enumerate Speed Mode Motor SKUs and confirm readiness.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "skipped in crawl_index, status skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://simplexmotion.com/simplex-motion-speed-motors",
+      "reason": "News/product announcement page for Speed Mode Motors; skipped \u2014 would confirm product specs and availability.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "skipped in crawl_index, status skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://simplexmotion.com/gearboxes",
+      "reason": "Gearbox product category page; skipped \u2014 needed to identify named gearbox products sold by Simplex Motion.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "skipped in crawl_index, status skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://simplexmotion.com/motor-drive-units",
+      "reason": "Motor Drive Units product page; skipped \u2014 needed to clarify whether drive units are catalog products or pure engineering services.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "skipped in crawl_index, status skipped_class_budget",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 30,
+    "total_cost_usd": 0.76868775,
+    "created_at": "2026-05-03T01:25:48+00:00",
+    "extract_version": "0.1.0"
+  }
+}

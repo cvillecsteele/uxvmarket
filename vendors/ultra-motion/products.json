@@ -1,0 +1,396 @@
+{
+  "target_id": "ultra-motion",
+  "run_id": "canonical",
+  "display_name": "Ultra Motion",
+  "homepage_url": "https://www.ultramotion.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/ultra-motion/website",
+  "products": [
+    {
+      "name": "AM Servo Cylinder",
+      "category": "mechanical_subsystems",
+      "descriptor": "Ruggedized BLDC linear servo actuator with MIL-SPEC connectors for aerospace and defense",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 101,
+          "line_end": 106,
+          "url": "https://www.ultramotion.com",
+          "page_class": "homepage",
+          "snippet": "Ruggedized Servo Cylinder\nAM\nThe AM Series Servo Cylinder combines high-speed servo control with ruggedized construction for demanding environments.\n*   **Integrated Servo Electronics:** BLDC control electronics with contactless absolute position feedback built in\n*   **Heavy-Duty Ruggedization:** Ideal for harsh shock and vibration environments in the aerospace and defense industries\n*   **MIL-SPEC Connectors:** includes D38999 connectors for robust field service."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "AU Subsea Servo Cylinder",
+      "category": "mechanical_subsystems",
+      "descriptor": "Pressure-balanced oil-filled linear servo actuator for subsea depths to 6000m",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 111,
+          "line_end": 115,
+          "url": "https://www.ultramotion.com",
+          "page_class": "homepage",
+          "snippet": "Subsea Servo Cylinder\nAU\nDesigned for underwater robotic systems and marine automation platforms.\n*   **Deep-Subsea Rated:** pressure-balanced, oil-filled design for operation beyond 6000 meters (10,000 PSI)\n*   **Integrated Servo Electronics:** BLDC control electronics with contactless absolute position feedback built in"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "L2M Linear Servo Actuator",
+      "category": "mechanical_subsystems",
+      "descriptor": "IP67-sealed linear servo actuator with zero-backlash and CAN/RS-485 control",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 121,
+          "line_end": 127,
+          "url": "https://www.ultramotion.com",
+          "page_class": "homepage",
+          "snippet": "Linear Servo Actuator\nL2M\nPrecision Performance. Integrated Control.\n*   **Integrated Electronics:** Built-in BLDC control for CAN 2.0B and RS-485 serial communication.\n*   **Zero-Backlash:** Preloaded axial load path for maximum stiffness and control authority.\n*   **No Homing Required:** Patented Phase Index\u00ae absolute feedback provides high-resolution position data instantly.\n*   **Ruggedized Design:** IP67-sealed with D38999 connectors for operation in extreme environments."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "L2D Redundant Linear Servo Actuator",
+      "category": "mechanical_subsystems",
+      "descriptor": "Dual-channel redundant linear servo actuator for flight-critical aerospace applications",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 130,
+          "line_end": 137,
+          "url": "https://www.ultramotion.com",
+          "page_class": "homepage",
+          "snippet": "Redundant Linear Servo Actuator\nL2D\nMission-Critical Safety. Fully Redundant.\n*   **Dual Isolation:** Two independent channels eliminate single points of electrical failure.\n*   **Flight-Critical Design:** Redundant motors and electronics for safety-sensitive aerospace applications.\n*   **Host-Side Voting:** Triplicated absolute position sensors allow for robust, reliable system arbitration.\n*   **Flexible Redundancy:** Supports user-defined cold-standby or active load-sharing configurations.\n[More Info](/l-series/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "T3M Rotary Servo Actuator",
+      "category": "mechanical_subsystems",
+      "descriptor": "High-torque compact rotary servo actuator with integrated BLDC control electronics",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 139,
+          "line_end": 145,
+          "url": "https://www.ultramotion.com",
+          "page_class": "homepage",
+          "snippet": "Rotary Servo Actuator\nT3M\nHigh-torque, precision rotary motion control.\n*   **Integrated Controls:** Brushless DC control electronics with contactless absolute position feedback for accurate positioning\n*   **High Power Density:** High torque in a compact, rugged package\n*   **Dynamic Performance:** Designed to handle high transient loads and demanding motion profiles\n*   **Flexible Interfaces:** Supports CAN, RS-485 serial, and PWM control options"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "T3U Subsea Rotary Servo Actuator",
+      "category": "mechanical_subsystems",
+      "descriptor": "Oil-filled pressure-compensated rotary servo actuator for 6000m+ depths",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 148,
+          "line_end": 155,
+          "url": "https://www.ultramotion.com",
+          "page_class": "homepage",
+          "snippet": "Subsea Rotary Servo Actuator\nT3U\nPressure-compensated rotary actuation for deep-sea environments.\n*   **Subsea Optimized:** Oil-filled, pressure-balanced housing based on the proven T3 platform\n*   **Subsea Capability:** Reliable operation at depths of 6000+ meters\n*   **Integrated Controls:** Brushless DC electronics with contactless absolute position feedback\n*   **Underwater Applications:** Ideal for control surfaces, rudder actuation, and subsea valve systems\n[More Info](/t-series-rotary/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "A2 Industrial Servo Cylinder",
+      "category": "mechanical_subsystems",
+      "descriptor": "IP65-sealed industrial linear servo actuator with integrated BLDC controller",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 157,
+          "line_end": 163,
+          "url": "https://www.ultramotion.com",
+          "page_class": "homepage",
+          "snippet": "Industrial Servo Cylinder\nA2\nA2 Series actuators deliver excellent reliability and precision for industrial and automation applications.\n*   **IP65 Sealing:** wet and dusty environments\n*   **Advanced Control:** integrated BLDC controller and Phase Index\u00ae feedback\n*   **Simple Integration:** easy configuration and deployment for industrial automation tasks\n[Configure your model](/servo-cylinder-configurator/?series=A2)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "U-Series Underwater Linear Actuator",
+      "category": "mechanical_subsystems",
+      "descriptor": "Pressure-compensated oil-filled linear actuator for full-ocean-depth subsea operation",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 165,
+          "line_end": 169,
+          "url": "https://www.ultramotion.com",
+          "page_class": "homepage",
+          "snippet": "Underwater Linear Actuator\nU-SERIES\nThe U Series is built specifically for full-time subsea operation with long-term reliability.\n*   Pressure compensated oil-filled assembly enables reliable linear motion in full-ocean-depth environments\n*   Versatile configurations (stepper vs. BLDC, ballscrew/acme leadscrew, 1\" to 16\" stroke length) allows tailoring to system needs (sensor deployment, USV/UUV control surface, valve control, etc.)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "A1 Standard Servo Cylinder",
+      "category": "mechanical_subsystems",
+      "descriptor": "Compact cost-effective linear servo cylinder for clean/laboratory environments",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 174,
+          "line_end": 179,
+          "url": "https://www.ultramotion.com",
+          "page_class": "homepage",
+          "snippet": "Standard Servo Cylinder\nA1\nThe A1 Series is designed for applications requiring compact size and strong performance.\n*   **Cost-Effective Standard:** Suitable for benchtop applications, laboratory experiments, clean environments\n*   **Integrated Control:** built-in BLDC electronics with contactless Phase Index\u00ae absolute position feedback and multiple control interfaces (CAN, RS-422, RC PWM, etc.)\n[Configure your model](/servo-cylinder-configurator/?series=A1)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "R-Series Power-Dense Performance Actuator",
+      "category": "mechanical_subsystems",
+      "descriptor": "High-force-density electromechanical linear actuator with spaceflight heritage",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 181,
+          "line_end": 185,
+          "url": "https://www.ultramotion.com",
+          "page_class": "homepage",
+          "snippet": "Power-Dense Performance Actuator\nR-Series\nPower-dense electromechanical linear actuator for aerospace applications with proven in-space heritage\n*   **High force density:** Up to 1,200 lbf peak output in a compact ~3 lbm actuator\n*   **Integrated absolute feedback:** Phase Index\u00ae position sensing provides high-resolution, lossless position awareness"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Legacy Actuators (B-Series, D-Series, I-Series)",
+      "category": "mechanical_subsystems",
+      "descriptor": "Established parallel-mount, in-line, and integrated linear actuator platforms with 30-year field heritage",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 190,
+          "line_end": 195,
+          "url": "https://www.ultramotion.com",
+          "page_class": "homepage",
+          "snippet": "Original Actuator Lines\nLegacy Actuator\nEstablished Actuator Platforms with Decades of Field-Proven Success.\n*   **Foundational Designs:** Includes our B-Series parallel, D-Series in-line, and I-Series integrated actuator platforms.\n*   **Program Stability:** Versatile mechanical configurations for long-term project support and specialized replacement needs.\n*   **Operational Heritage:** A thirty-year record of reliable service in rigorous aerospace and industrial environments."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Power Supply Unit",
+      "category": "power_systems",
+      "descriptor": "Unregulated AC-to-DC supply for 36V DC motion control and servo cylinder applications",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 73,
+          "line_end": 75,
+          "url": "https://www.ultramotion.com",
+          "page_class": "homepage",
+          "snippet": "        * * *\n        The Ultra Motion Power Supply Unit is an unregulated AC to DC supply designed specifically for DC motion control applications, including ServoCylinder, and is perfectly suited to most 36V DC motor applications.\n        ![Power Supply Unit](https://www.ultramotion.com/wp-content/uploads/2017/02/Power-Supply-Glory-big.jpg)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "A-Series Servo Cylinder",
+      "category": "mechanical_subsystems",
+      "descriptor": "Versatile family of BLDC linear servo actuators spanning ruggedized, industrial, standard, and subsea variants",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 56,
+          "line_end": 59,
+          "url": "https://www.ultramotion.com",
+          "page_class": "homepage",
+          "snippet": "    *   [A-Series (Servo Cylinder)](/servo-cylinder/)\n        [\n        #### **A-Series**Servo Cylinder\n        * * *"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "L-Series Linear Servo Actuator",
+      "category": "mechanical_subsystems",
+      "descriptor": "Advanced electromechanical linear servo actuator family with CAN/RS-485 and Phase Index absolute feedback",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 37,
+          "line_end": 41,
+          "url": "https://www.ultramotion.com",
+          "page_class": "homepage",
+          "snippet": "        #### **L-Series**Linear Servo\n        * * *\n        The L-Series Linear Servo Actuators are advanced electromechanical actuators equipped with integrated brushless DC control electronics, CAN 2.0B and RS-485 serial communication protocols, and our Phase Index contactless absolute position feedback. Their design focuses on dynamic operation in the most demanding environments, utilizing durable mechanical elements, top-tier materials, and best-in-class components.\n        ![L-Series](https://www.ultramotion.com/wp-content/uploads/2024/11/L_Series-intro.png)\n        ](/l-series/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Custom Engineered Solutions",
+      "category": "mechanical_subsystems",
+      "descriptor": "Mission-specific actuator modifications across U, L, T, R, and A series platforms",
+      "granularity": "category",
+      "readiness": "engineering_services",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 199,
+          "line_end": 205,
+          "url": "https://www.ultramotion.com",
+          "page_class": "homepage",
+          "snippet": "Engineered to Spec\nCustom Engineered Solutions\nProven Platforms Engineered for Your Mission-Specific Requirements.\n*   **Cross-Platform Adaptation:** Modification of U, L, T, R, and A series for unique performance requirements and space envelopes.\n*   **Mechanical Flexibility:** Application-Specific stroke lengths, custom mounting geometry, and specialized connector interfaces.\n*   **Extreme Environment Optimization:** Purpose-built solutions for high-vacuum, radiation-hardened, or ultra-deep-sea applications.\n[Contact Us](/contact/)"
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "All 15 prioritized products were located and classified from the homepage (resource-0001). Individual product detail pages (l-series, t-series-rotary, r-series-actuator, servo-cylinder, u-series, power-supply-unit) were not fetched (skipped_class_budget), so per-SKU specs such as force ratings, stroke lengths, and weight are not available in this corpus. T3M and T3U were classified from homepage descriptions only."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.ultramotion.com/l-series",
+      "reason": "Product detail page for L-Series family (L2M, L2D SKUs); would provide specs, variants, and any NDAA/compliance language.",
+      "expected_evidence": [
+        "products",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.ultramotion.com/t-series-rotary",
+      "reason": "Product detail page for T-Series family (T3M, T3U SKUs); would provide specs and compliance info.",
+      "expected_evidence": [
+        "products",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.ultramotion.com/r-series-actuator",
+      "reason": "Product detail page for R-Series; would provide power-density specs and any compliance claims.",
+      "expected_evidence": [
+        "products",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.ultramotion.com/servo-cylinder",
+      "reason": "A-Series family detail page covering AM, AU, A1, A2 SKUs with configurator and specs.",
+      "expected_evidence": [
+        "products",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.ultramotion.com/u-series",
+      "reason": "U-Series product detail page; would clarify SKU variants (U1, etc.) and specs.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.ultramotion.com/power-supply-unit",
+      "reason": "Power Supply Unit detail page; would provide specs and any compliance language.",
+      "expected_evidence": [
+        "products",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 35,
+    "total_cost_usd": 0.8319584,
+    "created_at": "2026-05-04T07:34:10+00:00",
+    "extract_version": "0.1.0"
+  }
+}

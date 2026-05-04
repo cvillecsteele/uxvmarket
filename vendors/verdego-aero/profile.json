@@ -1,0 +1,285 @@
+{
+  "target_id": "verdego-aero",
+  "run_id": "canonical",
+  "display_name": "VerdeGo Aero",
+  "homepage_url": "https://verdegoaero.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/verdego-aero/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "power_systems",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 24,
+            "line_end": 24,
+            "url": "https://verdegoaero.com",
+            "page_class": "homepage",
+            "snippet": "VerdeGo Aero is focused on developing and manufacturing cutting-edge hybrid-electric powerplant solutions that give electrified aircraft revolutionary performance."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 40,
+            "line_end": 40,
+            "url": "https://verdegoaero.com",
+            "page_class": "homepage",
+            "snippet": "Designed to maximize range, payload, and operational flexibility, our hybrid electric propulsion systems can be customized to power a wide range of aircraft, from eVTOL (electric vertical takeoff and landing) air taxis for short range travel, next generation HSVTOL (high speed vertical takeoff and landing) military aircraft, to cargo transport and tactical reconnaissance drones."
+          }
+        ],
+        "notes": "Hybrid-electric powerplants convert fuel to electrical power for electric aircraft; products include engine, generator, inverter, thermal management, and power electronics as integrated systems"
+      },
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0092",
+            "line_start": 45,
+            "line_end": 45,
+            "url": "https://verdegoaero.com/product/250kw-to-500kw-high-performance-hybrids",
+            "page_class": "news",
+            "snippet": "*   Built around a certified helicopter engine, the Pratt & Whitney PW206/PW207"
+          }
+        ],
+        "notes": "Powerplants incorporate certified turbine engines (Pratt & Whitney PW206/PW207) and piston engines as mechanical propulsion core"
+      },
+      {
+        "category": "propulsion_electronics",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0092",
+            "line_start": 49,
+            "line_end": 49,
+            "url": "https://verdegoaero.com/product/250kw-to-500kw-high-performance-hybrids",
+            "page_class": "news",
+            "snippet": "*   Self-contained system includes engine, generator, power electronics, thermal management, and control systems"
+          }
+        ],
+        "notes": "Integrated inverter and power electronics are included in self-contained powerplant packages"
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Daytona Beach",
+      "state_or_province": "Florida",
+      "country": "United States",
+      "address": "1511 Aviation Center Parkway, Suite 220C, Daytona Beach, FL 32114"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0011",
+        "line_start": 24,
+        "line_end": 27,
+        "url": "https://verdegoaero.com/contact",
+        "page_class": "contact",
+        "snippet": "VerdeGo Aero\u2122\n1511 Aviation Center Parkway, Suite 220C\nDaytona Beach, FL 32114\nUnited States"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 26,
+        "line_end": 26,
+        "url": "https://verdegoaero.com",
+        "page_class": "homepage",
+        "snippet": "In defense applications, electric aircraft are often dismissed due to battery limitations, but VerdeGo\u2019s hybrid systems bridge the gap, integrating conventional fuels with electrified propulsion to power new high-performance aircraft and drones, ensuring mission-ready capabilities for defense applications."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0093",
+        "line_start": 24,
+        "line_end": 24,
+        "url": "https://verdegoaero.com/product/aircraft-integration",
+        "page_class": "product",
+        "snippet": "VerdeGo Aero brings unparalleled expertise in hybrid-electric powerplant integration, with a proven track record in commercial and military applications. As pioneers of hybrid-electric flight we invite you to harness our 15 years of industry-leading experience in this area to power innovation in your aircraft."
+      }
+    ],
+    "notes": "Supplies hybrid-electric powerplant subsystems to airframers; does not manufacture complete aircraft"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "VH-3 185 kW",
+        "product_type": "hybrid-electric powerplant (piston-based)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0095",
+            "line_start": 22,
+            "line_end": 22,
+            "url": "https://verdegoaero.com/product/vh3",
+            "page_class": "product",
+            "snippet": "VH-3 185 kW"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "VH-4T 400 kW",
+        "product_type": "turbine hybrid-electric powerplant (Pratt & Whitney PW206/PW207)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0092",
+            "line_start": 22,
+            "line_end": 22,
+            "url": "https://verdegoaero.com/product/250kw-to-500kw-high-performance-hybrids",
+            "page_class": "news",
+            "snippet": "VH-4T 400 kW"
+          }
+        ],
+        "notes": "Two variants: VH-4T-RD (R&D/unmanned flight testing) and VH-4T-415 (production applications)"
+      },
+      {
+        "name": "VH-5 Blended Turbofan",
+        "product_type": "electrically convertible turbofan powerplant",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0094",
+            "line_start": 22,
+            "line_end": 22,
+            "url": "https://verdegoaero.com/product/vh-5",
+            "page_class": "product",
+            "snippet": "VH-5 Blended Turbofan"
+          }
+        ],
+        "notes": "In development; scalable 5 kW to 10 MW; being refined with leading airframers"
+      },
+      {
+        "name": "Aircraft Integration",
+        "product_type": "hybrid-electric powerplant integration engineering services",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0093",
+            "line_start": 22,
+            "line_end": 22,
+            "url": "https://verdegoaero.com/product/aircraft-integration",
+            "page_class": "product",
+            "snippet": "SEAMLESS INTEGRATION FOR MAXIMUM PERFORMANCE"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA Section 848/889 compliance claim found in corpus. Site mentions CMMC Level 2 cybersecurity certification for DoD programs but not NDAA compliance."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "medium",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS or Blue sUAS claim found anywhere in the corpus."
+  },
+  "readiness": {
+    "value": "low_rate_production",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0092",
+        "line_start": 63,
+        "line_end": 63,
+        "url": "https://verdegoaero.com/product/250kw-to-500kw-high-performance-hybrids",
+        "page_class": "news",
+        "snippet": "*   Applications: suitable for production applications"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0014",
+        "line_start": 39,
+        "line_end": 39,
+        "url": "https://verdegoaero.com/investors-partnerships",
+        "page_class": "news",
+        "snippet": "*   Our Series B round is planned for mid-2026 to enable our next major scale-up towards production, to support dual-use early adopter customers of our hybrid powerplants."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0096",
+        "line_start": 33,
+        "line_end": 33,
+        "url": "https://verdegoaero.com/team",
+        "page_class": "company",
+        "snippet": "#### Hybrid powerplants shipped to customers"
+      }
+    ],
+    "notes": "VH-4T-415 described as 'suitable for production applications'; team page notes 'hybrid powerplants shipped to customers'; investors page says Series B planned for 2026 to enable 'next major scale-up towards production'. VH-3 is in first production-intent prototype phase."
+  },
+  "unresolved_questions": [
+    "NDAA Section 848/889 compliance status not disclosed on site",
+    "Blue UAS cleared list status unknown",
+    "Defense page content (skipped) may clarify UAS-specific product applications and compliance"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://verdegoaero.com/defense",
+      "reason": "Defense page was skipped (skipped_class_budget). Would clarify UAS-specific applications, NDAA compliance claims, and military product certifications",
+      "expected_evidence": [
+        "products_categories",
+        "products",
+        "ndaa",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://verdegoaero.com/about-verdego",
+      "reason": "About page was skipped (skipped_class_budget). Would confirm company background, US origin, and any compliance claims relevant to NDAA",
+      "expected_evidence": [
+        "headquarters",
+        "ndaa",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "tagline": "Hybrid-electric powerplant supplier in low-rate production with three fielded systems: VH-3 (185 kW piston), VH-4T (400 kW turbine, built on Pratt & Whitney cores), and prototype VH-5 blended turbofan (1.5 MW). NDAA and Blue UAS compliance status unknown. Public evidence of production maturity and customer integration limited; marketing narrative emphasizes military/HSVTOL potential but named programs absent.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 16,
+    "total_cost_usd": 0.25785005,
+    "created_at": "2026-05-04T07:31:26+00:00",
+    "extract_version": "0.1.0"
+  }
+}

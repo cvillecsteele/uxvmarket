@@ -1,0 +1,501 @@
+{
+  "target_id": "remote-robotic",
+  "run_id": "canonical",
+  "display_name": "Remote Robotic",
+  "homepage_url": "https://remoterobotic.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/remote-robotic/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "airframes",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 447,
+            "line_end": 447,
+            "url": "https://remoterobotic.com",
+            "page_class": "homepage",
+            "snippet": "With offices in Ontario, Alberta, and BC, we deliver and support enterprise-grade drones, land robots, and remote operations systems for industrial and public-safety organizations across Canada."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 452,
+            "line_end": 452,
+            "url": "https://remoterobotic.com",
+            "page_class": "homepage",
+            "snippet": "Remote Robotic Systems (Fomerly RMUS Canada - same great team) is Canada\u2019s leading provider of enterprise drone and robotics solutions, offering nationwide coverage, on-site training, engineering integration, and full service support for organizations in public safety, energy, utilities, and industrial sectors"
+          }
+        ],
+        "notes": "Sells complete drone platforms (DJI Matrice series, FreeFly, Parrot, Teal, DeltaQuad, Ascent AeroSystems, Vantage Robotics, Unitree, ClearPath, Deep Trekker, Kraken) from multiple manufacturers as authorized dealer."
+      },
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 116,
+            "line_end": 121,
+            "url": "https://remoterobotic.com",
+            "page_class": "homepage",
+            "snippet": "    LiDAR\n    Surface mapping\n    *   [DJI Zenmuse L3](/products/zenmuse-l3)\n    *   [Handheld LiDAR systems](/collections/handheld-lidar-systems)\n    *   [Aerial LiDAR systems](/collections/aerial-lidar-systems)\n    *   [GreenValley LiDAR](/collections/greenvalley-lidar)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 131,
+            "line_end": 137,
+            "url": "https://remoterobotic.com",
+            "page_class": "homepage",
+            "snippet": "    Magnetometer\n    Geophysical Surveys\n    *   [Magnetometer buyers guide](/collections/magnetometer-sensors)\n    *   [MagArrow Mk2 magnetometer](/products/magarrow-mk2-magnetometer)\n    *   [MagNIMBUS atomic total-field](/products/magnimbus-atomic-total-field)\n    *   [SENSYS MagDrone R1](/products/sensys-magdrone-r1)\n    *   [SENSYS MagDrone R3](/products/sensys-magdrone-r3)"
+          }
+        ],
+        "notes": "Sells LiDAR systems (aerial and handheld), magnetometers (MagArrow, MagNIMBUS, SENSYS), and GPR sensors."
+      },
+      {
+        "category": "isr_payloads",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 150,
+            "line_end": 158,
+            "url": "https://remoterobotic.com",
+            "page_class": "homepage",
+            "snippet": "    Cameras\n    IR / Multispectral / RGB\n    *   [Zenmuse H30T](/products/zenmuse-h30t)\n    *   [Zenmuse P1](/products/zenmuse-p1-1)\n    *   [AgEagle Altum-PT](/products/ageagle-altum-pt)\n    *   [AgEagle RedEdge-P](/products/ageagle-rededge-p)\n    *   [AgEagle RedEdge-P Dual](/products/ageagle-rededge-p-dual)\n    *   [Sony \u03b17R IV](/products/sony-%CE%B17r-iv)\n    *   [WIRIS Pro](/products/wiris-pro)"
+          }
+        ],
+        "notes": "Sells EO/IR cameras: Zenmuse H30T, Zenmuse P1, WIRIS Pro, AgEagle multispectral, Sony cameras."
+      },
+      {
+        "category": "ground_segment",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 193,
+            "line_end": 200,
+            "url": "https://remoterobotic.com",
+            "page_class": "homepage",
+            "snippet": "    Software\n    *   [LiDAR360 Software](/products/lidar360-point-cloud-processing-analysis-software)\n    *   [DJI Terra](/products/dji-terra)\n    *   [DJI Modify](/products/dji-modify)\n    *   [DJI FlightHub 2 Professional](/products/dji-flighthub-2)\n    *   [DroneSense DFR Software](/products/dronesense-dfr-software)\n    *   [DroneSense Opshub](/products/dronesense-opshub)\n    *   [DroneSense Pilot](/products/dronesense-pilot)"
+          }
+        ],
+        "notes": "Sells DroneSense DFR Software, DroneSense Opshub/Pilot, DJI Terra, DJI FlightHub 2, LiDAR360, Orbit Software for Spot, and GCS hardware."
+      },
+      {
+        "category": "recovery_systems",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 181,
+            "line_end": 186,
+            "url": "https://remoterobotic.com",
+            "page_class": "homepage",
+            "snippet": "    Parachute\n    Drone Safety Systems\n    *   [PRS-M4DT for DJI Dock 3 (M4D / M4TD)](/products/prs-m4dt-parachute-recovery-system-for-dji-dock-3-m4d-m4td)\n    *   [PRS-M400 for DJI Matrice 400](/products/parachute-recovery-system-for-dji-matrice-400)\n    *   [PRS-M4S for DJI Matrice 4 Series](/products/parachute-recovery-system-for-dji-matrice-4-series)\n    *   [PRS-M3E for DJI Mavic 3 Enterprise & Mavic 3 Thermal (PRS-M3E)](/products/parachute-recovery-system-for-dji-mavic-3-enterprise-mavic-3-thermal-prs-m3e)"
+          }
+        ],
+        "notes": "Sells PRS-series parachute recovery systems for DJI Dock 3, Matrice 400, Matrice 4 Series, Mavic 3 Enterprise."
+      },
+      {
+        "category": "communications",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 174,
+            "line_end": 180,
+            "url": "https://remoterobotic.com",
+            "page_class": "homepage",
+            "snippet": "    Radio & Communications\n    OEM & C2 links\n    *   [StreamCaster 4200](/products/streamcaster-4200)\n    *   [StreamCaster 5200](/products/streamcaster-5200)\n    *   [WEB Warfighter Electronic Bridge](/products/web-warfighter-electronic-bridge)\n    *   [Teal Air Control (TAC)](/products/teal-air-control-tac)\n    *   [Vision2 (GCS)](/products/vision-2-ground-control-system-gcs)"
+          }
+        ],
+        "notes": "Sells StreamCaster 4200/5200 data links, WEB Warfighter Electronic Bridge, Teal Air Control (TAC), Vision2 GCS."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Mississauga",
+      "state_or_province": "Ontario",
+      "country": "Canada",
+      "address": "2160 Dunwin Drive, Unit 5"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0352",
+        "line_start": 457,
+        "line_end": 460,
+        "url": "https://remoterobotic.com/pages/contact",
+        "page_class": "contact",
+        "snippet": "### Head Quarter\nRemote Robotic Ontario\n[2160 Dunwin Drive, Unit 5](https://maps.app.goo.gl/2v8TgFmSNHAnKQ9A8)\nMississauga, Ontario L5L 5M8"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "integrator",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 452,
+        "line_end": 452,
+        "url": "https://remoterobotic.com",
+        "page_class": "homepage",
+        "snippet": "Remote Robotic Systems (Fomerly RMUS Canada - same great team) is Canada\u2019s leading provider of enterprise drone and robotics solutions, offering nationwide coverage, on-site training, engineering integration, and full service support for organizations in public safety, energy, utilities, and industrial sectors"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 455,
+        "line_end": 456,
+        "url": "https://remoterobotic.com",
+        "page_class": "homepage",
+        "snippet": "### Authorized Dealer\nWe are authorized partners of DJI, Boston Dynamics, and others."
+      }
+    ],
+    "notes": "Authorized dealer for DJI, Boston Dynamics, FreeFly, Teal, and others; provides engineering integration, on-site training, repair/maintenance, and a managed Remote Operations Center (ROC). Primary model assembles multi-vendor drone/robot/sensor solutions for enterprise customers, well beyond box-resale."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Astro Max Mapping Essentials (NDAA/Blue)",
+        "product_type": "heavy-lift mapping drone kit (FreeFly)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0384",
+            "line_start": 464,
+            "line_end": 466,
+            "url": "https://remoterobotic.com/products/astro-max-mapping-essentials-ndaa-blue",
+            "page_class": "compliance",
+            "snippet": "Astro Max Mapping Essentials (NDAA/Blue)\nFreeFly Systems\nAstro Max Mapping Essentials (NDAA/Blue)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Alta X + Pilot Pro (NDAA/Blue) Essentials Kit",
+        "product_type": "heavy-lift NDAA drone kit (FreeFly)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0371",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://remoterobotic.com/products/alta-x-pilot-pro-ndaa-blue-essentials-kit",
+            "page_class": "compliance",
+            "snippet": "Alta X + Pilot Pro (NDAA/Blue) Essentials Kit \u2013 Remote Robotic                             [Skip to content](#MainContent)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Teal 2",
+        "product_type": "Blue UAS Group 1 sUAS (Teal Drones)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0546",
+            "line_start": 454,
+            "line_end": 458,
+            "url": "https://remoterobotic.com/products/teal-2",
+            "page_class": "product",
+            "snippet": "Teal 2\nTeal Drones\nTeal 2\n======\n*   BlueUAS"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Evo Government",
+        "product_type": "long-endurance VTOL UAV (DeltaQuad)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0445",
+            "line_start": 448,
+            "line_end": 451,
+            "url": "https://remoterobotic.com/products/evo-government",
+            "page_class": "compliance",
+            "snippet": "Evo Government\nDeltaQuad\nEvo Government\n=============="
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Vesper UAV",
+        "product_type": "micro UAV (Vantage Robotics)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0554",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://remoterobotic.com/products/vesper",
+            "page_class": "product",
+            "snippet": "Vesper \u2013 Remote Robotic                             [Skip to content](#MainContent)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Trace UAV",
+        "product_type": "nano UAV (Vantage Robotics)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0552",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://remoterobotic.com/products/trace",
+            "page_class": "product",
+            "snippet": "Trace \u2013 Remote Robotic                             [Skip to content](#MainContent)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Boston Dynamics Spot",
+        "product_type": "quadruped ground robot",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0536",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://remoterobotic.com/products/spot",
+            "page_class": "product",
+            "snippet": "Spot \u2013 Remote Robotic                             [Skip to content](#MainContent)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Unitree B2",
+        "product_type": "quadruped UGV",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0389",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://remoterobotic.com/products/b2",
+            "page_class": "product",
+            "snippet": "B2 \u2013 Remote Robotic                             [Skip to content](#MainContent)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Kraken K3 Scout",
+        "product_type": "autonomous USV",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0479",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://remoterobotic.com/products/k3-scout",
+            "page_class": "product",
+            "snippet": "K3 Scout \u2013 Remote Robotic                             [Skip to content](#MainContent)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Kraken K4 Manta",
+        "product_type": "autonomous USV",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0480",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://remoterobotic.com/products/k4-manta",
+            "page_class": "product",
+            "snippet": "K4 Manta \u2013 Remote Robotic                             [Skip to content](#MainContent)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Leica BLK ARC",
+        "product_type": "mobile LiDAR scanner",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0392",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://remoterobotic.com/products/blk-arc",
+            "page_class": "product",
+            "snippet": "BLK ARC \u2013 Remote Robotic                             [Skip to content](#MainContent)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DJI Dock 3",
+        "product_type": "automated drone docking station",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0437",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://remoterobotic.com/products/dock-3",
+            "page_class": "product",
+            "snippet": "Dock 3 \u2013 Remote Robotic                             [Skip to content](#MainContent)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Remote Robotic resells products from many brands. Listing key named product lines fetched in corpus; many additional SKUs exist in the catalog."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 23,
+        "line_end": 24,
+        "url": "https://remoterobotic.com",
+        "page_class": "homepage",
+        "snippet": "    [](/collections/ndaa-drones-robotics)\n    NDAA Compliant Solutions"
+      }
+    ],
+    "notes": "Remote Robotic is a Canadian company that carries NDAA-compliant products (FreeFly Astro, Alta X, Inspired Flight, Vantage Robotics lines labeled NDAA). The NDAA compliance belongs to the manufacturers, not to Remote Robotic as the reseller/integrator. No claim that Remote Robotic itself is NDAA-compliant."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0546",
+        "line_start": 458,
+        "line_end": 459,
+        "url": "https://remoterobotic.com/products/teal-2",
+        "page_class": "product",
+        "snippet": "*   BlueUAS\n*   Made in USA"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 52,
+        "line_end": 53,
+        "url": "https://remoterobotic.com",
+        "page_class": "homepage",
+        "snippet": "    Teal\n    Blue UAS"
+      }
+    ],
+    "notes": "Remote Robotic sells Blue UAS-listed products (Teal 2 tagged 'BlueUAS', Ascent AeroSystems labeled 'Blue UAS Coaxial drone', Vantage Robotics 'Blue UAS & NDAA drones'). The Blue UAS status belongs to those manufacturers; Remote Robotic as a Canadian distributor is not itself on the DIU Blue UAS Cleared List."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0384",
+        "line_start": 469,
+        "line_end": 471,
+        "url": "https://remoterobotic.com/products/astro-max-mapping-essentials-ndaa-blue",
+        "page_class": "compliance",
+        "snippet": "Regular price\n$61,215.00 CAD\nSale price"
+      }
+    ],
+    "notes": "Full e-commerce store with listed catalog prices (e.g. Astro Max at $61,215.00 CAD), Add to Cart functionality, and multiple products in active inventory across all UXV categories."
+  },
+  "unresolved_questions": [
+    "Integration & Engineering page (/pages/integration-engineering) was skipped \u2014 would clarify depth of custom integration work.",
+    "About-us page (/pages/about-us) was skipped \u2014 would confirm founding history and any own-manufactured products.",
+    "NDAA collection page (/collections/ndaa-drones-robotics) was skipped \u2014 would clarify scope of NDAA product claims."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://remoterobotic.com/pages/integration-engineering",
+      "reason": "Would clarify the scope of integration/engineering services \u2014 key to distinguishing integrator vs reseller supply chain role, and may reveal any own-branded products or custom assemblies.",
+      "expected_evidence": [
+        "drone_supply_chain_role",
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget; linked from homepage navigation",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://remoterobotic.com/pages/about-us",
+      "reason": "Company overview page would confirm headquarters, founding history, and whether they manufacture any own products vs. purely reselling.",
+      "expected_evidence": [
+        "headquarters",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget; linked from homepage navigation",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://remoterobotic.com/collections/ndaa-drones-robotics",
+      "reason": "NDAA collection page would show explicit NDAA compliance claims for the product line, informing the ndaa field.",
+      "expected_evidence": [
+        "ndaa",
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=compliance; linked from homepage navigation",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Canadian integrator reselling airframes, sensors, and ground robots across air, ground, and marine domains\u2014primarily DJI, Parrot, Inspired Flight, FreeFly, Teal, Delta Quad, Boston Dynamics, and Unitree platforms. Catalogs multiple NDAA and Blue UAS\u2013compliant systems (Alta X, Astro Max, Teal 2, Evo Government, Trace, Vesper) and offers managed Remote Operations Centre services. Public evidence of manufacturer partnerships is strong; direct procurement history and NDAA/Blue certification status for Remote Robotic itself remain undisclosed.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 24,
+    "total_cost_usd": 0.7561482,
+    "created_at": "2026-05-04T05:47:33+00:00",
+    "extract_version": "0.1.0"
+  }
+}

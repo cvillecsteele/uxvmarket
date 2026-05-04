@@ -1,0 +1,218 @@
+{
+  "target_id": "axialtech",
+  "run_id": "canonical",
+  "display_name": "AxialTech",
+  "homepage_url": "https://axialtech.eu",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/axialtech/website",
+  "products": [
+    {
+      "name": "UAV Motors",
+      "category": "propulsion_mechanical",
+      "descriptor": "High-performance BLDC motors for UAV defence and industrial applications",
+      "granularity": "family",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 14,
+          "line_end": 14,
+          "url": "https://axialtech.eu",
+          "page_class": "homepage",
+          "snippet": "AxialTech works on advanced BLDC motors for UAVs in defence, aerospace, and industrial sectors, entirely designed and produced within NATO-aligned regions."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 17,
+          "line_end": 17,
+          "url": "https://axialtech.eu",
+          "page_class": "homepage",
+          "snippet": "At AxialTech, we are focused on creating a comprehensive range of high-performance Brushless DC (BLDC) motors designed to meet the needs of various UAV applications, from heavy-lift transport to precision mapping and industrial use."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Axial Flux Motors",
+      "category": "propulsion_mechanical",
+      "descriptor": "Axial flux BLDC motors with high torque-to-weight ratio for UAV applications",
+      "granularity": "family",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0009",
+          "line_start": 40,
+          "line_end": 40,
+          "url": "https://axialtech.eu/technology-behind-bldc-motors-for-drones",
+          "page_class": "news",
+          "snippet": "Our ongoing research into **Axial Flux Motor (AFM) technology** is at the heart of our most advanced product line. These motors feature a unique design where the magnetic flux runs parallel to the axis of rotation, resulting in a **higher torque-to-weight ratio** and better efficiency than traditional radial flux motors."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 27,
+          "line_end": 27,
+          "url": "https://axialtech.eu",
+          "page_class": "homepage",
+          "snippet": "Our team is deeply committed to technological innovation. We push the boundaries of BLDC motor technology through our proprietary processes like **Uniform Neodymium Magnetisation**, which enhances motor performance by increasing efficiency, reducing noise, and ensuring long-term reliability and the **Axial Flux Motors full tech stack**."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "AxialTech ESCs",
+      "category": "propulsion_electronics",
+      "descriptor": "Motor-matched electronic speed controllers with FOC and real-time monitoring",
+      "granularity": "family",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0009",
+          "line_start": 21,
+          "line_end": 21,
+          "url": "https://axialtech.eu/technology-behind-bldc-motors-for-drones",
+          "page_class": "news",
+          "snippet": "AxialTech ESCs have advanced sensors that track key performance metrics such as current, voltage, RPM, and temperature. This allows for real-time adjustments, improving both performance and longevity."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0009",
+          "line_start": 25,
+          "line_end": 25,
+          "url": "https://axialtech.eu/technology-behind-bldc-motors-for-drones",
+          "page_class": "news",
+          "snippet": "Our ESCs support advanced control methods, including field-oriented control (FOC), which provides higher efficiency and smoother operation. This is particularly important for applications requiring precise positioning and stability, such as heavy-lift drones, surveillance systems, and VTOL aircraft."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Robotic Actuators",
+      "category": "mechanical_subsystems",
+      "descriptor": "Linear and rotational actuators for humanoid and quadrupedal robots",
+      "granularity": "category",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0007",
+          "line_start": 12,
+          "line_end": 14,
+          "url": "https://axialtech.eu/robotic-actuators",
+          "page_class": "other",
+          "snippet": "Robotic actuators\n-----------------\nWe are redefining the boundaries of robotic motion with our advanced **robotic actuators**, designed for humanoid and quadrupedal robots. Leveraging our expertise in high-performance **BLDC motors**, we are creating actuators that are not only smaller and more precise but also more versatile, enabling the next generation of robotic systems."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Sentinel",
+      "category": "propulsion_mechanical",
+      "descriptor": "320 KV BLDC motor for agricultural drones, 6.5 kg thrust, dustproof/waterproof",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0005",
+          "line_start": 16,
+          "line_end": 17,
+          "url": "https://axialtech.eu/uav-motors",
+          "page_class": "other",
+          "snippet": "#### Sentinel\nWith 6.5 kg of thrust and a lightweight design, the Sentinel is engineered for agricultural drones. It is built to be dustproof and waterproof, with a focus on durability and long-term performance in agricultural environments. The Sentinel ensures minimal downtime and maintenance, which is crucial for high-yield farming."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Falcon",
+      "category": "propulsion_mechanical",
+      "descriptor": "170 KV BLDC motor for defence UAVs, 17 kg thrust, dustproof/waterproof",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0005",
+          "line_start": 29,
+          "line_end": 30,
+          "url": "https://axialtech.eu/uav-motors",
+          "page_class": "other",
+          "snippet": "#### Falcon\nDelivering 17kg of thrust and equipped with dustproof and waterproof features, the Falcon is crafted for defence drones. Its robust design ensures top-tier performance under the most challenging operational conditions, making it ideal for use in Unmanned Aerial Vehicles and other defence-related unmanned systems."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Titan",
+      "category": "propulsion_mechanical",
+      "descriptor": "80 KV BLDC motor for heavy-lift drones, 36 kg thrust, IP56 rated",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0005",
+          "line_start": 42,
+          "line_end": 43,
+          "url": "https://axialtech.eu/uav-motors",
+          "page_class": "other",
+          "snippet": "#### Titan\nThe Titan stands out for its impressive thrust-to-weight ratio. With an IP56 rating, it is designed to operate in harsh weather conditions, providing long-term reliability in demanding environments. It also boasts high torque, which is ideal for heavy-lift drones that require strong, stable propulsion for transporting payloads."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "ESC controllers",
+      "category": "propulsion_electronics",
+      "descriptor": "Electronic Speed Controllers paired with AxialTech BLDC motors",
+      "granularity": "category",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0005",
+          "line_start": 54,
+          "line_end": 55,
+          "url": "https://axialtech.eu/uav-motors",
+          "page_class": "other",
+          "snippet": "### ESC controllers for precision and efficiency\nAll **AxialTech**'s motors are paired with cutting-edge **Electronic Speed Controllers (ESC)**, designed to deliver precise control, optimal performance, and seamless integration. These ESCs are specifically engineered to complement our high-performance BLDC motors, ensuring that each motor operates at its peak efficiency while maintaining reliability even in the most demanding environments."
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "Readiness for all five products is 'unknown' \u2014 the site shows detailed specs but no pricing, lead times, or order language. The company is an EU Startup Booster-funded startup, so production status cannot be confirmed from the corpus alone.",
+    "Robotic Actuators: the page uses 'we are creating' language suggesting active development rather than a shipping catalog product, but no prototype is explicitly shown either.",
+    "ESC controllers are described generically with no individual model names or SKUs \u2014 only a feature overview is given on the uav-motors page."
+  ],
+  "fetch_requests": [],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 11,
+    "total_cost_usd": 0.20801565000000002,
+    "created_at": "2026-05-03T21:46:45+00:00",
+    "extract_version": "0.1.0"
+  }
+}

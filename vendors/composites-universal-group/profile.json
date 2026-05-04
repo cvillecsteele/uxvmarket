@@ -1,0 +1,201 @@
+{
+  "target_id": "composites-universal-group",
+  "run_id": "canonical",
+  "display_name": "Composites Universal Group",
+  "homepage_url": "https://compositesuniversal.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/composites-universal-group/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "structures_and_materials",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 17,
+            "line_end": 19,
+            "url": "https://compositesuniversal.com",
+            "page_class": "homepage",
+            "snippet": "Advanced composites manufacturing\n---------------------------------\nThe team behind **Composites Universal Group** brings creative solutions to complex market-driven problems with friendly, dedicated customer service and meticulous process quality control."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0033",
+            "line_start": 39,
+            "line_end": 43,
+            "url": "https://compositesuniversal.com/qualified-aerospace-production-partner",
+            "page_class": "news",
+            "snippet": "*   Primary and secondary flight structures\n*   Satellite panels and aerospace enclosures\n*   UAV fuselages and aerodynamic surfaces\n*   Thermal and RF shielding components\n*   Lightweight support beams and ribs"
+          }
+        ],
+        "notes": "Contract manufacturer of composite structural parts and assemblies for aerospace/defense/UAV programs. Produces carbon fiber, CFRP, and advanced composite structures including UAV fuselages and aerodynamic surfaces."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Primary business is custom composite manufacturing (structural parts, assemblies) for OEM customers including Boeing, Lockheed Martin, SpaceX, Nauticus Robotics. No catalog SKUs. A skipped page /uuv-prototyping-and-development suggests underwater UXV-specific work as well."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Warren",
+      "state_or_province": "Oregon",
+      "country": "United States",
+      "address": "58144 Old Portland Rd, Building B, Warren, OR 97053"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0017",
+        "line_start": 22,
+        "line_end": 23,
+        "url": "https://compositesuniversal.com/contact",
+        "page_class": "contact",
+        "snippet": "58144 Old Portland Rd, Building B\nWarren, OR 97053"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 91,
+        "line_end": 91,
+        "url": "https://compositesuniversal.com",
+        "page_class": "homepage",
+        "snippet": "Composites Universal Group\u00a0 \u2022\u00a0 [58144 Old Portland Rd, Building B,\u00a0Warren, OR 97053](https://goo.gl/maps/PBPBmfaC3dksjDSJ6 \"Map to Composites Universal Group\")"
+      }
+    ],
+    "notes": "Address is consistent across all pages. One blog post (resource-0008) erroneously says 'Based in California' but this appears to be SEO content; the physical address on every page footer is Warren, OR."
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 75,
+        "line_end": 75,
+        "url": "https://compositesuniversal.com",
+        "page_class": "homepage",
+        "snippet": "With three decades of experience supporting the experimental aircraft, aerospace, and unmanned industries, our composite manufacturing abilities also extend to emerging technologies in defense, transportation, medical, and industrial applications."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0033",
+        "line_start": 41,
+        "line_end": 43,
+        "url": "https://compositesuniversal.com/qualified-aerospace-production-partner",
+        "page_class": "news",
+        "snippet": "*   UAV fuselages and aerodynamic surfaces\n*   Thermal and RF shielding components\n*   Lightweight support beams and ribs"
+      }
+    ],
+    "notes": "Manufactures custom composite structural parts (UAV fuselages, aerodynamic surfaces, primary/secondary flight structures) for aerospace and UAV OEM customers. Not an OEM or platform designer \u2014 supplies structural composite components to integrators and OEMs."
+  },
+  "products": {
+    "items": [],
+    "confidence": "low",
+    "status": "unknown",
+    "notes": "CUG is a contract/custom manufacturer with no named product SKUs. Their offerings are manufacturing services (engineering, prototyping, tooling, LRIP, full-rate production) for custom composite parts. The /services page was skipped and would list specific service categories."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0034",
+        "line_start": 71,
+        "line_end": 71,
+        "url": "https://compositesuniversal.com/quality-controlled-composite-parts-for-aerospace-defense",
+        "page_class": "compliance",
+        "snippet": "*   ITAR-aware workflows for controlled programs (when applicable)"
+      }
+    ],
+    "notes": "Site explicitly references ITAR-aware workflows, AS9100D, and NADCAP (in-progress), but makes no claim of NDAA Section 848/889 compliance."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS / Blue sUAS reference found in any fetched page."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 95,
+        "line_end": 95,
+        "url": "https://compositesuniversal.com",
+        "page_class": "homepage",
+        "snippet": "Full-service capabilities for engineering services, prototyping, tooling, and production."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0033",
+        "line_start": 30,
+        "line_end": 30,
+        "url": "https://compositesuniversal.com/qualified-aerospace-production-partner",
+        "page_class": "news",
+        "snippet": "Whether you\u2019re developing prototypes or need full-rate production, we have the technical capabilities and quality systems in place to support your program through every phase."
+      }
+    ],
+    "notes": "Site explicitly supports full-rate production with AS9100D quality system. Also offers LRIP ramp-up programs and prototyping, but primary posture is production for aerospace OEM programs."
+  },
+  "unresolved_questions": [
+    "UXV-specific product lines (UUV prototyping page was skipped)",
+    "Full services catalog (services page was skipped)",
+    "NDAA Section 848/889 compliance status not addressed on site"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://compositesuniversal.com/uuv-prototyping-and-development",
+      "reason": "Would confirm UXV-specific composite manufacturing work (UUVs/UASs), sharpen drone_supply_chain_role and products_categories confidence, and potentially surface named product lines or application areas.",
+      "expected_evidence": [
+        "drone_supply_chain_role",
+        "products_categories",
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://compositesuniversal.com/services",
+      "reason": "Would enumerate service lines and capabilities, enabling product mentions and confirming which manufacturing services CUG specifically offers for unmanned/aerospace programs.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://compositesuniversal.com/industries-served",
+      "reason": "Would confirm which specific industries (UAS, UUV, defense, etc.) CUG explicitly serves and help verify drone supply chain role and product categories.",
+      "expected_evidence": [
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "tagline": "Contract composite manufacturer of UAV fuselages, aerodynamic surfaces, and primary flight structures for aerospace platforms, with capabilities in CFRP layup, autoclave/OOA curing, RTM, and in-house NDT. Serves primes including Lockheed Martin, Boeing, and Sierra Nevada Corporation. NDAA compliance status and specific defense program involvement not publicly disclosed; Blue UAS certification status unknown.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 12,
+    "total_cost_usd": 0.4650135999999999,
+    "created_at": "2026-05-04T01:24:05+00:00",
+    "extract_version": "0.1.0"
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "target_id": "parker-hannifin-corporation",
+  "run_id": "canonical",
+  "display_name": "Parker Hannifin Corporation",
+  "homepage_url": "https://www.parker.com/us/en/markets/aerospace-and-defense.html",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/parker-hannifin-corporation/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "flight_and_vehicle_control",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0008",
+            "line_start": 45,
+            "line_end": 45,
+            "url": "https://www.parker.com/us/en/markets/aerospace-and-defense.html",
+            "page_class": "homepage",
+            "snippet": "Parker provides aerospace and defense customers with systems that enhance safety, efficiency and mission readiness across civil, military and unmanned platforms. Our flight controls, engine systems, hydraulics, fuel and thermal technologies perform in demanding environments. With global support and deep application knowledge, we help operators reduce downtime and meet evolving sustainability and performance needs."
+          }
+        ],
+        "notes": "Parker has Military Flight Controls Division and Commercial Flight Controls Division; homepage explicitly states flight controls serve unmanned platforms."
+      },
+      {
+        "category": "mechanical_subsystems",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0008",
+            "line_start": 45,
+            "line_end": 45,
+            "url": "https://www.parker.com/us/en/markets/aerospace-and-defense.html",
+            "page_class": "homepage",
+            "snippet": "Parker provides aerospace and defense customers with systems that enhance safety, efficiency and mission readiness across civil, military and unmanned platforms. Our flight controls, engine systems, hydraulics, fuel and thermal technologies perform in demanding environments. With global support and deep application knowledge, we help operators reduce downtime and meet evolving sustainability and performance needs."
+          }
+        ],
+        "notes": "Homepage lists hydraulics as a technology area serving unmanned platforms; Parker has a full portfolio of cylinders, actuators, and hose/tubing products."
+      },
+      {
+        "category": "power_systems",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0008",
+            "line_start": 45,
+            "line_end": 45,
+            "url": "https://www.parker.com/us/en/markets/aerospace-and-defense.html",
+            "page_class": "homepage",
+            "snippet": "Parker provides aerospace and defense customers with systems that enhance safety, efficiency and mission readiness across civil, military and unmanned platforms. Our flight controls, engine systems, hydraulics, fuel and thermal technologies perform in demanding environments. With global support and deep application knowledge, we help operators reduce downtime and meet evolving sustainability and performance needs."
+          }
+        ],
+        "notes": "Homepage lists fuel and thermal technologies as part of the product set for unmanned platforms."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Homepage names flight controls, hydraulics, and fuel/thermal technologies serving unmanned platforms. Parker Chomerics makes EMI shielding for drones (URL in crawl_index but page was skipped). Many product division pages were blocked by Akamai, so the category list may be incomplete."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Cleveland",
+      "state_or_province": "Ohio",
+      "country": "United States",
+      "address": null
+    },
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0037",
+        "line_start": 58,
+        "line_end": 60,
+        "url": "https://www.parker.com/ae/en/about-parker/export-compliance.html",
+        "page_class": "compliance",
+        "snippet": "Parker-Hannifin Corporation\nCraig Schau - Director, International Trade\n(216) 896-3000"
+      }
+    ],
+    "notes": "No explicit headquarters city stated on the corpus pages. Contact phone on export compliance pages uses (216) area code, specific to Cleveland, Ohio."
+  },
+  "drone_supply_chain_role": {
+    "value": "broad_industrial",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0042",
+        "line_start": 48,
+        "line_end": 48,
+        "url": "https://www.parker.com/us/en/about-parker/newsroom/news-release-details/new-axis-control-system-solution.html",
+        "page_class": "news",
+        "snippet": "Parker Hannifin is a Fortune 250 global leader in motion and control technologies. For more than a century the company has been enabling engineering breakthroughs that lead to a better tomorrow. Learn more at\u00a0[www.parker.com](http://www.parker.com/)\u00a0or\u00a0[@parkerhannifin](https://twitter.com/parkerhannifin?lang=en)."
+      }
+    ],
+    "notes": "Parker Hannifin is a Fortune 250 global leader in motion and control technologies spanning aerospace, industrial, life sciences, and many more sectors. Unmanned platforms are one segment of their very broad aerospace & defense business."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Ebrake\u00ae Technology",
+        "product_type": "electronic braking system for aerospace",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0008",
+            "line_start": 105,
+            "line_end": 105,
+            "url": "https://www.parker.com/us/en/markets/aerospace-and-defense.html",
+            "page_class": "homepage",
+            "snippet": "Flying into the Future with Parker's Ebrake\u00ae Technology"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "PAC120",
+        "product_type": "Parker Automation Controller (electro-hydraulic)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0042",
+            "line_start": 43,
+            "line_end": 43,
+            "url": "https://www.parker.com/us/en/about-parker/newsroom/news-release-details/new-axis-control-system-solution.html",
+            "page_class": "news",
+            "snippet": "For more information on Parker\u2019s PAC120 controllers and PACHC control modules, please visit:"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "PACHC",
+        "product_type": "electro-hydraulic controller module",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0042",
+            "line_start": 43,
+            "line_end": 43,
+            "url": "https://www.parker.com/us/en/about-parker/newsroom/news-release-details/new-axis-control-system-solution.html",
+            "page_class": "news",
+            "snippet": "For more information on Parker\u2019s PAC120 controllers and PACHC control modules, please visit:"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "low",
+    "status": "answered",
+    "notes": "Most product-specific pages were blocked by Akamai. Named products visible in corpus are general aerospace/industrial offerings; drone-specific product names from the Military Flight Controls Division were not accessible."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA Section 848/889 compliance claim or disclaimer found anywhere in the fetched corpus."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS or Blue sUAS reference found in the fetched corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0042",
+        "line_start": 48,
+        "line_end": 48,
+        "url": "https://www.parker.com/us/en/about-parker/newsroom/news-release-details/new-axis-control-system-solution.html",
+        "page_class": "news",
+        "snippet": "Parker Hannifin is a Fortune 250 global leader in motion and control technologies. For more than a century the company has been enabling engineering breakthroughs that lead to a better tomorrow. Learn more at\u00a0[www.parker.com](http://www.parker.com/)\u00a0or\u00a0[@parkerhannifin](https://twitter.com/parkerhannifin?lang=en)."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0008",
+        "line_start": 41,
+        "line_end": 41,
+        "url": "https://www.parker.com/us/en/markets/aerospace-and-defense.html",
+        "page_class": "homepage",
+        "snippet": "As an experienced aerospace OEM solutions provider and trusted aerospace system integration partner, we work closely with leading aircraft industry companies to shape the future of aviation and defense\u2014backed by comprehensive aftermarket support and a commitment to long-term customer success."
+      }
+    ],
+    "notes": "Parker Hannifin is a Fortune 250 company with well-established serial production lines across all product categories serving commercial and military aerospace OEMs."
+  },
+  "unresolved_questions": [
+    "Military Flight Controls Division product names for UAVs not accessible (Akamai-blocked)",
+    "Parker Chomerics drone EMI shielding product details not accessible (pages skipped)",
+    "Headquarters city inferred from 216 area code, not explicitly stated on site"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.parker.com/us/en/about-parker/newsroom/news-release-details/parker-chomerics-protects-drones-with-emi-shielding-and-thermal-.html",
+      "reason": "Would confirm Parker Chomerics as a drone-specific supplier of EMI shielding and thermal products, adding structures_and_materials category with named product evidence.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=news",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.parker.com/us/en/divisions/chomerics-division/resources/case-study/meeting-emc-compliance-and-managing-heat-in-drones-and-uavs.html",
+      "reason": "Drone and UAV EMI/thermal case study would reveal specific Chomerics product names for drone applications, sharpening products and products_categories.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=compliance",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.parker.com/us/en/about-parker.html",
+      "reason": "About Parker page would likely state the official headquarters city and address explicitly.",
+      "expected_evidence": [
+        "headquarters"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget; URL confirmed by validator",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 25,
+    "total_cost_usd": 0.58705995,
+    "created_at": "2026-05-03T15:20:10+00:00",
+    "extract_version": "0.1.0"
+  },
+  "tagline": "Broad industrial supplier of flight controls, actuation, hydraulics, filtration, and thermal management for aerospace platforms including unmanned systems. Produces Ebrake\u00ae braking technology and PAC-series flight control components in production. NDAA and Blue UAS certification status not publicly confirmed; limited public evidence of current unmanned-vehicle contracts or programs."
+}

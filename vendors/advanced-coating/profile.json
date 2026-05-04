@@ -1,0 +1,183 @@
+{
+  "target_id": "advanced-coating",
+  "run_id": "canonical",
+  "display_name": "Advanced Coating",
+  "homepage_url": "https://www.advancedcoating.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/advanced-coating/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "structures_and_materials",
+        "is_primary": true,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0164",
+            "line_start": 49,
+            "line_end": 49,
+            "url": "https://www.advancedcoating.com/parylene-coating-services",
+            "page_class": "other",
+            "snippet": "Advanced Coating has established a reputation for providing the highest quality Parylene conformal coating services in the industry and specializes in contract services for military, avionics, industrial applications, high risk electronics, and medical devices."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 52,
+            "line_end": 52,
+            "url": "https://www.advancedcoating.com",
+            "page_class": "homepage",
+            "snippet": "As of January 1, 2022 Advanced Coating is the new exclusive distributor for GALXYL\u00ae dimer in North America.\u00a0 With the addition of raw materials to our Parylene offerings, we now provide a broader selection of high-quality Parylene coating solutions."
+          }
+        ],
+        "notes": "Parylene conformal coating is a polymer protective material applied to PCBs and electronics for aerospace, military/defense, medical, and industrial applications. GALXYL\u00ae dimer is the raw polymer precursor material."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Advanced Coating's primary business is parylene conformal coating services and raw dimer materials \u2014 polymer protective coatings applied to electronics for aerospace/military/medical. The structures_and_materials category is the closest fit (polymer coatings/materials). No UXV-specific applications are mentioned."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Rancho Cucamonga",
+      "state_or_province": "California",
+      "country": "United States",
+      "address": "10723 Edison Court"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0131",
+        "line_start": 49,
+        "line_end": 51,
+        "url": "https://www.advancedcoating.com/contact-advanced-coating",
+        "page_class": "contact",
+        "snippet": "Advanced Coating\n10723 Edison Court\nRancho Cucamonga, CA 91730"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "broad_industrial",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0164",
+        "line_start": 49,
+        "line_end": 49,
+        "url": "https://www.advancedcoating.com/parylene-coating-services",
+        "page_class": "other",
+        "snippet": "Advanced Coating has established a reputation for providing the highest quality Parylene conformal coating services in the industry and specializes in contract services for military, avionics, industrial applications, high risk electronics, and medical devices."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 57,
+        "line_end": 57,
+        "url": "https://www.advancedcoating.com",
+        "page_class": "homepage",
+        "snippet": "Advanced Coating\u2019s GM, Ernest Garcia, shares insights on Parylene technology, precision coatings, and high-reliability applications across aerospace, medical, and defense industries."
+      }
+    ],
+    "notes": "Advanced Coating provides parylene conformal coating services across aerospace, military/defense, medical, and industrial markets. No UXV/drone-specific product line or application is mentioned anywhere in the corpus."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Parylene Coating Services",
+        "product_type": "conformal coating service",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0164",
+            "line_start": 45,
+            "line_end": 45,
+            "url": "https://www.advancedcoating.com/parylene-coating-services",
+            "page_class": "other",
+            "snippet": "Parylene Conformal Coating Services"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "GALXYL\u00ae dimer",
+        "product_type": "parylene dimer raw material",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 52,
+            "line_end": 52,
+            "url": "https://www.advancedcoating.com",
+            "page_class": "homepage",
+            "snippet": "As of January 1, 2022 Advanced Coating is the new exclusive distributor for GALXYL\u00ae dimer in North America.\u00a0 With the addition of raw materials to our Parylene offerings, we now provide a broader selection of high-quality Parylene coating solutions."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA Section 848/889 mention found in corpus. Site lists ITAR registration, ISO 27001, NIST 800-171, FAR/DFAR compliance but not NDAA."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS or Blue sUAS mention found anywhere in corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 88,
+        "line_end": 88,
+        "url": "https://www.advancedcoating.com",
+        "page_class": "homepage",
+        "snippet": "As one of few Parylene conformal coating providers with decades of experience, Advanced Coating remains result driven and applies out-of-the-box thinking to any project.\u00a0 We focus on dynamic high mix, low volume production capabilities thru flexible planning and the capacity to facilitate on the fly changes to meet customer needs."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 101,
+        "line_end": 101,
+        "url": "https://www.advancedcoating.com",
+        "page_class": "homepage",
+        "snippet": "Advanced Coating is at the forefront of quality initiatives that ensure the highest performance standards, and our quality management system is certified to the latest industry regulations. We serve large government contract Tier 1 and Tier 2 customers that are accustomed to high quality coating services performed consistently and to specs and we successfully meet these demands."
+      }
+    ],
+    "notes": "Company describes decades of production experience serving large Tier 1/Tier 2 government contractors, with stated production flow capabilities."
+  },
+  "unresolved_questions": [
+    "No UAS/UAV/drone-specific applications mentioned \u2014 unclear if drone OEMs use their coating services",
+    "NDAA compliance status not disclosed on site"
+  ],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Parylene conformal coating services and GALXYL\u00ae dimer raw materials for electronics, aerospace, and defense applications. ISO 9001/AS9100 certified, ITAR registered, and compliant with NIST 800-171 and RoHS. NDAA compliance status not disclosed; no Blue UAS certification found in public records.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 14,
+    "total_cost_usd": 0.2349678,
+    "created_at": "2026-05-03T20:44:17+00:00",
+    "extract_version": "0.1.0"
+  }
+}

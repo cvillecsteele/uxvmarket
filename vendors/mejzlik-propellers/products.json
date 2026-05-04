@@ -1,0 +1,145 @@
+{
+  "target_id": "mejzlik-propellers",
+  "run_id": "canonical",
+  "display_name": "Mejzlik Propellers",
+  "homepage_url": "https://www.mejzlik.eu",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/mejzlik-propellers/website",
+  "products": [
+    {
+      "name": "Forward Flight Gas Propellers",
+      "category": "propulsion_mechanical",
+      "descriptor": "Carbon fiber fixed-pitch propellers for gas/combustion engines, 2- and 3-blade variants, 15\"\u201337\" diameter",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0043",
+          "line_start": 43,
+          "line_end": 53,
+          "url": "https://www.mejzlik.eu/sales-contact",
+          "page_class": "contact",
+          "snippet": "List of available designs\n-------------------------\n#### Forward Flight Gas Propellers\n[Propeller Rotation Guide (CW / CCW)](https://www.mejzlik.eu/files/cw-ccwmanual.pdf)\n2-bladed Gas Engine Propellers (CCW)\n**Part No.**\n**Name**\n**Availability**\n218080\nPropeller 18x8 CCW 2B\nOTS"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0043",
+          "line_start": 20,
+          "line_end": 20,
+          "url": "https://www.mejzlik.eu/sales-contact",
+          "page_class": "contact",
+          "snippet": "Mejzlik propellers are trusted by professionals around the world for their precision, strength, and lightweight design. We offer a wide range of fixed and folding propellers for electric and gas-powered systems, along with custom modifications and accessories."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Forward Flight Electric Propellers",
+      "category": "propulsion_mechanical",
+      "descriptor": "Carbon fiber fixed-pitch propellers for electric motors, 2- and 3-blade variants, forward-flight applications",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0043",
+          "line_start": 264,
+          "line_end": 275,
+          "url": "https://www.mejzlik.eu/sales-contact",
+          "page_class": "contact",
+          "snippet": "#### Forward Flight Electric Propellers\n2-bladed Electric Engine Propellers\n**Part No.**\n**Name**\n**Availability**\n2150900\nPropeller 15x9 CCW 2B MC\nOTS\n2150901\nPropeller 15x9 CW 2B MC\nOTS\n418105"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Multicopter/VTOL Propellers",
+      "category": "propulsion_mechanical",
+      "descriptor": "Carbon fiber fixed-pitch propellers for multirotor and VTOL platforms, 2- and 3-blade variants, 14\"\u201380\" diameter",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0043",
+          "line_start": 315,
+          "line_end": 327,
+          "url": "https://www.mejzlik.eu/sales-contact",
+          "page_class": "contact",
+          "snippet": "#### Multicopter/VTOL Propellers\n2-bladed MC Propellers\n**Part No.**\n**Name**\n**Availability**\n2140452\nPropeller 14x4.5 CCW 2B MC\nOTS\n2140453\nPropeller 14x4.5 CW 2B MC\nOTS\n2150502\nPropeller 15x5 CCW 2B MC"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Folding Multicopter Propellers",
+      "category": "propulsion_mechanical",
+      "descriptor": "Carbon fiber folding propellers for multicopter platforms, puller and pusher configurations, 18\"\u201332\" diameter",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0043",
+          "line_start": 504,
+          "line_end": 514,
+          "url": "https://www.mejzlik.eu/sales-contact",
+          "page_class": "contact",
+          "snippet": "Folding Multicopter Propellers\n**Part No.**\n**Name**\n**Availability**\n21800600\nFolding Propeller 18x6 CCW 2B MC - puller\nOTS\n21800602\nFolding Propeller 18x6 CCW 2B MC - pusher\nOTS\n21800601"
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "The full OTS PDF (mejzlik.eu/files/ots-list.pdf) was not fetched; it may contain additional propeller families or SKUs beyond those in the HTML table on the sales-contact page.",
+    "No NDAA Section 848/889 or Blue UAS compliance language appears anywhere in the fetched corpus; vendor is Czech (non-US), making such claims unlikely but unconfirmed.",
+    "A new 22\" folding propeller design was announced in a January 2026 blog post (skipped); unclear if it has been added to the OTS catalog as a named product yet."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.mejzlik.eu/files/ots-list.pdf",
+      "reason": "Full OTS product catalog PDF linked from sales-contact page; would enumerate any additional propeller SKUs or families not visible in the HTML table",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "linked from resource-0005 (sales-contact page)",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.mejzlik.eu/blog/solving-crossflow-induced-fatigue-in-foldable-uav-propellers-introducing-mejzlik",
+      "reason": "Blog post (Jan 2026) introducing Mejzlik's new 22\" foldable propeller design \u2014 may describe a new named product or product variant not yet in OTS list",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "skipped in crawl_index (skipped_class_budget), linked from resource-0009 (blog index)",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.mejzlik.eu/blog/the-uav-industry-is-changing-fast-why-a-secure-and-sanction-free-supply-chain-ma",
+      "reason": "Blog post on secure/sanction-free supply chain may contain NDAA or compliance claims relevant to product classification",
+      "expected_evidence": [
+        "ndaa",
+        "products"
+      ],
+      "source_hint": "skipped in crawl_index (skipped_class_budget), linked from resource-0009 (blog index)",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 11,
+    "total_cost_usd": 0.4168023500000001,
+    "created_at": "2026-05-03T01:02:37+00:00",
+    "extract_version": "0.1.0"
+  }
+}

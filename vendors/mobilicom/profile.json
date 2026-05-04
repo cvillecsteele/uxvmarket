@@ -1,0 +1,443 @@
+{
+  "target_id": "mobilicom",
+  "run_id": "canonical",
+  "display_name": "Mobilicom",
+  "homepage_url": "https://mobilicom.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/mobilicom/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "communications",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0155",
+            "line_start": 67,
+            "line_end": 68,
+            "url": "https://mobilicom.com/products",
+            "page_class": "product",
+            "snippet": "    Secure, combined Software Defined Radio (SDR) with mobile mesh networking for fleet & swarm operation.\n    Read More"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0155",
+            "line_start": 71,
+            "line_end": 73,
+            "url": "https://mobilicom.com/products",
+            "page_class": "product",
+            "snippet": "    #### SkyHopper Datalinks\n    Bi-directional datalinks employ leading wireless technologies providing reliable and secure connectivity for autonomous systems.\n    Read More"
+          }
+        ],
+        "notes": "SkyHopper SDR datalinks and MCU Mesh Networking products are the flagship offerings"
+      },
+      {
+        "category": "ground_segment",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0155",
+            "line_start": 74,
+            "line_end": 78,
+            "url": "https://mobilicom.com/products",
+            "page_class": "product",
+            "snippet": "*   \u00a0[](https://mobilicom.com/product-family/mobile-ground-controller-stations/)\n    ![Mobile Ground Control Stations](https://mobilicom.com/wp-content/uploads/2022/05/pro-2-1.png)\n    #### Mobile Ground Control Stations\n    Wide range of all-in-one, ruggedized controllers and viewers with multiple functionalities designed to support drone and robotics operations with a variety of payloads.\n    Read More"
+          }
+        ],
+        "notes": "Mobile Ground Control Stations including 8\" Controller Pro, Mini Controller Pro, Maxi Controller Pro"
+      },
+      {
+        "category": "flight_and_vehicle_control",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0165",
+            "line_start": 44,
+            "line_end": 46,
+            "url": "https://mobilicom.com/products/sa-compute-pro-ar",
+            "page_class": "product",
+            "snippet": "SA COMPUTE PRO-AR\n=================\nAdvanced Cybersecurity with Modular Standards-based Mission Computing"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 59,
+            "line_end": 60,
+            "url": "https://mobilicom.com",
+            "page_class": "homepage",
+            "snippet": "#### Pioneering Security, Safety and Compliance for Uncrewed Missions\nMobilicom\u2019s innovative Operational Security, Safety, and Standards Compliance (OS3) platform secures uncrewed systems with advanced cybersecurity, safety protocols, and compliance management. Protect critical assets, reduce risk, and ensure mission success in challenging environments."
+          }
+        ],
+        "notes": "SA COMPUTE PRO-AT and SA COMPUTE PRO-AR are Pixhawk-based autonomous platform compute modules; OS3 Platform Software covers safety protocols for uncrewed missions"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Melbourne",
+      "state_or_province": "VIC",
+      "country": "Australia",
+      "address": "Level 21, 459 Collins Street, Melbourne, VIC, Australia"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0011",
+        "line_start": 160,
+        "line_end": 162,
+        "url": "https://mobilicom.com/about",
+        "page_class": "company",
+        "snippet": "Level 21, 459 Collins Street, Melbourne, VIC, Australia\n1000 N. West Street, Wilmington, Delaware, USA\n1 Rakefet Street, Shoham, Israel"
+      }
+    ],
+    "notes": "Mobilicom Limited (Australia) is the ASX-listed parent. Also has offices in Shoham, Israel and Wilmington, DE, USA."
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0011",
+        "line_start": 51,
+        "line_end": 51,
+        "url": "https://mobilicom.com/about",
+        "page_class": "company",
+        "snippet": "Mobilicom is an end-to-end provider of cybersecurity and smart solutions for drones, robotics & autonomous platforms. As a high-tech company, it designs, develops, and delivers smart solutions focused primarily on targeting global drone, robotics, and autonomous system manufacturers."
+      }
+    ],
+    "notes": "Sells communications hardware (SDRs, mesh networking), GCS hardware, and cybersecurity/autonomy software to drone and robotics OEMs worldwide. Explicitly targets 'global drone, robotics, and autonomous system manufacturers'."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "SkyHopper PRO",
+        "product_type": "cognitive SDR datalink for drones and robotics",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0170",
+            "line_start": 44,
+            "line_end": 44,
+            "url": "https://mobilicom.com/products/skyhopperpro",
+            "page_class": "product",
+            "snippet": "SkyHopper Pro"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SkyHopper PRO Lite",
+        "product_type": "compact cognitive SDR datalink",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0107",
+            "line_start": 62,
+            "line_end": 62,
+            "url": "https://mobilicom.com/news-updates/defense-innovation-unit-certifies-mobilicoms-combat-proven-skyhopper-datalinks-for-blue-uas-framework",
+            "page_class": "compliance",
+            "snippet": "SkyHopper PRO Lite is a compact cognitive SDR optimized for aerial drones and smaller robotics. It offers reliable, low-latency communication, ideal for payload-sensitive UAVs. The lightweight design ensures seamless integration into smaller platforms for flexible, scalable mission capabilities."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SkyHopper PRO Micro",
+        "product_type": "ultra-compact cognitive SDR for loitering munitions and mini drones",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0107",
+            "line_start": 63,
+            "line_end": 63,
+            "url": "https://mobilicom.com/news-updates/defense-innovation-unit-certifies-mobilicoms-combat-proven-skyhopper-datalinks-for-blue-uas-framework",
+            "page_class": "compliance",
+            "snippet": "The SkyHopper PRO Micro is an ultra-compact cognitive SDR designed for high-volume production of loitering munitions, mini drones, and robotics. With the smallest C-SWaP (cost, size, weight, and power) in the family, it offers reliable communication for mission-critical applications, ensuring seamless integration into lightweight and high-performance platforms."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SkyHopper Multiband",
+        "product_type": "multiband SDR datalink with EW resilience",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 53,
+            "line_end": 54,
+            "url": "https://mobilicom.com",
+            "page_class": "homepage",
+            "snippet": "### Wider Spectrum. Longer Range.\nElectronic Warfare Resilience."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ICE Cybersecurity Suite",
+        "product_type": "drone/robotics cybersecurity software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0155",
+            "line_start": 60,
+            "line_end": 63,
+            "url": "https://mobilicom.com/products",
+            "page_class": "product",
+            "snippet": "    ![ICE Cybersecurity](https://mobilicom.com/wp-content/uploads/2022/05/pro-4.png)\n    #### ICE Cybersecurity\n    Triple-layer protection detects, prevents, and responds to multiple threats and malicious attacks in real time without operator intervention.\n    Read More"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "OS3 Platform Software",
+        "product_type": "operational security, safety, and compliance platform for uncrewed systems",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0155",
+            "line_start": 55,
+            "line_end": 58,
+            "url": "https://mobilicom.com/products",
+            "page_class": "product",
+            "snippet": "    #### OS3\n    Platform Software\n    A Comprehensive Security, Safety, and Standards Compliance Solution for Uncrewed Missions\n    Read More"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MCU Mesh Networking (MCU-30, MCU-200)",
+        "product_type": "ruggedized mesh networking hardware",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0155",
+            "line_start": 64,
+            "line_end": 68,
+            "url": "https://mobilicom.com/products",
+            "page_class": "product",
+            "snippet": "*   \u00a0[](https://mobilicom.com/product-family/mcu-mesh-networking/)\n    ![MCU Mesh Networking](https://mobilicom.com/wp-content/uploads/2022/05/pro-3.png)\n    #### MCU Mesh Networking\n    Secure, combined Software Defined Radio (SDR) with mobile mesh networking for fleet & swarm operation.\n    Read More"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "8\" Controller Pro",
+        "product_type": "tactical mobile GCS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 63,
+            "line_end": 65,
+            "url": "https://mobilicom.com",
+            "page_class": "homepage",
+            "snippet": "**Introducing the** **Mobilicom 8\" Controller Pro**\n===================================================\nPortable. Powerful. Ready."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Mini Controller Pro",
+        "product_type": "mobile GCS controller",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 19,
+            "line_end": 19,
+            "url": "https://mobilicom.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Mobile Ground Control Stations](https://mobilicom.com/product-family/mobile-ground-controller-stations/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Maxi Controller Pro",
+        "product_type": "mobile GCS controller",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 19,
+            "line_end": 19,
+            "url": "https://mobilicom.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Mobile Ground Control Stations](https://mobilicom.com/product-family/mobile-ground-controller-stations/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SA COMPUTE PRO-AR",
+        "product_type": "secured autonomy compute module (NVIDIA Jetson Orin / Pixhawk)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0165",
+            "line_start": 44,
+            "line_end": 46,
+            "url": "https://mobilicom.com/products/sa-compute-pro-ar",
+            "page_class": "product",
+            "snippet": "SA COMPUTE PRO-AR\n=================\nAdvanced Cybersecurity with Modular Standards-based Mission Computing"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SA COMPUTE PRO-AT",
+        "product_type": "secured autonomy compute module",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 13,
+            "line_end": 13,
+            "url": "https://mobilicom.com",
+            "page_class": "homepage",
+            "snippet": "        *   [SA COMPUTE PRO-AT](https://mobilicom.com/products/sa-compute-pro-at/)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": "yes",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0155",
+        "line_start": 50,
+        "line_end": 50,
+        "url": "https://mobilicom.com/products",
+        "page_class": "product",
+        "snippet": "Built for mission-critical operations, our NDAA-compliant, Blue UAS-certified technologies ensure secure communication, high-resilience performance, and real-time control in contested environments."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0107",
+        "line_start": 60,
+        "line_end": 60,
+        "url": "https://mobilicom.com/news-updates/defense-innovation-unit-certifies-mobilicoms-combat-proven-skyhopper-datalinks-for-blue-uas-framework",
+        "page_class": "compliance",
+        "snippet": "Mobilicom\u2019s NDAA-compliant end-to-end hardware and software solutions are currently integrated into drones and robotics deployed in defense and commercial applications worldwide, including in UASs purchased by the U.S. DoD. Federal contractors are required to abide by NDAA requirements which prohibit the use of equipment made in China."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0170",
+        "line_start": 54,
+        "line_end": 55,
+        "url": "https://mobilicom.com/products/skyhopperpro",
+        "page_class": "product",
+        "snippet": "### NDAA Compliant\nThe product complies with the National Defense Authorization Act requirements."
+      }
+    ],
+    "notes": "NDAA compliance is explicitly and repeatedly claimed across products page, SkyHopper PRO page, and Blue UAS certification news."
+  },
+  "blue_uas": {
+    "value": "yes",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0107",
+        "line_start": 44,
+        "line_end": 44,
+        "url": "https://mobilicom.com/news-updates/defense-innovation-unit-certifies-mobilicoms-combat-proven-skyhopper-datalinks-for-blue-uas-framework",
+        "page_class": "compliance",
+        "snippet": "Defense Innovation Unit Certifies Mobilicom's Combat-Proven SkyHopper Datalinks for Blue UAS Framework"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 70,
+        "line_end": 72,
+        "url": "https://mobilicom.com",
+        "page_class": "homepage",
+        "snippet": "**Cybersecure.\nCombat proven.\nNow Blue UAS Certi\ufb01ed.**"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0165",
+        "line_start": 50,
+        "line_end": 50,
+        "url": "https://mobilicom.com/products/sa-compute-pro-ar",
+        "page_class": "product",
+        "snippet": "Powered by NVIDIA Jetson Orin and built on Pixhawk open standards, PRO-AR gives OEMs the flexibility to integrate and scale quickly. Its Blue UAS Framework certification, NDAA compliance, and U.S.-made reliability accelerate procurement while ensuring operators can deploy Group 1 and Group 2 systems with confidence."
+      }
+    ],
+    "notes": "DIU certified SkyHopper PRO, PRO Lite, and PRO Micro for the Blue UAS Framework (Feb 2025). SA COMPUTE PRO-AR also carries Blue UAS Framework certification."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0011",
+        "line_start": 52,
+        "line_end": 52,
+        "url": "https://mobilicom.com/about",
+        "page_class": "company",
+        "snippet": "The company holds patented technology & unique know-how for Mobile Mesh networking. It has an extensive, field-proven portfolio of commercialized products used in various applications."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0011",
+        "line_start": 54,
+        "line_end": 54,
+        "url": "https://mobilicom.com/about",
+        "page_class": "company",
+        "snippet": "Mobilicom\u2019s large solution portfolio has been deployed worldwide, seeing the Company derive revenue from hardware, software sales & licensing fees, and professional support services for its solutions."
+      }
+    ],
+    "notes": "Field-proven portfolio of commercialized products deployed worldwide; revenue from hardware, software sales and licensing."
+  },
+  "unresolved_questions": [
+    "Primary operational headquarters (Israel vs. Australia): corporate parent is Australian (ASX-listed Mobilicom Limited in Melbourne), but founders and main R&D are in Shoham, Israel.",
+    "SA COMPUTE PRO-AT product details: product page not deeply read; assumed analogous to PRO-AR based on nav listing."
+  ],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Manufactures secure datalinks (SkyHopper series), mesh networking (MCU), ground control stations, and cybersecurity/autonomy platform software (OS3, ICE) for uncrewed systems. NDAA-compliant and Blue UAS certified. Melbourne-based; field-proven in defense contexts, though independent validation of claimed capabilities remains limited in public domain.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 15,
+    "total_cost_usd": 0.5945774,
+    "created_at": "2026-05-04T04:28:00+00:00",
+    "extract_version": "0.1.0"
+  }
+}

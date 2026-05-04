@@ -1,0 +1,154 @@
+{
+  "target_id": "vixos-aviation-aps",
+  "run_id": "canonical",
+  "display_name": "Vixos Aviation ApS",
+  "homepage_url": "https://www.vixos.dk",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/vixos-aviation-aps/website",
+  "products": [
+    {
+      "name": "Beyond 12",
+      "category": "flight_termination",
+      "descriptor": "Airside flight termination unit with satellite modem for the Beyond system",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0027",
+          "line_start": 45,
+          "line_end": 45,
+          "url": "https://www.vixos.dk/product-page/beyond-12",
+          "page_class": "product",
+          "snippet": "Beyond 12 is the airside unit for the Beyond system. The options are with or without Iridium connection, with or without secondary link, and with or without internal radio. At least one link must be selected."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0027",
+          "line_start": 48,
+          "line_end": 48,
+          "url": "https://www.vixos.dk/product-page/beyond-12",
+          "page_class": "product",
+          "snippet": "Delivery time depends on our stock and choice of options. Typically between 2 and 4 weeks."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Beyond Base Single",
+      "category": "flight_termination",
+      "descriptor": "Handheld ground base station for activating Beyond flight termination",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0028",
+          "line_start": 49,
+          "line_end": 49,
+          "url": "https://www.vixos.dk/product-page/beyond-base-single",
+          "page_class": "product",
+          "snippet": "Beyond Base Single is the base station for the Beyond system. The options are with or without Iridium connection, with or without secondary link, and with or without internal radio. At least one link must be selected."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0028",
+          "line_start": 52,
+          "line_end": 52,
+          "url": "https://www.vixos.dk/product-page/beyond-base-single",
+          "page_class": "product",
+          "snippet": "Delivery time depends on our stock and choice of options. Typically between 2 and 4 weeks."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Iridium satcom",
+      "category": "communications",
+      "descriptor": "Annual Iridium satellite communication service plan for Beyond system",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0029",
+          "line_start": 29,
+          "line_end": 35,
+          "url": "https://www.vixos.dk/product-page/iridium-satcom",
+          "page_class": "product",
+          "snippet": "Iridium satcom\n==============\n\u20ac600.00Price\nQuantity\\*\nAdd to Cart\nBuy Now\nFlat fee for 1 year of satcom service covering 720 operational hours (2 h per day average)."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Beyond 22",
+      "category": "flight_termination",
+      "descriptor": "Advanced flight termination unit with geofencing, 8-signal interrupt, and CAN bus filtering",
+      "granularity": "sku",
+      "readiness": "prototype",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0030",
+          "line_start": 71,
+          "line_end": 71,
+          "url": "https://www.vixos.dk/products",
+          "page_class": "product",
+          "snippet": "### Beyond 22\u200b"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0030",
+          "line_start": 78,
+          "line_end": 79,
+          "url": "https://www.vixos.dk/products",
+          "page_class": "product",
+          "snippet": "Prices to be determined\nExpected to be commercially available in Q3, 2026."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Beyond Base Multi",
+      "category": "flight_termination",
+      "descriptor": "Multi-drone ground base station supporting up to 12 Beyond 22 airside units",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0030",
+          "line_start": 74,
+          "line_end": 74,
+          "url": "https://www.vixos.dk/products",
+          "page_class": "product",
+          "snippet": "Up to 12 Beyond 22s can be controlled from the same Beyond Base Multi, allowing the operator to have a single base even when multiple drones are flying at the same time."
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "Beyond Base Multi has no dedicated product page \u2014 it is mentioned only once on the products listing page (resource-0002, line 74) as the companion base station for Beyond 22. Readiness is set to unknown; it will likely become available alongside Beyond 22 (expected Q3 2026).",
+    "Beyond 22 is pre-production ('Expected to be commercially available in Q3, 2026', prices TBD); classified as prototype. No dedicated product page exists in the corpus."
+  ],
+  "fetch_requests": [],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 14,
+    "total_cost_usd": 0.37683965,
+    "created_at": "2026-05-04T07:45:42+00:00",
+    "extract_version": "0.1.0"
+  }
+}

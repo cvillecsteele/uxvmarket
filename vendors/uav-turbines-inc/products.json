@@ -1,0 +1,291 @@
+{
+  "target_id": "uav-turbines-inc",
+  "run_id": "canonical",
+  "display_name": "UAV Turbines Inc.",
+  "homepage_url": "https://www.uavturbines.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/uav-turbines-inc/website",
+  "products": [
+    {
+      "name": "Monarch 5 Engine",
+      "category": "propulsion_mechanical",
+      "descriptor": "Microturbine turboprop engine for 300\u20132,500 lb UAV propulsion",
+      "granularity": "sku",
+      "readiness": "prototype",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 13,
+          "line_end": 13,
+          "url": "https://uavturbines.com/",
+          "page_class": "homepage",
+          "snippet": "The above video shows our Monarch 5 Engine serving as the prime mover for a 480lb take-off weight TigerShark drone."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 17,
+          "line_end": 17,
+          "url": "https://uavturbines.com/",
+          "page_class": "homepage",
+          "snippet": "The Monarch 5 engine demonstration with the 480-pound TigerShark drone platform validated our system\u2019s capabilities. Flight tests confirmed significant performance improvements over reciprocating engines."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Turbine Aerospace Systems",
+      "category": "propulsion_mechanical",
+      "descriptor": "Microturbine propulsion family for drones from 300 to 2,500 lb takeoff weight",
+      "granularity": "family",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 12,
+          "line_end": 12,
+          "url": "https://uavturbines.com/",
+          "page_class": "homepage",
+          "snippet": "UAVT\u2019s Turbine Aerospace Systems are sized for drones ranging in take-off weight from 300 to 2,500 pounds. UAVT uses propellers to produce propulsion and can be configured for either horizontal or vertical flight."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 14,
+          "line_end": 14,
+          "url": "https://uavturbines.com/",
+          "page_class": "homepage",
+          "snippet": "UAVT\u2019s Turbine Aerospace Systems power drones ranging from 350 to 2,500 pounds takeoff weight. Industry studies project microturbine engine demand for aerospace applications will exceed $4.6 billion by 2030."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "APEX (Advanced Portable Expeditionary) Generator",
+      "category": "power_systems",
+      "descriptor": "25 kW man-portable microturbine generator for military and emergency use",
+      "granularity": "family",
+      "readiness": "prototype",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 51,
+          "line_end": 51,
+          "url": "https://uavturbines.com/",
+          "page_class": "homepage",
+          "snippet": "UAVT\u2019s **25kW** generator sets offer extraordinary size and weight advantages over traditional diesel units: 75% lighter and 50% smaller, delivering critical logistical benefits. Specialized military operations requiring substantial electricity and rapid mobility will be early adopters of UAVT\u2019s APEX (Advanced Portable Expeditionary) generators."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 53,
+          "line_end": 53,
+          "url": "https://uavturbines.com/",
+          "page_class": "homepage",
+          "snippet": "Subsequent to demonstrations for various US Department of Defense organizations, APEX prototypes will be field tested in late 2025."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "APEX 30",
+      "category": "power_systems",
+      "descriptor": "Advanced Portable Expeditionary turbine generator prototype variant",
+      "granularity": "sku",
+      "readiness": "prototype",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 24,
+          "line_end": 25,
+          "url": "https://uavturbines.com/",
+          "page_class": "homepage",
+          "snippet": "![](https://uavturbines.com/media/uploads/2025/06/APEX-30-Prototype-scaled.jpg)\n[](https://uavturbines.com/media/uploads/2025/06/APEX-30-Prototype-scaled.jpg)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 53,
+          "line_end": 53,
+          "url": "https://uavturbines.com/",
+          "page_class": "homepage",
+          "snippet": "Subsequent to demonstrations for various US Department of Defense organizations, APEX prototypes will be field tested in late 2025."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Aerospace Range Extender",
+      "category": "power_systems",
+      "descriptor": "Turbine-based hybrid range extender for Group 3\u20134 battery-electric drones",
+      "granularity": "category",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 57,
+          "line_end": 58,
+          "url": "https://uavturbines.com/",
+          "page_class": "homepage",
+          "snippet": "Recognizing this power density limitation five years ago, UAVT developed a high-speed generator to replace the gearbox used in propeller applications.\nThe result is a high-power-to-weight ratio system that provides sufficient electrical power in a compact, lightweight package to serve as a hybrid range extender for larger drones that are required to carry meaningful payloads more than a short distance."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "M5IB Generator",
+      "category": "power_systems",
+      "descriptor": "Microturbine generator set built on the Monarch 5 engine core",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 34,
+          "line_end": 35,
+          "url": "https://uavturbines.com/",
+          "page_class": "homepage",
+          "snippet": "![](https://uavturbines.com/media/uploads/2025/05/Current-M5IB-Generator.jpg)\n[](https://uavturbines.com/media/uploads/2025/05/Current-M5IB-Generator.jpg)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 48,
+          "line_end": 48,
+          "url": "https://uavturbines.com/",
+          "page_class": "homepage",
+          "snippet": "The UAVT core engine that has been used with a propeller for propulsion applications, anchors our Generator Set design. We use a proprietary generator in this configuration which operates at the same 100,000 RPM output as the engine. The resulting electrical power is easily conditioned to standard AC or DC output."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "LTS40R",
+      "category": "propulsion_mechanical",
+      "descriptor": "Turbine engine variant for UAV propulsion applications",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 32,
+          "line_end": 33,
+          "url": "https://uavturbines.com/",
+          "page_class": "homepage",
+          "snippet": "![](https://uavturbines.com/media/uploads/2025/04/LTS40R-11-carousel-800.png)\n[](https://uavturbines.com/media/uploads/2025/04/LTS40R-11-carousel-800.png)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Cyclone",
+      "category": "propulsion_mechanical",
+      "descriptor": "Turbine engine system for offshore or maritime UAV applications",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 62,
+          "line_end": 64,
+          "url": "https://uavturbines.com/",
+          "page_class": "homepage",
+          "snippet": "![](https://uavturbines.com/media/uploads/2025/06/Cyclone_Offshore1-1024x683.png)\n![](https://uavturbines.com/media/uploads/2025/06/Cyclone_1-1024x683.png)\n![](https://uavturbines.com/media/uploads/2025/06/Subscale_Wingborne1-1024x683.png)"
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "LTS40R: product name appears only in an image filename (line 32\u201333 of resource-0001); no textual description, specs, or category context available in the corpus. Classification is inferred from company context (turbine propulsion supplier).",
+    "M5IB Generator: product name appears only in an image filename (line 34\u201335 of resource-0001); descriptor inferred from the surrounding generator-set section text (line 48). No dedicated product page was fetched.",
+    "Cyclone: name appears only in image filenames on lines 62\u201364 (Cyclone_Turbine, Cyclone_Offshore1, Cyclone_1). Could be a turbine engine, a full UAV platform, or a maritime-application system. Category assigned as propulsion_mechanical but uncertain.",
+    "APEX 30 vs APEX (Advanced Portable Expeditionary) Generator: relationship unclear. 'APEX 30' appears in an image filename with 'Prototype' in the name; the text section describes 'APEX' as 25 kW generators. The '30' designation may indicate 30 kW output or a model number. These may be the same product at different development stages.",
+    "No NDAA or Blue UAS claims found anywhere in the corpus for any product.",
+    "Only the homepage was fetched. The site nav (lines 6\u201311) references distinct sections (UAVT Takes Flight, Technology Development, Electric Power Generation, Man-Portable Generator, Aerospace Range Extender) that may be separate pages with richer product detail."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://uavturbines.com/man-portable-generator/",
+      "reason": "Nav section specifically covering APEX generator products; would clarify APEX vs APEX 30 relationship, power specs, and readiness.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "nav item 'Man-Portable Generator' linked from homepage",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://uavturbines.com/electric-power-generation/",
+      "reason": "Nav section covering generator products including M5IB Generator; would provide textual description and specs not available from image filename alone.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "nav item 'Electric Power Generation' linked from homepage",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://uavturbines.com/aerospace-range-extender/",
+      "reason": "Nav section covering the Aerospace Range Extender product; would clarify whether this is a named SKU or a capability category, and may reveal the LTS40R context.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "nav item 'Aerospace Range Extender' linked from homepage",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://uavturbines.com/uavt-takes-flight/",
+      "reason": "Nav section 'UAVT Takes Flight' likely covers Monarch 5 Engine and Cyclone in detail, including readiness and specs not found on the homepage.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "nav item 'UAVT Takes Flight' linked from homepage",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://uavturbines.com/technology-development/",
+      "reason": "Nav section 'Technology Development' may contain LTS40R and Cyclone product details, which are evidenced only by image filenames in the corpus.",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "ndaa"
+      ],
+      "source_hint": "nav item 'Technology Development' linked from homepage",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 13,
+    "total_cost_usd": 0.3997757,
+    "created_at": "2026-05-04T07:24:17+00:00",
+    "extract_version": "0.1.0"
+  }
+}

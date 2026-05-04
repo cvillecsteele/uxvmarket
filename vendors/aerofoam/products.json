@@ -1,0 +1,631 @@
+{
+  "target_id": "aerofoam",
+  "run_id": "canonical",
+  "display_name": "Aerofoam",
+  "homepage_url": "https://www.aerofoam.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/aerofoam/website",
+  "products": [
+    {
+      "name": "UAV Rail Launchers",
+      "category": "mechanical_subsystems",
+      "descriptor": "Custom rail launch systems for UAVs, contact-for-quote",
+      "granularity": "category",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0025",
+          "line_start": 35,
+          "line_end": 37,
+          "url": "https://www.aerofoam.com/uav-rail-launchers.html",
+          "page_class": "other",
+          "snippet": "**UAV Rail Launchers**\n======================\n**_Please contact us about our UAV Rail Launchers_**"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Recovery Systems",
+      "category": "recovery_systems",
+      "descriptor": "UAV recovery systems product category",
+      "granularity": "category",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 20,
+          "line_end": 20,
+          "url": "https://www.aerofoam.com",
+          "page_class": "homepage",
+          "snippet": "    *   [Recovery Systems](recovery-systems.html)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Parachutes",
+      "category": "recovery_systems",
+      "descriptor": "Lightweight UAV parachutes available in stock up to 16 ft diameter",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0020",
+          "line_start": 65,
+          "line_end": 66,
+          "url": "https://www.aerofoam.com/products.html",
+          "page_class": "product",
+          "snippet": "_**[Parachute Recovery Systems](recovery-systems.html)**__**[](recovery-systems.html)for UAVs, or expensive toys.**_\n_**Aerofoam produces the lightest parachutes available in stock,\u00a0sizes up to 16ft. in diameter.**_"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Zipstart Catapults",
+      "category": "ground_segment",
+      "descriptor": "Short bungee-based catapult launchers for EDFs and RC sailplanes",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0020",
+          "line_start": 15,
+          "line_end": 15,
+          "url": "https://www.aerofoam.com/products.html",
+          "page_class": "product",
+          "snippet": "    *   [Zipstart Catapults](zipstart-catapults.html)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0020",
+          "line_start": 49,
+          "line_end": 49,
+          "url": "https://www.aerofoam.com/products.html",
+          "page_class": "product",
+          "snippet": "[**Zipstart / Catapults & UAV Bungees**](zipstart-catapults.html)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Release Mechanisms",
+      "category": "mechanical_subsystems",
+      "descriptor": "Launching bridle release mechanisms for bungee catapult launch systems",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0008",
+          "line_start": 39,
+          "line_end": 42,
+          "url": "https://www.aerofoam.com/release-mechanisms.html",
+          "page_class": "other",
+          "snippet": "**Release Mechanisms**\n======================\n**[3 Ring Release](3-ring-release.html)\n**"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Complete Highstarts",
+      "category": "mechanical_subsystems",
+      "descriptor": "Complete bungee highstart launch sets with line, parachute, swivel and stake",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0009",
+          "line_start": 37,
+          "line_end": 37,
+          "url": "https://www.aerofoam.com/complete-highstarts.html",
+          "page_class": "other",
+          "snippet": "**Complete Highstarts include fluorescent braided nylon line, parachute, snap swivel and a 12\" stake. They come wound on a cord reel and are read to take to the field. All you need is your airplane and a hammer.**"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Highstart Bungees",
+      "category": "mechanical_subsystems",
+      "descriptor": "Mandrel-dipped UV-resistant rubber bungee sets for highstart launchers",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0020",
+          "line_start": 50,
+          "line_end": 51,
+          "url": "https://www.aerofoam.com/products.html",
+          "page_class": "product",
+          "snippet": "**[_Highstart Bungee_](highstart-bungees.html)\u00a0_are\u00a0sets for making your own Highstart, or replacing worn out rubber on your Highstart._**\n**_This is mandrel dipped rubber tubing with UV inhibitors as well as black pigment to protect it from sunlight exposure. The Highstart bungee comes with connectors at both ends and with 210lb. SS split rings._"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Hose Monster Bungees",
+      "category": "mechanical_subsystems",
+      "descriptor": "Mandrel-dipped latex bungee tubing product line for UAV and RC launch systems",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0022",
+          "line_start": 26,
+          "line_end": 27,
+          "url": "https://www.aerofoam.com/hose-monster-bungees-1.html",
+          "page_class": "other",
+          "snippet": "\u200b**Hose Monster Bungees**\n**1\\. \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 General bungee info."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Launching Accessories",
+      "category": "ground_segment",
+      "descriptor": "Parachutes, winders, reels, stakes and other launch support accessories",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0020",
+          "line_start": 61,
+          "line_end": 62,
+          "url": "https://www.aerofoam.com/products.html",
+          "page_class": "product",
+          "snippet": "[](launching-accessories.html)[_**Launching\u200b\u00a0\u200bAccessories**_](launching-accessories.html) [_**-**_](launching-accessories.html)\n\u00a0\u00a0[](launching-accessories.html)_**[](parachutes-1.html)[Parachutes, winders, reels, stakes etc](launching-accessories.html)**_"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Complete-2m",
+      "category": "ground_segment",
+      "descriptor": "2-meter complete highstart bungee launch system for RC sailplanes",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 6,
+          "line_end": 6,
+          "url": "https://www.aerofoam.com",
+          "page_class": "homepage",
+          "snippet": "        *   [Complete-2m](complete-2m-1.html)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0020",
+          "line_start": 45,
+          "line_end": 45,
+          "url": "https://www.aerofoam.com/products.html",
+          "page_class": "product",
+          "snippet": "**_The Highstarts are available in 4 sizes: \u00a02 Meter, 2 Meter Competition, 3 Meter, and 4 Meter."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "C-2m Competition",
+      "category": "ground_segment",
+      "descriptor": "2-meter competition-grade complete highstart bungee launch system",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 7,
+          "line_end": 7,
+          "url": "https://www.aerofoam.com",
+          "page_class": "homepage",
+          "snippet": "        *   [C-2m Competition](c-2m-competition.html)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0020",
+          "line_start": 45,
+          "line_end": 45,
+          "url": "https://www.aerofoam.com/products.html",
+          "page_class": "product",
+          "snippet": "**_The Highstarts are available in 4 sizes: \u00a02 Meter, 2 Meter Competition, 3 Meter, and 4 Meter."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Complete-3m",
+      "category": "ground_segment",
+      "descriptor": "3-meter complete highstart bungee launch system for RC sailplanes",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 8,
+          "line_end": 8,
+          "url": "https://www.aerofoam.com",
+          "page_class": "homepage",
+          "snippet": "        *   [Complete-3m](complete-3m-1.html)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0020",
+          "line_start": 45,
+          "line_end": 45,
+          "url": "https://www.aerofoam.com/products.html",
+          "page_class": "product",
+          "snippet": "**_The Highstarts are available in 4 sizes: \u00a02 Meter, 2 Meter Competition, 3 Meter, and 4 Meter."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Complete-4m",
+      "category": "mechanical_subsystems",
+      "descriptor": "Complete 4-meter highstart bungee launch set for larger RC/UAV aircraft",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0009",
+          "line_start": 53,
+          "line_end": 56,
+          "url": "https://www.aerofoam.com/complete-highstarts.html",
+          "page_class": "other",
+          "snippet": "**Complete 2 Meter\nComplete 2 Meter Competition\nComplete 3 Meter Options\nComplete 4 Meter \u00a0Options**"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "2 Meter Highstart Bungee",
+      "category": "mechanical_subsystems",
+      "descriptor": "2-meter mandrel-dipped rubber bungee set for highstart launchers",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 11,
+          "line_end": 11,
+          "url": "https://www.aerofoam.com",
+          "page_class": "homepage",
+          "snippet": "        *   [2 Meter](2-meter.html)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0020",
+          "line_start": 50,
+          "line_end": 51,
+          "url": "https://www.aerofoam.com/products.html",
+          "page_class": "product",
+          "snippet": "**[_Highstart Bungee_](highstart-bungees.html)\u00a0_are\u00a0sets for making your own Highstart, or replacing worn out rubber on your Highstart._**\n**_This is mandrel dipped rubber tubing with UV inhibitors as well as black pigment to protect it from sunlight exposure. The Highstart bungee comes with connectors at both ends and with 210lb. SS split rings._"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "4 Meter Highstart Bungee",
+      "category": "mechanical_subsystems",
+      "descriptor": "4-meter mandrel-dipped rubber bungee set for highstart launchers",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 14,
+          "line_end": 14,
+          "url": "https://www.aerofoam.com",
+          "page_class": "homepage",
+          "snippet": "        *   [4 Meter](4-meter.html)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0020",
+          "line_start": 50,
+          "line_end": 51,
+          "url": "https://www.aerofoam.com/products.html",
+          "page_class": "product",
+          "snippet": "**[_Highstart Bungee_](highstart-bungees.html)\u00a0_are\u00a0sets for making your own Highstart, or replacing worn out rubber on your Highstart._**\n**_This is mandrel dipped rubber tubing with UV inhibitors as well as black pigment to protect it from sunlight exposure. The Highstart bungee comes with connectors at both ends and with 210lb. SS split rings._"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Custom UAV Airframes and Power Systems",
+      "category": "airframes",
+      "descriptor": "Custom-built UAV airframes and power systems for UAV projects",
+      "granularity": "category",
+      "readiness": "engineering_services",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 56,
+          "line_end": 56,
+          "url": "https://www.aerofoam.com",
+          "page_class": "homepage",
+          "snippet": "We also make custom airframes and power systems for UAV projects."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Zipstart Catapults & UAV Bungees",
+      "category": "mechanical_subsystems",
+      "descriptor": "Assembled catapult bungee launch systems for UAVs and gliders, 1\u201320 lb range",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0007",
+          "line_start": 31,
+          "line_end": 31,
+          "url": "https://www.aerofoam.com/zipstart-catapults.html",
+          "page_class": "other",
+          "snippet": "**Zipstart Catapults & UAV Bungees**"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0007",
+          "line_start": 13,
+          "line_end": 13,
+          "url": "https://www.aerofoam.com/zipstart-catapults.html",
+          "page_class": "other",
+          "snippet": "**Zipstarts/Catapults are assembled Catapult Bungees for launching gliders and powered planes in the 1lb. to 20lb. range. They are excellent for launching EDF. Jets.**"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "3 Ring Release",
+      "category": "mechanical_subsystems",
+      "descriptor": "3-ring style release mechanism for bungee launch systems",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0008",
+          "line_start": 41,
+          "line_end": 42,
+          "url": "https://www.aerofoam.com/release-mechanisms.html",
+          "page_class": "other",
+          "snippet": "**[3 Ring Release](3-ring-release.html)\n**"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Insane Mega Bungee Zip Start (Ins3/4x24)",
+      "category": "mechanical_subsystems",
+      "descriptor": "High-force catapult bungee for 20+ lb UAVs, develops over 80 lbs launch force",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0007",
+          "line_start": 33,
+          "line_end": 35,
+          "url": "https://www.aerofoam.com/zipstart-catapults.html",
+          "page_class": "other",
+          "snippet": "**Item Name: \u00a0 \u00a0\u00a0Insane Mega Bungee set up as a Zip Start**\n**Use: \u00a0 \u00a0\u00a0This bungee is for 20lbs and beyond, it can develop over 80lbs. of launch force. Also used in a Y configuration for practicing F3J launches.**\n**Item Number:\u00a0 Ins3/4x24Price: \u00a0\u00a0$160**"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Mega Bungee Zip Start (Mega5/8x24)",
+      "category": "mechanical_subsystems",
+      "descriptor": "Mid-range catapult bungee for 10\u201320 lb aircraft, zip-start configuration",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0007",
+          "line_start": 10,
+          "line_end": 12,
+          "url": "https://www.aerofoam.com/zipstart-catapults.html",
+          "page_class": "other",
+          "snippet": "**Item Name: \u00a0 \u00a0\u00a0Mega Bungee set up as a Zip Start**\n**Use: \u00a0 \u00a0\u00a0This is suitable for airplanes from 10 to 20lbs. and is also used as a \"Death Match\" bungee for open class gliders.**\n**Item Number: \u00a0Mega5/8x24Price: \u00a0\u00a0$150**"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Standard 1/2\" Catapult (Stnd1/2x24)",
+      "category": "mechanical_subsystems",
+      "descriptor": "Standard catapult bungee for 1\u201310 lb aircraft, most popular zip-start size",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0007",
+          "line_start": 2,
+          "line_end": 2,
+          "url": "https://www.aerofoam.com/zipstart-catapults.html",
+          "page_class": "other",
+          "snippet": "**\u200b\u200b****Item Name: \u00a0 \u00a0\u00a0Standard 1/2\" Catapult set up as a Zip Start**"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Arresting Parachute (ARChute)",
+      "category": "recovery_systems",
+      "descriptor": "Safety arresting parachute for bungee launch systems to prevent recoil injury",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0010",
+          "line_start": 9,
+          "line_end": 9,
+          "url": "https://www.aerofoam.com/parachutes-1.html",
+          "page_class": "other",
+          "snippet": "**\u200bItem Name: \u00a0\u00a0\u00a0Arresting ParachuteItem Number:\u00a0 ARChutePrice: \u00a0\u00a0$32**"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "18\" Ripstop Nylon Parachute (HSChute)",
+      "category": "recovery_systems",
+      "descriptor": "18-inch ripstop nylon highstart parachute with 225 lb rated SS snap swivel",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0010",
+          "line_start": 18,
+          "line_end": 19,
+          "url": "https://www.aerofoam.com/parachutes-1.html",
+          "page_class": "other",
+          "snippet": "**18\" Ripstop nylon parachute with a 225lb. rated SS snap swivel and a ring in the crown. This chute has 3/8 nylon webbing risers sewn through the crown, it is the strongest Highstart chute available.**\n**Item Name:\u00a0\u00a0 18\" Ripstop Nylon ParachuteItem Number:\u00a0 HSChutePrice: \u00a0\u00a0$32**"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Hose Monster Rubber Specs (bulk rubber tubing)",
+      "category": "mechanical_subsystems",
+      "descriptor": "Mandrel-dipped latex rubber tubing in multiple wall thicknesses for bungee launch systems",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0012",
+          "line_start": 1,
+          "line_end": 1,
+          "url": "https://www.aerofoam.com/hose-monster-rubber-specs-1.html",
+          "page_class": "product",
+          "snippet": "Hose Monster Rubber Specs"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0012",
+          "line_start": 30,
+          "line_end": 32,
+          "url": "https://www.aerofoam.com/hose-monster-rubber-specs-1.html",
+          "page_class": "product",
+          "snippet": "\u00a0 \u00a0Standard Bungee 1/4\"ID x 1/8\" Wall - 28 To 35 lbs of tension\n\u00a0 \u00a0Mega Bungee 1/4\" ID x 3/16\" Wall - 35 To 50 lbs of tension\n\u00a0 \u00a0Insane Mega Bungee 1/4\" ID x 1/4\" Wall - 50 To 80 lbs of tension"
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "Recovery Systems page (recovery-systems.html) was skipped (skipped_budget, capability class) \u2014 specific product SKUs within this category are unknown; classified as category-level entry only.",
+    "3 Ring Release page (3-ring-release.html) was skipped (skipped_class_budget) \u2014 readiness, pricing, and specs not available; classified as unknown readiness.",
+    "Complete-4m page (complete-4m-1.html) was skipped (skipped_class_budget) \u2014 readiness, pricing, and detailed specs not available; classified as unknown readiness.",
+    "Hose Monster Rubber Specs: unclear from corpus whether bulk rubber tubing is sold separately or only as part of assembled bungee products; the specs page appears to be a tech-info companion to the assembled bungee products."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.aerofoam.com/recovery-systems.html",
+      "reason": "Page was skipped (skipped_budget, capability class). Would reveal what specific recovery system products Aerofoam sells beyond the category-level listing.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=capability",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.aerofoam.com/3-ring-release.html",
+      "reason": "Page was skipped (skipped_class_budget). The 3 Ring Release is named on the release-mechanisms page but its own page would provide specs, pricing, and readiness confirmation.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.aerofoam.com/complete-4m-1.html",
+      "reason": "Page was skipped (skipped_class_budget). Would provide pricing, specs, and readiness for the Complete-4m highstart SKU.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 24,
+    "total_cost_usd": 0.68987975,
+    "created_at": "2026-05-03T20:55:15+00:00",
+    "extract_version": "0.1.0"
+  }
+}

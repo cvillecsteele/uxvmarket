@@ -1,0 +1,387 @@
+{
+  "target_id": "calnetix-technologies",
+  "run_id": "canonical",
+  "display_name": "Calnetix Technologies",
+  "homepage_url": "https://www.calnetix.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/calnetix-technologies/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0156",
+            "line_start": 70,
+            "line_end": 70,
+            "url": "https://www.calnetix.com/high-speed-electric-motor-generators",
+            "page_class": "other",
+            "snippet": "Calnetix Technologies designs, develops, and manufactures a wide range of high-speed\u00a0permanent magnet (PM) motor generators for a variety of applications and industries.\u00a0Our _**high-speed motors**_, _**high-speed generators**_, and _**magnetic rotor gen sets**_ are designed from a base flexible modular structure, developed using technologically advanced engineering methods to ensure optimal magnetic rotor efficiency."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0156",
+            "line_start": 127,
+            "line_end": 127,
+            "url": "https://www.calnetix.com/high-speed-electric-motor-generators",
+            "page_class": "other",
+            "snippet": "*   Applications such as chiller systems, compressors, blowers, generators for turboexpanders, blood pumps, electrically assisted turbochargers, UXVs, satellites, test stands, food spray dryers and precision lasers"
+          }
+        ],
+        "notes": "Core business is designing and manufacturing high-speed permanent magnet motors and generators; UXVs explicitly listed as an application for Magnaforce\u2122 product line."
+      },
+      {
+        "category": "propulsion_electronics",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 103,
+            "line_end": 103,
+            "url": "https://www.calnetix.com",
+            "page_class": "homepage",
+            "snippet": "](/active-magnetic-bearings)["
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0035",
+            "line_start": 76,
+            "line_end": 76,
+            "url": "https://www.calnetix.com/defense-aerospace/applications/hybrid-electric-aircraft-systems/aerospace",
+            "page_class": "capability",
+            "snippet": "Calnetix\u2019s integrated propulsion systems combine light weight and [power dense permanent magnet motors](/case-studies/high-performance-energy-recovery-system), and SiC based [Enercycle\u2122 power electronics](https://www.calnetix.com/variable-frequency-drives). The integrated system can reduce energy consumption and installed size and weight, while improving reliability, operational flexibility, and meeting stringent emission standards."
+          }
+        ],
+        "notes": "Variable Frequency Drives and Enercycle\u2122 power electronics (SiC-based inverters/motor drives) are a named product line."
+      },
+      {
+        "category": "mechanical_subsystems",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 35,
+            "line_end": 36,
+            "url": "https://www.calnetix.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Active Magnetic Bearings](/active-magnetic-bearings)\n    *   [Passive Magnetic Bearings](/passive-magnetic-bearings)"
+          }
+        ],
+        "notes": "Active Magnetic Bearings and Passive Magnetic Bearings are dedicated product lines for aerospace and industrial use."
+      },
+      {
+        "category": "power_systems",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0226",
+            "line_start": 77,
+            "line_end": 77,
+            "url": "https://www.calnetix.com/defense-aerospace/applications/high-speed-starter-generators",
+            "page_class": "other",
+            "snippet": "Calnetix Technologies\u2019 Defense & Aerospace division has designed a variety of solutions combining gas turbines and [Magnaforce\u2122 permanent magnet (PM) motor generators](/high-speed-electric-motor-generators) ranging from auxiliary power units (APUs) for today\u2019s advanced fighter aircrafts and UAVs to self-contained industrial power generation systems rated at 500 kW or more."
+          }
+        ],
+        "notes": "Magnaforce\u2122 generators used in APUs for UAVs and aircraft; offers starter-generator and terrestrial power generation systems."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Cypress",
+      "state_or_province": "California",
+      "country": "United States",
+      "address": "6200 Gateway Dr., Cypress, CA 90630"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0155",
+        "line_start": 68,
+        "line_end": 71,
+        "url": "https://www.calnetix.com/contact-us",
+        "page_class": "contact",
+        "snippet": "HEADQUARTERS\nCalnetix Technologies LLC\n6200 Gateway Dr.\nCypress, CA 90630"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 76,
+        "line_end": 76,
+        "url": "https://www.calnetix.com",
+        "page_class": "homepage",
+        "snippet": "After more than 20 years of providing electric power generation and conversion solutions to OEMs, Calnetix is utilizing its proven expertise to provide electrification technologies for mission critical defense and aerospace applications."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0156",
+        "line_start": 127,
+        "line_end": 127,
+        "url": "https://www.calnetix.com/high-speed-electric-motor-generators",
+        "page_class": "other",
+        "snippet": "*   Applications such as chiller systems, compressors, blowers, generators for turboexpanders, blood pumps, electrically assisted turbochargers, UXVs, satellites, test stands, food spray dryers and precision lasers"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0226",
+        "line_start": 77,
+        "line_end": 77,
+        "url": "https://www.calnetix.com/defense-aerospace/applications/high-speed-starter-generators",
+        "page_class": "other",
+        "snippet": "Calnetix Technologies\u2019 Defense & Aerospace division has designed a variety of solutions combining gas turbines and [Magnaforce\u2122 permanent magnet (PM) motor generators](/high-speed-electric-motor-generators) ranging from auxiliary power units (APUs) for today\u2019s advanced fighter aircrafts and UAVs to self-contained industrial power generation systems rated at 500 kW or more."
+      }
+    ],
+    "notes": "Calnetix sells high-speed PM motors, magnetic bearings, and VFDs to drone/UAV OEMs. UXVs explicitly listed as application; they describe themselves as supplying custom motors to OEMs."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Magnaforce\u2122",
+        "product_type": "high-speed permanent magnet motor generator",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0156",
+            "line_start": 121,
+            "line_end": 121,
+            "url": "https://www.calnetix.com/high-speed-electric-motor-generators",
+            "page_class": "other",
+            "snippet": "Magnaforce\u2122"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0156",
+            "line_start": 127,
+            "line_end": 127,
+            "url": "https://www.calnetix.com/high-speed-electric-motor-generators",
+            "page_class": "other",
+            "snippet": "*   Applications such as chiller systems, compressors, blowers, generators for turboexpanders, blood pumps, electrically assisted turbochargers, UXVs, satellites, test stands, food spray dryers and precision lasers"
+          }
+        ],
+        "notes": "Explicitly listed for UXV applications; low voltage, less than 1 MW."
+      },
+      {
+        "name": "Ultraforce\u2122",
+        "product_type": "high-speed motor generator",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0156",
+            "line_start": 122,
+            "line_end": 122,
+            "url": "https://www.calnetix.com/high-speed-electric-motor-generators",
+            "page_class": "other",
+            "snippet": "Ultraforce\u2122"
+          }
+        ],
+        "notes": "Named as the second standard Calnetix motor generator series alongside Magnaforce\u2122; no further detail in fetched pages."
+      },
+      {
+        "name": "Enercycle\u2122",
+        "product_type": "SiC-based power electronics / DC inverter",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0035",
+            "line_start": 76,
+            "line_end": 76,
+            "url": "https://www.calnetix.com/defense-aerospace/applications/hybrid-electric-aircraft-systems/aerospace",
+            "page_class": "capability",
+            "snippet": "Calnetix\u2019s integrated propulsion systems combine light weight and [power dense permanent magnet motors](/case-studies/high-performance-energy-recovery-system), and SiC based [Enercycle\u2122 power electronics](https://www.calnetix.com/variable-frequency-drives). The integrated system can reduce energy consumption and installed size and weight, while improving reliability, operational flexibility, and meeting stringent emission standards."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Variable Frequency Drives",
+        "product_type": "variable speed drive / inverter",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 34,
+            "line_end": 34,
+            "url": "https://www.calnetix.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Variable Frequency Drives](/variable-frequency-drives)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Active Magnetic Bearings",
+        "product_type": "oil-free active magnetic bearing",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 35,
+            "line_end": 35,
+            "url": "https://www.calnetix.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Active Magnetic Bearings](/active-magnetic-bearings)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Passive Magnetic Bearings",
+        "product_type": "passive magnetic bearing",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 36,
+            "line_end": 36,
+            "url": "https://www.calnetix.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Passive Magnetic Bearings](/passive-magnetic-bearings)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Magnetic Bearing Controllers",
+        "product_type": "magnetic bearing control electronics",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 37,
+            "line_end": 37,
+            "url": "https://www.calnetix.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Magnetic Bearing Controllers](/magnetic-bearing-controllers)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Magnetic Bearing & VSD Controller",
+        "product_type": "combined magnetic bearing and variable-speed drive controller",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 38,
+            "line_end": 38,
+            "url": "https://www.calnetix.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Magnetic Bearing & VSD Controller](/magnetic-bearing-vsd-controller)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "8 named product lines confirmed across homepage and product pages. Additional SKU detail may exist on skipped product pages."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0156",
+        "line_start": 70,
+        "line_end": 70,
+        "url": "https://www.calnetix.com/high-speed-electric-motor-generators",
+        "page_class": "other",
+        "snippet": "Calnetix Technologies designs, develops, and manufactures a wide range of high-speed\u00a0permanent magnet (PM) motor generators for a variety of applications and industries.\u00a0Our _**high-speed motors**_, _**high-speed generators**_, and _**magnetic rotor gen sets**_ are designed from a base flexible modular structure, developed using technologically advanced engineering methods to ensure optimal magnetic rotor efficiency."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0204",
+        "line_start": 70,
+        "line_end": 70,
+        "url": "https://www.calnetix.com/resource/certifications/certifications",
+        "page_class": "compliance",
+        "snippet": "### ISO 9001"
+      }
+    ],
+    "notes": "Calnetix designs, develops, and manufactures products for OEMs with established named product lines. ISO 9001:2015 certified for design and manufacturing since 2001."
+  },
+  "unresolved_questions": [
+    "NDAA Section 848/889 compliance status not disclosed on website",
+    "Blue UAS list status not referenced",
+    "Ultraforce\u2122 product details not available in fetched pages"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.calnetix.com/variable-frequency-drives",
+      "reason": "Product page for Variable Frequency Drives / Enercycle\u2122 would confirm SKU names and UXV-specific application claims for propulsion_electronics category.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.calnetix.com/defense-aerospace",
+      "reason": "Main defense & aerospace landing page would clarify scope of UAV/UXV product offerings and possibly reference NDAA or Blue UAS compliance.",
+      "expected_evidence": [
+        "products_categories",
+        "drone_supply_chain_role",
+        "ndaa",
+        "blue_uas"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Manufactures high-speed permanent magnet motors, generators, magnetic bearings, and power electronics for defense, aerospace, and industrial applications. Core competency in oil-free active magnetic bearing systems and variable frequency drives for rotating machinery. NDAA and Blue UAS certification status unknown; public evidence of defense/aerospace contracts limited.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 23,
+    "total_cost_usd": 0.5926056500000001,
+    "created_at": "2026-05-03T22:00:19+00:00",
+    "extract_version": "0.1.0"
+  }
+}

@@ -1,0 +1,308 @@
+{
+  "target_id": "aerofoam",
+  "run_id": "canonical",
+  "display_name": "Aerofoam",
+  "homepage_url": "https://www.aerofoam.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/aerofoam/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "mechanical_subsystems",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 42,
+            "line_end": 42,
+            "url": "https://www.aerofoam.com",
+            "page_class": "homepage",
+            "snippet": "*   Standard UAV Launching and Recovery Systems"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 15,
+            "line_end": 15,
+            "url": "https://www.aerofoam.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Zipstart Catapults](zipstart-catapults.html)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 19,
+            "line_end": 19,
+            "url": "https://www.aerofoam.com",
+            "page_class": "homepage",
+            "snippet": "    *   [UAV Rail Launchers](uav-rail-launchers.html)"
+          }
+        ],
+        "notes": "UAV Rail Launchers, Zipstart Catapults, Highstart bungee systems, and Release Mechanisms are custom launch mechanisms"
+      },
+      {
+        "category": "recovery_systems",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 18,
+            "line_end": 18,
+            "url": "https://www.aerofoam.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Parachutes](parachutes-1.html)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 20,
+            "line_end": 20,
+            "url": "https://www.aerofoam.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Recovery Systems](recovery-systems.html)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0010",
+            "line_start": 18,
+            "line_end": 19,
+            "url": "https://www.aerofoam.com/parachutes-1.html",
+            "page_class": "other",
+            "snippet": "**18\" Ripstop nylon parachute with a 225lb. rated SS snap swivel and a ring in the crown. This chute has 3/8 nylon webbing risers sewn through the crown, it is the strongest Highstart chute available.**\n**Item Name:\u00a0\u00a0 18\" Ripstop Nylon ParachuteItem Number:\u00a0 HSChutePrice: \u00a0\u00a0$32**"
+          }
+        ],
+        "notes": "Parachutes product line and dedicated Recovery Systems product category"
+      },
+      {
+        "category": "airframes",
+        "is_primary": false,
+        "confidence": "low",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 56,
+            "line_end": 56,
+            "url": "https://www.aerofoam.com",
+            "page_class": "homepage",
+            "snippet": "We also make custom airframes and power systems for UAV projects."
+          }
+        ],
+        "notes": "Homepage states 'We also make custom airframes and power systems for UAV projects' but no dedicated product pages fetched"
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Primarily a launch and recovery systems supplier; custom airframes mentioned but no product pages fetched"
+  },
+  "headquarters": {
+    "value": null,
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "evidence": [],
+    "notes": "Contact page (contact-1.html) was skipped due to budget; no address found in fetched pages. US-based inferred from US government customers (USAF, US Army, Sandia Labs) but not confirmed."
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 42,
+        "line_end": 43,
+        "url": "https://www.aerofoam.com",
+        "page_class": "homepage",
+        "snippet": "*   Standard UAV Launching and Recovery Systems\n    ----------------------------------------------"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 56,
+        "line_end": 56,
+        "url": "https://www.aerofoam.com",
+        "page_class": "homepage",
+        "snippet": "We also make custom airframes and power systems for UAV projects."
+      }
+    ],
+    "notes": "Sells launch and recovery components (bungees, catapults, rail launchers, parachutes) and custom airframes for UAV projects"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Complete Highstarts",
+        "product_type": "complete bungee launching systems for gliders/UAVs (2m, 3m, 4m variants)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0009",
+            "line_start": 40,
+            "line_end": 40,
+            "url": "https://www.aerofoam.com/complete-highstarts.html",
+            "page_class": "other",
+            "snippet": "**Complete Highstarts**"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Hosemonster Bungees",
+        "product_type": "mandrel-dipped latex bungee rubber launching systems",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0022",
+            "line_start": 26,
+            "line_end": 26,
+            "url": "https://www.aerofoam.com/hose-monster-bungees-1.html",
+            "page_class": "other",
+            "snippet": "\u200b**Hose Monster Bungees**"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Zipstart Catapults",
+        "product_type": "catapult/bungee launching systems for 1-20lb aircraft",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0007",
+            "line_start": 31,
+            "line_end": 31,
+            "url": "https://www.aerofoam.com/zipstart-catapults.html",
+            "page_class": "other",
+            "snippet": "**Zipstart Catapults & UAV Bungees**"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "UAV Rail Launchers",
+        "product_type": "rail-based launch systems for UAVs",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0025",
+            "line_start": 35,
+            "line_end": 36,
+            "url": "https://www.aerofoam.com/uav-rail-launchers.html",
+            "page_class": "other",
+            "snippet": "**UAV Rail Launchers**\n======================"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Release Mechanisms",
+        "product_type": "launch release mechanisms (3-ring release)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0008",
+            "line_start": 39,
+            "line_end": 41,
+            "url": "https://www.aerofoam.com/release-mechanisms.html",
+            "page_class": "other",
+            "snippet": "**Release Mechanisms**\n======================\n**[3 Ring Release](3-ring-release.html)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Parachutes",
+        "product_type": "ripstop nylon parachutes for highstart/UAV safety and recovery",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0010",
+            "line_start": 18,
+            "line_end": 19,
+            "url": "https://www.aerofoam.com/parachutes-1.html",
+            "page_class": "other",
+            "snippet": "**18\" Ripstop nylon parachute with a 225lb. rated SS snap swivel and a ring in the crown. This chute has 3/8 nylon webbing risers sewn through the crown, it is the strongest Highstart chute available.**\n**Item Name:\u00a0\u00a0 18\" Ripstop Nylon ParachuteItem Number:\u00a0 HSChutePrice: \u00a0\u00a0$32**"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Recovery Systems product page exists but was not fetched; custom airframes and power systems mentioned but no dedicated pages"
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA, Section 848/889, or compliance language found anywhere in the corpus."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS or Blue sUAS language found anywhere in the corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0007",
+        "line_start": 3,
+        "line_end": 3,
+        "url": "https://www.aerofoam.com/zipstart-catapults.html",
+        "page_class": "other",
+        "snippet": "**Use: \u00a0 \u00a0\u00a0This bungee is suitable for airplanes in the 1 to 10lb. range depending on wing area. It will launch a 1lb. small plane at speeds over 100mph., or a large 14lb. plane at about 25mph. This size is the most popular and is also used as a zip start, or Zip/Zoom for most open class gliders.Item Number:\u00a0 Stnd1/2x24Price: \u00a0\u00a0$90**"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0010",
+        "line_start": 9,
+        "line_end": 9,
+        "url": "https://www.aerofoam.com/parachutes-1.html",
+        "page_class": "other",
+        "snippet": "**\u200bItem Name: \u00a0\u00a0\u00a0Arresting ParachuteItem Number:\u00a0 ARChutePrice: \u00a0\u00a0$32**"
+      }
+    ],
+    "notes": "Catalog products with prices and part numbers indicate production. Prototyping and custom engineering services are also prominently offered (secondary mode)."
+  },
+  "unresolved_questions": [
+    "Headquarters/address not found \u2014 contact page was skipped",
+    "Recovery Systems product page content not fetched",
+    "Custom airframes product details not confirmed"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.aerofoam.com/contact-1.html",
+      "reason": "Contact page would likely contain physical address and headquarters location, currently unknown",
+      "expected_evidence": [
+        "headquarters"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=contact",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "tagline": "Designs and manufactures bungee-based launch systems (Hosemonster Bungees, Zipstart Catapults, Complete Highstarts), UAV rail launchers, and parachute recovery systems for small unmanned aircraft. Listed past customers include Sandia, INL, Lockheed, and US military branches, but current production contracts and NDAA/Blue UAS status are not publicly documented. HQ location unknown.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 11,
+    "total_cost_usd": 0.5371268,
+    "created_at": "2026-05-03T20:51:00+00:00",
+    "extract_version": "0.1.0"
+  }
+}

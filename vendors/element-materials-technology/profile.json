@@ -1,0 +1,319 @@
+{
+  "target_id": "element-materials-technology",
+  "run_id": "canonical",
+  "display_name": "Element Materials Technology",
+  "homepage_url": "https://www.element.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/element-materials-technology/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "test_and_measurement",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0292",
+            "line_start": 589,
+            "line_end": 589,
+            "url": "https://www.element.com/about-element",
+            "page_class": "other",
+            "snippet": "Element Materials Technology (Element) is a leading lab-based testing partner to companies operating in the world\u2019s most highly-regulated industries. We provide certainty where failure in service is simply not an option, making us a key player in the testing, inspection and certification industry."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0292",
+            "line_start": 591,
+            "line_end": 591,
+            "url": "https://www.element.com/about-element",
+            "page_class": "other",
+            "snippet": "We deliver testing certainty, making sure that your products, materials, processes, and services are safe, compliant, and fit for purpose."
+          }
+        ],
+        "notes": "Element's primary business is lab-based testing, inspection, and certification (TIC) across aerospace, defense, connected technologies, construction, energy, and other industries. Includes avionics systems testing, DO-160 environmental testing, MIL-STD testing, composite testing, battery testing."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Element is a pure TIC company; all fetched pages are testing/certification service pages. No UXV manufacturing or OEM role."
+  },
+  "headquarters": {
+    "value": {
+      "city": null,
+      "state_or_province": null,
+      "country": "United Kingdom",
+      "address": null
+    },
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 787,
+        "line_end": 789,
+        "url": "https://www.element.com",
+        "page_class": "homepage",
+        "snippet": "###### UK\nFreephone from UK\n[+44 808 234 1667](tel:+448082341667)"
+      }
+    ],
+    "notes": "UK listed first in contact hierarchy; UKCA marking prominent throughout; UK-first phone. Explicit HQ city not stated in corpus."
+  },
+  "drone_supply_chain_role": {
+    "value": "broad_industrial",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0292",
+        "line_start": 589,
+        "line_end": 589,
+        "url": "https://www.element.com/about-element",
+        "page_class": "other",
+        "snippet": "Element Materials Technology (Element) is a leading lab-based testing partner to companies operating in the world\u2019s most highly-regulated industries. We provide certainty where failure in service is simply not an option, making us a key player in the testing, inspection and certification industry."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0292",
+        "line_start": 717,
+        "line_end": 717,
+        "url": "https://www.element.com/about-element",
+        "page_class": "other",
+        "snippet": "With over 50,000 customers, we have earned the trust of highly-regulated industries including aerospace, defense, space, energy, mobility, connected technology, medical devices, pharmaceuticals, environmental, and construction. Whether you're designing your next breakthrough or making sure your current product portfolio remain compliant with changing regulations, we ensure your product meets all requirements\u2014where it matters most."
+      }
+    ],
+    "notes": "Element is a testing, inspection, and certification company serving many industries. No UXV-specific product line. Broad industrial TIC firm."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "RTCA DO-160 Environmental Testing",
+        "product_type": "aerospace environmental testing service",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0728",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://www.element.com/aerospace/aero-rtca-do-160-environmental-testing",
+            "page_class": "news",
+            "snippet": "RTCA DO-160 Aerospace Testing Services | Element"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Avionics Systems Testing",
+        "product_type": "aerospace product qualification testing service",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0795",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://www.element.com/aerospace/aero-pqt-services/avionics-systems",
+            "page_class": "capability",
+            "snippet": "Avionics Systems Testing | Element"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Lithium Battery Testing and Certification",
+        "product_type": "battery testing and certification service",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0296",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://www.element.com/connected-technologies/lithium-battery-testing-and-certification",
+            "page_class": "compliance",
+            "snippet": "Lithium Battery Testing and Certification | Element"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "RTCA DO-227 Non-Rechargeable Battery Testing",
+        "product_type": "aerospace battery testing service",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0300",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://www.element.com/aerospace/aero-pqt-services/rtca-do-227-non-rechargeable-battery-testing",
+            "page_class": "news",
+            "snippet": "RTCA DO-227 Non-Rechargeable Battery Testing | Element"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Aerospace EMI/EMC Testing",
+        "product_type": "aerospace electromagnetic compatibility testing service",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0297",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://www.element.com/aerospace/aero-pqt-services/aerospace-emi-emc-testing",
+            "page_class": "other",
+            "snippet": "Aerospace EMI/EMC Testing \u2013 Aircraft EMC Testing | Element"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Altitude Testing and Simulation",
+        "product_type": "aerospace altitude/environmental testing service",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0294",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://www.element.com/aerospace/aero-pqt-services/altitude-testing-and-simulation",
+            "page_class": "other",
+            "snippet": "Altitude Testing \u2013 High & Low Altitude Simulation | Element"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Aerospace Composite Testing",
+        "product_type": "aerospace materials testing service",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0293",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://www.element.com/aerospace/aero-materials-testing/aerospace-composite-testing",
+            "page_class": "other",
+            "snippet": "Aerospace Composite Testing | Element"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ESQ\u00ae (Early Stage Qualification)",
+        "product_type": "defense qualification advisory service",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0771",
+            "line_start": 595,
+            "line_end": 595,
+            "url": "https://www.element.com/defense",
+            "page_class": "other",
+            "snippet": "Unique ESQ\u00ae Qualification Service"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MIL-STD-810 Testing",
+        "product_type": "defense environmental testing service",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0771",
+            "line_start": 616,
+            "line_end": 618,
+            "url": "https://www.element.com/defense",
+            "page_class": "other",
+            "snippet": "### MIL-STD-810 Testing Services\n](/defense/mil-std-810-testing)\nElement's MIL-STD-810 testing services validate military and defense products under extreme conditions, delivering reliable, accredited results for compliance and performance qualification."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MIL-STD-461 Testing",
+        "product_type": "defense EMC testing service",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0771",
+            "line_start": 625,
+            "line_end": 628,
+            "url": "https://www.element.com/defense",
+            "page_class": "other",
+            "snippet": "[\n### MIL-STD-461 Testing Services\n](/defense/mil-std-461-testing)\nAccess accredited MIL-STD-461 testing with secure ITAR handling at our specialized military EMC testing facilities. Our MIL-STD-461G testing validates defense systems up to 70 tons with 200V/m capability."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Element provides hundreds of named testing service lines. Only primary/most relevant listed here."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0292",
+        "line_start": 590,
+        "line_end": 590,
+        "url": "https://www.element.com/about-element",
+        "page_class": "other",
+        "snippet": "Our customers depend on Element\u2019s 8,500 scientists, engineers, and technologists for expert technical guidance to empower their go-to-market strategies. From early R&D, through complex regulatory approvals and into production and maintenance, we support every step from our global network of over 270 laboratories."
+      }
+    ],
+    "notes": "Over 270 laboratories globally, 8,500 staff, 50,000+ customers. Standard catalog testing services at production scale."
+  },
+  "unresolved_questions": [
+    "Headquarters city not explicitly stated in corpus"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.element.com/contact-us",
+      "reason": "Would likely contain full headquarters address including city and street for Element Materials Technology",
+      "expected_evidence": [
+        "headquarters"
+      ],
+      "source_hint": "crawl_index status=skipped_budget",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Materials testing, environmental qualification, and aerospace certification lab serving airborne equipment manufacturers\u2014particularly strong in RTCA DO-160 environmental testing, avionics systems, battery qualification, composites characterization, and NDT inspection. London-based with global operations. NDAA and Blue UAS status unknown; public evidence does not confirm direct UAS-specific product lines or defense contracts, though defense and aerospace verticals are listed among served industries.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 26,
+    "total_cost_usd": 0.494235,
+    "created_at": "2026-05-04T02:02:30+00:00",
+    "extract_version": "0.1.0"
+  }
+}

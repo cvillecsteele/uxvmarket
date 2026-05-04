@@ -1,0 +1,376 @@
+{
+  "target_id": "pacsci-emc",
+  "run_id": "canonical",
+  "display_name": "PacSci EMC",
+  "homepage_url": "https://psemc.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/pacsci-emc/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "flight_termination",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 12,
+            "line_end": 12,
+            "url": "https://psemc.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Flight Termination System (FTS)](https://psemc.com/products/flight-termination-system/)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 154,
+            "line_end": 155,
+            "url": "https://psemc.com",
+            "page_class": "homepage",
+            "snippet": "### [Flight Termination](https://psemc.com/products/flight-termination-system/)\n [![Autonomous-Flight-Termination-System](https://psemc.com/wp-content/uploads/2022/08/Autonomous-Flight-Termination-System-300x200.jpg)](https://psemc.com/products/flight-termination-system/)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0129",
+            "line_start": 136,
+            "line_end": 137,
+            "url": "https://psemc.com/products/systems",
+            "page_class": "product",
+            "snippet": "*   [Divert Attitude Control System (DACS)](https://psemc.com/products/divert-attitude-control-system/)\n*   [Flight Termination System](https://psemc.com/products/flight-termination-system/)"
+          }
+        ],
+        "notes": "PacSci EMC makes complete Flight Termination Systems (FTS) including safe & arm devices, destruct charges, and linear shaped charges for missiles and space launch vehicles \u2014 the same FTS hardware applicable to UXVs on test ranges."
+      },
+      {
+        "category": "munitions",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 104,
+            "line_end": 104,
+            "url": "https://psemc.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Destruct Charge & Bulk Destruct Charge](https://psemc.com/products/destruct-charge/)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 24,
+            "line_end": 30,
+            "url": "https://psemc.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Detonators](https://psemc.com/products/detonators/)\n        *   [CLCP 6 Minute Pyrotechnic Time Delay Fuse](https://psemc.com/products/pyrotechnic-time-delay-fuse/)\n        *   [Exploding Bridgewire Detonator](https://psemc.com/products/exploding-bridge-wire/)\n        *   [GreenDet\u2122 RF Safe Detonator](https://psemc.com/products/rf-safe-detonator/)\n        *   [HNS Initiator](https://psemc.com/products/hns-initiator/)\n        *   [Lead Azide Free Detonator](https://psemc.com/products/lead-azide-free-detonator/)\n        *   [All Detonators](https://psemc.com/products/?fwp_product_categories=detonators)"
+          }
+        ],
+        "notes": "Destruct charges, detonators, linear shaped charges, and safe & arm devices for missiles and munitions programs."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Primarily a pyrotechnic/energetic materials company. FTS is the most UXV-relevant category."
+  },
+  "headquarters": {
+    "value": {
+      "city": null,
+      "state_or_province": null,
+      "country": "United States",
+      "address": null
+    },
+    "confidence": "low",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0203",
+        "line_start": 133,
+        "line_end": 134,
+        "url": "https://psemc.com/who-we-are/safety-quality",
+        "page_class": "compliance",
+        "snippet": "*   [ISO9001 & AS9100 (Chandler)](https://psemc.com/wp-content/uploads/2025/05/22648-Pacific-Scientific-Energetic-Materials-Company-05MAY2025.pdf)\n*   [ISO9001 & AS9100 (Hollister)](https://psemc.com/wp-content/uploads/2024/02/2693-Pacific-Scientific-AS-9100-Certificate-2024-0207.pdf)"
+      }
+    ],
+    "notes": "Corpus shows manufacturing facilities at Chandler, AZ and Hollister, CA. No explicit headquarters city/state identified in fetched pages."
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 127,
+        "line_end": 127,
+        "url": "https://psemc.com",
+        "page_class": "homepage",
+        "snippet": "We design and manufacture thousands of pyrotechnic and energetic products\u00a0and solutions for the industries we pursue around the world."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0129",
+        "line_start": 134,
+        "line_end": 134,
+        "url": "https://psemc.com/products/systems",
+        "page_class": "product",
+        "snippet": "As the leading designer and manufacturer of a range of highly effective safety systems used in emergency situations, including space and aircraft crew egress and vehicle apprehension, both military and commercial programs depend upon our reliability."
+      }
+    ],
+    "notes": "Designs and manufactures pyrotechnic components (initiators, detonators, safe & arm devices, destruct charges) and complete FTS systems for missiles and space vehicles. FTS applicable to UXVs on test ranges, but drones not explicitly marketed to. subsystem_supplier arguable for the FTS product."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Flight Termination System (FTS)",
+        "product_type": "pyrotechnic flight termination system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 12,
+            "line_end": 12,
+            "url": "https://psemc.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Flight Termination System (FTS)](https://psemc.com/products/flight-termination-system/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Electro-mechanical Safe and Arm Device (ESAD)",
+        "product_type": "safe and arm device",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0059",
+            "line_start": 128,
+            "line_end": 128,
+            "url": "https://psemc.com/products/electro-mechanical-safe-and-arm-device-esad",
+            "page_class": "news",
+            "snippet": "Electro-mechanical Safe and Arm Device"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Divert Attitude Control System (DACS)",
+        "product_type": "aerospace defense system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 11,
+            "line_end": 11,
+            "url": "https://psemc.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Divert Attitude Control System](https://psemc.com/products/divert-attitude-control-system/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Smart Initiator",
+        "product_type": "networked electronic initiator",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 60,
+            "line_end": 60,
+            "url": "https://psemc.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Smart Initiator](https://psemc.com/products/smart-initiator/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "GreenDet\u2122 RF Safe Detonator",
+        "product_type": "RF safe detonator",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 27,
+            "line_end": 27,
+            "url": "https://psemc.com",
+            "page_class": "homepage",
+            "snippet": "        *   [GreenDet\u2122 RF Safe Detonator](https://psemc.com/products/rf-safe-detonator/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SEA\u2122 Interface",
+        "product_type": "networked electronic ordnance interface",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 59,
+            "line_end": 59,
+            "url": "https://psemc.com",
+            "page_class": "homepage",
+            "snippet": "        *   [SEA\u2122 Interface](https://psemc.com/products/sea-network/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Satellite Payload Release & Sequencing",
+        "product_type": "pyrotechnic payload release system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 146,
+            "line_end": 147,
+            "url": "https://psemc.com",
+            "page_class": "homepage",
+            "snippet": "### [Satellite Payload & Release](https://psemc.com/products/satellite-payload-release/)\n [![Satellite-Payload-Release-v2](https://psemc.com/wp-content/uploads/2021/07/Satellite-Payload-Release-300x200.jpg)](https://psemc.com/products/satellite-payload-release/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Frangible Nut",
+        "product_type": "hold-down release mechanism",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 33,
+            "line_end": 33,
+            "url": "https://psemc.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Frangible Nut](https://psemc.com/products/frangible-nut/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Thermally Initiated Venting System (TIVS)",
+        "product_type": "aerospace defense system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 14,
+            "line_end": 14,
+            "url": "https://psemc.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Thermally Initiated Venting System](https://psemc.com/products/thermally-initiated-venting-system/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Underwater Emergency Egress System (UEES)",
+        "product_type": "aerospace defense system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 15,
+            "line_end": 15,
+            "url": "https://psemc.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Underwater Emergency Egress System (UEES)](https://psemc.com/products/underwater-emergency-egress-system/)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Large product catalog; items above are named product lines. Many additional components exist (cutters, actuators, igniters, laser ordnance) within these families."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No mention of NDAA Section 848/889 compliance in any fetched pages."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No mention of Blue UAS or DIU cleared list in any fetched pages."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0129",
+        "line_start": 130,
+        "line_end": 130,
+        "url": "https://psemc.com/products/systems",
+        "page_class": "product",
+        "snippet": "70+ Years of Experience"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0203",
+        "line_start": 133,
+        "line_end": 133,
+        "url": "https://psemc.com/who-we-are/safety-quality",
+        "page_class": "compliance",
+        "snippet": "*   [ISO9001 & AS9100 (Chandler)](https://psemc.com/wp-content/uploads/2025/05/22648-Pacific-Scientific-Energetic-Materials-Company-05MAY2025.pdf)"
+      }
+    ],
+    "notes": "70+ years of manufacturing experience; ISO9001/AS9100 certified at two facilities; products have published datasheets and mil-spec qualifications."
+  },
+  "unresolved_questions": [
+    "Headquarters city/state not explicitly stated \u2014 two manufacturing locations (Chandler, AZ and Hollister, CA) identified but HQ not confirmed",
+    "No NDAA or Blue UAS disclosure found",
+    "No drone/UAV/UAS mention in corpus \u2014 UXV relevance is via FTS and pyrotechnic components for range safety"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://psemc.com/who-we-are/",
+      "reason": "Main company page likely contains headquarters address confirming HQ city and state",
+      "expected_evidence": [
+        "headquarters"
+      ],
+      "source_hint": "guessed from site nav link on all pages",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://psemc.com/products/flight-termination-system/",
+      "reason": "Dedicated FTS product page would confirm specifications, UXV/drone applicability, and supply chain role evidence",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "linked from resource-0001 line 12",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "partial",
+  "tagline": "Manufactures pyrotechnic and energetic components for aerospace and defense, including flight termination systems, safe-and-arm devices, detonators, and ordnance initiation equipment. Serves manned and unmanned platforms across primes and integrators. NDAA compliance status and specific UAS program citations not publicly documented.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 25,
+    "total_cost_usd": 0.6415379000000001,
+    "created_at": "2026-05-04T04:59:01+00:00",
+    "extract_version": "0.1.0"
+  }
+}

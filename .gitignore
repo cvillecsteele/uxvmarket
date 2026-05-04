@@ -54,10 +54,14 @@ fe/site/src/data/
 # -----------------------------------------------------------------------------
 # Canonical vendor corpus
 # -----------------------------------------------------------------------------
-# `vendors/` is a multi-GB derived artifact (mirror evidence + extracted JSON)
-# that gets archived to S3 separately. It's the source of truth for FE
-# generation but lives outside git. See README.md "Archive Vendors To S3".
-vendors/
+# `vendors/<slug>/{profile,products,canonicalize_report,migration_report}.json`
+# (a few MB total across the cohort) IS tracked — that's the data the FE
+# generator reads, and tracking it makes CI builds reproducible without an
+# S3 dependency. The heavy mirrored evidence under `website/` (raw HTML,
+# Browserless JSON, markdown, normalized text, documents — multiple GB)
+# is NOT tracked; archive it to S3 separately. See
+# `scripts/archive_vendors_to_s3.py` and README.md "Archive Vendors To S3".
+vendors/*/website/
 
 # -----------------------------------------------------------------------------
 # Generic logs

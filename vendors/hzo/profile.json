@@ -1,0 +1,223 @@
+{
+  "target_id": "hzo",
+  "run_id": "canonical",
+  "display_name": "HZO",
+  "homepage_url": "https://hzo.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/hzo/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "structures_and_materials",
+        "is_primary": true,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://hzo.com",
+            "page_class": "homepage",
+            "snippet": "HZO - Parylene & Thin Film Coating Company Homepage"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0031",
+            "line_start": 83,
+            "line_end": 83,
+            "url": "https://hzo.com/about",
+            "page_class": "company",
+            "snippet": "*   Parylene Coating"
+          }
+        ],
+        "notes": "Parylene and thin-film polymer coatings applied to electronic components in drones and other industries."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "HZO applies protective polymer (Parylene and thin-film) coatings to PCBs and electronic components. Parylene qualifies as a polymer material under structures_and_materials, though HZO delivers it as a contract coating service rather than raw material supply. No UXV-specific product line exists; drone/UAV electronics protection is one application among many."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Morrisville",
+      "state_or_province": "North Carolina",
+      "country": "United States",
+      "address": "5151 McCrimmon Parkway, Suite 208 Morrisville, NC 27560 USA"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0111",
+        "line_start": 53,
+        "line_end": 55,
+        "url": "https://hzo.com/contact-us",
+        "page_class": "contact",
+        "snippet": "#### HZO USA (HQ)\nMorrisville, North Carolina\n5151 McCrimmon Parkway, Suite 208 Morrisville, NC 27560 USA"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "broad_industrial",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0031",
+        "line_start": 87,
+        "line_end": 88,
+        "url": "https://hzo.com/about",
+        "page_class": "company",
+        "snippet": "### Industries We Serve\nOur diverse expertise allows us to cater to a range of applications, including but not limited to:"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0031",
+        "line_start": 90,
+        "line_end": 91,
+        "url": "https://hzo.com/about",
+        "page_class": "company",
+        "snippet": "#### Aerospace & Defense\n[UAV Coatings](https://hzo.com/resources/downloads/drone-coatings)"
+      }
+    ],
+    "notes": "HZO is a multi-market protective thin-film coating services company (medical, consumer electronics, IoT, industrial, automotive, aerospace/defense). UAV coatings are listed as one application under Aerospace & Defense alongside six other major markets. No UXV-specific product line."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Guardian EX",
+        "product_type": "Parylene F-VT4 protective thin-film coating material",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0137",
+            "line_start": 36,
+            "line_end": 36,
+            "url": "https://hzo.com/resources/downloads/guardian-ex-datasheet",
+            "page_class": "product",
+            "snippet": "HZO Guardian EX\u2122 (Parylene F\u2013VT4) Material Properties Datasheet"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Guardian Plus",
+        "product_type": "Parylene C protective thin-film coating material",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0138",
+            "line_start": 36,
+            "line_end": 36,
+            "url": "https://hzo.com/resources/downloads/guardian-plus-datasheet",
+            "page_class": "product",
+            "snippet": "HZO Guardian Plus\u2122 (Parylene C) Material Properties Datasheet"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Guardian Zero",
+        "product_type": "Parylene N protective thin-film coating material",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0139",
+            "line_start": 36,
+            "line_end": 36,
+            "url": "https://hzo.com/resources/downloads/guardian-zero-datasheet",
+            "page_class": "product",
+            "snippet": "HZO Guardian Zero\u2122 (Parylene N) Material Properties Datasheet"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Three named Parylene coating material product lines in the Guardian series. Drone-coatings download page was skipped; additional UAV-specific product details may exist."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 53,
+        "line_end": 53,
+        "url": "https://hzo.com",
+        "page_class": "homepage",
+        "snippet": "Millions of parts and components coated"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0031",
+        "line_start": 70,
+        "line_end": 70,
+        "url": "https://hzo.com/about",
+        "page_class": "company",
+        "snippet": "Since our inception, there hasn't been a single product return due to coating issues"
+      }
+    ],
+    "notes": "HZO operates at full production scale with multiple global facilities, coating millions of parts."
+  },
+  "unresolved_questions": [
+    "No NDAA Section 848/889 compliance claim found anywhere in the corpus.",
+    "Drone-coatings specific download page was not fetched \u2014 exact UAV application details unknown."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://hzo.com/resources/downloads/drone-coatings",
+      "reason": "Would reveal UAV-specific coating products or applications, potentially refining drone supply chain role from broad_industrial and providing product details for UAV market.",
+      "expected_evidence": [
+        "products",
+        "drone_supply_chain_role",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped, linked from about page UAV Coatings link",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://hzo.com/blog/conformal-coating-for-drones-which-is-best",
+      "reason": "Drone-specific blog post would clarify HZO's positioning for UAV applications and may mention compliance claims.",
+      "expected_evidence": [
+        "drone_supply_chain_role",
+        "products_categories",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped, linked from about/faq avionic electronics reference",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Parylene and nanocoating service provider (Guardian series products and turnkey CVD application) for conformal protection of electronics in harsh environments. ITAR-registered, ISO 9001 certified, production-ready at four global locations. No public evidence of NDAA compliance or Blue UAS certification. Sarcos Robotics and Prismview among named customers, but defense/UAS application details remain sparse in public record.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 17,
+    "total_cost_usd": 0.5593435999999999,
+    "created_at": "2026-05-04T03:25:32+00:00",
+    "extract_version": "0.1.0"
+  }
+}

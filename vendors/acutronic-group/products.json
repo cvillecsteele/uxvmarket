@@ -1,0 +1,184 @@
+{
+  "target_id": "acutronic-group",
+  "run_id": "canonical",
+  "display_name": "Acutronic Group",
+  "homepage_url": "https://www.acutronic.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/acutronic-group/website",
+  "products": [
+    {
+      "name": "Simulation & Test",
+      "category": "test_and_measurement",
+      "descriptor": "Rate tables and motion simulators for inertial navigation testing",
+      "granularity": "category",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 3,
+          "line_end": 3,
+          "url": "https://www.acutronic.com",
+          "page_class": "homepage",
+          "snippet": "*   [Simulation & Test](/simulation-test)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Stabilized Platforms",
+      "category": "isr_payloads",
+      "descriptor": "Stabilized sensor/camera platform product line",
+      "granularity": "category",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 5,
+          "line_end": 5,
+          "url": "https://www.acutronic.com",
+          "page_class": "homepage",
+          "snippet": "*   [Stabilized Platforms](/stabilized-platform)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Aerospace Components - Actuation Systems",
+      "category": "mechanical_subsystems",
+      "descriptor": "Aerospace actuation systems for flight platforms",
+      "granularity": "category",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 43,
+          "line_end": 45,
+          "url": "https://www.acutronic.com",
+          "page_class": "homepage",
+          "snippet": "*   ###### Acutronic Actuation Inc.\n    Phone: [+1 737 212 9013](<tel:+1 737 212 9013>)\n    [sales-aa@acutronic.com](mailto:sales-aa@acutronic.com)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Aerospace Components - Turbines",
+      "category": "propulsion_mechanical",
+      "descriptor": "Aerospace turbine components for propulsion systems",
+      "granularity": "category",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 31,
+          "line_end": 33,
+          "url": "https://www.acutronic.com",
+          "page_class": "homepage",
+          "snippet": "*   ###### Acutronic Turbines Inc.\n    Phone: [+1 737 212 9013](<tel:+1 737 212 9013>)\n    [sales-ati@acutronic.com](mailto:sales-ati@acutronic.com)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Aerospace Components - Power Systems",
+      "category": "power_systems",
+      "descriptor": "Aerospace power systems for flight platforms",
+      "granularity": "category",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 40,
+          "line_end": 42,
+          "url": "https://www.acutronic.com",
+          "page_class": "homepage",
+          "snippet": "*   ###### Acutronic Power Systems Inc.\n    Phone: [+1 (737) 212-9013](<tel:+1 \\(737\\) 212-9013>)\n    [sales-aps@acutronic.com](mailto:sales-aps@acutronic.com)"
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "XWINGS35: This product (a shaker/vibration test system, inferred from URL slug 'shaker-xwings35-highlights') appears in the crawl_index but its page was skipped (skipped_class_budget). The product name does not appear in any fetched text file, so no valid citation exists. Omitted pending fetch.",
+    "Geotechnical Centrifuges: URL 'simulation-test/geotechnical-centrifuges' confirms this product exists, but the page was skipped (skipped_class_budget) and the name appears nowhere in fetched text. Omitted pending fetch.",
+    "All five recorded products are backed only by navigation-menu or subsidiary-footer citations; no product detail pages were fetched. Granularity, readiness, NDAA, and Blue UAS all remain unknown for the full set."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.acutronic.com/shaker-xwings35-highlights",
+      "reason": "Product detail page for XWINGS35 shaker system; needed to classify product type, readiness, and any compliance claims.",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.acutronic.com/simulation-test/geotechnical-centrifuges",
+      "reason": "Product detail page for Geotechnical Centrifuges; needed to classify product, confirm descriptor, and check compliance.",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.acutronic.com/simulation-test",
+      "reason": "Main Simulation & Test product index; expected to list rate tables, motion simulators, and sub-products including XWINGS35 and centrifuges.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.acutronic.com/aerospace-components",
+      "reason": "Main Aerospace Components product index; expected to enumerate actuation, turbine, and power system sub-products with detail.",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.acutronic.com/stabilized-platform",
+      "reason": "Product detail page for Stabilized Platforms; only product-class page in crawl_index, expected to confirm SKUs, readiness, and compliance.",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "ndaa",
+        "blue_uas"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=product",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 0,
+    "total_cost_usd": null,
+    "created_at": "2026-05-03T20:47:29+00:00",
+    "extract_version": "0.1.0"
+  }
+}

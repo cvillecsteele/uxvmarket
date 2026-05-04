@@ -1,0 +1,116 @@
+{
+  "target_id": "aerora-technology",
+  "run_id": "canonical",
+  "display_name": "Aerora Technology",
+  "homepage_url": "https://aeroratechnology.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/aerora-technology/website",
+  "products_categories": {
+    "items": [],
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "notes": "No pages were fetched \u2014 homepage failed with ERR_TUNNEL_CONNECTION_FAILED. Catalog hint suggests isr_payloads but cannot be confirmed from corpus."
+  },
+  "headquarters": {
+    "value": null,
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "evidence": [],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": null,
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "evidence": [],
+    "notes": null
+  },
+  "products": {
+    "items": [],
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "notes": "No pages fetched; no product data available."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": null,
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "evidence": [],
+    "notes": null
+  },
+  "unresolved_questions": [
+    "Homepage failed to load (ERR_TUNNEL_CONNECTION_FAILED). All fields are unresolvable without a successful fetch.",
+    "Catalog categorizes vendor as isr_payloads \u2014 needs confirmation from site content.",
+    "Headquarters, supply chain role, products, NDAA, Blue UAS, and readiness all unknown."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://aeroratechnology.com",
+      "reason": "Homepage fetch failed with ERR_TUNNEL_CONNECTION_FAILED. Re-fetching would provide the foundation for all profile fields: products, HQ, supply chain role, readiness, and compliance.",
+      "expected_evidence": [
+        "products_categories",
+        "headquarters",
+        "drone_supply_chain_role",
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=failed, page_class=homepage, resource-0001",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://aeroratechnology.com/products",
+      "reason": "Standard products path \u2014 would confirm product names and isr_payloads category hint from catalog.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role",
+        "readiness"
+      ],
+      "source_hint": "guessed",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://aeroratechnology.com/about",
+      "reason": "Standard about page \u2014 would reveal headquarters location and company background.",
+      "expected_evidence": [
+        "headquarters",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "guessed",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://aeroratechnology.com/contact",
+      "reason": "Contact page \u2014 would reveal headquarters address/city/country.",
+      "expected_evidence": [
+        "headquarters"
+      ],
+      "source_hint": "guessed",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "needs_more_fetches",
+  "tagline": "Manufacturer or integration role unknown; no public product line, NDAA compliance status, or major contract evidence identified. Limited web presence suggests either early-stage operation, stealth positioning, or inactive status\u2014recommend direct inquiry to establish capability and program eligibility.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 4,
+    "total_cost_usd": 0.0639417,
+    "created_at": "2026-05-03T20:54:14+00:00",
+    "extract_version": "0.1.0"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "target_id": "tersus-gnss",
+  "run_id": "canonical",
+  "display_name": "Tersus GNSS",
+  "homepage_url": "https://www.tersus-gnss.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/tersus-gnss/website",
+  "products": [
+    {
+      "name": "TheDuck\u2122",
+      "category": "airframes",
+      "descriptor": "Unmanned surface vessel with single-beam echo sounder for bathymetric surveys",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0195",
+          "line_start": 101,
+          "line_end": 102,
+          "url": "https://www.tersus-gnss.com/product/marine-system",
+          "page_class": "product",
+          "snippet": "TheDuck\u2122\nAn efficient and productive unmanned surface vessel equipped with a single-beam echo sounder."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0195",
+          "line_start": 107,
+          "line_end": 107,
+          "url": "https://www.tersus-gnss.com/product/marine-system",
+          "page_class": "product",
+          "snippet": "Experience exceptional versatility with TheDuck\u2122, a small USV designed for precise bathymetric surveys of lakes, inland rivers, and coastal areas."
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 0,
+    "total_cost_usd": null,
+    "created_at": "2026-05-04T06:57:32+00:00",
+    "extract_version": "0.1.0"
+  }
+}

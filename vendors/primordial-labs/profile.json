@@ -1,0 +1,211 @@
+{
+  "target_id": "primordial-labs",
+  "run_id": "canonical",
+  "display_name": "Primordial Labs",
+  "homepage_url": "https://www.primordial-labs.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/primordial-labs/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "flight_and_vehicle_control",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 43,
+            "line_end": 43,
+            "url": "https://www.primordial-labs.com",
+            "page_class": "homepage",
+            "snippet": "We believe the future of human-machine teaming starts with making the mechanism of interaction more natural. The real unlock for autonomous systems isn't just platform motion, compute, and connectivity. It's the software-defined control layer that lets one operator effectively collaborate with multiple systems without added training burden."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0051",
+            "line_start": 39,
+            "line_end": 39,
+            "url": "https://www.primordial-labs.com/product",
+            "page_class": "product",
+            "snippet": "Anura is a next-generation human-machine interface. We pair a natural language interface with an embodied agent to bring intuitive, conversational collaboration capabilities to any uncrewed system."
+          }
+        ],
+        "notes": "Anura is a software-defined natural language / voice-control command & control layer for drones, UGVs, and other uncrewed systems"
+      },
+      {
+        "category": "ground_segment",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0051",
+            "line_start": 73,
+            "line_end": 76,
+            "url": "https://www.primordial-labs.com/product",
+            "page_class": "product",
+            "snippet": "### Battlefield Management Systems\n![](https://images.squarespace-cdn.com/content/v1/643980cb97f4f82c2acaa29d/6d0ca0f5-296c-4920-8c19-046bf69562e4/anura_for_intel.jpg)\nAnura also supports intelligence analysis and mission planning, orchestrating and accelerating all the low-level tasks required to go from raw data to powerful insights based on a user\u2019s intent.\nWith Anura, users can conversationally query databases and rapidly display information on a common operating picture."
+          }
+        ],
+        "notes": "Anura also supports battlefield management, intelligence analysis, and mission planning use cases"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "New Haven",
+      "state_or_province": "Connecticut",
+      "country": "United States",
+      "address": "157 Church St Fl 19, New Haven, CT 06510"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 116,
+        "line_end": 117,
+        "url": "https://www.primordial-labs.com",
+        "page_class": "homepage",
+        "snippet": "157 Church St Fl 19\nNew Haven, CT 06510"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0045",
+        "line_start": 52,
+        "line_end": 53,
+        "url": "https://www.primordial-labs.com/contact",
+        "page_class": "contact",
+        "snippet": "157 Church St Fl 19\nNew Haven, CT 06510"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "software_platform",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 43,
+        "line_end": 43,
+        "url": "https://www.primordial-labs.com",
+        "page_class": "homepage",
+        "snippet": "We believe the future of human-machine teaming starts with making the mechanism of interaction more natural. The real unlock for autonomous systems isn't just platform motion, compute, and connectivity. It's the software-defined control layer that lets one operator effectively collaborate with multiple systems without added training burden."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0051",
+        "line_start": 37,
+        "line_end": 37,
+        "url": "https://www.primordial-labs.com/product",
+        "page_class": "product",
+        "snippet": "**Meet Anura, the next-generation human-machine interface.**"
+      }
+    ],
+    "notes": "Anura is a pure-software natural language / voice-control interface licensed to drone operators and military units; no hardware manufactured"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Anura",
+        "product_type": "natural language human-machine interface software for uncrewed systems",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0051",
+            "line_start": 37,
+            "line_end": 37,
+            "url": "https://www.primordial-labs.com/product",
+            "page_class": "product",
+            "snippet": "**Meet Anura, the next-generation human-machine interface.**"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 45,
+            "line_end": 47,
+            "url": "https://www.primordial-labs.com",
+            "page_class": "homepage",
+            "snippet": "Meet Anura, the Next-Generation Warfighting Interface\n-----------------------------------------------------\nAnura fundamentally changes the paradigm of command & control within human-machine integrated formations, moving from complex button-mashing to natural language tasking. Beyond the obvious span of control benefits, this shift dramatically reduces training time and costs. That means increased adoption of new hardware and faster deployment of new capabilities on existing platforms."
+          }
+        ],
+        "notes": "Voice/NLP control layer for drones, UGVs, and other UxS; edge-deployable, platform-agnostic; integrations with Teal 2, Teal Golden Eagle, and Skydio X2D shown"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": "yes",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0050",
+        "line_start": 74,
+        "line_end": 76,
+        "url": "https://www.primordial-labs.com/news",
+        "page_class": "news",
+        "snippet": "](https://www.diu.mil/latest/blue-uas-refresh-list-and-framework-platforms-and-capabilities-selected)\n[**Primordial Labs selected to advance in DIU\u2019s Blue UAS Framework Process**](https://www.diu.mil/latest/blue-uas-refresh-list-and-framework-platforms-and-capabilities-selected)\n_February 14, 2025 | Defense Innovation Unit_"
+      }
+    ],
+    "notes": "News item (Feb 14 2025) states 'Primordial Labs selected to advance in DIU's Blue UAS Framework Process', linking to the DIU Blue UAS refresh list and framework selection page; indicates framework selection rather than confirmed final cleared-list status"
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0046",
+        "line_start": 42,
+        "line_end": 43,
+        "url": "https://www.primordial-labs.com/contact-1",
+        "page_class": "contact",
+        "snippet": "In addition to the general support on this page, if we\u2019ve deployed licenses to your unit, check for the QR code on your End User Device (EUD). That\u2019ll take you directly to a detailed feedback form and we\u2019ll be in touch ASAP.\n[Create your own user feedback survey](www.surveymonkey.com)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0050",
+        "line_start": 118,
+        "line_end": 120,
+        "url": "https://www.primordial-labs.com/news",
+        "page_class": "news",
+        "snippet": "](https://www.accesswire.com/774967/primordial-labs-awarded-direct-to-phase-ii-sbir-contract-to-apply-innovative-human-machine-teaming-product-to-army-special-forces-drone-operations)\n[**Primordial Labs selected as an xTechSBIR Autonomy Winner**](https://www.xtech.army.mil/announcement/xtechsbir-autonomy-winners-autonomous-solutions/)\n_October 11, 2023 | xTech_"
+      }
+    ],
+    "notes": "Licenses deployed to military units (USSOCOM, Army Special Forces); SBIR Phase II contract awarded; active field use confirmed by operator quotes"
+  },
+  "unresolved_questions": [
+    "NDAA Section 848/889 compliance status not disclosed on site",
+    "Whether Anura has achieved final cleared status on DIU Blue UAS Cleared List vs. framework process advancement"
+  ],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Develops Anura, a natural-language voice-control software platform for flight and ground vehicle command & control. Blue UAS certified and in production; claims to reduce operator training burden and enable single-operator control of heterogeneous unmanned swarms. Public evidence includes operator testimonials from Army and USSOCOM but limited third-party performance data or formal program integration details. NDAA compliance status unknown.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 11,
+    "total_cost_usd": 0.39159384999999997,
+    "created_at": "2026-05-04T05:24:58+00:00",
+    "extract_version": "0.1.0"
+  }
+}

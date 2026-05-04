@@ -1,0 +1,351 @@
+{
+  "target_id": "general-plastics",
+  "run_id": "canonical",
+  "display_name": "General Plastics",
+  "homepage_url": "https://www.generalplastics.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/general-plastics/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "structures_and_materials",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 93,
+            "line_end": 93,
+            "url": "https://www.generalplastics.com",
+            "page_class": "homepage",
+            "snippet": "RIGID & FLEXIBLE POLYURETHANE FOAM AND BUILD-TO-PRINT COMPOSITE PARTS"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 107,
+            "line_end": 107,
+            "url": "https://www.generalplastics.com",
+            "page_class": "homepage",
+            "snippet": "LAST-A-FOAM\u00ae rigid and flexible polyurethane foam products, renowned for their strength, stability, uniformity and unique physical characteristics, satisfy wide-ranging applications and meet the highest standards."
+          }
+        ],
+        "notes": "LAST-A-FOAM\u00ae polyurethane foam sheet stock and blocks sold as composite core material for aerospace, defense, marine, and other structural applications"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Tacoma",
+      "state_or_province": "Washington",
+      "country": "United States",
+      "address": "4910 BURLINGTON WAY"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 170,
+        "line_end": 170,
+        "url": "https://www.generalplastics.com",
+        "page_class": "homepage",
+        "snippet": "    4910 BURLINGTON WAY, TACOMA, WA 98409"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "broad_industrial",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 11,
+        "line_end": 25,
+        "url": "https://www.generalplastics.com",
+        "page_class": "homepage",
+        "snippet": "    *   [Aerospace](https://www.generalplastics.com/markets/aerospace)\n    *   [Defense](https://www.generalplastics.com/defense)\n    *   [Nuclear Containers](https://www.generalplastics.com/markets/nuclear-containers)\n    *   [Composite Core](https://www.generalplastics.com/markets/composite-core)\n    *   [Tooling and Molds](https://www.generalplastics.com/markets/tooling-and-molds)\n    *   [Prototypes and Models](https://www.generalplastics.com/markets/prototypes-and-models)\n    *   [Marine](https://www.generalplastics.com/markets/marine)\n    *   [Subsea](https://www.generalplastics.com/markets/subsea)\n    *   [Dielectric Material](https://www.generalplastics.com/markets/dielectric-materials)\n    *   [Doors & Windows](https://www.generalplastics.com/markets/doors-windows)\n    *   [Thermal Blocks](https://www.generalplastics.com/markets/thermal-blocks)\n    *   [Signs](https://www.generalplastics.com/markets/signs)\n    *   [Medical](https://www.generalplastics.com/markets/medical)\n    *   [Blast Mitigation](https://www.generalplastics.com/markets/blast-mitigation)\n    *   [Sports and Recreation](https://www.generalplastics.com/markets/sports-and-recreation)"
+      }
+    ],
+    "notes": "Polyurethane foam materials manufacturer serving aerospace, defense, nuclear, marine, medical, doors/windows, signs, and sports industries. No UXV-specific product line; zero drone/UAV/UAS mentions across entire corpus."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "LAST-A-FOAM\u00ae R-3300",
+        "product_type": "rigid polyurethane buoyancy foam",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0266",
+            "line_start": 85,
+            "line_end": 85,
+            "url": "https://www.generalplastics.com/products/r-3300",
+            "page_class": "product",
+            "snippet": "LAST-A-FOAM\u00ae R-3300 BUOYANCY FOAM SERIES"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "LAST-A-FOAM\u00ae R-9300",
+        "product_type": "rigid structural insulation foam",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0267",
+            "line_start": 74,
+            "line_end": 74,
+            "url": "https://www.generalplastics.com/products/r-9300",
+            "page_class": "product",
+            "snippet": "*   R-9300"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "LAST-A-FOAM\u00ae FR-4500",
+        "product_type": "flame-retardant rigid foam",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 200,
+            "line_end": 200,
+            "url": "https://www.generalplastics.com",
+            "page_class": "homepage",
+            "snippet": "Products Available: FR-3700, FR-4500, FR-4600, FR-4700, FR-6700, FR-7100"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "LAST-A-FOAM\u00ae FR-4700",
+        "product_type": "flame-retardant rigid foam",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 200,
+            "line_end": 200,
+            "url": "https://www.generalplastics.com",
+            "page_class": "homepage",
+            "snippet": "Products Available: FR-3700, FR-4500, FR-4600, FR-4700, FR-6700, FR-7100"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "LAST-A-FOAM\u00ae FR-6700",
+        "product_type": "flame-retardant rigid foam",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 200,
+            "line_end": 200,
+            "url": "https://www.generalplastics.com",
+            "page_class": "homepage",
+            "snippet": "Products Available: FR-3700, FR-4500, FR-4600, FR-4700, FR-6700, FR-7100"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "LAST-A-FOAM\u00ae FR-7100",
+        "product_type": "flame-retardant rigid foam",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 200,
+            "line_end": 200,
+            "url": "https://www.generalplastics.com",
+            "page_class": "homepage",
+            "snippet": "Products Available: FR-3700, FR-4500, FR-4600, FR-4700, FR-6700, FR-7100"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "LAST-A-FOAM\u00ae EF-4000",
+        "product_type": "flexible polyurethane foam",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0260",
+            "line_start": 74,
+            "line_end": 74,
+            "url": "https://www.generalplastics.com/products/last-a-foam-ef-4000",
+            "page_class": "product",
+            "snippet": "*   EF-4000"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "LAST-A-FOAM\u00ae FP-8000 Series",
+        "product_type": "flexible polyurethane foam",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0261",
+            "line_start": 74,
+            "line_end": 74,
+            "url": "https://www.generalplastics.com/products/last-a-foam-fp-8000-series",
+            "page_class": "news",
+            "snippet": "*   FP-8000"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "LAST-A-FOAM\u00ae TF-6070 Series",
+        "product_type": "flexible polyurethane foam",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0263",
+            "line_start": 74,
+            "line_end": 74,
+            "url": "https://www.generalplastics.com/products/last-a-foam-tf-6070-series",
+            "page_class": "news",
+            "snippet": "*   TF-6070"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "LAST-A-FOAM\u00ae FST-3800",
+        "product_type": "fire/smoke/toxicity foam",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0259",
+            "line_start": 74,
+            "line_end": 74,
+            "url": "https://www.generalplastics.com/products/fst-3800",
+            "page_class": "product",
+            "snippet": "*   FR-3800 FST"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "LAST-A-FOAM\u00ae TR-Marine",
+        "product_type": "marine-grade polyurethane foam",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0269",
+            "line_start": 74,
+            "line_end": 74,
+            "url": "https://www.generalplastics.com/products/tr-marine",
+            "page_class": "product",
+            "snippet": "*   TR-MARINE"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Foam Comb Gap Seals",
+        "product_type": "foam sealing components",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0250",
+            "line_start": 74,
+            "line_end": 74,
+            "url": "https://www.generalplastics.com/products/foam-comb-gap-seals",
+            "page_class": "product",
+            "snippet": "*   Foam-Comb Series"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0270",
+        "line_start": 98,
+        "line_end": 98,
+        "url": "https://www.generalplastics.com/quality-assurance",
+        "page_class": "compliance",
+        "snippet": "*   ITAR Compliant"
+      }
+    ],
+    "notes": "Site claims ITAR-Compliant but makes no NDAA Section 848/889 claim."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 107,
+        "line_end": 107,
+        "url": "https://www.generalplastics.com",
+        "page_class": "homepage",
+        "snippet": "LAST-A-FOAM\u00ae rigid and flexible polyurethane foam products, renowned for their strength, stability, uniformity and unique physical characteristics, satisfy wide-ranging applications and meet the highest standards."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 197,
+        "line_end": 200,
+        "url": "https://www.generalplastics.com",
+        "page_class": "homepage",
+        "snippet": "Products Available: R-9300\n**ThyssenKrupp\n**Phone: 877-246-7700 | Fax: 248-233-5699\nProducts Available: FR-3700, FR-4500, FR-4600, FR-4700, FR-6700, FR-7100"
+      }
+    ],
+    "notes": "Full product catalog with named SKUs, national distributor network, production facility with CNC machining and molding capabilities."
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Manufactures LAST-A-FOAM\u00ae rigid and flexible polyurethane foams\u2014RF-transparent radome stock, flame-retardant aerospace-grade cores, subsea buoyancy foam, high-temperature tooling boards, and composite structural materials. AS9100D/ISO 9001:2015 certified, Boeing Premier Bidder status, ITAR-compliant. NDAA and Blue UAS certification status not publicly documented.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 15,
+    "total_cost_usd": 0.6276889499999999,
+    "created_at": "2026-05-04T02:58:02+00:00",
+    "extract_version": "0.1.0"
+  }
+}

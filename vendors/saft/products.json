@@ -1,0 +1,61 @@
+{
+  "target_id": "saft",
+  "run_id": "canonical",
+  "display_name": "Saft",
+  "homepage_url": "https://www.saftbatteries.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/saft/website",
+  "products": [],
+  "unresolved_questions": [
+    "The sole crawled URL (https://www.saftbatteries.com) failed with net::ERR_CERT_AUTHORITY_INVALID \u2014 no page content was retrieved, so no products can be enumerated from this corpus. A re-fetch with SSL validation disabled or a proxy that can reach the site is required."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.saftbatteries.com",
+      "reason": "Homepage failed with SSL cert error on previous mirror pass; no content was retrieved. Re-fetching is needed to discover product/capability pages.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=failed, page_class=homepage",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.saftbatteries.com/markets/defence",
+      "reason": "Saft is a major defence battery manufacturer; this likely lists UAV/military battery products relevant to the power_systems category.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": null,
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.saftbatteries.com/markets/space",
+      "reason": "Saft supplies space-grade batteries; page likely names product families relevant to UAV/UAS power systems.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": null,
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.saftbatteries.com/products",
+      "reason": "Top-level product index needed to enumerate all named battery product families and SKUs.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": null,
+      "in_corpus_index": false
+    }
+  ],
+  "status": "needs_more_fetches",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 4,
+    "total_cost_usd": 0.04616405,
+    "created_at": "2026-05-04T06:02:24+00:00",
+    "extract_version": "0.1.0"
+  }
+}

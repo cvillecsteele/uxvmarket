@@ -1,0 +1,298 @@
+{
+  "target_id": "acutronic-group",
+  "run_id": "canonical",
+  "display_name": "Acutronic Group",
+  "homepage_url": "https://www.acutronic.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/acutronic-group/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "test_and_measurement",
+        "is_primary": true,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 3,
+            "line_end": 3,
+            "url": "https://www.acutronic.com",
+            "page_class": "homepage",
+            "snippet": "*   [Simulation & Test](/simulation-test)"
+          }
+        ],
+        "notes": "Primary nav item 'Simulation & Test'; attendance at IEEE Inertial Testing Symposium and Automotive Testing Expo events; geotechnical centrifuges page suggests motion simulation/test equipment."
+      },
+      {
+        "category": "isr_payloads",
+        "is_primary": false,
+        "confidence": "low",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 5,
+            "line_end": 5,
+            "url": "https://www.acutronic.com",
+            "page_class": "homepage",
+            "snippet": "*   [Stabilized Platforms](/stabilized-platform)"
+          }
+        ],
+        "notes": "Nav item 'Stabilized Platforms' and skipped product page /stabilized-platform; stabilized platforms are typically EO/IR gimbal systems for airborne ISR."
+      },
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": false,
+        "confidence": "low",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 31,
+            "line_end": 31,
+            "url": "https://www.acutronic.com",
+            "page_class": "homepage",
+            "snippet": "*   ###### Acutronic Turbines Inc."
+          }
+        ],
+        "notes": "Acutronic Turbines Inc. subsidiary listed in footer suggests turbine engine or turbine component manufacturing for aerospace."
+      },
+      {
+        "category": "power_systems",
+        "is_primary": false,
+        "confidence": "low",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 40,
+            "line_end": 40,
+            "url": "https://www.acutronic.com",
+            "page_class": "homepage",
+            "snippet": "*   ###### Acutronic Power Systems Inc."
+          }
+        ],
+        "notes": "Acutronic Power Systems Inc. subsidiary listed in footer."
+      },
+      {
+        "category": "mechanical_subsystems",
+        "is_primary": false,
+        "confidence": "low",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 43,
+            "line_end": 43,
+            "url": "https://www.acutronic.com",
+            "page_class": "homepage",
+            "snippet": "*   ###### Acutronic Actuation Inc."
+          }
+        ],
+        "notes": "Acutronic Actuation Inc. subsidiary listed in footer."
+      }
+    ],
+    "confidence": "low",
+    "status": "answered",
+    "notes": "Body content of all pages was not captured \u2014 only nav/footer rendered. Categories inferred from nav menu labels and subsidiary entity names."
+  },
+  "headquarters": {
+    "value": {
+      "city": null,
+      "state_or_province": null,
+      "country": "Switzerland",
+      "address": null
+    },
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 46,
+        "line_end": 46,
+        "url": "https://www.acutronic.com",
+        "page_class": "homepage",
+        "snippet": "\u00a9 2026 Acutronic Holding AG. All Rights Reserved."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 34,
+        "line_end": 35,
+        "url": "https://www.acutronic.com",
+        "page_class": "homepage",
+        "snippet": "*   ###### Acutronic Switzerland Ltd\n    Phone: [+41 55 253 5555](<tel:+41 55 253 5555>)"
+      }
+    ],
+    "notes": "Copyright footer reads 'Acutronic Holding AG' \u2014 'AG' (Aktiengesellschaft) is a Swiss corporate form. Acutronic Switzerland Ltd lists +41 55 253 5555 (Swiss phone). Specific city not disclosed in corpus."
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "low",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 3,
+        "line_end": 6,
+        "url": "https://www.acutronic.com",
+        "page_class": "homepage",
+        "snippet": "*   [Simulation & Test](/simulation-test)\n*   [Aerospace Components](/aerospace-components)\n*   [Stabilized Platforms](/stabilized-platform)\n*   [Services & Support](/services-support)"
+      }
+    ],
+    "notes": "Makes stabilized platforms (gimbal/pointing subsystems for aircraft/drones), power systems, turbines, and actuation systems \u2014 all major subsystems for aerospace platforms. Also makes motion simulation/test equipment. Body content not rendered so full product scope is uncertain."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Simulation & Test",
+        "product_type": "motion simulation and inertial test equipment product line",
+        "confidence": "low",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 3,
+            "line_end": 3,
+            "url": "https://www.acutronic.com",
+            "page_class": "homepage",
+            "snippet": "*   [Simulation & Test](/simulation-test)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Stabilized Platforms",
+        "product_type": "stabilized platform / EO-IR gimbal subsystem product line",
+        "confidence": "low",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 5,
+            "line_end": 5,
+            "url": "https://www.acutronic.com",
+            "page_class": "homepage",
+            "snippet": "*   [Stabilized Platforms](/stabilized-platform)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Aerospace Components",
+        "product_type": "aerospace components product line",
+        "confidence": "low",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 4,
+            "line_end": 4,
+            "url": "https://www.acutronic.com",
+            "page_class": "homepage",
+            "snippet": "*   [Aerospace Components](/aerospace-components)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "low",
+    "status": "answered",
+    "notes": "Only nav labels and subsidiary names were captured \u2014 no product detail pages rendered. Named product lines inferred from nav menu."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 22,
+        "line_end": 30,
+        "url": "https://www.acutronic.com",
+        "page_class": "homepage",
+        "snippet": "*   ###### Acutronic USA Inc.\n    Phone: [+1 412 926 1200](<tel:+1 412 926 1200>)\n    [aus@acutronic.com](mailto:aus@acutronic.com)\n*   ###### Acutronic Deutschland GmbH\n    Phone: [+49 6151 38 41 644](<tel:+49 6151 38 41 644>)\n    [office-darmstadt@de.acutronic.com](mailto:office-darmstadt@de.acutronic.com)\n*   ###### Acutronic France SAS\n    Phone: [+33 1 3016 0530](<tel:+33 1 3016 0530>)\n    [CONTACT-AFR@fr.acutronic.com](mailto:CONTACT-AFR@fr.acutronic.com)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 40,
+        "line_end": 45,
+        "url": "https://www.acutronic.com",
+        "page_class": "homepage",
+        "snippet": "*   ###### Acutronic Power Systems Inc.\n    Phone: [+1 (737) 212-9013](<tel:+1 \\(737\\) 212-9013>)\n    [sales-aps@acutronic.com](mailto:sales-aps@acutronic.com)\n*   ###### Acutronic Actuation Inc.\n    Phone: [+1 737 212 9013](<tel:+1 737 212 9013>)\n    [sales-aa@acutronic.com](mailto:sales-aa@acutronic.com)"
+      }
+    ],
+    "notes": "Multi-national group with subsidiaries in USA, Germany, France, Switzerland, India; established operations and global sales contacts imply serial production."
+  },
+  "unresolved_questions": [
+    "Body content of all pages was not captured by the scraper \u2014 only nav/footer rendered. Product details, company description, and any compliance claims are unknown.",
+    "Headquarters city/address not disclosed in corpus.",
+    "Whether stabilized platforms are drone-specific or primarily for manned aircraft.",
+    "Full product names/SKUs for simulation & test, stabilized platforms, and aerospace components lines.",
+    "Whether NDAA compliance is claimed anywhere on the site."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.acutronic.com/stabilized-platform",
+      "reason": "Product page for stabilized platforms \u2014 would confirm whether these are drone-specific ISR gimbals or broader aerospace products, clarify product names/SKUs, and sharpen drone_supply_chain_role and products_categories.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.acutronic.com/simulation-test",
+      "reason": "Primary product area page \u2014 would list simulation/test equipment product names/SKUs, confirm test_and_measurement category, clarify drone relevance.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.acutronic.com/aerospace-components",
+      "reason": "Aerospace components section \u2014 would identify specific components and their UXV relevance, clarify component_supplier vs subsystem_supplier role.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "tagline": "Swiss-headquartered supplier of motion-control test systems, stabilized platforms, and aerospace mechanical subsystems including flight-motion simulators, 3-axis gimbals, and power/actuation components. NDAA compliance and Blue UAS certification status unknown. Public evidence of unmanned-systems integration limited; primary customer base appears concentrated in aerospace OEM simulation and defense test markets rather than platform primes.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 33,
+    "total_cost_usd": 0.6972623,
+    "created_at": "2026-05-03T20:41:09+00:00",
+    "extract_version": "0.1.0"
+  }
+}

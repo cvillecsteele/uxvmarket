@@ -1,0 +1,228 @@
+{
+  "target_id": "enix-power-solutions",
+  "run_id": "canonical",
+  "display_name": "ENIX Power Solutions",
+  "homepage_url": "https://www.enix-power-solutions.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/enix-power-solutions/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "power_systems",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 114,
+            "line_end": 116,
+            "url": "https://www.enix-power-solutions.com",
+            "page_class": "homepage",
+            "snippet": "[![Icon\\_UAV](https://www.enix-power-solutions.com/wp-content/uploads/elementor/thumbs/Icon_UAV-pbr1bkx7yowg4pb0cymeacnl8etxsrtx97dxi207lk.png \"Icon_UAV\")](/drones/)\n[DRONE](/drones/)\n[Thanks to our experience and expertise, we are able to design and build custom drone batteries for multiple applications.](/drones/)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 88,
+            "line_end": 91,
+            "url": "https://www.enix-power-solutions.com",
+            "page_class": "homepage",
+            "snippet": "WE DESIGN\n& MANUFACTURE\nBATTERY PACK SOLUTIONS\nCustom battery pack manufacturer with more than 30 years' experience."
+          }
+        ],
+        "notes": "Custom battery packs for drone applications across multiple chemistries (Li-Ion, LiPo, LiFePO4, etc.); also offers BMS/PCM"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Primary business is custom battery pack design and manufacture. Drones is one of multiple market sectors served."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Solihull",
+      "state_or_province": "England",
+      "country": "United Kingdom",
+      "address": "Unit 2 Focus Park, Ashbourne Way, Solihull, B90 4QU"
+    },
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0010",
+        "line_start": 105,
+        "line_end": 110,
+        "url": "https://www.enix-power-solutions.com/contact",
+        "page_class": "contact",
+        "snippet": "UNITED KINGDOM\nUnit 2 Focus Park\nAshbourne Way\nSolihull\nB90 4QU\n+44 (0) 121 506 8610"
+      }
+    ],
+    "notes": "Multi-office company (UK, France, Spain). UK listed first in all footers; parent group UPERGY is UK-based (upergy.co.uk)."
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 116,
+        "line_end": 116,
+        "url": "https://www.enix-power-solutions.com",
+        "page_class": "homepage",
+        "snippet": "[Thanks to our experience and expertise, we are able to design and build custom drone batteries for multiple applications.](/drones/)"
+      }
+    ],
+    "notes": "Designs and manufactures custom battery packs (power components) that go into drones. Not a drone OEM."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Custom Battery Packs",
+        "product_type": "custom battery pack design and manufacture",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 88,
+            "line_end": 91,
+            "url": "https://www.enix-power-solutions.com",
+            "page_class": "homepage",
+            "snippet": "WE DESIGN\n& MANUFACTURE\nBATTERY PACK SOLUTIONS\nCustom battery pack manufacturer with more than 30 years' experience."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Battery Management System (BMS/PCM)",
+        "product_type": "battery management system / protection circuit module",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 126,
+            "line_end": 129,
+            "url": "https://www.enix-power-solutions.com",
+            "page_class": "homepage",
+            "snippet": "[![](https://www.enix-power-solutions.com/wp-content/uploads/2021/06/SmartBattery_Icon.png)](/battery-management-system-pcm/)\n[BATTERY](/battery-management-system-pcm/)\n[MANAGEMENT SYSTEM](/battery-management-system-pcm/)\n[A BMS ensures cells are balanced amongst themselves in order to optimise battery capacity, protect against under-voltage and overvoltage, guarantee optimum safety and extend battery life.](/battery-management-system-pcm/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "NX Batteries",
+        "product_type": "battery product line",
+        "confidence": "low",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 76,
+            "line_end": 76,
+            "url": "https://www.enix-power-solutions.com",
+            "page_class": "homepage",
+            "snippet": "    *   [NX Batteries](https://www.enix-power-solutions.com/nx-batteries/)"
+          }
+        ],
+        "notes": "Mentioned in About Us navigation; product page not fetched"
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Drone-specific battery products page (enix-power-solutions.com/drones) and custom-battery-packs page were both skipped; additional named products likely exist."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 91,
+        "line_end": 91,
+        "url": "https://www.enix-power-solutions.com",
+        "page_class": "homepage",
+        "snippet": "Custom battery pack manufacturer with more than 30 years' experience."
+      }
+    ],
+    "notes": "30+ years of manufacturing experience; serial production of custom battery packs across multiple market sectors."
+  },
+  "unresolved_questions": [
+    "Drone-specific product SKUs/names not confirmed (drones page skipped)",
+    "NX Batteries product line details unknown",
+    "Custom Battery Packs product page skipped",
+    "No NDAA or Blue UAS claims found in corpus"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.enix-power-solutions.com/drones",
+      "reason": "Drone market sector page would show specific drone battery products, applications, and any compliance claims (NDAA/Blue UAS) relevant to the drone supply chain",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "ndaa",
+        "blue_uas"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.enix-power-solutions.com/custom-battery-packs",
+      "reason": "Main product/service page would list specific named battery pack products, SKUs, and capabilities for drone applications",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.enix-power-solutions.com/nx-batteries",
+      "reason": "NX Batteries product line page would clarify specific named products for drone/UAS applications",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.enix-power-solutions.com/our-company",
+      "reason": "Company page would confirm headquarters location and corporate structure",
+      "expected_evidence": [
+        "headquarters",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "tagline": "UK-based custom battery pack designer and manufacturer serving drones, robotics, marine, and medical sectors with lithium-ion, LiPo, LiFePO4, and legacy chemistries; holds UN38.3, IEC 62133/62619, and UL 2054 certifications. NDAA and Blue UAS status unknown; public evidence thin on US defense contracts or program names.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 16,
+    "total_cost_usd": 0.3331229,
+    "created_at": "2026-05-04T02:14:55+00:00",
+    "extract_version": "0.1.0"
+  }
+}

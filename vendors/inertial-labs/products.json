@@ -1,0 +1,370 @@
+{
+  "target_id": "inertial-labs",
+  "run_id": "canonical",
+  "display_name": "Inertial Labs",
+  "homepage_url": "https://inertiallabs.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/inertial-labs/website",
+  "products": [
+    {
+      "name": "VINS",
+      "category": "sensors_and_navigation",
+      "descriptor": "Vision-aided INS for GNSS-denied fixed-wing, VTOL and multirotor UAVs",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0273",
+          "line_start": 748,
+          "line_end": 749,
+          "url": "https://inertiallabs.com/products/ins-inertial-navigation-systems",
+          "page_class": "product",
+          "snippet": "VINS - Vision-Aided Inertial Navigation System\n----------------------------------------------"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "RESEPI",
+      "category": "isr_payloads",
+      "descriptor": "LiDAR remote sensing payload instrument for aerial and mobile mapping",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "yes",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0257",
+          "line_start": 187,
+          "line_end": 190,
+          "url": "https://inertiallabs.com/products",
+          "page_class": "product",
+          "snippet": "LiDAR Remote Sensing Payload Instrument (RESEPI)\n------------------------------------------------\n![LiDAR](https://inertiallabs.com/wp-content/uploads/2024/06/LiDAR-RESEPI-M2X.jpg)\nThe Inertial Labs LiDAR Remote Sensing Payload, RESEPI, is a complete remote sensing solution. The RESEPI was designed for private labeling, so Inertial Labs\u2019 partners can put their branding on both the hardware and software components of the RESEPI."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0233",
+          "line_start": 1,
+          "line_end": 1,
+          "url": "https://inertiallabs.com/ndaa-compliance-trust-and-security-in-every-flight",
+          "page_class": "compliance",
+          "snippet": "NDAA Compliant Drone Payloads | RESEPI and EchoONE by Inertial Labs                                                                                             [Skip to content](#content \"Skip to content\")"
+        }
+      ],
+      "notes": "NDAA compliance confirmed for RESEPI OUSTER OS1-64 REV7 and RESEPI GEN-II variants per resource-0032."
+    },
+    {
+      "name": "M-AJ-QUATRO",
+      "category": "electronic_warfare",
+      "descriptor": "CRPA anti-jamming antenna system for GNSS-contested environments",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0273",
+          "line_start": 785,
+          "line_end": 789,
+          "url": "https://inertiallabs.com/products/ins-inertial-navigation-systems",
+          "page_class": "product",
+          "snippet": "##### M-AJ-QUATRO CRPA Anti-Jamming Antenna\nThe M-AJ-QUATRO Anti-Jamming Advanced Antenna System, designed and engineered for Assured Positioning, Navigation, and Timing across diverse and GNSS jammed, spoofed and denied environments.\nMODEL\n[![](/wp-content/uploads/2025/02/M-AJ-Quatro-2025.png)](/m-aj-quatro-datasheet)\n[M-AJ-QUATRO](/m-aj-quatro-datasheet)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "IRINS-DM",
+      "category": "sensors_and_navigation",
+      "descriptor": "INS with embedded LEO and GNSS receivers for GNSS-denied absolute navigation",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0263",
+          "line_start": 178,
+          "line_end": 178,
+          "url": "https://inertiallabs.com/products/apnt-assured-positioning-navigation-timing",
+          "page_class": "product",
+          "snippet": "IRINS-DM"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0263",
+          "line_start": 183,
+          "line_end": 183,
+          "url": "https://inertiallabs.com/products/apnt-assured-positioning-navigation-timing",
+          "page_class": "product",
+          "snippet": "Inertial Navigation System with embedded LEO and GNSS receivers for absolute navigation in contested and GNSS-denied environments"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "INS-U",
+      "category": "sensors_and_navigation",
+      "descriptor": "Compact single-antenna GPS-aided INS with embedded air data computer",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0273",
+          "line_start": 182,
+          "line_end": 199,
+          "url": "https://inertiallabs.com/products/ins-inertial-navigation-systems",
+          "page_class": "product",
+          "snippet": "[INS-U](/ins-u-datasheet)\n[INS-B](/ins-b-datasheet)\n[INS-P](/ins-p-datasheet)\n[INS-D](/ins-d-datasheet)\n[INS-DL](/ins-dl-datasheet)\n[INS-DU](/ins-du-datasheet)\n[INS-DM](/ins-dm-datasheet)\nSingle or Dual Antenna\nSingle Antenna\nSingle Antenna\nSingle Antenna\nDual Antenna\nDual Antenna\nDual Antenna\nDual Antenna\nTactical Navigation System\nGPS-Aided INS with Air Data Computer\nBasic Single GNSS Antenna Inertial Navigation System"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "CheetahNAV",
+      "category": "sensors_and_navigation",
+      "descriptor": "Tactical land-vehicle navigation system with battle management integration",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0273",
+          "line_start": 181,
+          "line_end": 197,
+          "url": "https://inertiallabs.com/products/ins-inertial-navigation-systems",
+          "page_class": "product",
+          "snippet": "[CheetahNAV](/cheetahnav-datasheet)\n[INS-U](/ins-u-datasheet)\n[INS-B](/ins-b-datasheet)\n[INS-P](/ins-p-datasheet)\n[INS-D](/ins-d-datasheet)\n[INS-DL](/ins-dl-datasheet)\n[INS-DU](/ins-du-datasheet)\n[INS-DM](/ins-dm-datasheet)\nSingle or Dual Antenna\nSingle Antenna\nSingle Antenna\nSingle Antenna\nDual Antenna\nDual Antenna\nDual Antenna\nDual Antenna\nTactical Navigation System"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0273",
+          "line_start": 302,
+          "line_end": 302,
+          "url": "https://inertiallabs.com/products/ins-inertial-navigation-systems",
+          "page_class": "product",
+          "snippet": "Land Vehicle Navigation in GNSS-Enabled and GNSS-Denied Environments"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "INS-DM",
+      "category": "sensors_and_navigation",
+      "descriptor": "Dual-antenna GPS-aided INS with ADC, encoder and data logger for UGV and UAV",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0273",
+          "line_start": 188,
+          "line_end": 196,
+          "url": "https://inertiallabs.com/products/ins-inertial-navigation-systems",
+          "page_class": "product",
+          "snippet": "[INS-DM](/ins-dm-datasheet)\nSingle or Dual Antenna\nSingle Antenna\nSingle Antenna\nSingle Antenna\nDual Antenna\nDual Antenna\nDual Antenna\nDual Antenna"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0273",
+          "line_start": 277,
+          "line_end": 277,
+          "url": "https://inertiallabs.com/products/ins-inertial-navigation-systems",
+          "page_class": "product",
+          "snippet": "MIL-STD-1275, ADC, Encoder, Datalogger, Variable PPS"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "INS-B-OEM",
+      "category": "sensors_and_navigation",
+      "descriptor": "Basic single-antenna OEM GPS-aided inertial navigation system",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0273",
+          "line_start": 493,
+          "line_end": 505,
+          "url": "https://inertiallabs.com/products/ins-inertial-navigation-systems",
+          "page_class": "product",
+          "snippet": "[INS-B-OEM](/ins-b-oem-datasheet)\n[INS-P-OEM](/ins-p-oem-datasheet)\n[INS-U-OEM](/ins-u-oem-datasheet)\n[INS-D-OEM](/ins-d-oem-datasheet)\n[INS-DL-OEM](/ins-dl-oem-datasheet)\n[INS-DU-OEM](/ins-du-oem-datasheet)\nSingle Antenna\nSingle Antenna\nSingle Antenna\nDual Antenna\nDual Antenna\nDual Antenna\nBasic Single GNSS Antenna OEM INS"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "INS-U-OEM",
+      "category": "sensors_and_navigation",
+      "descriptor": "Compact OEM GPS-aided INS with embedded air data computer for multirotor and fixed-wing UAV",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0273",
+          "line_start": 495,
+          "line_end": 507,
+          "url": "https://inertiallabs.com/products/ins-inertial-navigation-systems",
+          "page_class": "product",
+          "snippet": "[INS-U-OEM](/ins-u-oem-datasheet)\n[INS-D-OEM](/ins-d-oem-datasheet)\n[INS-DL-OEM](/ins-dl-oem-datasheet)\n[INS-DU-OEM](/ins-du-oem-datasheet)\nSingle Antenna\nSingle Antenna\nSingle Antenna\nDual Antenna\nDual Antenna\nDual Antenna\nBasic Single GNSS Antenna OEM INS\nProfessional Single GNSS Antenna OEM INS\nGPS-Aided OEM INS with Air Data Computer"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "INS-P",
+      "category": "sensors_and_navigation",
+      "descriptor": "Professional single-antenna INS with embedded fluxgate magnetic compass",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0273",
+          "line_start": 184,
+          "line_end": 200,
+          "url": "https://inertiallabs.com/products/ins-inertial-navigation-systems",
+          "page_class": "product",
+          "snippet": "[INS-P](/ins-p-datasheet)\n[INS-D](/ins-d-datasheet)\n[INS-DL](/ins-dl-datasheet)\n[INS-DU](/ins-du-datasheet)\n[INS-DM](/ins-dm-datasheet)\nSingle or Dual Antenna\nSingle Antenna\nSingle Antenna\nSingle Antenna\nDual Antenna\nDual Antenna\nDual Antenna\nDual Antenna\nTactical Navigation System\nGPS-Aided INS with Air Data Computer\nBasic Single GNSS Antenna Inertial Navigation System\nProfessional Single GNSS Antenna"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "IMU-KERNEL-210 / IMU-KERNEL-220",
+      "category": "sensors_and_navigation",
+      "descriptor": "Miniature tactical-grade MEMS IMU with 1\u00b0/hr gyro bias for guidance and UAV",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0272",
+          "line_start": 406,
+          "line_end": 416,
+          "url": "https://inertiallabs.com/products/imu-inertial-measurement-units",
+          "page_class": "product",
+          "snippet": "[IMU-KERNEL-210,\nIMU-KERNEL-220](/kernel-2xx-datasheet)\n[IMU-KERNEL-201](/kernel-201-datasheet)\nInertial Measurement Unit\nInertial Measurement Unit\nInertial Measurement Unit\nInertial Measurement Unit\nGyro Bias in-run Stability (RMS)\n2\u00ba/hour\n2\u00ba/hour\n1\u00ba/hour"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "IMU-NAV-100",
+      "category": "sensors_and_navigation",
+      "descriptor": "High-precision MEMS IMU for land vehicle and UAV/AUV navigation",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0272",
+          "line_start": 181,
+          "line_end": 192,
+          "url": "https://inertiallabs.com/products/imu-inertial-measurement-units",
+          "page_class": "product",
+          "snippet": "[IMU-NAV-100](/imu-nav-100-datasheet)\n[IMU-NAV-200](/imu-nav-200-datasheet)\n[IMU-P\nTactical A](/imu-p-a-datasheet)\n[IMU-P\nIndustrial A](/imu-p-a-datasheet)\n[IMU-P\nTactical S](/imu-p-s-datasheet)\n[IMU-P\nIndustrial S](/imu-p-s-datasheet)\nHigh Precision MEMS Inertial Measurement Unit\nHigh Precision MEMS Inertial Measurement Unit"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "IMU-H100",
+      "category": "sensors_and_navigation",
+      "descriptor": "Tactical-grade miniature MEMS IMU for autonomous vehicles and precision guided munitions",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0272",
+          "line_start": 368,
+          "line_end": 372,
+          "url": "https://inertiallabs.com/products/imu-inertial-measurement-units",
+          "page_class": "product",
+          "snippet": "### Tactical-Grade MEMS IMU-H100\nMODEL\n[![](/wp-content/uploads/2025/05/IMU-H100-rdr2025.png)](/imu-h100-datasheet)\n[IMU-H100](/imu-h100-datasheet)\nTactical-Grade, Advanced Miniature MEMS sensor-based IMU"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "miniAHRS",
+      "category": "sensors_and_navigation",
+      "descriptor": "Miniature attitude and heading reference system for UAV and fire control",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0262",
+          "line_start": 172,
+          "line_end": 183,
+          "url": "https://inertiallabs.com/products/ahrs",
+          "page_class": "product",
+          "snippet": "[![](/wp-content/uploads/2025/02/miniAHRS-2025.png)](/miniAHRS-datasheet)\n[![](/wp-content/uploads/2025/02/optoAHRS-II-2025.png)](/optoahrs-II-datasheet)\n[AHRS-10B](/ahrs-10-datasheet)\n[AHRS-10P](/ahrs-10-datasheet)\n[AHRS-II-P](/ahrs-II-P-datasheet)\n[miniAHRS](/miniAHRS-datasheet)\n[OptoAHRS-II](/optoahrs-II-datasheet)\nBasic Attitude and Heading Reference System\nProfessional Attitude and Heading Reference System\nHigh Performance Attitude and Heading Reference System\nMiniature Attitude and Heading Reference System\nOptical Attitude and Heading Reference System"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "ADC",
+      "category": "sensors_and_navigation",
+      "descriptor": "Standalone IP67 air data computer for VTOL and fixed-wing UAV navigation",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0263",
+          "line_start": 343,
+          "line_end": 348,
+          "url": "https://inertiallabs.com/products/apnt-assured-positioning-navigation-timing",
+          "page_class": "product",
+          "snippet": "[Air Data Computer](/products/apnt-assured-positioning-navigation-timing/air-data-computer/)\n[DTC BluSDR-30](/products/apnt-assured-positioning-navigation-timing/wideband-ip-radio-modem-blusdr-30/)\n[DWS FT743-SM](/products/apnt-assured-positioning-navigation-timing/digital-wind-sensor-ft743-sm/)\n[Speed Wedge MKII](/products/apnt-assured-positioning-navigation-timing/speed-wedge-mkii/)\nControlled Radiation Pattern Antenna (CRPA) technology alongside state-of-the-art signal processing capabilities, delivering enhanced jamming mitigation for critical applications.\nStandalone air data computer compatible with all Inertial Labs INS devices capable of outputting pressure altitude, air speed, air density, and outside air temperature"
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 21,
+    "total_cost_usd": 1.61552375,
+    "created_at": "2026-05-03T11:58:57+00:00",
+    "extract_version": "0.1.0"
+  }
+}

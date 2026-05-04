@@ -1,0 +1,333 @@
+{
+  "target_id": "emerging-power",
+  "run_id": "canonical",
+  "display_name": "Emerging Power",
+  "homepage_url": "https://emergingpower.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/emerging-power/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "power_systems",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 54,
+            "line_end": 57,
+            "url": "https://emergingpower.com",
+            "page_class": "homepage",
+            "snippet": "==================\nCustom battery Pack Design\nHigh Volume Manufacturing\nGlobal Distribution"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0160",
+            "line_start": 52,
+            "line_end": 53,
+            "url": "https://emergingpower.com/markets-served/drones-uav",
+            "page_class": "other",
+            "snippet": "Commercial and Military Drone Battery Pack Solutions\n===================================================="
+          }
+        ],
+        "notes": "Custom battery pack design and manufacturing for drones/UAV, military, medical, and other markets. Resells Amprius and NanoGraf cells."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Hackensack",
+      "state_or_province": "New Jersey",
+      "country": "United States",
+      "address": "200 Holt Street"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 4,
+        "line_end": 4,
+        "url": "https://emergingpower.com",
+        "page_class": "homepage",
+        "snippet": "[200 Holt Street, Hackensack, NJ 07601](#)"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0160",
+        "line_start": 52,
+        "line_end": 53,
+        "url": "https://emergingpower.com/markets-served/drones-uav",
+        "page_class": "other",
+        "snippet": "Commercial and Military Drone Battery Pack Solutions\n===================================================="
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 63,
+        "line_end": 64,
+        "url": "https://emergingpower.com",
+        "page_class": "homepage",
+        "snippet": "Emerging Power is among the world's leading battery pack\nmanufacturers and designers for various industries"
+      }
+    ],
+    "notes": "Manufactures custom lithium battery packs (Li-Polymer, Li-Ion, LFP, primary) and distributes cells (Amprius, NanoGraf, Energizer) for drone and other OEM applications."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Custom Li-Polymer (Li-Po) Battery Pack",
+        "product_type": "custom lithium polymer battery pack",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0182",
+            "line_start": 52,
+            "line_end": 52,
+            "url": "https://emergingpower.com/custom-battery-design/custom-li-polymer-battery-pack",
+            "page_class": "news",
+            "snippet": "Custom Li-Polymer (Li-Po) Battery Pack"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Custom Lithium Ion Battery Pack",
+        "product_type": "custom lithium-ion battery pack",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 30,
+            "line_end": 30,
+            "url": "https://emergingpower.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Custom Lithium Ion Battery Pack](https://emergingpower.com/custom-battery-design/custom-lithium-ion-battery-pack/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Custom Lithium Iron Phosphate (LFP) Battery Pack",
+        "product_type": "custom LFP battery pack",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 31,
+            "line_end": 31,
+            "url": "https://emergingpower.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Custom Lithium Iron Phosphate (LFP) Battery Pack](https://emergingpower.com/custom-battery-design/custom-lithium-iron-phosphate-lfp-battery-pack/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Custom Lithium Primary Battery Pack",
+        "product_type": "custom lithium primary battery pack",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 32,
+            "line_end": 32,
+            "url": "https://emergingpower.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Custom Lithium Primary Battery Pack](https://emergingpower.com/custom-battery-design/custom-lithium-primary-battery-pack/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "NanoGraf 18650-M38",
+        "product_type": "lithium-ion 18650 cell",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0156",
+            "line_start": 52,
+            "line_end": 52,
+            "url": "https://emergingpower.com/product/nanograf-18650-m38",
+            "page_class": "product",
+            "snippet": "NanoGraf 18650-M38"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Amprius 6Ah Energy + Mid Power 21700 Cell",
+        "product_type": "lithium-ion 21700 cell (300 Wh/kg)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0178",
+            "line_start": 81,
+            "line_end": 84,
+            "url": "https://emergingpower.com/product-category/amprius",
+            "page_class": "product",
+            "snippet": "*   [![6Ah Energy + Mid Power 21700 Cell](https://emergingpower.com/wp-content/uploads/2025/01/6Ah-Energy-Mid-Power-21700-Cell-250x250.png)\n    6Ah Energy + Mid Power 21700 Cell\n    ---------------------------------\n    Gravimetric: 300 Wh/kg"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Amprius 4Ah Energy + Mid Power 18650 Cell",
+        "product_type": "lithium-ion 18650 cell (300 Wh/kg)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0178",
+            "line_start": 76,
+            "line_end": 79,
+            "url": "https://emergingpower.com/product-category/amprius",
+            "page_class": "product",
+            "snippet": "*   [![4Ah Energy + Mid Power 18650 Cell](https://emergingpower.com/wp-content/uploads/2025/01/4Ah-Energy-Mid-Power-18650-Cell-250x250.png)\n    4Ah Energy + Mid Power 18650 Cell\n    ---------------------------------\n    Gravimetric: 300 Wh/kg"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Amprius 30.75 Ah Energy + Power Balanced Cell",
+        "product_type": "lithium-ion pouch cell (353 Wh/kg)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0178",
+            "line_start": 71,
+            "line_end": 74,
+            "url": "https://emergingpower.com/product-category/amprius",
+            "page_class": "product",
+            "snippet": "*   [![30.75 Ah Energy + Power Balanced Cell](https://emergingpower.com/wp-content/uploads/2025/01/30.75-Ah-Energy-Power-Balanced-Cell-1-250x250.png)\n    30.75 Ah Energy + Power Balanced Cell\n    -------------------------------------\n    Gravimetric: 353 Wh/kg"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Smart RRC Battery Packs",
+        "product_type": "standardized rechargeable battery packs",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 44,
+            "line_end": 44,
+            "url": "https://emergingpower.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Smart RRC Battery Packs](https://emergingpower.com/product-category/standardized-packs-chargers/smart-rrc-battery-packs/)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Many more product SKUs exist (additional Amprius cells, Energizer batteries, custom alkaline/NiMH/SLA/Li-ThCl packs) on skipped pages."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0140",
+        "line_start": 54,
+        "line_end": 54,
+        "url": "https://emergingpower.com/our-capabilities/itar-registered",
+        "page_class": "compliance",
+        "snippet": "ITAR requires that any person (company) who engages in the business of manufacturing defense articles or furnishing defense services is required to register and keep their registration current with the United States Department of State. Emerging Power is registered with the Department of State and is ITAR compliant."
+      }
+    ],
+    "notes": "Site discloses ITAR registration and AS9100 certification but makes no explicit NDAA Section 848/889 compliance claim."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 55,
+        "line_end": 57,
+        "url": "https://emergingpower.com",
+        "page_class": "homepage",
+        "snippet": "Custom battery Pack Design\nHigh Volume Manufacturing\nGlobal Distribution"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0160",
+        "line_start": 52,
+        "line_end": 53,
+        "url": "https://emergingpower.com/markets-served/drones-uav",
+        "page_class": "other",
+        "snippet": "Commercial and Military Drone Battery Pack Solutions\n===================================================="
+      }
+    ],
+    "notes": "Site advertises high volume manufacturing and catalog SKUs. Also offers custom engineering from concept through production."
+  },
+  "unresolved_questions": [
+    "NDAA Section 848/889 compliance not confirmed \u2014 compliance page skipped during crawl",
+    "Whether any specific drone battery SKUs are listed separately from custom design families"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://emergingpower.com/our-capabilities/compliance-and-regulatory",
+      "reason": "Would confirm or refute NDAA Section 848/889 compliance claims; page is titled Compliance and Regulatory",
+      "expected_evidence": [
+        "ndaa",
+        "blue_uas"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=compliance",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://emergingpower.com/regulatory-resources",
+      "reason": "Regulatory Resources page may contain NDAA or Blue UAS compliance disclosures",
+      "expected_evidence": [
+        "ndaa",
+        "blue_uas"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Manufactures and assembles smart lithium-ion, lithium-polymer, and primary battery packs for commercial and military applications; also distributes Amprius and NanoGraf cells. ITAR-registered, AS9100-certified, with UN/ST38.3 testing capability. NDAA and Blue UAS certification status unknown. Public evidence of specific defense contracts or programs not evident.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 15,
+    "total_cost_usd": 0.39131955,
+    "created_at": "2026-05-04T02:11:03+00:00",
+    "extract_version": "0.1.0"
+  }
+}

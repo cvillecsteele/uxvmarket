@@ -1,0 +1,504 @@
+{
+  "target_id": "sightline-applications",
+  "run_id": "canonical",
+  "display_name": "SightLine Applications",
+  "homepage_url": "https://www.sightlineapplications.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/sightline-applications/website",
+  "products": [
+    {
+      "name": "Cortex",
+      "category": "isr_payloads",
+      "descriptor": "NVIDIA-based edge AI video processing board for multi-feed ISR",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0105",
+          "line_start": 76,
+          "line_end": 80,
+          "url": "https://www.sightlineapplications.com/sightline_product/cortex",
+          "page_class": "product",
+          "snippet": "**Data Exploitation at the Edge**\nDesigned for 1-2 video feeds running multiple AI algorithms in near real time.\nSuited for airborne, ground, and submersible applications, directly connected to a sensor or acting as a C4I node on a larger network.\nMakes use of our proprietary neural network architecture to run our vision inference engine.\nSupports Wi-Fi, USB, and Ethernet."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0105",
+          "line_start": 82,
+          "line_end": 82,
+          "url": "https://www.sightlineapplications.com/sightline_product/cortex",
+          "page_class": "product",
+          "snippet": "[Cortex v1.8 Datasheet](https://sightlineintelligence.com/wp-content/uploads/2026/04/Cortex-v1.8-Datasheet.pdf)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "41xx-OEM",
+      "category": "isr_payloads",
+      "descriptor": "Qualcomm QCS7230-based OEM video processor family for SWaP-constrained ISR integration",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0104",
+          "line_start": 77,
+          "line_end": 78,
+          "url": "https://www.sightlineapplications.com/sightline_product/4100-oem-and-4100-som",
+          "page_class": "product",
+          "snippet": "Remarkably compact with low SWaP, the 4100-OEM prioritizes efficiency while delivering uncompromised performance. Offering flexible options for OEM and SOM integration, the 4100-OEM has customizable and scalable solutions to meet your specific requirements.\nMultiple digital video inputs \u2013 HD input, multiple camera interfaces (see Camera Compatibility Guide)."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0104",
+          "line_start": 81,
+          "line_end": 82,
+          "url": "https://www.sightlineapplications.com/sightline_product/4100-oem-and-4100-som",
+          "page_class": "product",
+          "snippet": "Processing power \u2013 Built on the Qualcomm QCS7230 processor\nLow Swap \u2013 50.5mm x 38.1mm x 16.5mm (2.0in x 1.5in x 0.65in), 5W."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "4100 SOM",
+      "category": "isr_payloads",
+      "descriptor": "System-on-Module variant of the 4100-OEM for customer-designed interface board integration",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0104",
+          "line_start": 70,
+          "line_end": 70,
+          "url": "https://www.sightlineapplications.com/sightline_product/4100-oem-and-4100-som",
+          "page_class": "product",
+          "snippet": "4100 OEM and 4100 SOM"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0104",
+          "line_start": 77,
+          "line_end": 77,
+          "url": "https://www.sightlineapplications.com/sightline_product/4100-oem-and-4100-som",
+          "page_class": "product",
+          "snippet": "Remarkably compact with low SWaP, the 4100-OEM prioritizes efficiency while delivering uncompromised performance. Offering flexible options for OEM and SOM integration, the 4100-OEM has customizable and scalable solutions to meet your specific requirements."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "17xx-OEM",
+      "category": "isr_payloads",
+      "descriptor": "NXP ARM-based ultra-low-SWaP OEM video processor family (1710 and 1750 models)",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0103",
+          "line_start": 76,
+          "line_end": 78,
+          "url": "https://www.sightlineapplications.com/sightline_product/17xx-oem",
+          "page_class": "product",
+          "snippet": "Ultra-low-SWAP for use in the smallest systems:\n1710 \u2013 Smallest footprint \u2013 1.11 x 1.5 x 0.5 in (28.2 x 38.1 x 11.6 mm) 14.7g (SOM only 7.1g)\n1750 \u2013 1.3 x 1.8 x 0.5 in (33.3 x 45.0 x 11.6 mm) 16.9g (SOM only 7.1g)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0103",
+          "line_start": 83,
+          "line_end": 84,
+          "url": "https://www.sightlineapplications.com/sightline_product/17xx-oem",
+          "page_class": "product",
+          "snippet": "Video outputs: H.264/H.265 IP-streamed encoded (multiple streams), Camera Link, HDMI, and HD-SDI.\nNXP multi-core ARM-based."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "1710-OEM",
+      "category": "isr_payloads",
+      "descriptor": "Smallest-footprint NXP-based OEM video processor, 28.2 \u00d7 38.1 \u00d7 11.6 mm, 14.7 g",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0103",
+          "line_start": 77,
+          "line_end": 77,
+          "url": "https://www.sightlineapplications.com/sightline_product/17xx-oem",
+          "page_class": "product",
+          "snippet": "1710 \u2013 Smallest footprint \u2013 1.11 x 1.5 x 0.5 in (28.2 x 38.1 x 11.6 mm) 14.7g (SOM only 7.1g)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0103",
+          "line_start": 80,
+          "line_end": 81,
+          "url": "https://www.sightlineapplications.com/sightline_product/17xx-oem",
+          "page_class": "product",
+          "snippet": "Designed to enhance even the smallest camera systems, these compact OEM onboard video processors deliver significant performance improvements over the previous generation. Multiple configuration options and a range of compatible input accessory boards support flexible integration.\nFull feature SW single-channel processing, limited feature SW dual-channel processing."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "1750-OEM",
+      "category": "isr_payloads",
+      "descriptor": "NXP-based OEM video processor, 33.3 \u00d7 45.0 \u00d7 11.6 mm, 16.9 g, with SOM option",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0103",
+          "line_start": 78,
+          "line_end": 78,
+          "url": "https://www.sightlineapplications.com/sightline_product/17xx-oem",
+          "page_class": "product",
+          "snippet": "1750 \u2013 1.3 x 1.8 x 0.5 in (33.3 x 45.0 x 11.6 mm) 16.9g (SOM only 7.1g)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0103",
+          "line_start": 80,
+          "line_end": 81,
+          "url": "https://www.sightlineapplications.com/sightline_product/17xx-oem",
+          "page_class": "product",
+          "snippet": "Designed to enhance even the smallest camera systems, these compact OEM onboard video processors deliver significant performance improvements over the previous generation. Multiple configuration options and a range of compatible input accessory boards support flexible integration.\nFull feature SW single-channel processing, limited feature SW dual-channel processing."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "1700-SOM",
+      "category": "isr_payloads",
+      "descriptor": "System-on-Module core of the 17xx-OEM platform for size-optimized customer board integration",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0103",
+          "line_start": 79,
+          "line_end": 79,
+          "url": "https://www.sightlineapplications.com/sightline_product/17xx-oem",
+          "page_class": "product",
+          "snippet": "The 1700-SOM, the key component of the 17xx-OEM platform, allows size-optimized integration onto customer-designed interface boards. The COTS System on Module (SOM) and OEM reference design support are provided to help customers integrate the SOM option."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "AiTR\u2014Aided Target Recognition",
+      "category": "isr_payloads",
+      "descriptor": "Edge AI software for automated detection, tracking, and classification of targets",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 86,
+          "line_end": 87,
+          "url": "https://www.sightlineapplications.com",
+          "page_class": "homepage",
+          "snippet": "### AI Target Recognition (AiTR)\nAutomated detection, tracking and classification"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 22,
+          "line_end": 22,
+          "url": "https://www.sightlineapplications.com",
+          "page_class": "homepage",
+          "snippet": "        *   [AiTR\u2014Aided Target Recognition](https://sightlineintelligence.com/aitr/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Detection and Tracking Software",
+      "category": "isr_payloads",
+      "descriptor": "Onboard detection and tracking software for edge ISR video processing systems",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 21,
+          "line_end": 21,
+          "url": "https://www.sightlineapplications.com",
+          "page_class": "homepage",
+          "snippet": "        *   [Detection and Tracking](https://sightlineintelligence.com/detection-tracking/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Video Capture & Encoding Software",
+      "category": "isr_payloads",
+      "descriptor": "Onboard video capture and H.264/H.265 encoding software for edge ISR processors",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 19,
+          "line_end": 19,
+          "url": "https://www.sightlineapplications.com",
+          "page_class": "homepage",
+          "snippet": "        *   [Video Capture & Encoding](https://sightlineintelligence.com/video-capture-encoding/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 90,
+          "line_end": 91,
+          "url": "https://www.sightlineapplications.com",
+          "page_class": "homepage",
+          "snippet": "### Onboard Processing\nReal-time stabilization, image enhancement, geospatial encoding"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Image Enhancement Software",
+      "category": "isr_payloads",
+      "descriptor": "Real-time image enhancement software for edge ISR video processing",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 20,
+          "line_end": 20,
+          "url": "https://www.sightlineapplications.com",
+          "page_class": "homepage",
+          "snippet": "        *   [Image Enhancement](https://sightlineintelligence.com/image-enhancement/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Software Solutions",
+      "category": "isr_payloads",
+      "descriptor": "Sightline Intelligence edge AI video processing software platform for defense ISR",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 17,
+          "line_end": 18,
+          "url": "https://www.sightlineapplications.com",
+          "page_class": "homepage",
+          "snippet": "    *   [Software](https://sightlineintelligence.com/software/)\n        *   [Software Solutions](https://sightlineintelligence.com/software-solutions/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 83,
+          "line_end": 83,
+          "url": "https://www.sightlineapplications.com",
+          "page_class": "homepage",
+          "snippet": "Sightline Intelligence delivers real-time AI video processing and target recognition directly at the edge, eliminating cloud dependency and latency risk. Our ultra\u2013low SWaP embedded systems power millisecond ISR intelligence for autonomous aircraft, tactical teams, and mission-critical defense platforms worldwide."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "System Interfaces",
+      "category": "isr_payloads",
+      "descriptor": "System-side interface and accessory boards for SightLine OEM video processors",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 27,
+          "line_end": 28,
+          "url": "https://www.sightlineapplications.com",
+          "page_class": "homepage",
+          "snippet": "    *   [Interface & Accessories](#)\n        *   [System Interfaces](https://sightlineintelligence.com/compare-hardware/system-interfaces/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Camera Interfaces",
+      "category": "isr_payloads",
+      "descriptor": "Camera-side interface accessory boards for SightLine OEM video processors",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 29,
+          "line_end": 29,
+          "url": "https://www.sightlineapplications.com",
+          "page_class": "homepage",
+          "snippet": "        *   [Camera Interfaces](https://sightlineintelligence.com/compare-hardware/camera-interfaces/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Video Output Accessory Boards",
+      "category": "isr_payloads",
+      "descriptor": "Video output accessory boards for SightLine OEM processor video distribution",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 31,
+          "line_end": 31,
+          "url": "https://www.sightlineapplications.com",
+          "page_class": "homepage",
+          "snippet": "        *   [Video Output Accessory Boards](https://sightlineintelligence.com/compare-hardware/video-output-accessory-boards/)"
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "Software product pages (Software Solutions, Video Capture & Encoding, Image Enhancement, Detection and Tracking, AiTR) were all skipped_out_of_scope \u2014 only nav-level evidence was available; full feature descriptions and any NDAA/compliance claims could not be confirmed.",
+    "Interface & Accessories pages (System Interfaces, Camera Interfaces, Video Output Accessory Boards) were skipped_out_of_scope \u2014 no SKU-level detail on specific board models or compatibility.",
+    "No NDAA or Blue UAS compliance claims found anywhere in the corpus for any product.",
+    "The AiTR product page (https://sightlineintelligence.com/aitr) was skipped; the home page confirms AiTR exists as a named product but the full feature/compliance detail is unavailable."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://sightlineintelligence.com/aitr",
+      "reason": "Dedicated AiTR product page skipped; needed for full feature description, readiness confirmation, and any NDAA/compliance claims.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_out_of_scope, depth=1",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://sightlineintelligence.com/software-solutions",
+      "reason": "Software Solutions platform page skipped; needed for product scope, feature list, and compliance claims.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_out_of_scope, depth=1",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://sightlineintelligence.com/video-capture-encoding",
+      "reason": "Video Capture & Encoding product page skipped; needed for SKU-level features and readiness.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_out_of_scope, depth=1",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://sightlineintelligence.com/image-enhancement",
+      "reason": "Image Enhancement product page skipped; needed for feature details and readiness.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_out_of_scope, depth=1",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://sightlineintelligence.com/detection-tracking",
+      "reason": "Detection and Tracking product page skipped; needed for feature details and readiness.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_out_of_scope, depth=1",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://sightlineintelligence.com/compare-hardware/system-interfaces",
+      "reason": "System Interfaces page skipped; needed to enumerate specific interface board models and specs.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_out_of_scope, depth=1",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://sightlineintelligence.com/compare-hardware/camera-interfaces",
+      "reason": "Camera Interfaces page skipped; needed to enumerate specific camera interface board models.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_out_of_scope, depth=1",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://sightlineintelligence.com/compare-hardware/video-output-accessory-boards",
+      "reason": "Video Output Accessory Boards page skipped; needed to enumerate specific output board models.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_out_of_scope, depth=1",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 25,
+    "total_cost_usd": 0.5395779999999999,
+    "created_at": "2026-05-04T06:19:29+00:00",
+    "extract_version": "0.1.0"
+  }
+}

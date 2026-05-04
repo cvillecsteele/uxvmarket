@@ -1,0 +1,417 @@
+{
+  "target_id": "equipmake",
+  "run_id": "canonical",
+  "display_name": "Equipmake",
+  "homepage_url": "https://equipmake.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/equipmake/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0391",
+            "line_start": 68,
+            "line_end": 68,
+            "url": "https://equipmake.com/products/vertical-aerospace",
+            "page_class": "product",
+            "snippet": "    Equipmake has developed a custom direct-drive SPM motor and IGBT inverter system for Vertical Aerospace\u2019s pioneering electric Vertical Take-Off and Landing (eVTOL) aircraft."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0383",
+            "line_start": 67,
+            "line_end": 67,
+            "url": "https://equipmake.com/products/h55",
+            "page_class": "product",
+            "snippet": "    Equipmake collaborated with Swiss electric aviation specialist H55 to develop a bespoke SPM motor designed for direct drive of a light aircraft propeller."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 75,
+            "line_end": 76,
+            "url": "https://equipmake.com",
+            "page_class": "homepage",
+            "snippet": "Electric motor design & development\nYears of development in the field of permanent magnet motors has resulted in Equipmake developing motors with class leading power densities of 9kW/kg."
+          }
+        ],
+        "notes": "Core product line is electric motors including aerospace-grade motors for eVTOL (Vertical Aerospace EPU) and electric aircraft (H55/BRM Bristell B23 Energic). APM-200, AMPERE-220, HTM-3500 are catalog motors."
+      },
+      {
+        "category": "propulsion_electronics",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0391",
+            "line_start": 71,
+            "line_end": 71,
+            "url": "https://equipmake.com/products/vertical-aerospace",
+            "page_class": "product",
+            "snippet": "    Each EPU integrates a lightweight, high-power electric motor with a high-performance inverter, developed and manufactured entirely in-house."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0382",
+            "line_start": 63,
+            "line_end": 64,
+            "url": "https://equipmake.com/products/gilmore-space",
+            "page_class": "product",
+            "snippet": "*   Technology: Silicon Carbide (SiC)\n*   Typical Fsw: 40 kHz"
+          }
+        ],
+        "notes": "Inverter/motor controller products HPI-450 and HPI-800; also supplies SiC inverters integrated into EPUs for aerospace customers (Gilmour Space, Vertical Aerospace)."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Snetterton",
+      "state_or_province": "Norfolk",
+      "country": "United Kingdom",
+      "address": "Unit 7, Snetterton Business Park, Snetterton, Norfolk, NR16 2JU"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0059",
+        "line_start": 62,
+        "line_end": 67,
+        "url": "https://equipmake.com/contact-us",
+        "page_class": "contact",
+        "snippet": "Head Office, Unit 7\nSnetterton Business Park\nSnetterton\nNorfolk\nNR16 2JU\nUnited Kingdom"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0391",
+        "line_start": 70,
+        "line_end": 70,
+        "url": "https://equipmake.com/products/vertical-aerospace",
+        "page_class": "product",
+        "snippet": "    Equipmake\u2019s advanced Electric Propulsion Unit (EPU) was deployed in Vertical Aerospace\u2019s prototype during its first successful untethered flight test, marking Equipmake\u2019s entry into the rapidly expanding eVTOL market."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0148",
+        "line_start": 53,
+        "line_end": 53,
+        "url": "https://equipmake.com/equipmake-signs-aerospace-electric-motor-production-supply-agreement-with-h55",
+        "page_class": "news",
+        "snippet": "EQUIPMAKE SIGNS AEROSPACE ELECTRIC MOTOR PRODUCTION SUPPLY AGREEMENT WITH H55"
+      }
+    ],
+    "notes": "Primary business is ground EV drivetrains (buses), but they supply electric motors, inverters, and integrated EPUs (Electric Propulsion Units) as components/modules for eVTOL and electric aircraft OEMs. The Vertical Aerospace EPU (motor+inverter) is more of a propulsion subsystem, but their standard product catalog is components."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "APM-200",
+        "product_type": "electric traction motor (spoke architecture, 220 kW peak, 10,000 rpm)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 81,
+            "line_end": 82,
+            "url": "https://equipmake.com",
+            "page_class": "homepage",
+            "snippet": "APM-200\nThe next generation of the Electric Motor"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AMPERE-220",
+        "product_type": "electric motor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 89,
+            "line_end": 89,
+            "url": "https://equipmake.com",
+            "page_class": "homepage",
+            "snippet": "AMPERE-220"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HTM-3500",
+        "product_type": "heavy-duty electric motor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 86,
+            "line_end": 87,
+            "url": "https://equipmake.com",
+            "page_class": "homepage",
+            "snippet": "HTM-3500\n[![View More](https://equipmake.com/app/themes/equipmake.co.uk/public/images/icons/arrow.svg)](https://equipmake.com/products/htm-3500/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HPI-450",
+        "product_type": "high-performance inverter",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 92,
+            "line_end": 92,
+            "url": "https://equipmake.com",
+            "page_class": "homepage",
+            "snippet": "HPI-450"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HPI-800",
+        "product_type": "high-performance inverter",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 24,
+            "line_end": 25,
+            "url": "https://equipmake.com",
+            "page_class": "homepage",
+            "snippet": "        *   [HPI-450](https://equipmake.com/products/hpi-450/)\n        *   [HPI-800](https://equipmake.com/products/hpi-800/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ZED (Zero Emission Drivetrain)",
+        "product_type": "complete modular electric drivetrain for buses",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 67,
+            "line_end": 68,
+            "url": "https://equipmake.com",
+            "page_class": "homepage",
+            "snippet": "British built zero emission solutions\nOur ZED Zero Emission Drivetrain is efficiently integrated into both new EV buses and EV retrofit bus options, a modular system offering various battery sizes and power options \u2013 we have something for a variety of budgets and range."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Jewel E",
+        "product_type": "double-deck electric bus",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 31,
+            "line_end": 31,
+            "url": "https://equipmake.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Jewel E](https://equipmake.com/products/jewel-e/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "EVR-B5",
+        "product_type": "electric retrofit bus solution",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 32,
+            "line_end": 33,
+            "url": "https://equipmake.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Retrofit Bus](https://equipmake.com/product-category/retrofit/)\n        *   [EVR-B5](https://equipmake.com/products/evr-b5/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "EVR-Versa",
+        "product_type": "electric retrofit bus solution",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 34,
+            "line_end": 34,
+            "url": "https://equipmake.com",
+            "page_class": "homepage",
+            "snippet": "        *   [EVR-Versa](https://equipmake.com/products/evr-versa/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MT17.0 LE",
+        "product_type": "electric bus chassis (low entry)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 28,
+            "line_end": 28,
+            "url": "https://equipmake.com",
+            "page_class": "homepage",
+            "snippet": "        *   [MT17.0 LE](https://equipmake.com/products/mt17-0le/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MT17.0 LF",
+        "product_type": "electric bus chassis (low floor)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 29,
+            "line_end": 29,
+            "url": "https://equipmake.com",
+            "page_class": "homepage",
+            "snippet": "        *   [MT17.0 LF](https://equipmake.com/products/mt17-0-lf/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Vertical Aerospace EPU",
+        "product_type": "Electric Propulsion Unit (custom SPM motor + IGBT inverter) for eVTOL aircraft",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0391",
+            "line_start": 68,
+            "line_end": 68,
+            "url": "https://equipmake.com/products/vertical-aerospace",
+            "page_class": "product",
+            "snippet": "    Equipmake has developed a custom direct-drive SPM motor and IGBT inverter system for Vertical Aerospace\u2019s pioneering electric Vertical Take-Off and Landing (eVTOL) aircraft."
+          }
+        ],
+        "notes": "Custom direct-drive EPU developed for Vertical Aerospace eVTOL; deployed in first untethered flight test"
+      },
+      {
+        "name": "H55 Aerospace Motor",
+        "product_type": "bespoke SPM motor for direct-drive light aircraft propulsion (BRM Bristell B23 Energic)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0383",
+            "line_start": 67,
+            "line_end": 68,
+            "url": "https://equipmake.com/products/h55",
+            "page_class": "product",
+            "snippet": "    Equipmake collaborated with Swiss electric aviation specialist H55 to develop a bespoke SPM motor designed for direct drive of a light aircraft propeller.\n    The motor features a dual power lane, fault-tolerant architecture with magnetic, thermal, and galvanic isolation between electrical supplies ensuring the highest levels of safety and reliability in the air."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Standard catalog includes electric motors and inverters applicable to aerospace/UXV propulsion; also has custom project-specific EPUs for eVTOL and light aircraft. Bus products (Jewel E, EVR-B5, etc.) are named products but not UXV-relevant."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "UK-based company; no NDAA Section 848/889 compliance claims anywhere in corpus."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS or Blue sUAS claims found in corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0148",
+        "line_start": 53,
+        "line_end": 53,
+        "url": "https://equipmake.com/equipmake-signs-aerospace-electric-motor-production-supply-agreement-with-h55",
+        "page_class": "news",
+        "snippet": "EQUIPMAKE SIGNS AEROSPACE ELECTRIC MOTOR PRODUCTION SUPPLY AGREEMENT WITH H55"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0382",
+        "line_start": 73,
+        "line_end": 73,
+        "url": "https://equipmake.com/products/gilmore-space",
+        "page_class": "product",
+        "snippet": "    Equipmake developed a bespoke 20,000 rpm onboard application motor and inverter solution. Five systems are required per vehicle, demonstrating Equipmake\u2019s crucial role in advancing spaceflight technology. A total of 21 units were produced and delivered, with the first launch imminent."
+      }
+    ],
+    "notes": "Production supply agreement signed with H55 for certified electric aircraft motors; 21 units delivered to Gilmour Space; serial fleet orders for bus drivetrains confirm full production capability."
+  },
+  "unresolved_questions": [
+    "Primary business is ground EV drivetrains (buses); UXV/aerospace involvement is secondary vertical \u2014 role confidence is medium rather than high.",
+    "No NDAA or Blue UAS compliance information available (UK company, not likely applicable)."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://equipmake.com/aerospace-and-defence/",
+      "reason": "Aerospace industry page likely details Equipmake's eVTOL and electric aviation product range, helping confirm UXV-specific propulsion subsystem products and supply chain role.",
+      "expected_evidence": [
+        "products_categories",
+        "drone_supply_chain_role",
+        "products"
+      ],
+      "source_hint": "guessed from site nav (listed as Aerospace under Industries)",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "partial",
+  "tagline": "UK-based electric motor and power electronics supplier serving aerospace, automotive, and heavy commercial vehicle platforms. Core products include the APM-200 (220 kW liquid-cooled traction motor with integral gearbox, in low-rate production), AMPERE-220 (3D-printed 220 kW motor, prototype), HPI-450 (IGBT motor controller, low-rate production), and HPI-800 (SiC controller, prototype). Also supplies bespoke propulsion units to Vertical Aerospace eVTOL and Gilmour Space launch vehicles. NDAA and Blue UAS certification status unknown; public record on US defense integration is sparse.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 13,
+    "total_cost_usd": 0.5294864,
+    "created_at": "2026-05-04T02:22:47+00:00",
+    "extract_version": "0.1.0"
+  }
+}

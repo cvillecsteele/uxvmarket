@@ -1,0 +1,436 @@
+{
+  "target_id": "geocue",
+  "run_id": "canonical",
+  "display_name": "GeoCue",
+  "homepage_url": "https://geocue.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/geocue/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "isr_payloads",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 18,
+            "line_end": 18,
+            "url": "https://geocue.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Drone LiDAR + Imagery Sensors](/sensors/drone-lidar/)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0385",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://geocue.com/sensors/drone-lidar/trueview-641",
+            "page_class": "other",
+            "snippet": "TrueView 641 NDAA-Compliant LiDAR Sensor for Drone Mapping"
+          }
+        ],
+        "notes": "TrueView series are drone-mounted LiDAR + imagery sensors (payload pods) for aerial mapping and surveying"
+      },
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0385",
+            "line_start": 143,
+            "line_end": 145,
+            "url": "https://geocue.com/sensors/drone-lidar/trueview-641",
+            "page_class": "other",
+            "snippet": "Value\nTrueNav\nSpecification"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0382",
+            "line_start": 158,
+            "line_end": 161,
+            "url": "https://geocue.com/sensors/drone-lidar/trueview-720",
+            "page_class": "other",
+            "snippet": "GNSS/INS Performance\u200b\nValue\n*   Position: 20-50 mm\n*   Angle: 0.015 deg Roll/Pitch, 0.035 deg Heading"
+          }
+        ],
+        "notes": "Sensors integrate TrueNav and Applanix APX GNSS/INS positioning systems for georeferencing"
+      },
+      {
+        "category": "ground_segment",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 11,
+            "line_end": 14,
+            "url": "https://geocue.com",
+            "page_class": "homepage",
+            "snippet": "*   [Software](/solutions/point-cloud-software/)\n    *   [LP360 Drone](https://www.lp360.com/product-line/lp360-drone/)\n    *   [LP360 Land](https://www.lp360.com/product-line/lp360-land/)\n    *   [LP360 Geospatial](https://www.lp360.com/product-line/lp360-geospatial/)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0385",
+            "line_start": 204,
+            "line_end": 205,
+            "url": "https://geocue.com/sensors/drone-lidar/trueview-641",
+            "page_class": "other",
+            "snippet": "### LP360 Drone\nDrone LiDAR and photo processing workflow made simple"
+          }
+        ],
+        "notes": "LP360 Drone/Land/Geospatial are post-processing and data management software for LiDAR point clouds; not a GCS but manages data from drone workflows"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Madison",
+      "state_or_province": "Alabama",
+      "country": "United States",
+      "address": "520 6th Street"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 208,
+        "line_end": 208,
+        "url": "https://geocue.com",
+        "page_class": "homepage",
+        "snippet": "*   520 6th Street Madison, AL 35756"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0383",
+        "line_start": 147,
+        "line_end": 147,
+        "url": "https://geocue.com/contact/lidar-drone-mapping-company",
+        "page_class": "contact",
+        "snippet": "*   520 6th Street Madison, AL 35756"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0385",
+        "line_start": 232,
+        "line_end": 232,
+        "url": "https://geocue.com/sensors/drone-lidar/trueview-641",
+        "page_class": "other",
+        "snippet": "Our TrueView 3D Imaging Sensors were designed as a lightweight payload to allow flexible integrations on numerous drone platforms. We have worked with several drone providers to provide customers the complete drone mapping solution they are looking for. Don\u2019t see the company you\u2019re looking for, contact our team and we can discuss custom integrations!"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0029",
+        "line_start": 186,
+        "line_end": 186,
+        "url": "https://geocue.com/sensors/drone-lidar/trueview-1-lite",
+        "page_class": "other",
+        "snippet": "Our TrueView 3D Imaging Sensors were designed as a lightweight payload to allow flexible integrations on numerous drone platforms. We have worked with several drone providers to provide customers the complete drone mapping solution they are looking for. Don\u2019t see the company you\u2019re looking for, contact our team and we can discuss custom integrations!"
+      }
+    ],
+    "notes": "GeoCue designs and sells drone LiDAR+imagery payload sensors (TrueView series) that integrate onto third-party drone platforms such as DJI, Freefly, Inspired Flight, etc."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "TrueView 1 Lite",
+        "product_type": "drone LiDAR + imagery sensor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0029",
+            "line_start": 120,
+            "line_end": 120,
+            "url": "https://geocue.com/sensors/drone-lidar/trueview-1-lite",
+            "page_class": "other",
+            "snippet": "Affordable Drone LiDAR Sensor for Surveying and Mapping"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TrueView 1",
+        "product_type": "drone LiDAR + imagery sensor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 21,
+            "line_end": 21,
+            "url": "https://geocue.com",
+            "page_class": "homepage",
+            "snippet": "        *   [TrueView 1](/sensors/drone-lidar/trueview-1/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TrueView 641",
+        "product_type": "NDAA-compliant drone LiDAR + imagery sensor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0385",
+            "line_start": 120,
+            "line_end": 120,
+            "url": "https://geocue.com/sensors/drone-lidar/trueview-641",
+            "page_class": "other",
+            "snippet": "TrueView 641 \u2013 Affordable, NDAA-Compliant Engineering-Grade LiDAR"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TrueView 655/660",
+        "product_type": "NDAA-compliant drone LiDAR + imagery sensor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0033",
+            "line_start": 120,
+            "line_end": 120,
+            "url": "https://geocue.com/sensors/drone-lidar/trueview-655-660",
+            "page_class": "other",
+            "snippet": "TrueView 655/660 3D imaging system with three cameras, unlimited PP-RTX and optional drone/mobile mapping capability"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TrueView 680/680LR",
+        "product_type": "NDAA-compliant drone LiDAR + imagery sensor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 30,
+            "line_end": 30,
+            "url": "https://geocue.com",
+            "page_class": "homepage",
+            "snippet": "        *   [TrueView 680/680LR](/sensors/drone-lidar/trueview-680/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TrueView 720",
+        "product_type": "NDAA-compliant drone LiDAR + imagery sensor (3-scanner corridor mapping)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0382",
+            "line_start": 120,
+            "line_end": 120,
+            "url": "https://geocue.com/sensors/drone-lidar/trueview-720",
+            "page_class": "other",
+            "snippet": "720: A New Class of System for New Challenges: TrueView 720 with 3 laser orientations, 3 cameras and Unlimited PP-RTX"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TrueView GO NEO",
+        "product_type": "handheld SLAM LiDAR scanner",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 33,
+            "line_end": 33,
+            "url": "https://geocue.com",
+            "page_class": "homepage",
+            "snippet": "        *   [TrueView GO NEO](/sensors/handheld/trueview-go-neo/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TrueView GO 116S",
+        "product_type": "handheld SLAM LiDAR scanner",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 34,
+            "line_end": 34,
+            "url": "https://geocue.com",
+            "page_class": "homepage",
+            "snippet": "        *   [TrueView GO 116S](/sensors/handheld/trueview-go-116s/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TrueView GO 132S",
+        "product_type": "handheld SLAM LiDAR scanner",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 35,
+            "line_end": 35,
+            "url": "https://geocue.com",
+            "page_class": "homepage",
+            "snippet": "        *   [TrueView GO 132S](/sensors/handheld/trueview-go-132s/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "LP360 Drone",
+        "product_type": "LiDAR point cloud processing software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 12,
+            "line_end": 12,
+            "url": "https://geocue.com",
+            "page_class": "homepage",
+            "snippet": "    *   [LP360 Drone](https://www.lp360.com/product-line/lp360-drone/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "LP360 Geospatial",
+        "product_type": "LiDAR point cloud processing software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 14,
+            "line_end": 14,
+            "url": "https://geocue.com",
+            "page_class": "homepage",
+            "snippet": "    *   [LP360 Geospatial](https://www.lp360.com/product-line/lp360-geospatial/)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": "yes",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0385",
+        "line_start": 1,
+        "line_end": 1,
+        "url": "https://geocue.com/sensors/drone-lidar/trueview-641",
+        "page_class": "other",
+        "snippet": "TrueView 641 NDAA-Compliant LiDAR Sensor for Drone Mapping"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0033",
+        "line_start": 124,
+        "line_end": 124,
+        "url": "https://geocue.com/sensors/drone-lidar/trueview-655-660",
+        "page_class": "other",
+        "snippet": "All 655/660-series payloads, are NDAA-compliant and can be upgraded to accommodate dual purpose drone and mobile mapping."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0382",
+        "line_start": 124,
+        "line_end": 124,
+        "url": "https://geocue.com/sensors/drone-lidar/trueview-720",
+        "page_class": "other",
+        "snippet": "All 720 payloads, are NDAA-compliant ."
+      }
+    ],
+    "notes": "Multiple TrueView sensor lines explicitly designated NDAA-compliant: TrueView 641, 651, 655/660, 680/680LR, 720 listed under NDAA nav section and product pages state compliance directly"
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0029",
+        "line_start": 125,
+        "line_end": 125,
+        "url": "https://geocue.com/sensors/drone-lidar/trueview-1-lite",
+        "page_class": "other",
+        "snippet": "Add to cart"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0029",
+        "line_start": 143,
+        "line_end": 144,
+        "url": "https://geocue.com/sensors/drone-lidar/trueview-1-lite",
+        "page_class": "other",
+        "snippet": "------------------------------------------\nThe TrueView 1 Lite comes with one year of point cloud processing and options to upgrade with software Add-ons."
+      }
+    ],
+    "notes": "Products listed as catalog SKUs with add-to-cart, pricing info, and annual maintenance fees; company founded 2003 with established distribution network"
+  },
+  "unresolved_questions": [
+    "Blue UAS clearance status not disclosed on site",
+    "Standard (non-NDAA) TrueView sensor lines (515, 535, 539, 540, 651) not individually verified from fetched pages"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://geocue.com/sensors/drone-lidar/trueview-680/",
+      "reason": "Would confirm NDAA compliance claim for TrueView 680/680LR (listed under NDAA nav but product page not fetched)",
+      "expected_evidence": [
+        "ndaa",
+        "products"
+      ],
+      "source_hint": "guessed from nav link on homepage",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "complete",
+  "tagline": "Produces drone and handheld LiDAR-imagery sensors (TrueView series) and point-cloud processing software (LP360). NDAA-compliant models available (641, 651, 655/660, 680/680LR, 720); standard variants lack disclosed NDAA status. Blue UAS certification status unknown. Established player in commercial LiDAR since 2003; public evidence supports production readiness across drone, mobile, and handheld platforms.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 15,
+    "total_cost_usd": 0.39023469999999993,
+    "created_at": "2026-05-04T02:58:42+00:00",
+    "extract_version": "0.1.0"
+  }
+}

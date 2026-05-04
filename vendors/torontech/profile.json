@@ -1,0 +1,186 @@
+{
+  "target_id": "torontech",
+  "run_id": "canonical",
+  "display_name": "Torontech",
+  "homepage_url": "https://www.torontech.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/torontech/website",
+  "products_categories": {
+    "items": [],
+    "confidence": "high",
+    "status": "unknown",
+    "notes": "Torontech makes test & analytical instruments, medical devices, pharmaceutical testing equipment, and plastic recycling machines. No UXV-relevant product categories found."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Toronto",
+      "state_or_province": "Ontario",
+      "country": "Canada",
+      "address": "251 Consumers Road, Suite #1200, Toronto, Ontario, M2J 4R3"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 150,
+        "line_end": 151,
+        "url": "https://www.torontech.com",
+        "page_class": "homepage",
+        "snippet": "\u00a0\u00a0 Torontech Inc. : 251 Consumers Road, Suite #1200, Toronto, Ontario, M2J 4R3, Canada\n\u00a0\u00a0 **Canadian Headquarters:** [+1 416 368 2721](tel:+14163682721)"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "none",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 178,
+        "line_end": 178,
+        "url": "https://www.torontech.com",
+        "page_class": "homepage",
+        "snippet": "Torontech | Test & Analytical \u2022 Medical Devices \u2022 Pharmaceutical \u2022 Plastic Recycling"
+      }
+    ],
+    "notes": "Torontech is a scientific instrument/testing equipment and medical device company. Products include spectrometers, colorimeters, tensile testers, hospital beds, pharmaceutical testers, and plastic recycling machines. No UXV products or services."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "ScopeX RoHS Analyzer",
+        "product_type": "X-ray fluorescence analyzer for RoHS compliance",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0689",
+            "line_start": 164,
+            "line_end": 168,
+            "url": "https://www.torontech.com/product/scopex-rohs-analyzer",
+            "page_class": "product",
+            "snippet": "ScopeX RoHS Analyzer\n====================\nParent Product\n[XRF And XRD Analyzers](/xrf-and-xrd-analyzer/)\nThe ScopeX RoHS Analyzer is an all-in-one X-ray fluorescence analyzer built for screening and analyzing hazardous elements in compliance with RoHS/ELV regulations."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ScopeX PG7",
+        "product_type": "Precious metal / gold analyzer (XRF)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0740",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://www.torontech.com/scopex-pg7-precious-metal-analyzer-for-quality-inspection-agency-factory",
+            "page_class": "compliance",
+            "snippet": "Precious Metal Analyzer - ScopeX PG7"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TrueX G5",
+        "product_type": "Gold analyzer for recycling",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0705",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://www.torontech.com/product/truex-g5-gold-analyzer-for-high-quality-recycling",
+            "page_class": "compliance",
+            "snippet": "TrueX G5 Gold Analyzer for High-quality Recycling | Torontech"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ToronSpec 700D",
+        "product_type": "Portable color spectrophotometer",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0579",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://www.torontech.com/portable-color-spectrophotometer-colorimeter-toronspec-700d",
+            "page_class": "news",
+            "snippet": "Portable Color Spectrophotometer \u2013 Colorimeter ToronSpec\u2122 700D | Torontech"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AJ200",
+        "product_type": "Air jet sieving machine",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0067",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://www.torontech.com/air-jet-sieving-machine-aj200",
+            "page_class": "capability",
+            "snippet": "Air Jet Sieving Machine AJ200 | Torontech"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "All products are non-UXV scientific/industrial instruments."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No mention of NDAA Section 848/889 anywhere in the corpus. Not a drone vendor."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No mention of Blue UAS anywhere in the corpus. Not a drone vendor."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 178,
+        "line_end": 178,
+        "url": "https://www.torontech.com",
+        "page_class": "homepage",
+        "snippet": "Torontech | Test & Analytical \u2022 Medical Devices \u2022 Pharmaceutical \u2022 Plastic Recycling"
+      }
+    ],
+    "notes": "Torontech sells catalogued production instruments across multiple divisions (Test & Analytical, Medical, Pharmaceutical, Plastic Recycling)."
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Supplier of test, analytical, and medical equipment including XRF analyzers, tensile testers, environmental chambers, surgical tables, and pharmaceutical compliance instruments. Toronto-based, production-ready across multiple divisions. NDAA and Blue UAS certification status unknown; no public evidence of US defense contracts or unmanned-systems applications.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 11,
+    "total_cost_usd": 0.23276904999999998,
+    "created_at": "2026-05-04T06:55:09+00:00",
+    "extract_version": "0.1.0"
+  }
+}

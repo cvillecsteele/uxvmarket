@@ -1,0 +1,296 @@
+{
+  "target_id": "systel",
+  "run_id": "canonical",
+  "display_name": "Systel",
+  "homepage_url": "https://www.systelusa.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/systel/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "flight_and_vehicle_control",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0324",
+            "line_start": 144,
+            "line_end": 144,
+            "url": "https://systelusa.com/products/hawk-strike-iv",
+            "page_class": "product",
+            "snippet": "*   Uncrewed/unmanned and autonomous aerial, ground, and maritime vehicles/systems"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0329",
+            "line_start": 164,
+            "line_end": 170,
+            "url": "https://systelusa.com/products/kite-strike-ii",
+            "page_class": "product",
+            "snippet": "Spotlight Solution: Unmanned Ground Vehicles\n--------------------------------------------\nKite-Strike II is purpose-built for unmanned ground vehicle (UGV) mission-critical applications:\n\u2013 MIL-SPEC rugged\n\u2013 SWaP-optimized\n\u2013 Edge AI \u2013 Jetson AGX Orin SOM\n\u2013 Can integrate multiple sensors and video formats"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0335",
+            "line_start": 126,
+            "line_end": 126,
+            "url": "https://systelusa.com/products/sparrow-strike",
+            "page_class": "product",
+            "snippet": "Ultra-compact and lightweight, SWaP-optimized for integration and deployment in highly space-constrained vehicles."
+          }
+        ],
+        "notes": "MIL-SPEC rugged embedded mission computers described as 'brains of our vehicle' enabling autonomous/unmanned vehicle operation; Kite-Strike II spotlighted for UGV; Hawk-Strike IV explicitly listed for uncrewed/autonomous aerial, ground, and maritime vehicles"
+      },
+      {
+        "category": "isr_payloads",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0392",
+            "line_start": 110,
+            "line_end": 111,
+            "url": "https://systelusa.com/what-we-do/solutions/key-applications/c5isr",
+            "page_class": "capability",
+            "snippet": "### ISR Mission Computing\nSystel enables immediate and emerging intelligence, surveillance, and reconnaissance (ISR) capabilities for mission-critical applications in austere environments through best-in-class rugged server and embedded computing solutions."
+          }
+        ],
+        "notes": "Systel provides C5ISR mission computing with video capture/encode, sensor ingest/processing in rugged single-LRU systems; supports US Navy, Coast Guard, DHS, CBP, Marine Corps via Minotaur suite"
+      },
+      {
+        "category": "electronic_warfare",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0330",
+            "line_start": 131,
+            "line_end": 135,
+            "url": "https://systelusa.com/products/raven-strike-ii",
+            "page_class": "product",
+            "snippet": "*   AI and ML edge processing\n*   Counter-UAS (C-UAS)\n*   Radar\n*   Electronic warfare (EW) and signals intelligence (SIGINT)\n![quote\\_icon](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0322",
+            "line_start": 112,
+            "line_end": 112,
+            "url": "https://systelusa.com/products/gray-wolf-2",
+            "page_class": "product",
+            "snippet": "Gray Wolf 2 is a rugged 2U HPC Supercomputer. Featuring immense processing capability including dual Latest Gen Intel Scalable Xeon CPUs, up to Two Dual Slot H100 GPUs with NVLINK, and 2 extra slots for half height full width add in cards. Gray Wolf 2 is the best-in-class choice for AI, SIGINT, EW/CW demanding workloads in austere environments."
+          }
+        ],
+        "notes": "Raven-Strike II explicitly listed for EW/SIGINT and Counter-UAS; Gray Wolf 2 designed for AI, SIGINT, EW/CW workloads"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Sugar Land",
+      "state_or_province": "Texas",
+      "country": "United States",
+      "address": "1655 Industrial Blvd. Sugar Land, TX 77478"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0170",
+        "line_start": 126,
+        "line_end": 129,
+        "url": "https://systelusa.com/contact-us",
+        "page_class": "contact",
+        "snippet": "**Corporate Headquarters**\n1655 Industrial Blvd.\nSugar Land, TX 77478\nUSA"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 165,
+        "line_end": 167,
+        "url": "https://systelusa.com/",
+        "page_class": "homepage",
+        "snippet": "Your computers are the brains of our vehicle. The work that Systel is doing is saving lives.\n###### Program Manager\nUS DoD Prime Contractor - US Air Force (USAF) Program"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 180,
+        "line_end": 182,
+        "url": "https://systelusa.com/",
+        "page_class": "homepage",
+        "snippet": "Thanks for the great cooperation, it was a tight schedule but Systel really pulled through for us. We are looking forward to testing and deploying your computer on our UAV projects.\n###### Project Lead\nEU Defense Contractor - Autonomous Vehicle Program"
+      }
+    ],
+    "notes": "Systel designs and manufactures MIL-SPEC rugged embedded computers and rackmount servers integrated into UAV, UGV, and other uncrewed vehicle platforms by prime defense contractors. They are not OEMs of complete UAS platforms."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Sparrow-Strike",
+        "product_type": "ultra-small-form-factor MIL-SPEC rugged edge AI compute module (NVIDIA Jetson Orin NX or x86)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0335",
+            "line_start": 106,
+            "line_end": 108,
+            "url": "https://systelusa.com/products/sparrow-strike",
+            "page_class": "product",
+            "snippet": "Sparrow-Strike\n--------------\nMIL-SPEC rugged USFF edge processor integrating the NVIDIA Jetson Orin NX or SMARC x86 CPU. Next-gen edge AI compute solution. The world's first MIL-SPEC rugged Jetson Orin NX edge AI compute solution on the market."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Kite-Strike II",
+        "product_type": "SFF MIL-SPEC rugged embedded mission computer (NVIDIA Jetson AGX Orin or Intel x86 COM-HPC)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0329",
+            "line_start": 106,
+            "line_end": 108,
+            "url": "https://systelusa.com/products/kite-strike-ii",
+            "page_class": "product",
+            "snippet": "Kite-Strike II\n--------------\nMIL-SPEC rugged (certified) SFF mission computer integrating the NVIDIA Jetson AGX Orin or next-gen Intel x86 COM-HPC architecture that support a range of AI and compute at the edge applications."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Hawk-Strike IV",
+        "product_type": "fully rugged multi-mission embedded computer / LRU",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0324",
+            "line_start": 105,
+            "line_end": 107,
+            "url": "https://systelusa.com/products/hawk-strike-iv",
+            "page_class": "product",
+            "snippet": "Hawk-Strike IV\n--------------\nFully Rugged Multi-Mission Embedded Computer. High-performance workstation-class single line replaceable unit (LRU) solution"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Raven-Strike II",
+        "product_type": "MIL-SPEC rugged server-class embedded compute solution",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0330",
+            "line_start": 107,
+            "line_end": 108,
+            "url": "https://systelusa.com/products/raven-strike-ii",
+            "page_class": "product",
+            "snippet": "---------------\nMIL-SPEC rugged server-class compute solution, purpose-built for highly intensive workloads in austere environments. High performance, highly configurable with robust IO, high-capacity, high-speed storage."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Gray Wolf 2",
+        "product_type": "rugged 2U HPC rackmount server",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0322",
+            "line_start": 106,
+            "line_end": 108,
+            "url": "https://systelusa.com/products/gray-wolf-2",
+            "page_class": "product",
+            "snippet": "Gray Wolf 2\n-----------\nHigh-Performance Rugged 2U HPC Rackmount Server"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Additional rackmount products (Gray Wolf 4, Arctic Wolf 3, HR3000, RM1000-3000, SB2600, IPC-series) are in corpus but not fully read; primary UXV-relevant products listed here."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 131,
+        "line_end": 131,
+        "url": "https://systelusa.com/",
+        "page_class": "homepage",
+        "snippet": "All of our products are TAA-compliant and manufactured in the USA in our headquarters in Sugar Land, TX. We are proud to support your mission with American-made solutions."
+      }
+    ],
+    "notes": "Site claims TAA-compliance and 'Made in USA' manufacture but makes no explicit NDAA Section 848/889 compliance claim."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 115,
+        "line_end": 115,
+        "url": "https://systelusa.com/",
+        "page_class": "homepage",
+        "snippet": "Fully configurable 1U-4U form factors with numerous options. COTS and MCOTS solutions with thousands of systems deployed worldwide."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 141,
+        "line_end": 143,
+        "url": "https://systelusa.com/",
+        "page_class": "homepage",
+        "snippet": "#### Proven Record of Success\n30+ years of experience providing complex and advanced computer technologies to defense and commercial sectors worldwide. Thousands of systems deployed on enduring and emerging vehicles and platforms.\n![](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==)"
+      }
+    ],
+    "notes": "Thousands of systems deployed worldwide; deep catalog of COTS and MCOTS mission-ready computing systems; manufacturing at Sugar Land TX HQ; routinely supports multi-year and multi-decade programs."
+  },
+  "unresolved_questions": [
+    "Whether Systel holds any NDAA Section 848/889 compliance certification - site only discloses TAA compliance and Made in USA manufacture",
+    "Full extent of rackmount product line UXV relevance (Gray Wolf 4, Arctic Wolf 3, IPC-series products)"
+  ],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Designs and manufactures rugged embedded flight-control computers (Sparrow-Strike, Kite-Strike II, Hawk-Strike IV, Raven-Strike II) and rackmount servers for autonomous UAS, C5ISR, and electronic warfare. In production across US Navy and Army programs. NDAA compliance status not disclosed; Blue UAS certification unknown. Public evidence of actual UAS integration limited.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 16,
+    "total_cost_usd": 0.5728221,
+    "created_at": "2026-05-04T06:41:42+00:00",
+    "extract_version": "0.1.0"
+  }
+}

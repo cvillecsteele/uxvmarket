@@ -1,0 +1,169 @@
+{
+  "target_id": "packet-digital-badland-batteries",
+  "run_id": "canonical",
+  "display_name": "Packet Digital / Badland Batteries",
+  "homepage_url": "https://packetdigital.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/packet-digital-badland-batteries/website",
+  "products": [
+    {
+      "name": "MPPT-6SBB",
+      "category": "power_systems",
+      "descriptor": "Buck-boost solar MPPT for UAS, 8\u201330 V input, 8 A max, 500 Hz tracking",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0050",
+          "line_start": 53,
+          "line_end": 67,
+          "url": "https://packetdigital.com/power-products/maximum-power-point-tracker",
+          "page_class": "product",
+          "snippet": "**MPPT-6SBB**\n**MPPT-12SBB**\nConverter Architecture\nBuck-Boost\nBuck-Boost\nInput Voltage Range (1,2)\n8-30V\n8-51V\nOutput Voltage Range\n11-29V\n11-51V\nAbsolute Max Input Voltage\n33V\n55V\nAbsolute Max Output Voltage"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0050",
+          "line_start": 35,
+          "line_end": 35,
+          "url": "https://packetdigital.com/power-products/maximum-power-point-tracker",
+          "page_class": "product",
+          "snippet": "##### **Efficient UAS Solar Power Management System**"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "MPPT-12SBB",
+      "category": "power_systems",
+      "descriptor": "Buck-boost solar MPPT for UAS, 8\u201351 V input, 5 A max, 500 Hz tracking",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0050",
+          "line_start": 53,
+          "line_end": 67,
+          "url": "https://packetdigital.com/power-products/maximum-power-point-tracker",
+          "page_class": "product",
+          "snippet": "**MPPT-6SBB**\n**MPPT-12SBB**\nConverter Architecture\nBuck-Boost\nBuck-Boost\nInput Voltage Range (1,2)\n8-30V\n8-51V\nOutput Voltage Range\n11-29V\n11-51V\nAbsolute Max Input Voltage\n33V\n55V\nAbsolute Max Output Voltage"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0050",
+          "line_start": 35,
+          "line_end": 35,
+          "url": "https://packetdigital.com/power-products/maximum-power-point-tracker",
+          "page_class": "product",
+          "snippet": "##### **Efficient UAS Solar Power Management System**"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Power Distribution Board (PDB)",
+      "category": "power_systems",
+      "descriptor": "200 A UAV power distribution board, 10S battery support, 8 ESC outputs",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0051",
+          "line_start": 33,
+          "line_end": 36,
+          "url": "https://packetdigital.com/power-products/power-management-and-distribution",
+          "page_class": "product",
+          "snippet": "**A Drone Power Distribution Board Is For Those Who Refuse To Compromise**\n==========================================================================\n##### **Packet Digital\u2019s power distribution board (PDB) cuts no corners in design.**\nDesigned to enhance efficiency, reliability, battery endurance, and safety \u2013 this is an ideal PDB for mission-critical UAVs."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0051",
+          "line_start": 39,
+          "line_end": 50,
+          "url": "https://packetdigital.com/power-products/power-management-and-distribution",
+          "page_class": "product",
+          "snippet": "**Power Distribution Board Specs**\n----------------------------------\n*   Max Current: 200A\n*   Supports up to 10S Battery\n*   2 Battery Inputs\n*   8 ESC Outputs\n*   3 Auxiliary Outputs (Battery Voltage)\n*   Voltage and Current Sensing\n*   Dual 5 Volt, 3.2 Amp Regulators\n*   Input Voltage Range: 5.3V to 50V\n*   Size: 2.65\u2033 x 2.325\u2033\n*   Weight: 25g"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Smart Batteries",
+      "category": "power_systems",
+      "descriptor": "Smart UAS battery packs with real-time BMS, cell monitoring, and DroneCAN telemetry",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 5,
+          "line_end": 5,
+          "url": "https://packetdigital.com",
+          "page_class": "homepage",
+          "snippet": "    *   [Smart Batteries](https://packetdigital.com/batteries/smart-batteries/ \"Smart Batteries\")"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 37,
+          "line_end": 37,
+          "url": "https://packetdigital.com",
+          "page_class": "homepage",
+          "snippet": "#### We design, test, and manufacture smart batteries and power systems for cutting-edge UAS platforms around the world"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 51,
+          "line_end": 51,
+          "url": "https://packetdigital.com",
+          "page_class": "homepage",
+          "snippet": "What are Smart Batteries?"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Smart Chargers",
+      "category": "power_systems",
+      "descriptor": "Smart battery chargers for UAS batteries with cell-level charge management",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 6,
+          "line_end": 6,
+          "url": "https://packetdigital.com",
+          "page_class": "homepage",
+          "snippet": "    *   [Smart Chargers](https://packetdigital.com/batteries/smart-chargers/ \"Smart Chargers\")"
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 0,
+    "total_cost_usd": null,
+    "created_at": "2026-05-04T05:04:05+00:00",
+    "extract_version": "0.1.0"
+  }
+}

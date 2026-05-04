@@ -1,0 +1,288 @@
+{
+  "target_id": "lyten",
+  "run_id": "canonical",
+  "display_name": "Lyten",
+  "homepage_url": "https://lyten.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/lyten/website",
+  "products": [
+    {
+      "name": "UAS Cells & Packs",
+      "category": "power_systems",
+      "descriptor": "Ultra-lightweight lithium-sulfur battery cells and packs for unmanned aerial systems",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "yes",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0218",
+          "line_start": 51,
+          "line_end": 52,
+          "url": "https://lyten.com/products/battery-systems",
+          "page_class": "product",
+          "snippet": "### UAS Cells & Packs\nUltra-lightweight, lithium-sulfur propulsion for Unmanned Aerial Systems. U.S. sourced and manufactured using no nickel, manganese, cobalt or graphite (NDAA compliant)."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0218",
+          "line_start": 54,
+          "line_end": 55,
+          "url": "https://lyten.com/products/battery-systems",
+          "page_class": "product",
+          "snippet": "Li-S for UAVs is available today. Contact us to learn more.\n[Contact Us](https://lyten.com/contact-us/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Lithium-Sulfur Cells",
+      "category": "power_systems",
+      "descriptor": "High energy density, lightweight Li-S cells sourced and manufactured in the US",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0218",
+          "line_start": 38,
+          "line_end": 39,
+          "url": "https://lyten.com/products/battery-systems",
+          "page_class": "product",
+          "snippet": "### Lithium-Sulfur Cells\nHigh energy density. Light weight. Sourced and manufactured in the US using industrial by-products."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0218",
+          "line_start": 41,
+          "line_end": 41,
+          "url": "https://lyten.com/products/battery-systems",
+          "page_class": "product",
+          "snippet": "[Request Cells & Spec Sheets](/contact-us/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Lithium-ion Cells",
+      "category": "power_systems",
+      "descriptor": "High-performance lithium-ion cells tailored to customer specifications",
+      "granularity": "family",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0218",
+          "line_start": 62,
+          "line_end": 63,
+          "url": "https://lyten.com/products/battery-systems",
+          "page_class": "product",
+          "snippet": "### Lithium-ion Cells\nHigh-performance lithium-ion cells tailored to customer specifications."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Voltpack Mobile System (Voltpack Mobile 281/700)",
+      "category": "power_systems",
+      "descriptor": "Modular 281\u20131,405 kWh plug-and-play edge battery energy storage system, made in Poland",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0221",
+          "line_start": 83,
+          "line_end": 84,
+          "url": "https://lyten.com/products/energy-storage-system",
+          "page_class": "product",
+          "snippet": "Product name\nVoltpack Mobile 281/700"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0218",
+          "line_start": 66,
+          "line_end": 67,
+          "url": "https://lyten.com/products/battery-systems",
+          "page_class": "product",
+          "snippet": "### Voltpack Mobile System\nA stand-alone, modular system designed as a plug and play energy storage solution at the edge. Scalable from 281 kWh to 1,405 kWh for commercial, industrial and data centers. Made in Poland."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Volthub Grid",
+      "category": "power_systems",
+      "descriptor": "225 kVA grid interface hub for Voltpack Mobile System BESS deployments",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0221",
+          "line_start": 98,
+          "line_end": 99,
+          "url": "https://lyten.com/products/energy-storage-system",
+          "page_class": "product",
+          "snippet": "Product name\nVolthub Grid"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Voltrack",
+      "category": "power_systems",
+      "descriptor": "Flexible certified battery energy storage rack for BESS integration, made in Poland",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0218",
+          "line_start": 76,
+          "line_end": 77,
+          "url": "https://lyten.com/products/battery-systems",
+          "page_class": "product",
+          "snippet": "### Voltrack\nA flexible energy storage rack designed for safety and ready for integration into a wide range BESS solutions. Certified for global integration. Made in Poland."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Lyten 3D Graphene\u2122 Filament (PA1205)",
+      "category": "structures_and_materials",
+      "descriptor": "3D graphene-enhanced nylon PA12 filament for high-strength lightweight structural printing",
+      "granularity": "sku",
+      "readiness": "low_rate_production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0219",
+          "line_start": 30,
+          "line_end": 31,
+          "url": "https://lyten.com/products/composites",
+          "page_class": "product",
+          "snippet": "Lyten 3D Graphene\u2122 Filament \u2014 Strength, Speed, Quality, and Ease of Use.\n------------------------------------------------------------------------"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0219",
+          "line_start": 39,
+          "line_end": 39,
+          "url": "https://lyten.com/products/composites",
+          "page_class": "product",
+          "snippet": "**Please Note:** Due to strong demand following recent press coverage, **PA1205 is currently available via pre-order only. Fulfillment will begin once production inventory becomes available, and orders will ship on a rolling basis in the order received.**"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Lyten Adhesive 6120HT",
+      "category": "structures_and_materials",
+      "descriptor": "Two-part 3D graphene-enhanced structural adhesive with 120\u00b0C Tg for UAV and aerospace bonding",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0223",
+          "line_start": 27,
+          "line_end": 29,
+          "url": "https://lyten.com/products/structural-adhesive",
+          "page_class": "product",
+          "snippet": "Lyten Adhesive 6120HT\n=====================\nPowered by Lyten 3D Graphene\u2122"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0223",
+          "line_start": 77,
+          "line_end": 77,
+          "url": "https://lyten.com/products/structural-adhesive",
+          "page_class": "product",
+          "snippet": "Buy now while shipping is free!"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Lyten 3D Graphene\u2122 IoT Sensing Platform",
+      "category": "sensors_and_navigation",
+      "descriptor": "3D graphene-based IoT sensing platform for gas, resonant, and biosensing applications",
+      "granularity": "family",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0222",
+          "line_start": 32,
+          "line_end": 34,
+          "url": "https://lyten.com/products/sensors",
+          "page_class": "product",
+          "snippet": "### Lyten 3D Graphene\u2122 IoT Sensing Platform\n#### Gas & Vapor sensing\nPart per billion detection of multiple gases with a revolutionary sensor powerful enough to digitize smells."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "S Cure\u2122 Concrete Admixture",
+      "category": "structures_and_materials",
+      "descriptor": "3D graphene-enhanced patented concrete admixture for higher strength and lower embodied carbon",
+      "granularity": "sku",
+      "readiness": "low_rate_production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0220",
+          "line_start": 27,
+          "line_end": 30,
+          "url": "https://lyten.com/products/concrete-admixture",
+          "page_class": "product",
+          "snippet": "**High-Performance S Cure Concrete Admixture**\n==============================================\nPowered by Lyten 3D Graphene\u2122\nDesigned for Strength. Engineered for Sustainability."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0220",
+          "line_start": 70,
+          "line_end": 71,
+          "url": "https://lyten.com/products/concrete-admixture",
+          "page_class": "product",
+          "snippet": "### Trialing globally now. Commercial launch in 2Q26\u2026\n[Contact Sales](/contact-request-for-lyten-admix/)"
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "S Cure\u2122 Concrete Admixture: the \u2122 symbol does not appear in the fetched page text (product is shown as 'S Cure' or 'Lyten S Cure'); \u2122 retained from prioritized list.",
+    "Lithium-ion Cells readiness is unknown \u2014 page only offers a contact form with no buy/lead-time language.",
+    "Lyten 3D Graphene\u2122 IoT Sensing Platform readiness is unknown \u2014 no commercial ordering language found; appears to be an R&D/early-stage offering.",
+    "File 0005-products-composites.txt appears to mirror the 3D printer filament page content (URL alias or redirect); resource-0005 used for PA1205 citations."
+  ],
+  "fetch_requests": [],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 22,
+    "total_cost_usd": 0.73248095,
+    "created_at": "2026-05-04T04:03:40+00:00",
+    "extract_version": "0.1.0"
+  }
+}

@@ -1,0 +1,315 @@
+{
+  "target_id": "specialty-coating-systems",
+  "run_id": "canonical",
+  "display_name": "Specialty Coating Systems",
+  "homepage_url": "https://scscoatings.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/specialty-coating-systems/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "structures_and_materials",
+        "is_primary": true,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 165,
+            "line_end": 165,
+            "url": "https://scscoatings.com",
+            "page_class": "homepage",
+            "snippet": "With over 50 years of experience in conformal coating engineering and applications, SCS is the world leader in Parylene, liquid, plasma polymerized, ALD and multilayer conformal coating technologies. We\u2019re a direct descendant of the companies that originally developed Parylene, and we leverage that expertise on every project \u2013 from initial planning to process application."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0013",
+            "line_start": 221,
+            "line_end": 222,
+            "url": "https://scscoatings.com/compliance",
+            "page_class": "compliance",
+            "snippet": "Lightweight protection increases the reliability of UAVs\n[Get the E-book!](/ebook-uav/)"
+          }
+        ],
+        "notes": "Parylene, epoxy, silicone, acrylic and plasma polymer conformal coatings applied to UAV electronic assemblies."
+      },
+      {
+        "category": "test_and_measurement",
+        "is_primary": false,
+        "confidence": "low",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 214,
+            "line_end": 214,
+            "url": "https://scscoatings.com",
+            "page_class": "homepage",
+            "snippet": "#### [SCS Launches New G4 Spin Coater and Upgrades 6800 Series with Improved Design Features](https://scscoatings.com/newsroom/scs-launches-new-g4-spin-coater-and-upgrades-6800-series-with-improved-design-features/)"
+          }
+        ],
+        "notes": "Ionograph Series and Omegameter SMD 650 are PCB ionic contamination test instruments sold alongside coating services."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "SCS provides conformal coating services (Parylene, liquid, plasma, ALD, multilayer) \u2014 polymer protective coatings for electronics used in UAVs. None of the allowed categories maps perfectly; structures_and_materials is the closest fit given 'polymers' in the definition. They also sell PCB cleanliness testing equipment (Ionograph, Omegameter)."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Indianapolis",
+      "state_or_province": "Indiana",
+      "country": "United States",
+      "address": "7645 Woodland Drive"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 239,
+        "line_end": 241,
+        "url": "https://scscoatings.com",
+        "page_class": "homepage",
+        "snippet": "**Global Headquarters**\n7645 Woodland Drive\nIndianapolis, IN 46278, USA"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 65,
+        "line_end": 65,
+        "url": "https://scscoatings.com",
+        "page_class": "homepage",
+        "snippet": "        *   [UAV and Support System Coatings](https://scscoatings.com/aerospace-defense-coatings/uav-drones/)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0013",
+        "line_start": 221,
+        "line_end": 221,
+        "url": "https://scscoatings.com/compliance",
+        "page_class": "compliance",
+        "snippet": "Lightweight protection increases the reliability of UAVs"
+      }
+    ],
+    "notes": "SCS supplies protective polymer conformal coatings (materials + application services) applied to UAV electronics. They have a dedicated 'UAV and Support System Coatings' application page and a UAV-specific e-book. They serve many industries broadly but have a clear UXV-specific product/service line."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Parylene Coatings",
+        "product_type": "conformal coating service / Parylene polymer coating",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 21,
+            "line_end": 21,
+            "url": "https://scscoatings.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Parylene Coatings](/parylene-coatings/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Liquid Coatings",
+        "product_type": "conformal coating service (acrylic, epoxy, polyurethane, silicone)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 22,
+            "line_end": 22,
+            "url": "https://scscoatings.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Liquid Coatings](https://scscoatings.com/liquid-coatings/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Plasma Coatings (PlasmaGuard)",
+        "product_type": "plasma polymerized conformal coating",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 27,
+            "line_end": 27,
+            "url": "https://scscoatings.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Plasma Coatings](https://scscoatings.com/scs-plasmaguard-coatings/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ALD Coatings",
+        "product_type": "atomic layer deposition conformal coating",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 28,
+            "line_end": 28,
+            "url": "https://scscoatings.com",
+            "page_class": "homepage",
+            "snippet": "    *   [ALD Coatings](https://scscoatings.com/ald-coatings/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Multilayer Coatings",
+        "product_type": "multilayer conformal coating",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 29,
+            "line_end": 29,
+            "url": "https://scscoatings.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Multilayer Coatings](https://scscoatings.com/multilayer-coatings/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AdPro Adhesion Technologies",
+        "product_type": "surface adhesion promotion technology",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 31,
+            "line_end": 31,
+            "url": "https://scscoatings.com",
+            "page_class": "homepage",
+            "snippet": "        *   [AdPro Adhesion Technologies](https://scscoatings.com/parylene-coatings/adhesion-technology/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "G4 Spin Coater",
+        "product_type": "conformal coating application equipment",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 214,
+            "line_end": 214,
+            "url": "https://scscoatings.com",
+            "page_class": "homepage",
+            "snippet": "#### [SCS Launches New G4 Spin Coater and Upgrades 6800 Series with Improved Design Features](https://scscoatings.com/newsroom/scs-launches-new-g4-spin-coater-and-upgrades-6800-series-with-improved-design-features/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "6800 Spin Coater Series",
+        "product_type": "conformal coating application equipment",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 214,
+            "line_end": 214,
+            "url": "https://scscoatings.com",
+            "page_class": "homepage",
+            "snippet": "#### [SCS Launches New G4 Spin Coater and Upgrades 6800 Series with Improved Design Features](https://scscoatings.com/newsroom/scs-launches-new-g4-spin-coater-and-upgrades-6800-series-with-improved-design-features/)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Named product lines identified from homepage navigation and news headlines. Many additional named products (PrecisionCoat VI, Labcoter 3, ParyFree, etc.) appear in the literature list but on a single very long line that cannot be cited within word limits."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "Compliance page lists ITAR registration, RoHS, REACH, Nadcap, AS9100, ISO 9001 \u2014 no mention of NDAA Section 848 or 889 compliance."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No mention of Blue UAS or Blue sUAS anywhere in the corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 207,
+        "line_end": 207,
+        "url": "https://scscoatings.com",
+        "page_class": "homepage",
+        "snippet": "SCS provides industry-leading coating services in 21 regionally-located facilities throughout the Americas, Europe and Asia."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 163,
+        "line_end": 163,
+        "url": "https://scscoatings.com",
+        "page_class": "homepage",
+        "snippet": "Leading the Way in Conformal Coating Solutions for Over 50 Years"
+      }
+    ],
+    "notes": "SCS operates 21 production coating facilities worldwide serving serial production customers across aerospace, medical, automotive, and electronics industries."
+  },
+  "unresolved_questions": [
+    "UAV-specific conformal coating page (scscoatings.com/aerospace-defense-coatings/uav-drones/) was not fetched \u2014 would confirm exact UAV product/service names and any NDAA/compliance claims for that application.",
+    "Exact named parylene variants (Parylene C-UVF, ParyFree, microRESIST) could not be individually cited due to long-line formatting in the contact page literature list."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://scscoatings.com/aerospace-defense-coatings/uav-drones/",
+      "reason": "UAV-specific product/service page \u2014 would confirm exact coating products for UAVs, any NDAA/compliance claims, and refine supply chain role classification.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role",
+        "ndaa"
+      ],
+      "source_hint": "linked from resource-0001 line 65 nav menu",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "partial",
+  "tagline": "Provides conformal coating services\u2014parylene, plasma, ALD, and liquid formulations\u2014for UAV electronics and aerospace components. Production-ready with global capacity. NDAA and Blue UAS certification status not publicly disclosed; no major defense contracts identified in open records.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 9,
+    "total_cost_usd": 0.3991722,
+    "created_at": "2026-05-04T06:25:07+00:00",
+    "extract_version": "0.1.0"
+  }
+}

@@ -1,0 +1,309 @@
+{
+  "target_id": "sbg-systems",
+  "run_id": "canonical",
+  "display_name": "SBG Systems",
+  "homepage_url": "https://www.sbg-systems.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/sbg-systems/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0183",
+            "line_start": 47,
+            "line_end": 47,
+            "url": "https://www.sbg-systems.com/company",
+            "page_class": "company",
+            "snippet": "We are engineering and manufacturing innovative IMU, AHRS, INS for almost 20 years, addressing the most exciting markets"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0183",
+            "line_start": 49,
+            "line_end": 49,
+            "url": "https://www.sbg-systems.com/company",
+            "page_class": "company",
+            "snippet": "A leading supplier of inertial sensors"
+          }
+        ],
+        "notes": "Designs and manufactures IMUs, AHRS, and INS/GNSS systems for navigation across land, air, marine, and unmanned applications"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Carri\u00e8res-sur-Seine",
+      "state_or_province": null,
+      "country": "France",
+      "address": "1 Avenue Eiffel, 78420 Carri\u00e8res-sur-Seine"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0619",
+        "line_start": 70,
+        "line_end": 72,
+        "url": "https://www.sbg-systems.com/website-terms-and-conditions",
+        "page_class": "company",
+        "snippet": "SBG Systems\n1 Avenue Eiffel,\n78420 Carri\u00e8res-sur-Seine, FRANCE"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 110,
+        "line_end": 110,
+        "url": "https://www.sbg-systems.com",
+        "page_class": "homepage",
+        "snippet": "Our OEM (Original Equipment Manufacturer) Inertial Systems are tailored to fit specific requirements and are often used in industries where space requirement is critical, such as aerospace, automotive, marine, and unmanned systems."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0607",
+        "line_start": 102,
+        "line_end": 103,
+        "url": "https://www.sbg-systems.com/vehicles/advanced-air-mobility",
+        "page_class": "capability",
+        "snippet": "*   Quanta directly and precisely geotags your point cloud whether your platform is a UAV or a car.\n*   In UAV based photogrammetry, it also reduces the need for GCPs and overlapping thanks to precise orientation and position data."
+      }
+    ],
+    "notes": "Sells IMU, AHRS, and INS/GNSS sensors as components for integration into drones and other unmanned systems"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Ellipse Series",
+        "product_type": "INS/AHRS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 201,
+            "line_end": 202,
+            "url": "https://www.sbg-systems.com",
+            "page_class": "homepage",
+            "snippet": "Product ranges\n[Apogee Series](https://www.sbg-systems.com/apogee-series/) [Ellipse Series](https://www.sbg-systems.com/ellipse-series/) [Ellipse Micro Series](https://www.sbg-systems.com/ellipse-micro-series/) [Ekinox Series](https://www.sbg-systems.com/ekinox-series/) [Navsight Series](https://www.sbg-systems.com/navsight-series/) [Pulse Series](https://www.sbg-systems.com/pulse-series/) [Quanta Series](https://www.sbg-systems.com/quanta-series/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Ellipse Micro Series",
+        "product_type": "miniature INS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 201,
+            "line_end": 202,
+            "url": "https://www.sbg-systems.com",
+            "page_class": "homepage",
+            "snippet": "Product ranges\n[Apogee Series](https://www.sbg-systems.com/apogee-series/) [Ellipse Series](https://www.sbg-systems.com/ellipse-series/) [Ellipse Micro Series](https://www.sbg-systems.com/ellipse-micro-series/) [Ekinox Series](https://www.sbg-systems.com/ekinox-series/) [Navsight Series](https://www.sbg-systems.com/navsight-series/) [Pulse Series](https://www.sbg-systems.com/pulse-series/) [Quanta Series](https://www.sbg-systems.com/quanta-series/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Ekinox Series",
+        "product_type": "high-performance INS/GNSS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0607",
+            "line_start": 107,
+            "line_end": 108,
+            "url": "https://www.sbg-systems.com/vehicles/advanced-air-mobility",
+            "page_class": "capability",
+            "snippet": "### Ekinox Micro\nEkinox Micro is a compact, high-performance INS with dual-antenna GNSS, delivering unmatched accuracy and reliability in mission-critical applications."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Apogee Series",
+        "product_type": "high-precision INS/GNSS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0555",
+            "line_start": 93,
+            "line_end": 94,
+            "url": "https://www.sbg-systems.com/systems-surveyors",
+            "page_class": "capability",
+            "snippet": "### Apogee-D\nApogee-D is an all-in-one INS/GNSS which embeds an RTK and PPP ready GNSS receiver for applications where space is critical but high performance required."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Quanta Series",
+        "product_type": "OEM INS/GNSS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0607",
+            "line_start": 95,
+            "line_end": 96,
+            "url": "https://www.sbg-systems.com/vehicles/advanced-air-mobility",
+            "page_class": "capability",
+            "snippet": "### Quanta Micro\nQuanta Micro is a GNSS aided Inertial Navigation System designed for space constrained applications (OEM package). Based on a survey grade IMU for optimal heading performance in single antenna applications, and high immunity to vibrating environments."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Pulse Series",
+        "product_type": "tactical-grade IMU",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0607",
+            "line_start": 83,
+            "line_end": 84,
+            "url": "https://www.sbg-systems.com/vehicles/advanced-air-mobility",
+            "page_class": "capability",
+            "snippet": "### Pulse-40\nPulse-40 IMU is ideal for critical applications. Make no compromise between size, performance, and reliability."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Navsight Series",
+        "product_type": "surveyor INS/GNSS solution",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0555",
+            "line_start": 57,
+            "line_end": 58,
+            "url": "https://www.sbg-systems.com/systems-surveyors",
+            "page_class": "capability",
+            "snippet": "### Navsight Marine\nNavsight Marine is a motion & navigation solution designed to ease Hydrographer\u2019s tasks."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Stellar-40 Land/Air",
+        "product_type": "tactical-grade INS/GNSS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0409",
+            "line_start": 46,
+            "line_end": 46,
+            "url": "https://www.sbg-systems.com/ins/stellar-40-land-air",
+            "page_class": "capability",
+            "snippet": "Stellar-40 Land/Air Tactical-grade inertial navigation system"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Qinertia",
+        "product_type": "GNSS+INS post-processing software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0555",
+            "line_start": 111,
+            "line_end": 112,
+            "url": "https://www.sbg-systems.com/systems-surveyors",
+            "page_class": "capability",
+            "snippet": "### Qinertia GNSS-INS\nQinertia PPK software delivers advanced high-precision positioning solutions. Qinertia delivers reliable, centimeter-level positioning for geospatial professionals, supporting UAV mapping, mobile surveying, marine operations, and autonomous vehicle testing\u2014anywhere, anytime."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0607",
+        "line_start": 112,
+        "line_end": 112,
+        "url": "https://www.sbg-systems.com/vehicles/advanced-air-mobility",
+        "page_class": "capability",
+        "snippet": "*   ITAR Free, designed and manufactured in France, and has no export restriction."
+      }
+    ],
+    "notes": "Site claims ITAR Free status for multiple products (designed and manufactured in France, no export restriction) but makes no NDAA Section 848/889 compliance claims"
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0409",
+        "line_start": 50,
+        "line_end": 50,
+        "url": "https://www.sbg-systems.com/ins/stellar-40-land-air",
+        "page_class": "capability",
+        "snippet": "Merging high-end performance with industrial flexibility, Stellar-40 Land/Air features a unique triple-layer vibration mitigation architecture in a design optimized for scalability, meeting the rigorous demands of mass production."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 99,
+        "line_end": 99,
+        "url": "https://www.sbg-systems.com",
+        "page_class": "homepage",
+        "snippet": "Manufactured in our facility in France, each IMU undergoes rigorous dynamic calibration over the full temperature range to ensure quality and consistency."
+      }
+    ],
+    "notes": "ISO 9001 certified manufacturer; makes products in France; Stellar-40 explicitly designed for mass production scalability; 5,000+ customers in 70+ countries"
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "French-headquartered supplier of inertial measurement units, AHRS, and inertial navigation systems spanning the Ellipse, Ekinox, Apogee, Quanta, Pulse, Navsight, and Stellar-40 product lines. Serves defense, autonomous vehicles, geospatial, and survey markets. NDAA and Blue UAS certification status unknown; public evidence of US defense adoption limited despite customer logos including US Army Corps of Engineers.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 14,
+    "total_cost_usd": 0.59738015,
+    "created_at": "2026-05-04T06:05:15+00:00",
+    "extract_version": "0.1.0"
+  }
+}

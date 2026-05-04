@@ -1,0 +1,470 @@
+{
+  "target_id": "defensync",
+  "run_id": "canonical",
+  "display_name": "DefenSync",
+  "homepage_url": "https://www.defensync.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/defensync/website",
+  "products": [
+    {
+      "name": "Skydio X10",
+      "category": "airframes",
+      "descriptor": "AI-powered small UAS with modular sensor packages, 40-min flight time, IP55",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "yes",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0041",
+          "line_start": 209,
+          "line_end": 210,
+          "url": "https://www.defensync.com/skydiox10",
+          "page_class": "other",
+          "snippet": "Skydio X10\n=========="
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0041",
+          "line_start": 384,
+          "line_end": 384,
+          "url": "https://www.defensync.com/skydiox10",
+          "page_class": "other",
+          "snippet": "    NDAA Compliance:\u00a0NDAA Compliant"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Skydio X10D",
+      "category": "airframes",
+      "descriptor": "AI-powered defense small UAS with FLIR thermal, 40-min flight, Blue UAS cleared",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "yes",
+      "blue_uas": "yes",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0042",
+          "line_start": 46,
+          "line_end": 47,
+          "url": "https://www.defensync.com/skydiox10d",
+          "page_class": "other",
+          "snippet": "Skydio X10D\n==========="
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0042",
+          "line_start": 300,
+          "line_end": 301,
+          "url": "https://www.defensync.com/skydiox10d",
+          "page_class": "other",
+          "snippet": "    *   On the Blue UAS Cleared list\n    *   NDAA compliant"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0042",
+          "line_start": 396,
+          "line_end": 397,
+          "url": "https://www.defensync.com/skydiox10d",
+          "page_class": "other",
+          "snippet": "    Blue\u00a0UAS\u00a0list: On\u00a0the\u00a0Blue\u00a0UAS\u00a0list,\u00a0and\u00a0approved\u00a0by\u00a0the\u00a0DoD\n    NDAA Compliance:\u00a0NDAA Compliant"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "SkyEye Command and Control System",
+      "category": "ground_segment",
+      "descriptor": "Centralized C-UAS command and control system fusing detection and interception inputs",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0007",
+          "line_start": 44,
+          "line_end": 46,
+          "url": "https://www.defensync.com/skyeye-command-and-control",
+          "page_class": "other",
+          "snippet": "SkyEye : Safeguarding the Skies\n-------------------------------\nCommand and Control System"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0007",
+          "line_start": 73,
+          "line_end": 75,
+          "url": "https://www.defensync.com/skyeye-command-and-control",
+          "page_class": "other",
+          "snippet": "SkyEye\n#### Key Features & Advantages\nOur Control and Command System for Counter UAS (C-UAS) incorporates a range of key features designed to provide unparalleled airspace security."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "RF Cyber-Takeover",
+      "category": "electronic_warfare",
+      "descriptor": "RF-based cyber-takeover countermeasure for neutralizing rogue drones",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 25,
+          "line_end": 25,
+          "url": "https://www.defensync.com",
+          "page_class": "homepage",
+          "snippet": "    [RF CYBER-TAKEOVER](https://www.defensync.com/rf-cybertakeover)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "GPS Jamming",
+      "category": "electronic_warfare",
+      "descriptor": "GPS jamming system for UAS interception and neutralization",
+      "granularity": "category",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 21,
+          "line_end": 21,
+          "url": "https://www.defensync.com",
+          "page_class": "homepage",
+          "snippet": "    [GPS JAMMING](https://www.defensync.com/gps-jamming)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 90,
+          "line_end": 90,
+          "url": "https://www.defensync.com",
+          "page_class": "homepage",
+          "snippet": "DefenSync is dedicated to providing advanced and customized solutions to counter UAS threats. Our targeted and controlled approach ensures minimal disruption to authorized systems, while our rapid deployment capabilities allow timely responses to emerging threats."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Radio Frequency Jamming",
+      "category": "electronic_warfare",
+      "descriptor": "RF jamming system for counter-UAS interception",
+      "granularity": "category",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 22,
+          "line_end": 22,
+          "url": "https://www.defensync.com",
+          "page_class": "homepage",
+          "snippet": "    [RADIO FREQUENCY JAMMING](https://www.defensync.com/rf-jamming)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 90,
+          "line_end": 90,
+          "url": "https://www.defensync.com",
+          "page_class": "homepage",
+          "snippet": "DefenSync is dedicated to providing advanced and customized solutions to counter UAS threats. Our targeted and controlled approach ensures minimal disruption to authorized systems, while our rapid deployment capabilities allow timely responses to emerging threats."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Laser Beam",
+      "category": "electronic_warfare",
+      "descriptor": "Laser directed-energy system for drone interception",
+      "granularity": "category",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 23,
+          "line_end": 23,
+          "url": "https://www.defensync.com",
+          "page_class": "homepage",
+          "snippet": "    [LASER BEAM](https://www.defensync.com/laser-beam)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Radar",
+      "category": "sensors_and_navigation",
+      "descriptor": "Counter-UAS radar for drone detection, tracking, and situational awareness",
+      "granularity": "category",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 17,
+          "line_end": 17,
+          "url": "https://www.defensync.com",
+          "page_class": "homepage",
+          "snippet": "    [RADAR](https://www.defensync.com/radar)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 83,
+          "line_end": 83,
+          "url": "https://www.defensync.com",
+          "page_class": "homepage",
+          "snippet": "Counter UAS Radars play a fundamental role in identifying, tracking, and neutralizing unauthorized drone activities. By utilizing advanced technologies, these radars offer comprehensive coverage and real-time insights, empowering security teams to protect critical assets and individuals."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Radio Frequency Detector",
+      "category": "sensors_and_navigation",
+      "descriptor": "RF detection sensor for identifying and locating unauthorized drones",
+      "granularity": "category",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 18,
+          "line_end": 18,
+          "url": "https://www.defensync.com",
+          "page_class": "homepage",
+          "snippet": "    [RADIO FREQUENCY DETECTOR](https://www.defensync.com/rf-detection)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Electro-Optical Sensors",
+      "category": "isr_payloads",
+      "descriptor": "Electro-optical sensors for counter-UAS detection and surveillance",
+      "granularity": "category",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 19,
+          "line_end": 19,
+          "url": "https://www.defensync.com",
+          "page_class": "homepage",
+          "snippet": "    [ELECTRO-OPTICAL SENSORS](https://www.defensync.com/electro-optical-sensors)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "SkyDefender RF Cyber-Takeover",
+      "category": "electronic_warfare",
+      "descriptor": "RF-based counter-UAS system that seizes control of rogue drones for safe landing",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0008",
+          "line_start": 44,
+          "line_end": 46,
+          "url": "https://www.defensync.com/rf-cybertakeover",
+          "page_class": "other",
+          "snippet": "Drone Radio Frequency Cyber Takeover\n====================================\nDefenSync SkyDefender / Interception"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0008",
+          "line_start": 51,
+          "line_end": 51,
+          "url": "https://www.defensync.com/rf-cybertakeover",
+          "page_class": "other",
+          "snippet": "RF cyber-takeover utilizes a short, precise signal to seize control of rogue drones, redirecting them along a predetermined safe route for a controlled landing. This surgical approach minimizes collateral damage and intervention range is optimized for effective communication disruption."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "SkyDefender Radar",
+      "category": "electronic_warfare",
+      "descriptor": "Counter-UAS radar for real-time drone identification, tracking, and coverage",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 17,
+          "line_end": 17,
+          "url": "https://www.defensync.com",
+          "page_class": "homepage",
+          "snippet": "    [RADAR](https://www.defensync.com/radar)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 65,
+          "line_end": 65,
+          "url": "https://www.defensync.com",
+          "page_class": "homepage",
+          "snippet": "Counter UAS Radars play a fundamental role in identifying, tracking, and neutralizing unauthorized drone activities. By utilizing advanced technologies, these radars offer comprehensive coverage and real-time insights, empowering security teams to protect critical assets and individuals."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "SkyDefender RF Detection",
+      "category": "electronic_warfare",
+      "descriptor": "Counter-UAS RF 360\u00b0 finder detecting and tracking drones via AI signal analysis",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0009",
+          "line_start": 44,
+          "line_end": 46,
+          "url": "https://www.defensync.com/rf-detection",
+          "page_class": "other",
+          "snippet": "Radio Frequency 360\u00b0 Detector\n-----------------------------\nDefenSync SkyDefender / Detection"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "SkyDefender GPS Jamming",
+      "category": "electronic_warfare",
+      "descriptor": "Counter-UAS GPS jamming system disrupting drone navigation signals",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0027",
+          "line_start": 44,
+          "line_end": 46,
+          "url": "https://www.defensync.com/gps-jamming",
+          "page_class": "other",
+          "snippet": "Drone GPS Jamming Solutions\n===========================\nDefenSync SkyDefender / Interception"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "SkyDefender RF Jamming",
+      "category": "electronic_warfare",
+      "descriptor": "Counter-UAS RF jammer disrupting drone-to-controller communication links",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0017",
+          "line_start": 44,
+          "line_end": 46,
+          "url": "https://www.defensync.com/rf-jamming",
+          "page_class": "other",
+          "snippet": "Radio Frequency Jamming\n-----------------------\nDefenSync SkyDefender / Interception"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "SkyDefender Electro-Optical Sensors",
+      "category": "isr_payloads",
+      "descriptor": "Counter-UAS EO/IR camera sensors for visual and thermal drone detection",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0025",
+          "line_start": 44,
+          "line_end": 46,
+          "url": "https://www.defensync.com/electro-optical-sensors",
+          "page_class": "other",
+          "snippet": "Electro Optical Drone Detection\n===============================\nDefenSync SkyDefender / Detection"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "SkyDefender Laser Beam",
+      "category": "electronic_warfare",
+      "descriptor": "High-energy laser counter-UAS system for precision drone destruction",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0023",
+          "line_start": 44,
+          "line_end": 46,
+          "url": "https://www.defensync.com/laser-beam",
+          "page_class": "other",
+          "snippet": "Laser Beam\n----------\nDefenSync SkyDefender / Interception"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0023",
+          "line_start": 51,
+          "line_end": 51,
+          "url": "https://www.defensync.com/laser-beam",
+          "page_class": "other",
+          "snippet": "Laser-based systems offer unmatched precision in targeting and neutralizing rogue drones. By emitting concentrated beams of light, these systems accurately destroy drone structures and electronics, rendering them inoperable."
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "SkyDefender Radar: resource-0002 (slug 'radar', status=fetched) served identical RF Detection content as resource-0008, likely a Wix CMS routing issue. Specific radar model/technical details remain unknown; product evidence sourced from homepage.",
+    "Skydio X10 Blue UAS status: The X10D explicitly states 'On the Blue UAS Cleared list' but the X10 spec sheet only claims NDAA compliance with no Blue UAS mention. X10 Blue UAS classified as unknown.",
+    "All SkyDefender C-UAS products are consultation/quote-only with no pricing or in-stock language; readiness classified as unknown for all."
+  ],
+  "fetch_requests": [],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 22,
+    "total_cost_usd": 0.48143485,
+    "created_at": "2026-05-04T01:45:34+00:00",
+    "extract_version": "0.1.0"
+  }
+}

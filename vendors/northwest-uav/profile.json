@@ -1,0 +1,499 @@
+{
+  "target_id": "northwest-uav",
+  "run_id": "canonical",
+  "display_name": "Northwest UAV",
+  "homepage_url": "https://www.nwuav.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/northwest-uav/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://www.nwuav.com",
+            "page_class": "homepage",
+            "snippet": "Northwest UAV | Aviation-grade American-made UAV Propulsion Systems"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0115",
+            "line_start": 47,
+            "line_end": 48,
+            "url": "https://www.nwuav.com/products.html",
+            "page_class": "product",
+            "snippet": "#### NW-230 HF UAV Engine\nDesigned with emphasis on low maintenance & high endurance unmanned aircraft in the 90-160 kg weight class."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0115",
+            "line_start": 52,
+            "line_end": 53,
+            "url": "https://www.nwuav.com/products.html",
+            "page_class": "product",
+            "snippet": "#### NW-88 HF UAV Engine\nPurpose-built for unmanned systems with larger payload requirements scalable for aircraft in the 34-68 kg weight class."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0115",
+            "line_start": 57,
+            "line_end": 58,
+            "url": "https://www.nwuav.com/products.html",
+            "page_class": "product",
+            "snippet": "#### NW-44 HF UAV Engine\nOne of the most configurable engines on the market today scalable for unmanned aircraft in the 18-34 kg weight class."
+          }
+        ],
+        "notes": "Core business: UAV heavy-fuel engines (NW-44, NW-88, NW-230) plus H2 PEM fuel cell"
+      },
+      {
+        "category": "power_systems",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0115",
+            "line_start": 63,
+            "line_end": 64,
+            "url": "https://www.nwuav.com/products.html",
+            "page_class": "product",
+            "snippet": "Hydrogen for clean reliable energy. NWUAV's Proton Exchange Membrane (PEM) fuel cell for unmanned propulsion systems.\n![Northwest UAV | NWFC-1500 Hydrogen Fuel Cell Propulsion](images/nwuav-global_logo.svg)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0109",
+            "line_start": 66,
+            "line_end": 67,
+            "url": "https://www.nwuav.com/products-components.html",
+            "page_class": "product",
+            "snippet": "#### Generator (frameless/brushless) Features\n![Northwest UAV | NW-230 HF UAV Engine](images/products/uav-component-generator_200px.png)NWUAV\u2019s frameless brushless generator is designed to fit directly into your application, using the system mechanics to hold it. The generator is designed to be highly efficient, with high-grade magnets and materials in a compact design."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0109",
+            "line_start": 76,
+            "line_end": 77,
+            "url": "https://www.nwuav.com/products-components.html",
+            "page_class": "product",
+            "snippet": "#### 280-Watt Generator Control Unit (GCU) Features\n![Northwest UAV | NW-230 HF UAV Engine](images/products/uav-component-280-watt-generator-control-unit_200px.png)Mix and match your system's voltage and power requirements with the NWUAV GCU. The GCU manages the variable voltage and frequency inputs and outputs stable DC power. Designed to fit the needs of most Small Unmanned Aerial Vehicles."
+          }
+        ],
+        "notes": "NWFC-1500 PEM hydrogen fuel cell, frameless brushless generator, 280-W GCU"
+      },
+      {
+        "category": "propulsion_electronics",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0109",
+            "line_start": 46,
+            "line_end": 46,
+            "url": "https://www.nwuav.com/products-components.html",
+            "page_class": "product",
+            "snippet": "#### Engine Control Unit SW1.0 (ECU) Features"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0109",
+            "line_start": 56,
+            "line_end": 56,
+            "url": "https://www.nwuav.com/products-components.html",
+            "page_class": "product",
+            "snippet": "#### Fuel Delivery System (FDS) Features"
+          }
+        ],
+        "notes": "Engine Control Unit SW1.0 (ECU) and Fuel Delivery System (FDS) manufactured in-house"
+      },
+      {
+        "category": "flight_and_vehicle_control",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0111",
+            "line_start": 75,
+            "line_end": 76,
+            "url": "https://www.nwuav.com/products-distributed.html",
+            "page_class": "product",
+            "snippet": "#### Veronte Autopilots, Avionics, Simulation Software, and Accessories\n###### Northwest UAV is an authorized United States distributor for Veronte"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0111",
+            "line_start": 45,
+            "line_end": 46,
+            "url": "https://www.nwuav.com/products-distributed.html",
+            "page_class": "product",
+            "snippet": "#### Pegasus Industrial & Redundant Servo Actuators\n###### Northwest UAV is an exclusive authorized United States distributor for Pegasus UAV Servo Actuators"
+          }
+        ],
+        "notes": "Authorized US distributor for Veronte autopilots and Pegasus servo actuators"
+      },
+      {
+        "category": "communications",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0111",
+            "line_start": 54,
+            "line_end": 55,
+            "url": "https://www.nwuav.com/products-distributed.html",
+            "page_class": "product",
+            "snippet": "#### StreamCaster MANET Radios | Wireless Communications Systems \u2014 Unmanned Vehicles\n###### Northwest UAV is an authorized distributor for Silvus"
+          }
+        ],
+        "notes": "Authorized distributor for Silvus Technologies StreamCaster MANET radios"
+      },
+      {
+        "category": "test_and_measurement",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0068",
+            "line_start": 56,
+            "line_end": 57,
+            "url": "https://www.nwuav.com/fast-uas-faa-coa-test-range.html",
+            "page_class": "news",
+            "snippet": "The Northwest UAV Flight, Analysis, & System Test Range is dedicated to offering unmanned aerial vehicles an authentic, private, carefully managed flight test range in FAA certified airspace under the Pan-Pacific UAS Complex in Oregon\u2019s Willamette Valley.\n### 02. Our Vision"
+          }
+        ],
+        "notes": "FAST UAS Range: FAA COA-certified flight test range, part of Pan-Pacific UAS Test Range Complex"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "McMinnville",
+      "state_or_province": "Oregon",
+      "country": "United States",
+      "address": "11160 SW Durham Lane, McMinnville, OR 97128"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0040",
+        "line_start": 38,
+        "line_end": 38,
+        "url": "https://www.nwuav.com/contact-us-nwuav.html",
+        "page_class": "contact",
+        "snippet": "*   [11160 SW Durham Ln, McMinnville, OR 97128](https://www.google.com/maps/@45.180703,-123.2298849,16.53z)"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0036",
+        "line_start": 40,
+        "line_end": 40,
+        "url": "https://www.nwuav.com/about-us-press-news.html",
+        "page_class": "news",
+        "snippet": "#### Northwest UAV is a Tier 1 engine supplier for unmanned aerial vehicle systems"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 66,
+        "line_end": 66,
+        "url": "https://www.nwuav.com",
+        "page_class": "homepage",
+        "snippet": "America\u2019s Trusted Leader in UAV Propulsion and Integrated Solutions"
+      }
+    ],
+    "notes": "Designs and manufactures UAV propulsion subsystems (engines, fuel cells, ECU, FDS, generators) sold to UAV OEMs such as Elbit Systems. Also distributes Silvus radios, Veronte autopilots, Pegasus actuators."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "NW-44 UAV HF Engine",
+        "product_type": "single-cylinder heavy-fuel UAV engine (43.6 cc, 3.5 hp)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0113",
+            "line_start": 33,
+            "line_end": 33,
+            "url": "https://www.nwuav.com/products-nw-44-uav-hfe.html",
+            "page_class": "product",
+            "snippet": "NW-44 Single-Cylinder UAV Engine"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "NW-88 UAV HF Engine",
+        "product_type": "twin-cylinder heavy-fuel UAV engine (88 cc, 7.3 hp)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0114",
+            "line_start": 33,
+            "line_end": 33,
+            "url": "https://www.nwuav.com/products-nw-88-uav-hfe.html",
+            "page_class": "product",
+            "snippet": "NW-88 Twin-Cylinder UAV Engine"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "NW-230 UAV HF Engine",
+        "product_type": "twin-cylinder heavy-fuel UAV engine (230 cc, 15\u201318 hp)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0112",
+            "line_start": 33,
+            "line_end": 33,
+            "url": "https://www.nwuav.com/products-nw-230-uav-hfe.html",
+            "page_class": "product",
+            "snippet": "NW-230 Twin-Cylinder UAV Engine"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "NWFC-1500 Fuel Cell",
+        "product_type": "proton exchange membrane (PEM) hydrogen fuel cell for unmanned systems",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0115",
+            "line_start": 63,
+            "line_end": 64,
+            "url": "https://www.nwuav.com/products.html",
+            "page_class": "product",
+            "snippet": "Hydrogen for clean reliable energy. NWUAV's Proton Exchange Membrane (PEM) fuel cell for unmanned propulsion systems.\n![Northwest UAV | NWFC-1500 Hydrogen Fuel Cell Propulsion](images/nwuav-global_logo.svg)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Engine Control Unit SW1.0 (ECU)",
+        "product_type": "purpose-built UAV engine control unit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0109",
+            "line_start": 46,
+            "line_end": 46,
+            "url": "https://www.nwuav.com/products-components.html",
+            "page_class": "product",
+            "snippet": "#### Engine Control Unit SW1.0 (ECU) Features"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Fuel Delivery System (FDS)",
+        "product_type": "EFI fuel delivery system for UAV heavy-fuel engines",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0109",
+            "line_start": 56,
+            "line_end": 56,
+            "url": "https://www.nwuav.com/products-components.html",
+            "page_class": "product",
+            "snippet": "#### Fuel Delivery System (FDS) Features"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Generator (frameless/brushless)",
+        "product_type": "UAV generator for onboard power generation",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0109",
+            "line_start": 66,
+            "line_end": 66,
+            "url": "https://www.nwuav.com/products-components.html",
+            "page_class": "product",
+            "snippet": "#### Generator (frameless/brushless) Features"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "280-Watt Generator Control Unit (GCU)",
+        "product_type": "UAV generator control unit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0109",
+            "line_start": 76,
+            "line_end": 76,
+            "url": "https://www.nwuav.com/products-components.html",
+            "page_class": "product",
+            "snippet": "#### 280-Watt Generator Control Unit (GCU) Features"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "RFQ UAV Muffler",
+        "product_type": "patented acoustic muffler for single- and multi-cylinder UAV engines",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0109",
+            "line_start": 86,
+            "line_end": 87,
+            "url": "https://www.nwuav.com/products-components.html",
+            "page_class": "product",
+            "snippet": "#### RFQ UAV Muffler Features\n![Northwest UAV | NW-230 HF UAV Engine](images/products/uav-component-rfq-muffler_200px.png)A NWUAV muffler could solve your noisy problem. Its efficiency is due to the unique, patented internal design. Each muffler is optimized to keep your single or multiple-cylinder engine quiet without reducing engine performance."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Pegasus Servo Actuators",
+        "product_type": "industrial and redundant servo actuators for UAVs (distributed, manufactured in Germany)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0111",
+            "line_start": 45,
+            "line_end": 46,
+            "url": "https://www.nwuav.com/products-distributed.html",
+            "page_class": "product",
+            "snippet": "#### Pegasus Industrial & Redundant Servo Actuators\n###### Northwest UAV is an exclusive authorized United States distributor for Pegasus UAV Servo Actuators"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Silvus StreamCaster MANET Radios",
+        "product_type": "tactical MANET communications radios for UAV (distributed)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0111",
+            "line_start": 54,
+            "line_end": 55,
+            "url": "https://www.nwuav.com/products-distributed.html",
+            "page_class": "product",
+            "snippet": "#### StreamCaster MANET Radios | Wireless Communications Systems \u2014 Unmanned Vehicles\n###### Northwest UAV is an authorized distributor for Silvus"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Veronte Autopilots",
+        "product_type": "high-reliability avionics / autopilot systems for unmanned vehicles (distributed)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0111",
+            "line_start": 75,
+            "line_end": 76,
+            "url": "https://www.nwuav.com/products-distributed.html",
+            "page_class": "product",
+            "snippet": "#### Veronte Autopilots, Avionics, Simulation Software, and Accessories\n###### Northwest UAV is an authorized United States distributor for Veronte"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 143,
+        "line_end": 143,
+        "url": "https://www.nwuav.com",
+        "page_class": "homepage",
+        "snippet": "America\u2019s trusted leader in American-made, AS9100-compliant UAV propulsion and integrated solutions, Northwest UAV continues to engineer the future of unmanned propulsion systems."
+      }
+    ],
+    "notes": "Site repeatedly claims 'American-made' and AS9100-compliant but never mentions NDAA Section 848 or 889 compliance specifically."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 94,
+        "line_end": 94,
+        "url": "https://www.nwuav.com",
+        "page_class": "homepage",
+        "snippet": "    Build-To-Print or COTS, full-service production, CNC/CMS machine shop, electrical & wiring shop, A&P mechanics, and ERP product lifecycle management."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0113",
+        "line_start": 48,
+        "line_end": 48,
+        "url": "https://www.nwuav.com/products-nw-44-uav-hfe.html",
+        "page_class": "product",
+        "snippet": "The NW-44 is built for endurance and reliability. Depending on configuration and options, this engine runs at 3.5 horsepower with an 43.6 cc displacement, weighing 3402 grams \u00b1 100 grams. Approved for EAR99."
+      }
+    ],
+    "notes": "NW-44 has logged 28,000+ operational hours; NW-88 and NW-230 also in production. AS9100D/ISO9001 certified facility with full-service manufacturing (CNC, wiring, A&P mechanics). Products have EAR99 export approval."
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Manufactures aviation-grade heavy-fuel and multi-fuel UAV engines (NW-44, NW-88, NW-230) spanning 18\u2013160 kg aircraft, plus fuel cells, engine control units, and power distribution subsystems. AS9100D certified. NDAA and Blue UAS status not disclosed. Distributes Veronte autopilots, Pegasus actuators, and Silvus MANET radios. Public evidence supports production-ready propulsion hardware; gaps remain on government contract wins and supply-chain compliance certifications.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 20,
+    "total_cost_usd": 0.47726514999999997,
+    "created_at": "2026-05-04T04:42:52+00:00",
+    "extract_version": "0.1.0"
+  }
+}

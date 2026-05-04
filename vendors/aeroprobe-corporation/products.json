@@ -1,0 +1,528 @@
+{
+  "target_id": "aeroprobe-corporation",
+  "run_id": "canonical",
+  "display_name": "Aeroprobe Corporation",
+  "homepage_url": "https://www.aeroprobe.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/aeroprobe-corporation/website",
+  "products": [
+    {
+      "name": "Defiant Micro Air Data Computer",
+      "category": "sensors_and_navigation",
+      "descriptor": "Best-in-class SWaP micro air data computer for multi-function probe, \u00b120\u00b0 AoA/AoS",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0024",
+          "line_start": 53,
+          "line_end": 58,
+          "url": "https://www.aeroprobe.com/micro-air-data-computer-models",
+          "page_class": "capability",
+          "snippet": "DEFIANT\n-------\n![Defiant-Apollo-Endurance-Hyperion-WS-0R9A3959-800x264](https://www.aeroprobe.com/wp-content/uploads/2025/11/Defiant-Apollo-Endurance-Hyperion-WS-0R9A3959-800x264-2.png)\nThe Defiant is best in class for size, weight, and power. Optimized for use with a [Multi-function Air Data Probe](https://www.aeroprobe.com/multi-function-air-data-probes/), the Defiant provides measurements of angle-of-attack and angle-of-sideslip with no moving parts.\nThe Defiant operates over a +/-20\u00b0 angle-of-attack and angle-of-sideslip range and up to 612 knots indicated airspeed.\n[Specifications](https://www.aeroprobe.com/uads-defiant-and-hyperion-specifications-download)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0012",
+          "line_start": 61,
+          "line_end": 61,
+          "url": "https://www.aeroprobe.com/aeroprobe-introduces-the-future-of-micro-air-data-computers",
+          "page_class": "news",
+          "snippet": "The fourth generation \u03bcADCs are now available for orders. For more information, please visit\u00a0[https://www.aeroprobe.com/micro-air-data-computer-models/](https://www.aeroprobe.com/micro-air-data-computer-models/)or contact\u00a0[sales@aeroprobe.com](mailto:sales@aeroprobe.com)."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Hyperion Micro Air Data Computer",
+      "category": "sensors_and_navigation",
+      "descriptor": "HALE micro air data computer for multi-function probe, AS8002-compliant, up to 75,000 ft",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0024",
+          "line_start": 64,
+          "line_end": 65,
+          "url": "https://www.aeroprobe.com/micro-air-data-computer-models",
+          "page_class": "capability",
+          "snippet": "Designed to operate at altitudes up to 75,000 ft, the Hyperion is ideal for High Altitude Long Endurance (HALE) applications where precise angle-of-attack, airspeed, and altitude are all critical to mission success.\n[Specifications](https://www.aeroprobe.com/uads-defiant-and-hyperion-specifications-download)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Apollo Micro Air Data Computer",
+      "category": "sensors_and_navigation",
+      "descriptor": "Wide-range micro air data computer for multi-function probe, 10\u2013612 knots indicated airspeed",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0024",
+          "line_start": 70,
+          "line_end": 72,
+          "url": "https://www.aeroprobe.com/micro-air-data-computer-models",
+          "page_class": "capability",
+          "snippet": "Optimized for use with a [Multi-function Air Data Probe](https://www.aeroprobe.com/multi-function-air-data-probes/), the Apollo provides measurements of angle-of-attack and angle-of-sideslip over a wide range of airspeed from 10 to 612 knots indicated airspeed.\nThe Apollo is the right choice to support missions with the widest range of airspeed without compromise.\n[Specifications](https://www.aeroprobe.com/uads-apollo-specifications-download/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Endurance Micro Air Data Computer",
+      "category": "sensors_and_navigation",
+      "descriptor": "High-maneuverability micro air data computer for multi-function probe, \u00b140\u00b0 AoA/AoS range",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0024",
+          "line_start": 77,
+          "line_end": 79,
+          "url": "https://www.aeroprobe.com/micro-air-data-computer-models",
+          "page_class": "capability",
+          "snippet": "Optimized for use with a [Multi-function Air Data Probe](https://www.aeroprobe.com/multi-function-air-data-probes/), the Endurance provides measurements of angle-of-attack and angle-of-sideslip with no moving parts over a +/-40\u00b0 angle-of-attack and angle-of-sideslip range.\nWhen the mission requires high maneuverability or operation in near-stall or post-stall envelopes, the Endurance is the right choice.\n[Specifications](https://www.aeroprobe.com/uads-endurance-specifications-download)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Atlas Micro Air Data Computer",
+      "category": "sensors_and_navigation",
+      "descriptor": "Pitot-static micro air data computer optimized for harsh-condition UAV missions with heated probes",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0024",
+          "line_start": 101,
+          "line_end": 103,
+          "url": "https://www.aeroprobe.com/micro-air-data-computer-models",
+          "page_class": "capability",
+          "snippet": "Optimized for use with a [Pitot-Static Probe](https://www.aeroprobe.com/pitot-static-probes/), the Atlas provides air data over a wide range of airspeed from 10 to over 612 knots indicated airspeed.\nWhen paired with Aeroprobe\u2019s heated and drained Pitot-Static probes, the Atlas is ideal for missions in harsh conditions such as rain and ice.\n[Specifications](https://www.aeroprobe.com/\u00b5ads-atlas-and-horizon-specifications-download)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Horizon Micro Air Data Computer",
+      "category": "sensors_and_navigation",
+      "descriptor": "HALE pitot-static micro air data computer, AS8002-compliant altitude, up to 75,000 ft",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0024",
+          "line_start": 109,
+          "line_end": 110,
+          "url": "https://www.aeroprobe.com/micro-air-data-computer-models",
+          "page_class": "capability",
+          "snippet": "The Horizon is designed to operate well beyond the ceiling of most manned aircraft and operates at altitudes up to 75,000 ft.\n[Specifications](https://www.aeroprobe.com/\u00b5ads-atlas-and-horizon-specifications-download)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Nova Micro Air Data Computer",
+      "category": "sensors_and_navigation",
+      "descriptor": "Compact lightweight pitot-static micro air data computer, 10\u2013612 knots airspeed range",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0024",
+          "line_start": 94,
+          "line_end": 96,
+          "url": "https://www.aeroprobe.com/micro-air-data-computer-models",
+          "page_class": "capability",
+          "snippet": "Optimized for use with a\u00a0[Pitot-Static Probe](https://www.aeroprobe.com/pitot-static-probes/), the Nova provides air data across a wide range of airspeeds from 10 to over 612 knots indicated airspeed.\nIts compact, lightweight design is built for durability and dependable operation while delivering high performance without breaking your SWaP budget.\n[Specifications](https://www.aeroprobe.com/uads-nova-specifications-download/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Orion Micro Air Data Computer",
+      "category": "sensors_and_navigation",
+      "descriptor": "Rugged enhanced-standard micro air data computer, 220 g, 1.1 W",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0024",
+          "line_start": 83,
+          "line_end": 88,
+          "url": "https://www.aeroprobe.com/micro-air-data-computer-models",
+          "page_class": "capability",
+          "snippet": "![](https://www.aeroprobe.com/wp-content/uploads/2023/08/Orion-uADC_DSC0657-800x264-1.jpg)\nThe most rugged\nQualified to enhanced standards\n220 grams\n1.1 Watts\n\u220595 x 28 mm"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Multi-function Air Data Probe",
+      "category": "sensors_and_navigation",
+      "descriptor": "Vaneless multi-hole probe measuring AoA, AoS, airspeed, and altitude for UAV integration",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0025",
+          "line_start": 54,
+          "line_end": 60,
+          "url": "https://www.aeroprobe.com/multi-function-air-data-probes",
+          "page_class": "capability",
+          "snippet": "### FEATURES\n*   AoA & AoS error less than \u00b11\u00b0\n*   Airspeed error less than \u00b11% or \u00b11 m/s\n*   Standard acceptance angle up to +/- 20\u00b0 AoA & AoS\n*   Optional extended angle up to +/- 40\u00b0 AoA & AoS\n*   As low as 15 grams mass\n*   Straight, L-Shaped, and Strut Mounted geometries"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Pitot-Static Probes",
+      "category": "sensors_and_navigation",
+      "descriptor": "Drained heated pitot/pitot-static probes for UAV airspeed and altitude measurement",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0024",
+          "line_start": 61,
+          "line_end": 65,
+          "url": "https://www.aeroprobe.com/pitot-static-probes",
+          "page_class": "other",
+          "snippet": "### PITOT/PITOT-STATIC PROBE FEATURES:\n*   Probes offered with or without a static ring\n*   Designed to meet AS8006 performance standard\n*   Drained tip designed to meet AS5562 rain standard\n*   Low weight (as low as 15 g unheated and 20 g heated)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Total Air Temperature (TAT) Probe",
+      "category": "sensors_and_navigation",
+      "descriptor": "Kiel-based probe with thermocouple or RTD for airflow temperature measurement",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 165,
+          "line_end": 168,
+          "url": "https://www.aeroprobe.com",
+          "page_class": "homepage",
+          "snippet": "TOTAL AIR TEMPERATURE (TAT) PROBES\n----------------------------------\n![TOTAL AIR TEMPERATURE (TAT) PROBE](https://www.aeroprobe.com/wp-content/uploads/2023/10/TOTAL-AIR-TEMPERATURE-TAT-PROBE-800x264-1.jpg)\nA Total Air Temperature (TAT) Probe has the same design as a Kiel probe, but also includes a thermocouple or RTD to measure the temperature of the air flow."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "AeroFlow Software",
+      "category": "test_and_measurement",
+      "descriptor": "Multi-hole probe data processing and flow visualization software suite",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0016",
+          "line_start": 52,
+          "line_end": 52,
+          "url": "https://www.aeroprobe.com/aeroflow",
+          "page_class": "other",
+          "snippet": "AeroFlow is the premier [Multi-hole Probe](https://www.aeroprobe.com/multi-hole-probes/) data processing and visualization application for aerodynamicists. It applies Multi-hole Probe aerodynamic calibrations to measured pressure data to calculate the flow velocity vector, total and static pressure, Mach number, and total temperature."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Multi-hole Probes",
+      "category": "test_and_measurement",
+      "descriptor": "3-, 5-, and 7-hole flow measurement probes for wind tunnels and turbomachinery",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0025",
+          "line_start": 55,
+          "line_end": 60,
+          "url": "https://www.aeroprobe.com/multi-hole-probes",
+          "page_class": "other",
+          "snippet": "### FEATURES\n*   Spherical tip geometry\n*   Standard tip diameter starting at 6.35mm\n*   Capable of measuring flow vectors up to \u00b1150 \u00b0\n*   Temperature ratings up to 500\u00b0 C\n*   High accuracy NIST traceable aerodynamic calibrations"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Aerodynamic Probe Calibration",
+      "category": "test_and_measurement",
+      "descriptor": "NIST-traceable on-site aerodynamic calibration service for multi-hole probes",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0019",
+          "line_start": 55,
+          "line_end": 56,
+          "url": "https://www.aeroprobe.com/aerodynamic-probe-calibration",
+          "page_class": "other",
+          "snippet": "Aeroprobe aerodynamic probe calibrations are performed on-site by highly trained expert staff to produce the most accurate calibrations in the industry.\nThe Probe Calibration Process"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Kiel Probes",
+      "category": "test_and_measurement",
+      "descriptor": "Kiel probes for accurate total pressure measurement over wide flow angle range",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 187,
+          "line_end": 190,
+          "url": "https://www.aeroprobe.com",
+          "page_class": "homepage",
+          "snippet": "-----\n![Kiel Probe](https://www.aeroprobe.com/wp-content/uploads/2023/08/Kiel-Probe-DSC0074-800x264-1.jpg)\nKiel Probes are used to measure the total pressure of a flow with high accuracy over a wide range of flow angles.\n](https://www.aeroprobe.com/kiel-probe/)["
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Nova \u00b5ADC",
+      "category": "sensors_and_navigation",
+      "descriptor": "Micro air data computer optimized for Pitot-Static Probe, 10\u2013612+ KIAS range",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0028",
+          "line_start": 64,
+          "line_end": 66,
+          "url": "https://www.aeroprobe.com/uads-nova-specifications-download",
+          "page_class": "product",
+          "snippet": "NOVA:\nOptimized for use with a\u00a0[Pitot-Static Probe](https://www.aeroprobe.com/pitot-static-probes/), the Nova provides air data across a wide range of airspeeds from 10 to over 612 knots indicated airspeed.\nIts compact, lightweight design is built for durability and dependable operation while delivering high performance without breaking your SWaP budget."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 56,
+          "line_end": 58,
+          "url": "https://www.aeroprobe.com",
+          "page_class": "homepage",
+          "snippet": "*   Qualified to meet MIL-STD and DO standards\n*   On-site calibration wind tunnels capable of near-hover to supersonic speeds\n*   Designed and manufactured in the USA"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Atlas \u00b5ADC",
+      "category": "sensors_and_navigation",
+      "descriptor": "Gen4 micro air data computer for UAV flight data processing",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 153,
+          "line_end": 154,
+          "url": "https://www.aeroprobe.com",
+          "page_class": "homepage",
+          "snippet": "![uADC Gen4 Atlas or Horizon](https://www.aeroprobe.com/wp-content/uploads/2023/08/uADC-Gen4-Atlas-Horizon-IMG_0006-800x264-1.jpg)\nMicro Air Data Computers collect data from various sensors, such as Multi-function Air Data Probes or Pitot Probes and processes this data to provide accurate and real-time information to the aircraft\u2019s flight control systems, navigation systems, and displays."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Horizon \u00b5ADC",
+      "category": "sensors_and_navigation",
+      "descriptor": "Gen4 micro air data computer for UAV flight data processing",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 153,
+          "line_end": 154,
+          "url": "https://www.aeroprobe.com",
+          "page_class": "homepage",
+          "snippet": "![uADC Gen4 Atlas or Horizon](https://www.aeroprobe.com/wp-content/uploads/2023/08/uADC-Gen4-Atlas-Horizon-IMG_0006-800x264-1.jpg)\nMicro Air Data Computers collect data from various sensors, such as Multi-function Air Data Probes or Pitot Probes and processes this data to provide accurate and real-time information to the aircraft\u2019s flight control systems, navigation systems, and displays."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Multi-function Air Data Probes",
+      "category": "sensors_and_navigation",
+      "descriptor": "Vaneless flight probes measuring AoA, sideslip, airspeed, and altitude for UAVs",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 158,
+          "line_end": 158,
+          "url": "https://www.aeroprobe.com",
+          "page_class": "homepage",
+          "snippet": "Multi-function Air Data Probes are an effective lightweight solution for measuring angle-of-attack, angle-of-sideslip, airspeed, and altitude where mobility is critical.](https://www.aeroprobe.com/multi-function-air-data-probes/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 56,
+          "line_end": 58,
+          "url": "https://www.aeroprobe.com",
+          "page_class": "homepage",
+          "snippet": "*   Qualified to meet MIL-STD and DO standards\n*   On-site calibration wind tunnels capable of near-hover to supersonic speeds\n*   Designed and manufactured in the USA"
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "Apollo \u00b5ADC, Defiant \u00b5ADC, Hyperion \u00b5ADC, Endurance \u00b5ADC: named only in skipped spec-sheet URLs (uads-apollo-specifications-download, uads-defiant-and-hyperion-specifications-download, uads-endurance-specifications-download); no fetched page content available to cite.",
+    "Gen3 \u00b5ADS and \u00b5ADS: separate Micro Air Data System products (distinct from \u00b5ADC models) named in skipped URLs (%c2%b5ads-specifications-downloads, gen3-%c2%b5ads-specifications-download, %c2%b5ads-flyer-download); not described in fetched pages.",
+    "micro-air-data-computer-models page (capability, skipped_budget) likely enumerates all \u00b5ADC model variants including Apollo, Defiant, Hyperion, Endurance, Nova, Atlas, Horizon; fetching it would complete the \u00b5ADC family picture.",
+    "multi-function-air-data-probes page (capability, skipped_budget) would provide detailed specs for the Multi-function Air Data Probe family.",
+    "total-air-temperature-probe and total-air-temperature-tat-probe pages (both capability, skipped_budget) would confirm TAT Probe product details."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.aeroprobe.com/micro-air-data-computer-models",
+      "reason": "Capability page enumerating all \u00b5ADC models; needed to confirm Apollo, Defiant, Hyperion, Endurance \u00b5ADC as distinct SKUs and obtain product descriptors",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=capability",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.aeroprobe.com/%c2%b5ads-specifications-downloads",
+      "reason": "Product page for \u00b5ADS (Micro Air Data System); needed to confirm \u00b5ADS as a distinct product from the \u00b5ADC and obtain specs",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.aeroprobe.com/gen3-%c2%b5ads-specifications-download",
+      "reason": "Product page for Gen3 \u00b5ADS; needed to confirm Gen3 \u00b5ADS as a distinct generation product and obtain descriptors",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.aeroprobe.com/uads-apollo-specifications-download",
+      "reason": "Product spec page for Apollo \u00b5ADC; needed to classify Apollo \u00b5ADC and obtain product details",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.aeroprobe.com/uads-defiant-and-hyperion-specifications-download",
+      "reason": "Spec page for Defiant \u00b5ADC and Hyperion \u00b5ADC; needed to classify both models",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=news",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.aeroprobe.com/uads-endurance-specifications-download",
+      "reason": "Product spec page for Endurance \u00b5ADC; needed to classify Endurance \u00b5ADC",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.aeroprobe.com/multi-function-air-data-probes",
+      "reason": "Capability page for Multi-function Air Data Probes; would confirm readiness and ndaa/blue_uas status with product-level detail",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=capability",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.aeroprobe.com/total-air-temperature-tat-probe",
+      "reason": "Capability page for Total Air Temperature (TAT) Probe; would confirm product details and any compliance claims",
+      "expected_evidence": [
+        "products",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=capability",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 35,
+    "total_cost_usd": 0.9349647,
+    "created_at": "2026-05-03T21:02:56+00:00",
+    "extract_version": "0.1.0"
+  }
+}

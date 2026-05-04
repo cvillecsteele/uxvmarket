@@ -1,0 +1,327 @@
+{
+  "target_id": "airmar-technology-corporation",
+  "run_id": "canonical",
+  "display_name": "AIRMAR Technology Corporation",
+  "homepage_url": "https://www.airmar.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/airmar-technology-corporation/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0384",
+            "line_start": 25,
+            "line_end": 25,
+            "url": "https://www.airmar.com/Markets/Ocean-Monitoring-Unmanned-Surface-Vessels",
+            "page_class": "other",
+            "snippet": "#### Proven Performance in the Harshest Environments from Surface to Sea Floor"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0384",
+            "line_start": 51,
+            "line_end": 52,
+            "url": "https://www.airmar.com/Markets/Ocean-Monitoring-Unmanned-Surface-Vessels",
+            "page_class": "other",
+            "snippet": "[![GPS/Heading Sensor](https://assets-7484b3de52.cdn.insitecloud.net/27b5f1e21b1c409_md.png)](/Catalog/Marine/GPS-Heading-Sensors)\n###### [**GPS/Heading Sensors\u00a0>**](/Catalog/Marine/GPS-Heading-Sensors)"
+          }
+        ],
+        "notes": "Core product lines: WeatherStation\u00ae instruments (GNSS, 3-axis compass, rate gyro, accelerometer, wind speed/direction), EchoRange Smart\u2122 survey transducers, GPS/Heading Sensors, depth/speed/temp multisensors \u2014 all sold for integration into USVs, AUVs, ROVs."
+      },
+      {
+        "category": "communications",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0384",
+            "line_start": 38,
+            "line_end": 38,
+            "url": "https://www.airmar.com/Markets/Ocean-Monitoring-Unmanned-Surface-Vessels",
+            "page_class": "other",
+            "snippet": "ACOMMs, Altimeters and side-scan for ROVs and UUVs"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0384",
+            "line_start": 47,
+            "line_end": 48,
+            "url": "https://www.airmar.com/Markets/Ocean-Monitoring-Unmanned-Surface-Vessels",
+            "page_class": "other",
+            "snippet": "[![ACOMMs Projectors](https://assets-7484b3de52.cdn.insitecloud.net/74d2b5bb33d349a_md.jpg)](Catalog/Commercial-Scientific/ACOMMs)\n###### [**ACOMMs Projectors\u00a0>**](Catalog/Commercial-Scientific/ACOMMs)"
+          }
+        ],
+        "notes": "ACOMMs (acoustic communications projectors) listed as product line for ROVs and UUVs."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Milford",
+      "state_or_province": "New Hampshire",
+      "country": "United States",
+      "address": "35 Meadowbrook Dr., Milford, NH 03055"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0374",
+        "line_start": 149,
+        "line_end": 151,
+        "url": "https://www.airmar.com/AboutUs/Legal-Information",
+        "page_class": "company",
+        "snippet": "Airmar Technology Corporation\n35 Meadowbrook Dr.\nMilford, NH 03055, USA"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 46,
+        "line_end": 47,
+        "url": "https://www.airmar.com",
+        "page_class": "homepage",
+        "snippet": "![Unmanned Platform Products](https://d3fyi2ud8f6h0p.cloudfront.net/userfiles/us/site%20content/images/unmannedplatform450x326a.jpg)\n##### [Unmanned Platform Products](/Markets/Ocean-Monitoring-Unmanned-Surface-Vessels)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0384",
+        "line_start": 36,
+        "line_end": 36,
+        "url": "https://www.airmar.com/Markets/Ocean-Monitoring-Unmanned-Surface-Vessels",
+        "page_class": "other",
+        "snippet": "Survey transducers for vessels of every size - shallow to deepest depths"
+      }
+    ],
+    "notes": "Manufactures and sells sensors/transducers/instruments that are integrated into third-party unmanned platforms (USVs, AUVs, UUVs, ROVs). Does not build complete vehicles."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "300WX WeatherStation\u00ae",
+        "product_type": "ultrasonic weather station with GNSS, IMU, and motion sensing",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0390",
+            "line_start": 23,
+            "line_end": 24,
+            "url": "https://www.airmar.com/Product/300WX",
+            "page_class": "product",
+            "snippet": "300WX WeatherStation\u00ae Instrument- with Relative Humidity\n--------------------------------------------------------"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DST820 Smart\u2122 Multisensor",
+        "product_type": "depth/speed/temperature/attitude marine sensor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0248",
+            "line_start": 23,
+            "line_end": 24,
+            "url": "https://www.airmar.com/Product/DST820",
+            "page_class": "product",
+            "snippet": "DST820 Smart\u2122 Multisensor with Gen2 Paddlewheel\n-----------------------------------------------"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "B275MWHW",
+        "product_type": "Chirp-ready thru-hull sonar transducer",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0257",
+            "line_start": 23,
+            "line_end": 24,
+            "url": "https://www.airmar.com/Product/B275MWHW",
+            "page_class": "product",
+            "snippet": "B275MWHW Medium Ultra-Wide/High Wide Chirp-ready Thru-hull\n----------------------------------------------------------"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "EchoRange Smart\u2122 Sensor",
+        "product_type": "portable survey sonar transducer (M195ER, SS510ER variants)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0259",
+            "line_start": 42,
+            "line_end": 48,
+            "url": "https://www.airmar.com/Catalog/Commercial-Scientific/EchoRange",
+            "page_class": "other",
+            "snippet": "[M195 EchoRange+\u2122 Smart\u2122 Sensor - 30/200 kHz Portable Survey with Developer Envelope](/Catalog/Commercial-Scientific/EchoRange/M195ER-)\nLearn More\n[![ss510](https://assets-7484b3de52.cdn.insitecloud.net/1069cab64aa3edd_md.png)](/Catalog/Commercial-Scientific/EchoRange/SS510ER-)\n[SS510 EchoRange+\u2122 Smart\u2122 Sensor - 200 kHz Portable Survey with Developer Envelope](/Catalog/Commercial-Scientific/EchoRange/SS510ER-)\nLearn More\n[![ss510](https://assets-7484b3de52.cdn.insitecloud.net/1069cab64aa3edd_md.png)](/Catalog/Commercial-Scientific/EchoRange/SS510ER)\n[SS510 EchoRange\u2122 Smart\u2122 Sensor - 200 kHz Portable Survey](/Catalog/Commercial-Scientific/EchoRange/SS510ER)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SmartBoat\u00ae",
+        "product_type": "NMEA 2000 multi-protocol integration module",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0353",
+            "line_start": 23,
+            "line_end": 26,
+            "url": "https://www.airmar.com/Catalog/SmartBoat-SmartFlex",
+            "page_class": "other",
+            "snippet": "The SmartBoat\u00ae Solution\n=======================\n#### Crush NMEA\u00ae\u00a0Complexity\n###### One SmartBoat Module can perform the work of many different devices, integrating analog sensors, digital sensors, and a wide range of protocols to create the most capable NMEA 2000 network imaginable."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SmartFlex\u2122",
+        "product_type": "NMEA 2000 integration module variant",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0353",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://www.airmar.com/Catalog/SmartBoat-SmartFlex",
+            "page_class": "other",
+            "snippet": "SmartBoat/SmartFlex"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ACOMMs Projectors",
+        "product_type": "acoustic underwater communications projectors for ROVs/UUVs",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0384",
+            "line_start": 47,
+            "line_end": 48,
+            "url": "https://www.airmar.com/Markets/Ocean-Monitoring-Unmanned-Surface-Vessels",
+            "page_class": "other",
+            "snippet": "[![ACOMMs Projectors](https://assets-7484b3de52.cdn.insitecloud.net/74d2b5bb33d349a_md.jpg)](Catalog/Commercial-Scientific/ACOMMs)\n###### [**ACOMMs Projectors\u00a0>**](Catalog/Commercial-Scientific/ACOMMs)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "200m Mini Altimeter Kit Smart\u2122 Sensor",
+        "product_type": "underwater altimeter for ROVs/AUVs",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0384",
+            "line_start": 45,
+            "line_end": 46,
+            "url": "https://www.airmar.com/Markets/Ocean-Monitoring-Unmanned-Surface-Vessels",
+            "page_class": "other",
+            "snippet": "[![200m Mini Altimeter](https://assets-7484b3de52.cdn.insitecloud.net/898d4118e569c70_md.png)](/Catalog/Commercial-Scientific/Altimeter/200m-Mini-Altimeter-Kit-Smart-Sensor)\n###### [**200m Mini Altimeter\u00a0>**](/Catalog/Commercial-Scientific/Altimeter/200m-Mini-Altimeter-Kit-Smart-Sensor)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Many additional product SKUs exist across marine transducer, GPS/heading sensor, and WeatherStation families; only high-visibility named products captured here."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0193",
+        "line_start": 44,
+        "line_end": 44,
+        "url": "https://www.airmar.com/Product/200m-Mini-Altimeter-Kit-Smart-Sensor",
+        "page_class": "news",
+        "snippet": "*   100% Made in the U.S.A."
+      }
+    ],
+    "notes": "Mini Altimeter Kit states '100% Made in the U.S.A.' but no explicit NDAA Section 848/889 compliance claim found anywhere in the corpus."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No mention of Blue UAS or DIU cleared list anywhere in the corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0390",
+        "line_start": 25,
+        "line_end": 25,
+        "url": "https://www.airmar.com/Product/300WX",
+        "page_class": "product",
+        "snippet": "Part Number300WX"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0248",
+        "line_start": 25,
+        "line_end": 25,
+        "url": "https://www.airmar.com/Product/DST820",
+        "page_class": "product",
+        "snippet": "Part NumberDST820"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0257",
+        "line_start": 25,
+        "line_end": 25,
+        "url": "https://www.airmar.com/Product/B275MWHW",
+        "page_class": "product",
+        "snippet": "Part NumberB275MWHW"
+      }
+    ],
+    "notes": "Catalog SKUs with part numbers listed for sale; products ship from manufacturing facility in Milford, NH."
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Designs and manufactures acoustic depth/speed/temperature transducers, ultrasonic weather stations, and subsea altimeters for marine, commercial fishing, scientific survey, and unmanned platform markets. Primary customer base is recreational and commercial marine; unmanned systems applications (USV/AUV) represent a growing but publicly underdocumented segment. NDAA and Blue UAS certification status unknown. Public evidence of DoD/allied procurement contracts is thin.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 17,
+    "total_cost_usd": 0.43678800000000007,
+    "created_at": "2026-05-03T20:59:37+00:00",
+    "extract_version": "0.1.0"
+  }
+}

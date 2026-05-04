@@ -1,0 +1,271 @@
+{
+  "target_id": "bavovna-ai",
+  "run_id": "canonical",
+  "display_name": "Bavovna.AI",
+  "homepage_url": "https://bavovna.ai",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/bavovna-ai/website",
+  "products": [
+    {
+      "name": "Bavovna AI Navigation Kit",
+      "category": "sensors_and_navigation",
+      "descriptor": "AI-powered INS kit with edge hardware and SaaS model for GNSS-denied UAV navigation",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 39,
+          "line_end": 41,
+          "url": "https://bavovna.ai",
+          "page_class": "homepage",
+          "snippet": "Bavovna is a dual-use AI-driven alternative navigation for Uncrewed Aerial Vehicles operating in GNSS-denied and electronic warfare-threatened environments.\nBavovna combines modular hardware and SaaS AI for aerial, surface, and subsurface UV platforms to address malicious and natural challenges to Position, Navigation, and Timing (PNT) systems.\n[Bavovna AI Navigation Kit](https://bavovna.ai/ai-navigation-kit/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0335",
+          "line_start": 39,
+          "line_end": 39,
+          "url": "https://bavovna.ai/ai-gps",
+          "page_class": "capability",
+          "snippet": "Sensor fusion from the onboard IMU array and airspeed provided navigation. We use sensors like a compass and barometer, with analysis performed on the edge using Bavovna AI Navigation Kit. We use a proprietary Kalman filtration algorithm and fine-tuned sensor fusion neural network trained on 100 hours of fight logs minimum."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Bavovna Multivector AirFlow Sensor",
+      "category": "sensors_and_navigation",
+      "descriptor": "Multi-directional airflow sensor for UAV navigation and flight stability",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0404",
+          "line_start": 61,
+          "line_end": 63,
+          "url": "https://bavovna.ai/top-air-flow-sensor-uav",
+          "page_class": "capability",
+          "snippet": "Getting Superior UAV control with Bavovna\u2019s Multivector AirFlow Sensor\n----------------------------------------------------------------------\nFor UAV developers, airflow sensing only matters if it delivers reliable control gains without adding integration friction. [Bavovna\u2019s Multivector AirFlow Sensor](https://bavovna.ai/airflow-sensor/) was designed with that reality in mind."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0404",
+          "line_start": 65,
+          "line_end": 65,
+          "url": "https://bavovna.ai/top-air-flow-sensor-uav",
+          "page_class": "capability",
+          "snippet": "Our sensor was designed to provide a continuous, multi-directional view of how the UAV is interacting with the air, providing flight controllers with a more physically grounded input."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "SIGINT RF Module",
+      "category": "isr_payloads",
+      "descriptor": "RF signals-intelligence module for EM threat reconnaissance and EW obstacle bypass",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0171",
+          "line_start": 26,
+          "line_end": 26,
+          "url": "https://bavovna.ai/ai-pilot",
+          "page_class": "product",
+          "snippet": "Intended for dual use, Bavovna\u2019s hardware sits in an EMI-protected case and can be further augmented with a SIGINT RF module for bypassing EW and EM obstacles. AI pilot system, not only enables more reliable autonomous navigation but also improves obstacle detection, UAV routing, and ultimately operating efficiencies."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "AirTower",
+      "category": "ground_segment",
+      "descriptor": "Bavovna ground-based tower product for UAV navigation support",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 6,
+          "line_end": 6,
+          "url": "https://bavovna.ai",
+          "page_class": "homepage",
+          "snippet": "*   [AirTower](https://bavovna.ai/airtower/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0026",
+          "line_start": 24,
+          "line_end": 24,
+          "url": "https://bavovna.ai/best-inertial-navigation-systems-for-uavs",
+          "page_class": "news",
+          "snippet": "The Airtower use case needs to be covered."
+        }
+      ],
+      "notes": "Product page (https://bavovna.ai/airtower/) was skipped_class_budget; only evidence is nav-menu placement as a top-level product and an incidental editorial note. Category and descriptor are best-effort inferences pending a fetch of the product page."
+    },
+    {
+      "name": "Bavovna Mission Planner",
+      "category": "ground_segment",
+      "descriptor": "Mission planning software for GPS-denied/EW-threatened UAV operations, Ardupilot-based",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0019",
+          "line_start": 47,
+          "line_end": 48,
+          "url": "https://bavovna.ai/ai-navigation-kit",
+          "page_class": "capability",
+          "snippet": "Mission Planner:\nThe Bavovna Mission Planner displays Bavovna as an optional Al-powered navigation system to allow mission execution through GPS-denied / EW-threatened areas while offering an advanced API and Ul based on the Ardupilot open-source platform"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Multivector AirFlow Sensor for UAV",
+      "category": "sensors_and_navigation",
+      "descriptor": "360-degree multi-directional airflow sensor with 6\u20139 pressure elements replacing Pitot tubes",
+      "granularity": "sku",
+      "readiness": "low_rate_production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0348",
+          "line_start": 12,
+          "line_end": 14,
+          "url": "https://bavovna.ai/airflow-sensor",
+          "page_class": "other",
+          "snippet": "Multivector AirFlow Sensor for UAV\n==================================\nThe Multi-directional Airflow Sensor, developed and patented by Bavovna Inc., is a multi-platform sensor designed specifically for UAVs. Engineered to replace traditional Pitot tubes, offering enhanced capabilities for precise navigation and drift control for various UAV and aerial platforms, including helicopters, multicopters, fixed-wings and VTOLs"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0348",
+          "line_start": 16,
+          "line_end": 16,
+          "url": "https://bavovna.ai/airflow-sensor",
+          "page_class": "other",
+          "snippet": "[Pre-Order now](/pre-order/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "AI AirTower Mode",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "GNSS-denied autonomous hover-ascend-and-return flight mode for UAVs",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0020",
+          "line_start": 23,
+          "line_end": 24,
+          "url": "https://bavovna.ai/airtower",
+          "page_class": "other",
+          "snippet": "-------------------------\nAI AirTower flight mode enables a UAV to autonomously ascend to the set height, hover, and return to a designated landing point without GNSS or maps. The endpoint positioning error during field tests was about 0.5%. The system also supports autonomous take-off, landing, and return to home with a single point positioning \u00b11m latitude."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Bavovna AirTower with Aurelia X6 Max Pro-D",
+      "category": "airframes",
+      "descriptor": "AI-augmented hexacopter UAV for EW-resilient air tower, ISR, and radio relay missions",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0020",
+          "line_start": 12,
+          "line_end": 12,
+          "url": "https://bavovna.ai/airtower",
+          "page_class": "other",
+          "snippet": "Bavovna AirTower with Aurelia X6 Max Pro-D"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0020",
+          "line_start": 27,
+          "line_end": 27,
+          "url": "https://bavovna.ai/airtower",
+          "page_class": "other",
+          "snippet": "AirTower mode was originally developed and tested on Aurelia X6 Max Pro-D \u2014 one of the best enterprise drones in its category. It can be also adapted to a wide range of other UAV and ROV models."
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "The dedicated AI Navigation Kit product page (https://bavovna.ai/ai-navigation-kit/) was skipped due to capability class budget exhaustion; product was classified from homepage and blog evidence only.",
+    "SIGINT RF Module is mentioned as an optional add-on in blog posts but has no dedicated product page in the corpus \u2014 readiness, pricing, and ordering details are unknown.",
+    "https://bavovna.ai/uav-airtower-mode/ (further detail on AI AirTower Mode) was skipped_class_budget \u2014 additional specs may exist there."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://bavovna.ai/ai-navigation-kit",
+      "reason": "Dedicated product page for Bavovna AI Navigation Kit was skipped; needed for full spec, readiness, NDAA, and Blue UAS classification.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=capability",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://bavovna.ai/uav-airtower-mode",
+      "reason": "Dedicated page for AI AirTower Mode skipped; needed for additional specs and compliance detail.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://bavovna.ai/products",
+      "reason": "Product index page skipped; may enumerate additional SKUs including SIGINT RF Module and other offerings.",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "ndaa",
+        "blue_uas"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=product",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 31,
+    "total_cost_usd": 0.5089508,
+    "created_at": "2026-05-03T21:54:34+00:00",
+    "extract_version": "0.1.0"
+  }
+}

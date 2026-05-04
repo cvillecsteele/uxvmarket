@@ -1,0 +1,285 @@
+{
+  "target_id": "engineus",
+  "run_id": "canonical",
+  "display_name": "ENGINeUS\u2122",
+  "homepage_url": "https://www.safran-group.com/products-services/engineustm",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/engineus/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 379,
+            "line_end": 379,
+            "url": "https://www.safran-group.com/products-services/engineustm",
+            "page_class": "homepage",
+            "snippet": "ENGINeUS\u2122 Aircraft Electric Motors are self-contained direct drive propulsion power pods. This modular and scalable machine allows an easy integration into a vehicle whilst maintaining optimization of the propulsive function of new mobility platforms and hybrid turbomachinery."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 387,
+            "line_end": 387,
+            "url": "https://www.safran-group.com/products-services/engineustm",
+            "page_class": "homepage",
+            "snippet": "Modular and scalable, it suits to a wide range of all-electric and hybrid propulsion applications"
+          }
+        ],
+        "notes": "Electric motors (ENGINeUS range) are the core product \u2014 self-contained direct drive propulsion power pods for new air mobility and hybrid turbomachinery."
+      },
+      {
+        "category": "propulsion_electronics",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 388,
+            "line_end": 388,
+            "url": "https://www.safran-group.com/products-services/engineustm",
+            "page_class": "homepage",
+            "snippet": "\u00a0Contains power conversion, protection, thermal management, structural & aerodynamic loading capabilities"
+          }
+        ],
+        "notes": "Motor controllers (power and control electronics) are directly integrated into the ENGINeUS motor units."
+      },
+      {
+        "category": "power_systems",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 435,
+            "line_end": 440,
+            "url": "https://www.safran-group.com/products-services/engineustm",
+            "page_class": "homepage",
+            "snippet": "![](https://www.safran-group.com/sites/default/files/crops/23_15/public/node/36024/img/original/SAF2020_0340999.png?itok=vlp0VRGU) Electrical energy storage systems\n![GENeUSPACK\u2122](https://www.safran-group.com/sites/default/files/crops/23_15/public/node/36024/img/original/SAF2020_0340999.png?itok=vlp0VRGU)\nProduct\nGENeUSPACK\u2122\nElectrical energy storage systems\n](/products-services/smart-battery-system-geneuspacktm)"
+          }
+        ],
+        "notes": "GENeUSPACK\u2122 is described as an 'Electrical energy storage system' \u2014 a smart battery product in the ePower line."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Paris",
+      "state_or_province": null,
+      "country": "France",
+      "address": null
+    },
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0716",
+        "line_start": 246,
+        "line_end": 246,
+        "url": "https://www.safran-group.com/pressroom/safran-obtains-easa-certification-first-electric-motor-new-air-mobility-2025-02-03",
+        "page_class": "compliance",
+        "snippet": "_Safran is listed on the Euronext Paris stock exchange and is part of the CAC 40 and Euro Stoxx 50 indices._"
+      }
+    ],
+    "notes": "Safran Group is listed on Euronext Paris; no explicit street address published in the fetched corpus. ENGINeUS production in Niort (France) and Pitstone (UK)."
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 379,
+        "line_end": 379,
+        "url": "https://www.safran-group.com/products-services/engineustm",
+        "page_class": "homepage",
+        "snippet": "ENGINeUS\u2122 Aircraft Electric Motors are self-contained direct drive propulsion power pods. This modular and scalable machine allows an easy integration into a vehicle whilst maintaining optimization of the propulsive function of new mobility platforms and hybrid turbomachinery."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0716",
+        "line_start": 247,
+        "line_end": 247,
+        "url": "https://www.safran-group.com/pressroom/safran-obtains-easa-certification-first-electric-motor-new-air-mobility-2025-02-03",
+        "page_class": "compliance",
+        "snippet": "_**Safran Electrical & Power** is one of the world's leaders in aircraft electrical systems. The company is a key player in equipment electrification and in the electric and hybrid propulsion sector. It has 14,300 employees across 13 different countries._"
+      }
+    ],
+    "notes": "ENGINeUS motors are complete propulsion power pods with integrated electronics sold to eVTOL and new air mobility OEMs. Safran Electrical & Power is a key player in equipment electrification and in the electric and hybrid propulsion sector."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "ENGINeUS\u2122 50-100",
+        "product_type": "electric motor (50/100 kW)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 395,
+            "line_end": 399,
+            "url": "https://www.safran-group.com/products-services/engineustm",
+            "page_class": "homepage",
+            "snippet": "ENGINeUS\u2122 50 - 100\n------------------\nWe offer a new range of full electrical smart motors with a continuous power of 50 / 100 kW.\nSpeed from 2,500 - 3,000 RPM (continuous power) to 3,500 RPM\u00a0 (peak power).\nPower Density motor with integrated motor controller from 3,5 kw/kg (continuous power) to 5 kW/kg (peak power)."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ENGINeUS\u2122 XL",
+        "product_type": "hybrid electric motor (500 kW \u2013 1 MW)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 400,
+            "line_end": 404,
+            "url": "https://www.safran-group.com/products-services/engineustm",
+            "page_class": "homepage",
+            "snippet": "ENGINeUS\u2122 XL\n------------\nWe offer a new range of hybrid electric smart motors, ideal for commuter aircraft (high altitude up to 8km).\nSpeed from 1,900 RPM (continuous power) to 2,200 RPM (peak power).\nPower Density motor with integrated motor controller from 3,5 kW/kg (continuous power) to 4 kW/kg (peak power)."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ENGINeUS 100",
+        "product_type": "EASA-certified electric motor (125 kW max)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0716",
+            "line_start": 232,
+            "line_end": 232,
+            "url": "https://www.safran-group.com/pressroom/safran-obtains-easa-certification-first-electric-motor-new-air-mobility-2025-02-03",
+            "page_class": "compliance",
+            "snippet": "Safran Electrical & Power celebrates a world first: certification awarded by the European Union Aviation Safety Agency (EASA) of the ENGINeUS 100 motor \u2013 the first electric motor certified to power new air mobility."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "GENeUS\u2122",
+        "product_type": "smart generator",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 425,
+            "line_end": 431,
+            "url": "https://www.safran-group.com/products-services/engineustm",
+            "page_class": "homepage",
+            "snippet": "GENeUS\u2122\n![](https://www.safran-group.com/sites/default/files/crops/23_15/public/node/35625/img/original/SAF2020_0340921.png?itok=wDbZeQP0) Hybrid/Electrical propulsion systems\n![GENeUS\u2122](https://www.safran-group.com/sites/default/files/crops/23_15/public/node/35625/img/original/SAF2020_0340921.png?itok=wDbZeQP0)\nProduct\nGENeUS\u2122\nHybrid/Electrical propulsion systems\n](/products-services/geneustm-smart-generator)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "GENeUSPACK\u2122",
+        "product_type": "smart battery / electrical energy storage system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 434,
+            "line_end": 440,
+            "url": "https://www.safran-group.com/products-services/engineustm",
+            "page_class": "homepage",
+            "snippet": "GENeUSPACK\u2122\n![](https://www.safran-group.com/sites/default/files/crops/23_15/public/node/36024/img/original/SAF2020_0340999.png?itok=vlp0VRGU) Electrical energy storage systems\n![GENeUSPACK\u2122](https://www.safran-group.com/sites/default/files/crops/23_15/public/node/36024/img/original/SAF2020_0340999.png?itok=vlp0VRGU)\nProduct\nGENeUSPACK\u2122\nElectrical energy storage systems\n](/products-services/smart-battery-system-geneuspacktm)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Energy Management System GENeUSGRID PROPULSION\u2122",
+        "product_type": "hybrid/electrical propulsion energy management system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 443,
+            "line_end": 449,
+            "url": "https://www.safran-group.com/products-services/engineustm",
+            "page_class": "homepage",
+            "snippet": "Energy Management System GENeUSGRID PROPULSION\u2122\n![](https://www.safran-group.com/sites/default/files/crops/23_15/public/node/35631/img/original/SAF2020_0340923.png?itok=ZJCPVcMo) Hybrid/Electrical propulsion systems\n![Energy Management System GENeUSGRID PROPULSION\u2122](https://www.safran-group.com/sites/default/files/crops/23_15/public/node/35631/img/original/SAF2020_0340923.png?itok=ZJCPVcMo)\nProduct\nEnergy Management System GENeUSGRID PROPULSION\u2122\nHybrid/Electrical propulsion systems\n](/products-services/energy-management-system-geneusgridtm)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA Section 848/889 compliance claim anywhere in the fetched corpus. Safran is a French company; US-market NDAA compliance is not discussed."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS / Blue sUAS mention in any fetched page."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0716",
+        "line_start": 237,
+        "line_end": 237,
+        "url": "https://www.safran-group.com/pressroom/safran-obtains-easa-certification-first-electric-motor-new-air-mobility-2025-02-03",
+        "page_class": "compliance",
+        "snippet": "Safran Electrical & Power is preparing to mass-produce the ENGINeUS range with the creation of four semi-automated production lines in 2026 in Niort (France) and Pitstone (UK), enabling production of more than 1,000 electric motors per year, with capacity to increase production."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0716",
+        "line_start": 232,
+        "line_end": 232,
+        "url": "https://www.safran-group.com/pressroom/safran-obtains-easa-certification-first-electric-motor-new-air-mobility-2025-02-03",
+        "page_class": "compliance",
+        "snippet": "Safran Electrical & Power celebrates a world first: certification awarded by the European Union Aviation Safety Agency (EASA) of the ENGINeUS 100 motor \u2013 the first electric motor certified to power new air mobility."
+      }
+    ],
+    "notes": "EASA certification obtained February 2025; four semi-automated production lines being created in Niort (France) and Pitstone (UK) in 2026 targeting >1,000 motors/year. Catalog SKUs with defined power specs."
+  },
+  "unresolved_questions": [
+    "Exact street address of Safran Electrical & Power not published in corpus",
+    "US NDAA compliance status not discussed on site"
+  ],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Direct-drive electric motors from 50 kW to 1 MW for hybrid-electric aircraft, including EASA-certified 100 kW unit and integrated power management systems. Safran subsidiary headquartered in Paris. NDAA and Blue UAS certification status unknown; public evidence on US defense-sector adoption is limited.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 16,
+    "total_cost_usd": 0.43066344999999995,
+    "created_at": "2026-05-04T02:14:08+00:00",
+    "extract_version": "0.1.0"
+  }
+}

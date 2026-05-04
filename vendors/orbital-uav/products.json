@@ -1,0 +1,327 @@
+{
+  "target_id": "orbital-uav",
+  "run_id": "canonical",
+  "display_name": "Orbital UAV",
+  "homepage_url": "https://www.orbitaluav.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/orbital-uav/website",
+  "products": [
+    {
+      "name": "50HFE",
+      "category": "propulsion_mechanical",
+      "descriptor": "50cc single-cylinder heavy-fuel UAV engine, 3.6 hp, ~340 g/kWh, FlexDI\u2122 integrated",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0024",
+          "line_start": 9,
+          "line_end": 10,
+          "url": "https://www.orbitaluav.com/products-50hfe",
+          "page_class": "product",
+          "snippet": "50HFE\n50cc Single-Cylinder FlexDI\u2122 Fully Integrated HFE Propulsion System for UAVs"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0024",
+          "line_start": 22,
+          "line_end": 23,
+          "url": "https://www.orbitaluav.com/products-50hfe",
+          "page_class": "product",
+          "snippet": "**3.6 hp and ~340 g/kWh** cruise efficiency for small airframes. Proven with 250,000+ hours,\nplus Engine Management System driven in/post-flight diagnostics to keep missions on schedule."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "75HFE",
+      "category": "propulsion_mechanical",
+      "descriptor": "75cc single-cylinder heavy-fuel UAV engine, 5.1 hp, ~345 g/kWh, FlexDI\u2122 integrated",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0025",
+          "line_start": 9,
+          "line_end": 10,
+          "url": "https://www.orbitaluav.com/products-75hfe",
+          "page_class": "product",
+          "snippet": "75HFE\n75cc Single-Cylinder FlexDI\u2122 Fully Integrated HFE Propulsion System for UAVs"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0025",
+          "line_start": 22,
+          "line_end": 24,
+          "url": "https://www.orbitaluav.com/products-75hfe",
+          "page_class": "product",
+          "snippet": "Built for endurance, the 75HFE uses FlexDI\u2122 to deliver efficient heavy-fuel combustion\nwith minimal vibration and simplified integration. Field-proven with over 700,000+ hours\nof multiple operating environments across the globe."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "150HFE",
+      "category": "propulsion_mechanical",
+      "descriptor": "150cc opposed twin-cylinder heavy-fuel UAV engine, 11.9 hp, &lt;340 g/kWh, MIL-STD-810H qualified",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0022",
+          "line_start": 9,
+          "line_end": 10,
+          "url": "https://www.orbitaluav.com/products-150hfe",
+          "page_class": "product",
+          "snippet": "150HFE\n150cc Opposed two cylinder 2-stroke FlexDI\u2122 Fully Integrated HFE Propulsion System for UAVs"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0022",
+          "line_start": 22,
+          "line_end": 24,
+          "url": "https://www.orbitaluav.com/products-150hfe",
+          "page_class": "product",
+          "snippet": "Built on the proven 75cc architecture, the 150cc twin-boxer HFE delivers ultra-smooth\nheavy-fuel power - **11.9 hp, <340 g/kWh efficiency in a 10.4 kg system**.\nQualified to MIL-STD-810H and proven through 25,000 operational hours in the field."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "350HFE",
+      "category": "propulsion_mechanical",
+      "descriptor": "350cc opposed twin-cylinder heavy-fuel UAV engine, 28.4 hp, ~325 g/kWh, Group 3 capable",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0023",
+          "line_start": 9,
+          "line_end": 10,
+          "url": "https://www.orbitaluav.com/products-350hfe",
+          "page_class": "product",
+          "snippet": "350HFE\n350cc Opposed boxer twin cylinder 2-stroke FlexDI\u2122 Fully Integrated HFE Propulsion System for UAVs"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0023",
+          "line_start": 22,
+          "line_end": 23,
+          "url": "https://www.orbitaluav.com/products-350hfe",
+          "page_class": "product",
+          "snippet": "High-output endurance propulsion for larger airframes and harsher environments.\nEngineered for endurance, higher onboard electrical supply and missions that demand range and payload."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "PMS",
+      "category": "power_systems",
+      "descriptor": "UAV power management system with dual 28 V outputs, alternator/battery/shore auto-switching, and CANbus telemetry",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0026",
+          "line_start": 9,
+          "line_end": 10,
+          "url": "https://www.orbitaluav.com/products-pms",
+          "page_class": "product",
+          "snippet": "ORBITAL\u00a0PMS\nAdvanced Power Management System"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0026",
+          "line_start": 14,
+          "line_end": 16,
+          "url": "https://www.orbitaluav.com/products-pms",
+          "page_class": "product",
+          "snippet": "**It keeps your UAV\u2019s critical systems powered.\nCleanly, continuously, and intelligently\n\u200d**Orbital\u2019s PMS conditions and prioritises power, automatically switches between alternator / battery / shore, protects the avionics bus, and reports health via telemetry, so missions continue even when supply or load changes."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "FlexECU\u2122",
+      "category": "propulsion_electronics",
+      "descriptor": "UAV engine management system with black-box logging, fault monitoring, anti-stall, and CAN communication",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0024",
+          "line_start": 53,
+          "line_end": 57,
+          "url": "https://www.orbitaluav.com/products-50hfe",
+          "page_class": "product",
+          "snippet": "FlexECU\u2122\n========\nAdvanced Engine Management System\n=================================\nIntelligent electronic propulsion management system"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0024",
+          "line_start": 109,
+          "line_end": 111,
+          "url": "https://www.orbitaluav.com/products-50hfe",
+          "page_class": "product",
+          "snippet": "~5.2kg Integrated Propulsion System (includes ECU, mount, pumps, harness, propeller)\nEngine Management\nOrbital FlexECU with CAN Communication"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "FlexDI\u2122",
+      "category": "propulsion_mechanical",
+      "descriptor": "Air-assisted direct fuel injection system atomising to ~8 \u00b5m droplets for heavy-fuel UAV engines",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0018",
+          "line_start": 9,
+          "line_end": 10,
+          "url": "https://www.orbitaluav.com/news/customer-fleet-surpasses-100-000-flight-hours-on-orbital-power",
+          "page_class": "news",
+          "snippet": "FlexDI\u2122 air-assisted direct injection system\nAt Orbital UAV, combustion efficiency begins with precise fuel atomisation"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0018",
+          "line_start": 19,
+          "line_end": 19,
+          "url": "https://www.orbitaluav.com/news/customer-fleet-surpasses-100-000-flight-hours-on-orbital-power",
+          "page_class": "news",
+          "snippet": "Validated through three times FAR 33.49 150-hour endurance testing and MIL-STD-810H qualification, FlexDI\u2122 delivers reliable power when it matters most."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "FlexECU\u00ae Argon",
+      "category": "propulsion_electronics",
+      "descriptor": "Advanced variant engine management system with improved fuelling algorithms under electrical load and black-box logging",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0026",
+          "line_start": 29,
+          "line_end": 29,
+          "url": "https://www.orbitaluav.com/products-pms",
+          "page_class": "product",
+          "snippet": "CANbus real-time telemetry; with FlexECU\u00ae Argon, get improved fuelling algorithms under electrical load, fault/diagnostics monitoring, and black-box logging."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "OptiProp",
+      "category": "test_and_measurement",
+      "descriptor": "In-house engine and propeller simulation platform for UAV performance optimisation across altitudes and environments",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0019",
+          "line_start": 10,
+          "line_end": 11,
+          "url": "https://www.orbitaluav.com/news/next-gen-heavy-fuel-engine-sets-new-endurance-benchmark",
+          "page_class": "news",
+          "snippet": "Built for Extreme UAV Performance: OptiProp\n==========================================="
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0019",
+          "line_start": 19,
+          "line_end": 21,
+          "url": "https://www.orbitaluav.com/news/next-gen-heavy-fuel-engine-sets-new-endurance-benchmark",
+          "page_class": "news",
+          "snippet": "Rapidly iterates aircraft designs in early development\nSelects the ideal propeller to realise best-in-class fuel efficiency\nMinimises physical testing from months to hoursIncorporates predictive fuel consumption into engineering decisions"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "FlexDT\u2122",
+      "category": "ground_segment",
+      "descriptor": "Orbital remote-start device integrated with the PMS for UAV engine ground operations",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0026",
+          "line_start": 33,
+          "line_end": 33,
+          "url": "https://www.orbitaluav.com/products-pms",
+          "page_class": "product",
+          "snippet": "IP55-targeted sealed unit with IP68 fans for in-fuselage mounting; \u201310 to +50 \u00b0C ambient, 2200\u20137500 RPM alternator range, up to 30 A rectified input. Remote start from Orbital\u2019s FlexDT\u2122"
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "FlexDT\u2122 appears only once in corpus (PMS page, line 33) as the device enabling remote engine start; no dedicated product page exists \u2014 its exact category (ground control terminal vs. vehicle-mounted device) and readiness are unverifiable from the corpus alone.",
+    "FlexECU\u00ae Argon appears only once in corpus (PMS page, line 29) as a PMS companion module offering improved fuelling algorithms; no dedicated page found, so readiness remains unknown.",
+    "OptiProp is described as an in-house simulation platform used with customers for propeller selection; it is unclear whether it is sold as a standalone software product or only delivered as an engineering service.",
+    "The five HFE product brochures (PDF) were crawled but skipped as out-of-scope (hosted on cdn.prod.website-files.com); these may contain additional detail on FlexDT, FlexECU Argon, and NDAA/compliance status."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://cdn.prod.website-files.com/68f5a2de0df028e076dd4ae1/691be3b1589a8f4e777029da_Orbital%2050HFE%202025-11-10.pdf",
+      "reason": "HFE brochure PDFs may contain detailed specs for FlexDT, FlexECU Argon, NDAA compliance claims, and OptiProp commercial terms not present on the website pages.",
+      "expected_evidence": [
+        "products",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_out_of_scope",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/68f5a2de0df028e076dd4ae1/691be3b1a1d51da3783b340b_Orbital%20PMS%202025-09-03%20V1.pdf",
+      "reason": "PMS brochure PDF likely contains full specs for FlexDT and FlexECU Argon integration, and may include compliance/NDAA claims.",
+      "expected_evidence": [
+        "products",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_out_of_scope",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 23,
+    "total_cost_usd": 0.6741151500000001,
+    "created_at": "2026-05-04T04:57:16+00:00",
+    "extract_version": "0.1.0"
+  }
+}

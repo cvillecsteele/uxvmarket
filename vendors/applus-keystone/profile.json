@@ -1,0 +1,213 @@
+{
+  "target_id": "applus-keystone",
+  "run_id": "canonical",
+  "display_name": "Applus+ Keystone",
+  "homepage_url": "https://keystonecompliance.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/applus-keystone/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "test_and_measurement",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0259",
+            "line_start": 331,
+            "line_end": 331,
+            "url": "https://keystonecompliance.com/uav",
+            "page_class": "other",
+            "snippet": "Unmanned Aerial Vehicle (UAV) and Unmanned Aircraft Systems (UAS) EMC/EMI, Mechanical, and Climatic Testing"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 344,
+            "line_end": 345,
+            "url": "https://keystonecompliance.com",
+            "page_class": "homepage",
+            "snippet": "Our lab features seven EMC chambers with extensive testing capabilities. We provide radiated immunity testing up to 200 V/m from 10 kHz to 40 GHz and radiated emissions testing up to 40 GHz.\n[Learn More](https://keystonecompliance.com/emc-testing/)"
+          }
+        ],
+        "notes": "Compliance testing lab offering EMC/EMI, environmental, mechanical, and climatic testing to UAV/UAS and other manufacturers"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "New Castle",
+      "state_or_province": "Pennsylvania",
+      "country": "United States",
+      "address": "131 N. Columbus Innerbelt, New Castle, PA 16101"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 366,
+        "line_end": 369,
+        "url": "https://keystonecompliance.com",
+        "page_class": "homepage",
+        "snippet": "#### Pennsylvania Lab\n131 N. Columbus Innerbelt\nNew Castle, PA 16101\n(724) 657-9940"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "service_provider",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0259",
+        "line_start": 336,
+        "line_end": 336,
+        "url": "https://keystonecompliance.com/uav",
+        "page_class": "other",
+        "snippet": "[Request a quote](https://keystonecompliance.com/request-a-quote/) to see why hundreds of manufacturers trust Keystone Compliance with their unmanned aerial vehicle testing needs."
+      }
+    ],
+    "notes": "Compliance testing lab (EMC/EMI, environmental, mechanical) that provides testing services to UAV/UAS manufacturers; also serves military, aerospace, medical, and other industries"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "UAV/UAS EMC and EMI Testing",
+        "product_type": "compliance testing service",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0259",
+            "line_start": 331,
+            "line_end": 331,
+            "url": "https://keystonecompliance.com/uav",
+            "page_class": "other",
+            "snippet": "Unmanned Aerial Vehicle (UAV) and Unmanned Aircraft Systems (UAS) EMC/EMI, Mechanical, and Climatic Testing"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MIL-STD-461 Testing",
+        "product_type": "military EMC compliance testing service",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0479",
+            "line_start": 331,
+            "line_end": 331,
+            "url": "https://keystonecompliance.com/mil-std-461",
+            "page_class": "other",
+            "snippet": "MIL-STD-461 EMC/EMI Compliance Testing"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MIL-STD-810 Testing",
+        "product_type": "military environmental compliance testing service",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0260",
+            "line_start": 331,
+            "line_end": 331,
+            "url": "https://keystonecompliance.com/mil-std-810",
+            "page_class": "other",
+            "snippet": "MIL-STD-810 Environmental Test Methods"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "IEC 62443 Cybersecurity Compliance Testing",
+        "product_type": "cybersecurity compliance testing service",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0550",
+            "line_start": 331,
+            "line_end": 331,
+            "url": "https://keystonecompliance.com/iec-62443-cybersecurity",
+            "page_class": "other",
+            "snippet": "==============================="
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Wireless Certification Testing",
+        "product_type": "wireless compliance testing service",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0358",
+            "line_start": 331,
+            "line_end": 331,
+            "url": "https://www.keystonecompliance.com/wireless-testing",
+            "page_class": "other",
+            "snippet": "================"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 336,
+        "line_end": 337,
+        "url": "https://keystonecompliance.com",
+        "page_class": "homepage",
+        "snippet": "Thousands of Manufacturers Partner with Applus+ Keystone to Meet Their Compliance Test Needs.\nExperience The Keystone Difference Firsthand."
+      }
+    ],
+    "notes": "Operational accredited testing laboratory with multiple facilities in PA, MI, and NC; accepts customer samples and issues ISO 17025 test reports"
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Full-service compliance testing lab offering EMC/EMI, environmental (temperature, humidity, vibration, salt-fog), ingress protection, and autonomous vehicle certification testing across commercial, military (MIL-STD-461/810/464), and aerospace (RTCA DO-160) standards. ISO 17025 accredited with seven anechoic chambers. NDAA and Blue UAS status unknown; public evidence does not indicate direct defense contracts or major prime supply-chain integration.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 15,
+    "total_cost_usd": 0.35417735,
+    "created_at": "2026-05-03T21:23:32+00:00",
+    "extract_version": "0.1.0"
+  }
+}

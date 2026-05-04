@@ -1,0 +1,397 @@
+{
+  "target_id": "sagetech-avionics",
+  "run_id": "canonical",
+  "display_name": "Sagetech Avionics",
+  "homepage_url": "https://sagetech.com/",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/sagetech-avionics/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "communications",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0014",
+            "line_start": 72,
+            "line_end": 73,
+            "url": "https://sagetech.com/commercial-solutions/transponders",
+            "page_class": "capability",
+            "snippet": "Sagetech\u2019s micro transponders deliver unmatched reliability with advanced performance in one small high-powered package.\n![](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0007",
+            "line_start": 75,
+            "line_end": 75,
+            "url": "https://sagetech.com/resources/product-sheets/mx12b",
+            "page_class": "product",
+            "snippet": "Sagetech\u2019s next-gen MX12B miniature transponder is the only micro Mode 5 IFF transponder certified to the full DoD AIMS Mk XIIB specification. It packages Mode 5, Mode S, and complete ADS-B In and Out capability in a SWaP that is at least 93% smaller and 6 times lighter than traditional certified military Mode 5 IFF transponders."
+          }
+        ],
+        "notes": "Core product line: miniature Mode S/C/IFF/ADS-B transponders for crewed and uncrewed aircraft worldwide."
+      },
+      {
+        "category": "flight_and_vehicle_control",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0012",
+            "line_start": 73,
+            "line_end": 73,
+            "url": "https://sagetech.com/acas-solutions",
+            "page_class": "capability",
+            "snippet": "We provide the most advanced certifiable, onboard detect and avoid (DAA) systems for crewed and uncrewed aircraft with our onboard, full power, low SWaP collision avoidance solution \u2013 all made possible with an onboard ACAS DAA computer."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0012",
+            "line_start": 96,
+            "line_end": 98,
+            "url": "https://sagetech.com/acas-solutions",
+            "page_class": "capability",
+            "snippet": "### Xu: Fixed Wing Aircraft\n**55lbs | >400 AGL\n**Navigate BVLOS safely through all airspace with this certifiable, ACAS-based, all-in-one detect and avoid system in a single low-SWaP package including our integrated cooperative traffic interrogator, plug-n-play compatible with common non-cooperative sensors."
+          }
+        ],
+        "notes": "ACAS-based Detect and Avoid systems (Xu, sXu, Xr) with onboard DAA computer and SafeMission+ software provide collision avoidance advisories interfacing with autopilots."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Bingen",
+      "state_or_province": "Washington",
+      "country": "United States",
+      "address": "317 W Steuben Street"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0005",
+        "line_start": 115,
+        "line_end": 116,
+        "url": "https://sagetech.com/",
+        "page_class": "homepage",
+        "snippet": "317 W Steuben Street\nBingen, WA 98605"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0012",
+        "line_start": 121,
+        "line_end": 122,
+        "url": "https://sagetech.com/acas-solutions",
+        "page_class": "capability",
+        "snippet": "We help OEMs, and government agencies all around the world develop their solutions for successful airspace integration.\nWhether your project is in pre-development, or further along in the certification process, our team of experts can help guide you to success."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0022",
+        "line_start": 143,
+        "line_end": 143,
+        "url": "https://sagetech.com/government-solutions/defense-solutions",
+        "page_class": "compliance",
+        "snippet": "Every day, we collaborate with the world\u2019s most advanced UAV manufacturers to develop solutions for emerging challenges."
+      }
+    ],
+    "notes": "Sells certified transponder and DAA/collision-avoidance subsystems to UAS OEMs and government programs; does not manufacture complete airframes."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "MXS Mode S Transponder",
+        "product_type": "FAA-certified miniature Mode S/ADS-B transponder for UAV and crewed aircraft",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0014",
+            "line_start": 74,
+            "line_end": 75,
+            "url": "https://sagetech.com/commercial-solutions/transponders",
+            "page_class": "capability",
+            "snippet": "### MXS Mode S Transponder\nSagetech\u2019s FAA-certified next-gen MXS miniature transponder provides Modes A, C, S and 1090 MHz ADS-B in/out for worldwide compliance of your crewed or uncrewed system."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MX12B",
+        "product_type": "Micro Mode 5 IFF transponder (DoD AIMS Mk XIIB certified) for military UAS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0007",
+            "line_start": 75,
+            "line_end": 75,
+            "url": "https://sagetech.com/resources/product-sheets/mx12b",
+            "page_class": "product",
+            "snippet": "Sagetech\u2019s next-gen MX12B miniature transponder is the only micro Mode 5 IFF transponder certified to the full DoD AIMS Mk XIIB specification. It packages Mode 5, Mode S, and complete ADS-B In and Out capability in a SWaP that is at least 93% smaller and 6 times lighter than traditional certified military Mode 5 IFF transponders."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "XPS Mode S Legacy Transponder",
+        "product_type": "Miniature Mode S ADS-B Out transponder",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0014",
+            "line_start": 78,
+            "line_end": 79,
+            "url": "https://sagetech.com/commercial-solutions/transponders",
+            "page_class": "capability",
+            "snippet": "### XPS Mode S Legacy Transponder\nSagetech XPS transponders deliver ADS-B Out capability with the highest reliability available in a single, tiny, FCC-approved package."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "XPG Mode S Legacy Transponder",
+        "product_type": "Miniature Mode S ADS-B Out transponder with integrated GPS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0014",
+            "line_start": 82,
+            "line_end": 83,
+            "url": "https://sagetech.com/commercial-solutions/transponders",
+            "page_class": "capability",
+            "snippet": "### XPG Mode S Legacy Transponder\nSagetech XPG transponders deliver Modes A, C, and S, ADS-B Out, plus integrated GPS functionality in a tiny, all-in-one solution."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "XPC Mode C Legacy Transponder",
+        "product_type": "Miniature Mode C transponder",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0014",
+            "line_start": 86,
+            "line_end": 87,
+            "url": "https://sagetech.com/commercial-solutions/transponders",
+            "page_class": "capability",
+            "snippet": "### XPC Mode C Legacy Transponder\nWhen you need ultra-reliable performance at a cost-effective price, the XPC transponder delivers. This unit offers a host of advanced features packaged in a tiny SWaP footprint."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ACAS Xu",
+        "product_type": "All-in-one detect-and-avoid system for fixed-wing UAS >55lbs flying >400ft AGL",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0012",
+            "line_start": 96,
+            "line_end": 98,
+            "url": "https://sagetech.com/acas-solutions",
+            "page_class": "capability",
+            "snippet": "### Xu: Fixed Wing Aircraft\n**55lbs | >400 AGL\n**Navigate BVLOS safely through all airspace with this certifiable, ACAS-based, all-in-one detect and avoid system in a single low-SWaP package including our integrated cooperative traffic interrogator, plug-n-play compatible with common non-cooperative sensors."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ACAS sXu",
+        "product_type": "All-in-one detect-and-avoid system for small UAS <55lbs flying <400ft AGL",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0012",
+            "line_start": 100,
+            "line_end": 102,
+            "url": "https://sagetech.com/acas-solutions",
+            "page_class": "capability",
+            "snippet": "### sXu: Small, Uncrewed Aircraft\n**<55lbs | <400 AGL\n**Protect your investment and fly even the smallest aircraft BVLOS with Sagtech\u2019s all-in-one ACAS sXu system. Low SWaP and integrated with autopilots and non-cooperative sensors. Dual-band ADS-B receiver for cooperative traffic. This product services fixed and rotary wing small UAS."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ACAS Xr",
+        "product_type": "ACAS-based collision avoidance system for rotary-wing/UAM aircraft >55lbs",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0012",
+            "line_start": 104,
+            "line_end": 106,
+            "url": "https://sagetech.com/acas-solutions",
+            "page_class": "capability",
+            "snippet": "### Xr: Rotary Wing Aircraft\n**\\>55lbs | >400 AGL\n**The ACAS Xr will serve UAM and other rotary wing aircraft flying various in-corridor and non-corridor routes that require low SWaP, certified ACAS-based collision avoidance capability."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SafeMission+",
+        "product_type": "DAA software platform bundled with ACAS systems",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0012",
+            "line_start": 78,
+            "line_end": 78,
+            "url": "https://sagetech.com/acas-solutions",
+            "page_class": "capability",
+            "snippet": "*   SafeMission+ Software"
+          }
+        ],
+        "notes": "Listed as a bullet-point feature of the ACAS product line; no standalone product page in corpus."
+      },
+      {
+        "name": "APX-128 Advanced IFF",
+        "product_type": "Advanced IFF transponder (US Army production contract)",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 98,
+            "line_end": 98,
+            "url": "https://sagetech.com/",
+            "page_class": "homepage",
+            "snippet": "[Sagetech Avionics Awarded $248.5M Army Contract for APX-128 Advanced IFF Production](https://sagetech.com/news-and-events/sagetech-avionics-awarded-248-5m-army-contract-for-apx-128-advanced-iff-production/)"
+          }
+        ],
+        "notes": "Known from $248.5M Army production contract headline; no dedicated product page was fetched."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Core named products confirmed; individual product detail pages (MXS, XPS, XPG, XPC, defense transponders) were skipped and may reveal additional models or variants."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0022",
+        "line_start": 84,
+        "line_end": 86,
+        "url": "https://sagetech.com/government-solutions/defense-solutions",
+        "page_class": "compliance",
+        "snippet": "*   1.5 Million _Flight Hours_\n*   500+ _Unmanned Aircraft Platforms_\n*   40+ _Countries_"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0005",
+        "line_start": 98,
+        "line_end": 98,
+        "url": "https://sagetech.com/",
+        "page_class": "homepage",
+        "snippet": "[Sagetech Avionics Awarded $248.5M Army Contract for APX-128 Advanced IFF Production](https://sagetech.com/news-and-events/sagetech-avionics-awarded-248-5m-army-contract-for-apx-128-advanced-iff-production/)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0014",
+        "line_start": 74,
+        "line_end": 75,
+        "url": "https://sagetech.com/commercial-solutions/transponders",
+        "page_class": "capability",
+        "snippet": "### MXS Mode S Transponder\nSagetech\u2019s FAA-certified next-gen MXS miniature transponder provides Modes A, C, S and 1090 MHz ADS-B in/out for worldwide compliance of your crewed or uncrewed system."
+      }
+    ],
+    "notes": "FAA-certified and DoD-certified products with 1.5M+ flight hours on 500+ UAS platforms. Most recent press release reports a $248.5M US Army production contract for APX-128 IFF."
+  },
+  "unresolved_questions": [
+    "NDAA Section 848/889 compliance status not disclosed anywhere in corpus.",
+    "Blue UAS cleared list status not mentioned.",
+    "APX-128 product details and full defense transponder lineup not confirmed (detail page was skipped)."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://sagetech.com/transponders/mxs-mode-s-transponder",
+      "reason": "Product detail page for MXS Mode S Transponder \u2014 would confirm full specs, any NDAA/compliance claims, and certifications.",
+      "expected_evidence": [
+        "products",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index, status likely skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://sagetech.com/government-solutions/defense-solutions/transponders",
+      "reason": "Defense transponder product listing \u2014 would confirm APX-128 and other military transponder SKUs, and potentially NDAA/Made-in-USA compliance language.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index, status likely skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://sagetech.com/news-and-events/sagetech-avionics-awarded-248-5m-army-contract-for-apx-128-advanced-iff-production",
+      "reason": "Press release for APX-128 Army production contract \u2014 would provide product description, program details, and confirm production readiness classification.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index, status likely skipped_class_budget, page_class=news",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://sagetech.com/about-us/who-we-are",
+      "reason": "Company page \u2014 may include US manufacturing claims or compliance statements that would sharpen NDAA/Blue UAS answers.",
+      "expected_evidence": [
+        "headquarters",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index, status likely skipped_class_budget, page_class=company",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 22,
+    "total_cost_usd": 0.5268978,
+    "created_at": "2026-05-03T15:26:16+00:00",
+    "extract_version": "0.1.0"
+  },
+  "tagline": "Miniature Mode S/Mode 5 transponders and ACAS-based detect-and-avoid systems for fixed-wing and rotary-wing UAS. Holds $248.5M US Army APX-128 IFF production contract. NDAA and Blue UAS certification status unknown; public evidence on airworthiness approvals limited beyond FAA transponder certs."
+}

@@ -1,0 +1,291 @@
+{
+  "target_id": "eumotors",
+  "run_id": "canonical",
+  "display_name": "EUMOTORS",
+  "homepage_url": "https://www.eumotors.eu",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/eumotors/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 10,
+            "line_end": 10,
+            "url": "https://eumotors.eu/",
+            "page_class": "homepage",
+            "snippet": "Propulsion systems for mission-critical platforms"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 86,
+            "line_end": 86,
+            "url": "https://eumotors.eu/",
+            "page_class": "homepage",
+            "snippet": "At EUMOTORS, we design and manufacture advanced BLDC motors. Based in Poland, our mission is to make high-performance propulsion accessible, scalable, and dependable \u2013 even in the most demanding operational conditions."
+          }
+        ],
+        "notes": "BLDC motors for UAS/drone propulsion \u2014 EUM-BLDC and EUM-XA series"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Krak\u00f3w",
+      "state_or_province": null,
+      "country": "Poland",
+      "address": "ul. Dworska 1A / 2, 30-314 Krak\u00f3w, Poland"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0011",
+        "line_start": 12,
+        "line_end": 12,
+        "url": "https://eumotors.eu/index.php/privacy-policy",
+        "page_class": "company",
+        "snippet": "The administrator of personal data is EUMOTORS sp. z o.o., with its registered office at ul. Dworska 1A / 2, 30-314 Krak\u00f3w, Poland, entered into the National Court Register under KRS number 0001147077, NIP: 6762684170, hereinafter referred to as the Administrator."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 116,
+        "line_end": 117,
+        "url": "https://eumotors.eu/",
+        "page_class": "homepage",
+        "snippet": "EUMOTORS sp. z o.o.\nKrak\u00f3w, Polska"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 86,
+        "line_end": 86,
+        "url": "https://eumotors.eu/",
+        "page_class": "homepage",
+        "snippet": "At EUMOTORS, we design and manufacture advanced BLDC motors. Based in Poland, our mission is to make high-performance propulsion accessible, scalable, and dependable \u2013 even in the most demanding operational conditions."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 88,
+        "line_end": 88,
+        "url": "https://eumotors.eu/",
+        "page_class": "homepage",
+        "snippet": "By combining engineering depth with production flexibility, we help system integrators move faster, operate safer, and perform where others can\u2019t."
+      }
+    ],
+    "notes": "Designs and manufactures BLDC motors sold to drone system integrators; no complete platform"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "EUM-3115",
+        "product_type": "BLDC motor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 19,
+            "line_end": 19,
+            "url": "https://eumotors.eu/",
+            "page_class": "homepage",
+            "snippet": "[EUM-3115](https://eumotors.eu/index.php/eum-3115/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "EUM-2207",
+        "product_type": "BLDC motor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 22,
+            "line_end": 22,
+            "url": "https://eumotors.eu/",
+            "page_class": "homepage",
+            "snippet": "[EUM-2207](https://eumotors.eu/index.php/eum-2207/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "EUM-2808",
+        "product_type": "BLDC motor for unmanned system propulsion",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 24,
+            "line_end": 25,
+            "url": "https://eumotors.eu/",
+            "page_class": "homepage",
+            "snippet": "[![EUM-2808 brushless DC motor with integrated rotor housing for unmanned system propulsion](https://eumotors.eu/wp-content/uploads/2026/02/Kopia-\u2013-Kopia-\u2013-Kopia-\u2013-Kopia-\u2013-team-2-2-1-1024x1024.png)](https://eumotors.eu/index.php/eum-2808/)\n[EUM-2808](https://eumotors.eu/index.php/eum-2808/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "EUM-XA Series",
+        "product_type": "industrial-grade heavy-lift BLDC motor (up to 128 kg thrust)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 32,
+            "line_end": 34,
+            "url": "https://eumotors.eu/",
+            "page_class": "homepage",
+            "snippet": "EUM-XA Series: Industrial Grade Heavy-Lift Propulsion\n-----------------------------------------------------\nEngineered for maximum endurance and reliability, the EUM-XA series delivers up to 128 kg of thrust per unit, providing professional-grade efficiency ."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Full product listing page (bldc-motors) was skipped; additional SKUs may exist"
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 45,
+        "line_end": 45,
+        "url": "https://eumotors.eu/",
+        "page_class": "homepage",
+        "snippet": "EU & US-Based Manufacturing"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 14,
+        "line_end": 14,
+        "url": "https://eumotors.eu/",
+        "page_class": "homepage",
+        "snippet": "### Designed and manufactured entirely in Poland"
+      }
+    ],
+    "notes": "Site advertises EU & US-Based Manufacturing and 'Designed and manufactured entirely in Poland' but makes no explicit NDAA Section 848/889 compliance claim"
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 51,
+        "line_end": 52,
+        "url": "https://eumotors.eu/",
+        "page_class": "homepage",
+        "snippet": "*   High-speed stator winding - up to 4 stators wound in 36 seconds\n*   Process repeatability ensuring consistent quality across production batches"
+      }
+    ],
+    "notes": "High-speed serial stator winding (up to 4 stators in 36 seconds); catalog SKUs with download; process repeatability for production batches"
+  },
+  "unresolved_questions": [
+    "Full product SKU list not available \u2014 bldc-motors and individual product pages were skipped",
+    "About-us page skipped \u2014 no additional company/HQ details",
+    "NDAA compliance not stated anywhere in corpus"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://eumotors.eu/index.php/bldc-motors",
+      "reason": "Would enumerate all BLDC motor product lines and SKUs, confirming component_supplier role and full products list",
+      "expected_evidence": [
+        "products",
+        "drone_supply_chain_role",
+        "products_categories",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://eumotors.eu/index.php/about-us",
+      "reason": "Would provide company background, possible NDAA or compliance claims, and additional HQ details",
+      "expected_evidence": [
+        "headquarters",
+        "ndaa",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://eumotors.eu/index.php/eum-3115",
+      "reason": "Individual motor product page \u2014 would confirm specs, target applications, and UAS-specific use",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://eumotors.eu/index.php/eum-2207",
+      "reason": "Individual motor product page \u2014 specs and UAS application details",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://eumotors.eu/index.php/eum-2808",
+      "reason": "Individual motor product page \u2014 specs and UAS application details",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "tagline": null,
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 7,
+    "total_cost_usd": 0.29197295,
+    "created_at": "2026-05-04T02:22:54+00:00",
+    "extract_version": "0.1.0"
+  }
+}

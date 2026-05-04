@@ -1,0 +1,434 @@
+{
+  "target_id": "ep-systems",
+  "run_id": "canonical",
+  "display_name": "EP Systems",
+  "homepage_url": "https://epsenergy.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/ep-systems/website",
+  "products": [
+    {
+      "name": "EPiC Propulsion Battery",
+      "category": "power_systems",
+      "descriptor": "Modular lithium-ion propulsion battery ecosystem for electric aircraft",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0050",
+          "line_start": 16,
+          "line_end": 16,
+          "url": "https://epsenergy.com/products-services/epic-propulsion-battery-2",
+          "page_class": "product",
+          "snippet": "EPiC Propulsion Battery"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0050",
+          "line_start": 27,
+          "line_end": 27,
+          "url": "https://epsenergy.com/products-services/epic-propulsion-battery-2",
+          "page_class": "product",
+          "snippet": "In 2021, EP Systems released EPiC 1.0. It addressed some of the most prevalent roadblocks to advanced air mobility \u2013 including safety, cost, weight, and infrastructure. This lightweight, high-power system offers an impressive 60 minutes of usable flight time with 30 minutes of reserve."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "EPiC 1.0 Energy",
+      "category": "power_systems",
+      "descriptor": "FAA TSO-certified energy-optimized propulsion battery for trainer/thin-haul/eVTOL, 205 Wh/kg, 2269 Wh",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0050",
+          "line_start": 29,
+          "line_end": 31,
+          "url": "https://epsenergy.com/products-services/epic-propulsion-battery-2",
+          "page_class": "product",
+          "snippet": "EPiC 1.0\n--------\n**FAA TSO Certification in 2024**"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0050",
+          "line_start": 38,
+          "line_end": 46,
+          "url": "https://epsenergy.com/products-services/epic-propulsion-battery-2",
+          "page_class": "product",
+          "snippet": "### EPiC 1.0 ENERGY\nTRAINER | THIN HAUL | EVTOL\n**SYSTEM:** 205WH/KG\n**2.5C** CONTINUOUS DISCHARGE\\*\n**1C** CONTINUOUS CHARGE\n**3C** FAST CHARGE (LIQUID)\n**11.1** KG\n**2269** Wh\\*\\*\n**44.5** VMAX"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "EPiC 1.0 Power",
+      "category": "power_systems",
+      "descriptor": "FAA TSO-certified power-optimized propulsion battery for hybrid/eVTOL/military, 3.75C discharge, 2222 Wh",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0050",
+          "line_start": 29,
+          "line_end": 31,
+          "url": "https://epsenergy.com/products-services/epic-propulsion-battery-2",
+          "page_class": "product",
+          "snippet": "EPiC 1.0\n--------\n**FAA TSO Certification in 2024**"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0050",
+          "line_start": 47,
+          "line_end": 55,
+          "url": "https://epsenergy.com/products-services/epic-propulsion-battery-2",
+          "page_class": "product",
+          "snippet": "### EPiC 1.0 POWER\nHYBRID | EVTOL | MILITARY\n**SYSTEM:** 193WH/KG\n**3.75C** CONTINUOUS DISCHARGE\n**1C** CONTINUOUS CHARGE\n**3C** FAST CHARGE (LIQUID)\n**11.5** KG\n**2222** Wh\n**44.5** VMAX"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "EPiC 2.0 Energy",
+      "category": "power_systems",
+      "descriptor": "Next-gen energy-optimized propulsion battery for trainer/thin-haul/eVTOL, 265 Wh/kg, 3190 Wh",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0050",
+          "line_start": 34,
+          "line_end": 35,
+          "url": "https://epsenergy.com/products-services/epic-propulsion-battery-2",
+          "page_class": "product",
+          "snippet": "### EPiC 2.0\n**Available for Flight in Early 2025**"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0050",
+          "line_start": 58,
+          "line_end": 66,
+          "url": "https://epsenergy.com/products-services/epic-propulsion-battery-2",
+          "page_class": "product",
+          "snippet": "### EPiC 2.0 ENERGY\nTRAINER | THIN HAUL | EVTOL\n**SYSTEM:** 265WH/KG\n**2.5C** CONTINUOUS DISCHARGE\n**1C** CONTINUOUS CHARGE\n**3C** FAST CHARGE (LIQUID)\n**11.6** KG\n**3190** Wh\n**50.4** VMAX"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "EPiC 2.0 Power",
+      "category": "power_systems",
+      "descriptor": "Next-gen power-optimized propulsion battery for hybrid/eVTOL/military, 265 Wh/kg, 4C discharge, 3190 Wh",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0050",
+          "line_start": 34,
+          "line_end": 35,
+          "url": "https://epsenergy.com/products-services/epic-propulsion-battery-2",
+          "page_class": "product",
+          "snippet": "### EPiC 2.0\n**Available for Flight in Early 2025**"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0050",
+          "line_start": 67,
+          "line_end": 75,
+          "url": "https://epsenergy.com/products-services/epic-propulsion-battery-2",
+          "page_class": "product",
+          "snippet": "### EPiC 2.0 POWER\nHYBRID | EVTOL | MILITARY\n**SYSTEM:** 265WH/KG\n**4C** CONTINUOUS DISCHARGE\n**1C** CONTINUOUS CHARGE\n**3C** FAST CHARGE (LIQUID)\n**12.0** KG\n**3190** Wh\n**50.4** VMAX"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Battery Power Management Unit (BPMU)",
+      "category": "power_systems",
+      "descriptor": "Battery management unit with isolation detection, charging self-protection, and system status monitoring",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0050",
+          "line_start": 88,
+          "line_end": 89,
+          "url": "https://epsenergy.com/products-services/epic-propulsion-battery-2",
+          "page_class": "product",
+          "snippet": "![Black BPMU Rendering](https://epsenergy.com/wp-content/uploads/2023/07/Black-BPMU-Rendering-300x300.png \"Black BPMU Rendering\")\nBattery Power Management Unit"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0050",
+          "line_start": 90,
+          "line_end": 90,
+          "url": "https://epsenergy.com/products-services/epic-propulsion-battery-2",
+          "page_class": "product",
+          "snippet": "The BPMU monitors and reports system status, communicating with each component in the system and enacting controls as directed by the operator. Multiple safety features have been included in the design of the BPMU, including Isolation Detection, system charging self-protection, and numerous status warnings and messages relating to safe operation of high voltage propulsion batteries."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Midpoint Disconnect (MPD)",
+      "category": "power_systems",
+      "descriptor": "High-voltage contactor and fuse assembly for safe battery string isolation and maintenance",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0050",
+          "line_start": 91,
+          "line_end": 93,
+          "url": "https://epsenergy.com/products-services/epic-propulsion-battery-2",
+          "page_class": "product",
+          "snippet": "![Midpoint Disconect](https://epsenergy.com/wp-content/uploads/2023/07/midpoint-discconect-hires_02.png \"Midpoint Disconect\")\nMidpoint Disconnect\nThe MPD contains an electrical contactor and the system high voltage fuse. The fuse may be manually removed to reduce effective battery string voltage for safe handling and maintenance operations."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Battery Module",
+      "category": "power_systems",
+      "descriptor": "Cell-level monitoring module with voltage/temperature sensing and passive balancing for EPiC battery strings",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0050",
+          "line_start": 94,
+          "line_end": 96,
+          "url": "https://epsenergy.com/products-services/epic-propulsion-battery-2",
+          "page_class": "product",
+          "snippet": "![EPiC Energy battery](https://epsenergy.com/wp-content/uploads/2023/07/EPiC-Energy-battery-square-300x300.png \"EPiC Energy battery\")\nBattery Module\nEach Battery Module monitors cell voltage and temperature, and enacts passive balancing to ensure that string voltage remains balanced and optimized."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Honeycomb",
+      "category": "power_systems",
+      "descriptor": "Thermal containment system preventing cell-to-cell propagation in cylindrical-cell battery packs; NASA S1 certified",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0049",
+          "line_start": 22,
+          "line_end": 25,
+          "url": "https://epsenergy.com/products-services/custom-solution",
+          "page_class": "product",
+          "snippet": "### Honeycomb\n##### \u2013 Cell-to-cell propagation\n##### \u2013 Cylindrical cells\n![Honeycomb X57](https://epsenergy.com/wp-content/uploads/2023/06/x57.png \"Honeycomb X57\")"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0022",
+          "line_start": 29,
+          "line_end": 32,
+          "url": "https://epsenergy.com/certification",
+          "page_class": "compliance",
+          "snippet": "#### EP Systems Generation 1 \u2013 Honeycomb\n*   Launched in 2016\n*   34% Overhead\n*   **Certified to NASA S1 in 2018**"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "VersaPower",
+      "category": "power_systems",
+      "descriptor": "Custom pouch-cell battery module with full thermal containment at the module level for eVTOL",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0049",
+          "line_start": 29,
+          "line_end": 34,
+          "url": "https://epsenergy.com/products-services/custom-solution",
+          "page_class": "product",
+          "snippet": "### Versapower\n##### \u2013 Full containment at the module level\n##### \u2013 Pouch Cells\n![Rendering of a VersaPower module](https://epsenergy.com/wp-content/uploads/2023/07/Rendering-of-a-VersaPower-module-300x300.png \"Rendering of a VersaPower module\")\neVTOL\n![VersaPower Modules in rack](https://epsenergy.com/wp-content/uploads/2023/07/VersaPower-Modules-in-rack-300x237.jpg \"VersaPower Modules in rack\")"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "DC Fast Charger (200 kW)",
+      "category": "power_systems",
+      "descriptor": "Proprietary 200 kW DC fast charger for rapid electric aircraft turnaround",
+      "granularity": "sku",
+      "readiness": "prototype",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0048",
+          "line_start": 35,
+          "line_end": 36,
+          "url": "https://epsenergy.com/products-services/charging-infrastructure",
+          "page_class": "product",
+          "snippet": "### DC Fast Charging\nEP Systems is developing a proprietary 200 kW DC Fast Charger to enable rapid charging and turn around times of electric aircraft."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Overnight Wall Charger (20 kW)",
+      "category": "power_systems",
+      "descriptor": "20 kW hangar wall charger for slow overnight charging and battery cycle life optimization",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0048",
+          "line_start": 37,
+          "line_end": 38,
+          "url": "https://epsenergy.com/products-services/charging-infrastructure",
+          "page_class": "product",
+          "snippet": "### Overnight Wall Charger\nThe 20 kW Wall Charger will allow for slower charging in the hangar, and optimize battery state of charge levels for extended cycle and calendar life of the system."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Mobile Microgrid Charge Truck",
+      "category": "power_systems",
+      "descriptor": "Mobile or stationary second-life battery microgrid charging solution for electric aircraft at airports",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0048",
+          "line_start": 41,
+          "line_end": 42,
+          "url": "https://epsenergy.com/products-services/charging-infrastructure",
+          "page_class": "product",
+          "snippet": "### Mobile Microgrid Charge Truck\nThe Mobile Micro Grid charging solution provides a secondary life for batteries, reducing overall costs and maximizing efficient use of energy and materials. The Micro Grid may be installed as a stationary system directly at airports, or used in a mobile application for a more flexible charging solution."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Power Distribution Unit (PMU/HV/LV)",
+      "category": "power_systems",
+      "descriptor": "Custom high- and low-voltage power distribution units for electric aircraft propulsion systems",
+      "granularity": "family",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0049",
+          "line_start": 35,
+          "line_end": 40,
+          "url": "https://epsenergy.com/products-services/custom-solution",
+          "page_class": "product",
+          "snippet": "### Power distribution\n##### \u2013 PMU\n##### \u2013 LV\n##### \u2013 HV\n![HV Distribution Box Rendering](https://epsenergy.com/wp-content/uploads/2023/07/HV-Distribution-Box-Rendering.png \"HV Distribution Box Rendering\")\n![PDP Distribution Box](https://epsenergy.com/wp-content/uploads/2023/07/PDP-Distribution-Box-300x199.jpg \"PDP Distribution Box\")"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Custom Solution",
+      "category": "power_systems",
+      "descriptor": "Custom-engineered battery thermal containment and propulsion energy systems for diverse electric mobility applications",
+      "granularity": "category",
+      "readiness": "engineering_services",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0049",
+          "line_start": 16,
+          "line_end": 16,
+          "url": "https://epsenergy.com/products-services/custom-solution",
+          "page_class": "product",
+          "snippet": "Custom Solution"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0049",
+          "line_start": 19,
+          "line_end": 20,
+          "url": "https://epsenergy.com/products-services/custom-solution",
+          "page_class": "product",
+          "snippet": "### EP Systems Thermal Containment: Over 50 Proven Systems\nEP Systems has developed a wide variety of custom systems for many electric propulsion mobility applications. A significant design consideration for lithium ion batteries is safe mitigation of fire, or thermal runaway events. EP Systems has designed multiple systems that mitigate this risk in various ways."
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "EPiC 2.0 readiness marked unknown: corpus states it was 'undergoing safety of flight development' scheduled for early 2025; no explicit production confirmation found in fetched pages.",
+    "DC Fast Charger (200 kW) marked prototype: corpus explicitly states EP Systems 'is developing' it; actual production status cannot be confirmed from corpus.",
+    "VersaPower, Power Distribution Unit (PMU/HV/LV), Overnight Wall Charger, and Mobile Microgrid Charge Truck readiness marked unknown: no maturity language found for these products in corpus.",
+    "No NDAA Section 848/889 or Blue UAS claims found for any product in the fetched corpus.",
+    "Defense page (epsenergy.com/defense) and Commercial page (epsenergy.com/commercial) were skipped; they may contain additional product details or compliance claims not captured here."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://epsenergy.com/defense",
+      "reason": "Defense-specific product page skipped; may contain product variants, NDAA compliance claims, or readiness details for EPiC and custom defense battery systems.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://epsenergy.com/commercial",
+      "reason": "Commercial-specific product page skipped; may contain readiness details, additional SKUs, or certification claims for EPiC and charging products.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 32,
+    "total_cost_usd": 0.5633187500000001,
+    "created_at": "2026-05-04T02:26:03+00:00",
+    "extract_version": "0.1.0"
+  }
+}

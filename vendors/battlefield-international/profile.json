@@ -1,0 +1,407 @@
+{
+  "target_id": "battlefield-international",
+  "run_id": "canonical",
+  "display_name": "Battlefield International",
+  "homepage_url": "https://www.battlefield.biz",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/battlefield-international/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "mechanical_subsystems",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 17,
+            "line_end": 18,
+            "url": "https://www.battlefield.biz",
+            "page_class": "homepage",
+            "snippet": "world standard fluid power and control\nlinkage solutions [Explore Products](https://www.battlefield.biz/products)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 33,
+            "line_end": 34,
+            "url": "https://www.battlefield.biz",
+            "page_class": "homepage",
+            "snippet": "We are the only company to design and produce lightweight, high performance fluid quick disconnect couplings, valves and custom fittings while targeting only\nthree specific industries."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 36,
+            "line_end": 36,
+            "url": "https://www.battlefield.biz",
+            "page_class": "homepage",
+            "snippet": "Our total design and sales focus is applied towards the Unmanned Air Vehicle, Land Systems and Marine markets and this has enabled us to be the most dominant and knowledgeable supplier with unmatched specific understanding on these unique and challenging applications worldwide."
+          }
+        ],
+        "notes": "Primary business: fluid quick disconnect couplings, valves, filters, control linkages, servo savers for UAV/defense applications"
+      },
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0011",
+            "line_start": 18,
+            "line_end": 21,
+            "url": "https://www.battlefield.biz/series/44",
+            "page_class": "other",
+            "snippet": "battlefield\nPropellers\nA superior propeller custom-designed to meet your specific flight requirements, delivering optimized performance and reduced acoustic radiation.\nExplore Parts"
+          }
+        ],
+        "notes": "PX Series custom propellers for UAVs"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Cayuga",
+      "state_or_province": "Ontario",
+      "country": "Canada",
+      "address": "94 Talbot St E, Cayuga, ON N0A 1E0"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 79,
+        "line_end": 80,
+        "url": "https://www.battlefield.biz",
+        "page_class": "homepage",
+        "snippet": "94 Talbot St E\nCayuga, ON N0A 1E0"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0012",
+        "line_start": 5,
+        "line_end": 6,
+        "url": "https://www.battlefield.biz/files/certification/9100-11-2025.pdf",
+        "page_class": "document",
+        "snippet": "Battle\ufb01eld International Inc.\n1664 Kohler Rd., Cayuga, ON, N0A 1E0, Canada"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 36,
+        "line_end": 36,
+        "url": "https://www.battlefield.biz",
+        "page_class": "homepage",
+        "snippet": "Our total design and sales focus is applied towards the Unmanned Air Vehicle, Land Systems and Marine markets and this has enabled us to be the most dominant and knowledgeable supplier with unmatched specific understanding on these unique and challenging applications worldwide."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 39,
+        "line_end": 39,
+        "url": "https://www.battlefield.biz",
+        "page_class": "homepage",
+        "snippet": "So if your business includes the design of UAV, Land Systems or Marine Defense products, you can choose Battlefield International as your fluid power partner with complete confidence."
+      }
+    ],
+    "notes": "Designs and manufactures fluid quick disconnect couplings, valves, filters, control linkages, servo savers, and propellers as components for UAV, land systems, and marine defense OEMs. Supplying the UAV industry since 1999."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "EnduroLink 2.0 (ET Series)",
+        "product_type": "UAV quick disconnect coupler",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0045",
+            "line_start": 23,
+            "line_end": 23,
+            "url": "https://www.battlefield.biz/series/1",
+            "page_class": "other",
+            "snippet": "Introducing the Battlefield EnduroLink\u2122 2.0. The evolution of a legendary UAV quick disconnect coupler."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "EnduroLink (EL Series)",
+        "product_type": "quick disconnect coupler for extreme temperature fuel applications",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0031",
+            "line_start": 23,
+            "line_end": 23,
+            "url": "https://www.battlefield.biz/series/8",
+            "page_class": "other",
+            "snippet": "EnduroLink\u2122 is the best choice for extreme temperature fuel applications when vibration and dusty conditions are unavoidable."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "LS Series",
+        "product_type": "land systems quick disconnect couplings",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0042",
+            "line_start": 23,
+            "line_end": 23,
+            "url": "https://www.battlefield.biz/series/2",
+            "page_class": "other",
+            "snippet": "Require fewer spares and experience less coupler-related vehicle down time, reducing repair requirements."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HP Series",
+        "product_type": "high pressure quick disconnect (MIL-DTL-25427B)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0044",
+            "line_start": 23,
+            "line_end": 23,
+            "url": "https://www.battlefield.biz/series/3",
+            "page_class": "other",
+            "snippet": "The only high pressure quick connect fluid coupling series available designed first to meet MIL-DTL-25427B."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MC Series",
+        "product_type": "multi-fuel valve for UAV",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0036",
+            "line_start": 20,
+            "line_end": 21,
+            "url": "https://www.battlefield.biz/series/16",
+            "page_class": "other",
+            "snippet": "The multi-fuel series is designed for use in the UAV unmanned air vehicle industry, enabling fuel flow in one direction only.\nExplore Parts"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SS Series",
+        "product_type": "servo saver for UAV",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0029",
+            "line_start": 22,
+            "line_end": 22,
+            "url": "https://www.battlefield.biz/series/15",
+            "page_class": "other",
+            "snippet": "The Servo Saver will protect your UAV servos and integrates easily with your platform due to it's low-profile, strong and lightweight build."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "CA Series",
+        "product_type": "UAV control rod linkage and push rod assemblies",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0024",
+            "line_start": 22,
+            "line_end": 22,
+            "url": "https://www.battlefield.biz/series/14",
+            "page_class": "other",
+            "snippet": "UAV-Grade extreme environment control rod linkage and push rod assemblies."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "VL Series",
+        "product_type": "quick disconnect coupler for UAV engine oil heating lines",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0030",
+            "line_start": 23,
+            "line_end": 23,
+            "url": "https://www.battlefield.biz/series/9",
+            "page_class": "other",
+            "snippet": "Designed for heating engine oil lines in UAVs to facilitate higher flight. The coupler comes with an access port for an internal heating electrode."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HT Series",
+        "product_type": "high-pressure thread type quick disconnect",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0041",
+            "line_start": 23,
+            "line_end": 23,
+            "url": "https://www.battlefield.biz/series/6",
+            "page_class": "other",
+            "snippet": "A high-performance, high pressure, thread type coupling that can be coupled by hand or with the aid of a spanner tool to overcome system pressure."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "PX Series",
+        "product_type": "custom UAV propellers",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0011",
+            "line_start": 20,
+            "line_end": 20,
+            "url": "https://www.battlefield.biz/series/44",
+            "page_class": "other",
+            "snippet": "A superior propeller custom-designed to meet your specific flight requirements, delivering optimized performance and reduced acoustic radiation."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Additional product catalogue at /files/catalogue/Aerospace and Defense.pdf (skipped, not fetched)."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 104,
+        "line_end": 105,
+        "url": "https://www.battlefield.biz",
+        "page_class": "homepage",
+        "snippet": "Made in\nCanada"
+      }
+    ],
+    "notes": "Site displays 'Made in Canada' and AS9100D/ISO9001 certification but makes no explicit NDAA Section 848/889 compliance claim."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS / Blue sUAS mention anywhere in the corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0012",
+        "line_start": 9,
+        "line_end": 10,
+        "url": "https://www.battlefield.biz/files/certification/9100-11-2025.pdf",
+        "page_class": "document",
+        "snippet": "Design, Machining and Assem bly of Aerospace and Defense \nFluid System s and Assorted Com ponents"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 43,
+        "line_end": 43,
+        "url": "https://www.battlefield.biz",
+        "page_class": "homepage",
+        "snippet": "Since 1999, we've been supplying the world standard quick disconnect to the UAV industry."
+      }
+    ],
+    "notes": "AS9100D / ISO 9001:2015 certified manufacturer; active catalog of production SKUs across 10+ named product series; supplying the UAV industry since 1999."
+  },
+  "unresolved_questions": [
+    "NDAA Section 848/889 compliance status not explicitly stated on site",
+    "Whether Blue UAS listing applies",
+    "Full product catalog SKU enumeration not available (products page skipped)"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.battlefield.biz/products",
+      "reason": "Full product catalog page would enumerate all product series and individual SKUs to confirm completeness of product listing.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.battlefield.biz/company",
+      "reason": "Company page would provide more detail on headquarters, history, and capabilities.",
+      "expected_evidence": [
+        "headquarters",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=company",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.battlefield.biz/contact",
+      "reason": "Contact page would confirm HQ address and possibly provide compliance details.",
+      "expected_evidence": [
+        "headquarters",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=contact",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.battlefield.biz/files/catalogue/Aerospace%20and%20Defense.pdf",
+      "reason": "Aerospace and Defense catalogue PDF would enumerate full product range and may contain NDAA/compliance statements.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=document",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Canadian supplier of fluid quick disconnects, check valves, servo savers, and propellers for UAVs, land systems, and marine platforms. EnduroLink couplers are world-standard in tactical UAV fuel systems; early 01Y/02Y variants deployed on Textron AAI Shadow. MIL-DTL-25427B compliance documented for HP Series. NDAA and Blue UAS certification status unknown. Public evidence of specific defense contracts limited; company claims theatre-proven products but independent verification sparse.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 14,
+    "total_cost_usd": 0.47452165,
+    "created_at": "2026-05-03T21:49:35+00:00",
+    "extract_version": "0.1.0"
+  }
+}

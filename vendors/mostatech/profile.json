@@ -1,0 +1,108 @@
+{
+  "target_id": "mostatech",
+  "run_id": "canonical",
+  "display_name": "MostaTech",
+  "homepage_url": "https://www.mostatech.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/mostatech/website",
+  "products_categories": {
+    "items": [],
+    "confidence": "low",
+    "status": "unknown",
+    "notes": "Homepage fetch failed; catalog pre-classification suggests sensors_and_navigation but no evidence available to cite"
+  },
+  "headquarters": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "Homepage fetch failed; flagged as non-US in catalog but no evidence available"
+  },
+  "drone_supply_chain_role": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "Homepage fetch failed; no corpus content available"
+  },
+  "products": {
+    "items": [],
+    "confidence": "low",
+    "status": "unknown",
+    "notes": "Homepage fetch failed; no product information available"
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No corpus content available"
+  },
+  "unresolved_questions": [
+    "Homepage fetch failed \u2014 no content available for any field",
+    "Headquarters location unknown (flagged non-US but no evidence)",
+    "Product portfolio and supply chain role unknown",
+    "NDAA/Blue UAS status unknown"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.mostatech.com",
+      "reason": "Homepage fetch failed during mirror run; re-fetching would provide content to determine products, HQ, supply chain role, and all other fields",
+      "expected_evidence": [
+        "products_categories",
+        "headquarters",
+        "drone_supply_chain_role",
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=failed, page_class=homepage",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.mostatech.com/products",
+      "reason": "Standard products page \u2014 would identify named SKUs and product categories",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role",
+        "readiness"
+      ],
+      "source_hint": "guessed",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.mostatech.com/about",
+      "reason": "Standard about/company page \u2014 would provide headquarters location and company background",
+      "expected_evidence": [
+        "headquarters",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "guessed",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "needs_more_fetches",
+  "tagline": "Public evidence on MostaTech's products, headquarters, and operational status is minimal or absent. No NDAA compliance, Blue UAS certification, contract awards, or named systems are documented in available sources. Clarification needed on core business focus and readiness level.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 4,
+    "total_cost_usd": 0.06550035,
+    "created_at": "2026-05-04T04:26:12+00:00",
+    "extract_version": "0.1.0"
+  }
+}

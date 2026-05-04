@@ -1,0 +1,568 @@
+{
+  "target_id": "actuonix-motion-devices",
+  "run_id": "canonical",
+  "display_name": "Actuonix Motion Devices",
+  "homepage_url": "https://www.actuonix.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/actuonix-motion-devices/website",
+  "products": [
+    {
+      "name": "P8-R Micro Linear Servo",
+      "category": "mechanical_subsystems",
+      "descriptor": "Compact 12V rod-style micro linear servo with external RC controller",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0382",
+          "line_start": 68,
+          "line_end": 68,
+          "url": "https://www.actuonix.com/new-product-p8-servo",
+          "page_class": "product",
+          "snippet": "*   Versatility in Force and Speed: Capable of exerting forces up to 155N (35lbs) or achieving speeds of up to 30mm/s (1.38in/s), depending on the model."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0382",
+          "line_start": 108,
+          "line_end": 110,
+          "url": "https://www.actuonix.com/new-product-p8-servo",
+          "page_class": "product",
+          "snippet": "[P8-R Micro Linear Servo - 100mm - 165:1 - 12 volts](P8-R-Micro-Linear-Servo--100mm--1651--12-volts_p_493.html)\n$105.00\nIn Stock."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "L16 Series Micro Linear Actuators",
+      "category": "mechanical_subsystems",
+      "descriptor": "Rod-style micro linear actuator family, 30\u2013140mm stroke",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0213",
+          "line_start": 67,
+          "line_end": 67,
+          "url": "https://www.actuonix.com/datasheets",
+          "page_class": "product",
+          "snippet": "L16 Series Actuators Datasheet: [Actuonix L16 Datasheet](/assets/images/datasheets/ActuonixL16Datasheet.pdf)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0475",
+          "line_start": 31,
+          "line_end": 31,
+          "url": "https://www.actuonix.com/products-by-type",
+          "page_class": "product",
+          "snippet": "    *   [L16](https://www.actuonix.com/l16)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "P16-R Linear Servo",
+      "category": "mechanical_subsystems",
+      "descriptor": "High-force 12V rod linear servo with integrated RC controller, up to 67 lbs",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0472",
+          "line_start": 68,
+          "line_end": 68,
+          "url": "https://www.actuonix.com/product-announcement-p16-r",
+          "page_class": "news",
+          "snippet": "*   High Force or High Speed: Capable of forces up to 67lbs or speeds up to 46mm/s depending on the model."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0472",
+          "line_start": 107,
+          "line_end": 110,
+          "url": "https://www.actuonix.com/product-announcement-p16-r",
+          "page_class": "news",
+          "snippet": "[P16-R Linear Actuator with Servo Control 100mm 256:1 12 volts](P16-R-Linear-Actuator-with-Servo-Control-100mm-2561-12-volts-_p_471.html)\n$110.00\nIn Stock.\n[Add To Cart Add to Cart](add_cart.asp?quick=1&item_id=471&cat_id=0)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "T16-R Linear Track Servo",
+      "category": "mechanical_subsystems",
+      "descriptor": "Compact 12V track-style linear servo with integrated RC controller, up to 67 lbs",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0380",
+          "line_start": 68,
+          "line_end": 68,
+          "url": "https://www.actuonix.com/new-product-announcement-t16-r",
+          "page_class": "news",
+          "snippet": "*   High Force or High Speed: Capable of forces up to 67lbs or speeds up to 46mm/s."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0380",
+          "line_start": 108,
+          "line_end": 110,
+          "url": "https://www.actuonix.com/new-product-announcement-t16-r",
+          "page_class": "news",
+          "snippet": "[T16-R Mini Track Actuator with Servo Control 100mm 22:1 12 volts](T16-R-Mini-Track-Actuator-with-Servo-Control-100mm-221-12-volts-_p_457.html)\n$110.00\nIn Stock."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "P8 Series Micro Linear Actuators",
+      "category": "mechanical_subsystems",
+      "descriptor": "Compact rod-style micro linear actuator family with feedback option",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0213",
+          "line_start": 61,
+          "line_end": 61,
+          "url": "https://www.actuonix.com/datasheets",
+          "page_class": "product",
+          "snippet": "P8 Series Datasheet:\u00a0[Actuonix P8 Datasheet](https://www.actuonix.com/assets/images/datasheets/Actuonix%20P8%20Datasheet.pdf)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0225",
+          "line_start": 111,
+          "line_end": 114,
+          "url": "https://www.actuonix.com/external-r-board-product-overview",
+          "page_class": "product",
+          "snippet": "[P8-P Micro Linear Actuator - 10mm - 252:1 - 12 volts](p8-10-252-12-p)\n$85.00\nIn Stock.\n[Add To Cart Add to Cart](add_cart.asp?quick=1&item_id=66&cat_id=0)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "L8 Series Micro Linear Actuators",
+      "category": "mechanical_subsystems",
+      "descriptor": "Smallest rod-style micro linear actuator family, 10\u2013100mm stroke from $75",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0213",
+          "line_start": 60,
+          "line_end": 60,
+          "url": "https://www.actuonix.com/datasheets",
+          "page_class": "product",
+          "snippet": "L8 Series Datasheet: [Actuonix L8 Datasheet](<https://www.actuonix.com/assets/images/Actuonix L8 Datasheet.pdf>)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0381",
+          "line_start": 65,
+          "line_end": 65,
+          "url": "https://www.actuonix.com/new-product-l8-micro-linear-actuators",
+          "page_class": "news",
+          "snippet": "*   **Affordable Entry Point:** The S-Series starts at just **$75USD**."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "PQ12 Series Micro Linear Actuators",
+      "category": "mechanical_subsystems",
+      "descriptor": "Ultra-compact sub-20mm stroke micro linear actuator family",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0213",
+          "line_start": 58,
+          "line_end": 58,
+          "url": "https://www.actuonix.com/datasheets",
+          "page_class": "product",
+          "snippet": "PQ12 Series Actuator Datasheet:\u00a0[Actuonix PQ12 Datasheet](https://www.actuonix.com/assets/images/datasheets/ActuonixPQ12Datasheet.pdf)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0475",
+          "line_start": 29,
+          "line_end": 29,
+          "url": "https://www.actuonix.com/products-by-type",
+          "page_class": "product",
+          "snippet": "    *   [PQ12](https://www.actuonix.com/pq12)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "L12 Series Micro Linear Actuators",
+      "category": "mechanical_subsystems",
+      "descriptor": "Rod-style micro linear actuator family, 10\u2013100mm stroke with servo option",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0213",
+          "line_start": 64,
+          "line_end": 64,
+          "url": "https://www.actuonix.com/datasheets",
+          "page_class": "product",
+          "snippet": "L12 Series Actuator Datasheet: [Actuonix L12 Datasheet](/assets/images/datasheets/ActuonixL12Datasheet.pdf)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0475",
+          "line_start": 30,
+          "line_end": 30,
+          "url": "https://www.actuonix.com/products-by-type",
+          "page_class": "product",
+          "snippet": "    *   [L12](https://www.actuonix.com/l12)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "P16 Series Micro Linear Actuators",
+      "category": "mechanical_subsystems",
+      "descriptor": "High-force rod-style micro linear actuator family, up to 67 lbs",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0213",
+          "line_start": 70,
+          "line_end": 70,
+          "url": "https://www.actuonix.com/datasheets",
+          "page_class": "product",
+          "snippet": "P16 Series Actuator Datasheet: [P16 Datasheet](/assets/images/datasheets/ActuonixP16Datasheet.pdf)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0475",
+          "line_start": 32,
+          "line_end": 32,
+          "url": "https://www.actuonix.com/products-by-type",
+          "page_class": "product",
+          "snippet": "    *   [P16](https://www.actuonix.com/p16)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "External RC Control Board (Ext-R)",
+      "category": "mechanical_subsystems",
+      "descriptor": "Compact in-line RC/PWM actuator controller for P-series actuators",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0225",
+          "line_start": 101,
+          "line_end": 103,
+          "url": "https://www.actuonix.com/external-r-board-product-overview",
+          "page_class": "product",
+          "snippet": "[External RC Control Board](external-rc-control-board-.html)\n$20.00\nIn Stock."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Linear Actuator Control Board (LAC)",
+      "category": "mechanical_subsystems",
+      "descriptor": "Configurable actuator controller with adjustable stroke, speed, and multi-input support",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0225",
+          "line_start": 106,
+          "line_end": 108,
+          "url": "https://www.actuonix.com/external-r-board-product-overview",
+          "page_class": "product",
+          "snippet": "[Linear Actuator Control Board](lac)\n$30.00\nIn Stock."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "T16 Series Track Actuators",
+      "category": "mechanical_subsystems",
+      "descriptor": "Track-style micro linear actuator family tolerant of side loads",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0213",
+          "line_start": 73,
+          "line_end": 73,
+          "url": "https://www.actuonix.com/datasheets",
+          "page_class": "product",
+          "snippet": "T16 Series Datasheet: [T16 Datasheet](/assets/images/datasheets/ActuonixT16Datasheet.pdf)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0475",
+          "line_start": 33,
+          "line_end": 33,
+          "url": "https://www.actuonix.com/products-by-type",
+          "page_class": "product",
+          "snippet": "    *   [T16](https://www.actuonix.com/t16)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "S20 Series Stepper Motor Actuators",
+      "category": "mechanical_subsystems",
+      "descriptor": "Stepper motor micro linear actuator family for high-precision, high-duty-cycle motion",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0213",
+          "line_start": 76,
+          "line_end": 76,
+          "url": "https://www.actuonix.com/datasheets",
+          "page_class": "product",
+          "snippet": "S20 Series 38MM Datasheet:\u00a0[S20 Stepper Datasheet](https://actuonix-com.3dcartstores.com/assets/images/datasheets/ActuonixS20-38MMDatasheet.pdf)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0475",
+          "line_start": 34,
+          "line_end": 34,
+          "url": "https://www.actuonix.com/products-by-type",
+          "page_class": "product",
+          "snippet": "    *   [S20](https://www.actuonix.com/s20)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Stewart Platform (6DOF Motion Platform)",
+      "category": "mechanical_subsystems",
+      "descriptor": "6-degree-of-freedom hexapod motion platform built on Actuonix stepper actuators",
+      "granularity": "sku",
+      "readiness": "prototype",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0502",
+          "line_start": 57,
+          "line_end": 57,
+          "url": "https://www.actuonix.com/stewart-platforms",
+          "page_class": "product",
+          "snippet": "Stewart Platforms From Actuonix"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0502",
+          "line_start": 87,
+          "line_end": 87,
+          "url": "https://www.actuonix.com/stewart-platforms",
+          "page_class": "product",
+          "snippet": "Unfortunately, we do not have an answer to this question at this time. This is a complex product, and we are working to ensure that it will meet the highest standards for quality and reliability once released. Keep an eye on our YouTube channel for more updates."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "S9 Linear Slide Rails",
+      "category": "mechanical_subsystems",
+      "descriptor": "Linear slide rail guides for adding rigidity to linear motion assemblies",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0213",
+          "line_start": 103,
+          "line_end": 103,
+          "url": "https://www.actuonix.com/datasheets",
+          "page_class": "product",
+          "snippet": "S9 Slide Rails Datasheet: [S9 Slide Rails Datasheet](/assets/images/datasheets/ActuonixSlideRailsDatasheet.pdf)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 82,
+          "line_end": 83,
+          "url": "https://www.actuonix.com",
+          "page_class": "homepage",
+          "snippet": "MORE INFO\n](/linear-slide-rails)["
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "All 15 prioritized products were located in the corpus. Individual model pages (e.g., /l8, /p8, /pq12, /l12, /l16, /p16, /t16, /s20, /lac, /linear-slide-rails, /control-boards-switches-potentiometers) were skipped; SKU-level specs, full pricing, and stock status per variant are not confirmed from fetched pages.",
+    "S20 Series readiness confirmed via datasheets listing and nav, but no shopping-cart/price evidence found in the corpus.",
+    "S9 Linear Slide Rails has a datasheet listed but no product page was fetched; exact SKU count and variants unknown.",
+    "No NDAA, Blue UAS, or other compliance claims were found anywhere in the fetched corpus."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.actuonix.com/l8",
+      "reason": "Model page for L8 Series would confirm all SKUs, pricing, and in-stock status for this newest actuator line.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.actuonix.com/p8",
+      "reason": "Model page for P8 Series to confirm full SKU list, pricing, and stock availability.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.actuonix.com/pq12",
+      "reason": "Model page for PQ12 Series for SKU-level detail and readiness confirmation.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.actuonix.com/l12",
+      "reason": "Model page for L12 Series for SKU-level detail and pricing.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.actuonix.com/l16",
+      "reason": "Model page for L16 Series for SKU-level detail and pricing.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.actuonix.com/p16",
+      "reason": "Model page for P16 Series for SKU-level detail.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.actuonix.com/t16",
+      "reason": "Model page for T16 Series for SKU-level detail.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.actuonix.com/s20",
+      "reason": "Model page for S20 Series for SKU-level detail and readiness.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.actuonix.com/linear-slide-rails",
+      "reason": "Product page for S9 Linear Slide Rails to confirm SKUs, pricing, and availability.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.actuonix.com/lac",
+      "reason": "Product page for LAC board with full specs and any compliance claims.",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.actuonix.com/control-boards-switches-potentiometers",
+      "reason": "Category page for actuator controllers; would enumerate all control board SKUs including Ext-R and LAC with pricing.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 46,
+    "total_cost_usd": 1.3300628999999995,
+    "created_at": "2026-05-03T20:17:24+00:00",
+    "extract_version": "0.1.0"
+  }
+}

@@ -1,0 +1,418 @@
+{
+  "target_id": "trillium-engineering",
+  "run_id": "canonical",
+  "display_name": "Trillium Engineering",
+  "homepage_url": "https://www.trilliumeng.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/trillium-engineering/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "isr_payloads",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0072",
+            "line_start": 35,
+            "line_end": 35,
+            "url": "https://www.trilliumeng.com/company/about-us",
+            "page_class": "company",
+            "snippet": "Trillium Engineering specializes in the design and production of gimbaled imaging systems for crewed and\u00a0uncrewed aircraft."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 46,
+            "line_end": 46,
+            "url": "https://www.trilliumeng.com",
+            "page_class": "homepage",
+            "snippet": "Trillium has quickly become a leading provider in gimbal innovations. With a product line that meets the requirements of Group 1, 2, and 3 UAS, Trillium is able to serve the customer needs of the government, commercial and civil sectors."
+          }
+        ],
+        "notes": "Gimbaled EO/IR camera systems (HD25-HD95) for Group 1-3 UAS ISR missions"
+      },
+      {
+        "category": "ground_segment",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0188",
+            "line_start": 33,
+            "line_end": 33,
+            "url": "https://www.trilliumeng.com/technology/skylink-software",
+            "page_class": "capability",
+            "snippet": "Skylink Software"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0188",
+            "line_start": 45,
+            "line_end": 45,
+            "url": "https://www.trilliumeng.com/technology/skylink-software",
+            "page_class": "capability",
+            "snippet": "SkyLink is a fully integrated gimbal user interface that does not require additional implementation of communication protocol to get it to work with your system. Trillium imaging systems automatically utilize SkyLink software without further system configuration."
+          }
+        ],
+        "notes": "SkyLink GCS software with geolocation, tracking, post-mission analysis; bundled with gimbal hardware"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Hood River",
+      "state_or_province": "Oregon",
+      "country": "United States",
+      "address": "902 Wasco St, STE 250, Hood River, OR 97031"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 120,
+        "line_end": 120,
+        "url": "https://www.trilliumeng.com",
+        "page_class": "homepage",
+        "snippet": "902 Wasco St, STE 250, Hood River, OR 97031"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0072",
+        "line_start": 35,
+        "line_end": 35,
+        "url": "https://www.trilliumeng.com/company/about-us",
+        "page_class": "company",
+        "snippet": "Trillium Engineering specializes in the design and production of gimbaled imaging systems for crewed and\u00a0uncrewed aircraft."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 46,
+        "line_end": 46,
+        "url": "https://www.trilliumeng.com",
+        "page_class": "homepage",
+        "snippet": "Trillium has quickly become a leading provider in gimbal innovations. With a product line that meets the requirements of Group 1, 2, and 3 UAS, Trillium is able to serve the customer needs of the government, commercial and civil sectors."
+      }
+    ],
+    "notes": "Designs and produces gimbaled ISR payloads for Group 1-3 UAS; does not manufacture complete UAS platforms"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "HD25",
+        "product_type": "gimbaled EO/IR camera system for micro UAS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 5,
+            "line_end": 5,
+            "url": "https://www.trilliumeng.com",
+            "page_class": "homepage",
+            "snippet": "    *   [HD25](https://www.trilliumeng.com/gimbals/hd25)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HD40",
+        "product_type": "gimbaled EO/IR camera system (variants: HD40-LVV)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 6,
+            "line_end": 6,
+            "url": "https://www.trilliumeng.com",
+            "page_class": "homepage",
+            "snippet": "    *   [HD40](https://www.trilliumeng.com/gimbals/hd40)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HD45",
+        "product_type": "gimbaled EO/IR camera system (variants: HD45-LV-CZ, HD45-LV-R)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 7,
+            "line_end": 7,
+            "url": "https://www.trilliumeng.com",
+            "page_class": "homepage",
+            "snippet": "    *   [HD45](https://www.trilliumeng.com/gimbals/hd45)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HD59",
+        "product_type": "gimbaled imaging system for mid-sized UAS and launched effects",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 8,
+            "line_end": 8,
+            "url": "https://www.trilliumeng.com",
+            "page_class": "homepage",
+            "snippet": "    *   [HD59](https://www.trilliumeng.com/gimbals/hd59)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HD80",
+        "product_type": "gimbaled EO/IR camera system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 9,
+            "line_end": 9,
+            "url": "https://www.trilliumeng.com",
+            "page_class": "homepage",
+            "snippet": "    *   [HD80](https://www.trilliumeng.com/gimbals/hd80)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HD95",
+        "product_type": "gimbaled EO/IR camera system for MALE UAS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 10,
+            "line_end": 10,
+            "url": "https://www.trilliumeng.com",
+            "page_class": "homepage",
+            "snippet": "    *   [HD95](https://www.trilliumeng.com/gimbals/hd95)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Clarity-HD",
+        "product_type": "AI compute payload for gimbal integration",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0131",
+            "line_start": 33,
+            "line_end": 33,
+            "url": "https://www.trilliumeng.com/news/introducing-clarity-hd-trillium-labs-advanced-processing-solution",
+            "page_class": "news",
+            "snippet": "INTRODUCING CLARITY-HD: TRILLIUM\u2019S ADVANCED PROCESSING SOLUTION"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SkyLink",
+        "product_type": "gimbal GCS / operator software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0188",
+            "line_start": 33,
+            "line_end": 33,
+            "url": "https://www.trilliumeng.com/technology/skylink-software",
+            "page_class": "capability",
+            "snippet": "Skylink Software"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "GD-Loc",
+        "product_type": "GPS-denied geolocation software module",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0189",
+            "line_start": 79,
+            "line_end": 79,
+            "url": "https://www.trilliumeng.com/technology/software",
+            "page_class": "capability",
+            "snippet": "GD-Loc"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "NyxCore-D",
+        "product_type": "AI maritime small-object detection software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0189",
+            "line_start": 83,
+            "line_end": 83,
+            "url": "https://www.trilliumeng.com/technology/software",
+            "page_class": "capability",
+            "snippet": "NyxCore-D"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "NyxCore-C",
+        "product_type": "AI detection, classification and tracking software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0189",
+            "line_start": 91,
+            "line_end": 91,
+            "url": "https://www.trilliumeng.com/technology/software",
+            "page_class": "capability",
+            "snippet": "NyxCore-C"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SkyLink-AIM",
+        "product_type": "next-generation gimbal user interface for NyxCore AI suite",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0189",
+            "line_start": 87,
+            "line_end": 87,
+            "url": "https://www.trilliumeng.com/technology/software",
+            "page_class": "capability",
+            "snippet": "SkyLink-AIM"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": "yes",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0161",
+        "line_start": 33,
+        "line_end": 33,
+        "url": "https://www.trilliumeng.com/news/trillium-engineerings-hd45-gimbal-achieves-auvsi-green-uas-certification",
+        "page_class": "compliance",
+        "snippet": "Trillium Engineering's HD45 Gimbal Achieves AUVSI Green UAS Certification"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0161",
+        "line_start": 41,
+        "line_end": 41,
+        "url": "https://www.trilliumeng.com/news/trillium-engineerings-hd45-gimbal-achieves-auvsi-green-uas-certification",
+        "page_class": "compliance",
+        "snippet": "The broader goal for Trillium engaging with the Green UAS program is not only to ensure product security and compliance but also to participate in an evolving ecosystem where such certifications are increasingly becoming a benchmark for quality and reliability in the uncrewed systems market."
+      }
+    ],
+    "notes": "HD45-LV-CZ received AUVSI Green UAS Certification. The article body (line 38, too long to cite directly) states Green UAS 'focuses on verifying...compliance of commercial systems with the National Defense Authorization Act (NDAA) supply chain requirements.'"
+  },
+  "blue_uas": {
+    "value": "yes",
+    "confidence": "low",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0161",
+        "line_start": 33,
+        "line_end": 33,
+        "url": "https://www.trilliumeng.com/news/trillium-engineerings-hd45-gimbal-achieves-auvsi-green-uas-certification",
+        "page_class": "compliance",
+        "snippet": "Trillium Engineering's HD45 Gimbal Achieves AUVSI Green UAS Certification"
+      }
+    ],
+    "notes": "Article body (line 40, too long to cite directly) states 'Successful certification places the HD45 on the Green UAS cleared list, and on the Blue UAS Framework List.' Green UAS is an extension of the Blue UAS certification program."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0072",
+        "line_start": 35,
+        "line_end": 35,
+        "url": "https://www.trilliumeng.com/company/about-us",
+        "page_class": "company",
+        "snippet": "Trillium Engineering specializes in the design and production of gimbaled imaging systems for crewed and\u00a0uncrewed aircraft."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 46,
+        "line_end": 46,
+        "url": "https://www.trilliumeng.com",
+        "page_class": "homepage",
+        "snippet": "Trillium has quickly become a leading provider in gimbal innovations. With a product line that meets the requirements of Group 1, 2, and 3 UAS, Trillium is able to serve the customer needs of the government, commercial and civil sectors."
+      }
+    ],
+    "notes": "Serial production of catalog gimbal line HD25-HD95; ISO 9001 certified; Army and Marine Corps contracts confirmed"
+  },
+  "unresolved_questions": [
+    "Blue UAS Framework List and NDAA claims in resource-0020 lines 38 and 40 exceed 60-word citation cap; key facts documented in notes"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.trilliumeng.com/gimbals/all-gimbals",
+      "reason": "Would list all current gimbal SKUs/variants to complete the products list",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Designs and manufactures stabilized camera gimbals (HD25\u2013HD95 series) and ground software (SkyLink) for Group 1\u20133 unmanned systems, supporting visible through LWIR imaging. NDAA-compliant, Blue UAS certified, in production. Notable recent integrations include Army's next-generation long-range reconnaissance platform and AV Puma LE. Public evidence on specific defense contracts remains limited.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 23,
+    "total_cost_usd": 0.66037275,
+    "created_at": "2026-05-04T07:03:40+00:00",
+    "extract_version": "0.1.0"
+  }
+}

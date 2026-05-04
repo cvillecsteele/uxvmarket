@@ -1,0 +1,484 @@
+{
+  "target_id": "systel",
+  "run_id": "canonical",
+  "display_name": "Systel",
+  "homepage_url": "https://www.systelusa.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/systel/website",
+  "products": [
+    {
+      "name": "Sparrow-Strike",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "USFF MIL-SPEC rugged edge AI mission computer for autonomous and uncrewed vehicles",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0335",
+          "line_start": 106,
+          "line_end": 108,
+          "url": "https://systelusa.com/products/sparrow-strike",
+          "page_class": "product",
+          "snippet": "Sparrow-Strike\n--------------\nMIL-SPEC rugged USFF edge processor integrating the NVIDIA Jetson Orin NX or SMARC x86 CPU. Next-gen edge AI compute solution. The world's first MIL-SPEC rugged Jetson Orin NX edge AI compute solution on the market."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0335",
+          "line_start": 131,
+          "line_end": 132,
+          "url": "https://systelusa.com/products/sparrow-strike",
+          "page_class": "product",
+          "snippet": "#### MIL-SPEC Rugged\nEngineered for austere environments. -40C to +55C operating temp, passive cooled. Fully sealed. Qualified to MIL-STD-810H, MIL-STD-461G, MIL-STD-1275E, MIL-STD-704F."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Kite-Strike II",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "MIL-SPEC rugged SFF mission computer with NVIDIA Jetson AGX Orin or Intel x86 COM-HPC for edge AI and autonomous missions",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0329",
+          "line_start": 105,
+          "line_end": 108,
+          "url": "https://systelusa.com/products/kite-strike-ii",
+          "page_class": "product",
+          "snippet": "*   Kite-Strike II\nKite-Strike II\n--------------\nMIL-SPEC rugged (certified) SFF mission computer integrating the NVIDIA Jetson AGX Orin or next-gen Intel x86 COM-HPC architecture that support a range of AI and compute at the edge applications."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0329",
+          "line_start": 128,
+          "line_end": 129,
+          "url": "https://systelusa.com/products/kite-strike-ii",
+          "page_class": "product",
+          "snippet": "#### MIL-SPEC Rugged\nEngineered for austere environments. Qualified to MIL-SPEC environmental standards. -46C to +65C operating temp, IP67 sealed. MIL-STD-810H, MIL-STD-461G, MIL-STD-1275E, MIL-STD-704F."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Hawk-Strike IV",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "Fully rugged SFF LRU embedded edge computer with Intel Xeon/Core CPU and NVIDIA GPU for multi-mission defense applications",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0324",
+          "line_start": 104,
+          "line_end": 107,
+          "url": "https://systelusa.com/products/hawk-strike-iv",
+          "page_class": "product",
+          "snippet": "*   Hawk-Strike IV\nHawk-Strike IV\n--------------\nFully Rugged Multi-Mission Embedded Computer. High-performance workstation-class single line replaceable unit (LRU) solution"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0324",
+          "line_start": 127,
+          "line_end": 132,
+          "url": "https://systelusa.com/products/hawk-strike-iv",
+          "page_class": "product",
+          "snippet": "*   Qualified to MIL-SPEC environmental standards.\n*   Operating temperature: -40C to +60C (configuration dependent)\n*   MIL-STD-810H Shock | Vibration | Altitude | Humidity | Sand and Dust | Fluids/Rain | Explosive Atmosphere\n*   MIL-STD-461G EMI/EMC\n*   MIL-STD-1275E/704F 28VDC Power (no power hold-up)\n*   IP66 sealed"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Raven-Strike II",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "MIL-SPEC rugged server-class embedded computer with Intel Xeon SP and NVIDIA GPU for intensive tactical edge workloads",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0330",
+          "line_start": 105,
+          "line_end": 108,
+          "url": "https://systelusa.com/products/raven-strike-ii",
+          "page_class": "product",
+          "snippet": "*   Raven-Strike II\nRaven-Strike II\n---------------\nMIL-SPEC rugged server-class compute solution, purpose-built for highly intensive workloads in austere environments. High performance, highly configurable with robust IO, high-capacity, high-speed storage."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0330",
+          "line_start": 123,
+          "line_end": 129,
+          "url": "https://systelusa.com/products/raven-strike-ii",
+          "page_class": "product",
+          "snippet": "##### Environmentals\n*   MIL-SPEC rugged and sealed\n*   Operating temperature: -40C to +55C forced-air cooling\n*   MIL-STD-810H Shock | Vibration | Altitude | Humidity | Sand and Dust | Fluids/Rain\n*   MIL-STD-461G EMI/EMC\n*   MIL-STD-1275E 28VDC Power (no power hold-up)\n*   IP66 sealed"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Gray Wolf 2",
+      "category": "ground_segment",
+      "descriptor": "Rugged 2U HPC rackmount supercomputer with dual Intel Xeon CPUs and up to two NVIDIA H100 GPUs for AI/SIGINT/EW workloads",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0322",
+          "line_start": 105,
+          "line_end": 108,
+          "url": "https://systelusa.com/products/gray-wolf-2",
+          "page_class": "product",
+          "snippet": "*   Gray Wolf 2\nGray Wolf 2\n-----------\nHigh-Performance Rugged 2U HPC Rackmount Server"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0322",
+          "line_start": 127,
+          "line_end": 131,
+          "url": "https://systelusa.com/products/gray-wolf-2",
+          "page_class": "product",
+          "snippet": "##### Environmentals\n*   Operating temperature range up to -10C to +55C\n*   MIL-STD-810H Shock and Vibration\n*   Humidity: 5% to 95% Noncondensing\n*   Altitude: Up to 10,000 feet"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Gray Wolf 4",
+      "category": "ground_segment",
+      "descriptor": "Rugged 4U HPC rackmount supercomputer with dual Intel Xeon CPUs and up to four NVIDIA GPUs for AI/SIGINT/EW defense missions",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0323",
+          "line_start": 104,
+          "line_end": 107,
+          "url": "https://systelusa.com/products/gray-wolf-4",
+          "page_class": "product",
+          "snippet": "*   Gray Wolf 4\nGray Wolf 4\n-----------\nHigh-Performance Computing Rugged 4U Server"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0323",
+          "line_start": 136,
+          "line_end": 139,
+          "url": "https://systelusa.com/products/gray-wolf-4",
+          "page_class": "product",
+          "snippet": "##### Current Deployments\n*   US Army ground combat vehicles for EW/SIGINT\n*   US Marine Corps radar application\n*   Various US Coast Guard (USCG) and US Customs and Border Protection (CBP) fixed-wing aircraft for Minotaur C5ISR applications"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "SB2600",
+      "category": "ground_segment",
+      "descriptor": "Rugged 2U high-density storage rackmount server with dual Intel CPUs and MIL-STD/DO-160 qualification for C5ISR missions",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0334",
+          "line_start": 105,
+          "line_end": 108,
+          "url": "https://systelusa.com/products/sb2600",
+          "page_class": "product",
+          "snippet": "*   SB2600\nSB2600\n------\nHigh Density Storage Rugged 2U Server"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0334",
+          "line_start": 125,
+          "line_end": 128,
+          "url": "https://systelusa.com/products/sb2600",
+          "page_class": "product",
+          "snippet": "##### Environmentals\n*   Operating Temperature: MIL-STD-810H / DO-160G -10C to +55C \\*configuration-dependent\n*   Storage Temperature: MIL-STD-810H / DO-160G -40C to +70C \\*configuration-dependent\n*   MIL-STD-810H / DO-160G Shock and Vibration"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "HR3000",
+      "category": "ground_segment",
+      "descriptor": "Rugged 3U half-rack short-depth server with Intel CPU and NVIDIA GPU for edge computing in defense expeditionary vehicles",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0325",
+          "line_start": 104,
+          "line_end": 107,
+          "url": "https://systelusa.com/products/hr3000",
+          "page_class": "product",
+          "snippet": "*   HR3000\nHR3000\n------\nRugged 3U Half-Rack Server"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0325",
+          "line_start": 123,
+          "line_end": 128,
+          "url": "https://systelusa.com/products/hr3000",
+          "page_class": "product",
+          "snippet": "##### Environmentals\n*   Operating Temperature: MIL-STD-810H-10C to +55C \\*configuration-dependent\n*   Storage Temperature: MIL-STD-810H -40C to +70C \\*configuration-dependent\n*   MIL-STD-810H Shock and Vibration\n*   MIL-STD-810H Humidity\n*   MIL-STD-810H Altitude"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "RM1000",
+      "category": "ground_segment",
+      "descriptor": "Rugged 1U rackmount server with MIL-DTL-901E Grade A shock, deployed in US Navy ships and UAS ground control stations",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0331",
+          "line_start": 104,
+          "line_end": 107,
+          "url": "https://systelusa.com/products/rm1000",
+          "page_class": "product",
+          "snippet": "*   RM1000\nRM1000\n------\nHighly Configurable 1U Rackmount Server"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0331",
+          "line_start": 129,
+          "line_end": 132,
+          "url": "https://systelusa.com/products/rm1000",
+          "page_class": "product",
+          "snippet": "##### Current Deployments\n*   US Navy surface ships multiple applications including combat management systems\n*   UAS Ground Control Station (GCS) weapons control and security monitoring\n*   Fixed-wing aircraft communication systems for Voice over IP (VOIP)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "RM2000",
+      "category": "ground_segment",
+      "descriptor": "Rugged 2U rackmount server with MIL-DTL-901E Grade A shock, deployed in US Navy ships and UAS ground control stations",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0332",
+          "line_start": 104,
+          "line_end": 107,
+          "url": "https://systelusa.com/products/rm2000",
+          "page_class": "product",
+          "snippet": "*   RM2000\nRM2000\n------\nHighly Configurable 2U Rackmount Server"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0332",
+          "line_start": 129,
+          "line_end": 133,
+          "url": "https://systelusa.com/products/rm2000",
+          "page_class": "product",
+          "snippet": "*   MIL-S-901D / MIL-DTL-901E Grade A Shock \u201cBarge Test\u201d\n##### Current Deployments\n*   US Navy surface ships\n*   Oil and Gas wireline vans and frac trucks\n*   UAS Ground Control Station (GCS) video processing (decoding) and targeting"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "RM3000",
+      "category": "ground_segment",
+      "descriptor": "Rugged 3U rackmount server with MIL-DTL-901E Grade A shock, deployed in US Navy shipboard combat systems and UAS GCS",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0333",
+          "line_start": 104,
+          "line_end": 107,
+          "url": "https://systelusa.com/products/rm3000",
+          "page_class": "product",
+          "snippet": "*   RM3000\nRM3000\n------\nHighly Configurable 3U Rackmount Server"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0333",
+          "line_start": 129,
+          "line_end": 133,
+          "url": "https://systelusa.com/products/rm3000",
+          "page_class": "product",
+          "snippet": "##### Current Deployments\n*   US Navy shipboard combat systems\n*   UAS Ground Control Station (GCS) flight control and heads-up display\n*   Oil and Gas frac trucks and wireline vans\n*   Fixed-wing aircraft"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "IPC4472",
+      "category": "ground_segment",
+      "descriptor": "Rugged 4U HPC rackmount supercomputer with dual Intel Xeon and up to four NVIDIA GPUs for AI/SIGINT/EW defense applications",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0328",
+          "line_start": 104,
+          "line_end": 107,
+          "url": "https://systelusa.com/products/ipc4472",
+          "page_class": "product",
+          "snippet": "*   IPC4472\nIPC4472\n-------\nHigh-Performance Computing Rugged 4U Server"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0328",
+          "line_start": 129,
+          "line_end": 133,
+          "url": "https://systelusa.com/products/ipc4472",
+          "page_class": "product",
+          "snippet": "##### Current Deployments\n*   US Army ground combat vehicles for EW/SIGINT\n*   US Marine Corps radar application\n*   Various US Coast Guard (USCG) and US Customs and Border Protection (CBP) fixed-wing aircraft for Minotaur C5ISR applications\nRelated News & Insights"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "IPC4377",
+      "category": "ground_segment",
+      "descriptor": "Rugged 3U short-depth front-IO server with dual Intel CPUs and NVIDIA GPU, SWaP-optimized for space-constrained rack integrations",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0327",
+          "line_start": 104,
+          "line_end": 107,
+          "url": "https://systelusa.com/products/ipc4377",
+          "page_class": "product",
+          "snippet": "*   IPC4377\nIPC4377\n-------\nRugged 3U Front IO, Short Depth Server"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0327",
+          "line_start": 123,
+          "line_end": 130,
+          "url": "https://systelusa.com/products/ipc4377",
+          "page_class": "product",
+          "snippet": "##### Environmentals\n*   Operating Temperature: MIL-STD-810H-10C to +55C \\*configuration-dependent\n*   Storage Temperature: MIL-STD-810H -40C to +70C \\*configuration-dependent\n*   MIL-STD-810H Shock and Vibration\n*   MIL-STD-810H Humidity\n*   MIL-STD-810H Altitude\n##### Current Deployments\n*   US Navy surface ships"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "IPC41124",
+      "category": "ground_segment",
+      "descriptor": "Rugged 1U high-density storage rackmount server with dual Intel CPUs and MIL-S-901D Grade A shock for US Army and Navy programs",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0326",
+          "line_start": 104,
+          "line_end": 107,
+          "url": "https://systelusa.com/products/ipc41124",
+          "page_class": "product",
+          "snippet": "*   IPC41124\nIPC41124\n--------\nHigh Density Storage Rugged 1U Server"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0326",
+          "line_start": 131,
+          "line_end": 134,
+          "url": "https://systelusa.com/products/ipc41124",
+          "page_class": "product",
+          "snippet": "##### Current Deployments\n*   US Army hypersonic missiles program on ground vehicles\n*   US Army mid-range missile launchers on trailers\n*   US Navy shipboard electronics tactical communications networking"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Arctic Wolf 3",
+      "category": "ground_segment",
+      "descriptor": "Extreme rugged 3U rackmount server with MIL-DTL-901E Grade A shipboard shock qualification and dual Intel Xeon CPUs",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0321",
+          "line_start": 104,
+          "line_end": 108,
+          "url": "https://systelusa.com/products/arctic-wolf-3",
+          "page_class": "product",
+          "snippet": "*   Rackmount Server\n*   Arctic Wolf 3\nArctic Wolf 3\n-------------\nExtreme Rugged MIL-DTL-901E Grade A Shock 3U Rackmount Server"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0321",
+          "line_start": 120,
+          "line_end": 124,
+          "url": "https://systelusa.com/products/arctic-wolf-3",
+          "page_class": "product",
+          "snippet": "*   ##### MIL-SPEC rugged\n*   ##### MIL-DTL-901E capable\n*   ##### MIL-STD-167-1A capable\n*   ##### Operating temp -10C to +55C\n[Download the Data Sheet](https://systelusa.com/wp-content/uploads/2024/08/Arctic_Wolf_3_DataSheet-UPDATED.pdf)"
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "NDAA compliance: The site claims 'Proudly Made in the USA' and holds ISO 9001:2015 and AS9100D:2016 certifications, but no product-level NDAA Section 848/889 compliance claim was found in any fetched page. All products marked not_disclosed.",
+    "Blue UAS: No Blue UAS cleared-list reference found for any product.",
+    "Category assignment for embedded mission computers (Sparrow-Strike, Kite-Strike II, Hawk-Strike IV, Raven-Strike II) uses flight_and_vehicle_control as these are onboard mission computers purpose-built for autonomous/uncrewed vehicles; the rackmount servers (RM, IPC, Gray Wolf, SB, HR, Arctic Wolf) use ground_segment reflecting their GCS and vehicle-rack deployments.",
+    "Raven-Strike II is a server-class embedded computer (larger form factor than the other Strike series) but retained under flight_and_vehicle_control given its tactical edge deployment profile and EW/C-UAS applications."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://systelusa.com/customer-and-supplier-information/",
+      "reason": "Certs and Docs page linked from every product page \u2014 may contain explicit NDAA or other compliance claims needed to resolve ndaa=not_disclosed for all 15 products.",
+      "expected_evidence": [
+        "ndaa"
+      ],
+      "source_hint": "linked from every product page footer as 'Certs and Docs'",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 34,
+    "total_cost_usd": 1.2549157000000002,
+    "created_at": "2026-05-04T06:47:38+00:00",
+    "extract_version": "0.1.0"
+  }
+}

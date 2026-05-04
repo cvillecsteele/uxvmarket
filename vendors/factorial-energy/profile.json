@@ -1,0 +1,232 @@
+{
+  "target_id": "factorial-energy",
+  "run_id": "canonical",
+  "display_name": "Factorial Energy",
+  "homepage_url": "https://factorialenergy.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/factorial-energy/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "power_systems",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 14,
+            "line_end": 14,
+            "url": "https://factorialenergy.com",
+            "page_class": "homepage",
+            "snippet": "\u00a0Solid-state batteries for\u00a0 eMobility, defense, and AI/robotics."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0131",
+            "line_start": 87,
+            "line_end": 88,
+            "url": "https://factorialenergy.com/technology",
+            "page_class": "capability",
+            "snippet": "Applications Include\nElectric vehicles, aviation/drone, power tools, and marine vehicles."
+          }
+        ],
+        "notes": "Solid-state batteries (FEST\u00ae and Solstice\u2122) explicitly listed for aviation/drone, defense, eMobility, and robotics applications"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Billerica",
+      "state_or_province": "Massachusetts",
+      "country": "United States",
+      "address": "805 Middlesex Turnpike, Billerica, MA 01821"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0032",
+        "line_start": 31,
+        "line_end": 31,
+        "url": "https://factorialenergy.com/contact-us",
+        "page_class": "contact",
+        "snippet": "### [805 Middlesex Turnpike Billerica, MA 01821](https://maps.app.goo.gl/tKf74icGebGNT5Tz8)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 121,
+        "line_end": 121,
+        "url": "https://factorialenergy.com",
+        "page_class": "homepage",
+        "snippet": "*   [805 Middlesex Turnpike Billerica, MA 01821](https://maps.app.goo.gl/YbD8o5mxXQqoRBRM6)"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0131",
+        "line_start": 87,
+        "line_end": 88,
+        "url": "https://factorialenergy.com/technology",
+        "page_class": "capability",
+        "snippet": "Applications Include\nElectric vehicles, aviation/drone, power tools, and marine vehicles."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 14,
+        "line_end": 14,
+        "url": "https://factorialenergy.com",
+        "page_class": "homepage",
+        "snippet": "\u00a0Solid-state batteries for\u00a0 eMobility, defense, and AI/robotics."
+      }
+    ],
+    "notes": "Factorial makes solid-state battery cells (FEST\u00ae, Solstice\u2122) that go into drones, EVs, defense platforms; does not manufacture complete drones or drone subsystem assemblies"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "FEST\u00ae",
+        "product_type": "quasi-solid-state lithium-metal battery",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0131",
+            "line_start": 67,
+            "line_end": 70,
+            "url": "https://factorialenergy.com/technology",
+            "page_class": "capability",
+            "snippet": "### FEST\u00ae\n![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20632%20731'%3E%3C/svg%3E)\nFEST\u00ae combines a lithium-metal anode, quasi-solid electrolyte technology, and an high-capacity cathode.\nFEST\u00ae\u2019s proprietary cell design combines performance and safety advantages of solid-state electrolytes with the manufacturability of conventional lithium-ion batteries."
+          }
+        ],
+        "notes": "Applications include electric vehicles, aviation/drone, power tools, marine vehicles"
+      },
+      {
+        "name": "Solstice\u2122",
+        "product_type": "all-solid-state battery",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0131",
+            "line_start": 71,
+            "line_end": 74,
+            "url": "https://factorialenergy.com/technology",
+            "page_class": "capability",
+            "snippet": "##### Solstice\u2122\n![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20632%20731'%3E%3C/svg%3E)\nSolstice\u2122 leverages a sulfide-based all-solid-state electrolyte material, and can maintain operating temperature over 90\u00b0C.\nSolstice\u2122 utilizes a novel dry coating process, reducing operating costs, energy consumption, and environmental impact."
+          }
+        ],
+        "notes": "Sulfide-based all-solid-state electrolyte; applications include EVs, consumer electronics, energy storage systems"
+      },
+      {
+        "name": "Gammatron\u2122",
+        "product_type": "AI/ML battery digital twin software platform",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0131",
+            "line_start": 101,
+            "line_end": 106,
+            "url": "https://factorialenergy.com/technology",
+            "page_class": "capability",
+            "snippet": "### Gammatron\u2122\nAI/ Machine Learning Platform\n![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20428%20200'%3E%3C/svg%3E)\n![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2032%2032'%3E%3C/svg%3E)\nSoftware\nBattery digital twin software to enhance battery development throughput."
+          }
+        ],
+        "notes": "Battery digital twin software for R&D acceleration; not a hardware product"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0123",
+        "line_start": 27,
+        "line_end": 27,
+        "url": "https://factorialenergy.com/press-releases/karma-automotive-and-factorial-announce-first-solid-state-battery-production-program-in-the-u-s-for-passenger-vehicles",
+        "page_class": "news",
+        "snippet": "By pairing Karma\u2019s 100% America-based engineering, vehicle design, and production with Factorial\u2019s U.S.-developed solid-state battery platform, the collaboration strengthens the manufacturing ecosystem and domestic innovation for next-generation electric mobility. Together, the companies aim to accelerate U.S.-led electric and hybrid vehicle technology advancements while validating solid-state technology in a production passenger vehicle environment."
+      }
+    ],
+    "notes": "Site emphasizes US-based manufacturing and development ('100% America-based engineering' with Karma, 'U.S.-developed solid-state battery platform') but makes no explicit NDAA Section 848/889 compliance claim"
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "low_rate_production",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0123",
+        "line_start": 25,
+        "line_end": 25,
+        "url": "https://factorialenergy.com/press-releases/karma-automotive-and-factorial-announce-first-solid-state-battery-production-program-in-the-u-s-for-passenger-vehicles",
+        "page_class": "news",
+        "snippet": "**IRVINE, Calif. and BOSTON, Mass., \\[February 5, 2026\\]** \u2013Karma Automotive Inc (\u201cKarma Automotive), America\u2019s only full-line ultra-luxury automotive manufacturer, and Factorial Inc. (\u201cFactorial\u201d), a U.S.-based leader in solid-state battery technology, today announced the launch of the first solid-state battery production program in the United States for passenger vehicles."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0010",
+        "line_start": 146,
+        "line_end": 146,
+        "url": "https://factorialenergy.com/about",
+        "page_class": "company",
+        "snippet": "106 Ah Automotive B-Sample shipped to multiple global OEMs for testing"
+      }
+    ],
+    "notes": "First US passenger-vehicle production program just announced (Feb 2026) with Karma Automotive; B-Samples shipped to OEMs in 2024; vehicle launch scheduled 2027 \u2014 transitioning from prototype to low-rate production"
+  },
+  "unresolved_questions": [
+    "IQT (In-Q-Tel) drone/robotics press release was not fetched \u2014 would clarify drone-specific product SKUs and possible NDAA/compliance posture",
+    "No explicit NDAA Section 848/889 claim found anywhere in corpus"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://factorialenergy.com/press-releases/factorial-drives-solid-state-battery-expansion-to-drones-and-robotics-with-iqt-and-strategic-partners",
+      "reason": "This press release specifically covers Factorial's expansion to drones and robotics with IQT (In-Q-Tel), which would confirm drone-specific products/SKUs, confirm the component_supplier role for UXV, and potentially contain NDAA/compliance language given the US government/intelligence community connection",
+      "expected_evidence": [
+        "products",
+        "drone_supply_chain_role",
+        "ndaa",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=news",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "tagline": "Solid-state lithium-metal battery developer in low-rate production with FEST\u00ae quasi-solid and Solstice\u2122 all-solid platforms targeting EVs, drones, and defense applications. Partners include Mercedes, Stellantis, Hyundai. NDAA and Blue UAS certification status unknown; public evidence on defense contracts or unmanned-systems integration remains thin.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 18,
+    "total_cost_usd": 0.31399155,
+    "created_at": "2026-05-04T02:40:40+00:00",
+    "extract_version": "0.1.0"
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "target_id": "bavovna-ai",
+  "run_id": "canonical",
+  "display_name": "Bavovna.AI",
+  "homepage_url": "https://bavovna.ai",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/bavovna-ai/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 39,
+            "line_end": 40,
+            "url": "https://bavovna.ai",
+            "page_class": "homepage",
+            "snippet": "Bavovna is a dual-use AI-driven alternative navigation for Uncrewed Aerial Vehicles operating in GNSS-denied and electronic warfare-threatened environments.\nBavovna combines modular hardware and SaaS AI for aerial, surface, and subsurface UV platforms to address malicious and natural challenges to Position, Navigation, and Timing (PNT) systems."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0335",
+            "line_start": 39,
+            "line_end": 39,
+            "url": "https://bavovna.ai/ai-gps",
+            "page_class": "capability",
+            "snippet": "Sensor fusion from the onboard IMU array and airspeed provided navigation. We use sensors like a compass and barometer, with analysis performed on the edge using Bavovna AI Navigation Kit. We use a proprietary Kalman filtration algorithm and fine-tuned sensor fusion neural network trained on 100 hours of fight logs minimum."
+          }
+        ],
+        "notes": "AI-powered inertial navigation system using sensor fusion (IMU, airflow, barometer, compass) with SaaS AI model for GPS-denied UAV operation"
+      },
+      {
+        "category": "flight_and_vehicle_control",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0020",
+            "line_start": 24,
+            "line_end": 24,
+            "url": "https://bavovna.ai/airtower",
+            "page_class": "other",
+            "snippet": "AI AirTower flight mode enables a UAV to autonomously ascend to the set height, hover, and return to a designated landing point without GNSS or maps. The endpoint positioning error during field tests was about 0.5%. The system also supports autonomous take-off, landing, and return to home with a single point positioning \u00b11m latitude."
+          }
+        ],
+        "notes": "AirTower autonomous flight mode enables GNSS-free takeoff, hover, and RTH; system enables autonomous vehicle control"
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": null,
+      "state_or_province": null,
+      "country": "United States",
+      "address": null
+    },
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0016",
+        "line_start": 25,
+        "line_end": 25,
+        "url": "https://bavovna.ai/ai-border-security",
+        "page_class": "compliance",
+        "snippet": "US manufacturer [Bavovna](https://bavovna.ai/) developed an AI-powered navigation system, for effectively operating in GPS-denied environments. The system combines modular hardware and AI technology to deliver precise and dependable navigation even in GPS-denied environments amidst aggressive electronic warfare scenarios."
+      }
+    ],
+    "notes": "Self-described as 'US manufacturer'; South Carolina Drone Hub referenced in blog post titles but page was skipped. Cyrillic form placeholder text on all pages suggests Ukrainian roots."
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 40,
+        "line_end": 41,
+        "url": "https://bavovna.ai",
+        "page_class": "homepage",
+        "snippet": "Bavovna combines modular hardware and SaaS AI for aerial, surface, and subsurface UV platforms to address malicious and natural challenges to Position, Navigation, and Timing (PNT) systems.\n[Bavovna AI Navigation Kit](https://bavovna.ai/ai-navigation-kit/)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0335",
+        "line_start": 39,
+        "line_end": 39,
+        "url": "https://bavovna.ai/ai-gps",
+        "page_class": "capability",
+        "snippet": "Sensor fusion from the onboard IMU array and airspeed provided navigation. We use sensors like a compass and barometer, with analysis performed on the edge using Bavovna AI Navigation Kit. We use a proprietary Kalman filtration algorithm and fine-tuned sensor fusion neural network trained on 100 hours of fight logs minimum."
+      }
+    ],
+    "notes": "Sells AI navigation hardware kits (edge compute unit + SaaS model) and airflow sensors for integration into UAVs by manufacturers and operators; primary deliverable is hardware subsystem with integrated AI software"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Bavovna AI Navigation Kit",
+        "product_type": "AI-powered inertial navigation subsystem (hardware + SaaS)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 41,
+            "line_end": 41,
+            "url": "https://bavovna.ai",
+            "page_class": "homepage",
+            "snippet": "[Bavovna AI Navigation Kit](https://bavovna.ai/ai-navigation-kit/)"
+          }
+        ],
+        "notes": "800g onboard edge device + SaaS AI hybrid navigation model; deployed on 8 UAV platforms; maintains <0.5% EPPE on 30km trajectories"
+      },
+      {
+        "name": "Multivector AirFlow Sensor",
+        "product_type": "Multi-directional airflow/airspeed sensor for UAVs",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0348",
+            "line_start": 14,
+            "line_end": 14,
+            "url": "https://bavovna.ai/airflow-sensor",
+            "page_class": "other",
+            "snippet": "The Multi-directional Airflow Sensor, developed and patented by Bavovna Inc., is a multi-platform sensor designed specifically for UAVs. Engineered to replace traditional Pitot tubes, offering enhanced capabilities for precise navigation and drift control for various UAV and aerial platforms, including helicopters, multicopters, fixed-wings and VTOLs"
+          }
+        ],
+        "notes": "Developed and patented by Bavovna Inc.; replaces Pitot tubes; 250g; 6-9 pressure sensors; available for pre-order"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0357",
+        "line_start": 20,
+        "line_end": 20,
+        "url": "https://bavovna.ai/south-carolina-drone-hub",
+        "page_class": "other",
+        "snippet": "Bavovna is addressing this shift by developing a **U.S.-manufacturing and R&D Drone Hub in Northern and South Carolina**, designed for NDAA-compliant drones, rapid prototyping, and scaled domestic production.With planned capacity exceeding **100,000 drones per year**, Drone Hub is positioned to help fill the growing gap in domestic supply and support federal, defense, and critical-infrastructure demand."
+      }
+    ],
+    "notes": "Site mentions designing NDAA-compliant drones for the future South Carolina drone hub, but makes no explicit NDAA compliance claim for current navigation kit or sensor products"
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS / Blue sUAS cleared list claims found in the corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0335",
+        "line_start": 37,
+        "line_end": 37,
+        "url": "https://bavovna.ai/ai-gps",
+        "page_class": "capability",
+        "snippet": "During a recent test, we successfully piloted a Radiobird Defender 001, a multi-weather VTOL, through its 30-km flying mission with an end-point positioning error of 0.42-0.63% on average."
+      }
+    ],
+    "notes": "AI Navigation Kit deployed on 8 UAV platforms in commercial use; AirFlow Sensor in pre-order phase suggesting near-production or low-rate production"
+  },
+  "unresolved_questions": [
+    "Headquarters location not explicitly stated in corpus",
+    "NDAA compliance of current products not explicitly claimed",
+    "Full product catalog not confirmed (skipped pages may list more products)"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://bavovna.ai/contact",
+      "reason": "Contact page likely contains HQ address and location details",
+      "expected_evidence": [
+        "headquarters"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=contact",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://bavovna.ai/ai-navigation-kit",
+      "reason": "Skipped capability page for the primary product; would confirm full product specs, availability, and any NDAA compliance claims",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=capability",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://bavovna.ai/products",
+      "reason": "Product listing page; would confirm full product catalog and SKUs",
+      "expected_evidence": [
+        "products",
+        "drone_supply_chain_role",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=product",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "tagline": "Develops AI-powered hybrid inertial navigation (INS) and airflow sensors for GPS-denied and electronic-warfare-threatened UAV operations across VTOL, fixed-wing, and multirotor platforms. Production-ready Navigation Kit and Mission Planner software; also offers ground-support tower and experimental SIGINT RF module. NDAA and Blue UAS certification status unknown. Integrated on RadioBird, Aurelia, and Orqa platforms; one fixed-wing customer operating under NDA. Public evidence of real-world deployment limited.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 34,
+    "total_cost_usd": 0.7568526499999999,
+    "created_at": "2026-05-03T21:50:29+00:00",
+    "extract_version": "0.1.0"
+  }
+}

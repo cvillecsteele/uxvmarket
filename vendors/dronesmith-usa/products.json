@@ -1,0 +1,113 @@
+{
+  "target_id": "dronesmith-usa",
+  "run_id": "canonical",
+  "display_name": "Dronesmith USA",
+  "homepage_url": "https://dronesmithusa.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/dronesmith-usa/website",
+  "products": [
+    {
+      "name": "DS-2814",
+      "category": "propulsion_mechanical",
+      "descriptor": "Mid-lift NDAA-compliant brushless motor, 28\u00d712 mm stator, 900 KV, 4.5 kg max thrust",
+      "granularity": "sku",
+      "readiness": "prototype",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 33,
+          "line_end": 44,
+          "url": "https://dronesmithusa.com",
+          "page_class": "homepage",
+          "snippet": "### DS-2814\nFirst to Market\nMid-lift motor for professional and industrial platforms.\nKV\n900 (est.)\nStator\n28\u00d712 mm\nMax Thrust\n4.5 kg (est.)\nVoltage\n6S\u201312S\n[Request Info](#contact) View Specs"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 31,
+          "line_end": 31,
+          "url": "https://dronesmithusa.com",
+          "page_class": "homepage",
+          "snippet": "Pre-production designs shown below. Final specifications subject to change."
+        }
+      ],
+      "notes": "Labeled \"First to Market\" but site states \"Pre-production designs shown below. Final specifications subject to change.\" Vendor-level NDAA \u00a7889 claim not tied to this SKU by name."
+    },
+    {
+      "name": "DS-2207",
+      "category": "propulsion_mechanical",
+      "descriptor": "High-efficiency 5\u20137\" class brushless motor for tactical FPV and ISR, 22\u00d77 mm stator, 1750 KV",
+      "granularity": "sku",
+      "readiness": "prototype",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 45,
+          "line_end": 56,
+          "url": "https://dronesmithusa.com",
+          "page_class": "homepage",
+          "snippet": "### DS-2207\nComing Soon\nHigh-efficiency 5\u20137\u201d class motor for tactical FPV and ISR.\nKV\n1750 (est.)\nStator\n22\u00d77 mm\nMax Thrust\n2.2 kg (est.)\nVoltage\n6S\u20138S\n[Request Info](#contact) View Specs"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 31,
+          "line_end": 31,
+          "url": "https://dronesmithusa.com",
+          "page_class": "homepage",
+          "snippet": "Pre-production designs shown below. Final specifications subject to change."
+        }
+      ],
+      "notes": "Listed as \"Coming Soon.\" Pre-production per site disclaimer; vendor-level NDAA \u00a7889 claim not tied to this SKU by name."
+    },
+    {
+      "name": "DS-3508",
+      "category": "propulsion_mechanical",
+      "descriptor": "Heavy-lift brushless motor for payload and logistics UAVs, 35\u00d78 mm stator, 420 KV, 7.5 kg max thrust",
+      "granularity": "sku",
+      "readiness": "prototype",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 57,
+          "line_end": 68,
+          "url": "https://dronesmithusa.com",
+          "page_class": "homepage",
+          "snippet": "### DS-3508\nComing Soon\nHeavy-lift motor for payload and logistics UAVs.\nKV\n420 (est.)\nStator\n35\u00d78 mm\nMax Thrust\n7.5 kg (est.)\nVoltage\n8S\u201312S\n[Request Info](#contact) View Specs"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 31,
+          "line_end": 31,
+          "url": "https://dronesmithusa.com",
+          "page_class": "homepage",
+          "snippet": "Pre-production designs shown below. Final specifications subject to change."
+        }
+      ],
+      "notes": "Listed as \"Coming Soon.\" Pre-production per site disclaimer; vendor-level NDAA \u00a7889 claim not tied to this SKU by name."
+    }
+  ],
+  "unresolved_questions": [
+    "NDAA \u00a7889 compliance is claimed at the vendor/supply-chain level for all motors but no individual SKU (DS-2814, DS-2207, DS-3508) is named in the compliance section \u2014 marked not_disclosed rather than yes.",
+    "All three motors are pre-production ('Coming Soon' / 'Pre-production designs shown below'); readiness may change once production begins.",
+    "'View Specs' links appear on the product cards but the crawler discovered no outbound links (likely JavaScript modals or in-page anchors), so no additional spec pages were available to fetch."
+  ],
+  "fetch_requests": [],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 8,
+    "total_cost_usd": 0.1256681,
+    "created_at": "2026-05-04T01:55:15+00:00",
+    "extract_version": "0.1.0"
+  }
+}

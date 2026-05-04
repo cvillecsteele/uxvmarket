@@ -1,0 +1,55 @@
+{
+  "target_id": "skyline-nav-ai",
+  "run_id": "canonical",
+  "display_name": "Skyline Nav AI",
+  "homepage_url": "https://skylinenav.ai",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/skyline-nav-ai/website",
+  "products": [],
+  "unresolved_questions": [
+    "All 8 crawl attempts failed (homepage status=failed, all browserless map probes HTTP 400). Zero text was retrieved. Cannot enumerate any products without a successful fetch of https://skylinenav.ai."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://skylinenav.ai",
+      "reason": "Homepage fetch failed; no content was retrieved for this vendor. Need a successful fetch to begin product enumeration.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=failed, page_class=homepage, resource_id=resource-0001",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://skylinenav.ai/products",
+      "reason": "Likely product listing page \u2014 not yet attempted; needed to enumerate SKUs.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "readiness"
+      ],
+      "source_hint": "guessed standard products path",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://skylinenav.ai/solutions",
+      "reason": "Common alternative to /products for navigation AI vendors \u2014 would expose product/capability names.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "guessed standard solutions path",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "needs_more_fetches",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 3,
+    "total_cost_usd": 0.039149250000000003,
+    "created_at": "2026-05-04T06:20:45+00:00",
+    "extract_version": "0.1.0"
+  }
+}

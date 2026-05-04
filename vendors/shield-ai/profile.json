@@ -1,0 +1,424 @@
+{
+  "target_id": "shield-ai",
+  "run_id": "canonical",
+  "display_name": "Shield AI",
+  "homepage_url": "https://shield.ai",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/shield-ai/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "airframes",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0372",
+            "line_start": 73,
+            "line_end": 74,
+            "url": "https://shield.ai/v-bat",
+            "page_class": "product",
+            "snippet": "        #### V-BAT\n        Unmatched ISR & targeting on the EW battlefield."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 69,
+            "line_end": 70,
+            "url": "https://shield.ai",
+            "page_class": "homepage",
+            "snippet": "        #### X-BAT\n        The world's first AI-piloted VTOL fighter jet."
+          }
+        ],
+        "notes": "V-BAT tactical VTOL UAS in serial production; X-BAT AI-piloted VTOL fighter jet"
+      },
+      {
+        "category": "flight_and_vehicle_control",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 11,
+            "line_end": 13,
+            "url": "https://shield.ai",
+            "page_class": "homepage",
+            "snippet": "    #### Enterprise\n    Autonomy. Faster.\n    Develop, evaluate, test and deploy mission autonomy with the most comprehensive AI-powered developer platform."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0166",
+            "line_start": 214,
+            "line_end": 214,
+            "url": "https://shield.ai/mission-autonomy",
+            "page_class": "capability",
+            "snippet": "### Mission autonomy powered by Hivemind"
+          }
+        ],
+        "notes": "Hivemind is Shield AI's AI pilot/autonomy stack (EdgeOS, Pilot, Forge, Commander sub-products), deployed on V-BAT and licensed to third-party aircraft (MQ-20 Avenger, Firejet, X-62 VISTA)"
+      },
+      {
+        "category": "isr_payloads",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0372",
+            "line_start": 232,
+            "line_end": 233,
+            "url": "https://shield.ai/v-bat",
+            "page_class": "product",
+            "snippet": "### ViDAR\nRedefining ISR with the first passive, multi-domain AI-enabled optical sensor designed for use over sea and land."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 52,
+            "line_end": 55,
+            "url": "https://shield.ai",
+            "page_class": "homepage",
+            "snippet": "        #### ViDAR\n        \\[HARDWARE + SOFTWARE PACKAGE\\]\n        Unrivaled surveillance, day or night, across air, land and sea.\n        ](https://shield.ai/vidar/)"
+          }
+        ],
+        "notes": "ViDAR is a passive multi-domain AI-enabled optical sensor (hardware + software); Tracker is AI object detection software for video"
+      },
+      {
+        "category": "ground_segment",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 36,
+            "line_end": 39,
+            "url": "https://shield.ai",
+            "page_class": "homepage",
+            "snippet": "    *   [![](https://shield.ai/wp-content/uploads/2025/03/commander-figure.svg)\n        #### Commander\n        Command & control toolkit\n        ](https://shield.ai/commander/)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 47,
+            "line_end": 50,
+            "url": "https://shield.ai",
+            "page_class": "homepage",
+            "snippet": "        #### Benchmark\n        \\[SOFTWARE\\]\n        Post-flight debrief evaluate, score, and visualize mission critical data\n        ](https://shield.ai/benchmark/)"
+          }
+        ],
+        "notes": "Commander is their command & control toolkit; Benchmark is post-flight debrief/scoring software"
+      },
+      {
+        "category": "electronic_warfare",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 62,
+            "line_end": 65,
+            "url": "https://shield.ai",
+            "page_class": "homepage",
+            "snippet": "        #### Tracker C-UAS\n        \\[SOFTWARE\\]\n        Transform your EO/IR camera into a silent drone hunter\n        ](https://shield.ai/tracker-c-uas/)"
+          }
+        ],
+        "notes": "Tracker C-UAS transforms EO/IR cameras into drone-detection/counter-UAS tools; V-BAT designed for EW battlefield"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "San Diego",
+      "state_or_province": "California",
+      "country": "United States",
+      "address": null
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0241",
+        "line_start": 201,
+        "line_end": 201,
+        "url": "https://shield.ai/shield-ai-boosts-series-e",
+        "page_class": "capability",
+        "snippet": "**SAN DIEGO (December 14, 2022) \u2013**\u00a0Shield AI, a fast-growing defense technology company building AI pilots for aircraft, today announced it has raised additional equity capital from the U.S. Innovative Technology Fund (USIT)."
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "oem",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0372",
+        "line_start": 238,
+        "line_end": 239,
+        "url": "https://shield.ai/v-bat",
+        "page_class": "product",
+        "snippet": "### Maritime UAS of choice\nV-BAT was competitively selected for the U.S. Coast Guard Maritime Unmanned Aircraft System Services program. It has deployed on nearly every class of U.S. Navy ship and with all seven Marine Expeditionary Units (MEUs)."
+      }
+    ],
+    "notes": "Shield AI designs and manufactures complete UAS platforms (V-BAT in serial production, X-BAT VTOL fighter) while also licensing the Hivemind autonomy stack to third-party OEMs."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "V-BAT",
+        "product_type": "tactical VTOL UAS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0372",
+            "line_start": 73,
+            "line_end": 74,
+            "url": "https://shield.ai/v-bat",
+            "page_class": "product",
+            "snippet": "        #### V-BAT\n        Unmatched ISR & targeting on the EW battlefield."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "X-BAT",
+        "product_type": "AI-piloted VTOL fighter jet",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 69,
+            "line_end": 70,
+            "url": "https://shield.ai",
+            "page_class": "homepage",
+            "snippet": "        #### X-BAT\n        The world's first AI-piloted VTOL fighter jet."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Hivemind Enterprise",
+        "product_type": "AI pilot / autonomy developer platform",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 11,
+            "line_end": 13,
+            "url": "https://shield.ai",
+            "page_class": "homepage",
+            "snippet": "    #### Enterprise\n    Autonomy. Faster.\n    Develop, evaluate, test and deploy mission autonomy with the most comprehensive AI-powered developer platform."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "EdgeOS",
+        "product_type": "autonomy run-time environment",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 24,
+            "line_end": 27,
+            "url": "https://shield.ai",
+            "page_class": "homepage",
+            "snippet": "    *   [![](https://shield.ai/wp-content/uploads/2025/03/edge-os-figure.svg)\n        #### EdgeOS\n        Run-time environment\n        ](https://shield.ai/edge-os/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Pilot",
+        "product_type": "autonomy catalog",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 28,
+            "line_end": 31,
+            "url": "https://shield.ai",
+            "page_class": "homepage",
+            "snippet": "    *   [![](https://shield.ai/wp-content/uploads/2025/03/pilot-figure.svg)\n        #### Pilot\n        Autonomy catalog\n        ](https://shield.ai/pilot/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Forge",
+        "product_type": "autonomy development toolchain",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 32,
+            "line_end": 35,
+            "url": "https://shield.ai",
+            "page_class": "homepage",
+            "snippet": "    *   [![](https://shield.ai/wp-content/uploads/2025/03/forge-figure.svg)\n        #### Forge\n        Autonomy factory\n        ](https://shield.ai/forge/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Commander",
+        "product_type": "command & control toolkit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 36,
+            "line_end": 39,
+            "url": "https://shield.ai",
+            "page_class": "homepage",
+            "snippet": "    *   [![](https://shield.ai/wp-content/uploads/2025/03/commander-figure.svg)\n        #### Commander\n        Command & control toolkit\n        ](https://shield.ai/commander/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Benchmark",
+        "product_type": "post-flight debrief and scoring software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 47,
+            "line_end": 50,
+            "url": "https://shield.ai",
+            "page_class": "homepage",
+            "snippet": "        #### Benchmark\n        \\[SOFTWARE\\]\n        Post-flight debrief evaluate, score, and visualize mission critical data\n        ](https://shield.ai/benchmark/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ViDAR",
+        "product_type": "passive multi-domain AI optical surveillance sensor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 51,
+            "line_end": 55,
+            "url": "https://shield.ai",
+            "page_class": "homepage",
+            "snippet": "    *   [![](https://shield.ai/wp-content/uploads/2025/04/SHOT_0012_still_v008.0002-1.png)\n        #### ViDAR\n        \\[HARDWARE + SOFTWARE PACKAGE\\]\n        Unrivaled surveillance, day or night, across air, land and sea.\n        ](https://shield.ai/vidar/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Tracker",
+        "product_type": "AI object detection software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 56,
+            "line_end": 60,
+            "url": "https://shield.ai",
+            "page_class": "homepage",
+            "snippet": "    *   [![](https://shield.ai/wp-content/uploads/2025/10/vision-2.jpg)\n        #### Tracker\n        \\[SOFTWARE\\]\n        AI-powered software for superior object detection in videos\n        ](https://shield.ai/tracker/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Tracker C-UAS",
+        "product_type": "counter-UAS drone detection software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 61,
+            "line_end": 65,
+            "url": "https://shield.ai",
+            "page_class": "homepage",
+            "snippet": "    *   [![](https://shield.ai/wp-content/uploads/2025/10/vision-3.jpg)\n        #### Tracker C-UAS\n        \\[SOFTWARE\\]\n        Transform your EO/IR camera into a silent drone hunter\n        ](https://shield.ai/tracker-c-uas/)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0372",
+        "line_start": 239,
+        "line_end": 239,
+        "url": "https://shield.ai/v-bat",
+        "page_class": "product",
+        "snippet": "V-BAT was competitively selected for the U.S. Coast Guard Maritime Unmanned Aircraft System Services program. It has deployed on nearly every class of U.S. Navy ship and with all seven Marine Expeditionary Units (MEUs)."
+      }
+    ],
+    "notes": "V-BAT deployed with U.S. Coast Guard, Navy, and Marine Expeditionary Units. Hivemind is commercially deployed."
+  },
+  "unresolved_questions": [
+    "Street address not found in corpus (About page shows only a map image)",
+    "NDAA Sec 848/889 compliance not addressed in fetched corpus",
+    "Blue UAS status not mentioned in fetched corpus"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://shield.ai/contact/",
+      "reason": "Would confirm street address and HQ details for Shield AI San Diego headquarters",
+      "expected_evidence": [
+        "headquarters"
+      ],
+      "source_hint": "guessed standard contact path",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "complete",
+  "tagline": "Manufactures V-BAT and X-BAT VTOL aircraft for GPS/comms-denied ISR and contested environments; develops Hivemind autonomy platform (Enterprise, EdgeOS, Forge, Commander) and vision software (ViDAR, Tracker, Tracker C-UAS) for autonomous mission deployment. Production-ready airframes and software stack. NDAA and Blue UAS certification status unknown; public evidence on operational fielding and program adoption thin.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 16,
+    "total_cost_usd": 0.44340050000000003,
+    "created_at": "2026-05-04T06:12:17+00:00",
+    "extract_version": "0.1.0"
+  }
+}

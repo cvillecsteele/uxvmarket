@@ -1,0 +1,315 @@
+{
+  "target_id": "videosys-broadcast",
+  "run_id": "canonical",
+  "display_name": "Videosys Broadcast",
+  "homepage_url": "https://www.videosys.tv",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/videosys-broadcast/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "communications",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0070",
+            "line_start": 15,
+            "line_end": 15,
+            "url": "https://videosys.tv/product/uxv",
+            "page_class": "product",
+            "snippet": "As the demand for Unmanned Vehicle Systems (UxVs) increases, so does the need for a wider range of antennas for payloads, data communications systems, command and control. Performance requirements and cost criteria are an important consideration when selecting the antenna."
+          }
+        ],
+        "notes": "Antennas explicitly for UxV payloads, data communications, and command and control"
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Primary UxV-relevant category is communications (antennas). Broadcast RF portfolio not marketed to drone supply chain."
+  },
+  "headquarters": {
+    "value": {
+      "city": null,
+      "state_or_province": null,
+      "country": "United Kingdom",
+      "address": null
+    },
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 73,
+        "line_end": 73,
+        "url": "https://videosys.tv/",
+        "page_class": "homepage",
+        "snippet": "[t: +44(0) 1293 541 200](<tel:+44\\(0\\) 1293 541 200>)"
+      }
+    ],
+    "notes": "UK confirmed by +44(0) 1293 area code (Crawley, West Sussex region). No city/address explicitly stated on fetched pages; about-us page was skipped."
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0070",
+        "line_start": 17,
+        "line_end": 17,
+        "url": "https://videosys.tv/product/uxv",
+        "page_class": "product",
+        "snippet": "Videosys has a range of standard cost-effective, high-performance antenna designs that are already used on UxVs across the globe"
+      }
+    ],
+    "notes": "Videosys supplies antennas (components) to UxV manufacturers and operators for payload, data comms, and C2 applications. Primary business is broadcast RF systems; UxV antenna line is a named secondary product."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "UxV Antennas",
+        "product_type": "Antenna range for unmanned vehicle systems",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0070",
+            "line_start": 17,
+            "line_end": 17,
+            "url": "https://videosys.tv/product/uxv",
+            "page_class": "product",
+            "snippet": "Videosys has a range of standard cost-effective, high-performance antenna designs that are already used on UxVs across the globe"
+          }
+        ],
+        "notes": "Standard antenna designs used on UxVs globally for payload, data comms, and command and control"
+      },
+      {
+        "name": "Custom Antenna Design",
+        "product_type": "Bespoke antenna design and manufacturing service",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0024",
+            "line_start": 15,
+            "line_end": 15,
+            "url": "https://videosys.tv/product/bespoke-design",
+            "page_class": "news",
+            "snippet": "Videosys offers a bespoke antenna design service.\u00a0 Be that a new design for a special frequency requirement or specialised mounting arrangements, Videosys has the expertise to design and manufacture in house to short time scales."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Connected Live System",
+        "product_type": "Wireless broadcast camera system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 33,
+            "line_end": 34,
+            "url": "https://videosys.tv/",
+            "page_class": "homepage",
+            "snippet": "### Connected Live System\n![](https://videosys.tv/wp-content/uploads/2025/07/Untitled-design-15.png)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "CL-RTX",
+        "product_type": "Standalone wireless camera-back (broadcast)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0036",
+            "line_start": 11,
+            "line_end": 12,
+            "url": "https://videosys.tv/product/cl-rtx",
+            "page_class": "product",
+            "snippet": "CL-RTX\n======"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TX160",
+        "product_type": "Small-form-factor COFDM HEVC transmitter",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0068",
+            "line_start": 11,
+            "line_end": 12,
+            "url": "https://videosys.tv/product/tx160",
+            "page_class": "product",
+            "snippet": "TX160\n====="
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "RX380",
+        "product_type": "8-way diversity broadcast receiver",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0057",
+            "line_start": 11,
+            "line_end": 12,
+            "url": "https://videosys.tv/product/rx380",
+            "page_class": "product",
+            "snippet": "RX380\n====="
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Epsilon 4K CCU",
+        "product_type": "Camera Control Unit for broadcast",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0089",
+            "line_start": 23,
+            "line_end": 23,
+            "url": "https://videosys.tv/videosys-camera-control-and-rf-over-fibre-solutions-help-viewers-enjoy-an-exceptional-summer-of-sport",
+            "page_class": "news",
+            "snippet": "**Epsilon 4K Camera Control Unit:** Videosys Broadcast\u2019s Epsilon 4K Camera Control Unit (CCU) is designed to simplify Radio Camera installation, making it suited to both indoor and outdoor sporting events, particularly those where a fast set up time and secure transmission must be guaranteed."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "CA-75HD",
+        "product_type": "Ikegami camera back / camera side panel",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0025",
+            "line_start": 11,
+            "line_end": 12,
+            "url": "https://videosys.tv/product/ca-75hd",
+            "page_class": "product",
+            "snippet": "CA-75HD\n======="
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Filters",
+        "product_type": "RF bandpass filters (7th-order interdigital)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0048",
+            "line_start": 11,
+            "line_end": 12,
+            "url": "https://videosys.tv/product/filters",
+            "page_class": "product",
+            "snippet": "Filters\n======="
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DTC Down Converters",
+        "product_type": "RF downconverters for broadcast receivers",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0038",
+            "line_start": 11,
+            "line_end": 12,
+            "url": "https://videosys.tv/product/dcbgs",
+            "page_class": "product",
+            "snippet": "DTC Down Converters\n==================="
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "UxV Antennas and Custom Antenna Design are the explicitly UxV-targeted products. Other SKUs are broadcast-focused named products in their catalog."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA-related claims found in any fetched page. UK-based broadcast company; NDAA compliance not relevant to their primary market."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS claims found in any fetched page."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0070",
+        "line_start": 17,
+        "line_end": 17,
+        "url": "https://videosys.tv/product/uxv",
+        "page_class": "product",
+        "snippet": "Videosys has a range of standard cost-effective, high-performance antenna designs that are already used on UxVs across the globe"
+      }
+    ],
+    "notes": "Standard catalog antenna designs already deployed on UxVs globally. Custom design service is a secondary offering."
+  },
+  "unresolved_questions": [
+    "City/address of headquarters not confirmed (about-us page was skipped)",
+    "Full antenna product names/part numbers for UxV antenna range not available (brochure PDF not fetched)",
+    "Whether TX160 or other RF transmitters are also marketed for UxV applications"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://videosys.tv/about-us",
+      "reason": "Would confirm headquarters city/address and may contain more detail on UxV-specific product lines or company history",
+      "expected_evidence": [
+        "headquarters",
+        "drone_supply_chain_role",
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://videosys.tv/wp-content/uploads/2023/11/UxV-Antenna-Brochure-2023.pdf",
+      "reason": "PDF brochure for UxV antennas linked from the UxV product page \u2014 would reveal specific antenna model names, frequencies, and specs confirming product list and readiness level",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_budget",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "tagline": "UK-based RF communications supplier specializing in wireless video transmission systems, antennas, and camera control units for broadcast and film production. Core products include TX160 HEVC transmitter, UxV antenna family, and Connected Live System. NDAA and Blue UAS certification status unknown. Primary market appears to be commercial broadcast; US defense/UAS integration unclear from public evidence.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 27,
+    "total_cost_usd": 0.5293207000000001,
+    "created_at": "2026-05-04T07:40:09+00:00",
+    "extract_version": "0.1.0"
+  }
+}

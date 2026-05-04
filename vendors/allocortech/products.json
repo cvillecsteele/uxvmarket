@@ -1,0 +1,205 @@
+{
+  "target_id": "allocor",
+  "run_id": "canonical",
+  "display_name": "Allocor",
+  "homepage_url": "https://allocor.tech",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/allocor/website",
+  "products": [
+    {
+      "name": "Comet FTS",
+      "category": "flight_termination",
+      "descriptor": "Radio-linked dual-redundant flight termination system with digital, pyrotechnic, CAN-FD, and Ethernet outputs",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0064",
+          "line_start": 77,
+          "line_end": 79,
+          "url": "https://www.allocor.tech/comet-fts-product-page",
+          "page_class": null,
+          "snippet": "Reserve\nComet FTS\n========="
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0064",
+          "line_start": 35,
+          "line_end": 37,
+          "url": "https://www.allocor.tech/comet-fts-product-page",
+          "page_class": null,
+          "snippet": "    Flight Termination\n    Lorem ipsum dolor sit amet consectetur.\n    ](/comet-fts-product-page)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Clio-B",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "Computation, communications, and power distribution hub; configurable as flight computer or power/data switch",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0063",
+          "line_start": 77,
+          "line_end": 79,
+          "url": "https://www.allocor.tech/clio-product-page",
+          "page_class": null,
+          "snippet": "Reserve\nClio-B\n======"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0063",
+          "line_start": 81,
+          "line_end": 81,
+          "url": "https://www.allocor.tech/clio-product-page",
+          "page_class": null,
+          "snippet": "The Clio Series B is based around a STM32H7 and Xilinx Spartan 7 and normally runs FreeRTOS with lwIP integration. It offers 2 Ethernet and 17 serial ports, 9 switched power outputs and a various GPIO with many customizable options."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Taurus AEX",
+      "category": "propulsion_electronics",
+      "descriptor": "High-efficiency FOC/SVPWM BLDC motor controller, up to 2 kW, 67.2 V, 63 A peak",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0073",
+          "line_start": 77,
+          "line_end": 80,
+          "url": "https://www.allocor.tech/taurus-aex-product-page",
+          "page_class": null,
+          "snippet": "Reserve\nTaurus AEX\n==========\nThe Taurus AEX is a high efficiency BLDC motor controller that speaks in more than pulses. This controller implements full FOC/SVPWM for highly efficient operation up to 2kW peak power and provides isolated CAN 2.0 and RS-485 communications. The AEX also supports Hall or Quadrature sensor inputs for more accurate positioning."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Taurus 400 OTiS",
+      "category": "propulsion_electronics",
+      "descriptor": "SiC FET high-voltage BLDC motor controller, 80\u2013400 V, 10\u201320 kW, 80 A peak",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0071",
+          "line_start": 77,
+          "line_end": 80,
+          "url": "https://www.allocor.tech/taurus-400-product-page",
+          "page_class": null,
+          "snippet": "Reserve\nTaurus 400\n==========\nThe Taurus 400 series is a set advanced high voltage, high power, extremely efficient BLDC motor controllers. Because each advanced vehicle has unique requirements, Taurus 400 solutions are customized for each end user. Due to the complex needs of high power vehicles, these controllers utilize Silicon Carbide FETs which enable advanced power switching technology."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0071",
+          "line_start": 167,
+          "line_end": 167,
+          "url": "https://www.allocor.tech/taurus-400-product-page",
+          "page_class": null,
+          "snippet": "Taurus 400 OTiS Electrical and Physical Interface Control Document (PDF)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Taurus C60",
+      "category": "propulsion_electronics",
+      "descriptor": "IP67 FOC/SVPWM BLDC motor controller, up to 6 kW, 12\u201352 V, 100 A peak",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0074",
+          "line_start": 77,
+          "line_end": 79,
+          "url": "https://www.allocor.tech/taurus-c60-product-page",
+          "page_class": null,
+          "snippet": "Reserve\nTaurus C60\n=========="
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0074",
+          "line_start": 126,
+          "line_end": 126,
+          "url": "https://www.allocor.tech/taurus-c60-product-page",
+          "page_class": null,
+          "snippet": "Fixed mapping sensorless open-loop PWM _throttle_ based ESCs are a thing of the past. The Taurus motor controller enables customized control loops and tuning, along with bi-directional communications to give your system more advanced control and monitoring. Taurus adds in sensored motor capabilities for slow-speed and alignment/parking support."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Lohner",
+      "category": "power_systems",
+      "descriptor": "Smart LiPo battery pack with integrated monitoring and power management, 22.2 V, 8 Ah, 50 A continuous",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0067",
+          "line_start": 77,
+          "line_end": 80,
+          "url": "https://www.allocor.tech/lohner-product-page",
+          "page_class": null,
+          "snippet": "Reserve\nLohner\n======\nThe Lohner Smart Battery couples a high energy density LiPo battery with full-featured monitoring and control system to provide high-availability standby power for your mission-critical system. This compact package with rugged power and communication connectors is suitable for installation almost anywhere."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Taurus AE",
+      "category": "propulsion_electronics",
+      "descriptor": "Actuator Edition FOC/SVPWM BLDC motor controller, up to 2 kW, 12\u201360 V, with Hall/QEP sensor support",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0072",
+          "line_start": 77,
+          "line_end": 80,
+          "url": "https://www.allocor.tech/taurus-ae-product-page",
+          "page_class": null,
+          "snippet": "Reserve\nTaurus AE\n=========\nThe Taurus motor controller enables customized control loops and tuning, along with bi-directional communications to give your system more advanced control and monitoring. The Taurus AE provides motor sensors for slow-speed and alignment/parking support."
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "Lohner product page (resource-0067) documentation section appears to contain copy-pasted Taurus AE document links rather than Lohner-specific ICD/brochure \u2014 Lohner's own ICD document number and product brochure URL are not confirmed in the corpus.",
+    "Taurus AE performance spec table (resource-0072, lines 141-143) lists 100A Peak / 60A Continuous, conflicting with the Overview section (lines 114-115) which specifies \u00b130A Peak / \u00b120A Continuous for the AE; likely a template copy error on the page."
+  ],
+  "fetch_requests": [],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 21,
+    "total_cost_usd": 0.6538883,
+    "created_at": "2026-05-03T22:27:20+00:00",
+    "extract_version": "0.1.0"
+  }
+}

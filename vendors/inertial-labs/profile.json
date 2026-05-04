@@ -1,0 +1,536 @@
+{
+  "target_id": "inertial-labs",
+  "run_id": "canonical",
+  "display_name": "Inertial Labs",
+  "homepage_url": "https://inertiallabs.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/inertial-labs/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0029",
+            "line_start": 166,
+            "line_end": 166,
+            "url": "https://inertiallabs.com/applications-summary/aerospace-solutions",
+            "page_class": "capability",
+            "snippet": "We are a leader in advanced Inertial Measurement Units (IMUs) and Inertial Navigation Systems (INS) tailored for UAVs operating in complex, dynamic, and often GPS-challenged environments. Whether for reconnaissance, strike, mapping, or civil inspection missions, our solutions enable stable flight and accurate navigation \u2014 even when GNSS is not available."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0273",
+            "line_start": 161,
+            "line_end": 162,
+            "url": "https://inertiallabs.com/products/ins-inertial-navigation-systems",
+            "page_class": "product",
+            "snippet": "GPS-Aided Inertial Navigation Systems (INS)\n==========================================="
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0262",
+            "line_start": 161,
+            "line_end": 162,
+            "url": "https://inertiallabs.com/products/ahrs",
+            "page_class": "product",
+            "snippet": "Attitude and Heading Reference Systems (AHRS)\n============================================="
+          }
+        ],
+        "notes": "IMU, INS, AHRS, APNT, gyroscopes and accelerometers for UAV navigation \u2014 core product lines"
+      },
+      {
+        "category": "isr_payloads",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0233",
+            "line_start": 169,
+            "line_end": 169,
+            "url": "https://inertiallabs.com/ndaa-compliance-trust-and-security-in-every-flight",
+            "page_class": "compliance",
+            "snippet": "Learn about what NDAA compliance is, why it matters for drone payloads, and how Inertial Labs ensures full NDAA compliance across its RESEPI and EchoONE systems."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0029",
+            "line_start": 208,
+            "line_end": 208,
+            "url": "https://inertiallabs.com/applications-summary/aerospace-solutions",
+            "page_class": "capability",
+            "snippet": "*   Complete [Remote Sensing Payload Instrument (RESEPI)](https://inertiallabs.com/products/resepi-lidar-remote-sensing-payload-instruments/)"
+          }
+        ],
+        "notes": "RESEPI LiDAR Remote Sensing Payload Instrument for drone-mounted mapping and inspection; EchoONE co-developed with Teledyne"
+      },
+      {
+        "category": "electronic_warfare",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0115",
+            "line_start": 169,
+            "line_end": 169,
+            "url": "https://inertiallabs.com/inertial-labs-a-viavi-solutions-company-unveils-anti-jamming-crpa-antenna-system",
+            "page_class": "news",
+            "snippet": "**Chandler, Ariz., March 27, 2025 \u2013** Inertial Labs, a [VIAVI Solutions Inc.](https://www.viavisolutions.com/en-us) (VIAVI) (NASDAQ: VIAV) company, today launched its [M-AJ-QUATRO](https://inertiallabs.com/products/ins-inertial-navigation-systems/) anti-jamming CRPA antenna system. Equipped with advanced Controlled Reception Pattern Antenna (CRPA) and digital processing technologies, M-AJ-QUATRO establishes Assured Positioning, Navigation, and Timing (A-PNT) in GPS/GNSS-challenged environments ranging from military operations to commercial aviation."
+          }
+        ],
+        "notes": "M-AJ-QUATRO anti-jamming CRPA antenna system for GNSS-denied/contested environments"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Paeonian Springs",
+      "state_or_province": "Virginia",
+      "country": "United States",
+      "address": "39959 Catoctin Ridge St, Paeonian Springs, VA 20129"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0133",
+        "line_start": 164,
+        "line_end": 165,
+        "url": "https://inertiallabs.com/inertial-labs-inc/contact-inertial-labs-team",
+        "page_class": "contact",
+        "snippet": "### Inertial Labs Headquarters\n*   [39959 Catoctin Ridge St, Paeonian Springs, VA 20129, USA](https://goo.gl/maps/mRmJcnTnoDXquUwT6)"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0029",
+        "line_start": 166,
+        "line_end": 166,
+        "url": "https://inertiallabs.com/applications-summary/aerospace-solutions",
+        "page_class": "capability",
+        "snippet": "We are a leader in advanced Inertial Measurement Units (IMUs) and Inertial Navigation Systems (INS) tailored for UAVs operating in complex, dynamic, and often GPS-challenged environments. Whether for reconnaissance, strike, mapping, or civil inspection missions, our solutions enable stable flight and accurate navigation \u2014 even when GNSS is not available."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0029",
+        "line_start": 246,
+        "line_end": 246,
+        "url": "https://inertiallabs.com/applications-summary/aerospace-solutions",
+        "page_class": "capability",
+        "snippet": "*   US-based manufacturer with global footprint"
+      }
+    ],
+    "notes": "Designs and manufactures IMUs, INS, AHRS and APNT systems sold as components/subsystems to drone OEMs and integrators. Also produces complete LiDAR payload (RESEPI) but primary business is navigation sensor components."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "IMU-P",
+        "product_type": "MEMS Inertial Measurement Unit (tactical/industrial grade)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0272",
+            "line_start": 165,
+            "line_end": 165,
+            "url": "https://inertiallabs.com/products/imu-inertial-measurement-units",
+            "page_class": "product",
+            "snippet": "Our skilled engineers provides expertise to help you select and configure from the models available: IMU-P Industrial, IMU-P Tactical (Stabilization), IMU-P Tactical (Standard), and Kernel-100. Contact us for help integrating your unit, or visit our [**Knowledge Base**](/knowledge-base/) to view answers to frequently asked questions."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Kernel-100",
+        "product_type": "MEMS Inertial Measurement Unit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0272",
+            "line_start": 165,
+            "line_end": 165,
+            "url": "https://inertiallabs.com/products/imu-inertial-measurement-units",
+            "page_class": "product",
+            "snippet": "Our skilled engineers provides expertise to help you select and configure from the models available: IMU-P Industrial, IMU-P Tactical (Stabilization), IMU-P Tactical (Standard), and Kernel-100. Contact us for help integrating your unit, or visit our [**Knowledge Base**](/knowledge-base/) to view answers to frequently asked questions."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "IMU-NAV-100",
+        "product_type": "High Precision MEMS Inertial Measurement Unit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0272",
+            "line_start": 181,
+            "line_end": 181,
+            "url": "https://inertiallabs.com/products/imu-inertial-measurement-units",
+            "page_class": "product",
+            "snippet": "[IMU-NAV-100](/imu-nav-100-datasheet)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "IMU-NAV-200",
+        "product_type": "High Precision MEMS Inertial Measurement Unit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0272",
+            "line_start": 182,
+            "line_end": 182,
+            "url": "https://inertiallabs.com/products/imu-inertial-measurement-units",
+            "page_class": "product",
+            "snippet": "[IMU-NAV-200](/imu-nav-200-datasheet)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "CheetahNAV",
+        "product_type": "Tactical GPS-Aided Inertial Navigation System",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0273",
+            "line_start": 181,
+            "line_end": 181,
+            "url": "https://inertiallabs.com/products/ins-inertial-navigation-systems",
+            "page_class": "product",
+            "snippet": "[CheetahNAV](/cheetahnav-datasheet)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "INS-U",
+        "product_type": "GPS-Aided INS with air data computer",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0273",
+            "line_start": 182,
+            "line_end": 182,
+            "url": "https://inertiallabs.com/products/ins-inertial-navigation-systems",
+            "page_class": "product",
+            "snippet": "[INS-U](/ins-u-datasheet)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "INS-P",
+        "product_type": "Professional single GNSS antenna INS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0273",
+            "line_start": 184,
+            "line_end": 184,
+            "url": "https://inertiallabs.com/products/ins-inertial-navigation-systems",
+            "page_class": "product",
+            "snippet": "[INS-P](/ins-p-datasheet)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "INS-D",
+        "product_type": "Dual GNSS antenna INS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0273",
+            "line_start": 185,
+            "line_end": 185,
+            "url": "https://inertiallabs.com/products/ins-inertial-navigation-systems",
+            "page_class": "product",
+            "snippet": "[INS-D](/ins-d-datasheet)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AHRS-10B",
+        "product_type": "Basic Attitude and Heading Reference System",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0262",
+            "line_start": 174,
+            "line_end": 174,
+            "url": "https://inertiallabs.com/products/ahrs",
+            "page_class": "product",
+            "snippet": "[AHRS-10B](/ahrs-10-datasheet)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AHRS-10P",
+        "product_type": "Professional Attitude and Heading Reference System",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0262",
+            "line_start": 175,
+            "line_end": 175,
+            "url": "https://inertiallabs.com/products/ahrs",
+            "page_class": "product",
+            "snippet": "[AHRS-10P](/ahrs-10-datasheet)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AHRS-II-P",
+        "product_type": "High Performance Attitude and Heading Reference System",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0262",
+            "line_start": 176,
+            "line_end": 176,
+            "url": "https://inertiallabs.com/products/ahrs",
+            "page_class": "product",
+            "snippet": "[AHRS-II-P](/ahrs-II-P-datasheet)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "OptoAHRS-II",
+        "product_type": "Optical Attitude and Heading Reference System",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0262",
+            "line_start": 178,
+            "line_end": 178,
+            "url": "https://inertiallabs.com/products/ahrs",
+            "page_class": "product",
+            "snippet": "[OptoAHRS-II](/optoahrs-II-datasheet)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "VINS",
+        "product_type": "Vision-aided Inertial Navigation System",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0263",
+            "line_start": 176,
+            "line_end": 177,
+            "url": "https://inertiallabs.com/products/apnt-assured-positioning-navigation-timing",
+            "page_class": "product",
+            "snippet": "[VINS](/products/apnt-assured-positioning-navigation-timing/vins-vision-aided-inertial-navigation-system/)\nIRINS"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "IRINS",
+        "product_type": "INS with embedded LEO receiver for GNSS-denied navigation",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0263",
+            "line_start": 177,
+            "line_end": 178,
+            "url": "https://inertiallabs.com/products/apnt-assured-positioning-navigation-timing",
+            "page_class": "product",
+            "snippet": "IRINS\nIRINS-DM"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "M-AJ-QUATRO",
+        "product_type": "Anti-jamming CRPA antenna system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0115",
+            "line_start": 169,
+            "line_end": 169,
+            "url": "https://inertiallabs.com/inertial-labs-a-viavi-solutions-company-unveils-anti-jamming-crpa-antenna-system",
+            "page_class": "news",
+            "snippet": "**Chandler, Ariz., March 27, 2025 \u2013** Inertial Labs, a [VIAVI Solutions Inc.](https://www.viavisolutions.com/en-us) (VIAVI) (NASDAQ: VIAV) company, today launched its [M-AJ-QUATRO](https://inertiallabs.com/products/ins-inertial-navigation-systems/) anti-jamming CRPA antenna system. Equipped with advanced Controlled Reception Pattern Antenna (CRPA) and digital processing technologies, M-AJ-QUATRO establishes Assured Positioning, Navigation, and Timing (A-PNT) in GPS/GNSS-challenged environments ranging from military operations to commercial aviation."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "RESEPI",
+        "product_type": "LiDAR Remote Sensing Payload Instrument for UAVs",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0029",
+            "line_start": 208,
+            "line_end": 208,
+            "url": "https://inertiallabs.com/applications-summary/aerospace-solutions",
+            "page_class": "capability",
+            "snippet": "*   Complete [Remote Sensing Payload Instrument (RESEPI)](https://inertiallabs.com/products/resepi-lidar-remote-sensing-payload-instruments/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "RESEPI GEN-II",
+        "product_type": "LiDAR Remote Sensing Payload Instrument (next-gen)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0233",
+            "line_start": 180,
+            "line_end": 180,
+            "url": "https://inertiallabs.com/ndaa-compliance-trust-and-security-in-every-flight",
+            "page_class": "compliance",
+            "snippet": "Figure 2. RESEPI GEN-II OUSTER OS1-64 REV7 LiDAR"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "EchoONE",
+        "product_type": "LiDAR + imaging drone payload (co-developed with Teledyne)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0233",
+            "line_start": 183,
+            "line_end": 183,
+            "url": "https://inertiallabs.com/ndaa-compliance-trust-and-security-in-every-flight",
+            "page_class": "compliance",
+            "snippet": "Figure 3. Teledyne EchoONE"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": "yes",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0233",
+        "line_start": 167,
+        "line_end": 169,
+        "url": "https://inertiallabs.com/ndaa-compliance-trust-and-security-in-every-flight",
+        "page_class": "compliance",
+        "snippet": "NDAA Compliance: Trust and Security in Every Flight\n===================================================\nLearn about what NDAA compliance is, why it matters for drone payloads, and how Inertial Labs ensures full NDAA compliance across its RESEPI and EchoONE systems."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0233",
+        "line_start": 174,
+        "line_end": 174,
+        "url": "https://inertiallabs.com/ndaa-compliance-trust-and-security-in-every-flight",
+        "page_class": "compliance",
+        "snippet": "### NDAA-Compliant Payloads by Inertial Labs"
+      }
+    ],
+    "notes": "RESEPI OUSTER OS1-64 REV7 LiDAR, RESEPI GEN-II, and EchoONE are explicitly claimed NDAA-compliant. Page title: 'NDAA Compliant Drone Payloads'."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No mention of DIU Blue UAS Cleared List or Blue sUAS authorization found in the corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0273",
+        "line_start": 167,
+        "line_end": 167,
+        "url": "https://inertiallabs.com/products/ins-inertial-navigation-systems",
+        "page_class": "product",
+        "snippet": "[INS Product Catalog 2025](/products-catalog-ins/)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0272",
+        "line_start": 168,
+        "line_end": 168,
+        "url": "https://inertiallabs.com/products/imu-inertial-measurement-units",
+        "page_class": "product",
+        "snippet": "[IMU Product Catalog 2025](/products-catalog-imu/)"
+      }
+    ],
+    "notes": "Product catalogs (IMU Product Catalog 2025, INS Product Catalog 2025) published with multiple production SKUs and datasheets. US-based manufacturer with 25+ years experience."
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [
+    {
+      "url": "https://inertiallabs.com/products/resepi-lidar-remote-sensing-payload-instruments/",
+      "reason": "Would confirm full RESEPI product line SKUs and any Blue UAS claims for the RESEPI payload family.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "products_categories"
+      ],
+      "source_hint": "guessed \u2014 product page for RESEPI not in fetched pages",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 21,
+    "total_cost_usd": 0.8865627,
+    "created_at": "2026-05-03T11:48:24+00:00",
+    "extract_version": "0.1.0"
+  },
+  "tagline": "Manufactures tactical-grade inertial measurement units, GPS-aided inertial navigation systems, and vision-aided INS for fixed-wing and rotary-wing UAVs operating in GNSS-denied environments; also produces LiDAR remote sensing payloads and anti-jamming GNSS antennas. NDAA-compliant. Limited public evidence of specific defense primes or programs beyond government contracting claims."
+}

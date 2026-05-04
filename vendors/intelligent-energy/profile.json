@@ -1,0 +1,316 @@
+{
+  "target_id": "intelligent-energy",
+  "run_id": "canonical",
+  "display_name": "Intelligent Energy",
+  "homepage_url": "https://www.intelligent-energy.com/ our-products/ie-soar-fuel-cellsfor-uavs/",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/intelligent-energy/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "power_systems",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0359",
+            "line_start": 112,
+            "line_end": 112,
+            "url": "https://www.intelligent-energy.com/our-products/ie-soar-fuel-cells-for-uavs",
+            "page_class": "news",
+            "snippet": "IE-SOAR hydrogen fuel cells for UAVs replace your battery and unlock long endurance flight"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0348",
+            "line_start": 112,
+            "line_end": 112,
+            "url": "https://www.intelligent-energy.com/our-products",
+            "page_class": "product",
+            "snippet": "We have developed products based on our patented (PEM) hydrogen fuel cell technology, providing power from 800W to over 300kW to a range of applications, including automotive, stationary power, aerospace, MHE and UAV"
+          }
+        ],
+        "notes": "Hydrogen PEM fuel cell modules for UAVs (IE-SOAR line) plus automotive, aviation, MHE, and stationary power applications. All products are power generation/supply systems."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "All product lines (IE-SOAR, IE-LIFT, IE-POWER, IE-DRIVE, IE-FLIGHT, IE-GRID) are hydrogen fuel cell power systems for various sectors."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Loughborough",
+      "state_or_province": "Leicestershire",
+      "country": "United Kingdom",
+      "address": "Charnwood Building, Holywell Park, Ashby Road, Loughborough, Leicestershire, LE11 3GB"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0123",
+        "line_start": 114,
+        "line_end": 114,
+        "url": "https://www.intelligent-energy.com/contact-us",
+        "page_class": "contact",
+        "snippet": "Charnwood Building, Holywell Park, Ashby Road, Loughborough, Leicestershire, LE11 3GB, UK"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0359",
+        "line_start": 124,
+        "line_end": 124,
+        "url": "https://www.intelligent-energy.com/our-products/ie-soar-fuel-cells-for-uavs",
+        "page_class": "news",
+        "snippet": "*   **Direct battery replacement** \u2013 6S to 16S compatible, automatically follows load demand just like a battery."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0359",
+        "line_start": 112,
+        "line_end": 112,
+        "url": "https://www.intelligent-energy.com/our-products/ie-soar-fuel-cells-for-uavs",
+        "page_class": "news",
+        "snippet": "IE-SOAR hydrogen fuel cells for UAVs replace your battery and unlock long endurance flight"
+      }
+    ],
+    "notes": "Sells hydrogen fuel cell modules as direct battery replacements for UAVs; customers integrate these into their own drone platforms."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "IE-SOAR 800",
+        "product_type": "800W hydrogen fuel cell module for UAVs",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0363",
+            "line_start": 116,
+            "line_end": 116,
+            "url": "https://www.intelligent-energy.com/our-products/ie-soar-fuel-cells-for-uavs/ie-soar-800",
+            "page_class": "product",
+            "snippet": "**IE-SOAR\u2122 800**\u00a0is Intelligent Energy\u2019s fuel cell module optimised for VTOL and fixed wing\u00a0[applications](https://www.intelligent-energy.com/our-industries/uav/). Using our lightweight fuel cell technology and a modular structure, our 800W module offers greater flexibility to the end user and extends time in the air."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "IE-SOAR 1.2",
+        "product_type": "1.2kW hydrogen fuel cell module for UAVs",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0359",
+            "line_start": 147,
+            "line_end": 147,
+            "url": "https://www.intelligent-energy.com/our-products/ie-soar-fuel-cells-for-uavs",
+            "page_class": "news",
+            "snippet": "*   [IE-SOAR 1.2](https://www.intelligent-energy.com/our-products/ie-soar-fuel-cells-for-uavs/ie-soar-1-2/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "IE-SOAR 2.4",
+        "product_type": "2.4kW hydrogen fuel cell module for UAVs",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0359",
+            "line_start": 148,
+            "line_end": 148,
+            "url": "https://www.intelligent-energy.com/our-products/ie-soar-fuel-cells-for-uavs",
+            "page_class": "news",
+            "snippet": "*   [IE-SOAR 2.4](https://www.intelligent-energy.com/our-products/ie-soar-fuel-cells-for-uavs/ie-soar-2-4/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "IE-LIFT",
+        "product_type": "hydrogen fuel cell battery-box replacement for material handling equipment",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0348",
+            "line_start": 116,
+            "line_end": 117,
+            "url": "https://www.intelligent-energy.com/our-products",
+            "page_class": "product",
+            "snippet": "Lightweight fuel cells for UAVs](https://www.intelligent-energy.com/our-products/ie-soar-fuel-cells-for-uavs/)   [IE-LIFT\nBattery box replacement for materials handling](https://www.intelligent-energy.com/our-products/ie-lift/)   [IE-POWER"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "IE-POWER 4",
+        "product_type": "hydrogen fuel cell module for MHE/construction/standby power",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0348",
+            "line_start": 117,
+            "line_end": 118,
+            "url": "https://www.intelligent-energy.com/our-products",
+            "page_class": "product",
+            "snippet": "Battery box replacement for materials handling](https://www.intelligent-energy.com/our-products/ie-lift/)   [IE-POWER\nFor materials handling, construction, standby power](https://www.intelligent-energy.com/our-products/ie-power-hydrogen-fuel-cell-module/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "IE-POWER 1T and 1U",
+        "product_type": "hydrogen fuel cell module for MHE/construction/standby power",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0348",
+            "line_start": 117,
+            "line_end": 118,
+            "url": "https://www.intelligent-energy.com/our-products",
+            "page_class": "product",
+            "snippet": "Battery box replacement for materials handling](https://www.intelligent-energy.com/our-products/ie-lift/)   [IE-POWER\nFor materials handling, construction, standby power](https://www.intelligent-energy.com/our-products/ie-power-hydrogen-fuel-cell-module/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "IE-DRIVE 100",
+        "product_type": "high-power hydrogen fuel cell system for automotive",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0348",
+            "line_start": 119,
+            "line_end": 120,
+            "url": "https://www.intelligent-energy.com/our-products",
+            "page_class": "product",
+            "snippet": "   [IE-DRIVE\nHigh power fuel cells for automotive](https://www.intelligent-energy.com/our-products/ie-drive/)   [IE-FLIGHT"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "IE-DRIVE HD100",
+        "product_type": "high-power hydrogen fuel cell system for automotive",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0348",
+            "line_start": 119,
+            "line_end": 120,
+            "url": "https://www.intelligent-energy.com/our-products",
+            "page_class": "product",
+            "snippet": "   [IE-DRIVE\nHigh power fuel cells for automotive](https://www.intelligent-energy.com/our-products/ie-drive/)   [IE-FLIGHT"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "IE-FLIGHT",
+        "product_type": "high-power hydrogen fuel cell system for aviation and eVTOL (200kW\u2013multi-MW)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0352",
+            "line_start": 116,
+            "line_end": 116,
+            "url": "https://www.intelligent-energy.com/our-products/ie-flight",
+            "page_class": "product",
+            "snippet": "**IE-FLIGHT**\u2122 is our high-power product line for the aviation sector. From 200kW to multi-megawatt scale, these systems have been developed to achieve zero-emission flight for eVTOL, Part-23 and Part-25 aircraft serving sub-regional and regional markets."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "IE-GRID",
+        "product_type": "scalable distributed hydrogen fuel cell power for back-up and off-grid use",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0348",
+            "line_start": 121,
+            "line_end": 122,
+            "url": "https://www.intelligent-energy.com/our-products",
+            "page_class": "product",
+            "snippet": "Zero-emission power for aviation and eVTOL](https://www.intelligent-energy.com/our-products/ie-flight/)   [IE-GRID\nScalable, zero-emission distributed power solutions for back-up and off-grid use](https://www.intelligent-energy.com/our-products/ie-grid/)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA Section 848/889 claim found anywhere in the corpus. Company is UK-based (registered in England and Wales)."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS or Blue sUAS claim found anywhere in the corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0363",
+        "line_start": 126,
+        "line_end": 126,
+        "url": "https://www.intelligent-energy.com/our-products/ie-soar-fuel-cells-for-uavs/ie-soar-800",
+        "page_class": "product",
+        "snippet": "*   **1000-hour commercial warranty**"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0363",
+        "line_start": 116,
+        "line_end": 116,
+        "url": "https://www.intelligent-energy.com/our-products/ie-soar-fuel-cells-for-uavs/ie-soar-800",
+        "page_class": "product",
+        "snippet": "**IE-SOAR\u2122 800**\u00a0is Intelligent Energy\u2019s fuel cell module optimised for VTOL and fixed wing\u00a0[applications](https://www.intelligent-energy.com/our-industries/uav/). Using our lightweight fuel cell technology and a modular structure, our 800W module offers greater flexibility to the end user and extends time in the air."
+      }
+    ],
+    "notes": "IE-SOAR 800 carries a 1000-hour commercial warranty with published datasheets and commercial case studies (Cyberhawk, Shell, Aurora). IE-FLIGHT is still in government-funded R&D phase; secondary mode is prototype/engineering_services for that product line."
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "UK-based hydrogen fuel cell manufacturer producing modular PEM systems across UAV, stationary power, material handling, and automotive applications. Core UAV offerings\u2014IE-SOAR family (800W\u20132.4kW)\u2014are in production for multi-rotor, fixed-wing, and VTOL platforms. Broader portfolio includes IE-FLIGHT (200kW\u2013multi-MW for eVTOL), IE-POWER stationary modules, IE-DRIVE automotive systems, and IE-GRID containerized backup power. NDAA and Blue UAS certification status unknown; no major US defense contracts identified in public record. Primary addressable market appears to be allied defense and critical infrastructure; supply-chain fit for US primes requires clarification on export control, IP location, and production capacity for defense-rate volumes.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 14,
+    "total_cost_usd": 0.3442214,
+    "created_at": "2026-05-04T03:31:52+00:00",
+    "extract_version": "0.1.0"
+  }
+}

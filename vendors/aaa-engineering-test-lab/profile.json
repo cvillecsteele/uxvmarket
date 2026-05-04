@@ -1,0 +1,260 @@
+{
+  "target_id": "aaa-engineering-test-lab",
+  "run_id": "canonical",
+  "display_name": "AAA Engineering & Test Lab",
+  "homepage_url": "https://aaactl.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/aaa-engineering-test-lab/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "test_and_measurement",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 81,
+            "line_end": 83,
+            "url": "https://aaactl.com",
+            "page_class": "homepage",
+            "snippet": "Precision Component Testing for the Demands of Critical Systems\n---------------------------------------------------------------\nDelivering rigorous semiconductor and electronic component testing to include electrical, environmental, mechanical, and chemical testing to MIL-STD-202, MIL-STD-750, MIL-STD-883, and NASA specifications, ensuring your components stand up to the harshest conditions in aerospace, space, defense, and beyond."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 106,
+            "line_end": 108,
+            "url": "https://aaactl.com",
+            "page_class": "homepage",
+            "snippet": "*   15+ Years of hands-on expertise in MIL-STD and NASA programs\n*   ISO 9001/AS9100 Accredited for electrical, environmental and mechanical testing scopes\n*   ISO/IEC 17025 AS6081/AS6171 Accredited for counterfeit mitigation testing and authentication"
+          }
+        ],
+        "notes": "Full-service semiconductor and electronic component testing lab: electrical, environmental, mechanical, chemical testing to MIL-STD-202, MIL-STD-883, NASA specs."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Palm Bay",
+      "state_or_province": "Florida",
+      "country": "United States",
+      "address": "2320 Commerce Park Drive, Palm Bay, Florida 32905"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0017",
+        "line_start": 4,
+        "line_end": 6,
+        "url": "https://aaactl.com/wp-content/uploads/2023/09/aaa-qtsl.pdf",
+        "page_class": "document",
+        "snippet": "AAA Test Lab, Inc.  \n2320 Commerce Park Drive \nPalm Bay, Florida 32905 "
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "broad_industrial",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 101,
+        "line_end": 103,
+        "url": "https://aaactl.com",
+        "page_class": "homepage",
+        "snippet": "Why Partner with AAA?\n---------------------\n### Engineering Excellence Meets Quality Testing"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 106,
+        "line_end": 106,
+        "url": "https://aaactl.com",
+        "page_class": "homepage",
+        "snippet": "*   15+ Years of hands-on expertise in MIL-STD and NASA programs"
+      }
+    ],
+    "notes": "Electronic component testing lab serving aerospace, defense, space, medical, automotive, and industrial sectors. No UXV/drone-specific product line or mention anywhere in the corpus."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "COTS Upscreening",
+        "product_type": "Electronic component upscreening service",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 88,
+            "line_end": 89,
+            "url": "https://aaactl.com",
+            "page_class": "homepage",
+            "snippet": "### Upscreening\nElevate commercial parts to mission-critical standards through rigorous screening and qualification."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AS6171 Component Authentication",
+        "product_type": "Counterfeit mitigation testing service",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 94,
+            "line_end": 95,
+            "url": "https://aaactl.com",
+            "page_class": "homepage",
+            "snippet": "### Counterfeit Mitigation\nDetect and prevent counterfeit components with accredited [AS6171](https://aaactl.com/services/counterfeit-mitigation/as6171/)/[AS6081](https://aaactl.com/services/counterfeit-mitigation/as6081/) testing and reporting."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AS6081 Counterfeit Avoidance & Detection",
+        "product_type": "Counterfeit mitigation testing service",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 94,
+            "line_end": 95,
+            "url": "https://aaactl.com",
+            "page_class": "homepage",
+            "snippet": "### Counterfeit Mitigation\nDetect and prevent counterfeit components with accredited [AS6171](https://aaactl.com/services/counterfeit-mitigation/as6171/)/[AS6081](https://aaactl.com/services/counterfeit-mitigation/as6081/) testing and reporting."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Failure Analysis",
+        "product_type": "Root cause failure analysis service",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 91,
+            "line_end": 92,
+            "url": "https://aaactl.com",
+            "page_class": "homepage",
+            "snippet": "### Failure Analysis\nDiagnose root causes with forensic testing backed by high-precision tools and standards."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Hi-Rel & Space Qualification",
+        "product_type": "High-reliability testing and space qualification service",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 97,
+            "line_end": 98,
+            "url": "https://aaactl.com",
+            "page_class": "homepage",
+            "snippet": "### Hi-Rel & Space\nEngineering qualification for EEE components for Small/CubeSat, avionics, defense payloads, and high-reliability aerospace systems"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Environmental Testing",
+        "product_type": "Environmental stress testing service",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0009",
+            "line_start": 81,
+            "line_end": 83,
+            "url": "https://aaactl.com/services/environmental-testing",
+            "page_class": "other",
+            "snippet": "Environmental Testing\n=====================\n![Highly accelerated stress test (HAST) of electronic components used for environmental testing](https://aaactl.com/wp-content/uploads/2023/09/highly-accelerated-stress-test-hast.webp)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Vendor offers named testing services rather than hardware products."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 144,
+        "line_end": 144,
+        "url": "https://aaactl.com",
+        "page_class": "homepage",
+        "snippet": "*   Regulatory: ITAR Registered, EAR Compliant, DFARS/FAR Adherent"
+      }
+    ],
+    "notes": "Site states DFARS/FAR Adherent and ITAR Registered but makes no explicit NDAA Section 848/889 compliance claim."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 106,
+        "line_end": 106,
+        "url": "https://aaactl.com",
+        "page_class": "homepage",
+        "snippet": "*   15+ Years of hands-on expertise in MIL-STD and NASA programs"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0009",
+        "line_start": 119,
+        "line_end": 119,
+        "url": "https://aaactl.com/services/environmental-testing",
+        "page_class": "other",
+        "snippet": "*   **Scalable Solutions**: Supports prototype to production volumes."
+      }
+    ],
+    "notes": "15+ years of operational testing services with full production capacity; explicitly supports 'prototype to production volumes'."
+  },
+  "unresolved_questions": [
+    "No drone/UAS-specific content found anywhere in corpus \u2014 vendor may have no direct UXV supply chain involvement."
+  ],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Electronic component testing and qualification to MIL-STD-883, MIL-STD-202, MIL-STD-750, and NASA specifications, with accredited AS6171/AS6081 counterfeit authentication and hi-reliability/space-grade screening. NDAA compliance status and Blue UAS certification not publicly disclosed. Broad industrial test lab; public evidence supports production-ready aerospace/defense/space portfolio but limited visibility into current program wins or federal certifications.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 15,
+    "total_cost_usd": 0.39698655,
+    "created_at": "2026-05-03T20:39:32+00:00",
+    "extract_version": "0.1.0"
+  }
+}

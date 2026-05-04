@@ -1,0 +1,276 @@
+{
+  "target_id": "evonik",
+  "run_id": "canonical",
+  "display_name": "Evonik",
+  "homepage_url": "https://www.evonik.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/evonik/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "structures_and_materials",
+        "is_primary": true,
+        "confidence": "low",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 619,
+            "line_end": 620,
+            "url": "https://www.evonik.com/en.html",
+            "page_class": "homepage",
+            "snippet": "### Aerospace\nReaching for the stars: Evonik solutions for aerospace applications"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 538,
+            "line_end": 540,
+            "url": "https://www.evonik.com/en.html",
+            "page_class": "homepage",
+            "snippet": "### Evonik opens new\u00a0PEEK Rectangular Magnet Wire Lab in China\nEvonik has announced the opening of its PEEK Rectangular Magnet Wire Lab during an inaugural ceremony at the CHINAPLAS international exhibition for the plastics and rubber industry.\n](/en/news/press-releases/2026/04/Evonik-opens-new-PEEK-Rectangular-Magnet-Wire-Lab-in-China.html \"Evonik opens new\u00a0PEEK Rectangular Magnet Wire Lab in China\")"
+          }
+        ],
+        "notes": "Evonik serves Composites and Aerospace markets and sells High Performance Polymers (PEEK, polyamide) and composites materials that go into aerospace structural parts. The fetched corpus mostly covers Active Oxygens (hydrogen peroxide chemistry); the Aerospace & Defense page and High Performance Polymers product pages were skipped due to budget."
+      }
+    ],
+    "confidence": "low",
+    "status": "answered",
+    "notes": "The 39 fetched pages are predominantly from the Active Oxygens business line. Evonik's broader portfolio includes High Performance Polymers (PEEK, polyamide) and composites materials that could qualify as UXV structural materials, but those pages were not fetched."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Essen",
+      "state_or_province": null,
+      "country": "Germany",
+      "address": null
+    },
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-1255",
+        "line_start": 329,
+        "line_end": 330,
+        "url": "https://www.evonik.com/en/products.html",
+        "page_class": "product",
+        "snippet": "                *   [Essen Campus](/en/company/worldwide-locations/europe/germany/essen-campus.html \"Essen Campus\")\n                *   [Essen - Goldschmidtstra\u00dfe](/en/company/worldwide-locations/europe/germany/essen-goldschmidtstrasse.html \"Essen - Goldschmidtstra\u00dfe\")"
+      }
+    ],
+    "notes": "No explicit headquarters statement in corpus. Essen Campus and Essen - Goldschmidtstra\u00dfe listed as key German locations in the site nav."
+  },
+  "drone_supply_chain_role": {
+    "value": "broad_industrial",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0789",
+        "line_start": 171,
+        "line_end": 171,
+        "url": "https://www.evonik.com/en/company/businesslines/ao/products-and-services.html",
+        "page_class": "company",
+        "snippet": "**With more than 100 years of experience in peroxides chemistry, Evonik is a leading supplier of peroxide-based products such as hydrogen peroxide, calcium peroxide, peracetic acid, and persulfates across a variety of applications. We offer a wide range of peroxide solutions for various industries.**"
+      }
+    ],
+    "notes": "Evonik is a large German specialty chemicals conglomerate serving 28+ markets including Aerospace, Composites, Electronics, and Pharma. No UXV-specific product line visible in the corpus."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "PROPULSE\u00ae",
+        "product_type": "High Test Peroxide (HTP) aeronautic propellant",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-1315",
+            "line_start": 28,
+            "line_end": 28,
+            "url": "https://www.evonik.com/en/products/ao/pr_52031287.html",
+            "page_class": "product",
+            "snippet": "Evonik has a long track history in the production of HTP grades specifically designed for aeronautic applications. These products are marketed under the trademark PROPULSE\u00ae and supplied to customers globally. PROPULSE\u00ae grades are available in different concentrations ranging from 82.5 % and up to 98 % hydrogen peroxide. All our grades have a purity of 99.99 %."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-1315",
+            "line_start": 43,
+            "line_end": 44,
+            "url": "https://www.evonik.com/en/products/ao/pr_52031287.html",
+            "page_class": "product",
+            "snippet": "*   Operation of turbo pumps\n*   Propellant for launch vehicles"
+          }
+        ],
+        "notes": "Aerospace-grade hydrogen peroxide (82.5\u201398%) for turbo pumps and launch vehicle propulsion."
+      },
+      {
+        "name": "HYPROX\u00ae",
+        "product_type": "Industrial-grade hydrogen peroxide",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-1287",
+            "line_start": 28,
+            "line_end": 28,
+            "url": "https://www.evonik.com/en/products/ao/pr_52031253.html",
+            "page_class": "product",
+            "snippet": "HYPROX\u00ae 700 RoW is an environmental friendly powerful oxidizing and bleaching agent, which is developed for general industrial use."
+          }
+        ],
+        "notes": "Multiple grades (700 RoW, 300) for general industrial use."
+      },
+      {
+        "name": "PERSYNT\u00ae",
+        "product_type": "High purity hydrogen peroxide",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-1309",
+            "line_start": 28,
+            "line_end": 28,
+            "url": "https://www.evonik.com/en/products/ao/pr_52031277.html",
+            "page_class": "product",
+            "snippet": "PERSYNT\u00ae 350 LC is a specialty hydrogen peroxide grade. It is an aqueous solution of high quality, highly purified hydrogen peroxide and characterized by low organic impurities content."
+          }
+        ],
+        "notes": "Multiple specialty grades for food, chemical synthesis, and cosmetic applications."
+      },
+      {
+        "name": "PERTRONIC\u00ae",
+        "product_type": "Electronics-grade hydrogen peroxide",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-1307",
+            "line_start": 38,
+            "line_end": 39,
+            "url": "https://www.evonik.com/en/products/ao/pr_52031276.html",
+            "page_class": "product",
+            "snippet": "--------------------\n*   Ingredient in etchant formulations for fabrication of printed circuit boards"
+          }
+        ],
+        "notes": "PERTRONIC\u00ae 350 C1 for semiconductor/electronics manufacturing."
+      },
+      {
+        "name": "PERMEOX\u00ae Ultra",
+        "product_type": "Calcium peroxide for soil/groundwater remediation",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0789",
+            "line_start": 185,
+            "line_end": 185,
+            "url": "https://www.evonik.com/en/company/businesslines/ao/products-and-services.html",
+            "page_class": "company",
+            "snippet": "We supply food-grade calcium peroxide as a texturing agent for baked goods and as a tooth whitener for oral care. For soil and groundwater remediation, PERMEOX\u00ae Ultra is the product of choice for enhanced aerobic bioremediation of petroleum hydrocarbons and some non-halogenated organic substances due to its prolonged oxygen release."
+          }
+        ],
+        "notes": "Enhanced aerobic bioremediation of petroleum hydrocarbons."
+      },
+      {
+        "name": "DEGAPAS\u00ae",
+        "product_type": "Polyacrylic acid dispersions (antiscalants)",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0789",
+            "line_start": 188,
+            "line_end": 188,
+            "url": "https://www.evonik.com/en/company/businesslines/ao/products-and-services.html",
+            "page_class": "company",
+            "snippet": "Our dispersions \u2014 water soluble polyacrylic acid products marketed under the brand name DEGAPAS\u00ae \u2014 are sustainable antiscalants that interrupt organic crystal growth in water-bearing systems, heat exchangers, or boiler plants. This leads to better heat transfer, and thus energy cost savings."
+          }
+        ],
+        "notes": "Water-soluble polyacrylic acid antiscalants for water-bearing systems."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "All products listed are from the Active Oxygens business line. Evonik has many other business lines with additional products not in the fetched corpus."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-1315",
+        "line_start": 47,
+        "line_end": 47,
+        "url": "https://www.evonik.com/en/products/ao/pr_52031287.html",
+        "page_class": "product",
+        "snippet": "Evonik has a long track record in the production of HTP grades specifically designed for aerospace applications. These powerful products are not only easy to handle and supplied to customers globally, but also environmentally friendly, making it a future-proof pioneer for green rocketry. Unlike other common fuels, they are not carcinogenic."
+      }
+    ],
+    "notes": "Catalog SKUs sold globally with standard packaging and logistics."
+  },
+  "unresolved_questions": [
+    "Whether Evonik's High Performance Polymers (PEEK, polyamide) or Composites products target UXV/drone applications",
+    "Whether the Aerospace & Defense section addresses UAS/UAV supply chain specifically",
+    "Whether PROPULSE\u00ae HTP is sold for UAS propulsion vs. only conventional launch vehicles"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.evonik.com/en/company/aerospace-and-defense.html",
+      "reason": "Dedicated Aerospace & Defense page; would confirm UXV-specific products or materials and clarify drone_supply_chain_role and products_categories",
+      "expected_evidence": [
+        "products_categories",
+        "drone_supply_chain_role",
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=company",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.evonik.com/en/company/businesslines/hp.html",
+      "reason": "High Performance Polymers business line page; PEEK and polyamide for aerospace/UAS structural applications would confirm structures_and_materials category",
+      "expected_evidence": [
+        "products_categories",
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=company",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.evonik.com/en/markets/market_1345308.html",
+      "reason": "Dedicated Aerospace market page; would show whether UAS/drone is explicitly in scope and which products serve that market",
+      "expected_evidence": [
+        "products_categories",
+        "drone_supply_chain_role",
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "tagline": null,
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 38,
+    "total_cost_usd": 1.3903366499999998,
+    "created_at": "2026-05-04T02:41:46+00:00",
+    "extract_version": "0.1.0"
+  }
+}

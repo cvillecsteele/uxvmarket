@@ -1,0 +1,52 @@
+{
+  "target_id": "fizoptika-malta",
+  "run_id": "canonical",
+  "display_name": "Fizoptika Malta",
+  "homepage_url": "https://www.fizoptika.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/fizoptika-malta/website",
+  "products": [],
+  "unresolved_questions": [
+    "The homepage https://www.fizoptika.com failed with net::ERR_TUNNEL_CONNECTION_FAILED \u2014 no pages were fetched and zero text is available. All Browserless /map queries also returned HTTP 400. Cannot enumerate any products without a successful crawl.",
+    "External seed data classifies this vendor under 'IMUs, Gyros & Accelerometers' / 'Avionics & electronics', suggesting inertial sensor products exist, but no corpus evidence is available to confirm or name specific SKUs."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.fizoptika.com",
+      "reason": "Homepage failed entirely (ERR_TUNNEL_CONNECTION_FAILED); required as entry point to discover any product or capability pages.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=failed, page_class=homepage, resource_id=resource-0001",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.fizoptika.com/products",
+      "reason": "Likely product index page for IMU/gyroscope product line; not in corpus at all due to homepage failure.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": null,
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.fizoptika.com/imu",
+      "reason": "Possible dedicated IMU product page given external classification as IMU/gyro vendor.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": null,
+      "in_corpus_index": false
+    }
+  ],
+  "status": "needs_more_fetches",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 4,
+    "total_cost_usd": 0.052712,
+    "created_at": "2026-05-04T02:45:38+00:00",
+    "extract_version": "0.1.0"
+  }
+}

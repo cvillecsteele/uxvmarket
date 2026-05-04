@@ -1,0 +1,73 @@
+{
+  "target_id": "maxon",
+  "run_id": "canonical",
+  "display_name": "maxon",
+  "homepage_url": "https://www.maxongroup.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/maxon/website",
+  "products": [],
+  "unresolved_questions": [
+    "The only crawled URL (https://www.maxongroup.com/en) timed out during fetch \u2014 zero pages were retrieved, so no products can be enumerated from the corpus. Maxon is a known Swiss precision drive-systems manufacturer (DC/BLDC motors, gearheads, encoders, ESCs), categorised as propulsion_mechanical in the target manifest, but no corpus evidence exists to cite."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.maxongroup.com/en",
+      "reason": "Homepage timed out on the only crawl attempt; a successful fetch would reveal the product navigation and top-level category structure needed to enumerate products.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=failed, page_class=homepage, resource-0001",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.maxongroup.com/en/products",
+      "reason": "Primary product index page for maxon; would enumerate motor families, gearheads, encoders, and drive electronics product lines.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": null,
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.maxongroup.com/en/products/motors",
+      "reason": "Motor product category page listing BLDC, DC, and stepper motor families relevant to propulsion_mechanical classification.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": null,
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.maxongroup.com/en/products/drives-controllers",
+      "reason": "Drive/controller product page; would reveal ESC/motor-controller SKUs relevant to propulsion_electronics classification.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": null,
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.maxongroup.com/en/industries/drones-uav",
+      "reason": "Drone/UAV vertical page; would identify products specifically positioned for UXV applications and any compliance claims (NDAA, Blue UAS).",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": null,
+      "in_corpus_index": false
+    }
+  ],
+  "status": "needs_more_fetches",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 4,
+    "total_cost_usd": 0.04824110000000001,
+    "created_at": "2026-05-04T04:09:37+00:00",
+    "extract_version": "0.1.0"
+  }
+}

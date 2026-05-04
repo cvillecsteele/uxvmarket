@@ -1,0 +1,127 @@
+{
+  "target_id": "sabca",
+  "run_id": "canonical",
+  "display_name": "SABCA",
+  "homepage_url": "https://www.sabca.be",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/sabca/website",
+  "products_categories": {
+    "items": [],
+    "confidence": "low",
+    "status": "unknown",
+    "notes": "Corpus failed entirely due to SSL certificate error on the only discovered URL. The manifest target category hint is 'structures_materials' but no corpus evidence exists to cite."
+  },
+  "headquarters": {
+    "value": null,
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "evidence": [],
+    "notes": "SABCA homepage failed to fetch (net::ERR_CERT_AUTHORITY_INVALID). No text content available to confirm HQ location."
+  },
+  "drone_supply_chain_role": {
+    "value": null,
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "evidence": [],
+    "notes": "No pages fetched. Cannot determine supply chain role."
+  },
+  "products": {
+    "items": [],
+    "confidence": "low",
+    "status": "unknown",
+    "notes": "No pages fetched due to SSL failure. No product evidence available."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No corpus content available."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No corpus content available."
+  },
+  "readiness": {
+    "value": null,
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "evidence": [],
+    "notes": "No pages fetched. Cannot determine readiness."
+  },
+  "unresolved_questions": [
+    "Homepage failed with net::ERR_CERT_AUTHORITY_INVALID \u2014 SSL certificate issue prevented any content from being fetched",
+    "Cannot determine HQ, product categories, supply chain role, products, or readiness without corpus content",
+    "Manifest category hint 'structures_materials' needs corpus validation"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.sabca.be",
+      "reason": "Homepage failed with SSL cert error; retry needed to establish baseline product category, HQ, and supply chain role",
+      "expected_evidence": [
+        "products_categories",
+        "headquarters",
+        "drone_supply_chain_role",
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=failed, page_class=homepage",
+      "in_corpus_index": true
+    },
+    {
+      "url": "http://www.sabca.be",
+      "reason": "HTTP fallback for the SSL-failing HTTPS homepage; may succeed and reveal HQ, product lines, and UXV supply chain role",
+      "expected_evidence": [
+        "products_categories",
+        "headquarters",
+        "drone_supply_chain_role",
+        "products",
+        "readiness"
+      ],
+      "source_hint": "guessed \u2014 HTTP fallback for SSL-invalid HTTPS site",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.sabca.be/en/activities",
+      "reason": "Likely activities/products page that would reveal product categories and UXV-specific offerings",
+      "expected_evidence": [
+        "products_categories",
+        "drone_supply_chain_role",
+        "products",
+        "readiness"
+      ],
+      "source_hint": "guessed",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.sabca.be/en/about",
+      "reason": "About page that would confirm headquarters location and company description",
+      "expected_evidence": [
+        "headquarters",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "guessed",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.sabca.be/en/contact",
+      "reason": "Contact page for headquarters address and location details",
+      "expected_evidence": [
+        "headquarters"
+      ],
+      "source_hint": "guessed",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "needs_more_fetches",
+  "tagline": "Belgian aerospace and defense supplier with acknowledged presence in unmanned systems, but public evidence of specific UAS products, certifications, and US contract involvement is thin. Recommend direct inquiry to clarify product line, NDAA/Blue UAS status, and current US program participation.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 4,
+    "total_cost_usd": 0.06661500000000001,
+    "created_at": "2026-05-04T05:54:52+00:00",
+    "extract_version": "0.1.0"
+  }
+}

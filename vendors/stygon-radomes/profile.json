@@ -1,0 +1,225 @@
+{
+  "target_id": "stygon-radomes",
+  "run_id": "canonical",
+  "display_name": "Stygon Radomes",
+  "homepage_url": "https://stygonradomes.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/stygon-radomes/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "structures_and_materials",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 19,
+            "line_end": 19,
+            "url": "https://stygonradomes.com",
+            "page_class": "homepage",
+            "snippet": "Stygon Radomes specialize in high-quality composite radomes, delivering tailored solutions for radar and communication systems. Our commitment to precision ensures optimal performance for diverse applications."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 52,
+            "line_end": 52,
+            "url": "https://stygonradomes.com",
+            "page_class": "homepage",
+            "snippet": "Stygon Radomes excels in using premium-grade composite material to produce high-quality radomes known for their strength and electromagnetic performance. We offer complete system solutions from design to delivery, ensuring precise engineering and reliable functionality. Our products come with a comprehensive warranty and adhere to all relevant industry certifications, reflecting our commitment to excellence and client satisfaction."
+          }
+        ],
+        "notes": "Composite radomes are structural protective enclosures made from composite materials for radar and communication antennas"
+      },
+      {
+        "category": "communications",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0013",
+            "line_start": 24,
+            "line_end": 25,
+            "url": "https://stygonradomes.com/our-solutions",
+            "page_class": "capability",
+            "snippet": "### Communication Radar Solutions \u2192\nWe offer radomes optimized for communication radar systems, including satellite and terrestrial communications. Our radomes ensure efficient signal transmission and reception while protecting sensitive equipment from environmental factors."
+          }
+        ],
+        "notes": "Communication radar solutions: radomes optimised for satellite and terrestrial communications"
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "No UXV-specific product line. Radomes serve defense, environmental, and communication radar broadly."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Gurugram",
+      "state_or_province": "Haryana",
+      "country": "India",
+      "address": "272, Sector VI, HSSIDC Industrial Area, Manesar Rd, Gurugram, Haryana 122002"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 56,
+        "line_end": 56,
+        "url": "https://stygonradomes.com",
+        "page_class": "homepage",
+        "snippet": "272, Sector VI, HSSIDC Industrial Area, Manesar Rd, Gurugram, Haryana 122002"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "broad_industrial",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 38,
+        "line_end": 39,
+        "url": "https://stygonradomes.com",
+        "page_class": "homepage",
+        "snippet": "### Defence Radar Solutions \u2192\nWe design and manufacture high-performance radomes tailored for defense applications. Our radomes offer robust protection and reliability for military radar systems, ensuring optimal performance in critical situations."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 52,
+        "line_end": 52,
+        "url": "https://stygonradomes.com",
+        "page_class": "homepage",
+        "snippet": "Stygon Radomes excels in using premium-grade composite material to produce high-quality radomes known for their strength and electromagnetic performance. We offer complete system solutions from design to delivery, ensuring precise engineering and reliable functionality. Our products come with a comprehensive warranty and adhere to all relevant industry certifications, reflecting our commitment to excellence and client satisfaction."
+      }
+    ],
+    "notes": "Radome manufacturer serving defense, weather/environmental, and communication radar markets. No UXV-specific product line or drone mention across the entire corpus."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Defence Radar Solutions",
+        "product_type": "radomes for military radar systems",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0013",
+            "line_start": 18,
+            "line_end": 19,
+            "url": "https://stygonradomes.com/our-solutions",
+            "page_class": "capability",
+            "snippet": "### Defence Radar Solutions \u2192\nWe design and manufacture high-performance radomes tailored for defense applications. Our radomes offer robust protection and reliability for military radar systems, ensuring optimal performance in critical situations."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Environmental Radar Solutions",
+        "product_type": "radomes for weather and meteorological radar",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0013",
+            "line_start": 21,
+            "line_end": 22,
+            "url": "https://stygonradomes.com/our-solutions",
+            "page_class": "capability",
+            "snippet": "### Environmental Radar Solutions \u2192\nOur radomes are engineered for environmental radar systems, including weather and meteorological radar. We provide solutions that enhance the accuracy and durability of radomes used in monitoring and predicting weather patterns."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Communication Radar Solutions",
+        "product_type": "radomes for satellite and terrestrial communications",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0013",
+            "line_start": 24,
+            "line_end": 25,
+            "url": "https://stygonradomes.com/our-solutions",
+            "page_class": "capability",
+            "snippet": "### Communication Radar Solutions \u2192\nWe offer radomes optimized for communication radar systems, including satellite and terrestrial communications. Our radomes ensure efficient signal transmission and reception while protecting sensitive equipment from environmental factors."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Custom Design",
+        "product_type": "custom composite radomes for specific frequency bands (X, C, S, L)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0013",
+            "line_start": 27,
+            "line_end": 28,
+            "url": "https://stygonradomes.com/our-solutions",
+            "page_class": "capability",
+            "snippet": "### Custom Design \u2192\nWe work closely with clients to understand their unique needs and application requirements. Our team of experts create radome designs that are perfectly suited to specific frequency bands (X, C, S, and L) and operational environments."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Solutions are listed as categories, not named SKUs. X-band, C-Band, S-Band and L-Band radomes mentioned."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "India-based manufacturer; no NDAA compliance mention anywhere in corpus."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS or Blue sUAS mention anywhere in corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 52,
+        "line_end": 52,
+        "url": "https://stygonradomes.com",
+        "page_class": "homepage",
+        "snippet": "Stygon Radomes excels in using premium-grade composite material to produce high-quality radomes known for their strength and electromagnetic performance. We offer complete system solutions from design to delivery, ensuring precise engineering and reliable functionality. Our products come with a comprehensive warranty and adhere to all relevant industry certifications, reflecting our commitment to excellence and client satisfaction."
+      }
+    ],
+    "notes": "Site describes complete system solutions from design to delivery with warranty; implies serial production."
+  },
+  "unresolved_questions": [
+    "No UXV/drone-specific product line found; unclear if radomes are supplied to any UAV programs",
+    "No NDAA compliance information (India-based supplier)"
+  ],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "India-based manufacturer of custom composite radomes for defense, weather, and satellite communication radar systems across X, C, S, and L-Band frequencies. Production-ready with sandwich composite technology. NDAA and Blue UAS certification status unknown; no major US primes' contracts visible in public record. Evidence of capability thin outside homepage claims.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 14,
+    "total_cost_usd": 0.1825758,
+    "created_at": "2026-05-04T06:33:36+00:00",
+    "extract_version": "0.1.0"
+  }
+}

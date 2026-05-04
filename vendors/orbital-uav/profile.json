@@ -1,0 +1,290 @@
+{
+  "target_id": "orbital-uav",
+  "run_id": "canonical",
+  "display_name": "Orbital UAV",
+  "homepage_url": "https://www.orbitaluav.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/orbital-uav/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 9,
+            "line_end": 11,
+            "url": "https://www.orbitaluav.com",
+            "page_class": "homepage",
+            "snippet": "50HFE\n3.6hp ~340g/kWh 50cc\nheavy fuel uav engine"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0024",
+            "line_start": 10,
+            "line_end": 10,
+            "url": "https://www.orbitaluav.com/products-50hfe",
+            "page_class": "product",
+            "snippet": "50cc Single-Cylinder FlexDI\u2122 Fully Integrated HFE Propulsion System for UAVs"
+          }
+        ],
+        "notes": "Heavy fuel 2-stroke UAV engines: 50HFE, 75HFE, 150HFE, 350HFE \u2014 complete integrated propulsion systems sold to UAV OEMs."
+      },
+      {
+        "category": "power_systems",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0026",
+            "line_start": 9,
+            "line_end": 10,
+            "url": "https://www.orbitaluav.com/products-pms",
+            "page_class": "product",
+            "snippet": "ORBITAL\u00a0PMS\nAdvanced Power Management System"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0026",
+            "line_start": 14,
+            "line_end": 16,
+            "url": "https://www.orbitaluav.com/products-pms",
+            "page_class": "product",
+            "snippet": "**It keeps your UAV\u2019s critical systems powered.\nCleanly, continuously, and intelligently\n\u200d**Orbital\u2019s PMS conditions and prioritises power, automatically switches between alternator / battery / shore, protects the avionics bus, and reports health via telemetry, so missions continue even when supply or load changes."
+          }
+        ],
+        "notes": "PMS (Power Management System) \u2014 conditions and switches between alternator/battery/shore power, protects avionics bus."
+      },
+      {
+        "category": "propulsion_electronics",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0024",
+            "line_start": 53,
+            "line_end": 57,
+            "url": "https://www.orbitaluav.com/products-50hfe",
+            "page_class": "product",
+            "snippet": "FlexECU\u2122\n========\nAdvanced Engine Management System\n=================================\nIntelligent electronic propulsion management system"
+          }
+        ],
+        "notes": "FlexECU\u2122 engine management system is bundled as part of each HFE engine package \u2014 not sold separately but integral to the IPS."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Balcatta",
+      "state_or_province": "Western Australia",
+      "country": "Australia",
+      "address": "4 Whipple Street, Balcatta, Western Australia, 6021"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 121,
+        "line_end": 123,
+        "url": "https://www.orbitaluav.com",
+        "page_class": "homepage",
+        "snippet": "### Australia\n4 Whipple Street, Balcatta,\nWestern Australia, 6021"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 29,
+        "line_end": 29,
+        "url": "https://www.orbitaluav.com",
+        "page_class": "homepage",
+        "snippet": "Orbital helps UAV manufacturers outperform their competition by delivering advanced propulsion systems engineered specifically for maximum reliability, seamless integration, and **mission-critical performance**."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0024",
+        "line_start": 67,
+        "line_end": 67,
+        "url": "https://www.orbitaluav.com/products-50hfe",
+        "page_class": "product",
+        "snippet": "The Boeing Insitu ScanEagle uses **Orbital's 50HFE Integrated Propulsion System** highlighting the performance and reliability required by Tier 1 Defence customers."
+      }
+    ],
+    "notes": "Orbital supplies complete Integrated Propulsion Systems (engine + ECU + harness + mounting + alternator) to UAV OEMs such as Boeing Insitu (ScanEagle) and Textron (Aerosonde MK 4.8). Not an airframe OEM."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "50HFE",
+        "product_type": "50cc single-cylinder heavy fuel UAV engine (2-stroke, FlexDI\u2122)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0024",
+            "line_start": 9,
+            "line_end": 10,
+            "url": "https://www.orbitaluav.com/products-50hfe",
+            "page_class": "product",
+            "snippet": "50HFE\n50cc Single-Cylinder FlexDI\u2122 Fully Integrated HFE Propulsion System for UAVs"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "75HFE",
+        "product_type": "75cc heavy fuel UAV engine",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 13,
+            "line_end": 15,
+            "url": "https://www.orbitaluav.com",
+            "page_class": "homepage",
+            "snippet": "75HFE\n+5hp ~345g/kWh 75cc\nheavy fuel uav engine"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "150HFE",
+        "product_type": "150cc heavy fuel UAV engine",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 17,
+            "line_end": 19,
+            "url": "https://www.orbitaluav.com",
+            "page_class": "homepage",
+            "snippet": "150HFE\n11.9hp <340g/kWh 150cc\nheavy fuel uav engine"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "350HFE",
+        "product_type": "350cc heavy fuel UAV engine",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 21,
+            "line_end": 23,
+            "url": "https://www.orbitaluav.com",
+            "page_class": "homepage",
+            "snippet": "350HFE\n28.4hp ~325g/kWh 350cc\nheavy fuel uav engine"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "PMS",
+        "product_type": "Advanced power management system for UAVs",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0026",
+            "line_start": 9,
+            "line_end": 10,
+            "url": "https://www.orbitaluav.com/products-pms",
+            "page_class": "product",
+            "snippet": "ORBITAL\u00a0PMS\nAdvanced Power Management System"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 44,
+        "line_end": 44,
+        "url": "https://www.orbitaluav.com",
+        "page_class": "homepage",
+        "snippet": "**1,200,000+ Hours operating in heat, cold, dust, and rain** Orbital propulsion systems deliver the proven reliability and performance to make your UAV a market leader."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 57,
+        "line_end": 57,
+        "url": "https://www.orbitaluav.com",
+        "page_class": "homepage",
+        "snippet": "Standardised configurations of Orbital\u2019s renowned Integrated Propulsion Systems with the same reliability and performance built on a 20 year pedigree - delivered faster and at a lower price point for OEMs seeking **market leading Over Line of Sight (OLS) propulsion**. Configure from proven options and ship."
+      }
+    ],
+    "notes": "Over 1,200,000 operational hours logged fleet-wide; 250,000+ hours on the 50HFE alone. Standardised 'Mission-Ready Engines' catalog with brochures (dated 2025). Production customers include Boeing Insitu and Textron."
+  },
+  "unresolved_questions": [
+    "NDAA Section 848/889 compliance status not disclosed on site",
+    "Blue UAS cleared list status not disclosed on site",
+    "Certifications page referenced in nav but not fetched"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.orbitaluav.com/about-us",
+      "reason": "About Us page may detail certifications, country of manufacture, or NDAA compliance relevant to supply chain role confirmation.",
+      "expected_evidence": [
+        "headquarters",
+        "ndaa",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Australian subsystem supplier of heavy-fuel piston engines (50\u2013350 cc) and power-management systems for tactical UAVs. Four production engine variants with FlexDI\u2122 direct injection achieve 3.6\u201328.4 hp; 150HFE is MIL-STD-810H qualified and integrated on Textron Aerosonde. Claims 1.2M+ flight hours. NDAA and Blue UAS certification status unknown; no public US defense contracts named.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 13,
+    "total_cost_usd": 0.30946965000000004,
+    "created_at": "2026-05-04T04:51:36+00:00",
+    "extract_version": "0.1.0"
+  }
+}

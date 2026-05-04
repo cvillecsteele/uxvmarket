@@ -1,0 +1,197 @@
+{
+  "target_id": "pegasus-actuators-gmbh",
+  "run_id": "canonical",
+  "display_name": "Pegasus-Actuators GmbH",
+  "homepage_url": "https://www.pegasus-actuators.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/pegasus-actuators-gmbh/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "mechanical_subsystems",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 21,
+            "line_end": 21,
+            "url": "https://www.pegasus-actuators.com",
+            "page_class": "homepage",
+            "snippet": "PEGASUS Actuators develops and manufactures high-performance electromechanical [UAV](/knowledge/glossary.html#uav) servo actuators for unmanned aerial vehicles and professional [UAS](/knowledge/glossary.html#uas) applications. Our actuator solutions are used worldwide in UAV flight control, [VTOL](/knowledge/glossary.html#vtol) and [eVTOL](/knowledge/glossary.html#evtol) platforms, as well as payload, gimbal and sensor positioning \u2013 wherever precision, reliability and long-term operational stability are essential."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0136",
+            "line_start": 60,
+            "line_end": 61,
+            "url": "https://www.pegasus-actuators.com/products.html",
+            "page_class": "product",
+            "snippet": "PEGASUS industrial servo actuators are electromechanical drive units of extraordinary power density, precision and reliability.\nThey consist of a rugged water and dust protected aluminum case. This case comprises a robust steel reduction gear-train, a BLDC or DC motor, and a micro controller managed pc-board."
+          }
+        ],
+        "notes": "Electromechanical rotary servo actuators (with BLDC motors, hardened steel gear trains, and integrated controllers) for UAV flight control surfaces, swash plates, payload/gimbal positioning. Three product lines: Industrial, Redundant, and OPV (optionally piloted vehicle) actuators."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "All products are servo actuator mechanisms. No airframe, propulsion, or navigation products."
+  },
+  "headquarters": {
+    "value": {
+      "city": "W\u00f6llstadt",
+      "state_or_province": "Hesse",
+      "country": "Germany",
+      "address": "Am Kalkofen 8"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0027",
+        "line_start": 16,
+        "line_end": 18,
+        "url": "https://www.pegasus-actuators.com/contact.html",
+        "page_class": "contact",
+        "snippet": "**Pegasus-Actuators GmbH**\nAm Kalkofen 8\nD - 61206 W\u00f6llstadt, Germany"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 18,
+        "line_end": 18,
+        "url": "https://www.pegasus-actuators.com",
+        "page_class": "homepage",
+        "snippet": "German Manufacturer of UAV Servo Actuators"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 21,
+        "line_end": 21,
+        "url": "https://www.pegasus-actuators.com",
+        "page_class": "homepage",
+        "snippet": "PEGASUS Actuators develops and manufactures high-performance electromechanical [UAV](/knowledge/glossary.html#uav) servo actuators for unmanned aerial vehicles and professional [UAS](/knowledge/glossary.html#uas) applications. Our actuator solutions are used worldwide in UAV flight control, [VTOL](/knowledge/glossary.html#vtol) and [eVTOL](/knowledge/glossary.html#evtol) platforms, as well as payload, gimbal and sensor positioning \u2013 wherever precision, reliability and long-term operational stability are essential."
+      }
+    ],
+    "notes": "Manufactures servo actuator components sold to UAV OEMs (e.g. LAFLAMME AERO, LIAZ, Elektra Solar, AUTH). Does not make complete drones."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "PA-R Industrial Actuator series",
+        "product_type": "electromechanical UAV/industrial servo actuator (10 SKUs: PA-R-135-4 through PA-R-440-7)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0136",
+            "line_start": 68,
+            "line_end": 69,
+            "url": "https://www.pegasus-actuators.com/products.html",
+            "page_class": "product",
+            "snippet": "### PA-R-135-4 Industrial Actuators\n](/product/industrial-actuator/pa-r-135-4.html)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "PA-RR Redundant Actuator series",
+        "product_type": "single-failure-tolerant redundant servo actuator for safety-critical UAV/UAS (5 SKUs: PA-RR-260-8 through PA-RR-720-7)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0136",
+            "line_start": 248,
+            "line_end": 251,
+            "url": "https://www.pegasus-actuators.com/products.html",
+            "page_class": "product",
+            "snippet": "### PA-RR-260-8 Redundant Actuators\n](/product/redundant-actuator/pa-rr-260-8.html)\n[](/product/redundant-actuator/pa-rr-260-8.html)\nThe Pegasus PA-RR-260-8 is the world\u2019s first small redundant servo-actuator for safety-critical unmanned systems, enhancing servo-actuator reliability to an unparalleled level."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "OPV Actuator series",
+        "product_type": "servo actuator with electromagnetic clutch for optionally piloted vehicles (10 SKUs: PA-R-250-8-OPV through PA-RR-720-7-OPV)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0136",
+            "line_start": 334,
+            "line_end": 338,
+            "url": "https://www.pegasus-actuators.com/products.html",
+            "page_class": "product",
+            "snippet": "### PA-R-250-8-OPV Actuators\n](/product/opv-actuator/pa-r-250-8-opv.html)\n[](/product/opv-actuator/pa-r-250-8-opv.html)\nThe Pegasus PA-R-250-8 OPV-servo is the right actuator for applications with high demands on powerful torque and high-speed positioning. With its BLDC - technology (brushless DC motor) and PA-ME contact-less sensor it combines extraordinary reliability and precision.\nIn conjunction with our PA-RA-3 electromagnetic OPV clutch-assembly this makes a perfect OPV-servo."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Full catalog of 25 named SKUs across three families. Custom/special developments (e.g. PA-R-800 integrated OPV actuator) available on request."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "German manufacturer; no NDAA compliance claim found anywhere in the corpus."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS or Blue sUAS mention anywhere in the corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0107",
+        "line_start": 65,
+        "line_end": 65,
+        "url": "https://www.pegasus-actuators.com/news-and-events.html",
+        "page_class": "news",
+        "snippet": "We are proud to be part of another RPV milestone, as our small servo PA-R-135-4 has already completed more than 600,000 flight hours in a customer application without any issues."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 26,
+        "line_end": 26,
+        "url": "https://www.pegasus-actuators.com",
+        "page_class": "homepage",
+        "snippet": "What sets PEGASUS Actuators apart is the combination of competitive pricing, reliable on-time delivery and engineering-driven customization. **We offer evaluation samples under fair conditions and support system integration with experienced technical guidance.**"
+      }
+    ],
+    "notes": "Catalog products with full specs and downloadable datasheets. ISO 9001:2015 certified (T\u00dcV S\u00dcD, 2019). In-house CNC machining. One product line has 600,000+ flight hours. Also offers custom engineering/special developments as a secondary mode."
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "German manufacturer of electromechanical servo actuators for UAV flight control, VTOL platforms, and payload positioning. Product lines span industrial, redundant (single-failure tolerant), and OPV variants ranging from 500 Ncm to 35 Nm torque, rated to 60,000 ft altitude. NDAA and Blue UAS compliance status unknown; no named U.S. prime contracts identified in public record.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 11,
+    "total_cost_usd": 0.2867244,
+    "created_at": "2026-05-04T05:05:30+00:00",
+    "extract_version": "0.1.0"
+  }
+}

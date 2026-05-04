@@ -1,0 +1,614 @@
+{
+  "target_id": "uas-components",
+  "run_id": "canonical",
+  "display_name": "UAS Components",
+  "homepage_url": "https://uascomponents.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/uas-components/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "isr_payloads",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0025",
+            "line_start": 35,
+            "line_end": 35,
+            "url": "https://uascomponents.com/camera-systems",
+            "page_class": "capability",
+            "snippet": "We offer a wide range of gyro-stabilized EO/IR/LRF payloads for various aerial platforms \u2013 from military UAVs and fixed-wing drones to light manned aircraft, helicopters, and commercial multirotors. UAS Components' camera systems deliver exceptional image quality, precise targeting, and stable performance under real-world conditions."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0033",
+            "line_start": 36,
+            "line_end": 36,
+            "url": "https://uascomponents.com/camera-systems/usg-405",
+            "page_class": "capability",
+            "snippet": "USG-405 EO/IR/LRF ISR gimbal"
+          }
+        ],
+        "notes": "Gyro-stabilized EO/IR/LRF gimbals (USG series) are the flagship product line"
+      },
+      {
+        "category": "recovery_systems",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0036",
+            "line_start": 35,
+            "line_end": 35,
+            "url": "https://uascomponents.com/launch-and-landing-systems",
+            "page_class": "capability",
+            "snippet": "Solutions for efficient and rapid UAV launch (up to 40 kg takeoff weight) and safe drone recovery in all conditions and weather."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0042",
+            "line_start": 37,
+            "line_end": 38,
+            "url": "https://uascomponents.com/launch-and-landing-systems/scl1",
+            "page_class": "capability",
+            "snippet": "---------------------\nBasic mechanical launcher for UAVs up to 14 kg"
+          }
+        ],
+        "notes": "Includes catapult launchers (SCL-1, SCL-2, GLS-1) and parachute systems (CS-01, CS-02)"
+      },
+      {
+        "category": "communications",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 73,
+            "line_end": 73,
+            "url": "https://uascomponents.com",
+            "page_class": "homepage",
+            "snippet": "Secure long-range communications and real-time HD video transmission with coverage up to 220 km."
+          }
+        ],
+        "notes": "Antenna trackers (AT-Micro, AT-1, AT-2) and Silvus MIMO radios"
+      },
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0049",
+            "line_start": 129,
+            "line_end": 130,
+            "url": "https://uascomponents.com/products",
+            "page_class": "product",
+            "snippet": "These Pitot tubes are specifically designed for UAVs operating in harsh climatic conditions. With integrated heating, they ensure accurate pressure readings in fog, low temperatures, and prevent icing during flight.\n[](/pitot-tubes/heated-pitot-tube)"
+          }
+        ],
+        "notes": "Heated pitot tubes specifically designed for UAVs in harsh conditions"
+      },
+      {
+        "category": "power_systems",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0049",
+            "line_start": 142,
+            "line_end": 144,
+            "url": "https://uascomponents.com/products",
+            "page_class": "product",
+            "snippet": "Batteries\n---------\nAll our batteries deliver stable performance and long operational life across a wide range of use cases \u2014 from UAVs to backup power systems. Need a custom configuration? We offer battery development services tailored to your technical requirements and mission-specific needs."
+          }
+        ],
+        "notes": "Multiple UAV battery families plus custom battery development"
+      },
+      {
+        "category": "ground_segment",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0049",
+            "line_start": 187,
+            "line_end": 188,
+            "url": "https://uascomponents.com/products",
+            "page_class": "product",
+            "snippet": "### Aerowatcher Software\nA civilian-grade software suite for UAV camera and sensor control. Aerowatcher enables intuitive payload operation, real-time situational monitoring, and mission report generation."
+          }
+        ],
+        "notes": "Aerowatcher software and Video Processing and Stabilization Software"
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Primary business is ISR camera/gimbal payloads for UAVs; also offers launch/recovery systems, antennas, pitot tubes, batteries, and software. Launch catapult systems don't map to a single defined category cleanly \u2014 listed under recovery_systems alongside parachutes since the site groups them together."
+  },
+  "headquarters": {
+    "value": {
+      "city": null,
+      "state_or_province": null,
+      "country": "Ukraine",
+      "address": null
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 46,
+        "line_end": 46,
+        "url": "https://uascomponents.com",
+        "page_class": "homepage",
+        "snippet": "Ukrainian Manufacturing at Global Standards"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 47,
+        "line_end": 47,
+        "url": "https://uascomponents.com",
+        "page_class": "homepage",
+        "snippet": "We maintain strict quality control from engineering to assembly. All components are manufactured in Ukraine, enabling flexible logistics, rapid service support, and cost-effective pricing without unnecessary markups. Production facilities are decentralized and hardened, ensuring uninterrupted output even during wartime operations."
+      }
+    ],
+    "notes": "Phone number +38 country code (Ukraine) on contacts page; homepage explicitly states all components manufactured in Ukraine. No city disclosed on site."
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 35,
+        "line_end": 35,
+        "url": "https://uascomponents.com",
+        "page_class": "homepage",
+        "snippet": "Advanced camera systems, high-grade components, mission-critical accessories, and expert services for UAVs \u2013 from prototype stages to full-scale production."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 53,
+        "line_end": 53,
+        "url": "https://uascomponents.com",
+        "page_class": "homepage",
+        "snippet": "We provide a wide range of gyro-stabilized EO/IR/LRF payloads for various aerial platforms including military drones, fixed-wing UAVs, light manned aircraft, helicopters, and commercial multicopters.UAS Components camera systems deliver exceptional image quality, precise targeting, and stable performance."
+      }
+    ],
+    "notes": "Sells major UAV subsystems: gyro-stabilized EO/IR/LRF gimbal payloads, catapult launchers, parachute recovery systems, antenna trackers, batteries, pitot tubes, and software. Does not manufacture complete UAV platforms."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "USG-405",
+        "product_type": "EO/IR/LRF gyro-stabilized gimbal payload",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0033",
+            "line_start": 36,
+            "line_end": 36,
+            "url": "https://uascomponents.com/camera-systems/usg-405",
+            "page_class": "capability",
+            "snippet": "USG-405 EO/IR/LRF ISR gimbal"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "USG-232",
+        "product_type": "EO/IR/LRF gyro-stabilized gimbal",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0025",
+            "line_start": 37,
+            "line_end": 38,
+            "url": "https://uascomponents.com/camera-systems",
+            "page_class": "capability",
+            "snippet": "NEW\u00a0USG - 232 EO/IR/LRF\nVersatile multi-sensor gimbal with Full HD 30x zoom camera, thermal sensor, and laser rangefinder up to 5 km."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "USG-331",
+        "product_type": "3-axis stabilized EO gimbal",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0025",
+            "line_start": 42,
+            "line_end": 43,
+            "url": "https://uascomponents.com/camera-systems",
+            "page_class": "capability",
+            "snippet": "NEW USG - 331 EO\nThe USG-331 is a 3-axis stabilized gimbal that provides clear daytime video and accurate geo-location capabilities."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "USG-231",
+        "product_type": "Lightweight stabilized EO gimbal for fixed-wing/VTOL UAVs",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0025",
+            "line_start": 50,
+            "line_end": 52,
+            "url": "https://uascomponents.com/camera-systems",
+            "page_class": "capability",
+            "snippet": "USG - 231 EO\nA lightweight stabilized EO camera optimized for fixed-wing and VTOL UAV platforms.\nEquipped with a Full HD daylight camera featuring 30\u00d7 optical and 3\u00d7 digital zoom."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "USG-231T",
+        "product_type": "Compact thermal IR gimbal for fixed-wing/VTOL UAVs",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0025",
+            "line_start": 55,
+            "line_end": 56,
+            "url": "https://uascomponents.com/camera-systems",
+            "page_class": "capability",
+            "snippet": "USG - 231T IR\nA compact thermal imaging camera for night surveillance, inspection, and search operations in low-visibility or no-light environments. Ideal for fixed-wing and VTOL UAVs."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "USG-261",
+        "product_type": "Miniature EO gimbal for small UAVs",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0025",
+            "line_start": 59,
+            "line_end": 60,
+            "url": "https://uascomponents.com/camera-systems",
+            "page_class": "capability",
+            "snippet": "USG - 261 EO\nThe smallest and lightest EO gimbal in our lineup \u2013 designed specifically for small UAVs of any configuration. Equipped with a Full HD daylight camera with 10\u00d7 optical zoom. Weight: only 300g."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "USG-261T",
+        "product_type": "Compact thermal IR gimbal for small UAVs",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0025",
+            "line_start": 63,
+            "line_end": 65,
+            "url": "https://uascomponents.com/camera-systems",
+            "page_class": "capability",
+            "snippet": "USG - 261T IR\nA compact thermal camera for night operations, suitable for small UAVs and multirotor platforms.\nDelivers high-quality video in low-light or total darkness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Video Processing Block (VPB)",
+        "product_type": "Onboard camera control and video processing unit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0025",
+            "line_start": 68,
+            "line_end": 70,
+            "url": "https://uascomponents.com/camera-systems",
+            "page_class": "capability",
+            "snippet": "Video Processing Block\nThe onboard control and video processing unit receives the camera feed, stabilizes the image, enables object tracking, and transmits video directly to the ground control station.\n[Learn more](/camera-systems/vpb)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AT-Micro",
+        "product_type": "Lightweight single-axis antenna tracker",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0049",
+            "line_start": 76,
+            "line_end": 77,
+            "url": "https://uascomponents.com/products",
+            "page_class": "product",
+            "snippet": "### AT-Micro Antenna Tracker\nA lightweight, single-axis pan unit with software-based control, designed for mounting payloads up to 3 kg."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AT-1",
+        "product_type": "Ground antenna tracker (130+ km range)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0049",
+            "line_start": 80,
+            "line_end": 81,
+            "url": "https://uascomponents.com/products",
+            "page_class": "product",
+            "snippet": "### AT-1 Antenna Tracker\nA robust ground antenna tracker for stable, long-distance UAV communication.Effective range: 130+ km."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AT-2",
+        "product_type": "Long-range antenna tracker (220+ km range)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0049",
+            "line_start": 84,
+            "line_end": 85,
+            "url": "https://uascomponents.com/products",
+            "page_class": "product",
+            "snippet": "### AT-2 Antenna Tracker\nA versatile long-range antenna tracker designed for extended missions at distances 220+ km when mast-mounted."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SCL-1",
+        "product_type": "Bungee catapult launcher for UAVs up to 14 kg",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0042",
+            "line_start": 36,
+            "line_end": 38,
+            "url": "https://uascomponents.com/launch-and-landing-systems/scl1",
+            "page_class": "capability",
+            "snippet": "SCL-1 Bungee Catapult\n---------------------\nBasic mechanical launcher for UAVs up to 14 kg"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SCL-2",
+        "product_type": "Catapult launcher for UAVs up to 15 kg",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0036",
+            "line_start": 41,
+            "line_end": 42,
+            "url": "https://uascomponents.com/launch-and-landing-systems",
+            "page_class": "capability",
+            "snippet": "SCL-2 Launch Kit\nSmall Catapult Launcher 2 is designed to launch UAVs weighing up to 15 kg at an initial speed of 18 m/s."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "GLS-1",
+        "product_type": "Pneumatic catapult launcher for UAVs up to 40 kg",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0036",
+            "line_start": 45,
+            "line_end": 46,
+            "url": "https://uascomponents.com/launch-and-landing-systems",
+            "page_class": "capability",
+            "snippet": "GLS-1 Launch Kit\nGLS-1 is a high-power pneumatic launch system for UAVs with a takeoff weight of up to 40 kg."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Parachute System CS-01",
+        "product_type": "UAV parachute recovery system (8\u201312 kg payload)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0036",
+            "line_start": 49,
+            "line_end": 50,
+            "url": "https://uascomponents.com/launch-and-landing-systems",
+            "page_class": "capability",
+            "snippet": "Parachute System CS-01\nParachute System CS-01 is designed for safe, automatic landing of UAVs or payloads weighing 8 to 12 kg."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Parachute System CS-02",
+        "product_type": "UAV parachute recovery system (12\u201315 kg payload)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0036",
+            "line_start": 53,
+            "line_end": 54,
+            "url": "https://uascomponents.com/launch-and-landing-systems",
+            "page_class": "capability",
+            "snippet": "Parachute System CS-02\nParachute System CS-02 ensures controlled descent of UAVs or payloads weighing 12 to 15 kg."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Aerowatcher",
+        "product_type": "UAV camera/sensor control and mission reporting software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0049",
+            "line_start": 187,
+            "line_end": 188,
+            "url": "https://uascomponents.com/products",
+            "page_class": "product",
+            "snippet": "### Aerowatcher Software\nA civilian-grade software suite for UAV camera and sensor control. Aerowatcher enables intuitive payload operation, real-time situational monitoring, and mission report generation."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "High-Capacity Universal Battery Type 1",
+        "product_type": "UAV battery (24,000 mAh)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0049",
+            "line_start": 146,
+            "line_end": 148,
+            "url": "https://uascomponents.com/products",
+            "page_class": "product",
+            "snippet": "### High-Capacity Universal Battery Type 1\nUASC.B220.000.00-01\nAdvanced universal battery designed for systems with high power consumption.Capacity: 24,000 mAh"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "High-Capacity Battery LE",
+        "product_type": "UAV battery (108,000 mAh)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0049",
+            "line_start": 157,
+            "line_end": 159,
+            "url": "https://uascomponents.com/products",
+            "page_class": "product",
+            "snippet": "### High-Capacity Battery LE\nUASC.B804.000.00\nOur most powerful battery to date. Higher energy density than traditional Li-ion solutions."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Battery Type 5",
+        "product_type": "UAV battery (80,000 mAh)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0049",
+            "line_start": 174,
+            "line_end": 176,
+            "url": "https://uascomponents.com/products",
+            "page_class": "product",
+            "snippet": "### Battery Type 5\nUASC.B805.000.00\nNext-gen battery engineered for platforms with maximum power demands."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Many named SKUs across camera, launch/recovery, antenna, pitot tube, battery, and software categories. Silvus radios appear to be resold. Some product pages were skipped."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "Ukrainian manufacturer; no mention of NDAA compliance anywhere in the corpus."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No mention of Blue UAS or Blue sUAS anywhere in the corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 47,
+        "line_end": 47,
+        "url": "https://uascomponents.com",
+        "page_class": "homepage",
+        "snippet": "We maintain strict quality control from engineering to assembly. All components are manufactured in Ukraine, enabling flexible logistics, rapid service support, and cost-effective pricing without unnecessary markups. Production facilities are decentralized and hardened, ensuring uninterrupted output even during wartime operations."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0049",
+        "line_start": 146,
+        "line_end": 147,
+        "url": "https://uascomponents.com/products",
+        "page_class": "product",
+        "snippet": "### High-Capacity Universal Battery Type 1\nUASC.B220.000.00-01"
+      }
+    ],
+    "notes": "Catalog SKUs with part numbers (e.g. UASC.B220.000.00-01), decentralized hardened production facilities operational during wartime. Homepage tagline covers 'prototype stages to full-scale production' but refers to customer use cases, not their own maturity."
+  },
+  "unresolved_questions": [
+    "No city-level headquarters address disclosed on site \u2014 only country (Ukraine) confirmed",
+    "Silvus StreamCaster 4200/4400 radios appear to be resold (not self-manufactured); full resale vs. integration scope unclear",
+    "About-us page was skipped (class budget exhausted); may contain additional company info"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://uascomponents.com/about-us",
+      "reason": "Would confirm headquarters city, founding details, and company background \u2014 currently skipped_class_budget",
+      "expected_evidence": [
+        "headquarters",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://uascomponents.com/antennas",
+      "reason": "Would list full antenna tracker product line and confirm whether Silvus radios are resold or integrated",
+      "expected_evidence": [
+        "products",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Ukrainian manufacturer of gyro-stabilized EO/IR/LRF gimbals (USG series, 300\u20131.1 kg), catapult launchers, parachute recovery systems, antenna trackers, and video processing units. Field-deployed in Ukrainian military operations. NDAA and Blue UAS certification status unknown; no confirmed US prime contracts in public record.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 16,
+    "total_cost_usd": 0.35802625,
+    "created_at": "2026-05-04T07:15:16+00:00",
+    "extract_version": "0.1.0"
+  }
+}

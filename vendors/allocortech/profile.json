@@ -1,0 +1,402 @@
+{
+  "target_id": "allocortech",
+  "run_id": "canonical",
+  "display_name": "Allocortech",
+  "homepage_url": "https://allocor.tech",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/allocortech/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "propulsion_electronics",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0068",
+            "line_start": 70,
+            "line_end": 70,
+            "url": "https://www.allocor.tech/motor-controllers",
+            "page_class": null,
+            "snippet": "Allocortech motor controllers are trusted by several legacy and startup aerospace OEMs in the UAS and AAM markets."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0070",
+            "line_start": 118,
+            "line_end": 118,
+            "url": "https://www.allocor.tech/products",
+            "page_class": null,
+            "snippet": "Taurus Motor Controllers are based around a full four quadrant Field Oriented Control (FOC) through Space Vector Pulse Width Modulation (SVPWM) drive. Each model is tailored around its specific application. All Taurus platforms support CAN 2.0 and RS-485 communication interfaces for control and monitoring."
+          }
+        ],
+        "notes": "Taurus series BLDC motor controllers (Taurus OTiS, AEX, AE, C60) are the flagship product line"
+      },
+      {
+        "category": "power_systems",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0067",
+            "line_start": 80,
+            "line_end": 80,
+            "url": "https://www.allocor.tech/lohner-product-page",
+            "page_class": null,
+            "snippet": "The Lohner Smart Battery couples a high energy density LiPo battery with full-featured monitoring and control system to provide high-availability standby power for your mission-critical system. This compact package with rugged power and communication connectors is suitable for installation almost anywhere."
+          }
+        ],
+        "notes": "Lohner smart battery; also designs MGUs, BMSs, battery chargers"
+      },
+      {
+        "category": "communications",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0070",
+            "line_start": 96,
+            "line_end": 97,
+            "url": "https://www.allocor.tech/products",
+            "page_class": null,
+            "snippet": "### Comms + Power Hub\nThe Clio is a computation, communications, and power distribution hub designed to trade off electronics vs harness weight in a hub and spoke system. Depending on client needs the Clio can be just a low power data and power switch, or a high power flight computer."
+          }
+        ],
+        "notes": "Clio-B: computation, communications, and power distribution hub"
+      },
+      {
+        "category": "flight_termination",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0064",
+            "line_start": 78,
+            "line_end": 79,
+            "url": "https://www.allocor.tech/comet-fts-product-page",
+            "page_class": null,
+            "snippet": "Comet FTS\n========="
+          }
+        ],
+        "notes": "Comet FTS: radio-linked flight termination system with dual redundant processing"
+      },
+      {
+        "category": "flight_and_vehicle_control",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0047",
+            "line_start": 84,
+            "line_end": 85,
+            "url": "https://www.allocor.tech/air-data-and-flight-control",
+            "page_class": null,
+            "snippet": "### Atlas Flight Controller\nLow-cost flight computer solution based on PixHawk PX4 open-source autopilot."
+          }
+        ],
+        "notes": "Atlas Flight Controller based on PixHawk PX4 open-source autopilot"
+      },
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0047",
+            "line_start": 76,
+            "line_end": 77,
+            "url": "https://www.allocor.tech/air-data-and-flight-control",
+            "page_class": null,
+            "snippet": "### Hornet ADAHRS\nSmall form factor, cost-effective sensor package with air data, inertial, and magnetic sensors along with external analog inputs for OAT, AOA, and sideslip."
+          }
+        ],
+        "notes": "Hornet ADAHRS: air data, inertial, and magnetic sensors"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Waynesboro",
+      "state_or_province": "Virginia",
+      "country": "United States",
+      "address": "440 N Commerce Ave, Waynesboro, VA 22980"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0066",
+        "line_start": 85,
+        "line_end": 87,
+        "url": "https://www.allocor.tech/contact",
+        "page_class": null,
+        "snippet": "Our HQ\n440 N Commerce Ave\nWaynesboro, VA 22980"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0046",
+        "line_start": 76,
+        "line_end": 76,
+        "url": "https://www.allocor.tech/about",
+        "page_class": null,
+        "snippet": "Allocortech is a small and agile technical company providing an array of expertise and products for avionics, control systems, and general embedded systems applications of various flavors."
+      }
+    ],
+    "notes": "Designs and sells major UAS/UAM subsystems: motor controllers, power systems, flight controllers, FTS, comms hubs"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Taurus OTiS",
+        "product_type": "high-voltage BLDC motor controller",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0068",
+            "line_start": 76,
+            "line_end": 77,
+            "url": "https://www.allocor.tech/motor-controllers",
+            "page_class": null,
+            "snippet": "### Taurus OTiS\nAllocortech\u2019s flagship high voltage motor controller"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Taurus AEX",
+        "product_type": "low-voltage BLDC motor controller",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0068",
+            "line_start": 92,
+            "line_end": 93,
+            "url": "https://www.allocor.tech/motor-controllers",
+            "page_class": null,
+            "snippet": "### Taurus AEX\nThis low voltage motor controller can be used to control a motor, a linear actuator, or a servo"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Taurus AE",
+        "product_type": "BLDC motor controller",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0068",
+            "line_start": 84,
+            "line_end": 85,
+            "url": "https://www.allocor.tech/motor-controllers",
+            "page_class": null,
+            "snippet": "### Taurus AE\nAllocortech\u2019s flagship high voltage motor controller"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Taurus C60",
+        "product_type": "low-voltage motor controller, IP67 enclosure",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0068",
+            "line_start": 100,
+            "line_end": 101,
+            "url": "https://www.allocor.tech/motor-controllers",
+            "page_class": null,
+            "snippet": "### Taurus C60\nA low voltage motor controller packaged in an IP67 enclosure."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Comet FTS",
+        "product_type": "radio-linked flight termination system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0064",
+            "line_start": 78,
+            "line_end": 79,
+            "url": "https://www.allocor.tech/comet-fts-product-page",
+            "page_class": null,
+            "snippet": "Comet FTS\n========="
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Clio-B",
+        "product_type": "communications and power distribution hub",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0070",
+            "line_start": 163,
+            "line_end": 165,
+            "url": "https://www.allocor.tech/products",
+            "page_class": null,
+            "snippet": "Clio is distributed I/O for your electric or hybrid electric powered vehicle\n----------------------------------------------------------------------------\nThe Clio is a computation, communications, and power distribution hub designed to trade off electronics vs harness weight in a hub and spoke system. Depending on client needs the Clio can be just a low power data and power switch, or a high power flight computer."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Lohner",
+        "product_type": "smart battery / standby power system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0067",
+            "line_start": 78,
+            "line_end": 80,
+            "url": "https://www.allocor.tech/lohner-product-page",
+            "page_class": null,
+            "snippet": "Lohner\n======\nThe Lohner Smart Battery couples a high energy density LiPo battery with full-featured monitoring and control system to provide high-availability standby power for your mission-critical system. This compact package with rugged power and communication connectors is suitable for installation almost anywhere."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Atlas Flight Controller",
+        "product_type": "flight controller (PX4-based)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0047",
+            "line_start": 84,
+            "line_end": 85,
+            "url": "https://www.allocor.tech/air-data-and-flight-control",
+            "page_class": null,
+            "snippet": "### Atlas Flight Controller\nLow-cost flight computer solution based on PixHawk PX4 open-source autopilot."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Hornet ADAHRS",
+        "product_type": "air data / inertial / magnetic sensor unit",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0047",
+            "line_start": 76,
+            "line_end": 77,
+            "url": "https://www.allocor.tech/air-data-and-flight-control",
+            "page_class": null,
+            "snippet": "### Hornet ADAHRS\nSmall form factor, cost-effective sensor package with air data, inertial, and magnetic sensors along with external analog inputs for OAT, AOA, and sideslip."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": "yes",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0060",
+        "line_start": 107,
+        "line_end": 107,
+        "url": "https://www.allocor.tech/blog/welcome-to-the-area-northrop-grumman",
+        "page_class": null,
+        "snippet": "NDAA-compliant \u00b7 100 % USA-made"
+      }
+    ],
+    "notes": "Allocortech self-describes as 'NDAA-compliant \u00b7 100% USA-made' in a blog post. Medium confidence because claim appears in a marketing blog post rather than a dedicated compliance page."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0070",
+        "line_start": 130,
+        "line_end": 131,
+        "url": "https://www.allocor.tech/products",
+        "page_class": null,
+        "snippet": "COTS motor controllers available\n--------------------------------"
+      }
+    ],
+    "notes": "Advertises COTS catalog SKUs with part numbers and production quantities. Also offers MOTS and custom design services."
+  },
+  "unresolved_questions": [
+    "Hornet ADAHRS product page skipped \u2014 full specs/availability unknown",
+    "Atlas Flight Controller product page skipped \u2014 confirm production status"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://allocor.tech/hornet-product-page",
+      "reason": "Would confirm Hornet ADAHRS product specs, availability and production readiness for sensors_and_navigation category",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://allocor.tech/atlas-product-page",
+      "reason": "Would confirm Atlas Flight Controller specs and production status for flight_and_vehicle_control category",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_budget",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Virginia-based subsystem supplier producing BLDC motor controllers (Taurus line: AEX, AE, C60, 400 OTiS up to 20 kW), flight termination systems (Comet FTS, dual-redundant radio-linked), flight computers/power hubs (Clio-B), and smart battery packs (Lohner). NDAA-compliant, in production across propulsion electronics, power systems, flight control, and termination. Blue UAS status unknown; limited public visibility on specific platform integrations or defense contracts.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 23,
+    "total_cost_usd": 0.6075345,
+    "created_at": "2026-05-03T22:30:21+00:00",
+    "extract_version": "0.1.0"
+  }
+}

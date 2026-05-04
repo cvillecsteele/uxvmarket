@@ -1,0 +1,523 @@
+{
+  "target_id": "calian",
+  "run_id": "canonical",
+  "display_name": "Calian",
+  "homepage_url": "https://www.calian.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/calian/website",
+  "products": [
+    {
+      "name": "C5ISRT",
+      "category": "ground_segment",
+      "descriptor": "Sovereign C5ISRT systems integration capability connecting command, control, communications, sensors and training",
+      "granularity": "category",
+      "readiness": "engineering_services",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0051",
+          "line_start": 3,
+          "line_end": 5,
+          "url": "https://www.calian.com/defence/c5isrt",
+          "page_class": "other",
+          "snippet": "C5ISRT: The Backbone of Modern Defence\n======================================\nIntegrated systems, trusted data and sovereign control\u2014built and sustained by Calian."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0051",
+          "line_start": 74,
+          "line_end": 74,
+          "url": "https://www.calian.com/defence/c5isrt",
+          "page_class": "other",
+          "snippet": "Calian connects people, systems and data\u2014bringing interoperability, resilience and readiness to modern military operations."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "VCCI (Virtual Command and Control Integration)",
+      "category": "ground_segment",
+      "descriptor": "Virtual command and control data integration platform for defence exercises",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0018",
+          "line_start": 26,
+          "line_end": 26,
+          "url": "https://www.calian.com/ai-innovation",
+          "page_class": "capability",
+          "snippet": "Our data integration platforms, including Corolar and VCCI, enable seamless connectivity and interoperability across health and defence sectors. At Calian, we specialize in transforming fragmented data into cohesive insights that drive informed decision-making and unlock new insights."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "MaestroEDE",
+      "category": "ground_segment",
+      "descriptor": "AI-enabled military exercise development environment for large-scale training",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0018",
+          "line_start": 36,
+          "line_end": 36,
+          "url": "https://www.calian.com/ai-innovation",
+          "page_class": "capability",
+          "snippet": "*   MaestroEDE Copilot"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0018",
+          "line_start": 50,
+          "line_end": 50,
+          "url": "https://www.calian.com/ai-innovation",
+          "page_class": "capability",
+          "snippet": "#### AI-enabled process to develop content for large, complex military exercises"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Calian SATCOM / Navigation Antennas",
+      "category": "communications",
+      "descriptor": "Manufactured SATCOM and navigation antennas for positioning and communications",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0178",
+          "line_start": 46,
+          "line_end": 48,
+          "url": "https://www.calian.com/public-safety-security",
+          "page_class": "compliance",
+          "snippet": "##### Navigation, orientation and communication\nCalian manufactures antennas that enable precise positioning and navigation and keep communications running smoothly.\n](https://www.calian.com/solutions/satcom/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Calian ResponseReady\u2122",
+      "category": "ground_segment",
+      "descriptor": "Industry-leading exercise management and simulation platform for emergency preparedness",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0178",
+          "line_start": 57,
+          "line_end": 59,
+          "url": "https://www.calian.com/public-safety-security",
+          "page_class": "compliance",
+          "snippet": "Calian ResponseReady\u2122\n---------------------\n**Develop and deliver realistic emergency exercises**"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0178",
+          "line_start": 64,
+          "line_end": 64,
+          "url": "https://www.calian.com/public-safety-security",
+          "page_class": "compliance",
+          "snippet": "Calian ResponseReady is the industry-leading exercise management and simulation platform that supports the creation, delivery and evaluation of highly realistic exercises that range from interoperability large-scale exercises, to small-scale organizational exercises and drills."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Bin-Sense\u00ae",
+      "category": "sensors_and_navigation",
+      "descriptor": "Agricultural grain bin sensor system monitoring coverage, temperature, and humidity",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0018",
+          "line_start": 60,
+          "line_end": 60,
+          "url": "https://www.calian.com/ai-innovation",
+          "page_class": "capability",
+          "snippet": "Calian developed a noise reduction application for a Calian agriculture product that monitors grain storage bins. Bin-Sense\u00ae uses sensors to detect the level of coverage, temperature and humidity in the bins and provides the information to farmers so that they can monitor their grain."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Calian\u00ae Nexi\u2122",
+      "category": "ground_segment",
+      "descriptor": "All-in-one healthcare business management platform with CRM, EHR and ERP modules",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0070",
+          "line_start": 3,
+          "line_end": 6,
+          "url": "https://www.calian.com/health/nexi",
+          "page_class": "other",
+          "snippet": "Unleash the potential of your healthcare business\n=================================================\nCalian\u00ae Nexi\u2122 is the simple, all-in-one system to automate the administration of your business.\n[Nexi portal](https://home.aliohealth.com/Login)[Nexi solutions](#anchor-nexi-solutions)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0070",
+          "line_start": 10,
+          "line_end": 14,
+          "url": "https://www.calian.com/health/nexi",
+          "page_class": "other",
+          "snippet": "Deliver integrated, efficient, profitable healthcare services using automation and analytics.\n*   Nexi CRM\n*   Nexi EHR\n*   Nexi ERP\n*   Add-ons"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Calian\u00ae Corolar\u2122",
+      "category": "ground_segment",
+      "descriptor": "Cloud-native healthcare interoperability platform for virtual care, remote patient monitoring and EHR integration",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0035",
+          "line_start": 3,
+          "line_end": 10,
+          "url": "https://www.calian.com/health/corolar",
+          "page_class": "other",
+          "snippet": "Creating a connected care experience\n====================================\nYour comprehensive solution for streamlined patient care collaboration.\n[Health solution overview (PDF)](https://sites.calian.com/app/uploads/sites/7/2024/10/Calian-Health-Virtual-Care-H240923BR.pdf)[Book a demo](#contact-form)\n![](https://sites.calian.com/app/uploads/sites/7/2023/10/corololar-virtual-care@2x-1024x593.png)\nCalian\u00ae Corolar\u2122 suite\n----------------------\nLearn how our Corolar suite of products is being used by hospitals and health teams to provide a more connected experience for patients and providers."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0035",
+          "line_start": 27,
+          "line_end": 28,
+          "url": "https://www.calian.com/health/corolar",
+          "page_class": "other",
+          "snippet": "--------------\nCorolar, an award-winning Interoperability platform, deploys to your public cloud instance, offering advanced integration features, autonomy, control and data sovereignty for enhanced cloud-native efficiency. It simplifies creating, managing and monitoring seamless integration processes across multiple endpoints."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Corolar Virtual Care (CVC)",
+      "category": "communications",
+      "descriptor": "Microsoft Teams-based virtual care solution for military and healthcare providers",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0051",
+          "line_start": 59,
+          "line_end": 59,
+          "url": "https://www.calian.com/defence/military-health-solutions",
+          "page_class": "capability",
+          "snippet": "*   Corolar Virtual Care (CVC)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0051",
+          "line_start": 71,
+          "line_end": 71,
+          "url": "https://www.calian.com/defence/military-health-solutions",
+          "page_class": "capability",
+          "snippet": "Corolar Virtual Care (CVC) is a Microsoft Teams solution for healthcare providers to rapidly launch virtual services for military patients. Clinicians can easily access patient data for better collaboration with care teams and better outcomes for patients."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Virtual Command and Control Interface (VCCI)",
+      "category": "ground_segment",
+      "descriptor": "Sim-C2 interoperability middleware connecting military simulators to command-and-control applications",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0185",
+          "line_start": 3,
+          "line_end": 5,
+          "url": "https://www.calian.com/defence/military-training-simulation/vcci",
+          "page_class": "other",
+          "snippet": "Virtual Command and Control Interface (VCCI)\n============================================\nBest-in-class for Sim-C2 interoperability options"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0185",
+          "line_start": 14,
+          "line_end": 15,
+          "url": "https://www.calian.com/defence/military-training-simulation/vcci",
+          "page_class": "other",
+          "snippet": "**Advanced interoperability solution for military training and analysis**\nVCCI supports military users by mediating data between simulators and command-and-control applications."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "MaestroEDE\u2122",
+      "category": "ground_segment",
+      "descriptor": "Exercise design, development and delivery (E3D) software platform for large-scale military training exercises",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0152",
+          "line_start": 2,
+          "line_end": 4,
+          "url": "https://www.calian.com/defence/military-training-simulation/maestroede",
+          "page_class": "other",
+          "snippet": "MaestroEDE\u2122\n===========\nSeamlessly managing military training objectives through innovative E3D technology."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0152",
+          "line_start": 10,
+          "line_end": 10,
+          "url": "https://www.calian.com/defence/military-training-simulation/maestroede",
+          "page_class": "other",
+          "snippet": "MaestroEDE is Calian\u2019s innovative exercise design, development and delivery (E3D) software platform that delivers exceptional efficiency and flexibility for large-scale military exercises. Using one platform from concept to after-action review means that all activity is logical, traceable and data-driven. Its user-friendly interface allows new and experienced users to navigate easily through features and activities."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Aramis",
+      "category": "ground_segment",
+      "descriptor": "MOTS after-action review software graphically representing military simulation training data",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0185",
+          "line_start": 74,
+          "line_end": 77,
+          "url": "https://www.calian.com/defence/military-training-simulation/vcci",
+          "page_class": "other",
+          "snippet": "Elevating after-action reviews\n#### Aramis\nA game-changing MOTS solution for enhanced military training reviews, graphically representing complex simulation data.\n](https://www.calian.com/defence/military-training-simulation/aramis/ \"Aramis\")"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Calian VENTURES",
+      "category": "ground_segment",
+      "descriptor": "Defence innovation orchestrator connecting SMEs and government to scale sovereign C5ISRT capabilities",
+      "granularity": "category",
+      "readiness": "engineering_services",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0051",
+          "line_start": 91,
+          "line_end": 92,
+          "url": "https://www.calian.com/defence/c5isrt",
+          "page_class": "other",
+          "snippet": "### Calian VENTURES: Scaling sovereign capability\nIn today\u2019s challenging defence environment, we must enable our own sovereignty to protect our future."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0051",
+          "line_start": 124,
+          "line_end": 125,
+          "url": "https://www.calian.com/defence/c5isrt",
+          "page_class": "other",
+          "snippet": "*   ##### **What is Calian VENTURES?**\n    Calian VENTURES is Calian\u2019s defence innovation orchestrator. It helps scale proven Canadian technologies into sovereign defence capabilities across C2 support systems, autonomous systems and space orchestration, all aligned with C5ISRT environments."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Calian ResponseReady\u00ae",
+      "category": "ground_segment",
+      "descriptor": "Emergency exercise design, delivery and evaluation platform with immersive simulation tools",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0149",
+          "line_start": 3,
+          "line_end": 5,
+          "url": "https://www.calian.com/advanced-technologies/nuclear-services/calian-responseready",
+          "page_class": "other",
+          "snippet": "Calian ResponseReady\u00ae\n=====================\nAn industry-leading platform that is redefining emergency exercises through immersive, engaging simulations."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0149",
+          "line_start": 82,
+          "line_end": 84,
+          "url": "https://www.calian.com/advanced-technologies/nuclear-services/calian-responseready",
+          "page_class": "other",
+          "snippet": "#### Calian ResponseReady\u00ae\nResponseReady is an industry-leading platform for exercise design, delivery and evaluation, purpose-built to meet organizational needs and support ongoing exercise programs.\n](https://sites.calian.com/app/uploads/sites/11/2026/04/Calian-Response-Ready.pdf \"Calian ResponseReady\u00ae \")"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Bin-Sense Plus",
+      "category": "ground_segment",
+      "descriptor": "Wireless grain storage monitoring system with automatic aeration fan control and mobile/desktop dashboard",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0018",
+          "line_start": 9,
+          "line_end": 9,
+          "url": "https://www.calian.com/agriculture/grain-monitoring",
+          "page_class": "other",
+          "snippet": "Bin-Sense\u00ae products"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0018",
+          "line_start": 13,
+          "line_end": 14,
+          "url": "https://www.calian.com/agriculture/grain-monitoring",
+          "page_class": "other",
+          "snippet": "    #### Bin-Sense Plus\n    **Bin-Sense Plus** provides top-level grain storage monitoring with _automatic aeration fan control_ for optimized grain quality \u2013 delivering grain storage information right to your mobile or desktop device.](https://www.binsense.com/products/#bin-sense-plus \"Bin-Sense Plus\")"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Bin-Sense Live",
+      "category": "ground_segment",
+      "descriptor": "Hourly wireless grain storage monitoring system with remote fan control via mobile or desktop",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0018",
+          "line_start": 16,
+          "line_end": 17,
+          "url": "https://www.calian.com/agriculture/grain-monitoring",
+          "page_class": "other",
+          "snippet": "    #### Bin-Sense Live\n    The **Bin-Sense Live** system delivers hourly grain storage information to your mobile or desktop device. It allows you to turn on your fans remotely, so you can relax knowing your grain temperature and moisture values are properly monitored.](https://www.binsense.com/products/#bin-sense-live \"Bin-Sense Live\")"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Bin-Sense Solo",
+      "category": "ground_segment",
+      "descriptor": "Daily grain storage monitoring system for small to medium-sized bins with mobile/desktop reporting",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0018",
+          "line_start": 20,
+          "line_end": 22,
+          "url": "https://www.calian.com/agriculture/grain-monitoring",
+          "page_class": "other",
+          "snippet": "    #### Bin-Sense Solo\n    **Bin-Sense Solo** is the perfect solution for small to medium-sized grain bins, delivering daily grain storage information right to your mobile or desktop device.\n    ](https://www.binsense.com/products/#bin-sense-solo \"Bin-Sense Solo\")"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Bin-Sense Direct",
+      "category": "ground_segment",
+      "descriptor": "On-site handheld grain monitoring reader connecting to bin cables via Bluetooth smartphone interface",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0018",
+          "line_start": 24,
+          "line_end": 25,
+          "url": "https://www.calian.com/agriculture/grain-monitoring",
+          "page_class": "other",
+          "snippet": "    #### Bin-Sense Direct\n    **Bin-Sense Direct** is an on-site handheld grain monitoring reader. Simply plug the reader into your bin cables and connect to your smartphone via Bluetooth, giving you a touch screen view of your stored grain.](https://www.binsense.com/products/#bin-sense-direct \"Bin-Sense Direct\")"
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "Aramis: no dedicated product page was fetched; product described only as a cross-reference on the VCCI page (resource-0004). The Aramis product page exists in crawl_index with status skipped_class_budget.",
+    "Calian VENTURES: dedicated page (calian.com/ventures) was skipped_class_budget; description sourced only from the C5ISRT page. Deeper product/program details unavailable.",
+    "NDAA and Blue UAS status unknown for all 12 products \u2014 no compliance-specific page was fetched in this mirror pass.",
+    "163 skipped/failed pages in this mirror; additional named products (e.g. in satcom, cybersecurity, health services lines) may exist on unfetched pages."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.calian.com/defence/military-training-simulation/aramis",
+      "reason": "Dedicated product page for Aramis AAR software; would provide full descriptor, readiness and any compliance claims currently sourced only from a cross-reference blurb.",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.calian.com/ventures",
+      "reason": "Dedicated page for Calian VENTURES program; would clarify whether this is a product/service/investment vehicle and provide fuller descriptor.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 37,
+    "total_cost_usd": 0.66008855,
+    "created_at": "2026-05-03T22:02:30+00:00",
+    "extract_version": "0.1.0"
+  }
+}

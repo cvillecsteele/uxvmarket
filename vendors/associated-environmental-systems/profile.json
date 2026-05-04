@@ -1,0 +1,249 @@
+{
+  "target_id": "associated-environmental-systems",
+  "run_id": "canonical",
+  "display_name": "Associated Environmental Systems",
+  "homepage_url": "https://www.associatedenvironmentalsystems.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/associated-environmental-systems/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "test_and_measurement",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0283",
+            "line_start": 70,
+            "line_end": 70,
+            "url": "https://www.associatedenvironmentalsystems.com/productspotlights/defense-technology-testing",
+            "page_class": "capability",
+            "snippet": "Testing Application: R&D Thermal Stress Validation for Unmanned Aerial Vehicles (UAVs)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0281",
+            "line_start": 69,
+            "line_end": 69,
+            "url": "https://www.associatedenvironmentalsystems.com/products",
+            "page_class": "product",
+            "snippet": "AES manufactures lab-ready, high-quality environmental test chambers, also known as climatic chambers, for aerospace, automotive, electronics, computer, pharma, and other industries worldwide."
+          }
+        ],
+        "notes": "AES manufactures environmental test chambers (temperature, humidity, thermal shock, battery testing, RF shielding) used for testing UAV components and other aerospace/defense hardware."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "North Chelmsford",
+      "state_or_province": "Massachusetts",
+      "country": "United States",
+      "address": "15 Wellman Ave, North Chelmsford, MA 01863"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 220,
+        "line_end": 221,
+        "url": "https://www.associatedenvironmentalsystems.com",
+        "page_class": "homepage",
+        "snippet": "###### AES Headquarters:\n15 Wellman Ave, North Chelmsford, MA 01863"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "broad_industrial",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0281",
+        "line_start": 69,
+        "line_end": 69,
+        "url": "https://www.associatedenvironmentalsystems.com/products",
+        "page_class": "product",
+        "snippet": "AES manufactures lab-ready, high-quality environmental test chambers, also known as climatic chambers, for aerospace, automotive, electronics, computer, pharma, and other industries worldwide."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0283",
+        "line_start": 69,
+        "line_end": 70,
+        "url": "https://www.associatedenvironmentalsystems.com/productspotlights/defense-technology-testing",
+        "page_class": "capability",
+        "snippet": "Industry: Defense Technology - Autonomous System\nTesting Application: R&D Thermal Stress Validation for Unmanned Aerial Vehicles (UAVs)"
+      }
+    ],
+    "notes": "AES is an environmental test chamber manufacturer serving many industries (aerospace, automotive, electronics, pharma). UAV thermal stress testing is one documented application but the company has no UXV-specific product line."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "FUSION Integrated Battery Test System",
+        "product_type": "integrated battery test system (chamber + cycler)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0279",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://www.associatedenvironmentalsystems.com/fusion-battery-test-system",
+            "page_class": "other",
+            "snippet": "FUSION Integrated Battery Test Systems | AES x MACCOR"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ATPPRIME",
+        "product_type": "battery test fixture",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 77,
+            "line_end": 77,
+            "url": "https://www.associatedenvironmentalsystems.com",
+            "page_class": "homepage",
+            "snippet": "Battery innovation is relentless, so your testing has to keep pace. AES\u2019s ATPPRIME and ATPHEAVY battery testing fixtures deliver the safety, performance, and speed today\u2019s research demands."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ATPHEAVY",
+        "product_type": "battery test fixture",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 77,
+            "line_end": 77,
+            "url": "https://www.associatedenvironmentalsystems.com",
+            "page_class": "homepage",
+            "snippet": "Battery innovation is relentless, so your testing has to keep pace. AES\u2019s ATPPRIME and ATPHEAVY battery testing fixtures deliver the safety, performance, and speed today\u2019s research demands."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "FDR-501",
+        "product_type": "RF shielding temperature test chamber",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 158,
+            "line_end": 162,
+            "url": "https://www.associatedenvironmentalsystems.com",
+            "page_class": "homepage",
+            "snippet": "[![Radio Frequency Shielding](https://www.associatedenvironmentalsystems.com/hs-fs/hubfs/FDR-501-RF-1.png?length=200&name=FDR-501-RF-1.png)](https://www.associatedenvironmentalsystems.com/products/FDR-501)\n### Radio Frequency Shielding\nBlock RF energy inside and outside your workspace with independently certified attenuation performance.\nWorkspaces: 1 or 5 cu ft\n[Browse Products](https://www.associatedenvironmentalsystems.com/products/FDR-501)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "FD-596-4",
+        "product_type": "floor-model temperature-only environmental test chamber",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0283",
+            "line_start": 74,
+            "line_end": 74,
+            "url": "https://www.associatedenvironmentalsystems.com/productspotlights/defense-technology-testing",
+            "page_class": "capability",
+            "snippet": "AES engineered the [FD-596-4](/products/FD-596) Temperature Only Environmental Test Chamber , a high-performance floor model system built to meet the unique demands of the application."
+          }
+        ],
+        "notes": "Used for R&D thermal stress validation of UAV components"
+      },
+      {
+        "name": "AESONE CONNECT\u00ae",
+        "product_type": "remote test chamber monitoring software/controller",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 25,
+            "line_end": 25,
+            "url": "https://www.associatedenvironmentalsystems.com",
+            "page_class": "homepage",
+            "snippet": "    *   [AESONE CONNECT\u00ae _\u2192_Explore AES\u2019s remote test chamber monitoring technology.](https://www.associatedenvironmentalsystems.com/technology)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "AES offers a wide catalog of environmental test chambers; key named product lines listed here."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 224,
+        "line_end": 224,
+        "url": "https://www.associatedenvironmentalsystems.com",
+        "page_class": "homepage",
+        "snippet": "\u00a0[![USA BG WHITE-1](https://www.associatedenvironmentalsystems.com/hs-fs/hubfs/USA%20BG%20WHITE-1.png?width=241&height=96&name=USA%20BG%20WHITE-1.png)](https://www.associatedenvironmentalsystems.com/usa-made-test-chambers)"
+      }
+    ],
+    "notes": "Site displays a 'USA made' badge linking to /usa-made-test-chambers but no explicit NDAA Section 848/889 compliance claim found anywhere in the corpus."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 12,
+        "line_end": 12,
+        "url": "https://www.associatedenvironmentalsystems.com",
+        "page_class": "homepage",
+        "snippet": "    *   [![icon](https://www.associatedenvironmentalsystems.com/hubfs/Icons/AES_MegaMenu_Icons8.png)In-Stock Test Chambers _\u2192_Ready for immediate shipping.](https://www.associatedenvironmentalsystems.com/quick-ship-test-chambers)"
+      }
+    ],
+    "notes": "AES offers in-stock chambers ready for immediate shipping, and maintains a full catalog of serial production test chambers across multiple product lines."
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Manufactures environmental test chambers (floor-model, benchtop, walk-in) spanning temperature-only, temperature-humidity, and battery-safety variants; specializes in extreme-range thermal testing (\u221270\u00b0C to 180\u00b0C) and EUCAR Level 7 battery safety chambers for eVTOL and UAV validation. NDAA and Blue UAS certification status unknown. Limited public evidence of defense primes' adoption or specific unmanned-systems contracts.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 18,
+    "total_cost_usd": 0.31067225,
+    "created_at": "2026-05-03T21:36:04+00:00",
+    "extract_version": "0.1.0"
+  }
+}

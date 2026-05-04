@@ -1,0 +1,301 @@
+{
+  "target_id": "ep-systems",
+  "run_id": "canonical",
+  "display_name": "EP Systems",
+  "homepage_url": "https://epsenergy.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/ep-systems/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "power_systems",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 26,
+            "line_end": 26,
+            "url": "https://epsenergy.com",
+            "page_class": "homepage",
+            "snippet": "Electric is sparking new opportunities in aviation. Discover how our batteries and battery chargers are reducing costs and lowering aircraft emissions."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0050",
+            "line_start": 16,
+            "line_end": 16,
+            "url": "https://epsenergy.com/products-services/epic-propulsion-battery-2",
+            "page_class": "product",
+            "snippet": "EPiC Propulsion Battery"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0008",
+            "line_start": 22,
+            "line_end": 22,
+            "url": "https://epsenergy.com/about-electric-power-systems/our-mission",
+            "page_class": "capability",
+            "snippet": "We are a leading provider of certifiable electric power systems for high-reliability applications. Our mission: deliver smarter, lighter, and more efficient batteries."
+          }
+        ],
+        "notes": "Core business is certifiable aerospace propulsion batteries (EPiC family) and associated charging infrastructure for electric aviation including eVTOL, military, and unmanned aircraft."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "North Logan",
+      "state_or_province": "Utah",
+      "country": "United States",
+      "address": "520 W. 2850 N., North Logan, UT 84341-7005"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0024",
+        "line_start": 21,
+        "line_end": 24,
+        "url": "https://epsenergy.com/contact",
+        "page_class": "contact",
+        "snippet": "Electric Power Systems\n520 W. 2850 N.\nNorth Logan,\nUT 84341-7005"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0055",
+        "line_start": 35,
+        "line_end": 35,
+        "url": "https://epsenergy.com/supernal-and-electric-power-systems-partner-to-advance-evtol-battery-capabilities",
+        "page_class": "news",
+        "snippet": "Current EP Systems customers include NASA, the Federal Aviation Administration, Boeing, Safran, Bell Textron, Diamond Aircraft, VoltAero, Aura Aero and Embraer."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0008",
+        "line_start": 22,
+        "line_end": 22,
+        "url": "https://epsenergy.com/about-electric-power-systems/our-mission",
+        "page_class": "capability",
+        "snippet": "We are a leading provider of certifiable electric power systems for high-reliability applications. Our mission: deliver smarter, lighter, and more efficient batteries."
+      }
+    ],
+    "notes": "Sells battery packs, charging hardware, and power management systems to aircraft OEMs including unmanned aircraft programs (Boeing CAV, Aurora Flight Sciences Pegasus cited in press release). Does not manufacture complete drones."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "EPiC 1.0",
+        "product_type": "aerospace propulsion battery system (FAA TSO certified)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0050",
+            "line_start": 29,
+            "line_end": 31,
+            "url": "https://epsenergy.com/products-services/epic-propulsion-battery-2",
+            "page_class": "product",
+            "snippet": "EPiC 1.0\n--------\n**FAA TSO Certification in 2024**"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "EPiC 2.0",
+        "product_type": "next-generation aerospace propulsion battery system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0050",
+            "line_start": 34,
+            "line_end": 37,
+            "url": "https://epsenergy.com/products-services/epic-propulsion-battery-2",
+            "page_class": "product",
+            "snippet": "### EPiC 2.0\n**Available for Flight in Early 2025**\n![](https://epsenergy.com/wp-content/uploads/2024/04/EPS_EPiC2.0_Battery_angle_wShad-1.png \"EPS_EPiC2.0_Battery_angle_wShad\")\n![flight time 90 minutes](https://epsenergy.com/wp-content/uploads/2024/04/flight-time-90-minutes@4x.png \"flight time 90 minutes\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DC Fast Charger",
+        "product_type": "200 kW aircraft battery fast charger (in development)",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0048",
+            "line_start": 35,
+            "line_end": 36,
+            "url": "https://epsenergy.com/products-services/charging-infrastructure",
+            "page_class": "product",
+            "snippet": "### DC Fast Charging\nEP Systems is developing a proprietary 200 kW DC Fast Charger to enable rapid charging and turn around times of electric aircraft."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Overnight Wall Charger",
+        "product_type": "20 kW hangar battery charger",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0048",
+            "line_start": 37,
+            "line_end": 38,
+            "url": "https://epsenergy.com/products-services/charging-infrastructure",
+            "page_class": "product",
+            "snippet": "### Overnight Wall Charger\nThe 20 kW Wall Charger will allow for slower charging in the hangar, and optimize battery state of charge levels for extended cycle and calendar life of the system."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Mobile Microgrid Charge Truck",
+        "product_type": "mobile battery charging and second-life energy storage system",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0048",
+            "line_start": 41,
+            "line_end": 42,
+            "url": "https://epsenergy.com/products-services/charging-infrastructure",
+            "page_class": "product",
+            "snippet": "### Mobile Microgrid Charge Truck\nThe Mobile Micro Grid charging solution provides a secondary life for batteries, reducing overall costs and maximizing efficient use of energy and materials. The Micro Grid may be installed as a stationary system directly at airports, or used in a mobile application for a more flexible charging solution."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Honeycomb",
+        "product_type": "custom cell-to-cell thermal containment battery system",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0049",
+            "line_start": 22,
+            "line_end": 25,
+            "url": "https://epsenergy.com/products-services/custom-solution",
+            "page_class": "product",
+            "snippet": "### Honeycomb\n##### \u2013 Cell-to-cell propagation\n##### \u2013 Cylindrical cells\n![Honeycomb X57](https://epsenergy.com/wp-content/uploads/2023/06/x57.png \"Honeycomb X57\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "VersaPower",
+        "product_type": "custom full-containment module-level battery system for eVTOL",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0049",
+            "line_start": 29,
+            "line_end": 33,
+            "url": "https://epsenergy.com/products-services/custom-solution",
+            "page_class": "product",
+            "snippet": "### Versapower\n##### \u2013 Full containment at the module level\n##### \u2013 Pouch Cells\n![Rendering of a VersaPower module](https://epsenergy.com/wp-content/uploads/2023/07/Rendering-of-a-VersaPower-module-300x300.png \"Rendering of a VersaPower module\")\neVTOL"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0050",
+        "line_start": 31,
+        "line_end": 31,
+        "url": "https://epsenergy.com/products-services/epic-propulsion-battery-2",
+        "page_class": "product",
+        "snippet": "**FAA TSO Certification in 2024**"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0008",
+        "line_start": 30,
+        "line_end": 30,
+        "url": "https://epsenergy.com/about-electric-power-systems/our-mission",
+        "page_class": "capability",
+        "snippet": "Designed over 500 unique aerospace battery propulsion systems since 2016"
+      }
+    ],
+    "notes": "EPiC 1.0 achieved FAA TSO-C179b certification in 2024; catalog SKUs with published specs; 500+ designed systems and 15 electric aircraft currently flying. EPiC 2.0 was in late-stage development as of site data."
+  },
+  "unresolved_questions": [
+    "Defense page (skipped) may list NAVSEA s9310 certified battery variant and UAV-specific SKUs",
+    "No NDAA or Blue UAS compliance disclosed on any fetched page"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://epsenergy.com/defense",
+      "reason": "Skipped defense page would reveal defense-specific product lines (NAVSEA-certified systems, military UAV/UAS battery variants) to confirm drone supply chain role and product enumeration.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://epsenergy.com/commercial",
+      "reason": "Skipped commercial page would confirm commercial eVTOL and UAV battery product lines and any NDAA/compliance claims for commercial customers.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Modular lithium-ion propulsion batteries and thermal-containment systems for electric aircraft. FAA TSO-certified EPiC 1.0 (energy and power variants) in production; EPiC 2.0 next-gen variants in development. Also supplies battery management units, charging infrastructure (DC fast and overnight wall chargers), and custom energy systems. NDAA and Blue UAS certification status unknown. Pursuing NAVSEA S9310 certification for military applications.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 22,
+    "total_cost_usd": 0.39054599999999995,
+    "created_at": "2026-05-04T02:20:14+00:00",
+    "extract_version": "0.1.0"
+  }
+}

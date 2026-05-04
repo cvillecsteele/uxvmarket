@@ -1,0 +1,259 @@
+{
+  "target_id": "microstrain-by-hbk",
+  "run_id": "canonical",
+  "display_name": "MicroStrain by HBK",
+  "homepage_url": "https://www.microstrain.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/microstrain-by-hbk/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 1339,
+            "line_end": 1340,
+            "url": "https://www.hbkworld.com/en/Campaign/microstrain-by-hbk",
+            "page_class": "homepage",
+            "snippet": "Inertial Sensors\nEngineered to outperform in dynamic conditions"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 1366,
+            "line_end": 1366,
+            "url": "https://www.hbkworld.com/en/Campaign/microstrain-by-hbk",
+            "page_class": "homepage",
+            "snippet": "Inertial and wireless sensing solutions give AMRs, AGVs, UAVs, and UGVs the precision they need to navigate autonomously\u2014tracking orientation and motion in real time, even when satellite signals aren\u2019t available.\u200b"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-1625",
+            "line_start": 1345,
+            "line_end": 1347,
+            "url": "https://www.hbkworld.com/en/products/transducers/inertial-sensors/navigation/3dm-cv7-gnss-ins",
+            "page_class": "product",
+            "snippet": "3DM-CV7-GNSS/INS\n================\nTactical grade embeddable GNSS-Aided Inertial Navigation System"
+          }
+        ],
+        "notes": "IMU, INS, and GNSS-aided Inertial Navigation Systems (3DM series) for drones, UAVs, AGVs, UGVs, and robotics applications."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Williston",
+      "state_or_province": "Vermont",
+      "country": "United States",
+      "address": null
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-1049",
+        "line_start": 1396,
+        "line_end": 1397,
+        "url": "https://www.hbkworld.com/en/about/our-business/quality-management",
+        "page_class": "company",
+        "snippet": "### Hottinger Bruel & Kjaer Inc. (HBK Inc.), Williston (USA)\n[Quality Management System, ISO 9001:2015](https://media.hbkworld.com/m/2ac97ca7e0359ecd/original/ISO-9001-2015-MicroStrain-by-HBK-Williston-VT-Issued-by-NQA-Exp-2026-09-10.pdf)"
+      }
+    ],
+    "notes": "Quality management page lists 'Hottinger Bruel & Kjaer Inc. (HBK Inc.), Williston (USA)' with ISO cert filename confirming Williston, VT."
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 1366,
+        "line_end": 1366,
+        "url": "https://www.hbkworld.com/en/Campaign/microstrain-by-hbk",
+        "page_class": "homepage",
+        "snippet": "Inertial and wireless sensing solutions give AMRs, AGVs, UAVs, and UGVs the precision they need to navigate autonomously\u2014tracking orientation and motion in real time, even when satellite signals aren\u2019t available.\u200b"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-1625",
+        "line_start": 1580,
+        "line_end": 1585,
+        "url": "https://www.hbkworld.com/en/products/transducers/inertial-sensors/navigation/3dm-cv7-gnss-ins",
+        "page_class": "product",
+        "snippet": "The 3DM-CV7-GNSS/INS is ideal for:\n*   Compact autonomous systems requiring integrated navigation\n*   Drones and UAVs with strict size and weight constraints\n*   Unmanned ground vehicles and mobile robots\n*   Space-constrained platforms needing tactical-grade performance\n*   Applications requiring plug-and-play GNSS/INS solutions"
+      }
+    ],
+    "notes": "Supplies IMU/INS/GNSS navigation sensor modules (3DM series) integrated into UAVs, UGVs, AMRs by OEMs."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "3DM-CV7-GNSS/INS",
+        "product_type": "Tactical-grade embeddable GNSS-aided Inertial Navigation System",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-1625",
+            "line_start": 1345,
+            "line_end": 1347,
+            "url": "https://www.hbkworld.com/en/products/transducers/inertial-sensors/navigation/3dm-cv7-gnss-ins",
+            "page_class": "product",
+            "snippet": "3DM-CV7-GNSS/INS\n================\nTactical grade embeddable GNSS-Aided Inertial Navigation System"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "3DM-GQ7-GNSS/INS",
+        "product_type": "Dual-antenna RTK-enabled GNSS/INS navigation system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-1628",
+            "line_start": 1359,
+            "line_end": 1359,
+            "url": "https://www.hbkworld.com/en/products/transducers/inertial-sensors/navigation/3dm-gq7-gnss-ins",
+            "page_class": "product",
+            "snippet": "The MicroStrain 3DM-GQ7-GNSS/INS is an all-in-one navigation solution featuring centimeter-level position accuracy. It is our first dual-antenna, RTK enabled INS designed for outstanding performance, even in unpredictable conditions. It is equipped with dual multiband GNSS receivers, low noise and low drift MEMS inertial sensors, and a robust adaptive Kalman filter."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "3DM-GX5-GNSS/INS",
+        "product_type": "High-performance multi-constellation GNSS/INS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-1630",
+            "line_start": 1343,
+            "line_end": 1344,
+            "url": "https://www.hbkworld.com/en/products/transducers/inertial-sensors/navigation/3dm-gx5-gnss-ins",
+            "page_class": "product",
+            "snippet": "3DM-GX5-GNSS/INS\n================"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "3DM-CX5-GNSS/INS",
+        "product_type": "GNSS-aided Inertial Navigation System",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-1627",
+            "line_start": 1362,
+            "line_end": 1362,
+            "url": "https://www.hbkworld.com/en/products/transducers/inertial-sensors/navigation/3dm-cx5-gnss-ins",
+            "page_class": "product",
+            "snippet": "3DM-CX5-GNSS/INS 2G,75DPS"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "InertialConnect",
+        "product_type": "Inertial sensor configuration and management software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-1625",
+            "line_start": 1518,
+            "line_end": 1518,
+            "url": "https://www.hbkworld.com/en/products/transducers/inertial-sensors/navigation/3dm-cv7-gnss-ins",
+            "page_class": "product",
+            "snippet": "1.  InertialConnect"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Four main INS product lines confirmed. SensorConnect, SensorCloud, and MSCL/MIP SDK also available as supporting software."
+  },
+  "ndaa": {
+    "value": "yes",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-1625",
+        "line_start": 1497,
+        "line_end": 1498,
+        "url": "https://www.hbkworld.com/en/products/transducers/inertial-sensors/navigation/3dm-cv7-gnss-ins",
+        "page_class": "product",
+        "snippet": "NDAA Compliant\nDeploy with confidence in government applications."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-1625",
+        "line_start": 1593,
+        "line_end": 1594,
+        "url": "https://www.hbkworld.com/en/products/transducers/inertial-sensors/navigation/3dm-cv7-gnss-ins",
+        "page_class": "product",
+        "snippet": "##### Is the 3DM-CV7-GNSS/INS NDAA compliant?\nYes, as part of the MicroStrain by HBK product line, the 3DM-CV7-GNSS/INS is NDAA compliant, making it suitable for U.S. government and critical infrastructure applications requiring secure navigation solutions."
+      }
+    ],
+    "notes": "Multiple product pages explicitly state NDAA compliance for the MicroStrain by HBK product line."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No mention of Blue UAS or Blue sUAS authorisation found in the corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-1627",
+        "line_start": 1361,
+        "line_end": 1368,
+        "url": "https://www.hbkworld.com/en/products/transducers/inertial-sensors/navigation/3dm-cx5-gnss-ins",
+        "page_class": "product",
+        "snippet": "6271-0160\n3DM-CX5-GNSS/INS 2G,75DPS\n6271-0260\n3DM-CX5-GNSS/INS 2G,300DPS\n6271-2260\n3DM-CX5-GNSS/INS 4G,300DPS\n6271-4260\n3DM-CX5-GNSS/INS 8G,300DPS"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 1333,
+        "line_end": 1333,
+        "url": "https://www.hbkworld.com/en/Campaign/microstrain-by-hbk",
+        "page_class": "homepage",
+        "snippet": "For over 30 years, MicroStrain sensors have been the choice of innovators across the globe. From academia and startups to global enterprises, we serve those tackling the world's most challenging applications."
+      }
+    ],
+    "notes": "Catalog SKUs with part numbers listed (e.g., 6271-0160, 6271-0260). Over 30 years of production history."
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Manufacturer of tactical-grade inertial measurement units and GNSS/INS navigation sensors for unmanned systems; product line includes 3DM series (CV7, GQ7, GX5, CX5) and InertialConnect software. NDAA-compliant. Public evidence on specific UAS integrations and current program adoption is limited.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 29,
+    "total_cost_usd": 0.6500607,
+    "created_at": "2026-05-04T04:18:59+00:00",
+    "extract_version": "0.1.0"
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "target_id": "calian",
+  "run_id": "canonical",
+  "display_name": "Calian",
+  "homepage_url": "https://www.calian.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/calian/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "ground_segment",
+        "is_primary": true,
+        "confidence": "low",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0185",
+            "line_start": 45,
+            "line_end": 45,
+            "url": "https://www.calian.com/defence/military-training-simulation/vcci",
+            "page_class": "other",
+            "snippet": "*   Support for numerous military protocol standards including STANAG 4607 (GMTI), STANAG 4609 (Video), 4586 (UAV Control), STANAG 1287 (DIS), OTH Gold, Link 16"
+          }
+        ],
+        "notes": "VCCI simulation middleware supports STANAG 4586 (UAV Control) among many military protocols; Calian's C5ISRT work mentions autonomous systems integration, but UXV focus is incidental to a broader defence IT/training business."
+      }
+    ],
+    "confidence": "low",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Ottawa",
+      "state_or_province": null,
+      "country": "Canada",
+      "address": null
+    },
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 11,
+        "line_end": 11,
+        "url": "https://www.calian.com",
+        "page_class": "homepage",
+        "snippet": "    #### Calian and the Ottawa Senators: proud partners on & off the ice, 2025/2026."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 236,
+        "line_end": 236,
+        "url": "https://www.calian.com",
+        "page_class": "homepage",
+        "snippet": "*   [![](https://sites.calian.com/app/plugins/sitepress-multilingual-cms/res/flags/en.svg)CA-EN](https://www.calian.com/)"
+      }
+    ],
+    "notes": "Homepage states 'Headquartered in Ottawa, Canada' in a single 90-word line that exceeds the citation cap. Ottawa and Canada established through the partner mention (Ottawa Senators) and CA-EN language selector. City-level claim is medium confidence only."
+  },
+  "drone_supply_chain_role": {
+    "value": "broad_industrial",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0185",
+        "line_start": 45,
+        "line_end": 45,
+        "url": "https://www.calian.com/defence/military-training-simulation/vcci",
+        "page_class": "other",
+        "snippet": "*   Support for numerous military protocol standards including STANAG 4607 (GMTI), STANAG 4609 (Video), 4586 (UAV Control), STANAG 1287 (DIS), OTH Gold, Link 16"
+      }
+    ],
+    "notes": "Calian is a large diversified Canadian company (6,000+ employees) with defence, healthcare, nuclear, agriculture, and other verticals. Their VCCI simulation software supports STANAG 4586 (UAV Control) among many military protocols, but there is no clearly UXV-specific product line."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "VCCI",
+        "product_type": "military simulation-to-C2 middleware software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0185",
+            "line_start": 14,
+            "line_end": 15,
+            "url": "https://www.calian.com/defence/military-training-simulation/vcci",
+            "page_class": "other",
+            "snippet": "**Advanced interoperability solution for military training and analysis**\nVCCI supports military users by mediating data between simulators and command-and-control applications."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MaestroEDE\u2122",
+        "product_type": "exercise design, development and delivery (E3D) software platform",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0152",
+            "line_start": 10,
+            "line_end": 10,
+            "url": "https://www.calian.com/defence/military-training-simulation/maestroede",
+            "page_class": "other",
+            "snippet": "MaestroEDE is Calian\u2019s innovative exercise design, development and delivery (E3D) software platform that delivers exceptional efficiency and flexibility for large-scale military exercises. Using one platform from concept to after-action review means that all activity is logical, traceable and data-driven. Its user-friendly interface allows new and experienced users to navigate easily through features and activities."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Calian ResponseReady\u00ae",
+        "product_type": "emergency exercise design and delivery platform",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0149",
+            "line_start": 3,
+            "line_end": 5,
+            "url": "https://www.calian.com/advanced-technologies/nuclear-services/calian-responseready",
+            "page_class": "other",
+            "snippet": "Calian ResponseReady\u00ae\n=====================\nAn industry-leading platform that is redefining emergency exercises through immersive, engaging simulations."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Aramis",
+        "product_type": "after-action review software for military training",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0185",
+            "line_start": 75,
+            "line_end": 76,
+            "url": "https://www.calian.com/defence/military-training-simulation/vcci",
+            "page_class": "other",
+            "snippet": "#### Aramis\nA game-changing MOTS solution for enhanced military training reviews, graphically representing complex simulation data."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0152",
+        "line_start": 10,
+        "line_end": 10,
+        "url": "https://www.calian.com/defence/military-training-simulation/maestroede",
+        "page_class": "other",
+        "snippet": "MaestroEDE is Calian\u2019s innovative exercise design, development and delivery (E3D) software platform that delivers exceptional efficiency and flexibility for large-scale military exercises. Using one platform from concept to after-action review means that all activity is logical, traceable and data-driven. Its user-friendly interface allows new and experienced users to navigate easily through features and activities."
+      }
+    ],
+    "notes": "VCCI, MaestroEDE, and ResponseReady are commercially deployed software products with live demo and purchase options, indicating production status."
+  },
+  "unresolved_questions": [
+    "No UXV-specific product pages were fetched (163 skipped/failed pages); drone-specific products or services may exist on deeper pages not crawled.",
+    "NDAA and Blue UAS compliance status not disclosed anywhere in crawled corpus.",
+    "Headquarters explicitly stated as Ottawa, Canada in a single long homepage line that exceeds the citation word cap."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.calian.com/defence/defence-manufacturing/",
+      "reason": "Would clarify whether Calian manufactures any UXV hardware or UAV-specific subsystems vs. purely service/software integration",
+      "expected_evidence": [
+        "drone_supply_chain_role",
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "guessed from homepage nav link",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "complete",
+  "tagline": "Ottawa-based systems integrator spanning defence C5ISR&T, exercise management (ResponseReady), healthcare platforms (Nexi, Corolar), and SATCOM/navigation antennas. NDAA and Blue UAS certification status unknown. Public evidence shows production-ready offerings across ground segment and communications, but limited disclosure on defence contract wins or US supply-chain integration depth.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 24,
+    "total_cost_usd": 0.5121555499999999,
+    "created_at": "2026-05-03T21:57:50+00:00",
+    "extract_version": "0.1.0"
+  }
+}

@@ -1,0 +1,440 @@
+{
+  "target_id": "totalsim-us",
+  "run_id": "canonical",
+  "display_name": "TotalSim US",
+  "homepage_url": "https://www.totalsim.us",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/totalsim-us/website",
+  "products": [
+    {
+      "name": "CFD Consulting (Uncrewed Systems)",
+      "category": "test_and_measurement",
+      "descriptor": "CFD simulation consulting services for uncrewed systems engineering",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 14,
+          "line_end": 14,
+          "url": "https://www.totalsim.us",
+          "page_class": "homepage",
+          "snippet": "    *   [CFD Consulting](https://totalsim.us/services/cfd-consulting/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 44,
+          "line_end": 44,
+          "url": "https://www.totalsim.us",
+          "page_class": "homepage",
+          "snippet": "    *   [Uncrewed Systems](https://totalsim.us/industries/ust/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "STAR-CCM+",
+      "category": "test_and_measurement",
+      "descriptor": "Siemens multiphysics CFD software resold and supported by TotalSim",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 10,
+          "line_end": 10,
+          "url": "https://www.totalsim.us",
+          "page_class": "homepage",
+          "snippet": "    *   [STAR-CCM+](https://totalsim.us/software/star-ccm/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 133,
+          "line_end": 133,
+          "url": "https://www.totalsim.us",
+          "page_class": "homepage",
+          "snippet": "[Learn About Adding STAR-CCM+ To Your Toolkit](https://totalsim.us/software/star-ccm/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "OpenFOAM CFD Support",
+      "category": "test_and_measurement",
+      "descriptor": "Expert support and consulting services for OpenFOAM CFD software",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 11,
+          "line_end": 11,
+          "url": "https://www.totalsim.us",
+          "page_class": "homepage",
+          "snippet": "    *   [OpenFOAM CFD Support](https://totalsim.us/software/openfoam-cfd-support/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Custom Software Development",
+      "category": "test_and_measurement",
+      "descriptor": "Bespoke CFD and CAE software development services",
+      "granularity": "sku",
+      "readiness": "engineering_services",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 12,
+          "line_end": 12,
+          "url": "https://www.totalsim.us",
+          "page_class": "homepage",
+          "snippet": "    *   [Custom Software Development](https://totalsim.us/software/totalsim-apps/custom-software-development/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "CAE Automation",
+      "category": "test_and_measurement",
+      "descriptor": "Automated computer-aided engineering workflow services",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 15,
+          "line_end": 15,
+          "url": "https://www.totalsim.us",
+          "page_class": "homepage",
+          "snippet": "    *   [CAE Automation](https://totalsim.us/services/cae-automation/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "CFD Training",
+      "category": "test_and_measurement",
+      "descriptor": "Professional training courses in computational fluid dynamics",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 16,
+          "line_end": 16,
+          "url": "https://www.totalsim.us",
+          "page_class": "homepage",
+          "snippet": "    *   [CFD Training](https://totalsim.us/services/training/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "CFD IT Solutions",
+      "category": "test_and_measurement",
+      "descriptor": "IT infrastructure and support services for CFD computing environments",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 17,
+          "line_end": 17,
+          "url": "https://www.totalsim.us",
+          "page_class": "homepage",
+          "snippet": "    *   [CFD IT Solutions](https://totalsim.us/services/cfd-it-solutions/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "3D Scanning",
+      "category": "test_and_measurement",
+      "descriptor": "3D scanning services for geometry capture and CAD model creation",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 18,
+          "line_end": 18,
+          "url": "https://www.totalsim.us",
+          "page_class": "homepage",
+          "snippet": "    *   [3D Scanning](https://totalsim.us/services/3d-scanning/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Physical Testing",
+      "category": "test_and_measurement",
+      "descriptor": "Physical aerodynamic and flow testing services",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 19,
+          "line_end": 19,
+          "url": "https://www.totalsim.us",
+          "page_class": "homepage",
+          "snippet": "    *   [Physical Testing](https://totalsim.us/services/physical-testing/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "California Air Resources Board (CARB) CFD Testing",
+      "category": "test_and_measurement",
+      "descriptor": "CFD-based aerodynamic testing service for CARB regulatory compliance",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 20,
+          "line_end": 20,
+          "url": "https://www.totalsim.us",
+          "page_class": "homepage",
+          "snippet": "    *   [California Air Resources Board (CARB) CFD Testing](https://totalsim.us/services/california-air-resources-board-carb-cfd-testing/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "TS Aero",
+      "category": "test_and_measurement",
+      "descriptor": "Web-based CFD aerodynamics simulation app for aerospace applications",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 47,
+          "line_end": 47,
+          "url": "https://www.totalsim.us",
+          "page_class": "homepage",
+          "snippet": "    *   [TS Aero](https://totalsim.us/software/totalsim-apps/aero-app/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "TS Auto",
+      "category": "test_and_measurement",
+      "descriptor": "Web-based CFD simulation app for automotive aerodynamics",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 48,
+          "line_end": 48,
+          "url": "https://www.totalsim.us",
+          "page_class": "homepage",
+          "snippet": "    *   [TS Auto](https://totalsim.us/software/totalsim-apps/automotive-app/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "TS Truck",
+      "category": "test_and_measurement",
+      "descriptor": "Web-based CFD simulation app for commercial truck aerodynamics",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 49,
+          "line_end": 49,
+          "url": "https://www.totalsim.us",
+          "page_class": "homepage",
+          "snippet": "    *   [TS Truck](https://totalsim.us/software/totalsim-apps/truck-app/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "TS Fan",
+      "category": "test_and_measurement",
+      "descriptor": "Web-based CFD simulation app for fan and turbomachinery analysis",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 50,
+          "line_end": 50,
+          "url": "https://www.totalsim.us",
+          "page_class": "homepage",
+          "snippet": "    *   [TS Fan](https://totalsim.us/software/totalsim-apps/fan-app/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "TS Results",
+      "category": "test_and_measurement",
+      "descriptor": "Web-based CFD results visualization and post-processing app",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 51,
+          "line_end": 51,
+          "url": "https://www.totalsim.us",
+          "page_class": "homepage",
+          "snippet": "    *   [TS Results](https://totalsim.us/software/totalsim-apps/ts-results/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 134,
+          "line_end": 134,
+          "url": "https://www.totalsim.us",
+          "page_class": "homepage",
+          "snippet": "**\"_TotalSim's expertise in CFD and Aerodynamics is leading-class. The team particularly knows how to solve problems in uncharted waters...I firmly believe the PostPro and Results Manager tools are among TotalSim's best products._\"**"
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "Only the homepage (resource-0001) was fetched; all 15 products are confirmed by name from the nav/services sections but no detail-page evidence exists for descriptors, readiness, NDAA, or Blue UAS.",
+    "'CFD Consulting (Uncrewed Systems)' appears to be the general CFD Consulting service (https://totalsim.us/services/cfd-consulting/) applied to the Uncrewed Systems industry vertical (https://totalsim.us/industries/ust/), not a separately branded product \u2014 the homepage does not combine these terms into one named offering.",
+    "STAR-CCM+ is a Siemens Digital Industries product; TotalSim is an official reseller/support partner, not the developer \u2014 readiness 'production' reflects reseller availability.",
+    "TS Apps (TS Aero, TS Auto, TS Truck, TS Fan, TS Results) appear to be login-gated SaaS apps; detail pages were not fetched so full capability descriptions are unknown."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://totalsim.us/industries/ust",
+      "reason": "Industry page for Uncrewed Systems \u2014 needed to confirm CFD Consulting scope and any UST-specific service offerings.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://totalsim.us/services/cfd-consulting",
+      "reason": "Detail page for CFD Consulting service \u2014 needed for full descriptor and any NDAA/compliance claims.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://totalsim.us/software/star-ccm",
+      "reason": "Detail page for STAR-CCM+ resale offering \u2014 needed for licensing terms, NDAA status, and full descriptor.",
+      "expected_evidence": [
+        "products",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://totalsim.us/software/totalsim-apps/aero-app",
+      "reason": "Detail page for TS Aero app \u2014 needed for capability description and readiness confirmation.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://totalsim.us/software/totalsim-apps/ts-results",
+      "reason": "Detail page for TS Results app \u2014 mentioned as one of TotalSim's best products in a testimonial; needs full description.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://totalsim.us/software/totalsim-apps/fan-app",
+      "reason": "Detail page for TS Fan app \u2014 needed for capability description.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://totalsim.us/services/physical-testing",
+      "reason": "Detail page for Physical Testing service \u2014 needed to confirm physical test capabilities (wind tunnel, instrumentation, etc.).",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://totalsim.us/services/california-air-resources-board-carb-cfd-testing",
+      "reason": "Detail page for CARB CFD Testing service \u2014 needed for compliance scope and full descriptor.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=news",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 20,
+    "total_cost_usd": 0.6521370500000001,
+    "created_at": "2026-05-04T07:03:33+00:00",
+    "extract_version": "0.1.0"
+  }
+}

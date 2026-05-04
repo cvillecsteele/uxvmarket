@@ -1,0 +1,378 @@
+{
+  "target_id": "kratos-defense-security-solutions",
+  "run_id": "canonical",
+  "display_name": "Kratos Defense & Security Solutions",
+  "homepage_url": "https://www.kratosdefense.com/products/uav/air/flight-termination-and-range-safety/turnkey-flight-termination-systems/portable-flight-termination-system",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/kratos-defense-security-solutions/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "airframes",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 160,
+            "line_end": 160,
+            "url": "https://www.kratosdefense.com/products/uav/air/flight-termination-and-range-safety/turnkey-flight-termination-systems/portable-flight-termination-system",
+            "page_class": "homepage",
+            "snippet": "Operating for decades, Kratos is a world leader in designing and engineering jet-powered, high-performance unmanned aerial vehicles (UAVs), avionics, and mission systems. Kratos also delivers approved target systems for the Patriot surface-to-air missile system and high-performance systems for the U.S. Army, Navy, and Air Force, as well as our international allies."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 169,
+            "line_end": 169,
+            "url": "https://www.kratosdefense.com/products/uav/air/flight-termination-and-range-safety/turnkey-flight-termination-systems/portable-flight-termination-system",
+            "page_class": "homepage",
+            "snippet": "The Kratos unmanned aerial system (UAS) legacy started over 20 years ago by developing state-of-the-art, high-performance aerial target drones. Kratos offers some of the most capable multi-use aerial target systems, able to represent current and future threats."
+          }
+        ],
+        "notes": "Kratos designs and manufactures complete jet-powered UAV platforms including aerial target drones and uncrewed tactical aircraft."
+      },
+      {
+        "category": "flight_termination",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 187,
+            "line_end": 190,
+            "url": "https://www.kratosdefense.com/products/uav/air/flight-termination-and-range-safety/turnkey-flight-termination-systems/portable-flight-termination-system",
+            "page_class": "homepage",
+            "snippet": "Ground Equipment\n----------------\nKratos\u2019 modular range safety and target control systems feature flight termination, weapon scoring, and advanced command for mission adaptability.\n[Explore Ground Equipment](https://www.kratosdefense.com/unmanned-systems/air/ground-equipment/)"
+          }
+        ],
+        "notes": "Ground Equipment section explicitly mentions flight termination systems for range safety. Target URL was the Portable Flight Termination System product page."
+      },
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 21,
+            "line_end": 22,
+            "url": "https://www.kratosdefense.com/products/uav/air/flight-termination-and-range-safety/turnkey-flight-termination-systems/portable-flight-termination-system",
+            "page_class": "homepage",
+            "snippet": "        *   [GEK Engines](https://www.kratosdefense.com/propulsion-power/turbine-propulsion/gek)\n        *   [Spartan Engines](https://www.kratosdefense.com/propulsion-power/turbine-propulsion/spartan)"
+          }
+        ],
+        "notes": "GEK and Spartan turbine engines for UAV propulsion."
+      },
+      {
+        "category": "flight_and_vehicle_control",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 184,
+            "line_end": 185,
+            "url": "https://www.kratosdefense.com/products/uav/air/flight-termination-and-range-safety/turnkey-flight-termination-systems/portable-flight-termination-system",
+            "page_class": "homepage",
+            "snippet": "Kratos designs and delivers trusted, high-reliability avionics and control systems, enabling advanced missions and autonomy in high-performance uncrewed aircraft.\n[Explore Avionics](https://www.kratosdefense.com/unmanned-systems/air/avionics-mission-systems/)"
+          }
+        ],
+        "notes": "Avionics and mission systems for uncrewed aircraft."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Primary business is complete UAV OEM (aerial targets + tactical aircraft). Secondary categories confirmed from fetched pages; additional categories (EW, comms) plausible but not confirmed from product pages (all skipped_class_budget)."
+  },
+  "headquarters": {
+    "value": {
+      "city": "San Diego",
+      "state_or_province": "California",
+      "country": "United States",
+      "address": null
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0017",
+        "line_start": 246,
+        "line_end": 246,
+        "url": "https://www.kratosdefense.com/hypersonics/mil-spec-hardware-subsystems",
+        "page_class": "product",
+        "snippet": "SAN DIEGO , June 12, 2025 (GLOBE NEWSWIRE) \u2014 Kratos Defense & Security\u2026"
+      }
+    ],
+    "notes": "2025 press release dateline reads SAN DIEGO. Corroborated by 2007 and 2008 press releases also filed from San Diego."
+  },
+  "drone_supply_chain_role": {
+    "value": "oem",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0005",
+        "line_start": 160,
+        "line_end": 160,
+        "url": "https://www.kratosdefense.com/products/uav/air/flight-termination-and-range-safety/turnkey-flight-termination-systems/portable-flight-termination-system",
+        "page_class": "homepage",
+        "snippet": "Operating for decades, Kratos is a world leader in designing and engineering jet-powered, high-performance unmanned aerial vehicles (UAVs), avionics, and mission systems. Kratos also delivers approved target systems for the Patriot surface-to-air missile system and high-performance systems for the U.S. Army, Navy, and Air Force, as well as our international allies."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0005",
+        "line_start": 174,
+        "line_end": 174,
+        "url": "https://www.kratosdefense.com/products/uav/air/flight-termination-and-range-safety/turnkey-flight-termination-systems/portable-flight-termination-system",
+        "page_class": "homepage",
+        "snippet": "Kratos meets the needs of the U.S. Department of Defense and America\u2019s allies by delivering advanced unmanned tactical aerial platforms for quick, runway-independent UAV support."
+      }
+    ],
+    "notes": "Kratos designs and delivers complete UAS platforms (BQM series, XQ-58A/Valkyrie, Mako, Firejet) for the U.S. military. Also produces in-house propulsion, avionics, and flight termination systems for their own platforms."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "BQM-167",
+        "product_type": "aerial target drone",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 34,
+            "line_end": 34,
+            "url": "https://www.kratosdefense.com/products/uav/air/flight-termination-and-range-safety/turnkey-flight-termination-systems/portable-flight-termination-system",
+            "page_class": "homepage",
+            "snippet": "                *   [BQM 167](https://www.kratosdefense.com/unmanned-systems/air/aerial-targets/bqm167)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "BQM-177",
+        "product_type": "aerial target drone",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 35,
+            "line_end": 35,
+            "url": "https://www.kratosdefense.com/products/uav/air/flight-termination-and-range-safety/turnkey-flight-termination-systems/portable-flight-termination-system",
+            "page_class": "homepage",
+            "snippet": "                *   [BQM-177](https://www.kratosdefense.com/unmanned-systems/air/aerial-targets/bqm177)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Firejet",
+        "product_type": "aerial target drone",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 36,
+            "line_end": 36,
+            "url": "https://www.kratosdefense.com/products/uav/air/flight-termination-and-range-safety/turnkey-flight-termination-systems/portable-flight-termination-system",
+            "page_class": "homepage",
+            "snippet": "                *   [Firejet](https://www.kratosdefense.com/unmanned-systems/air/aerial-targets/firejet)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "XQ-58A",
+        "product_type": "uncrewed tactical aircraft",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 38,
+            "line_end": 38,
+            "url": "https://www.kratosdefense.com/products/uav/air/flight-termination-and-range-safety/turnkey-flight-termination-systems/portable-flight-termination-system",
+            "page_class": "homepage",
+            "snippet": "                *   [XQ-58A](https://www.kratosdefense.com/unmanned-systems/air/uncrewed-tactical-aircraft/xq-58a)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Mako",
+        "product_type": "uncrewed tactical aircraft",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 39,
+            "line_end": 39,
+            "url": "https://www.kratosdefense.com/products/uav/air/flight-termination-and-range-safety/turnkey-flight-termination-systems/portable-flight-termination-system",
+            "page_class": "homepage",
+            "snippet": "                *   [Mako](https://www.kratosdefense.com/unmanned-systems/air/uncrewed-tactical-aircraft/mako)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0033",
+            "line_start": 170,
+            "line_end": 170,
+            "url": "https://www.kratosdefense.com/newsroom/aerovironment-and-kratos-team-to-demonstrate-integrated-high-performance-tactical-uas-and-tactical-missile-system-capabilities",
+            "page_class": "news",
+            "snippet": "Kratos\u2019 UTAP-22 Mako in flight (Photo: Kratos Defense & Security Systems, Inc.)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Tactical Firejet",
+        "product_type": "uncrewed tactical aircraft",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 40,
+            "line_end": 40,
+            "url": "https://www.kratosdefense.com/products/uav/air/flight-termination-and-range-safety/turnkey-flight-termination-systems/portable-flight-termination-system",
+            "page_class": "homepage",
+            "snippet": "                *   [Tactical Firejet](https://www.kratosdefense.com/unmanned-systems/air/uncrewed-tactical-aircraft/tactical-firejet)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "GEK Engines",
+        "product_type": "turbine engine for UAVs/aircraft",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 21,
+            "line_end": 21,
+            "url": "https://www.kratosdefense.com/products/uav/air/flight-termination-and-range-safety/turnkey-flight-termination-systems/portable-flight-termination-system",
+            "page_class": "homepage",
+            "snippet": "        *   [GEK Engines](https://www.kratosdefense.com/propulsion-power/turbine-propulsion/gek)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Spartan Engines",
+        "product_type": "turbine engine for UAVs/aircraft",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 22,
+            "line_end": 22,
+            "url": "https://www.kratosdefense.com/products/uav/air/flight-termination-and-range-safety/turnkey-flight-termination-systems/portable-flight-termination-system",
+            "page_class": "homepage",
+            "snippet": "        *   [Spartan Engines](https://www.kratosdefense.com/propulsion-power/turbine-propulsion/spartan)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Additional products (Oriole/Zeus rocket motors, specific FTS models) exist on skipped pages."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA Section 848/889 claim found anywhere in the fetched corpus."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS / Blue sUAS claim found anywhere in the fetched corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0005",
+        "line_start": 160,
+        "line_end": 160,
+        "url": "https://www.kratosdefense.com/products/uav/air/flight-termination-and-range-safety/turnkey-flight-termination-systems/portable-flight-termination-system",
+        "page_class": "homepage",
+        "snippet": "Operating for decades, Kratos is a world leader in designing and engineering jet-powered, high-performance unmanned aerial vehicles (UAVs), avionics, and mission systems. Kratos also delivers approved target systems for the Patriot surface-to-air missile system and high-performance systems for the U.S. Army, Navy, and Air Force, as well as our international allies."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0017",
+        "line_start": 166,
+        "line_end": 166,
+        "url": "https://www.kratosdefense.com/hypersonics/mil-spec-hardware-subsystems",
+        "page_class": "product",
+        "snippet": "Kratos has over 550,000 square feet of manufacturing space dedicated to ground support hardware fabrication."
+      }
+    ],
+    "notes": "Kratos delivers multiple programs of record to U.S. Army, Navy, and Air Force (BQM series approved target systems, XQ-58A flight test series). Over 550,000 sq ft of dedicated manufacturing space."
+  },
+  "unresolved_questions": [
+    "Specific NDAA Sec 848/889 compliance status not stated on any fetched page",
+    "Blue UAS cleared list status not mentioned anywhere in corpus",
+    "Portable Flight Termination System product page (target URL) redirected to parent category page \u2014 specific product details not captured"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.kratosdefense.com/unmanned-systems/air/uncrewed-tactical-aircraft/xq-58a",
+      "reason": "Would provide XQ-58A Valkyrie product specifications, confirm production status, and distinguish OEM vs subsystem roles for this flagship platform.",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=capability",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.kratosdefense.com/unmanned-systems/air/ground-equipment",
+      "reason": "Would confirm specific FTS product names (Portable Flight Termination System, etc.) and ground equipment catalog relevant to flight_termination category \u2014 the target URL pointed here.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=capability",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.kratosdefense.com/unmanned-systems/air/aerial-targets/bqm167",
+      "reason": "Would confirm BQM-167 production contract details, specs, and confirm production readiness at product level.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 23,
+    "total_cost_usd": 0.6531790500000001,
+    "created_at": "2026-05-03T15:14:50+00:00",
+    "extract_version": "0.1.0"
+  },
+  "tagline": "Designs and manufactures aerial target drones (BQM-167, BQM-177, Firejet families) for USAF/Navy weapons testing, uncrewed tactical aircraft (XQ-58A Valkyrie, Mako, Tactical Firejet) for collaborative combat, and turbine propulsion (GEK, Spartan engines) for unmanned systems. NDAA and Blue UAS certification status unknown; public evidence of production readiness across target and tactical platforms is strong, but strategic integration roadmap and allied interoperability claims lack independent validation."
+}

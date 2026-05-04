@@ -1,0 +1,268 @@
+{
+  "target_id": "draxxon",
+  "run_id": "canonical",
+  "display_name": "Draxxon",
+  "homepage_url": "https://draxxon.org",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/draxxon/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "ground_segment",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0144",
+            "line_start": 63,
+            "line_end": 63,
+            "url": "https://draxxon.org/solutions/portable-ground-control-stations",
+            "page_class": "capability",
+            "snippet": "Draxxon Portable Ground Control Stations are portable command stations integrated into a rugged Pelican case configuration. DAYLIGHT VIEWABLE DISPLAYS provide situational awareness for everyone involved in the operation and the ability to view data and imagery, in real-time. This creates an enhanced level of real time\u00a0situational awareness\u00a0not seen until now."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0144",
+            "line_start": 132,
+            "line_end": 132,
+            "url": "https://draxxon.org/solutions/portable-ground-control-stations",
+            "page_class": "capability",
+            "snippet": "When you need a lightweight, portable and rugged solution for any type of mission, Draxxon Portable Ground Control Stations are up for the task.\u00a0 With the ability to interface with virtually any type of UAS, drone, autonomous vehicle and AI enabled solutions, the small form factor solution offers the ultimate in portability and flexibility."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0143",
+            "line_start": 82,
+            "line_end": 83,
+            "url": "https://draxxon.org/solutions/mobile-command-vehicles/dx-1000-event-security-defense-system",
+            "page_class": "compliance",
+            "snippet": "![UAS command & control](https://draxxon.org/wp-content/uploads/2025/09/ressouresimg-1-2.png)\n##### UAS command & control"
+          }
+        ],
+        "notes": "Portable Ground Control Stations and Mobile Command Vehicles designed explicitly to support UAS flight operations and command-and-control for drone operators"
+      },
+      {
+        "category": "communications",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0142",
+            "line_start": 173,
+            "line_end": 173,
+            "url": "https://draxxon.org/solutions/mobile-command-vehicles",
+            "page_class": "capability",
+            "snippet": "*   ![](https://draxxon.org/wp-content/uploads/2025/09/featurecheck.png) integrated communication systems"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0143",
+            "line_start": 93,
+            "line_end": 93,
+            "url": "https://draxxon.org/solutions/mobile-command-vehicles/dx-1000-event-security-defense-system",
+            "page_class": "compliance",
+            "snippet": "Any type of communication suite can be installed into the DX units, including multi-agency systems, creating a single point of command & control resulting in clear, quick responses for everyone participating operationally."
+          }
+        ],
+        "notes": "Integrated communication suites are a core feature of all DX vehicle platforms"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "McLeansboro",
+      "state_or_province": "Illinois",
+      "country": "United States",
+      "address": "1103 West Randolph Street, McLeansboro, Illinois 62859"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0106",
+        "line_start": 77,
+        "line_end": 77,
+        "url": "https://draxxon.org/contact",
+        "page_class": "contact",
+        "snippet": "1103 West Randolph Street McLeansboro, Illinois 62859"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 152,
+        "line_end": 153,
+        "url": "https://draxxon.org",
+        "page_class": "homepage",
+        "snippet": "Headquarters & Manufacturing Facility\n##### McLeansboro, Illinois"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "integrator",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 62,
+        "line_end": 62,
+        "url": "https://draxxon.org",
+        "page_class": "homepage",
+        "snippet": "DRAXXON is a critical enabler for mission-ready mobile command and control\u2014integrating cutting-edge technology into vans, SUVs, trailers, containers, and ruggedized Pelican case configurations."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 138,
+        "line_end": 138,
+        "url": "https://draxxon.org",
+        "page_class": "homepage",
+        "snippet": "DRAXXON is a global manufacturer of high quality specialty vehicle solutions, integrating cutting edge technology into vans, SUVS, trailers, and ruggedized Pelican case configurations."
+      }
+    ],
+    "notes": "Draxxon explicitly describes itself as integrating third-party cutting-edge technology (communications, displays, computing, cameras) into vans, SUVs, trailers, and Pelican cases to create ground segment solutions for UAS and other operations."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "DX-1000",
+        "product_type": "mobile command vehicle",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0142",
+            "line_start": 63,
+            "line_end": 63,
+            "url": "https://draxxon.org/solutions/mobile-command-vehicles",
+            "page_class": "capability",
+            "snippet": "The DX-1000 Mobile Command Vehicle line is a **critical enabler** for modern command-and-control operations, delivering a comprehensive specialty vehicle platform adaptable to multiple mission roles. Built on Ford Transit or Mercedes Sprinter chassis, the DX-1000 can be configured with off-road capability for operations across any terrain."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DX-1000 ESDS",
+        "product_type": "event security defense system (mobile command vehicle)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0143",
+            "line_start": 60,
+            "line_end": 60,
+            "url": "https://draxxon.org/solutions/mobile-command-vehicles/dx-1000-event-security-defense-system",
+            "page_class": "compliance",
+            "snippet": "DX-1000 event security defense system"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DX-816",
+        "product_type": "mobile command trailer/towable",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0141",
+            "line_start": 64,
+            "line_end": 64,
+            "url": "https://draxxon.org/solutions/mobile-command-trailers-towables",
+            "page_class": "capability",
+            "snippet": "The DX-816 delivers a new level of situational awareness for all stakeholders and is designed into an 8.5\u2032 \u00d7 16\u2032 extended-height trailer, with multiple trailer lengths available. Built for adaptability and endurance, the DX-816 is now also offered with a fully electric power option\u2014supporting quiet, sustainable, and resilient field operations."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DX-100",
+        "product_type": "portable ground control station",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0144",
+            "line_start": 77,
+            "line_end": 78,
+            "url": "https://draxxon.org/solutions/portable-ground-control-stations",
+            "page_class": "capability",
+            "snippet": "#### Model Name: DX-100\n#### Orgnization: Department of Homeland Security DHS"
+          }
+        ],
+        "notes": "Model name mentioned in the portable GCS page under Public Safety application"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 142,
+        "line_end": 143,
+        "url": "https://draxxon.org",
+        "page_class": "homepage",
+        "snippet": "![Home](https://draxxon.org/wp-content/uploads/2025/09/usa-flag.png) Designed, Built &\nServiced in the USA"
+      }
+    ],
+    "notes": "No explicit NDAA Section 848/889 claim. Site displays 'Designed, Built & Serviced in the USA' \u2014 adjacent Made-in-USA claim only."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS or Blue sUAS claim found anywhere in the corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0143",
+        "line_start": 105,
+        "line_end": 105,
+        "url": "https://draxxon.org/solutions/mobile-command-vehicles/dx-1000-event-security-defense-system",
+        "page_class": "compliance",
+        "snippet": "Draxxon has its operational headquarters and production facility located in the central U.S. Every DX system is designed are constructed in-house in our secure facility; therefore, our production capabilities are quick and readily available. We also provide 24HR technical and operational support."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 118,
+        "line_end": 119,
+        "url": "https://draxxon.org",
+        "page_class": "homepage",
+        "snippet": "\u201cNot only did we use it for Hurricane Ian, but we use it almost daily for different missions and events we do. And it has really changed the way we do drone operations here in Lee County.\u201d\n\u2013 Det. Travis Daniels \u2013 Advanced Technology Support \u2013 Lee County Sheriff\u2019s Office, FL"
+      }
+    ],
+    "notes": "In-house production facility in McLeansboro IL; downloadable product catalog; real customer deployments (Lee County Sheriff, Hamilton County, Utah DOT)."
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Ground-segment integrator specializing in van and trailer-based mobile command vehicles with integrated UAS command-and-control and communications systems. Production-ready platforms including DX-1000 mobile command vehicle, DX-816/820 towable trailers, and portable Pelican case ground control stations; also offers custom engineering through Special Projects Division. Known Army Devcom user (DX-820). NDAA and Blue UAS certification status unknown; public technical specifications and performance data limited.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 18,
+    "total_cost_usd": 0.42240580000000005,
+    "created_at": "2026-05-04T01:47:42+00:00",
+    "extract_version": "0.1.0"
+  }
+}

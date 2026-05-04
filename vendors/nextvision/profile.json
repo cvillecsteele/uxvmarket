@@ -1,0 +1,407 @@
+{
+  "target_id": "nextvision",
+  "run_id": "canonical",
+  "display_name": "NextVision",
+  "homepage_url": "https://nextvision-sys.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/nextvision/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "isr_payloads",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 56,
+            "line_end": 56,
+            "url": "https://nextvision-sys.com",
+            "page_class": "homepage",
+            "snippet": "Stabilized EO/IR systems for micro and mini platforms"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0010",
+            "line_start": 53,
+            "line_end": 53,
+            "url": "https://nextvision-sys.com/about-us",
+            "page_class": "other",
+            "snippet": "NextVision develops advanced stabilized EO/IR systems that combine compact design, rugged build, and reliable performance for clear imaging in any environment. Alongside our mission applications, we provide precise data and faster decision-making directly from the video feed. With versatile accessories, our solutions integrate seamlessly across platforms, enabling effortless scaling, reduced workload, and greater operational confidence."
+          }
+        ],
+        "notes": "Stabilized EO/IR camera/gimbal systems (dual electro-optical and thermal) for micro and mini drone platforms"
+      },
+      {
+        "category": "ground_segment",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0037",
+            "line_start": 281,
+            "line_end": 288,
+            "url": "https://nextvision-sys.com/trip-series",
+            "page_class": "other",
+            "snippet": "COMPREHENSIVE SOFTWARE SUITE DRIVES MISSION SUCCESS\n#### Mission Planning\nPrepare and structure missions in the same environment they\u2019ll be executed \u2013 for maximum readiness.\n#### Video Streaming & Recording\nLive screening directly from NextVision\u2019s products, enabling\u00a0continuous monitoring of progress.\n#### **Camera Control**\nIn-house control software seamlessly integrates with NextVision\u2019s products, driving mission success.\n#### Simulation & Training"
+          }
+        ],
+        "notes": "TRIP series includes companion mission planning, camera control, and video analysis software suite (CCA2/CCA3, TRIP Discovery, TRIP Video Player Plus)"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Ra'anana",
+      "state_or_province": null,
+      "country": "Israel",
+      "address": "Dafna 9, Ra'anana, Israel 4366223"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0074",
+        "line_start": 120,
+        "line_end": 120,
+        "url": "https://nextvision-sys.com/privacy-policy",
+        "page_class": "company",
+        "snippet": "Address: **Dafna 9, Ra\u2019anana, Israel 4366223**"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 46,
+        "line_end": 46,
+        "url": "https://nextvision-sys.com",
+        "page_class": "homepage",
+        "snippet": "Specializing in advanced stabilized cameras solutions for micro and mini platforms."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0010",
+        "line_start": 53,
+        "line_end": 53,
+        "url": "https://nextvision-sys.com/about-us",
+        "page_class": "other",
+        "snippet": "NextVision develops advanced stabilized EO/IR systems that combine compact design, rugged build, and reliable performance for clear imaging in any environment. Alongside our mission applications, we provide precise data and faster decision-making directly from the video feed. With versatile accessories, our solutions integrate seamlessly across platforms, enabling effortless scaling, reduced workload, and greater operational confidence."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0010",
+        "line_start": 94,
+        "line_end": 99,
+        "url": "https://nextvision-sys.com/about-us",
+        "page_class": "other",
+        "snippet": "Trusted by leading Integrators Looking for Real Innovation\n[![](https://nextvision-sys.com/wp-content/uploads/2025/09/Pdw.webp)](https://www.pdw.ai/)\n[![](https://nextvision-sys.com/wp-content/uploads/2025/09/Brinc.webp)](https://brincdrones.com/)\n[![](https://nextvision-sys.com/wp-content/uploads/2025/09/Anduril.webp)](https://www.anduril.com/)\n[![](https://nextvision-sys.com/wp-content/uploads/2025/09/Elbit.webp)](https://www.elbitsystems.com/)\n[![](https://nextvision-sys.com/wp-content/uploads/2025/09/UVIsion.webp)](https://uvisionuav.com/)"
+      }
+    ],
+    "notes": "Sells stabilized EO/IR camera subsystems that integrate into drones made by other OEMs (customers include Elbit, IAI, Anduril, Quantum Systems, Aeronautics)"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "RAVEN 2.5",
+        "product_type": "stabilized EO/IR gimbal camera, 2kg, x80 zoom",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0074",
+            "line_start": 41,
+            "line_end": 42,
+            "url": "https://nextvision-sys.com/cameras-cpt/raven-2-5",
+            "page_class": "other",
+            "snippet": "RAVEN 2.5\n========="
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "CONDOR",
+        "product_type": "stabilized EO/IR gimbal camera, 1.5kg, x80 zoom",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0018",
+            "line_start": 41,
+            "line_end": 42,
+            "url": "https://nextvision-sys.com/cameras-cpt/condor",
+            "page_class": "other",
+            "snippet": "CONDOR\n======"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "RAPTOR",
+        "product_type": "stabilized EO/IR camera, 640g, x80 zoom",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 90,
+            "line_end": 91,
+            "url": "https://nextvision-sys.com",
+            "page_class": "homepage",
+            "snippet": "![](https://nextvision-sys.com/wp-content/uploads/2025/08/raptor-1000px.webp)\n### RAPTOR"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "NIGHTHAWK2-UZ",
+        "product_type": "stabilized EO/IR camera, 350g, x40 zoom",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 96,
+            "line_end": 97,
+            "url": "https://nextvision-sys.com",
+            "page_class": "homepage",
+            "snippet": "![](https://nextvision-sys.com/wp-content/uploads/2025/08/NH2-UZ-1000px.webp)\n### NIGHTHAWK2-UZ"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "NIGHTHAWK2-V",
+        "product_type": "stabilized EO/IR camera, 320g, x40 zoom",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 102,
+            "line_end": 103,
+            "url": "https://nextvision-sys.com",
+            "page_class": "homepage",
+            "snippet": "![](https://nextvision-sys.com/wp-content/uploads/2025/08/NH2-V-1000px.webp)\n### NIGHTHAWK2-V"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "NIGHTHAWK2",
+        "product_type": "stabilized EO/IR camera, 250g, x40 zoom",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 108,
+            "line_end": 109,
+            "url": "https://nextvision-sys.com",
+            "page_class": "homepage",
+            "snippet": "![](https://nextvision-sys.com/wp-content/uploads/2025/08/NH2-1000px.webp)\n### NIGHTHAWK2"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "STARLING",
+        "product_type": "stabilized EO/IR camera, 180g, x40 zoom",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 114,
+            "line_end": 115,
+            "url": "https://nextvision-sys.com",
+            "page_class": "homepage",
+            "snippet": "![](https://nextvision-sys.com/wp-content/uploads/2025/08/Starling-High-Res-L.webp)\n### STARLING"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "X80",
+        "product_type": "stabilized EO/IR camera, 145g, x80 zoom",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 120,
+            "line_end": 121,
+            "url": "https://nextvision-sys.com",
+            "page_class": "homepage",
+            "snippet": "![](https://nextvision-sys.com/wp-content/uploads/2025/08/x80-High-Res-L.webp)\n### X80"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DRAGONEYE2",
+        "product_type": "stabilized EO/IR camera, 125g, x40 zoom",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 127,
+            "line_end": 128,
+            "url": "https://nextvision-sys.com",
+            "page_class": "homepage",
+            "snippet": "### DRAGONEYE2\nx40"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TRIP 6 SSD",
+        "product_type": "onboard mission computer / AI processor with SSD storage",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0037",
+            "line_start": 45,
+            "line_end": 46,
+            "url": "https://nextvision-sys.com/trip-series",
+            "page_class": "other",
+            "snippet": "### TRIP 6 SSD\n![](https://nextvision-sys.com/wp-content/uploads/2025/09/TRIP6SSD.webp)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TRIP 6",
+        "product_type": "onboard mission computer / AI processor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0037",
+            "line_start": 50,
+            "line_end": 51,
+            "url": "https://nextvision-sys.com/trip-series",
+            "page_class": "other",
+            "snippet": "### TRIP 6\n![](https://nextvision-sys.com/wp-content/uploads/2025/09/Trip6.webp)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TRIP 5",
+        "product_type": "onboard mission computer / AI processor, 62g",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0037",
+            "line_start": 54,
+            "line_end": 55,
+            "url": "https://nextvision-sys.com/trip-series",
+            "page_class": "other",
+            "snippet": "[\n### TRIP 5"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TRIP 2",
+        "product_type": "onboard mission computer / AI processor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0037",
+            "line_start": 60,
+            "line_end": 61,
+            "url": "https://nextvision-sys.com/trip-series",
+            "page_class": "other",
+            "snippet": "### TRIP 2\n![](https://nextvision-sys.com/wp-content/uploads/2025/09/Trip-2-e1761229424902.webp)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA-related claims in corpus. Israeli company; NDAA compliance relevant only for US government customers."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS / Blue sUAS mention in corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 184,
+        "line_end": 184,
+        "url": "https://nextvision-sys.com",
+        "page_class": "homepage",
+        "snippet": "NextVision Announces Receipt of approximately $60M Purchase Order, delivery no later than the end of 2029"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 156,
+        "line_end": 157,
+        "url": "https://nextvision-sys.com",
+        "page_class": "homepage",
+        "snippet": "NextVision Announces Receipt of a $14.5M Purchase Order\nApril 30, 2026"
+      }
+    ],
+    "notes": "Multiple large purchase orders active including $60M and $14.5M orders; press releases document serial production deliveries across 2025-2026"
+  },
+  "unresolved_questions": [
+    "Headquarters location not disclosed in fetched pages \u2014 contact page skipped",
+    "NDAA compliance status not disclosed",
+    "Blue UAS status not disclosed"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://nextvision-sys.com/contact",
+      "reason": "Contact page would provide headquarters address/city/country for NextVision \u2014 company location not found in any fetched page",
+      "expected_evidence": [
+        "headquarters"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=contact",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Israeli maker of stabilized EO/IR gimbal cameras (125 g to 2 kg) across nine production models, plus onboard AI mission computers (TRIP series) for tracking and object detection. NDAA and Blue UAS certification status unknown. Recent press releases claim large purchase orders but lack public contract attribution or end-user verification; supply-chain integration status in US defense programs remains unclear.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 11,
+    "total_cost_usd": 0.5073804000000001,
+    "created_at": "2026-05-04T04:41:51+00:00",
+    "extract_version": "0.1.0"
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "target_id": "sightline-applications",
+  "run_id": "canonical",
+  "display_name": "SightLine Applications",
+  "homepage_url": "https://www.sightlineapplications.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/sightline-applications/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "isr_payloads",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 101,
+            "line_end": 101,
+            "url": "https://www.sightlineapplications.com",
+            "page_class": "homepage",
+            "snippet": "Real ISR. Real targets. Processed entirely at the edge. Milliseconds. Not seconds."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 95,
+            "line_end": 95,
+            "url": "https://www.sightlineapplications.com",
+            "page_class": "homepage",
+            "snippet": "Purpose built for SWaP-constrained unmanned systems & OEMs"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0105",
+            "line_start": 77,
+            "line_end": 78,
+            "url": "https://www.sightlineapplications.com/sightline_product/cortex",
+            "page_class": "product",
+            "snippet": "Designed for 1-2 video feeds running multiple AI algorithms in near real time.\nSuited for airborne, ground, and submersible applications, directly connected to a sensor or acting as a C4I node on a larger network."
+          }
+        ],
+        "notes": "Core business is embedded AI video processing hardware (OEM boards) and software (AiTR, detection, tracking, image enhancement) for ISR missions on UAS/UGV/USV platforms at the edge."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Also advertises capabilities for loitering munitions, counter-UAS, and geospatial autonomy, but those are applications enabled by their ISR payload processors rather than distinct product categories."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Portland",
+      "state_or_province": "Oregon",
+      "country": "United States",
+      "address": "5550 S. Macadam Ave., Suite 200, Portland, OR 97239"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0102",
+        "line_start": 151,
+        "line_end": 152,
+        "url": "https://www.sightlineapplications.com/contact-us",
+        "page_class": "contact",
+        "snippet": "##### Portland Office\n[5550 S. Macadam Ave., Suite 200, Portland, OR 97239](https://maps.app.goo.gl/1wQVxZhQC6k3eBHz9)"
+      }
+    ],
+    "notes": "Also has a Hood River, OR office and a Brisbane, Australia office."
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 95,
+        "line_end": 95,
+        "url": "https://www.sightlineapplications.com",
+        "page_class": "homepage",
+        "snippet": "Purpose built for SWaP-constrained unmanned systems & OEMs"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0103",
+        "line_start": 79,
+        "line_end": 79,
+        "url": "https://www.sightlineapplications.com/sightline_product/17xx-oem",
+        "page_class": "product",
+        "snippet": "The 1700-SOM, the key component of the 17xx-OEM platform, allows size-optimized integration onto customer-designed interface boards. The COTS System on Module (SOM) and OEM reference design support are provided to help customers integrate the SOM option."
+      }
+    ],
+    "notes": "Sells embedded video processing subsystems (OEM boards + integrated AI software) to drone OEMs and integrators for incorporation into ISR payloads on UAS, UGV, and USV platforms."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Cortex",
+        "product_type": "NVIDIA-based embedded edge AI video processor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0105",
+            "line_start": 76,
+            "line_end": 77,
+            "url": "https://www.sightlineapplications.com/sightline_product/cortex",
+            "page_class": "product",
+            "snippet": "**Data Exploitation at the Edge**\nDesigned for 1-2 video feeds running multiple AI algorithms in near real time."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "17xx-OEM",
+        "product_type": "NXP ARM-based ultra-low-SWaP embedded video processor (1710, 1750 variants)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0103",
+            "line_start": 74,
+            "line_end": 76,
+            "url": "https://www.sightlineapplications.com/sightline_product/17xx-oem",
+            "page_class": "product",
+            "snippet": "17xx-OEM\n========\nUltra-low-SWAP for use in the smallest systems:"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "41xx-OEM / 4100-SOM",
+        "product_type": "Qualcomm QCS7230-based embedded video processor with OEM and SOM integration options",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0104",
+            "line_start": 74,
+            "line_end": 74,
+            "url": "https://www.sightlineapplications.com/sightline_product/4100-oem-and-4100-som",
+            "page_class": "product",
+            "snippet": "4100 OEM and 4100 SOM"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0104",
+            "line_start": 81,
+            "line_end": 82,
+            "url": "https://www.sightlineapplications.com/sightline_product/4100-oem-and-4100-som",
+            "page_class": "product",
+            "snippet": "Processing power \u2013 Built on the Qualcomm QCS7230 processor\nLow Swap \u2013 50.5mm x 38.1mm x 16.5mm (2.0in x 1.5in x 0.65in), 5W."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AiTR",
+        "product_type": "AI-powered Aided Target Recognition software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 86,
+            "line_end": 87,
+            "url": "https://www.sightlineapplications.com",
+            "page_class": "homepage",
+            "snippet": "### AI Target Recognition (AiTR)\nAutomated detection, tracking and classification"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Also sells software modules (Video Capture & Encoding, Image Enhancement, Detection and Tracking) and interface/accessory boards. More product pages were skipped in the mirror."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA compliance claim or mention found in any fetched page."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS or Blue sUAS mention found in any fetched page."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 154,
+        "line_end": 154,
+        "url": "https://www.sightlineapplications.com",
+        "page_class": "homepage",
+        "snippet": "Field-proven. Ultra\u2013low-SWaP. Low latency. Open architecture. Built for live missions \u2014 not prototypes, not labs."
+      }
+    ],
+    "notes": "Catalog products with datasheets, dimensional drawings, STEP models, and software release notes (3.10.2 release Jan 2026). Explicitly states 'Built for live missions \u2014 not prototypes, not labs.'"
+  },
+  "unresolved_questions": [
+    "NDAA Section 848/889 compliance status not disclosed on fetched pages",
+    "Blue UAS cleared list status unknown",
+    "Software-only products (image enhancement, detection) not individually confirmed as named SKUs"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.sightlineapplications.com/about-sightline",
+      "reason": "Would confirm company founding, ownership, US-manufacture claims relevant to NDAA; also headquarters confirmation.",
+      "expected_evidence": [
+        "headquarters",
+        "ndaa",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://knowledge.sightlineintelligence.com/company-policy-and-sales-documents",
+      "reason": "Company Policy Documents page linked from all pages; may contain NDAA/export compliance statements.",
+      "expected_evidence": [
+        "ndaa",
+        "blue_uas"
+      ],
+      "source_hint": "crawl_index status=skipped_out_of_scope",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Edge AI video processing and target recognition for ISR, autonomous systems, and loitering munitions. Produces OEM processor boards (Qualcomm QCS7230, NXP ARM, NVIDIA-based) and AiTR detection/tracking software optimized for SWaP-constrained unmanned platforms. In production across multiple form factors from 14.7g ultra-compact to multi-feed systems. NDAA and Blue UAS certification status unknown; public contract evidence sparse.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 15,
+    "total_cost_usd": 0.44464485000000004,
+    "created_at": "2026-05-04T06:14:59+00:00",
+    "extract_version": "0.1.0"
+  }
+}

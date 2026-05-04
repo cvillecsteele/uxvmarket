@@ -1,0 +1,202 @@
+{
+  "target_id": "concorde-battery-corporation",
+  "run_id": "canonical",
+  "display_name": "Concorde Battery Corporation",
+  "homepage_url": "https://concordebattery.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/concorde-battery-corporation/website",
+  "products": [
+    {
+      "name": "Platinum Series\u00ae",
+      "category": "power_systems",
+      "descriptor": "Sealed recombinant-gas lead-acid aviation battery line",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0005",
+          "line_start": 65,
+          "line_end": 65,
+          "url": "https://concordebattery.com",
+          "page_class": "homepage",
+          "snippet": "Recognized and respected for over forty years of advanced battery design, Concorde Battery Corporation steadily built the reputation for engineering and crafting THE premium Recombinant Gas (RG\u00ae) lead acid aviation battery. Founded on a tradition of excellence, Concorde\u2019s Platinum Series\u00ae sealed lead acid batteries are universally recognized."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "RG-390E/30",
+      "category": "power_systems",
+      "descriptor": "High-capacity certified main battery upgrade for Phenom 100",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0005",
+          "line_start": 39,
+          "line_end": 41,
+          "url": "https://concordebattery.com",
+          "page_class": "homepage",
+          "snippet": "NEW! High Capacity Certified Main Battery Upgrades\nPHENOM 100\nRG-390E/30 - 2 EACH"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "RG-380E/53L",
+      "category": "power_systems",
+      "descriptor": "High-capacity certified main battery upgrade for Gulfstream GV/GV-SP",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0005",
+          "line_start": 39,
+          "line_end": 43,
+          "url": "https://concordebattery.com",
+          "page_class": "homepage",
+          "snippet": "NEW! High Capacity Certified Main Battery Upgrades\nPHENOM 100\nRG-390E/30 - 2 EACH\nGULFSTREAM GV, GV-SP\nRG-380E/53L - 2 EACH"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "RG-220",
+      "category": "power_systems",
+      "descriptor": "High-capacity certified main battery upgrade for Air Tractor aircraft",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0005",
+          "line_start": 39,
+          "line_end": 45,
+          "url": "https://concordebattery.com",
+          "page_class": "homepage",
+          "snippet": "NEW! High Capacity Certified Main Battery Upgrades\nPHENOM 100\nRG-390E/30 - 2 EACH\nGULFSTREAM GV, GV-SP\nRG-380E/53L - 2 EACH\nAIR TRACTOR MODELS\nRG-220 - 2 OR 3 EACH"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Military Batteries",
+      "category": "power_systems",
+      "descriptor": "Lead-acid aviation batteries for military applications",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0005",
+          "line_start": 29,
+          "line_end": 29,
+          "url": "https://concordebattery.com",
+          "page_class": "homepage",
+          "snippet": "Military Batteries"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0005",
+          "line_start": 71,
+          "line_end": 71,
+          "url": "https://concordebattery.com",
+          "page_class": "homepage",
+          "snippet": "Concorde\u00ae has supplied military batteries to the armed forces."
+        }
+      ],
+      "notes": "Distinct product line with its own series (seriesId=6); underlying SKUs not loaded due to JS rendering"
+    }
+  ],
+  "unresolved_questions": [
+    "The military-series search page (resource-0002, seriesId=6) and turbine-starting search page (resource-0004, seriesId=7) both returned only 'Loading...' \u2014 they are JavaScript-rendered and no SKU listings were captured. The full set of military-series and turbine-starting battery SKUs is unknown.",
+    "Individual SKU detail pages for RG-390E/30, RG-380E/53L, and RG-220 were skipped (class budget exhausted); specifications (capacity, voltage, weight) are not confirmed from the corpus.",
+    "Emergency (seriesId=10) and general-aviation (seriesId=2) battery series were not fetched; named SKUs in those lines are unknown.",
+    "No NDAA Section 848/889 compliance claims found in the fetched corpus."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://concordebattery.com/search?capacityMax=0&capacityMin=0&ippMax=0&ippMin=0&iprMax=0&iprMin=0&partNo=RG-390E%2F30&searchType=specifications&tsoApproved=false&weightMax=0&weightMin=0",
+      "reason": "Individual SKU page for RG-390E/30; would confirm specs and readiness for that product.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "skipped in crawl_index (skipped_class_budget)",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://concordebattery.com/search?capacityMax=0&capacityMin=0&ippMax=0&ippMin=0&iprMax=0&iprMin=0&partNo=RG-380E%2F53L&searchType=specifications&tsoApproved=false&weightMax=0&weightMin=0",
+      "reason": "Individual SKU page for RG-380E/53L; would confirm specs and readiness for that product.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "skipped in crawl_index (skipped_class_budget)",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://concordebattery.com/search?capacityMax=0&capacityMin=0&ippMax=0&ippMin=0&iprMax=0&iprMin=0&partNo=RG-220&searchType=specifications&tsoApproved=false&weightMax=0&weightMin=0",
+      "reason": "Individual SKU page for RG-220; would confirm specs and readiness for that product.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "skipped in crawl_index (skipped_class_budget)",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://concordebattery.com/search?searchType=specifications&seriesId=6&tag=military",
+      "reason": "Military battery series listing (seriesId=6); fetched but returned only 'Loading...' \u2014 needs JS-enabled re-fetch to enumerate military SKUs.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "fetched as resource-0002 but JS did not render",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://concordebattery.com/search?searchType=specifications&seriesId=7&tag=turbine-starting",
+      "reason": "Turbine-starting / business aviation battery series (seriesId=7); fetched but returned only 'Loading...' \u2014 needs JS-enabled re-fetch to enumerate SKUs.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "fetched as resource-0004 but JS did not render",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://concordebattery.com/search?searchType=specifications&seriesId=10&tag=emergency",
+      "reason": "Emergency / backup battery series (seriesId=10); not fetched \u2014 would enumerate SKUs in that product line.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "skipped in crawl_index (skipped_class_budget)",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://concordebattery.com/search?searchType=specifications&seriesId=2&tag=general-aviation",
+      "reason": "General aviation battery series (seriesId=2); not fetched \u2014 would enumerate SKUs in that product line.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "skipped in crawl_index (skipped_class_budget)",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 4,
+    "total_cost_usd": 0.09811519999999999,
+    "created_at": "2026-05-03T01:43:59+00:00",
+    "extract_version": "0.1.0"
+  }
+}

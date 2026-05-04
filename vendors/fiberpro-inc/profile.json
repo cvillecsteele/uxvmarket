@@ -1,0 +1,293 @@
+{
+  "target_id": "fiberpro-inc",
+  "run_id": "canonical",
+  "display_name": "FIBERPRO, Inc.",
+  "homepage_url": "https://www.fiberpro.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/fiberpro-inc/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0175",
+            "line_start": 43,
+            "line_end": 47,
+            "url": "https://fiberpro.com/products/fogInertialsystem/fogInertialsystem.php",
+            "page_class": "product",
+            "snippet": "FIBERPRO specializes in delivering cutting-edge solutions for precise motion measurement.\nExplore our Fiber Optic Gyroscopes (FOG) for accurate angular motion detection and Inertial Measurement Units (IMU) for\nprecise measurement of acceleration and angular movement in dynamic environments.\n![](https://fiberpro.com/theme/fiberpro_theme/tdea/img/pro_roll_01.png)\n![](https://fiberpro.com/theme/fiberpro_theme/tdea/img/pro_roll_02.png)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0175",
+            "line_start": 58,
+            "line_end": 62,
+            "url": "https://fiberpro.com/products/fogInertialsystem/fogInertialsystem.php",
+            "page_class": "product",
+            "snippet": "    **Satellites**\n*   ![](https://fiberpro.com/theme/fiberpro_theme/tdea/img/ty02.png)\n    **Unmanned Aerial Vehicles**\n*   ![](https://fiberpro.com/theme/fiberpro_theme/tdea/img/ty01.png)\n    **Remotely Operated Underwater Vehicles**"
+          }
+        ],
+        "notes": "Primary product lines are Fiber Optic Gyroscopes (FOG) and Inertial Measurement Units (IMU), explicitly targeting Unmanned Aerial Vehicles and Remotely Operated Underwater Vehicles. Also includes GNSS anti-jamming and integrated INS/GNSS navigation solutions."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Daejeon",
+      "state_or_province": null,
+      "country": "South Korea",
+      "address": "26-55, Gajeongbuk-ro, Yuseong-gu, DaeJeon 34113, Korea"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0010",
+        "line_start": 207,
+        "line_end": 207,
+        "url": "https://fiberpro.com/company/company.php",
+        "page_class": "company",
+        "snippet": "    *   Address26-55, Gajeongbuk-ro, Yuseong-gu, DaeJeon 34113, Korea"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 154,
+        "line_end": 154,
+        "url": "https://fiberpro.com/",
+        "page_class": "homepage",
+        "snippet": "FIBERPRO, Inc. 26-55, Gajeongbuk-ro, Yuseong-gu, DaeJeon 34113, Korea"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0175",
+        "line_start": 58,
+        "line_end": 62,
+        "url": "https://fiberpro.com/products/fogInertialsystem/fogInertialsystem.php",
+        "page_class": "product",
+        "snippet": "    **Satellites**\n*   ![](https://fiberpro.com/theme/fiberpro_theme/tdea/img/ty02.png)\n    **Unmanned Aerial Vehicles**\n*   ![](https://fiberpro.com/theme/fiberpro_theme/tdea/img/ty01.png)\n    **Remotely Operated Underwater Vehicles**"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0010",
+        "line_start": 58,
+        "line_end": 59,
+        "url": "https://fiberpro.com/company/company.php",
+        "page_class": "company",
+        "snippet": "The applications of sensors are expanding, and our product line, encompassing fiber optic gyroscopes, inertial measurement units,\nand fiber optic temperature sensing systems, is finding applications in various global industries. These include aerospace,"
+      }
+    ],
+    "notes": "Sells FOG sensors and IMUs used in UAVs (Unmanned Aerial Vehicles), ROVs, and autonomous vehicles. Does not make complete drone platforms."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "FG 150",
+        "product_type": "Single Axis Fiber Optic Gyroscope",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0120",
+            "line_start": 55,
+            "line_end": 55,
+            "url": "https://fiberpro.com/news",
+            "page_class": "news",
+            "snippet": "[FIBERPRO launches Fiber Optic based Single Axis Gyroscope, FG 150](https://fiberpro.com/news/fiberpro-launches-fiber-optic-based-single-axis-gyroscope/)"
+          }
+        ],
+        "notes": "Used for stabilization and positioning; applications include aircraft camera, AHRS integration, AGV, armoured vehicles."
+      },
+      {
+        "name": "FI 200 series (FI 200C, FI 200P, FI 210)",
+        "product_type": "Fiber Optic Gyroscope-based Inertial Measurement Unit",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0010",
+            "line_start": 139,
+            "line_end": 139,
+            "url": "https://fiberpro.com/company/company.php",
+            "page_class": "company",
+            "snippet": "**08** Developed Inertial Measurement Unit (IMU, FI200)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0010",
+            "line_start": 136,
+            "line_end": 136,
+            "url": "https://fiberpro.com/company/company.php",
+            "page_class": "company",
+            "snippet": "**2018\\. 12** Developed high performance FOG-based Inertial Measurement Unit(IMU)"
+          }
+        ],
+        "notes": "High-performance tactical-grade FOG IMU; FI 200C datasheet states ITAR FREE. Applications include autonomous vehicles and remotely operated vehicles."
+      },
+      {
+        "name": "TS3000",
+        "product_type": "Distributed Temperature Sensing System",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0166",
+            "line_start": 59,
+            "line_end": 60,
+            "url": "https://fiberpro.com/products/fibersensingsystems/fibersensingsystems.php",
+            "page_class": "product",
+            "snippet": "**TS3000**\nDistributed Temperature Sensing System"
+          }
+        ],
+        "notes": "Infrastructure monitoring (tunnels, pipelines, power plants) \u2014 not drone-specific."
+      },
+      {
+        "name": "FI3300",
+        "product_type": "FBG Interrogation System",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0166",
+            "line_start": 83,
+            "line_end": 85,
+            "url": "https://fiberpro.com/products/fibersensingsystems/fibersensingsystems.php",
+            "page_class": "product",
+            "snippet": "![](https://fiberpro.com/product_upload/product_65c1c06c50d612.78868276.png)\n**FI3300**\nFBG Interrogation System"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SAG-SS",
+        "product_type": "Space-grade Single Axis Fiber Optic Gyroscope",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0010",
+            "line_start": 105,
+            "line_end": 106,
+            "url": "https://fiberpro.com/company/company.php",
+            "page_class": "company",
+            "snippet": "**05** Supplied critical space-grade fiber optic gyroscope sensors for installation on the Korean space launch vehicle-II\n(Nuri: KSLV-II)(Successfully launch on May 25st)"
+          }
+        ],
+        "notes": "Space-grade FOG; supplied for Korean space launch vehicle KSLV-II (Nuri)."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "FOG product listing page renders empty via HTTP (JavaScript-driven). Product names confirmed from news page, company history, and PDF catalog filenames. Anti-jamming GNSS and integrated navigation products named only in images."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA Section 848/889 mention in any fetched page. FI 200C datasheet (PDF) states ITAR FREE but that is a separate designation. Company is South Korean."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS or Blue sUAS mention in any fetched page."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0010",
+        "line_start": 108,
+        "line_end": 108,
+        "url": "https://fiberpro.com/company/company.php",
+        "page_class": "company",
+        "snippet": "**11** Obtained AS9100D certification - Quality Management System for Aviation, Space and Defense Organization"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0010",
+        "line_start": 77,
+        "line_end": 80,
+        "url": "https://fiberpro.com/company/company.php",
+        "page_class": "company",
+        "snippet": "    _10,200_ SF\n    Cleanroom Area(2 bases)\n*   ![](https://fiberpro.com/theme/fiberpro_theme/tdea/img/company_icon_04.png)\n    _30_Countries _24_bases"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0010",
+        "line_start": 73,
+        "line_end": 75,
+        "url": "https://fiberpro.com/company/company.php",
+        "page_class": "company",
+        "snippet": "*   ![](https://fiberpro.com/theme/fiberpro_theme/tdea/img/company_icon_02.png)\n    _2022_\n    Year of Public Listing"
+      }
+    ],
+    "notes": "KOSDAQ-listed (2022), AS9100D certified, 10,200 SF cleanroom, 30-country distribution network. Supplies space-grade FOGs to Korean launch vehicles. Catalog SKUs with published datasheets."
+  },
+  "unresolved_questions": [
+    "Specific model names for anti-jamming GNSS and integrated navigation products not available in text pages (JavaScript-rendered product lists)",
+    "ITAR FREE claim on FI 200C datasheet (PDF only) \u2014 NDAA compliance not explicitly addressed anywhere",
+    "Possible FN205 integrated navigation product inferred from image filename but not confirmed in text"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://fiberpro.com/products/fogInertialsystem/productdetail.php?product_id=FG150",
+      "reason": "FOG product detail page for FG 150 \u2014 would confirm current specs and drone-specific application claims in text form; generic productdetail.php returned empty template.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "guessed from product listing pattern; generic productdetail.php was fetched as resource-0003 but returned empty template",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://fiberpro.com/products/fogInertialsystem/productdetail.php?product_id=FI200C",
+      "reason": "IMU product detail page \u2014 would confirm specific model name, specs, and UAV application claims in text form vs. PDF datasheet only.",
+      "expected_evidence": [
+        "products",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "guessed from product listing pattern",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://fiberpro.com/products/PNTSolutions/antijamming.php",
+      "reason": "Anti-jamming GNSS product sub-page referenced in PNT Solutions \u2014 would reveal specific model number and defense/drone applications.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "guessed from PNT Solutions sub-section image reference (antijam.png) on resource-0002",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "complete",
+  "tagline": "South Korea\u2013based sensor and navigation component supplier specializing in fiber optic gyroscopes, inertial measurement units, and positioning/navigation/timing systems. Named products include FG 150, FI 200 series, TS3000, and FI3300. In production. NDAA compliance and Blue UAS certification status unknown; public evidence of US defense contracts or programs absent.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 34,
+    "total_cost_usd": 0.9593951,
+    "created_at": "2026-05-04T02:48:43+00:00",
+    "extract_version": "0.1.0"
+  }
+}

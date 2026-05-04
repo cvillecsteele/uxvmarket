@@ -1,0 +1,120 @@
+{
+  "target_id": "genius-ny",
+  "run_id": "canonical",
+  "display_name": "GENIUS NY",
+  "homepage_url": "https://www.geniusny.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/genius-ny/website",
+  "products_categories": {
+    "items": [],
+    "confidence": "high",
+    "status": "unknown",
+    "notes": "GENIUS NY is a startup accelerator, not a UXV supplier. It has no product categories in the UXV supply chain."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Syracuse",
+      "state_or_province": "New York",
+      "country": "United States",
+      "address": "235 Harrison St., Syracuse, NY 13202"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0057",
+        "line_start": 23,
+        "line_end": 25,
+        "url": "https://geniusny.com/contact-us",
+        "page_class": "contact",
+        "snippet": "**INSPYRE Innovation Hub by CenterState**\n235 Harrison St.\nSyracuse NY 13202"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 113,
+        "line_end": 114,
+        "url": "https://geniusny.com/",
+        "page_class": "homepage",
+        "snippet": "235 Harrison St.\nSyracuse, NY 13202"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "none",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 21,
+        "line_end": 21,
+        "url": "https://geniusny.com/",
+        "page_class": "homepage",
+        "snippet": "The World\u2019s Leading Drone & Robotics Accelerator"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0019",
+        "line_start": 22,
+        "line_end": 22,
+        "url": "https://geniusny.com/about",
+        "page_class": "company",
+        "snippet": "### GENIUS NY, operated by [CenterState](https://centerstateceo.com/) and funded by Empire State Development, is a startup accelerator that invests $3M annually into seed-stage startups focused on uncrewed aerial systems, automation and advanced air mobility."
+      }
+    ],
+    "notes": "GENIUS NY is a UAS-focused startup accelerator operated by CenterState CEO and funded by Empire State Development. It invests in and supports drone/robotics startups but does not itself manufacture, sell, or supply any UXV hardware, software, or services to the drone supply chain."
+  },
+  "products": {
+    "items": [],
+    "confidence": "high",
+    "status": "not_disclosed",
+    "notes": "GENIUS NY offers no UXV products. It is an accelerator program providing funding, workspace, mentorship, and networking to drone/robotics startups."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "engineering_services",
+    "confidence": "low",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0019",
+        "line_start": 23,
+        "line_end": 23,
+        "url": "https://geniusny.com/about",
+        "page_class": "company",
+        "snippet": "#### Five finalists are selected for the GENIUS NY startup accelerator each year."
+      }
+    ],
+    "notes": "GENIUS NY is a startup accelerator with no own products or manufacturing. 'Engineering_services' is the closest available category as the organization is service-oriented."
+  },
+  "unresolved_questions": [
+    "Readiness enum does not cleanly map to an accelerator/investor organization \u2014 'engineering_services' is used as the closest proxy."
+  ],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Startup accelerator\u2014not a vendor\u2014investing $3M annually in seed-stage companies developing uncrewed aerial systems, automation, and advanced air mobility. Operates from Syracuse under Empire State Development sponsorship. No direct products or contracts enumerated; public evidence focuses on portfolio company support rather than proprietary technology development.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 11,
+    "total_cost_usd": 0.19484495000000002,
+    "created_at": "2026-05-04T02:57:04+00:00",
+    "extract_version": "0.1.0"
+  }
+}

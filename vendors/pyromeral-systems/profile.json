@@ -1,0 +1,271 @@
+{
+  "target_id": "pyromeral-systems",
+  "run_id": "canonical",
+  "display_name": "Pyromeral Systems",
+  "homepage_url": "https://www.pyromeral.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/pyromeral-systems/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "structures_and_materials",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 74,
+            "line_end": 75,
+            "url": "https://www.pyromeral.com",
+            "page_class": "homepage",
+            "snippet": " ![](//pyromeral.com/wp-content/plugins/revslider/sr6/assets/assets/dummy.png \"video-pyromeral-2026_5.jpeg\") Specialist in\nComposites and Materials for High Temperatures"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 121,
+            "line_end": 121,
+            "url": "https://www.pyromeral.com",
+            "page_class": "homepage",
+            "snippet": "Missiles and UAVs are the main applications."
+          }
+        ],
+        "notes": "Makes advanced composite parts and materials for high-temperature applications; UAV/defense stated as primary application sector"
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": null,
+      "state_or_province": null,
+      "country": "France",
+      "address": null
+    },
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 107,
+        "line_end": 107,
+        "url": "https://www.pyromeral.com",
+        "page_class": "homepage",
+        "snippet": "[![logohdf](https://pyromeral.com/wp-content/uploads/2021/06/logohdf.png)![logohdf](https://pyromeral.com/wp-content/uploads/2021/06/logohdf.png)](https://www.hautsdefrance.fr/)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 127,
+        "line_end": 127,
+        "url": "https://www.pyromeral.com",
+        "page_class": "homepage",
+        "snippet": "\u00a9 2021 Pyromeral Systems - Cr\u00e9ation Agence Peach"
+      }
+    ],
+    "notes": "Country inferred as France from French-language site, French regional partner (Hauts-de-France), French copyright text ('Cr\u00e9ation'). Contact page skipped; no explicit city/address found."
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 121,
+        "line_end": 121,
+        "url": "https://www.pyromeral.com",
+        "page_class": "homepage",
+        "snippet": "Missiles and UAVs are the main applications."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 74,
+        "line_end": 75,
+        "url": "https://www.pyromeral.com",
+        "page_class": "homepage",
+        "snippet": " ![](//pyromeral.com/wp-content/plugins/revslider/sr6/assets/assets/dummy.png \"video-pyromeral-2026_5.jpeg\") Specialist in\nComposites and Materials for High Temperatures"
+      }
+    ],
+    "notes": "Makes structural composite parts/materials for UAVs and missiles; not a complete platform OEM."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Structural Heat-Resistant Composites and Fire Barriers",
+        "product_type": "high-temperature composite structural parts and fire barrier materials",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 5,
+            "line_end": 5,
+            "url": "https://www.pyromeral.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Structural Heat-Resistant Composites and Fire Barriers](https://pyromeral.com/structural-heat-resistant-composites-and-fire-barriers/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "PyroXide",
+        "product_type": "oxide/oxide composite materials",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 6,
+            "line_end": 6,
+            "url": "https://www.pyromeral.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Oxide / Oxide Composites (PyroXide)](https://pyromeral.com/oxide-oxide-composites-pyroxide/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TACTYLIT",
+        "product_type": "hot glass handling composite tooling/materials",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 7,
+            "line_end": 7,
+            "url": "https://www.pyromeral.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Hot Glass Handling (TACTYLIT)](https://pyromeral.com/hot-glass-handling-tactylit/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Custom-Made Solutions",
+        "product_type": "bespoke composite parts for high-temperature applications",
+        "confidence": "low",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 8,
+            "line_end": 8,
+            "url": "https://www.pyromeral.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Custom-Made Solutions](https://pyromeral.com/custom-made-solutions/)"
+          }
+        ],
+        "notes": "Generic offering; product page was skipped so details unknown"
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Product names visible from navigation menu; individual product pages not fetched."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA or compliance-related content on homepage. No compliance page in crawl index."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS or DIU mention anywhere in the corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 118,
+        "line_end": 118,
+        "url": "https://www.pyromeral.com",
+        "page_class": "homepage",
+        "snippet": "Pyromeral Systems is a partner of F1 teams and engines since more than 15 years. We also perform work in WRC Rally, DTM and Le Mans."
+      }
+    ],
+    "notes": "F1 racing partnership of 15+ years implies serial production. Site states they manufacture composite parts. Product page not fetched to confirm catalog SKUs."
+  },
+  "unresolved_questions": [
+    "Exact headquarters city/address \u2014 contact page was skipped",
+    "Specific UAV/drone product details on defense application page (skipped)",
+    "Whether NDAA compliance is claimed \u2014 no compliance page in corpus"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://pyromeral.com/contact",
+      "reason": "Would provide exact city, address and country for headquarters confirmation",
+      "expected_evidence": [
+        "headquarters"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=contact",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://pyromeral.com/defense-2",
+      "reason": "Defense application page would confirm UAV/drone-specific product applications and drone_supply_chain_role",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://pyromeral.com/product-pages",
+      "reason": "Product listing page would enumerate all product SKUs/families and confirm readiness level",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://pyromeral.com/new-mobilities",
+      "reason": "e-VTOL application page would confirm drone/UAM supply chain role and specific composite products for that market",
+      "expected_evidence": [
+        "products_categories",
+        "drone_supply_chain_role",
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://pyromeral.com/technology/about-us",
+      "reason": "About page would confirm headquarters location and company background",
+      "expected_evidence": [
+        "headquarters",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=capability",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "tagline": "Supplier of structural heat-resistant composites and ceramic matrix composites (PyroXide, TACTYLIT product lines) for high-temperature aerospace, defense, and space applications. France-based, in production. NDAA compliance and Blue UAS certification status unknown; public evidence of US defense contracts or allied supply-chain integration is thin.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 6,
+    "total_cost_usd": 0.29491405000000004,
+    "created_at": "2026-05-04T05:35:34+00:00",
+    "extract_version": "0.1.0"
+  }
+}

@@ -1,0 +1,341 @@
+{
+  "target_id": "skytrac-systems",
+  "run_id": "canonical",
+  "display_name": "SKYTRAC Systems",
+  "homepage_url": "https://www.skytrac.ca",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/skytrac-systems/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "communications",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 255,
+            "line_end": 257,
+            "url": "https://www.skytrac.ca",
+            "page_class": "homepage",
+            "snippet": "Aviation's Connectivity Platform\n================================\nSKYTRAC provides airtime and mission services to improve operator safety and efficiency. Our solutions empower leading brands in nearly every segment of aviation."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0062",
+            "line_start": 254,
+            "line_end": 256,
+            "url": "https://www.skytrac.ca/products/broadband-uav-satcom",
+            "page_class": "product",
+            "snippet": "Broadband Satcom Solutions for UAV\n==================================\nUAV Satcom optimized for broadband speeds with global coverage; unlock Iridium Certus\u00ae today."
+          }
+        ],
+        "notes": "Core business is satellite communications (SATCOM) terminals and data links for UAV and manned aviation, using Iridium Certus LEO constellation."
+      },
+      {
+        "category": "ground_segment",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 358,
+            "line_end": 358,
+            "url": "https://www.skytrac.ca",
+            "page_class": "homepage",
+            "snippet": "We are world leaders at the forefront of aviation technology. Our SATCOM systems are installed on over 2,500 aircraft around the world, and our SkyWeb platform boasts 7,500+ users spanning all seven continents."
+          }
+        ],
+        "notes": "SkyWeb platform provides flight following, mission monitoring, HUMS alerting, and flight data monitoring services; 7,500+ users."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Kelowna",
+      "state_or_province": "British Columbia",
+      "country": "Canada",
+      "address": "210-1631 Dickson Avenue, Kelowna, British Columbia, Canada V1Y 0B5"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0037",
+        "line_start": 410,
+        "line_end": 413,
+        "url": "https://www.skytrac.ca/company",
+        "page_class": "company",
+        "snippet": "#### Kelowna - HQ\n210-1631 Dickson Avenue\nKelowna, British Columbia\nCanada, V1Y 0B5"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 327,
+        "line_end": 329,
+        "url": "https://www.skytrac.ca",
+        "page_class": "homepage",
+        "snippet": "### **DLS-100\u2122** MIDBAND L-BAND SATCOM TERMINAL (UAV/UAM)\nA super lightweight Data Link solution for unmanned aviation, SKYTRAC\u2019s DLS-100 Satcom terminal provides up to 88 Kbps of bandwidth, enabling real-time video and data transmission from any point on the globe. Enabling real-time command and control, telemetry streaming, and photo transfer from unmanned aviation systems.\n[Learn More](https://www.skytrac.ca/products/midband-aircraft-satcom/dls100/)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0062",
+        "line_start": 261,
+        "line_end": 264,
+        "url": "https://www.skytrac.ca/products/broadband-uav-satcom",
+        "page_class": "product",
+        "snippet": "### IMS-350\u2122 \u2013 OPTIMIZED FOR UAV'S\nUAV Satcom for Iridium Certus with Onboard Server Capabilities\n--------------------------------------------------------------\nThe IMS-350 is SKYTRAC\u2019s flagship answer for UAV Satcom capabilities, providing both data link and custom onboard server capabilities for industries looking for reliable, robust, and proven global communications. Enhance your UAS with Wi-Fi, Cellular, and Satcom connectivity."
+      }
+    ],
+    "notes": "Designs and manufactures SATCOM terminal subsystems specifically for UAV/UAS platforms (IMS, DLS-100, DLS-140), plus SkyWeb mission services. Does not manufacture complete drones."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "IMS\u2122",
+        "product_type": "Broadband UAV SATCOM terminal (Iridium Certus)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0062",
+            "line_start": 261,
+            "line_end": 264,
+            "url": "https://www.skytrac.ca/products/broadband-uav-satcom",
+            "page_class": "product",
+            "snippet": "### IMS-350\u2122 \u2013 OPTIMIZED FOR UAV'S\nUAV Satcom for Iridium Certus with Onboard Server Capabilities\n--------------------------------------------------------------\nThe IMS-350 is SKYTRAC\u2019s flagship answer for UAV Satcom capabilities, providing both data link and custom onboard server capabilities for industries looking for reliable, robust, and proven global communications. Enhance your UAS with Wi-Fi, Cellular, and Satcom connectivity."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DLS-140\u2122",
+        "product_type": "Midband IP data link (4G/LTE + Iridium Certus, UAV/aircraft)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 316,
+            "line_end": 318,
+            "url": "https://www.skytrac.ca",
+            "page_class": "homepage",
+            "snippet": "### **DLS-140\u2122** MIDBAND IP DATALINK\nThis compact and versatile communications terminal offers 4G/LTE and Iridium Certus broadband satellite technology, switching between each datalink with least-cost routing software.\n[Learn More](https://www.skytrac.ca/products/midband-aircraft-satcom/dls-140/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DLS-100\u2122",
+        "product_type": "Midband L-Band SATCOM terminal for UAV/UAM",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 327,
+            "line_end": 329,
+            "url": "https://www.skytrac.ca",
+            "page_class": "homepage",
+            "snippet": "### **DLS-100\u2122** MIDBAND L-BAND SATCOM TERMINAL (UAV/UAM)\nA super lightweight Data Link solution for unmanned aviation, SKYTRAC\u2019s DLS-100 Satcom terminal provides up to 88 Kbps of bandwidth, enabling real-time video and data transmission from any point on the globe. Enabling real-time command and control, telemetry streaming, and photo transfer from unmanned aviation systems.\n[Learn More](https://www.skytrac.ca/products/midband-aircraft-satcom/dls100/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SDL-350\u2122",
+        "product_type": "Broadband L-Band SATCOM terminal (Iridium Certus, manned aviation)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 311,
+            "line_end": 313,
+            "url": "https://www.skytrac.ca",
+            "page_class": "homepage",
+            "snippet": "### SDL-350\u2122 BROADBAND L-BAND SATCOM TERMINAL\nSKYTRAC\u2019s flagship Iridium Certus Satcom terminal is capable of 704 Kbps of globally available bandwidth throughput. Gain high performance reliability, low latency communications, and broadband connectivity with the Iridium NEXT Low Earth Orbit (LEO) satellite constellation.\n[Learn More](https://www.skytrac.ca/products/broadband-aircraft-satcom/sdl-350/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ISAT-200A\u2122",
+        "product_type": "Narrowband aircraft SATCOM terminal",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 123,
+            "line_end": 123,
+            "url": "https://www.skytrac.ca",
+            "page_class": "homepage",
+            "snippet": "        [ISAT-200A\u2122](https://www.skytrac.ca/products/narrowband-aircraft-satcom/isat-200a/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Sky Connect\u2122",
+        "product_type": "Narrowband aircraft SATCOM terminal",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 124,
+            "line_end": 124,
+            "url": "https://www.skytrac.ca",
+            "page_class": "homepage",
+            "snippet": "        [Sky Connect\u2122](https://www.skytrac.ca/products/narrowband-aircraft-satcom/sky-connect/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "RockAir",
+        "product_type": "Portable SATCOM terminal",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 125,
+            "line_end": 125,
+            "url": "https://www.skytrac.ca",
+            "page_class": "homepage",
+            "snippet": "        [RockAir (Portable)](https://www.skytrac.ca/products/rockair/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ADT-5000\u2122",
+        "product_type": "Autonomous distress tracking system (GADSS compliance)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 138,
+            "line_end": 138,
+            "url": "https://www.skytrac.ca",
+            "page_class": "homepage",
+            "snippet": "        [ADT-5000\u2122](https://www.skytrac.ca/products/adt-5000/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DAL-200\u2122",
+        "product_type": "Dynamic Air Link accessory",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 133,
+            "line_end": 133,
+            "url": "https://www.skytrac.ca",
+            "page_class": "homepage",
+            "snippet": "        [Dynamic Air Link (DAL-200\u2122)](https://www.skytrac.ca/products/dynamic-air-link/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MTC-100\u2122",
+        "product_type": "Cockpit display unit and dialer",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 135,
+            "line_end": 135,
+            "url": "https://www.skytrac.ca",
+            "page_class": "homepage",
+            "snippet": "        [MTC-100\u2122](https://www.skytrac.ca/accessories/cockpit-display-unit-and-dialer/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MMU-II\u2122",
+        "product_type": "Mission Management Unit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 136,
+            "line_end": 136,
+            "url": "https://www.skytrac.ca",
+            "page_class": "homepage",
+            "snippet": "        [MMU-II\u2122](https://www.skytrac.ca/accessories/mission-management-unit-ii/)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA Sec 848/889 mention anywhere in the corpus. SKYTRAC is a Canadian company; their certifications page lists ISO 27001, ISO9001/AS9100D, and Transport Canada approvals only."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS or Blue sUAS mention anywhere in the corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 358,
+        "line_end": 358,
+        "url": "https://www.skytrac.ca",
+        "page_class": "homepage",
+        "snippet": "We are world leaders at the forefront of aviation technology. Our SATCOM systems are installed on over 2,500 aircraft around the world, and our SkyWeb platform boasts 7,500+ users spanning all seven continents."
+      }
+    ],
+    "notes": "SATCOM systems installed on over 2,500 aircraft for 800+ customers in 120+ countries; catalog SKUs sold through STC/certification programs."
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Canadian satcom and ground-segment supplier offering Iridium Certus broadband and narrowband terminals (IMS, DLS-140, DLS-100, SDL-350, ISAT-200A) for UAV and manned aircraft, plus GADSS-compliant distress tracking (ADT-5000) and cockpit interfaces. Production-ready across multiple SKUs. NDAA and Blue UAS certification status unknown; US defense market presence claimed but public contract evidence sparse.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 11,
+    "total_cost_usd": 0.36299845000000003,
+    "created_at": "2026-05-04T06:22:12+00:00",
+    "extract_version": "0.1.0"
+  }
+}

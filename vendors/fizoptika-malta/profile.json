@@ -1,0 +1,116 @@
+{
+  "target_id": "fizoptika-malta",
+  "run_id": "canonical",
+  "display_name": "Fizoptika Malta",
+  "homepage_url": "https://www.fizoptika.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/fizoptika-malta/website",
+  "products_categories": {
+    "items": [],
+    "confidence": "low",
+    "status": "unknown",
+    "notes": "No pages were fetched \u2014 homepage failed with ERR_TUNNEL_CONNECTION_FAILED. External seed metadata lists 'IMUs, Gyros & Accelerometers' under 'Avionics & electronics', strongly suggesting sensors_and_navigation, but no citable corpus text exists."
+  },
+  "headquarters": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "The target display name is 'Fizoptika Malta', implying Malta HQ, but no fetched page exists to cite."
+  },
+  "drone_supply_chain_role": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No corpus text available. Seed metadata suggests component/subsystem supplier (IMUs/Gyros), but cannot be confirmed."
+  },
+  "products": {
+    "items": [],
+    "confidence": "low",
+    "status": "unknown",
+    "notes": "No pages fetched; no product names available from corpus."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No corpus text available."
+  },
+  "unresolved_questions": [
+    "Homepage failed with ERR_TUNNEL_CONNECTION_FAILED \u2014 site may be temporarily down or blocked. Re-fetch needed for all fields.",
+    "Headquarters city/address unknown \u2014 name hints Malta but no citation available.",
+    "Product names and SKUs unknown.",
+    "NDAA/Blue UAS compliance status unknown.",
+    "Supply chain role unknown \u2014 external seed suggests IMU/gyroscope component supplier."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.fizoptika.com",
+      "reason": "Homepage failed during mirror run (ERR_TUNNEL_CONNECTION_FAILED). Re-fetching would provide product categories, HQ, supply chain role, and readiness signals.",
+      "expected_evidence": [
+        "products_categories",
+        "headquarters",
+        "drone_supply_chain_role",
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=failed, resource_id=resource-0001, page_class=homepage",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.fizoptika.com/products",
+      "reason": "Product listing page would enumerate named SKUs (IMUs, FOG gyros) and confirm component_supplier role.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role",
+        "readiness"
+      ],
+      "source_hint": "guessed",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.fizoptika.com/about",
+      "reason": "About page would confirm Malta headquarters, founding, and company overview.",
+      "expected_evidence": [
+        "headquarters",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "guessed",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.fizoptika.com/contact",
+      "reason": "Contact page would provide city/address for headquarters answer.",
+      "expected_evidence": [
+        "headquarters"
+      ],
+      "source_hint": "guessed",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "needs_more_fetches",
+  "tagline": "No public product line, certifications, contracts, or technical details available. Company role, readiness status, and NDAA/Blue UAS compliance remain undocumented in open sources. Recommend direct inquiry to assess relevance to unmanned-systems procurement.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 4,
+    "total_cost_usd": 0.12533704999999998,
+    "created_at": "2026-05-04T02:44:51+00:00",
+    "extract_version": "0.1.0"
+  }
+}

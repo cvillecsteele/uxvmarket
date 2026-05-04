@@ -1,0 +1,396 @@
+{
+  "target_id": "harwin",
+  "run_id": "canonical",
+  "display_name": "Harwin",
+  "homepage_url": "https://www.harwin.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/harwin/website",
+  "products": [
+    {
+      "name": "Kona (KA1 Series)",
+      "category": "mechanical_subsystems",
+      "descriptor": "8.50mm pitch high-reliability power connector family, up to 60A per contact",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0339",
+          "line_start": 51,
+          "line_end": 52,
+          "url": "https://www.harwin.com/products/KA1-0400005",
+          "page_class": "product",
+          "snippet": "8.50mm Pitch High-Reliability Connector - Kona\n*   Individual straight female solder contact, suitable for 8 AWG cable, up to 60A per contact nominal."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Datamate J-Tek",
+      "category": "mechanical_subsystems",
+      "descriptor": "2mm pitch high-reliability signal connector with jackscrew retention",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0402",
+          "line_start": 51,
+          "line_end": 53,
+          "url": "https://www.harwin.com/products/M80-4002042",
+          "page_class": "product",
+          "snippet": "2.00mm Pitch High-Reliability Connector - Datamate J-Tek\n*   Double Row, 3mm PC Tail connector with Hexagonal slotted jackscrews - 20 contacts (10+10).\n*   Gold finish on contact area, Tin finish on termination."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Datamate Mix-Tek",
+      "category": "mechanical_subsystems",
+      "descriptor": "High-reliability connector range supporting mixed power and signal contacts",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0388",
+          "line_start": 53,
+          "line_end": 53,
+          "url": "https://www.harwin.com/products/M80-1950005",
+          "page_class": "product",
+          "snippet": "*   Use with male crimp connectors in the Datamate J-Tek and Mix-Tek ranges."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0393",
+          "line_start": 162,
+          "line_end": 162,
+          "url": "https://www.harwin.com/products/M80-4000000F1-02-325-00-000",
+          "page_class": "news",
+          "snippet": "*   Product Datasheet - Datamate Mix-Tek range (HRi)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Datamate Power",
+      "category": "mechanical_subsystems",
+      "descriptor": "4mm pitch high-reliability power connector, up to 40A per contact",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0393",
+          "line_start": 42,
+          "line_end": 44,
+          "url": "https://www.harwin.com/products/M80-4000000F1-02-325-00-000",
+          "page_class": "news",
+          "snippet": "4.00mm Pitch High-Reliability Connector - Datamate Power\n*   Complete kit: housing (with hexagonal slotted jackscrews) with 2 x power contacts supplied loose.\n*   [Power solder contact](/products/M80-325) suitable for 12 AWG. Gold finish on contact area and termination."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Datamate L-Tek",
+      "category": "mechanical_subsystems",
+      "descriptor": "2mm pitch high-reliability connector with latch-retention mating system",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0402",
+          "line_start": 163,
+          "line_end": 164,
+          "url": "https://www.harwin.com/products/M80-4002042",
+          "page_class": "product",
+          "snippet": "*   Product Training Module - Guide to Datamate Latches (L-Tek) + Jackscrews (J-Tek) and 101Lok\n    [](https://content.harwin.com/asset/1ff89923-2a67-436f-be92-10fc16659d62/CPLJ-Product-Training-Module-Guide-to-Datamate-Latches-L-Tek-Jackscrews-J-Tek-and-101Lok.pdf)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Gecko",
+      "category": "mechanical_subsystems",
+      "descriptor": "High-reliability connector range for demanding applications",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0339",
+          "line_start": 137,
+          "line_end": 137,
+          "url": "https://www.harwin.com/products/KA1-0400005",
+          "page_class": "product",
+          "snippet": "*   Distributor part numbers for suitable cables for Datamate + Gecko + M300 & Kona"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "HRi Cable Assemblies",
+      "category": "mechanical_subsystems",
+      "descriptor": "Configurable hi-rel cable assemblies for must-not-fail applications",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 27,
+          "line_end": 29,
+          "url": "https://www.harwin.com",
+          "page_class": "homepage",
+          "snippet": "##### Discover our Cable Configurator\nSpecify hi-rel cable assemblies for your 'must not fail' applications.\n[Start Building](/cable-configurator)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "KA1-0400005",
+      "category": "mechanical_subsystems",
+      "descriptor": "Kona female 8 AWG straight solder power contact, 60A, gold finish",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0339",
+          "line_start": 49,
+          "line_end": 52,
+          "url": "https://www.harwin.com/products/KA1-0400005",
+          "page_class": "product",
+          "snippet": "Female 8 AWG Straight Solder Power Contact, loose\n=================================================\n8.50mm Pitch High-Reliability Connector - Kona\n*   Individual straight female solder contact, suitable for 8 AWG cable, up to 60A per contact nominal."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "KA1-1150005",
+      "category": "mechanical_subsystems",
+      "descriptor": "Kona male horizontal throughboard PCB power contact, 60A, gold finish",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0341",
+          "line_start": 49,
+          "line_end": 54,
+          "url": "https://www.harwin.com/products/KA1-1150005",
+          "page_class": "product",
+          "snippet": "Male Horizontal Throughboard Power Contact\n==========================================\n8.50mm Pitch High-Reliability Connector - Kona\n*   Single contact, throughboard, Horizontal orientation with 6.5mm termination.\n*   Used as the male contact in [KA1-MH1](/products?q=KA1-MH1) horizontal throughboard connectors.\n*   Gold finish on contact area and termination."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "KA1-9700200",
+      "category": "mechanical_subsystems",
+      "descriptor": "Kona 2-position straight cable aluminium metal backshell with nickel plating",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0373",
+          "line_start": 49,
+          "line_end": 52,
+          "url": "https://www.harwin.com/products/KA1-9700200",
+          "page_class": "product",
+          "snippet": "2 Pos. Straight Cable Metal Backshell for Kona\n==============================================\n8.50mm Pitch High-Reliability Connector - Kona\n*   Aluminium alloy Metal Backshell kit with nickel plating, for straight cable connectors - includes 2 metal hood halves and short screws & nuts for joining the halves."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "KA1-9600202",
+      "category": "mechanical_subsystems",
+      "descriptor": "Kona 2-position right-angle PCB mount male plug metal backshell, nickel-plated aluminium",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0367",
+          "line_start": 49,
+          "line_end": 53,
+          "url": "https://www.harwin.com/products/KA1-9600202",
+          "page_class": "product",
+          "snippet": "2 Pos. Male Plug Right-Angle Board Mount Metal Backshell for Kona\n=================================================================\n8.50mm Pitch High-Reliability Connector - Kona\n*   Aluminium alloy Metal Backshell with nickel plating, for right-angle PCB-mounted connectors. Accessory only - connectors to be purchased separately.\n*   Use with the following 2-contact male plug PCB connector [KA1-MH10205M3](/products/KA1-MH10205M3)."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "M80-4002042",
+      "category": "mechanical_subsystems",
+      "descriptor": "Datamate J-Tek 20-contact dual-row female vertical PCB connector with jackscrews",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0402",
+          "line_start": 49,
+          "line_end": 54,
+          "url": "https://www.harwin.com/products/M80-4002042",
+          "page_class": "product",
+          "snippet": "10+10 Pos. Female DIL Vertical Throughboard Conn. Jackscrews\n============================================================\n2.00mm Pitch High-Reliability Connector - Datamate J-Tek\n*   Double Row, 3mm PC Tail connector with Hexagonal slotted jackscrews - 20 contacts (10+10).\n*   Gold finish on contact area, Tin finish on termination.\n*   For complete pin numbering or pin out information, see the [Component Specification C005XX](https://content.harwin.com/m/af82fc432c606a31/original/C005-C005XX-Component-Specification-Datamate-M80-and-M83-Series-2-00mm-4-00mm-pitch-High-Reliability.pdf)."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "M80-4000000F1-02-325-00-000",
+      "category": "mechanical_subsystems",
+      "descriptor": "Datamate Power 2-position female SIL 12 AWG cable connector kit with jackscrews, 20A",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0393",
+          "line_start": 40,
+          "line_end": 44,
+          "url": "https://www.harwin.com/products/M80-4000000F1-02-325-00-000",
+          "page_class": "news",
+          "snippet": "2 Pos. Female SIL 12 AWG Cable Conn. Kit, Jackscrews\n====================================================\n4.00mm Pitch High-Reliability Connector - Datamate Power\n*   Complete kit: housing (with hexagonal slotted jackscrews) with 2 x power contacts supplied loose.\n*   [Power solder contact](/products/M80-325) suitable for 12 AWG. Gold finish on contact area and termination."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "M300",
+      "category": "mechanical_subsystems",
+      "descriptor": "High-reliability connector range for demanding applications",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0339",
+          "line_start": 137,
+          "line_end": 137,
+          "url": "https://www.harwin.com/products/KA1-0400005",
+          "page_class": "product",
+          "snippet": "*   Distributor part numbers for suitable cables for Datamate + Gecko + M300 & Kona"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "EZi Range",
+      "category": "mechanical_subsystems",
+      "descriptor": "High-reliability connector product range",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0253",
+          "line_start": 31,
+          "line_end": 34,
+          "url": "https://www.harwin.com/products",
+          "page_class": "product",
+          "snippet": "](/hri-range)[\nEZi\n](/ezi-range)[\nBBi"
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "Gecko: Only named in a document download link title ('Distributor part numbers for suitable cables for Datamate + Gecko + M300 & Kona'). No product description, pitch, contact count, or use-case details available in corpus. The dedicated page (https://www.harwin.com/hri-range/gecko) was skipped.",
+    "M300: Same situation as Gecko \u2013 named only in a document link title alongside Gecko and Kona. No product description in corpus. Dedicated page (https://www.harwin.com/hri-range/m300) was skipped.",
+    "EZi Range: Identified only from the site navigation footer as a top-level product range. Sub-pages (ezi-range/pogo-pins, ezi-range/shield-cans, ezi-range/shielding, etc.) suggest it is primarily an EMC shielding and PCB hardware range, but no page content was fetched. Descriptor is therefore a placeholder.",
+    "Datamate L-Tek: Identified only via test report and training module document titles in other products' download sections. No standalone product page in corpus; product characteristics (latch mechanism, available SKUs) unknown.",
+    "Datamate Mix-Tek: Identified via a product datasheet title and a cross-reference in M80-1950005 contact page. No dedicated product listing page fetched; full SKU range unknown."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.harwin.com/hri-range/gecko",
+      "reason": "Primary product page for Gecko connector family \u2013 needed to confirm product descriptor, pitch, contact type, and readiness. Currently only named in a document link title.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.harwin.com/hri-range/m300",
+      "reason": "Primary product page for M300 connector family \u2013 needed to confirm product descriptor, pitch, contact type, and readiness. Currently only named in a document link title.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.harwin.com/ezi-range",
+      "reason": "Top-level EZi Range page \u2013 needed to confirm what products are in this range (appears to be EMC shielding/PCB hardware based on sub-URLs) and to write an accurate descriptor.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.harwin.com/hri-range/datamate",
+      "reason": "Datamate product family page \u2013 would confirm Datamate J-Tek, L-Tek, Mix-Tek, and Power sub-families and their descriptions in one place.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget (inferred from adjacent entries)",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.harwin.com/hri-range/cable-assemblies",
+      "reason": "HRi cable assemblies product page \u2013 would confirm product scope and available configurations beyond the homepage teaser.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index line 3908",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 42,
+    "total_cost_usd": 1.2623383,
+    "created_at": "2026-05-04T03:20:38+00:00",
+    "extract_version": "0.1.0"
+  }
+}

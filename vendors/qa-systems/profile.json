@@ -1,0 +1,241 @@
+{
+  "target_id": "qa-systems",
+  "run_id": "canonical",
+  "display_name": "QA Systems",
+  "homepage_url": "https://www.qa-systems.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/qa-systems/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "test_and_measurement",
+        "is_primary": true,
+        "confidence": "low",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 180,
+            "line_end": 180,
+            "url": "https://www.qa-systems.com",
+            "page_class": "homepage",
+            "snippet": "QA Systems enables organisations to accelerate safety standards compliance with automated static analysis and verification tools for embedded software."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0387",
+            "line_start": 153,
+            "line_end": 153,
+            "url": "https://www.qa-systems.com/solutions",
+            "page_class": "capability",
+            "snippet": "###### Aerospace and defence"
+          }
+        ],
+        "notes": "QA Systems makes software-based testing and static analysis tools for embedded C/C++ code. Their tools support aerospace/defense (DO-178C, JSF AV C++) among many other sectors, but there is no UXV-specific product line. 'test_and_measurement' is the closest available category \u2014 imperfect, since the taxonomy targets hardware test equipment."
+      }
+    ],
+    "confidence": "low",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Waiblingen",
+      "state_or_province": null,
+      "country": "Germany",
+      "address": "Roggenstrasse 11, 71334 Waiblingen"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0072",
+        "line_start": 146,
+        "line_end": 149,
+        "url": "https://www.qa-systems.com/contact",
+        "page_class": "contact",
+        "snippet": "### GLOBAL HEADQUARTERS\n**QA Systems GmbH\n**Roggenstrasse 11\n71334 Waiblingen, Germany"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "broad_industrial",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 180,
+        "line_end": 180,
+        "url": "https://www.qa-systems.com",
+        "page_class": "homepage",
+        "snippet": "QA Systems enables organisations to accelerate safety standards compliance with automated static analysis and verification tools for embedded software."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0387",
+        "line_start": 153,
+        "line_end": 153,
+        "url": "https://www.qa-systems.com/solutions",
+        "page_class": "capability",
+        "snippet": "###### Aerospace and defence"
+      }
+    ],
+    "notes": "QA Systems makes embedded software testing and static analysis tools (Cantata, QA-MISRA, Astr\u00e9e, AdaTEST 95) for safety-critical software across automotive, aerospace/defense, medical, railway, energy, and industrial sectors. DO-178C and JSF AV C++ support indicate aerospace involvement, but there is no UXV-specific product line and zero drone/UAS mentions in the entire corpus."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "QA-MISRA",
+        "product_type": "static analysis tool for C/C++ coding standards compliance",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 184,
+            "line_end": 185,
+            "url": "https://www.qa-systems.com",
+            "page_class": "homepage",
+            "snippet": "##### [QA-MISRA](https://www.qa-systems.com/tools/qa-misra/)\n[Automated coding standards compliance for C/C++ code](https://www.qa-systems.com/tools/qa-misra/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Astr\u00e9e",
+        "product_type": "sound static analysis tool for C/C++ runtime errors and data races",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 187,
+            "line_end": 188,
+            "url": "https://www.qa-systems.com",
+            "page_class": "homepage",
+            "snippet": "##### [ASTR\u00c9E](https://www.qa-systems.com/tools/astree/)\n[Sound analysis proving absence of runtime errors and data races for C/C++](https://www.qa-systems.com/tools/astree/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Cantata",
+        "product_type": "automated unit and integration testing tool for C/C++",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 192,
+            "line_end": 193,
+            "url": "https://www.qa-systems.com",
+            "page_class": "homepage",
+            "snippet": "##### [CANTATA](https://www.qa-systems.com/tools/cantata/)\n[Automated unit and integration testing for C/C++ code](https://www.qa-systems.com/tools/cantata/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Cantata Hybrid",
+        "product_type": "safety standards compliance for GoogleTest suites",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 195,
+            "line_end": 196,
+            "url": "https://www.qa-systems.com",
+            "page_class": "homepage",
+            "snippet": "##### [CANTATA HYBRID](https://www.qa-systems.com/tools/cantatahybrid/)\n[Safety standards compliance for GoogleTest suites](https://www.qa-systems.com/tools/cantatahybrid/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Cantata Team Reporting",
+        "product_type": "test status management dashboard add-on",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 198,
+            "line_end": 199,
+            "url": "https://www.qa-systems.com",
+            "page_class": "homepage",
+            "snippet": "##### [CANTATA TEAM REPORTING](https://www.qa-systems.com/tools/cantata-team-reporting-add-on/)\n[Test status management dashboard add-on](https://www.qa-systems.com/tools/cantata-team-reporting-add-on/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AdaTEST 95",
+        "product_type": "automated unit and integration testing tool for Ada code",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 201,
+            "line_end": 202,
+            "url": "https://www.qa-systems.com",
+            "page_class": "homepage",
+            "snippet": "##### [ADATEST 95](https://www.qa-systems.com/tools/adatest-95/)\n[Automated unit and integration testing for Ada code](https://www.qa-systems.com/tools/adatest-95/)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 207,
+        "line_end": 209,
+        "url": "https://www.qa-systems.com",
+        "page_class": "homepage",
+        "snippet": "##### START A TRIAL\nTake our tools for a test drive with your own code and development environment:\n[![](https://www.qa-systems.com/wp-content/uploads/2020/01/Start-Trial.png \"Start-Trial.png\")](https://www.qa-systems.com/start-trial/)"
+      }
+    ],
+    "notes": "QA Systems sells commercial software tool licenses with trial downloads; products are fully catalogued with datasheets."
+  },
+  "unresolved_questions": [
+    "QA Systems has no UXV-specific products or content; inclusion in this UXV vendor database may be a false positive."
+  ],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Static analysis and automated testing tools (Cantata, Astr\u00e9e, QA-MISRA, AdaTEST 95) for C/C++ and Ada embedded software, targeting safety-critical sectors including aerospace/defense. Germany-based, production-ready, positioned for ISO 26262, IEC 61508, DO-178C compliance. NDAA and Blue UAS certification status unknown; no major US defense program wins documented in public sources.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 13,
+    "total_cost_usd": 0.32035535000000004,
+    "created_at": "2026-05-04T05:36:27+00:00",
+    "extract_version": "0.1.0"
+  }
+}

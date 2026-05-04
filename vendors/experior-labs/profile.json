@@ -1,0 +1,273 @@
+{
+  "target_id": "experior-labs",
+  "run_id": "canonical",
+  "display_name": "Experior Labs",
+  "homepage_url": "https://experiorlabs.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/experior-labs/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "test_and_measurement",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 82,
+            "line_end": 86,
+            "url": "https://experiorlabs.com",
+            "page_class": "homepage",
+            "snippet": "Testing, Certification and Qualification\nComprehensive\nTesting Services\n================\nExperior Laboratories is trusted by the world\u2019s leading manufacturers, government agencies and prime contractors to provide state of the art testing services for design verification and qualification of components and systems."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 219,
+            "line_end": 221,
+            "url": "https://experiorlabs.com",
+            "page_class": "homepage",
+            "snippet": "Vibration and Shock Testing \u2022 Thermal Vacuum\nEnvironmental Testing \u2022\u00a0Electrical and Fiber Optic Component Testing\n==================================================================================================================="
+          }
+        ],
+        "notes": "Full-service environmental, mechanical, electrical, and materials testing laboratory serving aerospace, military, space, satellite, telecom, and automotive customers."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Oxnard",
+      "state_or_province": "California",
+      "country": "United States",
+      "address": "1635 Ives Avenue, Oxnard, California 93033"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0023",
+        "line_start": 83,
+        "line_end": 88,
+        "url": "https://experiorlabs.com/contact",
+        "page_class": "contact",
+        "snippet": "**Headquarters\n**\n**Experior Laboratories, LLC**\n1635 Ives Avenue\nOxnard, California 93033\n**Phone: 805-483-3400**"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "broad_industrial",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 86,
+        "line_end": 88,
+        "url": "https://experiorlabs.com",
+        "page_class": "homepage",
+        "snippet": "Experior Laboratories is trusted by the world\u2019s leading manufacturers, government agencies and prime contractors to provide state of the art testing services for design verification and qualification of components and systems.\n**Industries Served**\n[Space](https://experiorlabs.com/space-testing/) **|** [Satellite](https://experiorlabs.com/satellite-testing/) **|** [Telecommunications](https://experiorlabs.com/telcom-testing/) **|** [Aerospace](https://experiorlabs.com/military-testing/) **|** [Military](https://experiorlabs.com/military-defense-testing/) **|** [Automotive](https://experiorlabs.com/automotive-testing/)"
+      }
+    ],
+    "notes": "Broad aerospace/military testing laboratory with no UXV-specific product line. Serves space, satellite, telecom, military/defense, and automotive markets. No mention of drones, UAS, or UAV anywhere in the corpus."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Vibration Testing",
+        "product_type": "testing service",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 34,
+            "line_end": 34,
+            "url": "https://experiorlabs.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Vibration Testing](https://experiorlabs.com/vibration-testing/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Thermal Vacuum Testing",
+        "product_type": "testing service",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 30,
+            "line_end": 30,
+            "url": "https://experiorlabs.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Thermal Vacuum Testing](https://experiorlabs.com/thermal-vacuum-testing/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Mechanical Shock Testing",
+        "product_type": "testing service",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 35,
+            "line_end": 35,
+            "url": "https://experiorlabs.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Mechanical Shock Testing](https://experiorlabs.com/mechanical-shock-testing/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Direct Field Acoustic Testing (DFAT)",
+        "product_type": "testing service",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 37,
+            "line_end": 37,
+            "url": "https://experiorlabs.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Direct Field Acoustic Testing](https://experiorlabs.com/direct-field-acoustic-testing-dfat/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "EMC Testing",
+        "product_type": "testing service",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 52,
+            "line_end": 52,
+            "url": "https://experiorlabs.com",
+            "page_class": "homepage",
+            "snippet": "        *   \u00a0 \u00a0 [EMC Testing](https://experiorlabs.com/emc-testing-military-aerospace/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Fiber Optic Testing",
+        "product_type": "testing service",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 56,
+            "line_end": 56,
+            "url": "https://experiorlabs.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Fiber Optic Testing](https://experiorlabs.com/fiber-optic-testing/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Cryogenic Testing",
+        "product_type": "testing service",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 27,
+            "line_end": 27,
+            "url": "https://experiorlabs.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Cryogenic Testing](https://experiorlabs.com/cryogenic-testing/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Salt Spray Testing",
+        "product_type": "testing service",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 43,
+            "line_end": 43,
+            "url": "https://experiorlabs.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Salt Spray Testing](https://experiorlabs.com/salt-spray-testing/)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "These are named testing service offerings from the company's catalog. The full list is larger; additional services include altitude, humidity, thermal shock, SRS shock, acceleration, transportation vibration, tensile/compression, sand/dust, RF/HIRF/lightning/ESD, X-ray, and more."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 86,
+        "line_end": 86,
+        "url": "https://experiorlabs.com",
+        "page_class": "homepage",
+        "snippet": "Experior Laboratories is trusted by the world\u2019s leading manufacturers, government agencies and prime contractors to provide state of the art testing services for design verification and qualification of components and systems."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 89,
+        "line_end": 90,
+        "url": "https://experiorlabs.com",
+        "page_class": "homepage",
+        "snippet": "[TESTING CATALOG](https://experiorlabs.com/pdfviewer/experior-capabilities-march-2026/?auto_viewer=true#page=&zoom=auto&pagemode=none)\n[Contact Us](https://experiorlabs.com/contact/) **|** [Need a Quote](https://experiorlabs.com/online-quote-request-form/)"
+      }
+    ],
+    "notes": "Established commercial test laboratory with full catalog of services, quote request system, and ongoing customer engagements across space, defense, and telecom."
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Environmental and mechanical qualification testing for space, satellite, aerospace, and defense platforms. Capabilities span vibration, shock, thermal-vacuum, EMC, HIRF, salt spray, and MIL-STD-810 methods. NDAA and Blue UAS certification status unknown; public evidence of specific prime contracts or programs limited.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 12,
+    "total_cost_usd": 0.26870965,
+    "created_at": "2026-05-04T02:38:11+00:00",
+    "extract_version": "0.1.0"
+  }
+}

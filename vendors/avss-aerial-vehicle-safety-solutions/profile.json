@@ -1,0 +1,351 @@
+{
+  "target_id": "avss-aerial-vehicle-safety-solutions",
+  "run_id": "canonical",
+  "display_name": "AVSS (Aerial Vehicle Safety Solutions)",
+  "homepage_url": "https://avss.co",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/avss-aerial-vehicle-safety-solutions/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "recovery_systems",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 92,
+            "line_end": 92,
+            "url": "https://avss.co",
+            "page_class": "homepage",
+            "snippet": "AVSS's compliant drone parachute recovery systems and flight termination systems enable your drone operations and end users to legally fly over populated areas."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0064",
+            "line_start": 95,
+            "line_end": 95,
+            "url": "https://avss.co/2025/03/https-www-avss-co-2025-03-avss-completes-astm-f3322-24a-compliance-for-dji-m30-series-drone-to-unlock-flight-over-people",
+            "page_class": "compliance",
+            "snippet": "Founded in 2017, AVSS \u2013 Aerial Vehicle Safety Solutions Inc. (AVSS) is a Canadian aerospace company commercializing drone technology for Urban Air Mobility. AVSS\u2019s current products are ASTM F3322 drone parachute recovery systems for commercial drones, independent flight termination systems, and precision-guided delivery systems for last-mile delivery."
+          }
+        ],
+        "notes": "Drone parachute recovery systems (PRS) are the core product line for multiple DJI platforms"
+      },
+      {
+        "category": "flight_termination",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0064",
+            "line_start": 95,
+            "line_end": 95,
+            "url": "https://avss.co/2025/03/https-www-avss-co-2025-03-avss-completes-astm-f3322-24a-compliance-for-dji-m30-series-drone-to-unlock-flight-over-people",
+            "page_class": "compliance",
+            "snippet": "Founded in 2017, AVSS \u2013 Aerial Vehicle Safety Solutions Inc. (AVSS) is a Canadian aerospace company commercializing drone technology for Urban Air Mobility. AVSS\u2019s current products are ASTM F3322 drone parachute recovery systems for commercial drones, independent flight termination systems, and precision-guided delivery systems for last-mile delivery."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0048",
+            "line_start": 86,
+            "line_end": 86,
+            "url": "https://avss.co/2025/01/avss-product-announcement-new-parachute-for-new-dji-matrice-4-series",
+            "page_class": "news",
+            "snippet": "The PRS-M4S\u00a0is a simple plug-and-play design. The initial launch of the PRS-M4S\u00a0includes a Parachute Recovery System (PRS), a Flight Termination System (FTS), an Automatic Triggering System (ATS), a Manual Triggering Device (MTD), and relevant regulatory documentation."
+          }
+        ],
+        "notes": "Independent flight termination systems (FTS) bundled into PRS product line"
+      },
+      {
+        "category": "ground_segment",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0097",
+            "line_start": 77,
+            "line_end": 77,
+            "url": "https://avss.co/delivery-systems",
+            "page_class": "capability",
+            "snippet": "In 2020, AVSS began to expand its product offerings with guided and unguided delivery systems for dual-use customers. These new products have been sold to commercial and government clients."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 82,
+            "line_end": 82,
+            "url": "https://avss.co",
+            "page_class": "homepage",
+            "snippet": "    [Full Stack Hardware and Software. Platform Agnostic.](https://www.avss.co/delivery-systems/ \"Full Stack Hardware and Software. Platform Agnostic.\")"
+          }
+        ],
+        "notes": "Ground control software for delivery systems allows users to preplan and automate missions"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Rothesay",
+      "state_or_province": "New Brunswick",
+      "country": "Canada",
+      "address": "P.O. Box 4451, 2 Church Ave, Rothesay, New Brunswick, E2E 5X2"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 16,
+        "line_end": 16,
+        "url": "https://avss.co",
+        "page_class": "homepage",
+        "snippet": "P.O. Box 4451, 2 Church Ave, Rothesay, New Brunswick, E2E 5X2"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0064",
+        "line_start": 95,
+        "line_end": 95,
+        "url": "https://avss.co/2025/03/https-www-avss-co-2025-03-avss-completes-astm-f3322-24a-compliance-for-dji-m30-series-drone-to-unlock-flight-over-people",
+        "page_class": "compliance",
+        "snippet": "Founded in 2017, AVSS \u2013 Aerial Vehicle Safety Solutions Inc. (AVSS) is a Canadian aerospace company commercializing drone technology for Urban Air Mobility. AVSS\u2019s current products are ASTM F3322 drone parachute recovery systems for commercial drones, independent flight termination systems, and precision-guided delivery systems for last-mile delivery."
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0064",
+        "line_start": 95,
+        "line_end": 95,
+        "url": "https://avss.co/2025/03/https-www-avss-co-2025-03-avss-completes-astm-f3322-24a-compliance-for-dji-m30-series-drone-to-unlock-flight-over-people",
+        "page_class": "compliance",
+        "snippet": "Founded in 2017, AVSS \u2013 Aerial Vehicle Safety Solutions Inc. (AVSS) is a Canadian aerospace company commercializing drone technology for Urban Air Mobility. AVSS\u2019s current products are ASTM F3322 drone parachute recovery systems for commercial drones, independent flight termination systems, and precision-guided delivery systems for last-mile delivery."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 92,
+        "line_end": 93,
+        "url": "https://avss.co",
+        "page_class": "homepage",
+        "snippet": "AVSS's compliant drone parachute recovery systems and flight termination systems enable your drone operations and end users to legally fly over populated areas.\nAVSS's guided and unguided delivery systems enable the critical resupply of strategic goods to hard-to-reach locations from autonomous and crewed aircraft."
+      }
+    ],
+    "notes": "Makes PRS, FTS, and guided delivery systems that attach to or deploy from existing (primarily DJI) drone platforms; distributes through 50+ authorized dealers and sells direct to drone manufacturers"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "PRS-M4DT",
+        "product_type": "drone parachute recovery system for DJI M4D and M4TD (DJI Dock 3)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 21,
+            "line_end": 21,
+            "url": "https://avss.co",
+            "page_class": "homepage",
+            "snippet": "Drone Parachute Recovery System for DJI Dock 3. DJI M4D and DJI M4TD"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "PRS-M4S",
+        "product_type": "drone parachute recovery system for DJI Matrice 4 Series",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0048",
+            "line_start": 83,
+            "line_end": 83,
+            "url": "https://avss.co/2025/01/avss-product-announcement-new-parachute-for-new-dji-matrice-4-series",
+            "page_class": "news",
+            "snippet": "**(Canada)**\u00a0\u2013\u00a0[AVSS \u2013 Aerial Vehicle Safety Solutions Inc.](https://avss.co/)\u00a0(AVSS) is pleased to announce the launch of the PRS-M4S, a Parachute Recovery System for the new DJI Matrice 4 Series. Compatible with the DJI\u00a0Matrice 4 Enterprise and DJI Matrice 4 Thermal."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "PRS-M3DT",
+        "product_type": "drone parachute recovery system for DJI Dock 2 (M3D/M3TD)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 33,
+            "line_end": 33,
+            "url": "https://avss.co",
+            "page_class": "homepage",
+            "snippet": "Drone Parachute Recovery System for DJI Dock 2. DJI M3D and DJI M3TD (C5 & MOC2511)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "PRS-M30",
+        "product_type": "drone parachute recovery system for DJI M30 Series",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0064",
+            "line_start": 83,
+            "line_end": 83,
+            "url": "https://avss.co/2025/03/https-www-avss-co-2025-03-avss-completes-astm-f3322-24a-compliance-for-dji-m30-series-drone-to-unlock-flight-over-people",
+            "page_class": "compliance",
+            "snippet": "[AVSS \u2013 Aerial Vehicle Safety Solutions (AVSS)](https://www.avss.co/)\u00a0is proud to announce that they have completed the third-party\u00a0testing requirements for the newly released ASTM F3322-24a with their PRS-M30, designed for the [DJI M30 Series](https://enterprise.dji.com/matrice-30)."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "PRS for DJI M300 RTK",
+        "product_type": "drone parachute recovery system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 42,
+            "line_end": 42,
+            "url": "https://avss.co",
+            "page_class": "homepage",
+            "snippet": "Drone Parachute Recovery System for DJI M300 RTK"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "PRS for DJI M350 RTK",
+        "product_type": "drone parachute recovery system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 45,
+            "line_end": 45,
+            "url": "https://avss.co",
+            "page_class": "homepage",
+            "snippet": "Drone Parachute Recovery System for DJI M350 RTK"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Parachute Pods\u2122",
+        "product_type": "replacement parachute repacking pods",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 56,
+            "line_end": 58,
+            "url": "https://avss.co",
+            "page_class": "homepage",
+            "snippet": "Parachute Pods\u2122\n![AVSS Parachute Pod](https://avss.co/wp-content/uploads/2019/12/pod-new.png)\n](/drone-parachutes/drone-parachute-pods \"Parachute Pods\u2122\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Snow Darts\u2122",
+        "product_type": "drone-deployed avalanche management solution",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0097",
+            "line_start": 77,
+            "line_end": 77,
+            "url": "https://avss.co/delivery-systems",
+            "page_class": "capability",
+            "snippet": "In 2020, AVSS began to expand its product offerings with guided and unguided delivery systems for dual-use customers. These new products have been sold to commercial and government clients."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Guided Delivery Systems",
+        "product_type": "autonomously guided resupply hardware for air-dropped delivery",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0097",
+            "line_start": 77,
+            "line_end": 77,
+            "url": "https://avss.co/delivery-systems",
+            "page_class": "capability",
+            "snippet": "In 2020, AVSS began to expand its product offerings with guided and unguided delivery systems for dual-use customers. These new products have been sold to commercial and government clients."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0064",
+        "line_start": 86,
+        "line_end": 87,
+        "url": "https://avss.co/2025/03/https-www-avss-co-2025-03-avss-completes-astm-f3322-24a-compliance-for-dji-m30-series-drone-to-unlock-flight-over-people",
+        "page_class": "compliance",
+        "snippet": "After completing the compliance testing on Friday, March 28th, AVSS turned around and shipped the first batch of parachutes to end users and dealers in North America and Europe on the same day.\nAVSS is now taking new orders for their PRS-M30, which will be delivered to customers throughout Q2, 2025."
+      }
+    ],
+    "notes": "Active production with 50+ authorized dealer network worldwide; ships same-day after compliance milestones"
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Canadian supplier of ASTM F3322- and EASA MOC 2511-compliant parachute recovery systems for DJI enterprise platforms (M200\u2013M350 series, Mavic 3E, docked systems), plus guided delivery hardware and avalanche-mitigation projectiles. Production-ready across multiple SKUs. NDAA and Blue UAS certification status unknown; public evidence of regulatory compliance is strong for European markets, limited for U.S. federal procurement pathways.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 15,
+    "total_cost_usd": 0.3536578,
+    "created_at": "2026-05-03T21:37:57+00:00",
+    "extract_version": "0.1.0"
+  }
+}

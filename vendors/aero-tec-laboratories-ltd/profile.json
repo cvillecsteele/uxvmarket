@@ -1,0 +1,321 @@
+{
+  "target_id": "aero-tec-laboratories-ltd",
+  "run_id": "canonical",
+  "display_name": "Aero Tec Laboratories, Ltd.",
+  "homepage_url": "https://www.atlltd.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/aero-tec-laboratories-ltd/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "power_systems",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0024",
+            "line_start": 10,
+            "line_end": 10,
+            "url": "https://atlinside.com/industries/aerospace/unmanned-systems-uav-uas-drones",
+            "page_class": "capability",
+            "snippet": "Lightweight fuel & liquid containment solutions for UAV/UAS/Drones."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0024",
+            "line_start": 21,
+            "line_end": 22,
+            "url": "https://atlinside.com/industries/aerospace/unmanned-systems-uav-uas-drones",
+            "page_class": "capability",
+            "snippet": "Lightweight Fuel & Liquid Containment for Unmanned/Uncrewed Systems\nLightweight Fuel & Liquid Containment for Unmanned/Uncrewed Systems"
+          }
+        ],
+        "notes": "ATL makes lightweight fuel bladders (fuel storage/containment) for UAV/UAS/drone platforms \u2014 the fuel storage component of the propulsion/power chain."
+      },
+      {
+        "category": "mechanical_subsystems",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0006",
+            "line_start": 24,
+            "line_end": 24,
+            "url": "https://atlinside.com/capabilities",
+            "page_class": "capability",
+            "snippet": "Flexible Bladder Manufacturing"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0006",
+            "line_start": 20,
+            "line_end": 20,
+            "url": "https://atlinside.com/capabilities",
+            "page_class": "capability",
+            "snippet": "Machining"
+          }
+        ],
+        "notes": "Custom-engineered precision containment vessels, machined fittings, and composite containers that integrate into UAV airframes."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Milton Keynes",
+      "state_or_province": "England",
+      "country": "United Kingdom",
+      "address": "ATL Technology Centre, Denbigh Road, Bletchley, Milton Keynes, MK1 1DF"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0019",
+        "line_start": 15,
+        "line_end": 15,
+        "url": "https://atlinside.com/contact-us",
+        "page_class": "contact",
+        "snippet": "ATL Technology Centre Denbigh Road, Bletchley Milton Keynes MK1 1DF United Kingdom"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0002",
+        "line_start": 350,
+        "line_end": 351,
+        "url": "https://atlinside.com/",
+        "page_class": "homepage",
+        "snippet": "VAT Number: GB 478070233\nCompany Registration Number: 3490552"
+      }
+    ],
+    "notes": "UK registered company (Company Reg 3490552, VAT GB 478070233). Contact page refers to Ramsey, NJ as 'USA headquarters' (the US entity) and Milton Keynes as 'UK design and manufacturing facility'; the Ltd entity is UK-based."
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0024",
+        "line_start": 37,
+        "line_end": 37,
+        "url": "https://atlinside.com/industries/aerospace/unmanned-systems-uav-uas-drones",
+        "page_class": "capability",
+        "snippet": "ATL customers include: AeroVironment, Inc. (AV), Boeing, General Atomics, General Dynamics, Griffon Aerospace, Lockheed Martin, NASA, Northrop Grumman, Raytheon, Textron Systems, Turkish Aerospace, and many more."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0024",
+        "line_start": 30,
+        "line_end": 30,
+        "url": "https://atlinside.com/industries/aerospace/unmanned-systems-uav-uas-drones",
+        "page_class": "capability",
+        "snippet": "Built for YOUR Program:"
+      }
+    ],
+    "notes": "ATL manufactures fuel bladders and liquid containment components integrated into UAV/UAS platforms by OEMs such as AeroVironment, Boeing, General Atomics, Northrop Grumman, etc."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "UAV/UAS Fuel Bladders",
+        "product_type": "custom lightweight fuel bladder systems for unmanned aerial vehicles",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0024",
+            "line_start": 10,
+            "line_end": 10,
+            "url": "https://atlinside.com/industries/aerospace/unmanned-systems-uav-uas-drones",
+            "page_class": "capability",
+            "snippet": "Lightweight fuel & liquid containment solutions for UAV/UAS/Drones."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ATL Saver Cell Series",
+        "product_type": "moulded polymer safety fuel cell",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0002",
+            "line_start": 228,
+            "line_end": 228,
+            "url": "https://atlinside.com/",
+            "page_class": "homepage",
+            "snippet": "*   [ATL Saver Cell Series](/industries/motorsport/moulded-polymer-fuel-cells-atl/atl-saver-cell-series)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ATL Racell Series",
+        "product_type": "moulded polymer safety fuel cell",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0002",
+            "line_start": 229,
+            "line_end": 229,
+            "url": "https://atlinside.com/",
+            "page_class": "homepage",
+            "snippet": "*   [ATL Racell Series](/industries/motorsport/moulded-polymer-fuel-cells-atl/atl-racell-series)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ATL Black Widow Series",
+        "product_type": "moulded polymer safety fuel cell",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0002",
+            "line_start": 233,
+            "line_end": 233,
+            "url": "https://atlinside.com/",
+            "page_class": "homepage",
+            "snippet": "*   [ATL Black Widow Series](/industries/motorsport/moulded-polymer-fuel-cells-atl/atl-black-widow-series)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Super Cell Series",
+        "product_type": "flexible composite safety fuel cell family",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0002",
+            "line_start": 234,
+            "line_end": 238,
+            "url": "https://atlinside.com/",
+            "page_class": "homepage",
+            "snippet": "*   [Super Cell 100 Series](/industries/motorsport/flexible-composite-fuel-cells/atl-super-cell-100-series)\n*   [Super Cell 200 Series](/industries/motorsport/flexible-composite-fuel-cells/super-cell-200-series)\n*   [Super Cell 300 Series](/industries/motorsport/flexible-composite-fuel-cells/super-cell-300-series)\n*   [Super Cell 400 Series (Sprint Tank)](/industries/motorsport/flexible-composite-fuel-cells/super-cell-400-series)\n*   [Super Cell 500 Series](/industries/motorsport/flexible-composite-fuel-cells/super-cell-500-series)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Defence Flexible Bladders",
+        "product_type": "flexible fuel bladder for armoured vehicles and missile systems",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0026",
+            "line_start": 17,
+            "line_end": 18,
+            "url": "https://atlinside.com/industries/defence-security",
+            "page_class": "compliance",
+            "snippet": "](/industries/defence-security/fabricated-fuel-tanks)[![](/Content/Images/atl-website-thumbnail-flexible_475x325.jpg#3416;thumbnail;475;325)\nFlexible Bladders"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Defence Fabricated Fuel Tanks",
+        "product_type": "stainless steel/aluminium fabricated fuel tanks for defence vehicles",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0026",
+            "line_start": 11,
+            "line_end": 11,
+            "url": "https://atlinside.com/industries/defence-security",
+            "page_class": "compliance",
+            "snippet": "ATL is increasingly recognised as a leading supplier to the Defence sector, supplying flexible bladders as well as stainless steel, aluminium and rotationally moulded plastic tanks into the international defence and security market, including being selected as the fuel system supplier to General Dynamics\u2019 \u2018Foxhound LPPV\u2019"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Defence Roto-Moulded Tanks",
+        "product_type": "rotationally moulded polymer tanks for defence",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0026",
+            "line_start": 22,
+            "line_end": 23,
+            "url": "https://atlinside.com/industries/defence-security",
+            "page_class": "compliance",
+            "snippet": "Roto-Moulded Tanks\nHigh-strength polymer tanks designed for rapid delivery, from simple shapes to fully integrated fuel systems."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "UAV fuel bladders are custom/bespoke with no named SKU. Named product lines are primarily in motorsport and defence."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0165",
+        "line_start": 14,
+        "line_end": 14,
+        "url": "https://atlinside.com/technology/flexible-fuel-bladder",
+        "page_class": "capability",
+        "snippet": "For decades, Aero Tec Laboratories has been at the forefront of bladder technology. The world-leader for Safety Fuel Cells in Motorsport, ATL has supplied every Formula 1 team for over 25 years and is the manufacturer of choice for all major motorsport OEMs."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0006",
+        "line_start": 36,
+        "line_end": 36,
+        "url": "https://atlinside.com/capabilities",
+        "page_class": "capability",
+        "snippet": "Production Engineering"
+      }
+    ],
+    "notes": "Established manufacturer with serial production capability; catalog SKU lines in motorsport and custom production programs for defence and UAV sectors."
+  },
+  "unresolved_questions": [
+    "NDAA Section 848/889 compliance not addressed anywhere on site",
+    "Blue UAS cleared list status not mentioned",
+    "No named UAV-specific product SKUs \u2014 all drone fuel bladders are bespoke/custom programs"
+  ],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "UK-based manufacturer of crash-resistant flexible fuel bladders and tank systems for aerospace, defence, and motorsport. Product lines include the Saver Cell, Racell, and Black Widow series for UAV/UAS applications. NDAA compliance and Blue UAS certification status unknown. Established vendor with production-ready defence-rated offerings, but public evidence of specific US unmanned-systems contracts or programs remains sparse.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 18,
+    "total_cost_usd": 0.6050928999999999,
+    "created_at": "2026-05-03T20:47:41+00:00",
+    "extract_version": "0.1.0"
+  }
+}

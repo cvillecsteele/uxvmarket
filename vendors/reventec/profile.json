@@ -1,0 +1,316 @@
+{
+  "target_id": "reventec",
+  "run_id": "canonical",
+  "display_name": "Reventec",
+  "homepage_url": "https://www.reventec.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/reventec/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 12,
+            "line_end": 12,
+            "url": "https://www.reventec.com",
+            "page_class": "homepage",
+            "snippet": "Custom Sensors & Electronics for Harsh Environments \u2013 Level | Position | Temperature | Speed | Flow"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 45,
+            "line_end": 47,
+            "url": "https://www.reventec.com",
+            "page_class": "homepage",
+            "snippet": "Liquid Level Sensors\n--------------------\nSolid-state capacitive liquid level sensors for fuel, oil, coolant and water."
+          }
+        ],
+        "notes": "Liquid level (fuel/oil/coolant/water), position (TMR rotary/linear), temperature, pressure and speed sensors sold into UAV, defence, motorsport and industrial markets. Closest available category given no 'vehicle health monitoring' bucket."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "All sensor families (level, position, temperature, pressure, speed) target vehicle/platform health monitoring. UAV is an explicit industry vertical with dedicated products."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Downton",
+      "state_or_province": "Wiltshire",
+      "country": "United Kingdom",
+      "address": "Reventec Ltd, Downton Business Centre, Downton, Salisbury, Wiltshire SP5 3HU"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 158,
+        "line_end": 158,
+        "url": "https://www.reventec.com",
+        "page_class": "homepage",
+        "snippet": "Reventec Ltd Downton Business Centre, Downton, Salisbury, Wiltshire SP5 3HU"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 62,
+        "line_end": 62,
+        "url": "https://www.reventec.com",
+        "page_class": "homepage",
+        "snippet": "Reventec is a UK-based custom sensor design and development consultancy. We harness the latest technologies in our non-contact position, capacitive liquid level and programmable temperature sensing solutions. Our products are designed for high reliability in harsh environments and are used extensively throughout **[motorsport](https://www.reventec.com/industries-custom-sensors-harsh-environments/motorsport-design-and-engineering/)**, **[defence,](https://www.reventec.com/industries/defence-security/)**\u00a0**[UAV](https://www.reventec.com/industries/unmanned-aerial-vehicles)**, **[industrial](https://www.reventec.com/industries/industrial/)**, **[automotive](https://www.reventec.com/industries/automotive/)**, **[rail](https://www.reventec.com/industries/rail/)**, **[off-highway](https://www.reventec.com/industries/off-highway-vehicles/)**, and **[marine](https://www.reventec.com/industries/marine/)** sectors."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0179",
+        "line_start": 59,
+        "line_end": 59,
+        "url": "https://www.reventec.com/product/lsm-micro",
+        "page_class": "product",
+        "snippet": "Ultra-lightweight capacitive fuel level sensor with a small footprint, designed for mil-spec UAV platforms. Available in custom sizes up to 300mm."
+      }
+    ],
+    "notes": "Designs and manufactures sensors (liquid level, position, temperature, pressure) installed as components inside UAV platforms. Explicitly supplies Alpha Unmanned Systems Alpha 900 and Shield AI V-BAT."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "LS100",
+        "product_type": "capacitive liquid level sensor (1-bolt, fuel/oil)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0166",
+            "line_start": 54,
+            "line_end": 58,
+            "url": "https://www.reventec.com/product/ls100",
+            "page_class": "product",
+            "snippet": "LS100 Liquid Level Sensor\n=========================\nLS100 Liquid Level Sensor\n=========================\nAdvanced capacitive liquid level sensor with a simple 1-bolt fixing, custom-built up to 450mm long."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "LSM-MICRO",
+        "product_type": "ultra-lightweight capacitive fuel level sensor for mil-spec UAV",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0179",
+            "line_start": 57,
+            "line_end": 59,
+            "url": "https://www.reventec.com/product/lsm-micro",
+            "page_class": "product",
+            "snippet": "Micro Mil-Spec Liquid Level Sensor\n----------------------------------\nUltra-lightweight capacitive fuel level sensor with a small footprint, designed for mil-spec UAV platforms. Available in custom sizes up to 300mm."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "LSM200",
+        "product_type": "capacitive liquid level sensor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0182",
+            "line_start": 44,
+            "line_end": 44,
+            "url": "https://www.reventec.com/product/lsm200",
+            "page_class": "product",
+            "snippet": "LSM200"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "LSM800",
+        "product_type": "capacitive liquid level sensor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0190",
+            "line_start": 44,
+            "line_end": 44,
+            "url": "https://www.reventec.com/product/lsm800",
+            "page_class": "product",
+            "snippet": "LSM800"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "LSM1000",
+        "product_type": "capacitive liquid level sensor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0181",
+            "line_start": 44,
+            "line_end": 44,
+            "url": "https://www.reventec.com/product/lsm1000",
+            "page_class": "product",
+            "snippet": "LSM1000"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "LSM200-38999",
+        "product_type": "MIL-DTL-38999 compatible capacitive liquid level sensor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0183",
+            "line_start": 44,
+            "line_end": 44,
+            "url": "https://www.reventec.com/product/lsm200-38999",
+            "page_class": "product",
+            "snippet": "LSM200-38999"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "LSM600 Heavy",
+        "product_type": "heavy-duty capacitive liquid level sensor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0189",
+            "line_start": 44,
+            "line_end": 44,
+            "url": "https://www.reventec.com/product/lsm600-heavy",
+            "page_class": "product",
+            "snippet": "LSM600-HEAVY"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Quantum 360",
+        "product_type": "TMR rotary position sensor (non-contact, IP67)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0151",
+            "line_start": 54,
+            "line_end": 58,
+            "url": "https://www.reventec.com/product/360-rotary-position-sensor-non-contact-ip67",
+            "page_class": "contact",
+            "snippet": "Quantum 360 (Single Output) TMR Rotary Position Sensor\n======================================================\nQuantum 360 (Single Output) TMR Rotary Position Sensor\n======================================================\nThe 360\u00ba TMR Rotary Position Sensor is designed to provide industry-leading accuracy and reliability in harsh environment applications, with the ability to detect through large sections of non-ferrous material."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Quantum 360 Dual Redundant",
+        "product_type": "dual-redundant TMR rotary position sensor (IP67)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0199",
+            "line_start": 44,
+            "line_end": 44,
+            "url": "https://www.reventec.com/product/quantum-360-dual-redundant-rotary-position-sensor-ip67-non-contact",
+            "page_class": "contact",
+            "snippet": "Quantum 360 (Dual Redundant) Rotary Non-Contact Position Sensor"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Mil-Spec 0-400 Bar CAN Pressure Sensor",
+        "product_type": "mil-spec CAN pressure sensor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0194",
+            "line_start": 53,
+            "line_end": 57,
+            "url": "https://www.reventec.com/product/mil-spec-pressure-sensor",
+            "page_class": "news",
+            "snippet": "Mil-Spec 0-400 Bar CAN Pressure Sensor\n======================================\nMil-Spec 0-400 Bar CAN Pressure Sensor\n======================================\nA mil-spec CAN pressure sensor with built in transmitter designed to measure pressure across a 0-400 bar (0-6000 psi) pressure measurement. With stainless steel construction, high temperature tolerance and a MIL-DTL-38999 connector this pressure sensor is an ideal drop-in solution for military vehicles."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Reventec has 28 liquid level sensor SKUs, 30 position sensor SKUs, 7 temperature sensors, plus speed and pressure sensors \u2014 only representative named products listed here."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "UK-headquartered company; no NDAA Section 848/889 mention found anywhere in corpus."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS or Blue sUAS reference found in any fetched page."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0217",
+        "line_start": 50,
+        "line_end": 52,
+        "url": "https://www.reventec.com/products",
+        "page_class": "product",
+        "snippet": "### [Liquid Level Sensors\n28 Products\n](https://www.reventec.com/product-category/liquid-level-sensors/)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0217",
+        "line_start": 54,
+        "line_end": 56,
+        "url": "https://www.reventec.com/products",
+        "page_class": "product",
+        "snippet": "### [Position Sensors\n30 Products\n](https://www.reventec.com/product-category/position-sensors/)"
+      }
+    ],
+    "notes": "Cataloged SKUs across 5 sensor families (28 liquid level, 30 position, 7 temperature, 1 pressure, 1 speed). UK-based manufacturing facility co-located with design office. Also offers bespoke custom sensor design alongside standard production lines."
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Mil-spec capacitive fuel/oil level sensors and non-contact TMR position sensors for UAV and defence platforms, in production across micro to heavy-duty variants. UK-based. NDAA and Blue UAS certification status unknown; public evidence of specific defence contracts or programs is thin.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 19,
+    "total_cost_usd": 0.4434968,
+    "created_at": "2026-05-04T05:45:06+00:00",
+    "extract_version": "0.1.0"
+  }
+}

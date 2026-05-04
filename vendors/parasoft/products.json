@@ -1,0 +1,231 @@
+{
+  "target_id": "parasoft",
+  "run_id": "canonical",
+  "display_name": "Parasoft",
+  "homepage_url": "https://www.parasoft.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/parasoft/website",
+  "products": [
+    {
+      "name": "C/C++test",
+      "category": "test_and_measurement",
+      "descriptor": "Static analysis, unit testing, and code coverage tool for C/C++ embedded safety-critical software",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0331",
+          "line_start": 88,
+          "line_end": 91,
+          "url": "https://www.parasoft.com/products/parasoft-c-ctest",
+          "page_class": "product",
+          "snippet": "C/C++test\nDevelop Safe and Secure Code\n----------------------------\nDetect defects early and save money by integrating Parasoft C/C++test into software development of embedded safety- and security-critical applications. Ensure compliance with various functional safety, security, and coding standards."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "C/C++test CT",
+      "category": "test_and_measurement",
+      "descriptor": "CI/CD-native code coverage and requirements traceability tool for C/C++ safety-critical software",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0331",
+          "line_start": 97,
+          "line_end": 100,
+          "url": "https://www.parasoft.com/products/parasoft-c-ctest",
+          "page_class": "product",
+          "snippet": "C/C++test CT\nContinuous Code Quality for C and C++ Software Development\n----------------------------------------------------------\nElevate code quality and surge development productivity by integrating Parasoft C/C++test CT into the CI/CD pipeline. Automate the testing process and ensure compliance with functional safety standards for embedded safety- and security-critical applications."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Insure++",
+      "category": "test_and_measurement",
+      "descriptor": "Runtime memory leak detection and debugging tool for C/C++ applications",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0356",
+          "line_start": 71,
+          "line_end": 72,
+          "url": "https://www.parasoft.com/products/parasoft-insure",
+          "page_class": "product",
+          "snippet": "PARASOFT INSURE++\nRuntime Memory Leak Detection and Memory Debugging for C and C++ Applications"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "DTP",
+      "category": "test_and_measurement",
+      "descriptor": "Development testing platform aggregating test results with compliance reporting and analytics",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0354",
+          "line_start": 71,
+          "line_end": 74,
+          "url": "https://www.parasoft.com/products/parasoft-dtp",
+          "page_class": "product",
+          "snippet": "PARASOFT DTP\nAggregate and Analyze Results Across All Testing Practices\n==========================================================\nParasoft DTP aggregates the results from across testing practices, providing intelligent and continuous monitoring of the testing outcomes for greater visibility into what is working \u2014 and what isn\u2019t."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "CTP",
+      "category": "test_and_measurement",
+      "descriptor": "Continuous testing platform for visualizing and managing tests, data, and environments",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0344",
+          "line_start": 71,
+          "line_end": 74,
+          "url": "https://www.parasoft.com/products/parasoft-ctp",
+          "page_class": "product",
+          "snippet": "PARASOFT CTP\nContinuous Testing Platform Visualizes and Manages Tests, Data, & the Environment\n=================================================================================\nParasoft Continuous Testing Platform (CTP) provides easy visualization of your test environments and dependencies with graphical diagrams. The web-based interface allows teams to plan and collaborate testing activities and provision virtual environments."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "SOAtest",
+      "category": "test_and_measurement",
+      "descriptor": "API quality, security, and performance testing tool with agentic AI assistance",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0373",
+          "line_start": 71,
+          "line_end": 73,
+          "url": "https://www.parasoft.com/products/parasoft-soatest",
+          "page_class": "product",
+          "snippet": "Parasoft SOAtest\nSmarter API Quality, Security, and Performance Backed by Agentic AI\n==================================================================="
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Virtualize",
+      "category": "test_and_measurement",
+      "descriptor": "AI-powered service virtualization and test data management tool for software testing",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0385",
+          "line_start": 71,
+          "line_end": 73,
+          "url": "https://www.parasoft.com/products/parasoft-virtualize",
+          "page_class": "product",
+          "snippet": "PARASOFT VIRTUALIZE\nWhen Real Services Aren\u2019t Available, AI-Powered Virtualization Keeps You Testing\n================================================================================"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Jtest",
+      "category": "test_and_measurement",
+      "descriptor": "AI-enhanced static analysis and unit testing tool for Java code quality",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0359",
+          "line_start": 70,
+          "line_end": 71,
+          "url": "https://www.parasoft.com/products/parasoft-jtest",
+          "page_class": "product",
+          "snippet": "PARASOFT JTEST\nShip Quality Java Faster With AI-Enhanced Developer Solution"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "dotTEST",
+      "category": "test_and_measurement",
+      "descriptor": "AI-augmented static analysis and code coverage tool for C# and .NET applications",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0346",
+          "line_start": 71,
+          "line_end": 74,
+          "url": "https://www.parasoft.com/products/parasoft-dottest",
+          "page_class": "product",
+          "snippet": "PARASOFT DOTTEST\nIncrease the Quality, Security, & Reliability of .NET Applications\n==================================================================\nEnsure C# and .NET code quality and security with AI-augmented static analysis. Remediate violations individually in the IDE or autonomously in CI/CD pipelines using AI that proposes and validates fixes and provides a full audit trail for human review."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Selenic",
+      "category": "test_and_measurement",
+      "descriptor": "AI-powered Selenium test optimization and self-healing for web UI test suites",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0369",
+          "line_start": 71,
+          "line_end": 74,
+          "url": "https://www.parasoft.com/products/parasoft-selenic",
+          "page_class": "product",
+          "snippet": "PARASOFT SELENIC\nOptimize Selenium Testing With Artificial Intelligence\n======================================================\nSelenium tests are often unstable and difficult to maintain. Parasoft Selenic fixes common Selenium problems within your existing Java projects with no vendor lock."
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "NDAA and Blue UAS compliance status is not disclosed for any individual product; the corpus contains no product-level compliance claims for either."
+  ],
+  "fetch_requests": [],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 24,
+    "total_cost_usd": 0.7228856000000002,
+    "created_at": "2026-05-04T05:02:38+00:00",
+    "extract_version": "0.1.0"
+  }
+}

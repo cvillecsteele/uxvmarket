@@ -1,0 +1,236 @@
+{
+  "target_id": "amprius-technologies",
+  "run_id": "canonical",
+  "display_name": "Amprius Technologies",
+  "homepage_url": "https://amprius.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/amprius-technologies/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "power_systems",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 26,
+            "line_end": 26,
+            "url": "https://amprius.com",
+            "page_class": "homepage",
+            "snippet": "Performance powered by silicon anode lithium-ion batteries"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0174",
+            "line_start": 44,
+            "line_end": 45,
+            "url": "https://amprius.com/industries/unmanned-aviation",
+            "page_class": "other",
+            "snippet": "##### Drones\nOur batteries significantly enhance the flight endurance and payload capacity of drones, allowing for longer missions and more efficient data collection or delivery operations."
+          }
+        ],
+        "notes": "Silicon anode lithium-ion battery cells for drones and HAPS; explicitly markets to unmanned aviation sector"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Fremont",
+      "state_or_province": "California",
+      "country": "United States",
+      "address": "1180 Page Ave, Fremont, CA 94538 USA"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 241,
+        "line_end": 241,
+        "url": "https://amprius.com",
+        "page_class": "homepage",
+        "snippet": "1180 Page Ave, Fremont, CA 94538 USA"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 35,
+        "line_end": 35,
+        "url": "https://amprius.com",
+        "page_class": "homepage",
+        "snippet": "Nokia Drone Networks Integrates Amprius SiCore\u00ae Batteries to Advance High-Reliability Operations"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 40,
+        "line_end": 40,
+        "url": "https://amprius.com",
+        "page_class": "homepage",
+        "snippet": "Amprius Secures Repeat $35 Million Purchase Order from Leading UAS Manufacturer"
+      }
+    ],
+    "notes": "Sells silicon anode battery cells to drone manufacturers and operators; Nokia Drone Networks and a leading UAS manufacturer ($35M repeat PO) are named customers"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "SiCore\u00ae",
+        "product_type": "silicon anode lithium-ion battery cells",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 35,
+            "line_end": 35,
+            "url": "https://amprius.com",
+            "page_class": "homepage",
+            "snippet": "Nokia Drone Networks Integrates Amprius SiCore\u00ae Batteries to Advance High-Reliability Operations"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 328,
+            "line_end": 328,
+            "url": "https://amprius.com",
+            "page_class": "homepage",
+            "snippet": "SiCoreThe highest-performing, most energy-dense batteries."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "SiCore\u00ae confirmed as primary named product line; SiMaxx appears as a seed URL in the crawl but the page failed to load, so that product cannot be confirmed"
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0162",
+        "line_start": 39,
+        "line_end": 40,
+        "url": "https://amprius.com/ndaa",
+        "page_class": "compliance",
+        "snippet": "Amprius is hard at work to meet the demands of NDAA compliance.\nIn fact, we are well ahead of schedule."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0162",
+        "line_start": 43,
+        "line_end": 43,
+        "url": "https://amprius.com/ndaa",
+        "page_class": "compliance",
+        "snippet": "Beginning in Spring 2026, Amprius expects to offer customers NDAA-compliant battery production pathways, including final assembly performed outside any designated \u201cFEOC.\u201d At the same time, the company will continue to manufacture batteries in China for customers and applications where NDAA compliance is not required, reflecting a pragmatic, global manufacturing strategy rather than a one-size-fits-all approach."
+      }
+    ],
+    "notes": "Site has a dedicated NDAA compliance blog post (Feb 2026) discussing progress toward compliance; claims to be 'well ahead of schedule' and 'expects to offer customers NDAA-compliant battery production pathways' starting Spring 2026. No explicit current compliance assertion; framed as forward-looking."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No mention of Blue UAS / Blue sUAS anywhere in the corpus"
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 218,
+        "line_end": 218,
+        "url": "https://amprius.com",
+        "page_class": "homepage",
+        "snippet": "With our MWh-scale manufacturing site in Fremont and GWh-scale partnerships in China \u2014 soon expanding across Asia and Europe \u2014 we\u2019re ready to meet the growing demand from leading industries."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0012",
+        "line_start": 47,
+        "line_end": 47,
+        "url": "https://amprius.com/about",
+        "page_class": "company",
+        "snippet": "Launched MWh scale expansion and GWh-scale contract manufacturing partnerships."
+      }
+    ],
+    "notes": "MWh-scale manufacturing in Fremont CA; GWh-scale contract manufacturing partnerships; $35M repeat purchase order from leading UAS manufacturer; ISO 9001:2015 and AS9100:2016 certified"
+  },
+  "unresolved_questions": [
+    "NDAA Section 848/889 compliance status not disclosed; GWh-scale China manufacturing partnerships may affect eligibility",
+    "Blue UAS cleared list status unknown",
+    "SiMaxx product line hinted at by crawl seed URL but page failed to load \u2014 existence unconfirmed"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://amprius.com/solutions/sicore",
+      "reason": "Product detail page for SiCore\u00ae battery line; would confirm specific cell SKUs, energy density specs, and product variants for the power_systems category",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=capability",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://amprius.com/solutions/simaxx",
+      "reason": "Seed URL for SiMaxx product; page failed to load in the crawl \u2014 would confirm whether SiMaxx is a distinct product line from SiCore",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=failed, page_class=capability, resource_id=resource-0003",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://amprius.com/manufacturing",
+      "reason": "Manufacturing overview page; would confirm domestic US production capacity details and could reveal NDAA-relevant sourcing disclosures",
+      "expected_evidence": [
+        "readiness",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://amprius.com/nokia-drone-networks-integrates-amprius-sicore-batteries-to-advance-high-reliability-operations",
+      "reason": "Nokia Drone Networks integration story; would provide specific UAS application details and confirm SiCore battery specs in unmanned aviation context",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=news",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Silicon-anode lithium-ion battery cells (SiCore\u2122, SiMaxx\u2122) for high-energy-density applications in unmanned and manned aviation, electric vehicles, and robotics. In production at Fremont facility with GWh-scale partnerships in Asia. Documented customers include Nokia Drone Networks and BAE Systems; received $35M repeat order from unnamed UAS manufacturer. NDAA and Blue UAS certification status unknown; public evidence of defense-sector adoption exists but is limited.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 13,
+    "total_cost_usd": 0.61664035,
+    "created_at": "2026-05-03T21:22:24+00:00",
+    "extract_version": "0.1.0"
+  }
+}

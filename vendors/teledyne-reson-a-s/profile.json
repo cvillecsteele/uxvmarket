@@ -1,0 +1,299 @@
+{
+  "target_id": "teledyne-reson-a-s",
+  "run_id": "canonical",
+  "display_name": "Teledyne RESON A/S",
+  "homepage_url": "https://www.teledynemarine.com/reson",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/teledyne-reson-a-s/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "isr_payloads",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0681",
+            "line_start": 41,
+            "line_end": 43,
+            "url": "https://www.teledynemarine.com/reson-products",
+            "page_class": "product",
+            "snippet": "    ![](https://www.teledynemarine.com/en-us/products/product-line/PublishingImages/Pages/Sonars/auv%20rov.jpg)\n    ### ROV, AUV & USV Sonars | Teledyne Marine\n    ](https://www.teledynemarine.com/products/product-line/sonar/rovauvusv-multibeam-sonars \"ROV, AUV & USV Sonars | Teledyne Marine\")"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0182",
+            "line_start": 15,
+            "line_end": 15,
+            "url": "https://www.teledynemarine.com/brands/cable-solutions/searaptor-auv",
+            "page_class": "capability",
+            "snippet": "*   Teledyne RESON Multi-Beam Echo Sounder (MBES)"
+          }
+        ],
+        "notes": "RESON's core product line is multibeam sonar systems used as survey/imaging payloads on AUVs, ROVs, and USVs."
+      },
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0681",
+            "line_start": 56,
+            "line_end": 57,
+            "url": "https://www.teledynemarine.com/reson-products",
+            "page_class": "product",
+            "snippet": "### [Hydrophones & Transducers](/products/product-line/hydrophones-and-transducers)\nTeledyne Marine manufactures a broad range of hydrophones. From oceanographic research to monitoring industrial processes, we have a range of hydrophones for reference measurement, reference projectors, passive arrays, positioning systems and tracking systems."
+          }
+        ],
+        "notes": "Hydrophones and transducers form a secondary product line used for tracking, positioning, and reference measurement in underwater systems."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Slangerup",
+      "state_or_province": null,
+      "country": "Denmark",
+      "address": "Fabriksvangen 13, 3550 Slangerup"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 22,
+        "line_end": 25,
+        "url": "https://www.teledynemarine.com/brands/reson",
+        "page_class": "homepage",
+        "snippet": "**Teledyn\u200be RESON A/S\n**Fabriksvangen 13\n3550 Slangerup\nDenmark"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 16,
+        "line_end": 16,
+        "url": "https://www.teledynemarine.com/brands/reson",
+        "page_class": "homepage",
+        "snippet": "Headquartered in Denmark, Teledyne RESON has offices\u00a0in the USA, the UK, the Netherlands, Germany and\u00a0Shanghai. And you'll find Teledyne RESON representatives ready to help you\u00a0around the world.\u00a0\u200b"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0681",
+        "line_start": 41,
+        "line_end": 43,
+        "url": "https://www.teledynemarine.com/reson-products",
+        "page_class": "product",
+        "snippet": "    ![](https://www.teledynemarine.com/en-us/products/product-line/PublishingImages/Pages/Sonars/auv%20rov.jpg)\n    ### ROV, AUV & USV Sonars | Teledyne Marine\n    ](https://www.teledynemarine.com/products/product-line/sonar/rovauvusv-multibeam-sonars \"ROV, AUV & USV Sonars | Teledyne Marine\")"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0182",
+        "line_start": 14,
+        "line_end": 15,
+        "url": "https://www.teledynemarine.com/brands/cable-solutions/searaptor-auv",
+        "page_class": "capability",
+        "snippet": "*   Teledyne Benthos Sub bottom profiler (SBP)\n*   Teledyne RESON Multi-Beam Echo Sounder (MBES)"
+      }
+    ],
+    "notes": "RESON makes multibeam sonar sensors and hydrophones/transducers that are integrated into AUVs, ROVs, and USVs as payload components. They have a dedicated 'ROV, AUV & USV Sonars' product line."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "ROV, AUV & USV Sonars",
+        "product_type": "multibeam sonar product line for unmanned vehicles",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0681",
+            "line_start": 41,
+            "line_end": 43,
+            "url": "https://www.teledynemarine.com/reson-products",
+            "page_class": "product",
+            "snippet": "    ![](https://www.teledynemarine.com/en-us/products/product-line/PublishingImages/Pages/Sonars/auv%20rov.jpg)\n    ### ROV, AUV & USV Sonars | Teledyne Marine\n    ](https://www.teledynemarine.com/products/product-line/sonar/rovauvusv-multibeam-sonars \"ROV, AUV & USV Sonars | Teledyne Marine\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "3D Multibeam Scanning Sonars / Profiling Sonars",
+        "product_type": "3D multibeam sonar / profiler",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0681",
+            "line_start": 29,
+            "line_end": 30,
+            "url": "https://www.teledynemarine.com/reson-products",
+            "page_class": "product",
+            "snippet": "    ### 3D Multibeam Scanning Sonars | Profiling Sonars | Teledyne Marine\n    ](https://www.teledynemarine.com/products/product-line/sonar/3d-multibeam-and-scanning-sonars \"3D Multibeam Scanning Sonars | Profiling Sonars | Teledyne Marine\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Deep Water Multibeam Echo Sounder",
+        "product_type": "deep-water multibeam echosounder",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0681",
+            "line_start": 32,
+            "line_end": 34,
+            "url": "https://www.teledynemarine.com/reson-products",
+            "page_class": "product",
+            "snippet": "    ![](https://www.teledynemarine.com/en-us/products/product-line/PublishingImages/Pages/Sonars/deep%20water.jpg)\n    ### Deep Water Sonars | Deep Water Multibeam Echo Sounder | Teledyne Marine\n    ](https://www.teledynemarine.com/products/product-line/sonar/deep-water-echosounders \"Deep Water Sonars | Deep Water Multibeam Echo Sounder | Teledyne Marine\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Shallow Water Multibeam Echosounders",
+        "product_type": "shallow-water multibeam echosounder",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0681",
+            "line_start": 44,
+            "line_end": 48,
+            "url": "https://www.teledynemarine.com/reson-products",
+            "page_class": "product",
+            "snippet": "*   [\n    ![](https://www.teledynemarine.com/en-us/products/product-line/PublishingImages/Pages/Sonars/Shallow%20water.jpg)\n    ### Shallow Water Sonars | Shallow Water Multibeam Sonar | Teledyne Marine\n    Teledyne Marine provides a wide range of Shallow Water Multibeam Echosounders\n    ](https://www.teledynemarine.com/products/product-line/sonar/shallow-water-echosounders \"Shallow Water Sonars | Shallow Water Multibeam Sonar | Teledyne Marine\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Forward Looking Sonars",
+        "product_type": "forward-facing sonar for obstacle avoidance",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0681",
+            "line_start": 35,
+            "line_end": 39,
+            "url": "https://www.teledynemarine.com/reson-products",
+            "page_class": "product",
+            "snippet": "*   [\n    ![](https://www.teledynemarine.com/en-us/products/product-line/PublishingImages/Pages/Sonars/forward%20looker.jpg)\n    ### Forward Facing Sonars | Forward Looking Sonars | Teledyne Marine\n    Teledyne Marine have a wide range of forward looking sonar systems.\n    ](https://www.teledynemarine.com/products/product-line/sonar/forward-looking-imaging-sonars \"Forward Facing Sonars | Forward Looking Sonars | Teledyne Marine\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Hydrophones & Transducers",
+        "product_type": "underwater hydrophones and acoustic transducers",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0681",
+            "line_start": 55,
+            "line_end": 57,
+            "url": "https://www.teledynemarine.com/reson-products",
+            "page_class": "product",
+            "snippet": "[![Hydrophones & Transducers](</en-us/products/PublishingImages/RESON/RESON TC4014.jpg>)](/products/product-line/hydrophones-and-transducers \"Hydrophones & Transducers\")\n### [Hydrophones & Transducers](/products/product-line/hydrophones-and-transducers)\nTeledyne Marine manufactures a broad range of hydrophones. From oceanographic research to monitoring industrial processes, we have a range of hydrophones for reference measurement, reference projectors, passive arrays, positioning systems and tracking systems."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Named SKU-level product names (e.g. SeaBat series) not present in fetched corpus pages; product lines and categories are listed."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "RESON makes underwater sonar equipment for AUVs/ROVs/USVs, not aerial sUAS. Blue UAS list is not applicable."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 11,
+        "line_end": 12,
+        "url": "https://www.teledynemarine.com/brands/reson",
+        "page_class": "homepage",
+        "snippet": "Teledyne RESON A/S has been an ISO 9001 registered company since March 2004, and before that AQAP-120 certified since March 1995, and assessed by Air Material Command \u2013 Royal Danish Air Force.\nTeledyne RESON maintain a Quality Management System (QMS) in compliance with ISO 9001:2015."
+      }
+    ],
+    "notes": "Multiple catalog product lines actively sold; ISO 9001:2015 certified QMS; global sales network and after-service functions."
+  },
+  "unresolved_questions": [
+    "Specific named SKU product models (e.g. SeaBat series) not present in fetched corpus pages \u2014 skipped product detail pages would confirm specific model numbers and specs."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.teledynemarine.com/products/product-line/sonar/rovauvusv-multibeam-sonars",
+      "reason": "Would list specific named RESON sonar SKUs for ROV/AUV/USV (e.g. SeaBat T20, T50) and confirm component supplier role in unmanned vehicle supply chain.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "linked from resource-0016 line 43",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.teledynemarine.com/products/product-line/sonar/3d-multibeam-and-scanning-sonars",
+      "reason": "Would provide named SKUs for RESON 3D multibeam and profiling sonar product line.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "linked from resource-0016 line 30",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.teledynemarine.com/products/product-line/hydrophones-and-transducers",
+      "reason": "Would list named hydrophone and transducer SKUs (e.g. TC4014) from RESON product line.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "linked from resource-0016 line 55",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 20,
+    "total_cost_usd": 0.48494535000000005,
+    "created_at": "2026-05-03T01:11:10+00:00",
+    "extract_version": "0.1.0"
+  },
+  "tagline": "Danish sonar specialist producing multibeam, forward-looking, and single-beam acoustic imaging systems for subsea platforms (ROVs, AUVs, USVs) and hydrographic survey. Part of Teledyne Marine's acoustic imaging group; ISO 9001 certified since 2004. NDAA compliance and Blue UAS certification status not publicly documented. Competitive positioning versus BlueView and Odom (sister companies) unclear from available sources."
+}

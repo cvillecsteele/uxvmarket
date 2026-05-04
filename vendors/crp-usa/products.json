@@ -1,0 +1,62 @@
+{
+  "target_id": "crp-usa",
+  "run_id": "canonical",
+  "display_name": "CRP USA",
+  "homepage_url": "https://www.crp-usa.net",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/crp-usa/website",
+  "products": [],
+  "unresolved_questions": [
+    "The homepage (resource-0001) returned only a security verification challenge (math CAPTCHA), yielding 307 chars of non-product content. No internal links were discovered, so no product or capability pages were fetched. CRP USA (CRP Group US subsidiary) is known for Windform\u00ae SLS/additive-manufacturing materials and rapid-prototyping services, but no products can be enumerated from this corpus."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.crp-usa.net/windform/",
+      "reason": "CRP USA's primary product line is Windform\u00ae composite SLS materials for aerospace/UAS structures; this page would enumerate named SKUs and compliance claims.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "readiness"
+      ],
+      "source_hint": null,
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.crp-usa.net/products/",
+      "reason": "Primary product index page likely listing all Windform\u00ae grades and other materials/services offered.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": null,
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.crp-usa.net/materials/",
+      "reason": "Alternative path for materials catalog \u2014 would enumerate named material grades and classify them.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": null,
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.crp-usa.net/services/",
+      "reason": "CRP USA offers rapid prototyping and manufacturing services; page would clarify product vs. engineering-services scope.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": null,
+      "in_corpus_index": false
+    }
+  ],
+  "status": "needs_more_fetches",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 5,
+    "total_cost_usd": 0.05646465,
+    "created_at": "2026-05-04T01:33:30+00:00",
+    "extract_version": "0.1.0"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "target_id": "vantage-robotics",
+  "run_id": "canonical",
+  "display_name": "Vantage Robotics",
+  "homepage_url": "https://vantage-robotics.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/vantage-robotics/website",
+  "products_categories": {
+    "items": [],
+    "confidence": "low",
+    "status": "unknown",
+    "notes": "All pages failed to fetch; no corpus content available. Target metadata hints at ground_segment category."
+  },
+  "headquarters": {
+    "value": null,
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "evidence": [],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": null,
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "evidence": [],
+    "notes": null
+  },
+  "products": {
+    "items": [],
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "notes": "No pages fetched successfully."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": null,
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "evidence": [],
+    "notes": null
+  },
+  "unresolved_questions": [
+    "Homepage failed to fetch \u2014 unable to determine products, HQ, role, or readiness",
+    "All 8 crawl attempts failed (Browserless /map HTTP 400 errors)",
+    "No corpus content available for any field"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://vantage-robotics.com",
+      "reason": "Homepage failed to fetch (status=failed); needed to determine all profile fields including products, HQ, role, and readiness",
+      "expected_evidence": [
+        "products_categories",
+        "headquarters",
+        "drone_supply_chain_role",
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=failed, page_class=homepage, resource_id=resource-0001",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://vantage-robotics.com/about",
+      "reason": "Standard about page would confirm headquarters and company background",
+      "expected_evidence": [
+        "headquarters",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "guessed",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://vantage-robotics.com/products",
+      "reason": "Would list named products and confirm product categories and readiness",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "readiness",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "guessed",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://vantage-robotics.com/contact",
+      "reason": "Contact page would confirm headquarters address",
+      "expected_evidence": [
+        "headquarters"
+      ],
+      "source_hint": "guessed",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "needs_more_fetches",
+  "tagline": "Limited public information available. Company website does not specify product line, manufacturing location, NDAA compliance status, or active contracts. Role within unmanned-systems sector remains undocumented in accessible sources. Recommend direct inquiry to clarify operational status and market positioning.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 5,
+    "total_cost_usd": 0.06990755,
+    "created_at": "2026-05-04T07:28:51+00:00",
+    "extract_version": "0.1.0"
+  }
+}

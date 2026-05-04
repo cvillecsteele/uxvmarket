@@ -1,0 +1,262 @@
+{
+  "target_id": "near-earth",
+  "run_id": "canonical",
+  "display_name": "Near Earth",
+  "homepage_url": "https://www.nearearth.aero/",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/near-earth/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "flight_and_vehicle_control",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 78,
+            "line_end": 79,
+            "url": "https://www.nearearth.aero/",
+            "page_class": "homepage",
+            "snippet": "COMPREHENSIVE AUTONOMY STACK\nAchieve robust mission and safety assurance.\u00a0 Efficiently manage hazards without requiring infrastructure. Our technology is efficiently customizable, scalable, and includes:"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0107",
+            "line_start": 35,
+            "line_end": 35,
+            "url": "https://www.nearearth.aero/responsive-uncrewed-capability-ruc-60",
+            "page_class": "capability",
+            "snippet": "Uses Captain, a deterministic autonomy architecture for mission assurance in challenging environments."
+          }
+        ],
+        "notes": "Near Earth Autonomy's core product is CAPTAIN, a deterministic autonomy architecture, and the Firefly compact flight system \u2014 both enabling autonomous/uncrewed flight in helicopters and UAVs."
+      },
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0017",
+            "line_start": 47,
+            "line_end": 50,
+            "url": "https://www.nearearth.aero/copy-of-ruc-60-optionally-piloted-bl",
+            "page_class": "news",
+            "snippet": "*   Perception: LiDAR, Infrared, and HD Camera Sensors\n*   Power: 12VDC, 70W\n*   Connectivity: Gigabit Ethernet, USB, CAN bus, PPS\n*   Navigation: GNSS: Dual RTK GNSS-INS external module"
+          }
+        ],
+        "notes": "Firefly compact flight system includes LiDAR, IR/HD camera sensors, and dual RTK GNSS-INS for navigation and obstacle avoidance."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "About-us page skipped; may reveal additional capability categories."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Pittsburgh",
+      "state_or_province": "Pennsylvania",
+      "country": "United States",
+      "address": "150 N Lexington Street, Pittsburgh, PA 15208"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0014",
+        "line_start": 32,
+        "line_end": 32,
+        "url": "https://www.nearearth.aero/contact",
+        "page_class": "contact",
+        "snippet": "###### Pittsburgh, PA (Headquarters)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0014",
+        "line_start": 38,
+        "line_end": 40,
+        "url": "https://www.nearearth.aero/contact",
+        "page_class": "contact",
+        "snippet": "Official Mailing Address:\n150 N Lexington Street\nPittsburgh, PA 15208"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0017",
+        "line_start": 43,
+        "line_end": 43,
+        "url": "https://www.nearearth.aero/copy-of-ruc-60-optionally-piloted-bl",
+        "page_class": "news",
+        "snippet": "Firefly with LiDAR shown in the example vehicle above. We can help integrate our autonomy systems with a wide range of aircraft."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 26,
+        "line_end": 26,
+        "url": "https://www.nearearth.aero/",
+        "page_class": "homepage",
+        "snippet": "Our technology and guided process enable your uncrewed aircraft to reliably perceive and avoid environmental hazards"
+      }
+    ],
+    "notes": "Near Earth Autonomy sells autonomy subsystems (Firefly compact flight system and CAPTAIN architecture) that integrate onto existing aircraft. The RUC-60 is a conversion of existing UH-60 Black Hawks. They explicitly state they integrate their systems with 'a wide range of aircraft' rather than manufacturing complete airframes."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Firefly Compact Flight System",
+        "product_type": "lightweight autonomy subsystem for BVLOS flight (sensors + computing + software)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0017",
+            "line_start": 26,
+            "line_end": 27,
+            "url": "https://www.nearearth.aero/copy-of-ruc-60-optionally-piloted-bl",
+            "page_class": "news",
+            "snippet": "### Firefly Compact Flight System\n#### Lightweight autonomy system enables safe and reliable Beyond Visual Line of Sight (BVLOS) flight. Capabilities include autonomous ship recovery and ship-to-shore CONOPS: Departure, approach, and precise cargo deliveries in unprepared, confined environments."
+          }
+        ],
+        "notes": "NDAA 2023 compliant; includes LiDAR, IR, HD camera, GNSS-INS; currently accepting beta customers."
+      },
+      {
+        "name": "RUC-60",
+        "product_type": "optionally piloted Black Hawk UH-60 conversion for contested logistics",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0107",
+            "line_start": 26,
+            "line_end": 27,
+            "url": "https://www.nearearth.aero/responsive-uncrewed-capability-ruc-60",
+            "page_class": "capability",
+            "snippet": "#### Responsive Uncrewed Capability (RUC-60)\n#### OPTIONALLY PILOTED BLACK HAWK UH-60 FOR CONTESTED LOGISTICS"
+          }
+        ],
+        "notes": "Currently accepting orders. Uses CAPTAIN autonomy architecture."
+      },
+      {
+        "name": "CAPTAIN",
+        "product_type": "deterministic aerial autonomy architecture / software stack",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0107",
+            "line_start": 35,
+            "line_end": 35,
+            "url": "https://www.nearearth.aero/responsive-uncrewed-capability-ruc-60",
+            "page_class": "capability",
+            "snippet": "Uses Captain, a deterministic autonomy architecture for mission assurance in challenging environments."
+          }
+        ],
+        "notes": "Core autonomy platform underlying both Firefly and RUC-60 products."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Firefly product canonical page (/firefly) was skipped; content accessed via a copy page (resource-0006). Additional products may exist."
+  },
+  "ndaa": {
+    "value": "yes",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0017",
+        "line_start": 39,
+        "line_end": 39,
+        "url": "https://www.nearearth.aero/copy-of-ruc-60-optionally-piloted-bl",
+        "page_class": "news",
+        "snippet": "*   National Defense Authorization Act (NDAA) 2023 Compliant"
+      }
+    ],
+    "notes": "Firefly product page explicitly states NDAA 2023 compliance. No NDAA claim found for RUC-60."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No mention of Blue UAS or Blue sUAS in any fetched corpus pages."
+  },
+  "readiness": {
+    "value": "low_rate_production",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0017",
+        "line_start": 63,
+        "line_end": 63,
+        "url": "https://www.nearearth.aero/copy-of-ruc-60-optionally-piloted-bl",
+        "page_class": "news",
+        "snippet": "Currently accepting customers for beta product:"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0107",
+        "line_start": 66,
+        "line_end": 66,
+        "url": "https://www.nearearth.aero/responsive-uncrewed-capability-ruc-60",
+        "page_class": "capability",
+        "snippet": "Currently accepting orders:"
+      }
+    ],
+    "notes": "Firefly is in beta (accepting beta customers). RUC-60 is accepting orders. CAPTAIN has been deployed across 140+ airframes and 10K+ flights, suggesting mature technology but the product lines themselves are in early commercial stage."
+  },
+  "unresolved_questions": [
+    "Blue UAS status unknown \u2014 no mention anywhere in corpus",
+    "Firefly canonical product page (/firefly) was skipped; content accessed via copy page only",
+    "About-us page skipped \u2014 may reveal additional company info, certifications, or product lines"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.nearearth.aero/firefly",
+      "reason": "Canonical Firefly product page \u2014 would confirm full product specs, pricing posture, and any NDAA/Blue UAS claims for this specific product line.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.nearearth.aero/about-us",
+      "reason": "About page \u2014 would provide company founding story, funding, certifications, and possibly NDAA/Blue UAS compliance statements at the company level.",
+      "expected_evidence": [
+        "headquarters",
+        "drone_supply_chain_role",
+        "ndaa",
+        "blue_uas"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "tagline": "Flight and vehicle-control autonomy systems for rotorcraft and fixed-wing platforms, including the Firefly compact flight system (NDAA 2023 compliant, low-rate production) and RUC-60 optionally-piloted Black Hawk conversion for contested logistics. CAPTAIN deterministic autonomy architecture claimed for mission assurance; public evidence on maturity, fielded hours, and program adoption remains limited. Blue UAS certification status unknown.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 14,
+    "total_cost_usd": 0.28993209999999997,
+    "created_at": "2026-05-04T04:30:45+00:00",
+    "extract_version": "0.1.0"
+  }
+}

@@ -1,0 +1,713 @@
+{
+  "target_id": "uavos",
+  "run_id": "canonical",
+  "display_name": "UAVOS",
+  "homepage_url": "https://uavos.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/uavos/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "airframes",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0045",
+            "line_start": 32,
+            "line_end": 36,
+            "url": "https://www.uavos.com/products",
+            "page_class": "product",
+            "snippet": "Vertical Take-Off and Landing UAVs\n----------------------------------\n[![](//uavos.com/wp-content/uploads/2021/06/uvh500-2021-sm.jpg \"uvh500-2021-sm\")](/products/vtols/long-range-heavy-lift-kahu-150-vtol-uas/)\n### [UVH-500 (KAHU-150) VTOL UAS](/products/vtols/long-range-heavy-lift-kahu-150-vtol-uas/)\nMTOW 1102 lb (500 kg)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0045",
+            "line_start": 44,
+            "line_end": 55,
+            "url": "https://www.uavos.com/products",
+            "page_class": "product",
+            "snippet": "Fixed-wing UAVs\n---------------\n[![](//uavos.com/wp-content/uploads/2021/07/atm-micro-square.jpg \"atm-micro-square\")](/products/fixed-wing-uavs/apusduo-atmospheric-satellite/)\n### [APUS DUO 15](/products/fixed-wing-uavs/apusduo-atmospheric-satellite/)\nHigh Altitude Platform Station\nMTOW 95 lb (43 kg)\n[![](//uavos.com/wp-content/uploads/2021/06/alb-square.jpg \"Borey20-square\")](https://www.uavos.com/products/fixed-wing-uavs/albatross-2-2/)\n### [](/products/fixed-wing-uavs/borey-10/)[Fixed-Wing Unmanned System ALBATROSS](https://www.uavos.com/products/fixed-wing-uavs/albatross-2-2/)\nMTOW 1210 lb (550 kg)\n[![](//uavos.com/wp-content/uploads/2021/06/Borey20-square.jpg \"Borey20-square\")](/products/fixed-wing-uavs/borey-10/)\n### [Fixed-Wing Unmanned System BOREY](/products/fixed-wing-uavs/borey-10/)\nMTOW 45 lb (20 kg)"
+          }
+        ],
+        "notes": "Complete VTOL and fixed-wing UAS platforms including UVH-500, UVH-170, UVH-25EL, APUS DUO 15, ALBATROSS, BOREY, SITARIA E"
+      },
+      {
+        "category": "flight_and_vehicle_control",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0045",
+            "line_start": 20,
+            "line_end": 24,
+            "url": "https://www.uavos.com/products",
+            "page_class": "product",
+            "snippet": "Automatic Control System (Autopilots)\n-------------------------------------\n[![](//uavos.com/wp-content/uploads/2021/06/ap101-square.jpg \"ap101-square\")](/products/autopilots/ap10-1-automatic-control-system-for-uav/)\n### [AP 10.1](/products/autopilots/ap10-1-automatic-control-system-for-uav)\nAutomatic Control System for UAV with a takeoff weight of 100 kg up to 4000 kg"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0047",
+            "line_start": 18,
+            "line_end": 20,
+            "url": "https://www.uavos.com/products/autopilots/ap10-1-automatic-control-system-for-uav",
+            "page_class": "news",
+            "snippet": "AP 10.1\n=======\nAutomatic Control System for UAV with a takeoff weight of 100 kg up to 4000 kg"
+          }
+        ],
+        "notes": "Autopilot systems AP 10.1, AP 10.2, AP 10.3 \u2014 sold as standalone subsystems"
+      },
+      {
+        "category": "ground_segment",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0045",
+            "line_start": 57,
+            "line_end": 67,
+            "url": "https://www.uavos.com/products",
+            "page_class": "product",
+            "snippet": "Ground Control Units (GCU)\n--------------------------\n[![](//uavos.com/wp-content/uploads/2021/06/gcs-full-square.jpg \"gcs-full-square\")](/products/ground-control-stations/ground-control-station-gcs-a/)\n### [GCS.A](https://www.uavos.com/products/ground-control-stations/ground-control-station-gcs-a/)\nGCS.A is installed into a modified 20-foot container, enhanced with a generator compartment\n[![](https://www.uavos.com/wp-content/uploads/2024/11/PGCS.7ver2sq.jpg \"PGCS.7ver2sq\")](https://www.uavos.com/products/portable-ground-control-station-pgcs-7/)\n### [PGCS.7](https://www.uavos.com/products/portable-ground-control-station-pgcs-7/)\nPortable Ground Control Station for UAS\n[![](https://www.uavos.com/wp-content/uploads/2025/02/pgcs4-sq.jpg \"pgcs4-sq\")](https://www.uavos.com/products/ground-control-stations/portable-ground-control-station-pgcs-4/)\n### [PGCS.4](https://www.uavos.com/products/ground-control-stations/portable-ground-control-station-pgcs-4/)\nPortable Ground Control Station for UAS"
+          }
+        ],
+        "notes": "Ground Control Stations GCS.A (containerized), PGCS.7 and PGCS.4 (portable)"
+      },
+      {
+        "category": "isr_payloads",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0045",
+            "line_start": 99,
+            "line_end": 103,
+            "url": "https://www.uavos.com/products",
+            "page_class": "product",
+            "snippet": "Gimbals\n-------\n[![](//uavos.com/wp-content/uploads/2021/06/185-square-1.jpg \"185-square\")](https://www.uavos.com/products/gimbals/gsg-201-gimbal/)\n### [GSG 201](https://www.uavos.com/products/gimbals/gsg-201-gimbal/)\nGyro-stabilized two-axis gimbal for day and night surveillance, with Laser range\ufb01nder"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0045",
+            "line_start": 109,
+            "line_end": 113,
+            "url": "https://www.uavos.com/products",
+            "page_class": "product",
+            "snippet": "Pan-Tilt Platforms\n------------------\n[![](//uavos.com/wp-content/uploads/2021/06/ptp140sq-1.jpg \"ptp140sq\")](https://www.uavos.com/products/pan-tilt-platforms/pan-tilt-platform-ptp140/)\n### [PTP140](https://www.uavos.com/products/pan-tilt-platforms/pan-tilt-platform-ptp140/)\nPowerful Pan Tilt Platform for Payload up to 130 kg"
+          }
+        ],
+        "notes": "Gyro-stabilized gimbals (GSG 201, GOS-155D/T) and Pan-Tilt Platform (PTP140) with EO/IR cameras and laser rangefinder"
+      },
+      {
+        "category": "communications",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0045",
+            "line_start": 90,
+            "line_end": 97,
+            "url": "https://www.uavos.com/products",
+            "page_class": "product",
+            "snippet": "Communication Systems\n---------------------\n[![](//uavos.com/wp-content/uploads/2021/06/data_link-square-1.jpg \"data_link-square\")](https://www.uavos.com/products/communication-systems/pmddlradio-data-link-system/)\n### [pMDDLRadio Data Link System](https://www.uavos.com/products/communication-systems/pmddlradio-data-link-system/)\nan advanced high power long range broadband COFDM communication system for UAV\n[![](//uavos.com/wp-content/uploads/2021/06/ann-square-1.jpg \"ann-square\")](https://www.uavos.com/products/communication-systems/automatic-tracking-system/)\n### [Automatic Tracking System](https://www.uavos.com/products/communication-systems/automatic-tracking-system/)\nARM Antenna Tracking System (ATS) allows to use directional antennas with higher gain comparing to omni-directional ones."
+          }
+        ],
+        "notes": "pMDDLRadio Data Link System (COFDM broadband) and Automatic Tracking System"
+      },
+      {
+        "category": "mechanical_subsystems",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0045",
+            "line_start": 69,
+            "line_end": 82,
+            "url": "https://www.uavos.com/products",
+            "page_class": "product",
+            "snippet": "Servo Drives\n------------\n[![](//uavos.com/wp-content/uploads/2021/06/xservo2-square.jpg \"xservo2-square\")](https://www.uavos.com/products/servo-drives/servo-actuator-xservo140/)\n### [Xservo140](https://www.uavos.com/products/servo-drives/servo-actuator-xservo140/)\nXservo series\n[![](https://www.uavos.com/wp-content/uploads/2024/10/sld4-1.jpg \"sld4\")](https://www.uavos.com/products/servo-drives/servo-drive-sdlm-04b/)\n### [SDLM-04B](https://www.uavos.com/products/servo-drives/servo-drive-sdlm-04b/)\nRugged and Durable Rotating Type Servo for Professional Intensive Applications\n[![](//uavos.com/wp-content/uploads/2021/06/SD1-2021-n2-square.jpg \"SD1-2021-n2-square\")](https://www.uavos.com/products/servo-drives/servo-drive-sd1/)\n### [SD-01B](https://www.uavos.com/products/servo-drives/servo-drive-sd1/)\nRugged and Durable Rotating Type Servo for Professional Intensive Applications\n[![](https://www.uavos.com/wp-content/uploads/2021/12/uavos-servo-sd2b-square.jpg \"uavos-servo-sd2b-square\")](https://www.uavos.com/products/servo-drives/servo-drive-sd2/)\n### [SD-02B](https://www.uavos.com/products/servo-drives/servo-drive-sd2/)\nRugged and Durable Rotating Type Servo for Professional Intensive Applications"
+          }
+        ],
+        "notes": "Servo drives: Xservo140, SDLM-04B, SD-01B, SD-02B"
+      },
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0045",
+            "line_start": 84,
+            "line_end": 88,
+            "url": "https://www.uavos.com/products",
+            "page_class": "product",
+            "snippet": "UAV Engines\n-----------\n[![](//uavos.com/wp-content/uploads/2021/06/uav170square.jpg \"uav170square\")](https://www.uavos.com/products/uav-engines/uav-170-engine/)\n### [UAV-170 Engine](https://www.uavos.com/products/uav-engines/uav-170-engine/)\n4-stroke gasoline power plant with volume 170 ccm designed for being integrated in UAV"
+          }
+        ],
+        "notes": "UAV-170 Engine (4-stroke gasoline, 170cc); also unmanned helicopter main rotor blades"
+      },
+      {
+        "category": "recovery_systems",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0045",
+            "line_start": 124,
+            "line_end": 128,
+            "url": "https://www.uavos.com/products",
+            "page_class": "product",
+            "snippet": "Drone Parachute Systems\n-----------------------\n[![](//uavos.com/wp-content/uploads/2021/09/UAVOS-parachute-system-0d611f75-e1630571884325.jpg \"UAVOS-parachute-system-0d611f75\")](https://www.uavos.com/products/emergency-rescue-systems/emergency-rescue-system-ers-75/)\n### [Drone Parachute Systems](https://www.uavos.com/products/emergency-rescue-systems/emergency-rescue-system-ers-75/)\nfor UAVs ranging from 5 kg to 1000 kg. These systems are designed for deployment at speeds between 20 km/h and 220 km/h, extension feasible"
+          }
+        ],
+        "notes": "Drone Parachute Systems (ERS-75) for UAVs 5\u20131000 kg"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Dover",
+      "state_or_province": "Delaware",
+      "country": "United States",
+      "address": "1111B S Governors Ave STE 20320, Dover, DE 19904"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0016",
+        "line_start": 24,
+        "line_end": 26,
+        "url": "https://www.uavos.com/contact-us",
+        "page_class": "contact",
+        "snippet": "UAVOS INC\n**1111B S Governors Ave STE 20320\nDover, DE 19904, the **USA**"
+      }
+    ],
+    "notes": "UAVOS INC is US-incorporated. Secondary office: UAVOS EU S.L., Poligono Industrial Los Llanillos, Siguenza, Guadalajara, Spain (resource-0021 lines 27\u201329)"
+  },
+  "drone_supply_chain_role": {
+    "value": "oem",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0195",
+        "line_start": 18,
+        "line_end": 18,
+        "url": "https://www.uavos.com/uavos-to-exhibit-at-the-dsei-global-defense-and-security-trade-show",
+        "page_class": "compliance",
+        "snippet": "UAVOS HAS DEVELOPED AN UNMANNED HELICOPTER TO BE MANUFACTURED IN UK"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0045",
+        "line_start": 32,
+        "line_end": 36,
+        "url": "https://www.uavos.com/products",
+        "page_class": "product",
+        "snippet": "Vertical Take-Off and Landing UAVs\n----------------------------------\n[![](//uavos.com/wp-content/uploads/2021/06/uvh500-2021-sm.jpg \"uvh500-2021-sm\")](/products/vtols/long-range-heavy-lift-kahu-150-vtol-uas/)\n### [UVH-500 (KAHU-150) VTOL UAS](/products/vtols/long-range-heavy-lift-kahu-150-vtol-uas/)\nMTOW 1102 lb (500 kg)"
+      }
+    ],
+    "notes": "Designs and manufactures complete unmanned helicopter and fixed-wing platforms. Also sells standalone autopilots, GCS, gimbals, and comms as subsystems."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "AP 10.1",
+        "product_type": "UAV autopilot system (100\u20134000 kg MTOW)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0045",
+            "line_start": 23,
+            "line_end": 24,
+            "url": "https://www.uavos.com/products",
+            "page_class": "product",
+            "snippet": "### [AP 10.1](/products/autopilots/ap10-1-automatic-control-system-for-uav)\nAutomatic Control System for UAV with a takeoff weight of 100 kg up to 4000 kg"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AP 10.2",
+        "product_type": "UAV autopilot system (15\u2013100 kg MTOW)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0045",
+            "line_start": 26,
+            "line_end": 27,
+            "url": "https://www.uavos.com/products",
+            "page_class": "product",
+            "snippet": "### [AP 10.2](/products/autopilots/ap10-2-automatic-control-system-for-uav-mini/)\nAutomatic Control System for UAV with a takeoff weight of 15 kg up to 100 kg"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AP 10.3",
+        "product_type": "UAV autopilot system (<15 kg MTOW)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0045",
+            "line_start": 29,
+            "line_end": 30,
+            "url": "https://www.uavos.com/products",
+            "page_class": "product",
+            "snippet": "### [AP 10.3](/products/autopilots/ap10-3-automatic-control-system-for-uav-micro/)\nAutomatic Control System for UAV less then 15 kg"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "UVH-500 (KAHU-150) VTOL UAS",
+        "product_type": "heavy-lift unmanned helicopter, MTOW 500 kg",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0045",
+            "line_start": 35,
+            "line_end": 36,
+            "url": "https://www.uavos.com/products",
+            "page_class": "product",
+            "snippet": "### [UVH-500 (KAHU-150) VTOL UAS](/products/vtols/long-range-heavy-lift-kahu-150-vtol-uas/)\nMTOW 1102 lb (500 kg)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "UVH 170 Unmanned Helicopter",
+        "product_type": "unmanned helicopter, MTOW 45 kg",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0045",
+            "line_start": 38,
+            "line_end": 39,
+            "url": "https://www.uavos.com/products",
+            "page_class": "product",
+            "snippet": "### [UVH 170 Unmanned Helicopter](/products/vtols/uav-helicopter-uvh-170/)\nMTOW 99 lb (45 kg)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "UVH 25EL Unmanned Helicopter",
+        "product_type": "unmanned helicopter, MTOW 25 kg",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0045",
+            "line_start": 41,
+            "line_end": 42,
+            "url": "https://www.uavos.com/products",
+            "page_class": "product",
+            "snippet": "### [UVH 25EL Unmanned Helicopter](/products/vtols/uvh-25el-helicopter/)\nMTOW 55 lb (25 kg)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "APUS DUO 15",
+        "product_type": "fixed-wing HAPS (High Altitude Platform Station), MTOW 43 kg",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0045",
+            "line_start": 47,
+            "line_end": 49,
+            "url": "https://www.uavos.com/products",
+            "page_class": "product",
+            "snippet": "### [APUS DUO 15](/products/fixed-wing-uavs/apusduo-atmospheric-satellite/)\nHigh Altitude Platform Station\nMTOW 95 lb (43 kg)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ALBATROSS 2.2",
+        "product_type": "fixed-wing unmanned system, MTOW 550 kg",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0045",
+            "line_start": 51,
+            "line_end": 52,
+            "url": "https://www.uavos.com/products",
+            "page_class": "product",
+            "snippet": "### [](/products/fixed-wing-uavs/borey-10/)[Fixed-Wing Unmanned System ALBATROSS](https://www.uavos.com/products/fixed-wing-uavs/albatross-2-2/)\nMTOW 1210 lb (550 kg)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "BOREY",
+        "product_type": "fixed-wing unmanned system, MTOW 20 kg",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0045",
+            "line_start": 54,
+            "line_end": 55,
+            "url": "https://www.uavos.com/products",
+            "page_class": "product",
+            "snippet": "### [Fixed-Wing Unmanned System BOREY](/products/fixed-wing-uavs/borey-10/)\nMTOW 45 lb (20 kg)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SITARIA E",
+        "product_type": "fixed-wing electric UAV with integrated GCS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0065",
+            "line_start": 18,
+            "line_end": 21,
+            "url": "https://www.uavos.com/products/fixed-wing-uavs/sitaria-e",
+            "page_class": "product",
+            "snippet": "SITARIA E\n=========\nFixed-Wing Unmanned System\nincluding the SITARIA aircraft and its GCS"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "GCS.A",
+        "product_type": "containerized ground control station (20-foot container)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0045",
+            "line_start": 60,
+            "line_end": 61,
+            "url": "https://www.uavos.com/products",
+            "page_class": "product",
+            "snippet": "### [GCS.A](https://www.uavos.com/products/ground-control-stations/ground-control-station-gcs-a/)\nGCS.A is installed into a modified 20-foot container, enhanced with a generator compartment"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "PGCS.7",
+        "product_type": "portable ground control station for UAS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0045",
+            "line_start": 63,
+            "line_end": 64,
+            "url": "https://www.uavos.com/products",
+            "page_class": "product",
+            "snippet": "### [PGCS.7](https://www.uavos.com/products/portable-ground-control-station-pgcs-7/)\nPortable Ground Control Station for UAS"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "PGCS.4",
+        "product_type": "portable ground control station for UAS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0045",
+            "line_start": 66,
+            "line_end": 67,
+            "url": "https://www.uavos.com/products",
+            "page_class": "product",
+            "snippet": "### [PGCS.4](https://www.uavos.com/products/ground-control-stations/portable-ground-control-station-pgcs-4/)\nPortable Ground Control Station for UAS"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Xservo140",
+        "product_type": "servo actuator",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0045",
+            "line_start": 72,
+            "line_end": 73,
+            "url": "https://www.uavos.com/products",
+            "page_class": "product",
+            "snippet": "### [Xservo140](https://www.uavos.com/products/servo-drives/servo-actuator-xservo140/)\nXservo series"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SDLM-04B",
+        "product_type": "rotating type servo drive",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0045",
+            "line_start": 75,
+            "line_end": 76,
+            "url": "https://www.uavos.com/products",
+            "page_class": "product",
+            "snippet": "### [SDLM-04B](https://www.uavos.com/products/servo-drives/servo-drive-sdlm-04b/)\nRugged and Durable Rotating Type Servo for Professional Intensive Applications"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SD-01B",
+        "product_type": "rotating type servo drive",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0045",
+            "line_start": 78,
+            "line_end": 79,
+            "url": "https://www.uavos.com/products",
+            "page_class": "product",
+            "snippet": "### [SD-01B](https://www.uavos.com/products/servo-drives/servo-drive-sd1/)\nRugged and Durable Rotating Type Servo for Professional Intensive Applications"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SD-02B",
+        "product_type": "rotating type servo drive",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0045",
+            "line_start": 81,
+            "line_end": 82,
+            "url": "https://www.uavos.com/products",
+            "page_class": "product",
+            "snippet": "### [SD-02B](https://www.uavos.com/products/servo-drives/servo-drive-sd2/)\nRugged and Durable Rotating Type Servo for Professional Intensive Applications"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "UAV-170 Engine",
+        "product_type": "4-stroke gasoline UAV engine, 170cc",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0045",
+            "line_start": 87,
+            "line_end": 88,
+            "url": "https://www.uavos.com/products",
+            "page_class": "product",
+            "snippet": "### [UAV-170 Engine](https://www.uavos.com/products/uav-engines/uav-170-engine/)\n4-stroke gasoline power plant with volume 170 ccm designed for being integrated in UAV"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "pMDDLRadio Data Link System",
+        "product_type": "broadband COFDM UAV data link",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0045",
+            "line_start": 93,
+            "line_end": 94,
+            "url": "https://www.uavos.com/products",
+            "page_class": "product",
+            "snippet": "### [pMDDLRadio Data Link System](https://www.uavos.com/products/communication-systems/pmddlradio-data-link-system/)\nan advanced high power long range broadband COFDM communication system for UAV"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Automatic Tracking System",
+        "product_type": "antenna tracking system (ATS) for directional antennas",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0045",
+            "line_start": 96,
+            "line_end": 97,
+            "url": "https://www.uavos.com/products",
+            "page_class": "product",
+            "snippet": "### [Automatic Tracking System](https://www.uavos.com/products/communication-systems/automatic-tracking-system/)\nARM Antenna Tracking System (ATS) allows to use directional antennas with higher gain comparing to omni-directional ones."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "GSG 201",
+        "product_type": "gyro-stabilized two-axis EO/IR gimbal with laser rangefinder",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0045",
+            "line_start": 102,
+            "line_end": 103,
+            "url": "https://www.uavos.com/products",
+            "page_class": "product",
+            "snippet": "### [GSG 201](https://www.uavos.com/products/gimbals/gsg-201-gimbal/)\nGyro-stabilized two-axis gimbal for day and night surveillance, with Laser range\ufb01nder"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "GOS-155D/T",
+        "product_type": "gyro-stabilized optical gimbal with 30x RGB and thermal camera",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0045",
+            "line_start": 105,
+            "line_end": 106,
+            "url": "https://www.uavos.com/products",
+            "page_class": "product",
+            "snippet": "### [GOS-155D/T](https://www.uavos.com/products/gimbals/gos-155d-t-gimbal/)\nGyro-stabilized optical gimbal with advanced image processing, a 30x zoom RGB camera, and a high-resolution thermal camera."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "PTP140",
+        "product_type": "pan-tilt platform, payload up to 130 kg",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0045",
+            "line_start": 112,
+            "line_end": 113,
+            "url": "https://www.uavos.com/products",
+            "page_class": "product",
+            "snippet": "### [PTP140](https://www.uavos.com/products/pan-tilt-platforms/pan-tilt-platform-ptp140/)\nPowerful Pan Tilt Platform for Payload up to 130 kg"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ERS-75",
+        "product_type": "drone parachute / emergency rescue system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0045",
+            "line_start": 127,
+            "line_end": 128,
+            "url": "https://www.uavos.com/products",
+            "page_class": "product",
+            "snippet": "### [Drone Parachute Systems](https://www.uavos.com/products/emergency-rescue-systems/emergency-rescue-system-ers-75/)\nfor UAVs ranging from 5 kg to 1000 kg. These systems are designed for deployment at speeds between 20 km/h and 220 km/h, extension feasible"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Industrial Composite Curing Ovens",
+        "product_type": "composite curing oven for aerospace manufacturing",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0045",
+            "line_start": 133,
+            "line_end": 134,
+            "url": "https://www.uavos.com/products",
+            "page_class": "product",
+            "snippet": "### [Industrial Composite Curing Ovens](https://www.uavos.com/precision-composites-curing-ovens/)\nHigh-performance composite curing ovens by UAVOS Inc. for curing, post-curing, and heat processing of composites, prepregs, thermoplastics, and tooling."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Additional products referenced in the contact form include UVH R22, UVM 2E, GSG 140D, GSG 140T, SAT-i, PGCU.1/2/3, PTP 03, and main rotor blade variants."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0047",
+        "line_start": 92,
+        "line_end": 103,
+        "url": "https://www.uavos.com/products/autopilots/ap10-1-automatic-control-system-for-uav",
+        "page_class": "news",
+        "snippet": "### AP10.1 KIT\n#\nItem\nDesignation\nPart number\nWeight, g\n1\nAP 10.1 Kit\n1.1\nOnboard Telemetry Unit\nOTU\nUV01.431329.100.310"
+      }
+    ],
+    "notes": "Catalog SKUs with formal part numbers, downloadable brochures and 3D models, ISO 9001:2015 certified. Company explicitly describes itself as a manufacturer."
+  },
+  "unresolved_questions": [
+    "UVH R22, UVM 2E, GSG 140D, GSG 140T, SAT-i, PGCU.1/2/3, PTP 03 mentioned in contact form but not detailed on fetched product pages.",
+    "About Us page was not fetched; may contain additional company background."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.uavos.com/aboutus/",
+      "reason": "About Us page likely contains company history and headquarters confirmation.",
+      "expected_evidence": [
+        "headquarters",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "guessed from site nav link on homepage line 14",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "complete",
+  "tagline": "Delaware-based OEM producing fixed-wing (AP 10 series) and rotorcraft (UVH and ALBATROSS lines) unmanned systems across multiple size classes, plus flight control, ground segment, and ISR payload integration. NDAA and Blue UAS certification status unknown. Public evidence on production maturity, customer base, and program adoption is limited.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 23,
+    "total_cost_usd": 0.7387037000000001,
+    "created_at": "2026-05-04T07:29:43+00:00",
+    "extract_version": "0.1.0"
+  }
+}

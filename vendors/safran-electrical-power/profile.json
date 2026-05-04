@@ -1,0 +1,409 @@
+{
+  "target_id": "safran-electrical-power",
+  "run_id": "canonical",
+  "display_name": "Safran Electrical & Power",
+  "homepage_url": "https://www.safran-group.com/companies/safran-electrical-power",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/safran-electrical-power/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0901",
+            "line_start": 379,
+            "line_end": 379,
+            "url": "https://www.safran-group.com/products-services/engineustm",
+            "page_class": "product",
+            "snippet": "ENGINeUS\u2122 Aircraft Electric Motors are self-contained direct drive propulsion power pods. This modular and scalable machine allows an easy integration into a vehicle whilst maintaining optimization of the propulsive function of new mobility platforms and hybrid turbomachinery."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0901",
+            "line_start": 390,
+            "line_end": 390,
+            "url": "https://www.safran-group.com/products-services/engineustm",
+            "page_class": "product",
+            "snippet": "ENGINeUS, the first electric motor certified by EASA for new air mobility"
+          }
+        ],
+        "notes": "ENGINeUS\u2122 electric motors are EASA-certified for new air mobility platforms including UAVs; marketed as direct-drive propulsion pods"
+      },
+      {
+        "category": "power_systems",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 225,
+            "line_end": 225,
+            "url": "https://www.safran-group.com/companies/safran-electrical-power",
+            "page_class": "homepage",
+            "snippet": "Safran Electrical & Power is a developer of both primary generation systems and auxiliary generation systems. The company has also created GENeUS\u2122, a family of smart generators that integrate active power management, making them the ideal power source for hybrid power systems"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 237,
+            "line_end": 237,
+            "url": "https://www.safran-group.com/companies/safran-electrical-power",
+            "page_class": "homepage",
+            "snippet": "The new battery line GENeUSPACK\u2122 and the associated management systems enable global optimization of systems on future platforms."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 243,
+            "line_end": 243,
+            "url": "https://www.safran-group.com/companies/safran-electrical-power",
+            "page_class": "homepage",
+            "snippet": "GENeUSGRID\u2122 controls the aircraft\u2019s electrical equipment, including electric propulsion, and intelligently manages energy sources, whether all-electric or hybrid."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0916",
+            "line_start": 377,
+            "line_end": 377,
+            "url": "https://www.safran-group.com/products-services/smart-battery-system-geneuspacktm",
+            "page_class": "product",
+            "snippet": "Energy Storage Batteries for Electric Propulsion applications Up to 150kWh"
+          }
+        ],
+        "notes": "GENeUSPACK\u2122 batteries (up to 150kWh), GENeUS\u2122 smart generators (300 kW), and GENeUSGRID PROPULSION\u2122 energy management \u2014 all targeting hybrid/electric propulsion"
+      },
+      {
+        "category": "mechanical_subsystems",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 229,
+            "line_end": 231,
+            "url": "https://www.safran-group.com/companies/safran-electrical-power",
+            "page_class": "homepage",
+            "snippet": "Electrical Interconnection Systems (or wiring)\n----------------------------------------------\nAs the world leader in electrical wiring interconnection systems, Safran Electrical & Power designs technical harnesses that carry power and/or data for all types of applications, including harsh environments. Working on a built-to-print or built-to-spec basis, the company manages varying design configurations and complexity thanks to the excellence of its industrial facilities."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 240,
+            "line_end": 240,
+            "url": "https://www.safran-group.com/companies/safran-electrical-power",
+            "page_class": "homepage",
+            "snippet": "The complete range of electrical components \u2013 backshells, transitions, sleeves and tubes, etc. \u2013 and specific accessories are designed to protect wiring, particularly in harsh environments."
+          }
+        ],
+        "notes": "Electrical wiring interconnection systems (EWIS), harnesses, conduits, relays, contactors \u2014 broad portfolio of electrical interconnect components"
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": null,
+      "state_or_province": null,
+      "country": "France",
+      "address": null
+    },
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 600,
+        "line_end": 600,
+        "url": "https://www.safran-group.com/companies/safran-electrical-power",
+        "page_class": "homepage",
+        "snippet": "![marker](/themes/custom/safran_fo/public/images/icons/style-two-pin-marker-grey.svg) Meru, France"
+      }
+    ],
+    "notes": "Safran Group is a French company; Safran Electrical & Power is a French-registered subsidiary with facilities in Chatou and M\u00e9ru (\u00cele-de-France). Specific HQ city for SEP not explicitly stated on site."
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 220,
+        "line_end": 220,
+        "url": "https://www.safran-group.com/companies/safran-electrical-power",
+        "page_class": "homepage",
+        "snippet": "Safran Electrical & Power is one of the world's leaders in aircraft electrical systems. It is a key player in the equipment electrification & in the electric and hybrid propulsion sector. Mastering the on-board energy system, the company designs and provides modular, innovative and optimized architectures and solutions."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 234,
+        "line_end": 234,
+        "url": "https://www.safran-group.com/companies/safran-electrical-power",
+        "page_class": "homepage",
+        "snippet": "The electric motor ranges ENGINeUS\u2122 integrate power electronics, and suit all types of onboard applications and, above all, the future electric propulsion for new platforms..."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 670,
+        "line_end": 671,
+        "url": "https://www.safran-group.com/companies/safran-electrical-power",
+        "page_class": "homepage",
+        "snippet": "H55 selects Safran to supply the electric propulsion unit for the Bristell B23 Energic\n](https://www.safran-group.com/pressroom/h55-selects-safran-supply-electric-propulsion-unit-bristell-b23-energic-2026-04-13)"
+      }
+    ],
+    "notes": "Supplies major electric propulsion subsystems (ENGINeUS\u2122 motors, GENeUSPACK\u2122 batteries, GENeUS\u2122 generators, GENeUSGRID\u2122 energy management) to aircraft and new air mobility OEMs; not an airframe OEM itself."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "ENGINeUS\u2122",
+        "product_type": "aircraft electric motor for hybrid/electric propulsion",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0901",
+            "line_start": 369,
+            "line_end": 369,
+            "url": "https://www.safran-group.com/products-services/engineustm",
+            "page_class": "product",
+            "snippet": "ENGINeUS\u2122 Smart Electric Motors"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0901",
+            "line_start": 390,
+            "line_end": 390,
+            "url": "https://www.safran-group.com/products-services/engineustm",
+            "page_class": "product",
+            "snippet": "ENGINeUS, the first electric motor certified by EASA for new air mobility"
+          }
+        ],
+        "notes": "EASA-certified for new air mobility; ranges include ENGINeUS\u2122 50-100 (50/100 kW) and ENGINeUS\u2122 XL (500 kW \u2013 1 MW)"
+      },
+      {
+        "name": "GENeUSPACK\u2122",
+        "product_type": "smart battery system for electric propulsion",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0916",
+            "line_start": 365,
+            "line_end": 365,
+            "url": "https://www.safran-group.com/products-services/smart-battery-system-geneuspacktm",
+            "page_class": "product",
+            "snippet": "GENeUSPACK\u2122"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0916",
+            "line_start": 377,
+            "line_end": 377,
+            "url": "https://www.safran-group.com/products-services/smart-battery-system-geneuspacktm",
+            "page_class": "product",
+            "snippet": "Energy Storage Batteries for Electric Propulsion applications Up to 150kWh"
+          }
+        ],
+        "notes": "Up to 150 kWh, 850 VDC; all-in-one smart battery for Electric Propulsion and More Electric Aircraft"
+      },
+      {
+        "name": "GENeUS\u2122",
+        "product_type": "smart generator for hybrid power systems",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0906",
+            "line_start": 222,
+            "line_end": 222,
+            "url": "https://www.safran-group.com/products-services/geneustm-smart-generator",
+            "page_class": "product",
+            "snippet": "GENeUS\u2122 Smart Generator"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0906",
+            "line_start": 232,
+            "line_end": 232,
+            "url": "https://www.safran-group.com/products-services/geneustm-smart-generator",
+            "page_class": "product",
+            "snippet": "First product in the GENeUS\u2122 family of high speed Smart Motors/Generators. GENeUS\u2122 has integrated active rectification to produce a controlled DC power and continuous electrical power generation capability of 300 kW. GENeUS\u2122300 can also be used as a motor."
+          }
+        ],
+        "notes": "300 kW, 550\u2013800 VDC; high-speed Smart Motor/Generator family for hybrid propulsion"
+      },
+      {
+        "name": "GENeUSGRID PROPULSION\u2122",
+        "product_type": "energy management system for hybrid/electric propulsion",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0900",
+            "line_start": 225,
+            "line_end": 225,
+            "url": "https://www.safran-group.com/products-services/energy-management-system-geneusgridtm",
+            "page_class": "product",
+            "snippet": "Energy Management System GENeUSGRID PROPULSION\u2122"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0900",
+            "line_start": 232,
+            "line_end": 232,
+            "url": "https://www.safran-group.com/products-services/energy-management-system-geneusgridtm",
+            "page_class": "product",
+            "snippet": "GENeUSGRID PROPULSION\u2122 manages the energy system to meet the needs of hybrid electric or all-electric propulsion engines. It optimally and dynamically manages a combination of generators and high-voltage batteries while providing system integrity through the use of electrical protection."
+          }
+        ],
+        "notes": "100\u20131000 kW, 800\u20131000 VDC; manages combination of generators and high-voltage batteries for electric propulsion"
+      },
+      {
+        "name": "Harsh environment & special harnesses",
+        "product_type": "military/civil customized electrical harnesses",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 319,
+            "line_end": 320,
+            "url": "https://www.safran-group.com/companies/safran-electrical-power",
+            "page_class": "homepage",
+            "snippet": "Harsh environment & special harnesses\n![](https://www.safran-group.com/sites/default/files/crops/23_15/public/node/36027/img/original/SAF2020_0340826.png?itok=ZjVRwXV-) Electrical components and wiring"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Power & Data Network (EWIS)",
+        "product_type": "electrical wiring interconnection system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 346,
+            "line_end": 352,
+            "url": "https://www.safran-group.com/companies/safran-electrical-power",
+            "page_class": "homepage",
+            "snippet": "Power & Data Network (EWIS)\n![](https://www.safran-group.com/sites/default/files/crops/23_15/public/node/9396/img/original/SAF2020_0340824.png?itok=m8FXbtPU) Electrical interconnection systems (wiring)\n![Power & Data Network (EWIS)](https://www.safran-group.com/sites/default/files/crops/23_15/public/node/9396/img/original/SAF2020_0340824.png?itok=m8FXbtPU)\nProduct\nPower & Data Network (EWIS)\nElectrical interconnection systems (wiring)\n](/products-services/best-class-electrical-wiring-interconnection-systems)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AC & DC Relays / Contactors",
+        "product_type": "electrical distribution components",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 337,
+            "line_end": 342,
+            "url": "https://www.safran-group.com/companies/safran-electrical-power",
+            "page_class": "homepage",
+            "snippet": "AC & DC Relays / Contactors\n![](https://www.safran-group.com/sites/default/files/crops/23_15/public/node/10590/2021-07/Contacteur%20DC%20Edward%20Linsmier%20SAF2021%200368110-min.png?itok=kWSJCFYV) Electrical distribution systems\n![AC & DC Relays / Contactors](https://www.safran-group.com/sites/default/files/crops/23_15/public/node/10590/2021-07/Contacteur%20DC%20Edward%20Linsmier%20SAF2021%200368110-min.png?itok=kWSJCFYV)\nProduct\nAC & DC Relays / Contactors\nElectrical distribution systems"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Toggle Switches",
+        "product_type": "electrical distribution switches",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 364,
+            "line_end": 370,
+            "url": "https://www.safran-group.com/companies/safran-electrical-power",
+            "page_class": "homepage",
+            "snippet": "Toggle Switches\n![](https://www.safran-group.com/sites/default/files/crops/23_15/public/node/431907/2021-07/toggle%20SEP.png?itok=oDToA1Vw) Electrical distribution systems\n![Toggle Switches](https://www.safran-group.com/sites/default/files/crops/23_15/public/node/431907/2021-07/toggle%20SEP.png?itok=oDToA1Vw)\nProduct\nToggle Switches\nElectrical distribution systems\n](/products-services/toggle-switches)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No mention of NDAA Section 848/889 compliance in any fetched page. Safran is a French company; NDAA compliance would be relevant only for US government programs."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No mention of DIU Blue UAS or Blue sUAS in any fetched page."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0901",
+        "line_start": 390,
+        "line_end": 390,
+        "url": "https://www.safran-group.com/products-services/engineustm",
+        "page_class": "product",
+        "snippet": "ENGINeUS, the first electric motor certified by EASA for new air mobility"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 670,
+        "line_end": 671,
+        "url": "https://www.safran-group.com/companies/safran-electrical-power",
+        "page_class": "homepage",
+        "snippet": "H55 selects Safran to supply the electric propulsion unit for the Bristell B23 Energic\n](https://www.safran-group.com/pressroom/h55-selects-safran-supply-electric-propulsion-unit-bristell-b23-energic-2026-04-13)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 678,
+        "line_end": 679,
+        "url": "https://www.safran-group.com/companies/safran-electrical-power",
+        "page_class": "homepage",
+        "snippet": "Safran inaugurates expanded Sarasota facility for aircraft electrical systems maintenance, repair and overhaul\n](https://www.safran-group.com/pressroom/safran-inaugurates-expanded-sarasota-facility-aircraft-electrical-systems-maintenance-repair-and-2026-03-18)"
+      }
+    ],
+    "notes": "ENGINeUS\u2122 is EASA-certified and in commercial use (H55 contract for Bristell B23 Energic). Products are catalog items with defined specs. Sarasota MRO facility expansion confirms operational scale."
+  },
+  "unresolved_questions": [
+    "Specific city/address of Safran Electrical & Power headquarters not explicitly stated on site (likely Chatou or Meru in \u00cele-de-France region)",
+    "Whether any SEP products are specifically qualified for DoD/NDAA programs"
+  ],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Manufactures EASA-certified electric motors (ENGINeUS\u2122, 50 kW\u20131 MW), smart battery systems (GENeUSPACK\u2122, up to 150 kWh), and energy management systems for hybrid/all-electric aircraft propulsion. NDAA and Blue UAS certification status unknown. French parent company with production-ready subsystems; limited public evidence of US defense-sector integration or unmanned-systems\u2013specific qualification.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 17,
+    "total_cost_usd": 0.6453838999999999,
+    "created_at": "2026-05-04T06:00:24+00:00",
+    "extract_version": "0.1.0"
+  }
+}

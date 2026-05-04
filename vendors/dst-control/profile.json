@@ -1,0 +1,314 @@
+{
+  "target_id": "dst-control",
+  "run_id": "canonical",
+  "display_name": "DST Control",
+  "homepage_url": "https://www.dst.se",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/dst-control/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "isr_payloads",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0006",
+            "line_start": 52,
+            "line_end": 52,
+            "url": "https://www.dst.se/about-us",
+            "page_class": "other",
+            "snippet": "**Our history\u00a0begins in 1989, a few months before the Berlin wall falls. Since the very start, the focus of DST CONTROL was set on the emerging field of Unmanned Aerial Vehicles (UAV:s). Pretty soon, the focus was even more zoomed in on development and delivery of airborne camera platforms for demanding long-range applications.**"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0009",
+            "line_start": 49,
+            "line_end": 50,
+            "url": "https://www.dst.se/otus-u200",
+            "page_class": "other",
+            "snippet": "**TWO-AXIS** Gyro Stabilised Midi-gimbal\nOTUS-U200"
+          }
+        ],
+        "notes": "OTUS-U series are gyro-stabilised EO/IR camera gimbals for airborne/UAV surveillance applications"
+      },
+      {
+        "category": "ground_segment",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0009",
+            "line_start": 51,
+            "line_end": 53,
+            "url": "https://www.dst.se/hand-control-unit",
+            "page_class": "other",
+            "snippet": "### Maximise the control and usage of your\ngyro-stabilised camera system\nThe digital Hand Control Unit, HCU, is an optional component for handheld use on ground or in cramped environments such as manned aircraft cockpits. The purpose of the HCU is to"
+          }
+        ],
+        "notes": "Hand Control Unit and System Control Unit accessories for gimbal operation from ground"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Link\u00f6ping",
+      "state_or_province": null,
+      "country": "Sweden",
+      "address": "Gillbergagatan 41c, 58273 Link\u00f6ping"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 63,
+        "line_end": 66,
+        "url": "https://www.dst.se",
+        "page_class": "homepage",
+        "snippet": "*   DST CONTROL AB\n*   Gillbergagatan 41c\n*   58273 Link\u00f6ping\n*   SWEDEN"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0006",
+        "line_start": 52,
+        "line_end": 52,
+        "url": "https://www.dst.se/about-us",
+        "page_class": "other",
+        "snippet": "**Our history\u00a0begins in 1989, a few months before the Berlin wall falls. Since the very start, the focus of DST CONTROL was set on the emerging field of Unmanned Aerial Vehicles (UAV:s). Pretty soon, the focus was even more zoomed in on development and delivery of airborne camera platforms for demanding long-range applications.**"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0009",
+        "line_start": 53,
+        "line_end": 53,
+        "url": "https://www.dst.se/otus-u200",
+        "page_class": "other",
+        "snippet": "OTUS-U200 is the best choice for airborne, maritime and ground-based applications when the trade-off between weight and sensor capability is critical."
+      }
+    ],
+    "notes": "Designs and manufactures gyro-stabilised camera gimbals (ISR payloads) integrated onto UAV and other unmanned platforms"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "OTUS-U135",
+        "product_type": "two-axis gyro-stabilised micro-gimbal (EO/IR)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0008",
+            "line_start": 47,
+            "line_end": 49,
+            "url": "https://www.dst.se/otus-u135",
+            "page_class": "other",
+            "snippet": "OTUS-U135\n=========\n**TWO-AXIS** Gyro Stabilised Micro-gimbal"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "OTUS-U170",
+        "product_type": "gyro-stabilised gimbal (EO/IR)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 9,
+            "line_end": 9,
+            "url": "https://www.dst.se",
+            "page_class": "homepage",
+            "snippet": "    *   [OTUS-U170](https://www.dst.se/otus-u170/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "OTUS-U200",
+        "product_type": "two-axis gyro-stabilised midi-gimbal (EO/IR)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0009",
+            "line_start": 47,
+            "line_end": 49,
+            "url": "https://www.dst.se/otus-u200",
+            "page_class": "other",
+            "snippet": "OTUS-U200\n=========\n**TWO-AXIS** Gyro Stabilised Midi-gimbal"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "OTUS-U230M",
+        "product_type": "gyro-stabilised gimbal (EO/IR)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 11,
+            "line_end": 11,
+            "url": "https://www.dst.se",
+            "page_class": "homepage",
+            "snippet": "    *   [OTUS-U230M](https://www.dst.se/otus-u230m/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "OTUS-U250",
+        "product_type": "gyro-stabilised gimbal, MIL STD-810 tested",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0006",
+            "line_start": 64,
+            "line_end": 64,
+            "url": "https://www.dst.se/about-us",
+            "page_class": "other",
+            "snippet": "Completion of a successful blowing sand test of the OTUS-U250 according to MIL STD-810 performed in 2018."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Multisight LR",
+        "product_type": "multisensor long-range gimbal system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0019",
+            "line_start": 47,
+            "line_end": 47,
+            "url": "https://www.dst.se/multisight-lr",
+            "page_class": "other",
+            "snippet": "Multisight LR"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Hand Control Unit (HCU)",
+        "product_type": "ruggedised handheld gimbal controller with touchscreen",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0009",
+            "line_start": 47,
+            "line_end": 49,
+            "url": "https://www.dst.se/hand-control-unit",
+            "page_class": "other",
+            "snippet": "Hand Control Unit\n=================\nHand Control Unit"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0019",
+        "line_start": 70,
+        "line_end": 72,
+        "url": "https://www.dst.se/products",
+        "page_class": "product",
+        "snippet": "**Exportable (non-ITAR)**\nAll our products are fully designed and manufactured in Europe and have\nmaximum exportability worldwide, hence non-ITAR."
+      }
+    ],
+    "notes": "Site claims non-ITAR and European manufacture but makes no explicit NDAA Section 848/889 compliance claim"
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0006",
+        "line_start": 59,
+        "line_end": 62,
+        "url": "https://www.dst.se/about-us",
+        "page_class": "other",
+        "snippet": "By means of a complete production workshop for\nmanufacture of many critical parts, we eliminate\nconsequences of disrupted supply-chains, and are\nable to maintain highest possible quality"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0006",
+        "line_start": 66,
+        "line_end": 69,
+        "url": "https://www.dst.se/about-us",
+        "page_class": "other",
+        "snippet": "Each and every delivered gimbal leaving\nthe production line, goes through painstaking\nFactory Acceptance Testing including\nvibration testing according to MIL STD-810"
+      }
+    ],
+    "notes": "In-house production workshop; factory acceptance testing on every unit including MIL STD-810 vibration testing; published datasheets with full specs"
+  },
+  "unresolved_questions": [
+    "NDAA Section 848/889 compliance status not mentioned on site",
+    "Blue UAS cleared list status not mentioned on site"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.dst.se/otus-u170/",
+      "reason": "Product page for OTUS-U170 gimbal \u2014 would confirm specs and product type",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "guessed from nav menu on homepage",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.dst.se/otus-u230m/",
+      "reason": "Product page for OTUS-U230M gimbal \u2014 would confirm specs and product type",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "guessed from nav menu on homepage",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "complete",
+  "tagline": "Swedish supplier of gyro-stabilized EO/IR gimbal sensor heads (OTUS-U family, 135\u2013250 class) and ground control subsystems for tactical UAS. Production-ready across multiple payload weights. NDAA and Blue UAS certification status not publicly disclosed; no named US government contracts identified in open sources.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 10,
+    "total_cost_usd": 0.45535805,
+    "created_at": "2026-05-04T01:56:09+00:00",
+    "extract_version": "0.1.0"
+  }
+}

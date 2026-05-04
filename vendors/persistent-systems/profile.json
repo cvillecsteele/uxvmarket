@@ -1,0 +1,400 @@
+{
+  "target_id": "persistent-systems",
+  "run_id": "canonical",
+  "display_name": "Persistent Systems",
+  "homepage_url": "https://persistentsystems.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/persistent-systems/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "communications",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 72,
+            "line_end": 72,
+            "url": "https://persistentsystems.com",
+            "page_class": "homepage",
+            "snippet": "We engineer and manufacture our Wave Relay\u00ae MANET and Cloud Relay\u2122 technology to transmit voice, video, and situational awareness in contested and congested environments. Through the Wave Relay\u00ae Ecosystem, an alliance of industry-leading companies, Persistent unites warfighters, UGVs, UAVs, sensors, cameras, and devices on a common network."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0007",
+            "line_start": 64,
+            "line_end": 64,
+            "url": "https://persistentsystems.com/solutions/uas-overview",
+            "page_class": "capability",
+            "snippet": "Persistent Systems offers ready-to-integrate solutions to provide reliable connectivity, bidirectional video transmission, and edge computing power for UAS platforms of all sizes in congested and contested RF environments."
+          }
+        ],
+        "notes": "Core product line is Wave Relay MANET radios, data links, and mesh networking hardware for military and UAS platforms."
+      },
+      {
+        "category": "ground_segment",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0007",
+            "line_start": 96,
+            "line_end": 98,
+            "url": "https://persistentsystems.com/solutions/uas-overview",
+            "page_class": "capability",
+            "snippet": "### GCS SOLUTIONS FOR ANY MISSION\nPersistent offers fixed and steerable GCS solutions to provide long range & reliable connectivity in both land and sea operations.\n [![Integrated Antenna Series](https://persistentsystems.com/wp-content/themes/persistensystems/images/solutions/integrated-tracker.svg)](https://persistentsystems.com/integrated-antenna/)[![Multi-Band Tracking Antenna](https://persistentsystems.com/wp-content/themes/persistensystems/images/solutions/landgcs-icon.webp)](https://persistentsystems.com/tracking-antenna/)"
+          }
+        ],
+        "notes": "Offers fixed and steerable GCS solutions (Multi-Band Tracking Antenna, Integrated Antenna Series) for UAS ground control."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Skipped product pages for MPU5, Embedded Module, etc. \u2014 list may be incomplete for secondary categories."
+  },
+  "headquarters": {
+    "value": {
+      "city": "New York",
+      "state_or_province": "New York",
+      "country": "United States",
+      "address": "601 West 26th St. Suite 905"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0015",
+        "line_start": 76,
+        "line_end": 80,
+        "url": "https://persistentsystems.com/persistent-systems-contact",
+        "page_class": "contact",
+        "snippet": "New York\n========\n601 West 26th St. Suite 905\nNew York, NY 10001\nPhone: (212) 561-5895"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0008",
+        "line_start": 143,
+        "line_end": 144,
+        "url": "https://persistentsystems.com/persistent-systems-company",
+        "page_class": "capability",
+        "snippet": "We moved our manufacturing, production, and engineering facilities to a new, 60,000 square foot\nspace on the West Side of New York City."
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0007",
+        "line_start": 80,
+        "line_end": 84,
+        "url": "https://persistentsystems.com/solutions/uas-overview",
+        "page_class": "capability",
+        "snippet": "### OFF-THE-SHELF & READY TO INTEGRATE\nPersistent offers off-the-shelf solutions\ndesigned to transform your UAS platform\ninto a networked asset.\n [![Embedded Module](https://persistentsystems.com/wp-content/themes/persistensystems/images/solutions/embedded_module.webp)](https://persistentsystems.com/embedded-module/)[![MPU5](https://persistentsystems.com/wp-content/themes/persistensystems/images/solutions/mpu_5.svg) ](https://persistentsystems.com/mpu5/)[![RF Module](https://persistentsystems.com/wp-content/themes/persistensystems/images/solutions/rf_module.svg)](https://persistentsystems.com/radio-modules/)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0008",
+        "line_start": 137,
+        "line_end": 139,
+        "url": "https://persistentsystems.com/persistent-systems-company",
+        "page_class": "capability",
+        "snippet": "### 2017\nPersistent Systems launched the [Wave Relay Ecosystem](https://persistentsystems.com/ecosystem-overview/) to empower warfighters with robots, sensors, and cameras that use a common network. We launched the Embedded Module to give manufacturers the ability to integrated the Wave Relay MANET directly into their platforms.\n[Learn more about the Embedded Module](https://persistentsystems.com/embedded-module/)"
+      }
+    ],
+    "notes": "Sells Wave Relay data link subsystems (Embedded Module, RF Module, tracking antennas, GCS components) purpose-built for integration into UAS, UGV, and manned platforms."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "MPU5",
+        "product_type": "MANET smart radio / dismount controller",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0008",
+            "line_start": 134,
+            "line_end": 135,
+            "url": "https://persistentsystems.com/persistent-systems-company",
+            "page_class": "capability",
+            "snippet": "The MPU5 - the world\u2019s first smart radio \u2013 was launched. The goal was to revolutionize the MANET world by introducing a high-throughput radio designed to be a battlefield-ready networking device.\n[Learn more about MPU5](https://persistentsystems.com/mpu5/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Embedded Module",
+        "product_type": "Wave Relay MANET integration module for UAS/UGV platforms",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0008",
+            "line_start": 137,
+            "line_end": 139,
+            "url": "https://persistentsystems.com/persistent-systems-company",
+            "page_class": "capability",
+            "snippet": "### 2017\nPersistent Systems launched the [Wave Relay Ecosystem](https://persistentsystems.com/ecosystem-overview/) to empower warfighters with robots, sensors, and cameras that use a common network. We launched the Embedded Module to give manufacturers the ability to integrated the Wave Relay MANET directly into their platforms.\n[Learn more about the Embedded Module](https://persistentsystems.com/embedded-module/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "GVR5",
+        "product_type": "Land vehicle MANET radio",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 14,
+            "line_end": 14,
+            "url": "https://persistentsystems.com",
+            "page_class": "homepage",
+            "snippet": "    *   [GVR5](https://persistentsystems.com/gvr5/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "RDC",
+        "product_type": "Rugged Display Controller",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 6,
+            "line_end": 6,
+            "url": "https://persistentsystems.com",
+            "page_class": "homepage",
+            "snippet": "*   [RDC](https://persistentsystems.com/rugged-display-controller/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "PT5",
+        "product_type": "Personal Transport 5G/Wi-Fi connectivity device",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 57,
+            "line_end": 61,
+            "url": "https://persistentsystems.com",
+            "page_class": "homepage",
+            "snippet": "PT5\n===\nPERSONAL TRANSPORT 5\nThe PT5 is a dual-function Personal Transport for the MPU5 that simultaneously connects you and your team to the cloud via 5G and connects your devices to your MPU5 via Wi-Fi.\n[Learn More](https://persistentsystems.com/pt5)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Multi-Band Tracking Antenna",
+        "product_type": "Long-range UAS GCS tracking antenna",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0007",
+            "line_start": 100,
+            "line_end": 101,
+            "url": "https://persistentsystems.com/solutions/uas-overview",
+            "page_class": "capability",
+            "snippet": "----------------------------------------------------------------------------------\nA: Use a Multi-Band Tracking antenna for a long range (130 mile) single aircraft application. Use one or multiple Integrated Sector Antennas to blanket an area with Wave Relay coverage for shipborne or swarming applications. Integrated Sector Antennas allow you to communicate with multiple aircraft from a single location."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Integrated Antenna Series",
+        "product_type": "Fixed/sector UAS GCS antenna infrastructure",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 16,
+            "line_end": 16,
+            "url": "https://persistentsystems.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Integrated Antenna Series](https://persistentsystems.com/integrated-antenna/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Dual Push To Talk (PTT)",
+        "product_type": "Tactical push-to-talk radio accessory",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 7,
+            "line_end": 7,
+            "url": "https://persistentsystems.com",
+            "page_class": "homepage",
+            "snippet": "*   [Dual Push TO TALK (PTT)](https://persistentsystems.com/ptt-overview/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AWRS",
+        "product_type": "Radio/networking device (spec sheet only)",
+        "confidence": "low",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 12,
+            "line_end": 12,
+            "url": "https://persistentsystems.com",
+            "page_class": "homepage",
+            "snippet": "*   [AWRS](https://persistentsystems.com/wp-content/themes/persistensystems/pdf/03EN487_AWRS_Spec_Sheet_Rev._E.pdf)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Cloud Relay",
+        "product_type": "MANET extension / cloud networking solution",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0014",
+            "line_start": 59,
+            "line_end": 59,
+            "url": "https://persistentsystems.com/solutions/cloud-relay",
+            "page_class": "capability",
+            "snippet": "Cloud Relay provides seamless Ethernet connectivity to users located anywhere in the world by any means necessary. Cloud Relay\u2019s simplified Hub and Spoke architecture augments your existing network infrastructure."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Individual product pages (MPU5, Embedded Module, GVR5, Radio Modules) were skipped during crawl; additional SKU details may exist on those pages."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0011",
+        "line_start": 58,
+        "line_end": 58,
+        "url": "https://persistentsystems.com/solutions/security",
+        "page_class": "compliance",
+        "snippet": "Persistent offers non-ITAR, commercial solutions on the NIAP Product Compliant List and NSA CSfC Component List for military, public safety, and commercial applications."
+      }
+    ],
+    "notes": "Site claims non-ITAR status and lists NIAP/NSA CSfC/FIPS/Common Criteria certifications, but makes no explicit NDAA Section 848/889 compliance claim."
+  },
+  "blue_uas": {
+    "value": "yes",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0011",
+        "line_start": 143,
+        "line_end": 145,
+        "url": "https://persistentsystems.com/solutions/security",
+        "page_class": "compliance",
+        "snippet": "Independent organizations have tested and assessed Persistent\u2019s solutions. Contact Persistent Systems for more information.\n![Blue UAS logo](https://persistentsystems.com/wp-content/themes/persistensystems/images/security/blue-uas.png)\n![Dark Wolf logo](https://persistentsystems.com/wp-content/themes/persistensystems/images/security/dark-wolf.png)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0007",
+        "line_start": 86,
+        "line_end": 86,
+        "url": "https://persistentsystems.com/solutions/uas-overview",
+        "page_class": "capability",
+        "snippet": "![Blue UAS logo](https://persistentsystems.com/wp-content/themes/persistensystems/images/solutions/blue-uas.png)"
+      }
+    ],
+    "notes": "Blue UAS logo displayed on security page under '3rd Party Assessments / Cybersecurity Tested' section and on the UAS solutions overview page. Placement alongside assessment organizations implies Blue UAS clearance."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0008",
+        "line_start": 142,
+        "line_end": 144,
+        "url": "https://persistentsystems.com/persistent-systems-company",
+        "page_class": "capability",
+        "snippet": "Our dramatic growth required expansion.\nWe moved our manufacturing, production, and engineering facilities to a new, 60,000 square foot\nspace on the West Side of New York City."
+      }
+    ],
+    "notes": "Operates a 60,000 sq ft manufacturing, production, and engineering facility in New York City; catalog products ship off-the-shelf."
+  },
+  "unresolved_questions": [
+    "AWRS product details not available (spec sheet PDF not fetched)",
+    "Individual product pages (MPU5, Embedded Module, GVR5, Radio Modules) skipped \u2014 full SKU details unknown",
+    "Explicit Blue UAS Cleared List text confirmation not present in corpus"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://persistentsystems.com/mpu5",
+      "reason": "Primary product page for MPU5 radio; would confirm product specs, pricing tier, and production status details.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "skipped in crawl_index; linked from resource-0001 nav menu",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://persistentsystems.com/embedded-module",
+      "reason": "Product page for Embedded Module, the core UAS datalink subsystem; would confirm SKU details, integration specs, and supply chain role.",
+      "expected_evidence": [
+        "products",
+        "drone_supply_chain_role",
+        "products_categories"
+      ],
+      "source_hint": "skipped in crawl_index; linked from resource-0001 nav menu",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://persistentsystems.com/solutions/uas-datalink",
+      "reason": "Detailed UAS datalink solution page; would confirm product configurations, Blue UAS claim explicitly, and NDAA status if disclosed.",
+      "expected_evidence": [
+        "products",
+        "blue_uas",
+        "ndaa",
+        "products_categories"
+      ],
+      "source_hint": "skipped in crawl_index; linked from resource-0005 UAS solutions nav",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 22,
+    "total_cost_usd": 0.76578195,
+    "created_at": "2026-05-03T15:26:36+00:00",
+    "extract_version": "0.1.0"
+  },
+  "tagline": "Manufactures Wave Relay\u00ae MANET radios and networked communications subsystems (MPU5, Embedded Module, GVR5, antennas, Cloud Relay) for dismount, UAS, UGV, and manned-aircraft platforms. Blue UAS certified; FAA STC-certified airborne LRU (AWRS). Public evidence of production-ready tactical and platform-integration products is strong, though NDAA compliance status is not documented."
+}

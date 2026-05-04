@@ -1,0 +1,307 @@
+{
+  "target_id": "actuonix-motion-devices",
+  "run_id": "canonical",
+  "display_name": "Actuonix Motion Devices",
+  "homepage_url": "https://www.actuonix.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/actuonix-motion-devices/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "mechanical_subsystems",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0475",
+            "url": null,
+            "page_class": null,
+            "snippet": "Rod Actuators are the classic, time-tested form factor. Designed to excel in a wide range of applications, Actuonix rod actuators can handle everything from simple linear movements to complex positioning tasks."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "url": null,
+            "page_class": null,
+            "snippet": "Our customers have used our linear servo actuators for retractable canopies, landing gear, camera gimbals and more. For the RC construction enthusiast, they are ideal for dump boxes, excavators, dozers and loaders."
+          }
+        ],
+        "notes": "Core product line is micro linear actuators (rod, track, stepper, feedback, servo variants) \u2014 classic linear motion / custom mechanism components."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Saanichton",
+      "state_or_province": "BC",
+      "country": "Canada",
+      "address": "Unit 201-1753 Sean Heights, Saanichton, BC, Canada V8M 0B3"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0208",
+        "url": null,
+        "page_class": null,
+        "snippet": "Address Unit 201-1753 Sean Heights Saanichton, BC Canada V8M 0B3 Email Sales & Order Inquiries: Technical Support:"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0382",
+        "url": null,
+        "page_class": null,
+        "snippet": "Drone: Lightweight design makes the P8 ideal for airborne applications."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "url": null,
+        "page_class": null,
+        "snippet": "Our customers have used our linear servo actuators for retractable canopies, landing gear, camera gimbals and more."
+      }
+    ],
+    "notes": "Actuonix's primary markets span robotics, aerospace, medical, RC, and automation broadly; drone is one explicitly called-out application. R-series linear servos are marketed as drop-in RC servo replacements used in landing gear, gimbals, etc."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "L8",
+        "product_type": "micro rod linear actuator family",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0225",
+            "url": null,
+            "page_class": null,
+            "snippet": "The Ext-R is compatible with any P16, T16, P8 or L8 model ending in -P. A one meter RC extension cable, and a piece of heat shrink are included."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "P8 / P8-R",
+        "product_type": "micro feedback linear actuator / linear servo family",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0382",
+            "url": null,
+            "page_class": null,
+            "snippet": "We're thrilled to announce one of the new additions to our product lineup, the P8-R Linear Servo. Based on our powerful P8 platform, the P8-R is an ideal solution for projects requiring dependable linear motion in a compact form factor."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "PQ12",
+        "product_type": "micro linear actuator family (smallest stroke, <20 mm)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0225",
+            "url": null,
+            "page_class": null,
+            "snippet": "our PQ12, L12 and L16 lines are available as a plug-and-play linear servo, whereas our P16, T16 and P8 lines require the use of an LAC board to achieve this functionality."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "L12",
+        "product_type": "rod linear actuator family",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0225",
+            "url": null,
+            "page_class": null,
+            "snippet": "our PQ12, L12 and L16 lines are available as a plug-and-play linear servo, whereas our P16, T16 and P8 lines require the use of an LAC board to achieve this functionality."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "L16",
+        "product_type": "rod linear actuator family",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0225",
+            "url": null,
+            "page_class": null,
+            "snippet": "our PQ12, L12 and L16 lines are available as a plug-and-play linear servo, whereas our P16, T16 and P8 lines require the use of an LAC board to achieve this functionality."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "P16",
+        "product_type": "feedback rod linear actuator family",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0225",
+            "url": null,
+            "page_class": null,
+            "snippet": "our PQ12, L12 and L16 lines are available as a plug-and-play linear servo, whereas our P16, T16 and P8 lines require the use of an LAC board to achieve this functionality."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "T16",
+        "product_type": "track linear actuator family",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0225",
+            "url": null,
+            "page_class": null,
+            "snippet": "our PQ12, L12 and L16 lines are available as a plug-and-play linear servo, whereas our P16, T16 and P8 lines require the use of an LAC board to achieve this functionality."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "S20",
+        "product_type": "stepper linear actuator family",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0502",
+            "url": null,
+            "page_class": null,
+            "snippet": "At this time, we have several examples using Actuonix P8-ST and S20 stepper actuators. While our current models use stepper actuators, it is possible that we will be able to offer a product or kit."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "External RC Board (Ext-R)",
+        "product_type": "in-line actuator controller for RC/Arduino",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0225",
+            "url": null,
+            "page_class": null,
+            "snippet": "Late last year, we released a new product that solves this problem, the External RC (Ext-R) Board. The Ext-R board is an in-line, compact, simplified version of the LAC."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Linear Actuator Control Board (LAC)",
+        "product_type": "programmable actuator controller",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "url": null,
+            "page_class": null,
+            "snippet": "For applications that require a custom stroke length, we developed our Linear Actuator Control Board. This board gives you control over speed, end limits and sensitivity when coupled with a P series actuator."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "200+ SKUs organised into model families; families listed here. More individual SKUs exist on skipped product pages."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "url": null,
+        "page_class": null,
+        "snippet": "All of our actuators are our original designs. With over 200 micro linear actuator models in our product lineup, Actuonix offers more stroke lengths, gear ratios and control options than any other manufacturer."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0477",
+        "url": null,
+        "page_class": null,
+        "snippet": "When you buy a linear actuator, you expect it to work reliably from day one. At Actuonix, we take that expectation seriously. That's why every single actuator that leaves our facility is tested for functionality."
+      }
+    ],
+    "notes": "200+ catalog SKUs in stock with same-day shipping; 100% per-unit testing before shipment described as standard practice."
+  },
+  "unresolved_questions": [
+    "NDAA Section 848/889 compliance status not disclosed on site.",
+    "Blue UAS / Blue sUAS cleared-list status not mentioned.",
+    "Full individual SKU list across all 200+ models not fetched (product detail pages skipped)."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.actuonix.com/industries",
+      "reason": "Industries page would confirm UXV/drone as a named vertical and help sharpen drone_supply_chain_role confidence from medium to high.",
+      "expected_evidence": [
+        "drone_supply_chain_role",
+        "products_categories"
+      ],
+      "source_hint": "guessed from nav menu link on homepage",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.actuonix.com/about-us",
+      "reason": "About page may confirm Canadian headquarters details and manufacturing posture (production vs. engineering services).",
+      "expected_evidence": [
+        "headquarters",
+        "readiness"
+      ],
+      "source_hint": "guessed from nav menu link on homepage",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 14,
+    "total_cost_usd": 0.43167120000000003,
+    "created_at": "2026-05-02T17:57:25+00:00",
+    "extract_version": "0.1.0"
+  },
+  "tagline": "Canadian manufacturer of micro linear actuators and electric linear servos in rod, track, and stepper variants, 10\u2013300mm stroke, 6V/12V. Over 200 production models; forces to 67 lbs; pricing under $110 USD. NDAA and Blue UAS certification status unknown. No major defense contracts publicly identified; primary market appears commercial/hobbyist. Limited public evidence of unmanned-systems integration or DoD supply-chain qualification."
+}

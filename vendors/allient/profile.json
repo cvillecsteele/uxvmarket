@@ -1,0 +1,319 @@
+{
+  "target_id": "allient",
+  "run_id": "canonical",
+  "display_name": "Allient",
+  "homepage_url": "https://allient.com/",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/allient/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0332",
+            "line_start": 106,
+            "line_end": 106,
+            "url": "https://allient.com/drone-capabilities",
+            "page_class": "capability",
+            "snippet": "Advanced Motor Solutions for Drone/UAV/UAS Systems"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0332",
+            "line_start": 119,
+            "line_end": 119,
+            "url": "https://allient.com/drone-capabilities",
+            "page_class": "capability",
+            "snippet": "*   Minimized weight, high efficacy and high torque Motors from 43mm to 148mm in diameter with rugged and reliable bearing designs based on proven Allient motors made globally"
+          }
+        ],
+        "notes": "Brushless outer rotor motors 43mm\u2013148mm diameter explicitly marketed for UAS/UAV/drone propulsion, manufactured in the USA. Also SA series axial flux, frameless, slotless motor families."
+      },
+      {
+        "category": "propulsion_electronics",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0332",
+            "line_start": 124,
+            "line_end": 124,
+            "url": "https://allient.com/drone-capabilities",
+            "page_class": "capability",
+            "snippet": "*   Efficient and lightweight drive electronics with sensorless- and sensored-FOC manufactured in the USA, enabling longer flight times and quieter operation"
+          }
+        ],
+        "notes": "Drone capabilities page describes sensorless/sensored FOC drive electronics manufactured in USA for drone applications; ESC expansion explicitly planned as next drone product category."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Buffalo",
+      "state_or_province": "New York",
+      "country": "United States",
+      "address": "495 Commerce Drive, Buffalo, NY 14228"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0363",
+        "line_start": 111,
+        "line_end": 111,
+        "url": "https://allient.com/company",
+        "page_class": "company",
+        "snippet": "Today, Allient is headquartered in Buffalo, New York, and serves customers throughout the United States, Canada, Mexico, Europe, and Asia via our Technology Units, Sales Units, and Solution Centers. Take a look at our history to see how we've grown."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 125,
+        "line_end": 126,
+        "url": "https://allient.com/",
+        "page_class": "homepage",
+        "snippet": "*   495 Commerce Drive\n    Buffalo, NY 14228, USA"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0332",
+        "line_start": 108,
+        "line_end": 108,
+        "url": "https://allient.com/drone-capabilities",
+        "page_class": "capability",
+        "snippet": "### **Mission-ready propulsion and motion systems engineered for UAV, aerospace, and defense platforms with demanding performance and integration requirements."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0332",
+        "line_start": 119,
+        "line_end": 119,
+        "url": "https://allient.com/drone-capabilities",
+        "page_class": "capability",
+        "snippet": "*   Minimized weight, high efficacy and high torque Motors from 43mm to 148mm in diameter with rugged and reliable bearing designs based on proven Allient motors made globally"
+      }
+    ],
+    "notes": "Manufactures motors and drive electronics sold as components to drone OEMs and system builders. Does not build complete UAS platforms."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "UAS/UAV/Drone Motors",
+        "product_type": "brushless outer-rotor propulsion motors for drones",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0332",
+            "line_start": 106,
+            "line_end": 106,
+            "url": "https://allient.com/drone-capabilities",
+            "page_class": "capability",
+            "snippet": "Advanced Motor Solutions for Drone/UAV/UAS Systems"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Pyxmos\u2122 Module Servo Drive",
+        "product_type": "compact PCB-mount servo drive module",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0241",
+            "line_start": 108,
+            "line_end": 108,
+            "url": "https://allient.com/product/pyxmos-module-servo-drive",
+            "page_class": "product",
+            "snippet": "Pyxmos\u2122 Module Servo Drive"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SA Series Frameless Axial Flux Motors",
+        "product_type": "frameless axial flux brushless motor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0241",
+            "line_start": 213,
+            "line_end": 214,
+            "url": "https://allient.com/product/pyxmos-module-servo-drive",
+            "page_class": "product",
+            "snippet": "![SA Series Frameless Axial Flux Motors](https://allient.com/wp-content/uploads/2024/12/Allient_Axial-Flux-Motors_SA-Series-01-300x300.webp)\n**SA Series Frameless Axial Flux Motors**"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "KinetiMax\u2122 Series High Power Density Frameless Torque Motors",
+        "product_type": "outer-rotor frameless torque motor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0241",
+            "line_start": 203,
+            "line_end": 204,
+            "url": "https://allient.com/product/pyxmos-module-servo-drive",
+            "page_class": "product",
+            "snippet": "![KinetiMax\u2122 Series High Power Density Frameless Torque Motors](https://allient.com/wp-content/uploads/2024/12/Allient-Outer-Rotor-Motors-KinetiMax-HPD-300x300.webp)\n**KinetiMax\u2122 Series High Power Density Frameless Torque Motors**"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HeiMotion\u00ae Premium Brushless Servo Motors",
+        "product_type": "brushless servo motor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0241",
+            "line_start": 168,
+            "line_end": 169,
+            "url": "https://allient.com/product/pyxmos-module-servo-drive",
+            "page_class": "product",
+            "snippet": "![HeiMotion\u00ae Premium Brushless Servo Motors](https://allient.com/wp-content/uploads/2024/11/Allient-Brushless-DC-Motors-HeiMotion-Premium-Series-300x300.webp)\n**HeiMotion\u00ae Premium Brushless Servo Motors**"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HeiMotion\u00ae Dynamic Servo Motors",
+        "product_type": "high-acceleration brushless servo motor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0241",
+            "line_start": 173,
+            "line_end": 174,
+            "url": "https://allient.com/product/pyxmos-module-servo-drive",
+            "page_class": "product",
+            "snippet": "![HeiMotion\u00ae Dynamic Servo Motors](https://allient.com/wp-content/uploads/2024/11/Allient-Brushless-DC-Motors-HeiMotion-Dynamic-Series-300x300.webp)\n**HeiMotion\u00ae Dynamic Servo Motors**"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MotionSet\u2122 Pro Servo Drive Software",
+        "product_type": "servo drive setup and tuning software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0353",
+            "line_start": 130,
+            "line_end": 131,
+            "url": "https://allient.com/allient-rochester/products",
+            "page_class": "product",
+            "snippet": "**MotionSet\u2122 Pro Software**\nMakes servo setup and tuning fast, precise, and intuitive."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Many additional motor series in catalog (Quantum, PerformeX, Megaflux, Electroflux, LS, TG). Core drone-relevant products are the outer-rotor UAS motors and drive electronics."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0181",
+        "line_start": 110,
+        "line_end": 110,
+        "url": "https://allient.com/drone-capabilities",
+        "page_class": "capability",
+        "snippet": "#### \u2713 Made in the USA"
+      }
+    ],
+    "notes": "Site claims 'Made in the USA' and 'Designed, built, and supported in the USA' for drone products, but no explicit NDAA Section 848/889 compliance claim anywhere in the corpus."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0332",
+        "line_start": 151,
+        "line_end": 151,
+        "url": "https://allient.com/drone-capabilities",
+        "page_class": "capability",
+        "snippet": "Allient produces over 5 million motors every year delivering proven expertise and unmatched reliability."
+      }
+    ],
+    "notes": "5 million motors produced annually; catalog products with datasheets, specifications, and available firmware. Design/customization services offered as secondary mode."
+  },
+  "unresolved_questions": [
+    "NDAA 848/889 compliance status not explicitly disclosed despite 'Made in USA' claim",
+    "Blue UAS cleared list status unknown",
+    "ESC product availability timeline for drone market not specified (described as planned expansion)"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://allient.com/certifications/",
+      "reason": "Certifications page may list NDAA, ITAR, or other compliance certifications relevant to NDAA and Blue UAS fields",
+      "expected_evidence": [
+        "ndaa",
+        "blue_uas"
+      ],
+      "source_hint": "guessed from nav menu link on homepage",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://allient.com/allient-defense/",
+      "reason": "Allient Defense vertical market page likely details defense-specific compliance (NDAA, Blue UAS) and UAV-specific product lines",
+      "expected_evidence": [
+        "ndaa",
+        "blue_uas",
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "linked from navigation on all fetched pages",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "complete",
+  "tagline": "Frameless and housed brushless motors, servo drives, and linear motors for drone propulsion, gimbals, and precision motion control. US-based production. NDAA compliance status and Blue UAS certification status not publicly disclosed; limited independent validation of drone-motor performance specs in open literature.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 16,
+    "total_cost_usd": 0.5149779,
+    "created_at": "2026-05-03T21:07:00+00:00",
+    "extract_version": "0.1.0"
+  }
+}

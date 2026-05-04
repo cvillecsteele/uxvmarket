@@ -1,0 +1,437 @@
+{
+  "target_id": "troll-systems-corporation",
+  "run_id": "canonical",
+  "display_name": "Troll Systems Corporation",
+  "homepage_url": "https://trollsystems.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/troll-systems-corporation/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "communications",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 107,
+            "line_end": 108,
+            "url": "https://trollsystems.com",
+            "page_class": "homepage",
+            "snippet": "**TX/RX Radio Transceivers**\nDuplexed, COFDM, OFDM, MIMO multi-band video data links, high-speed coding, tracking and control."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 109,
+            "line_end": 110,
+            "url": "https://trollsystems.com",
+            "page_class": "homepage",
+            "snippet": "**Diversity Antenna Systems**\n360\u00b0 TX/RX sector antennas with video on-demand to Ethernet, cloud, Wi-Fi and LTE"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0019",
+            "line_start": 66,
+            "line_end": 66,
+            "url": "https://trollsystems.com/company",
+            "page_class": "company",
+            "snippet": "AS9100 and ISO 9001 certified manufacturer of airborne, ground and marine video data links"
+          }
+        ],
+        "notes": "Core business is airborne, ground and marine data link systems: directional antennas, transceivers, diversity receivers and tracking systems for air-to-ground video and data links used in UAS/manned aircraft."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Valencia",
+      "state_or_province": "California",
+      "country": "United States",
+      "address": "24950 Anza Drive, Valencia, CA 91355"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0021",
+        "line_start": 64,
+        "line_end": 68,
+        "url": "https://trollsystems.com/company/contact",
+        "page_class": "contact",
+        "snippet": "##### Troll Systems Corporation\n**Address:**\n24950 Anza Drive\nValencia, CA\n91355"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0015",
+        "line_start": 1,
+        "line_end": 1,
+        "url": "https://trollsystems.com/applications/unmanned-airborne-and-ground-systems",
+        "page_class": "capability",
+        "snippet": "Enhancing Military Drones: Long Range C2 to C4 ISR Tracking"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0019",
+        "line_start": 66,
+        "line_end": 66,
+        "url": "https://trollsystems.com/company",
+        "page_class": "company",
+        "snippet": "AS9100 and ISO 9001 certified manufacturer of airborne, ground and marine video data links"
+      }
+    ],
+    "notes": "Manufactures and sells data link subsystems (airborne antennas, ground tracking antennas, RF transceivers) for UAS and manned aircraft programs. Products are explicitly marketed for UAV/UAS C2ISR tracking."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "MicroLink\u00ae SDR",
+        "product_type": "software-defined radio transceiver and mission payload controller",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0015",
+            "line_start": 183,
+            "line_end": 183,
+            "url": "https://trollsystems.com/applications/unmanned-airborne-and-ground-systems",
+            "page_class": "capability",
+            "snippet": "### Dual Radio, Wideband Transceiver, Sensor Payload Control and IMINT Video Processing"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "LinkBox II Transceiver",
+        "product_type": "COFDM/OFDM/MIMO video data link transceiver",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 14,
+            "line_end": 14,
+            "url": "https://trollsystems.com",
+            "page_class": "homepage",
+            "snippet": "        *   [LinkBox II Transceiver](https://trollsystems.com/products/linkbox-2-transceiver/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SkyLink\u00ae Mini II",
+        "product_type": "airborne directional tracking antenna, DO-160 certified",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 16,
+            "line_end": 16,
+            "url": "https://trollsystems.com",
+            "page_class": "homepage",
+            "snippet": "        *   [SkyLink\u00ae Mini II](https://trollsystems.com/products/skylink-airborne-antenna/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SkyLink\u00ae Mini S",
+        "product_type": "airborne tracking antenna, L and S band",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 17,
+            "line_end": 17,
+            "url": "https://trollsystems.com",
+            "page_class": "homepage",
+            "snippet": "        *   [SkyLink\u00ae Mini S](https://trollsystems.com/products/skylink-mini-s/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SkyLink\u00ae Mini SP",
+        "product_type": "airborne tracking antenna",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 18,
+            "line_end": 18,
+            "url": "https://trollsystems.com",
+            "page_class": "homepage",
+            "snippet": "        *   [SkyLink\u00ae Mini SP](https://trollsystems.com/products/mini-sp-j-series/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SkyLink\u00ae DP Omni",
+        "product_type": "airborne omnidirectional antenna",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 19,
+            "line_end": 19,
+            "url": "https://trollsystems.com",
+            "page_class": "homepage",
+            "snippet": "        *   [SkyLink\u00ae DP Omni](https://trollsystems.com/products/skylink-dp/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MTX Series",
+        "product_type": "auto-tracking ground antenna with transceiver",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0015",
+            "line_start": 106,
+            "line_end": 106,
+            "url": "https://trollsystems.com/applications/unmanned-airborne-and-ground-systems",
+            "page_class": "capability",
+            "snippet": "MTX Series - Auto-Tracking Antenna with Transceiver"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MT300",
+        "product_type": "mobile auto-tracking ground antenna",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 22,
+            "line_end": 22,
+            "url": "https://trollsystems.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Tracking Antenna MT300](https://trollsystems.com/products/mt300/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AX3000",
+        "product_type": "auto-tracking directional antenna and transceiver system (ground and marine variants)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0015",
+            "line_start": 67,
+            "line_end": 67,
+            "url": "https://trollsystems.com/applications/unmanned-airborne-and-ground-systems",
+            "page_class": "capability",
+            "snippet": "The AX3000 is a high-gain directional antenna and transceiver system capable of automatic calibration, acquisition and tracking. Designed primarily to link aircraft with ground nodes, AX3000 antennas represent a state of the art in size, weight and gain for long-range LoS links."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Mini GS",
+        "product_type": "mobile ground tracking antenna",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 24,
+            "line_end": 24,
+            "url": "https://trollsystems.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Mini GS Mobile Tracking](https://trollsystems.com/products/mini-gs/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "A6RX",
+        "product_type": "mobile diversity antenna",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 30,
+            "line_end": 30,
+            "url": "https://trollsystems.com",
+            "page_class": "homepage",
+            "snippet": "        *   [A6RX Mobile Diversity](https://trollsystems.com/products/a6rx/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "A6",
+        "product_type": "diversity sector antenna",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 31,
+            "line_end": 31,
+            "url": "https://trollsystems.com",
+            "page_class": "homepage",
+            "snippet": "        *   [A6 Diversity Sector](https://trollsystems.com/products/a6/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "A1",
+        "product_type": "pole-mounted sector antenna",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 32,
+            "line_end": 32,
+            "url": "https://trollsystems.com",
+            "page_class": "homepage",
+            "snippet": "        *   [A1 Pole Mounted Sector](https://trollsystems.com/products/a1/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DMR8000",
+        "product_type": "diversity receiver",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 34,
+            "line_end": 34,
+            "url": "https://trollsystems.com",
+            "page_class": "homepage",
+            "snippet": "        *   [DMR8000 Diversity Receiver](https://trollsystems.com/products/dmr8000/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "S8000",
+        "product_type": "antenna controller",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 35,
+            "line_end": 35,
+            "url": "https://trollsystems.com",
+            "page_class": "homepage",
+            "snippet": "        *   [S8000 Antenna Controller](https://trollsystems.com/products/s8000/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "M3007",
+        "product_type": "master controller",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 36,
+            "line_end": 36,
+            "url": "https://trollsystems.com",
+            "page_class": "homepage",
+            "snippet": "        *   [M3007 Master Controllers](https://trollsystems.com/products/m3007-master-control/)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 56,
+        "line_end": 58,
+        "url": "https://trollsystems.com",
+        "page_class": "homepage",
+        "snippet": "###### ITAR FREE\n![](https://trollsystems.com/wp-content/uploads/2021/11/Map@2x.png)\nMADE IN THE USA"
+      }
+    ],
+    "notes": "Site prominently advertises 'ITAR FREE' and 'Made in USA' but makes no NDAA Section 848/889 compliance claim."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0023",
+        "line_start": 69,
+        "line_end": 69,
+        "url": "https://trollsystems.com/company/history-highlights",
+        "page_class": "company",
+        "snippet": "Troll Systems wins major, multi-year contract with U.S. Customs and Border Protection for nationwide airborne and ground infrastructure"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0088",
+        "line_start": 72,
+        "line_end": 72,
+        "url": "https://trollsystems.com/support/troll-quality-statenment",
+        "page_class": "compliance",
+        "snippet": "**Troll Systems awarded AS 9100D Certification"
+      }
+    ],
+    "notes": "30+ year history, AS9100D and ISO 9001:2015 certified manufacturer, multi-year US CBP contract, broad catalog of named SKUs with two-year factory warranty."
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Airborne, ground, and marine data-link antennas and transceivers (SkyLink\u00ae, MicroLink\u00ae SDR, LinkBox II, MTX series, AX3000, DMR8000). DO-160 certified, AS9100D/ISO 9001:2015, ITAR-free US manufacture. NDAA and Blue UAS status not publicly disclosed; limited independent evidence of defense prime integration beyond imagery suggesting Army/CBP/ISR use.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 15,
+    "total_cost_usd": 0.39310965,
+    "created_at": "2026-05-04T07:05:20+00:00",
+    "extract_version": "0.1.0"
+  }
+}

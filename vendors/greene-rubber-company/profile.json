@@ -1,0 +1,358 @@
+{
+  "target_id": "greene-rubber-company",
+  "run_id": "canonical",
+  "display_name": "Greene Rubber Company",
+  "homepage_url": "https://www.greenerubber.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/greene-rubber-company/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "mechanical_subsystems",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 110,
+            "line_end": 110,
+            "url": "https://www.greenerubber.com",
+            "page_class": "homepage",
+            "snippet": "Lightweight elastomer solutions for UAV and UAS platforms \u2014 engineered to manage vibration, shock, and heat in weight-constrained systems."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0254",
+            "line_start": 58,
+            "line_end": 59,
+            "url": "https://www.greenerubber.com/products",
+            "page_class": "product",
+            "snippet": "#### Shock & Vibration Isolators\nPrecision-formulated isolators reduce mechanical shock and vibration to safeguard avionics and sensors. Each design ensures long-term damping stability under extreme flight and temperature conditions."
+          }
+        ],
+        "notes": "Shock & vibration isolators are the lead UAV-marketed product; site explicitly positions elastomer solutions for 'vibration, shock, and heat' management in UAV/UAS platforms."
+      },
+      {
+        "category": "structures_and_materials",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0254",
+            "line_start": 85,
+            "line_end": 86,
+            "url": "https://www.greenerubber.com/products",
+            "page_class": "product",
+            "snippet": "![Rubber & Plastic Extrusions](https://i0.wp.com/www.greenerubber.com/wp-content/uploads/2016/08/Extrusion_2-crop.jpg?fit=640%2C273&ssl=1)\n#### Rubber & Plastic Extrusions"
+          }
+        ],
+        "notes": "O-rings, gaskets, seals, rubber/plastic extrusions, tubing \u2014 polymer/elastomer materials that are structural/sealing components going into drone assemblies."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Unmanned Systems (UAV) is an explicit market vertical; skipped page at /markets/unmanned-systems would confirm exact product mix."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Woburn",
+      "state_or_province": "Massachusetts",
+      "country": "United States",
+      "address": "20 Cross Street, Woburn, MA 01801"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 138,
+        "line_end": 140,
+        "url": "https://www.greenerubber.com",
+        "page_class": "homepage",
+        "snippet": "Greene Rubber Company HQ\n20 Cross Street\nWoburn, MA 01801"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0050",
+        "line_start": 71,
+        "line_end": 73,
+        "url": "https://www.greenerubber.com/company",
+        "page_class": "company",
+        "snippet": "Greene Rubber Company HQ\n20 Cross Street\nWoburn, MA 01801"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 109,
+        "line_end": 110,
+        "url": "https://www.greenerubber.com",
+        "page_class": "homepage",
+        "snippet": "### Unmanned Systems (UAV)\nLightweight elastomer solutions for UAV and UAS platforms \u2014 engineered to manage vibration, shock, and heat in weight-constrained systems."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0050",
+        "line_start": 46,
+        "line_end": 46,
+        "url": "https://www.greenerubber.com/company",
+        "page_class": "company",
+        "snippet": "A Leading Manufacturer of Custom Molded & Fabricated Rubber Components"
+      }
+    ],
+    "notes": "Manufactures elastomer/rubber components (gaskets, seals, vibration isolators, EMI shielding) sold to OEMs across aerospace, defense, and UAV/UAS markets."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Shock & Vibration Isolators",
+        "product_type": "elastomer shock/vibration isolation mounts",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0254",
+            "line_start": 58,
+            "line_end": 59,
+            "url": "https://www.greenerubber.com/products",
+            "page_class": "product",
+            "snippet": "#### Shock & Vibration Isolators\nPrecision-formulated isolators reduce mechanical shock and vibration to safeguard avionics and sensors. Each design ensures long-term damping stability under extreme flight and temperature conditions."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Rubber Molding & Over-Molding",
+        "product_type": "custom-molded rubber and rubber-to-metal parts",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0254",
+            "line_start": 61,
+            "line_end": 62,
+            "url": "https://www.greenerubber.com/products",
+            "page_class": "product",
+            "snippet": "![Rubber Molding & Over-Molding](https://i0.wp.com/www.greenerubber.com/wp-content/uploads/2016/06/over-mold1-e1361543929284.jpg?fit=440%2C330&ssl=1)\n#### Rubber Molding & Over-Molding"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "EMI Shielding & Thermal Management",
+        "product_type": "electrically and thermally conductive gaskets",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0254",
+            "line_start": 65,
+            "line_end": 67,
+            "url": "https://www.greenerubber.com/products",
+            "page_class": "product",
+            "snippet": "![EMI Shielding & Thermal Management](https://i0.wp.com/www.greenerubber.com/wp-content/uploads/2016/06/EMI_Thermal.jpg?fit=440%2C327&ssl=1)\n#### EMI Shielding & Thermal Management\nElectrically and thermally gaskets to help maintain signal clarity by protecting against both internal and external interference, while preventing your sensitive components from thermal run-off."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "O-Rings, Gaskets & Seals",
+        "product_type": "custom O-rings, gaskets, and seals",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0254",
+            "line_start": 68,
+            "line_end": 69,
+            "url": "https://www.greenerubber.com/products",
+            "page_class": "product",
+            "snippet": "[](https://www.greenerubber.com/products/o-rings-gaskets-seals/)\n![O-Rings, Gaskets & Seals](https://i0.wp.com/www.greenerubber.com/wp-content/uploads/2016/06/O-Rings-Gaskets-e1361543723762.jpg?fit=440%2C330&ssl=1)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Sound Dampening Products",
+        "product_type": "elastomeric foam and tape noise reduction materials",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0254",
+            "line_start": 72,
+            "line_end": 73,
+            "url": "https://www.greenerubber.com/products",
+            "page_class": "product",
+            "snippet": "[](https://www.greenerubber.com/products/sound-dampening-products/)\n![Sound Dampening Products](https://i0.wp.com/www.greenerubber.com/wp-content/uploads/2016/06/Sound-Dampening_1-e1361543747863.jpg?fit=440%2C338&ssl=1)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Tapes & Adhesives",
+        "product_type": "industrial tapes and adhesive products",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0254",
+            "line_start": 76,
+            "line_end": 77,
+            "url": "https://www.greenerubber.com/products",
+            "page_class": "product",
+            "snippet": "[](https://www.greenerubber.com/products/tapes-adhesives/)\n![Tapes & Adhesives](https://i0.wp.com/www.greenerubber.com/wp-content/uploads/2016/06/Tapes_1-e1362071036694.jpg?fit=440%2C296&ssl=1)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Tubing and Assemblies",
+        "product_type": "rubber/plastic tubing and fluid assemblies",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0254",
+            "line_start": 80,
+            "line_end": 81,
+            "url": "https://www.greenerubber.com/products",
+            "page_class": "product",
+            "snippet": "[](https://www.greenerubber.com/products/tubing-and-assemblies/)\n![Tubing and Assemblies](https://i0.wp.com/www.greenerubber.com/wp-content/uploads/2016/06/Tubing_1-e1361543806976.jpg?fit=440%2C280&ssl=1)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Rubber & Plastic Extrusions",
+        "product_type": "extruded rubber and plastic profiles",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0254",
+            "line_start": 85,
+            "line_end": 86,
+            "url": "https://www.greenerubber.com/products",
+            "page_class": "product",
+            "snippet": "![Rubber & Plastic Extrusions](https://i0.wp.com/www.greenerubber.com/wp-content/uploads/2016/08/Extrusion_2-crop.jpg?fit=640%2C273&ssl=1)\n#### Rubber & Plastic Extrusions"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Liquid Adhesives, Sealants & Coatings",
+        "product_type": "liquid adhesives, sealants, and coatings",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0254",
+            "line_start": 88,
+            "line_end": 89,
+            "url": "https://www.greenerubber.com/products",
+            "page_class": "product",
+            "snippet": "[](https://www.greenerubber.com/products/liquid-adhesives-sealants-coatings/)\n![Liquid Adhesives, Sealants & Coatings](https://i0.wp.com/www.greenerubber.com/wp-content/uploads/2018/06/loctite.jpg?fit=606%2C215&ssl=1)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0383",
+        "line_start": 51,
+        "line_end": 52,
+        "url": "https://www.greenerubber.com/quality-certs",
+        "page_class": "compliance",
+        "snippet": "![ITAR Logo](https://i0.wp.com/www.greenerubber.com/wp-content/uploads/2025/12/435927097-certifications-01.png?resize=1024%2C1024&ssl=1)\nITAR Registered"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0383",
+        "line_start": 54,
+        "line_end": 56,
+        "url": "https://www.greenerubber.com/quality-certs",
+        "page_class": "compliance",
+        "snippet": "[AS 9100](https://www.greenerubber.com/wp-content/uploads/2023/05/15369_05.21.23.pdf)\n![](https://i0.wp.com/www.greenerubber.com/wp-content/uploads/2026/03/nqa-iso-9001-cert-logo-267x400-1.jpg?resize=267%2C400&ssl=1)\n[AS9100:2016 Registered](https://www.greenerubber.com/wp-content/uploads/2023/05/15369_05.21.23.pdf)"
+      }
+    ],
+    "notes": "Site mentions ITAR registration and AS9100:2016 certification but makes no NDAA Sec 848/889 claim."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS or Blue sUAS claim found anywhere in corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 47,
+        "line_end": 47,
+        "url": "https://www.greenerubber.com",
+        "page_class": "homepage",
+        "snippet": "We turn your technical specs into production-ready solutions\u2014engineered to solve complex challenges and perform flawlessly."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0236",
+        "line_start": 67,
+        "line_end": 68,
+        "url": "https://www.greenerubber.com/our-capabilities",
+        "page_class": "capability",
+        "snippet": "### Custom Molding\nMastery in custom rubber molding, delivering flawless components from prototype volume to full production scale"
+      }
+    ],
+    "notes": "Multiple catalog product lines, 65% repeat business, explicit 'production-ready solutions' and 'full production scale' language."
+  },
+  "unresolved_questions": [
+    "Unmanned Systems (UAV) market page was not fetched \u2014 would confirm which specific product lines are most relevant for UAV applications."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.greenerubber.com/markets/unmanned-systems",
+      "reason": "Dedicated UAV/UAS market page would confirm specific products sold into drone platforms and may list UAV-specific application examples, sharpening products and products_categories answers.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=capability",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Manufactures precision elastomeric components\u2014shock isolators, custom molded seals, gaskets, EMI shielding, and fuel-cell gaskets\u2014for aerospace, defense, and unmanned systems. Massachusetts-based production-ready supplier with broad aerospace/defense market presence. NDAA and Blue UAS certification status unknown; public evidence of defense/UAV market engagement present but limited visibility into specific program wins or government contracting posture.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 16,
+    "total_cost_usd": 0.38194244999999993,
+    "created_at": "2026-05-04T03:05:29+00:00",
+    "extract_version": "0.1.0"
+  }
+}

@@ -1,0 +1,431 @@
+{
+  "target_id": "cmc-electronics",
+  "run_id": "canonical",
+  "display_name": "CMC Electronics",
+  "homepage_url": "https://cmcelectronics.ca",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/cmc-electronics/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 124,
+            "line_end": 126,
+            "url": "https://cmcelectronics.ca",
+            "page_class": "homepage",
+            "snippet": "### Unmanned Aerial Systems\nLightweight and highly precise navigation systems for UAVs and EVTOLs.\n[Learn More](https://cmcelectronics.ca/markets/unmanned-aerial-systems/)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0225",
+            "line_start": 84,
+            "line_end": 84,
+            "url": "https://cmcelectronics.ca/products/navigation/gnss-receivers",
+            "page_class": "product",
+            "snippet": "CMC Electronics is globally renowned as an industry-leading GNSS supplier, recognized for delivering products with exceptionally high fielded mean time between failure. Our GNSS receivers were the first to offer SBAS GPS landing (LPV) and GBAS capabilities. As pioneers, we participate in and drive industry requirements, shaping the future of navigation technology."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0226",
+            "line_start": 85,
+            "line_end": 87,
+            "url": "https://cmcelectronics.ca/products/navigation/navigation-sensors",
+            "page_class": "product",
+            "snippet": "Doppler Velocity Sensors\n========================\nCMC\u2019s Doppler velocity sensors have accumulated millions of flight hours. They offer superior accuracy and performance, combined into a single compact, lightweight standalone unit that\u2019s highly resistant to jamming."
+          }
+        ],
+        "notes": "GNSS receivers (multiple CMA-series) and Doppler Velocity Sensors are the lead UAS-focused products; homepage UAS headline calls out 'highly precise navigation systems for UAVs and EVTOLs'."
+      },
+      {
+        "category": "flight_and_vehicle_control",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0223",
+            "line_start": 85,
+            "line_end": 87,
+            "url": "https://cmcelectronics.ca/products/navigation/flight-management-systems-military",
+            "page_class": "product",
+            "snippet": "Military Flight Management Systems\n==================================\nFlight management system (FMS) deployed on a large number of fixed and rotary wing military platforms across the globe."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0227",
+            "line_start": 87,
+            "line_end": 88,
+            "url": "https://cmcelectronics.ca/products/navigation/software-fms",
+            "page_class": "product",
+            "snippet": "CMC\u2019s flight management solutions deliver software-driven performance with built-in flexibility and interoperability. Designed alongside OEMs and certified for both military and civil use, our systems reduce pilot workload, cut costs, and integrate seamlessly across platforms\u2014from fixed-wing to rotary, from legacy fleets to modern modular cockpits.\nProven, Low-Risk Solution"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0204",
+            "line_start": 91,
+            "line_end": 93,
+            "url": "https://cmcelectronics.ca/products/avionics-computers",
+            "page_class": "product",
+            "snippet": "### **Multicore Avionics Computers**\nWorld\u2019s first civil-certified multicore avionics computers built on an open system architecture concept to combine greater flexibility with\u00a0smaller size, lower power, and increased performance.\n[Learn more![](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==)](https://cmcelectronics.ca/products/avionics-computers/multicore-avionics-computer/)"
+          }
+        ],
+        "notes": "Flight Management Systems (military CMA-4000/9000, civil FMS, Software FMS) and Multicore Avionics Computers are core product lines explicitly offered to UAS operators."
+      },
+      {
+        "category": "isr_payloads",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0229",
+            "line_start": 84,
+            "line_end": 84,
+            "url": "https://cmcelectronics.ca/products/optoelectronics",
+            "page_class": "product",
+            "snippet": "CMC is a leading supplier of optoelectronics products and custom microelectronics hybrids for defense, aerospace, and precision industry markets. Our strategic approach ensures the design, manufacturing, and qualification of complex hybrid microcircuits and electro-optical devices."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0229",
+            "line_start": 109,
+            "line_end": 111,
+            "url": "https://cmcelectronics.ca/products/optoelectronics",
+            "page_class": "product",
+            "snippet": "*   Advanced Defense Systems: Supports defense targeting pods, sighting systems, and radar with stable performance in harsh environments\n*   Wide Temperature Range: Reliable operation over a wide temperature range\n*   Versatile Applications: Ideal for laser range finding, LiDAR, laser spot tracking, and guidance systems"
+          }
+        ],
+        "notes": "Optoelectronics products (InGaAs APDs, hybrid microcircuits) explicitly support defense targeting pods, sighting systems, LiDAR, and laser rangefinding \u2014 detector components used in ISR payloads."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Montreal",
+      "state_or_province": "Quebec",
+      "country": "Canada",
+      "address": "600 Dr-Frederik-Philips Boulevard, Montr\u00e9al, Qc Canada H4M 2S9"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 166,
+        "line_end": 168,
+        "url": "https://cmcelectronics.ca",
+        "page_class": "homepage",
+        "snippet": "**Montr\u00e9al, Qu\u00e9bec**\n600 Dr-Frederik-Philips Boulevard\nMontr\u00e9al, Qc Canada H4M 2S9"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0007",
+        "line_start": 114,
+        "line_end": 116,
+        "url": "https://cmcelectronics.ca/about-us/our-capabilities",
+        "page_class": "capability",
+        "snippet": "### **Headquarters**\n**Montreal, Canada**\n*   Total space: 271,731 sq.ft."
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 88,
+        "line_end": 88,
+        "url": "https://cmcelectronics.ca",
+        "page_class": "homepage",
+        "snippet": "We design and manufacture advanced avionics products and systems with fully integrated civil and military capabilities for both fixed-wing and rotary-wing platforms. Each solution is engineered for high reliability, long service life, and optimized SWaP-C"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0187",
+        "line_start": 84,
+        "line_end": 84,
+        "url": "https://cmcelectronics.ca/markets/unmanned-aerial-systems",
+        "page_class": "capability",
+        "snippet": "New mobility technologies require avionics with flawless reliability to navigate safely and accurately. CMC offers a portfolio of proven avionics systems for unmanned civil and military unmanned aircraft."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0007",
+        "line_start": 84,
+        "line_end": 84,
+        "url": "https://cmcelectronics.ca/about-us/our-capabilities",
+        "page_class": "capability",
+        "snippet": "We design and manufacture cockpit systems integration, avionics and displays to the highest civil and military standards."
+      }
+    ],
+    "notes": "Designs and manufactures avionics subsystems (GNSS receivers, FMS, avionics computers, Doppler sensors) sold to aircraft/UAS OEMs and integrators. Not a complete-airframe OEM or pure component vendor."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "CMA-5500 / CMA-5600 GNSS Receivers",
+        "product_type": "spoof-resilient dual-frequency multi-constellation GNSS receiver",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 91,
+            "line_end": 91,
+            "url": "https://cmcelectronics.ca",
+            "page_class": "homepage",
+            "snippet": "Expanding the GNSS portfolio with two new spoof-resilient receivers\u2014the CMA-5500 and CMA-5600\u2014and a next-generation Relative GNSS Landing System (RGLS)."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "CMA GNSS Receiver family (CMA-3024, CMA-4124, CMA-5024, CMA-5025, CMA-6024)",
+        "product_type": "aviation-certified GNSS receiver family",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0225",
+            "line_start": 118,
+            "line_end": 134,
+            "url": "https://cmcelectronics.ca/products/navigation/gnss-receivers",
+            "page_class": "product",
+            "snippet": "### CMA-3024 brochure\n[Download](https://cmcelectronics.ca/wp-content/uploads/2022/09/4.1.3-CMC-CMA3024-GPS-19-014.pdf)\n![Icon](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==)\n### CMA-4124 brochure\n[Download](https://cmcelectronics.ca/wp-content/uploads/2022/09/4.1.3-CMC-CMA4124-GPS-21-007.pdf)\n![Icon](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==)\n### CMA-5024 brochure\n[Download](https://cmcelectronics.ca/wp-content/uploads/2022/09/4.1.3-CMC-CMA5024-GPS-19-011.pdf)\n![Icon](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==)\n### CMA-5025 brochure\n[Download](https://cmcelectronics.ca/wp-content/uploads/2022/09/4.1.3-CMC-CMA5025-GPS-19-008.pdf)\n![Icon](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==)\n### CMA-6024 brochure\n[Download](https://cmcelectronics.ca/wp-content/uploads/2022/09/4.1.3-CMC-CMA6024-GPS-19-004.pdf)\n![Icon](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==)\n### CMC LPV solution brochure\n[Download](https://cmcelectronics.ca/wp-content/uploads/2023/07/CMC-LPV-GPS-5024-23-004.pdf)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Doppler Velocity Sensor (CMA-2012)",
+        "product_type": "Doppler velocity sensor for GPS-denied navigation",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0226",
+            "line_start": 85,
+            "line_end": 87,
+            "url": "https://cmcelectronics.ca/products/navigation/navigation-sensors",
+            "page_class": "product",
+            "snippet": "Doppler Velocity Sensors\n========================\nCMC\u2019s Doppler velocity sensors have accumulated millions of flight hours. They offer superior accuracy and performance, combined into a single compact, lightweight standalone unit that\u2019s highly resistant to jamming."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Software Flight Management System (SWFMS)",
+        "product_type": "software-defined flight management system (hardware-agnostic, MOSA/FACE compliant)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0227",
+            "line_start": 87,
+            "line_end": 88,
+            "url": "https://cmcelectronics.ca/products/navigation/software-fms",
+            "page_class": "product",
+            "snippet": "CMC\u2019s flight management solutions deliver software-driven performance with built-in flexibility and interoperability. Designed alongside OEMs and certified for both military and civil use, our systems reduce pilot workload, cut costs, and integrate seamlessly across platforms\u2014from fixed-wing to rotary, from legacy fleets to modern modular cockpits.\nProven, Low-Risk Solution"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Military Flight Management System (CMA-4000 / CMA-9000)",
+        "product_type": "military FMS for fixed-wing and rotary-wing platforms",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0223",
+            "line_start": 87,
+            "line_end": 87,
+            "url": "https://cmcelectronics.ca/products/navigation/flight-management-systems-military",
+            "page_class": "product",
+            "snippet": "Flight management system (FMS) deployed on a large number of fixed and rotary wing military platforms across the globe."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0223",
+            "line_start": 98,
+            "line_end": 99,
+            "url": "https://cmcelectronics.ca/products/navigation/flight-management-systems-military",
+            "page_class": "product",
+            "snippet": "[CMA-4000 brochure](https://cmcelectronics.ca/wp-content/uploads/2022/09/4.1.1.a-CMC-CMA4000-FDMS-19-004.pdf)\n[CMA-9000 brochure](https://cmcelectronics.ca/wp-content/uploads/2022/09/4.2.3-CMC-COCKPIT9000-19-004.pdf)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Multicore Avionics Computer",
+        "product_type": "civil-certified multicore avionics computer (open architecture)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0204",
+            "line_start": 91,
+            "line_end": 93,
+            "url": "https://cmcelectronics.ca/products/avionics-computers",
+            "page_class": "product",
+            "snippet": "### **Multicore Avionics Computers**\nWorld\u2019s first civil-certified multicore avionics computers built on an open system architecture concept to combine greater flexibility with\u00a0smaller size, lower power, and increased performance.\n[Learn more![](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==)](https://cmcelectronics.ca/products/avionics-computers/multicore-avionics-computer/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Aircraft Information Server (AIS)",
+        "product_type": "avionics data server (surveillance, cabin connectivity, C4ISR processing)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0204",
+            "line_start": 94,
+            "line_end": 96,
+            "url": "https://cmcelectronics.ca/products/avionics-computers",
+            "page_class": "product",
+            "snippet": "### **Aircraft Information Servers**\nAircraft information servers providing a broad range of capabilities \u2013 from aircraft surveillance to cabin connectivity to C4ISR data processing \u2013 enabling operators to employ a customized system.\n[Learn more ![](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==)](https://cmcelectronics.ca/products/avionics-computers/aircraft-information-server/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TacView Portable Mission Display",
+        "product_type": "portable mission display and mission computer for tactical aircraft",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0216",
+            "line_start": 83,
+            "line_end": 84,
+            "url": "https://cmcelectronics.ca/products/displays/portable-mission-display",
+            "page_class": "product",
+            "snippet": "Tactical Avionics for Integrated Mission Execution - TacView is a mission-grade avionics system engineered for deterministic integration, secure tactical operations, and time-critical decision-making.\nDesigned to operate as part of the mission system architecture, TacView enables synchronized, secure performance across complex operational environments."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0216",
+            "line_start": 114,
+            "line_end": 115,
+            "url": "https://cmcelectronics.ca/products/displays/portable-mission-display",
+            "page_class": "product",
+            "snippet": "### Proven, Reliable, Fielded at Scale\nWith over 3,000 systems delivered and operational, TacView offers a mature, stable architecture independent of consumer OS lifecycles. It achieves MTBFs of 12,000 hours (PMD) and 41,000 hours (EMU), providing long-term support aligned with military program requirements."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Head-Up Display (HUD)",
+        "product_type": "avionic head-up display for military fighter/transport cockpits",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 27,
+            "line_end": 27,
+            "url": "https://cmcelectronics.ca",
+            "page_class": "homepage",
+            "snippet": "        *   [Head-Up Displays (HUD)](https://cmcelectronics.ca/products/head-up-display/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Optoelectronics (InGaAs APD / Si APD / Hybrid Microcircuits)",
+        "product_type": "low-noise avalanche photodiode detectors and hybrid microcircuits for defense/aerospace",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0229",
+            "line_start": 84,
+            "line_end": 84,
+            "url": "https://cmcelectronics.ca/products/optoelectronics",
+            "page_class": "product",
+            "snippet": "CMC is a leading supplier of optoelectronics products and custom microelectronics hybrids for defense, aerospace, and precision industry markets. Our strategic approach ensures the design, manufacturing, and qualification of complex hybrid microcircuits and electro-optical devices."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0216",
+        "line_start": 114,
+        "line_end": 115,
+        "url": "https://cmcelectronics.ca/products/displays/portable-mission-display",
+        "page_class": "product",
+        "snippet": "### Proven, Reliable, Fielded at Scale\nWith over 3,000 systems delivered and operational, TacView offers a mature, stable architecture independent of consumer OS lifecycles. It achieves MTBFs of 12,000 hours (PMD) and 41,000 hours (EMU), providing long-term support aligned with military program requirements."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 111,
+        "line_end": 111,
+        "url": "https://cmcelectronics.ca",
+        "page_class": "homepage",
+        "snippet": "With avionics equipment flying on over 150 platforms, CMC stands ready to take on any challenge on any continent."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0036",
+        "line_start": 91,
+        "line_end": 97,
+        "url": "https://cmcelectronics.ca/customer-support/quality-certificates",
+        "page_class": "compliance",
+        "snippet": "*   [AS9100 \u2013 ISO-9001 (Montreal, Quebec)](https://cmcelectronics.ca/wp-content/uploads/2024/08/FM-63598-001.pdf)\n*   [Transport Canada Manufacture approval (CAR561)](https://cmcelectronics.ca/wp-content/uploads/2026/03/TCCA-Certificate-3-73-Manufacturing-561.pdf)\n*   [ISO14001 Environmental Management System](https://cmcelectronics.ca/wp-content/uploads/2024/08/EMS-584897-001.pdf)\n*   [Canada Border Agency](https://cmcelectronics.ca/wp-content/uploads/2023/01/Certificate-PIP-Canada-Border-Agency.pdf)\n*   [NADCAP Certificate for electronic products](https://cmcelectronics.ca/wp-content/uploads/2025/04/Certificate-Nadcap-Aerospace-Electronics-Printed-Board-Assemblies-audit-1.pdf)\n*   [Transport Canada Design Approval Certification](https://cmcelectronics.ca/wp-content/uploads/2023/01/TCCA-Certificate-DAO-505.pdf)\n*   [MIL-PRF-38534 Hybrid Microcircuit Certification](https://cmcelectronics.ca/wp-content/uploads/2023/02/MIL-PRF-38534_Certificate_1.pdf)"
+      }
+    ],
+    "notes": "Over 3,000 TacView systems delivered; GNSS receivers certified DAL-A and selected for major international programs; Doppler sensors have millions of flight hours; AS9100/NADCAP certified manufacturing in Montreal and Sugar Grove IL."
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 27,
+    "total_cost_usd": 0.8460449999999999,
+    "created_at": "2026-05-03T11:20:51+00:00",
+    "extract_version": "0.1.0"
+  },
+  "tagline": "Montreal-based avionics subsystem supplier specializing in GNSS receivers (CMA-5500/5600 DAL-A dual-frequency), flight management systems (civil and military, MOSA/FACE-aligned), Doppler velocity sensors, multicore avionics computers, head-up displays (1,000+ fielded across 30+ platforms), and mission displays. NDAA and Blue UAS certification status unknown. Strong civil/military helicopter and transport heritage; expanding UAS portfolio. Public evidence on current production volumes and US defense contracts limited."
+}

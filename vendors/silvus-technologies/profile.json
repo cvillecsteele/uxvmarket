@@ -1,0 +1,432 @@
+{
+  "target_id": "silvus-technologies",
+  "run_id": "canonical",
+  "display_name": "Silvus Technologies",
+  "homepage_url": "https://silvustechnologies.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/silvus-technologies/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "communications",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 66,
+            "line_end": 66,
+            "url": "https://silvustechnologies.com",
+            "page_class": "homepage",
+            "snippet": "Silvus is reshaping broadband wireless connectivity for mission critical applications. We design and develop advanced MANET radios, mesh network systems and capabilities that set a new standard for high-speed data transmission in any operational environment."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0183",
+            "line_start": 54,
+            "line_end": 54,
+            "url": "https://silvustechnologies.com/products/streamcaster-4400-enhanced",
+            "page_class": "product",
+            "snippet": "In 2011, Silvus introduced the world\u2019s first tactical MIMO radios \u2013 and we\u2019re still pushing the industry forward today. Our background in DARPA-funded R&D paved the way for robust wireless networking for high-stakes industries such as military, law enforcement, and broadcast."
+          }
+        ],
+        "notes": "Core product line is StreamCaster family of MANET radios \u2014 data links for UAV/UGV/USV platforms"
+      },
+      {
+        "category": "electronic_warfare",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0041",
+            "line_start": 65,
+            "line_end": 65,
+            "url": "https://silvustechnologies.com/silvus-technologies-unveils-the-fasst-6000-spectrum-sensor",
+            "page_class": "news",
+            "snippet": "_New low-SWaP spectrum sensor delivers industry-leading 144.5 THz/s spectrum scanning, redefining the benchmark for mobile SIGINT, EW and distributed RF sensing operations_"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0041",
+            "line_start": 67,
+            "line_end": 67,
+            "url": "https://silvustechnologies.com/silvus-technologies-unveils-the-fasst-6000-spectrum-sensor",
+            "page_class": "news",
+            "snippet": "Designed for the tactical edge, this handheld radio signal detection system packs the performance of a much larger device into an ultra-low size, weight and power (SWaP) form factor. It\u2019s purposefully designed for on-the-move signals intelligence operations and rapidly deployable RF sensing networks, providing warfighters and unmanned systems operators with critical situational awareness in contested environments."
+          }
+        ],
+        "notes": "FASST 6000 spectrum sensor for SIGINT, EW, and distributed RF sensing at the tactical edge"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Los Angeles",
+      "state_or_province": "California",
+      "country": "United States",
+      "address": "10990 Wilshire Blvd., Suite #1600"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0038",
+        "line_start": 53,
+        "line_end": 53,
+        "url": "https://silvustechnologies.com/about/contact",
+        "page_class": "contact",
+        "snippet": "Silvus products are designed, assembled, and tested at our Headquarters in Los Angeles, California. Silvus Technologies is now part of Motorola Solutions."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0038",
+        "line_start": 95,
+        "line_end": 97,
+        "url": "https://silvustechnologies.com/about/contact",
+        "page_class": "contact",
+        "snippet": "*   #### SILVUS TECHNOLOGIES, INC.,\n    10990 Wilshire Blvd., Suite #1600\n    Los Angeles, CA 90024 U.S.A."
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0248",
+        "line_start": 70,
+        "line_end": 71,
+        "url": "https://silvustechnologies.com/products/streamcaster-lite-5200",
+        "page_class": "product",
+        "snippet": "Designed for today\u2019s leading-edge [unmanned systems](https://silvustechnologies.com/applications/unmanned-systems/), the SL5200 delivers the performance of StreamCaster MANET radios in an ultra-low SWaP OEM module.\nCompact and powerfully versatile, the SL5200 unifies C2, sensor & telemetry data with communications relay capabilities \u2013 enabling seamless integration into a wide range of tactical applications."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0183",
+        "line_start": 76,
+        "line_end": 77,
+        "url": "https://silvustechnologies.com/products/streamcaster-4400-enhanced",
+        "page_class": "product",
+        "snippet": "    *   Non-rugged OEM (for embedding in custom products and sub-systems\n*   JETDAS Model: AN/PRC-169(v)1; AN/VRC-147(v)1;"
+      }
+    ],
+    "notes": "Silvus sells MANET radio hardware that integrates into drone platforms as data links; SL5200 is explicitly an OEM PCB module for embedding in unmanned systems. Also offers non-rugged OEM PCB stacks of the SC4400E for embedding in custom products."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "StreamCaster SC4400E",
+        "product_type": "4x4 MIMO MANET radio",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0183",
+            "line_start": 65,
+            "line_end": 65,
+            "url": "https://silvustechnologies.com/products/streamcaster-4400-enhanced",
+            "page_class": "product",
+            "snippet": "STREAMCASTER 4400 _ENHANCED_ (SC4400E)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "StreamCaster SC4400X (XTREME)",
+        "product_type": "ultra-ruggedized MANET radio",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0183",
+            "line_start": 89,
+            "line_end": 89,
+            "url": "https://silvustechnologies.com/products/streamcaster-4400-enhanced",
+            "page_class": "product",
+            "snippet": "STREAMCASTER 4400 _XTREME_ ([SC4400X](#sc4400x))"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "StreamCaster SC4200EP",
+        "product_type": "MANET radio",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0245",
+            "line_start": 72,
+            "line_end": 72,
+            "url": "https://silvustechnologies.com/applications/unmanned-systems",
+            "page_class": "capability",
+            "snippet": "    ### Streamcaster 4200 (SC4200EP)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "StreamCaster LITE 5200 (SL5200)",
+        "product_type": "ultra-low SWaP MANET radio OEM module",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0248",
+            "line_start": 65,
+            "line_end": 65,
+            "url": "https://silvustechnologies.com/products/streamcaster-lite-5200",
+            "page_class": "product",
+            "snippet": "STREAMCASTER LITE 5200 (SL5200)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "StreamCaster Mini 5200 (SM5200)",
+        "product_type": "MANET radio",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0234",
+            "line_start": 75,
+            "line_end": 75,
+            "url": "https://silvustechnologies.com/solutions/streamcaster-nexus",
+            "page_class": "capability",
+            "snippet": "STREAMCASTER MINI 5200 (SM5200)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "StreamCaster NEXUS",
+        "product_type": "next-generation tactical networking system for dismounted operators",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0234",
+            "line_start": 51,
+            "line_end": 51,
+            "url": "https://silvustechnologies.com/solutions/streamcaster-nexus",
+            "page_class": "capability",
+            "snippet": "StreamCaster NEXUS Tactical System"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "StreamCaster PRISM",
+        "product_type": "antenna radio system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 18,
+            "line_end": 18,
+            "url": "https://silvustechnologies.com",
+            "page_class": "homepage",
+            "snippet": "    *   [StreamCaster PRISM Antenna Radio Systems](/solutions/streamcaster-prism/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "StreamCaster TRINITY",
+        "product_type": "dual-band MIMO transceiver array",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 19,
+            "line_end": 19,
+            "url": "https://silvustechnologies.com",
+            "page_class": "homepage",
+            "snippet": "    *   [StreamCaster TRINITY Dual Band MIMO Transceiver Array](/solutions/streamcaster-trinity/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "StreamScape",
+        "product_type": "network management GUI and ATAK plugin (software)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 21,
+            "line_end": 21,
+            "url": "https://silvustechnologies.com",
+            "page_class": "homepage",
+            "snippet": "        *   [StreamScape GUI & ATAK Plugin](https://silvustechnologies.com/products/streamscape/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "StreamConnect",
+        "product_type": "global ad hoc network software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 22,
+            "line_end": 22,
+            "url": "https://silvustechnologies.com",
+            "page_class": "homepage",
+            "snippet": "        *   [StreamConnect: Global Ad Hoc Network](/solutions/streamconnect-global-ad-hoc-network/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "StreamLC",
+        "product_type": "software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 23,
+            "line_end": 23,
+            "url": "https://silvustechnologies.com",
+            "page_class": "homepage",
+            "snippet": "        *   [StreamLC](/products/streamlc/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "FASST 6000",
+        "product_type": "spectrum sensor for SIGINT/EW and RF geolocation",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0041",
+            "line_start": 61,
+            "line_end": 61,
+            "url": "https://silvustechnologies.com/silvus-technologies-unveils-the-fasst-6000-spectrum-sensor",
+            "page_class": "news",
+            "snippet": "Silvus Technologies Introduces the FASST\u2122 6000 Spectrum Sensor"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": "yes",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0039",
+        "line_start": 63,
+        "line_end": 63,
+        "url": "https://silvustechnologies.com/silvus-streamcaster-4400-enhanced-manet-radio-receives-department-of-defense-dod-certification-for-secure-u-s-military-drone-operations",
+        "page_class": "compliance",
+        "snippet": "_DoD\u2019s innovation unit and AUVSI, a leading autonomous innovation industry group, validate expanded portfolio of Silvus NDAA compliant radios for secure use in unmanned missions_"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0039",
+        "line_start": 68,
+        "line_end": 68,
+        "url": "https://silvustechnologies.com/silvus-streamcaster-4400-enhanced-manet-radio-receives-department-of-defense-dod-certification-for-secure-u-s-military-drone-operations",
+        "page_class": "compliance",
+        "snippet": "The National Defense Authorization Act-compliant SC4400E joins the StreamCaster SC4200EP, StreamCaster LITE SL4200 and SL5200 MANET radios on the Blue UAS Framework and Green UAS Cleared Components list."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0245",
+        "line_start": 78,
+        "line_end": 78,
+        "url": "https://silvustechnologies.com/applications/unmanned-systems",
+        "page_class": "capability",
+        "snippet": "    SC4200EP is NDAA and DoD cybersecurity compliant, and is approved for use in conjunction with Blue UAS platforms."
+      }
+    ],
+    "notes": "SC4400E, SC4200EP, SL5200, and SL4200 all confirmed NDAA compliant across multiple pages."
+  },
+  "blue_uas": {
+    "value": "yes",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0039",
+        "line_start": 68,
+        "line_end": 68,
+        "url": "https://silvustechnologies.com/silvus-streamcaster-4400-enhanced-manet-radio-receives-department-of-defense-dod-certification-for-secure-u-s-military-drone-operations",
+        "page_class": "compliance",
+        "snippet": "The National Defense Authorization Act-compliant SC4400E joins the StreamCaster SC4200EP, StreamCaster LITE SL4200 and SL5200 MANET radios on the Blue UAS Framework and Green UAS Cleared Components list."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0245",
+        "line_start": 78,
+        "line_end": 78,
+        "url": "https://silvustechnologies.com/applications/unmanned-systems",
+        "page_class": "capability",
+        "snippet": "    SC4200EP is NDAA and DoD cybersecurity compliant, and is approved for use in conjunction with Blue UAS platforms."
+      }
+    ],
+    "notes": "SC4400E, SC4200EP, SL5200, and SL4200 are all on the DIU Blue UAS Framework cleared list."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0260",
+        "line_start": 54,
+        "line_end": 54,
+        "url": "https://silvustechnologies.com/about",
+        "page_class": "company",
+        "snippet": "In 2011, Silvus leveraged this MIMO communication expertise to develop a commercial product line, which is today known as the StreamCaster family of MANET radios. Ever since, Silvus has demonstrated a very aggressive product development cycle, with a focus on continually improving the size, weight, power, and cost\u2013while simultaneously introducing next-generation features and capabilities."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0260",
+        "line_start": 55,
+        "line_end": 55,
+        "url": "https://silvustechnologies.com/about",
+        "page_class": "company",
+        "snippet": "Today, Silvus continues to innovate, with an ever-growing lineup of R&D contracts, COTS products, and happy customers. The experience gained through our early research efforts made possible the first generation of StreamCaster radios, and new concepts currently incubating in our R&D labs will pave the way for tomorrow\u2019s product breakthroughs."
+      }
+    ],
+    "notes": "Commercial COTS product line in production since 2011 with an ever-growing lineup of catalog SKUs, downloadable datasheets, and named firmware updates."
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 19,
+    "total_cost_usd": 0.60568905,
+    "created_at": "2026-05-03T15:29:55+00:00",
+    "extract_version": "0.1.0"
+  },
+  "tagline": "Manufacturer of Mobile-Networked MIMO (MN-MIMO) MANET radios and mesh-networking systems for tactical unmanned, airborne, and ground applications. StreamCaster product family spans ultra-low-SWaP OEM modules (SL5200, SM5200) to high-power fixed/vehicular systems (SC4400E/X); all carry NDAA compliance and Blue UAS certification. Also produces FASST 6000 spectrum sensor for SIGINT/direction-finding. Public evidence of production maturity and fielding is strong; integration scope and actual program adoption remain proprietary."
+}

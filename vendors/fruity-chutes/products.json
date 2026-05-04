@@ -1,0 +1,510 @@
+{
+  "target_id": "fruity-chutes",
+  "run_id": "canonical",
+  "display_name": "Fruity Chutes",
+  "homepage_url": "https://fruitychutes.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/fruity-chutes/website",
+  "products": [
+    {
+      "name": "Peregrine UAV Ballistic Parachute System",
+      "category": "recovery_systems",
+      "descriptor": "CO2-ballistic UAV parachute canister deployment system",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0122",
+          "line_start": 110,
+          "line_end": 110,
+          "url": "https://fruitychutes.com/help_for_parachutes/peregrine-product-help",
+          "page_class": "product",
+          "snippet": "If you do not have this system, you can learn more about the [Peregrine UAV Ballistic Parachute System, its features, and how it works.](uav_rpv_drone_recovery_parachutes/peregrine_uav_ballistic_parachute_system \"Peregrine UAV Ballistic Parachute System\")"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 144,
+          "line_end": 146,
+          "url": "https://fruitychutes.com",
+          "page_class": "homepage",
+          "snippet": "![Ballistic Peregrine Parachute Launcher with Hawk CO2 Release and Parachute](/images/home_images/product_line/product_line_ballistic.jpg)\n### Ballistic Parachute\nDeployment Systems"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "SATS-MINI (Sentinel Automatic Trigger System)",
+      "category": "recovery_systems",
+      "descriptor": "IMU/barometer-based automatic parachute deployment trigger for drones",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0126",
+          "line_start": 107,
+          "line_end": 109,
+          "url": "https://fruitychutes.com/help_for_parachutes/sats-mini-ats-quick-start-guide",
+          "page_class": "news",
+          "snippet": "Sentinel Automatic Trigger System\n(SATS-MINI)\nQuick Start Guide and Resources"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0126",
+          "line_start": 116,
+          "line_end": 116,
+          "url": "https://fruitychutes.com/help_for_parachutes/sats-mini-ats-quick-start-guide",
+          "page_class": "news",
+          "snippet": "*   **[Purchase the SATS-MINI](https://shop.fruitychutes.com/collections/drone-electronics/products/sats-mini-sentinel-automatic-trigger-system)**"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Harrier Drone Parachute Launcher",
+      "category": "recovery_systems",
+      "descriptor": "Low-cost spring-actuated drone parachute launcher",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 137,
+          "line_end": 138,
+          "url": "https://fruitychutes.com",
+          "page_class": "homepage",
+          "snippet": "### Harrier Drone Parachutes\nThe Harrier Drone Parachute Launcher raises the bar for low cost, lightweight, easy to use, efficient, and cost effective spring actuated parachute launchers. No other drone parachute launcher compares to the Harrier!"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0112",
+          "line_start": 111,
+          "line_end": 111,
+          "url": "https://fruitychutes.com/help_for_parachutes/harrier-product-help",
+          "page_class": "product",
+          "snippet": "*   [Purchase the Harrier Drone Parachute Launcher](https://shop.fruitychutes.com/collections/harrier-launchers-1-27-kg-to-12-4-kg \"Purchase the Harrier Drone Parachute Launcher\")"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Skycat UAV Parachute System",
+      "category": "recovery_systems",
+      "descriptor": "Drone parachute bundle combining Iris Ultra parachute with Skycat spring launcher",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 141,
+          "line_end": 142,
+          "url": "https://fruitychutes.com",
+          "page_class": "homepage",
+          "snippet": "### Skycat Drone Parachutes\nThese bundles combine our Iris Ultra Light parachutes with a Harrier or Skycat spring-based parachute launcher for drones up to 12.8kg. The systems are lightweight, strong and will exhibit high performance when compared to the drone\u2019s weight. These systems have no shipping restrictions and can be shipped worldwide."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0128",
+          "line_start": 109,
+          "line_end": 111,
+          "url": "https://fruitychutes.com/help_for_parachutes/skycat-product-help",
+          "page_class": "product",
+          "snippet": "![Skycat Drone Parachute Launcher mounted on a quadcopter](images/skycat/Skycat_Drone_Parachute_System_X55_01.jpg)\nUse these resources for help with the Skycat launcher bundle and other Skycat products.\n*   [Purchase the Skycat Drone Parachute Launcher](https://shop.fruitychutes.com/collections/skycat-launchers-2-5-kg-to-20-kg \"Purchase the Skycat Drone Parachute Launcher\")"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "SATS-M6",
+      "category": "recovery_systems",
+      "descriptor": "Advanced automatic parachute trigger system with 6-channel GPIO support",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0126",
+          "line_start": 136,
+          "line_end": 137,
+          "url": "https://fruitychutes.com/help_for_parachutes/sats-mini-ats-quick-start-guide",
+          "page_class": "news",
+          "snippet": "### **[Download Version 2.0.4](files/sats/software-downloads/ShootyChute_2.0.4.zip)** - Production Release for New SATS-M6\n**Updates for version 2.0.4 -** This update adds support for the new V3.0 SATS-M6. The new SATS-M6 will be able to support 6 GPIO channels in an upcoming release. This version supports the current 4 GPIO channels like the SATS-MINI. Version 2.0.4 also supports the SATS-MINI."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Iris Ultralight Parachutes",
+      "category": "recovery_systems",
+      "descriptor": "Lightest toroidal UAV recovery parachute family, 65% lighter than Iris Ultra Standard",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0154",
+          "line_start": 137,
+          "line_end": 141,
+          "url": "https://fruitychutes.com/parachute_recovery_systems/iris_ultra_parachutes",
+          "page_class": "capability",
+          "snippet": "### [Iris Ultralight](https://shop.fruitychutes.com/collections/iris-ultralight-parachutes \"Iris Ultralight Parachutes\")\n**\nSizes: 30\" to 168\" (14\u2019)\n65% Lighter than\nIris Ultra Standard"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0154",
+          "line_start": 143,
+          "line_end": 144,
+          "url": "https://fruitychutes.com/parachute_recovery_systems/iris_ultra_parachutes",
+          "page_class": "capability",
+          "snippet": "Optimized for light weight, the Iris Ultralight parachute is ideal for UAS applications, including multirotor drones, fixed wing, VTOL and more.\nOur lightest custom Spectra and nylon make the Iris Ultralight the ultimate choice for systems aiming to achieve the lowest possible weight."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Fixed Wing Recovery Bundle",
+      "category": "recovery_systems",
+      "descriptor": "Bundled parachute recovery kit for fixed-wing UAVs",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0150",
+          "line_start": 19,
+          "line_end": 19,
+          "url": "https://fruitychutes.com/parachute_recovery_systems",
+          "page_class": "capability",
+          "snippet": "*   [Fixed Wing Recovery Bundle](uav_rpv_drone_recovery_parachutes/fixed-wing-recovery-bundle \"Fixed Wing Recovery Bundle\")"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0150",
+          "line_start": 43,
+          "line_end": 43,
+          "url": "https://fruitychutes.com/parachute_recovery_systems",
+          "page_class": "capability",
+          "snippet": "*   [Fixed Wing Parachute Recovery](buyachute/drone-and-uav-recovery/fixed-wing-bundle-c-21_22 \"Fixed Wing Parachute Recovery\")"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "DJI Drone Parachute Bundles",
+      "category": "recovery_systems",
+      "descriptor": "Parachute recovery bundles for DJI Mavic, Phantom, Inspire, and Matrice drones",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0150",
+          "line_start": 20,
+          "line_end": 20,
+          "url": "https://fruitychutes.com/parachute_recovery_systems",
+          "page_class": "capability",
+          "snippet": "*   [DJI Drone Parachutes](uav_rpv_drone_recovery_parachutes/dji-drone-parachute-mavic-phantom-inspire-martice \"DJI Drone Parachute\")"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0150",
+          "line_start": 44,
+          "line_end": 44,
+          "url": "https://fruitychutes.com/parachute_recovery_systems",
+          "page_class": "capability",
+          "snippet": "*   [DJI Drone Parachute Bundles](buyachute/drone-and-uav-recovery/dji-drone-parachute-bundles \"DJI Drone Parachute Bundles\")"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Raven On-Landing Parachute Release (ROPR)",
+      "category": "recovery_systems",
+      "descriptor": "Patent-pending mechanical device that auto-releases parachute from UAV upon landing",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0160",
+          "line_start": 111,
+          "line_end": 111,
+          "url": "https://fruitychutes.com/parachute_recovery_systems/raven-automatic-parachute-release",
+          "page_class": "capability",
+          "snippet": "The Raven On-Landing Parachute Release (ROPR) is a patent pending device that allows a parachute to be automatically released from a payload upon landing. This mitigates possible damage caused by wind that could otherwise drag a valuable payload after landing."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0160",
+          "line_start": 127,
+          "line_end": 127,
+          "url": "https://fruitychutes.com/parachute_recovery_systems/raven-automatic-parachute-release",
+          "page_class": "capability",
+          "snippet": "We soft-launched this innovative device in January 2021. We have since completed design finalizations and testing and have expanded production. Please **[contact us](parachuteapi.js)** for pricing and availability."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Iris Ultra Compact Parachutes",
+      "category": "recovery_systems",
+      "descriptor": "High-strength, minimum-volume toroidal parachute family for UAV applications",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0154",
+          "line_start": 129,
+          "line_end": 133,
+          "url": "https://fruitychutes.com/parachute_recovery_systems/iris_ultra_parachutes",
+          "page_class": "capability",
+          "snippet": "### [Iris Ultra Compact](https://shop.fruitychutes.com/collections/iris-ultra-compact-chutes \"Iris Ultra Compact Parachutes\")\n**\nSizes: 30\" to 240\u201d (20\u2019)\n35% Lighter than\nIris Ultra Standard"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0154",
+          "line_start": 135,
+          "line_end": 136,
+          "url": "https://fruitychutes.com/parachute_recovery_systems/iris_ultra_parachutes",
+          "page_class": "capability",
+          "snippet": "Built for high strength and low volume, the Iris Ultra Compact is designed to be as compact as possible to fit into small spaces.\nThese parachutes are ideal for all UAV applications and any application where weight and packing volume are critical."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Hawk CO2 Release",
+      "category": "recovery_systems",
+      "descriptor": "All-mechanical CO2 release valve for parachute canister pressurization, no pyro required",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0153",
+          "line_start": 113,
+          "line_end": 115,
+          "url": "https://fruitychutes.com/parachute_recovery_systems/co2_parachute_ejection_deployment",
+          "page_class": "capability",
+          "snippet": "Hawk CO2 Release\n----------------\nThe [Hawk CO2 Release](https://shop.fruitychutes.com/products/hawk-co2-system-kit-16-to-45-gram?_pos=1&_sid=35135a0b5&_ss=r \"Hawk CO2 Release\"), pictured below, is an all mechanical system that requires no pyro consumables in order to operate, so it does not have regulatory issues and can be used world wide. Download the [Hawk Users Guide](files/hawk/Fruity-Chutes-Hawk-CO2-Release-Instructions.pdf \"Hawk CO2 Release Instructions\")."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Iris Ultra Standard Parachutes",
+      "category": "recovery_systems",
+      "descriptor": "Toroidal parachute family with high efficiency and small packing volume, 36\u2013120 in sizes",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0154",
+          "line_start": 121,
+          "line_end": 128,
+          "url": "https://fruitychutes.com/parachute_recovery_systems/iris_ultra_parachutes",
+          "page_class": "capability",
+          "snippet": "### [Iris Ultra Standard](https://shop.fruitychutes.com/collections/iris-ultra-standard-chutes \"Iris Ultra Standard Parachutes\")\n**\nSizes: 36\" to 120\" (10\u2019)\nHigh Efficiency\nSmall Packing Volume\n**\nOur standard Iris Ultra parachute, ideal where high efficiency and small packing volume are key.\nApplications include (but are not limited to) high power rocketry, research projects, and applications where weight is less critical."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Classic Elliptical Parachutes",
+      "category": "recovery_systems",
+      "descriptor": "Semi-ellipsoid canopy parachute family with Cd 1.5\u20131.6, 12\u201360 inch sizes",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0152",
+          "line_start": 107,
+          "line_end": 110,
+          "url": "https://fruitychutes.com/parachute_recovery_systems/classic_elliptical_chutes",
+          "page_class": "capability",
+          "snippet": "Classic Elliptical Parachute\nGreat Look and Great Performance\n===============================================================\nThis is the parachute design where it all started in 2007. These chutes feature the classic semi-ellipsoid shape and have a Cd of 1.5 - 1.6. We generally keep inventory of these ready to ship. All [classic elliptical parachutes](https://shop.fruitychutes.com/collections/classic-elliptical-12-to-60 \"Classic Elliptical Parachutes\") combine our most popular color combinations."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Peregrine CO2 Deployment Device",
+      "category": "recovery_systems",
+      "descriptor": "Tinder Rocketry CO2 release valve for 8\u201312 g cartridges, rocket parachute deployment",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0153",
+          "line_start": 119,
+          "line_end": 119,
+          "url": "https://fruitychutes.com/parachute_recovery_systems/co2_parachute_ejection_deployment",
+          "page_class": "capability",
+          "snippet": "Peregrine CO2 Deployment Device"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0153",
+          "line_start": 121,
+          "line_end": 121,
+          "url": "https://fruitychutes.com/parachute_recovery_systems/co2_parachute_ejection_deployment",
+          "page_class": "capability",
+          "snippet": "We have the Tinder Rocketry Peregrine CO2 Release Valve. This is similar to the Rouse Tech CD3 device but is re-engineered to take it up to the next level! This system supports 8 and 12 gram CO2 cartridges."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Peregrine Raptor CO2 Deployment Device",
+      "category": "recovery_systems",
+      "descriptor": "Tinder Rocketry heavy-duty CO2 release valve for 23 g and larger cartridges",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0153",
+          "line_start": 126,
+          "line_end": 126,
+          "url": "https://fruitychutes.com/parachute_recovery_systems/co2_parachute_ejection_deployment",
+          "page_class": "capability",
+          "snippet": "Peregrine Raptor CO2 Deployment Device"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0153",
+          "line_start": 128,
+          "line_end": 128,
+          "url": "https://fruitychutes.com/parachute_recovery_systems/co2_parachute_ejection_deployment",
+          "page_class": "capability",
+          "snippet": "The Peregrine Raptor supports 23 gram and higher CO2 cartridges - perfect for big projects."
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "Product detail pages for Peregrine UAV Ballistic, Skycat UAV, Harrier, Fixed Wing Recovery Bundle, DJI Drone Parachutes, and SATS-MINI were in the crawl_index but not fetched (skipped), so full specifications, weight ranges, compatible drone models, and pricing are unavailable from the corpus.",
+    "The SATS-M6 is referenced only in the SATS-MINI firmware release notes as a new hardware version; its dedicated product page was not fetched, so capabilities beyond '6 GPIO channels' and V3.0 hardware revision are unknown.",
+    "Peregrine CO2 Deployment Device and Peregrine Raptor are resold Tinder Rocketry products; NDAA/origin status for those third-party items is unconfirmed.",
+    "Skycat UAV Parachute System uses Skycat Technologies launchers (third-party, Israel-origin); NDAA status classified as unknown accordingly."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://fruitychutes.com/uav_rpv_drone_recovery_parachutes/peregrine_uav_ballistic_parachute_system",
+      "reason": "Primary product page for Peregrine UAV Ballistic Parachute System \u2014 needed for weight range, CO2 canister models (PUAVL-6, PUAVL-8), and full specs",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index, skipped",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://fruitychutes.com/uav_rpv_drone_recovery_parachutes/skycat-uav-parachutes",
+      "reason": "Primary product page for Skycat UAV Parachute System \u2014 needed for launcher model variants, weight range, and full specs",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index, skipped",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://fruitychutes.com/uav_rpv_drone_recovery_parachutes/drone_multicopter_quadcopter_recovery_parachutes",
+      "reason": "Primary product page for Harrier Drone Parachute Launcher \u2014 needed for model variants (40mm series), payload range, and full specs",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index, skipped",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://fruitychutes.com/uav_rpv_drone_recovery_parachutes/sentinel-automatic-trigger-system",
+      "reason": "Primary product page for SATS-MINI \u2014 needed for full feature description, specs, and any compliance claims",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index, skipped",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://fruitychutes.com/uav_rpv_drone_recovery_parachutes/fixed-wing-recovery-bundle",
+      "reason": "Primary product page for Fixed Wing Recovery Bundle \u2014 needed to confirm bundle contents and compatible airframe weight range",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index, skipped",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://fruitychutes.com/uav_rpv_drone_recovery_parachutes/dji-drone-parachute-mavic-phantom-inspire-martice",
+      "reason": "Primary product page for DJI Drone Parachute Bundles \u2014 needed for supported DJI models and bundle specifications",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index, skipped",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://fruitychutes.com/help_for_parachutes/hawk-co2-release-help",
+      "reason": "Help/product page for Hawk CO2 Release \u2014 would confirm specs and whether it is Fruity Chutes-manufactured vs resold",
+      "expected_evidence": [
+        "products",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index, skipped",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 40,
+    "total_cost_usd": 1.6540118000000001,
+    "created_at": "2026-05-04T02:55:39+00:00",
+    "extract_version": "0.1.0"
+  }
+}

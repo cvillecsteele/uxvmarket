@@ -1,0 +1,282 @@
+{
+  "target_id": "butler-parachute-systems",
+  "run_id": "canonical",
+  "display_name": "Butler Parachute Systems",
+  "homepage_url": "https://www.butlerparachutes.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/butler-parachute-systems/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "recovery_systems",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0023",
+            "url": null,
+            "page_class": "capability",
+            "snippet": "Butler Parachute Systems offers a variety of parachute systems for Unmanned Aerial Vehicles. We have the experience, the personnel, and the facilities to design and manufacture a wide variety of vehicle recovery systems."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "url": null,
+            "page_class": "homepage",
+            "snippet": "Butler Parachutes manufactures high-quality parachute systems for emergency egress, military missions, cargo delivery, and UAV systems."
+          }
+        ],
+        "notes": "Primary product lines include UAV parachute recovery systems, personnel emergency parachutes, and cargo delivery parachutes."
+      },
+      {
+        "category": "test_and_measurement",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0042",
+            "url": null,
+            "page_class": "capability",
+            "snippet": "Butler Parachute Systems has the capability to test parachutes and recovery systems from sub-munitions size up to approximately 4,000 lb. at speeds up to 850 knots."
+          }
+        ],
+        "notes": "Test services offered to external customers including drop-tower testing, aircraft drop tests, and data collection; secondary to manufacturing."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Roanoke",
+      "state_or_province": "VA",
+      "country": "United States",
+      "address": "1820 Loudon Avenue NW"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0009",
+        "url": null,
+        "page_class": "company",
+        "snippet": "Our newly renovated, 21,000 sq. ft. manufacturing and testing facility is located just west of Roanoke, Virginia."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0042",
+        "url": null,
+        "page_class": "capability",
+        "snippet": "Butler Parachute Systems was established in 1979 by founder Manley C. Butler Jr. It was moved from California City, California, to Roanoke, Virginia in early 1995."
+      }
+    ],
+    "notes": "Street address 1820 Loudon Avenue NW, Roanoke, VA 24017 appears in the footer of every fetched page."
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0042",
+        "url": null,
+        "page_class": "capability",
+        "snippet": "Butler Parachute Systems also specializes in complete recovery systems for unmanned applications, such as Unmanned Air Systems (UAS/UAV), target drones, rockets, and munitions."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0042",
+        "url": null,
+        "page_class": "capability",
+        "snippet": "Recovery System for the Shadow 200 TUAV: BPS designed and built a recovery system for the Shadow 200 TUAV widely used by the US Army."
+      }
+    ],
+    "notes": "Butler supplies complete, installable UAV recovery subsystems (canopy + container + deployment mechanism). Primary revenue is emergency parachutes for manned aircraft; UAV recovery is a well-established secondary product line."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "UAV Recovery Systems",
+        "product_type": "UAV parachute recovery system (complete subsystem)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0023",
+            "url": null,
+            "page_class": "capability",
+            "snippet": "Our UAV parachute recovery systems come with all the necessary components and equipment to successfully recover unmanned air vehicles (UAVs), target drones, and other air vehicles."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HX-Series",
+        "product_type": "parachute canopy line (used in UAV and personnel recovery systems)",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0042",
+            "url": null,
+            "page_class": "capability",
+            "snippet": "The main canopy (HX-400 \u2013 22' Do) is housed in a BPS designed/manufactured container with a vacuum formed shell, stainless steel stiffener and nylon flaps."
+          }
+        ],
+        "notes": "HX-400, HX-500, HX-500/24, HX-500/600 are named variants within the HX-Series canopy family."
+      },
+      {
+        "name": "Lopo Series",
+        "product_type": "low-profile parachute canopy line",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0042",
+            "url": null,
+            "page_class": "capability",
+            "snippet": "Furthermore, in FY 2001-2002, the FS purchased over 700 chest reserve parachutes using the BPS LoPo 550 canopy."
+          }
+        ],
+        "notes": "LoPo 550 is a named SKU within the Lopo Series product line."
+      },
+      {
+        "name": "BA-30 LPP",
+        "product_type": "aircrew low-profile bailout parachute system (USAF-adopted)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0042",
+            "url": null,
+            "page_class": "capability",
+            "snippet": "The BPS Commercial High Altitude Bailout System was selected by the USAF as the BA-30 Low Profile Parachute System (LPP). The BA-30 LPP replaces all the legacy BA-22 emergency parachutes in use by all US Air Force units."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TT-600",
+        "product_type": "tethered tandem bundle parachute system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0042",
+            "url": null,
+            "page_class": "capability",
+            "snippet": "Butler Parachutes Tethered Tandem Bundle System, the TT-600, has been adopted by the USAF, USN, Sweden, Norway and others. The SMARTChute system and it's components are also widely used."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Product pages for HX-Series, Lopo Series, pilot parachutes, and cargo canopies were not fetched; additional named SKUs likely exist."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0042",
+        "url": null,
+        "page_class": "capability",
+        "snippet": "The BPS network is robust and secured under the CMMC standards for protection of CUI information, including ITAR restrictions."
+      }
+    ],
+    "notes": "Site mentions CMMC and ITAR compliance but makes no NDAA Section 848/889 claim. ITAR-restricted products and CMMC-certified network are adjacent compliance signals only."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No mention of Blue UAS, Blue sUAS, or DIU cleared list found in any fetched page."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0042",
+        "url": null,
+        "page_class": "capability",
+        "snippet": "As of 2010, we have delivered over 1800 recovery systems to the customer."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0011",
+        "url": null,
+        "page_class": "company",
+        "snippet": "Butler Parachute Systems, Inc. maintains a robust quality control system. The system was implemented in 2022 in accordance with the ISO 9001:2015 standard. The QMS was re-certified in April 2025."
+      }
+    ],
+    "notes": "Active serial production: FAA-approved under TSO C23, ISO 9001:2015 certified (re-certified 2025), 65+ sewing machines, two CNC cutting tables, US military delivery contracts. Also offers custom engineering/design services as a secondary mode."
+  },
+  "unresolved_questions": [
+    "Blue UAS / DIU cleared list status not mentioned anywhere on site",
+    "NDAA Section 848/889 compliance not explicitly stated (only CMMC/ITAR adjacent signals found)",
+    "HX-Series and Lopo Series canopy product pages not fetched; full SKU list unknown"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.butlerparachutes.com/canopies/hx-series/",
+      "reason": "Would provide named HX-Series canopy SKUs and confirm whether any are specifically marketed for UAV recovery, sharpening products and products_categories answers.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "guessed from site navigation",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.butlerparachutes.com/canopies/lopo-series/",
+      "reason": "Would provide named Lopo Series canopy SKUs and product details, completing the product listing for this canopy family.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "guessed from site navigation",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.butlerparachutes.com/military-parachutes/",
+      "reason": "Military overview page likely lists all UAV and military recovery system product lines, helping confirm drone_supply_chain_role and complete the products list.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "guessed from site navigation",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.butlerparachutes.com/services/engineering/",
+      "reason": "Engineering services page would clarify whether Butler offers UAV-specific design/engineering contracts and confirm readiness classification.",
+      "expected_evidence": [
+        "readiness",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "guessed from site navigation",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 13,
+    "total_cost_usd": 0.64500965,
+    "created_at": "2026-05-02T17:53:59+00:00",
+    "extract_version": "0.1.0"
+  },
+  "tagline": "Manufactures parachute recovery systems for UAVs, pilots, and cargo delivery, including USAF-selected BA-30 low-profile bailout systems and TT-600 tethered bundles adopted across DoD and allied nations. ISO-certified, production-ready. NDAA compliance and Blue UAS certification status unknown; public evidence of military adoption is strong but limited to specific platforms."
+}

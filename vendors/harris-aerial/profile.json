@@ -1,0 +1,361 @@
+{
+  "target_id": "harris-aerial",
+  "run_id": "canonical",
+  "display_name": "Harris Aerial",
+  "homepage_url": "https://harrisaerial.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/harris-aerial/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "airframes",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 60,
+            "line_end": 63,
+            "url": "https://harrisaerial.com",
+            "page_class": "homepage",
+            "snippet": "America\u2019s Leading Drone\nManufacturer\n======================================\nWe are a drone manufacturer specializing in heavy-lift industrial drones designed for commercial and government applications. We lead the industry in custom payload integration services, and integrate the most advanced UAV sensors in the world.\u00a0 Harris Aerial is NDAA compliant and proudly Manufactured in the United States of America."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0007",
+            "line_start": 64,
+            "line_end": 64,
+            "url": "https://harrisaerial.com/about",
+            "page_class": "company",
+            "snippet": "Harris Aerial is a drone manufacturer specializing in custom drones, aerial photography drones, heavy lift drones, agricultural drones, UAS, UAV and multirotor drones."
+          }
+        ],
+        "notes": "Designs and manufactures complete heavy-lift multirotor UAS platforms (Carrier H6, Carrier Hx8, Carrier H6HL series)"
+      },
+      {
+        "category": "ground_segment",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0037",
+            "line_start": 60,
+            "line_end": 74,
+            "url": "https://harrisaerial.com/ground-control",
+            "page_class": "capability",
+            "snippet": "[![Harris Aerial C-GCS](https://harrisaerial.com/wp-content/uploads/2023/08/GCS_QGC-1024x780.webp)](https://harrisaerial.com/ground-control/c-gcs/)\nC-GCS\n-----\nC-GCS is a revolutionary break-through in safe and easy operation of unmanned aerial vehicles.\n[Learn More](/ground-control/c-gcs/)\n[![](https://harrisaerial.com/wp-content/uploads/2024/11/TAB_5_0000_16.09.24_PNG-2048x1152_Overlay-1024x576.webp)](https://harrisaerial.com/ground-control/c-navigator/)\nC-Navigator\n-----------\nC-NAVIGATOR is Harris Aerial\u2019s compact and rugged NDAA compliant handheld Ground Control Station.\n[Learn More](/ground-control/c-navigator/)\n[![](https://harrisaerial.com/wp-content/uploads/2024/11/SRoC_overlay-e1739382410912.webp)](https://harrisaerial.com/ground-control-2/c-sroc/)\nC-SRoC\n------\nSRoC is our military-grade IP 65 handheld GCS providing exceptional communication flexibility in hard environments.\n[Learn More](https://harrisaerial.com/ground-control-2/c-sroc/)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0040",
+            "line_start": 72,
+            "line_end": 72,
+            "url": "https://harrisaerial.com/ground-control/c-gcs",
+            "page_class": "capability",
+            "snippet": "##### Carrier Ground Control Station"
+          }
+        ],
+        "notes": "Sells proprietary GCS products: C-GCS, C-NAVIGATOR (NDAA-compliant handheld), and C-SRoC (military-grade handheld)"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Casselberry",
+      "state_or_province": "Florida",
+      "country": "United States",
+      "address": "1043 Seminola Blvd."
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0026",
+        "line_start": 77,
+        "line_end": 79,
+        "url": "https://harrisaerial.com/contact",
+        "page_class": "contact",
+        "snippet": "1043 Seminola Blvd.\nCasselberry\nFL 32707"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "oem",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 60,
+        "line_end": 63,
+        "url": "https://harrisaerial.com",
+        "page_class": "homepage",
+        "snippet": "America\u2019s Leading Drone\nManufacturer\n======================================\nWe are a drone manufacturer specializing in heavy-lift industrial drones designed for commercial and government applications. We lead the industry in custom payload integration services, and integrate the most advanced UAV sensors in the world.\u00a0 Harris Aerial is NDAA compliant and proudly Manufactured in the United States of America."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0007",
+        "line_start": 83,
+        "line_end": 85,
+        "url": "https://harrisaerial.com/about",
+        "page_class": "company",
+        "snippet": "Our UAV Manufacturing and engineering process is completely carried out in-house.\nWe are quickly able to take ideas from concept to finished product, because of our advanced machining capabilities.\nHigh precision CNC milling, CNC routing, and 3D printing is our catalyst behind providing high quality drones tailored to our clients\u2019 specific needs."
+      }
+    ],
+    "notes": "Designs and manufactures complete UAS platforms in-house in Casselberry, FL; CNC machining and 3D printing done in-house"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Carrier H6 Electric",
+        "product_type": "heavy-lift electric hexacopter UAV",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0023",
+            "line_start": 75,
+            "line_end": 78,
+            "url": "https://harrisaerial.com/carrier-h6-platform",
+            "page_class": "product",
+            "snippet": "H6 Electric\n-----------\nThe H6 Electric achieves impressive flight-times using battery power,\u00a0 it\u2019s focused on adaptability among its payload and power format versatility.\n[Learn More](https://harrisaerial.com/carrier-h6-electric/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Carrier H6 Hybrid",
+        "product_type": "gas-electric hybrid hexacopter UAV",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0023",
+            "line_start": 69,
+            "line_end": 73,
+            "url": "https://harrisaerial.com/carrier-h6-platform",
+            "page_class": "product",
+            "snippet": "H6 Hybrid EFI\n-------------\nThe Carrier H6 Hybrid is our flagship heavy-lift gas-electric hybrid drone powered by our\nH2400 EFI generator.\n[Learn More](https://harrisaerial.com/carrier-drones/carrier-h6-hybrid/)"
+          }
+        ],
+        "notes": "Also referred to as Carrier H6 EFI Hybrid; powered by H2400 EFI generator"
+      },
+      {
+        "name": "Carrier H6 Hydrone",
+        "product_type": "hydrogen-electric hybrid hexacopter UAV",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0023",
+            "line_start": 80,
+            "line_end": 83,
+            "url": "https://harrisaerial.com/carrier-h6-platform",
+            "page_class": "product",
+            "snippet": "H6 Hydrone\n----------\nThe H6 Hydrone\u00a0is our heavy-lift hybrid electric drone powered by our hydrogen fuel cell.\n[Learn More](https://harrisaerial.com/carrier-drones/carrier-h6-hydrone/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Carrier Hx8",
+        "product_type": "coaxial octocopter UAV",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 86,
+            "line_end": 89,
+            "url": "https://harrisaerial.com",
+            "page_class": "homepage",
+            "snippet": "[![industrial drone](https://harrisaerial.com/wp-content/uploads/2023/11/H8_SH2_v01.webp)](https://harrisaerial.com/carrier-drones/carrier-Hx8/)\nCarrier Hx8\n-----------\nCompact co-axial octocopter with 8kg payload capacity and unmatched motor redunandcy."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Carrier H6HL",
+        "product_type": "heavy-lift hexacopter UAV (40 kg max payload)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 91,
+            "line_end": 94,
+            "url": "https://harrisaerial.com",
+            "page_class": "homepage",
+            "snippet": "[![heavy lift drone](https://harrisaerial.com/wp-content/uploads/2023/11/H6HL_SH2_v01.webp)](https://harrisaerial.com/carrier-drones/carrier-h6hl/)\nCarrier H6HL\n------------\n40kg Maximum Payload, our heaviest lifting multirotor to date."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "C-GCS",
+        "product_type": "professional ground control station",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0040",
+            "line_start": 72,
+            "line_end": 72,
+            "url": "https://harrisaerial.com/ground-control/c-gcs",
+            "page_class": "capability",
+            "snippet": "##### Carrier Ground Control Station"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "C-NAVIGATOR",
+        "product_type": "compact rugged NDAA-compliant handheld ground control station",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0037",
+            "line_start": 65,
+            "line_end": 69,
+            "url": "https://harrisaerial.com/ground-control",
+            "page_class": "capability",
+            "snippet": "[![](https://harrisaerial.com/wp-content/uploads/2024/11/TAB_5_0000_16.09.24_PNG-2048x1152_Overlay-1024x576.webp)](https://harrisaerial.com/ground-control/c-navigator/)\nC-Navigator\n-----------\nC-NAVIGATOR is Harris Aerial\u2019s compact and rugged NDAA compliant handheld Ground Control Station.\n[Learn More](/ground-control/c-navigator/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "C-SRoC",
+        "product_type": "military-grade ruggedized handheld ground control station (Soldier Robotic Controller)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0037",
+            "line_start": 70,
+            "line_end": 74,
+            "url": "https://harrisaerial.com/ground-control",
+            "page_class": "capability",
+            "snippet": "[![](https://harrisaerial.com/wp-content/uploads/2024/11/SRoC_overlay-e1739382410912.webp)](https://harrisaerial.com/ground-control-2/c-sroc/)\nC-SRoC\n------\nSRoC is our military-grade IP 65 handheld GCS providing exceptional communication flexibility in hard environments.\n[Learn More](https://harrisaerial.com/ground-control-2/c-sroc/)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Core drone platforms and GCS products confirmed. Payloads section lists third-party sensors (e.g. Sentera 6x, Phoenix Miniranger LiDAR) that Harris Aerial integrates but does not manufacture."
+  },
+  "ndaa": {
+    "value": "yes",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 63,
+        "line_end": 63,
+        "url": "https://harrisaerial.com",
+        "page_class": "homepage",
+        "snippet": "We are a drone manufacturer specializing in heavy-lift industrial drones designed for commercial and government applications. We lead the industry in custom payload integration services, and integrate the most advanced UAV sensors in the world.\u00a0 Harris Aerial is NDAA compliant and proudly Manufactured in the United States of America."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0037",
+        "line_start": 68,
+        "line_end": 68,
+        "url": "https://harrisaerial.com/ground-control",
+        "page_class": "capability",
+        "snippet": "C-NAVIGATOR is Harris Aerial\u2019s compact and rugged NDAA compliant handheld Ground Control Station."
+      }
+    ],
+    "notes": "Homepage explicitly states NDAA compliant; C-NAVIGATOR product page also described as NDAA compliant"
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0007",
+        "line_start": 83,
+        "line_end": 85,
+        "url": "https://harrisaerial.com/about",
+        "page_class": "company",
+        "snippet": "Our UAV Manufacturing and engineering process is completely carried out in-house.\nWe are quickly able to take ideas from concept to finished product, because of our advanced machining capabilities.\nHigh precision CNC milling, CNC routing, and 3D printing is our catalyst behind providing high quality drones tailored to our clients\u2019 specific needs."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0023",
+        "line_start": 86,
+        "line_end": 88,
+        "url": "https://harrisaerial.com/carrier-h6-platform",
+        "page_class": "product",
+        "snippet": "*   **5 kg max payload**\n*   **Up to 3 hours flight time** (with 4L fuel) and **max flight time up to 5 hours** (configuration dependent)\n*   **2.4kW continuous generator power**, plus accessory power ports (5.3V / 12V / 24V / 48V)"
+      }
+    ],
+    "notes": "Named SKUs with detailed specs sold commercially; manufactured in-house with CNC machining"
+  },
+  "unresolved_questions": [
+    "Blue UAS / DIU Cleared List status not mentioned anywhere in the corpus"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://harrisaerial.com/carrier-drones/carrier-hx8/",
+      "reason": "Carrier Hx8 dedicated product page was skipped; would confirm full specs, payload capacity, and production availability",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "skipped in crawl_index, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://harrisaerial.com/carrier-drones/carrier-h6hl/",
+      "reason": "Carrier H6HL dedicated product page was skipped; would confirm full specs (40 kg payload) and production details",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "skipped in crawl_index, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://harrisaerial.com/ground-control/c-navigator/",
+      "reason": "C-NAVIGATOR product page was skipped; would confirm full specs for NDAA-compliant handheld GCS and any Blue UAS claims",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas"
+      ],
+      "source_hint": "skipped in crawl_index, page_class=product",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 15,
+    "total_cost_usd": 0.54550595,
+    "created_at": "2026-05-02T18:47:26+00:00",
+    "extract_version": "0.1.0"
+  },
+  "tagline": "Manufacturer of multi-fuel heavy-lift hexacopters (Carrier H6 Electric/Hybrid/Hydrone, up to 40 kg payload via H6HL) and coaxial octocopters (Hx8), paired with NDAA-compliant ground-control systems (C-NAVIGATOR, C-SRoC). Blue UAS status unknown. Domestic production claimed; public evidence thin on military adoption or fielded programs beyond compliance certifications."
+}

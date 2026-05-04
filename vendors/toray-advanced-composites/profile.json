@@ -1,0 +1,316 @@
+{
+  "target_id": "toray-advanced-composites",
+  "run_id": "canonical",
+  "display_name": "Toray Advanced Composites",
+  "homepage_url": "https://www.toraytac.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/toray-advanced-composites/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "structures_and_materials",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0079",
+            "line_start": 265,
+            "line_end": 265,
+            "url": "https://www.toraytac.com/markets/aerospace/Urban-Air-Mobility",
+            "page_class": "capability",
+            "snippet": "Toray\u2019s advanced carbon fiber composites are 40% lighter than aluminum, providing the lightest weight, highest strength material solution for eVTOL aircraft, UAVs, helicopters, launch structure, and commercial/general aviation aircraft."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0079",
+            "line_start": 117,
+            "line_end": 117,
+            "url": "https://www.toraytac.com/markets/aerospace/Urban-Air-Mobility",
+            "page_class": "capability",
+            "snippet": "Below we selected our star products for UAM from our broad portfolio of advanced composite materials."
+          }
+        ],
+        "notes": "Core business: advanced composite materials (thermoset/thermoplastic prepregs, film adhesives, honeycomb core, surfacing films, syntactics) sold as raw inputs to eVTOL/UAV/aerospace structural manufacturers"
+      },
+      {
+        "category": "structures_and_materials",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0033",
+            "line_start": 108,
+            "line_end": 108,
+            "url": "https://www.toraytac.com/company/about-us",
+            "page_class": "company",
+            "snippet": "In addition to intermediate materials, Toray\u2019s CCS Group provides the industry with exceptionally durable and light weight carbon fiber compression molded parts.\u00a0 CCS focuses on replacing aluminum and titanium with a lighter weight, more cost-effective solution to improve efficiency and performance."
+          }
+        ],
+        "notes": "CCS Group subsidiary sells finished carbon fiber compression-molded structural parts (replacing aluminum/titanium)"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "All product lines are composite material inputs or finished structural parts; no airframe OEM, no avionics/electronics"
+  },
+  "headquarters": {
+    "value": {
+      "city": "Morgan Hill",
+      "state_or_province": "California",
+      "country": "United States",
+      "address": "18255 Sutter Blvd, Morgan Hill, CA 95037"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0071",
+        "line_start": 105,
+        "line_end": 108,
+        "url": "https://www.toraytac.com/contact/locations",
+        "page_class": "contact",
+        "snippet": "**Toray Advanced Composites USA (Morgan Hill)**\n18255 Sutter Blvd\nMorgan Hill, CA 95037\nUSA"
+      }
+    ],
+    "notes": "Holding entity (Toray TCAC Holding B.V.) registered in Netherlands per footer; Morgan Hill, CA is listed first and is primary US/global operational HQ"
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0079",
+        "line_start": 265,
+        "line_end": 265,
+        "url": "https://www.toraytac.com/markets/aerospace/Urban-Air-Mobility",
+        "page_class": "capability",
+        "snippet": "Toray\u2019s advanced carbon fiber composites are 40% lighter than aluminum, providing the lightest weight, highest strength material solution for eVTOL aircraft, UAVs, helicopters, launch structure, and commercial/general aviation aircraft."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0079",
+        "line_start": 117,
+        "line_end": 117,
+        "url": "https://www.toraytac.com/markets/aerospace/Urban-Air-Mobility",
+        "page_class": "capability",
+        "snippet": "Below we selected our star products for UAM from our broad portfolio of advanced composite materials."
+      }
+    ],
+    "notes": "Sells composite raw materials (prepregs, films, adhesives, core materials) used by eVTOL/UAV manufacturers for structural fabrication; also sells compression-molded structural parts via CCS Group"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Cetex\u00ae TC1225",
+        "product_type": "thermoplastic prepreg (LM PAEK matrix)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0079",
+            "line_start": 130,
+            "line_end": 131,
+            "url": "https://www.toraytac.com/markets/aerospace/Urban-Air-Mobility",
+            "page_class": "capability",
+            "snippet": "[Cetex\u00ae TC1225](/product-explorer/products/gXuK/Toray-Cetex-TC1225)\nLM PAEK"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Cetex\u00ae MC1100",
+        "product_type": "thermoplastic bulk molding compound (PPS matrix)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0079",
+            "line_start": 139,
+            "line_end": 140,
+            "url": "https://www.toraytac.com/markets/aerospace/Urban-Air-Mobility",
+            "page_class": "capability",
+            "snippet": "[Cetex\u00ae MC1100](/product-explorer/products/qADy/Toray-Cetex-MC1100)\nPPS"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "BT250E-6",
+        "product_type": "thermoset epoxy prepreg for rotor blades",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0079",
+            "line_start": 149,
+            "line_end": 157,
+            "url": "https://www.toraytac.com/markets/aerospace/Urban-Air-Mobility",
+            "page_class": "capability",
+            "snippet": "[BT250E-6](/product-explorer/products/6Sfd/BT250E-6)\nEpoxy\n131\u00b0C\n(268\u00b0F)\n121\u2013127 \u00b0C\n(250\u2013260 \u00b0F)\n30\n+++\nHigh-modulus system for rotor blades"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TC275-1E",
+        "product_type": "thermoset epoxy prepreg for large structures",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0079",
+            "line_start": 159,
+            "line_end": 167,
+            "url": "https://www.toraytac.com/markets/aerospace/Urban-Air-Mobility",
+            "page_class": "capability",
+            "snippet": "[TC275-1E](/product-explorer/products/yZfy/TC275-1E)\nEpoxy\n168\u00b0C\n(334\u00b0F)\n135\u2013177\u00b0C\n(275\u2013350\u00b0F)\n28\n++\nIdeal system for large structures with low moisture uptake"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TC380",
+        "product_type": "thermoset epoxy prepreg",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0079",
+            "line_start": 169,
+            "line_end": 177,
+            "url": "https://www.toraytac.com/markets/aerospace/Urban-Air-Mobility",
+            "page_class": "capability",
+            "snippet": "[TC380](/product-explorer/products/sbY3/TC380)\nEpoxy\n201\u00b0C\n(394\u00b0F)\n135\u2013180 \u00b0C\n(275\u2013356 \u00b0F)\n28\n++\nExcellent CAI and open-hole compressive strength"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MS-4H",
+        "product_type": "thermoset epoxy bulk molding compound (chopped fiber)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0079",
+            "line_start": 180,
+            "line_end": 187,
+            "url": "https://www.toraytac.com/markets/aerospace/Urban-Air-Mobility",
+            "page_class": "capability",
+            "snippet": "[MS-4H](/product-explorer/products/_sHT/MS-4H)\nEpoxy\n191\u00b0C\n(375\u00b0F)\n138\u2013154\u00b0C\n(280\u2013310\u00b0F)\n14\nChopped fiber epoxy BMC with high strength (standard-modulus) fiber"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AmberTool\u00ae HX42",
+        "product_type": "composite tooling prepreg (low-temp cure epoxy)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0079",
+            "line_start": 189,
+            "line_end": 197,
+            "url": "https://www.toraytac.com/markets/aerospace/Urban-Air-Mobility",
+            "page_class": "capability",
+            "snippet": "[AmberTool\u00ae HX42](/product-explorer/products/n4jq/Toray-AmberTool-HX42)\nEpoxy\n200\u00b0C\n(392\u00b0F) with post cure\n50\u00b0C\u201375\u00b0C\n(122\u00b0F\u2013167\u00b0F)\n5\n++\nLow temperature initial cure and high temperature post cure epoxy prepreg"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MicroPly\u2122 TC310",
+        "product_type": "film adhesive (epoxy)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0079",
+            "line_start": 200,
+            "line_end": 205,
+            "url": "https://www.toraytac.com/markets/aerospace/Urban-Air-Mobility",
+            "page_class": "capability",
+            "snippet": "[MicroPly\u2122\u00a0TC310](/product-explorer/products/Fip8/Toray-MicroPly-TC310)\nEpoxy\n157\u00b0C (315\u00b0F)\n177\u00b0C\n(350\u00b0F)\n21"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MicroPly\u2122 TC235SF-1",
+        "product_type": "surfacing film with optional lightning strike foils",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0079",
+            "line_start": 208,
+            "line_end": 214,
+            "url": "https://www.toraytac.com/markets/aerospace/Urban-Air-Mobility",
+            "page_class": "capability",
+            "snippet": "[MicroPly\u2122 TC235SF-1](/product-explorer/products/Ftqv/Toray-MicroPly-TC235SF-1)\nEpoxy\n119\u00b0C (246\u00b0F)\n121\u00b0C\u2013177\u00b0C\n(250\u00b0F\u2013350\u00b0F)\n30\nProtective surface finish with optional embedded lightning strike foils"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Many additional SKUs exist across thermoset, thermoplastic, tooling, adhesive, and radome product lines; only UAM-highlighted products enumerated here"
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No mention of NDAA Section 848 or 889 compliance anywhere in the fetched corpus. Documentation page lists AS9100D, ISO 9001:2015, ISO 14001, and Nadcap accreditations only."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No mention of DIU Blue UAS or Blue sUAS cleared list anywhere in the fetched corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0079",
+        "line_start": 269,
+        "line_end": 271,
+        "url": "https://www.toraytac.com/markets/aerospace/Urban-Air-Mobility",
+        "page_class": "capability",
+        "snippet": "![Scalable Manufacturing](/media/1f5f596b-65a6-459c-831d-4468f3d9ecd7/s0gDAA/TAC/Images/Icons/Scalable-manufacturing_v1.1.png?w=16&h=9)\n### Scalable Manufacturing\nAutomating material lay-up and eliminating lengthy processing steps from part production can be achieved with OOA and ATL capable thermosets and thermoplastics."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0032",
+        "line_start": 161,
+        "line_end": 161,
+        "url": "https://www.toraytac.com/company/Documentation",
+        "page_class": "company",
+        "snippet": "#### Toray Advanced Composites Morgan Hill AS9100D and ISO 9001:2015 certificate"
+      }
+    ],
+    "notes": "Leading global supplier to commercial, military, and space production programs; AS9100D and Nadcap certified at multiple manufacturing sites; catalog SKUs with established qualification databases"
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Manufactures thermoplastic and thermoset composite prepregs, UD tapes, honeycomb core, film adhesives, and tooling materials\u2014including Cetex\u00ae and BT250E-6 product lines. Serves aerospace, space, and automotive markets with compression-molded parts and engineering support. NDAA and Blue UAS certification status unknown; public evidence of defense/UAS application limited.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 13,
+    "total_cost_usd": 0.45940265,
+    "created_at": "2026-05-04T06:55:39+00:00",
+    "extract_version": "0.1.0"
+  }
+}

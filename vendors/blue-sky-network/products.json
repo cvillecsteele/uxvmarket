@@ -1,0 +1,617 @@
+{
+  "target_id": "blue-sky-network",
+  "run_id": "canonical",
+  "display_name": "Blue Sky Network",
+  "homepage_url": "https://blueskynetwork.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/blue-sky-network/website",
+  "products": [
+    {
+      "name": "QuickNav",
+      "category": "communications",
+      "descriptor": "Low-SWaP satellite C2 access device for UAV BLOS command and control via Iridium",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0320",
+          "line_start": 98,
+          "line_end": 100,
+          "url": "https://naltec.com/products/quicknav",
+          "page_class": "product",
+          "snippet": "QuickNav\n========\nA low-weight, all-in-one satellite command and control (C2) access device."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0320",
+          "line_start": 113,
+          "line_end": 115,
+          "url": "https://naltec.com/products/quicknav",
+          "page_class": "product",
+          "snippet": "*   Beyond line of sight (BLOS) command and control (C2)\n*   Standalone use for position beaconing (internal configuration and power)\n*   Low size, weight, and power (SWaP)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "SkyLink\u00ae 7100",
+      "category": "communications",
+      "descriptor": "Satellite voice and data terminal for aviation and UAV BVLOS operations",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0250",
+          "line_start": 134,
+          "line_end": 136,
+          "url": "https://naltec.com/solutions/autonomous",
+          "page_class": "news",
+          "snippet": "### [SkyLink\u00ae 7100](https://naltec.com/products/skylink-7100/)\nProvides continuous satellite voice and data connectivity for aviation and UAV operations\u2026\n[Read More](https://naltec.com/products/skylink-7100/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "ALTM GEN4",
+      "category": "sensors_and_navigation",
+      "descriptor": "Small form factor Iridium PNT system-on-module for GPS-denied and contested environments",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0263",
+          "line_start": 105,
+          "line_end": 108,
+          "url": "https://naltec.com/products/altm-gen4",
+          "page_class": "product",
+          "snippet": "ALTM GEN4\n---------\nALTM GEN4\nThe ALTM GEN4 family of products are standardized, small form factor Iridium PNT receivers that provide position, navigation, and timing (PNT) information in GPS-denied or contested environments."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "ALTM-T",
+      "category": "sensors_and_navigation",
+      "descriptor": "M.2 form factor Iridium STL receiver providing complementary APNT source to GPS/GNSS",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0264",
+          "line_start": 98,
+          "line_end": 100,
+          "url": "https://naltec.com/products/altm-t",
+          "page_class": "product",
+          "snippet": "ALTM-T\n======\nProvides a complementary APNT source to GPS/GNSS"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "SHOUT nano 200",
+      "category": "communications",
+      "descriptor": "Personal Iridium satellite GPS tracker for personnel safety and monitoring",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 150,
+          "line_end": 151,
+          "url": "https://naltec.com/",
+          "page_class": "homepage",
+          "snippet": "### [SHOUT nano 200](https://naltec.com/products/shout-nano-200/)\nA personal GPS tracking device that makes ensuring the safety and keeping track of personnel\u2026"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "9602",
+      "category": "communications",
+      "descriptor": "Iridium SBD satellite tracker family for asset and crew tracking",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0264",
+          "line_start": 98,
+          "line_end": 100,
+          "url": "https://naltec.com/products/9602",
+          "page_class": "product",
+          "snippet": "9602\n====\nLightweight satellite trackers delivering connectivity to high-value, untethered, and non-powered assets."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0264",
+          "line_start": 115,
+          "line_end": 116,
+          "url": "https://naltec.com/products/9602",
+          "page_class": "product",
+          "snippet": "9602-LP, 9602-A, 9602-AB, 9602-BTI, 9602-NAL\nThe 9602 satellite trackers by NAL Technologies are low size, weight, and power (SWaP) solutions leveraging Iridium\u2019s Short Burst Data\u00ae \u00a0(SBD\u00ae) services to provide cost-effective connectivity for commercial and government customers."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "A3LA",
+      "category": "communications",
+      "descriptor": "Small form factor satellite modem for resilient connectivity",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0250",
+          "line_start": 139,
+          "line_end": 140,
+          "url": "https://naltec.com/solutions/autonomous",
+          "page_class": "news",
+          "snippet": "Cost-effective, small form factor modem delivering resilient connectivity and communications.\u2026\n[Read More](https://naltec.com/products/a3la/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "SkyRouter\u2122",
+      "category": "ground_segment",
+      "descriptor": "Cloud-based satellite fleet tracking and asset management platform",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 154,
+          "line_end": 155,
+          "url": "https://naltec.com/",
+          "page_class": "homepage",
+          "snippet": "### [SkyRouter\u2122](https://naltec.com/products/skyrouter/)\nThe industry-leading fleet tracking and communication tool to manage your assets, lower operating costs, and\u2026"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "ALTM GEN2 Mini",
+      "category": "sensors_and_navigation",
+      "descriptor": "Low-SWaP Iridium STL alternative PNT module for GPS-denied environments",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0255",
+          "line_start": 98,
+          "line_end": 100,
+          "url": "https://naltec.com/products/altm-gen2-mini",
+          "page_class": "product",
+          "snippet": "ALTM GEN2 Mini\n==============\nLow size, weight and power (SWaP) module designed for easy integration."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0255",
+          "line_start": 116,
+          "line_end": 116,
+          "url": "https://naltec.com/products/altm-gen2-mini",
+          "page_class": "product",
+          "snippet": "*   Military mission ready"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Quicksilver\u2122",
+      "category": "communications",
+      "descriptor": "Iridium satellite terminal for pole-to-pole BLOS operations",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0264",
+          "line_start": 187,
+          "line_end": 189,
+          "url": "https://naltec.com/products/9602",
+          "page_class": "product",
+          "snippet": "### [Quicksilver\u2122](https://naltec.com/products/quicksilver/)\nSatellite terminal providing pole-to-pole satellite connectivity for beyond-line-of-sight operations.\u2026\n[Learn More](https://naltec.com/products/quicksilver/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Tactical Box: SkyLink\u00ae",
+      "category": "communications",
+      "descriptor": "Tactical satellite communications box for mission-critical global connectivity",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0256",
+          "line_start": 136,
+          "line_end": 138,
+          "url": "https://naltec.com/products",
+          "page_class": "product",
+          "snippet": "### [Tactical Box: SkyLink\u00ae](https://naltec.com/products/skylink-tactical-box/)\nDelivers mission-critical communications from any location on the planet, with the added protection of\u2026\n[Learn More](https://naltec.com/products/skylink-tactical-box/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Dual Iridium-GPS Antenna: SAF4070-IG",
+      "category": "communications",
+      "descriptor": "Low-profile dual Iridium/GPS antenna for A3LA and 960x series satellite modems and trackers",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0323",
+          "line_start": 98,
+          "line_end": 100,
+          "url": "https://naltec.com/products/saf4070-ig",
+          "page_class": "product",
+          "snippet": "Dual Iridium-GPS Antenna: SAF4070-IG\n====================================\nDual Iridium-GPS antenna"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0323",
+          "line_start": 107,
+          "line_end": 108,
+          "url": "https://naltec.com/products/saf4070-ig",
+          "page_class": "product",
+          "snippet": "SAF4070-IG\nSAF4070-IG is a low-profile, dual-Iridium/GPS antenna designed to operate with the NAL Technologies' A3LA and 960x series satellite modems and trackers."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Flightcell DZMx",
+      "category": "communications",
+      "descriptor": "All-in-one dual-mode aircraft tracking and satellite communications terminal",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0256",
+          "line_start": 140,
+          "line_end": 142,
+          "url": "https://naltec.com/products",
+          "page_class": "product",
+          "snippet": "### [Flightcell DZMx](https://naltec.com/products/flightcell-dzmx/)\nAll-in-one, dual-mode aircraft tracking and communications solution delivering reliable, cost-effective connectivity. \u00a0\u2026\n[Learn More](https://naltec.com/products/flightcell-dzmx/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "SHOUT nano",
+      "category": "communications",
+      "descriptor": "Personal Iridium satellite GPS tracker for remote crew and asset safety",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0256",
+          "line_start": 144,
+          "line_end": 146,
+          "url": "https://naltec.com/products",
+          "page_class": "product",
+          "snippet": "### [SHOUT nano](https://naltec.com/products/shout-nano/)\nA personal GPS tracking device for enhanced safety and monitoring of remote crew and assets\u2026\n[Learn More](https://naltec.com/products/shout-nano/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "ComCenter Indoor",
+      "category": "communications",
+      "descriptor": "Low-cost indoor satellite terminal for secure remote network access",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0256",
+          "line_start": 148,
+          "line_end": 150,
+          "url": "https://naltec.com/products",
+          "page_class": "product",
+          "snippet": "### [ComCenter Indoor](https://naltec.com/products/comcenter-indoor/)\nProvides low-cost, low-maintenance, secure access to remote networks and equipment anywhere in the world\u2026.\n[Learn More](https://naltec.com/products/comcenter-indoor/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "HawkEye 5500",
+      "category": "communications",
+      "descriptor": "Dual-mode real-time satellite tracking and vehicle management device",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0256",
+          "line_start": 160,
+          "line_end": 162,
+          "url": "https://naltec.com/products",
+          "page_class": "product",
+          "snippet": "### [HawkEye 5500](https://naltec.com/products/hawkeye-5500/)\nA dual-mode, real-time tracking and vehicle management solution\u2026.\n[Learn More](https://naltec.com/products/hawkeye-5500/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "SkyLink\u00ae 5100",
+      "category": "communications",
+      "descriptor": "Land-based Iridium Certus satellite voice and data terminal",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0250",
+          "line_start": 131,
+          "line_end": 132,
+          "url": "https://naltec.com/solutions/autonomous",
+          "page_class": "news",
+          "snippet": "Land-based satellite communication solution delivering voice and data connectivity, powered by Iridum Certus\u00ae\u2026\n[Read More](https://naltec.com/products/skylink-5100/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "SkyLink\u00ae Battery Pack",
+      "category": "power_systems",
+      "descriptor": "Battery pack enabling portable comms-on-the-move SkyLink connectivity",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0250",
+          "line_start": 127,
+          "line_end": 128,
+          "url": "https://naltec.com/solutions/autonomous",
+          "page_class": "news",
+          "snippet": "Enables portable connectivity of SkyLink for comms-on-the-move applications and uninterrupted communications in the event\u2026\n[Read More](https://naltec.com/products/skylink-battery-pack/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "PntGuard\u2122",
+      "category": "sensors_and_navigation",
+      "descriptor": "Maritime GNSS-threat protection and PNT resilience device",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 146,
+          "line_end": 147,
+          "url": "https://naltec.com/",
+          "page_class": "homepage",
+          "snippet": "### [PntGuard\u2122](https://naltec.com/products/pntguard/)\nThe ultimate maritime-security solution for protection against GNSS-threats, even in remote, contested environments\u2026"
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "NDAA and Blue UAS compliance status is unknown for all 15 products \u2014 no compliance page was fetched and no product-level NDAA/Blue UAS claims appear in the corpus.",
+    "Product catalog pages 2\u20135 (naltec.com/products/page/2 through /page/5) were not fetched; additional products beyond the 15 prioritized may exist.",
+    "Individual product detail pages for 13 of the 15 products were skipped (only ALTM GEN2 Mini and 9602 had dedicated fetched pages), so specs, compliance claims, and readiness language for the remaining 13 come solely from short catalog-listing blurbs.",
+    "The Quicksilver\u2122 product detail page was skipped (skipped_class_budget); its classification is based only on a brief related-product blurb on the 9602 page.",
+    "Vendor rebranded from Blue Sky Network to NAL Technologies (Naltec) in January 2026; some older product names (e.g. SkyLink Citadel) may map to current SKUs but could not be confirmed from the fetched corpus."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://naltec.com/products/skylink-7100",
+      "reason": "Product detail page skipped; needed for full specs, NDAA/Blue UAS claims, and readiness confirmation for SkyLink\u00ae 7100.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://naltec.com/products/skylink-5100",
+      "reason": "Product detail page skipped; needed for full specs, NDAA/Blue UAS claims, and readiness confirmation for SkyLink\u00ae 5100.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://naltec.com/products/skylink-tactical-box",
+      "reason": "Product detail page skipped; needed for full specs, NDAA/Blue UAS claims, and readiness confirmation for Tactical Box: SkyLink\u00ae.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://naltec.com/products/pntguard",
+      "reason": "Product detail page skipped; needed for full specs, NDAA/Blue UAS claims, and readiness confirmation for PntGuard\u2122.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://naltec.com/products/shout-nano-200",
+      "reason": "Product detail page skipped; needed for full specs, NDAA/Blue UAS claims, and readiness confirmation for SHOUT nano 200.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://naltec.com/products/shout-nano",
+      "reason": "Product detail page skipped; needed for full specs, NDAA/Blue UAS claims, and readiness confirmation for SHOUT nano.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://naltec.com/products/skyrouter",
+      "reason": "Product detail page skipped; needed for full specs, NDAA/Blue UAS claims, and readiness confirmation for SkyRouter\u2122.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://naltec.com/products/quicksilver",
+      "reason": "Product detail page skipped; needed for full specs, NDAA/Blue UAS claims, and readiness confirmation for Quicksilver\u2122.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://naltec.com/products/a3la",
+      "reason": "Product detail page skipped; needed for full specs, NDAA/Blue UAS claims, and readiness confirmation for A3LA.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://naltec.com/products/hawkeye-5500",
+      "reason": "Product detail page skipped; needed for full specs, NDAA/Blue UAS claims, and readiness confirmation for HawkEye 5500.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://naltec.com/products/skylink-battery-pack",
+      "reason": "Product detail page skipped; needed for full specs, NDAA/Blue UAS claims, and readiness confirmation for SkyLink\u00ae Battery Pack.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://naltec.com/products/flightcell-dzmx",
+      "reason": "Product detail page skipped; needed for full specs, NDAA/Blue UAS claims, and readiness confirmation for Flightcell DZMx.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://naltec.com/products/comcenter-indoor",
+      "reason": "Product detail page skipped; needed for full specs, NDAA/Blue UAS claims, and readiness confirmation for ComCenter Indoor.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=product",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 0,
+    "total_cost_usd": null,
+    "created_at": "2026-05-03T22:02:29+00:00",
+    "extract_version": "0.1.0"
+  }
+}

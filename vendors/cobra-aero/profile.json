@@ -1,0 +1,338 @@
+{
+  "target_id": "cobra-aero",
+  "run_id": "canonical",
+  "display_name": "Cobra AERO",
+  "homepage_url": "https://www.cobra-aero.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/cobra-aero/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 34,
+            "line_end": 34,
+            "url": "https://www.cobra-aero.com",
+            "page_class": "homepage",
+            "snippet": "Our unique combination of deep engine design expertise, world class development facilities, and top-notch manufacturing capabilities, make Cobra AERO a strategic partner for your comprehensive power and propulsion needs."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0064",
+            "line_start": 39,
+            "line_end": 39,
+            "url": "https://www.cobra-aero.com/partnerships",
+            "page_class": "news",
+            "snippet": "[Currawong Engineering](https://www.currawongeng.com/) is a world leader in the field of engine powertrain systems for unmanned aerial vehicles in both military and commercial applications, and offers specialist machining services and engineering design consulting services to local and international customers."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0066",
+            "line_start": 35,
+            "line_end": 35,
+            "url": "https://www.cobra-aero.com/platform-strategy",
+            "page_class": "product",
+            "snippet": "**AXX****N** \u2013 Standard IC engine platform. Shaft power is motive (connected directly to the propeller or pump). Generator provides enough electrical power to run comms, avionics, sensors, etc."
+          }
+        ],
+        "notes": "Small IC engines (A33 and A99 families) with shaft power delivered to propeller or pump for UAV propulsion"
+      },
+      {
+        "category": "power_systems",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0066",
+            "line_start": 37,
+            "line_end": 37,
+            "url": "https://www.cobra-aero.com/platform-strategy",
+            "page_class": "product",
+            "snippet": "**AXX****S** \u2013 Full series hybrid whereby all available engine shaft power is converted to electrical energy. Use cases include electrically driven craft and gen-sets."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0066",
+            "line_start": 36,
+            "line_end": 36,
+            "url": "https://www.cobra-aero.com/platform-strategy",
+            "page_class": "product",
+            "snippet": "**AXX****P** \u2013 Parallel hybrid. Motor/generator can assist the IC engine in providing additional shaft power for time-limited requirements (sprint, take-off, etc.). Additionally, this topology provides more generator output than the \u2018N\u2019 configuration."
+          }
+        ],
+        "notes": "Series hybrid variants (AXXS) convert all IC engine shaft power to electrical energy; parallel hybrid (AXXP) adds generator output for electrical loads"
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Hillsdale",
+      "state_or_province": "Michigan",
+      "country": "United States",
+      "address": "240 Uran Street, Hillsdale, MI 49242"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0059",
+        "line_start": 29,
+        "line_end": 29,
+        "url": "https://www.cobra-aero.com/contact",
+        "page_class": "contact",
+        "snippet": "[240 Uran Street Hillsdale, MI 49242](https://www.google.com/maps/place/240+Uran+St,+Hillsdale,+MI+49242/@41.9369574,-84.6590974,17z/data=!3m1!4b1!4m5!3m4!1s0x883d72664b2687d7:0xd7935f05f3106dd!8m2!3d41.9369534!4d-84.6569034) \u2022 [517-437-9100](tel:+15174379100)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 59,
+        "line_end": 59,
+        "url": "https://www.cobra-aero.com",
+        "page_class": "homepage",
+        "snippet": "240 Uran St, Hillsdale, MI 49242"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 4,
+        "line_end": 5,
+        "url": "https://www.cobra-aero.com",
+        "page_class": "homepage",
+        "snippet": "[A33 Propulsion Systems](/a33-engine)\n[A99 Propulsion Systems](/a99-engine)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0064",
+        "line_start": 39,
+        "line_end": 39,
+        "url": "https://www.cobra-aero.com/partnerships",
+        "page_class": "news",
+        "snippet": "[Currawong Engineering](https://www.currawongeng.com/) is a world leader in the field of engine powertrain systems for unmanned aerial vehicles in both military and commercial applications, and offers specialist machining services and engineering design consulting services to local and international customers."
+      }
+    ],
+    "notes": "Sells small IC engine propulsion systems (A33, A99 families) for UAVs; does not manufacture complete drones"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "A33 Propulsion System",
+        "product_type": "small IC engine propulsion system family for UAVs",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 4,
+            "line_end": 4,
+            "url": "https://www.cobra-aero.com",
+            "page_class": "homepage",
+            "snippet": "[A33 Propulsion Systems](/a33-engine)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "A33N",
+        "product_type": "standard IC engine variant (shaft to propeller)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0066",
+            "line_start": 40,
+            "line_end": 40,
+            "url": "https://www.cobra-aero.com/platform-strategy",
+            "page_class": "product",
+            "snippet": "[**A33N**](/a33n)[**A33H**](/a33hf)**"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "A33HF",
+        "product_type": "hybrid IC engine variant",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 48,
+            "line_end": 48,
+            "url": "https://www.cobra-aero.com",
+            "page_class": "homepage",
+            "snippet": "[A33HF](/a33hf)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "A99 Propulsion System",
+        "product_type": "larger small IC engine propulsion system family for UAVs",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 5,
+            "line_end": 5,
+            "url": "https://www.cobra-aero.com",
+            "page_class": "homepage",
+            "snippet": "[A99 Propulsion Systems](/a99-engine)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "A99H",
+        "product_type": "parallel/series hybrid IC engine variant",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0066",
+            "line_start": 45,
+            "line_end": 45,
+            "url": "https://www.cobra-aero.com/platform-strategy",
+            "page_class": "product",
+            "snippet": "[**A99H**](/a99h)[**A99S**](/a99s)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "A99S",
+        "product_type": "full series hybrid IC engine variant",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0066",
+            "line_start": 45,
+            "line_end": 45,
+            "url": "https://www.cobra-aero.com/platform-strategy",
+            "page_class": "product",
+            "snippet": "[**A99H**](/a99h)[**A99S**](/a99s)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Product detail pages (a33-engine, a33n, a33hf, a99-engine, a99h, a99s) were all skipped; product names confirmed from navigation and platform strategy page"
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 34,
+        "line_end": 34,
+        "url": "https://www.cobra-aero.com",
+        "page_class": "homepage",
+        "snippet": "Our unique combination of deep engine design expertise, world class development facilities, and top-notch manufacturing capabilities, make Cobra AERO a strategic partner for your comprehensive power and propulsion needs."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0066",
+        "line_start": 34,
+        "line_end": 34,
+        "url": "https://www.cobra-aero.com/platform-strategy",
+        "page_class": "product",
+        "snippet": "### HYBRIDIZATION STRATEGY"
+      }
+    ],
+    "notes": "Multiple named catalog SKUs with variant matrix (N/P/S hybridization across A33 and A99 families); site highlights manufacturing capabilities. AFWERX Phase I grant (2021) suggests ongoing R&D alongside production."
+  },
+  "unresolved_questions": [
+    "Product detail pages (a33-engine, a33hf, a33n, a99-engine, a99h, a99s) were all skipped; full specifications and production readiness confirmation unavailable",
+    "No NDAA or Blue UAS compliance information found anywhere in corpus"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.cobra-aero.com/a33-engine",
+      "reason": "Would provide full specs, variants, and production readiness evidence for the A33 engine family",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.cobra-aero.com/a99-engine",
+      "reason": "Would provide full specs, variants, and production readiness evidence for the A99 engine family",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.cobra-aero.com/a33n",
+      "reason": "Would confirm A33N product specifications and production status",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.cobra-aero.com/a99h",
+      "reason": "Would confirm A99H product specifications and production status",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "tagline": "Manufactures 33cc and 99cc internal-combustion and hybrid propulsion systems for medium-endurance UAVs; products in production across standard IC, parallel-hybrid, and series-hybrid configurations. NDAA compliance and Blue UAS certification status unknown; public evidence of end-user adoption or defense contracts not apparent.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 15,
+    "total_cost_usd": 0.39324109999999995,
+    "created_at": "2026-05-04T01:23:57+00:00",
+    "extract_version": "0.1.0"
+  }
+}

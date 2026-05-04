@@ -1,0 +1,359 @@
+{
+  "target_id": "avt-australia",
+  "run_id": "canonical",
+  "display_name": "AVT Australia",
+  "homepage_url": "https://www.ascentvision.com.au",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/avt-australia/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "isr_payloads",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 45,
+            "line_end": 45,
+            "url": "https://www.ascentvision.com.au",
+            "page_class": "homepage",
+            "snippet": "AVT Australia is a leading supplier of lightweight, gyro-stabilised imaging systems for intelligence, surveillance, and reconnaissance (ISR) and target acquisition operations. Recognised for our expertise in advanced engineering services, AVT Australia is a trusted supplier of imaging solutions for our Australian defence customers and international customers, with systems supporting operations in over 50 countries."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0052",
+            "line_start": 23,
+            "line_end": 23,
+            "url": "https://www.ascentvision.com.au/cm102",
+            "page_class": "other",
+            "snippet": "Designed for Group 1 and 2 UAS, the CM102 gimbal combines high-definition EO and LWIR imagery in a compact gyro-stabilised imaging system weighing under 900g. With two-axis active stabilisation, the CM102 offers long-range intelligence, surveillance, and reconnaissance (ISR) capabilities that are ideal for UAS operations."
+          }
+        ],
+        "notes": "Gyro-stabilised EO/IR gimbals for ISR and target acquisition; designed for Group 1 and 2 UAS"
+      },
+      {
+        "category": "electronic_warfare",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0050",
+            "line_start": 38,
+            "line_end": 39,
+            "url": "https://www.ascentvision.com.au/software",
+            "page_class": "other",
+            "snippet": "#### CUAS Suite\nCUAS Suite is a world-leading software solution for combating hostile sUAS systems, developed specifically for counter-small uncrewed aerial system (C-sUAS) and aerial defence operations. The interface effectively integrates every component required for successful detection, classification, location, tracking, identification, and defeat of airborne threats."
+          }
+        ],
+        "notes": "CUAS Suite: software solution for counter-sUAS operations (detection, tracking, defeat of airborne threats)"
+      },
+      {
+        "category": "ground_segment",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0050",
+            "line_start": 32,
+            "line_end": 33,
+            "url": "https://www.ascentvision.com.au/software",
+            "page_class": "other",
+            "snippet": "#### VEXOS\nAVT Australia\u2019s proprietary Command and Control (C2) software, VEXOS, is an intuitive, real-time user-interface that facilitates seamless C2 of our imaging systems. An effective user-interface reduces workload, decreases training, and allows for easier mission operation."
+          }
+        ],
+        "notes": "VEXOS: proprietary C2 software for their imaging systems"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "North Melbourne",
+      "state_or_province": "Victoria",
+      "country": "Australia",
+      "address": null
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0047",
+        "line_start": 71,
+        "line_end": 72,
+        "url": "https://www.ascentvision.com.au/about-us",
+        "page_class": "other",
+        "snippet": "**North Melbourne**\nVIC, 3003, Australia"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0052",
+        "line_start": 23,
+        "line_end": 23,
+        "url": "https://www.ascentvision.com.au/cm102",
+        "page_class": "other",
+        "snippet": "Designed for Group 1 and 2 UAS, the CM102 gimbal combines high-definition EO and LWIR imagery in a compact gyro-stabilised imaging system weighing under 900g. With two-axis active stabilisation, the CM102 offers long-range intelligence, surveillance, and reconnaissance (ISR) capabilities that are ideal for UAS operations."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 45,
+        "line_end": 45,
+        "url": "https://www.ascentvision.com.au",
+        "page_class": "homepage",
+        "snippet": "AVT Australia is a leading supplier of lightweight, gyro-stabilised imaging systems for intelligence, surveillance, and reconnaissance (ISR) and target acquisition operations. Recognised for our expertise in advanced engineering services, AVT Australia is a trusted supplier of imaging solutions for our Australian defence customers and international customers, with systems supporting operations in over 50 countries."
+      }
+    ],
+    "notes": "Designs and manufactures ISR payload gimbals (EO/IR, gyro-stabilised) specifically for Group 1-2 UAS; does not make complete drone platforms"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "CM41 Gimbal",
+        "product_type": "gyro-stabilised EO/IR ISR gimbal",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 25,
+            "line_end": 25,
+            "url": "https://www.ascentvision.com.au",
+            "page_class": "homepage",
+            "snippet": "### CM41 Gimbal"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "CM62 Family",
+        "product_type": "micro ISR gimbal with on-gimbal object recognition",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 31,
+            "line_end": 31,
+            "url": "https://www.ascentvision.com.au",
+            "page_class": "homepage",
+            "snippet": "### CM62 Family"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "CM102 Gimbal",
+        "product_type": "sub-900g EO/LWIR ISR gimbal for Group 1-2 UAS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0052",
+            "line_start": 21,
+            "line_end": 23,
+            "url": "https://www.ascentvision.com.au/cm102",
+            "page_class": "other",
+            "snippet": "CM102 Gimbal\n============\nDesigned for Group 1 and 2 UAS, the CM102 gimbal combines high-definition EO and LWIR imagery in a compact gyro-stabilised imaging system weighing under 900g. With two-axis active stabilisation, the CM102 offers long-range intelligence, surveillance, and reconnaissance (ISR) capabilities that are ideal for UAS operations."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "CM102-MR Gimbal",
+        "product_type": "marine-ruggedised EO/IR ISR gimbal",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 34,
+            "line_end": 34,
+            "url": "https://www.ascentvision.com.au",
+            "page_class": "homepage",
+            "snippet": "### CM102 MR Gimbal"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "CM234 Gimbal",
+        "product_type": "gyro-stabilised ISR gimbal",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 37,
+            "line_end": 37,
+            "url": "https://www.ascentvision.com.au",
+            "page_class": "homepage",
+            "snippet": "### CM234 Gimbal"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "CM262 Gimbal",
+        "product_type": "gyro-stabilised ISR gimbal",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 41,
+            "line_end": 41,
+            "url": "https://www.ascentvision.com.au",
+            "page_class": "homepage",
+            "snippet": "### CM262 Gimbal"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "VEXOS",
+        "product_type": "C2 software for imaging systems (Video Exploitation Operator Suite)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0050",
+            "line_start": 32,
+            "line_end": 33,
+            "url": "https://www.ascentvision.com.au/software",
+            "page_class": "other",
+            "snippet": "#### VEXOS\nAVT Australia\u2019s proprietary Command and Control (C2) software, VEXOS, is an intuitive, real-time user-interface that facilitates seamless C2 of our imaging systems. An effective user-interface reduces workload, decreases training, and allows for easier mission operation."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "CUAS Suite",
+        "product_type": "counter-UAS software suite",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0050",
+            "line_start": 38,
+            "line_end": 39,
+            "url": "https://www.ascentvision.com.au/software",
+            "page_class": "other",
+            "snippet": "#### CUAS Suite\nCUAS Suite is a world-leading software solution for combating hostile sUAS systems, developed specifically for counter-small uncrewed aerial system (C-sUAS) and aerial defence operations. The interface effectively integrates every component required for successful detection, classification, location, tracking, identification, and defeat of airborne threats."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Failed product pages in crawl_index (products/cm202a, products/cm202u) suggest additional model variants beyond those in current nav. CM62 and CM234 detail pages were skipped."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 47,
+        "line_end": 47,
+        "url": "https://www.ascentvision.com.au",
+        "page_class": "homepage",
+        "snippet": "AVT Australia is ISO 9001:2015 certified."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 45,
+        "line_end": 45,
+        "url": "https://www.ascentvision.com.au",
+        "page_class": "homepage",
+        "snippet": "AVT Australia is a leading supplier of lightweight, gyro-stabilised imaging systems for intelligence, surveillance, and reconnaissance (ISR) and target acquisition operations. Recognised for our expertise in advanced engineering services, AVT Australia is a trusted supplier of imaging solutions for our Australian defence customers and international customers, with systems supporting operations in over 50 countries."
+      }
+    ],
+    "notes": "ISO 9001:2015 certified; systems deployed in 50+ countries; explicitly states design, development, manufacture and support of imaging systems"
+  },
+  "unresolved_questions": [
+    "CM202a and CM202u appear as failed product page URLs \u2014 unclear if these are legacy models or new variants not in the main nav",
+    "No NDAA or Blue UAS compliance information found anywhere in the corpus"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.ascentvision.com.au/cm62",
+      "reason": "CM62 is a primary product family (micro gimbal with on-gimbal object recognition) but the product page was skipped; would confirm full spec and product type details",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.ascentvision.com.au/cm234",
+      "reason": "CM234 product page was skipped; news article mentions CM234 selected for ADF TUAS program which would confirm production readiness and defence customer details",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.ascentvision.com.au/products/cm202a",
+      "reason": "Failed product page for CM202a \u2014 likely an additional gimbal variant not listed in nav; would confirm full product portfolio",
+      "expected_evidence": [
+        "products",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=failed, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.ascentvision.com.au/contact",
+      "reason": "Contact page was skipped; may contain full street address and additional HQ details beyond North Melbourne listed on about-us",
+      "expected_evidence": [
+        "headquarters"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=contact",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Gyro-stabilized EO/IR imaging gimbals and ISR software for airborne, maritime, and ground platforms. CM234 selected for Australian Defence Force TUAS (Land 129 Phase 3). NDAA and Blue UAS certification status unknown; public evidence thin on US supplier relationships or allied integration pathways beyond ADF programs.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 23,
+    "total_cost_usd": 0.4996334,
+    "created_at": "2026-05-03T21:40:23+00:00",
+    "extract_version": "0.1.0"
+  }
+}

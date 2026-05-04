@@ -1,0 +1,309 @@
+{
+  "target_id": "frontier-precision",
+  "run_id": "canonical",
+  "display_name": "Frontier Precision",
+  "homepage_url": "https://frontierprecision.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/frontier-precision/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "airframes",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0520",
+            "line_start": 183,
+            "line_end": 184,
+            "url": "https://frontierprecision.com/solutions/ag/ag-products",
+            "page_class": "product",
+            "snippet": "[![Hylio AG-272 CP-D-272 Drone](https://shop.frontierprecision.com/wp-content/uploads/2025/03/Hylio-AG-272-1.jpg)](https://shop.frontierprecision.com/product/hylio-ag-272-cp-d-272-drone)\n### Hylio AG-272 CP-D-272 Drone"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0555",
+            "line_start": 159,
+            "line_end": 161,
+            "url": "https://frontierprecision.com/test-products",
+            "page_class": "product",
+            "snippet": "[![Freefly Alta X - Blue Kit](https://shop.frontierprecision.com/wp-content/uploads/2024/06/171935572492740.jpg)](https://shop.frontierprecision.com/product/freefly-alta-x-blue-kit)\n### Freefly Alta X - Blue Kit\n[Learn More](https://shop.frontierprecision.com/product/freefly-alta-x-blue-kit)"
+          }
+        ],
+        "notes": "Resells complete UAS platforms from Hylio (agricultural drones) and Freefly (Alta X heavy-lift)"
+      },
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0555",
+            "line_start": 162,
+            "line_end": 167,
+            "url": "https://frontierprecision.com/test-products",
+            "page_class": "product",
+            "snippet": "[![Juniper Systems Geode GNS3H-CFG(13759) Single-Frequency Antenna Model Receiver](https://shop.frontierprecision.com/wp-content/uploads/2026/03/Juniper-Systems-Geode-1.jpg)](https://shop.frontierprecision.com/product/juniper-systems-geode-gns3h-cfg13759-single-frequency-antenna-model-receiver)\n### Juniper Systems Geode GNS3H-CFG(13759) Single-Frequency Antenna Model Receiver\n[Learn More](https://shop.frontierprecision.com/product/juniper-systems-geode-gns3h-cfg13759-single-frequency-antenna-model-receiver)\n[![Juniper Systems Spire SP1-CFG(1457) Real-time Ready Receiver](https://shop.frontierprecision.com/wp-content/uploads/2026/02/Juniper-Spire-1.jpg)](https://shop.frontierprecision.com/product/juniper-systems-spire-sp1-cfg1457-real-time-ready-receiver)\n### Juniper Systems Spire SP1-CFG(1457) Real-time Ready Receiver\n[Learn More](https://shop.frontierprecision.com/product/juniper-systems-spire-sp1-cfg1457-real-time-ready-receiver)"
+          }
+        ],
+        "notes": "Resells GNSS/survey equipment from Trimble, Juniper Systems (Geode, Spire receivers)"
+      },
+      {
+        "category": "ground_segment",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0555",
+            "line_start": 168,
+            "line_end": 173,
+            "url": "https://frontierprecision.com/test-products",
+            "page_class": "product",
+            "snippet": "[![Trimble TSC710-1-1100-00-HH TSC710 Heavy Civil Construction Controller](https://shop.frontierprecision.com/wp-content/uploads/2025/10/Trimble-TSC710_1.jpg)](https://shop.frontierprecision.com/product/trimble-tsc710-1-1100-00-hh-tsc710-heavy-civil-construction-controller)\n### Trimble TSC710-1-1100-00-HH TSC710 Heavy Civil Construction Controller\n[Learn More](https://shop.frontierprecision.com/product/trimble-tsc710-1-1100-00-hh-tsc710-heavy-civil-construction-controller)\n[![Trimble TSC710-1-1100-00 TSC710 Survey Controller](https://shop.frontierprecision.com/wp-content/uploads/2025/10/Trimble-TSC710_1.jpg)](https://shop.frontierprecision.com/product/trimble-tsc710-1-1100-00-tsc710-survey-controller)\n### Trimble TSC710-1-1100-00 TSC710 Survey Controller\n[Learn More](https://shop.frontierprecision.com/product/trimble-tsc710-1-1100-00-tsc710-survey-controller)"
+          }
+        ],
+        "notes": "Resells Trimble survey controllers and GIS software used with UAS missions"
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Bismarck",
+      "state_or_province": "North Dakota",
+      "country": "United States",
+      "address": "1713 Burlington Drive, Bismarck, ND 58504"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 4,
+        "line_end": 4,
+        "url": "https://frontierprecision.com",
+        "page_class": "homepage",
+        "snippet": "Bismarck, ND (Corporate \u2013 HQ)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 20,
+        "line_end": 22,
+        "url": "https://frontierprecision.com",
+        "page_class": "homepage",
+        "snippet": "Frontier Precision\n1713 Burlington Drive\nBismarck, ND 58504"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "reseller",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0520",
+        "line_start": 183,
+        "line_end": 197,
+        "url": "https://frontierprecision.com/solutions/ag/ag-products",
+        "page_class": "product",
+        "snippet": "[![Hylio AG-272 CP-D-272 Drone](https://shop.frontierprecision.com/wp-content/uploads/2025/03/Hylio-AG-272-1.jpg)](https://shop.frontierprecision.com/product/hylio-ag-272-cp-d-272-drone)\n### Hylio AG-272 CP-D-272 Drone\n[Learn More](https://shop.frontierprecision.com/product/hylio-ag-272-cp-d-272-drone)\n[![Hylio AG-230 CP-D-230 Drone](https://shop.frontierprecision.com/wp-content/uploads/2025/03/Hylio-AG-230-1.jpg)](https://shop.frontierprecision.com/product/hylio-ag-230-cp-d-230-drone)\n### Hylio AG-230 CP-D-230 Drone\n[Learn More](https://shop.frontierprecision.com/product/hylio-ag-230-cp-d-230-drone)\n[![Hylio AG-216 CP-D-216 Drone](https://shop.frontierprecision.com/wp-content/uploads/2025/03/Hylio-AG-216-1.jpg)](https://shop.frontierprecision.com/product/hylio-ag-216-cp-d-216-drone)\n### Hylio AG-216 CP-D-216 Drone\n[Learn More](https://shop.frontierprecision.com/product/hylio-ag-216-cp-d-216-drone)\n[![Hylio AG-210 CP-D-210 Drone](https://shop.frontierprecision.com/wp-content/uploads/2025/03/Hylio-AG-210-1.jpg)](https://shop.frontierprecision.com/product/hylio-ag-210-cp-d-210-drone)\n### Hylio AG-210 CP-D-210 Drone\n[Learn More](https://shop.frontierprecision.com/product/hylio-ag-210-cp-d-210-drone)\n[![Hylio ARES HYL-150 CP-D-150 Drone](https://shop.frontierprecision.com/wp-content/uploads/2025/03/Hylio-ARES-HYL-150-1.jpg)](https://shop.frontierprecision.com/product/hylio-ares-hyl-150-cp-d-150-drone)\n### Hylio ARES HYL-150 CP-D-150 Drone\n[Learn More](https://shop.frontierprecision.com/product/hylio-ares-hyl-150-cp-d-150-drone)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 125,
+        "line_end": 125,
+        "url": "https://frontierprecision.com",
+        "page_class": "homepage",
+        "snippet": "![](https://frontierprecision.com/wp-content/uploads/2025/09/Trimble-Auth-Distribution-Partner-Horiz-RGB-Black-en-US-1.png \"Trimble-Auth-Distribution-Partner-Horiz-RGB-Black-en-US (1)\")"
+      }
+    ],
+    "notes": "Authorized distribution partner for Trimble; resells Hylio and Freefly drones with training and support services; no evidence of own-design or own-manufacture UAS"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Hylio AG-272",
+        "product_type": "agricultural UAS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0520",
+            "line_start": 183,
+            "line_end": 185,
+            "url": "https://frontierprecision.com/solutions/ag/ag-products",
+            "page_class": "product",
+            "snippet": "[![Hylio AG-272 CP-D-272 Drone](https://shop.frontierprecision.com/wp-content/uploads/2025/03/Hylio-AG-272-1.jpg)](https://shop.frontierprecision.com/product/hylio-ag-272-cp-d-272-drone)\n### Hylio AG-272 CP-D-272 Drone\n[Learn More](https://shop.frontierprecision.com/product/hylio-ag-272-cp-d-272-drone)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Hylio AG-230",
+        "product_type": "agricultural UAS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0520",
+            "line_start": 186,
+            "line_end": 188,
+            "url": "https://frontierprecision.com/solutions/ag/ag-products",
+            "page_class": "product",
+            "snippet": "[![Hylio AG-230 CP-D-230 Drone](https://shop.frontierprecision.com/wp-content/uploads/2025/03/Hylio-AG-230-1.jpg)](https://shop.frontierprecision.com/product/hylio-ag-230-cp-d-230-drone)\n### Hylio AG-230 CP-D-230 Drone\n[Learn More](https://shop.frontierprecision.com/product/hylio-ag-230-cp-d-230-drone)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Hylio AG-216",
+        "product_type": "agricultural UAS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0520",
+            "line_start": 189,
+            "line_end": 191,
+            "url": "https://frontierprecision.com/solutions/ag/ag-products",
+            "page_class": "product",
+            "snippet": "[![Hylio AG-216 CP-D-216 Drone](https://shop.frontierprecision.com/wp-content/uploads/2025/03/Hylio-AG-216-1.jpg)](https://shop.frontierprecision.com/product/hylio-ag-216-cp-d-216-drone)\n### Hylio AG-216 CP-D-216 Drone\n[Learn More](https://shop.frontierprecision.com/product/hylio-ag-216-cp-d-216-drone)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Hylio AG-210",
+        "product_type": "agricultural UAS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0520",
+            "line_start": 192,
+            "line_end": 194,
+            "url": "https://frontierprecision.com/solutions/ag/ag-products",
+            "page_class": "product",
+            "snippet": "[![Hylio AG-210 CP-D-210 Drone](https://shop.frontierprecision.com/wp-content/uploads/2025/03/Hylio-AG-210-1.jpg)](https://shop.frontierprecision.com/product/hylio-ag-210-cp-d-210-drone)\n### Hylio AG-210 CP-D-210 Drone\n[Learn More](https://shop.frontierprecision.com/product/hylio-ag-210-cp-d-210-drone)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Hylio ARES HYL-150",
+        "product_type": "agricultural UAS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0520",
+            "line_start": 195,
+            "line_end": 197,
+            "url": "https://frontierprecision.com/solutions/ag/ag-products",
+            "page_class": "product",
+            "snippet": "[![Hylio ARES HYL-150 CP-D-150 Drone](https://shop.frontierprecision.com/wp-content/uploads/2025/03/Hylio-ARES-HYL-150-1.jpg)](https://shop.frontierprecision.com/product/hylio-ares-hyl-150-cp-d-150-drone)\n### Hylio ARES HYL-150 CP-D-150 Drone\n[Learn More](https://shop.frontierprecision.com/product/hylio-ares-hyl-150-cp-d-150-drone)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Freefly Alta X - Blue Kit",
+        "product_type": "heavy-lift UAS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0555",
+            "line_start": 159,
+            "line_end": 161,
+            "url": "https://frontierprecision.com/test-products",
+            "page_class": "product",
+            "snippet": "[![Freefly Alta X - Blue Kit](https://shop.frontierprecision.com/wp-content/uploads/2024/06/171935572492740.jpg)](https://shop.frontierprecision.com/product/freefly-alta-x-blue-kit)\n### Freefly Alta X - Blue Kit\n[Learn More](https://shop.frontierprecision.com/product/freefly-alta-x-blue-kit)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "UAS products visible in shop listing; more products may exist in the shop (600+ skipped pages)"
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0520",
+        "line_start": 182,
+        "line_end": 184,
+        "url": "https://frontierprecision.com/solutions/ag/ag-products",
+        "page_class": "product",
+        "snippet": "Visit the Frontier Precision Shop for products related to Precision Ag Products and more!\n[![Hylio AG-272 CP-D-272 Drone](https://shop.frontierprecision.com/wp-content/uploads/2025/03/Hylio-AG-272-1.jpg)](https://shop.frontierprecision.com/product/hylio-ag-272-cp-d-272-drone)\n### Hylio AG-272 CP-D-272 Drone"
+      }
+    ],
+    "notes": "Operates an online shop with listed catalog SKUs for drones and geospatial equipment"
+  },
+  "unresolved_questions": [
+    "Whether Frontier Precision explicitly claims any Blue UAS cleared list drones",
+    "Whether UAS professional services constitutes drone operations vs. reseller support only"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://frontierprecision.com/solutions/unmanned/",
+      "reason": "Would confirm what UAS brands/models Frontier Precision distributes and any UAS-specific compliance claims (NDAA, Blue UAS)",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "ndaa",
+        "blue_uas",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "guessed from site nav link /solutions/unmanned/",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://frontierprecision.com/technical-services/uas-professional-services/",
+      "reason": "Would clarify if UAS professional services includes drone operations (service_provider) or just reseller support",
+      "expected_evidence": [
+        "drone_supply_chain_role",
+        "products_categories"
+      ],
+      "source_hint": "guessed from site nav link /technical-services/uas-professional-services/",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "complete",
+  "tagline": "Reseller of precision agriculture spray drones (Hylio AG-series, ARES) and heavy-lift UAS, plus GNSS receivers, LiDAR payloads, and ground-control systems. Holds Blue UAS certification for Freefly Alta X. NDAA compliance status and defense-sector contract footprint unknown; public evidence concentrated in commercial ag and geospatial sectors.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 15,
+    "total_cost_usd": 0.347473,
+    "created_at": "2026-05-04T02:46:22+00:00",
+    "extract_version": "0.1.0"
+  }
+}

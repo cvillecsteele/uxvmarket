@@ -1,0 +1,377 @@
+{
+  "target_id": "dst-control",
+  "run_id": "canonical",
+  "display_name": "DST Control",
+  "homepage_url": "https://www.dst.se",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/dst-control/website",
+  "products": [
+    {
+      "name": "OTUS-U250",
+      "category": "isr_payloads",
+      "descriptor": "Four-axis gyro-stabilised maxi-gimbal with EO/IR and FOG IMU",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0008",
+          "line_start": 47,
+          "line_end": 49,
+          "url": "https://www.dst.se/otus-u250",
+          "page_class": "other",
+          "snippet": "OTUS-U250\n=========\n**FOUR-AXIS** Gyro Stabilised Maxi-gimbal"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0008",
+          "line_start": 59,
+          "line_end": 68,
+          "url": "https://www.dst.se/otus-u250",
+          "page_class": "other",
+          "snippet": "Axes\n4\nStabilisation\n25 \u00b5rad\nIP Class\nIP66\nTest Standard\nMIL STD-810G + RTCA DO-160G\nWeight\n<9 kg"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "OTUS-U230M",
+      "category": "isr_payloads",
+      "descriptor": "Two-axis gyro-stabilised maritime midi-gimbal with EO/IR and continuous 360\u00b0 rotation",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0013",
+          "line_start": 47,
+          "line_end": 49,
+          "url": "https://www.dst.se/otus-u230m",
+          "page_class": "other",
+          "snippet": "OTUS-U230M\n==========\n**TWO-AXIS** Gyro Stabilised Midi-gimbal"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0013",
+          "line_start": 60,
+          "line_end": 67,
+          "url": "https://www.dst.se/otus-u230m",
+          "page_class": "other",
+          "snippet": "Axes\n2\nField of regard\n360\u00b0 x N (continuous)\nSealing\nIP66\nTest Standard\nMIL STD-810G"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "OTUS-U200",
+      "category": "isr_payloads",
+      "descriptor": "Two-axis gyro-stabilised midi-gimbal with EO/IR and MEMS IMU",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0009",
+          "line_start": 47,
+          "line_end": 49,
+          "url": "https://www.dst.se/otus-u200",
+          "page_class": "other",
+          "snippet": "OTUS-U200\n=========\n**TWO-AXIS** Gyro Stabilised Midi-gimbal"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0009",
+          "line_start": 60,
+          "line_end": 68,
+          "url": "https://www.dst.se/otus-u200",
+          "page_class": "other",
+          "snippet": "Axes\n2\nStabilisation\n75 \u00b5rad\nIP Class\nIP55\nTest Standard\nRTCA DO-160G (MIL STD-810G)\nWeight"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "OTUS-U170",
+      "category": "isr_payloads",
+      "descriptor": "Two-axis gyro-stabilised mini-gimbal with EO/IR and MEMS IMU",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0011",
+          "line_start": 47,
+          "line_end": 49,
+          "url": "https://www.dst.se/otus-u170",
+          "page_class": "other",
+          "snippet": "OTUS-U170\n=========\n**TWO-AXIS** Gyro Stabilised Mini-gimbal"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0011",
+          "line_start": 60,
+          "line_end": 68,
+          "url": "https://www.dst.se/otus-u170",
+          "page_class": "other",
+          "snippet": "Axes\n2\nStabilisation\n75 \u00b5rad\nIP Class\nIP55\nTest Standard\nRTCA DO-160G (MIL STD-810G)\nWeight"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "OTUS-U135",
+      "category": "isr_payloads",
+      "descriptor": "Two-axis gyro-stabilised micro-gimbal with EO/IR and MEMS IMU",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0008",
+          "line_start": 47,
+          "line_end": 49,
+          "url": "https://www.dst.se/otus-u135",
+          "page_class": "other",
+          "snippet": "OTUS-U135\n=========\n**TWO-AXIS** Gyro Stabilised Micro-gimbal"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0008",
+          "line_start": 60,
+          "line_end": 68,
+          "url": "https://www.dst.se/otus-u135",
+          "page_class": "other",
+          "snippet": "Axes\n2\nStabilisation\n75 \u00b5rad\nIP Class\nIP44\nTest Standard\nRTCA DO-160G (MIL STD-810G)\nWeight"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Multisight LR",
+      "category": "isr_payloads",
+      "descriptor": "Long-range multi-sensor ISR payload (details in downloadable datasheet)",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0019",
+          "line_start": 47,
+          "line_end": 49,
+          "url": "https://www.dst.se/multisight-lr",
+          "page_class": "other",
+          "snippet": "Multisight LR\n=============\n[Meerkat Multisensor Short 02.12.24](https://www.dst.se/wp-content/uploads/2024/12/Meerkat-Multisensor-Short-02.12.24.pdf)[Download](https://www.dst.se/wp-content/uploads/2024/12/Meerkat-Multisensor-Short-02.12.24.pdf)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Ground Control Interface",
+      "category": "ground_segment",
+      "descriptor": "Ground-side interface accessory for OTUS-U gimbal systems",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0009",
+          "line_start": 16,
+          "line_end": 17,
+          "url": "https://www.dst.se/hand-control-unit",
+          "page_class": "other",
+          "snippet": "        *   [Ground Control Interface](https://www.dst.se/ground-control-interface/)\n        *   [System Control Unit](https://www.dst.se/system-control-unit/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "System Control Unit",
+      "category": "ground_segment",
+      "descriptor": "Airborne/system control unit generating digital video stream for OTUS-U gimbals",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0019",
+          "line_start": 17,
+          "line_end": 17,
+          "url": "https://www.dst.se/products",
+          "page_class": "product",
+          "snippet": "        *   [System Control Unit](https://www.dst.se/system-control-unit/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0009",
+          "line_start": 53,
+          "line_end": 54,
+          "url": "https://www.dst.se/ground-control-interface",
+          "page_class": "capability",
+          "snippet": "purpose of the GCI is to decode the digital video stream\nfrom the SCU into a format (e.g. HDMI) compatible with more"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Hand Control Unit",
+      "category": "ground_segment",
+      "descriptor": "Handheld operator controller for OTUS-U gimbals",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0019",
+          "line_start": 15,
+          "line_end": 15,
+          "url": "https://www.dst.se/products",
+          "page_class": "product",
+          "snippet": "        *   [Hand Control Unit](https://www.dst.se/hand-control-unit/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0009",
+          "line_start": 67,
+          "line_end": 67,
+          "url": "https://www.dst.se/ground-control-interface",
+          "page_class": "capability",
+          "snippet": "\u2022 Compatible with the new digital HCU"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Gimbal Design",
+      "category": "isr_payloads",
+      "descriptor": "Custom gimbal design service or product offering (page not fetched)",
+      "granularity": "category",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0008",
+          "line_start": 7,
+          "line_end": 8,
+          "url": "https://www.dst.se/otus-u250",
+          "page_class": "other",
+          "snippet": "    *   [Gimbal Design](https://www.dst.se/gimbal-design/)\n    *   [OTUS-U135](https://www.dst.se/otus-u135/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "System Control Unit (SCU)",
+      "category": "ground_segment",
+      "descriptor": "Onboard gimbal processing unit with video streaming, tracking, and KLV metadata",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0010",
+          "line_start": 47,
+          "line_end": 50,
+          "url": "https://www.dst.se/system-control-unit",
+          "page_class": "other",
+          "snippet": "System Control Unit\n===================\nSCU\n==="
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0010",
+          "line_start": 51,
+          "line_end": 55,
+          "url": "https://www.dst.se/system-control-unit",
+          "page_class": "other",
+          "snippet": "The System Control Unit, SCU, is an optional component for\nthe installation on board the gimbal carrier. The SCU provides\na fully digital Ethernet based interface to the gimbal unit\nincluding a H.264 or H.265 video stream. The SCU also provides\nadvanced video tracking, target detection, image enhancement"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Hand Control Unit (HCU)",
+      "category": "ground_segment",
+      "descriptor": "Ruggedised handheld joystick/touchscreen controller for OTUS-U gimbal systems",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0009",
+          "line_start": 47,
+          "line_end": 49,
+          "url": "https://www.dst.se/hand-control-unit",
+          "page_class": "other",
+          "snippet": "Hand Control Unit\n=================\nHand Control Unit"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0009",
+          "line_start": 53,
+          "line_end": 53,
+          "url": "https://www.dst.se/hand-control-unit",
+          "page_class": "other",
+          "snippet": "The digital Hand Control Unit, HCU, is an optional component for handheld use on ground or in cramped environments such as manned aircraft cockpits. The purpose of the HCU is to"
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "Multisight LR: the fetched page (resource-0002) contains only a PDF download link with no prose description. Actual specs and readiness are unknown without fetching the datasheet.",
+    "Gimbal Design: page was skipped (status=skipped_budget, page_class=news). Could not determine whether it is an engineering-services offering, a product family, or a marketing page. Descriptor is speculative.",
+    "Ground Control Interface: page was skipped (status=skipped_budget, page_class=capability). Only located via navigation menus; no specs or description available."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.dst.se/gimbal-design",
+      "reason": "Page was skipped_budget; need content to determine whether Gimbal Design is an engineering service, product family, or SKU, and to fill descriptor/readiness/category.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=news",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.dst.se/ground-control-interface",
+      "reason": "Page was skipped_budget; need content to classify Ground Control Interface (specs, readiness, whether it is ground-segment hardware or software).",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=capability",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 21,
+    "total_cost_usd": 0.5409562499999999,
+    "created_at": "2026-05-04T02:00:18+00:00",
+    "extract_version": "0.1.0"
+  }
+}

@@ -1,0 +1,411 @@
+{
+  "target_id": "aerodata-ag",
+  "run_id": "canonical",
+  "display_name": "Aerodata AG",
+  "homepage_url": "https://www.aerodata.de",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/aerodata-ag/website",
+  "products": [
+    {
+      "name": "AeroFIS\u00ae",
+      "category": "test_and_measurement",
+      "descriptor": "Fully automated airborne flight inspection system for navigation system calibration and validation",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0020",
+          "line_start": 121,
+          "line_end": 124,
+          "url": "https://www.aerodata.de/en/flight-inspection",
+          "page_class": "product",
+          "snippet": "AeroFIS\u00ae\n--------\nFlight inspection with precision\nMaximum accuracy, integrity and reliable results - our AeroFIS\u00ae flight inspection system offers all of this. It is not only characterised by minimal personnel deployment and short flight times, but also offers numerous other advantages. Among other things, AeroFIS\u00ae can be used to create flight inspection reports during the flight."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "AeroFIS\u00ae Flybot",
+      "category": "airframes",
+      "descriptor": "Multicopter UAS equipped with flight inspection sensors for navigation system calibration",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0022",
+          "line_start": 102,
+          "line_end": 102,
+          "url": "https://www.aerodata.de/en/flight-inspection/aerofis-flybot",
+          "page_class": "other",
+          "snippet": "Our AeroFIS\u00ae Flybot is a small unmanned aircraft system (UAS) equipped with measuring devices and based on a multicopter. The AeroFIS\u00ae Flybot makes it possible to inspect navigation systems in a simple and cost-effective way."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "HeliFIS\u00ae",
+      "category": "test_and_measurement",
+      "descriptor": "Helicopter-based flight inspection system built on AeroFIS\u00ae hardware modules",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0020",
+          "line_start": 146,
+          "line_end": 149,
+          "url": "https://www.aerodata.de/en/flight-inspection",
+          "page_class": "product",
+          "snippet": "HeliFIS\u00ae\n--------\nThe efficient solution for helicopters\nIt is important to us to make our solutions as flexible as possible to enable versatile use. This is why Aerodata has developed HeliFIS\u00ae, an efficient solution for helicopters. The system is based on the AeroFIS\u00ae hardware modules and enables flight inspection services to be carried out with helicopters."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "AeroMission\u00ae",
+      "category": "ground_segment",
+      "descriptor": "Modular airborne mission management system integrating sensors, effectors and comms for surveillance",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0021",
+          "line_start": 102,
+          "line_end": 103,
+          "url": "https://www.aerodata.de/en/surveillance/aeromission",
+          "page_class": "other",
+          "snippet": "AeroMission\u00ae, our integrated mission management system, is the solution for all airborne surveillance and reconnaissance scenarios.\nThe biggest advantage: the system is **modular** and can be **configured** according to **customer requirements**. Extensions and **adaptations** to the system are possible at any time on the basis of the modular approach."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "AeroForce\u00ae X",
+      "category": "airframes",
+      "descriptor": "MALE UAS for maritime surveillance and reconnaissance, ITAR-free, up to 40 h endurance",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0036",
+          "line_start": 102,
+          "line_end": 104,
+          "url": "https://www.aerodata.de/en/surveillance/aeroforce-x",
+          "page_class": "other",
+          "snippet": "With AeroForce\u00ae X, we offer an innovative, tailor-made complete solution that meets the growing demands in the field of intelligent surveillance and reconnaissance (ISR).\nThe modular concept of our MALE UAS enables an adaptable design for a wide range of maritime surveillance scenarios.\nThe platform is ITAR-free, which means it can be used in international missions without US restrictions."
+        }
+      ],
+      "notes": "Page explicitly states ITAR-free but no NDAA claim; hence not_disclosed."
+    },
+    {
+      "name": "Prometheon",
+      "category": "ground_segment",
+      "descriptor": "Multi-domain information management system for real-time surveillance and reconnaissance C2",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0019",
+          "line_start": 137,
+          "line_end": 138,
+          "url": "https://www.aerodata.de/en/surveillance/prometheon",
+          "page_class": "other",
+          "snippet": "Prometheon \u2013\nMulti-Domain Information Management System"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "OctoPod",
+      "category": "isr_payloads",
+      "descriptor": "Belly-mounted multi-sensor pod for airborne maritime surveillance, up to eight sensors",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0018",
+          "line_start": 102,
+          "line_end": 103,
+          "url": "https://www.aerodata.de/en/surveillance/octopod",
+          "page_class": "other",
+          "snippet": "The OctoPod is our integrated package solution for the external installation of various monitoring sensors on the aircraft.\nIt is mounted underneath an aircraft fuselage and enables multi-sensor-based maritime surveillance missions from the air with minimal space requirements in the cabin and little effort for aircraft modification."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "AD-PBN Flight Validation System",
+      "category": "test_and_measurement",
+      "descriptor": "Airborne Performance Based Navigation flight validation system",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0036",
+          "line_start": 202,
+          "line_end": 205,
+          "url": "https://www.aerodata.de/en/flight-inspection",
+          "page_class": "product",
+          "snippet": "AD-PBN - Flight\nValidation System\nPDF, 3.9 MB\n[download now](/fileadmin/MEDIA/flight-inspection/downloads/2025_FIS_PBN_Flyer.pdf)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "AD-RIA Radar Inspection & Analysis",
+      "category": "test_and_measurement",
+      "descriptor": "Airborne radar inspection and analysis system",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0036",
+          "line_start": 206,
+          "line_end": 209,
+          "url": "https://www.aerodata.de/en/flight-inspection",
+          "page_class": "product",
+          "snippet": "AD-RIA - Radar\nInspection & Analysis\nPDF, 4.6 MB\n[download now](/fileadmin/MEDIA/flight-inspection/downloads/2025_FIS_RIA_Flyer.pdf)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "AD-DLGS Data Downlink Ground Station",
+      "category": "ground_segment",
+      "descriptor": "Ground station for downlinking data from airborne flight inspection systems",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0036",
+          "line_start": 210,
+          "line_end": 213,
+          "url": "https://www.aerodata.de/en/flight-inspection",
+          "page_class": "product",
+          "snippet": "AD-DLGS - Data Downlink\nGround Station\nPDF, 3.3 MB\n[download now](/fileadmin/MEDIA/flight-inspection/downloads/2025_FIS_DLGS_Flyer.pdf)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "MEDUSA\u00ae",
+      "category": "ground_segment",
+      "descriptor": "Airborne mission system for maritime surveillance, used with the OctoPod sensor pod",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0018",
+          "line_start": 104,
+          "line_end": 104,
+          "url": "https://www.aerodata.de/en/surveillance/octopod",
+          "page_class": "other",
+          "snippet": "The OctoPod is used in conjunction with our AeroMission and MEDUSA\u00ae mission systems."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0018",
+          "line_start": 118,
+          "line_end": 118,
+          "url": "https://www.aerodata.de/en/surveillance/octopod",
+          "page_class": "other",
+          "snippet": "Full mission system integration with AeroMission\u00ae & MEDUSA\u00ae"
+        }
+      ],
+      "notes": "Only briefly mentioned on the OctoPod page; no dedicated product page was fetched. Readiness and detail unknown."
+    },
+    {
+      "name": "OPTIMARE SLAR",
+      "category": "isr_payloads",
+      "descriptor": "X-band side-looking airborne radar for day/night maritime observation and oil spill mapping",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0018",
+          "line_start": 128,
+          "line_end": 129,
+          "url": "https://www.aerodata.de/en/surveillance/octopod",
+          "page_class": "other",
+          "snippet": "##### 4\\. Side-Looking Airborne Radar (SLAR)\nThe OPTIMARE SLAR is a cloud-penetrating imaging X-band radar for day & night airborne maritime observation. It is used for mapping the sea surface with regard to oil spills, vessels, wakes and many more. The lightweight SLAR with its outstanding performance and its unique ultra-thin antenna design is the SLAR solution of choice."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "IR/UV Line Scanner",
+      "category": "isr_payloads",
+      "descriptor": "Airborne IR/UV sensor for oil spill monitoring and relative oil thickness visualization",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0018",
+          "line_start": 130,
+          "line_end": 131,
+          "url": "https://www.aerodata.de/en/surveillance/octopod",
+          "page_class": "other",
+          "snippet": "##### 5\\. IR/UV Line Scanner\nThe IR/UV Line Scanner is a standard sensor for airborne oil spill monitoring. It is capable of visualizing relative oil thickness. The OPTIMARE IR/UV Line Scanner is characterized by a unique optical design, an excellent maintainability and a broad operating temperature range."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "VIS Line Scanner",
+      "category": "isr_payloads",
+      "descriptor": "Ruggedized visible-wavelength (400\u2013675 nm) airborne remote sensor for geo-referenced RGB maritime imagery",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0018",
+          "line_start": 132,
+          "line_end": 133,
+          "url": "https://www.aerodata.de/en/surveillance/octopod",
+          "page_class": "other",
+          "snippet": "##### 6\\. VIS Line Scanner\nThe OPTIMARE VIS Line Scanner is a ruggedized, lightweight remote sensor operating at visible wavelengths (400 to 675 nanometres). In maritime surveillance, the system is used for acquisition of highly resolved geo-referenced Red/Green/Blue composite images. These images can be used for documentation and for supporting volume estimations based on oil appearance codes."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "LFS-P Laser Fluorosensor",
+      "category": "isr_payloads",
+      "descriptor": "Fourth-generation compact nadir-looking airborne laser fluorosensor for day/night oil spill classification",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0018",
+          "line_start": 134,
+          "line_end": 134,
+          "url": "https://www.aerodata.de/en/surveillance/octopod",
+          "page_class": "other",
+          "snippet": "##### 7\\. Laser Fluorosensor (LFS-P)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0018",
+          "line_start": 152,
+          "line_end": 152,
+          "url": "https://www.aerodata.de/en/surveillance/octopod",
+          "page_class": "other",
+          "snippet": "LFS-P Laser Fluorosensor"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "MWR-P Microwave Radiometer",
+      "category": "isr_payloads",
+      "descriptor": "Third-generation airborne microwave radiometer for oil spill thickness distribution and volume analysis",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0018",
+          "line_start": 136,
+          "line_end": 137,
+          "url": "https://www.aerodata.de/en/surveillance/octopod",
+          "page_class": "other",
+          "snippet": "##### 8\\. Microwave Radiometer (MWR-P)\nThe OPTIMARE MWR-P is OPTIMARE\u2019s third generation microwave radiometer for airborne analysis of oil spills in terms of thickness distribution and volume. Two decades of experience in microwave radiometry enabled OPTIMARE to develop a microwave radiometer with roughly one-half in volume and weight compared to its predecessor."
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "MEDUSA\u00ae appears only as a brief mention on the OctoPod page (lines 104, 118 of resource-0005); no dedicated product page was fetched and its readiness/full description is unknown.",
+    "Dedicated AeroFIS\u00ae page was skipped \u2014 additional specs, compliance claims, or sub-variants may exist.",
+    "Dedicated HeliFIS\u00ae page was skipped \u2014 additional specs and sub-variants may exist.",
+    "OPTIMARE SLAR, LFS-P, IR/UV Line Scanner, VIS Line Scanner, and MWR-P Microwave Radiometer are Optimare-subsidiary products described only on the OctoPod page; individual product pages may contain more detail and compliance claims."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.aerodata.de/en/flight-inspection/aerofis",
+      "reason": "Dedicated AeroFIS\u00ae product page was skipped; would confirm full feature set, variants, compliance claims, and readiness for the world-market-leading flight inspection system.",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "ndaa"
+      ],
+      "source_hint": "manifest.json line 575, status skipped",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.aerodata.de/en/flight-inspection/helifis",
+      "reason": "Dedicated HeliFIS\u00ae product page was skipped; would provide full specs, variants, and any compliance claims for the helicopter flight inspection system.",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "ndaa"
+      ],
+      "source_hint": "manifest.json line 620, status skipped",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.aerodata.de/en/surveillance/",
+      "reason": "Surveillance category page may describe MEDUSA\u00ae in more detail as a distinct mission system product alongside AeroMission\u00ae.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "linked from product pages nav menu",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 0,
+    "total_cost_usd": null,
+    "created_at": "2026-05-03T20:57:36+00:00",
+    "extract_version": "0.1.0"
+  }
+}

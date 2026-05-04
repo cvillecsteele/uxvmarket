@@ -1,0 +1,261 @@
+{
+  "target_id": "pierce-aerospace",
+  "run_id": "canonical",
+  "display_name": "Pierce Aerospace",
+  "homepage_url": "https://www.pierceaerospace.net",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/pierce-aerospace/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "communications",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 55,
+            "line_end": 55,
+            "url": "https://www.pierceaerospace.net",
+            "page_class": "homepage",
+            "snippet": "Upcoming FAA regulations require Remote Identification of UAS weighing from .55 - 55lbs and UAS operating under Part 107 regulations. Pierce Aerospace offers Remote ID Beacons, Sensors, Services, and Remote ID integrations for UAS OEMs, C-UAS, C2, and UTM providers. Solutions are available for consumer, enterprise, and government stakeholders."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0120",
+            "line_start": 71,
+            "line_end": 72,
+            "url": "https://www.pierceaerospace.net/products/b1-remote-id-beacon",
+            "page_class": "product",
+            "snippet": "The B1 Remote ID beacon offers the best in class performance to meet the FAA's Remote Identification requirements.\n[The B1 is the only Remote ID module approved for DIU's Blue UAS Framework.](https://www.diu.mil/blue-uas/framework)"
+          }
+        ],
+        "notes": "B1 Remote ID Beacon is a radio transmitter module that broadcasts drone identity/position per FAA Remote ID regulations \u2014 a communications device for UAS."
+      },
+      {
+        "category": "ground_segment",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0129",
+            "line_start": 60,
+            "line_end": 60,
+            "url": "https://www.pierceaerospace.net/products/yr1",
+            "page_class": "product",
+            "snippet": "The YR1 Remote ID Sensor is the next generation in Remote ID Sensor technology. The YR1 is available for commercial and government customers at the federal, state, local, tribal, and territorial levels."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0129",
+            "line_start": 61,
+            "line_end": 61,
+            "url": "https://www.pierceaerospace.net/products/yr1",
+            "page_class": "product",
+            "snippet": "The YR1 provides high performance Remote ID signal detection for affordable airspace awareness. The YR1 enhances airspace awareness at airports, stadiums, concert halls, corporate offices, VIP details, and more. Multiple YR1's can be networked together for scaling wide area coverage, including monitoring of entire cities."
+          }
+        ],
+        "notes": "YR1 Remote ID Sensor is a ground-based airspace awareness and monitoring system that detects Remote ID broadcasts from drones."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Fishers",
+      "state_or_province": "Indiana",
+      "country": "United States",
+      "address": "9059 Technology Ln. Fishers, IN 46038"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0112",
+        "line_start": 56,
+        "line_end": 57,
+        "url": "https://www.pierceaerospace.net/pages/contact",
+        "page_class": "contact",
+        "snippet": "Pierce Aerospace Inc.\n9059 Technology Ln. Fishers, IN 46038"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 55,
+        "line_end": 55,
+        "url": "https://www.pierceaerospace.net",
+        "page_class": "homepage",
+        "snippet": "Upcoming FAA regulations require Remote Identification of UAS weighing from .55 - 55lbs and UAS operating under Part 107 regulations. Pierce Aerospace offers Remote ID Beacons, Sensors, Services, and Remote ID integrations for UAS OEMs, C-UAS, C2, and UTM providers. Solutions are available for consumer, enterprise, and government stakeholders."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0120",
+        "line_start": 101,
+        "line_end": 101,
+        "url": "https://www.pierceaerospace.net/products/b1-remote-id-beacon",
+        "page_class": "product",
+        "snippet": "Pierce Aerospace has led Remote ID technology development since 2017 and first fielded Remote ID in United States military experiments in 2018. The B1 is built on that lineage, making it the premier choice for government, commercial fleets, and public safety operators. The B1 is now available to anyone."
+      }
+    ],
+    "notes": "Sells hardware modules (B1 beacon, YR1 sensor) that attach to or work alongside drones; also provides Remote ID network services (Flight Portal ID)."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "B1 Remote ID Beacon",
+        "product_type": "UAS Remote ID beacon/transmitter module",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0120",
+            "line_start": 67,
+            "line_end": 69,
+            "url": "https://www.pierceaerospace.net/products/b1-remote-id-beacon",
+            "page_class": "product",
+            "snippet": "B1 Remote ID Beacon\n===================\nSale price$284.95 Regular price(/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "YR1 Remote ID Sensor",
+        "product_type": "Ground-based Remote ID detection sensor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0129",
+            "line_start": 57,
+            "line_end": 57,
+            "url": "https://www.pierceaerospace.net/products/yr1",
+            "page_class": "product",
+            "snippet": "YR1 Remote ID Sensor"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Flight Portal ID",
+        "product_type": "Remote ID network/software platform",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0129",
+            "line_start": 68,
+            "line_end": 69,
+            "url": "https://www.pierceaerospace.net/products/yr1",
+            "page_class": "product",
+            "snippet": "*   Compatible with the Flight Portal ID Network\n*   Compatible with Flight Portal ID Applications"
+          }
+        ],
+        "notes": "Referenced as a network and application platform compatible with YR1; no dedicated product page in corpus."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": "yes",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0059",
+        "line_start": 60,
+        "line_end": 60,
+        "url": "https://www.pierceaerospace.net/blogs/news/pierce-aerospace-b1-remote-id-beacon-selected-for-to-diu-s-blue-uas-framework",
+        "page_class": "compliance",
+        "snippet": "The [Blue UAS Framework](https://www.diu.mil/blue-uas/framework) is a list of Interoperable, NDAA-compliant UAS components and software that provide options for Government and industry partners. The Framework provides advanced capabilities to sUAS developers and reduces risk for government customers. It includes critical components, sub-components, modules & software."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0120",
+        "line_start": 72,
+        "line_end": 72,
+        "url": "https://www.pierceaerospace.net/products/b1-remote-id-beacon",
+        "page_class": "product",
+        "snippet": "[The B1 is the only Remote ID module approved for DIU's Blue UAS Framework.](https://www.diu.mil/blue-uas/framework)"
+      }
+    ],
+    "notes": "NDAA compliance is implied through Blue UAS Framework approval \u2014 the framework is explicitly described as requiring NDAA verification. No standalone direct NDAA 848/889 claim on site."
+  },
+  "blue_uas": {
+    "value": "yes",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0120",
+        "line_start": 72,
+        "line_end": 72,
+        "url": "https://www.pierceaerospace.net/products/b1-remote-id-beacon",
+        "page_class": "product",
+        "snippet": "[The B1 is the only Remote ID module approved for DIU's Blue UAS Framework.](https://www.diu.mil/blue-uas/framework)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0059",
+        "line_start": 49,
+        "line_end": 49,
+        "url": "https://www.pierceaerospace.net/blogs/news/pierce-aerospace-b1-remote-id-beacon-selected-for-to-diu-s-blue-uas-framework",
+        "page_class": "compliance",
+        "snippet": "Pierce Aerospace B1 Remote ID Beacon Selected for to DIU\u2019s Blue UAS Framework"
+      }
+    ],
+    "notes": "B1 is explicitly stated to be the only Remote ID module approved for DIU's Blue UAS Framework; dedicated news article from March 2025 confirms the selection."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0120",
+        "line_start": 88,
+        "line_end": 88,
+        "url": "https://www.pierceaerospace.net/products/b1-remote-id-beacon",
+        "page_class": "product",
+        "snippet": "**Every B1 Beacon is inspected and test flown prior to delivery to customers.**"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0129",
+        "line_start": 74,
+        "line_end": 74,
+        "url": "https://www.pierceaerospace.net/products/yr1",
+        "page_class": "product",
+        "snippet": "Available today."
+      }
+    ],
+    "notes": "B1 sold at listed price ($284.95), inspected and test-flown before delivery; YR1 listed as 'Available today'; government sole-source contracts in place for both products."
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Manufactures FAA-compliant Remote ID beacons (B1), detection sensors (YR1), and airspace-monitoring software (Flight Portal ID) for UAS across consumer, enterprise, and defense segments. Blue UAS Framework approved; NDAA compliant. Primary customers span DoD, DHS, and commercial operators. Public record thin on specific production volumes or current program engagements beyond homepage logos.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 14,
+    "total_cost_usd": 0.38593410000000006,
+    "created_at": "2026-05-04T05:13:24+00:00",
+    "extract_version": "0.1.0"
+  }
+}

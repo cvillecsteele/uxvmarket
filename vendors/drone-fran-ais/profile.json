@@ -1,0 +1,298 @@
+{
+  "target_id": "drone-fran-ais",
+  "run_id": "canonical",
+  "display_name": "Drone Fran\u00e7ais",
+  "homepage_url": "https://dronefrancais.fr/en/",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/drone-fran-ais/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "propulsion_electronics",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0073",
+            "line_start": 12,
+            "line_end": 12,
+            "url": "https://dronefrancais.fr/en/esc-drone-la-nouvelle-version-de-centurion",
+            "page_class": "news",
+            "snippet": "ESC drone: the new version of Centurion!"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0073",
+            "line_start": 17,
+            "line_end": 17,
+            "url": "https://dronefrancais.fr/en/esc-drone-la-nouvelle-version-de-centurion",
+            "page_class": "news",
+            "snippet": "With the release of [**version 2 of ESC Centurion**](https://dronefrancais.fr/en/produit/esc-centurionv2-4en1-3-a-6s-65a/)the [**Drone Fran\u00e7ais**](https://dronefrancais.fr/en/) confirms its ambition to build a **sovereign**, high-performance **industry** tailored to the needs of integrators. More powerful, better protected, and still **100% made in France**, this new version is aimed at those who want to combine technological independence, industrial robustness and optimized performance."
+          }
+        ],
+        "notes": "ESC Centurion v2 is 4-in-1 Electronic Speed Controller for drones, 100% made in France"
+      },
+      {
+        "category": "flight_and_vehicle_control",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0073",
+            "line_start": 20,
+            "line_end": 20,
+            "url": "https://dronefrancais.fr/en/esc-drone-la-nouvelle-version-de-centurion",
+            "page_class": "news",
+            "snippet": "An **[ESC](https://dronefrancais.fr/en/produit/esc-centurionv2-4en1-3-a-6s-65a/) (Electronic Speed Controller)** is an electronic component that controls the speed of a drone's brushless motors. It receives instructions from the [**flight controller**](https://dronefrancais.fr/en/produit/carte-de-vol/) (flight controller), then modulates the intensity of the current transmitted to each motor. It ensures flight stability, agile maneuvering and responsiveness, even in demanding environments or in the face of sudden load variations."
+          }
+        ],
+        "notes": "Carte de vol (flight controller / Abell) sold in store; multiple articles about Abell flight controller in crawl_index"
+      },
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": false,
+        "confidence": "low",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0061",
+            "line_start": 45,
+            "line_end": 46,
+            "url": "https://dronefrancais.fr/en/ctg/articles",
+            "page_class": "news",
+            "snippet": "*   [Electronic components](https://dronefrancais.fr/en/categorie-produit/composants-drone/)\n*   [Drones](https://dronefrancais.fr/en/categorie-produit/drones/)"
+          }
+        ],
+        "notes": "GPS product listed in store (skipped product page in crawl_index)"
+      },
+      {
+        "category": "airframes",
+        "is_primary": false,
+        "confidence": "low",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0061",
+            "line_start": 46,
+            "line_end": 46,
+            "url": "https://dronefrancais.fr/en/ctg/articles",
+            "page_class": "news",
+            "snippet": "*   [Drones](https://dronefrancais.fr/en/categorie-produit/drones/)"
+          }
+        ],
+        "notes": "Drone product category in store; drone-fpv-uriel and drone-side product pages in crawl_index (skipped)"
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "N\u00e9ville",
+      "state_or_province": null,
+      "country": "France",
+      "address": "14B Rue de l'Eglise, 76460 N\u00e9ville"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0081",
+        "line_start": 20,
+        "line_end": 20,
+        "url": "https://dronefrancais.fr/en/mentions-legales",
+        "page_class": "company",
+        "snippet": "The Site is published by DRONE FRANCAIS SAS with a capital of 1000 euros, registered in the Rouen Trade and Companies Register under the number 930702246, whose head office is located at 14B Rue de l'Eglise 76460 N\u00e9ville,"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0058",
+        "line_start": 12,
+        "line_end": 12,
+        "url": "https://dronefrancais.fr/en/contact",
+        "page_class": "contact",
+        "snippet": "Custom development and design of electronic parts for UAVs, tailored to your needs"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0073",
+        "line_start": 17,
+        "line_end": 17,
+        "url": "https://dronefrancais.fr/en/esc-drone-la-nouvelle-version-de-centurion",
+        "page_class": "news",
+        "snippet": "With the release of [**version 2 of ESC Centurion**](https://dronefrancais.fr/en/produit/esc-centurionv2-4en1-3-a-6s-65a/)the [**Drone Fran\u00e7ais**](https://dronefrancais.fr/en/) confirms its ambition to build a **sovereign**, high-performance **industry** tailored to the needs of integrators. More powerful, better protected, and still **100% made in France**, this new version is aimed at those who want to combine technological independence, industrial robustness and optimized performance."
+      }
+    ],
+    "notes": "Designs and manufactures drone electronic components (ESC, flight controller, GPS) sold to integrators and drone builders; also sells complete drones in store (Uriel FPV, Drone Side)"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "ESC Centurion v2",
+        "product_type": "4-in-1 Electronic Speed Controller (ESC) for drones, 3-6S LiPo, 65A continuous",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0073",
+            "line_start": 17,
+            "line_end": 17,
+            "url": "https://dronefrancais.fr/en/esc-drone-la-nouvelle-version-de-centurion",
+            "page_class": "news",
+            "snippet": "With the release of [**version 2 of ESC Centurion**](https://dronefrancais.fr/en/produit/esc-centurionv2-4en1-3-a-6s-65a/)the [**Drone Fran\u00e7ais**](https://dronefrancais.fr/en/) confirms its ambition to build a **sovereign**, high-performance **industry** tailored to the needs of integrators. More powerful, better protected, and still **100% made in France**, this new version is aimed at those who want to combine technological independence, industrial robustness and optimized performance."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0073",
+            "line_start": 56,
+            "line_end": 56,
+            "url": "https://dronefrancais.fr/en/esc-drone-la-nouvelle-version-de-centurion",
+            "page_class": "news",
+            "snippet": "[ESC Centurion v2](https://dronefrancais.fr/en/produit/esc-centurionv2-4en1-3-a-6s-65a/) is more than just a technical update: it's a concrete response to the needs of demanding drone professionals, concerned with performance, reliability and technological independence."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Carte de vol (flight controller)",
+        "product_type": "Drone flight controller, Made in France",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0073",
+            "line_start": 20,
+            "line_end": 20,
+            "url": "https://dronefrancais.fr/en/esc-drone-la-nouvelle-version-de-centurion",
+            "page_class": "news",
+            "snippet": "An **[ESC](https://dronefrancais.fr/en/produit/esc-centurionv2-4en1-3-a-6s-65a/) (Electronic Speed Controller)** is an electronic component that controls the speed of a drone's brushless motors. It receives instructions from the [**flight controller**](https://dronefrancais.fr/en/produit/carte-de-vol/) (flight controller), then modulates the intensity of the current transmitted to each motor. It ensures flight stability, agile maneuvering and responsiveness, even in demanding environments or in the face of sudden load variations."
+          }
+        ],
+        "notes": "Referenced in ESC article; also Abell is the product name per article URLs in crawl_index"
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Store and design office pages were skipped; additional products (Abell flight controller, GPS, Uriel FPV drone, Drone Side, LED panel) inferred from crawl_index product URLs"
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0073",
+        "line_start": 55,
+        "line_end": 55,
+        "url": "https://dronefrancais.fr/en/esc-drone-la-nouvelle-version-de-centurion",
+        "page_class": "news",
+        "snippet": "With local production, rigorous quality control, French-speaking technical support, and complete transparency of the supply chain, this component is part of a strategic dynamic."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0073",
+        "line_start": 57,
+        "line_end": 57,
+        "url": "https://dronefrancais.fr/en/esc-drone-la-nouvelle-version-de-centurion",
+        "page_class": "news",
+        "snippet": "[**Drone Fran\u00e7ais**](https://dronefrancais.fr/en/) demonstrates that **sovereign innovation is possible**, even in a field as competitive as on-board electronics for drones. More powerful, more robust, better protected, the Centurion v2 is aimed at all integrators, designers and manufacturers who want to make the **Made in France** choice without compromising on quality."
+      }
+    ],
+    "notes": "Products available in online store with ordering; claims local production and 100% made in France"
+  },
+  "unresolved_questions": [
+    "Full product catalog not confirmed (store page skipped)",
+    "Abell flight controller product details not confirmed (product page skipped)",
+    "Complete drone platforms (Uriel FPV, Drone Side) not confirmed from fetched pages"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://dronefrancais.fr/en/boutique",
+      "reason": "Store listing page would confirm all product SKUs and distinguish component vs complete drone products",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://dronefrancais.fr/en/bureaudetude",
+      "reason": "Design office page would confirm engineering services scope and clarify whether component supplier or integrator role",
+      "expected_evidence": [
+        "drone_supply_chain_role",
+        "readiness",
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://dronefrancais.fr/en/produit/carte-de-vol",
+      "reason": "Flight controller product page would confirm Abell product name, specifications, and flight_and_vehicle_control category",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://dronefrancais.fr/en/produit/drone-fpv-uriel",
+      "reason": "FPV drone product page would confirm whether they sell complete airframes (would upgrade airframes to medium confidence)",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://dronefrancais.fr/en/carte-de-vol-abell-nouveau-produit-made-in-france",
+      "reason": "Article about Abell flight controller launch would confirm product name and specifications",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=news",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "tagline": "French-based supplier of integrated propulsion and flight-control electronics for small unmanned systems, including the ESC Centurion v2 (4-in-1, 65A continuous) and Carte de vol flight controller. Production-ready. NDAA compliance and Blue UAS certification status not publicly disclosed; limited open-source evidence of US prime integration or contract wins.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 14,
+    "total_cost_usd": 0.35516195,
+    "created_at": "2026-05-04T01:48:28+00:00",
+    "extract_version": "0.1.0"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "target_id": "aero-systems-west",
+  "run_id": "canonical",
+  "display_name": "Aero Systems West",
+  "homepage_url": "https://www.aero-systems-west.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/aero-systems-west/website",
+  "products_categories": {
+    "items": [],
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "notes": "Entire corpus failed to fetch \u2014 ERR_TUNNEL_CONNECTION_FAILED on homepage. Category tag 'recovery_systems' from source catalog only; no fetched pages to cite."
+  },
+  "headquarters": {
+    "value": null,
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "evidence": [],
+    "notes": "No pages were fetched; cannot determine headquarters."
+  },
+  "drone_supply_chain_role": {
+    "value": null,
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "evidence": [],
+    "notes": "No pages were fetched; cannot determine supply chain role."
+  },
+  "products": {
+    "items": [],
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "notes": "No pages were fetched; no product information available."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No pages were fetched."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No pages were fetched."
+  },
+  "readiness": {
+    "value": null,
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "evidence": [],
+    "notes": "No pages were fetched; cannot determine readiness."
+  },
+  "unresolved_questions": [
+    "Homepage failed with ERR_TUNNEL_CONNECTION_FAILED \u2014 entire site unreachable during mirror run.",
+    "Cannot determine products, headquarters, supply chain role, readiness, NDAA, or Blue UAS status.",
+    "Source catalog tag suggests recovery_systems but no evidence to confirm."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.aero-systems-west.com",
+      "reason": "Homepage failed with net::ERR_TUNNEL_CONNECTION_FAILED. Re-fetching would establish all baseline fields: products, categories, headquarters, supply chain role, readiness.",
+      "expected_evidence": [
+        "products_categories",
+        "headquarters",
+        "drone_supply_chain_role",
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=failed, page_class=homepage, resource_id=resource-0001",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.aero-systems-west.com/products",
+      "reason": "Would list specific products and confirm or refute recovery_systems category and supply chain role.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role",
+        "readiness"
+      ],
+      "source_hint": "guessed standard path",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.aero-systems-west.com/about",
+      "reason": "Would provide headquarters, company overview, and supply chain role context.",
+      "expected_evidence": [
+        "headquarters",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "guessed standard path",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.aero-systems-west.com/contact",
+      "reason": "Would provide physical address and headquarters location.",
+      "expected_evidence": [
+        "headquarters"
+      ],
+      "source_hint": "guessed standard path",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "needs_more_fetches",
+  "tagline": "Public evidence on this vendor is thin. No confirmed products, contracts, or certifications (NDAA, Blue UAS) are documented. Headquarters location and primary business role remain unclear. Recommend direct inquiry to establish current operational status and capability claims.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 5,
+    "total_cost_usd": 0.0886911,
+    "created_at": "2026-05-03T20:43:40+00:00",
+    "extract_version": "0.1.0"
+  }
+}

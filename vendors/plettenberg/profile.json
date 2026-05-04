@@ -1,0 +1,116 @@
+{
+  "target_id": "plettenberg",
+  "run_id": "canonical",
+  "display_name": "Plettenberg",
+  "homepage_url": "https://www.plettenbergmotors.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/plettenberg/website",
+  "products_categories": {
+    "items": [],
+    "confidence": "low",
+    "status": "unknown",
+    "notes": "All crawl attempts failed (Connection refused on homepage). External seed metadata indicates Electric Motors and Motor Controllers (Powertrain), suggesting propulsion_mechanical and propulsion_electronics, but no corpus text exists to cite."
+  },
+  "headquarters": {
+    "value": null,
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "evidence": [],
+    "notes": "No pages fetched; homepage connection refused. Plettenberg Elektromotoren is known to be based in Germany but no corpus citation is available."
+  },
+  "drone_supply_chain_role": {
+    "value": null,
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "evidence": [],
+    "notes": "No corpus text available. Seed metadata flags Electric Motors and Motor Controllers (Powertrain category), consistent with component_supplier role, but no citation possible."
+  },
+  "products": {
+    "items": [],
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "notes": "Zero pages fetched; no product names citable from corpus."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": null,
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "evidence": [],
+    "notes": null
+  },
+  "unresolved_questions": [
+    "Homepage failed with Connection refused \u2014 site may be temporarily down or domain changed",
+    "Headquarters city/country unknown (Germany suspected but uncited)",
+    "Product line and SKUs unknown \u2014 electric motors and ESCs suspected from seed metadata",
+    "NDAA/Blue UAS compliance unknown",
+    "Manufacturing readiness level unknown"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.plettenbergmotors.com",
+      "reason": "Homepage failed with Connection refused; retrying would yield company overview, product categories, headquarters, and supply chain role evidence",
+      "expected_evidence": [
+        "products_categories",
+        "headquarters",
+        "drone_supply_chain_role",
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=failed, page_class=homepage",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.plettenbergmotors.com/products",
+      "reason": "Would list specific motor and ESC SKUs, confirming product line and propulsion_mechanical/propulsion_electronics categories",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role",
+        "readiness"
+      ],
+      "source_hint": "guessed",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.plettenbergmotors.com/about",
+      "reason": "Would confirm headquarters location (city/country) and company background",
+      "expected_evidence": [
+        "headquarters",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "guessed",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.plettenbergmotors.com/contact",
+      "reason": "Would provide headquarters address/city/country for the company",
+      "expected_evidence": [
+        "headquarters"
+      ],
+      "source_hint": "guessed",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "needs_more_fetches",
+  "tagline": "German manufacturer of electric motors and propulsion systems for unmanned aircraft; primary market appears to be commercial and international defense applications. Public evidence on US defense contracts, NDAA compliance status, and specific platform integrations is sparse; company visibility in US supply-chain documentation is minimal.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 4,
+    "total_cost_usd": 0.08025384999999999,
+    "created_at": "2026-05-04T05:19:07+00:00",
+    "extract_version": "0.1.0"
+  }
+}

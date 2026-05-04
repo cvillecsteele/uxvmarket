@@ -1,0 +1,269 @@
+{
+  "target_id": "decavo",
+  "run_id": "canonical",
+  "display_name": "Decavo",
+  "homepage_url": "https://www.decavo.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/decavo/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "structures_and_materials",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 54,
+            "line_end": 54,
+            "url": "https://www.decavo.com",
+            "page_class": "homepage",
+            "snippet": "##### Decavo specializes in state-of-the-art composite engineering and manufacturing. We're here to meet your business needs, from initial concept to full production."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0028",
+            "line_start": 53,
+            "line_end": 53,
+            "url": "https://www.decavo.com/solutions",
+            "page_class": "capability",
+            "snippet": "Our integrated design, engineering and manufacturing expertise allows us to offer price-competitive composite solutions for a wide range of industries. Whether using carbon fiber, fiberglass or aramid materials, we create state of the art components that combine functionality, price and style. And we do it with our signature responsiveness and superior customer service."
+          }
+        ],
+        "notes": "Decavo specializes in carbon fiber, fiberglass and aramid composite engineering and manufacturing for aerospace, medical, industrial, and specialty markets."
+      },
+      {
+        "category": "mechanical_subsystems",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 11,
+            "line_end": 12,
+            "url": "https://www.decavo.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Camera Housings](/camera-housings)\n        *   [EMI Enclosures](/emi-enclosures)"
+          }
+        ],
+        "notes": "Makes camera housings and EMI enclosures as composite product lines for aerospace customers."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "The /aerospace, /composite-assemblies, /camera-housings, /emi-enclosures pages were skipped; those would refine sub-category coverage."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Hood River",
+      "state_or_province": "Oregon",
+      "country": "United States",
+      "address": "489 N 8th Street, Suite 205"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0007",
+        "line_start": 60,
+        "line_end": 61,
+        "url": "https://www.decavo.com/Contact",
+        "page_class": "contact",
+        "snippet": "489 N 8th Street, Suite 205\nHood River, OR 97031"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 54,
+        "line_end": 54,
+        "url": "https://www.decavo.com",
+        "page_class": "homepage",
+        "snippet": "##### Decavo specializes in state-of-the-art composite engineering and manufacturing. We're here to meet your business needs, from initial concept to full production."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0028",
+        "line_start": 53,
+        "line_end": 53,
+        "url": "https://www.decavo.com/solutions",
+        "page_class": "capability",
+        "snippet": "Our integrated design, engineering and manufacturing expertise allows us to offer price-competitive composite solutions for a wide range of industries. Whether using carbon fiber, fiberglass or aramid materials, we create state of the art components that combine functionality, price and style. And we do it with our signature responsiveness and superior customer service."
+      }
+    ],
+    "notes": "Decavo makes custom composite parts (assemblies, camera housings, EMI enclosures) for aerospace/UAS customers. The site does not explicitly say 'drone' or 'UAV' but appears in the UST UAS industry directory under composites/structural systems. Component supplier is the best fit."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Composite Assemblies",
+        "product_type": "aerospace composite structural assemblies",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 10,
+            "line_end": 10,
+            "url": "https://www.decavo.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Composite Assemblies](/composite-assemblies)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Camera Housings",
+        "product_type": "composite camera housings for aerospace",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 11,
+            "line_end": 11,
+            "url": "https://www.decavo.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Camera Housings](/camera-housings)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "EMI Enclosures",
+        "product_type": "composite EMI enclosures for aerospace",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 12,
+            "line_end": 12,
+            "url": "https://www.decavo.com",
+            "page_class": "homepage",
+            "snippet": "        *   [EMI Enclosures](/emi-enclosures)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Product detail pages (/composite-assemblies, /camera-housings, /emi-enclosures) were skipped; named here based on navigation menu items."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA or Section 848/889 language found anywhere in the fetched corpus."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS or Blue sUAS language found anywhere in the fetched corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 54,
+        "line_end": 54,
+        "url": "https://www.decavo.com",
+        "page_class": "homepage",
+        "snippet": "##### Decavo specializes in state-of-the-art composite engineering and manufacturing. We're here to meet your business needs, from initial concept to full production."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0029",
+        "line_start": 59,
+        "line_end": 59,
+        "url": "https://www.decavo.com/specialty",
+        "page_class": "product",
+        "snippet": "##### With our rapid response and turn-key solutions, we help you bring your product to market quickly. As demand for your product grows, we have the capacity to support your production needs.\ufeff"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0026",
+        "line_start": 55,
+        "line_end": 55,
+        "url": "https://www.decavo.com/quality",
+        "page_class": "compliance",
+        "snippet": "The goal of our quality management system is to consistently exceed all customer and industry requirements. We are AS9100 and ISO 9001 certified."
+      }
+    ],
+    "notes": "Site states 'from initial concept to full production', 'capacity to support your production needs', and holds AS9100 and ISO 9001 certifications, all indicating active serial production."
+  },
+  "unresolved_questions": [
+    "Does Decavo explicitly call out drone/UAV customers on the /aerospace or product-detail pages?",
+    "Are there NDAA or Blue UAS compliance claims on any unmirrored pages (e.g., /resources)?"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.decavo.com/aerospace",
+      "reason": "Aerospace product/application page likely identifies drone/UAS-specific composite products and would confirm or refute UAS supply chain role.",
+      "expected_evidence": [
+        "products_categories",
+        "drone_supply_chain_role",
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.decavo.com/composite-assemblies",
+      "reason": "Product detail page for composite assemblies; would enumerate specific SKUs or application examples including UAS.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.decavo.com/camera-housings",
+      "reason": "Product detail page for camera housings; would clarify whether these are UAS/drone ISR housing components.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.decavo.com/emi-enclosures",
+      "reason": "Product detail page for EMI enclosures; would clarify drone/UAS-specific applications.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Carbon fiber composite structures, camera housings, and EMI enclosures for aerospace applications. Hood River, Oregon manufacturer serving the unmanned-systems supply chain. NDAA compliance status and specific defense contracts not publicly disclosed; public evidence limited to general aerospace/industrial/medical composite work.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 9,
+    "total_cost_usd": 0.2707044,
+    "created_at": "2026-05-04T01:35:49+00:00",
+    "extract_version": "0.1.0"
+  }
+}

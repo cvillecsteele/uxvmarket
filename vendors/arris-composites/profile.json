@@ -1,0 +1,226 @@
+{
+  "target_id": "arris-composites",
+  "run_id": "canonical",
+  "display_name": "ARRIS Composites",
+  "homepage_url": "https://arriscomposites.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/arris-composites/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "structures_and_materials",
+        "is_primary": true,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 92,
+            "line_end": 92,
+            "url": "https://arriscomposites.com",
+            "page_class": "homepage",
+            "snippet": "ARRIS developed Additive Molding, a patented technology for manufacturing 3D-aligned continuous fiber thermoplastic composite parts at scale."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 69,
+            "line_end": 70,
+            "url": "https://arriscomposites.com",
+            "page_class": "homepage",
+            "snippet": "Drone & Government\nRealizing the next generation of high-performance product architectures."
+          }
+        ],
+        "notes": "ARRIS supplies 3D-aligned continuous fiber thermoplastic composite structural parts to drone and other manufacturers via their Additive Molding\u2122 platform. Drone & Government is listed as an explicit industry target. The drone-government industry page was skipped, limiting confirmation of specific drone parts."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "The drone-government page was skipped; additional categories possible if that page were fetched."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Berkeley",
+      "state_or_province": "California",
+      "country": "United States",
+      "address": null
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0034",
+        "line_start": 35,
+        "line_end": 35,
+        "url": "https://arriscomposites.com/about",
+        "page_class": "company",
+        "snippet": "Founded in 2017, ARRIS\u00ae is a global manufacturing technology leader headquartered in Berkeley, California. Our revolutionary design, materials, and manufacturing platform lets brands completely reimagine their products. We simultaneously leverage the highest strength and stiffness-to-weight carbon fiber composites, the game-changing functionality of integrated electronics, and the task-specific properties of metals, resins, and other materials."
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 69,
+        "line_end": 70,
+        "url": "https://arriscomposites.com",
+        "page_class": "homepage",
+        "snippet": "Drone & Government\nRealizing the next generation of high-performance product architectures."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0092",
+        "line_start": 46,
+        "line_end": 46,
+        "url": "https://arriscomposites.com/products",
+        "page_class": "product",
+        "snippet": "The team of experts supports industries including aerospace, defense, automotive, portable electronics, bicycles, and footwear, helping partners turn ambitious ideas into manufacturable, high-performance products. In parallel, ARRIS also brings select innovations directly to consumers \u2014 showcasing what\u2019s possible when advanced composites, real engineering, and thoughtful design come together."
+      }
+    ],
+    "notes": "ARRIS supplies composite structural parts (made via Additive Molding\u2122) to drone/aerospace customers. They have a dedicated 'Drone & Government' industry page, though it was skipped by the crawler. Their composite parts are raw structural inputs to drone airframes, not complete platforms."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Additive Molding\u2122",
+        "product_type": "continuous fiber composite manufacturing technology platform",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0032",
+            "line_start": 28,
+            "line_end": 29,
+            "url": "https://arriscomposites.com/manufacturing-technology",
+            "page_class": "capability",
+            "snippet": "Additive Molding\u2122\nUltimate Performance & Scalability"
+          }
+        ],
+        "notes": "Patented software, materials, and high-volume production platform; primary deliverable for aerospace/drone customers is custom composite structural parts made with this technology."
+      },
+      {
+        "name": "ARRIS | MTO Carbon Fiber Spokes",
+        "product_type": "thermoplastic carbon fiber bicycle spokes",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0092",
+            "line_start": 38,
+            "line_end": 39,
+            "url": "https://arriscomposites.com/products",
+            "page_class": "product",
+            "snippet": "#### ARRIS | MTO Carbon Fiber Spokes\nMuch lighter than today\u2019s best metal aero spokes and tuned for unmatched ride feel \u2014 explore the next generation of thermoplastic carbon fiber spokes in a growing product series."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AURORRA By ARRIS Super Insoles",
+        "product_type": "carbon fiber composite insoles",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0092",
+            "line_start": 42,
+            "line_end": 43,
+            "url": "https://arriscomposites.com/products",
+            "page_class": "product",
+            "snippet": "#### AURORRA By ARRIS Super Insoles\nThe first legit super insole built with world-class materials. Marathon tech for everyday wear \u2014 easing pain from your feet to your knees to your lower back, cutting fatigue and boosting energy."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "ARRIS also produces custom composite parts for drones/aerospace under contract, but these are not named consumer SKUs. The drone-government page was skipped and may reference specific drone structural part offerings."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0032",
+        "line_start": 42,
+        "line_end": 42,
+        "url": "https://arriscomposites.com/manufacturing-technology",
+        "page_class": "capability",
+        "snippet": "Production Ready: Repeatable process, reliable equipment"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0032",
+        "line_start": 70,
+        "line_end": 70,
+        "url": "https://arriscomposites.com/manufacturing-technology",
+        "page_class": "capability",
+        "snippet": "Meet the highest-volume production requirements with an advanced manufacturing process that\u2019s cost-effective and scalable by design."
+      }
+    ],
+    "notes": "ARRIS claims 'Production Ready: Repeatable process, reliable equipment' and targets 'highest-volume production requirements'. Commercial partnerships (e.g. Specialized bicycle wheels) confirm production-scale deliveries."
+  },
+  "unresolved_questions": [
+    "Specific drone/government composite part offerings not disclosed (drone-government page skipped)",
+    "Whether ARRIS has NDAA compliance claims for their drone-related structural parts",
+    "Specific airframe structures or drone part types they supply beyond general 'composite parts'"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://arriscomposites.com/drone-government",
+      "reason": "This industry page would reveal specific drone composite part offerings, government program involvement, and potentially compliance claims relevant to NDAA/Blue UAS, directly sharpening products, products_categories, drone_supply_chain_role, ndaa, and blue_uas.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role",
+        "ndaa",
+        "blue_uas"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=compliance",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://arriscomposites.com/aerospace",
+      "reason": "Aerospace industry page would clarify the aerostructure and drone-related composite parts ARRIS supplies, informing products and drone_supply_chain_role.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Develops patented Additive Molding\u2122 technology for continuous-fiber thermoplastic composite aerostructures and components serving drone and government programs. Berkeley-based supplier offers design optimization software and production-ready composite parts. NDAA compliance and Blue UAS certification status not publicly confirmed; limited public evidence of specific government contracts or program wins.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 14,
+    "total_cost_usd": 0.36074445,
+    "created_at": "2026-05-03T21:31:28+00:00",
+    "extract_version": "0.1.0"
+  }
+}

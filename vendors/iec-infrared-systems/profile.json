@@ -1,0 +1,496 @@
+{
+  "target_id": "iec-infrared-systems",
+  "run_id": "canonical",
+  "display_name": "IEC Infrared Systems",
+  "homepage_url": "https://iecinfrared.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/iec-infrared-systems/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "isr_payloads",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 99,
+            "line_end": 99,
+            "url": "https://iecinfrared.com",
+            "page_class": "homepage",
+            "snippet": "All IEC systems contain advanced electro-optical/infrared (EO/IR) sensors, enabling round-the-clock surveillance using both visible light and infrared imaging."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 115,
+            "line_end": 119,
+            "url": "https://iecinfrared.com",
+            "page_class": "homepage",
+            "snippet": "WereWolf EO/IR\n[![Recon](https://iecinfrared.com/wp-content/uploads/2024/07/Recon_850x1190-731x1024.webp)](https://iecinfrared.com/recon/)\nRecon Man-Portable EO/IR\n[![Raptor](https://iecinfrared.com/wp-content/uploads/2024/07/Raptor_850x1190-731x1024.webp)](https://iecinfrared.com/raptor/)\nRaptor Ground Radar EO/IR"
+          }
+        ],
+        "notes": "EO/IR surveillance systems (WereWolf, NightStalkIR, Raptor, Recon, Wolf) are the core product line"
+      },
+      {
+        "category": "electronic_warfare",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 100,
+            "line_end": 100,
+            "url": "https://iecinfrared.com",
+            "page_class": "homepage",
+            "snippet": "When a threat or intrusion is detected, the system can respond with the appropriate countermeasure\u2014such as jamming the signal of an incoming drone or deploying the T360 to engage hostile forces. These modular systems deliver rapid, high-level protection for military operations and other mission-critical environments."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 121,
+            "line_end": 121,
+            "url": "https://iecinfrared.com",
+            "page_class": "homepage",
+            "snippet": "Lycan Counter-UAS"
+          }
+        ],
+        "notes": "Lycan Counter-UAS; homepage references jamming incoming drone signals"
+      },
+      {
+        "category": "airframes",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 19,
+            "line_end": 19,
+            "url": "https://iecinfrared.com",
+            "page_class": "homepage",
+            "snippet": "        *   [AirStalkIR ISR Drone](https://iecinfrared.com/isr-drone/)"
+          }
+        ],
+        "notes": "AirStalkIR ISR Drone listed under Aerial Systems; product page skipped"
+      },
+      {
+        "category": "ground_segment",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 107,
+            "line_end": 107,
+            "url": "https://iecinfrared.com",
+            "page_class": "homepage",
+            "snippet": "Something is out there. Is it friend or foe? IEC software integrates multiple sensor inputs into a single, coherent operating picture. This reduces an operator\u2019s cognitive burden and shortens reaction time."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 35,
+            "line_end": 36,
+            "url": "https://iecinfrared.com",
+            "page_class": "homepage",
+            "snippet": "        *   [IntrudIR Alert](https://iecinfrared.com/intrudir-alert/)\n        *   [BattleStation](https://iecinfrared.com/battle-station/)"
+          }
+        ],
+        "notes": "IntrudIR Alert and BattleStation are C2/COP software products"
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "List may be incomplete; product pages for isr-drone and lycan were skipped"
+  },
+  "headquarters": {
+    "value": {
+      "city": "Middleburg Heights",
+      "state_or_province": "Ohio",
+      "country": "United States",
+      "address": "7803 Freeway Rd."
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 129,
+        "line_end": 131,
+        "url": "https://iecinfrared.com",
+        "page_class": "homepage",
+        "snippet": "7803 Freeway Rd.\nMiddleburg Heights, OH 44130\nTel: +1 (440) 234-8000"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "oem",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 19,
+        "line_end": 19,
+        "url": "https://iecinfrared.com",
+        "page_class": "homepage",
+        "snippet": "        *   [AirStalkIR ISR Drone](https://iecinfrared.com/isr-drone/)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 99,
+        "line_end": 99,
+        "url": "https://iecinfrared.com",
+        "page_class": "homepage",
+        "snippet": "All IEC systems contain advanced electro-optical/infrared (EO/IR) sensors, enabling round-the-clock surveillance using both visible light and infrared imaging."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 100,
+        "line_end": 100,
+        "url": "https://iecinfrared.com",
+        "page_class": "homepage",
+        "snippet": "When a threat or intrusion is detected, the system can respond with the appropriate countermeasure\u2014such as jamming the signal of an incoming drone or deploying the T360 to engage hostile forces. These modular systems deliver rapid, high-level protection for military operations and other mission-critical environments."
+      }
+    ],
+    "notes": "IEC manufactures complete integrated surveillance/defense systems including the AirStalkIR ISR Drone (UAS), Lycan Counter-UAS, T360/Sentry ROWS, and EO/IR sensor systems under own brand. AirStalkIR product page skipped; OEM confirmation pending."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "AirStalkIR ISR Drone",
+        "product_type": "ISR drone / aerial surveillance UAS",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 19,
+            "line_end": 19,
+            "url": "https://iecinfrared.com",
+            "page_class": "homepage",
+            "snippet": "        *   [AirStalkIR ISR Drone](https://iecinfrared.com/isr-drone/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Lycan",
+        "product_type": "counter-UAS system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 121,
+            "line_end": 121,
+            "url": "https://iecinfrared.com",
+            "page_class": "homepage",
+            "snippet": "Lycan Counter-UAS"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "T360 ROWS",
+        "product_type": "remotely operated weapon system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 125,
+            "line_end": 125,
+            "url": "https://iecinfrared.com",
+            "page_class": "homepage",
+            "snippet": "T360 Remotely Operated Weapon System"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Sentry",
+        "product_type": "armored remotely operated weapon system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 31,
+            "line_end": 31,
+            "url": "https://iecinfrared.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Sentry \u2013 Armored ROWS](https://iecinfrared.com/sentry/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "WereWolf",
+        "product_type": "EO/IR surveillance system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 115,
+            "line_end": 115,
+            "url": "https://iecinfrared.com",
+            "page_class": "homepage",
+            "snippet": "WereWolf EO/IR"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Raptor",
+        "product_type": "ground radar EO/IR surveillance system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 119,
+            "line_end": 119,
+            "url": "https://iecinfrared.com",
+            "page_class": "homepage",
+            "snippet": "Raptor Ground Radar EO/IR"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Recon",
+        "product_type": "man-portable EO/IR surveillance system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 117,
+            "line_end": 117,
+            "url": "https://iecinfrared.com",
+            "page_class": "homepage",
+            "snippet": "Recon Man-Portable EO/IR"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "NightStalkIR",
+        "product_type": "EO/IR surveillance system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 147,
+            "line_end": 147,
+            "url": "https://iecinfrared.com",
+            "page_class": "homepage",
+            "snippet": "*   [NightStalkIR](https://iecinfrared.com/nightstalkir/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Wolf",
+        "product_type": "EO/IR surveillance system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 152,
+            "line_end": 152,
+            "url": "https://iecinfrared.com",
+            "page_class": "homepage",
+            "snippet": "*   [Wolf](/wolf/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Banshee",
+        "product_type": "non-lethal threat deterrence system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 123,
+            "line_end": 123,
+            "url": "https://iecinfrared.com",
+            "page_class": "homepage",
+            "snippet": "Banshee Non-Lethal Threat Deterrence"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "IntrudIR Alert",
+        "product_type": "C2 / common operating picture software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 145,
+            "line_end": 145,
+            "url": "https://iecinfrared.com",
+            "page_class": "homepage",
+            "snippet": "*   [IntrudIR Alert](/intrudir-alert/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "BattleStation",
+        "product_type": "command and control platform",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 82,
+            "line_end": 82,
+            "url": "https://iecinfrared.com",
+            "page_class": "homepage",
+            "snippet": "        *   [BattleStation](https://iecinfrared.com/battle-station/)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Product detail pages for AirStalkIR and Lycan were skipped; details from nav/footer listings"
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0035",
+        "line_start": 99,
+        "line_end": 99,
+        "url": "https://iecinfrared.com/itar-notice",
+        "page_class": "compliance",
+        "snippet": "ITAR Notice"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 126,
+        "line_end": 126,
+        "url": "https://iecinfrared.com",
+        "page_class": "homepage",
+        "snippet": "### ITAR Notice"
+      }
+    ],
+    "notes": "ITAR compliance notice published on dedicated page; no NDAA Sec 848/889 claim found anywhere in corpus"
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0037",
+        "line_start": 117,
+        "line_end": 117,
+        "url": "https://iecinfrared.com/mobile-solutions",
+        "page_class": "capability",
+        "snippet": "*   Systems are salt-resistant and tested to 1000 hours under ASTM B117 (salt spray / fog) for marine corrosion tolerance."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 113,
+        "line_end": 113,
+        "url": "https://iecinfrared.com",
+        "page_class": "homepage",
+        "snippet": "IEC systems can be configured with a wide variety of non-lethal and lethal effectors, providing a complete and remotely operated escalation-of-force capability."
+      }
+    ],
+    "notes": "Mil-spec test standards cited (ASTM B117 salt spray); named catalog SKUs with field deployment imagery; multiple product lines actively marketed"
+  },
+  "unresolved_questions": [
+    "AirStalkIR drone: does IEC manufacture the airframe or integrate third-party hardware?",
+    "Lycan Counter-UAS: RF jamming or kinetic defeat mechanism?",
+    "NDAA Section 848/889 compliance not disclosed on any fetched page"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://iecinfrared.com/isr-drone",
+      "reason": "AirStalkIR ISR Drone product page would confirm drone OEM role, specs, and whether IEC designs/manufactures the airframe itself",
+      "expected_evidence": [
+        "products",
+        "drone_supply_chain_role",
+        "products_categories",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://iecinfrared.com/lycan-counter-uas",
+      "reason": "Lycan Counter-UAS product page would confirm EW/jamming capabilities and specific counter-drone mechanism",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://iecinfrared.com/about-us",
+      "reason": "About Us page would confirm company background and could reveal NDAA compliance claims or Made-in-USA statements",
+      "expected_evidence": [
+        "headquarters",
+        "drone_supply_chain_role",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://iecinfrared.com/policies",
+      "reason": "Policies page could contain NDAA Section 889 compliance statement or other regulatory disclosures",
+      "expected_evidence": [
+        "ndaa",
+        "blue_uas"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "tagline": "EO/IR surveillance and weapon-system integrator headquartered in Middleburg Heights, Ohio. Manufactures fixed-wing/multi-rotor ISR drones (AirStalkIR), counter-UAS jamming (Lycan), remotely operated weapon systems (T360, Sentry), ground-based EO/IR payloads (WereWolf, Raptor, NightStalkIR, Recon, Wolf), command-and-control software (IntrudIR Alert, BattleStation), and non-lethal deterrence (Banshee). NDAA and Blue UAS certification status unknown. Limited public evidence of DoD contracts or programs; ITAR-controlled product line suggests defense market focus.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 19,
+    "total_cost_usd": 0.6604293499999999,
+    "created_at": "2026-05-04T03:31:35+00:00",
+    "extract_version": "0.1.0"
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "target_id": "parallel-flight-technologies",
+  "run_id": "canonical",
+  "display_name": "Parallel Flight Technologies",
+  "homepage_url": "https://www.parallelflight.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/parallel-flight-technologies/website",
+  "products": [
+    {
+      "name": "Firefly",
+      "category": "airframes",
+      "descriptor": "Heavy-lift hybrid UAS carrying 100 lb payload for 1.4 hours, Made in USA",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 62,
+          "line_end": 64,
+          "url": "https://www.parallelflight.com",
+          "page_class": "homepage",
+          "snippet": "HEAVY LIFT HYBRID UAS\n=====================\n### 100 LB PAYLOAD FOR 1.4 HOURS | MADE IN USA"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 76,
+          "line_end": 78,
+          "url": "https://www.parallelflight.com",
+          "page_class": "homepage",
+          "snippet": "DISCOVER FIREFLY\n----------------\nFirefly, is a pick up truck in the sky, designed to carry **100 lb for up to 1.4 hours \u2014** delivering significantly greater endurance than all electric systems. Two-person portable and refuelable in under 5 minutes, Firefly enables sustained operations with minimal infrastructure."
+        }
+      ],
+      "notes": "FAA 44807 exemption granted enabling U.S. commercial operations. Multiple commercial orders received (Alpha Drones, India's UAV Systems). Two-person portable, refuelable in under 5 minutes."
+    },
+    {
+      "name": "PHEM (Parallel Hybrid Electric Multirotor)",
+      "category": "propulsion_electronics",
+      "descriptor": "Hybrid ICE-plus-electric multirotor propulsion architecture for heavy-lift UAS",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0070",
+          "line_start": 67,
+          "line_end": 68,
+          "url": "https://www.parallelflight.com/technology",
+          "page_class": "capability",
+          "snippet": "### PHEM\nThe Parallel Hybrid Electric Multirotor (PHEM) architecture is the foundation for enabling Firefly to carry heavy payloads for long durations, 10x longer than all-electric platforms. This core IP is fundamentally scalable and can be adapted to extend flight time and range for compatible eVTOLs/UASs and adopted to work with numerous fuel types."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0070",
+          "line_start": 71,
+          "line_end": 71,
+          "url": "https://www.parallelflight.com/technology",
+          "page_class": "capability",
+          "snippet": "PHEM combines the power and duration of an internal combustion engine with the responsiveness of an electric motor. The 14x higher energy density of gas over batteries enables increased energy storage and scalable propulsion architecture."
+        }
+      ],
+      "notes": "Core IP described as scalable and licensable; can be adapted for compatible eVTOLs/UASs and is fuel-agnostic. Powers the Firefly platform."
+    },
+    {
+      "name": "Maritime-Capable Firefly UAS",
+      "category": "airframes",
+      "descriptor": "Maritime-adapted Firefly heavy-lift hybrid UAS under ONR development contract",
+      "granularity": "sku",
+      "readiness": "prototype",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0067",
+          "line_start": 80,
+          "line_end": 81,
+          "url": "https://www.parallelflight.com/press",
+          "page_class": "news",
+          "snippet": "    Office of Naval Research Awards Parallel Flight Technologies $3.74M Contract to Develop Maritime-Capable Firefly UAS\n    [Click Here](/https://apnews.com/press-release/ein-presswire-newsmatics/office-of-naval-research-awards-parallel-flight-technologies-3-74m-contract-to-develop-maritime-capable-firefly-uas-9f1788db48dbe38087f87b21b954180b)"
+        }
+      ],
+      "notes": "$3.74M Office of Naval Research contract to develop this maritime variant. Demonstrated maritime countermeasure capabilities at TCE 24.2 (per press listing line 93-94)."
+    },
+    {
+      "name": "Firefly PS1",
+      "category": "airframes",
+      "descriptor": "Earlier-generation hybrid heavy-lift UAS platform; subject of multi-million dollar export deal",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0067",
+          "line_start": 113,
+          "line_end": 115,
+          "url": "https://www.parallelflight.com/press",
+          "page_class": "news",
+          "snippet": "*   ![](https://images.squarespace-cdn.com/content/v1/67c07fdcd9013a043e110367/1740668911056-I6E6N7KHZ1W7TOZ2KQFC/FireflyPS1-flight.jpg)\n    Parallel Flight Inks large aircraft deal\n    [Read more](https://www.benzinga.com/pressreleases/23/05/g32564649/parallel-flight-technologies-inks-multi-million-dollar-aircraft-deal-with-indias-uav-systems)"
+        }
+      ],
+      "notes": "Name appears only via image filename 'FireflyPS1-flight.jpg' in the press section alongside a multi-million dollar aircraft deal with India's UAV Systems. No dedicated product page fetched; appears to be an earlier iteration of the Firefly platform."
+    }
+  ],
+  "unresolved_questions": [
+    "Firefly PS1: name appears only in an image filename (FireflyPS1-flight.jpg) in the press page; no dedicated product page was fetched. Relationship to the current 'Firefly' SKU (successor vs. variant) is unclear from the corpus.",
+    "PHEM: classified as a propulsion architecture/IP product, but it is unclear whether it is sold as a standalone licensable product or exists solely as the internal technology powering the Firefly airframe.",
+    "Maritime-Capable Firefly UAS: confirmed under a $3.74M ONR development contract; readiness set to prototype but no product page was fetched to verify current maturity.",
+    "87 pages were skipped/failed in the mirror (including the /firefly product page and any /industries or /customer-intent pages), so additional product variants or compliance claims may exist but are not visible in this corpus."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.parallelflight.com/firefly",
+      "reason": "Primary product page for the Firefly UAS \u2014 would provide specs, readiness language, NDAA/compliance claims, and may distinguish the current model from the PS1.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped, page_class=product (nav link visible in every fetched page)",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.parallelflight.com/industries",
+      "reason": "Industries page may list application-specific product variants or configurations not surfaced on the main Firefly page.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "linked from footer of every fetched page",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 15,
+    "total_cost_usd": 0.33515079999999997,
+    "created_at": "2026-05-04T05:03:13+00:00",
+    "extract_version": "0.1.0"
+  }
+}

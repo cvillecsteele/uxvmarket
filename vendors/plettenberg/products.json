@@ -1,0 +1,62 @@
+{
+  "target_id": "plettenberg",
+  "run_id": "canonical",
+  "display_name": "Plettenberg",
+  "homepage_url": "https://www.plettenbergmotors.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/plettenberg/website",
+  "products": [],
+  "unresolved_questions": [
+    "All mirror attempts failed with connection errors (Connection refused / nodename not known). Zero pages fetched. Cannot enumerate any products without a successful crawl of plettenbergmotors.com.",
+    "External sources classify Plettenberg under Electric Motors and Motor Controllers (propulsion_mechanical), but no corpus evidence exists to confirm specific product names or SKUs."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.plettenbergmotors.com",
+      "reason": "Homepage failed with Connection refused; need a successful fetch to discover product navigation and enumerate motor/controller SKUs.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=failed, page_class=homepage, resource_id=resource-0001",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.plettenbergmotors.com/motors",
+      "reason": "Likely product index for electric motors (primary product category per external sources); not yet attempted.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": null,
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.plettenbergmotors.com/controllers",
+      "reason": "Likely product index for motor controllers (secondary category per external sources); not yet attempted.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": null,
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.plettenbergmotors.com/products",
+      "reason": "Common product index URL; would enumerate full SKU list if homepage product links are unavailable.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": null,
+      "in_corpus_index": false
+    }
+  ],
+  "status": "needs_more_fetches",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 4,
+    "total_cost_usd": 0.0521263,
+    "created_at": "2026-05-04T05:19:49+00:00",
+    "extract_version": "0.1.0"
+  }
+}

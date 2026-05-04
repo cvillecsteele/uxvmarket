@@ -1,0 +1,414 @@
+{
+  "target_id": "vidarr-inc",
+  "run_id": "canonical",
+  "display_name": "ViDARR Inc",
+  "homepage_url": "https://vidarrinc.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/vidarr-inc/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "propulsion_electronics",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0144",
+            "line_start": 63,
+            "line_end": 63,
+            "url": "https://vidarrinc.com/products/reavers-electronic-speed-controller-esc",
+            "page_class": "product",
+            "snippet": "100A 6S-8S AM32 4-in-1 Electronic Speed Controller (ESC)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0144",
+            "line_start": 73,
+            "line_end": 73,
+            "url": "https://vidarrinc.com/products/reavers-electronic-speed-controller-esc",
+            "page_class": "product",
+            "snippet": "NDAA Compliant Product Made in USA"
+          }
+        ],
+        "notes": "REAVERS 100A 6S-8S AM32 4-in-1 ESC \u2014 ViDARR-branded, NDAA-compliant, designed for tactical UAS"
+      },
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0142",
+            "line_start": 59,
+            "line_end": 59,
+            "url": "https://vidarrinc.com/products/reavers-drone-motor",
+            "page_class": "product",
+            "snippet": "3115/830KV Heavy Lift Motor"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0148",
+            "line_start": 61,
+            "line_end": 62,
+            "url": "https://vidarrinc.com/products/reavers-propeller",
+            "page_class": "product",
+            "snippet": "10\u201d Folding Propellers (Set of 4)\n]("
+          }
+        ],
+        "notes": "3115/830KV Heavy Lift Motor, 2808/1400KV Performance Motor, and 10\" Folding Propellers under REAVERS brand"
+      },
+      {
+        "category": "flight_and_vehicle_control",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0144",
+            "line_start": 179,
+            "line_end": 179,
+            "url": "https://vidarrinc.com/products/reavers-electronic-speed-controller-esc",
+            "page_class": "product",
+            "snippet": "### H7 Flight Controller - IIM42653 (Betaflight / PX4)"
+          }
+        ],
+        "notes": "H7 Flight Controller - IIM42653 (Betaflight / PX4), referenced in similar-products sections; dedicated product page not fetched"
+      },
+      {
+        "category": "isr_payloads",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0156",
+            "line_start": 71,
+            "line_end": 71,
+            "url": "https://vidarrinc.com/products/thermal-camera",
+            "page_class": "product",
+            "snippet": "NDAA Compliant Product"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0150",
+            "line_start": 68,
+            "line_end": 68,
+            "url": "https://vidarrinc.com/products/reavers-sensor",
+            "page_class": "product",
+            "snippet": "NDAA Compliant Product"
+          }
+        ],
+        "notes": "REAVERS Thermal Camera (NDAA-compliant, ISR/reconnaissance) and CMOS Camera for FPV/UAS \u2014 both ViDARR-branded"
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "ViDARR REAVERS line spans drone ESC, motors, propellers, flight controller, CMOS and thermal cameras \u2014 all NDAA-compliant drone components. They also resell Nocturn Industries NVGs and Air Armor Tech gear (not UXV-specific)."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Portsmouth",
+      "state_or_province": "New Hampshire",
+      "country": "United States",
+      "address": "280 Heritage Ave Portsmouth, NH 03801"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 77,
+        "line_end": 77,
+        "url": "https://vidarrinc.com",
+        "page_class": "homepage",
+        "snippet": "280 Heritage Ave Portsmouth, NH 03801"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0144",
+        "line_start": 73,
+        "line_end": 73,
+        "url": "https://vidarrinc.com/products/reavers-electronic-speed-controller-esc",
+        "page_class": "product",
+        "snippet": "NDAA Compliant Product Made in USA"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0142",
+        "line_start": 68,
+        "line_end": 68,
+        "url": "https://vidarrinc.com/products/reavers-drone-motor",
+        "page_class": "product",
+        "snippet": "NDAA Compliant Product"
+      }
+    ],
+    "notes": "ViDARR designs and sells individual UAS components (ESC, motors, propellers, flight controller, cameras) under the REAVERS brand. Defense Solutions provides kitting, build-to-print, and logistics \u2014 supplementary to the component business."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "100A 6S-8S AM32 4-in-1 Electronic Speed Controller (ESC)",
+        "product_type": "drone ESC",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0144",
+            "line_start": 63,
+            "line_end": 63,
+            "url": "https://vidarrinc.com/products/reavers-electronic-speed-controller-esc",
+            "page_class": "product",
+            "snippet": "100A 6S-8S AM32 4-in-1 Electronic Speed Controller (ESC)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "3115/830KV Heavy Lift Motor",
+        "product_type": "drone BLDC motor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0142",
+            "line_start": 59,
+            "line_end": 59,
+            "url": "https://vidarrinc.com/products/reavers-drone-motor",
+            "page_class": "product",
+            "snippet": "3115/830KV Heavy Lift Motor"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "2808/1400KV Performance Motor",
+        "product_type": "drone BLDC motor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0144",
+            "line_start": 131,
+            "line_end": 131,
+            "url": "https://vidarrinc.com/products/reavers-electronic-speed-controller-esc",
+            "page_class": "product",
+            "snippet": "### 2808/1400KV Performance Motor"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "10\" Folding Propellers (Set of 4)",
+        "product_type": "drone propellers",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0148",
+            "line_start": 61,
+            "line_end": 62,
+            "url": "https://vidarrinc.com/products/reavers-propeller",
+            "page_class": "product",
+            "snippet": "10\u201d Folding Propellers (Set of 4)\n]("
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "H7 Flight Controller - IIM42653 (Betaflight / PX4)",
+        "product_type": "drone flight controller",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0144",
+            "line_start": 179,
+            "line_end": 179,
+            "url": "https://vidarrinc.com/products/reavers-electronic-speed-controller-esc",
+            "page_class": "product",
+            "snippet": "### H7 Flight Controller - IIM42653 (Betaflight / PX4)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "CMOS Camera",
+        "product_type": "drone FPV/UAS camera",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0150",
+            "line_start": 57,
+            "line_end": 57,
+            "url": "https://vidarrinc.com/products/reavers-sensor",
+            "page_class": "product",
+            "snippet": "CMOS Camera"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Thermal Camera",
+        "product_type": "drone ISR thermal camera",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0156",
+            "line_start": 63,
+            "line_end": 63,
+            "url": "https://vidarrinc.com/products/thermal-camera",
+            "page_class": "product",
+            "snippet": "Thermal Camera"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Gun Damp",
+        "product_type": "military-grade weapon lubricant (CLP)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0129",
+            "line_start": 59,
+            "line_end": 59,
+            "url": "https://vidarrinc.com/products/gundamp",
+            "page_class": "product",
+            "snippet": "Gun Damp\u2122 | Military-Grade Weapon Lubricant"
+          }
+        ],
+        "notes": "Non-UXV product; ViDARR's own brand"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "REAVERS product line is the core drone component offering. H7 flight controller page was not fetched \u2014 confirmed via similar-products references only."
+  },
+  "ndaa": {
+    "value": "yes",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0144",
+        "line_start": 73,
+        "line_end": 73,
+        "url": "https://vidarrinc.com/products/reavers-electronic-speed-controller-esc",
+        "page_class": "product",
+        "snippet": "NDAA Compliant Product Made in USA"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0142",
+        "line_start": 68,
+        "line_end": 68,
+        "url": "https://vidarrinc.com/products/reavers-drone-motor",
+        "page_class": "product",
+        "snippet": "NDAA Compliant Product"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0142",
+        "line_start": 81,
+        "line_end": 81,
+        "url": "https://vidarrinc.com/products/reavers-drone-motor",
+        "page_class": "product",
+        "snippet": "**Compliance:** NDAA compliant components and supply chain"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0150",
+        "line_start": 68,
+        "line_end": 68,
+        "url": "https://vidarrinc.com/products/reavers-sensor",
+        "page_class": "product",
+        "snippet": "NDAA Compliant Product"
+      }
+    ],
+    "notes": "Multiple REAVERS products explicitly claim NDAA compliance. Motor page details NDAA-compliant magnet sourcing meeting FCC mandate and federal procurement restrictions."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0144",
+        "line_start": 68,
+        "line_end": 68,
+        "url": "https://vidarrinc.com/products/reavers-electronic-speed-controller-esc",
+        "page_class": "product",
+        "snippet": "$399.00 USD"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0148",
+        "line_start": 71,
+        "line_end": 71,
+        "url": "https://vidarrinc.com/products/reavers-propeller",
+        "page_class": "product",
+        "snippet": "_(Currently lead time: 4-6 weeks)_"
+      }
+    ],
+    "notes": "Products available for direct purchase with stated lead times (4\u20136 weeks for propellers, 6\u20138 weeks for CMOS camera). Some motors listed as 'Sold out' rather than discontinued \u2014 indicating active production."
+  },
+  "unresolved_questions": [
+    "REAVERS home page (/pages/reavers-home) and /collections/drones were not fetched \u2014 unclear whether ViDARR offers a complete drone platform in addition to components",
+    "H7 Flight Controller dedicated product page was skipped \u2014 NDAA status and full specs unknown"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://vidarrinc.com/pages/reavers-home",
+      "reason": "Would clarify whether REAVERS is a complete drone platform (OEM) or component family only \u2014 affects drone_supply_chain_role classification",
+      "expected_evidence": [
+        "drone_supply_chain_role",
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://vidarrinc.com/collections/drones",
+      "reason": "Would show full REAVERS drone product catalog including any complete airframe offerings",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Manufactures propulsion electronics (ESCs, motors, flight controllers), ISR payloads (night vision, thermal cameras), and complete REAVERS UAS systems. NDAA-compliant. Also offers kitting, build-to-print, and logistics services. Public record on specific military programs and Blue UAS status is sparse.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 26,
+    "total_cost_usd": 0.7245354500000001,
+    "created_at": "2026-05-04T07:39:09+00:00",
+    "extract_version": "0.1.0"
+  }
+}

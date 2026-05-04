@@ -1,0 +1,594 @@
+{
+  "target_id": "redler-technologies",
+  "run_id": "canonical",
+  "display_name": "Redler Technologies",
+  "homepage_url": "https://www.redlertechnologies.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/redler-technologies/website",
+  "products": [
+    {
+      "name": "Micro Rayon",
+      "category": "propulsion_electronics",
+      "descriptor": "Ultra-compact DC servo motion controller for small form factors",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0034",
+          "line_start": 39,
+          "line_end": 42,
+          "url": "https://www.redlertechnologies.com/products/motor-controllers",
+          "page_class": "product",
+          "snippet": "![Micro Rayon](/images/products-wo-background-compressed/mc-micro.png)\n### Micro Rayon\nUltra-compact design with advanced motor control capabilities for small form factors\nQuick View[Visit Product Page](/products/motor-controllers/micro-rayon-motor-controller/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "TMC III",
+      "category": "propulsion_electronics",
+      "descriptor": "Compact 355 W servo/BLDC motor controller with FOC and built-in testing",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0033",
+          "line_start": 35,
+          "line_end": 38,
+          "url": "https://www.redlertechnologies.com/products/motor-controllers/tmc-motor-controller",
+          "page_class": "product",
+          "snippet": "Servo Motion Controller & Mobility Drive Solution\nTMC III\n-------\nCompact, high-performance motor controller for precise digital motion control"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0033",
+          "line_start": 50,
+          "line_end": 53,
+          "url": "https://www.redlertechnologies.com/products/motor-controllers/tmc-motor-controller",
+          "page_class": "product",
+          "snippet": "Power\nSupports up to 355W motor control within 12-28V DC voltage range\nCurrent\nContinuous 12.5A RMS output, peak current up to 25 ARMS"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Single Board",
+      "category": "propulsion_electronics",
+      "descriptor": "Compact high-power DC servo motor controller for space-constrained environments",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0034",
+          "line_start": 47,
+          "line_end": 50,
+          "url": "https://www.redlertechnologies.com/products/motor-controllers",
+          "page_class": "product",
+          "snippet": "![Single Board](/images/products-wo-background-compressed/mc-single-board.png)\n### Single Board\nCompact, high-power motor controller for space-constrained environments\nQuick View[Visit Product Page](/products/motor-controllers/rayon-single-board-motor-controller/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Rayon 70",
+      "category": "propulsion_electronics",
+      "descriptor": "High-performance 3.5 kW DC servo motor controller for demanding applications",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0034",
+          "line_start": 51,
+          "line_end": 54,
+          "url": "https://www.redlertechnologies.com/products/motor-controllers",
+          "page_class": "product",
+          "snippet": "![Rayon 70](/images/products-wo-background-compressed/mc-rayon-70.png)\n### Rayon 70\nHigh-performance motor controller for demanding applications with precise control\nQuick View[Visit Product Page](/products/motor-controllers/rayon-70-motor-controller/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Rayon 135",
+      "category": "propulsion_electronics",
+      "descriptor": "High-power scalable DC servo motor controller for large-scale applications",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0034",
+          "line_start": 55,
+          "line_end": 58,
+          "url": "https://www.redlertechnologies.com/products/motor-controllers",
+          "page_class": "product",
+          "snippet": "![Rayon 135](/images/products-wo-background-compressed/mc-rayon-135.png)\n### Rayon 135\nEngineered for high-power applications with robust and scalable solution\nQuick View[Visit Product Page](/products/motor-controllers/rayon-135-motor-controller/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "EV 200",
+      "category": "propulsion_electronics",
+      "descriptor": "20 kW DC servo motor controller engineered for electric mobility and heavy machinery",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0034",
+          "line_start": 59,
+          "line_end": 62,
+          "url": "https://www.redlertechnologies.com/products/motor-controllers",
+          "page_class": "product",
+          "snippet": "![EV 200](/images/products-wo-background-compressed/mc-ev-200.png)\n### EV 200\nEngineered for electric mobility precision with robust and versatile solution\nQuick View[Visit Product Page](/products/motor-controllers/ev-rider-200-motor-controller/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Power Rider 16 Channel PDU",
+      "category": "power_systems",
+      "descriptor": "16-channel solid-state PDU, 240 A total, 9\u201348 VDC, MIL-STD-1275F/461G/810F rated",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0041",
+          "line_start": 36,
+          "line_end": 38,
+          "url": "https://www.redlertechnologies.com/products/power-distribution-units/power-rider-16-channel-pdu",
+          "page_class": "product",
+          "snippet": "Power Rider 16 Channel PDU\n--------------------------\nHigh-performance, multi-channel circuit breaker with advanced monitoring capabilities"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0041",
+          "line_start": 51,
+          "line_end": 53,
+          "url": "https://www.redlertechnologies.com/products/power-distribution-units/power-rider-16-channel-pdu",
+          "page_class": "product",
+          "snippet": "16 configurable channels, each with up to 25A capacity (50A with parallel operation)\nVoltage\nOperating voltage range: 9-48 VDC"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0041",
+          "line_start": 92,
+          "line_end": 93,
+          "url": "https://www.redlertechnologies.com/products/power-distribution-units/power-rider-16-channel-pdu",
+          "page_class": "product",
+          "snippet": "### MIL-STD Compliance\nMeets rigorous military standards including MIL-STD-1275F, MIL-STD-461G, and MIL-STD-810F for reliable operation in demanding environments."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Power Rider 16 Channel PDU Military Grade",
+      "category": "power_systems",
+      "descriptor": "Military-grade 16-channel solid-state PDU with MIL-DTL-5541F coating and MIL-STD-1275F/461G/810F compliance",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0011",
+          "line_start": 35,
+          "line_end": 37,
+          "url": "https://www.redlertechnologies.com/products/power-distribution-units/power-rider-16-channel-pdu-ruggedized",
+          "page_class": "news",
+          "snippet": "Power Rider 16 Channel PDU Military Grade\n-----------------------------------------\nMilitary-grade circuit breaker designed for mission-critical applications"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0011",
+          "line_start": 57,
+          "line_end": 58,
+          "url": "https://www.redlertechnologies.com/products/power-distribution-units/power-rider-16-channel-pdu-ruggedized",
+          "page_class": "news",
+          "snippet": "Protection\nMilitary-grade protection with chemical conversion coating per MIL-DTL-5541F, Designed to meet MIL-STD-1275F/461G/810F standards"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0011",
+          "line_start": 85,
+          "line_end": 86,
+          "url": "https://www.redlertechnologies.com/products/power-distribution-units/power-rider-16-channel-pdu-ruggedized",
+          "page_class": "news",
+          "snippet": "### Comprehensive MIL-STD Compliance\nDesigned and tested to meet rigorous MIL-STD-1275F, MIL-STD-461G, and MIL-STD-810F standards for reliable performance in military applications."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Power Rider 12 Channel PDU",
+      "category": "power_systems",
+      "descriptor": "12-channel solid-state PDU, 9\u201348 VDC, triple-layer protection, MIL-STD-1275F/461G/810F rated",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0009",
+          "line_start": 35,
+          "line_end": 37,
+          "url": "https://www.redlertechnologies.com/products/power-distribution-units/power-rider-12-channel-pdu",
+          "page_class": "product",
+          "snippet": "Power Rider 12 Channel PDU\n--------------------------\nAdvanced multi-channel circuit protection and power management for demanding applications"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0009",
+          "line_start": 50,
+          "line_end": 51,
+          "url": "https://www.redlertechnologies.com/products/power-distribution-units/power-rider-12-channel-pdu",
+          "page_class": "product",
+          "snippet": "12 individually configurable channels with up to 25A per channel and parallel options\nVoltage"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0009",
+          "line_start": 57,
+          "line_end": 58,
+          "url": "https://www.redlertechnologies.com/products/power-distribution-units/power-rider-12-channel-pdu",
+          "page_class": "product",
+          "snippet": "Standards\nDesigned to meet MIL-STD-1275F, MIL-STD-461G, and MIL-STD-810F standards for rugged environments"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Power Rider 12 Channel -48V PDU",
+      "category": "power_systems",
+      "descriptor": "12-channel solid-state PDU optimized for -48V telecom and data center systems",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0041",
+          "line_start": 51,
+          "line_end": 54,
+          "url": "https://www.redlertechnologies.com/products/power-distribution-units",
+          "page_class": "product",
+          "snippet": "![Power Rider 12 Channel -48V PDU](/images/products-wo-background-compressed/power-rider-12-ch.png)\n### Power Rider 12 Channel -48V PDU\nAdvanced circuit protection and power management tailored for -48V systems\nQuick View[Visit Product Page](/products/power-distribution-units/power-rider-12-channel-pdu-negative-voltage/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Power Rider 12 Channel Military Grade PDU",
+      "category": "power_systems",
+      "descriptor": "Ruggedized 12-channel electronic circuit breaker PDU for extreme environments",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0041",
+          "line_start": 55,
+          "line_end": 58,
+          "url": "https://www.redlertechnologies.com/products/power-distribution-units",
+          "page_class": "product",
+          "snippet": "![Power Rider 12 Channel Military Grade PDU](/images/products-wo-background-compressed/power-rider-12-ch-mil.png)\n### Power Rider 12 Channel Military Grade PDU\nRugged multi-channel electronic circuit breaker for mission-critical applications in extreme environments\nQuick View[Visit Product Page](/products/power-distribution-units/power-rider-12-channel-pdu-ruggedized/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Power Rider 150A",
+      "category": "power_systems",
+      "descriptor": "150 A smart solid-state circuit breaker for power distribution and protection",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0041",
+          "line_start": 107,
+          "line_end": 109,
+          "url": "https://www.redlertechnologies.com/products/power-distribution-units/power-rider-16-channel-pdu",
+          "page_class": "product",
+          "snippet": "[\n### Power Rider 150A\n](/products/smart-circuit-breakers/power-rider-150a-circuit-breaker/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Power Rider High Voltage",
+      "category": "power_systems",
+      "descriptor": "High-voltage smart solid-state circuit breaker for power distribution and protection",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0041",
+          "line_start": 110,
+          "line_end": 112,
+          "url": "https://www.redlertechnologies.com/products/power-distribution-units/power-rider-16-channel-pdu",
+          "page_class": "product",
+          "snippet": "[\n### Power Rider High Voltage\n](/products/smart-circuit-breakers/power-rider-high-voltage-circuit-breaker/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Power Rider 25A",
+      "category": "power_systems",
+      "descriptor": "25 A smart solid-state circuit breaker for power distribution and protection",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0041",
+          "line_start": 116,
+          "line_end": 118,
+          "url": "https://www.redlertechnologies.com/products/power-distribution-units/power-rider-16-channel-pdu",
+          "page_class": "product",
+          "snippet": "[\n### Power Rider 25A\n](/products/smart-circuit-breakers/power-rider-25a-circuit-breaker/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Power Rider 80A",
+      "category": "power_systems",
+      "descriptor": "80 A smart solid-state circuit breaker for power distribution and protection",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0041",
+          "line_start": 113,
+          "line_end": 115,
+          "url": "https://www.redlertechnologies.com/products/power-distribution-units/power-rider-16-channel-pdu",
+          "page_class": "product",
+          "snippet": "[\n### Power Rider 80A\n](/products/smart-circuit-breakers/power-rider-80a-circuit-breaker/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Micro Rayon Motor Controller",
+      "category": "propulsion_electronics",
+      "descriptor": "Ultra-compact 450 W BLDC/brushed/stepper motor controller for small form factors",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0032",
+          "line_start": 36,
+          "line_end": 38,
+          "url": "https://www.redlertechnologies.com/products/motor-controllers/micro-rayon-motor-controller",
+          "page_class": "product",
+          "snippet": "Micro Rayon Motor Controller\n----------------------------\nUltra-compact design with advanced motor control capabilities for small form factors"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0032",
+          "line_start": 51,
+          "line_end": 53,
+          "url": "https://www.redlertechnologies.com/products/motor-controllers/micro-rayon-motor-controller",
+          "page_class": "product",
+          "snippet": "Supports motors up to 450W\nCurrent\nContinuous current rating of 10 ARMS, peak current 20 ARMS"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Rayon 70 Motor Controller",
+      "category": "propulsion_electronics",
+      "descriptor": "High-power-density 3500 W BLDC motor controller, 70 A continuous, 12\u201358 VDC",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0047",
+          "line_start": 36,
+          "line_end": 38,
+          "url": "https://www.redlertechnologies.com/products/motor-controllers/rayon-70-motor-controller",
+          "page_class": "product",
+          "snippet": "Rayon 70 Motor Controller\n-------------------------\nEnhanced motor controller with high power density and versatile control options"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0047",
+          "line_start": 50,
+          "line_end": 53,
+          "url": "https://www.redlertechnologies.com/products/motor-controllers/rayon-70-motor-controller",
+          "page_class": "product",
+          "snippet": "Power\nSupports motors up to 3500W with multiple motor compatibility\nCurrent\nContinuous current rating of 70 ARMS, peak current up to 120 ARMS"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Rayon Single Board Motor Controller",
+      "category": "propulsion_electronics",
+      "descriptor": "Single-PCB 800 W BLDC/brushed/stepper motor controller, 16 A continuous, 12\u201358 VDC",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0034",
+          "line_start": 36,
+          "line_end": 38,
+          "url": "https://www.redlertechnologies.com/products/motor-controllers/rayon-single-board-motor-controller",
+          "page_class": "product",
+          "snippet": "Rayon Single Board Motor Controller\n-----------------------------------\nCompact, high-power motor controller for space-constrained environments"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0034",
+          "line_start": 50,
+          "line_end": 53,
+          "url": "https://www.redlertechnologies.com/products/motor-controllers/rayon-single-board-motor-controller",
+          "page_class": "product",
+          "snippet": "Power\nSupports motors up to 800W with multiple motor compatibility\nCurrent\nContinuous current rating of 16 ARMS, peak current up to 40 ARMS"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Rayon 135 Motor Controller",
+      "category": "propulsion_electronics",
+      "descriptor": "High-power 6700 W BLDC motor controller, 135 A continuous, 12\u201358 VDC (optional 96 VDC)",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0048",
+          "line_start": 36,
+          "line_end": 38,
+          "url": "https://www.redlertechnologies.com/products/motor-controllers/rayon-135-motor-controller",
+          "page_class": "product",
+          "snippet": "Rayon 135 Motor Controller\n--------------------------\nHigh-power motor controller for demanding industrial and military applications"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0048",
+          "line_start": 50,
+          "line_end": 53,
+          "url": "https://www.redlertechnologies.com/products/motor-controllers/rayon-135-motor-controller",
+          "page_class": "product",
+          "snippet": "Power\nSupports motors up to 6700W with superior thermal management\nCurrent\nContinuous current rating of 135 ARMS, peak current up to 220 ARMS"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "EV Rider 200 Motor Controller",
+      "category": "propulsion_electronics",
+      "descriptor": "Electric-mobility 10 kW motor controller, 200 A continuous, 24\u201396 VDC with regenerative braking",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0049",
+          "line_start": 36,
+          "line_end": 38,
+          "url": "https://www.redlertechnologies.com/products/motor-controllers/ev-rider-200-motor-controller",
+          "page_class": "product",
+          "snippet": "EV Rider 200 Motor Controller\n-----------------------------\nEngineered for electric mobility precision with robust and versatile solution"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0049",
+          "line_start": 50,
+          "line_end": 53,
+          "url": "https://www.redlertechnologies.com/products/motor-controllers/ev-rider-200-motor-controller",
+          "page_class": "product",
+          "snippet": "Power\nSupports motors up to 10kW with dynamic power management\nCurrent\nContinuous current rating of 200 ARMS, peak current up to 350 ARMS"
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "Power Rider 150A, Power Rider 80A, Power Rider 25A, and Power Rider High Voltage detail pages were all skipped (status: skipped_budget) \u2014 voltage range, current rating, and readiness for these four smart circuit breakers are unknown; only product names confirmed from related-products listings on fetched PDU pages."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.redlertechnologies.com/products/smart-circuit-breakers/power-rider-150a-circuit-breaker",
+      "reason": "Detail page skipped (budget exhausted); need specs, readiness, and any compliance claims for Power Rider 150A smart circuit breaker.",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=product, resource_id=resource-0014",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.redlertechnologies.com/products/smart-circuit-breakers/power-rider-80a-circuit-breaker",
+      "reason": "Detail page skipped (budget exhausted); need specs, readiness, and any compliance claims for Power Rider 80A smart circuit breaker.",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=product, resource_id=resource-0017",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.redlertechnologies.com/products/smart-circuit-breakers/power-rider-25a-circuit-breaker",
+      "reason": "Detail page skipped (budget exhausted); need specs, readiness, and any compliance claims for Power Rider 25A smart circuit breaker.",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=product, resource_id=resource-0016",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.redlertechnologies.com/products/smart-circuit-breakers/power-rider-high-voltage-circuit-breaker",
+      "reason": "Detail page skipped (budget exhausted); need voltage range, specs, readiness, and compliance claims for Power Rider High Voltage smart circuit breaker.",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=news (likely misclassified), resource_id=resource-0015",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 25,
+    "total_cost_usd": 0.37100989999999995,
+    "created_at": "2026-05-04T05:46:12+00:00",
+    "extract_version": "0.1.0"
+  }
+}

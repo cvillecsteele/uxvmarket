@@ -1,0 +1,592 @@
+{
+  "target_id": "uav-propulsion-tech",
+  "run_id": "canonical",
+  "display_name": "UAV Propulsion Tech",
+  "homepage_url": "https://www.uavpropulsiontech.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/uav-propulsion-tech/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 20,
+            "line_end": 20,
+            "url": "https://uavpropulsiontech.com/",
+            "page_class": "homepage",
+            "snippet": "UAV solutions featuring two-stroke engines, Micro Turbines, Servos, Autopilots, DC motors and generators, EO/IR Gimbals, Sensors, and more."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0018",
+            "line_start": 26,
+            "line_end": 27,
+            "url": "https://uavpropulsiontech.com/all-solutions",
+            "page_class": "capability",
+            "snippet": "### [Propulsions and Engines](https://uavpropulsiontech.com/all-solutions/#Propulsions-and-Engines)\nAdvanced piston engines, DC motors, generators and micro turbines"
+          }
+        ],
+        "notes": "Core focus: piston engines (Suter), micro turbines (AMT), electric motors (Plettenberg), propellers (Mejzlik)"
+      },
+      {
+        "category": "propulsion_electronics",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0018",
+            "line_start": 26,
+            "line_end": 27,
+            "url": "https://uavpropulsiontech.com/all-solutions",
+            "page_class": "capability",
+            "snippet": "### [Propulsions and Engines](https://uavpropulsiontech.com/all-solutions/#Propulsions-and-Engines)\nAdvanced piston engines, DC motors, generators and micro turbines"
+          }
+        ],
+        "notes": "Plettenberg ESCs and starter/generators included in propulsion solutions category"
+      },
+      {
+        "category": "flight_and_vehicle_control",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0018",
+            "line_start": 32,
+            "line_end": 33,
+            "url": "https://uavpropulsiontech.com/all-solutions",
+            "page_class": "capability",
+            "snippet": "### [Navigation Autopilots](https://uavpropulsiontech.com/all-solutions/#Navigation-Autopilots)\nReliable autopilot systems and MEMS-INS-GPS solutions"
+          }
+        ],
+        "notes": "Embention autopilots (DO178C/DO254/DO160G), Aeron Systems MEMS-INS-GPS"
+      },
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0018",
+            "line_start": 29,
+            "line_end": 30,
+            "url": "https://uavpropulsiontech.com/all-solutions",
+            "page_class": "capability",
+            "snippet": "### [Fuel and Engine Sensors](https://uavpropulsiontech.com/all-solutions/#Fuel-and-Engine-Sensors \"Fuel and Engine Sensors\")\nHigh-performance sensors for accurate fuel flow, throttle, and temp monitoring"
+          }
+        ],
+        "notes": "Aeron Systems INS/GPS, Reventec/Sentronics fuel/engine sensors, Avio Race precision sensors"
+      },
+      {
+        "category": "isr_payloads",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0018",
+            "line_start": 56,
+            "line_end": 57,
+            "url": "https://uavpropulsiontech.com/all-solutions",
+            "page_class": "capability",
+            "snippet": "### [Gimbals](https://uavpropulsiontech.com/all-solutions/#Gimbals)\nGyro-stabilized imaging payloads for accurate monitoring"
+          }
+        ],
+        "notes": "MERIO TEMIS gyro-stabilized EO/IR gimbals with target detection and tracking"
+      },
+      {
+        "category": "recovery_systems",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0018",
+            "line_start": 35,
+            "line_end": 36,
+            "url": "https://uavpropulsiontech.com/all-solutions",
+            "page_class": "capability",
+            "snippet": "### [Parachutes](https://uavpropulsiontech.com/all-solutions/#Parachutes)\nLightweight safety and rescue parachutes"
+          }
+        ],
+        "notes": "PASA (Germany) and ParaZero (Israel) ballistic parachutes, up to 200kg MTOW"
+      },
+      {
+        "category": "power_systems",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0018",
+            "line_start": 50,
+            "line_end": 51,
+            "url": "https://uavpropulsiontech.com/all-solutions",
+            "page_class": "capability",
+            "snippet": "### [Fuel Cells](https://uavpropulsiontech.com/all-solutions/#Fuel-Cells)\nHydrogen-based propulsion systems for all sorts of UAVs"
+          }
+        ],
+        "notes": "H3 Dynamics hydrogen fuel cell systems"
+      },
+      {
+        "category": "mechanical_subsystems",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0018",
+            "line_start": 38,
+            "line_end": 39,
+            "url": "https://uavpropulsiontech.com/all-solutions",
+            "page_class": "capability",
+            "snippet": "### [Servos](https://uavpropulsiontech.com/all-solutions/#Servos)\nHigh-end actuators used in UAVs deployed by aerospace leaders"
+          }
+        ],
+        "notes": "Volz servos (DA15\u2013DA30), MightyZap micro-linear actuators"
+      },
+      {
+        "category": "communications",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0018",
+            "line_start": 53,
+            "line_end": 54,
+            "url": "https://uavpropulsiontech.com/all-solutions",
+            "page_class": "capability",
+            "snippet": "### [Transponders](https://uavpropulsiontech.com/all-solutions/#Transponders)\nMiniaturized ADS-B and RemoteID avionics"
+          }
+        ],
+        "notes": "Aerobits miniaturized ADS-B and Remote ID transponders"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "UAV Propulsion Tech is a US representative/reseller spanning many subsystem categories; primary focus is propulsion by name and historical emphasis"
+  },
+  "headquarters": {
+    "value": {
+      "city": "Tampa",
+      "state_or_province": "Florida",
+      "country": "United States",
+      "address": "1501 W. Horatio St., #102, Tampa, FL 33606"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0017",
+        "line_start": 34,
+        "line_end": 34,
+        "url": "https://uavpropulsiontech.com/about",
+        "page_class": "company",
+        "snippet": "**Address:** 1501 W. Horatio St., #102, Tampa, FL 33606 USA"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "reseller",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0018",
+        "line_start": 22,
+        "line_end": 22,
+        "url": "https://uavpropulsiontech.com/all-solutions",
+        "page_class": "capability",
+        "snippet": "We find the best UAV solution providers outside of the US and offer their solutions into the US and global UAV market."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0017",
+        "line_start": 29,
+        "line_end": 29,
+        "url": "https://uavpropulsiontech.com/about",
+        "page_class": "company",
+        "snippet": "He currently uses this experience to represent several company\u2019s to market their products and services to the US UAV/drone market.\u00a0 The companies represented by UAV Propulsion Tech are detailed in this website.\u00a0 Contact Bob to discuss your UAV hardware needs or if you have any advanced UAV hardware that you would like UAV Propulsion Tech to market."
+      }
+    ],
+    "notes": "Company explicitly describes its model as representing and marketing non-US UAV hardware suppliers to the US market"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Suter TOA288",
+        "product_type": "2-stroke UAV piston engine (288cc twin cylinder)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 103,
+            "line_end": 103,
+            "url": "https://uavpropulsiontech.com/",
+            "page_class": "homepage",
+            "snippet": "Suter TOA288 Engine Utilized by Volansi on their VOLY M20 and VOLY 50 Series Drones"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Suter/CAE UAV Engines (5kW\u201350kW)",
+        "product_type": "2-stroke UAV engine family",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 52,
+            "line_end": 52,
+            "url": "https://uavpropulsiontech.com/",
+            "page_class": "homepage",
+            "snippet": "Advanced 2-stroke UAV Propulsion Solutions from 5kW to 50kW, offered by Suter Industries."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AMT Advanced Micro Turbines",
+        "product_type": "Micro turbines (230N\u20131569N thrust)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 40,
+            "line_end": 40,
+            "url": "https://uavpropulsiontech.com/",
+            "page_class": "homepage",
+            "snippet": "Advanced micro turbines from 230N-1569N. Run on JetA1, JP5, JP8, diesel. Low fuel consumption."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Plettenberg Electric Motors / ESCs / Generators",
+        "product_type": "Electric propulsion motors, ESCs, starters/generators",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0018",
+            "line_start": 26,
+            "line_end": 27,
+            "url": "https://uavpropulsiontech.com/all-solutions",
+            "page_class": "capability",
+            "snippet": "### [Propulsions and Engines](https://uavpropulsiontech.com/all-solutions/#Propulsions-and-Engines)\nAdvanced piston engines, DC motors, generators and micro turbines"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Volz Servos (DA15\u2013DA30 series)",
+        "product_type": "Aerospace-grade servo actuators",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0018",
+            "line_start": 38,
+            "line_end": 39,
+            "url": "https://uavpropulsiontech.com/all-solutions",
+            "page_class": "capability",
+            "snippet": "### [Servos](https://uavpropulsiontech.com/all-solutions/#Servos)\nHigh-end actuators used in UAVs deployed by aerospace leaders"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Embention Autopilots",
+        "product_type": "DO178C/DO254 autopilot systems for UAVs",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0018",
+            "line_start": 32,
+            "line_end": 33,
+            "url": "https://uavpropulsiontech.com/all-solutions",
+            "page_class": "capability",
+            "snippet": "### [Navigation Autopilots](https://uavpropulsiontech.com/all-solutions/#Navigation-Autopilots)\nReliable autopilot systems and MEMS-INS-GPS solutions"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Aeron Systems MEMS-INS-GPS",
+        "product_type": "Inertial navigation system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0018",
+            "line_start": 29,
+            "line_end": 30,
+            "url": "https://uavpropulsiontech.com/all-solutions",
+            "page_class": "capability",
+            "snippet": "### [Fuel and Engine Sensors](https://uavpropulsiontech.com/all-solutions/#Fuel-and-Engine-Sensors \"Fuel and Engine Sensors\")\nHigh-performance sensors for accurate fuel flow, throttle, and temp monitoring"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MERIO TEMIS Gimbals",
+        "product_type": "Gyro-stabilized EO/IR gimbal (<300g to 5kg)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0018",
+            "line_start": 56,
+            "line_end": 57,
+            "url": "https://uavpropulsiontech.com/all-solutions",
+            "page_class": "capability",
+            "snippet": "### [Gimbals](https://uavpropulsiontech.com/all-solutions/#Gimbals)\nGyro-stabilized imaging payloads for accurate monitoring"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Mejzlik Propellers",
+        "product_type": "Carbon fiber COTS and custom UAV propellers",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0018",
+            "line_start": 47,
+            "line_end": 48,
+            "url": "https://uavpropulsiontech.com/all-solutions",
+            "page_class": "capability",
+            "snippet": "### [Propellers](https://uavpropulsiontech.com/all-solutions/#Propellers)\nCOTS and custom propellers engineered for performance and reliability"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "H3 Dynamics Hydrogen Fuel Cell Systems",
+        "product_type": "Integrated hydrogen fuel cell systems for UAVs",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0018",
+            "line_start": 50,
+            "line_end": 51,
+            "url": "https://uavpropulsiontech.com/all-solutions",
+            "page_class": "capability",
+            "snippet": "### [Fuel Cells](https://uavpropulsiontech.com/all-solutions/#Fuel-Cells)\nHydrogen-based propulsion systems for all sorts of UAVs"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Aerobits Transponders",
+        "product_type": "Miniaturized ADS-B and Remote ID avionics",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0018",
+            "line_start": 53,
+            "line_end": 54,
+            "url": "https://uavpropulsiontech.com/all-solutions",
+            "page_class": "capability",
+            "snippet": "### [Transponders](https://uavpropulsiontech.com/all-solutions/#Transponders)\nMiniaturized ADS-B and RemoteID avionics"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ParaZero Ballistic Parachutes",
+        "product_type": "Ballistic parachute recovery system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0018",
+            "line_start": 35,
+            "line_end": 36,
+            "url": "https://uavpropulsiontech.com/all-solutions",
+            "page_class": "capability",
+            "snippet": "### [Parachutes](https://uavpropulsiontech.com/all-solutions/#Parachutes)\nLightweight safety and rescue parachutes"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Fuel Safe UAV Fuel Tank Systems",
+        "product_type": "Bladder and molded UAV fuel tanks",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0018",
+            "line_start": 41,
+            "line_end": 42,
+            "url": "https://uavpropulsiontech.com/all-solutions",
+            "page_class": "capability",
+            "snippet": "### [Fuel Systems](https://uavpropulsiontech.com/all-solutions/#Fuel-Systems)\nTurnkey bladder and molded fuel tanks, integrated with pumps, filters, sensors"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Reventec / Sentronics Sensors",
+        "product_type": "Fuel level sensors, fuel flow sensors, engine sensors",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0018",
+            "line_start": 29,
+            "line_end": 30,
+            "url": "https://uavpropulsiontech.com/all-solutions",
+            "page_class": "capability",
+            "snippet": "### [Fuel and Engine Sensors](https://uavpropulsiontech.com/all-solutions/#Fuel-and-Engine-Sensors \"Fuel and Engine Sensors\")\nHigh-performance sensors for accurate fuel flow, throttle, and temp monitoring"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MightyZap Linear Actuators",
+        "product_type": "Micro-linear servo actuators for UAVs",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0018",
+            "line_start": 38,
+            "line_end": 39,
+            "url": "https://uavpropulsiontech.com/all-solutions",
+            "page_class": "capability",
+            "snippet": "### [Servos](https://uavpropulsiontech.com/all-solutions/#Servos)\nHigh-end actuators used in UAVs deployed by aerospace leaders"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Eli Airborne Systems Pneumatic Launcher",
+        "product_type": "Portable pneumatic UAV launcher (up to 40kg MTOW)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0018",
+            "line_start": 44,
+            "line_end": 45,
+            "url": "https://uavpropulsiontech.com/all-solutions",
+            "page_class": "capability",
+            "snippet": "### [Launchers](https://uavpropulsiontech.com/all-solutions/#Launchers)\nPortable pneumatic launchers and parachute release mechanisms"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "All products are from third-party manufacturers represented by UAV Propulsion Tech; additional product detail pages were skipped in the crawl"
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA Section 848/889 claim in corpus. Products sourced from allied nations with no Chinese-origin components evident, but no explicit NDAA compliance claim made."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS or Blue sUAS mention in corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 37,
+        "line_end": 37,
+        "url": "https://uavpropulsiontech.com/",
+        "page_class": "homepage",
+        "snippet": "These featured solutions include commercial off the shelf (COTs) and custom hardware solutions that are flying on several high-end global UAV platforms. Our website provides more info about the solutions available to the US market."
+      }
+    ],
+    "notes": "Resells COTS and custom production hardware from established manufacturers flying on named global UAV platforms"
+  },
+  "unresolved_questions": [
+    "NDAA Section 848/889 compliance status not disclosed \u2014 products sourced from allied nations but no explicit claim made",
+    "Blue UAS clearance status not mentioned",
+    "Individual product-line pages (engines, servos, motors-generators, turbines, gimbals, fuel-cells, autopilots) skipped in crawl \u2014 specific model numbers/SKUs not fully enumerated"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://uavpropulsiontech.com/engines",
+      "reason": "Product page for Suter engines; would list specific SKUs and may contain NDAA/compliance claims",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "readiness"
+      ],
+      "source_hint": "skipped in crawl_index, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://uavpropulsiontech.com/turbines",
+      "reason": "Product page for AMT micro turbines; would list specific SKUs and thrust ratings",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "skipped in crawl_index, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://uavpropulsiontech.com/motors-generators",
+      "reason": "Product page for Plettenberg motors/ESCs/generators; would list specific model SKUs",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "skipped in crawl_index, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://uavpropulsiontech.com/autopilots",
+      "reason": "Product page for Embention autopilots; may contain NDAA or compliance information",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "readiness"
+      ],
+      "source_hint": "skipped in crawl_index, page_class=product",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Tampa-based reseller of international UAV propulsion and subsystems: 2-stroke engines (5\u201350 kW), micro turbines, electric motors/generators, servos, autopilots, EO/IR gimbals, and sensors from 12+ countries. NDAA and Blue UAS certification status unknown. Public evidence of specific defense contracts or US platform integration limited.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 15,
+    "total_cost_usd": 0.59879065,
+    "created_at": "2026-05-04T07:22:13+00:00",
+    "extract_version": "0.1.0"
+  }
+}

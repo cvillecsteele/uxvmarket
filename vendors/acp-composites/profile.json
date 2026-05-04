@@ -1,0 +1,340 @@
+{
+  "target_id": "acp-composites",
+  "run_id": "canonical",
+  "display_name": "ACP Composites",
+  "homepage_url": "https://acpcomposites.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/acp-composites/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "structures_and_materials",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 414,
+            "line_end": 414,
+            "url": "https://acpcomposites.com",
+            "page_class": "homepage",
+            "snippet": "Our lightweight tubes, laminates, and custom-formed structures are essential for developing UAV airframes, sensor housings, and robotic systems."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0117",
+            "line_start": 225,
+            "line_end": 225,
+            "url": "https://acpcomposites.com/unmanned",
+            "page_class": "other",
+            "snippet": "Fuselages, Empennages, & Nosecones"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 210,
+            "line_end": 210,
+            "url": "https://acpcomposites.com",
+            "page_class": "homepage",
+            "snippet": "AS9100-Certified Custom Composite Manufacturer"
+          }
+        ],
+        "notes": "ACP Composites manufactures custom composite structural parts (sandwich panels, laminates, tubes, fuselages, wings, nosecones) that go into UAV airframes \u2014 explicitly positioned as a supplier to UAS OEMs."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Livermore",
+      "state_or_province": "California",
+      "country": "United States",
+      "address": "78 Lindbergh Avenue"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 476,
+        "line_end": 477,
+        "url": "https://acpcomposites.com",
+        "page_class": "homepage",
+        "snippet": "78 Lindbergh Avenue\nLivermore, CA 94551"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0117",
+        "line_start": 222,
+        "line_end": 224,
+        "url": "https://acpcomposites.com/unmanned",
+        "page_class": "other",
+        "snippet": "WHEN MISSION-CRITICAL MATTERS\n-----------------------------\nACP Composites transforms unmanned systems with high-strength, light-weight\u00a0 composite solutions that deliver. Backed by 40 years of composites experience, we\u00a0 turn complex designs into durable structures that extend range, enhance payload capacity, and elevate mission success. From tactical UAVs to long-endurance platforms, military and commercial teams trust ACP when reliability matters most."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 414,
+        "line_end": 414,
+        "url": "https://acpcomposites.com",
+        "page_class": "homepage",
+        "snippet": "Our lightweight tubes, laminates, and custom-formed structures are essential for developing UAV airframes, sensor housings, and robotic systems."
+      }
+    ],
+    "notes": "ACP makes composite structural parts (panels, tubes, fuselages, wings, nosecones, fairings) that go into drone airframes. They do not design/sell complete platforms."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "AL-X\u00ae Aluminum Honeycomb Carbon Fiber Sandwich Panel",
+        "product_type": "composite sandwich panel",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0080",
+            "line_start": 221,
+            "line_end": 221,
+            "url": "https://acpcomposites.com/category/sandwich-panels/honeycomb-panels",
+            "page_class": "other",
+            "snippet": "    AL-X\u00ae Aluminum Honeycomb Carbon Fiber Sandwich Panel"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AL-X\u00ae Aluminum Honeycomb Sandwich Panels",
+        "product_type": "aluminum honeycomb sandwich panel",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0080",
+            "line_start": 225,
+            "line_end": 225,
+            "url": "https://acpcomposites.com/category/sandwich-panels/honeycomb-panels",
+            "page_class": "other",
+            "snippet": "    AL-X\u00ae Aluminum Honeycomb Sandwich Panels"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "NH-X\u00ae Carbon Fiber Honeycomb Sandwich Panels",
+        "product_type": "Nomex honeycomb / carbon fiber sandwich panel",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0080",
+            "line_start": 229,
+            "line_end": 229,
+            "url": "https://acpcomposites.com/category/sandwich-panels/honeycomb-panels",
+            "page_class": "other",
+            "snippet": "    NH-X\u00ae Carbon Fiber Honeycomb Sandwich Panels"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "NH-X\u00ae Fiberglass Honeycomb Sandwich Panels",
+        "product_type": "Nomex honeycomb / fiberglass sandwich panel",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0080",
+            "line_start": 233,
+            "line_end": 233,
+            "url": "https://acpcomposites.com/category/sandwich-panels/honeycomb-panels",
+            "page_class": "other",
+            "snippet": "    NH-X\u00ae Fiberglass Honeycomb Sandwich Panels"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Carbon Fiber Pultruded Tubing",
+        "product_type": "pultruded carbon fiber tube",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0234",
+            "line_start": 222,
+            "line_end": 222,
+            "url": "https://acpcomposites.com/category/tubes-rods/carbon-fiber-tubes",
+            "page_class": "other",
+            "snippet": "    Carbon Fiber Pultruded Tubing"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Carbon Fiber Twill Roll Wrapped Tubing",
+        "product_type": "roll-wrapped carbon fiber tube",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0234",
+            "line_start": 226,
+            "line_end": 226,
+            "url": "https://acpcomposites.com/category/tubes-rods/carbon-fiber-tubes",
+            "page_class": "other",
+            "snippet": "    Carbon Fiber Twill Roll Wrapped Tubing"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Carbon Fiber Uni Roll Wrapped Tubes",
+        "product_type": "unidirectional roll-wrapped carbon fiber tube",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0234",
+            "line_start": 234,
+            "line_end": 234,
+            "url": "https://acpcomposites.com/category/tubes-rods/carbon-fiber-tubes",
+            "page_class": "other",
+            "snippet": "    Carbon Fiber Uni Roll Wrapped Tubes"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Square Carbon Fiber Roll Wrapped Tubes",
+        "product_type": "square-profile roll-wrapped carbon fiber tube",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0234",
+            "line_start": 239,
+            "line_end": 239,
+            "url": "https://acpcomposites.com/category/tubes-rods/carbon-fiber-tubes",
+            "page_class": "other",
+            "snippet": "    --------------------------------------"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Custom UAV Composite Structures (build-to-print)",
+        "product_type": "custom fuselages, wings, nosecones, fairings, assemblies for UAV",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0117",
+            "line_start": 225,
+            "line_end": 225,
+            "url": "https://acpcomposites.com/unmanned",
+            "page_class": "other",
+            "snippet": "Fuselages, Empennages, & Nosecones"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0117",
+            "line_start": 229,
+            "line_end": 229,
+            "url": "https://acpcomposites.com/unmanned",
+            "page_class": "other",
+            "snippet": "Wings & Stabilizers"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Named SKU families from the online store; many more catalog SKUs exist on skipped pages. Build-to-print custom UAV structural parts are also a major product line."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA Section 848/889 mention anywhere in corpus. ITAR registration is displayed but that is unrelated to NDAA."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 277,
+        "line_end": 277,
+        "url": "https://acpcomposites.com",
+        "page_class": "homepage",
+        "snippet": "*   Small to large-scale production"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 305,
+        "line_end": 307,
+        "url": "https://acpcomposites.com",
+        "page_class": "homepage",
+        "snippet": "*   2,000+ in-stock products\n*   No minimum orders\n*   Rapid fulfillment"
+      }
+    ],
+    "notes": "Online store with 2,000+ in-stock products, rapid fulfillment, and explicit 'small to large-scale production' claim. Also supports prototype-to-production ramp."
+  },
+  "unresolved_questions": [
+    "NDAA Section 848/889 compliance status not disclosed on site",
+    "Additional named product SKUs for prepregs, resins, laminates, and core materials on skipped pages"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://acpcomposites.com/quality",
+      "reason": "Quality/certifications page (compliance class) may contain explicit NDAA or supply-chain compliance claims that would resolve the ndaa field",
+      "expected_evidence": [
+        "ndaa",
+        "blue_uas"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=compliance",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://acpcomposites.com/acp-composites-announces-as9100-certification",
+      "reason": "Compliance page may mention NDAA or component traceability requirements alongside the AS9100 certification announcement",
+      "expected_evidence": [
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=compliance",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "AS9100-certified composite manufacturer producing sandwich panels, laminates, tubes, formed structures, and assemblies for aerospace and unmanned systems. Livermore-based, production-ready supplier with build-to-print and custom fabrication capabilities. NDAA and Blue UAS certification status not publicly confirmed.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 17,
+    "total_cost_usd": 0.43203464999999996,
+    "created_at": "2026-05-03T20:39:20+00:00",
+    "extract_version": "0.1.0"
+  }
+}

@@ -1,0 +1,433 @@
+{
+  "target_id": "crane-aerospace-electronics",
+  "run_id": "canonical",
+  "display_name": "Crane Aerospace & Electronics",
+  "homepage_url": "https://www.craneae.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/crane-aerospace-electronics/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "power_systems",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0257",
+            "line_start": 81,
+            "line_end": 81,
+            "url": "https://www.craneae.com/xmor-product-family",
+            "page_class": "product",
+            "snippet": "Our aerospace and defense industry is ever-evolving, proving out new technology that tests the limits of space exploration and military capability. From low-orbit satellites to deep space missions, long mission drones to advanced next-gen missiles - a broad range of innovations require a broad range of solutions. Meet our new Interpoint 120-watt xMOR product family."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0016",
+            "line_start": 103,
+            "line_end": 105,
+            "url": "https://www.craneae.com/advanced-air-mobility",
+            "page_class": "capability",
+            "snippet": "### Power\nFrom power conversion to power distribution and energy storage, Crane A&E is a premier supplier of custom power solutions for the most challenging applications. We\u2019ve strategically invested in new product development that aligns with all-electric, hybrid-electric and hydrogen fuel cell power architectures. Applicable solutions include:\n*   High Voltage DC-DC Power Conversion"
+          }
+        ],
+        "notes": "Interpoint\u00ae DC-DC converters, xMOR 120W product family explicitly marketed for long-mission drones; high-voltage DC-DC converters supplied to AAM/eVTOL OEMs (Bye Aerospace, Eviation Alice)"
+      },
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0067",
+            "line_start": 82,
+            "line_end": 82,
+            "url": "https://www.craneae.com/fuel-gauging-systems",
+            "page_class": "capability",
+            "snippet": "Crane provides proven fuel gauging solutions from standalone active fuel probes with integrated electronics to complete gauging systems which include cockpit displays, external refuel panels, and optional sensors (level, density & temperature). Crane fuel products ensure accurate and reliable, real-time fuel quantity measurement with a focus on the large commercial, business, regional, helicopter and UAV markets."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0067",
+            "line_start": 89,
+            "line_end": 89,
+            "url": "https://www.craneae.com/fuel-gauging-systems",
+            "page_class": "capability",
+            "snippet": "*   UAVs"
+          }
+        ],
+        "notes": "Fuel gauging systems explicitly target UAV market; proximity sensors for landing gear, doors, and flight control surfaces on AAM platforms. Fit to category is imperfect (not IMU/GNSS/INS) but sensing products are relevant."
+      },
+      {
+        "category": "mechanical_subsystems",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0060",
+            "line_start": 100,
+            "line_end": 101,
+            "url": "https://www.craneae.com/defense-solutions",
+            "page_class": "capability",
+            "snippet": "### Landing Systems\nCrane A&E's Hydro-Aire heritage brand developed the first anti-skid braking system in 1947 and today is a trusted military supplier of brake control systems. A&E's braking solutions are featured on all Boeing military aircraft and recently was selected to provide a brake control redesign for the USAF's fleet of F-16 aircraft."
+          }
+        ],
+        "notes": "Landing systems (brake controls, hydraulics, landing gear controls); fluid management (pumps, valves, thermal management) for AAM platforms"
+      },
+      {
+        "category": "electronic_warfare",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0060",
+            "line_start": 96,
+            "line_end": 96,
+            "url": "https://www.craneae.com/defense-solutions",
+            "page_class": "capability",
+            "snippet": "Crane A&E is a leading supplier of custom Integrated Microwave Assemblies (IMAs) for the defense industry. Our Microwave products support military radar, electronic warfare, signal intelligence and communications. Using our patented Multi-Mix technology, we provide customers smaller, lighter, IMA solutions."
+          }
+        ],
+        "notes": "Integrated Microwave Assemblies (IMAs) support military electronic warfare and signal intelligence"
+      },
+      {
+        "category": "communications",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0060",
+            "line_start": 96,
+            "line_end": 96,
+            "url": "https://www.craneae.com/defense-solutions",
+            "page_class": "capability",
+            "snippet": "Crane A&E is a leading supplier of custom Integrated Microwave Assemblies (IMAs) for the defense industry. Our Microwave products support military radar, electronic warfare, signal intelligence and communications. Using our patented Multi-Mix technology, we provide customers smaller, lighter, IMA solutions."
+          }
+        ],
+        "notes": "Microwave assemblies and RF/IF components for defense and satellite communications systems"
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Lynnwood",
+      "state_or_province": "Washington",
+      "country": "United States",
+      "address": null
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0056",
+        "line_start": 87,
+        "line_end": 87,
+        "url": "https://www.craneae.com/company/locations",
+        "page_class": "contact",
+        "snippet": "Crane Aerospace & Electronics serves customers worldwide through its global network of locations, distributors and representatives. Headquartered just north of Seattle, Crane Aerospace & Electronics has nine main production locations."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0056",
+        "line_start": 90,
+        "line_end": 93,
+        "url": "https://www.craneae.com/company/locations",
+        "page_class": "contact",
+        "snippet": "Corporate HQ\n------------\n Lynnwood, WA\nUnited States"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0257",
+        "line_start": 81,
+        "line_end": 81,
+        "url": "https://www.craneae.com/xmor-product-family",
+        "page_class": "product",
+        "snippet": "Our aerospace and defense industry is ever-evolving, proving out new technology that tests the limits of space exploration and military capability. From low-orbit satellites to deep space missions, long mission drones to advanced next-gen missiles - a broad range of innovations require a broad range of solutions. Meet our new Interpoint 120-watt xMOR product family."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0067",
+        "line_start": 82,
+        "line_end": 82,
+        "url": "https://www.craneae.com/fuel-gauging-systems",
+        "page_class": "capability",
+        "snippet": "Crane provides proven fuel gauging solutions from standalone active fuel probes with integrated electronics to complete gauging systems which include cockpit displays, external refuel panels, and optional sensors (level, density & temperature). Crane fuel products ensure accurate and reliable, real-time fuel quantity measurement with a focus on the large commercial, business, regional, helicopter and UAV markets."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0016",
+        "line_start": 87,
+        "line_end": 89,
+        "url": "https://www.craneae.com/advanced-air-mobility",
+        "page_class": "capability",
+        "snippet": "[Crane A&E Supplying Bye Aerospace New High Voltage Power Converter](https://www.craneae.com/news/news-crane-ae-supplying-bye-aerospace-new-high-voltage-power-converter)\n[Crane A&E to Collaborate with BAE Systems on Power Electronics for Jaunt Air Mo\u2026](https://www.craneae.com/news/news-crane-aerospace-electronics-collaborate-bae-systems-power-electronics-jaunt-air-mobility)\n[Crane A&E Supplying Eviation Alice with New High Voltage Power Converter](https://www.craneae.com/news/news-crane-ae-supplying-eviation-alice-new-high-voltage-power-converter)"
+      }
+    ],
+    "notes": "Makes power converters, sensors, microwave assemblies, and landing systems components that go into UAV/AAM platforms. Confirmed supplier to Bye Aerospace, Eviation Alice, Jaunt Air Mobility, and Heart Aerospace."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "xMOR Product Family",
+        "product_type": "120W DC-DC power converters (cMOR, hMOR, rMOR, sMOR variants)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0257",
+            "line_start": 65,
+            "line_end": 65,
+            "url": "https://www.craneae.com/xmor-product-family",
+            "page_class": "product",
+            "snippet": "xMOR Product Family"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0257",
+            "line_start": 81,
+            "line_end": 81,
+            "url": "https://www.craneae.com/xmor-product-family",
+            "page_class": "product",
+            "snippet": "Our aerospace and defense industry is ever-evolving, proving out new technology that tests the limits of space exploration and military capability. From low-orbit satellites to deep space missions, long mission drones to advanced next-gen missiles - a broad range of innovations require a broad range of solutions. Meet our new Interpoint 120-watt xMOR product family."
+          }
+        ],
+        "notes": "Explicitly marketed for long-mission drones, defense, and space applications"
+      },
+      {
+        "name": "Interpoint\u00ae DC-DC Converters",
+        "product_type": "modular power converters for defense/aerospace",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 34,
+            "line_end": 34,
+            "url": "https://www.craneae.com",
+            "page_class": "homepage",
+            "snippet": "        *   [DC-DC Converters](/modular-power-search?f%5B0%5D=type%3ADC-DC%20Converters \"DC-DC Power Converters\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Interpoint\u00ae EMI Filters",
+        "product_type": "EMI filters for aerospace/defense power systems",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 35,
+            "line_end": 35,
+            "url": "https://www.craneae.com",
+            "page_class": "homepage",
+            "snippet": "        *   [EMI Filters](/modular-power-search?f%5B0%5D=type%3AEMI%20Filters \"EMI Filters\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SmartStem\u00ae",
+        "product_type": "inductive proximity sensor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 16,
+            "line_end": 16,
+            "url": "https://www.craneae.com",
+            "page_class": "homepage",
+            "snippet": "            *   [SmartStem\u00ae](/smartstem \"SmartStem\u00ae\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "FLEXtech\u2122",
+        "product_type": "high-accuracy CAN output proximity sensor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 17,
+            "line_end": 17,
+            "url": "https://www.craneae.com",
+            "page_class": "homepage",
+            "snippet": "            *   [FLEXtech\u2122](/high-accuracy-can-output-proximity-sensor \"FLEXtech\u2122\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Fuel Gauging Systems",
+        "product_type": "fuel quantity measurement systems for UAV and commercial aircraft",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0067",
+            "line_start": 73,
+            "line_end": 73,
+            "url": "https://www.craneae.com/fuel-gauging-systems",
+            "page_class": "capability",
+            "snippet": "Fuel Gauging Systems"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0067",
+            "line_start": 82,
+            "line_end": 82,
+            "url": "https://www.craneae.com/fuel-gauging-systems",
+            "page_class": "capability",
+            "snippet": "Crane provides proven fuel gauging solutions from standalone active fuel probes with integrated electronics to complete gauging systems which include cockpit displays, external refuel panels, and optional sensors (level, density & temperature). Crane fuel products ensure accurate and reliable, real-time fuel quantity measurement with a focus on the large commercial, business, regional, helicopter and UAV markets."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Integrated Microwave Assemblies (IMA)",
+        "product_type": "custom RF/microwave assemblies for defense radar, EW, and communications",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0101",
+            "line_start": 133,
+            "line_end": 133,
+            "url": "https://www.craneae.com/microwave-solutions",
+            "page_class": "capability",
+            "snippet": "-------------------------------"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0060",
+            "line_start": 96,
+            "line_end": 96,
+            "url": "https://www.craneae.com/defense-solutions",
+            "page_class": "capability",
+            "snippet": "Crane A&E is a leading supplier of custom Integrated Microwave Assemblies (IMAs) for the defense industry. Our Microwave products support military radar, electronic warfare, signal intelligence and communications. Using our patented Multi-Mix technology, we provide customers smaller, lighter, IMA solutions."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "High Voltage DC-DC Power Converter",
+        "product_type": "high voltage power converter for AAM/eVTOL aircraft",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0016",
+            "line_start": 87,
+            "line_end": 87,
+            "url": "https://www.craneae.com/advanced-air-mobility",
+            "page_class": "capability",
+            "snippet": "[Crane A&E Supplying Bye Aerospace New High Voltage Power Converter](https://www.craneae.com/news/news-crane-ae-supplying-bye-aerospace-new-high-voltage-power-converter)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0016",
+            "line_start": 108,
+            "line_end": 108,
+            "url": "https://www.craneae.com/advanced-air-mobility",
+            "page_class": "capability",
+            "snippet": "[Learn more about our HV DC-DC Power Converter](https://www.craneae.com/high-voltage-dc-dc-converter \"Electrical Power Solutions\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Brake Control System",
+        "product_type": "anti-skid brake control system for military/commercial aircraft",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0060",
+            "line_start": 101,
+            "line_end": 101,
+            "url": "https://www.craneae.com/defense-solutions",
+            "page_class": "capability",
+            "snippet": "Crane A&E's Hydro-Aire heritage brand developed the first anti-skid braking system in 1947 and today is a trusted military supplier of brake control systems. A&E's braking solutions are featured on all Boeing military aircraft and recently was selected to provide a brake control redesign for the USAF's fleet of F-16 aircraft."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0034",
+        "line_start": 67,
+        "line_end": 67,
+        "url": "https://www.craneae.com/company/about-crane-ae",
+        "page_class": "company",
+        "snippet": "We are over 2000 employees, working together in multiple locations worldwide to give manufacturers and airlines one integrated source for sensing, power, braking, electronics and more. We deliver innovative design and manufacturing engineering capabilities for rugged commercial aviation, defense and space applications."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0150",
+        "line_start": 88,
+        "line_end": 88,
+        "url": "https://www.craneae.com/quality",
+        "page_class": "compliance",
+        "snippet": "Total quality is built into each step of the design and manufacture of our products through the use of structured procedures, Operational Excellence and employee participation. Reflecting our commitment to quality, all Crane Aerospace & Electronics sites have quality management systems certified to ISO 9001 and AS9100, as shown in the table below for each location."
+      }
+    ],
+    "notes": "2,000+ employees, nine production facilities across multiple countries, ISO 9001/AS9100 certified at all sites, serving major OEMs (Boeing, Airbus, USAF) at production scale with listed catalog product families"
+  },
+  "unresolved_questions": [
+    "NDAA Section 848/889 compliance status not disclosed on site",
+    "Blue UAS/Blue sUAS clearance status not mentioned"
+  ],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Crane supplies DC-DC converters (xMOR, Interpoint families), fuel gauging systems, integrated microwave assemblies, and sensors for aerospace/defense platforms including UAVs and advanced air mobility. Production-ready across power, RF, and sensing domains. NDAA and Blue UAS certification status unknown; no major UAS platform wins documented in public record.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 16,
+    "total_cost_usd": 0.5872107999999999,
+    "created_at": "2026-05-04T01:32:46+00:00",
+    "extract_version": "0.1.0"
+  }
+}

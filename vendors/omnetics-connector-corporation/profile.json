@@ -1,0 +1,341 @@
+{
+  "target_id": "omnetics-connector-corporation",
+  "run_id": "canonical",
+  "display_name": "Omnetics Connector Corporation",
+  "homepage_url": "https://www.omnetics.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/omnetics-connector-corporation/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "mechanical_subsystems",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0338",
+            "line_start": 81,
+            "line_end": 81,
+            "url": "https://www.omnetics.com/about",
+            "page_class": "company",
+            "snippet": "Omnetics Connector Corporation is a privately held connector design and manufacturing company with over 40 years of experience. Omnetics is focused on Micro-miniature and Nano-miniature high reliability electronic connectors and interconnection systems. Our products are designed and assembled at our plant in Minneapolis, Minnesota that includes in-house automatic machining and over-molding equipment."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 115,
+            "line_end": 115,
+            "url": "https://www.omnetics.com",
+            "page_class": "homepage",
+            "snippet": "Omnetics is a\u00a0world-class miniature connector design and manufacturing company with over 30 years of experience, focused on Micro-miniature and Nano-miniature highly reliable electronic connectors and interconnection systems. Our miniature connectors are designed and assembled in a single location at our plant in Minneapolis, Minnesota. **We take pride in what we build for you.**"
+          }
+        ],
+        "notes": "Omnetics manufactures micro- and nano-miniature electronic connectors and cable assemblies \u2014 electromechanical interconnect components used across drone and aerospace platforms."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Minneapolis",
+      "state_or_province": "Minnesota",
+      "country": "United States",
+      "address": "8840 Evergreen Blvd"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 240,
+        "line_end": 241,
+        "url": "https://www.omnetics.com",
+        "page_class": "homepage",
+        "snippet": "8840 Evergreen Blvd,\nMinneapolis, MN - 55433"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 245,
+        "line_end": 245,
+        "url": "https://www.omnetics.com",
+        "page_class": "homepage",
+        "snippet": "Omnetics Connector Corporation | 8840 Evergreen Blvd | Minneapolis MN - 55433"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 49,
+        "line_end": 49,
+        "url": "https://www.omnetics.com",
+        "page_class": "homepage",
+        "snippet": "    *   [UAV\u2019s](https://www.omnetics.com/industries/uavs/)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0338",
+        "line_start": 81,
+        "line_end": 81,
+        "url": "https://www.omnetics.com/about",
+        "page_class": "company",
+        "snippet": "Omnetics Connector Corporation is a privately held connector design and manufacturing company with over 40 years of experience. Omnetics is focused on Micro-miniature and Nano-miniature high reliability electronic connectors and interconnection systems. Our products are designed and assembled at our plant in Minneapolis, Minnesota that includes in-house automatic machining and over-molding equipment."
+      }
+    ],
+    "notes": "Sells miniature connector components (Nano-D, Micro-D, circulars, etc.) used in UAV/eVTOL platforms among other high-reliability industries. UAV's listed explicitly as a served industry."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Nano-D / Bi-Lobe\u00ae connectors",
+        "product_type": "miniature D-sub connector, MIL-DTL-32139 QPL",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0885",
+            "line_start": 79,
+            "line_end": 79,
+            "url": "https://www.omnetics.com/products/nano-d",
+            "page_class": "product",
+            "snippet": "We offer our highly reliable Bi-Lobe\u00ae / Nano-D connectors in many variations to help you find solutions for your needs."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Micro-D connectors",
+        "product_type": "miniature D-sub connector, MIL-DTL-83513 QPL",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0338",
+            "line_start": 113,
+            "line_end": 114,
+            "url": "https://www.omnetics.com/about",
+            "page_class": "company",
+            "snippet": "### Micro-D\n[166 products](https://www.omnetics.com/product-category/connectors/micro-d/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Micro Strip connectors",
+        "product_type": "miniature strip connector",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 87,
+            "line_end": 88,
+            "url": "https://www.omnetics.com",
+            "page_class": "homepage",
+            "snippet": "### Micro Strip\n[21 products](https://www.omnetics.com/product-category/connectors/micro-strip/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Nano Strip connectors",
+        "product_type": "nano-miniature strip connector",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 95,
+            "line_end": 96,
+            "url": "https://www.omnetics.com",
+            "page_class": "homepage",
+            "snippet": "### Nano Strip\n[10 products](https://www.omnetics.com/product-category/connectors/nano-strip/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Micro Circular connectors",
+        "product_type": "micro circular connector",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 99,
+            "line_end": 100,
+            "url": "https://www.omnetics.com",
+            "page_class": "homepage",
+            "snippet": "### Micro Circular\n[22 products](https://www.omnetics.com/product-category/connectors/micro-circular/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Nano Circular connectors",
+        "product_type": "nano circular connector",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 103,
+            "line_end": 104,
+            "url": "https://www.omnetics.com",
+            "page_class": "homepage",
+            "snippet": "### Nano Circular\n[16 products](https://www.omnetics.com/product-category/connectors/nano-circular/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "High Speed connectors",
+        "product_type": "high-speed miniature connector",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 107,
+            "line_end": 108,
+            "url": "https://www.omnetics.com",
+            "page_class": "homepage",
+            "snippet": "### High Speed\n[28 products](https://www.omnetics.com/product-category/connectors/high-speed/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "COTS & Standards connectors",
+        "product_type": "commercial off-the-shelf miniature connectors",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 111,
+            "line_end": 112,
+            "url": "https://www.omnetics.com",
+            "page_class": "homepage",
+            "snippet": "### COTS & Standards\n[904 products](https://www.omnetics.com/product-category/connectors/cots-standards/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "IP68 connectors",
+        "product_type": "waterproof/sealed miniature connector",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0881",
+            "line_start": 79,
+            "line_end": 79,
+            "url": "https://www.omnetics.com/products/ip68",
+            "page_class": "product",
+            "snippet": "Omnetics\u2019 designs these connectors to meet or exceed IP68 specifications. Find a solution that\u2019ll meet the demands of being in a harsh environment."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Power & Signal Hybrid connectors",
+        "product_type": "hybrid power/signal connector",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0338",
+            "line_start": 129,
+            "line_end": 130,
+            "url": "https://www.omnetics.com/about",
+            "page_class": "company",
+            "snippet": "### Power & Signal Hybrids\n[60 products](https://www.omnetics.com/product-category/connectors/power-signal-hybrids/)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Product catalog exceeds 900 individual SKUs across these families. Cable assemblies and accessories also offered."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0338",
+        "line_start": 83,
+        "line_end": 83,
+        "url": "https://www.omnetics.com/about",
+        "page_class": "company",
+        "snippet": "Proudly engineered and built in USA"
+      }
+    ],
+    "notes": "Site claims 'Proudly engineered and built in USA' and all manufacturing is in Minneapolis, MN, but no explicit NDAA Section 848/889 compliance statement appears anywhere in the corpus."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No mention of Blue UAS or Blue sUAS anywhere in the corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0338",
+        "line_start": 86,
+        "line_end": 86,
+        "url": "https://www.omnetics.com/about",
+        "page_class": "company",
+        "snippet": "Omnetics maintains a large off-the-shelf (COTs) inventory. We have a catalog offering a wide range of standard designs and also specialize in customized high-reliability miniature and Nano-sized interconnects. Our worldwide distribution and sales team is experienced in supporting both standard and customized designs for connector miniaturization to form, fit and function."
+      }
+    ],
+    "notes": "Large COTS inventory with 900+ listed catalog SKUs; products shipped from stock. Engineering/custom design services are a secondary offering."
+  },
+  "unresolved_questions": [
+    "No NDAA Section 848/889 explicit compliance statement found despite USA manufacturing claim",
+    "UAV-specific product page (omnetics.com/industries/uavs/) was not fetched \u2014 would confirm UAV-specific connector models"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.omnetics.com/industries/uavs/",
+      "reason": "Would confirm UAV-specific connector models and applications, sharpening drone_supply_chain_role and products evidence",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "linked from nav menu on every fetched page",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "complete",
+  "tagline": "Designs and manufactures subminiature connectors (Nano-D, Micro-D, micro/nano circular and strip families) for aerospace, defense, and unmanned systems; multiple product lines hold MIL-DTL QPL qualification. NDAA and Blue UAS certification status not publicly documented.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 19,
+    "total_cost_usd": 0.5654266499999999,
+    "created_at": "2026-05-04T04:49:36+00:00",
+    "extract_version": "0.1.0"
+  }
+}

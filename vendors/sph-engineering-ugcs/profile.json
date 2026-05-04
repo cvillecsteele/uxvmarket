@@ -1,0 +1,363 @@
+{
+  "target_id": "sph-engineering-ugcs",
+  "run_id": "canonical",
+  "display_name": "SPH Engineering (UgCS)",
+  "homepage_url": "https://www.sphengineering.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/sph-engineering-ugcs/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "ground_segment",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 836,
+            "line_end": 837,
+            "url": "https://www.sphengineering.com",
+            "page_class": "homepage",
+            "snippet": "**Creator of UgCS software\n**Leading mission planning and flight control software used worldwide"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0154",
+            "line_start": 405,
+            "line_end": 406,
+            "url": "https://www.sphengineering.com/about",
+            "page_class": "company",
+            "snippet": "*   **UgCS: Flight Planning & Control**\n    One of the world's leading flight-planning software for complex drone surveys."
+          }
+        ],
+        "notes": "UgCS is their flagship mission planning and flight control software used worldwide; also UgCS Commander (fleet ops), DroneGIS, GeoHammer."
+      },
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0221",
+            "line_start": 431,
+            "line_end": 431,
+            "url": "https://www.sphengineering.com/integrated-systems/skyhub",
+            "page_class": "capability",
+            "snippet": "**SkyHub** is a drone onboard computer that extends the capabilities of commercial-off-the-shelf UAVs for industrial sensing and automation. Acting as the central hub between the flight controller and payloads, it enables secure data handling, synchronized geotagging, and seamless drone payload integration."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 161,
+            "line_end": 168,
+            "url": "https://www.sphengineering.com",
+            "page_class": "homepage",
+            "snippet": "GPRs\n[](/integrated-systems/technologies/gpr)\nMagnetometers\n[](/integrated-systems/technologies/magnetometer)\nGamma-Ray Spectrometers\n[](https://shop.sphengineering.com/collections/gamma-ray-spectrometers)\nEcho Sounders\n[](/integrated-systems/technologies/echo-sounder)"
+          }
+        ],
+        "notes": "SkyHub onboard computer for sensor integration; drone-mounted magnetometers, GPRs, echo sounders, methane detectors, gamma-ray spectrometers."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Riga",
+      "state_or_province": null,
+      "country": "Latvia",
+      "address": "Dzirnavu 62-9, Riga, LV-1050, Latvia"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0154",
+        "line_start": 403,
+        "line_end": 403,
+        "url": "https://www.sphengineering.com/about",
+        "page_class": "company",
+        "snippet": "Founded in 2013 in Latvia (EU), SPH Engineering has a **global customer and partner network** in over 150 countries."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0199",
+        "line_start": 407,
+        "line_end": 407,
+        "url": "https://www.sphengineering.com/contacts",
+        "page_class": "contact",
+        "snippet": "*   Dzirnavu 62-9, Riga, LV-1050, Latvia"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0154",
+        "line_start": 402,
+        "line_end": 403,
+        "url": "https://www.sphengineering.com/about",
+        "page_class": "company",
+        "snippet": "**SPH Engineering is an expert in drone technology development**, providing UAV software solutions, integration services, and custom development to advance drone applications for **surveying**, **data collection and processing**, and **entertainment**.\nFounded in 2013 in Latvia (EU), SPH Engineering has a **global customer and partner network** in over 150 countries."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 400,
+        "line_end": 402,
+        "url": "https://www.sphengineering.com",
+        "page_class": "homepage",
+        "snippet": "Complete Drone-Based Solutions for Surveying, Inspection & Mapping\n==================================================================\nFrom software to sensors to mission automation \u2014 SPH Engineering delivers integrated drone systems tailored to your business needs"
+      }
+    ],
+    "notes": "Sells UgCS GCS software, SkyHub companion computer, and integrated drone payload sensor systems. Does not manufacture complete drones."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "UgCS",
+        "product_type": "drone mission planning & flight control software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 114,
+            "line_end": 115,
+            "url": "https://www.sphengineering.com",
+            "page_class": "homepage",
+            "snippet": "UgCS\nFlight Planning & Control"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "UgCS Commander",
+        "product_type": "multi-drone fleet operations software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 148,
+            "line_end": 150,
+            "url": "https://www.sphengineering.com",
+            "page_class": "homepage",
+            "snippet": "UgCS Commander\nMulti-Drone Fleet Operations\n[](/flight-planning/ugcs-commander)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SkyHub",
+        "product_type": "drone onboard computer for sensor/payload integration",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0221",
+            "line_start": 408,
+            "line_end": 408,
+            "url": "https://www.sphengineering.com/integrated-systems/skyhub",
+            "page_class": "capability",
+            "snippet": "SkyHub: Drone Onboard Computer for Secure Payload & Sensor Integration"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "GeoHammer",
+        "product_type": "multi-sensor geophysical data processing software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 151,
+            "line_end": 153,
+            "url": "https://www.sphengineering.com",
+            "page_class": "homepage",
+            "snippet": "GeoHammer\nMulti-Sensor Data Processing\n[](https://shop.sphengineering.com/products/geohammer-pro)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DroneGIS",
+        "product_type": "online GIS platform for surveyors and geophysicists",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 154,
+            "line_end": 156,
+            "url": "https://www.sphengineering.com",
+            "page_class": "homepage",
+            "snippet": "DroneGIS\nOnline GIS for Surveyors and Geophysicists\n[](/data-processing/dronegis)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Drone Show Software",
+        "product_type": "drone light show design and control software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 110,
+            "line_end": 110,
+            "url": "https://www.sphengineering.com",
+            "page_class": "homepage",
+            "snippet": "Drone Show Technologies by SPH empower creators to design, animate, and control breathtaking drone light shows."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "GPR integrated systems",
+        "product_type": "drone-mounted ground penetrating radar systems",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 161,
+            "line_end": 162,
+            "url": "https://www.sphengineering.com",
+            "page_class": "homepage",
+            "snippet": "GPRs\n[](/integrated-systems/technologies/gpr)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Drone magnetometers",
+        "product_type": "drone-mounted magnetometer sensor systems",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 163,
+            "line_end": 164,
+            "url": "https://www.sphengineering.com",
+            "page_class": "homepage",
+            "snippet": "Magnetometers\n[](/integrated-systems/technologies/magnetometer)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Echo sounder systems",
+        "product_type": "drone-mounted echo sounder / bathymetry systems",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 167,
+            "line_end": 168,
+            "url": "https://www.sphengineering.com",
+            "page_class": "homepage",
+            "snippet": "Echo Sounders\n[](/integrated-systems/technologies/echo-sounder)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Methane detectors",
+        "product_type": "drone-mounted methane detection sensor systems",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 181,
+            "line_end": 182,
+            "url": "https://www.sphengineering.com",
+            "page_class": "homepage",
+            "snippet": "Methane Detectors\n[](/integrated-systems/technologies/methane-detection)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Core product lines identified from homepage and about page. Additional specific sensor SKUs may exist on shop.sphengineering.com (not fully crawled)."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA compliance claim found. One news article references 'NDAA Compliant drones' as a US customer requirement but makes no compliance claim for SPH's own products. SPH Engineering is a Latvian company."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS / Blue sUAS mention found anywhere in the corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 998,
+        "line_end": 999,
+        "url": "https://www.sphengineering.com",
+        "page_class": "homepage",
+        "snippet": "Shop\n[UgCS](https://shop.sphengineering.com/ugcs-pricing)[Drone Payloads](https://shop.sphengineering.com/collections/integrated-systems)[Drone Show Technologies](https://shop.sphengineering.com/collections/drone-show-technologies)"
+      }
+    ],
+    "notes": "Active online shop (shop.sphengineering.com) with listed products and pricing; downloadable software; hardware products with datasheets and user manuals."
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [
+    {
+      "url": "https://shop.sphengineering.com/collections/integrated-systems",
+      "reason": "Would enumerate specific sensor SKUs (GPR models, magnetometer models, echo sounder models) sold by SPH Engineering, helping confirm product names and production readiness.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_out_of_scope, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://shop.sphengineering.com/ugcs-pricing",
+      "reason": "Would confirm UgCS pricing tiers and licensing model, reinforcing production readiness.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_out_of_scope, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Ground-control and sensor-integration software (UgCS, UgCS Commander, GeoHammer, DroneGIS) plus onboard computing hardware (SkyHub) and specialized payloads (magnetometers, GPR, methane detectors, echo sounders) for commercial drone operations in surveying, inspection, utilities, and mining. Latvia-based; production-ready. NDAA and Blue UAS certification status unknown. No visible US government contracts in public record.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 19,
+    "total_cost_usd": 0.83145865,
+    "created_at": "2026-05-04T06:32:31+00:00",
+    "extract_version": "0.1.0"
+  }
+}

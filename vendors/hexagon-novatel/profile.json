@@ -1,0 +1,472 @@
+{
+  "target_id": "hexagon-novatel",
+  "run_id": "canonical",
+  "display_name": "Hexagon | NovAtel",
+  "homepage_url": "https://novatel.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/hexagon-novatel/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0229",
+            "line_start": 434,
+            "line_end": 434,
+            "url": "https://novatel.com/products/gnss-inertial-navigation-systems/combined-systems/cpt7700",
+            "page_class": "product",
+            "snippet": "It provides tactical grade performance for unmanned vehicles, mobile mapping and other commercial and military guidance applications. The CPT7700 is a small, lightweight and low-power solution with multiple communication interfaces for easy integration on various platforms. The deep coupling of GNSS and INS measurements enhances satellite tracking and enables the most continuous positioning possible."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0241",
+            "line_start": 434,
+            "line_end": 434,
+            "url": "https://novatel.com/products/gnss-inertial-navigation-systems/imus/hg4930",
+            "page_class": "product",
+            "snippet": "NovAtel\u2019s Synchronous Position, Attitude and Navigation (SPAN) technology can be integrated with this IMU to provide accurate 3D position, velocity and attitude data in a compact package. This combination makes the IMU ideal to use in airborne, marine and ground applications."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0235",
+            "line_start": 431,
+            "line_end": 433,
+            "url": "https://novatel.com/products/gnss-inertial-navigation-systems/imus",
+            "page_class": "product",
+            "snippet": "SPAN\u00ae Inertial Measurement Units (IMUs)\n---------------------------------------\nSPAN technology deeply couples NovAtel's GNSS receiver technology with an Inertial Measurement Unit (IMU). We market a variety of IMUs from leading IMU manufacturers to provide our customers the opportunity to select an IMU that delivers the accuracy or price point their application requires."
+          }
+        ],
+        "notes": "Core business: GNSS receivers, GNSS+INS combined systems, IMUs, and GNSS antennas marketed explicitly for unmanned vehicles and precision navigation."
+      },
+      {
+        "category": "electronic_warfare",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 473,
+            "line_end": 475,
+            "url": "https://novatel.com",
+            "page_class": "homepage",
+            "snippet": "### [Anti-jam Antenna Systems (GAJT)](/products/anti-jam-antenna-systems-gajt)\nProtection for every platform. GNSS Anti-Jam Technology (GAJT) antenna systems are battle-proven assured positioning, navigation and timing (APNT) solutions.\n[Learn More](/products/anti-jam-antenna-systems-gajt \"Learn More\")"
+          }
+        ],
+        "notes": "GAJT anti-jam antenna product line and GRIT GNSS Resilience & Integrity Technology (spoofing detection, interference toolkit) are explicitly EW/counter-jamming products."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Calgary",
+      "state_or_province": "Alberta",
+      "country": "Canada",
+      "address": "10921 14th Street NE"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0166",
+        "line_start": 441,
+        "line_end": 445,
+        "url": "https://novatel.com/contact-us",
+        "page_class": "contact",
+        "snippet": "### NovAtel Inc.\nHexagon Calgary Campus\n10921 14th Street NE,\nCalgary, Alberta, Canada\nT3K 2L5"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0229",
+        "line_start": 434,
+        "line_end": 434,
+        "url": "https://novatel.com/products/gnss-inertial-navigation-systems/combined-systems/cpt7700",
+        "page_class": "product",
+        "snippet": "It provides tactical grade performance for unmanned vehicles, mobile mapping and other commercial and military guidance applications. The CPT7700 is a small, lightweight and low-power solution with multiple communication interfaces for easy integration on various platforms. The deep coupling of GNSS and INS measurements enhances satellite tracking and enables the most continuous positioning possible."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0241",
+        "line_start": 434,
+        "line_end": 434,
+        "url": "https://novatel.com/products/gnss-inertial-navigation-systems/imus/hg4930",
+        "page_class": "product",
+        "snippet": "NovAtel\u2019s Synchronous Position, Attitude and Navigation (SPAN) technology can be integrated with this IMU to provide accurate 3D position, velocity and attitude data in a compact package. This combination makes the IMU ideal to use in airborne, marine and ground applications."
+      }
+    ],
+    "notes": "Sells GNSS receivers, IMUs, GNSS+INS enclosures, and GNSS antennas that integrate into drone navigation systems. Products explicitly marketed for unmanned vehicles."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "CPT7",
+        "product_type": "Dual-antenna GNSS+INS combined enclosure",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0228",
+            "line_start": 430,
+            "line_end": 430,
+            "url": "https://novatel.com/products/gnss-inertial-navigation-systems/combined-systems/cpt7",
+            "page_class": "product",
+            "snippet": "Dual-antenna CPT7 enclosure with GNSS+INS technology"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "CPT7700",
+        "product_type": "Single-antenna GNSS+INS combined enclosure",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0229",
+            "line_start": 430,
+            "line_end": 430,
+            "url": "https://novatel.com/products/gnss-inertial-navigation-systems/combined-systems/cpt7700",
+            "page_class": "product",
+            "snippet": "Single-antenna CPT7700 enclosure with GNSS+INS technology"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "PwrPak7-E1",
+        "product_type": "GNSS+INS OEM7 enclosure",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0227",
+            "line_start": 435,
+            "line_end": 437,
+            "url": "https://novatel.com/products/gnss-inertial-navigation-systems/combined-systems",
+            "page_class": "product",
+            "snippet": "### PwrPak7-E1\nThe PwrPak7-E1 is a compact OEM7\u2122 enclosure that delivers NovAtel's leading SPAN\u00ae GNSS+INS technology.\n[Learn More](/products/gnss-inertial-navigation-systems/combined-systems/pwrpak7-e1 \"PwrPak7-E1\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "PwrPak7-E2",
+        "product_type": "GNSS+INS OEM7 enclosure",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0227",
+            "line_start": 443,
+            "line_end": 445,
+            "url": "https://novatel.com/products/gnss-inertial-navigation-systems/combined-systems",
+            "page_class": "product",
+            "snippet": "### PwrPak7-E2\nThe PwrPak7-E2 is an advanced OEM receiver that provides an all-constellation, multi-frequency positioning solution.\n[Learn More](/products/gnss-inertial-navigation-systems/combined-systems/pwrpak7-e2 \"PwrPak7-E2\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "PwrPak7D-E1",
+        "product_type": "Dual-antenna GNSS+INS OEM7 enclosure",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0227",
+            "line_start": 439,
+            "line_end": 441,
+            "url": "https://novatel.com/products/gnss-inertial-navigation-systems/combined-systems",
+            "page_class": "product",
+            "snippet": "### PwrPak7D-E1\u2122\nA compact dual antenna enclosure that delivers NovAtel\u2019s leading SPAN\u00ae GNSS+INS technology.\n[Learn More](/products/gnss-inertial-navigation-systems/combined-systems/pwrpak7d-e1 \"PwrPak7D-E1\u2122\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "PwrPak7D-E2",
+        "product_type": "Dual-antenna GNSS+INS OEM7 enclosure",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0227",
+            "line_start": 447,
+            "line_end": 449,
+            "url": "https://novatel.com/products/gnss-inertial-navigation-systems/combined-systems",
+            "page_class": "product",
+            "snippet": "### PwrPak7D-E2\nThe PwrPak7D-E2 is an advanced OEM7\u00ae dual antenna SPAN\u00ae GNSS+INS enclosure that provides improved performance and higher data rate.\n[Learn More](/products/gnss-inertial-navigation-systems/combined-systems/pwrpak7d-e2 \"PwrPak7D-E2\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HG4930",
+        "product_type": "MEMS IMU for unmanned vehicles and guidance",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0241",
+            "line_start": 430,
+            "line_end": 430,
+            "url": "https://novatel.com/products/gnss-inertial-navigation-systems/imus/hg4930",
+            "page_class": "product",
+            "snippet": "HG4930"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "LN200",
+        "product_type": "Tactical-grade IMU",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0235",
+            "line_start": 459,
+            "line_end": 461,
+            "url": "https://novatel.com/products/gnss-inertial-navigation-systems/imus",
+            "page_class": "product",
+            "snippet": "### LN200\nTactical grade, low noise IMU combines with NovAtel\u2019s GNSS technology to provide 3D position, velocity and attitude solution.\n[Learn More](/products/gnss-inertial-navigation-systems/imus/ln200 \"LN200\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ISA-100C",
+        "product_type": "Tactical-grade high-performance IMU",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0235",
+            "line_start": 463,
+            "line_end": 465,
+            "url": "https://novatel.com/products/gnss-inertial-navigation-systems/imus",
+            "page_class": "product",
+            "snippet": "### ISA-100C\nHigh performance tactical grade IMU combines with NovAtel's GNSS technology to deliver 3D position, velocity and attitude solutions.\n[Learn More](/products/gnss-inertial-navigation-systems/imus/isa-100c \"ISA-100C\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "GAJT-AE3",
+        "product_type": "Anti-jam GNSS antenna for airborne applications",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 436,
+            "line_end": 437,
+            "url": "https://novatel.com",
+            "page_class": "homepage",
+            "snippet": "For the first time, you can protect your operations from jamming in any GNSS frequency with the new GAJT-AE3.\n[Find out how](/products/anti-jam-antenna-systems-gajt/gajt-ae3-anti-jam-antenna)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "OEM7 Receivers",
+        "product_type": "GNSS receiver board family",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 465,
+            "line_end": 467,
+            "url": "https://novatel.com",
+            "page_class": "homepage",
+            "snippet": "### [OEM7 Receivers](/products/receivers)\nOEM GNSS receiver platforms set the standard in positioning performance, features and ease of integration.\n[Explore Receivers](/products/receivers \"Learn More\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TerraStar Correction Services",
+        "product_type": "GNSS correction service (PPP/RTK)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 469,
+            "line_end": 471,
+            "url": "https://novatel.com",
+            "page_class": "homepage",
+            "snippet": "### [Correction Services](/products/gps-gnss-correction-services)\nOur GPS and GNSS correction services unlock real-time, high-precision positioning accuracy for applications around the world.\n[Learn More](/products/gps-gnss-correction-services \"Learn More\")"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Inertial Explorer",
+        "product_type": "GNSS+INS post-processing software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 52,
+            "line_end": 52,
+            "url": "https://novatel.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Inertial Explorer](/products/waypoint-post-processing-software/inertial-explorer)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "VEXXIS Series Antennas",
+        "product_type": "High-precision GNSS antenna family",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 15,
+            "line_end": 15,
+            "url": "https://novatel.com",
+            "page_class": "homepage",
+            "snippet": "        *   [VEXXIS\u00ae Series Antennas](/products/gps-gnss-antennas/vexxis-series-antennas)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "GRIT",
+        "product_type": "GNSS Resilience and Integrity Technology",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 31,
+            "line_end": 31,
+            "url": "https://novatel.com",
+            "page_class": "homepage",
+            "snippet": "    *   [GRIT - GNSS Resilience and Integrity Technology](/products/grit)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Many more products exist on skipped pages. Listed here are confirmed named SKUs from fetched pages."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0228",
+        "line_start": 449,
+        "line_end": 449,
+        "url": "https://novatel.com/products/gnss-inertial-navigation-systems/combined-systems/cpt7",
+        "page_class": "product",
+        "snippet": "*   Commercially exportable system (non-ITAR)"
+      }
+    ],
+    "notes": "Products advertised as non-ITAR / commercially exportable, but no explicit NDAA Section 848/889 claim found. NovAtel Compliance detail page was skipped."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS / Blue sUAS claim found in any fetched page."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0228",
+        "line_start": 436,
+        "line_end": 436,
+        "url": "https://novatel.com/products/gnss-inertial-navigation-systems/combined-systems/cpt7",
+        "page_class": "product",
+        "snippet": "[Buy now](https://shop.novatel.com/s/gnss-inertial-navigation-systems/cpt7)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0229",
+        "line_start": 436,
+        "line_end": 436,
+        "url": "https://novatel.com/products/gnss-inertial-navigation-systems/combined-systems/cpt7700",
+        "page_class": "product",
+        "snippet": "[Buy now](https://shop.novatel.com/s/gnss-inertial-navigation-systems/cpt7700)"
+      }
+    ],
+    "notes": "Products available for immediate purchase via shop.novatel.com with Buy now links and catalog SKUs."
+  },
+  "unresolved_questions": [
+    "NDAA Section 848/889 compliance status not confirmed - NovAtel Compliance detail page was skipped",
+    "Blue UAS cleared list status unknown",
+    "Full GNSS receiver board product lineup not enumerated"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://novatel.com/products/novatel-compliance",
+      "reason": "Would show NovAtel's specific compliance certifications including potential NDAA Section 848/889 status.",
+      "expected_evidence": [
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://novatel.com/industries/unmanned-systems",
+      "reason": "Would confirm specific drone/UAS product applications and possibly mention Blue UAS or NDAA compliance.",
+      "expected_evidence": [
+        "products_categories",
+        "drone_supply_chain_role",
+        "ndaa",
+        "blue_uas"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://novatel.com/products/receivers",
+      "reason": "Would enumerate the full OEM7 GNSS receiver board product line (major product category only partially represented in corpus).",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "GNSS/inertial navigation and positioning components for unmanned systems: receivers, IMUs, antennas (including anti-jam CRPA variants), and post-processing software. Notable products include PwrPak7 series inertial navigation systems and GRIT spoofing/interference detection technology. NDAA compliance status and Blue UAS certification unclear from public sources. Canadian-headquartered subsidiary of Hexagon.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 30,
+    "total_cost_usd": 1.0459337,
+    "created_at": "2026-05-04T03:16:01+00:00",
+    "extract_version": "0.1.0"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "target_id": "sky-drones-technologies",
+  "run_id": "canonical",
+  "display_name": "Sky-Drones Technologies",
+  "homepage_url": "https://sky-drones.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/sky-drones-technologies/website",
+  "products": [],
+  "unresolved_questions": [
+    "The only crawled URL (https://sky-drones.com) failed to fetch, leaving zero text in the corpus. No product information could be extracted. Sky-Drones Technologies is categorized as 'communications' in the crawl target metadata, but no product pages, product names, or capability descriptions are available to enumerate SKUs or families."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://sky-drones.com",
+      "reason": "Homepage fetch failed; need at least the homepage to discover product links and begin enumeration.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=failed, page_class=homepage, resource-0001",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://sky-drones.com/products",
+      "reason": "Likely product index page \u2014 would enumerate all SKUs and families for classification.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": null,
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://sky-drones.com/solutions",
+      "reason": "Common secondary page for drone vendors listing capability/product lines.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": null,
+      "in_corpus_index": false
+    }
+  ],
+  "status": "needs_more_fetches",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 4,
+    "total_cost_usd": 0.0388869,
+    "created_at": "2026-05-04T06:18:44+00:00",
+    "extract_version": "0.1.0"
+  }
+}

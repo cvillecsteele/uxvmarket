@@ -1,0 +1,366 @@
+{
+  "target_id": "amphenol-aerospace",
+  "run_id": "canonical",
+  "display_name": "Amphenol Aerospace",
+  "homepage_url": "https://www.amphenol-aerospace.com/",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/amphenol-aerospace/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "mechanical_subsystems",
+        "is_primary": true,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 267,
+            "line_end": 267,
+            "url": "https://www.amphenol-aerospace.com/",
+            "page_class": "homepage",
+            "snippet": "The largest Military & Aerospace Connector Manufacturerin the world."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0122",
+            "line_start": 282,
+            "line_end": 282,
+            "url": "https://www.amphenol-aerospace.com/markets/unmanned-systems",
+            "page_class": "capability",
+            "snippet": "Amphenol\u2019s harsh-environment connectors deliver dependable performance for drivetrain control, onboard computing, and sensor arrays and are highly ruggedized to maintain power and signal integrity through shock, dust, and debris."
+          }
+        ],
+        "notes": "Core product is electrical/electromechanical connectors and interconnect systems (circular, rectangular, hermetic, EMI filter) supplied as components into UAV/UGV/USV/UUV platforms."
+      },
+      {
+        "category": "communications",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0122",
+            "line_start": 330,
+            "line_end": 333,
+            "url": "https://www.amphenol-aerospace.com/markets/unmanned-systems",
+            "page_class": "capability",
+            "snippet": "![Product Integrated Solutions](https://staao.blob.core.usgovcloudapi.net/images-products-primary/Integrated-Solutions-Thumbnail.jpg)\nIntegrated Solutions\n](/markets/unmanned-systems/integrated-solutions)\nRuggedized CTF Media Converters, Ethernet Switches, and High Speed/High Density Connectors -- HDMI, 40GBaseT, 10GBaseT, DVI, SDI, and other protocols."
+          }
+        ],
+        "notes": "Ruggedized Ethernet switches, media converters, fiber optic connectors and cable assemblies explicitly marketed for UAV/UGV/USV data connectivity."
+      },
+      {
+        "category": "power_systems",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0122",
+            "line_start": 311,
+            "line_end": 313,
+            "url": "https://www.amphenol-aerospace.com/markets/unmanned-systems",
+            "page_class": "capability",
+            "snippet": "High Power 38999\n](/markets/unmanned-systems/high-power-38999)\nMIL-DTL-38999 Series III connector with RADSOK\u00ae, Temper-Grip, or standard high power contacts to accommodate requirements for 500+ amps."
+          }
+        ],
+        "notes": "DC-DC and AC-DC power supplies, VITA 62 VPX power solutions, and high-power connectors marketed for unmanned platforms."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Amphenol Aerospace is fundamentally a connector/interconnect component manufacturer. None of the 15 categories maps perfectly to 'electrical connectors'; mechanical_subsystems (cable carriers, custom mechanisms) is the closest available bucket for their core connector product. Communications is secondary for their Ethernet switches, media converters, and fiber optic products. Power_systems is secondary for their DC-DC/AC-DC power supply portfolio."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Sidney",
+      "state_or_province": "New York",
+      "country": "United States",
+      "address": "40-60 Delaware Avenue"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0269",
+        "line_start": 308,
+        "line_end": 308,
+        "url": "https://www.amphenol-aerospace.com/about",
+        "page_class": "company",
+        "snippet": "40-60 Delaware Avenue, Sidney, NY 13838 \u00b7 Phone: +1(800) 678-0141"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0122",
+        "line_start": 282,
+        "line_end": 282,
+        "url": "https://www.amphenol-aerospace.com/markets/unmanned-systems",
+        "page_class": "capability",
+        "snippet": "Amphenol\u2019s harsh-environment connectors deliver dependable performance for drivetrain control, onboard computing, and sensor arrays and are highly ruggedized to maintain power and signal integrity through shock, dust, and debris."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0269",
+        "line_start": 269,
+        "line_end": 269,
+        "url": "https://www.amphenol-aerospace.com/about",
+        "page_class": "company",
+        "snippet": "Amphenol Aerospace, a Division of Amphenol Corporation, is one of the largest manufacturers of interconnect products in the world for the Military, Commercial Aerospace and Industrial markets."
+      }
+    ],
+    "notes": "Designs and manufactures electrical connectors, cable assemblies, Ethernet switches, fiber optic products, and power supplies used as components in UAV/UGV/USV/UUV platforms. Dedicated Unmanned Systems market page confirms UXV-specific targeting."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Series Five Connectors",
+        "product_type": "circular connector (D38999-class, 20% smaller / 50% lighter)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 282,
+            "line_end": 282,
+            "url": "https://www.amphenol-aerospace.com/",
+            "page_class": "homepage",
+            "snippet": "Series Five Connectors"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 285,
+            "line_end": 285,
+            "url": "https://www.amphenol-aerospace.com/",
+            "page_class": "homepage",
+            "snippet": "Our newest connector line. D38999 performance, but 20% smaller and 50% lighter. Standard mil-spec interfaces. No special tooling or accessories needed. Stop compromising, use Series Five!"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MIL-HD2",
+        "product_type": "high-speed rectangular connector (VITA 91 / SOSA-aligned, 56G PAM4)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0122",
+            "line_start": 351,
+            "line_end": 353,
+            "url": "https://www.amphenol-aerospace.com/markets/unmanned-systems",
+            "page_class": "capability",
+            "snippet": "MIL-HD2\n](/markets/unmanned-systems/mil-hd2)\nThe MIL-HD2 is a next-generation VITA and SOSA-aligned VITA 91 connector series designed to achieve 56G PAM4 data rate requirements with higher density."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Voltarius",
+        "product_type": "high-power interconnect system (up to 1000VDC / 450A)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 301,
+            "line_end": 301,
+            "url": "https://www.amphenol-aerospace.com/",
+            "page_class": "homepage",
+            "snippet": "---------"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 304,
+            "line_end": 304,
+            "url": "https://www.amphenol-aerospace.com/",
+            "page_class": "homepage",
+            "snippet": "* * *"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Bantam",
+        "product_type": "bayonet lightweight circular aerospace connector",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0037",
+            "line_start": 268,
+            "line_end": 268,
+            "url": "https://www.amphenol-aerospace.com/products/bantam",
+            "page_class": "product",
+            "snippet": "Bantam Bayonet Lightweight Aerospace Connectors"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Aquacon Connectors",
+        "product_type": "waterproof circular connectors for oceanic/fluid immersion",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0122",
+            "line_start": 336,
+            "line_end": 338,
+            "url": "https://www.amphenol-aerospace.com/markets/unmanned-systems",
+            "page_class": "capability",
+            "snippet": "Aquacon Connectors\n](/markets/unmanned-systems/aquacon-connectors)\nAmphenol Aquacon connectors have been designed to provide maximum service in oceanic or fluid immersion applications."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Nimbus",
+        "product_type": "lightweight aluminium hermetic pin and socket connectors",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0122",
+            "line_start": 346,
+            "line_end": 348,
+            "url": "https://www.amphenol-aerospace.com/markets/unmanned-systems",
+            "page_class": "capability",
+            "snippet": "Nimbus Lightweight Hermetic Pin and Socket Connectors\n](/markets/unmanned-systems/nimbus)\nNimbus aluminium connectors deliver up to 30% weight reduction compared to traditional stainless-steel designs."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AP-93 Plating",
+        "product_type": "D38999-compatible RoHS-compliant connector plating (QPL approved)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0122",
+            "line_start": 301,
+            "line_end": 303,
+            "url": "https://www.amphenol-aerospace.com/markets/unmanned-systems",
+            "page_class": "capability",
+            "snippet": "AP-93 Plating\n](/markets/unmanned-systems/ap-93-plating)\nThe first D38999 RoHS compliant 1,000 hour salt spray resistant plating approved by the Defense Logistics Agency (DLA)\u00a0for the Class AA Qualified Product List (QPL)."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "High Power 38999",
+        "product_type": "MIL-DTL-38999 Series III connector with high-power contacts (500+ A)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0122",
+            "line_start": 311,
+            "line_end": 313,
+            "url": "https://www.amphenol-aerospace.com/markets/unmanned-systems",
+            "page_class": "capability",
+            "snippet": "High Power 38999\n](/markets/unmanned-systems/high-power-38999)\nMIL-DTL-38999 Series III connector with RADSOK\u00ae, Temper-Grip, or standard high power contacts to accommodate requirements for 500+ amps."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "EMI Filters",
+        "product_type": "filtered circular connectors for EMI/RFI protection",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0122",
+            "line_start": 321,
+            "line_end": 323,
+            "url": "https://www.amphenol-aerospace.com/markets/unmanned-systems",
+            "page_class": "capability",
+            "snippet": "EMI Filters\n](/markets/unmanned-systems/emi-filters)\nFiltered connectors provide critical EMI and RFI protection, and can be used on all standard and Mil-spec circular connectors."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Many hundreds of SKUs exist; only named product families appearing in the fetched corpus are listed here."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA Section 848/889 mention found. Certifications page lists MIL-DTL-790, ISO, RoHS, RoHS-REACH, but no NDAA claim."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS or Blue sUAS mention found in the corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0269",
+        "line_start": 269,
+        "line_end": 269,
+        "url": "https://www.amphenol-aerospace.com/about",
+        "page_class": "company",
+        "snippet": "Amphenol Aerospace, a Division of Amphenol Corporation, is one of the largest manufacturers of interconnect products in the world for the Military, Commercial Aerospace and Industrial markets."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 267,
+        "line_end": 267,
+        "url": "https://www.amphenol-aerospace.com/",
+        "page_class": "homepage",
+        "snippet": "The largest Military & Aerospace Connector Manufacturerin the world."
+      }
+    ],
+    "notes": "307,000 sq ft facility with ~1,000 employees; described as one of the largest manufacturers of interconnect products in the world. Sells catalog SKUs with online configurator and stock check."
+  },
+  "unresolved_questions": [
+    "NDAA Section 848/889 compliance not disclosed on fetched pages",
+    "Blue UAS cleared list status not mentioned",
+    "Hundreds of product SKUs on skipped pages not catalogued"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.amphenol-aerospace.com/resources/certifications",
+      "reason": "Statements & Certifications page may contain NDAA, ITAR, RoHS, or other compliance claims relevant to ndaa and blue_uas fields.",
+      "expected_evidence": [
+        "ndaa",
+        "blue_uas"
+      ],
+      "source_hint": "crawl_index status=skipped_budget",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Mil-spec and high-speed connectors, power products, and fiber-optic assemblies for aerospace and unmanned systems. AS9100-certified production facility in Sidney, NY; explicit UAS market focus but NDAA and Blue UAS certification status unknown. Public evidence confirms aerospace-grade connector portfolio; gaps remain on specific UAS program wins and defense industrial compliance standing.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 25,
+    "total_cost_usd": 0.7960304000000001,
+    "created_at": "2026-05-03T21:20:50+00:00",
+    "extract_version": "0.1.0"
+  }
+}

@@ -1,0 +1,265 @@
+{
+  "target_id": "rapita-systems",
+  "run_id": "canonical",
+  "display_name": "Rapita Systems",
+  "homepage_url": "https://www.rapitasystems.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/rapita-systems/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "test_and_measurement",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 127,
+            "line_end": 127,
+            "url": "https://www.rapitasystems.com",
+            "page_class": "homepage",
+            "snippet": "On-target software verification for critical embedded systems"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0008",
+            "line_start": 130,
+            "line_end": 130,
+            "url": "http://www.rapitasystems.com/about",
+            "page_class": "company",
+            "snippet": "Rapita Systems provides on-target software verification tools and services globally to the embedded aerospace and automotive electronics industries. Our solutions help to increase software quality, deliver evidence to meet safety and certification objectives and reduce project costs."
+          }
+        ],
+        "notes": "Software verification tools (code coverage, timing analysis, functional testing) and engineering services for DO-178C/ISO 26262-certified embedded systems including UAS avionics. RTBx is an on-target data logging hardware accessory."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "York",
+      "state_or_province": null,
+      "country": "United Kingdom",
+      "address": "Atlas House, Osbaldwick Link Road, York YO10 3JB"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0312",
+        "line_start": 133,
+        "line_end": 138,
+        "url": "http://www.rapitasystems.com/contact",
+        "page_class": "contact",
+        "snippet": "### UK office\n**Rapita Systems Ltd.**\nAtlas House\nOsbaldwick Link Road\nYork YO10 3JB\nUK"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "software_platform",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0008",
+        "line_start": 130,
+        "line_end": 130,
+        "url": "http://www.rapitasystems.com/about",
+        "page_class": "company",
+        "snippet": "Rapita Systems provides on-target software verification tools and services globally to the embedded aerospace and automotive electronics industries. Our solutions help to increase software quality, deliver evidence to meet safety and certification objectives and reduce project costs."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 39,
+        "line_end": 39,
+        "url": "https://www.rapitasystems.com",
+        "page_class": "homepage",
+        "snippet": " [![Military Drone](/files/styles/thumbnail/public/thumbnail%20UAS.png?itok=ZdXqAw7w) Certifying Unmanned Aircraft Systems](/certifying-uas)"
+      }
+    ],
+    "notes": "Sells software verification tools to aerospace/UAS OEMs for DO-178C certification. Dedicated 'Certifying Unmanned Aircraft Systems' page; attending XPONENTIAL 2026. No drone hardware manufacturing (RTBx data logger is secondary)."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Rapita Verification Suite (RVS)",
+        "product_type": "software verification suite for critical embedded systems",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 8,
+            "line_end": 8,
+            "url": "https://www.rapitasystems.com",
+            "page_class": "homepage",
+            "snippet": "### [Rapita Verification Suite (RVS)](/products/rvs)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "RapiTest",
+        "product_type": "functional testing tool for critical software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0763",
+            "line_start": 128,
+            "line_end": 128,
+            "url": "http://www.rapitasystems.com/products/faqs/what-rapitest",
+            "page_class": "product",
+            "snippet": "Rapi**Test**\u00a0is the leading tool for\u00a0functional testing of critical software."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "RapiCover",
+        "product_type": "structural code coverage analysis tool",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0757",
+            "line_start": 128,
+            "line_end": 128,
+            "url": "http://www.rapitasystems.com/products/faqs/what-rapicover",
+            "page_class": "product",
+            "snippet": "Rapi**Cover** is the leading tool for\u00a0structural code coverage analysis of critical software."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MACH178",
+        "product_type": "multicore avionics certification suite for DO-178C",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 11,
+            "line_end": 11,
+            "url": "https://www.rapitasystems.com",
+            "page_class": "homepage",
+            "snippet": " [![](/themes/contrib/rapita2020/images/logos/mach178_icon_white.svg) **MACH**178 - Multicore Avionics Certification for High-integrity DO-178C projects](/products/mach178) [![](/themes/contrib/rapita2020/images/logos/mach178foundations_icon_white.svg) **MACH**178 Foundations - Lay the groundwork for A(M)C 20-193 compliance](/products/mach178foundations) [![](/themes/contrib/rapita2020/images/logos/rapidaemons_icon_white.svg) Rapi**Daemons** - Analyze interference in multicore systems](/products/rapidaemons)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "RapiDaemons",
+        "product_type": "multicore interference analysis tool",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 11,
+            "line_end": 11,
+            "url": "https://www.rapitasystems.com",
+            "page_class": "homepage",
+            "snippet": " [![](/themes/contrib/rapita2020/images/logos/mach178_icon_white.svg) **MACH**178 - Multicore Avionics Certification for High-integrity DO-178C projects](/products/mach178) [![](/themes/contrib/rapita2020/images/logos/mach178foundations_icon_white.svg) **MACH**178 Foundations - Lay the groundwork for A(M)C 20-193 compliance](/products/mach178foundations) [![](/themes/contrib/rapita2020/images/logos/rapidaemons_icon_white.svg) Rapi**Daemons** - Analyze interference in multicore systems](/products/rapidaemons)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "RTBx",
+        "product_type": "on-target data logging hardware",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 13,
+            "line_end": 13,
+            "url": "https://www.rapitasystems.com",
+            "page_class": "homepage",
+            "snippet": "[![](/themes/contrib/rapita2020/images/logos/rtbx_icon_white.svg)**RTB**x - The ultimate data logging solution](/products/rtbx) [![](/themes/contrib/rapita2020/images/logos/sim68020_icon_white.svg)Sim68020 - Simulation for the Motorola 68020 microprocessor](/products/sim68020)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Sim68020",
+        "product_type": "processor simulation for Motorola 68020",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 13,
+            "line_end": 13,
+            "url": "https://www.rapitasystems.com",
+            "page_class": "homepage",
+            "snippet": "[![](/themes/contrib/rapita2020/images/logos/rtbx_icon_white.svg)**RTB**x - The ultimate data logging solution](/products/rtbx) [![](/themes/contrib/rapita2020/images/logos/sim68020_icon_white.svg)Sim68020 - Simulation for the Motorola 68020 microprocessor](/products/sim68020)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 25,
+        "line_end": 25,
+        "url": "https://www.rapitasystems.com",
+        "page_class": "homepage",
+        "snippet": " [![](/files/styles/thumbnail/public/RVS%203.24%20summary-01.png?itok=QXybkXbX) RVS 3.24 accelerates multicore software verification](/news/rvs-324-accelerates-multicore-software-verification-0)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 2,
+        "line_end": 2,
+        "url": "https://www.rapitasystems.com",
+        "page_class": "homepage",
+        "snippet": "[Free 30-day trial](/free-trial) [DO-178C Handbook](/downloads/efficient-verification-through-do-178c-life-cycle?utm_source=nav_minilinks) [Rapi**Coupling** Preview](/products/rapicoupling?utm_source=mininav) [DO-178C Multicore Training](/training/DO178C?utm_source=nav_minilinks) [Multicore Resources](/multicore-resource-library?utm_source=nav_minilinks)"
+      }
+    ],
+    "notes": "Commercially released, versioned software products with global distribution and major aerospace customers (Collins Aerospace, BAE Systems, Embraer, Airbus)."
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Develops software verification and testing tools (Rapita Verification Suite, RapiTest, RapiCover, MACH178) for safety-critical embedded systems in aerospace and automotive; primary focus on DO-178C and ISO 26262 compliance. UK-based, production-ready. NDAA compliance and Blue UAS status unknown; public evidence does not indicate direct UAS platform contracts, though company positions tools for unmanned-systems certification workflows.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 14,
+    "total_cost_usd": 0.49387220000000004,
+    "created_at": "2026-05-04T05:40:23+00:00",
+    "extract_version": "0.1.0"
+  }
+}

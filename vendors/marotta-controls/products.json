@@ -1,0 +1,163 @@
+{
+  "target_id": "marotta-controls",
+  "run_id": "canonical",
+  "display_name": "Marotta Controls",
+  "homepage_url": "https://marotta.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/marotta-controls/website",
+  "products": [
+    {
+      "name": "Control Actuation Systems (CAS)",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "High-power-density electromechanical actuation systems for missile fin, UAV, and thrust-vector control",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0163",
+          "line_start": 95,
+          "line_end": 95,
+          "url": "https://marotta.com/products/control-systems/control-actuation-systems",
+          "page_class": "product",
+          "snippet": "Our advanced, high power density Control Actuation Systems (CAS) are designed to meet the challenging performance requirements for today\u2019s advanced aerospace and weapons platforms."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0163",
+          "line_start": 100,
+          "line_end": 107,
+          "url": "https://marotta.com/products/control-systems/control-actuation-systems",
+          "page_class": "product",
+          "snippet": "*   Guided Munitions\n*   Guided Rockets\n*   Hypersonic Vehicles\n*   Tactical Missiles\n*   Thrust Vector Controls\n*   Torpedoes\n*   UAV\n*   UUV"
+        }
+      ],
+      "notes": "MCAS-series models (MCAS0008, MCAS0025, MCAS0100, MCAS0125, MCAS0400, MCAS1200, MCAS1632, MCAS6720) are individual SKUs within this family."
+    },
+    {
+      "name": "Electronic Motor Controls",
+      "category": "propulsion_electronics",
+      "descriptor": "Ruggedized digital motor drive and closed-loop servo controllers for aerospace and defense platforms",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0205",
+          "line_start": 92,
+          "line_end": 93,
+          "url": "https://marotta.com/products/power-systems/electronic-motor-controls",
+          "page_class": "product",
+          "snippet": "### Ruggedized Electronic Controls\nElectronic control systems that incorporate cutting-edge technologies with proven high-voltage motor drive and closed loop servo techniques to provide optimal solutions for critical applications."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0205",
+          "line_start": 143,
+          "line_end": 144,
+          "url": "https://marotta.com/products/power-systems/electronic-motor-controls",
+          "page_class": "product",
+          "snippet": "*   **300W to 6.3kW**\n*   **Flight Qualified Solutions**"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "MPACT\u00ae Pure Air Compression Technology",
+      "category": "mechanical_subsystems",
+      "descriptor": "Integrated pneumatic compression system combining micro-compressor, electronics, and valve/manifold",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0165",
+          "line_start": 93,
+          "line_end": 93,
+          "url": "https://marotta.com/products/control-systems/pneumatic-systems",
+          "page_class": "product",
+          "snippet": "We have a wide variety of proven, reliable high pressure pneumatic systems innovations \u2013\u00a0from simple high pressure valves and bottles to the innovative MPACT\u00ae Pure Air Compression Technology system which is fully integrated with\u00a0electronics, micro-compressor, and valve/manifold system."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Motorfox Motors",
+      "category": "propulsion_mechanical",
+      "descriptor": "DC brushless motors for aerospace and defense actuation applications",
+      "granularity": "family",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0158",
+          "line_start": 115,
+          "line_end": 117,
+          "url": "https://marotta.com/products",
+          "page_class": "product",
+          "snippet": "### Motors\n![Motor 1](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==)\n[DC Brushless Motors](https://marotta.com/motorfox-motors/)"
+        }
+      ],
+      "notes": "Dedicated product page (marotta.com/motorfox-motors) was skipped in mirror crawl (status: skipped_class_budget). Only nav-level citation available."
+    },
+    {
+      "name": "MPACT6000",
+      "category": "propulsion_electronics",
+      "descriptor": "Compressor system electronic controller with 800 W motor drive output and CANBus communications",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0205",
+          "line_start": 171,
+          "line_end": 173,
+          "url": "https://marotta.com/products/power-systems/electronic-motor-controls",
+          "page_class": "product",
+          "snippet": "### MPACT6000\n#### Compressor System Electronic Controller\nEngineered with extensive BIT and reporting capabilities, the MPACT6000 electronic control unit has a motor drive output to 800W, 1200W peak, sensorless. \u00a0Includes digital CANBus communications and three phase AC input power with power factor correction."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "MPACT 3000",
+      "category": "propulsion_electronics",
+      "descriptor": "Sensorless variable-speed compressor system electronic controller with active power factor correction",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0205",
+          "line_start": 184,
+          "line_end": 186,
+          "url": "https://marotta.com/products/power-systems/electronic-motor-controls",
+          "page_class": "product",
+          "snippet": "### MPACT 3000\n#### Compressor System Electronic Controller\nThe MPACT3000 controller features a DC brushless, sensorless variable speed operation which reduces cost and weight while increasing reliability.\u00a0 Its Active Power Factor Correction (PFC) automatically adjusts the characteristics of the electric load for maximum stability and efficiency, while minimizing harmonics on the main power feed."
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 0,
+    "total_cost_usd": null,
+    "created_at": "2026-05-04T04:13:48+00:00",
+    "extract_version": "0.1.0"
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "target_id": "stygon-radomes",
+  "run_id": "canonical",
+  "display_name": "Stygon Radomes",
+  "homepage_url": "https://stygonradomes.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/stygon-radomes/website",
+  "products": [
+    {
+      "name": "Defence Radar Solutions",
+      "category": "structures_and_materials",
+      "descriptor": "Custom composite radomes for military radar system protection",
+      "granularity": "category",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0013",
+          "line_start": 18,
+          "line_end": 19,
+          "url": "https://stygonradomes.com/our-solutions",
+          "page_class": "capability",
+          "snippet": "### Defence Radar Solutions \u2192\nWe design and manufacture high-performance radomes tailored for defense applications. Our radomes offer robust protection and reliability for military radar systems, ensuring optimal performance in critical situations."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Environmental Radar Solutions",
+      "category": "structures_and_materials",
+      "descriptor": "Composite radomes for weather and meteorological radar systems",
+      "granularity": "category",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0013",
+          "line_start": 21,
+          "line_end": 22,
+          "url": "https://stygonradomes.com/our-solutions",
+          "page_class": "capability",
+          "snippet": "### Environmental Radar Solutions \u2192\nOur radomes are engineered for environmental radar systems, including weather and meteorological radar. We provide solutions that enhance the accuracy and durability of radomes used in monitoring and predicting weather patterns."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Communication Radar Solutions",
+      "category": "structures_and_materials",
+      "descriptor": "Composite radomes for satellite and terrestrial communication radar systems",
+      "granularity": "category",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0013",
+          "line_start": 24,
+          "line_end": 25,
+          "url": "https://stygonradomes.com/our-solutions",
+          "page_class": "capability",
+          "snippet": "### Communication Radar Solutions \u2192\nWe offer radomes optimized for communication radar systems, including satellite and terrestrial communications. Our radomes ensure efficient signal transmission and reception while protecting sensitive equipment from environmental factors."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Custom Design Radomes (X, C, S, L-Band)",
+      "category": "structures_and_materials",
+      "descriptor": "Custom-engineered radomes for X, C, S, and L-Band frequency applications",
+      "granularity": "category",
+      "readiness": "engineering_services",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0013",
+          "line_start": 27,
+          "line_end": 28,
+          "url": "https://stygonradomes.com/our-solutions",
+          "page_class": "capability",
+          "snippet": "### Custom Design \u2192\nWe work closely with clients to understand their unique needs and application requirements. Our team of experts create radome designs that are perfectly suited to specific frequency bands (X, C, S, and L) and operational environments."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 48,
+          "line_end": 49,
+          "url": "https://stygonradomes.com",
+          "page_class": "homepage",
+          "snippet": "### Custom Design \u2192\nWe work closely with clients to understand their unique needs and application requirements. Our team of experts create radome designs that are perfectly suited to specific frequency bands (X, C, S, and L) and operational environments."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Airborne Radomes",
+      "category": "structures_and_materials",
+      "descriptor": "Custom composite radomes for airborne and satcom applications",
+      "granularity": "category",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0089",
+          "line_start": 1,
+          "line_end": 1,
+          "url": "https://stygonradomes.com/technology",
+          "page_class": "capability",
+          "snippet": "High-Altitude Radomes for Extreme Weather | Custom Satcom and Airborne Radomes by Stygon Radomes"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "X-Band Radome Solutions",
+      "category": "structures_and_materials",
+      "descriptor": "Composite radomes optimized for X-Band radar and communication systems",
+      "granularity": "category",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 22,
+          "line_end": 24,
+          "url": "https://stygonradomes.com",
+          "page_class": "homepage",
+          "snippet": "X-band, C-Band, S-Band & L-Band Radome Solutions\n------------------------------------------------\nTailor-made radomes for optimal protection and performance of radar and communication systems."
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "Airborne Radomes: named only in the technology page meta-title (resource-0003 line 1); no dedicated product page was fetched \u2014 classification is inferred from the page title only.",
+    "X-Band Radome Solutions: derived from a homepage section header ('X-band, C-Band, S-Band & L-Band Radome Solutions'); not a distinct named solution on the solutions page \u2014 the site presents it as a descriptor for the whole product range rather than a separate offering.",
+    "81 pages were skipped or failed in the mirror (only 14 fetched). Individual solution detail pages (e.g. /defence-radar-solutions/, /airborne-radomes/) may exist and would provide SKU-level detail, NDAA/compliance claims, and readiness signals."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://stygonradomes.com/defence-radar-solutions/",
+      "reason": "Likely dedicated page for Defence Radar Solutions that would provide product-level detail, readiness signals, and any compliance claims not visible on the solutions index.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "readiness"
+      ],
+      "source_hint": "guessed from solutions index pattern at resource-0002",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://stygonradomes.com/environmental-radar-solutions/",
+      "reason": "Likely dedicated page for Environmental Radar Solutions with additional product detail.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "guessed from solutions index pattern at resource-0002",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://stygonradomes.com/communication-radar-solutions/",
+      "reason": "Likely dedicated page for Communication Radar Solutions with additional product detail.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "guessed from solutions index pattern at resource-0002",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://stygonradomes.com/custom-design/",
+      "reason": "Likely dedicated page for Custom Design Radomes with frequency band detail and any compliance/certification claims.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "readiness"
+      ],
+      "source_hint": "guessed from solutions index pattern at resource-0002",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://stygonradomes.com/airborne-radomes/",
+      "reason": "Would confirm Airborne Radomes as a distinct named product/solution and provide specifications.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "guessed from technology page title at resource-0003",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 20,
+    "total_cost_usd": 0.23354545,
+    "created_at": "2026-05-04T06:35:51+00:00",
+    "extract_version": "0.1.0"
+  }
+}

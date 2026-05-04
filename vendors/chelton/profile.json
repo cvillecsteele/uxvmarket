@@ -1,0 +1,355 @@
+{
+  "target_id": "chelton",
+  "run_id": "canonical",
+  "display_name": "Chelton",
+  "homepage_url": "https://www.chelton.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/chelton/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "communications",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 7,
+            "line_end": 12,
+            "url": "https://www.chelton.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Airborne Antennas](https://www.chelton.com/what-we-do/airborne-antenna/)\n        *   [Communication Antennas](https://www.chelton.com/what-we-do/airborne-antenna/communication-antennas/)\n        *   [Navigation Antennas](https://www.chelton.com/what-we-do/airborne-antenna/navigation-antennas/)\n        *   [RF Components](https://www.chelton.com/what-we-do/airborne-antenna/rf-components/)\n        *   [Electrostatic Dischargers](https://www.chelton.com/what-we-do/airborne-antenna/aircraft-electrostatic-dischargers/)\n        *   [Antenna Catalogue](https://www.chelton.com/antenna-catalogue/)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0242",
+            "line_start": 39,
+            "line_end": 39,
+            "url": "https://www.chelton.com/product/tetra-airborne-transceiver-no-sim-card",
+            "page_class": "news",
+            "snippet": "TETRA Airborne Transceiver (no sim card)"
+          }
+        ],
+        "notes": "Core product lines are airborne communication antennas, TETRA airborne radios, data-link antennas (Link 16/TTNT), vehicle intercom systems"
+      },
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 9,
+            "line_end": 9,
+            "url": "https://www.chelton.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Navigation Antennas](https://www.chelton.com/what-we-do/airborne-antenna/navigation-antennas/)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 15,
+            "line_end": 17,
+            "url": "https://www.chelton.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Anti Jam GPS Systems](https://www.chelton.com/what-we-do/avionics/anti-jam-gps-system/)\n        *   [Electronic Warfare](https://www.chelton.com/what-we-do/avionics/electronic-warfare-system/)\n        *   [Direction Finding](https://www.chelton.com/what-we-do/avionics/direction-find/)"
+          }
+        ],
+        "notes": "Navigation antennas, Anti-Jam GPS systems, Direction Finding systems listed as product categories"
+      },
+      {
+        "category": "electronic_warfare",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 16,
+            "line_end": 16,
+            "url": "https://www.chelton.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Electronic Warfare](https://www.chelton.com/what-we-do/avionics/electronic-warfare-system/)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0310",
+            "line_start": 56,
+            "line_end": 56,
+            "url": "https://www.chelton.com/game-of-drones",
+            "page_class": "other",
+            "snippet": "Chelton\u2019s specialist microwave antennas are used in counter UAS systems, giving commercial companies a sense of added security and privacy. What are the chances now of airports being closed for days or potentially fatal near-misses, of secret spying on infrastructure and selling of information for monetary gain? Much lower!"
+          }
+        ],
+        "notes": "Electronic Warfare product line; microwave antennas for counter-UAS jamming, monitoring and spoofing"
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "154 pages skipped; EW, anti-jam GPS, direction finding product pages not fetched \u2014 secondary categories may be incomplete"
+  },
+  "headquarters": {
+    "value": {
+      "city": "Marlow",
+      "state_or_province": null,
+      "country": "United Kingdom",
+      "address": null
+    },
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 191,
+        "line_end": 191,
+        "url": "https://www.chelton.com",
+        "page_class": "homepage",
+        "snippet": "Copyright \u00a9 2026 Chelton Limited Registered in England and Wales: Number 00896823 Cage Code U1907"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0310",
+        "line_start": 90,
+        "line_end": 90,
+        "url": "https://www.chelton.com/game-of-drones",
+        "page_class": "other",
+        "snippet": "Meet Chelton at Eurosatory 2022 Marlow, UK: Chelton is pleased to be exhibiting at this year\u2019..."
+      }
+    ],
+    "notes": "Registered in England and Wales per footer; 'Marlow, UK' appears as press release dateline in related post snippet"
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0310",
+        "line_start": 58,
+        "line_end": 58,
+        "url": "https://www.chelton.com/game-of-drones",
+        "page_class": "other",
+        "snippet": "(By the way: as well as counter UAS, Chelton also design and manufacture antennas for drones and UAS for private security use. This means we\u2019ve seen both sides of the fence \u2013 and we really know what goes into a UAS and what is needed to combat it.)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0310",
+        "line_start": 56,
+        "line_end": 56,
+        "url": "https://www.chelton.com/game-of-drones",
+        "page_class": "other",
+        "snippet": "Chelton\u2019s specialist microwave antennas are used in counter UAS systems, giving commercial companies a sense of added security and privacy. What are the chances now of airports being closed for days or potentially fatal near-misses, of secret spying on infrastructure and selling of information for monetary gain? Much lower!"
+      }
+    ],
+    "notes": "Supplies antennas (components) for drones and UAS, and counter-UAS antenna systems. Also makes more complex avionics subsystems (TETRA, EW) primarily for manned aircraft. Antenna/component supply is the drone-relevant primary role."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "RH150-13 TETRA Remote Control Head",
+        "product_type": "airborne TETRA radio control and display unit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0126",
+            "line_start": 35,
+            "line_end": 35,
+            "url": "https://www.chelton.com/product/rh150-13-tetra-remote-control-head",
+            "page_class": "news",
+            "snippet": "RH150-13 TETRA Remote Control Head"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TETRA Airborne Transceiver (7-450-14)",
+        "product_type": "airborne TETRA radio transceiver",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0242",
+            "line_start": 39,
+            "line_end": 39,
+            "url": "https://www.chelton.com/product/tetra-airborne-transceiver-no-sim-card",
+            "page_class": "news",
+            "snippet": "TETRA Airborne Transceiver (no sim card)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "OA2-960-1215/2640",
+        "product_type": "Link 16/TTNT antenna",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0253",
+            "line_start": 35,
+            "line_end": 35,
+            "url": "https://www.chelton.com/product/oa2-960-1215-2640",
+            "page_class": "product",
+            "snippet": "OA2-960-1215/2640"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AN/VIC-5 TacG2 Digital Vehicle Intercom",
+        "product_type": "tactical digital vehicle intercom system",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 103,
+            "line_end": 103,
+            "url": "https://www.chelton.com",
+            "page_class": "homepage",
+            "snippet": "#### AN/VIC-5 TacG2 Digital Vehicle Intercom"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Tri-Band ELT Whip Antenna",
+        "product_type": "airborne emergency locator transmitter antenna",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 101,
+            "line_end": 101,
+            "url": "https://www.chelton.com",
+            "page_class": "homepage",
+            "snippet": "#### Tri-Band ELT Whip Antenna"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Omni Directional Antenna OA-0.5-18V/2509",
+        "product_type": "wideband omni-directional antenna",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 105,
+            "line_end": 105,
+            "url": "https://www.chelton.com",
+            "page_class": "homepage",
+            "snippet": "#### Omni Directional Antenna - OA-0.5-18V/2509"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Only 1 product page fully fetched; 154 pages skipped. Many more antenna and avionics SKUs exist in catalogue."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 90,
+        "line_end": 90,
+        "url": "https://www.chelton.com",
+        "page_class": "homepage",
+        "snippet": "Vehicle Intercom Systems Installed Around the World"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 92,
+        "line_end": 92,
+        "url": "https://www.chelton.com",
+        "page_class": "homepage",
+        "snippet": "Increased Rate of Antenna Production with our Robotic Cells"
+      }
+    ],
+    "notes": "140,000 vehicle intercom systems installed worldwide; robotic cells for antenna production; AS9100 and ISO 9001 certified; products available via quote basket"
+  },
+  "unresolved_questions": [
+    "Headquarters state/province (Buckinghamshire?) not explicitly confirmed in corpus",
+    "NDAA/Blue UAS compliance not disclosed",
+    "Full product catalogue not accessible \u2014 154 pages skipped/not fetched",
+    "Who-we-are/contact page not fetched \u2014 may have more precise address"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.chelton.com/who-we-are/",
+      "reason": "Would confirm headquarters address/city and company background details",
+      "expected_evidence": [
+        "headquarters",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "guessed from site nav",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.chelton.com/contact-us/",
+      "reason": "Contact page likely has full address and office location confirming Marlow, UK headquarters",
+      "expected_evidence": [
+        "headquarters"
+      ],
+      "source_hint": "guessed from site nav",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.chelton.com/what-we-do/avionics/electronic-warfare-system/",
+      "reason": "Would confirm EW product details including counter-UAS and drone-relevant electronic warfare capabilities",
+      "expected_evidence": [
+        "products_categories",
+        "products",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "linked from resource-0001 nav",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.chelton.com/what-we-do/avionics/anti-jam-gps-system/",
+      "reason": "Would confirm anti-jam GPS product details for sensors_and_navigation category",
+      "expected_evidence": [
+        "products_categories",
+        "products"
+      ],
+      "source_hint": "linked from resource-0001 nav",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "partial",
+  "tagline": "UK-based supplier of airborne antennas, avionics, and RF components for military and commercial platforms. Core products include TETRA transceivers (7-450 series), conformal GPS antennas, wideband ECM/ESM antennas (1\u201310 GHz), L-band blades, diplexers, and vehicle intercom systems. Present on 100+ core platforms. NDAA and Blue UAS certification status unknown; public evidence on US contract wins is sparse.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 32,
+    "total_cost_usd": 0.68552365,
+    "created_at": "2026-05-03T22:05:46+00:00",
+    "extract_version": "0.1.0"
+  }
+}

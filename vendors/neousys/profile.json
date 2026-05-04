@@ -1,0 +1,294 @@
+{
+  "target_id": "neousys",
+  "run_id": "canonical",
+  "display_name": "Neousys",
+  "homepage_url": "https://www.neousys-tech.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/neousys/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "flight_and_vehicle_control",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0424",
+            "line_start": 916,
+            "line_end": 917,
+            "url": "https://www.neousys-tech.com/en/product/processor/gpu-computing",
+            "page_class": "product",
+            "snippet": "### [FLYC-300 Series](/en/product/processor/gpu-computing/flyc-300)\n#### Low-SWaP AI Mission Computer Powered by NVIDIA\u00ae Jetson Orin\u2122 NX"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0048",
+            "line_start": 40,
+            "line_end": 40,
+            "url": "https://www.neousys-tech.com/edge-ai-computing",
+            "page_class": "capability",
+            "snippet": "#### SWaP-Optimized AI Mission Computer Enabling Unmanned System Applications"
+          }
+        ],
+        "notes": "FLYC-300 is a Low-SWaP AI Mission Computer for drones/unmanned systems, powering autonomous UAV missions. NRU Jetson-based series also targets drone/AMR applications."
+      },
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": false,
+        "confidence": "low",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 167,
+            "line_end": 168,
+            "url": "https://www.neousys-tech.com",
+            "page_class": "homepage",
+            "snippet": "            *   [Drone (more)](/en/product/product-lines/intelligent-video-analytics/drone)\n            *   [FLYC-300](/en/product/product-lines/intelligent-video-analytics/flyc-300)Low-SWaP AI Mission Computer"
+          }
+        ],
+        "notes": "NVIDIA Jetson-based NRU series products support GMSL camera integration and AI sensor fusion for drone/AMR navigation tasks."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Neousys is primarily a broad industrial rugged computing company; drone-specific products are a focused vertical around AI mission computers."
+  },
+  "headquarters": {
+    "value": {
+      "city": null,
+      "state_or_province": null,
+      "country": "Taiwan",
+      "address": null
+    },
+    "confidence": "medium",
+    "status": "needs_more_fetches",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 427,
+        "line_end": 427,
+        "url": "https://www.neousys-tech.com",
+        "page_class": "homepage",
+        "snippet": "    *   [Careers](https://www.104.com.tw/company/deesaxs)"
+      }
+    ],
+    "notes": "Careers link goes to 104.com.tw (Taiwan's leading job portal). Site also uses Traditional Chinese (\u7e41\u9ad4\u4e2d\u6587) and has a separate China subsidiary (neousys.cn). Worldwide-office page was skipped; exact city/address not confirmed from corpus."
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0424",
+        "line_start": 916,
+        "line_end": 917,
+        "url": "https://www.neousys-tech.com/en/product/processor/gpu-computing",
+        "page_class": "product",
+        "snippet": "### [FLYC-300 Series](/en/product/processor/gpu-computing/flyc-300)\n#### Low-SWaP AI Mission Computer Powered by NVIDIA\u00ae Jetson Orin\u2122 NX"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0048",
+        "line_start": 40,
+        "line_end": 40,
+        "url": "https://www.neousys-tech.com/edge-ai-computing",
+        "page_class": "capability",
+        "snippet": "#### SWaP-Optimized AI Mission Computer Enabling Unmanned System Applications"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 629,
+        "line_end": 629,
+        "url": "https://www.neousys-tech.com",
+        "page_class": "homepage",
+        "snippet": "    From mission computers to compact edge systems, Neousys delivers scalable AI computing for defense and simulation, enabling reliable deployment, real-time processing, and flexible integration in extreme environments."
+      }
+    ],
+    "notes": "Neousys makes drone-specific mission computers (FLYC-300) and rugged NVIDIA Jetson-based compute subsystems marketed for UAV/unmanned system integration. Primary business is broader industrial computing, but drone subsystems are an explicit product line."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "FLYC-300",
+        "product_type": "Low-SWaP AI Mission Computer (UAV/unmanned systems)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0424",
+            "line_start": 916,
+            "line_end": 917,
+            "url": "https://www.neousys-tech.com/en/product/processor/gpu-computing",
+            "page_class": "product",
+            "snippet": "### [FLYC-300 Series](/en/product/processor/gpu-computing/flyc-300)\n#### Low-SWaP AI Mission Computer Powered by NVIDIA\u00ae Jetson Orin\u2122 NX"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 167,
+            "line_end": 168,
+            "url": "https://www.neousys-tech.com",
+            "page_class": "homepage",
+            "snippet": "            *   [Drone (more)](/en/product/product-lines/intelligent-video-analytics/drone)\n            *   [FLYC-300](/en/product/product-lines/intelligent-video-analytics/flyc-300)Low-SWaP AI Mission Computer"
+          }
+        ],
+        "notes": "Powered by NVIDIA Jetson Orin NX, specifically marketed for drone/unmanned system applications."
+      },
+      {
+        "name": "NRU-230V/240S-AWP",
+        "product_type": "IP66 rugged NVIDIA Jetson Orin fanless computer",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 154,
+            "line_end": 154,
+            "url": "https://www.neousys-tech.com",
+            "page_class": "homepage",
+            "snippet": "            *   [NRU-230V/240S-AWP](/en/product/product-lines/intelligent-video-analytics/nru-230v-240s-awp)Jetson Orin IP66 Fanless PC"
+          }
+        ],
+        "notes": "Listed under Drone and AMR product categories."
+      },
+      {
+        "name": "NRU-51V+ / NRU-51V",
+        "product_type": "NVIDIA Jetson GMSL2 Camera Hub",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 155,
+            "line_end": 155,
+            "url": "https://www.neousys-tech.com",
+            "page_class": "homepage",
+            "snippet": "            *   [NRU-51V+ / NRU-51V](/en/product/product-lines/intelligent-video-analytics/nru-51v-nvidia-jetson-nx-fanless-computer)NVIDIA Jetson GMSL2 Camera Hub"
+          }
+        ],
+        "notes": "Listed under Drone and in-vehicle/surveillance product categories."
+      },
+      {
+        "name": "SEMIL series",
+        "product_type": "IP69K/IP67 MIL-STD rugged GPU computer",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 26,
+            "line_end": 26,
+            "url": "https://www.neousys-tech.com",
+            "page_class": "homepage",
+            "snippet": "            *   [SEMIL IP69K/IP67 MIL-STD Rugged Computer](/en/product/product-lines/rugged-computer/semil-ip67)"
+          }
+        ],
+        "notes": "MIL-STD ruggedized compute platforms for mission-critical defense applications. Multiple variants: SEMIL-2000, SEMIL-2200, SEMIL-2000GC, SEMIL-2200GC."
+      },
+      {
+        "name": "Nuvo series",
+        "product_type": "Rugged fanless industrial PCs / Edge AI GPU computers",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 7,
+            "line_end": 10,
+            "url": "https://www.neousys-tech.com",
+            "page_class": "homepage",
+            "snippet": "            *   [Nuvo-11000](/en/product/product-lines/industrial-computers/nuvo-11000)Core Ultra 200S Fanless Rugged PC\n            *   [Nuvo-11531/ 11588](/en/product/product-lines/industrial-computers/nuvo-11531)Core Ultra 200S Fanless Computer\n            *   [Nuvo-11501](/en/product/product-lines/industrial-computers/nuvo-11501)Core Ultra 200S Compact Fanless PC\n            *   [Nuvo-9000](/en/product/product-lines/industrial-computers/nuvo-9000-intel-12th-gen-rugged-embedded-computer)14/13/12th-Gen with PCIe Expansion"
+          }
+        ],
+        "notes": "Large family of Intel/AMD rugged fanless computers; includes GPU variants (GC suffix). Multiple generations from Nuvo-7000 to Nuvo-11000."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Full product catalog is very large; only drone-relevant and key product families listed. FLYC-300 product page was skipped in the crawl."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA Section 848/889 claims found anywhere in the fetched corpus. Neousys is a Taiwanese manufacturer; NDAA compliance is not mentioned on their website."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS / Blue sUAS claims found in the corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 632,
+        "line_end": 632,
+        "url": "https://www.neousys-tech.com",
+        "page_class": "homepage",
+        "snippet": "[**Free download 2026 Catalog Version A1 (NEW!)**](/support-service/marketing-resources/product-catalog-and-brochure)"
+      }
+    ],
+    "notes": "Full production catalog available (2026 Catalog Version A1), ISO 9001 certified, 'Get Quote' ordering capability. Products have defined SKUs and are listed with specifications for immediate procurement."
+  },
+  "unresolved_questions": [
+    "Headquarters exact city/address not in fetched corpus (worldwide-office page skipped)",
+    "NDAA Section 848/889 compliance status unknown",
+    "Blue UAS clearance status unknown",
+    "FLYC-300 full product page not fetched - may contain additional drone-specific specs and use cases"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.neousys-tech.com/en/contact/worldwide-office",
+      "reason": "Would confirm Neousys headquarters city, country, and street address - currently marked as Taiwan based on indirect evidence only.",
+      "expected_evidence": [
+        "headquarters"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=contact",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.neousys-tech.com/en/product/feature/flattop-heatsink-fanless-pc/flyc-300",
+      "reason": "FLYC-300 drone mission computer product page - would provide detailed specs, applications, and use cases confirming drone supply chain role and flight_and_vehicle_control category.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.neousys-tech.com/en/news/about-neousys",
+      "reason": "About page would confirm headquarters location, founding year, and company background, potentially also mentioning NDAA or compliance status.",
+      "expected_evidence": [
+        "headquarters",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=news",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "tagline": "Manufactures rugged fanless industrial computers (Nuvo, SEMIL, POC series) and edge AI platforms with GPU support, plus NVIDIA Jetson-based vision systems (NRU series with GMSL2 camera hubs). Primary markets are vehicle/railway embedded computing and harsh-environment applications. No public evidence of NDAA compliance, Blue UAS certification, or named defense contracts; gaps exist regarding unmanned-systems integration maturity and U.S. supply-chain qualification status.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 41,
+    "total_cost_usd": 1.10147285,
+    "created_at": "2026-05-04T04:34:26+00:00",
+    "extract_version": "0.1.0"
+  }
+}

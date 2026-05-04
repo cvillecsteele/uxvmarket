@@ -1,0 +1,207 @@
+{
+  "target_id": "tekever",
+  "run_id": "canonical",
+  "display_name": "Tekever",
+  "homepage_url": "https://www.tekever.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/tekever/website",
+  "products": [
+    {
+      "name": "AR5",
+      "category": "airframes",
+      "descriptor": "Fixed-wing UAS for maritime patrol and ISR missions",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0091",
+          "line_start": 33,
+          "line_end": 38,
+          "url": "https://www.tekever.com/platforms",
+          "page_class": "product",
+          "snippet": "![](https://www.tekever.com/wp-content/uploads/2026/02/ar5-homev2-scaled.png)\nAR5\n===\n### AR5\nMission: Patrolling\n-------------------"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 95,
+          "line_end": 96,
+          "url": "https://www.tekever.com",
+          "page_class": "homepage",
+          "snippet": "27 November 2025\n### [TEKEVER Secures EMSA Agreement for AR5 Fixed-Wing UAS Deployment](https://www.tekever.com/news/tekever-secures-emsa-agreement-for-ar5-fixed-wing-uas-deployment-2/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "AR3",
+      "category": "airframes",
+      "descriptor": "Configurable fixed-wing UAS for ISR and surveillance missions",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0091",
+          "line_start": 39,
+          "line_end": 44,
+          "url": "https://www.tekever.com/platforms",
+          "page_class": "product",
+          "snippet": "![](https://www.tekever.com/wp-content/uploads/2026/02/ar3v2-home-scaled.png)\nAR3\n===\n### AR3\nYour Mission, Your Configuration\n--------------------------------"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0045",
+          "line_start": 29,
+          "line_end": 29,
+          "url": "https://www.tekever.com/news/tekever-acquires-west-wales-airport-to-advance-uk-and-nato-defence-capabilities",
+          "page_class": "news",
+          "snippet": "Acquisition marks a step forward in TEKEVER\u2019s \u00a3400m OVERMATCH programme. West Wales Airport to become a national hub for the testing and evaluation of unmanned systems"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "ARX",
+      "category": "airframes",
+      "descriptor": "Fixed-wing UAS marketed as \"The Game Changer\" for maritime operations",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0091",
+          "line_start": 27,
+          "line_end": 31,
+          "url": "https://www.tekever.com/platforms",
+          "page_class": "product",
+          "snippet": "![](https://www.tekever.com/wp-content/uploads/2026/02/arx-homev2-scaled.png)\nARX\n===\n### ARX\nThe Game Changer"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0122",
+          "line_start": 85,
+          "line_end": 90,
+          "url": "https://www.tekever.com/specs",
+          "page_class": "product",
+          "snippet": "![](https://www.tekever.com/wp-content/uploads/2025/12/model_arx.png)\nARX\n===\n### ARX\nSecuring your oceans\n--------------------"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "ATLAS",
+      "category": "ground_segment",
+      "descriptor": "UAV mission enhancer offering real-time intelligence as-a-service",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 73,
+          "line_end": 76,
+          "url": "https://www.tekever.com",
+          "page_class": "homepage",
+          "snippet": "ATLAS\n=====\nReal-time Intelligence as-a-service\n[Discover More](https://www.tekever.com/atlas/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0122",
+          "line_start": 28,
+          "line_end": 34,
+          "url": "https://www.tekever.com/specs",
+          "page_class": "product",
+          "snippet": "Prepare Mission - UAV Mission Enhancer ATLAS\n============================================\n*   Create mission briefs\n*   Define objectives on map\n*   Choose aircraft\n*   Define mission parameters\n*   Manage approval process with customisable workflow"
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "ARX is described as 'The Game Changer' for maritime operations and a news headline titles it 'swarm-controlling UAS' (skipped URL), but no fetched page provides full specs or category confirmation beyond its listing under Platforms.",
+    "No NDAA or Blue UAS claims found anywhere in the corpus for any product.",
+    "Individual product detail pages for AR3, AR5, ARX, and ATLAS were all skipped due to budget exhaustion; full specifications, payload configurations, and compliance claims are unavailable."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.tekever.com/ar5",
+      "reason": "Primary product detail page for AR5 \u2014 would provide full specs, payload options, and any compliance/NDAA claims.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.tekever.com/ar3-evo",
+      "reason": "Primary product detail page for AR3 \u2014 would provide full specs, variants, and any compliance/NDAA claims.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.tekever.com/atlas",
+      "reason": "Primary product detail page for ATLAS \u2014 would confirm whether it is ground segment software/service or has hardware components, and clarify readiness.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.tekever.com/?page_id=1143",
+      "reason": "ARX product page (linked as the ARX platform from nav and Platforms page) \u2014 needed to confirm category, specs, and production status of ARX.",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.tekever.com/news/arx-tekever-unveils-new-swarm-controlling-uas",
+      "reason": "News article revealing ARX as a swarm-controlling UAS \u2014 would clarify whether ARX is primarily an airframe or has EW/C2 capabilities affecting category classification.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.tekever.com/news/tekever-ar3-surpassed-10000-operational-flight-hours-in-ukraine",
+      "reason": "Would provide strong production readiness evidence for AR3 (10,000+ operational flight hours cited in headline).",
+      "expected_evidence": [
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 24,
+    "total_cost_usd": 0.54331425,
+    "created_at": "2026-05-04T06:53:34+00:00",
+    "extract_version": "0.1.0"
+  }
+}

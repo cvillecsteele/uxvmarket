@@ -1,0 +1,554 @@
+{
+  "target_id": "ametek-power-data-systems",
+  "run_id": "canonical",
+  "display_name": "AMETEK Power & Data Systems",
+  "homepage_url": "https://www.ametekpds.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/ametek-power-data-systems/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "power_systems",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0154",
+            "line_start": 130,
+            "line_end": 132,
+            "url": "https://www.ametekpds.com/products",
+            "page_class": "product",
+            "snippet": "    ##### [Power Generation](/products/power-generation)\n    Leading the Aerospace and Defense industry in the design and manufacture of Starter Generators and Generator Control Units.\n    [Keep Reading](/products/power-generation)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0154",
+            "line_start": 134,
+            "line_end": 136,
+            "url": "https://www.ametekpds.com/products",
+            "page_class": "product",
+            "snippet": "    ##### [Power Distribution](/products/power-distribution)\n    AMETEK PDS offers complete range of power distribution and solutions, designed to solve simple and complex problems for the aerospace & defense industry.\n    [Keep Reading](/products/power-distribution)"
+          }
+        ],
+        "notes": "Core product lines are power generation (starter generators, GCUs) and power distribution (PDUs, SSRs, circuit breaker panels) for aerospace/defense including UAV."
+      },
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0154",
+            "line_start": 146,
+            "line_end": 148,
+            "url": "https://www.ametekpds.com/products",
+            "page_class": "product",
+            "snippet": "    ##### [Electric Motors](/products/electric-motors-dc-ac-motors)\n    A full range of rugged, high-performance brushed and brushless dc motors for aerospace and defense applications\n    [Keep Reading](/products/electric-motors-dc-ac-motors)"
+          }
+        ],
+        "notes": "DC Brush and DC Brushless motors for aerospace and defense applications."
+      },
+      {
+        "category": "mechanical_subsystems",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0154",
+            "line_start": 151,
+            "line_end": 151,
+            "url": "https://www.ametekpds.com/products",
+            "page_class": "product",
+            "snippet": "    Linear and rotary, brushed and brushless actuator designs for aerospace & defense applications, including flaps, trim, cabin / cargo doors, valves and anti-ice"
+          }
+        ],
+        "notes": "Linear and rotary actuators for aerospace/defense including UAV flaps, trim, valves, canopy."
+      },
+      {
+        "category": "communications",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 98,
+            "line_end": 100,
+            "url": "https://www.ametekpds.com",
+            "page_class": "homepage",
+            "snippet": "*   RF amplifier modules: 80 kHz - 3,000 MHz, 5 - 500 watts broadband, narrowband and custom designs\n*   Rack-mount amplifier systems: 80 kHz - 3,000 MHz, 5 - 1,000 watts\n*   Booster amplifiers for tactical military radios: 30 MHz - 3 GHz, 20 - 125 watts"
+          }
+        ],
+        "notes": "AR Modular RF brand: RF booster amplifiers for tactical military radios, rack-mount amplifiers, amplifier modules; fitted to UAVs."
+      },
+      {
+        "category": "electronic_warfare",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 97,
+            "line_end": 97,
+            "url": "https://www.ametekpds.com",
+            "page_class": "homepage",
+            "snippet": "AR modular designs and manufacturers RF amplifier modules and broadband solid-state amplifier systems that play a critical role in wireless and radio communications, military communications, electronic warfare, electronic countermeasures, homeland security, as well as a variety of medical, scientific, and industrial applications."
+          }
+        ],
+        "notes": "AR Modular RF amplifiers explicitly listed as serving electronic warfare and electronic countermeasures applications."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Primary business is aerospace/defense power systems supplier. RF amplifiers secondary line includes EW/ECM applications per homepage."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Wichita",
+      "state_or_province": "Kansas",
+      "country": "United States",
+      "address": null
+    },
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0155",
+        "line_start": 98,
+        "line_end": 98,
+        "url": "https://www.ametekpds.com/products/actuators/linear",
+        "page_class": "product",
+        "snippet": "Designed and manufactured in our Wichita, KS location, we offer both commercial-off-the shelf (COTS) designs and completely custom engineered solutions to meet our customers timeframe and specification requirements."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0152",
+        "line_start": 91,
+        "line_end": 91,
+        "url": "https://www.ametekpds.com/privacy",
+        "page_class": "company",
+        "snippet": "AMETEK PDS, a division of AMETEK Inc."
+      }
+    ],
+    "notes": "Locations page states 'Headquartered in the USA' but that line exceeds citation word cap; actuators page confirms Wichita KS as a primary design/manufacturing location; AMETEK PDS is a division of AMETEK Inc. (US). Wichita KS as city is inferred from manufacturing mention, not explicit corporate HQ designation."
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0154",
+        "line_start": 131,
+        "line_end": 131,
+        "url": "https://www.ametekpds.com/products",
+        "page_class": "product",
+        "snippet": "    Leading the Aerospace and Defense industry in the design and manufacture of Starter Generators and Generator Control Units."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0154",
+        "line_start": 163,
+        "line_end": 163,
+        "url": "https://www.ametekpds.com/products",
+        "page_class": "product",
+        "snippet": "    Brushed and brushless axial and centrifugal Fans and Blowers for commercial and military jets, helicopters, UAVs and eVTOL and tactical vehicles"
+      }
+    ],
+    "notes": "Designs and manufactures components (power systems, motors, actuators, RF amplifiers, data converters) supplied to UAV/UAS program managers including Lockheed Martin, Aurora, and Turkish Aerospace."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "DC Brush Starter Generators",
+        "product_type": "aerospace starter-generator",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0154",
+            "line_start": 16,
+            "line_end": 16,
+            "url": "https://www.ametekpds.com/products",
+            "page_class": "product",
+            "snippet": "        *   [DC Brush Starter Generators](/products/power-generation/dc-brush-starter-generator)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Generator Control Units",
+        "product_type": "generator control unit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0154",
+            "line_start": 17,
+            "line_end": 17,
+            "url": "https://www.ametekpds.com/products",
+            "page_class": "product",
+            "snippet": "        *   [Generator Control Units](/products/power-generation/generator-control-unit)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Primary Power Distribution Units",
+        "product_type": "aerospace power distribution unit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0154",
+            "line_start": 20,
+            "line_end": 20,
+            "url": "https://www.ametekpds.com/products",
+            "page_class": "product",
+            "snippet": "        *   [AC Secondary Power Distribution](/products/power-distribution/ac-secondary-power-dist-unit)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Solid State Relays",
+        "product_type": "solid-state power switching relay",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0154",
+            "line_start": 24,
+            "line_end": 24,
+            "url": "https://www.ametekpds.com/products",
+            "page_class": "product",
+            "snippet": "        *   [Circuit Breaker Panels](/products/power-distribution/circuit-breaker-panels)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "RF Booster Amplifiers",
+        "product_type": "tactical military radio booster amplifier",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0154",
+            "line_start": 27,
+            "line_end": 27,
+            "url": "https://www.ametekpds.com/products",
+            "page_class": "product",
+            "snippet": "        *   [Rack Mount Amplifiers](/products/rf-amplifers/rack-mount-amplifiers)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Rack Mount Amplifiers",
+        "product_type": "rack-mount RF amplifier system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0154",
+            "line_start": 28,
+            "line_end": 28,
+            "url": "https://www.ametekpds.com/products",
+            "page_class": "product",
+            "snippet": "        *   [Amplifier Modules](/products/rf-amplifers/amplifier-modules)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Amplifier Modules",
+        "product_type": "RF amplifier module",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0154",
+            "line_start": 29,
+            "line_end": 29,
+            "url": "https://www.ametekpds.com/products",
+            "page_class": "product",
+            "snippet": "    *   [Controllers](/products/controllers)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Electrical Heater Controllers",
+        "product_type": "aircraft heater controller",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0187",
+            "line_start": 131,
+            "line_end": 133,
+            "url": "https://www.ametekpds.com/products/controllers",
+            "page_class": "product",
+            "snippet": "    ##### [Electrical Heater Controllers](/products/controllers/electrical-heater-controllers)\n    Our Electrical Heater Controllers are precision engineered to provide accurate temperature control, monitoring and status reporting for heating units in the aircraft.\n    [Keep Reading](/products/controllers/electrical-heater-controllers)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Windshield Heater Controllers",
+        "product_type": "aircraft windshield heating controller",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0187",
+            "line_start": 135,
+            "line_end": 136,
+            "url": "https://www.ametekpds.com/products/controllers",
+            "page_class": "product",
+            "snippet": "    ##### [Windshield Heater Controllers](/products/controllers/windshield-heater-controllers)\n    AMETEK\u2019s Windshield Heater Controllers are designed to provide temperature control and monitoring functions for aircraft windshield heating units."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DC Brush Motors",
+        "product_type": "DC brush electric motor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0154",
+            "line_start": 33,
+            "line_end": 33,
+            "url": "https://www.ametekpds.com/products",
+            "page_class": "product",
+            "snippet": "        *   [DC Brush Motors](/products/electric-motors-dc-ac-motors/dc-brush-motor)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DC Brushless Motors",
+        "product_type": "DC brushless electric motor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0154",
+            "line_start": 34,
+            "line_end": 34,
+            "url": "https://www.ametekpds.com/products",
+            "page_class": "product",
+            "snippet": "        *   [DC Brushless Motors](/products/electric-motors-dc-ac-motors/dc-brushless-motor)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Linear Actuators",
+        "product_type": "linear electromechanical actuator",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0157",
+            "line_start": 135,
+            "line_end": 136,
+            "url": "https://www.ametekpds.com/products/actuators",
+            "page_class": "product",
+            "snippet": "    ##### [Linear Actuators](/products/actuators/linear)\n    Design and manufacturing of industry leading Linear Actuator solutions for the global aerospace and defense industry"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Rotary Actuators",
+        "product_type": "rotary electromechanical actuator",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0157",
+            "line_start": 139,
+            "line_end": 140,
+            "url": "https://www.ametekpds.com/products/actuators",
+            "page_class": "product",
+            "snippet": "    ##### [Rotary Actuators](/products/actuators/rotary)\n    Design and manufacturing of industry leading Rotary Actuation solutions for commercial, business and military aircraft & tactical vehicles across the globe"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Bus Adapter Units",
+        "product_type": "avionics data bus adapter",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0154",
+            "line_start": 40,
+            "line_end": 40,
+            "url": "https://www.ametekpds.com/products",
+            "page_class": "product",
+            "snippet": "        *   [Engine Interface Units](/products/data-conversion/engine-interface-unit)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Engine Interface Units",
+        "product_type": "engine data interface unit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0154",
+            "line_start": 41,
+            "line_end": 41,
+            "url": "https://www.ametekpds.com/products",
+            "page_class": "product",
+            "snippet": "        *   [Weapons System Processor Panels](/products/data-conversion/weapons-system-processes-panel-da)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Weapons System Processor Panels",
+        "product_type": "weapons system data processor panel",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0154",
+            "line_start": 42,
+            "line_end": 42,
+            "url": "https://www.ametekpds.com/products",
+            "page_class": "product",
+            "snippet": "    *   [Indicators/Panels](/products/indicators-panels)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Axial Fans & Blowers",
+        "product_type": "axial cooling fan/blower for aerospace",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0154",
+            "line_start": 163,
+            "line_end": 163,
+            "url": "https://www.ametekpds.com/products",
+            "page_class": "product",
+            "snippet": "    Brushed and brushless axial and centrifugal Fans and Blowers for commercial and military jets, helicopters, UAVs and eVTOL and tactical vehicles"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Centrifugal Blowers",
+        "product_type": "centrifugal blower for aerospace",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0154",
+            "line_start": 51,
+            "line_end": 51,
+            "url": "https://www.ametekpds.com/products",
+            "page_class": "product",
+            "snippet": "    *   [Custom Engineering Solutions](/products/custom-engineering-solution)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Product families clearly listed across site; specific model numbers exist on skipped sub-pages."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0154",
+        "line_start": 131,
+        "line_end": 131,
+        "url": "https://www.ametekpds.com/products",
+        "page_class": "product",
+        "snippet": "    Leading the Aerospace and Defense industry in the design and manufacture of Starter Generators and Generator Control Units."
+      }
+    ],
+    "notes": "Long-established global production supplier to major aerospace/defense OEMs. Also offers custom engineering design-to-spec services as a secondary mode."
+  },
+  "unresolved_questions": [
+    "Exact headquarters address/city for AMETEK PDS (locations page was skipped)",
+    "Whether specific product model numbers for UAV-rated components are disclosed on sub-pages",
+    "Any NDAA 889 compliance disclosures on quality/certificates pages"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.ametekpds.com/about-us/locations",
+      "reason": "Locations/contact page would disclose headquarters city, state, and address for AMETEK PDS.",
+      "expected_evidence": [
+        "headquarters"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=contact",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.ametekpds.com/about-us/about-us",
+      "reason": "About Us page would confirm company description, headquarters, and potentially NDAA/compliance claims.",
+      "expected_evidence": [
+        "headquarters",
+        "drone_supply_chain_role",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.ametekpds.com/about-us/quality-policy",
+      "reason": "Quality policy/compliance page may disclose NDAA Section 889 compliance or other regulatory certifications relevant to UAV supply chain.",
+      "expected_evidence": [
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=compliance",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Manufactures DC power generation and distribution units, RF amplifiers (30\u2013512 MHz tactical boosters), electric motors, actuators, and avionics for aerospace and defense platforms including UAVs. In-production component supplier across power systems, communications, and propulsion. NDAA and Blue UAS certification status unknown; public evidence thin on specific unmanned-systems contracts or program wins.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 26,
+    "total_cost_usd": 0.80244655,
+    "created_at": "2026-05-03T21:19:04+00:00",
+    "extract_version": "0.1.0"
+  }
+}

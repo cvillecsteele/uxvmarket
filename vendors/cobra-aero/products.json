@@ -1,0 +1,322 @@
+{
+  "target_id": "cobra-aero",
+  "run_id": "canonical",
+  "display_name": "Cobra AERO",
+  "homepage_url": "https://www.cobra-aero.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/cobra-aero/website",
+  "products": [
+    {
+      "name": "AXX Platform Strategy",
+      "category": "propulsion_mechanical",
+      "descriptor": "IC engine and hybrid propulsion platform architecture covering N, P, and S powertrain configurations",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0066",
+          "line_start": 32,
+          "line_end": 33,
+          "url": "https://www.cobra-aero.com/platform-strategy",
+          "page_class": "product",
+          "snippet": "### AXX Platform Strategy\n![](https://images.squarespace-cdn.com/content/v1/5d895cd1d064367698a1205a/52efd655-d2ba-4cc0-bbbc-1dbfa0ec0cde/Cobra+Aero+-+Matrix-4-20-24.gif)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0066",
+          "line_start": 35,
+          "line_end": 35,
+          "url": "https://www.cobra-aero.com/platform-strategy",
+          "page_class": "product",
+          "snippet": "**AXX****N** \u2013 Standard IC engine platform. Shaft power is motive (connected directly to the propeller or pump). Generator provides enough electrical power to run comms, avionics, sensors, etc."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0066",
+          "line_start": 37,
+          "line_end": 37,
+          "url": "https://www.cobra-aero.com/platform-strategy",
+          "page_class": "product",
+          "snippet": "**AXX****S** \u2013 Full series hybrid whereby all available engine shaft power is converted to electrical energy. Use cases include electrically driven craft and gen-sets."
+        }
+      ],
+      "notes": "AXX naming: N=standard IC shaft drive, P=parallel hybrid, S=series hybrid/genset. Applied to both A33 and A99 families."
+    },
+    {
+      "name": "A33 Propulsion Systems",
+      "category": "propulsion_mechanical",
+      "descriptor": "33cc-class IC engine propulsion family for UAVs, with N, HF, and S variants",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0066",
+          "line_start": 39,
+          "line_end": 41,
+          "url": "https://www.cobra-aero.com/platform-strategy",
+          "page_class": "product",
+          "snippet": "[A33 PROPULSION SYSTEMS](/a33-engine)\n[**A33N**](/a33n)[**A33H**](/a33hf)**\nA33S**"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "A33N",
+      "category": "propulsion_mechanical",
+      "descriptor": "Standard IC engine UAV propulsion unit; shaft power drives propeller or pump directly",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0066",
+          "line_start": 35,
+          "line_end": 35,
+          "url": "https://www.cobra-aero.com/platform-strategy",
+          "page_class": "product",
+          "snippet": "**AXX****N** \u2013 Standard IC engine platform. Shaft power is motive (connected directly to the propeller or pump). Generator provides enough electrical power to run comms, avionics, sensors, etc."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0066",
+          "line_start": 40,
+          "line_end": 40,
+          "url": "https://www.cobra-aero.com/platform-strategy",
+          "page_class": "product",
+          "snippet": "[**A33N**](/a33n)[**A33H**](/a33hf)**"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "A33HF",
+      "category": "power_systems",
+      "descriptor": "Parallel hybrid variant of A33 engine; motor/generator augments shaft power and increases generator output",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0066",
+          "line_start": 36,
+          "line_end": 36,
+          "url": "https://www.cobra-aero.com/platform-strategy",
+          "page_class": "product",
+          "snippet": "**AXX****P** \u2013 Parallel hybrid. Motor/generator can assist the IC engine in providing additional shaft power for time-limited requirements (sprint, take-off, etc.). Additionally, this topology provides more generator output than the \u2018N\u2019 configuration."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0066",
+          "line_start": 40,
+          "line_end": 40,
+          "url": "https://www.cobra-aero.com/platform-strategy",
+          "page_class": "product",
+          "snippet": "[**A33N**](/a33n)[**A33H**](/a33hf)**"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "A33S",
+      "category": "power_systems",
+      "descriptor": "Series hybrid A33 variant converting all engine shaft power to electrical energy for gen-set or electric propulsion use",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0066",
+          "line_start": 37,
+          "line_end": 37,
+          "url": "https://www.cobra-aero.com/platform-strategy",
+          "page_class": "product",
+          "snippet": "**AXX****S** \u2013 Full series hybrid whereby all available engine shaft power is converted to electrical energy. Use cases include electrically driven craft and gen-sets."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0066",
+          "line_start": 40,
+          "line_end": 41,
+          "url": "https://www.cobra-aero.com/platform-strategy",
+          "page_class": "product",
+          "snippet": "[**A33N**](/a33n)[**A33H**](/a33hf)**\nA33S**"
+        }
+      ],
+      "notes": "Listed on the platform-strategy page without a dedicated hyperlink (unlike A33N and A33HF), suggesting it may be in development or available on inquiry only."
+    },
+    {
+      "name": "A99 Propulsion Systems",
+      "category": "propulsion_mechanical",
+      "descriptor": "99cc-class IC engine propulsion family for UAVs, with H and S hybrid variants",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0066",
+          "line_start": 44,
+          "line_end": 45,
+          "url": "https://www.cobra-aero.com/platform-strategy",
+          "page_class": "product",
+          "snippet": "[A99 PROPULSION SYSTEMS](/a99-engine)\n[**A99H**](/a99h)[**A99S**](/a99s)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "A99H",
+      "category": "power_systems",
+      "descriptor": "Parallel hybrid variant of A99 engine; motor/generator augments shaft power and increases generator output",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0066",
+          "line_start": 36,
+          "line_end": 36,
+          "url": "https://www.cobra-aero.com/platform-strategy",
+          "page_class": "product",
+          "snippet": "**AXX****P** \u2013 Parallel hybrid. Motor/generator can assist the IC engine in providing additional shaft power for time-limited requirements (sprint, take-off, etc.). Additionally, this topology provides more generator output than the \u2018N\u2019 configuration."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0066",
+          "line_start": 45,
+          "line_end": 45,
+          "url": "https://www.cobra-aero.com/platform-strategy",
+          "page_class": "product",
+          "snippet": "[**A99H**](/a99h)[**A99S**](/a99s)"
+        }
+      ],
+      "notes": "Also labeled A99HF in the site footer (resource-0002 line 56); the main product listing uses A99H."
+    },
+    {
+      "name": "A99S",
+      "category": "power_systems",
+      "descriptor": "Series hybrid A99 variant converting all engine shaft power to electrical energy for gen-set or electric propulsion use",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0066",
+          "line_start": 37,
+          "line_end": 37,
+          "url": "https://www.cobra-aero.com/platform-strategy",
+          "page_class": "product",
+          "snippet": "**AXX****S** \u2013 Full series hybrid whereby all available engine shaft power is converted to electrical energy. Use cases include electrically driven craft and gen-sets."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0066",
+          "line_start": 45,
+          "line_end": 45,
+          "url": "https://www.cobra-aero.com/platform-strategy",
+          "page_class": "product",
+          "snippet": "[**A99H**](/a99h)[**A99S**](/a99s)"
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "All individual product detail pages (/a33n, /a33hf, /a33-engine, /a99-engine, /a99h, /a99s) were skipped_class_budget and not fetched \u2014 specs, displacement, power output, weight, and any NDAA/compliance claims are unknown.",
+    "A33S lacks a dedicated hyperlink on the platform-strategy page (unlike A33N and A33HF), so its production readiness is uncertain.",
+    "A99H is labeled both 'A99H' (main product listing line 45) and 'A99HF' (footer line 56) \u2014 exact commercial name unclear without fetching the product page.",
+    "No NDAA Section 848/889 or Blue UAS compliance claims found anywhere in the fetched corpus."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.cobra-aero.com/a33-engine",
+      "reason": "A33 Propulsion Systems family page \u2014 would provide specs, sub-model listing, and any compliance claims for the A33 family.",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.cobra-aero.com/a33n",
+      "reason": "A33N individual product page \u2014 would provide engine specs, readiness signals, and compliance claims.",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.cobra-aero.com/a33hf",
+      "reason": "A33HF individual product page \u2014 would confirm hybrid configuration details and readiness.",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.cobra-aero.com/a99-engine",
+      "reason": "A99 Propulsion Systems family page \u2014 would provide specs and sub-model listing for the A99 family.",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.cobra-aero.com/a99h",
+      "reason": "A99H/A99HF individual product page \u2014 would resolve name ambiguity and provide specs and readiness signals.",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.cobra-aero.com/a99s",
+      "reason": "A99S individual product page \u2014 would provide series-hybrid specs and readiness signals.",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 20,
+    "total_cost_usd": 0.41435005,
+    "created_at": "2026-05-04T01:27:55+00:00",
+    "extract_version": "0.1.0"
+  }
+}

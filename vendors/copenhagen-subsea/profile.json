@@ -1,0 +1,311 @@
+{
+  "target_id": "copenhagen-subsea",
+  "run_id": "canonical",
+  "display_name": "Copenhagen Subsea",
+  "homepage_url": "https://copenhagensubsea.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/copenhagen-subsea/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 41,
+            "line_end": 42,
+            "url": "https://copenhagensubsea.com",
+            "page_class": "homepage",
+            "snippet": "The revolutionary series of Reliable, Powerful and Silent\nsubsea thrusters"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0003",
+            "line_start": 43,
+            "line_end": 44,
+            "url": "https://copenhagensubsea.com/about",
+            "page_class": "company",
+            "snippet": "#### Redefining subsea solutions with innovative, reliable, and durable thrusters\ndesigned for the toughest underwater environments."
+          }
+        ],
+        "notes": "Rim-driven electric subsea thrusters are the founding product and core business \u2014 sold to third-party ROV/AUV builders globally."
+      },
+      {
+        "category": "airframes",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0003",
+            "line_start": 92,
+            "line_end": 93,
+            "url": "https://copenhagensubsea.com/about",
+            "page_class": "company",
+            "snippet": "Building on years of thruster innovation, Copenhagen Subsea develops the Gorilla ROV.\nClassified as a Light Work Class ROV, the Gorilla is built for agility, strength, and high maneuverability. Powered by Copenhagen Subsea\u2019s own electric thrusters, it delivers a compact, silent, and highly responsive subsea vehicle."
+          }
+        ],
+        "notes": "Gorilla ROV is a complete Light Work Class ROV; SeaBadger hull-cleaning ROV co-developed with sister company; Maneuvering Subsea System is a complete subsea positioning vehicle."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Medium list confidence because subsea-thrusters and ROV product pages were skipped; specific thruster model numbers/variants not yet confirmed."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Hellerup",
+      "state_or_province": null,
+      "country": "Denmark",
+      "address": "Troljevej 2, 2900 Hellerup"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0007",
+        "line_start": 86,
+        "line_end": 88,
+        "url": "https://copenhagensubsea.com/contact",
+        "page_class": "contact",
+        "snippet": "*   Troljevej 2\n    2900 Hellerup\n    Denmark"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 93,
+        "line_end": 93,
+        "url": "https://copenhagensubsea.com",
+        "page_class": "homepage",
+        "snippet": "Calculate the thrust needed for your ROV, AUV, or underwater system."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0003",
+        "line_start": 56,
+        "line_end": 56,
+        "url": "https://copenhagensubsea.com/about",
+        "page_class": "company",
+        "snippet": "Today, our thrusters are trusted globally, from deep-sea research to offshore energy projects. \u201cWe don\u2019t compete on price. But when it comes to reliability, we are the ones to go to,\u201d says co-founder Jens Peter Bredholdt."
+      }
+    ],
+    "notes": "Primary business is selling rim-driven electric thrusters as components to ROV/AUV builders worldwide. The company also manufactures complete ROV platforms (Gorilla ROV, SeaBadger) but the founding mission and dominant product line is the thruster itself."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Subsea Thrusters",
+        "product_type": "rim-driven electric subsea thrusters for ROVs/AUVs",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 150,
+            "line_end": 150,
+            "url": "https://copenhagensubsea.com",
+            "page_class": "homepage",
+            "snippet": "[Subsea Thrusters](/subsea-thrusters)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Gorilla ROV",
+        "product_type": "Light Work Class ROV",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0003",
+            "line_start": 92,
+            "line_end": 92,
+            "url": "https://copenhagensubsea.com/about",
+            "page_class": "company",
+            "snippet": "Building on years of thruster innovation, Copenhagen Subsea develops the Gorilla ROV."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 151,
+            "line_end": 151,
+            "url": "https://copenhagensubsea.com",
+            "page_class": "homepage",
+            "snippet": "[ROV Gorilla](https://copenhagensubsea.com/rov/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Maneuvering Subsea System",
+        "product_type": "subsea maneuvering/positioning system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 152,
+            "line_end": 152,
+            "url": "https://copenhagensubsea.com",
+            "page_class": "homepage",
+            "snippet": "[Maneuvering Subsea System](https://copenhagensubsea.com/maneuvering-subsea-system/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SeaBadger",
+        "product_type": "hull-cleaning ROV (co-developed with Hydro Hull Cleaning)",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0003",
+            "line_start": 83,
+            "line_end": 84,
+            "url": "https://copenhagensubsea.com/about",
+            "page_class": "company",
+            "snippet": "The SeaBadger MKI launches as a specialized hull-cleaning ROV, co-developed with our sister company, Hydro Hull Cleaning.\nBuilt around Copenhagen Subsea\u2019s electric thrusters, the SeaBadger was engineered for diver-free operation, industrial durability, and safe performance under water."
+          }
+        ],
+        "notes": "MKI (2015) and MKII (2022) versions; co-developed with sister company Hydro Hull Cleaning."
+      },
+      {
+        "name": "Bearing Puller",
+        "product_type": "thruster maintenance tool",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0042",
+            "line_start": 44,
+            "line_end": 45,
+            "url": "https://copenhagensubsea.com/thruster-manual",
+            "page_class": "product",
+            "snippet": "Bearing Puller\n--------------"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Rotor Puller",
+        "product_type": "thruster maintenance tool",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0042",
+            "line_start": 56,
+            "line_end": 57,
+            "url": "https://copenhagensubsea.com/thruster-manual",
+            "page_class": "product",
+            "snippet": "Rotor Puller\n------------"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Specific thruster model names/SKUs likely appear on the /subsea-thrusters page which was skipped."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0003",
+        "line_start": 87,
+        "line_end": 88,
+        "url": "https://copenhagensubsea.com/about",
+        "page_class": "company",
+        "snippet": "**A Global Impact**\nCopenhagen Subsea\u2019s electric thrusters proved their worth globally, operating silently at depths of up to 3 kilometers and running for over 4,000 hours nonstop."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 63,
+        "line_end": 63,
+        "url": "https://copenhagensubsea.com",
+        "page_class": "homepage",
+        "snippet": "Our thrusters are running continuously and have already exceeded 4,000 hours without breakdowns, and they keep going! Their performance and durability are rigorously tested and certified through in-water trials."
+      }
+    ],
+    "notes": "Products in serial commercial use globally with documented multi-thousand-hour run times, published manuals, brochures, and spec sheets. Customers include US Navy, GEOMAR, and offshore energy companies."
+  },
+  "unresolved_questions": [
+    "Specific thruster model names/SKUs not confirmed \u2014 /subsea-thrusters page was skipped.",
+    "Maneuvering Subsea System exact category unclear without the /maneuvering-subsea-system page.",
+    "No NDAA or Blue UAS compliance statements found in corpus."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://copenhagensubsea.com/subsea-thrusters",
+      "reason": "Would reveal specific thruster model names, variants, and power/thrust specs \u2014 needed to enumerate product SKUs and confirm propulsion_mechanical category with full detail.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://copenhagensubsea.com/rov",
+      "reason": "Would confirm Gorilla ROV product specs and confirm airframes category for a complete UUV platform.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://copenhagensubsea.com/maneuvering-subsea-system",
+      "reason": "Would clarify whether the Maneuvering Subsea System is a complete UUV platform (airframes) or a mechanical tool/subsystem.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": null,
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 13,
+    "total_cost_usd": 0.51014475,
+    "created_at": "2026-05-04T01:24:35+00:00",
+    "extract_version": "0.1.0"
+  }
+}

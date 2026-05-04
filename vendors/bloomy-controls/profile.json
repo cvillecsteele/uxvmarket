@@ -1,0 +1,438 @@
+{
+  "target_id": "bloomy-controls",
+  "run_id": "canonical",
+  "display_name": "Bloomy Controls",
+  "homepage_url": "https://www.bloomy.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/bloomy-controls/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "test_and_measurement",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://www.bloomy.com",
+            "page_class": "homepage",
+            "snippet": "Bloomy: The Leader in Automated Test, Data Acquisition, and Control Systems                                [Skip to main content](#main-content)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 122,
+            "line_end": 123,
+            "url": "https://www.bloomy.com",
+            "page_class": "homepage",
+            "snippet": "    Bloomy's BMS test products and platforms optimize BMS life-cycle testing with battery simulation, hardware-in-the-loop, validation, and end-of-line manufacturing test systems.\n    [Learn More \u00bb](/node/752)"
+          }
+        ],
+        "notes": "Automated test, HIL simulation, data acquisition systems for aerospace/defense/EV/battery industries; includes eVTOL Integrated HIL Test System"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Bloomy is primarily a test equipment manufacturer; their eVTOL HIL Test System connects them to the UXV supply chain"
+  },
+  "headquarters": {
+    "value": {
+      "city": "South Windsor",
+      "state_or_province": "Connecticut",
+      "country": "United States",
+      "address": null
+    },
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 23,
+        "line_end": 23,
+        "url": "https://www.bloomy.com",
+        "page_class": "homepage",
+        "snippet": "        *   [Junior Accountant - South Windsor, CT](/junior-accountant-technology-south-windsor-ct)"
+      }
+    ],
+    "notes": "Inferred from job posting title; contact page was skipped and would confirm exact address"
+  },
+  "drone_supply_chain_role": {
+    "value": "broad_industrial",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 43,
+        "line_end": 43,
+        "url": "https://www.bloomy.com",
+        "page_class": "homepage",
+        "snippet": "        *   [eVTOL Integrated HIL Test System](/products/simulation-systems/evtol-integrated-hil-test-system)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 127,
+        "line_end": 128,
+        "url": "https://www.bloomy.com",
+        "page_class": "homepage",
+        "snippet": "    Simulation Systems for HIL and open-loop test of all types of transportation and defense systems.\n    [Learn More \u00bb](/node/125)"
+      }
+    ],
+    "notes": "Primarily an aerospace/defense automated test equipment company; they offer an eVTOL Integrated HIL Test System and flight control system test platforms, placing them adjacent to the UXV supply chain through test equipment"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "UTS (Universal Test System)",
+        "product_type": "electronics functional test platform",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 115,
+            "line_end": 117,
+            "url": "https://www.bloomy.com",
+            "page_class": "homepage",
+            "snippet": "    Universal Test System\n    ---------------------\n    The UTS electronics functional test platform combined with the EFT Module for TestStand drastically reduces the cost of test and time to market for a wide range of industries."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Battery Simulator 1200",
+        "product_type": "BMS test battery cell simulator",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0288",
+            "line_start": 124,
+            "line_end": 124,
+            "url": "https://www.bloomy.com/products/battery-management-system-testing/battery-simulator-1200",
+            "page_class": "product",
+            "snippet": "*   Battery Simulator 1200"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Battery Simulator 1201",
+        "product_type": "BMS test battery cell simulator",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0264",
+            "line_start": 124,
+            "line_end": 124,
+            "url": "https://www.bloomy.com/products/battery-management-system-testing/battery-simulator-1201",
+            "page_class": "product",
+            "snippet": "*   Battery Simulator 1201"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Advanced Battery Simulator 800",
+        "product_type": "BMS test battery cell simulator (8-channel)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0073",
+            "line_start": 124,
+            "line_end": 124,
+            "url": "https://www.bloomy.com/products/battery-management-system-testing/advanced-battery-simulator-800",
+            "page_class": "product",
+            "snippet": "*   Advanced Battery Simulator 800"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "FLEX BMS\u2122 Validation System",
+        "product_type": "battery management system validation test system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0278",
+            "line_start": 131,
+            "line_end": 131,
+            "url": "https://www.bloomy.com/products/battery-management-system-testing/flex-bms-validation-system",
+            "page_class": "product",
+            "snippet": "Simplified\u00a0evaluation of multiple battery management systems"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "800V Battery Cell Simulation Tower",
+        "product_type": "high-voltage BMS HIL test system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0286",
+            "line_start": 125,
+            "line_end": 125,
+            "url": "https://www.bloomy.com/products/battery-management-system-testing/800v-battery-cell-simulation-tower",
+            "page_class": "product",
+            "snippet": "800V BATTERY CELL SIMULATION TOWER"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "BLOOMY CESL2G (PWA212040)",
+        "product_type": "Pratt & Whitney GTF engine software loader",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0285",
+            "line_start": 123,
+            "line_end": 123,
+            "url": "https://www.bloomy.com/bloomy-cesl2g-pwa212040",
+            "page_class": "other",
+            "snippet": "CESL2G (PWA212040)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "1553B C Series Module",
+        "product_type": "MIL-STD-1553B interface module for CompactRIO",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0265",
+            "line_start": 130,
+            "line_end": 131,
+            "url": "https://www.bloomy.com/products/slsc-and-crio-modules-and-accessories/1553b-c-series-module",
+            "page_class": "product",
+            "snippet": "Test and simulate MIL-STD-1553B bus communications\nBloomy\u2019s 1553B C Series module provides MIL-STD-1553B communication functionality in a rugged National Instruments (NI) CompactRIO form factor. The module includes a single dual-redundant bus interface that can operate in bus controller, remote terminal, and bus monitor modes."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Thermocouple Simulator Module for SLSC",
+        "product_type": "SLSC thermocouple simulation module",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0283",
+            "line_start": 124,
+            "line_end": 124,
+            "url": "https://www.bloomy.com/products/slsc-and-crio-modules-and-accessories/thermocouple-simulator-module-slsc",
+            "page_class": "product",
+            "snippet": "*   Thermocouple Simulator Module for SLSC"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "VDT/Resolver Simulation Module for SLSC",
+        "product_type": "SLSC variable differential transformer simulation module",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0284",
+            "line_start": 124,
+            "line_end": 124,
+            "url": "https://www.bloomy.com/products/slsc-and-crio-modules-and-accessories/vdtresolver-simulation-module-slsc",
+            "page_class": "product",
+            "snippet": "*   VDT/Resolver Simulation Module for SLSC"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ThroughPoint\u2122 Interface Panel for SLSC",
+        "product_type": "SLSC interface panel",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0279",
+            "line_start": 124,
+            "line_end": 124,
+            "url": "https://www.bloomy.com/products/slsc-and-crio-modules-and-accessories/throughpointtm-interface-panel-slsc",
+            "page_class": "product",
+            "snippet": "*   ThroughPoint\u2122 Interface Panel for SLSC"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "eVTOL Integrated HIL Test System",
+        "product_type": "eVTOL hardware-in-the-loop test system",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 43,
+            "line_end": 43,
+            "url": "https://www.bloomy.com",
+            "page_class": "homepage",
+            "snippet": "        *   [eVTOL Integrated HIL Test System](/products/simulation-systems/evtol-integrated-hil-test-system)"
+          }
+        ],
+        "notes": "Only seen in navigation menu; dedicated product page was not fetched"
+      },
+      {
+        "name": "Flight Control System Test Platform",
+        "product_type": "flight control system HIL test platform",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 41,
+            "line_end": 41,
+            "url": "https://www.bloomy.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Flight Control System Test Platform](/products/simulation-systems/flight-control-system-test-platform)"
+          }
+        ],
+        "notes": "Only seen in navigation menu; dedicated product page was not fetched"
+      },
+      {
+        "name": "FADEC/EEC Test Platform",
+        "product_type": "full authority digital engine control test platform",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 40,
+            "line_end": 40,
+            "url": "https://www.bloomy.com",
+            "page_class": "homepage",
+            "snippet": "        *   [FADEC/EEC Test Platform](/products/simulation-systems/fadeceec-test-platform)"
+          }
+        ],
+        "notes": "Only seen in navigation menu; dedicated product page was not fetched"
+      },
+      {
+        "name": "eSoldier Power Monitoring System",
+        "product_type": "military field power monitoring system",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 148,
+            "line_end": 149,
+            "url": "https://www.bloomy.com",
+            "page_class": "homepage",
+            "snippet": "[BLOOMY Commercializes eSoldier\u2122 Advanced Power Monitoring System](/node/861)\nSystem provides field monitoring and analysis of the power consumption of battery-powered military devices."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Many product pages were skipped due to budget limits; additional products likely exist"
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA Section 848/889 mentions found in corpus. Compliance page covers ITAR, CMMC, CUI but not NDAA."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS or Blue sUAS mentions found in corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0265",
+        "line_start": 176,
+        "line_end": 180,
+        "url": "https://www.bloomy.com/products/slsc-and-crio-modules-and-accessories/1553b-c-series-module",
+        "page_class": "product",
+        "snippet": "Part Number\nDescription\n1200-00001\nMIL-STD-1553B Interface Module for cRIO (includes module and mating power connector)\n1200-00027"
+      }
+    ],
+    "notes": "Catalog SKUs with part numbers, data sheets, and quote request forms available across all product lines"
+  },
+  "unresolved_questions": [
+    "Exact street address of headquarters (contact page was skipped)",
+    "Full details of eVTOL Integrated HIL Test System product page (skipped)",
+    "NDAA compliance status not mentioned anywhere in corpus",
+    "Blue UAS status not mentioned anywhere in corpus"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.bloomy.com/contact-us",
+      "reason": "Would confirm exact headquarters address (city, state, street) for Bloomy Controls",
+      "expected_evidence": [
+        "headquarters"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=contact",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.bloomy.com/company/background-and-history",
+      "reason": "Company background page would provide headquarters location and company history relevant to UXV supply chain role",
+      "expected_evidence": [
+        "headquarters",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=company",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.bloomy.com/products/simulation-systems/evtol-integrated-hil-test-system",
+      "reason": "Would provide full details on Bloomy's eVTOL HIL test system, key evidence for UXV supply chain role and product category classification",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.bloomy.com/capabilities/ni-certifications-accreditations",
+      "reason": "Compliance page may contain NDAA or other regulatory compliance information",
+      "expected_evidence": [
+        "ndaa",
+        "blue_uas"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=compliance",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Manufactures hardware-in-the-loop test platforms and battery simulators for flight control, FADEC, BMS, and eVTOL systems. Connecticut-based, production-ready product line spanning real-time simulation, sensor emulation, and specialized loader software (Pratt & Whitney GTF). NDAA and Blue UAS certification status not publicly confirmed; limited public disclosure on defense contracts or program awards.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 21,
+    "total_cost_usd": 0.60324815,
+    "created_at": "2026-05-03T21:54:03+00:00",
+    "extract_version": "0.1.0"
+  }
+}

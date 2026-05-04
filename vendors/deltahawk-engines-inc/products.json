@@ -1,0 +1,149 @@
+{
+  "target_id": "deltahawk-engines-inc",
+  "run_id": "canonical",
+  "display_name": "DeltaHawk Engines, Inc",
+  "homepage_url": "https://www.deltahawk.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/deltahawk-engines-inc/website",
+  "products": [
+    {
+      "name": "DHK4A180",
+      "category": "propulsion_mechanical",
+      "descriptor": "180 hp FAA-certified jet-fueled piston aircraft engine",
+      "granularity": "sku",
+      "readiness": "low_rate_production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0004",
+          "line_start": 66,
+          "line_end": 66,
+          "url": "https://www.deltahawk.com/2023/05/18/faa-certification",
+          "page_class": "compliance",
+          "snippet": "(Racine, Wisconsin) The stroke of an official pen and the presentation of appropriate documents marked a milestone years in the making \u2013 as DeltaHawk Engines has received FAA Type Certification for its highly innovative, jet-fueled aircraft piston engine. The 180 horsepower DHK4A180 is the first of a family of engines to come from DeltaHawk."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0010",
+          "line_start": 66,
+          "line_end": 66,
+          "url": "https://www.deltahawk.com/2024/02/01/deltahawk-introduces-higher-power-engine-options",
+          "page_class": "news",
+          "snippet": "DeltaHawk Engines has added two new higher horsepower engine models to its family of jet-fueled piston engines. Both of the new engines are based upon the architecture of the company\u2019s highly innovative DHK4A180, which was FAA Certified in April 2023 and is now being readied for production ahead of anticipated deliveries in 2025."
+        }
+      ],
+      "notes": "FAA Type Certified April 2023; production ramp-up underway, first deliveries expected 2026 per latest news. Made in USA badge on site."
+    },
+    {
+      "name": "DHK4A200",
+      "category": "propulsion_mechanical",
+      "descriptor": "200 hp jet-fueled piston aircraft engine, certification slated 2026",
+      "granularity": "sku",
+      "readiness": "low_rate_production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0010",
+          "line_start": 73,
+          "line_end": 73,
+          "url": "https://www.deltahawk.com/2024/02/01/deltahawk-introduces-higher-power-engine-options",
+          "page_class": "news",
+          "snippet": "Testing is underway at DeltaHawk Engines as two new higher horsepower versions of its FAA Certified DHK4A180 engine are introduced. The 200 horsepower DHK4A200 is slated for certification and delivery in 2026 followed by the 235 horsepower DHK4A235."
+        }
+      ],
+      "notes": "Reservations open; shares dimensions/weight with DHK4A180; certification and delivery targeted 2026."
+    },
+    {
+      "name": "DHK4A235",
+      "category": "propulsion_mechanical",
+      "descriptor": "235 hp jet-fueled piston aircraft engine, certification following DHK4A200",
+      "granularity": "sku",
+      "readiness": "low_rate_production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0010",
+          "line_start": 73,
+          "line_end": 73,
+          "url": "https://www.deltahawk.com/2024/02/01/deltahawk-introduces-higher-power-engine-options",
+          "page_class": "news",
+          "snippet": "Testing is underway at DeltaHawk Engines as two new higher horsepower versions of its FAA Certified DHK4A180 engine are introduced. The 200 horsepower DHK4A200 is slated for certification and delivery in 2026 followed by the 235 horsepower DHK4A235."
+        }
+      ],
+      "notes": "Reservations open; shares dimensions/weight with DHK4A180; certification follows DHK4A200 (post-2026)."
+    },
+    {
+      "name": "DHK Engine Family (Government/Military Application)",
+      "category": "propulsion_mechanical",
+      "descriptor": "DHK jet-fueled piston engine family marketed for government and military UAS/UAV use",
+      "granularity": "family",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 73,
+          "line_end": 75,
+          "url": "https://www.deltahawk.com",
+          "page_class": "homepage",
+          "snippet": "[![Government and Military applications drone](https://www.deltahawk.com/wp-content/uploads/2024/07/application-government.jpg)\n### Government\n](https://www.deltahawk.com/military-applications/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0011",
+          "line_start": 67,
+          "line_end": 67,
+          "url": "https://www.deltahawk.com/2024/03/12/uncrewed-systems-technology",
+          "page_class": "capability",
+          "snippet": "[Read the article](https://www.ust-media.com/ust-magazine/UST054/64/) or learn more about the [military applications](https://www.deltahawk.com/military-applications/) of the DeltaHawk engine."
+        }
+      ],
+      "notes": "Dedicated military-applications page (https://www.deltahawk.com/military-applications) was skipped in the mirror (status=skipped_class_budget). Specific government/military SKUs and NDAA/Blue UAS status cannot be determined from the fetched corpus. The FAA certification article (resource-0007 L70) notes DeltaHawk has received interest from the military, but no product-level details are present."
+    }
+  ],
+  "unresolved_questions": [
+    "DHK Engine Family (Government/Military Application): the dedicated page https://www.deltahawk.com/military-applications was skipped (status=skipped_class_budget). Specific government/military SKUs, NDAA compliance status, and Blue UAS status cannot be determined from the fetched corpus.",
+    "DHK4A180/200/235 readiness: site uses 'Reserve Today' / 'production slot reservations' language and mentions deliveries expected 2026, consistent with low_rate_production; ndaa set to not_disclosed because site displays a Made-in-USA badge but makes no explicit NDAA claim.",
+    "Vendor pass also listed DHK6A3550 \u2014 no evidence for this model was found in the fetched corpus; it may reside on the skipped engines/ or future-apps pages."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.deltahawk.com/military-applications",
+      "reason": "Dedicated government/military applications page not fetched; needed to identify specific military SKUs, NDAA compliance claims, and Blue UAS status for the DHK engine family in UAS/UAV contexts.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.deltahawk.com/engines/",
+      "reason": "Main engines/specifications page (linked from every page as primary product nav) was not fetched; expected to contain full spec table for all DHK models including DHK6A3550 and any additional SKUs.",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "ndaa"
+      ],
+      "source_hint": null,
+      "in_corpus_index": false
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 19,
+    "total_cost_usd": 0.2922022,
+    "created_at": "2026-05-04T01:45:12+00:00",
+    "extract_version": "0.1.0"
+  }
+}

@@ -1,0 +1,314 @@
+{
+  "target_id": "h3x-technologies",
+  "run_id": "canonical",
+  "display_name": "H3X Technologies",
+  "homepage_url": "https://www.h3x.tech",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/h3x-technologies/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 215,
+            "line_end": 215,
+            "url": "https://www.h3x.tech",
+            "page_class": "homepage",
+            "snippet": "H3X manufactures the world's most power-dense integrated motor drives (IMDs) ranging from 30kW to 1MW+ for aerospace, defense, marine, and heavy industry."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0099",
+            "line_start": 161,
+            "line_end": 161,
+            "url": "https://www.h3x.tech/products/hpdm-30",
+            "page_class": "product",
+            "snippet": "33kW\u00a0electric motor with integrated inverter"
+          }
+        ],
+        "notes": "Electric motors are H3X's core product; all HPDM-series are motors with integrated inverters."
+      },
+      {
+        "category": "propulsion_electronics",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0099",
+            "line_start": 177,
+            "line_end": 178,
+            "url": "https://www.h3x.tech/products/hpdm-30",
+            "page_class": "product",
+            "snippet": "### Integrated Silicon Carbide\u00a0Inverter\nState-of-the-art discrete SiC devices enable an ultra-high-density inverter, featuring high switching speeds, advanced common-mode filtering, and an in-house developed self-sensing rotor position algorithm for exceptional performance and efficiency."
+          }
+        ],
+        "notes": "Each motor ships with a co-packaged integrated Silicon Carbide inverter (ESC function)."
+      },
+      {
+        "category": "power_systems",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0096",
+            "line_start": 161,
+            "line_end": 161,
+            "url": "https://www.h3x.tech/products/hpdg-30",
+            "page_class": "product",
+            "snippet": "30kW hybrid powerplant"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0096",
+            "line_start": 164,
+            "line_end": 164,
+            "url": "https://www.h3x.tech/products/hpdg-30",
+            "page_class": "product",
+            "snippet": "**Gasoline** **(Input) \u2192 IC Engine \u2192 HPDM-30 \u2192 HVDC (Output)**"
+          }
+        ],
+        "notes": "HPDG-30 is a 30kW hybrid genset (IC engine + HPDM-30 generator) producing HVDC output."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Louisville",
+      "state_or_province": "Colorado",
+      "country": "United States",
+      "address": "410 S Arthur Ave"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0047",
+        "line_start": 164,
+        "line_end": 165,
+        "url": "https://www.h3x.tech/contact",
+        "page_class": "contact",
+        "snippet": "410 S Arthur Ave\nLouisville, Colorado 80027"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0046",
+        "line_start": 153,
+        "line_end": 153,
+        "url": "https://www.h3x.tech/company",
+        "page_class": "company",
+        "snippet": "Founded in 2020 by a team of engineers, H3X is an advanced technology and electric motor manufacturing company based in the greater Denver, Colorado area."
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 215,
+        "line_end": 215,
+        "url": "https://www.h3x.tech",
+        "page_class": "homepage",
+        "snippet": "H3X manufactures the world's most power-dense integrated motor drives (IMDs) ranging from 30kW to 1MW+ for aerospace, defense, marine, and heavy industry."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 269,
+        "line_end": 269,
+        "url": "https://www.h3x.tech",
+        "page_class": "homepage",
+        "snippet": "unmanned aerial systems, hypersonic aircraft, undersea auvs, submarines, specialized ground vehicles, mobile power generation"
+      }
+    ],
+    "notes": "Sells electric motor-drive components (HPDM series) to OEMs in aerospace, defense, marine, and heavy industry. Explicitly targets unmanned aerial systems as a defense application."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "HPDM-30",
+        "product_type": "33kW integrated motor drive",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0099",
+            "line_start": 153,
+            "line_end": 155,
+            "url": "https://www.h3x.tech/products/hpdm-30",
+            "page_class": "product",
+            "snippet": "HPDM-30\n=======\n33kW\u00a0High Power Density Machine\u00a0(HPDM-30)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HPDM-90S",
+        "product_type": "92kW integrated motor drive",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 176,
+            "line_end": 182,
+            "url": "https://www.h3x.tech",
+            "page_class": "homepage",
+            "snippet": "HPDM-90S\nP\n92 kW\nW\n22 KG\nS\n5,500 RPM"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HPDM-180",
+        "product_type": "180kW integrated motor drive",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 168,
+            "line_end": 174,
+            "url": "https://www.h3x.tech",
+            "page_class": "homepage",
+            "snippet": "HPDM-180R\nP\n180 kW\nW\n16 KG\nS\n2985 RPM"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HPDM-350",
+        "product_type": "integrated motor drive",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 27,
+            "line_end": 32,
+            "url": "https://www.h3x.tech",
+            "page_class": "homepage",
+            "snippet": "HPDM-350\n![](https://cdn.prod.website-files.com/66f40c40b0d838a32422f138/66f5909a7320f436b9df4084_Arrow-Orange.svg)\n](/products/hpdm-350)[\nHPDM-350\n![](https://cdn.prod.website-files.com/66f40c40b0d838a32422f138/66f5909a7320f436b9df4084_Arrow-Orange.svg)\n](/products/hpdm-350)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HPDM-500",
+        "product_type": "500kW integrated motor drive",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0091",
+            "line_start": 159,
+            "line_end": 160,
+            "url": "https://www.h3x.tech/posts/product-launch-hpdm-500",
+            "page_class": "product",
+            "snippet": "Today, we\u2018re unveiling the HPDM-500 \u2014 the next step in the evolution of our ultra-high power density electric motors.\nThe HPDM-500 delivers 500 kW (670 hp) in a package compact enough where two units fit inside a standard carry-on suitcase."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HPDG-30",
+        "product_type": "30kW hybrid diesel genset/powerplant",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0096",
+            "line_start": 153,
+            "line_end": 155,
+            "url": "https://www.h3x.tech/products/hpdg-30",
+            "page_class": "product",
+            "snippet": "HPDG-30\n=======\n30kW\u00a0High Power Density Genset (HPDG-30)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 315,
+        "line_end": 317,
+        "url": "https://www.h3x.tech",
+        "page_class": "homepage",
+        "snippet": "Made in the USA\n---------------\nH3X is proud to design, develop, and manufacture all our products right here in the USA. We are committed to revitalizing domestic manufacturing, engineering leadership, and rapid technology innovation that once fueled the golden age of aerospace in this country."
+      }
+    ],
+    "notes": "Site explicitly claims 'Made in the USA' but makes no explicit NDAA Section 848/889 compliance claim."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0091",
+        "line_start": 162,
+        "line_end": 162,
+        "url": "https://www.h3x.tech/posts/product-launch-hpdm-500",
+        "page_class": "product",
+        "snippet": "The unit also incorporates dual, fully isolated integrated inverters to support fault-tolerant operation.First production batch of 20 units ship to our flagship customer in 26Q2 for an advanced hybrid turboelectric propulsion system."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0046",
+        "line_start": 217,
+        "line_end": 217,
+        "url": "https://www.h3x.tech/company",
+        "page_class": "company",
+        "snippet": "We are a full-stack engineering and manufacturing company. At our state-of-the-art 17,000 sq. ft. facility in Louisville, CO, we have an advanced in-house CNC machine shop, \u00a0power electronics lab, dynamometer test cells, and a pilot production line\u2014all designed to develop, build, and rigorously test our motors."
+      }
+    ],
+    "notes": "First production batch of 20 HPDM-500 units shipping 26Q2; catalog SKUs with datasheets. Facility has a 'pilot production line'; HPDG-30 specs still estimates pending testing."
+  },
+  "unresolved_questions": [
+    "NDAA Section 848/889 compliance not explicitly claimed",
+    "Blue UAS status unknown",
+    "HPDM-140 product page not fetched (referenced on homepage ticker)"
+  ],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Integrated electric motor drives (30\u2013500 kW) with co-optimized SiC inverters, targeting aerospace, defense, and marine platforms. HPDM-180D in low-rate production; remainder at prototype or unknown status. NDAA and Blue UAS certification status unknown. Public evidence thin on actual defense contract wins or program integration beyond marketing claims.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 16,
+    "total_cost_usd": 0.5227762499999999,
+    "created_at": "2026-05-04T03:12:04+00:00",
+    "extract_version": "0.1.0"
+  }
+}

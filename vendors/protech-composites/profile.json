@@ -1,0 +1,264 @@
+{
+  "target_id": "protech-composites",
+  "run_id": "canonical",
+  "display_name": "Protech Composites",
+  "homepage_url": "https://protechcomposites.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/protech-composites/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "structures_and_materials",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 32,
+            "line_end": 34,
+            "url": "https://protechcomposites.com",
+            "page_class": "homepage",
+            "snippet": "The Highest Quality Carbon Fiber Made to Your Specifications\n============================================================\nWe partner with manufacturers across a wide range of industries to elevate their products with carbon fiber parts tailored, machined, and molded to their needs. Our proprietary process produces zero porosity, cosmetically flawless carbon fiber \u2014 all made in the USA with fast turnaround times and no order minimums."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 71,
+            "line_end": 73,
+            "url": "https://protechcomposites.com",
+            "page_class": "homepage",
+            "snippet": "[![](https://protechcomposites.com/wp-content/uploads/2023/06/iStock-1019578840-1-2.png)](https://protechcomposites.com/industries/unmanned-aerial-vehicles)\n##### [Unmanned Aerial Vehicles](https://protechcomposites.com/industries/unmanned-aerial-vehicles)\nFixed-wing or rotor, the lighter it is, the longer it stays airborne. Carbon fiber made unmanned aerial vehicles what they are today."
+          }
+        ],
+        "notes": "Carbon fiber composite sheets, veneers, panels and custom machined/molded parts sold as raw material inputs; UAV is explicitly listed as an industry application"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Vancouver",
+      "state_or_province": "Washington",
+      "country": "United States",
+      "address": "11700 NE 60th Way, Suite 3B, Vancouver, WA 98682"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0009",
+        "line_start": 37,
+        "line_end": 39,
+        "url": "https://protechcomposites.com/contact",
+        "page_class": "contact",
+        "snippet": "[11700 NE 60th Way\nSuite 3B\nVancouver, WA 98682](https://maps.app.goo.gl/xLhJxKnpXK7wVcjs9)"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 71,
+        "line_end": 73,
+        "url": "https://protechcomposites.com",
+        "page_class": "homepage",
+        "snippet": "[![](https://protechcomposites.com/wp-content/uploads/2023/06/iStock-1019578840-1-2.png)](https://protechcomposites.com/industries/unmanned-aerial-vehicles)\n##### [Unmanned Aerial Vehicles](https://protechcomposites.com/industries/unmanned-aerial-vehicles)\nFixed-wing or rotor, the lighter it is, the longer it stays airborne. Carbon fiber made unmanned aerial vehicles what they are today."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 156,
+        "line_end": 156,
+        "url": "https://protechcomposites.com",
+        "page_class": "homepage",
+        "snippet": "![Client-AeroVironment 2](https://protechcomposites.com/wp-content/uploads/elementor/thumbs/Client-AeroVironment-2-qylypfs7llcqh62c8a4mw4rdr37ap2xs3qe1dc7ta8.webp \"Client-AeroVironment 2\")"
+      }
+    ],
+    "notes": "Sells carbon fiber sheets, panels, veneers, and custom machined parts that are raw material inputs to drone airframes. UAV is one of many industry verticals served (knife handles, medical, marine, robotics, etc.). AeroVironment listed as a customer. Product line is not UXV-specific, but the materials definition of component_supplier applies."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Carbon Fiber Veneers (Thin Sheets)",
+        "product_type": "carbon fiber thin-sheet material",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 6,
+            "line_end": 6,
+            "url": "https://protechcomposites.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Carbon Fiber Veneers](https://protechcomposites.com/product-category/thin-sheets/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Carbon Fiber Sheets (Medium Sheets)",
+        "product_type": "carbon fiber medium-sheet material",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 5,
+            "line_end": 5,
+            "url": "https://protechcomposites.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Carbon Fiber Sheets](https://protechcomposites.com/product-category/medium-sheets/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Carbon Fiber Panels (Thick Sheets)",
+        "product_type": "carbon fiber thick structural panel",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 7,
+            "line_end": 7,
+            "url": "https://protechcomposites.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Carbon Fiber Panels](https://protechcomposites.com/product-category/thick-sheets/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "High Temperature Carbon Fiber Panels",
+        "product_type": "400\u00b0F heat-resistant carbon fiber panel",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0090",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://protechcomposites.com/product/3-1mm-high-temp-carbon-fiber",
+            "page_class": "news",
+            "snippet": "High Temperature Carbon Fiber Panels | 400\u00b0F Heat Resistance                                                                         [Skip to content](#content)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "3.1mm Subzero Marble Carbon Fiber",
+        "product_type": "marble-finish carbon fiber sheet",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0099",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://protechcomposites.com/product/3-1mm-subzero-marble-carbon-fiber",
+            "page_class": "news",
+            "snippet": "3.1mm Subzero Marble Carbon Fiber                                                                        [Skip to content](#content)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Fiberglass Brights Sample Pack",
+        "product_type": "fiberglass sample set",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0131",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://protechcomposites.com/product/fiberglass-brights-sample-pack",
+            "page_class": "product",
+            "snippet": "Fiberglass Brights Sample Pack                                                                        [Skip to content](#content)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Store has 65 total SKUs across multiple families; only main families listed here. Many additional individual SKUs exist in skipped pages."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 34,
+        "line_end": 34,
+        "url": "https://protechcomposites.com",
+        "page_class": "homepage",
+        "snippet": "We partner with manufacturers across a wide range of industries to elevate their products with carbon fiber parts tailored, machined, and molded to their needs. Our proprietary process produces zero porosity, cosmetically flawless carbon fiber \u2014 all made in the USA with fast turnaround times and no order minimums."
+      }
+    ],
+    "notes": "Site prominently claims 'made in the USA' but makes no explicit NDAA Section 848/889 compliance claim."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 44,
+        "line_end": 45,
+        "url": "https://protechcomposites.com",
+        "page_class": "homepage",
+        "snippet": "#### Fast Turnaround & Shipping Times\nWe move at the speed of your business\u2014delivering faster than anyone else in the industry. We ship in-stock products within 48 hours and have a 10-day average turnaround for custom orders with no order minimum."
+      }
+    ],
+    "notes": "Ships in-stock products within 48 hours; 65 catalog SKUs; 10-day average turnaround for custom orders with no order minimum."
+  },
+  "unresolved_questions": [
+    "drone_supply_chain_role at medium confidence due to broad industrial base across many non-UXV markets (knife handles, medical, marine, etc.) vs. UAV-specific applications page and AeroVironment client",
+    "Many product SKUs (65 total) not individually reviewed due to skipped pages"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://protechcomposites.com/industries/unmanned-aerial-vehicles",
+      "reason": "UAV-specific application page would confirm what carbon fiber products Protech sells specifically to drone manufacturers and clarify whether there is any UXV-specific product line",
+      "expected_evidence": [
+        "products_categories",
+        "drone_supply_chain_role",
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "tagline": "Manufactures carbon fiber sheets, veneers, and panels in thicknesses from 1.0\u20133.1mm, including high-temperature variants; production-ready, ISO 9001 certified, USA-made with no order minimums. NDAA compliance status unknown; no public evidence of defense prime contracts or Blue UAS certification.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 15,
+    "total_cost_usd": 0.31001599999999996,
+    "created_at": "2026-05-04T05:25:36+00:00",
+    "extract_version": "0.1.0"
+  }
+}

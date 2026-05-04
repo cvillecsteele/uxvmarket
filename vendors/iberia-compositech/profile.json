@@ -1,0 +1,223 @@
+{
+  "target_id": "iberia-compositech",
+  "run_id": "canonical",
+  "display_name": "Iberia Compositech",
+  "homepage_url": "https://www.iberiacompositech.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/iberia-compositech/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "structures_and_materials",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 50,
+            "line_end": 50,
+            "url": "https://www.iberiacompositech.com",
+            "page_class": "homepage",
+            "snippet": "At Iberia Compositech we are experts in engineering and manufacturing of composite materials."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 59,
+            "line_end": 59,
+            "url": "https://www.iberiacompositech.com",
+            "page_class": "homepage",
+            "snippet": "Our commitment extends to demanding markets such as the **automotive, aeronautics, nautical, industrial and medical** sectors. We master the diversity of composites, specializing in parts made of carbon fibers, glass fiber and aramid fiber."
+          }
+        ],
+        "notes": "Manufactures composite parts from carbon fibre, glass fibre, and aramid fibre for aerospace, defence, automotive, naval and other sectors using prepreg, infusion, and RTM processes."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Primary business is composite materials engineering and manufacturing. Serves defence/aeronautics sectors and actively markets to the drone industry via blog content and eVTOL tag, but no drone-specific structural component product line is named."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Calatayud",
+      "state_or_province": "Zaragoza",
+      "country": "Spain",
+      "address": "Poligono La Charluca G-7 Nave 2 L4 50300, Calatayud, Zaragoza"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 159,
+        "line_end": 159,
+        "url": "https://www.iberiacompositech.com",
+        "page_class": "homepage",
+        "snippet": "*   [Poligono La Charluca G-7 Nave 2 L4 50300 - Calatayud, Zaragoza (Espa\u00f1a)](https://maps.app.goo.gl/WtXMj6D3ZkzEzSdX6)"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0179",
+        "line_start": 60,
+        "line_end": 65,
+        "url": "https://www.iberiacompositech.com/recent-innovations-and-strategies-in-the-use-of-military-drones",
+        "page_class": "news",
+        "snippet": "Carbon fibre has emerged as a key material in the manufacture of military drones, due to its many advantages:\n\u2013 Extreme light weight\n\u2013 High strength\n\u2013 Improved manoeuvrability\n\u2013 Reduced detectability\nThese characteristics make carbon fibre an ideal material for military drones, improving not only their performance but also their survivability in hostile environments."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 17,
+        "line_end": 17,
+        "url": "https://www.iberiacompositech.com",
+        "page_class": "homepage",
+        "snippet": "    *   [Defence](https://www.iberiacompositech.com/defence-composite-manufacturing/)"
+      }
+    ],
+    "notes": "Makes composite parts (carbon fibre, Kevlar, glass fibre) serving aerospace/defence sectors. Blog category 'Drone industry' and eVTOL tag show active marketing to drone manufacturers. No confirmed named drone-specific component product line, hence medium confidence."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Composite Materials Engineering",
+        "product_type": "engineering and design services for composite parts",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 68,
+            "line_end": 70,
+            "url": "https://www.iberiacompositech.com",
+            "page_class": "homepage",
+            "snippet": "### Engineering\nDesign, simulation and production\n](https://www.iberiacompositech.com/composite-materials-engineering/)["
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Product Development & Consulting",
+        "product_type": "prototyping, 3D printing, and technical consulting for composite products",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0177",
+            "line_start": 51,
+            "line_end": 53,
+            "url": "https://www.iberiacompositech.com/product-development-and-consulting",
+            "page_class": "product",
+            "snippet": "Prototype Manufacturing and 3D Printing Services\n------------------------------------------------\nAt Iberia Compositech, we transform ideas into **high-performance solutions** through expert product development, consulting, prototype manufacturing, and 3D printing."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Composite Parts Manufacturing",
+        "product_type": "contract manufacturing of composite parts (prepreg, infusion, RTM)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 74,
+            "line_end": 76,
+            "url": "https://www.iberiacompositech.com",
+            "page_class": "homepage",
+            "snippet": "### Manufacturing\nRepairs, rolling, machining, painting, quality control, tooling design and parts\n](https://www.iberiacompositech.com/manufacture-of-composite-parts/)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "No catalog product SKUs; offerings are custom engineering and manufacturing services. Skipped pages (aeronautics, defence sector pages) may show specific part types."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0030",
+        "line_start": 56,
+        "line_end": 56,
+        "url": "https://www.iberiacompositech.com/about",
+        "page_class": "company",
+        "snippet": "From our state-of-the-art autoclave facility to our in-house training programs, we don\u2019t just manufacture parts, **we shape the future of composite materials**."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0030",
+        "line_start": 59,
+        "line_end": 59,
+        "url": "https://www.iberiacompositech.com/about",
+        "page_class": "company",
+        "snippet": "At IBERIA COMPOSITECH, we operate under a quality management system certified according to **EN 9100:2018** and **ISO 9001:2015**, ensuring full traceability, strict process control, and continuous improvement throughout all stages of production. EN **9100:2018** is the aerospace industry-specific standard, internationally recognized for its high requirements in safety, reliability, and quality."
+      }
+    ],
+    "notes": "Operates an autoclave facility, EN 9100:2018 and ISO 9001:2015 certified, with multiple production-grade processes (prepreg, infusion, RTM). Also offers prototyping and consulting as a secondary mode."
+  },
+  "unresolved_questions": [
+    "No drone-specific product line or confirmed drone customer cited \u2014 UXV relevance is inferred from defence/aeronautics sector targeting and drone industry blog content.",
+    "Skipped sector pages (aeronautics, defence) may show drone-specific composite part offerings."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.iberiacompositech.com/aeronautics-composite-manufacturing/",
+      "reason": "Would confirm whether they explicitly supply composite parts for UAV/drone airframes or structures, sharpening drone_supply_chain_role and products_categories confidence.",
+      "expected_evidence": [
+        "products_categories",
+        "drone_supply_chain_role",
+        "products"
+      ],
+      "source_hint": "guessed \u2014 linked from homepage nav under Sectors",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.iberiacompositech.com/defence-composite-manufacturing/",
+      "reason": "Defence sector page may explicitly mention drone/UAV composite parts, confirming component_supplier role and drone relevance.",
+      "expected_evidence": [
+        "products_categories",
+        "drone_supply_chain_role",
+        "products"
+      ],
+      "source_hint": "guessed \u2014 linked from homepage nav under Sectors",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "partial",
+  "tagline": "Spanish-based contract manufacturer of composite structures and parts using prepreg, infusion, and RTM processes. Serves aerospace, defence, and naval sectors alongside automotive and industrial markets. NDAA compliance and Blue UAS certification status unknown; public evidence of US unmanned-systems work is minimal.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 13,
+    "total_cost_usd": 0.27457780000000004,
+    "created_at": "2026-05-04T03:25:33+00:00",
+    "extract_version": "0.1.0"
+  }
+}

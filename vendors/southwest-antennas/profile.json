@@ -1,0 +1,372 @@
+{
+  "target_id": "southwest-antennas",
+  "run_id": "canonical",
+  "display_name": "Southwest Antennas",
+  "homepage_url": "https://www.southwestantennas.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/southwest-antennas/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "communications",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0234",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://southwestantennas.com/products/omni-antennas/concealment-antenna-23-25ghz-0dbi",
+            "page_class": "product",
+            "snippet": "Concealment Antenna, 2.3 - 2.5GHz, 0dBi | Southwest Antennas - High Performance RF and Microwave Antennas & Custom Antenna Manufacturing"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0234",
+            "line_start": 11,
+            "line_end": 11,
+            "url": "https://southwestantennas.com/products/omni-antennas/concealment-antenna-23-25ghz-0dbi",
+            "page_class": "product",
+            "snippet": "[Military & Defense Market](https://southwestantennas.com/market/military-defense-market)[Law Enforcement, First Responder & Homeland Security Market](https://southwestantennas.com/market/law-enforcement-first-responder-homeland-security-market)[Commercial Products and Applications](https://southwestantennas.com/market/commercial-products-and-applications)[Broadcast Video Market](https://southwestantennas.com/market/broadcast-video-market)[Unmanned Systems Market - UAV / UGV / Aerostats](https://southwestantennas.com/market/unmanned-systems-market-uav-ugv-aerostats)[Oil & Gas Market](https://southwestantennas.com/market/oil-gas-market)[Maritime Market](https://southwestantennas.com/market/maritime-market)[Surveillance](https://southwestantennas.com/market/surveillance)"
+          }
+        ],
+        "notes": "Company title is 'High Performance RF and Microwave Antennas & Custom Antenna Manufacturing'; full catalog of antennas for tactical comms, MIMO, data links, military radio."
+      },
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0202",
+            "line_start": 21,
+            "line_end": 23,
+            "url": "https://southwestantennas.com/products/gps-iridium-gnss-antennas/gps-passive-l1-antenna-12-dbic-gain-smam",
+            "page_class": "news",
+            "snippet": "GPS Passive L1 Antenna, 1.2 dBic Gain, SMA(m)\n=============================================\nPart #: 1027-020"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0202",
+            "line_start": 52,
+            "line_end": 52,
+            "url": "https://southwestantennas.com/products/gps-iridium-gnss-antennas/gps-passive-l1-antenna-12-dbic-gain-smam",
+            "page_class": "news",
+            "snippet": "The small size and light weight design of this rugged, high-performance GPS antenna versus similar GPS Passive antennas make it ideal for unmanned system, autonomous vehicles, and other automated or remote assets where antenna size needs to be minimized."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0202",
+            "line_start": 78,
+            "line_end": 78,
+            "url": "https://southwestantennas.com/products/gps-iridium-gnss-antennas/gps-passive-l1-antenna-12-dbic-gain-smam",
+            "page_class": "news",
+            "snippet": "*   UAV Systems"
+          }
+        ],
+        "notes": "GPS/GNSS antenna product line explicitly designed for UAV systems, unmanned ground vehicles, and autonomous vehicles."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Homepage failed; categories inferred from product nav and fetched product pages."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Poway",
+      "state_or_province": "California",
+      "country": "United States",
+      "address": "12305 Crosthwaite Cir, Poway, CA 92064"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0033",
+        "line_start": 22,
+        "line_end": 24,
+        "url": "https://southwestantennas.com/contact",
+        "page_class": "contact",
+        "snippet": "### SOUTHWEST ANTENNAS NEW HEADQUARTERS & MANUFACTURING FACILITY AS OF 4/17/23\n[12305 Crosthwaite Cir\nPoway, CA 92064](https://goo.gl/maps/sUFYcw3DmmQW3bkB8)"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0202",
+        "line_start": 52,
+        "line_end": 52,
+        "url": "https://southwestantennas.com/products/gps-iridium-gnss-antennas/gps-passive-l1-antenna-12-dbic-gain-smam",
+        "page_class": "news",
+        "snippet": "The small size and light weight design of this rugged, high-performance GPS antenna versus similar GPS Passive antennas make it ideal for unmanned system, autonomous vehicles, and other automated or remote assets where antenna size needs to be minimized."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0010",
+        "line_start": 38,
+        "line_end": 38,
+        "url": "https://southwestantennas.com/articles/antenna-mounting-solutions",
+        "page_class": "news",
+        "snippet": "Our\u00a0[magnetic mount kits](https://www.southwestantennas.com/products/antenna-mounting-kits/magnetic-mounts)\u00a0are ideal for use with omni-directional antennas and can be secured to vehicles, unmanned ground systems, or\u00a0ferromagnetic objects such as metal desks, metal plates and beams, or other surfaces."
+      }
+    ],
+    "notes": "Southwest Antennas designs and manufactures RF antennas and accessories sold as components to defense and unmanned systems integrators. They do not produce complete UAS platforms."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Concealment Antenna, 2.3 - 2.5GHz, 0dBi",
+        "product_type": "concealment RF antenna (Part #1066-001)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0234",
+            "line_start": 21,
+            "line_end": 23,
+            "url": "https://southwestantennas.com/products/omni-antennas/concealment-antenna-23-25ghz-0dbi",
+            "page_class": "product",
+            "snippet": "Concealment Antenna, 2.3 - 2.5GHz, 0dBi\n=======================================\nPart #: 1066-001"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "GPS Passive L1 Antenna, 1.2 dBic Gain, SMA(m)",
+        "product_type": "GPS/GNSS antenna for UAV/UGV navigation (Part #1027-020)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0202",
+            "line_start": 21,
+            "line_end": 23,
+            "url": "https://southwestantennas.com/products/gps-iridium-gnss-antennas/gps-passive-l1-antenna-12-dbic-gain-smam",
+            "page_class": "news",
+            "snippet": "GPS Passive L1 Antenna, 1.2 dBic Gain, SMA(m)\n=============================================\nPart #: 1027-020"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "GPS Passive L1 Antenna, +1.5 dBic Gain, SMA(m)",
+        "product_type": "GPS/GNSS antenna (Part #1027-003, EOL \u2014 successor 1027-027)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0205",
+            "line_start": 21,
+            "line_end": 23,
+            "url": "https://southwestantennas.com/products/gps-iridium-gnss-antennas/gps-passive-l1-antenna-15-dbic-gain-smam",
+            "page_class": "news",
+            "snippet": "GPS Passive L1 Antenna, +1.5 dBic Gain, SMA(m)\n==============================================\nPart #: 1027-003 -END OF LIFE - ORDER PART # 1027-027"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "RF Coaxial Gooseneck Assemblies",
+        "product_type": "flexible RF antenna mounting / coaxial assemblies (e.g. Part #1040-006)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0205",
+            "line_start": 70,
+            "line_end": 71,
+            "url": "https://southwestantennas.com/products/gps-iridium-gnss-antennas/gps-passive-l1-antenna-15-dbic-gain-smam",
+            "page_class": "news",
+            "snippet": "[RF Coaxial Gooseneck Assembly, 3.66\" Length, .355\" OD, SMA(m) to SMA(f) RF Connectors](https://southwestantennas.com/products/rf-coaxial-goosenecks/rf-coaxial-gooseneck-assembly-366-length-355-od-smam-to-smaf-rf-connectors)\n[Part # 1040-006](https://southwestantennas.com/products/rf-coaxial-goosenecks/rf-coaxial-gooseneck-assembly-366-length-355-od-smam-to-smaf-rf-connectors)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Magnetic Mount Kits",
+        "product_type": "antenna magnetic mounting kit for vehicles and UGVs",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0010",
+            "line_start": 38,
+            "line_end": 38,
+            "url": "https://southwestantennas.com/articles/antenna-mounting-solutions",
+            "page_class": "news",
+            "snippet": "Our\u00a0[magnetic mount kits](https://www.southwestantennas.com/products/antenna-mounting-kits/magnetic-mounts)\u00a0are ideal for use with omni-directional antennas and can be secured to vehicles, unmanned ground systems, or\u00a0ferromagnetic objects such as metal desks, metal plates and beams, or other surfaces."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Omni Antennas",
+        "product_type": "omni-directional antenna product family",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0234",
+            "line_start": 9,
+            "line_end": 9,
+            "url": "https://southwestantennas.com/products/omni-antennas/concealment-antenna-23-25ghz-0dbi",
+            "page_class": "product",
+            "snippet": "[Product Search Tool](/products) [All Products](/products)[Custom RF Cable Assembly Builder](/custom-cable-builder)[Omni Antennas](/products?filters=omni-antennas)[Concealment Antennas](/products?filters=concealment-antennas)[MIMO Antennas](/products?filters=mimo-antennas)[Directional Antennas](/products?filters=directional-antennas)[Array Antennas](/products?filters=array-antennas)[Body Worn Antennas](/products?filters=body-worn-antennas)[Antenna Mounting Kits](/products?filters=antenna-mounting-kits)[LNA Modules](/products?filters=lna-modules)[Filter Modules, Diplexers, & Triplexers](/products?filters=filter-modules-diplexers-triplexers)[RF Coaxial Goosenecks](/products?filters=rf-coaxial-goosenecks)[GPS, Iridium & GNSS Antennas](/products?filters=gps-iridium-gnss-antennas)[Isolators & Circulators](/products?filters=isolators-circulators)[Permanent Vehicle Mounts](/permanent-vehicle-mounts)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MIMO Antennas",
+        "product_type": "MIMO antenna product family for tactical mesh networks",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0010",
+            "line_start": 35,
+            "line_end": 35,
+            "url": "https://southwestantennas.com/articles/antenna-mounting-solutions",
+            "page_class": "news",
+            "snippet": "_**Example using two [RF coaxial gooseneck assemblies](https://www.southwestantennas.com/products/rf-coaxial-goosenecks) to mount and hold our\u00a0[compact 2X2 sector antenna](https://www.southwestantennas.com/directional-antennas/directional-mimo-antennas/2x2-mimo-56-degrees-sector-antenna-22-23-ghz-slant-leftright-1055-346)\u00a0to a Silvus Streamcaster MIMO radio during a tactical mesh network demonstration. Also pictured are two SWA [omni-directional antennas](https://www.southwestantennas.com/products/omni-antennas).**_"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "LNA Modules",
+        "product_type": "low-noise amplifier modules",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0234",
+            "line_start": 9,
+            "line_end": 9,
+            "url": "https://southwestantennas.com/products/omni-antennas/concealment-antenna-23-25ghz-0dbi",
+            "page_class": "product",
+            "snippet": "[Product Search Tool](/products) [All Products](/products)[Custom RF Cable Assembly Builder](/custom-cable-builder)[Omni Antennas](/products?filters=omni-antennas)[Concealment Antennas](/products?filters=concealment-antennas)[MIMO Antennas](/products?filters=mimo-antennas)[Directional Antennas](/products?filters=directional-antennas)[Array Antennas](/products?filters=array-antennas)[Body Worn Antennas](/products?filters=body-worn-antennas)[Antenna Mounting Kits](/products?filters=antenna-mounting-kits)[LNA Modules](/products?filters=lna-modules)[Filter Modules, Diplexers, & Triplexers](/products?filters=filter-modules-diplexers-triplexers)[RF Coaxial Goosenecks](/products?filters=rf-coaxial-goosenecks)[GPS, Iridium & GNSS Antennas](/products?filters=gps-iridium-gnss-antennas)[Isolators & Circulators](/products?filters=isolators-circulators)[Permanent Vehicle Mounts](/permanent-vehicle-mounts)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Filter Modules, Diplexers, & Triplexers",
+        "product_type": "RF filter and multiplexer modules",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0234",
+            "line_start": 9,
+            "line_end": 9,
+            "url": "https://southwestantennas.com/products/omni-antennas/concealment-antenna-23-25ghz-0dbi",
+            "page_class": "product",
+            "snippet": "[Product Search Tool](/products) [All Products](/products)[Custom RF Cable Assembly Builder](/custom-cable-builder)[Omni Antennas](/products?filters=omni-antennas)[Concealment Antennas](/products?filters=concealment-antennas)[MIMO Antennas](/products?filters=mimo-antennas)[Directional Antennas](/products?filters=directional-antennas)[Array Antennas](/products?filters=array-antennas)[Body Worn Antennas](/products?filters=body-worn-antennas)[Antenna Mounting Kits](/products?filters=antenna-mounting-kits)[LNA Modules](/products?filters=lna-modules)[Filter Modules, Diplexers, & Triplexers](/products?filters=filter-modules-diplexers-triplexers)[RF Coaxial Goosenecks](/products?filters=rf-coaxial-goosenecks)[GPS, Iridium & GNSS Antennas](/products?filters=gps-iridium-gnss-antennas)[Isolators & Circulators](/products?filters=isolators-circulators)[Permanent Vehicle Mounts](/permanent-vehicle-mounts)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Only 6 pages fetched out of 643 crawled; many more product SKUs exist on skipped product pages."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0234",
+        "line_start": 94,
+        "line_end": 94,
+        "url": "https://southwestantennas.com/products/omni-antennas/concealment-antenna-23-25ghz-0dbi",
+        "page_class": "product",
+        "snippet": "![](/storage/images/flag.png)Designed and Manufactured in San Diego, California"
+      }
+    ],
+    "notes": "Site claims 'Designed and Manufactured in San Diego, California' \u2014 a Made-in-USA adjacent claim \u2014 but makes no explicit NDAA Section 848/889 component compliance statement."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0234",
+        "line_start": 29,
+        "line_end": 47,
+        "url": "https://southwestantennas.com/products/omni-antennas/concealment-antenna-23-25ghz-0dbi",
+        "page_class": "product",
+        "snippet": "$165.00\nQuantity\nAdd to Cart\nQuantity\n1-9\n10-24\n25-99\n100-249\n250-499\n500-999\n1000+\nPrice\n$165.00\n$154.00\n$139.00\n$124.00\n$120.00\n$117.00\n$113.00"
+      }
+    ],
+    "notes": "E-commerce store with tiered quantity pricing (1\u20139 through 1000+) and Add-to-Cart. Multiple catalog SKUs at fixed price points indicate serial production."
+  },
+  "unresolved_questions": [
+    "NDAA Section 848/889 component compliance not addressed on fetched pages",
+    "Blue UAS / Blue sUAS status not disclosed",
+    "Full product catalog (643 skipped pages) not reviewed \u2014 many additional SKUs expected"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://southwestantennas.com/market/unmanned-systems-market-uav-ugv-aerostats",
+      "reason": "Unmanned Systems Market page would enumerate UAV/UGV-specific products and confirm scope of UAS component supply, sharpening products_categories and products answers.",
+      "expected_evidence": [
+        "products_categories",
+        "products",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "guessed from nav link in resource-0002 line 11",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://southwestantennas.com/products",
+      "reason": "Full product listing page would enumerate all named product families and SKUs currently offered, completing the products list.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "readiness"
+      ],
+      "source_hint": "guessed standard products index",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://southwestantennas.com/southwest-antennas-advantage",
+      "reason": "SWA Advantages page may contain compliance claims (NDAA, ITAR, Made in USA) and supply chain role details.",
+      "expected_evidence": [
+        "ndaa",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "guessed from nav link in resource-0002 line 13",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 12,
+    "total_cost_usd": 0.42906079999999996,
+    "created_at": "2026-05-03T01:05:51+00:00",
+    "extract_version": "0.1.0"
+  },
+  "tagline": "Designs and manufactures RF, GPS, and GNSS antennas plus associated RF components (LNAs, filters, isolators) for tactical communications and navigation on manned and unmanned platforms. Product portfolio spans concealment, MIMO, directional, and body-worn antennas, with mounting hardware for vehicles and aircraft. NDAA compliance status and any named defense programs not publicly disclosed; Blue UAS certification status unknown. In-production inventory suggests operational integration in UAV and radio systems, but detailed qualification pedigree and prime-contract footprint remain opaque in available sources."
+}

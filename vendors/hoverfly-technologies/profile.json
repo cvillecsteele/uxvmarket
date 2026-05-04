@@ -1,0 +1,300 @@
+{
+  "target_id": "hoverfly-technologies",
+  "run_id": "canonical",
+  "display_name": "Hoverfly Technologies",
+  "homepage_url": "https://hoverflytech.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/hoverfly-technologies/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "airframes",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 80,
+            "line_end": 80,
+            "url": "https://hoverflytech.com",
+            "page_class": "homepage",
+            "snippet": "The #1 Tethered Drone Supplier for the US Army"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 122,
+            "line_end": 122,
+            "url": "https://hoverflytech.com",
+            "page_class": "homepage",
+            "snippet": "We are at the forefront of tethered-technology for a reason. Our [tethered drones](/tethered-drones-uas/) are fielded by branches of the Armed Forces and industry partners to provide a mobile ad-hoc network of flying communication or [persistent ISR](/applications/defense/persistent-isr-intelligence-surveillance-reconnaissance-drone-systems/) nodes."
+          }
+        ],
+        "notes": "Designs and manufactures complete tethered UAS platforms (Sentry and Spectre); the #1 tethered drone supplier for the US Army."
+      },
+      {
+        "category": "communications",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 117,
+            "line_end": 117,
+            "url": "https://hoverflytech.com",
+            "page_class": "homepage",
+            "snippet": "The Hoverfly TeUAS provides military-grade surveillance, targeting, and communications relay for operating base security, battalion-level communications, ISR missions, and more."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0045",
+            "line_start": 308,
+            "line_end": 310,
+            "url": "https://hoverflytech.com/tethered-drones-uas/spectre",
+            "page_class": "product",
+            "snippet": "Variable Height Antenna (VHA)\nExtend tactical communications to 200 feet, creating a persistent, elevated comms bubble that keeps command agile and securely connected.\n[Learn More](https://hoverflytech.com/hive/relay/)"
+          }
+        ],
+        "notes": "Tethered drones are explicitly designed and fielded as elevated communications relay nodes (Variable Height Antenna / MANET)."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Sanford",
+      "state_or_province": "Florida",
+      "country": "United States",
+      "address": "800 Central Park Drive, Sanford, FL 32771"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 169,
+        "line_end": 170,
+        "url": "https://hoverflytech.com",
+        "page_class": "homepage",
+        "snippet": "[800 Central Park Drive\nSanford, FL 32771](https://www.google.com/maps/place/800+Central+Park+Drive,+Sanford,+FL/@28.5388435,-81.196795,15z/data=%214m2%213m1%211s0x88e712f336d93843:0x5a1b1cf20751518e)"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "oem",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 80,
+        "line_end": 80,
+        "url": "https://hoverflytech.com",
+        "page_class": "homepage",
+        "snippet": "The #1 Tethered Drone Supplier for the US Army"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0007",
+        "line_start": 180,
+        "line_end": 180,
+        "url": "https://hoverflytech.com/about",
+        "page_class": "company",
+        "snippet": "-------------------------"
+      }
+    ],
+    "notes": "Designs, manufactures, and supports complete tethered UAS platforms (Sentry and Spectre) sold to the US Army and other armed forces branches."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Sentry",
+        "product_type": "tethered UAS (single-payload)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 110,
+            "line_end": 110,
+            "url": "https://hoverflytech.com",
+            "page_class": "homepage",
+            "snippet": "SENTRY"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 112,
+            "line_end": 113,
+            "url": "https://hoverflytech.com",
+            "page_class": "homepage",
+            "snippet": "Sentry is the blueprint for Tethered Drone innovation.\nWith an unparalleled legacy of deployments, this single-payload TeUAS is fielded and maintained by our armed forces and has evolved into a critical infrastructure asset for the Integrated Tactical Network."
+          }
+        ],
+        "notes": "Single-payload tethered UAS, fielded by US Armed Forces as C4ISR platform."
+      },
+      {
+        "name": "Spectre",
+        "product_type": "tethered UAS (multi-payload, Blue UAS cleared)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0045",
+            "line_start": 76,
+            "line_end": 76,
+            "url": "https://hoverflytech.com/tethered-drones-uas/spectre",
+            "page_class": "product",
+            "snippet": "Spectre"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0045",
+            "line_start": 78,
+            "line_end": 78,
+            "url": "https://hoverflytech.com/tethered-drones-uas/spectre",
+            "page_class": "product",
+            "snippet": "THE ONLY DIU BLUE LIST CERTIFIED TETHERED UAS"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0045",
+            "line_start": 82,
+            "line_end": 82,
+            "url": "https://hoverflytech.com/tethered-drones-uas/spectre",
+            "page_class": "product",
+            "snippet": "Purpose-built for radios and engineered for versatility, SPECTRE is the most advanced tethered drone available today. Augment and elevate your mission with greater payload capacity, multi-payload capabilities, AI-integrations, and persistent network extension."
+          }
+        ],
+        "notes": "Spectre 2.0; DIU Blue UAS List cleared; supports up to 8 lb multi-payload configurations including EO/IR cameras and tactical radios."
+      },
+      {
+        "name": "HIVE Suite",
+        "product_type": "tethered drone mission packages (RECON, SPEARHEAD, RELAY, SHIELD, NEXUS)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 6,
+            "line_end": 12,
+            "url": "https://hoverflytech.com",
+            "page_class": "homepage",
+            "snippet": "*   [HIVE SUITE](https://hoverflytech.com/hive/)\n    HIVE SUITE\n    *   [RECONPersistent ISR](https://hoverflytech.com/hive/recon/)\n    *   [SPEARHEADOn-The-Move](https://hoverflytech.com/hive/spearhead/)\n    *   [RELAYVariable Height Antenna (VHA)](https://hoverflytech.com/hive/relay/)\n    *   [SHIELDLive Overwatch](https://hoverflytech.com/hive/shield/)\n    *   [NEXUSUnmanned Teaming](https://hoverflytech.com/hive/nexus/)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0045",
+            "line_start": 296,
+            "line_end": 298,
+            "url": "https://hoverflytech.com/tethered-drones-uas/spectre",
+            "page_class": "product",
+            "snippet": "HIVE Tethered Drone Ecosystem\n-----------------------------\nHoverfly\u2019s HIVE ecosystem empowers operators with modular, mission-ready ISR and communication capabilities across diverse operational environments. From persistent overwatch to mobile command and live event security, each [HIVE](/hive/) solution is designed for rapid deployment, seamless integration, and unmatched performance\u2014delivering scalable solutions for today\u2019s most critical missions."
+          }
+        ],
+        "notes": "Five named mission configurations: RECON (persistent ISR), SPEARHEAD (on-the-move), RELAY (VHA comms), SHIELD (live overwatch), NEXUS (unmanned teaming)."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": "yes",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 103,
+        "line_end": 103,
+        "url": "https://hoverflytech.com",
+        "page_class": "homepage",
+        "snippet": "Hoverfly Spectre is the first and only Tethered UAS platform cleared for the DIU Blue UAS List and verified as secure and NDAA compliant through AUVSI Green UAS."
+      }
+    ],
+    "notes": "Homepage explicitly states the Spectre is 'verified as secure and NDAA compliant through AUVSI Green UAS'."
+  },
+  "blue_uas": {
+    "value": "yes",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 103,
+        "line_end": 103,
+        "url": "https://hoverflytech.com",
+        "page_class": "homepage",
+        "snippet": "Hoverfly Spectre is the first and only Tethered UAS platform cleared for the DIU Blue UAS List and verified as secure and NDAA compliant through AUVSI Green UAS."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0045",
+        "line_start": 78,
+        "line_end": 78,
+        "url": "https://hoverflytech.com/tethered-drones-uas/spectre",
+        "page_class": "product",
+        "snippet": "THE ONLY DIU BLUE LIST CERTIFIED TETHERED UAS"
+      }
+    ],
+    "notes": "Spectre is explicitly described as 'the first and only Tethered UAS platform cleared for the DIU Blue UAS List'."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 113,
+        "line_end": 113,
+        "url": "https://hoverflytech.com",
+        "page_class": "homepage",
+        "snippet": "With an unparalleled legacy of deployments, this single-payload TeUAS is fielded and maintained by our armed forces and has evolved into a critical infrastructure asset for the Integrated Tactical Network."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0045",
+        "line_start": 341,
+        "line_end": 345,
+        "url": "https://hoverflytech.com/tethered-drones-uas/spectre",
+        "page_class": "product",
+        "snippet": "### Specifications\n**Payload Capacity**\n5.0-8.0 lbs., dependent on payload power consumption and environmental conditions\n**Flight Duration**\nContinuous 1500-hour maintenance"
+      }
+    ],
+    "notes": "Products are fielded and maintained by US Armed Forces; Spectre has documented specs including 1500-hour continuous maintenance interval and catalog SKUs."
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [
+    {
+      "url": "https://hoverflytech.com/tethered-drones-uas/sentry/",
+      "reason": "Would confirm full Sentry product specs, SKU details, and any additional NDAA/compliance claims specific to the Sentry platform.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "readiness"
+      ],
+      "source_hint": "guessed from nav menu link on resource-0001 line 46",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "complete",
+  "tagline": "Manufactures tethered airframes and communications relay systems\u2014Sentry, Spectre, and modular HIVE Suite configurations for persistent ISR, on-the-move overwatch, and tactical comms extension. NDAA-compliant and Blue UAS-certified. Spectre claimed as first tethered platform on DIU cleared list, though independent verification of competitive landscape and technical differentiation claims remains limited in open sources.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 12,
+    "total_cost_usd": 0.37213105,
+    "created_at": "2026-05-04T03:23:24+00:00",
+    "extract_version": "0.1.0"
+  }
+}

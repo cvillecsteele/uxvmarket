@@ -1,0 +1,275 @@
+{
+  "target_id": "echodyne",
+  "run_id": "canonical",
+  "display_name": "Echodyne",
+  "homepage_url": "https://www.echodyne.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/echodyne/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 98,
+            "line_end": 98,
+            "url": "https://www.echodyne.com",
+            "page_class": "homepage",
+            "snippet": "### Echodyne combines patented hardware with powerful software to create unrivaled, next-generation, commercial MESA\u00ae radar systems."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0275",
+            "line_start": 111,
+            "line_end": 111,
+            "url": "https://www.echodyne.com/radar-systems/echoflight",
+            "page_class": "capability",
+            "snippet": "###### The market-leading short-range airborne radar combines ultra-low SWaP and high performance to extend situational awareness as far as the UAS can operate."
+          }
+        ],
+        "notes": "Core business is MESA electronically scanned array radar sensors for UAS detection/tracking and airborne detect-and-avoid (EchoFlight for UAS platforms, EchoShield/EchoGuard as ground surveillance radar)"
+      },
+      {
+        "category": "isr_payloads",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 20,
+            "line_end": 22,
+            "url": "https://www.echodyne.com",
+            "page_class": "homepage",
+            "snippet": "](/defense/counter-uas)[\nISR\n](/defense/isr)["
+          }
+        ],
+        "notes": "EchoFlight and EchoShield used as airborne/ground ISR radar payloads in defense ISR applications"
+      },
+      {
+        "category": "ground_segment",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0278",
+            "line_start": 101,
+            "line_end": 101,
+            "url": "https://www.echodyne.com/radar-systems/echoware",
+            "page_class": "capability",
+            "snippet": "EchoWare is Echodyne's next-generation software platform built on a modern, software-defined architecture. It manages and operates a network of Echodyne radars as a unified system\u2014from single-radar tactical deployments to complex multi-site networks spanning vast operational areas."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 62,
+            "line_end": 62,
+            "url": "https://www.echodyne.com",
+            "page_class": "homepage",
+            "snippet": "Ground station radar for comprehensive airspace management"
+          }
+        ],
+        "notes": "EchoWare software platform for managing radar networks; UAS/AAM ground station radar for airspace management"
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Echodyne is primarily a radar sensor company. Multiple market verticals include Counter-UAS, UAS/AAM airspace management, Defense ISR, and border/perimeter security. Product pages for defense sub-categories (ISR, OTM, Force Protection) were skipped."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Kirkland",
+      "state_or_province": "Washington",
+      "country": "United States",
+      "address": "12112 115th Ave NE, Suite A, Kirkland, WA 98034"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0038",
+        "line_start": 99,
+        "line_end": 101,
+        "url": "https://www.echodyne.com/contact",
+        "page_class": "contact",
+        "snippet": "##### 12112 115th Avenue NE, Suite A\nKirkland, WA 98034\nUSA"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 117,
+        "line_end": 119,
+        "url": "https://www.echodyne.com",
+        "page_class": "homepage",
+        "snippet": "Our Customers\n###### Hundreds of Systems Supplier, Integrator, and End User customers from Defense, Government, Critical Infrastructure Protection, and UAS/AAM markets in 40+ countries.\n![White and blue Echodyn radar truck with mounted EchoShield equipment on its roof under a clear sky.](https://cdn.prod.website-files.com/69148caed4c3689c36578812/69713be101056b2f6196869c_Carousel-RadarTruck.jpg)"
+      }
+    ],
+    "notes": "Echodyne sells complete radar subsystems (EchoShield, EchoGuard, EchoFlight) and accompanying software (EchoWare) to Systems Suppliers, Integrators, and End Users for UAS/C-UAS applications. They do not build complete drone platforms."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "EchoShield",
+        "product_type": "Medium-range ESA radar system (pulse-Doppler)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0277",
+            "line_start": 95,
+            "line_end": 97,
+            "url": "https://www.echodyne.com/radar-systems/echoshield",
+            "page_class": "capability",
+            "snippet": "EchoShield\n==========\n\u00ae"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "EchoGuard",
+        "product_type": "Short-range ESA radar system (FMCW, portable)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0276",
+            "line_start": 95,
+            "line_end": 97,
+            "url": "https://www.echodyne.com/radar-systems/echoguard",
+            "page_class": "capability",
+            "snippet": "EchoGuard\n=========\n\u00ae"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "EchoFlight",
+        "product_type": "Short-range airborne ESA radar (for UAS detect-and-avoid)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0275",
+            "line_start": 95,
+            "line_end": 97,
+            "url": "https://www.echodyne.com/radar-systems/echoflight",
+            "page_class": "capability",
+            "snippet": "EchoFlight\n==========\n\u00ae"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "EchoWare",
+        "product_type": "Radar management software platform",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0278",
+            "line_start": 95,
+            "line_end": 101,
+            "url": "https://www.echodyne.com/radar-systems/echoware",
+            "page_class": "capability",
+            "snippet": "EchoWare\n========\n\u2122\n### Multiple Radars. One Seamless, Managed Radar System.\n![](https://cdn.prod.website-files.com/69148caed4c3689c36578812/69c9e70e21c8ed9ab630fedd_16x9-EW-ForestLaptop-1.webp)![](https://cdn.prod.website-files.com/69148caed4c3689c36578812/69c9e758ea1193bc99e5d472_3x2-EW-ForestLaptop-1.webp)\n### EchoWare delivers.\nEchoWare is Echodyne's next-generation software platform built on a modern, software-defined architecture. It manages and operates a network of Echodyne radars as a unified system\u2014from single-radar tactical deployments to complex multi-site networks spanning vast operational areas."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 227,
+        "line_end": 229,
+        "url": "https://www.echodyne.com",
+        "page_class": "homepage",
+        "snippet": "Designed & Built in the USA\n---------------------------\nEchodyne manufactures high-quality MESA radars outside Seattle, WA USA."
+      }
+    ],
+    "notes": "Site prominently states 'Designed & Built in the USA' and manufactures near Seattle, WA, but no explicit NDAA Section 848/889 compliance claim appears anywhere in the corpus."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0169",
+        "line_start": 99,
+        "line_end": 99,
+        "url": "https://www.echodyne.com/newsroom/echodyne-manufacturing-facility",
+        "page_class": "news",
+        "snippet": "Echodyne, the radar platform company, today announces a major near-term expansion in its advanced radar production capacity."
+      }
+    ],
+    "notes": "Company expanding manufacturing to produce 30,000+ radars/year. Products have published specs, deployment kits, and color options indicating catalog production."
+  },
+  "unresolved_questions": [
+    "No NDAA Section 848/889 compliance claim found \u2014 site claims US manufacture but does not address NDAA specifically.",
+    "Defense-specific product pages (ISR, OTM Radar, Force Protection) were skipped in crawl; may reveal additional products or compliance claims."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.echodyne.com/defense/isr",
+      "reason": "Would confirm or add ISR radar product details and potentially NDAA/compliance claims for defense-focused product lines",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "ndaa"
+      ],
+      "source_hint": "guessed from homepage nav structure",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.echodyne.com/defense/counter-uas",
+      "reason": "Counter-UAS product page may specify NDAA compliance or Blue UAS listing relevant to defense procurement",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas"
+      ],
+      "source_hint": "guessed from homepage nav structure",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 24,
+    "total_cost_usd": 0.6606375,
+    "created_at": "2026-05-03T01:17:28+00:00",
+    "extract_version": "0.1.0"
+  },
+  "tagline": "Kirkland-based manufacturer of metamaterials electronically scanned array (MESA) radar subsystems for defense, government, and critical infrastructure. Production-ready portfolio includes EchoShield (medium-range pulse-Doppler), EchoGuard (short-range FMCW for counter-UAS), EchoFlight (airborne detect-and-avoid), and EchoWare software. Fielded with integrators including Chess Dynamics, EOS Defense, and OpenWorks. NDAA and Blue UAS certification status not publicly disclosed."
+}

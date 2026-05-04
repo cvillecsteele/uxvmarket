@@ -1,0 +1,294 @@
+{
+  "target_id": "hoverfly-technologies",
+  "run_id": "canonical",
+  "display_name": "Hoverfly Technologies",
+  "homepage_url": "https://hoverflytech.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/hoverfly-technologies/website",
+  "products": [
+    {
+      "name": "Spectre",
+      "category": "airframes",
+      "descriptor": "Advanced tethered UAS for multi-payload ISR and communications relay",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "yes",
+      "blue_uas": "yes",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0045",
+          "line_start": 76,
+          "line_end": 82,
+          "url": "https://hoverflytech.com/tethered-drones-uas/spectre",
+          "page_class": "product",
+          "snippet": "Spectre\n=======\nTHE ONLY DIU BLUE LIST CERTIFIED TETHERED UAS\n---------------------------------------------\nThe Most Advanced Tethered Drone\n--------------------------------\nPurpose-built for radios and engineered for versatility, SPECTRE is the most advanced tethered drone available today. Augment and elevate your mission with greater payload capacity, multi-payload capabilities, AI-integrations, and persistent network extension."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 103,
+          "line_end": 104,
+          "url": "https://hoverflytech.com",
+          "page_class": "homepage",
+          "snippet": "Hoverfly Spectre is the first and only Tethered UAS platform cleared for the DIU Blue UAS List and verified as secure and NDAA compliant through AUVSI Green UAS.\n[BLUE LIST](https://www.diu.mil/blue-uas-cleared-list) [GREEN LIST](https://www.auvsi.org/news/auvsi-announces-green-uas-certification-for-hoverfly-spectre-tethered-drone/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Sentry",
+      "category": "airframes",
+      "descriptor": "Static high-endurance tethered UAS for persistent surveillance and perimeter protection",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 110,
+          "line_end": 114,
+          "url": "https://hoverflytech.com",
+          "page_class": "homepage",
+          "snippet": "SENTRY\n------\nSentry is the blueprint for Tethered Drone innovation.\nWith an unparalleled legacy of deployments, this single-payload TeUAS is fielded and maintained by our armed forces and has evolved into a critical infrastructure asset for the Integrated Tactical Network.\n[Learn More](/tethered-drones-uas/sentry/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "HIVE RECON",
+      "category": "isr_payloads",
+      "descriptor": "Persistent ISR tethered drone configuration for continuous elevated overwatch",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0045",
+          "line_start": 299,
+          "line_end": 302,
+          "url": "https://hoverflytech.com/tethered-drones-uas/spectre",
+          "page_class": "product",
+          "snippet": "### RECON\nPersistent ISR\nMaintain a constant elevated vantage point with leading sensors and AI-vision to ensure uninterrupted overwatch and situational awareness across critical mission zones.\n[Learn More](https://hoverflytech.com/hive/recon/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "HIVE SPEARHEAD",
+      "category": "airframes",
+      "descriptor": "Vehicle/vessel-mountable tethered drone for on-the-move ISR and secure overwatch",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0045",
+          "line_start": 303,
+          "line_end": 306,
+          "url": "https://hoverflytech.com/tethered-drones-uas/spectre",
+          "page_class": "product",
+          "snippet": "### SPEARHEAD\nOn-The-Move\nMountable to vehicles or vessels, SPEARHEAD enables live ISR during movement for real-time intelligence and secure overwatch in mobile environments.\n[Learn More](https://hoverflytech.com/hive/spearhead/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "HIVE RELAY",
+      "category": "communications",
+      "descriptor": "Variable height antenna tethered drone extending tactical comms to 200 feet",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0045",
+          "line_start": 307,
+          "line_end": 310,
+          "url": "https://hoverflytech.com/tethered-drones-uas/spectre",
+          "page_class": "product",
+          "snippet": "### RELAY\nVariable Height Antenna (VHA)\nExtend tactical communications to 200 feet, creating a persistent, elevated comms bubble that keeps command agile and securely connected.\n[Learn More](https://hoverflytech.com/hive/relay/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "HIVE SHIELD",
+      "category": "isr_payloads",
+      "descriptor": "Live overwatch tethered drone for continuous security and event surveillance",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0045",
+          "line_start": 311,
+          "line_end": 314,
+          "url": "https://hoverflytech.com/tethered-drones-uas/spectre",
+          "page_class": "product",
+          "snippet": "### SHIELD\nLive Overwatch Drone\nDeliver continuous live-streaming for security and event monitoring with seamless integration into SIEM and existing surveillance infrastructure.\n[Learn More](/hive/shield/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "HIVE NEXUS",
+      "category": "airframes",
+      "descriptor": "Unmanned teaming tethered drone expanding command range up to 10x via elevated network extension",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0045",
+          "line_start": 315,
+          "line_end": 318,
+          "url": "https://hoverflytech.com/tethered-drones-uas/spectre",
+          "page_class": "product",
+          "snippet": "### NEXUS\nUnmanned Teaming\nInterconnect unmanned systems to multiply ISR and strike capabilities while expanding command range up to 10x via elevated network extension.\n[Learn More](/hive/nexus/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Drone as a Service (DAAS)",
+      "category": "ground_segment",
+      "descriptor": "Managed tethered drone operations service for defense, security, and public safety missions",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 25,
+          "line_end": 26,
+          "url": "https://hoverflytech.com",
+          "page_class": "homepage",
+          "snippet": "*   [Services](https://hoverflytech.com/services/)\n    *   [Drone as a Service (DAAS)](https://hoverflytech.com/services/drone-as-a-service-daas/)"
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "Sentry dedicated product page (https://hoverflytech.com/tethered-drones-uas/sentry) was skipped \u2014 full specs, payload options, and explicit NDAA/Blue UAS status not confirmed.",
+    "All five HIVE sub-product pages (RECON, SPEARHEAD, RELAY, SHIELD, NEXUS) were skipped_class_budget; descriptions are sourced only from brief nav/ecosystem blurbs on other pages \u2014 granularity, readiness, and compliance status could not be confirmed.",
+    "DAAS page (https://hoverflytech.com/services/drone-as-a-service-daas) was skipped \u2014 nature of the service offering, pricing model, and any compliance claims unknown.",
+    "HIVE products classified based on secondary page descriptions only; they appear to be mission-configured packages of the underlying Sentry/Spectre platforms rather than separate physical UAS \u2014 this interpretation may need revision if dedicated pages reveal distinct hardware."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://hoverflytech.com/tethered-drones-uas/sentry",
+      "reason": "Dedicated Sentry product page skipped; needed for full specs, NDAA/Blue UAS claims, and readiness confirmation.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://hoverflytech.com/hive/recon",
+      "reason": "Dedicated HIVE RECON page skipped; needed to confirm product details and compliance status.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://hoverflytech.com/hive/spearhead",
+      "reason": "Dedicated HIVE SPEARHEAD page skipped; needed to confirm product details and compliance status.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://hoverflytech.com/hive/relay",
+      "reason": "Dedicated HIVE RELAY page skipped; needed to confirm product details and compliance status.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://hoverflytech.com/hive/shield",
+      "reason": "Dedicated HIVE SHIELD page skipped; needed to confirm product details and compliance status.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://hoverflytech.com/hive/nexus",
+      "reason": "Dedicated HIVE NEXUS page skipped; needed to confirm product details and compliance status.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://hoverflytech.com/services/drone-as-a-service-daas",
+      "reason": "DAAS service page skipped; needed to understand service offering, readiness, and any compliance claims.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://hoverflytech.com/hive",
+      "reason": "HIVE Suite overview page skipped; would clarify whether HIVE products are distinct SKUs or configurations of Sentry/Spectre.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 24,
+    "total_cost_usd": 0.6398694000000001,
+    "created_at": "2026-05-04T03:27:32+00:00",
+    "extract_version": "0.1.0"
+  }
+}

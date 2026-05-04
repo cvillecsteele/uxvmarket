@@ -1,0 +1,147 @@
+{
+  "target_id": "cove",
+  "run_id": "canonical",
+  "display_name": "COVE",
+  "homepage_url": "https://www.coveocean.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/cove/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "test_and_measurement",
+        "is_primary": true,
+        "confidence": "low",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0422",
+            "line_start": 30,
+            "line_end": 30,
+            "url": "https://coveocean.com/programs-services/stella-maris-testing-solution",
+            "page_class": "capability",
+            "snippet": "Accelerate your innovation and test with confidence using COVE's Stella Maris Testing Solution"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0422",
+            "line_start": 39,
+            "line_end": 40,
+            "url": "https://coveocean.com/programs-services/stella-maris-testing-solution",
+            "page_class": "capability",
+            "snippet": "**Subsea Platform**\nThe multi-sensor subsea platform enables long-term testing for product development, verification, and commercialization. Designed for extended deployments, it features integrated instruments connected to the operations center via a plug-and-play device for seamless monitoring."
+          }
+        ],
+        "notes": "Stella Maris Testing Solution is a marine testbed with subsea platform, dockside testing station, and shoreside operations centre for marine tech companies including those developing underwater vehicles."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "COVE is a marine innovation hub providing testing infrastructure for marine tech companies. UXV relevance is indirect via the Stella Maris Testing Solution."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Dartmouth",
+      "state_or_province": "Nova Scotia",
+      "country": "Canada",
+      "address": "27 Parker St., Dartmouth Nova Scotia, Canada B2Y 4T5"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 102,
+        "line_end": 102,
+        "url": "https://coveocean.com/",
+        "page_class": "homepage",
+        "snippet": "*   [27 Parker St., Dartmouth Nova Scotia, Canada B2Y 4T5](https://goo.gl/maps/HhXTxmfLzJt7nAUt7)"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "none",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 44,
+        "line_end": 44,
+        "url": "https://coveocean.com/",
+        "page_class": "homepage",
+        "snippet": "COVE is both a shared physical space, and a collaborative community that brings marine technology organizations together. COVE is where ideas become solutions, technologies become ventures, and opportunities become careers."
+      }
+    ],
+    "notes": "COVE is a marine technology innovation hub and incubator, not a UXV manufacturer or supplier. They provide shared workspace, testing facilities, incubation programs, and community networking for marine tech companies."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Stella Maris Testing Solution",
+        "product_type": "Marine technology testbed / oceanographic testing platform",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0422",
+            "line_start": 32,
+            "line_end": 33,
+            "url": "https://coveocean.com/programs-services/stella-maris-testing-solution",
+            "page_class": "capability",
+            "snippet": "##### Stella Maris Testing Solution\n### The ocean is now officially plug-and-play"
+          }
+        ],
+        "notes": "Includes subsea platform, dockside testing station, shoreside operations centre, and 24/7 data access."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0422",
+        "line_start": 34,
+        "line_end": 34,
+        "url": "https://coveocean.com/programs-services/stella-maris-testing-solution",
+        "page_class": "capability",
+        "snippet": "Introducing COVE\u2019s Stella Maris Testing Solution\u2014the ultimate testbed for marine technology companies. This versatile and cost-effective testing solution includes a subsea platform, dockside testing station, shoreside operations centre, and 24/7 data access, offering everything you need for rapid product development, verification, and commercialization."
+      }
+    ],
+    "notes": "COVE offers the Stella Maris Testing Solution as an active operational facility."
+  },
+  "unresolved_questions": [
+    "COVE's relationship to UXV supply chain is indirect \u2014 they host UXV-adjacent companies and offer a marine testbed but are not themselves a drone/UXV vendor."
+  ],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Operates Stella Maris, a marine technology testbed with subsea, dockside, and shore-based infrastructure for validating unmanned and autonomous systems. Based in Dartmouth, Nova Scotia and designated Canada's Defence Innovation Secure Hub. NDAA compliance and Blue UAS certification status not publicly documented.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 18,
+    "total_cost_usd": 0.300499,
+    "created_at": "2026-05-04T01:28:12+00:00",
+    "extract_version": "0.1.0"
+  }
+}

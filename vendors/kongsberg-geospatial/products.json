@@ -1,0 +1,280 @@
+{
+  "target_id": "kongsberg-geospatial",
+  "run_id": "canonical",
+  "display_name": "Kongsberg Geospatial",
+  "homepage_url": "https://www.kongsberggeospatial.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/kongsberg-geospatial/website",
+  "products": [
+    {
+      "name": "IRIS GCS",
+      "category": "ground_segment",
+      "descriptor": "BVLOS enterprise drone fleet management ground control station software",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0185",
+          "line_start": 109,
+          "line_end": 112,
+          "url": "https://www.kongsberggeospatial.com/products/iris-gcs-ground-control-station",
+          "page_class": "product",
+          "snippet": "IRIS GCS\n========\n#### Ground Control Station\nEnterprise grade GCS for BVLOS at scale"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "MDCS",
+      "category": "ground_segment",
+      "descriptor": "Multi-domain C2 ground control station for land, air, and naval unmanned systems",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0187",
+          "line_start": 109,
+          "line_end": 112,
+          "url": "https://www.kongsberggeospatial.com/products/mdcs",
+          "page_class": "product",
+          "snippet": "MDCS\n====\n#### Multi-Domain Control Station\nOperate Multiple Unmanned Systems in Multiple Domains"
+        }
+      ],
+      "notes": "Based on IRIS GCS architecture; influenced by NATO STANAG 4586 and 4817 standards."
+    },
+    {
+      "name": "MIDAS",
+      "category": "ground_segment",
+      "descriptor": "Near real-time ISR sensor data analysis, storage, and dissemination software for UAS",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0188",
+          "line_start": 109,
+          "line_end": 112,
+          "url": "https://www.kongsberggeospatial.com/products/midas",
+          "page_class": "product",
+          "snippet": "MIDAS\n=====\n#### UAS Sensor Data Exploitation\nProcess, Exploit, and Disseminate Sensor Data"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "IRIS Terminal",
+      "category": "ground_segment",
+      "descriptor": "Enterprise airspace visualization and deconfliction platform for BVLOS drone operations",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0186",
+          "line_start": 108,
+          "line_end": 111,
+          "url": "https://www.kongsberggeospatial.com/products/iris-terminal",
+          "page_class": "product",
+          "snippet": "IRIS Terminal\n=============\n#### Enterprise Airspace Visualization\nComplete Airspace Management"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "TerraLens",
+      "category": "ground_segment",
+      "descriptor": "Real-time 2D/3D geospatial mapping SDK for defense and mission-critical C2 applications",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0189",
+          "line_start": 109,
+          "line_end": 112,
+          "url": "https://www.kongsberggeospatial.com/products/terralens",
+          "page_class": "product",
+          "snippet": "TerraLens\n=========\n#### Real-Time Geospatial SDK\nBuild Beautiful, Performant Geospatial Applications"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "IRIS AM",
+      "category": "ground_segment",
+      "descriptor": "Airspace management software for UTM, counter-UAS, and airspace monitoring operations",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0005",
+          "line_start": 208,
+          "line_end": 210,
+          "url": "https://www.kongsberggeospatial.com",
+          "page_class": "homepage",
+          "snippet": "UTM and Counter-UAS\n----------------------\n##### See how our IRIS AM (Airspace Management) solution is enabling Counter-UAS operations, Airspace Monitoring, and Unmanned Traffic Management in North America and Europe."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0121",
+          "line_start": 159,
+          "line_end": 159,
+          "url": "https://www.kongsberggeospatial.com/news/kongsberg-geospatial-and-martinuav-partner-to-provide-real-time-isr-drone-solutions-for-the-canadian-defence-and-security-market",
+          "page_class": "compliance",
+          "snippet": "[TerraLens\u00ae powers the real-time display in the IRIS AM\u2122 Airspace Management System](https://kongsberggeospatial.com/products/terralens)"
+        }
+      ],
+      "notes": "Dedicated product page (resource-0006) rendered IRIS GCS content; description derived from home page and news articles."
+    },
+    {
+      "name": "THEIA",
+      "category": "ground_segment",
+      "descriptor": "On-premise airport surface situational awareness software for ground traffic control operators",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0195",
+          "line_start": 109,
+          "line_end": 113,
+          "url": "https://www.kongsberggeospatial.com/products/theia-airport-surface-awareness",
+          "page_class": "product",
+          "snippet": "THEIA\n=====\n#### Airport Surface Awareness\nOn-premise Surface Situational Awareness\nfor Ground Traffic Control Operators"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "TerraLens Server",
+      "category": "ground_segment",
+      "descriptor": "OGC-compliant multiformat map tile server optimized for real-time geospatial applications",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0192",
+          "line_start": 109,
+          "line_end": 112,
+          "url": "https://www.kongsberggeospatial.com/products/terralens-server",
+          "page_class": "product",
+          "snippet": "TerraLens Server\n================\n#### Map Tile Server\nDeliver a Wide Array of Map Content - Fast"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "TerraLens Creator",
+      "category": "ground_segment",
+      "descriptor": "Map styling and packaging toolkit for assembling operational map deployment packages",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0191",
+          "line_start": 109,
+          "line_end": 112,
+          "url": "https://www.kongsberggeospatial.com/products/terralens-creator",
+          "page_class": "product",
+          "snippet": "TerraLens Creator\n=================\n#### Map Deployment Toolkit\nStyle and Package Maps and Map Assets"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "TerraLens 3D Web",
+      "category": "ground_segment",
+      "descriptor": "WebAssembly JavaScript library for browser-based 3D geospatial C2 and situational awareness applications",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0190",
+          "line_start": 109,
+          "line_end": 112,
+          "url": "https://www.kongsberggeospatial.com/products/terralens-3dweb",
+          "page_class": "product",
+          "snippet": "TerraLens 3DWeb\n===============\n#### JavaScript Geospatial Engine\nDeliver Browser-Based Applications with Real-Time Data"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "HMI / UX Development",
+      "category": "ground_segment",
+      "descriptor": "Custom human-machine interface and UX design services for geospatial C2 applications",
+      "granularity": "category",
+      "readiness": "engineering_services",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0185",
+          "line_start": 56,
+          "line_end": 58,
+          "url": "https://www.kongsberggeospatial.com/products/iris-gcs-ground-control-station",
+          "page_class": "product",
+          "snippet": "![](https://cdn.prod.website-files.com/629a43aecefd2ef05ec8ae82/64e63762225f0e9c75645dff_HMI-UX-Development_Logo.png)\nHMI / UX Development\n](/services/hmi-ux-development)"
+        }
+      ],
+      "notes": "Service offering; dedicated page was skipped in crawl. Classified from nav-menu appearance only."
+    },
+    {
+      "name": "Development Acceleration",
+      "category": "ground_segment",
+      "descriptor": "Professional development services to accelerate geospatial software integration using TerraLens",
+      "granularity": "category",
+      "readiness": "engineering_services",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0185",
+          "line_start": 60,
+          "line_end": 62,
+          "url": "https://www.kongsberggeospatial.com/products/iris-gcs-ground-control-station",
+          "page_class": "product",
+          "snippet": "![](https://cdn.prod.website-files.com/629a43aecefd2ef05ec8ae82/64e637f041952c6b657c8862_Dev-acceleration_Logo.png)\nDevelopment Acceleration\n](/services/development-acceleration)"
+        }
+      ],
+      "notes": "Service offering; dedicated page was skipped in crawl. Classified from nav-menu appearance only."
+    }
+  ],
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 23,
+    "total_cost_usd": 0.9595041000000001,
+    "created_at": "2026-05-03T11:56:44+00:00",
+    "extract_version": "0.1.0"
+  }
+}

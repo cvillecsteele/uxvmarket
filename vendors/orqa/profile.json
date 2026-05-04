@@ -1,0 +1,462 @@
+{
+  "target_id": "orqa",
+  "run_id": "canonical",
+  "display_name": "Orqa",
+  "homepage_url": "https://orqafpv.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/orqa/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "airframes",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 71,
+            "line_end": 71,
+            "url": "https://orqafpv.com",
+            "page_class": "homepage",
+            "snippet": "We build drones that go where others can't. Our systems command every environment, from confined spaces to open skies, turning impossible missions into reality thanks to their unrivalled performance. When it matters, Orqa delivers."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0032",
+            "line_start": 70,
+            "line_end": 70,
+            "url": "https://orqafpv.com/products/mrm1-5",
+            "page_class": "product",
+            "snippet": "The MRM1-5 is Orqa\u2019s multi-role tactical trainer. This EU-manufactured, dual-use platform features an adaptable design, making it an effective all-in-one solution for training and kinetic operations, while remaining equally capable for commercial and industrial applications."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0033",
+            "line_start": 70,
+            "line_end": 70,
+            "url": "https://orqafpv.com/products/mrm2-10",
+            "page_class": "product",
+            "snippet": "The MRM2-10 is a fully NDAA-compliant, EU-manufactured dual-use platform. Whether deployed for tactical or commercial applications, its uncompromising reliability and EW-resilience gives professional operators a decisive edge."
+          }
+        ],
+        "notes": "Complete FPV tactical drone platforms MRM1-5 and MRM2-10; fully vertically integrated manufacturing."
+      },
+      {
+        "category": "flight_and_vehicle_control",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0031",
+            "line_start": 67,
+            "line_end": 71,
+            "url": "https://orqafpv.com/products/h7-wingcore",
+            "page_class": "product",
+            "snippet": "FLIGHT CONTROLLER\n=================\nH7 WINGCORE\n-----------\nThe H7 WingCore is a fully NDAA-compliant dual-use flight controller for fixed-wing and VTOL drones."
+          }
+        ],
+        "notes": "H7 WingCore is a standalone NDAA-compliant flight controller for fixed-wing and VTOL drones sold separately."
+      },
+      {
+        "category": "ground_segment",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0030",
+            "line_start": 67,
+            "line_end": 71,
+            "url": "https://orqafpv.com/products/fpvonepilot",
+            "page_class": "product",
+            "snippet": "FPV.One Pilot\n=============\nEvolved.Digital Ready.\n----------------------\nMost advanced FPV goggles for immersive drone flying experiences."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0029",
+            "line_start": 67,
+            "line_end": 71,
+            "url": "https://orqafpv.com/products/fpvctrl",
+            "page_class": "product",
+            "snippet": "FPV.Ctrl\n========\nFLAWLESS CONTROL\n----------------\nThe essential link between pilot and craft. FPV.Ctrl delivers the low-latency response needed to master both simulators and the sky. Engineered for enduring comfort and built to withstand the field, its sturdy frame gives you the confidence to fly mission after mission."
+          }
+        ],
+        "notes": "FPV.One Pilot goggles and FPV.Ctrl radio controller form the pilot ground-side interface."
+      },
+      {
+        "category": "communications",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0035",
+            "line_start": 67,
+            "line_end": 71,
+            "url": "https://orqafpv.com/products/rapid-fire",
+            "page_class": "product",
+            "snippet": "rapidFIRE VIDEO RECEIVER\n========================\nGOLD STANDARD VRX RECEPTION\n---------------------------\nThe rapidFIRE 5.8Ghz Video Receiver redefines the FPV experience thanks to its advanced signal processing and powerful features. Engineered to provide crystal-clear, interference-free video, it's the ultimate receiver for serious FPV pilots who demand ultra-reliable performance in every environment."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0033",
+            "line_start": 90,
+            "line_end": 91,
+            "url": "https://orqafpv.com/products/mrm2-10",
+            "page_class": "product",
+            "snippet": "### IRONghost QS\nThe key ground-side component for the MRM2-10, IRONghost QS is a mast-mountable module that connects via a single CAT5 cable. Its high-power, quad-band design drives IRONghost\u2019s EW-resilient C2 link, enabling a 1km operator stand-off."
+          }
+        ],
+        "notes": "rapidFIRE 5.8GHz video receiver module and in-house IRONghost EW-resilient C2 data links."
+      },
+      {
+        "category": "test_and_measurement",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 31,
+            "line_end": 32,
+            "url": "https://orqafpv.com",
+            "page_class": "homepage",
+            "snippet": "![Testing control and video RF links for FPV using the Power Meter v2.](/static/media/power-meter-navigation.f67c995da3c58908178e.webp)\nPower Meter v2](/products/power-meter-v2)"
+          }
+        ],
+        "notes": "Power Meter v2 for testing control and video RF links."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Osijek",
+      "state_or_province": null,
+      "country": "Croatia",
+      "address": "J.J.Strossmayera 341, 31000 Osijek, Croatia"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0007",
+        "line_start": 112,
+        "line_end": 112,
+        "url": "https://orqafpv.com/about",
+        "page_class": "company",
+        "snippet": "*   J.J.Strossmayera 341, 31000 Osijek, Croatia"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0007",
+        "line_start": 85,
+        "line_end": 85,
+        "url": "https://orqafpv.com/about",
+        "page_class": "company",
+        "snippet": "It was founded in 2018 by Srdjan Kovacevic, Ivan Jelusic, and Vlatko Matijevic, and is located in Osijek, where its development and production is also based."
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "oem",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 71,
+        "line_end": 71,
+        "url": "https://orqafpv.com",
+        "page_class": "homepage",
+        "snippet": "We build drones that go where others can't. Our systems command every environment, from confined spaces to open skies, turning impossible missions into reality thanks to their unrivalled performance. When it matters, Orqa delivers."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 78,
+        "line_end": 78,
+        "url": "https://orqafpv.com",
+        "page_class": "homepage",
+        "snippet": "Unlike competitors who just assemble third-party parts, Orqa\u2019s full vertical integration means we design and manufacture every component ourselves. This gives us the freedom to fine-tune functionality and optimize performance where it really counts."
+      }
+    ],
+    "notes": "Designs and manufactures complete FPV/tactical UAS platforms (MRM1-5, MRM2-10) with full vertical integration; also sells standalone subsystems."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "MRM1-5",
+        "product_type": "multi-role tactical trainer FPV drone",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0032",
+            "line_start": 68,
+            "line_end": 70,
+            "url": "https://orqafpv.com/products/mrm1-5",
+            "page_class": "product",
+            "snippet": "MRM1-5\n======\nThe MRM1-5 is Orqa\u2019s multi-role tactical trainer. This EU-manufactured, dual-use platform features an adaptable design, making it an effective all-in-one solution for training and kinetic operations, while remaining equally capable for commercial and industrial applications."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MRM2-10",
+        "product_type": "NDAA-compliant tactical payload drone (10-inch)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0033",
+            "line_start": 68,
+            "line_end": 70,
+            "url": "https://orqafpv.com/products/mrm2-10",
+            "page_class": "product",
+            "snippet": "MRM2-10\n=======\nThe MRM2-10 is a fully NDAA-compliant, EU-manufactured dual-use platform. Whether deployed for tactical or commercial applications, its uncompromising reliability and EW-resilience gives professional operators a decisive edge."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "H7 WingCore",
+        "product_type": "NDAA-compliant flight controller for fixed-wing and VTOL drones",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0031",
+            "line_start": 67,
+            "line_end": 72,
+            "url": "https://orqafpv.com/products/h7-wingcore",
+            "page_class": "product",
+            "snippet": "FLIGHT CONTROLLER\n=================\nH7 WINGCORE\n-----------\nThe H7 WingCore is a fully NDAA-compliant dual-use flight controller for fixed-wing and VTOL drones.\n[buy now](https://shop.orqafpv.com/products/orqa-h7-wingcore)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "FPV.One Pilot",
+        "product_type": "FPV video goggles",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0030",
+            "line_start": 67,
+            "line_end": 71,
+            "url": "https://orqafpv.com/products/fpvonepilot",
+            "page_class": "product",
+            "snippet": "FPV.One Pilot\n=============\nEvolved.Digital Ready.\n----------------------\nMost advanced FPV goggles for immersive drone flying experiences."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "FPV.Ctrl",
+        "product_type": "FPV radio transmitter/controller",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0029",
+            "line_start": 67,
+            "line_end": 71,
+            "url": "https://orqafpv.com/products/fpvctrl",
+            "page_class": "product",
+            "snippet": "FPV.Ctrl\n========\nFLAWLESS CONTROL\n----------------\nThe essential link between pilot and craft. FPV.Ctrl delivers the low-latency response needed to master both simulators and the sky. Engineered for enduring comfort and built to withstand the field, its sturdy frame gives you the confidence to fly mission after mission."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SkyDive",
+        "product_type": "FPV drone racing and freestyle simulator",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 21,
+            "line_end": 22,
+            "url": "https://orqafpv.com",
+            "page_class": "homepage",
+            "snippet": "![FPV Drone Racing and Freestyle Simulator](/static/media/skydive-navigation.5f086c17ea78fa8894d7.webp)\nSkyDive](/products/skydive)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "rapidFIRE",
+        "product_type": "5.8GHz FPV video receiver module",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0035",
+            "line_start": 67,
+            "line_end": 71,
+            "url": "https://orqafpv.com/products/rapid-fire",
+            "page_class": "product",
+            "snippet": "rapidFIRE VIDEO RECEIVER\n========================\nGOLD STANDARD VRX RECEPTION\n---------------------------\nThe rapidFIRE 5.8Ghz Video Receiver redefines the FPV experience thanks to its advanced signal processing and powerful features. Engineered to provide crystal-clear, interference-free video, it's the ultimate receiver for serious FPV pilots who demand ultra-reliable performance in every environment."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Power Meter v2",
+        "product_type": "RF power meter for testing FPV control and video links",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 31,
+            "line_end": 32,
+            "url": "https://orqafpv.com",
+            "page_class": "homepage",
+            "snippet": "![Testing control and video RF links for FPV using the Power Meter v2.](/static/media/power-meter-navigation.f67c995da3c58908178e.webp)\nPower Meter v2](/products/power-meter-v2)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "FPV.Ace",
+        "product_type": "FPV drone bundle / flight guide kit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 26,
+            "line_end": 26,
+            "url": "https://orqafpv.com",
+            "page_class": "homepage",
+            "snippet": "[![FPV Drone Bundle for Flight Guide](/static/media/fpv-ace-navigation.e787cb6ac0a5565cddaa.webp)FPV.Ace](/products/fpv-ace)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Drone Soccer",
+        "product_type": "drone soccer system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 24,
+            "line_end": 25,
+            "url": "https://orqafpv.com",
+            "page_class": "homepage",
+            "snippet": "![Drone Soccer Product](/static/media/drone-soccer-navigation.0857acca792748091cf4.webp)\nDrone Soccer](/products/drone-soccer)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": "yes",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0033",
+        "line_start": 70,
+        "line_end": 70,
+        "url": "https://orqafpv.com/products/mrm2-10",
+        "page_class": "product",
+        "snippet": "The MRM2-10 is a fully NDAA-compliant, EU-manufactured dual-use platform. Whether deployed for tactical or commercial applications, its uncompromising reliability and EW-resilience gives professional operators a decisive edge."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0031",
+        "line_start": 71,
+        "line_end": 71,
+        "url": "https://orqafpv.com/products/h7-wingcore",
+        "page_class": "product",
+        "snippet": "The H7 WingCore is a fully NDAA-compliant dual-use flight controller for fixed-wing and VTOL drones."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0031",
+        "line_start": 75,
+        "line_end": 77,
+        "url": "https://orqafpv.com/products/h7-wingcore",
+        "page_class": "product",
+        "snippet": "100 % NDAA-COMPLIANT\n--------------------\nThe first release from Orqa\u2019s upcoming fixed-wing ecosystem is fully NDAA-compliant."
+      }
+    ],
+    "notes": "MRM2-10 is explicitly 'fully NDAA-compliant'; H7 WingCore is '100% NDAA-COMPLIANT'. Claims appear on individual product pages."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0030",
+        "line_start": 72,
+        "line_end": 72,
+        "url": "https://orqafpv.com/products/fpvonepilot",
+        "page_class": "product",
+        "snippet": "[buy now](https://shop.orqafpv.com/products/orqa-orqa-fpv-one-pilot)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0007",
+        "line_start": 90,
+        "line_end": 90,
+        "url": "https://orqafpv.com/about",
+        "page_class": "company",
+        "snippet": "It consists of more than hundred and fifty employees - engineers (mobile and embedded software, electronics, RF, mechanical, optical), physicists, assembly technicians, and sales & marketing specialists; this multidisciplinary team makes for a dynamic and creative working environment."
+      }
+    ],
+    "notes": "ISO 9001 certified; 150+ employees across engineering, assembly, and sales; catalog products sold via online shop; tactical platforms via enterprise contact sales."
+  },
+  "unresolved_questions": [
+    "Blue UAS listing status not mentioned anywhere in corpus."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://orqafpv.com/enterprise",
+      "reason": "Would clarify whether NDAA compliance extends to the full tactical product line and whether any Blue UAS listing exists for enterprise/defense offerings.",
+      "expected_evidence": [
+        "ndaa",
+        "blue_uas",
+        "products"
+      ],
+      "source_hint": "linked from homepage footer",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 17,
+    "total_cost_usd": 0.46823265000000003,
+    "created_at": "2026-05-03T01:19:19+00:00",
+    "extract_version": "0.1.0"
+  },
+  "tagline": "EU-based OEM manufactures NDAA-compliant tactical multi-rotors (MRM2-10 with 3.5 kg payload) and fixed-wing/VTOL flight controllers (H7 WingCore), plus FPV ground systems and RF test equipment. Vertically integrated, domestically sourced supply chain. Notable for consumer-to-tactical product range; public evidence on military adoption, operational performance, or comparative capability gaps remains thin."
+}

@@ -1,0 +1,332 @@
+{
+  "target_id": "hitec-commercial-solutions",
+  "run_id": "canonical",
+  "display_name": "Hitec Commercial Solutions",
+  "homepage_url": "https://www.hiteccs.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/hitec-commercial-solutions/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "mechanical_subsystems",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 49,
+            "line_end": 49,
+            "url": "https://www.hiteccs.com",
+            "page_class": "homepage",
+            "snippet": "Hitec offers a diverse line of COTS rotary and linear servo actuators featuring a wide range of performace specifications and command protocols to fulfill all of your industrial motion control needs."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0118",
+            "line_start": 50,
+            "line_end": 50,
+            "url": "https://www.hiteccs.com/uncrewed-systems",
+            "page_class": "capability",
+            "snippet": "Hitec Commercial Solutions delivers high-reliability servo actuators engineered for uncrewed systems operating in demanding environments. From compact sUAS to large, long-endurance platforms, Hitec supports aerospace, defense, and commercial manufacturers with scalable, non-Chinese motion control solutions designed for performance, durability, and long-term supply assurance for the global market."
+          }
+        ],
+        "notes": "Rotary and linear servo actuators for flight surface control, landing gear, gimbals, and other UAS motion control applications."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "San Diego",
+      "state_or_province": "California",
+      "country": "United States",
+      "address": "9320 Hazard Way Suite D, San Diego, CA 92123"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 154,
+        "line_end": 154,
+        "url": "https://www.hiteccs.com",
+        "page_class": "homepage",
+        "snippet": "*   [9320 Hazard Way Suite D, San Diego, CA 92123](https://goo.gl/maps/UMnesoit1hByeHwA9)"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 100,
+        "line_end": 100,
+        "url": "https://www.hiteccs.com",
+        "page_class": "homepage",
+        "snippet": "Our off-the-shelf and purpose-built custom servo actuators offer innovative features such as DroneCAN/CAN command protocols, magnetic encoders, brushless motors and titanium gears, delivering optimal performance for thousands of industrial and commercial applications including:"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0118",
+        "line_start": 63,
+        "line_end": 63,
+        "url": "https://www.hiteccs.com/uncrewed-systems",
+        "page_class": "capability",
+        "snippet": "Hitec offers both **commercial off-the-shelf (COTS)** servo actuators and **customized solutions** tailored to specific airframe, payload, or environmental requirements. Our servos deliver precise motion across key uncrewed system components, including flaps, elevators, ailerons, rudders, landing gear, release mechanisms, hatches, throttles, and sensor systems (e.g., gimbals)."
+      }
+    ],
+    "notes": "Sells servo actuators (rotary and linear) that go into UAS/UGV platforms as motion control components."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "BD10BL-CAN-DroneCAN",
+        "product_type": "10mm brushless drone servo actuator",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 76,
+            "line_end": 77,
+            "url": "https://www.hiteccs.com",
+            "page_class": "homepage",
+            "snippet": "### BD10BL-CAN-DroneCAN\n10mm, Lightweight, Brushless, SEP Case Gear, Drone Actuator w/Magnetic Encoder (7.4V)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HLS12-50210-6V-CAN",
+        "product_type": "50mm stroke linear servo actuator (6V, DroneCAN/CAN)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 82,
+            "line_end": 83,
+            "url": "https://www.hiteccs.com",
+            "page_class": "homepage",
+            "snippet": "### HLS12-50210-6V-CAN\n50mm Stroke, 210:1 Gear Ratio, 5mm Lead, DroneCAN / CAN Control, Linear Actuator (6V)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MDB961WP-CAN-DroneCAN-28V",
+        "product_type": "20mm waterproof brushless rotary servo actuator (28V)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0118",
+            "line_start": 140,
+            "line_end": 141,
+            "url": "https://www.hiteccs.com/uncrewed-systems",
+            "page_class": "capability",
+            "snippet": "### MDB961WP-CAN-DroneCAN-28V\n20mm, High Torque, Brushless, Hardened Steel Gear, Waterproof Actuator w/Magnetic Encoder (28.0V)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MDB941WP-CAN-DroneCAN-28V",
+        "product_type": "20mm high-speed waterproof brushless servo actuator (28V)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0118",
+            "line_start": 150,
+            "line_end": 151,
+            "url": "https://www.hiteccs.com/uncrewed-systems",
+            "page_class": "capability",
+            "snippet": "### MDB941WP-CAN-DroneCAN-28V\n20mm, High Speed, Brushless, Hardened Steel Gear, Waterproof Actuator w/Magnetic Encoder (28.0V)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SG33BLT-CAN-24V",
+        "product_type": "33mm waterproof brushless servo actuator with circular connector (24V)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0118",
+            "line_start": 160,
+            "line_end": 161,
+            "url": "https://www.hiteccs.com/uncrewed-systems",
+            "page_class": "capability",
+            "snippet": "### SG33BLT-CAN-24V\n33mm, Waterproof, Brushless, High Torque Actuator with Circular Connector (24V)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "D141SH",
+        "product_type": "10mm coreless slim-wing steel gear servo actuator (7.4V)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0118",
+            "line_start": 170,
+            "line_end": 171,
+            "url": "https://www.hiteccs.com/uncrewed-systems",
+            "page_class": "capability",
+            "snippet": "### D141SH\n10mm, Coreless, Wide Voltage, Steel Gear Actuator (7.4V)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MD89MW-CAN",
+        "product_type": "13mm coreless wide-voltage metal gear servo actuator (CAN)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0118",
+            "line_start": 190,
+            "line_end": 191,
+            "url": "https://www.hiteccs.com/uncrewed-systems",
+            "page_class": "capability",
+            "snippet": "### MD89MW-CAN\n13mm, Coreless, Wide Voltage, High Torque, Metal Gear Actuator (7.4V)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MDB89MH",
+        "product_type": "13mm brushless wide-voltage metal gear servo actuator (7.4V)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0118",
+            "line_start": 180,
+            "line_end": 181,
+            "url": "https://www.hiteccs.com/uncrewed-systems",
+            "page_class": "capability",
+            "snippet": "### MDB89MH\n13mm, Brushless, Wide Voltage, High Torque, Metal Gear Actuator (7.4V)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DPC-20",
+        "product_type": "digital servo programmer (USB-C, web-based, CAN/DroneCAN/RS-485/PWM)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0069",
+            "line_start": 50,
+            "line_end": 52,
+            "url": "https://www.hiteccs.com/news/DPC20-Programmer",
+            "page_class": "news",
+            "snippet": "DPC-20 DIGITAL SERVO PROGRAMMER\n-------------------------------\n### Compatible Software for CAN / DroneCAN, RS-485 & PWM Protocols"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "These are named catalog SKUs; additional SKUs likely exist on skipped product pages."
+  },
+  "ndaa": {
+    "value": "yes",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0118",
+        "line_start": 202,
+        "line_end": 202,
+        "url": "https://www.hiteccs.com/uncrewed-systems",
+        "page_class": "capability",
+        "snippet": "![ISO logo](https://www.hiteccs.com/public/storage/Form/EX7kzEayOe8yyhMS.jpg) ![NDAA compliant logo](https://www.hiteccs.com/public/storage/Form/q9eclTOf7HssREqM.jpg) ![RoHS3  compliant logo](https://www.hiteccs.com/public/storage/Form/szj16veFGtXhdGmK.jpg)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 56,
+        "line_end": 56,
+        "url": "https://www.hiteccs.com",
+        "page_class": "homepage",
+        "snippet": "![Hitec NDIA Compliant](https://www.hiteccs.com/public/uploads/banner_images/NDAA-Compliant-Logo-1767827756.png)"
+      }
+    ],
+    "notes": "NDAA Compliant logo displayed on both homepage and uncrewed systems page. No explicit section number cited in corpus text, but the logo claim and non-Chinese manufacturing emphasis are consistent with NDAA 848/889 compliance."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0118",
+        "line_start": 146,
+        "line_end": 147,
+        "url": "https://www.hiteccs.com/uncrewed-systems",
+        "page_class": "capability",
+        "snippet": "Part #: 43961C\n$254.99"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0118",
+        "line_start": 58,
+        "line_end": 58,
+        "url": "https://www.hiteccs.com/uncrewed-systems",
+        "page_class": "capability",
+        "snippet": "*   **Scalable production capacity** to support programs from prototype through full-rate production"
+      }
+    ],
+    "notes": "Catalog SKUs listed with part numbers and prices; vertically integrated factory with scalable production capacity."
+  },
+  "unresolved_questions": [
+    "NDAA compliance is inferred from logo alt text only \u2014 no explicit section 848/889 text was found in the corpus. The about-us page may contain more explicit compliance language."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.hiteccs.com/about-us",
+      "reason": "Would confirm company details, NDAA compliance language with explicit section numbers, and additional product line information.",
+      "expected_evidence": [
+        "headquarters",
+        "ndaa",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "San Diego-based servo actuator manufacturer producing brushless rotary and linear actuators (10mm\u201350mm stroke) with DroneCAN/CAN protocols, magnetic encoders, and waterproofing for unmanned systems and industrial motion control. NDAA-compliant, ISO/RoHS-certified. Blue UAS status unknown. Public evidence confirms production-ready portfolio and ArduPilot partnership; no major defense primes or program contracts identified in open sources.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 20,
+    "total_cost_usd": 0.4590700999999999,
+    "created_at": "2026-05-04T03:20:18+00:00",
+    "extract_version": "0.1.0"
+  }
+}

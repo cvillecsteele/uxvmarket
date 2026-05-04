@@ -1,0 +1,277 @@
+{
+  "target_id": "exyn-technologies",
+  "run_id": "canonical",
+  "display_name": "Exyn Technologies",
+  "homepage_url": "https://exyn.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/exyn-technologies/website",
+  "products": [
+    {
+      "name": "Exyn Nexys",
+      "category": "sensors_and_navigation",
+      "descriptor": "Modular autonomous LiDAR SLAM mapping payload for GPS-denied environments",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0071",
+          "line_start": 68,
+          "line_end": 70,
+          "url": "https://www.exyn.com/en/products/exyn-nexys",
+          "page_class": "product",
+          "snippet": "Exyn Nexys\nA completely modular 3D mapping solution designed to reduce time to capture, increase safety, and drive efficiency for challenging, complex, or dangerous environments.\n[Purchase](https://www.exyn.com/purchase?hsLang=en)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Exyn Nexys Pro",
+      "category": "sensors_and_navigation",
+      "descriptor": "Higher-specification variant of the Nexys modular LiDAR mapping payload",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0071",
+          "line_start": 125,
+          "line_end": 130,
+          "url": "https://www.exyn.com/en/products/exyn-nexys",
+          "page_class": "product",
+          "snippet": " [![](https://www.exyn.com/hubfs/noun_Paper_79267.svg) One Sheet\nNexys System Specifications Download](/nexys-product-sheet?hsLang=en)\n [![](https://www.exyn.com/hubfs/noun_Paper_79267.svg) One Sheet\nNexys Pro System Specifications Download](/nexys-pro-product-sheet?hsLang=en)\n [![](https://www.exyn.com/hubfs/noun_Paper_79267.svg) White Paper\nNexys Pro Accuracy Whitepaper Download](/nexys-pro-accuracy-report?hsLang=en)"
+        }
+      ],
+      "notes": "Distinct from base Nexys; has its own spec sheet and accuracy whitepaper but no dedicated fetched product page in corpus."
+    },
+    {
+      "name": "Aerial Autonomy License",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "Software license enabling fully autonomous LiDAR aerial mapping missions on approved drone platforms",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0081",
+          "line_start": 106,
+          "line_end": 107,
+          "url": "https://www.exyn.com/exynai-autonomy-and-mapping",
+          "page_class": "capability",
+          "snippet": "Aerial Autonomy License\n### Aerial Autonomy License"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0081",
+          "line_start": 109,
+          "line_end": 109,
+          "url": "https://www.exyn.com/exynai-autonomy-and-mapping",
+          "page_class": "capability",
+          "snippet": "Adding an aerial autonomy license opens up a whole new world of 3D spatial mapping. This package comes with the Drone Link accessory to integrate Nexys onto approved robotic airframes for autonomous aerial mapping missions. The autonomy package comes with all the features from the Standard Mapping Package, plus:"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "ExynAI",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "Proprietary LiDAR SLAM algorithm powering autonomous navigation and real-time 3D mapping",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0081",
+          "line_start": 75,
+          "line_end": 78,
+          "url": "https://www.exyn.com/exynai-autonomy-and-mapping",
+          "page_class": "capability",
+          "snippet": "ExynAI\nSLAM-Powered Mapping and Autonomy\n---------------------------------\nExynAI is a proprietary LiDAR-based SLAM algorithm that enables Nexys to autonomously navigate unstructured, GPS-denied environments while simultaneously capturing a feature-rich, colorized digital twin that can be rendered on the same tablet used to plan missions."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "ExynAI SDK",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "Software development kit giving OEMs and integrators access to ExynAI autonomy and mapping modules",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0077",
+          "line_start": 5,
+          "line_end": 9,
+          "url": "https://www.exyn.com/exyn-ai-sdk-learn-more",
+          "page_class": "capability",
+          "snippet": "ExynAI SDK for OEMs and Integrators\n===================================\n### ![exyn-ai-cl-bk](https://www.exyn.com/hs-fs/hubfs/exyn-ai-cl-bk.png?width=800&height=205&name=exyn-ai-cl-bk.png)\n### Modular software for seamless integration:\n*   **ExynAI-Powered Functionality:** Enable autonomous tasking, real-time data streaming, and mission diagnostics for an optimized end-to-end workflow."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Ground Autonomy License",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "Software license enabling autonomous ground-robot mapping and inspection with Nexys",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0081",
+          "line_start": 116,
+          "line_end": 117,
+          "url": "https://www.exyn.com/exynai-autonomy-and-mapping",
+          "page_class": "capability",
+          "snippet": "Ground Autonomy License\n### Ground Autonomy License"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0081",
+          "line_start": 119,
+          "line_end": 119,
+          "url": "https://www.exyn.com/exynai-autonomy-and-mapping",
+          "page_class": "capability",
+          "snippet": "The ground autonomy package for Nexys enables survey teams to explore and map complex environments using an autonomous four-legged robot like Spot, from Boston Dynamics. ExynAI'a autonomy can automate scanning, inspection or as-builting, perform routine inspections, warehouse operations monitoring, convergence monitoring, post-blast safety evaluations, or to remove people from difficult or dangerous mapping situations."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Combo Autonomy License",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "Combined aerial and ground autonomy software license for Nexys covering all robotic platforms",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0081",
+          "line_start": 126,
+          "line_end": 127,
+          "url": "https://www.exyn.com/exynai-autonomy-and-mapping",
+          "page_class": "capability",
+          "snippet": "Combo Autonomy License\n### Combo Autonomy License"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0081",
+          "line_start": 129,
+          "line_end": 129,
+          "url": "https://www.exyn.com/exynai-autonomy-and-mapping",
+          "page_class": "capability",
+          "snippet": "Autonomy anywhere!\u00a0The combo autonomy package for Nexys enables survey teams to explore and map complex environments using a variety of robotic platforms including drones like the DJI, and ground-based robots such as Spot from Boston Dynamics."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "ExynView",
+      "category": "ground_segment",
+      "descriptor": "Proprietary tablet software for field visualization and on-premises point-cloud post-processing",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0071",
+          "line_start": 106,
+          "line_end": 107,
+          "url": "https://www.exyn.com/en/products/exyn-nexys",
+          "page_class": "product",
+          "snippet": "ExynView Software\nControls capture and post processing in the same system, allowing for fast on premise processing for more streamlined workflows. Creates clean, georeferenced point clouds automatically with additional processing and filtering, and data interoperability into third party software applications.](/?hsLang=en) [![Check mark](https://www.exyn.com/hubfs/Check%20mark.png)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Drone Link",
+      "category": "mechanical_subsystems",
+      "descriptor": "Hardware accessory integrating the Nexys payload onto approved drone and robot platforms",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0081",
+          "line_start": 109,
+          "line_end": 109,
+          "url": "https://www.exyn.com/exynai-autonomy-and-mapping",
+          "page_class": "capability",
+          "snippet": "Adding an aerial autonomy license opens up a whole new world of 3D spatial mapping. This package comes with the Drone Link accessory to integrate Nexys onto approved robotic airframes for autonomous aerial mapping missions. The autonomy package comes with all the features from the Standard Mapping Package, plus:"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Nexys API",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "Programmatic API giving integrators real-time access to ExynAI autonomy and data streams",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0247",
+          "line_start": 74,
+          "line_end": 77,
+          "url": "https://www.exyn.com/products/exynai-sdk",
+          "page_class": "product",
+          "snippet": "Exyn Autonomy & Mapping: SDK or Nexys API\n-----------------------------------------\n**Nexys API:** Integrators can leverage plug-and-play, rugged hardware and access the ExynAI firehose to build custom solutions and automations using their own apps.\n**Modular Software:** OEMs can integrate Exyn's modular autonomy, localization, and mapping software into their hardware."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Standard Mapping Package",
+      "category": "sensors_and_navigation",
+      "descriptor": "Base Nexys SLAM mapping license without autonomous navigation capability",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0081",
+          "line_start": 109,
+          "line_end": 109,
+          "url": "https://www.exyn.com/exynai-autonomy-and-mapping",
+          "page_class": "capability",
+          "snippet": "Adding an aerial autonomy license opens up a whole new world of 3D spatial mapping. This package comes with the Drone Link accessory to integrate Nexys onto approved robotic airframes for autonomous aerial mapping missions. The autonomy package comes with all the features from the Standard Mapping Package, plus:"
+        }
+      ],
+      "notes": "Referenced as the base tier that Aerial, Ground, and Combo Autonomy Licenses build upon; no standalone product page found in corpus."
+    }
+  ],
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 18,
+    "total_cost_usd": 1.08265865,
+    "created_at": "2026-05-03T11:43:20+00:00",
+    "extract_version": "0.1.0"
+  }
+}

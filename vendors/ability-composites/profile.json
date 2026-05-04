@@ -1,0 +1,229 @@
+{
+  "target_id": "ability-composites",
+  "run_id": "canonical",
+  "display_name": "Ability Composites",
+  "homepage_url": "https://abilitycomposites.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/ability-composites/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "structures_and_materials",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 31,
+            "line_end": 31,
+            "url": "https://abilitycomposites.com",
+            "page_class": "homepage",
+            "snippet": "Ability Composites is a small business specializing in **carbon fiber and fiberglass composite part manufacturing.** Our experienced personnel have a passion for innovation and understand how best to tool up a composite part. We support the medical, aerospace, and high-end industrial markets."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 32,
+            "line_end": 32,
+            "url": "https://abilitycomposites.com/composite-engineering-work/aerospace",
+            "page_class": "other",
+            "snippet": "Ability Composites\u2019 personnel have years of experience\u00a0with high quality\u00a0**aerospace composites manufacturing**. Areas of expertise include composite radome systems, antenna enclosures (fairings), and small unmanned aircraft. \u00a0Our team works to the rigorous process controls and stringent quality of aerospace parts."
+          }
+        ],
+        "notes": "Carbon fiber and fiberglass composite parts manufacturing for aerospace (including UAS), medical, and industrial markets"
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Vendor is primarily a contract composite manufacturer. UAS-specific work mentioned as part of aerospace composites segment."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Loveland",
+      "state_or_province": "Colorado",
+      "country": "United States",
+      "address": null
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 69,
+        "line_end": 69,
+        "url": "https://abilitycomposites.com",
+        "page_class": "homepage",
+        "snippet": "Ability Composites is a composite manufacturer located in Loveland, CO. Classified as a small business, Ability Composites has capabilities which rival many large companies. Customer satisfaction is what the company was established on and will always be the ultimate priority."
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0005",
+        "line_start": 32,
+        "line_end": 32,
+        "url": "https://abilitycomposites.com/composite-engineering-work/aerospace",
+        "page_class": "other",
+        "snippet": "Ability Composites\u2019 personnel have years of experience\u00a0with high quality\u00a0**aerospace composites manufacturing**. Areas of expertise include composite radome systems, antenna enclosures (fairings), and small unmanned aircraft. \u00a0Our team works to the rigorous process controls and stringent quality of aerospace parts."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0005",
+        "line_start": 45,
+        "line_end": 47,
+        "url": "https://abilitycomposites.com/composite-engineering-work/aerospace",
+        "page_class": "other",
+        "snippet": "Unmanned Aerial Systems\n-----------------------\nWith a history of design and manufacturing of aircraft, we\u2019re proudly expanding our capabilities to accommodate this fast growing market."
+      }
+    ],
+    "notes": "Makes composite structural parts (radomes, fairings, airframe structures) for UAS and aerospace customers as a contract manufacturer. Also mentions expanding into UAS manufacturing but no named complete UAS products."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Composite Radomes",
+        "product_type": "RF-transparent composite radome structures for aerospace and ground-based systems",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0007",
+            "line_start": 31,
+            "line_end": 31,
+            "url": "https://abilitycomposites.com/composite-engineering-work/aerospace/radomes",
+            "page_class": "other",
+            "snippet": "### **Ability Composites specializes in radomes for aerospace and ground based systems.**"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Composite Overwrapped Pressure Vessels (COPV)",
+        "product_type": "Filament-wound composite pressure vessels for aerospace and satellite applications",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0060",
+            "line_start": 31,
+            "line_end": 31,
+            "url": "https://abilitycomposites.com/composite-engineering-work/aerospace/pressure-vessels",
+            "page_class": "news",
+            "snippet": "Ability Composites manufactures composite\u00a0pressure vessels (COPV manufacturing)\u00a0for various industries using our 4 axis filament winding machine.\u00a0 The developed in-house manufacturing process includes filament winding,\u00a0pressure testing, and autofrettaging."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Filament Winding Services",
+        "product_type": "CNC filament winding for pressure vessels, tubes, and drive shafts",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0013",
+            "line_start": 32,
+            "line_end": 32,
+            "url": "https://abilitycomposites.com/composite-manufacturing-services/filament-winding",
+            "page_class": "other",
+            "snippet": "Ability Composites has two CNC filament winding machines and the expertise to take on most projects. One machine is a 4-axis prepreg winder, the other is a 2-axis wet winder. Some recent projects include; pressure vessels for the aerospace market, large diameter carbon fiber tubes used in the nuclear industry, and thin walled square carbon fiber tubes for robotic systems."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Composite Layup Services",
+        "product_type": "Carbon fiber and fiberglass composite layup manufacturing",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0057",
+            "line_start": 32,
+            "line_end": 33,
+            "url": "https://abilitycomposites.com/composite-manufacturing-services",
+            "page_class": "other",
+            "snippet": "### Composite Layup\n](https://abilitycomposites.com/composite-manufacturing-services/composite-layup/)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Vendor is a contract composite manufacturer; offerings are service/part categories rather than named SKU products."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 48,
+        "line_end": 52,
+        "url": "https://abilitycomposites.com",
+        "page_class": "homepage",
+        "snippet": "*   12,000 ft Manufacturing Facility\n*   Filament Winding Machines\n*   5-axis Router\n*   Industrial Autoclave\n*   More\u2026"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 84,
+        "line_end": 84,
+        "url": "https://abilitycomposites.com",
+        "page_class": "homepage",
+        "snippet": "AS9100D:2016 & ISO 9001:2015 CERTIFIED"
+      }
+    ],
+    "notes": "AS9100D:2016 & ISO 9001:2015 certified contract manufacturer with 12,000 sq ft facility, filament winding machines, 5-axis router, and industrial autoclave."
+  },
+  "unresolved_questions": [
+    "Whether the SuperSwift image on the aerospace page represents a named UAS product they make or a customer's aircraft",
+    "Whether they have NDAA compliance given their aerospace/defense customer base (AS9100D certified)"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://abilitycomposites.com/composite-engineering-work/aerospace/unmanned-aerial-systems/",
+      "reason": "Would confirm whether Ability Composites makes complete UAS structures or only supplies composite parts to UAS customers; could clarify drone_supply_chain_role and products.",
+      "expected_evidence": [
+        "products",
+        "drone_supply_chain_role",
+        "products_categories"
+      ],
+      "source_hint": "guessed from aerospace page UAS section link",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "complete",
+  "tagline": "AS9100D-certified composite manufacturing and engineering for aerospace, medical, and industrial applications. Specializes in radomes, filament-wound pressure vessels, layup, and tooling. Colorado-based small business with 12,000 sq ft facility. NDAA compliance status and unmanned-systems program involvement not publicly disclosed.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 15,
+    "total_cost_usd": 0.34974485000000005,
+    "created_at": "2026-05-03T20:39:48+00:00",
+    "extract_version": "0.1.0"
+  }
+}

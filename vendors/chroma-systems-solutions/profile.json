@@ -1,0 +1,314 @@
+{
+  "target_id": "chroma-systems-solutions",
+  "run_id": "canonical",
+  "display_name": "Chroma Systems Solutions",
+  "homepage_url": "https://www.chromausa.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/chroma-systems-solutions/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "test_and_measurement",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 610,
+            "line_end": 611,
+            "url": "https://www.chromausa.com",
+            "page_class": "homepage",
+            "snippet": "Automated Test Systems BUILT-in-the-USA\n======================================="
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 638,
+            "line_end": 640,
+            "url": "https://www.chromausa.com",
+            "page_class": "homepage",
+            "snippet": "Find Test Equipment by Industry\n-------------------------------\nEngineers look to Chroma for their power conversion, electrical safety, and passive component automated testing equipment in power supply, battery, energy storage, electric vehicle, PV inverter, LED, medical, aerospace, and commercial applications."
+          }
+        ],
+        "notes": "Core business is automated test equipment: power supplies, electronic loads, battery cyclers, hipot/safety testers, used in aerospace, automotive/EV, medical, and other industries"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": null,
+      "state_or_province": "California",
+      "country": "United States",
+      "address": null
+    },
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 2,
+        "line_end": 2,
+        "url": "https://www.chromausa.com",
+        "page_class": "homepage",
+        "snippet": "[949-600-6400](tel:9496006400)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 610,
+        "line_end": 610,
+        "url": "https://www.chromausa.com",
+        "page_class": "homepage",
+        "snippet": "Automated Test Systems BUILT-in-the-USA"
+      }
+    ],
+    "notes": "949 area code phone number indicates Orange County, CA; 'BUILT-in-the-USA' claim on homepage. No street address disclosed on fetched pages."
+  },
+  "drone_supply_chain_role": {
+    "value": "broad_industrial",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 638,
+        "line_end": 640,
+        "url": "https://www.chromausa.com",
+        "page_class": "homepage",
+        "snippet": "Find Test Equipment by Industry\n-------------------------------\nEngineers look to Chroma for their power conversion, electrical safety, and passive component automated testing equipment in power supply, battery, energy storage, electric vehicle, PV inverter, LED, medical, aerospace, and commercial applications."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0403",
+        "line_start": 576,
+        "line_end": 581,
+        "url": "https://www.chromausa.com/test-software/aerospace-software",
+        "page_class": "other",
+        "snippet": "Aerospace Software\n------------------\n### Standards, Power Groups, and Test Items\nStandards\n---------\nChroma 61507, 61508, 61509, 61511, and 61512 can comply with the power test requirements for aircraft as stipulated by avionic standards. The power sources can help user to simulate aircraft power disturbance test by linking Chroma test softwares."
+      }
+    ],
+    "notes": "Industrial ATE company with aerospace application (avionics power standard testing: MIL-STD-704F, RTCA DO-160G) but no UXV-specific product line."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Battery Cell Insulation Tester 11210",
+        "product_type": "battery cell insulation / leakage current tester",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0421",
+            "line_start": 584,
+            "line_end": 587,
+            "url": "https://www.chromausa.com/product/battery-cell-insulation-tester-11210",
+            "page_class": "product",
+            "snippet": "Battery Cell Insulation Tester\n==============================\n### Chroma 11210\nAccurately measure leakage current (LC) and insulation resistance(IR) of battery jelly-roll/dry-cell as well as other insulation materials."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Battery Cell Surge Tester 19311",
+        "product_type": "battery cell surge tester",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 163,
+            "line_end": 163,
+            "url": "https://www.chromausa.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Battery Cell Surge Tester Model - 19311](/product/battery-cell-surge-tester-model-19311/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Bidirectional DC Power Supply 62000D",
+        "product_type": "bidirectional DC power supply (6kW\u201345kW)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 91,
+            "line_end": 91,
+            "url": "https://www.chromausa.com",
+            "page_class": "homepage",
+            "snippet": "        *   [6kW - 45kW Bidirectional DC Power Supplies - 62000D](/product/bidirectional-dc-power-supply-62000d/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Programmable DC Power Supply 62000P",
+        "product_type": "programmable DC power supply (600W\u20135kW)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0380",
+            "line_start": 584,
+            "line_end": 587,
+            "url": "https://www.chromausa.com/product/programmable-dc-power-supply-62000p",
+            "page_class": "product",
+            "snippet": "Programmable DC Power Supply\n============================\n### Chroma 62000P\nConstant power operating envelope, precision readback of output current and voltage, output trigger signals, and the ability to create complex DC transients waveforms to test device behavior to spikes, drops, and other voltage deviations"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "High Power DC Electronic Load 63200A",
+        "product_type": "high power DC electronic load (2kW\u201324kW)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 104,
+            "line_end": 104,
+            "url": "https://www.chromausa.com",
+            "page_class": "homepage",
+            "snippet": "        *   [2kW - 24kW High Power DC Electronic Loads - 63200A](/product/high-power-dc-electronic-load/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Aerospace Software (SoftPanel A615011/A615010/A615012)",
+        "product_type": "avionics power standards test software (MIL-STD-704F, RTCA DO-160G, ABD0100.1.8.1)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0403",
+            "line_start": 576,
+            "line_end": 578,
+            "url": "https://www.chromausa.com/test-software/aerospace-software",
+            "page_class": "other",
+            "snippet": "Aerospace Software\n------------------\n### Standards, Power Groups, and Test Items"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Battery Pro Software",
+        "product_type": "battery test automation software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 172,
+            "line_end": 172,
+            "url": "https://www.chromausa.com",
+            "page_class": "homepage",
+            "snippet": "        *   [BatteryPro - Battery Automation](/test-software/battery-pro-software/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "PowerPro",
+        "product_type": "power automation software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 171,
+            "line_end": 171,
+            "url": "https://www.chromausa.com",
+            "page_class": "homepage",
+            "snippet": "        *   [PowerPro - Power Automation](/software/power-pro/)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Many more SKUs exist across battery cyclers, AC power sources, grid simulators, hipot testers, LCR meters; only representative product families listed"
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No mention of NDAA Section 848/889 compliance anywhere in the corpus."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No mention of Blue UAS or Blue sUAS anywhere in the corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 610,
+        "line_end": 612,
+        "url": "https://www.chromausa.com",
+        "page_class": "homepage",
+        "snippet": "Automated Test Systems BUILT-in-the-USA\n=======================================\nFueled by POWERPRO or BATTERYPRO Software"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0421",
+        "line_start": 588,
+        "line_end": 588,
+        "url": "https://www.chromausa.com/product/battery-cell-insulation-tester-11210",
+        "page_class": "product",
+        "snippet": "[Get Datasheet](/pdf/11210%20Battery%20Cell%20Insulation%20Tester%20052023.pdf)"
+      }
+    ],
+    "notes": "Catalog products with model numbers, datasheets, and production specifications listed throughout. Calibration, repair, and extended warranty services available for in-production instruments."
+  },
+  "unresolved_questions": [
+    "No street address or city found in fetched pages; headquarters assumed California (Orange County) from 949 area code",
+    "Contact/about pages were not fetched (skipped); a contact page would confirm exact HQ address"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.chromausa.com/about/",
+      "reason": "Would confirm company headquarters city/address and any explicit UXV/drone product lines",
+      "expected_evidence": [
+        "headquarters",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "guessed from site navigation link on homepage",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.chromausa.com/contact/",
+      "reason": "Contact page would provide explicit headquarters address and location",
+      "expected_evidence": [
+        "headquarters"
+      ],
+      "source_hint": "guessed from site navigation link on homepage",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "complete",
+  "tagline": "Manufactures precision test and measurement equipment for battery cycling, power conversion, and electrical safety\u2014including cell-to-pack battery cyclers (17000/17020/17040/17050 series), power hardware-in-the-loop testbeds, programmable AC/DC sources, and hipot testers. Production-ready systems serve EV, energy storage, and aerospace applications. NDAA and Blue UAS certification status unknown; public evidence of government or defense programs limited.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 14,
+    "total_cost_usd": 0.41575654999999995,
+    "created_at": "2026-05-03T22:03:59+00:00",
+    "extract_version": "0.1.0"
+  }
+}

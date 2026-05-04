@@ -1,0 +1,381 @@
+{
+  "target_id": "igus",
+  "run_id": "canonical",
+  "display_name": "igus",
+  "homepage_url": "https://www.igus.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/igus/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "mechanical_subsystems",
+        "is_primary": true,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0120",
+            "url": "https://www.igus.com/company/all-products",
+            "page_class": "company",
+            "snippet": "Browse our selection of flange bearings, sleeve bearings, thrust washers, belt rollers, clip bearings and more."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0120",
+            "url": "https://www.igus.com/company/all-products",
+            "page_class": "company",
+            "snippet": "Browse our selection of slewing rings, as well as toothed slewing rings and accessories to pair with your rotational movement system."
+          }
+        ],
+        "notes": "Polymer bearings (iglide\u00ae, igubal\u00ae, xiros\u00ae), PRT slewing rings, linear guides, and cable carriers are the most directly UXV-applicable product lines."
+      },
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": false,
+        "confidence": "low",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0382",
+            "url": "https://www.igus.com/e-motors/specialist-motors",
+            "page_class": "product",
+            "snippet": "Our igus specialist motors offer special solutions for demanding environments and applications. With various protection classes, these motors are ideal for use in damp, dusty or challenging conditions."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0120",
+            "url": "https://www.igus.com/company/all-products",
+            "page_class": "company",
+            "snippet": "Browse our selection of modular gear box systems, worm gear joints, strain wave gears, planetary gear boxes, and more."
+          }
+        ],
+        "notes": "DC, stepper, and BLDC motors plus gearboxes are sold for industrial actuators; not specifically marketed for UXV propulsion."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "igus products span 50+ industries; UXV relevance is incidental. An autonomous USV (Echodrone) case study confirms component use in unmanned vessels."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Cologne",
+      "state_or_province": null,
+      "country": "Germany",
+      "address": null
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0352",
+        "url": "https://www.igus.com/e-motors/dc-motor-control-systems",
+        "page_class": "capability",
+        "snippet": "are legally protected trademarks of the igus SE & Co. KG/ Cologne in the Federal Republic of Germany and where applicable in some foreign countries."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0283",
+        "url": "https://www.igus.com/drylin/guides-with-measuring-systems",
+        "page_class": "capability",
+        "snippet": "igus inc headquarters is located at 257 Ferris Ave, Rumford, RI 02916. igus enjoyneering center is located at 2055 Franklin Rd, Bloomfield Twp, MI 48302"
+      }
+    ],
+    "notes": "Global parent igus SE & Co. KG is headquartered in Cologne, Germany. US subsidiary (igus inc.) is at 257 Ferris Ave, Rumford, RI 02916."
+  },
+  "drone_supply_chain_role": {
+    "value": "broad_industrial",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0160",
+        "url": "https://www.igus.com/company/our-products",
+        "page_class": "company",
+        "snippet": "In 72 countries and more than 50 industries, motion plastics make our customers everyday life easier and improve their applications."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0493",
+        "url": "https://www.igus.com/industry/boats/applications/cables-and-motor-technology-for-autonomous-inspection-boat",
+        "page_class": "capability",
+        "snippet": "With the help of igus\u00ae components, Art Robotics developed a customised solution for the use of the Echodrone in the Port of Antwerp-Bruges. This solution consists of high-quality chainflex\u00ae cables and the drylin\u00ae E DC motor."
+      }
+    ],
+    "notes": "No UXV-specific product line. General-purpose polymer motion components used incidentally in unmanned systems. The single UXV-adjacent case study shows component supply to a third-party unmanned surface vessel."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "e-chain\u00ae cable carriers",
+        "product_type": "energy chain cable carrier systems for linear and rotary motion",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0120",
+            "url": "https://www.igus.com/company/all-products",
+            "page_class": "company",
+            "snippet": "Browse our selection of easy-to-install cable carriers and explore movement and size options for various environments."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "chainflex\u00ae flexible cables",
+        "product_type": "continuous-flex cables and hoses for moving applications",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0120",
+            "url": "https://www.igus.com/company/all-products",
+            "page_class": "company",
+            "snippet": "With over 1,394 cable types available, chainflex\u00ae cables are built to withstand extreme conditions and various motion types."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "readycable\u00ae cable assemblies",
+        "product_type": "pre-assembled cable assemblies with industrial connectors",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0120",
+            "url": "https://www.igus.com/company/all-products",
+            "page_class": "company",
+            "snippet": "readycable\u00ae cable assemblies comes equipped with standard industrial connectors that are ready for plug-and-play operation upon arrival."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "iglide\u00ae plain bearings",
+        "product_type": "self-lubricating polymer plain bearings and bushings",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0120",
+            "url": "https://www.igus.com/company/all-products",
+            "page_class": "company",
+            "snippet": "Browse our selection of flange bearings, sleeve bearings, thrust washers, belt rollers, clip bearings and more."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "igubal\u00ae self-aligning bearings",
+        "product_type": "polymer spherical bearings, rod ends, clevis joints",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0120",
+            "url": "https://www.igus.com/company/all-products",
+            "page_class": "company",
+            "snippet": "Browse our selection of rod ends, two and four bolt flange bearings, pillow block bearings, clevis joints, spherical balls, and more."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "xiros\u00ae ball bearings",
+        "product_type": "polymer radial and axial ball bearings and rollers",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0120",
+            "url": "https://www.igus.com/company/all-products",
+            "page_class": "company",
+            "snippet": "Browse our selection of radial deep groove ball bearings, conveyor rollers, axial thrust ball bearings, flanged ball bearings, and more."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "iglide\u00ae PRT slewing rings",
+        "product_type": "polymer slewing ring bearings for rotational movement systems",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0120",
+            "url": "https://www.igus.com/company/all-products",
+            "page_class": "company",
+            "snippet": "Browse our selection of slewing rings, as well as toothed slewing rings and accessories to pair with your rotational movement system."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "drylin\u00ae linear bearings and slides",
+        "product_type": "maintenance-free polymer linear guide rails and actuators",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0120",
+            "url": "https://www.igus.com/company/all-products",
+            "page_class": "company",
+            "snippet": "Browse our selection of linear guide rails, low profile linear slides, linear slide bearings, telescopic rails and more."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "dryspin\u00ae lead screws and nuts",
+        "product_type": "maintenance-free lead screw assemblies (high-helix, trapezoidal, ACME)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0120",
+            "url": "https://www.igus.com/company/all-products",
+            "page_class": "company",
+            "snippet": "Browse our selection of maintenance-free high helix, trapezoidal, metric, and ACME lead screw assemblies."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "drylin\u00ae E electric motors",
+        "product_type": "DC, stepper, and brushless DC (BLDC) motors for linear actuators",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0352",
+            "url": "https://www.igus.com/e-motors/dc-motor-control-systems",
+            "page_class": "capability",
+            "snippet": "drylin\u00ae motor controllers offer plug-and-play integration, delivering full functionality right out of the box. Options are available to control DC, stepper, and brushless DC (BLDC) motors."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "dryve D1 motor controller",
+        "product_type": "motor control unit for DC, EC, and stepper motors with CANopen/Modbus TCP",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0947",
+            "url": "https://www.igus.com/product/complete-motor-control-package-for-individual-plcs",
+            "page_class": "product",
+            "snippet": "dryve supports various motor types, including DC, EC and stepper motors, in both open loop and closed loop operation. The high supply voltage of up to 48 V ensures high motor speeds."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "drygear\u00ae gearboxes",
+        "product_type": "modular worm, strain wave, and planetary gearboxes for robotics",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0120",
+            "url": "https://www.igus.com/company/all-products",
+            "page_class": "company",
+            "snippet": "Browse our selection of modular gear box systems, worm gear joints, strain wave gears, planetary gear boxes, and more."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "triflex\u00ae robot dresspacks",
+        "product_type": "multi-axis cable carriers and retraction systems for robots",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0120",
+            "url": "https://www.igus.com/company/all-products",
+            "page_class": "company",
+            "snippet": "Browse our section on robot dresspacks, where you can select from 9 sizes and multiple retraction systems to accommodate a wide variety of robots."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "igus sells thousands of catalog SKUs; the above represent major named product families. Many additional sub-families (specific bearing grades, cable types) exist across these lines."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA Section 848/889 compliance claim found anywhere in the fetched corpus."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS or Blue sUAS mention found anywhere in the fetched corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0382",
+        "url": "https://www.igus.com/e-motors/specialist-motors",
+        "page_class": "product",
+        "snippet": "Discover them now in our online shop \u2013 available immediately and ready for dispatch in just 24 hours."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0120",
+        "url": "https://www.igus.com/company/all-products",
+        "page_class": "company",
+        "snippet": "With over 1,394 cable types available, chainflex\u00ae cables are built to withstand extreme conditions and various motion types."
+      }
+    ],
+    "notes": "Large catalog of standard stocked SKUs shipped within 24 hours; online shop with immediate ordering. Custom parts services (3D printing, CNC, injection molding) are a secondary offering alongside the production catalog."
+  },
+  "unresolved_questions": [
+    "No UXV/drone-specific pages were fetched; igus's Aviation and Aircraft industry page (/industry/aeronautical-engineering) is not in the corpus and may contain UAV-specific application examples.",
+    "Global parent company street address in Cologne not explicitly stated on site; only city/country confirmed from trademark footer.",
+    "Whether igus explicitly markets any product lines to the UXV/drone market remains unconfirmed from available corpus pages."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.igus.com/industry/aeronautical-engineering",
+      "reason": "Aviation and Aircraft industry page would confirm or refute whether igus explicitly markets products for UAV/drone applications, helping resolve UXV supply chain role and product categories.",
+      "expected_evidence": [
+        "products_categories",
+        "drone_supply_chain_role",
+        "products"
+      ],
+      "source_hint": "guessed from site nav menu: Industries > Travel & Leisure > Aviation and Aircraft",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.igus.com/company",
+      "reason": "About Us / company overview page would confirm global HQ street address and founding location details to sharpen headquarters answer.",
+      "expected_evidence": [
+        "headquarters"
+      ],
+      "source_hint": "guessed standard about page",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 23,
+    "total_cost_usd": 1.21715755,
+    "created_at": "2026-05-02T12:06:20+00:00",
+    "extract_version": "0.1.0"
+  },
+  "tagline": "German polymer-motion specialist producing lubrication-free bearings, cable carriers, flexible cables, linear actuators, and compact gearboxes for industrial robotics and automation. NDAA and Blue UAS status unknown. Strong production-ready portfolio across mechanical subsystems and propulsion; limited public evidence of direct unmanned-systems integration or defense-sector adoption."
+}

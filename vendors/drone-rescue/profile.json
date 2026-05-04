@@ -1,0 +1,404 @@
+{
+  "target_id": "drone-rescue",
+  "run_id": "canonical",
+  "display_name": "Drone Rescue",
+  "homepage_url": "https://dronerescue.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/drone-rescue/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "recovery_systems",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 53,
+            "line_end": 54,
+            "url": "https://dronerescue.com",
+            "page_class": "homepage",
+            "snippet": "Parachute Safety Solutions\nwhen safety matters"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 58,
+            "line_end": 58,
+            "url": "https://dronerescue.com",
+            "page_class": "homepage",
+            "snippet": "The lightweight, smart, autonomous and non-pyrotechnical choice for saving your multicopter."
+          }
+        ],
+        "notes": "Drone parachute safety systems for UAVs from 2\u2013250 kg MTOW; core product line."
+      },
+      {
+        "category": "flight_termination",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0069",
+            "line_start": 52,
+            "line_end": 54,
+            "url": "https://dronerescue.com/specsheet-drs-fts",
+            "page_class": "product",
+            "snippet": "DRS-FTS Solution\n================\n##### Flight Termination System"
+          }
+        ],
+        "notes": "DRS-FTS product is explicitly labelled Flight Termination System."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Graz",
+      "state_or_province": null,
+      "country": "Austria",
+      "address": "Andritzer Reichsstra\u00dfe 15, 8045 Graz"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0017",
+        "line_start": 62,
+        "line_end": 63,
+        "url": "https://dronerescue.com/contact",
+        "page_class": "contact",
+        "snippet": "Andritzer Reichsstra\u00dfe 15,\n8045 Graz, Austria"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 53,
+        "line_end": 54,
+        "url": "https://dronerescue.com",
+        "page_class": "homepage",
+        "snippet": "Parachute Safety Solutions\nwhen safety matters"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0061",
+        "line_start": 57,
+        "line_end": 59,
+        "url": "https://dronerescue.com/products",
+        "page_class": "product",
+        "snippet": "DRS-5 Solution\nWeight range\n2\u20135 kg MTOW"
+      }
+    ],
+    "notes": "Sells parachute recovery systems that mount on third-party UAVs; not a full platform OEM."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "DRS-5",
+        "product_type": "drone parachute recovery system (2\u20135 kg MTOW)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0061",
+            "line_start": 57,
+            "line_end": 59,
+            "url": "https://dronerescue.com/products",
+            "page_class": "product",
+            "snippet": "DRS-5 Solution\nWeight range\n2\u20135 kg MTOW"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DRS-10",
+        "product_type": "drone parachute recovery system (5\u201310 kg MTOW)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0061",
+            "line_start": 67,
+            "line_end": 69,
+            "url": "https://dronerescue.com/products",
+            "page_class": "product",
+            "snippet": "![DRS-10](https://dronerescue.com/wp-content/uploads/2024/03/neuDRS-10-500x500.png \"neuDRS-10\")\nDRS-10 Solution\nWeight range"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DRS-15",
+        "product_type": "drone parachute recovery system (10\u201315 kg MTOW)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0061",
+            "line_start": 78,
+            "line_end": 80,
+            "url": "https://dronerescue.com/products",
+            "page_class": "product",
+            "snippet": "![DRS-15](https://dronerescue.com/wp-content/uploads/2024/03/neu-neu-DRS-15-500x500.png \"neu neu DRS-15\")\nDRS-15 Solution\nWeight range"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DRS-25",
+        "product_type": "drone parachute recovery system (15\u201325 kg MTOW)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0061",
+            "line_start": 89,
+            "line_end": 91,
+            "url": "https://dronerescue.com/products",
+            "page_class": "product",
+            "snippet": "![DRS-25](https://dronerescue.com/wp-content/uploads/2024/03/neuDRS-25-500x500.png \"neuDRS-25\")\nDRS-25 Solution\nWeight range"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DRS-HeavyLift",
+        "product_type": "drone parachute recovery system (25\u2013250 kg MTOW)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0061",
+            "line_start": 100,
+            "line_end": 103,
+            "url": "https://dronerescue.com/products",
+            "page_class": "product",
+            "snippet": "DRS-HeavyLift\nWeight range\n25 \u2013 250 kg\nSystem weight"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DRS-VTOL",
+        "product_type": "parachute recovery system for VTOL aircraft",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0061",
+            "line_start": 110,
+            "line_end": 113,
+            "url": "https://dronerescue.com/products",
+            "page_class": "product",
+            "snippet": "DRS-VTOL\nWeight range\n2 \u2013 250 kg\nSystem weight"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DRS-Fixed Wing",
+        "product_type": "parachute recovery system for fixed-wing UAVs",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0061",
+            "line_start": 120,
+            "line_end": 123,
+            "url": "https://dronerescue.com/products",
+            "page_class": "product",
+            "snippet": "DRS-Fixed Wing\nWeight range\n2 \u2013 250 kg\nSystem weight"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DRS-Rotor Wing",
+        "product_type": "parachute recovery system for rotor-wing UAVs",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0061",
+            "line_start": 130,
+            "line_end": 133,
+            "url": "https://dronerescue.com/products",
+            "page_class": "product",
+            "snippet": "DRS-Rotor Wing\nWeight range\n2 \u2013 250 kg\nSystem weight"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DRS-FTS",
+        "product_type": "flight termination system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0069",
+            "line_start": 52,
+            "line_end": 54,
+            "url": "https://dronerescue.com/specsheet-drs-fts",
+            "page_class": "product",
+            "snippet": "DRS-FTS Solution\n================\n##### Flight Termination System"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DRS-M300/M350",
+        "product_type": "parachute recovery system for DJI Matrice 300/350 RTK",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0061",
+            "line_start": 218,
+            "line_end": 221,
+            "url": "https://dronerescue.com/products",
+            "page_class": "product",
+            "snippet": "DRS-M300/M350 Solution\nTested according to ASTM-F3322-18 Standard\nSimple content\nDJI Matrice 300 / RTK"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DRS-M600",
+        "product_type": "parachute recovery system for DJI Matrice 600/Pro",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0061",
+            "line_start": 229,
+            "line_end": 233,
+            "url": "https://dronerescue.com/products",
+            "page_class": "product",
+            "snippet": "![DRS-M600](https://dronerescue.com/wp-content/uploads/2024/03/neuDRS-M600-1-500x500.png \"neuDRS-M600\")\nDRS-M600 Solution\nTested according to ASTM-F3322-18 Standard\nSimple content\nDJI Matrice 600 / Pro"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DRS-AltaX",
+        "product_type": "parachute recovery system for Freefly Systems AltaX",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0061",
+            "line_start": 274,
+            "line_end": 277,
+            "url": "https://dronerescue.com/products",
+            "page_class": "product",
+            "snippet": "DRS-AltaX\nDrone\nFreefly Systems AltaX\nSystem weight"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Manual Triggering Device",
+        "product_type": "remote manual parachute deployment trigger (2000 m range)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0059",
+            "line_start": 52,
+            "line_end": 57,
+            "url": "https://dronerescue.com/manual-triggering-device",
+            "page_class": "product",
+            "snippet": "Manual Triggering Device\n========================\n##### Our manual triggering device is used to manually deploy the DRS parachute.\nManual Triggering Device\n------------------------\nAvailable in EU and non-EU version. It has a tested range of 2000 meters."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DRS Custom Solution",
+        "product_type": "custom-engineered drone parachute system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0030",
+            "line_start": 52,
+            "line_end": 52,
+            "url": "https://dronerescue.com/drs-custom-solution",
+            "page_class": "capability",
+            "snippet": "DRS Custom Solution"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA or Section 848/889 mention anywhere in the corpus. Company is Austrian."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS or Blue sUAS mention in the corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0061",
+        "line_start": 57,
+        "line_end": 59,
+        "url": "https://dronerescue.com/products",
+        "page_class": "product",
+        "snippet": "DRS-5 Solution\nWeight range\n2\u20135 kg MTOW"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0061",
+        "line_start": 67,
+        "line_end": 69,
+        "url": "https://dronerescue.com/products",
+        "page_class": "product",
+        "snippet": "![DRS-10](https://dronerescue.com/wp-content/uploads/2024/03/neuDRS-10-500x500.png \"neuDRS-10\")\nDRS-10 Solution\nWeight range"
+      }
+    ],
+    "notes": "Multiple catalog SKUs listed with specified weights and dimensions, ORDER NOW button present; also offers custom engineering services as a secondary mode."
+  },
+  "unresolved_questions": [
+    "NDAA compliance status not disclosed (Austrian company, likely not applicable)",
+    "Blue UAS status not disclosed"
+  ],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Austrian component supplier producing autonomous parachute recovery systems (DRS-5 through DRS-25) and flight-termination systems for multicopters 2\u2013250 kg MTOW, plus platform-specific variants for DJI, Freefly, Aurelia, and others. Non-pyrotechnic, reusable, lightweight designs in production. ASTM F3322 compliant; Auterion partner. NDAA and Blue UAS certification status unknown. Public evidence does not clearly establish current US defense or federal procurement footprint.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 18,
+    "total_cost_usd": 0.4161844,
+    "created_at": "2026-05-04T01:52:46+00:00",
+    "extract_version": "0.1.0"
+  }
+}

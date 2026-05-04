@@ -1,0 +1,537 @@
+{
+  "target_id": "airvolute",
+  "run_id": "canonical",
+  "display_name": "Airvolute",
+  "homepage_url": "https://www.airvolute.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/airvolute/website",
+  "products": [
+    {
+      "name": "DCS 2 Default",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "Integrated UAV autopilot suite with NVIDIA Jetson and redundant FMU, default extension kit",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "yes",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0030",
+          "line_start": 29,
+          "line_end": 34,
+          "url": "https://airvolute.com/product-tag/fmu",
+          "page_class": "product",
+          "snippet": "    POPULAR\n    DCS 2 Default\n    -------------\n    2,980.00\u00a0\u20ac \u2013 5,060.00\u00a0\u20ac (excl. VAT)](https://airvolute.com/shop-prod/uav-autopilots/dcs-2-default/)\n    [Select options](https://airvolute.com/shop-prod/uav-autopilots/dcs-2-default/)\n    This product has multiple variants. The options may be chosen on the product page"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0012",
+          "line_start": 42,
+          "line_end": 46,
+          "url": "https://airvolute.com/wp-content/uploads/2026/04/2026-04-15-NDAA-Declaration.pdf",
+          "page_class": "document",
+          "snippet": "Product  Compliance  with  NDAA  2020  \nProduct  Name  \nCountry  of  Origin  \nCompliance  with  Section  848  NDAA  2020  \nDocumentation  "
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "DCS 2 Pixhawk v6X",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "UAV autopilot suite with Pixhawk v6X FMU and NVIDIA Jetson",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "yes",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0034",
+          "line_start": 27,
+          "line_end": 32,
+          "url": "https://airvolute.com/product-tag/v6x",
+          "page_class": "product",
+          "snippet": "*   [![](https://i0.wp.com/airvolute.com/wp-content/uploads/2025/03/dcs2-pilot-px_adapter-PDB_.png?resize=300%2C225&ssl=1)\n    DCS 2 Pixhawk v6X\n    -----------------\n    3,290.00\u00a0\u20ac \u2013 3,430.00\u00a0\u20ac (excl. VAT)](https://airvolute.com/shop-prod/uav-autopilots/dcs-2-pixhawk-v6x/)\n    [Select options](https://airvolute.com/shop-prod/uav-autopilots/dcs-2-pixhawk-v6x/)\n    This product has multiple variants. The options may be chosen on the product page"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0012",
+          "line_start": 42,
+          "line_end": 46,
+          "url": "https://airvolute.com/wp-content/uploads/2026/04/2026-04-15-NDAA-Declaration.pdf",
+          "page_class": "document",
+          "snippet": "Product  Compliance  with  NDAA  2020  \nProduct  Name  \nCountry  of  Origin  \nCompliance  with  Section  848  NDAA  2020  \nDocumentation  "
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "DCS Hedgehog",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "Compact UAV autopilot board for FPV applications",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0030",
+          "line_start": 41,
+          "line_end": 45,
+          "url": "https://airvolute.com/product-tag/fmu",
+          "page_class": "product",
+          "snippet": "*   [![](https://i0.wp.com/airvolute.com/wp-content/uploads/2025/01/hailo-hedgehog-fpv-board.png?resize=300%2C225&ssl=1)\n    DCS Hedgehog\n    ------------\n    ](https://airvolute.com/shop-prod/uav-autopilots/dcs-hedgehog/)\n    [Read more](https://airvolute.com/shop-prod/uav-autopilots/dcs-hedgehog/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Stribog UAS",
+      "category": "airframes",
+      "descriptor": "Open-architecture ISR quadcopter with GNSS-denied capability and modular payload",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0028",
+          "line_start": 21,
+          "line_end": 29,
+          "url": "https://airvolute.com/stribog-uas",
+          "page_class": "other",
+          "snippet": "Stribog UAS\n===========\nExtremely powerful quadcopter with an open architecture, allowing developers to build their own missions.\n*   NVIDIA Jetson Xavier NX / Orin NX\n*   GNSS-denied capabilities\n*   Open modular architecture\n*   Modular payload\n*   Radio DoodleLabs or Silvus\n*   60 min. flight (no payload)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Patron FPV",
+      "category": "airframes",
+      "descriptor": "AI-enabled FPV drone for operator training with AI algorithms",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 79,
+          "line_end": 81,
+          "url": "https://airvolute.com/",
+          "page_class": "homepage",
+          "snippet": "Patron FPV\n----------\nWith conventional FPV drones, only one out of five strike missions meets the objective. Artificial intelligence can substantially increase mission success. Patron FPV is the right tool to teach operators to work with AI algorithms effectively."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "DroneCore Pilot",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "Single pilot board with NVIDIA Jetson Orin NX and redundant FMU for UAV development",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "yes",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0027",
+          "line_start": 27,
+          "line_end": 34,
+          "url": "https://airvolute.com/uav-architectures",
+          "page_class": "other",
+          "snippet": "===============\nFor faster, smarter, more resilient UAV development\nSingle Pilot board based on NVIDIA Jetson Orin NX combines with various extension kits for copters, fixed-wings, VTOLs, FPVs, and more.\n*   NVIDIA Jetson Orin NX\n*   Cube Blue / Orange / Red\n*   Secondary redundant FMU\n*   Open modular architecture\n[Technical data](https://docs.airvolute.com/autopilots/dcs2/.pilot-boards/dcs2.pilot-v-1.0/connectors-and-pinouts)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0012",
+          "line_start": 42,
+          "line_end": 46,
+          "url": "https://airvolute.com/wp-content/uploads/2026/04/2026-04-15-NDAA-Declaration.pdf",
+          "page_class": "document",
+          "snippet": "Product  Compliance  with  NDAA  2020  \nProduct  Name  \nCountry  of  Origin  \nCompliance  with  Section  848  NDAA  2020  \nDocumentation  "
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "DroneCore Jerboa",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "UAV autopilot board with NDAA-compliant configuration available",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "yes",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0012",
+          "line_start": 42,
+          "line_end": 46,
+          "url": "https://airvolute.com/wp-content/uploads/2026/04/2026-04-15-NDAA-Declaration.pdf",
+          "page_class": "document",
+          "snippet": "Product  Compliance  with  NDAA  2020  \nProduct  Name  \nCountry  of  Origin  \nCompliance  with  Section  848  NDAA  2020  \nDocumentation  "
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0012",
+          "line_start": 48,
+          "line_end": 52,
+          "url": "https://airvolute.com/wp-content/uploads/2026/04/2026-04-15-NDAA-Declaration.pdf",
+          "page_class": "document",
+          "snippet": "**\n \nNDAA\n \nconfiguration"
+        }
+      ],
+      "notes": "NDAA declaration notes \"NDAA configuration available\" for Jerboa, implying a specific variant is compliant rather than all configurations."
+    },
+    {
+      "name": "DroneCore 1.2 Pilot",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "Generation 1.2 UAV autopilot board with NVIDIA Jetson Xavier NX",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "yes",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0028",
+          "line_start": 93,
+          "line_end": 93,
+          "url": "https://airvolute.com/stribog-uas",
+          "page_class": "other",
+          "snippet": "DroneCore.Suite 1.2 with NVIDIA Xavier NX 16 GB or Orin NX 16 GB, 512GB M.2 SSD storage"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0012",
+          "line_start": 42,
+          "line_end": 46,
+          "url": "https://airvolute.com/wp-content/uploads/2026/04/2026-04-15-NDAA-Declaration.pdf",
+          "page_class": "document",
+          "snippet": "Product  Compliance  with  NDAA  2020  \nProduct  Name  \nCountry  of  Origin  \nCompliance  with  Section  848  NDAA  2020  \nDocumentation  "
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "DroneCore Pilot Default Kit",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "DroneCore Pilot extension kit for prototyping and micro/mini UAVs, 40V architecture",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "yes",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0027",
+          "line_start": 39,
+          "line_end": 46,
+          "url": "https://airvolute.com/uav-architectures",
+          "page_class": "other",
+          "snippet": "Default Kit\n===========\nDroneCore Pilot Extension Kit for prototyping and micro/mini UAVs\n*   40V architecture\n*   Adapter board with connectors\n*   Power distribution board\n[Adapter module](https://docs.airvolute.com/autopilots/dcs2/adapter-extension-boards/dcs2.-adapter-default-v1.0/connectors-and-pinouts)\n[Power Module](https://docs.airvolute.com/autopilots/dcs2/.power-.pdb-boards/dcs2.pdb_default-v1.0/connectors-and-pinouts)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0012",
+          "line_start": 42,
+          "line_end": 46,
+          "url": "https://airvolute.com/wp-content/uploads/2026/04/2026-04-15-NDAA-Declaration.pdf",
+          "page_class": "document",
+          "snippet": "Product  Compliance  with  NDAA  2020  \nProduct  Name  \nCountry  of  Origin  \nCompliance  with  Section  848  NDAA  2020  \nDocumentation  "
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "DroneCore Pilot Pro VTOL Kit",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "DroneCore Pilot extension kit for fixed-wings, VTOLs, and heavy-duty copters, 100V architecture",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "yes",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0027",
+          "line_start": 48,
+          "line_end": 54,
+          "url": "https://airvolute.com/uav-architectures",
+          "page_class": "other",
+          "snippet": "Pro VTOL Kit\n============\nDroneCore Pilot Extension Kit for fixed-wings, VTOLs, or heavy duty copters\n*   100V architecture\n*   Power distribution board\n*   Rich connectivity & peripheral support\n[Technical data](https://docs.airvolute.com/autopilots/dcs2/.vtol-board/connectors-and-pinouts)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0012",
+          "line_start": 42,
+          "line_end": 46,
+          "url": "https://airvolute.com/wp-content/uploads/2026/04/2026-04-15-NDAA-Declaration.pdf",
+          "page_class": "document",
+          "snippet": "Product  Compliance  with  NDAA  2020  \nProduct  Name  \nCountry  of  Origin  \nCompliance  with  Section  848  NDAA  2020  \nDocumentation  "
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "DroneCore Pilot Pro FPV Kit",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "DroneCore Pilot Orin Nano extension kit for AI-enabled FPV drones, 40V architecture",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0027",
+          "line_start": 56,
+          "line_end": 62,
+          "url": "https://airvolute.com/uav-architectures",
+          "page_class": "other",
+          "snippet": "Pro FPV Kit\n===========\nDroneCore Pilot (Orin Nano version) Extension Kit for AI-enabled FPV\n*   ELRS or digital radio connectors\n*   Suitable for AI & augmented reality\n*   40V architecture\n[Technical data](https://docs.airvolute.com/autopilots/dcs2/.attad-board)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Hadron Payload Adapter",
+      "category": "mechanical_subsystems",
+      "descriptor": "Mechanical interface adapter for FLIR Hadron thermal camera on DroneCore platforms",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "yes",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0028",
+          "line_start": 58,
+          "line_end": 59,
+          "url": "https://airvolute.com/stribog-uas",
+          "page_class": "other",
+          "snippet": "FLIR Hadron 640R\n----------------"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0012",
+          "line_start": 42,
+          "line_end": 46,
+          "url": "https://airvolute.com/wp-content/uploads/2026/04/2026-04-15-NDAA-Declaration.pdf",
+          "page_class": "document",
+          "snippet": "Product  Compliance  with  NDAA  2020  \nProduct  Name  \nCountry  of  Origin  \nCompliance  with  Section  848  NDAA  2020  \nDocumentation  "
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "G-Hadron Payload Adapter",
+      "category": "mechanical_subsystems",
+      "descriptor": "Mechanical interface adapter for G-Hadron camera on DroneCore platforms",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "yes",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0012",
+          "line_start": 42,
+          "line_end": 46,
+          "url": "https://airvolute.com/wp-content/uploads/2026/04/2026-04-15-NDAA-Declaration.pdf",
+          "page_class": "document",
+          "snippet": "Product  Compliance  with  NDAA  2020  \nProduct  Name  \nCountry  of  Origin  \nCompliance  with  Section  848  NDAA  2020  \nDocumentation  "
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 6,
+          "line_end": 6,
+          "url": "https://airvolute.com/",
+          "page_class": "homepage",
+          "snippet": "    *   [Payload adapters](https://airvolute.com/product-category/payload-adapters/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "NextVision Payload Adapter",
+      "category": "mechanical_subsystems",
+      "descriptor": "Mechanical interface adapter for NextVision cameras on DroneCore platforms",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "yes",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0028",
+          "line_start": 60,
+          "line_end": 62,
+          "url": "https://airvolute.com/stribog-uas",
+          "page_class": "other",
+          "snippet": "NextVision Dragoneye 2\n----------------------\nNextVision Starling"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0012",
+          "line_start": 42,
+          "line_end": 46,
+          "url": "https://airvolute.com/wp-content/uploads/2026/04/2026-04-15-NDAA-Declaration.pdf",
+          "page_class": "document",
+          "snippet": "Product  Compliance  with  NDAA  2020  \nProduct  Name  \nCountry  of  Origin  \nCompliance  with  Section  848  NDAA  2020  \nDocumentation  "
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Stereo Vision System for UXVs",
+      "category": "sensors_and_navigation",
+      "descriptor": "Stereo camera system for UXV obstacle avoidance and GNSS-denied navigation",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0028",
+          "line_start": 84,
+          "line_end": 85,
+          "url": "https://airvolute.com/stribog-uas",
+          "page_class": "other",
+          "snippet": "Forward sensors\nStereo camera 120mm baseline, FOV: horizontal 92.76\u00b0, vertical 66.89\u00b0, 1280x800px"
+        }
+      ],
+      "notes": "Product name appears in crawl_index as shop accessory URL (skipped_class_budget). Stribog specs reference a stereo camera with 120mm baseline used as forward sensor."
+    }
+  ],
+  "unresolved_questions": [
+    "Patron FPV product page (?page_id=2385) was not fetched \u2014 readiness, specs, and NDAA status are unknown.",
+    "DCS Hedgehog individual shop page was skipped \u2014 no description, pricing, or NDAA status available beyond the shop thumbnail.",
+    "DroneCore Jerboa shop/product page was not found in the corpus; details come only from the NDAA declaration document.",
+    "NDAA declaration table (resource-0010 line 47) is serialized as a single long line (~120 words) that exceeds the 60-word citation limit. Per-product NDAA=yes claims for autopilot boards, extension kits, and payload adapters are backed by table-header context (lines 42\u201346) rather than the product-specific compliance row.",
+    "The DroneCore Pilot Pro FPV Kit is not listed in the NDAA declaration; NDAA status unknown.",
+    "DroneCore 1.2 Pilot is the older generation used in Stribog; unclear whether it is still sold separately or only available as part of the Stribog system."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://airvolute.com/shop-prod/uav-autopilots/dcs-2-default",
+      "reason": "Individual product page for DCS 2 Default would confirm variants, full description, and NDAA language at product level.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://airvolute.com/shop-prod/uav-autopilots/dcs-2-pixhawk-v6x",
+      "reason": "Individual product page for DCS 2 Pixhawk v6X; needed for variant details and NDAA confirmation.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://airvolute.com/shop-prod/uav-autopilots/dcs-hedgehog",
+      "reason": "DCS Hedgehog product page has no price or description in corpus; needed for readiness and NDAA status.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://airvolute.com/?page_id=2385",
+      "reason": "Patron FPV product page \u2014 only linked from homepage nav; no specs, readiness, or NDAA data available.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=homepage",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://airvolute.com/shop-prod/accessories/stereo-vision-system-for-uxvs",
+      "reason": "Stereo Vision System for UXVs product page; needed to confirm product name, description, and readiness.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://airvolute.com/airvolute-ndaa-declaration",
+      "reason": "NDAA declaration landing page may contain a formatted, per-product compliance table that is more citable than the PDF (resource-0010 line 47 is a single ~120-word line).",
+      "expected_evidence": [
+        "ndaa",
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=compliance",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://airvolute.com/2024-12-21-stribog-product",
+      "reason": "Stribog product sheet page; would provide detailed specs and possible NDAA/compliance info for Stribog UAS.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://airvolute.com/shop-prod/payload-adapters/dcs-x-hadron-adapter",
+      "reason": "Hadron Payload Adapter product page for full description and NDAA confirmation at SKU level.",
+      "expected_evidence": [
+        "products",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://airvolute.com/shop-prod/payload-adapters/dcs-x-g-hadron-adapter",
+      "reason": "G-Hadron Payload Adapter product page for full description and NDAA confirmation.",
+      "expected_evidence": [
+        "products",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://airvolute.com/shop-prod/payload-adapters/dcs-x-nextvision-adapter",
+      "reason": "NextVision Payload Adapter product page for full description and NDAA confirmation.",
+      "expected_evidence": [
+        "products",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 0,
+    "total_cost_usd": null,
+    "created_at": "2026-05-03T21:13:03+00:00",
+    "extract_version": "0.1.0"
+  }
+}

@@ -1,0 +1,472 @@
+{
+  "target_id": "edge-autonomy",
+  "run_id": "canonical",
+  "display_name": "Edge Autonomy",
+  "homepage_url": "https://edgeautonomy.io",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/edge-autonomy/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "airframes",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0010",
+            "line_start": 59,
+            "line_end": 60,
+            "url": "https://rdw.com/product-archive",
+            "page_class": "product",
+            "snippet": "##### Uncrewed Systems\nWe offer uncrewed aerial vehicles (UAVs) with mission-driven technology and flexibility. Uncrewed aircraft systems from Redwire can be deployed quickly and easily, providing rapid response for time-critical operations."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 25,
+            "line_end": 25,
+            "url": "https://rdw.com",
+            "page_class": "homepage",
+            "snippet": "Redwire Announces $20 Million in Follow-On Orders from the Marine Corps to Deliver Stalker UAS Advanced Navigation and Standard Systems"
+          }
+        ],
+        "notes": "Stalker Block 30, Stalker Block 40, Penguin C MK2, Penguin C VTOL are complete UAS platforms. VXE30 Stalker fleet exceeds 200 aircraft in USMC/Navy service."
+      },
+      {
+        "category": "isr_payloads",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0010",
+            "line_start": 39,
+            "line_end": 41,
+            "url": "https://rdw.com/product-archive",
+            "page_class": "product",
+            "snippet": "##### Octopus ISR and Optics Payloads\nOur Octopus gimbal solutions deliver the intelligence, surveillance, and reconnaissance that drives mission success. Our optronic surveillance systems are developed for either crewed or uncrewed systems and offer robust capabilities \u2013 no matter the mission or vehicle.\nLEARN MORE"
+          }
+        ],
+        "notes": "Octopus EO/IR gimbal family (E95, E140 MWIR, E140LC, E140Z G2, E180) developed for crewed or uncrewed systems."
+      },
+      {
+        "category": "power_systems",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0010",
+            "line_start": 36,
+            "line_end": 36,
+            "url": "https://rdw.com/product-archive",
+            "page_class": "product",
+            "snippet": "Propane-powered fuel cells are an effective backup source for redundant power solutions. Our energy systems are proven in freight rail, aviation, monitoring, UAV, and other critical applications when downtime is not an option"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0010",
+            "line_start": 94,
+            "line_end": 96,
+            "url": "https://rdw.com/product-archive",
+            "page_class": "product",
+            "snippet": "##### Endurance Series\n](https://rdw.com/product-archive/energy-systems/endurance-power-system/)[\nEnergy Systems"
+          }
+        ],
+        "notes": "Propane fuel cell power systems (Endurance Series, Performer Series) proven for UAV applications."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Jacksonville",
+      "state_or_province": "Florida",
+      "country": "United States",
+      "address": "8226 Philips Highway, Suite 101"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0042",
+        "line_start": 25,
+        "line_end": 27,
+        "url": "https://rdw.com/locations",
+        "page_class": "contact",
+        "snippet": "### Jacksonville\nFlorida\n###### CORPORATE HEADQUARTERS"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0005",
+        "line_start": 200,
+        "line_end": 201,
+        "url": "https://rdw.com",
+        "page_class": "homepage",
+        "snippet": "8226 Philips Highway, Suite 101\nJacksonville, FL 32256 USA"
+      }
+    ],
+    "notes": "Jacksonville is Redwire corporate HQ. Edge Autonomy (acquired by Redwire) has operational sites in San Luis Obispo CA and Ann Arbor MI. The edgeautonomy.io domain redirects entirely to rdw.com."
+  },
+  "drone_supply_chain_role": {
+    "value": "oem",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0005",
+        "line_start": 25,
+        "line_end": 25,
+        "url": "https://rdw.com",
+        "page_class": "homepage",
+        "snippet": "Redwire Announces $20 Million in Follow-On Orders from the Marine Corps to Deliver Stalker UAS Advanced Navigation and Standard Systems"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0005",
+        "line_start": 99,
+        "line_end": 99,
+        "url": "https://rdw.com",
+        "page_class": "homepage",
+        "snippet": "Redwire has been contracted directly by the Ukraine Armed Forces to deliver Penguin UAS for advanced combat-proven reconnaissance, surveillance, and target acquisition capabilities."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0010",
+        "line_start": 59,
+        "line_end": 60,
+        "url": "https://rdw.com/product-archive",
+        "page_class": "product",
+        "snippet": "##### Uncrewed Systems\nWe offer uncrewed aerial vehicles (UAVs) with mission-driven technology and flexibility. Uncrewed aircraft systems from Redwire can be deployed quickly and easily, providing rapid response for time-critical operations."
+      }
+    ],
+    "notes": "Edge Autonomy (now Redwire Defense Tech) designs and manufactures complete UAS platforms \u2014 Stalker sUAS (200+ aircraft fleet for USMC/Navy) and Penguin C family (delivered to Ukraine Armed Forces for RSTA). Also produces ISR payloads and fuel-cell power systems as subsystems."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Stalker Block 30",
+        "product_type": "small UAS (sUAS)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0010",
+            "line_start": 142,
+            "line_end": 144,
+            "url": "https://rdw.com/product-archive",
+            "page_class": "product",
+            "snippet": "##### Stalker Block 30\n](https://rdw.com/product-archive/uncrewed-systems/stalker-block-30/)[\nUncrewed Systems"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Stalker Block 40",
+        "product_type": "small UAS (sUAS)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0010",
+            "line_start": 145,
+            "line_end": 147,
+            "url": "https://rdw.com/product-archive",
+            "page_class": "product",
+            "snippet": "##### Stalker Block 40\n](https://rdw.com/product-archive/uncrewed-systems/stalker-block-40/)[\nSpacecraft Platforms"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Penguin C MK2",
+        "product_type": "fixed-wing UAS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0010",
+            "line_start": 118,
+            "line_end": 120,
+            "url": "https://rdw.com/product-archive",
+            "page_class": "product",
+            "snippet": "##### Penguin C MK2\n](https://rdw.com/product-archive/uncrewed-systems/penguin-c-mk2/)[\nUncrewed Systems"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Penguin C VTOL",
+        "product_type": "VTOL fixed-wing UAS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0010",
+            "line_start": 121,
+            "line_end": 123,
+            "url": "https://rdw.com/product-archive",
+            "page_class": "product",
+            "snippet": "##### Penguin C VTOL\n](https://rdw.com/product-archive/uncrewed-systems/penguin-c-vtol/)[\nEnergy Systems"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Endurance Series",
+        "product_type": "UAV propane fuel cell power system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0010",
+            "line_start": 94,
+            "line_end": 96,
+            "url": "https://rdw.com/product-archive",
+            "page_class": "product",
+            "snippet": "##### Endurance Series\n](https://rdw.com/product-archive/energy-systems/endurance-power-system/)[\nEnergy Systems"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Performer Series",
+        "product_type": "UAV propane fuel cell power system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0010",
+            "line_start": 124,
+            "line_end": 126,
+            "url": "https://rdw.com/product-archive",
+            "page_class": "product",
+            "snippet": "##### Performer Series\n](https://rdw.com/product-archive/energy-systems/performer-power-system/)[\nSpacecraft Platforms"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "E95",
+        "product_type": "EO/IR ISR gimbal for UAS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0010",
+            "line_start": 88,
+            "line_end": 90,
+            "url": "https://rdw.com/product-archive",
+            "page_class": "product",
+            "snippet": "##### E95\n](https://rdw.com/product-archive/octopus-isr-and-optics-payloads/e95/)[\nPower"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "E140 MWIR",
+        "product_type": "thermal/EO ISR gimbal for UAS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0010",
+            "line_start": 76,
+            "line_end": 78,
+            "url": "https://rdw.com/product-archive",
+            "page_class": "product",
+            "snippet": "##### E140 MWIR\n](https://rdw.com/product-archive/octopus-isr-and-optics-payloads/e140-mwir/)[\nOctopus ISR and Optics Payloads"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "E140LC",
+        "product_type": "EO/IR ISR gimbal for UAS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0010",
+            "line_start": 79,
+            "line_end": 81,
+            "url": "https://rdw.com/product-archive",
+            "page_class": "product",
+            "snippet": "##### E140LC\n](https://rdw.com/product-archive/octopus-isr-and-optics-payloads/e140lc/)[\nOctopus ISR and Optics Payloads"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "E140Z G2",
+        "product_type": "EO/IR ISR gimbal for UAS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0010",
+            "line_start": 82,
+            "line_end": 84,
+            "url": "https://rdw.com/product-archive",
+            "page_class": "product",
+            "snippet": "##### E140Z G2\n](https://rdw.com/product-archive/octopus-isr-and-optics-payloads/e140z-g2/)[\nOctopus ISR and Optics Payloads"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "E180",
+        "product_type": "EO/IR ISR gimbal for UAS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0010",
+            "line_start": 85,
+            "line_end": 87,
+            "url": "https://rdw.com/product-archive",
+            "page_class": "product",
+            "snippet": "##### E180\n](https://rdw.com/product-archive/octopus-isr-and-optics-payloads/e180/)[\nOctopus ISR and Optics Payloads"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Individual product pages (Stalker Block 30/40, Penguin C MK2/VTOL, all Octopus ISR models) were in crawl_index but skipped due to budget. Product list derived from the product archive summary page. Additional Penguin variants (MK2-5 VTOL, MK2X) found in crawl_index but not in the fetched product archive."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0009",
+        "line_start": 40,
+        "line_end": 40,
+        "url": "https://rdw.com/product-archive/uncrewed-systems/stalker-block-30",
+        "page_class": "product",
+        "snippet": "Group 2 / NATO Class I and non-ITAR, compliant to both MOD payload and cursor-on-target"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0008",
+        "line_start": 40,
+        "line_end": 40,
+        "url": "https://rdw.com/product-archive/uncrewed-systems/penguin-c-vtol",
+        "page_class": "product",
+        "snippet": "Group 3 / NATO Class I and Non-ITAR with MISB compliant video stream and voice and data relay for Silvus tactical radios"
+      }
+    ],
+    "notes": "Products claim 'Non-ITAR' and described as 'U.S.-built defense technologies' but no explicit NDAA Section 848/889 compliance claim found"
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS or Blue sUAS mention found in any fetched page"
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0005",
+        "line_start": 25,
+        "line_end": 25,
+        "url": "https://rdw.com",
+        "page_class": "homepage",
+        "snippet": "Redwire Announces $20 Million in Follow-On Orders from the Marine Corps to Deliver Stalker UAS Advanced Navigation and Standard Systems"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0005",
+        "line_start": 99,
+        "line_end": 99,
+        "url": "https://rdw.com",
+        "page_class": "homepage",
+        "snippet": "Redwire has been contracted directly by the Ukraine Armed Forces to deliver Penguin UAS for advanced combat-proven reconnaissance, surveillance, and target acquisition capabilities."
+      }
+    ],
+    "notes": "Active USMC/Navy production contracts for Stalker sUAS ($20M follow-on order). Penguin UAS delivered to Ukraine Armed Forces. Product archive lists 4 catalog Uncrewed Systems SKUs."
+  },
+  "unresolved_questions": [
+    "Whether VXE30 Stalker is the Block 30 or Block 40 production variant",
+    "Whether Penguin MK2-5 VTOL and Penguin MK2X are current production variants",
+    "Whether Edge Autonomy/Redwire holds NDAA Section 848 compliance certification for Stalker or Penguin UAS"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://rdw.com/product-archive/uncrewed-systems/stalker-block-30",
+      "reason": "Product specs for Stalker Block 30 sUAS \u2014 would provide range, endurance, payload capacity, and confirm relationship to VXE30 Stalker designation.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://rdw.com/product-archive/uncrewed-systems/stalker-block-40",
+      "reason": "Product specs for Stalker Block 40 sUAS \u2014 would clarify differences from Block 30 and current program-of-record variant.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://rdw.com/product-archive/uncrewed-systems/penguin-c-mk2",
+      "reason": "Product specs for Penguin C MK2 fixed-wing UAS \u2014 would confirm airframe specs and deployment roles.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://rdw.com/product-archive/uncrewed-systems/penguin-c-vtol",
+      "reason": "Product specs for Penguin C VTOL variant \u2014 would confirm VTOL specifications and whether navigation products are embedded.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://rdw.com/newsroom/redwires-edge-autonomy-team-showcasing-stalker-uas-and-octopus-sensor-systems-at-ausa-2025-annual-meeting-and-exposition",
+      "reason": "News article about Edge Autonomy team at AUSA 2025 \u2014 would confirm product line breadth and possibly surface NDAA compliance information.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "ndaa",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=news",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 21,
+    "total_cost_usd": 0.6988292500000001,
+    "created_at": "2026-05-03T15:03:32+00:00",
+    "extract_version": "0.1.0"
+  },
+  "tagline": "Manufactures fixed-wing small UAS (Stalker, Penguin series) and electro-optical ISR payloads (Octopus gimbal family) for long-endurance reconnaissance, plus propane fuel-cell power systems and spacecraft platforms (Mako, SabreSat). Marine Corps and Ukraine have fielded Stalker systems; LR/LE program of record ongoing. NDAA compliance and Blue UAS certification status unknown. Now operating under Redwire Corporation as of recent acquisition."
+}

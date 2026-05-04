@@ -1,0 +1,252 @@
+{
+  "target_id": "laird",
+  "run_id": "canonical",
+  "display_name": "Laird",
+  "homepage_url": "https://www.laird.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/laird/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "structures_and_materials",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 91,
+            "line_end": 91,
+            "url": "https://www.laird.com",
+            "page_class": "homepage",
+            "snippet": "We are a world leader in thermal interface materials which keep electronics cool, along with inductive components preserving signal integrity."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 126,
+            "line_end": 127,
+            "url": "https://www.laird.com",
+            "page_class": "homepage",
+            "snippet": "[Thermal Interface Materials](/products/thermal-interface-materials)\n![Thermal products](/sites/default/files/styles/product_thumbnail/public/2025-03/Thermal%20product_option%201.jpg?itok=S9fxDEmP)"
+          }
+        ],
+        "notes": "Thermal interface materials, EMI shielding materials, microwave absorbers, and inductive components are their core product lines \u2014 all materials/components inputs to electronics assemblies including those in drones."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Laird Performance Materials is primarily an electronics materials company (EMI, thermal, absorbers). No UXV-specific product lines exist."
+  },
+  "headquarters": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "Current site (laird.com under Qnity) does not state a physical headquarters address. Historical 2012 press releases cite 'St. Louis, Missouri, USA' as dateline for Laird Technologies, Inc., but those lines exceed the 60-word citation cap. North American sales phone +1 (636) 898-6000 carries a Missouri area code."
+  },
+  "drone_supply_chain_role": {
+    "value": "broad_industrial",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 16,
+        "line_end": 24,
+        "url": "https://www.laird.com",
+        "page_class": "homepage",
+        "snippet": "    *   [5G Wireless](/5g-wireless)\n    *   [Aerospace and Defense](/aerospace-and-defense)\n    *   [Automotive](/markets/automotive-component-sector)\n    *   [Consumer Electronics](/consumer-electronics)\n    *   [Datacenter](/datacenter)\n    *   [Industrial](/industrial)\n    *   [Medical](/medical)\n    *   [Artificial Intelligence](/artificial-intelligence)\n*   [Where to Buy](/where-to-buy)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 188,
+        "line_end": 191,
+        "url": "https://www.laird.com",
+        "page_class": "homepage",
+        "snippet": "We design, develop and deliver industry leading solutions that protect electronics. Enhancing performance and reliability for our customers.\nWe are a trusted partner to the world\u2019s leading technology brands.\nOur world-class materials science and engineering expertise provides the depth and breadth to solve the most complex problems.\nDelivering custom-engineered solutions that push the boundaries of technology."
+      }
+    ],
+    "notes": "Laird serves automotive, medical, 5G, AI, consumer electronics, datacenter, industrial, and aerospace/defense markets with materials and components. No UXV-specific product line."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Thermal Interface Materials",
+        "product_type": "gap fillers, grease, phase change, tape \u2014 thermal management for electronics",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 126,
+            "line_end": 127,
+            "url": "https://www.laird.com",
+            "page_class": "homepage",
+            "snippet": "[Thermal Interface Materials](/products/thermal-interface-materials)\n![Thermal products](/sites/default/files/styles/product_thumbnail/public/2025-03/Thermal%20product_option%201.jpg?itok=S9fxDEmP)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Tflex\u2122 SF16",
+        "product_type": "non-silicone thermal gap filler, 16 W/mK",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 68,
+            "line_end": 68,
+            "url": "https://www.laird.com",
+            "page_class": "homepage",
+            "snippet": "Tflex\u2122 SF16 gap filler delivers industry-leading 16 W/mK thermal conductivity in a non-silicone based formulation, offering design engineers thermal performance without compromising component protection or reliability."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Eccosorb\u2122",
+        "product_type": "microwave absorbers (foam, elastomer, castable, structural)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0460",
+            "line_start": 95,
+            "line_end": 96,
+            "url": "https://www.laird.com/products",
+            "page_class": "product",
+            "snippet": "            *   *   [Eccosorb\u2122 CV](/products/absorbers/microwave-absorbing-foams/single-layer-foams/eccosorb-cv)\n                    The Laird\u2122 Eccosorb\u2122 CV product is a premium quality tapered broadband microwave absorber addressing high angle of incidence free space application."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SoftZorb\u2122",
+        "product_type": "microwave absorbing gap fillers",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0460",
+            "line_start": 108,
+            "line_end": 109,
+            "url": "https://www.laird.com/products",
+            "page_class": "product",
+            "snippet": "    *   *   [Softzorb\u2122 GDS](/products/absorbers/microwave-absorbing-gap-fillers/softzorb-gds)\n            The Laird\u2122 SoftZorb\u2122 GDS gel type elastomer is a soft absorber for gap filling purpose with enhanced performance in coupling reduction in the 18 up to 35 Ghz."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Enclosure Level EMI Shielding",
+        "product_type": "conductive foam gaskets, fabric-over-foam, EMI tapes, conductive elastomers",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 110,
+            "line_end": 111,
+            "url": "https://www.laird.com",
+            "page_class": "homepage",
+            "snippet": "[Enclosure Level EMI Shielding](/products/enclosure-level-emi-shielding)\n![EMI Non Metallic](/sites/default/files/styles/product_thumbnail/public/2024-08/EMI%20NonMetalic2.png?itok=G-GE_sNo)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Inductive Components",
+        "product_type": "ferrite cores, EMC chokes, inductors, wireless charging coils",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 114,
+            "line_end": 115,
+            "url": "https://www.laird.com",
+            "page_class": "homepage",
+            "snippet": "[Inductive Components - EMC Components and Ferrite Cores](/products/inductive-components-emc-components-and-ferrite-cores)\n![EMC components and ferrite cores](/sites/default/files/styles/product_thumbnail/public/2025-02/EMC%20components%20and%20ferrite%20cores.jpg?itok=GP_eRkQw)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Multi-function Solutions (MFS)",
+        "product_type": "integrated EMI shielding + thermal interface materials",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 122,
+            "line_end": 123,
+            "url": "https://www.laird.com",
+            "page_class": "homepage",
+            "snippet": "[Multi-function Solutions (MFS)](/products/multi-function-solutions-mfs)\n![Multi-function Solutions](/sites/default/files/styles/product_thumbnail/public/2025-02/MFS.jpg?itok=I6LxDGhX)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Many catalog SKUs exist under each family; selected major product lines listed."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 188,
+        "line_end": 188,
+        "url": "https://www.laird.com",
+        "page_class": "homepage",
+        "snippet": "We design, develop and deliver industry leading solutions that protect electronics. Enhancing performance and reliability for our customers."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 26,
+        "line_end": 29,
+        "url": "https://www.laird.com",
+        "page_class": "homepage",
+        "snippet": "    *   [Distributors](/where-to-buy/search/distributors \"Distributors\")\n    *   [Converters](/where-to-buy/search/converters \"Converters\")\n    *   [Manufacturer Reps](/where-to-buy/search/manufacturer-reps \"Manufacturer Reps\")\n    *   [Distributors\u2019 Inventories](https://octopart.com/)"
+      }
+    ],
+    "notes": "Catalog products sold through global distributors, converters and reps; automated manufacturing capabilities; 'design, develop and deliver' stated on homepage."
+  },
+  "unresolved_questions": [
+    "Current headquarters address under Qnity Electronics not explicitly published on laird.com; historical press releases indicate St. Louis, Missouri but evidence lines exceed citation cap"
+  ],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Manufactures thermal interface materials, microwave absorbers (Eccosorb\u2122, Q-Zorb\u2122, RobZorb\u2122 families), EMI shielding, and inductive components for defense and aerospace applications. Production-ready across thermal gap fillers (Tflex\u2122 SF16, HR 6.5), form-in-place gaskets, and hybrid RF-absorbing pads. NDAA and Blue UAS certification status not publicly confirmed; no named UAS primes or programs identified in available sources.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 19,
+    "total_cost_usd": 0.5790271499999999,
+    "created_at": "2026-05-04T03:49:31+00:00",
+    "extract_version": "0.1.0"
+  }
+}

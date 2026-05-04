@@ -1,0 +1,158 @@
+{
+  "target_id": "alarispro",
+  "run_id": "canonical",
+  "display_name": "AlarisPro",
+  "homepage_url": "https://alarispro.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/alarispro/website",
+  "products": [
+    {
+      "name": "AlarisPro Platform",
+      "category": "ground_segment",
+      "descriptor": "Cloud-based SaaS UAS fleet management and compliance platform",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 60,
+          "line_end": 60,
+          "url": "https://alarispro.com",
+          "page_class": "homepage",
+          "snippet": "AlarisPro is the industry\u2019s only aviation-minded, cloud-based UAS fleet management platform that replaces spreadsheets and disconnected tools by unifying safety, compliance, and operational intelligence through centralized tracking of flights, maintenance, parts, and aircraft configuration in one powerful system."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "AlarisPro Essentials",
+      "category": "ground_segment",
+      "descriptor": "Entry-level UAS fleet management tier for flight logging and maintenance tracking",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0052",
+          "line_start": 1,
+          "line_end": 4,
+          "url": "https://alarispro.com/product/essentials-platform",
+          "page_class": "product",
+          "snippet": "AlarisPro\n**Start Operating with Aviation-Grade Fleet Intelligence in Minutes**\n=====================================================================\nAlarisPro Essentials gives UAS operators a fast path to structured flight logging, maintenance tracking, and compliance-ready operational data."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "AlarisPro Field Ops",
+      "category": "ground_segment",
+      "descriptor": "Mobile app for offline field flight logging and real-time fleet monitoring",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0031",
+          "line_start": 65,
+          "line_end": 73,
+          "url": "https://alarispro.com/platform-features",
+          "page_class": "product",
+          "snippet": "AlarisPro Field Ops\n-------------------\nYour Fleet At Your Fingertips\n-----------------------------\n*   Offline logging capability for remote operations\n*   Receive real-time alerts\n*   Log flights and access data in the field\n*   View current pilot UAS status\n*   Automatically sync with your AlarisPro account"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "BVLOS Compliance Hub",
+      "category": "ground_segment",
+      "descriptor": "Interactive FAA Part 108 and BVLOS compliance readiness resource and tool hub",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 245,
+          "line_end": 246,
+          "url": "https://alarispro.com",
+          "page_class": "homepage",
+          "snippet": "Our BVLOS Compliance Hub is your centralized resource for readiness and rule alignment. Be prepared for the FAA's Part 108 launch - explore interactive tools including our Compliance Checklist, BVLOS Readiness Score, ROI Calculator, and Part 108 White Paper, plus live updates, and resources.\n[View the BVLOS Compliance Hub](/bvlos-compliance-hub-wireframe)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Safety Ecosystem\u2122",
+      "category": "ground_segment",
+      "descriptor": "Collaborative safety alert and maintenance analytics ecosystem for operators and OEMs",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0019",
+          "line_start": 118,
+          "line_end": 118,
+          "url": "https://alarispro.com/company",
+          "page_class": "company",
+          "snippet": "Through our Safety Ecosystem\u2122, we help operators, manufacturers, and regulators anticipate risks, streamline operations, and maintain airworthiness. By unifying data, alerts, and maintenance analytics in one hub, AlarisPro removes the guesswork and documentation burden to empower teams to focus on safe, efficient, and mission-ready operations."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0028",
+          "line_start": 90,
+          "line_end": 91,
+          "url": "https://alarispro.com/operator-solutions",
+          "page_class": "capability",
+          "snippet": "### AlarisPro Safety Ecosystem (ASE)\nCollaborative alerts and shared insights across the operator community"
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "AlarisPro Enterprise Plan (mentioned in a 2020 press release) appears to be a tier of the platform but no current dedicated product page was fetched \u2014 may have been superseded by Essentials/standard tiers.",
+    "No NDAA Section 848/889 claims found anywhere in corpus; all products left as unknown.",
+    "No Blue UAS cleared list reference found; all products left as unknown.",
+    "Several product/pricing pages (e.g. /pricing, /plans) may exist but were not in the crawl \u2014 tier structure beyond 'Essentials' could not be fully confirmed."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://alarispro.com/pricing",
+      "reason": "Would reveal full tier/plan structure beyond Essentials, enabling accurate granularity and SKU classification for the platform family.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "guessed standard SaaS pricing page",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://alarispro.com/faq",
+      "reason": "FAQ page referenced in site footer \u2014 likely contains product/plan details and NDAA or compliance language that would help classify products.",
+      "expected_evidence": [
+        "products",
+        "ndaa"
+      ],
+      "source_hint": "linked from resource-0001 footer",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 15,
+    "total_cost_usd": 0.40774374999999996,
+    "created_at": "2026-05-03T01:07:57+00:00",
+    "extract_version": "0.1.0"
+  }
+}

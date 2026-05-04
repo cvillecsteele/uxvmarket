@@ -1,0 +1,582 @@
+{
+  "target_id": "aaa-engineering-test-lab",
+  "run_id": "canonical",
+  "display_name": "AAA Engineering & Test Lab",
+  "homepage_url": "https://aaactl.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/aaa-engineering-test-lab/website",
+  "products": [
+    {
+      "name": "COTS Upscreening",
+      "category": "test_and_measurement",
+      "descriptor": "Commercial component requalification service for space, defense, and hi-rel programs",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0047",
+          "line_start": 81,
+          "line_end": 84,
+          "url": "https://aaactl.com/services/cots-upscreening",
+          "page_class": "other",
+          "snippet": "COTS Upscreening\n================\n![thermostream component upscreening bench](https://aaactl.com/wp-content/uploads/2025/09/Thermostream-bench-for-component-upscreening-1.jpg)\nCOTS Upscreening Services"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0047",
+          "line_start": 92,
+          "line_end": 94,
+          "url": "https://aaactl.com/services/cots-upscreening",
+          "page_class": "other",
+          "snippet": "Upscreening Capabilities\n------------------------\nPerformed in an ISO 9001/AS9100-calibrated, ANSI ESD S20.20-compliant lab environment:"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Counterfeit Mitigation (AS6171 Component Authentication)",
+      "category": "test_and_measurement",
+      "descriptor": "AS6171-accredited electronic component authentication and counterfeit detection service",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 12,
+          "line_end": 13,
+          "url": "https://aaactl.com",
+          "page_class": "homepage",
+          "snippet": "    *   [Counterfeit Mitigation](https://aaactl.com/services/counterfeit-mitigation/)\n        *   [AS6171 Component Authentication](https://aaactl.com/services/counterfeit-mitigation/as6171/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 93,
+          "line_end": 95,
+          "url": "https://aaactl.com",
+          "page_class": "homepage",
+          "snippet": "[![die under microscope for counterfeit mitigation](https://aaactl.com/wp-content/uploads/2025/10/results-of-counterfeit-mitigation-testing.jpg)](https://aaactl.com/services/counterfeit-mitigation/)\n### Counterfeit Mitigation\nDetect and prevent counterfeit components with accredited [AS6171](https://aaactl.com/services/counterfeit-mitigation/as6171/)/[AS6081](https://aaactl.com/services/counterfeit-mitigation/as6081/) testing and reporting."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "AS6081 Counterfeit Avoidance & Detection",
+      "category": "test_and_measurement",
+      "descriptor": "SAE AS6081-compliant counterfeit avoidance screening for distributor supply chains",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0021",
+          "line_start": 81,
+          "line_end": 84,
+          "url": "https://aaactl.com/services/counterfeit-mitigation/as6081",
+          "page_class": "other",
+          "snippet": "AS6081 Counterfeit Avoidance & Detection\n========================================\n![AS6081 detection revealed resistance to solvents](https://aaactl.com/wp-content/uploads/2023/09/resistance-to-solvent-copy.webp)\nAS6081 Counterfeit Avoidance Screening Services"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0021",
+          "line_start": 129,
+          "line_end": 132,
+          "url": "https://aaactl.com/services/counterfeit-mitigation/as6081",
+          "page_class": "other",
+          "snippet": "Risk-Based AS6081 Screening Requirements\n(per AS6171 Guidance)\n----------------------------------------------------------------\nOur 13,000-square-foot facility, equipped with cutting-edge tools and staffed by seasoned engineers, supports all Level A tests:"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Hi-Reliability Testing & Space Qualification",
+      "category": "test_and_measurement",
+      "descriptor": "Integrated hi-rel and space qualification program covering TVAC, RadHard, shock/vibration, and DPA",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0022",
+          "line_start": 89,
+          "line_end": 89,
+          "url": "https://aaactl.com/services/hi-rel-space-qualification/radhard",
+          "page_class": "other",
+          "snippet": "Radiation Hardness Assurance (RadHard) is one of the four core pillars of AAA\u2019s Hi-Rel & Space Qualification program, alongside [TVAC](https://aaactl.com/services/hi-rel-space-qualification/thermal-vac/), [Shock & Vibration](https://aaactl.com/services/hi-rel-space-qualification/shock-vibration-testing/), and [DPA](https://aaactl.com/services/hi-rel-space-qualification/dpa/)."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "EMI/EMC Testing",
+      "category": "test_and_measurement",
+      "descriptor": "Electromagnetic interference and compatibility testing per MIL-STD-461 and DO-160",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0019",
+          "line_start": 81,
+          "line_end": 84,
+          "url": "https://aaactl.com/services/hi-rel-space-qualification/emi-emc-testing",
+          "page_class": "other",
+          "snippet": "EMI / EMC Testing\n=================\n![Ultralog high gain EMC electromagnetic compatibility radiated emissions antenna](https://aaactl.com/wp-content/uploads/2026/01/AdobeStock_791137235.webp)\nEMI / EMC Testing Services"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0019",
+          "line_start": 89,
+          "line_end": 89,
+          "url": "https://aaactl.com/services/hi-rel-space-qualification/emi-emc-testing",
+          "page_class": "other",
+          "snippet": "EMI/EMC testing is commonly performed to [**MIL-STD-461**](https://aaactl.com/mil-std-461/), platform-specific military requirements, DO-160, and other customer-defined specifications. AAA executes customer-defined test plans and focuses on controlled execution, traceable results, and audit-ready reporting to support program reviews, qualification documentation, and anomaly"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Shock & Vibration Testing",
+      "category": "test_and_measurement",
+      "descriptor": "Mechanical integrity testing of EEE components per MIL-STD-810 and MIL-STD-883",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0053",
+          "line_start": 81,
+          "line_end": 84,
+          "url": "https://aaactl.com/services/hi-rel-space-qualification/shock-vibration-testing",
+          "page_class": "other",
+          "snippet": "Shock & Vibration Testing\n=========================\n![](https://aaactl.com/wp-content/uploads/2025/11/drop-shock.jpg)\nPrinciples and Applications in High-Reliability Environments"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0053",
+          "line_start": 88,
+          "line_end": 88,
+          "url": "https://aaactl.com/services/hi-rel-space-qualification/shock-vibration-testing",
+          "page_class": "other",
+          "snippet": "Shock & Vibration Testing is one of AAA\u2019s four core Hi-Rel & Space Qualification programs, alongside [Thermal Vacuum (TVAC) Testing](https://aaactl.com/services/hi-rel-space-qualification/thermal-vac/), [Radiation Hardness Assurance (RadHard)](https://aaactl.com/services/hi-rel-space-qualification/radhard/), and [Destructive Physical Analysis (DPA)](https://aaactl.com/services/hi-rel-space-qualification/dpa/)."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "MIL-STD-883 Testing",
+      "category": "test_and_measurement",
+      "descriptor": "Microcircuit test methods per MIL-STD-883 including burn-in, temperature cycling, and seal testing",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 179,
+          "line_end": 179,
+          "url": "https://aaactl.com",
+          "page_class": "homepage",
+          "snippet": "*   MIL-STD-883 Testing"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0042",
+          "line_start": 95,
+          "line_end": 95,
+          "url": "https://aaactl.com/services/mil-std-mil-prf-nasa-spec-testing",
+          "page_class": "news",
+          "snippet": "*   **Burn-In Testing**: Eliminates early failures via electrical bias at elevated temperatures, per MIL-STD-883 Method 1015."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "MIL-STD-461 Testing",
+      "category": "test_and_measurement",
+      "descriptor": "EMI/EMC testing of equipment to MIL-STD-461 requirements for defense systems",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 6,
+          "line_end": 6,
+          "url": "https://aaactl.com",
+          "page_class": "homepage",
+          "snippet": "    *   [MIL-STD-461](https://aaactl.com/mil-std-461/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Radiation Hardness Assurance (RadHard)",
+      "category": "test_and_measurement",
+      "descriptor": "Radiation hardness testing and analysis for space and defense electronics",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0022",
+          "line_start": 81,
+          "line_end": 84,
+          "url": "https://aaactl.com/services/hi-rel-space-qualification/radhard",
+          "page_class": "other",
+          "snippet": "Radiation Hardness Assurance (RadHard)\n======================================\n![SmallSat in orbit](https://aaactl.com/wp-content/uploads/2025/11/CubeSat.webp)\nHave Questions?"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0022",
+          "line_start": 88,
+          "line_end": 88,
+          "url": "https://aaactl.com/services/hi-rel-space-qualification/radhard",
+          "page_class": "other",
+          "snippet": "Radiation hardness testing exists to confirm that electronic components and systems retain functionality in both natural space and man-made radiation environments. At AAA Engineering & Test Lab, we partner with our exclusive network to qualify FPGAs, ASICs, SoCs, and discretes for space, aerospace and defense."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Thermal Vacuum Testing",
+      "category": "test_and_measurement",
+      "descriptor": "Space-environment TVAC testing for EEE components per MIL-STD-883 and NASA standards",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0054",
+          "line_start": 81,
+          "line_end": 84,
+          "url": "https://aaactl.com/services/hi-rel-space-qualification/thermal-vac",
+          "page_class": "other",
+          "snippet": "Thermal Vacuum Testing\n======================\n![SmallSat in orbit](https://aaactl.com/wp-content/uploads/2025/11/CubeSat.webp)\nHave Questions?"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0054",
+          "line_start": 88,
+          "line_end": 88,
+          "url": "https://aaactl.com/services/hi-rel-space-qualification/thermal-vac",
+          "page_class": "other",
+          "snippet": "Space-environment thermal and vacuum testing for mission-critical EEE components aligned to MIL-STD and NASA requirements"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Destructive Physical Analysis (DPA)",
+      "category": "test_and_measurement",
+      "descriptor": "Destructive internal inspection of electronic components per MIL-STD-883 and MIL-STD-1580",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0047",
+          "line_start": 19,
+          "line_end": 19,
+          "url": "https://aaactl.com/services/cots-upscreening",
+          "page_class": "other",
+          "snippet": "        *   [Destructive Physical Analysis (DPA)](https://aaactl.com/services/hi-rel-space-qualification/dpa/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0020",
+          "line_start": 135,
+          "line_end": 135,
+          "url": "https://aaactl.com/services/counterfeit-mitigation/as6171",
+          "page_class": "other",
+          "snippet": "*   **Destructive Physical Analysis (DPA)**: Inspects internal features, per AS6171/4 or MIL-STD-883 Method 5009."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Environmental Testing",
+      "category": "test_and_measurement",
+      "descriptor": "Component environmental stress testing per MIL-STD-883, MIL-STD-202, and JESD22",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0009",
+          "line_start": 81,
+          "line_end": 84,
+          "url": "https://aaactl.com/services/environmental-testing",
+          "page_class": "other",
+          "snippet": "Environmental Testing\n=====================\n![Highly accelerated stress test (HAST) of electronic components used for environmental testing](https://aaactl.com/wp-content/uploads/2023/09/highly-accelerated-stress-test-hast.webp)\nEnvironmental Testing Services"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0009",
+          "line_start": 91,
+          "line_end": 93,
+          "url": "https://aaactl.com/services/environmental-testing",
+          "page_class": "other",
+          "snippet": "Environmental Testing Capabilities\n----------------------------------\nPerformed in our ISO 9001/AS9100-calibrated, ANSI ESD S20.20-compliant lab environment:"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Failure Analysis",
+      "category": "test_and_measurement",
+      "descriptor": "Root-cause failure analysis for electronic components per MIL-STD-883 and AS6171",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0011",
+          "line_start": 81,
+          "line_end": 84,
+          "url": "https://aaactl.com/services/failure-analysis",
+          "page_class": "other",
+          "snippet": "Failure Analysis\n================\n![Failure analysis of electronic components at AAA Engineering & Test Lab](https://aaactl.com/wp-content/uploads/2025/09/Untitled-design-11.jpg)\nFailure Analysis Services"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0011",
+          "line_start": 91,
+          "line_end": 93,
+          "url": "https://aaactl.com/services/failure-analysis",
+          "page_class": "other",
+          "snippet": "Failure Analysis Capabilities\n-----------------------------\nPerformed in an ISO 9001/AS9100-calibrated, ANSI ESD S20.20-compliant lab environment:"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "PEM Qualification & Screening for Hi-Reliability Components",
+      "category": "test_and_measurement",
+      "descriptor": "Plastic encapsulated microcircuit qualification and screening per NASA PEM-INST-001 and MIL-PRF-38535",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0042",
+          "line_start": 81,
+          "line_end": 84,
+          "url": "https://aaactl.com/services/hi-rel-space-qualification/pem-qualification",
+          "page_class": "other",
+          "snippet": "PEM Qualification & Screening for\nHi-Reliability Components\n=============================================================\n![image of good bond wires during PEM qualification and MIL-STD-883 testing](https://aaactl.com/wp-content/uploads/2025/12/bond-wires-analysis.webp)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0042",
+          "line_start": 88,
+          "line_end": 88,
+          "url": "https://aaactl.com/services/hi-rel-space-qualification/pem-qualification",
+          "page_class": "other",
+          "snippet": "PEM qualification and screening ensure that plastic-encapsulated microcircuits (PEMs)\u2014the dominant packaging format for modern integrated circuits\u2014meet the stringent reliability requirements of space, aerospace, and defense applications. At AAA Engineering & Test Lab, we deliver comprehensive, in-house PEM qualification and screening services aligned with NASA PEM-INST-001, MIL-PRF-38535 Class N/Y, and MIL-STD-883 test methods."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "MIL-STD, MIL-PRF, NASA Spec Testing",
+      "category": "test_and_measurement",
+      "descriptor": "Electronic component testing to MIL-STD, MIL-PRF, and NASA specification requirements",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0047",
+          "line_start": 26,
+          "line_end": 26,
+          "url": "https://aaactl.com/services/cots-upscreening",
+          "page_class": "other",
+          "snippet": "    *   [MIL-STD, MIL-PRF, NASA Spec Testing](https://aaactl.com/services/mil-std-mil-prf-nasa-spec-testing/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0047",
+          "line_start": 3,
+          "line_end": 8,
+          "url": "https://aaactl.com/services/cots-upscreening",
+          "page_class": "other",
+          "snippet": "*   [MIL-STD](#)\n    *   [MIL-STD-883](https://aaactl.com/mil-std-883/)\n    *   [MIL-STD-202](https://aaactl.com/mil-std-202/)\n    *   [MIL-STD-461](https://aaactl.com/mil-std-461/)\n    *   [MIL-STD-750](https://aaactl.com/mil-std-750/)\n    *   [MIL-STD-1580](https://aaactl.com/mil-std-1580/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "AS6171 Component Authentication",
+      "category": "test_and_measurement",
+      "descriptor": "SAE AS6171-compliant counterfeit detection and component authentication service",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0020",
+          "line_start": 81,
+          "line_end": 84,
+          "url": "https://aaactl.com/services/counterfeit-mitigation/as6171",
+          "page_class": "other",
+          "snippet": "AS6171 Component authentication\n===============================\n![AS6171 microscope inspection](https://aaactl.com/wp-content/uploads/2023/10/microchip-under-microscope2.jpg)\nAS6171 Component Authentication Testing Services"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0020",
+          "line_start": 131,
+          "line_end": 132,
+          "url": "https://aaactl.com/services/counterfeit-mitigation/as6171",
+          "page_class": "other",
+          "snippet": "Our 13,000-square-foot lab supports risk-based tests for all part types:\n*   **External Visual Inspection**: Reviews surfaces/markings for irregularities, per AS6171/2A or MIL-STD-883 Method 2009."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Counterfeit Mitigation",
+      "category": "test_and_measurement",
+      "descriptor": "Electronic component counterfeit detection and mitigation testing services",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0047",
+          "line_start": 12,
+          "line_end": 14,
+          "url": "https://aaactl.com/services/cots-upscreening",
+          "page_class": "other",
+          "snippet": "    *   [Counterfeit Mitigation](https://aaactl.com/services/counterfeit-mitigation/)\n        *   [AS6171 Component Authentication](https://aaactl.com/services/counterfeit-mitigation/as6171/)\n        *   [AS6081 Counterfeit Avoidance & Detection](https://aaactl.com/services/counterfeit-mitigation/as6081/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Electrical Testing",
+      "category": "test_and_measurement",
+      "descriptor": "DC/AC parametric and functional electrical testing of electronic components per MIL-STD-883",
+      "granularity": "category",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0047",
+          "line_start": 15,
+          "line_end": 15,
+          "url": "https://aaactl.com/services/cots-upscreening",
+          "page_class": "other",
+          "snippet": "    *   [Electrical Testing](https://aaactl.com/services/electrical-testing/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0020",
+          "line_start": 137,
+          "line_end": 137,
+          "url": "https://aaactl.com/services/counterfeit-mitigation/as6171",
+          "page_class": "other",
+          "snippet": "*   **Electrical Testing**: Validates DC/AC parameters, per AS6171/7 or MIL-STD-883 Methods 3005-3012."
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "Dedicated service pages for DPA, Electrical Testing, MIL-STD/MIL-PRF/NASA Spec Testing, Counterfeit Mitigation (parent), and Hi-Reliability Testing & Space Qualification (parent) were all skipped in the mirror run; those products were classified from nav cross-references and sibling-page mentions only \u2014 descriptor and scope detail may be incomplete.",
+    "No NDAA Section 848/889 compliance claim found for any individual service; marked unknown across the board.",
+    "No Blue UAS listing found; marked unknown across the board."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://aaactl.com/services/hi-rel-space-qualification/dpa",
+      "reason": "Dedicated DPA service page skipped; needed to verify scope, capabilities, and any compliance claims for the Destructive Physical Analysis product entry.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class not set",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://aaactl.com/services/electrical-testing",
+      "reason": "Dedicated Electrical Testing service page skipped; needed to confirm service scope and capabilities beyond nav reference.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://aaactl.com/services/mil-std-mil-prf-nasa-spec-testing",
+      "reason": "Dedicated MIL-STD/MIL-PRF/NASA Spec Testing page skipped; needed to confirm which specific standards and test methods are covered.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://aaactl.com/services/counterfeit-mitigation",
+      "reason": "Parent Counterfeit Mitigation service page skipped; needed to confirm umbrella service scope beyond AS6171 and AS6081 sub-services.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://aaactl.com/services/hi-rel-space-qualification",
+      "reason": "Parent Hi-Reliability Testing & Space Qualification page skipped; needed to confirm full program scope and any sub-services not already captured.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 27,
+    "total_cost_usd": 0.5831283999999999,
+    "created_at": "2026-05-03T20:43:18+00:00",
+    "extract_version": "0.1.0"
+  }
+}

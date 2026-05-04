@@ -1,0 +1,383 @@
+{
+  "target_id": "ainstein",
+  "run_id": "canonical",
+  "display_name": "Ainstein",
+  "homepage_url": "https://ainstein.ai",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/ainstein/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 6,
+            "line_end": 11,
+            "url": "https://ainstein.ai",
+            "page_class": "homepage",
+            "snippet": "    *   [US-D1](https://ainstein.ai/us-d1-all-weather-radar-altimeter/)\n    *   [US-D1 Pro](https://ainstein.ai/us-d1-pro-extended-range-all-weather-radar-altimeter/)\n    *   [LR-D1](https://ainstein.ai/lr-d1-uav-long-range-radar-altimeter/)\n    *   [LR-D1 Pro](https://ainstein.ai/lr-d1-pro-dual-band-radar-altimeter/)\n    *   [OA-Lite](https://ainstein.ai/oa-lite-obstacle-avoidance-object-detection-radar/)\n    *   [OA Pro](/oa-pro-mid-range-obstacle-avoidance-object-detection-radar/)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0013",
+            "line_start": 101,
+            "line_end": 103,
+            "url": "https://ainstein.ai/us-d1-in-industrial-drone-ops-for-power-line-inspection",
+            "page_class": "news",
+            "snippet": "*   The [US-D1 Radar Altimeter](https://ainstein.ai/us-d1-all-weather-radar-altimeter/) has a larger FOV compared to LiDAR/laser altimeters to capture small obstacles\n*   IP67-rated and able to endure harsh conditions\n*   Capture the closest distance between the RadAlt and obstacles in the FOV for safety and accuracy"
+          }
+        ],
+        "notes": "Radar altimeters (US-D1, US-D1 Pro, LR-D1, LR-D1 Pro) and obstacle avoidance radars (OA-Lite, OA Pro) for UAV/UAS. Also makes automotive ADAS radar sensors (O-79, T-79, I-79, K-77) for ground vehicles."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Lawrence",
+      "state_or_province": "Kansas",
+      "country": "United States",
+      "address": "1421 Research Park Drive Suite 2A"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0009",
+        "line_start": 101,
+        "line_end": 101,
+        "url": "https://ainstein.ai/contact",
+        "page_class": "contact",
+        "snippet": "**Address**:\u00a0 \u00a01421 Research Park Drive Suite 2A,\u00a0Lawrence, KS 66049"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0005",
+        "line_start": 251,
+        "line_end": 251,
+        "url": "https://ainstein.ai",
+        "page_class": "homepage",
+        "snippet": "1421 Research Park Dr Suite 2A, Lawrence, KS 66049"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0007",
+        "line_start": 155,
+        "line_end": 155,
+        "url": "https://ainstein.ai/about",
+        "page_class": "company",
+        "snippet": "_We strive to make high-quality radar sensors an accessible and scalable solution for all._"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0005",
+        "line_start": 191,
+        "line_end": 191,
+        "url": "https://ainstein.ai",
+        "page_class": "homepage",
+        "snippet": "Global Customers in Aerospace (UAV/UAS), Specialty Vehicle, IoT & Sports Industries"
+      }
+    ],
+    "notes": "Designs and sells mmWave radar sensor components (altimeters, obstacle avoidance, ADAS) integrated by drone OEMs and automotive manufacturers. Customers include Yamaha UAS, Jetpack Aviation, Bobcat."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "US-D1",
+        "product_type": "all-weather radar altimeter for UAV",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 6,
+            "line_end": 6,
+            "url": "https://ainstein.ai",
+            "page_class": "homepage",
+            "snippet": "    *   [US-D1](https://ainstein.ai/us-d1-all-weather-radar-altimeter/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "US-D1 Pro",
+        "product_type": "extended-range all-weather radar altimeter",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 97,
+            "line_end": 100,
+            "url": "https://ainstein.ai",
+            "page_class": "homepage",
+            "snippet": "US-D1 Pro\n=========\nExtended-Range Radar Altimeter\nAn upgrade to our best seller, the US-D1, our US-D1 Pro offers more range, is more rugged, and has more certifications... AVAILABLE NOW!"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "LR-D1",
+        "product_type": "UAV long-range radar altimeter",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 8,
+            "line_end": 8,
+            "url": "https://ainstein.ai",
+            "page_class": "homepage",
+            "snippet": "    *   [LR-D1](https://ainstein.ai/lr-d1-uav-long-range-radar-altimeter/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "LR-D1 Pro",
+        "product_type": "dual-band radar altimeter",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 109,
+            "line_end": 112,
+            "url": "https://ainstein.ai",
+            "page_class": "homepage",
+            "snippet": "LR-D1 Pro\n=========\nDual-Band Radar Altimeter\nIdeal for takeoff, landing, VTOL, and high altitude tactical maneuvers, even over water"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "OA-Lite",
+        "product_type": "obstacle avoidance / object detection radar for UAV",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 10,
+            "line_end": 10,
+            "url": "https://ainstein.ai",
+            "page_class": "homepage",
+            "snippet": "    *   [OA-Lite](https://ainstein.ai/oa-lite-obstacle-avoidance-object-detection-radar/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "OA Pro",
+        "product_type": "mid-range obstacle avoidance / object detection radar",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 11,
+            "line_end": 11,
+            "url": "https://ainstein.ai",
+            "page_class": "homepage",
+            "snippet": "    *   [OA Pro](/oa-pro-mid-range-obstacle-avoidance-object-detection-radar/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "O-79",
+        "product_type": "4D imaging radar for specialty vehicles / ADAS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 121,
+            "line_end": 124,
+            "url": "https://ainstein.ai",
+            "page_class": "homepage",
+            "snippet": "O-79\n====\n4D Imaging Radar\nSpecialized ADAS & autonomous solutions for enhanced safety in construction & industrial vehicles"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "T-79",
+        "product_type": "automotive safety radar",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 294,
+            "line_end": 294,
+            "url": "https://ainstein.ai",
+            "page_class": "homepage",
+            "snippet": "*   [T-79](https://ainstein.ai/t-79-automotive-safety-radar/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "I-79",
+        "product_type": "4D imaging radar",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 295,
+            "line_end": 295,
+            "url": "https://ainstein.ai",
+            "page_class": "homepage",
+            "snippet": "*   [I-79](https://ainstein.ai/i-79-4d-imaging-radar/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "K-77",
+        "product_type": "automotive long-range radar",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0005",
+            "line_start": 296,
+            "line_end": 296,
+            "url": "https://ainstein.ai",
+            "page_class": "homepage",
+            "snippet": "*   [K-77](https://ainstein.ai/k-77-automotive-long-range-radar/)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "US-D1, US-D1 Pro, LR-D1, LR-D1 Pro, OA-Lite, OA Pro are aerospace/UAV products; O-79, T-79, I-79, K-77 are automotive/specialty vehicle ADAS radars."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0016",
+        "line_start": 154,
+        "line_end": 154,
+        "url": "https://ainstein.ai/us-d1-all-weather-radar-altimeter",
+        "page_class": "news",
+        "snippet": "Ainstein components are ITAR free, and do not classify under the US Munitions List governed by the State Department. Our units ship from the US with an Export Control Classification Number (ECCN) of EAR99, No License Required. For export, our HS Tariff Code is 8526.10.0000."
+      }
+    ],
+    "notes": "Site states products are ITAR-free with EAR99 classification, but no NDAA Section 848/889 claim is made."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0007",
+        "line_start": 143,
+        "line_end": 143,
+        "url": "https://ainstein.ai/about",
+        "page_class": "company",
+        "snippet": "*   **23,000+** sensors sold worldwide"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0005",
+        "line_start": 100,
+        "line_end": 103,
+        "url": "https://ainstein.ai",
+        "page_class": "homepage",
+        "snippet": "An upgrade to our best seller, the US-D1, our US-D1 Pro offers more range, is more rugged, and has more certifications... AVAILABLE NOW!\n[\nBUY NOW\n](https://ainstein.ai/us-d1-pro-extended-range-all-weather-radar-altimeter/)"
+      }
+    ],
+    "notes": "23,000+ sensors sold worldwide, active online store with 'BUY NOW' links, global distributor network, catalog SKUs available for order."
+  },
+  "unresolved_questions": [
+    "No NDAA Section 848/889 compliance claim found in corpus",
+    "No Blue UAS cleared list mention found in corpus",
+    "Individual product spec pages were not fetched \u2014 product types confirmed from nav/footer only"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://ainstein.ai/us-d1-all-weather-radar-altimeter",
+      "reason": "Product page for best-selling UAV radar altimeter; would confirm full specs and any NDAA/compliance claims",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=news",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://ainstein.ai/oa-lite-obstacle-avoidance-object-detection-radar",
+      "reason": "Product page for UAV obstacle avoidance radar; would confirm product type and specs",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=news",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://ainstein.ai/industries/aerospace",
+      "reason": "Aerospace industry page listing all UAV/UAS products and use cases; would confirm full Aero product line and potential compliance claims",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "ndaa",
+        "blue_uas"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://ainstein.ai/services",
+      "reason": "Services page; would clarify engineering services vs. production posture and secondary supply chain role aspects",
+      "expected_evidence": [
+        "readiness",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 15,
+    "total_cost_usd": 0.4080954499999999,
+    "created_at": "2026-05-03T14:47:05+00:00",
+    "extract_version": "0.1.0"
+  },
+  "tagline": "Manufactures mmWave radar sensors for UAV altimetry, obstacle avoidance, and automotive ADAS. Product line spans altitude measurement (US-D1, LR-D1 series), collision avoidance (OA-Lite/Pro), and 4D imaging radar (O-79, T-79, I-79, K-77). NDAA compliance and Blue UAS certification status unknown. Public evidence of defense adoption limited; customer roster includes commercial aerospace and industrial vehicle OEMs."
+}

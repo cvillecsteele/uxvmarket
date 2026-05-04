@@ -1,0 +1,345 @@
+{
+  "target_id": "airvolute",
+  "run_id": "canonical",
+  "display_name": "Airvolute",
+  "homepage_url": "https://www.airvolute.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/airvolute/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "flight_and_vehicle_control",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 22,
+            "line_end": 22,
+            "url": "https://airvolute.com/",
+            "page_class": "homepage",
+            "snippet": "We are the leading provider of resilient autopilots and unmanned aircrafts in line with MOSA\u2014the Modular Open Systems Approach."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 43,
+            "line_end": 43,
+            "url": "https://airvolute.com/",
+            "page_class": "homepage",
+            "snippet": "DroneCore autopilot allows developers to build smarter and more robust UAV platforms in record time. It combines primary FMU, redundant FMU, NVIDIA Jetson, power distribution board, and rich connectivity. Pick your flavor:"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0030",
+            "line_start": 30,
+            "line_end": 33,
+            "url": "https://airvolute.com/product-tag/fmu",
+            "page_class": "product",
+            "snippet": "    DCS 2 Default\n    -------------\n    2,980.00\u00a0\u20ac \u2013 5,060.00\u00a0\u20ac (excl. VAT)](https://airvolute.com/shop-prod/uav-autopilots/dcs-2-default/)\n    [Select options](https://airvolute.com/shop-prod/uav-autopilots/dcs-2-default/)"
+          }
+        ],
+        "notes": "DroneCore autopilot (DCS 2 series, DCS Hedgehog) is the primary product sold to third-party UAV developers via e-commerce shop"
+      },
+      {
+        "category": "airframes",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0028",
+            "line_start": 21,
+            "line_end": 23,
+            "url": "https://airvolute.com/stribog-uas",
+            "page_class": "other",
+            "snippet": "Stribog UAS\n===========\nExtremely powerful quadcopter with an open architecture, allowing developers to build their own missions."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 79,
+            "line_end": 80,
+            "url": "https://airvolute.com/",
+            "page_class": "homepage",
+            "snippet": "Patron FPV\n----------"
+          }
+        ],
+        "notes": "Stribog ISR quadcopter and Patron FPV drone are complete UAV platforms"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Trnava",
+      "state_or_province": null,
+      "country": "Slovakia",
+      "address": "Mikov\u00edniho 217/4, 917 01 Trnava"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 147,
+        "line_end": 150,
+        "url": "https://airvolute.com/",
+        "page_class": "homepage",
+        "snippet": "Airvolute s.r.o.\nMikov\u00edniho 217/4\n917 01\u00a0Trnava\nSlovakia, European Union"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 22,
+        "line_end": 22,
+        "url": "https://airvolute.com/",
+        "page_class": "homepage",
+        "snippet": "We are the leading provider of resilient autopilots and unmanned aircrafts in line with MOSA\u2014the Modular Open Systems Approach."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 43,
+        "line_end": 43,
+        "url": "https://airvolute.com/",
+        "page_class": "homepage",
+        "snippet": "DroneCore autopilot allows developers to build smarter and more robust UAV platforms in record time. It combines primary FMU, redundant FMU, NVIDIA Jetson, power distribution board, and rich connectivity. Pick your flavor:"
+      }
+    ],
+    "notes": "Primary product line is the DroneCore autopilot sold to third-party UAV developers; they also manufacture complete platforms (Stribog ISR, Patron FPV)."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "DCS 2 Default",
+        "product_type": "UAV autopilot",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0030",
+            "line_start": 30,
+            "line_end": 33,
+            "url": "https://airvolute.com/product-tag/fmu",
+            "page_class": "product",
+            "snippet": "    DCS 2 Default\n    -------------\n    2,980.00\u00a0\u20ac \u2013 5,060.00\u00a0\u20ac (excl. VAT)](https://airvolute.com/shop-prod/uav-autopilots/dcs-2-default/)\n    [Select options](https://airvolute.com/shop-prod/uav-autopilots/dcs-2-default/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DCS 2 Pixhawk v6X",
+        "product_type": "UAV autopilot",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0030",
+            "line_start": 35,
+            "line_end": 39,
+            "url": "https://airvolute.com/product-tag/fmu",
+            "page_class": "product",
+            "snippet": "*   [![](https://i0.wp.com/airvolute.com/wp-content/uploads/2025/03/dcs2-pilot-px_adapter-PDB_.png?resize=300%2C225&ssl=1)\n    DCS 2 Pixhawk v6X\n    -----------------\n    3,290.00\u00a0\u20ac \u2013 3,430.00\u00a0\u20ac (excl. VAT)](https://airvolute.com/shop-prod/uav-autopilots/dcs-2-pixhawk-v6x/)\n    [Select options](https://airvolute.com/shop-prod/uav-autopilots/dcs-2-pixhawk-v6x/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DCS Hedgehog",
+        "product_type": "UAV autopilot",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0030",
+            "line_start": 41,
+            "line_end": 44,
+            "url": "https://airvolute.com/product-tag/fmu",
+            "page_class": "product",
+            "snippet": "*   [![](https://i0.wp.com/airvolute.com/wp-content/uploads/2025/01/hailo-hedgehog-fpv-board.png?resize=300%2C225&ssl=1)\n    DCS Hedgehog\n    ------------\n    ](https://airvolute.com/shop-prod/uav-autopilots/dcs-hedgehog/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Stribog ISR",
+        "product_type": "ISR quadcopter UAV platform",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0028",
+            "line_start": 21,
+            "line_end": 23,
+            "url": "https://airvolute.com/stribog-uas",
+            "page_class": "other",
+            "snippet": "Stribog UAS\n===========\nExtremely powerful quadcopter with an open architecture, allowing developers to build their own missions."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Patron FPV",
+        "product_type": "AI-enabled FPV drone platform",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 79,
+            "line_end": 80,
+            "url": "https://airvolute.com/",
+            "page_class": "homepage",
+            "snippet": "Patron FPV\n----------"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DroneCore 1.2 Pilot",
+        "product_type": "UAV autopilot board",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0012",
+            "line_start": 42,
+            "line_end": 42,
+            "url": "https://airvolute.com/wp-content/uploads/2026/04/2026-04-15-NDAA-Declaration.pdf",
+            "page_class": "document",
+            "snippet": "Product  Compliance  with  NDAA  2020  "
+          }
+        ],
+        "notes": "Listed in NDAA compliance table"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "More product SKUs (accessories, individual payload adapters) exist on skipped shop pages"
+  },
+  "ndaa": {
+    "value": "yes",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0012",
+        "line_start": 1,
+        "line_end": 2,
+        "url": "https://airvolute.com/wp-content/uploads/2026/04/2026-04-15-NDAA-Declaration.pdf",
+        "page_class": "document",
+        "snippet": "NDAA  Declaration  \nI,  Jozef  Rodina ,  CEO  of  Airvolute  s.r.o. ,  Mikov\u00edniho  217/4,  Trnava  917  01,  Slovakia,  European  "
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0012",
+        "line_start": 42,
+        "line_end": 45,
+        "url": "https://airvolute.com/wp-content/uploads/2026/04/2026-04-15-NDAA-Declaration.pdf",
+        "page_class": "document",
+        "snippet": "Product  Compliance  with  NDAA  2020  \nProduct  Name  \nCountry  of  Origin  \nCompliance  with  Section  848  NDAA  2020  "
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 25,
+        "line_end": 25,
+        "url": "https://airvolute.com/",
+        "page_class": "homepage",
+        "snippet": "View [NDAA Declaration](https://airvolute.com/wp-content/uploads/2026/04/2026-04-15-NDAA-Declaration.pdf)"
+      }
+    ],
+    "notes": "CEO-signed NDAA 2020 Section 848 declaration lists all DroneCore autopilot boards and payload adapters as compliant; all manufactured in Slovakia"
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0030",
+        "line_start": 30,
+        "line_end": 33,
+        "url": "https://airvolute.com/product-tag/fmu",
+        "page_class": "product",
+        "snippet": "    DCS 2 Default\n    -------------\n    2,980.00\u00a0\u20ac \u2013 5,060.00\u00a0\u20ac (excl. VAT)](https://airvolute.com/shop-prod/uav-autopilots/dcs-2-default/)\n    [Select options](https://airvolute.com/shop-prod/uav-autopilots/dcs-2-default/)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0030",
+        "line_start": 35,
+        "line_end": 38,
+        "url": "https://airvolute.com/product-tag/fmu",
+        "page_class": "product",
+        "snippet": "*   [![](https://i0.wp.com/airvolute.com/wp-content/uploads/2025/03/dcs2-pilot-px_adapter-PDB_.png?resize=300%2C225&ssl=1)\n    DCS 2 Pixhawk v6X\n    -----------------\n    3,290.00\u00a0\u20ac \u2013 3,430.00\u00a0\u20ac (excl. VAT)](https://airvolute.com/shop-prod/uav-autopilots/dcs-2-pixhawk-v6x/)"
+      }
+    ],
+    "notes": "E-commerce shop with listed prices (DCS 2 Default \u20ac2,980\u2013\u20ac5,060 excl. VAT); shipping terms and ISO 9001 certification"
+  },
+  "unresolved_questions": [
+    "Patron FPV product page (page_id=2385) was skipped \u2014 full specs not confirmed",
+    "Blue UAS/Blue sUAS status unknown \u2014 not mentioned on site"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://airvolute.com/?page_id=2385",
+      "reason": "Product page for Patron FPV drone \u2014 would confirm specs, pricing, and supply chain role for this complete platform",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=homepage",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://airvolute.com/shop-prod/uav-autopilots/dcs-2-default",
+      "reason": "Individual product page for DCS 2 Default autopilot \u2014 would confirm full spec sheet and SKU details",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://airvolute.com/airvolute-ndaa-declaration",
+      "reason": "Dedicated NDAA declaration page \u2014 would confirm if it duplicates or extends the PDF declaration",
+      "expected_evidence": [
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=compliance",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Slovakia-based maker of integrated DroneCore autopilots (dual FMU, Jetson compute, power distribution) and small UAS platforms (Stribog ISR, Patron FPV) built on open architecture principles. NDAA-compliant. Blue UAS status unknown. Strong vendor testimonials from mid-tier integrators; limited public evidence of DoD or allied procurement beyond compliance declarations.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 24,
+    "total_cost_usd": 0.5239657,
+    "created_at": "2026-05-03T21:06:00+00:00",
+    "extract_version": "0.1.0"
+  }
+}

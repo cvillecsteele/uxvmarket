@@ -1,0 +1,201 @@
+{
+  "target_id": "dronesmith-usa",
+  "run_id": "canonical",
+  "display_name": "Dronesmith USA",
+  "homepage_url": "https://dronesmithusa.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/dronesmith-usa/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 8,
+            "line_end": 8,
+            "url": "https://dronesmithusa.com",
+            "page_class": "homepage",
+            "snippet": "Dronesmith USA builds high-performance brushless motors with a compliant, verified US supply chain- purpose-built for government and defense UAV applications."
+          }
+        ],
+        "notes": "Brushless motors for defense UAV applications (DS-2814, DS-2207, DS-3508)"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": null,
+      "state_or_province": "Arizona",
+      "country": "United States",
+      "address": null
+    },
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 74,
+        "line_end": 74,
+        "url": "https://dronesmithusa.com",
+        "page_class": "homepage",
+        "snippet": "Arizona, USA \u2022 Defense & Government UAV Components"
+      }
+    ],
+    "notes": "State identified as Arizona; city not specified"
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 8,
+        "line_end": 8,
+        "url": "https://dronesmithusa.com",
+        "page_class": "homepage",
+        "snippet": "Dronesmith USA builds high-performance brushless motors with a compliant, verified US supply chain- purpose-built for government and defense UAV applications."
+      }
+    ],
+    "notes": "Sells brushless motors (components) specifically for government and defense UAV platforms"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "DS-2814",
+        "product_type": "brushless motor (mid-lift)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 33,
+            "line_end": 35,
+            "url": "https://dronesmithusa.com",
+            "page_class": "homepage",
+            "snippet": "### DS-2814\nFirst to Market\nMid-lift motor for professional and industrial platforms."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DS-2207",
+        "product_type": "brushless motor (tactical FPV/ISR)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 45,
+            "line_end": 47,
+            "url": "https://dronesmithusa.com",
+            "page_class": "homepage",
+            "snippet": "### DS-2207\nComing Soon\nHigh-efficiency 5\u20137\u201d class motor for tactical FPV and ISR."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DS-3508",
+        "product_type": "brushless motor (heavy-lift)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 57,
+            "line_end": 59,
+            "url": "https://dronesmithusa.com",
+            "page_class": "homepage",
+            "snippet": "### DS-3508\nComing Soon\nHeavy-lift motor for payload and logistics UAVs."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": "yes",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 10,
+        "line_end": 10,
+        "url": "https://dronesmithusa.com",
+        "page_class": "homepage",
+        "snippet": "NDAA \u00a7889 compliant"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 18,
+        "line_end": 18,
+        "url": "https://dronesmithusa.com",
+        "page_class": "homepage",
+        "snippet": "*   Prohibited vendors excluded from the supply chain (NDAA \u00a7889)"
+      }
+    ],
+    "notes": "Explicitly claims NDAA \u00a7889 compliance; supply chain documentation available on request"
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "prototype",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 31,
+        "line_end": 31,
+        "url": "https://dronesmithusa.com",
+        "page_class": "homepage",
+        "snippet": "Pre-production designs shown below. Final specifications subject to change."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 69,
+        "line_end": 69,
+        "url": "https://dronesmithusa.com",
+        "page_class": "homepage",
+        "snippet": "Specifications are preliminary and for planning only. Full datasheets will be released prior to production."
+      }
+    ],
+    "notes": "Site explicitly states 'Pre-production designs' and specs are 'preliminary and for planning only'; datasheets to be released prior to production"
+  },
+  "unresolved_questions": [
+    "City within Arizona not specified",
+    "Blue UAS cleared list status not disclosed"
+  ],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Arizona-based brushless motor supplier offering three NDAA-compliant designs (DS-2814, DS-2207, DS-3508) spanning mid-lift, tactical FPV/ISR, and heavy-lift classes. All products remain in prototype phase with estimated specs; full datasheets pending production release. Blue UAS status unknown; limited public evidence of fielded contracts or integration partners.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 5,
+    "total_cost_usd": 0.09356249999999999,
+    "created_at": "2026-05-04T01:53:35+00:00",
+    "extract_version": "0.1.0"
+  }
+}

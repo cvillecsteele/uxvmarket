@@ -1,0 +1,237 @@
+{
+  "target_id": "microlink-devices-inc",
+  "run_id": "canonical",
+  "display_name": "MicroLink Devices, Inc.",
+  "homepage_url": "https://www.mldevices.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/microlink-devices-inc/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "power_systems",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 64,
+            "line_end": 64,
+            "url": "https://mldevices.com/",
+            "page_class": "homepage",
+            "snippet": "MicroLink Devices designs and manufactures solar cells and solar sheets for a variety of applications, including unmanned aerial vehicles (UAVs), spacecraft, and terrestrial collectors."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0033",
+            "line_start": 63,
+            "line_end": 63,
+            "url": "https://mldevices.com/test-news",
+            "page_class": "news",
+            "snippet": "MicroLink Devices, a leader in the production of high-efficiency, flexible solar arrays for satellite and aircraft, was recognized by Airbus Defence and Space as a key supplier for the Zephyr High Altitude Pseudo-Satellite (HAPS) UAV platform. MicroLink and Airbus celebrated this event with employees on October 1, 2019, in a ceremony near MicroLink\u2019s Chicago headquarters."
+          }
+        ],
+        "notes": "High-efficiency flexible solar cells and solar sheets (ELO IMM technology) enabling solar-powered UAV flight. Supplied to Airbus Zephyr HAPS and Prismatic PHASA-35 HALE UAVs."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Primary product is ELO-based solar cells/sheets for UAV power. RF Semiconductor Materials (HBTs) are a secondary line targeting the telecom industry, not drone-specific."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Niles",
+      "state_or_province": "Illinois",
+      "country": "United States",
+      "address": "6457 W Howard St, Niles, Illinois 60714"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0016",
+        "line_start": 49,
+        "line_end": 51,
+        "url": "https://mldevices.com/contact-us",
+        "page_class": "contact",
+        "snippet": "6457 W Howard St\nNiles, Illinois 60714\nUnited States"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 64,
+        "line_end": 64,
+        "url": "https://mldevices.com/",
+        "page_class": "homepage",
+        "snippet": "MicroLink Devices designs and manufactures solar cells and solar sheets for a variety of applications, including unmanned aerial vehicles (UAVs), spacecraft, and terrestrial collectors."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0033",
+        "line_start": 63,
+        "line_end": 63,
+        "url": "https://mldevices.com/test-news",
+        "page_class": "news",
+        "snippet": "MicroLink Devices, a leader in the production of high-efficiency, flexible solar arrays for satellite and aircraft, was recognized by Airbus Defence and Space as a key supplier for the Zephyr High Altitude Pseudo-Satellite (HAPS) UAV platform. MicroLink and Airbus celebrated this event with employees on October 1, 2019, in a ceremony near MicroLink\u2019s Chicago headquarters."
+      }
+    ],
+    "notes": "Supplies solar cell/sheet components to UAV OEMs (Airbus for Zephyr HAPS UAV, Prismatic for PHASA-35 HALE UAV). Does not manufacture complete UAVs."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Photovoltaics (ELO IMM Solar Cells and Solar Sheets)",
+        "product_type": "high-efficiency flexible solar cells and solar sheets for UAVs and spacecraft",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 64,
+            "line_end": 64,
+            "url": "https://mldevices.com/",
+            "page_class": "homepage",
+            "snippet": "MicroLink Devices designs and manufactures solar cells and solar sheets for a variety of applications, including unmanned aerial vehicles (UAVs), spacecraft, and terrestrial collectors."
+          }
+        ],
+        "notes": "IMM = inverted metamorphic multi-junction; ELO = epitaxial lift-off. Specific power >2000 W/kg. Used on Airbus Zephyr and Prismatic PHASA-35."
+      },
+      {
+        "name": "RF Semiconductor Materials",
+        "product_type": "compound semiconductor materials (HBTs, BiFETs, power amplifiers)",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 6,
+            "line_end": 6,
+            "url": "https://mldevices.com/",
+            "page_class": "homepage",
+            "snippet": "    *   [RF Semiconductor Materials](https://mldevices.com/rf-semiconductor-materials/)"
+          }
+        ],
+        "notes": "Primarily for high-speed communications industry; not drone-specific per corpus."
+      },
+      {
+        "name": "Engineering Services",
+        "product_type": "custom semiconductor device design and simulation services",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 7,
+            "line_end": 7,
+            "url": "https://mldevices.com/",
+            "page_class": "homepage",
+            "snippet": "    *   [Engineering Services](https://mldevices.com/engineering-services/)"
+          }
+        ],
+        "notes": "Transistor structure and solar cell design services for customers."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Product pages (photovoltaics-2, rf-semiconductor-materials, engineering-services) were skipped; additional SKU detail likely on those pages."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "Certifications page only mentions ISO 9001 since 2005. No NDAA Section 848/889 claim anywhere in the corpus."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS or Blue sUAS mention found in the corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 65,
+        "line_end": 65,
+        "url": "https://mldevices.com/",
+        "page_class": "homepage",
+        "snippet": "These high-efficiency, single- and multi-junction GaAs-based solar cells are manufactured using MicroLink\u2019s proprietary epitaxial lift-off (ELO) technology, in which the solar cell structure is removed from the substrate on which it is grown."
+      }
+    ],
+    "notes": "Site states solar cells 'are manufactured' using proprietary ELO technology; news confirms completed production contract delivery to Prismatic for PHASA-35 HALE UAV."
+  },
+  "unresolved_questions": [
+    "Whether any product lines are explicitly NDAA 848/889 compliant (certifications page only mentions ISO 9001)",
+    "Full SKU details for ELO IMM solar cell product variants (photovoltaics-2 page skipped)",
+    "Whether RF semiconductor materials have any drone/UAS-specific product lines"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://mldevices.com/photovoltaics-2",
+      "reason": "Would provide specific product SKUs, efficiency ratings, and specifications for ELO IMM solar cells to improve product list completeness and confirm UAV-specific product lines.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://mldevices.com/rf-semiconductor-materials",
+      "reason": "Would clarify whether RF semiconductor materials include drone-specific products or are exclusively for telecom, affecting category and supply chain role assessments.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://mldevices.com/engineering-services",
+      "reason": "Would clarify scope and named deliverables of engineering services offering, and whether NDAA compliance is mentioned.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://mldevices.com/about-us-2",
+      "reason": "About page would confirm headquarters details and may include compliance or Blue UAS disclosures.",
+      "expected_evidence": [
+        "headquarters",
+        "ndaa",
+        "blue_uas"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Manufactures high-efficiency GaAs-based photovoltaic cells and sheets for UAVs, spacecraft, and terrestrial use via proprietary epitaxial lift-off technology; also supplies RF semiconductor materials and engineering services. NDAA and Blue UAS certification status unknown. Limited public evidence on defense contracts or program adoption.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 16,
+    "total_cost_usd": 1.0432682500000001,
+    "created_at": "2026-05-04T04:23:26+00:00",
+    "extract_version": "0.1.0"
+  }
+}

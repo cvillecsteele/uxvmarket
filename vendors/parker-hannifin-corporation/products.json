@@ -1,0 +1,108 @@
+{
+  "target_id": "parker-hannifin-corporation",
+  "run_id": "canonical",
+  "display_name": "Parker Hannifin Corporation",
+  "homepage_url": "https://www.parker.com/us/en/markets/aerospace-and-defense.html",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/parker-hannifin-corporation/website",
+  "products": [
+    {
+      "name": "CHOFORM\u00ae 5575 Form-In-Place EMI Gasket",
+      "category": "structures_and_materials",
+      "descriptor": "Robotically dispensed silver-plated aluminum silicone EMI gasket with up to 80 dB shielding effectiveness",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0992",
+          "line_start": 44,
+          "line_end": 44,
+          "url": "https://www.parker.com/us/en/about-parker/newsroom/news-release-details/parker-chomerics-protects-drones-with-emi-shielding-and-thermal-.html",
+          "page_class": "news",
+          "snippet": "*   CHOFORM 5575 is a moisture cured silver-plated aluminum filled silicone material offering up to 80 dB shielding effectiveness."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "THERM-A-GAP\u2122 GEL 37 Thermal Interface Material",
+      "category": "structures_and_materials",
+      "descriptor": "Pre-cured single-component thermal gel with 3.7 W/m-K conductivity for drone chipset heat management",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0992",
+          "line_start": 47,
+          "line_end": 47,
+          "url": "https://www.parker.com/us/en/about-parker/newsroom/news-release-details/parker-chomerics-protects-drones-with-emi-shielding-and-thermal-.html",
+          "page_class": "news",
+          "snippet": "To mitigate thermal effects, Parker Chomerics has developed\u00a0[THERM-A-GAP\u2122 GEL 37](https://app.solutions.parker.com/e/er?s=1819831755&lid=35828&elqTrackId=D78A86FC6F7F63CAE69005F7FC0DC7B1&elq=00000000000000000000000000000000&elqaid=24233&elqat=2). Offering a 3.7 W/m-K thermal conductivity, this product is used to conduct the heat from the chipset to the drone\u2019s enclosure."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Ebrake\u00ae Technology",
+      "category": "flight_and_vehicle_control",
+      "descriptor": "Electronic braking system for aerospace platforms delivering improved safety and reduced environmental impact",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0008",
+          "line_start": 105,
+          "line_end": 107,
+          "url": "https://www.parker.com/us/en/markets/aerospace-and-defense.html",
+          "page_class": "homepage",
+          "snippet": "Flying into the Future with Parker's Ebrake\u00ae Technology\n-------------------------------------------------------\nParker Aerospace is reshaping air travel with advanced electronic braking systems that deliver greater safety while reducing environmental impact. Discover how Parker is helping make every landing safer\u2014and air travel more sustainable."
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "334 pages were skipped or failed in the mirror crawl; additional Parker product SKUs (especially from the Chomerics division product pages and Chelsea/Fluid Control division pages) are not enumerated here.",
+    "Ebrake\u00ae is described as a 'technology' on the aerospace market page with no sub-SKU breakdown visible in the corpus \u2014 granularity treated as family."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.parker.com/us/en/divisions/chomerics-division/products/emi-shielding/form-in-place-gaskets.html",
+      "reason": "Product detail page for CHOFORM FIP gaskets would confirm SKU-level NDAA/readiness claims and reveal additional SKUs in the family.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "readiness"
+      ],
+      "source_hint": null,
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.parker.com/us/en/divisions/chomerics-division/products/thermal-interface-materials/thermal-gels.html",
+      "reason": "Product detail page for THERM-A-GAP GEL thermal interface materials would confirm readiness and reveal sibling SKUs.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "readiness"
+      ],
+      "source_hint": null,
+      "in_corpus_index": false
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 0,
+    "total_cost_usd": null,
+    "created_at": "2026-05-03T14:11:19+00:00",
+    "extract_version": "0.1.0"
+  }
+}

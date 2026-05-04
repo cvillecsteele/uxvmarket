@@ -1,0 +1,309 @@
+{
+  "target_id": "parasoft",
+  "run_id": "canonical",
+  "display_name": "Parasoft",
+  "homepage_url": "https://www.parasoft.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/parasoft/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "test_and_measurement",
+        "is_primary": true,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 142,
+            "line_end": 143,
+            "url": "https://www.parasoft.com",
+            "page_class": "homepage",
+            "snippet": "](/solutions/c-cpp-testing-tools/)[![Green circle with shield graphic in white.](/wp-content/uploads/2025/02/Safety-and-Security-Compliance-Testing.svg)\nSafety & Security Compliance Testing"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0453",
+            "line_start": 176,
+            "line_end": 176,
+            "url": "https://www.parasoft.com/solutions/software-compliance-testing/by-industry",
+            "page_class": "compliance",
+            "snippet": "### Military & Aerospace"
+          }
+        ],
+        "notes": "Parasoft sells software testing tools (static analysis, unit testing, code coverage, API testing) used to verify safety-critical embedded software including avionics/UAV software per DO-178C. test_and_measurement is the closest category, though the definition skews physical."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "No UXV-hardware or drone-specific software categories apply. Parasoft's tools are broad software testing tools; test_and_measurement is the closest fit."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Monrovia",
+      "state_or_province": "California",
+      "country": "United States",
+      "address": "101 E. Huntington Drive, Second Floor, Monrovia, CA 91016"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0256",
+        "line_start": 83,
+        "line_end": 85,
+        "url": "https://www.parasoft.com/contact",
+        "page_class": "contact",
+        "snippet": "**Parasoft Corporation HQ**\n[101 E. Huntington Drive, Second Floor\nMonrovia, CA 91016 USA](https://goo.gl/maps/yiiDqsST571L5R468)"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "broad_industrial",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0453",
+        "line_start": 176,
+        "line_end": 176,
+        "url": "https://www.parasoft.com/solutions/software-compliance-testing/by-industry",
+        "page_class": "compliance",
+        "snippet": "### Military & Aerospace"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0249",
+        "line_start": 85,
+        "line_end": 85,
+        "url": "https://www.parasoft.com/company",
+        "page_class": "company",
+        "snippet": "The innovation you need. The experience you trust. From development to QA, Parasoft\u2019s comprehensive software testing solutions reduce the time, effort, and cost of delivering secure, reliable, and compliant software. Leverage our AI-infused automated testing solutions to drive continuous quality practices throughout your CI/CD pipeline."
+      }
+    ],
+    "notes": "Parasoft is a general-purpose software testing company serving automotive, medical, finance, telecom, rail, and military/aerospace sectors. Unmanned aerial vehicles are cited only as one example of military/aerospace customers. No UXV-specific product line exists."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "C/C++test",
+        "product_type": "static analysis & unit testing tool for C/C++",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 12,
+            "line_end": 12,
+            "url": "https://www.parasoft.com",
+            "page_class": "homepage",
+            "snippet": "     [![C/C++test product icon](/wp-content/uploads/menu/icon-c-c-test.svg) C/C++test Perform static analysis & unit testing for C/C++ code.](https://www.parasoft.com/products/parasoft-c-ctest/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "C/C++test CT",
+        "product_type": "code coverage & requirements traceability tool for C/C++",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 13,
+            "line_end": 13,
+            "url": "https://www.parasoft.com",
+            "page_class": "homepage",
+            "snippet": "     [![C/C++test CT icon](/wp-content/uploads/2025/03/icon-c-c-test-ct.svg) C/C++test CT CT for C/C++ code coverage; requirements traceability.](https://www.parasoft.com/products/parasoft-c-ctest/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Jtest",
+        "product_type": "Java unit testing & static analysis tool",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 14,
+            "line_end": 14,
+            "url": "https://www.parasoft.com",
+            "page_class": "homepage",
+            "snippet": "     [![Jtest product icon](/wp-content/uploads/menu/icon-jtest.svg) Jtest Conduct Java unit testing & static analysis.](https://www.parasoft.com/products/parasoft-jtest/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "dotTEST",
+        "product_type": "static analysis tool for C# & .NET",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 15,
+            "line_end": 15,
+            "url": "https://www.parasoft.com",
+            "page_class": "homepage",
+            "snippet": "     [![Dottest Logo](/wp-content/uploads/menu/icon-dottest.svg) dotTEST Run static analysis for C# & .NET software.](https://www.parasoft.com/products/parasoft-dottest/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Insure++",
+        "product_type": "runtime memory debugging & leak detection for C/C++",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 16,
+            "line_end": 16,
+            "url": "https://www.parasoft.com",
+            "page_class": "homepage",
+            "snippet": "     [![Insure Logo](/wp-content/uploads/menu/icon-insure.svg) Insure++ Runtime memory debugging & leak detection for C/C++ apps.](https://www.parasoft.com/products/parasoft-insure/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DTP",
+        "product_type": "test analytics & reporting platform",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 17,
+            "line_end": 17,
+            "url": "https://www.parasoft.com",
+            "page_class": "homepage",
+            "snippet": "     [![DTP Logo](/wp-content/uploads/menu/icon-dtp.svg) DTP Analyze test results, insights, & reports.](https://www.parasoft.com/products/parasoft-dtp/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "CTP",
+        "product_type": "test management platform",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 18,
+            "line_end": 18,
+            "url": "https://www.parasoft.com",
+            "page_class": "homepage",
+            "snippet": "     [![CTP Logo](/wp-content/uploads/menu/icon-ctp.svg) CTP Map & manage tests, data, & the environment.](https://www.parasoft.com/products/parasoft-ctp/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Selenic",
+        "product_type": "AI-enhanced Selenium UI testing tool",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 19,
+            "line_end": 19,
+            "url": "https://www.parasoft.com",
+            "page_class": "homepage",
+            "snippet": "     [![Selenic Logo](/wp-content/uploads/menu/icon-selenic.svg) Selenic Enhance selenium UI testing with artificial intelligence.](https://www.parasoft.com/products/parasoft-selenic/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SOAtest",
+        "product_type": "API, load & security testing tool",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 20,
+            "line_end": 20,
+            "url": "https://www.parasoft.com",
+            "page_class": "homepage",
+            "snippet": "     [![SOAtest product icon](/wp-content/uploads/menu/icon-soatest.svg) SOAtest Manage test suites for API, load, & security testing.](https://www.parasoft.com/products/parasoft-soatest/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Virtualize",
+        "product_type": "service virtualization & virtual asset management",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 21,
+            "line_end": 21,
+            "url": "https://www.parasoft.com",
+            "page_class": "homepage",
+            "snippet": "     [![Virtualize Logo](/wp-content/uploads/menu/icon-virtualize.svg) Virtualize Create, deploy, & manage virtual assets & test data.](https://www.parasoft.com/products/parasoft-virtualize/)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0249",
+        "line_start": 88,
+        "line_end": 89,
+        "url": "https://www.parasoft.com/company",
+        "page_class": "company",
+        "snippet": "### Expertise & Innovation\nBuilt on a foundation of innovation with more than 38 patents, Parasoft has been leading the industry in automated software testing and continuous quality solutions for 35+ years."
+      }
+    ],
+    "notes": "Parasoft sells commercial software products with established customer base (35+ years) and named SKUs available for trial/demo/purchase."
+  },
+  "unresolved_questions": [
+    "Parasoft's involvement in UXV supply chain is marginal \u2014 they sell software testing tools used by aerospace/defense companies that build UAVs, but this is incidental to their broad multi-industry positioning."
+  ],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Software testing and quality platform spanning static analysis, unit testing, code coverage, API testing, runtime debugging, and test data management for C/C++, Java, .NET, and web applications. Tools address embedded safety-critical and enterprise compliance needs (DO-178C, ISO 26262, IEC 62304, MISRA). NDAA and Blue UAS certification status unknown; public evidence on defense-sector adoption is limited.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 13,
+    "total_cost_usd": 0.3964736,
+    "created_at": "2026-05-04T04:59:30+00:00",
+    "extract_version": "0.1.0"
+  }
+}

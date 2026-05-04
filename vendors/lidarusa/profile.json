@@ -1,0 +1,351 @@
+{
+  "target_id": "lidarusa",
+  "run_id": "canonical",
+  "display_name": "LiDARUSA",
+  "homepage_url": "https://www.lidarusa.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/lidarusa/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "isr_payloads",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://www.lidarusa.com",
+            "page_class": "homepage",
+            "snippet": "LIDAR USA - UAV DRONE 3D LIDAR MOBILE MODELING MAPPING GIS EXPERTS - Home"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 70,
+            "line_end": 72,
+            "url": "https://www.lidarusa.com",
+            "page_class": "homepage",
+            "snippet": "**LIBERTY 64 NDAA LiDAR**\n--------------------------\nThis NDAA LiDAR system is priced staring at $52,990.\u00a0 Robust efficient NDAA LiDAR Made in the USA."
+          }
+        ],
+        "notes": "LiDAR scanning payload systems for UAVs used for 3D surveying and mapping. Multiple product lines (Surveyor, Revolution, Liberty) are LiDAR payloads designed for UAV mounting."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Hartselle",
+      "state_or_province": "Alabama",
+      "country": "United States",
+      "address": null
+    },
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0117",
+        "line_start": 64,
+        "line_end": 64,
+        "url": "https://www.lidarusa.com/surveyor-16.html",
+        "page_class": "other",
+        "snippet": "\u200bMost practitioners in the lidar community know LiDAR USA, an acknowledged leader in the successful integration of lidar sensors on to land vehicles and UAVs. LIDAR Magazine managing editor Stewart Walker traveled to Hartselle, Alabama to interview founder and president, Jeff Fagerman. Here\u2019s what he discovered."
+      }
+    ],
+    "notes": "Hartselle, Alabama referenced in LIDAR Magazine interview quote. Phone 256-274-1616 is North Alabama area code."
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0083",
+        "line_start": 61,
+        "line_end": 61,
+        "url": "https://www.lidarusa.com/uav--drones.html",
+        "page_class": "other",
+        "snippet": "Have your own UAV? - Send us your UAV and we'll ensure we have a suitable mount for it!"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 86,
+        "line_end": 86,
+        "url": "https://www.lidarusa.com",
+        "page_class": "homepage",
+        "snippet": "WORLD LEADERS IN MMS AND UAV LiDAR SOLUTIONS TRUSTED BY SURVEYORS AND TV PRODUCERS ALIKE"
+      }
+    ],
+    "notes": "LiDARUSA builds LiDAR payload systems that mount onto third-party UAV platforms (DJI Matrice, Inspired Flight, etc.). UAV page says 'Have your own UAV? Send us your UAV and we'll ensure we have a suitable mount for it!' The primary deliverable is the LiDAR sensor payload, not the drone."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Liberty 64 NDAA Compliant LiDAR System",
+        "product_type": "UAV LiDAR payload (NDAA compliant)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 4,
+            "line_end": 4,
+            "url": "https://www.lidarusa.com",
+            "page_class": "homepage",
+            "snippet": "    *   [LIBERTY 64 NDAA Compliant LiDAR System](/liberty-64-ndaa-compliant-lidar-system.html)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Surveyor 32",
+        "product_type": "UAV LiDAR system (DJI M300)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0046",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://www.lidarusa.com/matrice-200-300-series-875590.html",
+            "page_class": "other",
+            "snippet": "Surveyor 32 UAV LiDAR System - DJI M300 - LIDAR USA - UAV DRONE 3D LIDAR MOBILE MODELING MAPPING GIS EXPERTS"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Surveyor 32 MAX",
+        "product_type": "UAV LiDAR system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 6,
+            "line_end": 6,
+            "url": "https://www.lidarusa.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Surveyor 32 MAX](/matrice-200-300-series-875590-311856.html)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Surveyor 16",
+        "product_type": "UAV LiDAR system (DJI M350)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0117",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://www.lidarusa.com/surveyor-16.html",
+            "page_class": "other",
+            "snippet": "Surveyor 16 UAV LiDAR System - DJI M350 - LIDAR USA - UAV DRONE 3D LIDAR MOBILE MODELING MAPPING GIS EXPERTS"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Revolution 120",
+        "product_type": "UAV/MMS LiDAR system (ScanLook brand)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0082",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://www.lidarusa.com/revolution-120.html",
+            "page_class": "other",
+            "snippet": "ScanLook Revolution - LIDAR USA - UAV DRONE 3D LIDAR MOBILE MODELING MAPPING GIS EXPERTS"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Surveyor miniV2 Riegl",
+        "product_type": "UAV LiDAR payload (mini series)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 9,
+            "line_end": 9,
+            "url": "https://www.lidarusa.com",
+            "page_class": "homepage",
+            "snippet": "        *   [SURVEYOR MINIV2 Riegl](/surveyor-miniv2-riegl.html)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Surveyor miniV3 Riegl",
+        "product_type": "UAV LiDAR payload (mini series)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 10,
+            "line_end": 10,
+            "url": "https://www.lidarusa.com",
+            "page_class": "homepage",
+            "snippet": "        *   [SURVEYOR MINIV3 Riegl](/surveyor-miniv3-riegl.html)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Surveyor VUX Riegl",
+        "product_type": "High-accuracy UAV LiDAR system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0029",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://www.lidarusa.com/surveyor-vux-riegl.html",
+            "page_class": "other",
+            "snippet": "Surveyor VUX Riegl - LIDAR USA - UAV DRONE 3D LIDAR MOBILE MODELING MAPPING GIS EXPERTS"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Surveyor CL360",
+        "product_type": "High-accuracy UAV LiDAR system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 14,
+            "line_end": 14,
+            "url": "https://www.lidarusa.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Surveyor CL360](/surveyor-cl360.html)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HiWay Mapper Z & Snoopy Custom",
+        "product_type": "Mobile mapping LiDAR system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 16,
+            "line_end": 16,
+            "url": "https://www.lidarusa.com",
+            "page_class": "homepage",
+            "snippet": "        *   [HiWay Mapper Z & Snoopy Custom](/hiway-mapper-z--snoopy-custom.html)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Surveyor Dual VUX Riegl also listed in nav; product page was not fetched."
+  },
+  "ndaa": {
+    "value": "yes",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 70,
+        "line_end": 72,
+        "url": "https://www.lidarusa.com",
+        "page_class": "homepage",
+        "snippet": "**LIBERTY 64 NDAA LiDAR**\n--------------------------\nThis NDAA LiDAR system is priced staring at $52,990.\u00a0 Robust efficient NDAA LiDAR Made in the USA."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 4,
+        "line_end": 4,
+        "url": "https://www.lidarusa.com",
+        "page_class": "homepage",
+        "snippet": "    *   [LIBERTY 64 NDAA Compliant LiDAR System](/liberty-64-ndaa-compliant-lidar-system.html)"
+      }
+    ],
+    "notes": "Liberty 64 explicitly named 'NDAA Compliant LiDAR System'; described as 'Robust efficient NDAA LiDAR Made in the USA.' Dedicated compliance page was skipped (budget). Other products use DJI platforms and would not be NDAA-compliant."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 72,
+        "line_end": 72,
+        "url": "https://www.lidarusa.com",
+        "page_class": "homepage",
+        "snippet": "This NDAA LiDAR system is priced staring at $52,990.\u00a0 Robust efficient NDAA LiDAR Made in the USA."
+      }
+    ],
+    "notes": "Established company since 1999 with catalog products and listed pricing ($52,990 for Liberty 64). Multiple named SKUs with downloadable datasheets."
+  },
+  "unresolved_questions": [
+    "Liberty 64 NDAA page (compliance) was skipped \u2014 would confirm specific NDAA section (848/889)",
+    "Contact page skipped \u2014 would confirm street address in Hartselle, Alabama",
+    "Surveyor Dual VUX Riegl product page not fetched"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.lidarusa.com/liberty-64-ndaa-compliant-lidar-system.html",
+      "reason": "Dedicated NDAA compliance page for Liberty 64 \u2014 would confirm specific NDAA section (848/889) compliance claim and product scope",
+      "expected_evidence": [
+        "ndaa",
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=compliance",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.lidarusa.com/contact.html",
+      "reason": "Would confirm headquarters city, state, and street address for Hartselle, Alabama",
+      "expected_evidence": [
+        "headquarters"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=contact",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Hartsfield, Alabama\u2013based supplier of UAV-mounted and multi-platform LiDAR mapping systems spanning compact (sub-3 kg) to survey-grade configurations. NDAA-compliant LIBERTY 64 system ($52,990+) is domestically manufactured; broader portfolio integrates Riegl sensors and includes lightweight ScanLook Revolution and tactical-grade Snoopy variants. Blue UAS certification status not publicly confirmed. Evidence base solid on product specs and commercial deployments; government/defense contract details and NDAA compliance scope beyond LIBERTY 64 remain opaque.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 15,
+    "total_cost_usd": 0.42466070000000006,
+    "created_at": "2026-05-04T03:52:24+00:00",
+    "extract_version": "0.1.0"
+  }
+}

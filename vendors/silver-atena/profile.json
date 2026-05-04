@@ -1,0 +1,346 @@
+{
+  "target_id": "silver-atena",
+  "run_id": "canonical",
+  "display_name": "Silver Atena",
+  "homepage_url": "https://www.silver-atena.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/silver-atena/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "flight_and_vehicle_control",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0084",
+            "line_start": 111,
+            "line_end": 111,
+            "url": "https://www.silver-atena.com/product-references/aerospace/flight-control/flight-control-computer-fcc",
+            "page_class": "product",
+            "snippet": "The Silver Atena Universal FCC (Flight Control Computer) is a powerful avionics computer for the highly automated control of manned and unmanned small aircraft, drones, and helicopters."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0084",
+            "line_start": 143,
+            "line_end": 143,
+            "url": "https://www.silver-atena.com/product-references/aerospace/flight-control/flight-control-computer-fcc",
+            "page_class": "product",
+            "snippet": "*   UAVs / drones, OPVs, and RPAS"
+          }
+        ],
+        "notes": "FCC explicitly developed for UAVs/drones/helicopters; listed under Military Aviation nav as 'Flight Control Computer'"
+      },
+      {
+        "category": "propulsion_electronics",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0081",
+            "line_start": 113,
+            "line_end": 113,
+            "url": "https://www.silver-atena.com/product-references/aerospace/electric-propulsion/electric-fan",
+            "page_class": "product",
+            "snippet": "Whether for urban air mobility, drones, or hybrid flight concepts \u2013 we deliver scalable, air-cooled solutions with up to 50 kW of power."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0083",
+            "line_start": 112,
+            "line_end": 112,
+            "url": "https://www.silver-atena.com/product-references/aerospace/electric-propulsion/fan-inverter",
+            "page_class": "product",
+            "snippet": "Silver Atena's aero drive inverters are the ideal solution for electric propulsion systems in aviation \u2013 for example, for flight propulsion systems for eVTOLs (electric vertical take-off and landing) or servo motors for wing adjustment."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0081",
+            "line_start": 146,
+            "line_end": 146,
+            "url": "https://www.silver-atena.com/product-references/aerospace/electric-propulsion/electric-fan",
+            "page_class": "product",
+            "snippet": "*   UAVs / Drones"
+          }
+        ],
+        "notes": "Electric FAN (motor + integrated SiC inverter) and FAN Inverter for UAVs/eVTOLs; FADEC for military aviation including drones"
+      },
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0082",
+            "line_start": 111,
+            "line_end": 111,
+            "url": "https://www.silver-atena.com/product-references/aerospace/electric-propulsion/electric-propeller-drives",
+            "page_class": "product",
+            "snippet": "Silver Atena develops electric drives designed without compromise for propeller operation in aircraft. They combine zero emissions, minimal maintenance, and maximum efficiency."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0082",
+            "line_start": 148,
+            "line_end": 148,
+            "url": "https://www.silver-atena.com/product-references/aerospace/electric-propulsion/electric-propeller-drives",
+            "page_class": "product",
+            "snippet": "*   UAVs \u2013 for maximum efficiency and low maintenance"
+          }
+        ],
+        "notes": "Electric Propeller Drive includes electric motor for propellers; also for UAVs"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Munich",
+      "state_or_province": "Bavaria",
+      "country": "Germany",
+      "address": "Dachauer Stra\u00dfe 655, D-80995 M\u00fcnchen"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0062",
+        "line_start": 123,
+        "line_end": 125,
+        "url": "https://www.silver-atena.com/contact",
+        "page_class": "contact",
+        "snippet": "#### M\u00fcnchen (Headquarters)\n[Dachauer Stra\u00dfe 655](https://goo.gl/maps/UfXXKqNirTpv8L3A9)\n[D-80995 M\u00fcnchen](https://goo.gl/maps/UfXXKqNirTpv8L3A9)"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 91,
+        "line_end": 91,
+        "url": "https://www.silver-atena.com",
+        "page_class": "homepage",
+        "snippet": "Product Developer for Control Units and Power Electronics"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0084",
+        "line_start": 111,
+        "line_end": 111,
+        "url": "https://www.silver-atena.com/product-references/aerospace/flight-control/flight-control-computer-fcc",
+        "page_class": "product",
+        "snippet": "The Silver Atena Universal FCC (Flight Control Computer) is a powerful avionics computer for the highly automated control of manned and unmanned small aircraft, drones, and helicopters."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0081",
+        "line_start": 93,
+        "line_end": 93,
+        "url": "https://www.silver-atena.com/product-references/aerospace/electric-propulsion/electric-fan",
+        "page_class": "product",
+        "snippet": "Efficient propulsion for airplanes, EVTOLs and drones"
+      }
+    ],
+    "notes": "Develops major drone subsystems: FCC (flight control computer for UAVs), Electric FAN propulsion, FAN Inverter, Electric Propeller Drive, FADEC \u2014 all sold to aircraft/drone OEMs, not complete platforms"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Flight Control Computer (FCC)",
+        "product_type": "avionics flight control computer for UAVs/drones/helicopters",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0084",
+            "line_start": 91,
+            "line_end": 91,
+            "url": "https://www.silver-atena.com/product-references/aerospace/flight-control/flight-control-computer-fcc",
+            "page_class": "product",
+            "snippet": "Flight Control Computer (FCC)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0084",
+            "line_start": 111,
+            "line_end": 111,
+            "url": "https://www.silver-atena.com/product-references/aerospace/flight-control/flight-control-computer-fcc",
+            "page_class": "product",
+            "snippet": "The Silver Atena Universal FCC (Flight Control Computer) is a powerful avionics computer for the highly automated control of manned and unmanned small aircraft, drones, and helicopters."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Electric FAN",
+        "product_type": "electric propulsion unit (motor + integrated SiC inverter) for aviation/UAVs/eVTOLs",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0081",
+            "line_start": 91,
+            "line_end": 93,
+            "url": "https://www.silver-atena.com/product-references/aerospace/electric-propulsion/electric-fan",
+            "page_class": "product",
+            "snippet": "Electric Fan\n============\nEfficient propulsion for airplanes, EVTOLs and drones"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0081",
+            "line_start": 146,
+            "line_end": 146,
+            "url": "https://www.silver-atena.com/product-references/aerospace/electric-propulsion/electric-fan",
+            "page_class": "product",
+            "snippet": "*   UAVs / Drones"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "FAN Inverter",
+        "product_type": "SiC aero drive inverter for eVTOL/aviation electric propulsion",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0083",
+            "line_start": 99,
+            "line_end": 99,
+            "url": "https://www.silver-atena.com/product-references/aerospace/electric-propulsion/fan-inverter",
+            "page_class": "product",
+            "snippet": "5.  [FAN Inverter](/product-references/aerospace/electric-propulsion/fan-inverter \"FAN Inverter\")"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0083",
+            "line_start": 112,
+            "line_end": 112,
+            "url": "https://www.silver-atena.com/product-references/aerospace/electric-propulsion/fan-inverter",
+            "page_class": "product",
+            "snippet": "Silver Atena's aero drive inverters are the ideal solution for electric propulsion systems in aviation \u2013 for example, for flight propulsion systems for eVTOLs (electric vertical take-off and landing) or servo motors for wing adjustment."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Electric Propeller Drive",
+        "product_type": "electric propeller propulsion unit (motor + inverter) for aviation/UAVs",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0082",
+            "line_start": 91,
+            "line_end": 91,
+            "url": "https://www.silver-atena.com/product-references/aerospace/electric-propulsion/electric-propeller-drives",
+            "page_class": "product",
+            "snippet": "Electric Propeller Drive"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0082",
+            "line_start": 148,
+            "line_end": 148,
+            "url": "https://www.silver-atena.com/product-references/aerospace/electric-propulsion/electric-propeller-drives",
+            "page_class": "product",
+            "snippet": "*   UAVs \u2013 for maximum efficiency and low maintenance"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "FADEC",
+        "product_type": "Full Authority Digital Engine Control for aircraft turbines; dual-use civil/military including drones",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0085",
+            "line_start": 91,
+            "line_end": 91,
+            "url": "https://www.silver-atena.com/product-references/aerospace/propulsion/fadec",
+            "page_class": "product",
+            "snippet": "Full Authority Digital Engine Control Unit (FADEC)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0085",
+            "line_start": 112,
+            "line_end": 112,
+            "url": "https://www.silver-atena.com/product-references/aerospace/propulsion/fadec",
+            "page_class": "product",
+            "snippet": "The dual-use capable Full Authority Digital Engine Control (FADEC) is a state-of-the-art, computer-controlled system to control all aspects of aircraft engine performance."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Listed drone-relevant products only; automotive products (Traction Inverter, Battery Management Unit, etc.) omitted as not UXV-specific"
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 108,
+        "line_end": 108,
+        "url": "https://www.silver-atena.com",
+        "page_class": "homepage",
+        "snippet": "We develop products with a clear focus on industrialisation and readiness for series production."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 121,
+        "line_end": 121,
+        "url": "https://www.silver-atena.com",
+        "page_class": "homepage",
+        "snippet": "*   Series products from our own production sites"
+      }
+    ],
+    "notes": "Company operates own production sites and delivers series components; certified IATF 16949 and EN 9100; drone subsystem products have detailed specs sheets suggesting production readiness"
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Munich-based developer of flight-control computers, FADEC systems, and SiC-based power electronics (10\u2013600 kW inverters, DC/DC converters, battery management) for aerospace, eVTOL, and defence platforms. Production-ready across avionics, electric propulsion, and ruggedized ground-control displays. NDAA and Blue UAS certification status unknown; public evidence of specific defense primes or US programs limited.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 17,
+    "total_cost_usd": 0.4277022,
+    "created_at": "2026-05-04T06:16:54+00:00",
+    "extract_version": "0.1.0"
+  }
+}

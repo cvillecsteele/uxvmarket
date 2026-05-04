@@ -1,0 +1,443 @@
+{
+  "target_id": "ametek-aerospace-defense",
+  "run_id": "canonical",
+  "display_name": "AMETEK AEROSPACE & DEFENSE",
+  "homepage_url": "https://www.ametekaerospaceanddefense.com/",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/ametek-aerospace-defense/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 21,
+            "line_end": 21,
+            "url": "https://www.ametekaerospaceanddefense.com/",
+            "page_class": "homepage",
+            "snippet": "We have certified a wide array of solutions for engine and airframe temperature, pressure & fluid sensors; power distribution; power generation; motors; heat exchangers; high-speed fans; RF measurement solutions; motion control; fluid and gas transfer hoses; high performance, open architecture, rugged computing; and advanced liquid cooling and pumping solutions."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0010",
+            "line_start": 75,
+            "line_end": 76,
+            "url": "https://www.ametekaerospaceanddefense.com/ourbusiness",
+            "page_class": "other",
+            "snippet": "### The Most Accurate, Rugged, and Reliable Sensors for Military & Aerospace\nAMETEK Sensors and Fluid Management Systems designs and manufactures aircraft sensors. We are aircraft sensor experts serving both the military and commercial markets with a complete sensor suite that measures anywhere in the aircraft: temperature, pressure, flow, fluid level, acceleration, proximity, speed and position."
+          }
+        ],
+        "notes": "AMETEK SFMS designs and manufactures aircraft sensors covering temperature, pressure, flow, fluid level, acceleration, proximity, speed and position; Solartron also makes LVDT displacement sensors"
+      },
+      {
+        "category": "power_systems",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0010",
+            "line_start": 60,
+            "line_end": 60,
+            "url": "https://www.ametekaerospaceanddefense.com/ourbusiness",
+            "page_class": "other",
+            "snippet": "### Power Generation & Distribution, Motion Control, Data Acquisition, and Cockpit Instruments"
+          }
+        ],
+        "notes": "AMETEK PDS supplies power distribution and starter generators for aerospace/defense"
+      },
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0010",
+            "line_start": 36,
+            "line_end": 36,
+            "url": "https://www.ametekaerospaceanddefense.com/ourbusiness",
+            "page_class": "other",
+            "snippet": "### Brushless and Brushed DC Motors, linear systems and AC Motors"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0010",
+            "line_start": 70,
+            "line_end": 70,
+            "url": "https://www.ametekaerospaceanddefense.com/ourbusiness",
+            "page_class": "other",
+            "snippet": "### High Performance & Reliable AC and Brushless DC Fans, Blowers and Cooling Systems"
+          }
+        ],
+        "notes": "Dunkermotoren and AMETEK Rotron supply brushless/brushed DC motors; AMETEK PDS also supplies DC motors"
+      },
+      {
+        "category": "flight_and_vehicle_control",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0010",
+            "line_start": 22,
+            "line_end": 23,
+            "url": "https://www.ametekaerospaceanddefense.com/ourbusiness",
+            "page_class": "other",
+            "snippet": "### Rugged Embedded Computing Products\nAbaco Systems is a global leader in modular, high performance, open architecture, standards-based rugged embedded computing for the most demanding applications in defense and industry. Our products and solutions are found in high-profile military/aerospace sea, land and air programs, plus commercial and industrial organizations in which rugged reliability is mission-critical."
+          }
+        ],
+        "notes": "Abaco Systems provides high-performance rugged embedded computing for defense programs; AMETEK PDS also offers actuation and utility controllers"
+      },
+      {
+        "category": "test_and_measurement",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0010",
+            "line_start": 55,
+            "line_end": 55,
+            "url": "https://www.ametekaerospaceanddefense.com/ourbusiness",
+            "page_class": "other",
+            "snippet": "### RF Measurement Solutions"
+          }
+        ],
+        "notes": "NSI-MI Technologies provides RF measurement solutions; Creaform provides 3D scanning; Taylor Hobson and ZYGO provide metrology instruments"
+      },
+      {
+        "category": "mechanical_subsystems",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0010",
+            "line_start": 51,
+            "line_end": 52,
+            "url": "https://www.ametekaerospaceanddefense.com/ourbusiness",
+            "page_class": "other",
+            "snippet": "### High-Performance Heat Exchangers\nAMETEK Hughes-Treitler is the industry leader in high-performance compact, plate-fin heat exchangers and thermal management sub-systems for the Aerospace & Defense Industry. HT specializes in custom build-to-specification applications where thermal performance, weight, structural integrity and reliability are key considerations. HT provides products for the most challenging applications and requirements."
+          }
+        ],
+        "notes": "Hughes-Treitler supplies compact plate-fin heat exchangers; AAG, PDT, and Rotron supply cooling and thermal management systems; FMH supplies fluid/gas transfer hoses"
+      },
+      {
+        "category": "structures_and_materials",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0010",
+            "line_start": 83,
+            "line_end": 83,
+            "url": "https://www.ametekaerospaceanddefense.com/ourbusiness",
+            "page_class": "other",
+            "snippet": "### High-Precision Metal Material Solutions for Critical Applications"
+          }
+        ],
+        "notes": "AMETEK Specialty Metal Products (SMP) supplies precision metal tubes, foil, shaped wire, and thermal management materials"
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": null,
+    "confidence": "low",
+    "status": "needs_more_fetches",
+    "evidence": [],
+    "notes": "No explicit headquarters address found in the fetched corpus. The contact page (sales-lookup) was skipped."
+  },
+  "drone_supply_chain_role": {
+    "value": "broad_industrial",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 22,
+        "line_end": 30,
+        "url": "https://www.ametekaerospaceanddefense.com/",
+        "page_class": "homepage",
+        "snippet": "**Our Core Markets Include:\n**\n*   Commercial Aerospace\n*   Space\n*   Military Aircraft & Vehicles\n*   Business Jets\n*   Rotocraft\n*   eVTOL & UAVs\n*   Service & Repairs"
+      }
+    ],
+    "notes": "AMETEK Aerospace & Defense is an umbrella for 15+ business units serving commercial aerospace, space, military, and UAV markets. UAVs are one of seven listed core markets. No single UXV-specific product line."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Abaco Systems",
+        "product_type": "rugged embedded computing systems",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0010",
+            "line_start": 22,
+            "line_end": 23,
+            "url": "https://www.ametekaerospaceanddefense.com/ourbusiness",
+            "page_class": "other",
+            "snippet": "### Rugged Embedded Computing Products\nAbaco Systems is a global leader in modular, high performance, open architecture, standards-based rugged embedded computing for the most demanding applications in defense and industry. Our products and solutions are found in high-profile military/aerospace sea, land and air programs, plus commercial and industrial organizations in which rugged reliability is mission-critical."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AMETEK Airtechnology Group (AAG)",
+        "product_type": "thermal management and motion control products",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0010",
+            "line_start": 27,
+            "line_end": 28,
+            "url": "https://www.ametekaerospaceanddefense.com/ourbusiness",
+            "page_class": "other",
+            "snippet": "### Thermal Management, Motion Control, and Active & Passive Cooling Products\nAMETEK Airtechnology Group (AAG) is a design to manufacture business that specializes in developing and manufacturing custom (build-to-specification) thermal management and motion control products for the Aerospace, Defense, Oil & Gas and Rail industries. AAG offers end-to-end service, designing and manufacturing innovative solutions for the most demanding technological challenges."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Dunkermotoren",
+        "product_type": "brushless and brushed DC motors, linear systems",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0010",
+            "line_start": 36,
+            "line_end": 36,
+            "url": "https://www.ametekaerospaceanddefense.com/ourbusiness",
+            "page_class": "other",
+            "snippet": "### Brushless and Brushed DC Motors, linear systems and AC Motors"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AMETEK EIP (Engineered Interconnect and Packaging)",
+        "product_type": "hermetic interconnects and electronic packaging",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0010",
+            "line_start": 41,
+            "line_end": 42,
+            "url": "https://www.ametekaerospaceanddefense.com/ourbusiness",
+            "page_class": "other",
+            "snippet": "### Hermetic Interconnects and Packaging Solutions for High-Performance Electronics\nAMETEK EIP is the world leading producer of interconnect solutions and end-to-end electronic packaging solutions for harsh environments and reliability sensitive applications. AMETEK EIP offers integrated engineering and manufacturing solutions for high performance electronic and optical packaging, protection, and interconnectivity."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "FMH Aerospace",
+        "product_type": "fluid and gas transfer hoses and assemblies",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0010",
+            "line_start": 46,
+            "line_end": 46,
+            "url": "https://www.ametekaerospaceanddefense.com/ourbusiness",
+            "page_class": "other",
+            "snippet": "### Fluid and Gas Transfer at Extreme Temperatures and Pressures"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AMETEK Hughes-Treitler",
+        "product_type": "compact plate-fin heat exchangers",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0010",
+            "line_start": 51,
+            "line_end": 52,
+            "url": "https://www.ametekaerospaceanddefense.com/ourbusiness",
+            "page_class": "other",
+            "snippet": "### High-Performance Heat Exchangers\nAMETEK Hughes-Treitler is the industry leader in high-performance compact, plate-fin heat exchangers and thermal management sub-systems for the Aerospace & Defense Industry. HT specializes in custom build-to-specification applications where thermal performance, weight, structural integrity and reliability are key considerations. HT provides products for the most challenging applications and requirements."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "NSI-MI Technologies",
+        "product_type": "RF measurement solutions",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0010",
+            "line_start": 55,
+            "line_end": 55,
+            "url": "https://www.ametekaerospaceanddefense.com/ourbusiness",
+            "page_class": "other",
+            "snippet": "### RF Measurement Solutions"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AMETEK PDS",
+        "product_type": "power distribution, starter generators, actuation, DC motors, data acquisition",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0010",
+            "line_start": 60,
+            "line_end": 60,
+            "url": "https://www.ametekaerospaceanddefense.com/ourbusiness",
+            "page_class": "other",
+            "snippet": "### Power Generation & Distribution, Motion Control, Data Acquisition, and Cockpit Instruments"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AMETEK PDT",
+        "product_type": "advanced liquid cooling and pumping solutions",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0010",
+            "line_start": 65,
+            "line_end": 66,
+            "url": "https://www.ametekaerospaceanddefense.com/ourbusiness",
+            "page_class": "other",
+            "snippet": "### Advanced Liquid Cooling and Pumping Solutions\nAMETEK PDT is a leading contract, design, and manufacturing company that specializes in the development of advanced liquid cooling and pumping solutions for space, defense, and commercial exploration applications."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AMETEK Rotron",
+        "product_type": "AC and brushless DC fans, blowers, and cooling systems",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0010",
+            "line_start": 70,
+            "line_end": 70,
+            "url": "https://www.ametekaerospaceanddefense.com/ourbusiness",
+            "page_class": "other",
+            "snippet": "### High Performance & Reliable AC and Brushless DC Fans, Blowers and Cooling Systems"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AMETEK SFMS (Sensors and Fluid Management Systems)",
+        "product_type": "aircraft sensors (temperature, pressure, flow, fluid level, acceleration, proximity, speed, position)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0010",
+            "line_start": 75,
+            "line_end": 76,
+            "url": "https://www.ametekaerospaceanddefense.com/ourbusiness",
+            "page_class": "other",
+            "snippet": "### The Most Accurate, Rugged, and Reliable Sensors for Military & Aerospace\nAMETEK Sensors and Fluid Management Systems designs and manufactures aircraft sensors. We are aircraft sensor experts serving both the military and commercial markets with a complete sensor suite that measures anywhere in the aircraft: temperature, pressure, flow, fluid level, acceleration, proximity, speed and position."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AMETEK Specialty Metal Products (SMP)",
+        "product_type": "precision metal powders, tubes, foil, shaped wire, thermal management products",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0010",
+            "line_start": 83,
+            "line_end": 83,
+            "url": "https://www.ametekaerospaceanddefense.com/ourbusiness",
+            "page_class": "other",
+            "snippet": "### High-Precision Metal Material Solutions for Critical Applications"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Products are named business unit brands under the AMETEK Aerospace & Defense umbrella. Individual SKUs are behind a part-number search tool not mirrored."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA or Section 848/889 language found in any fetched page."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS or Blue sUAS language found in any fetched page."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 20,
+        "line_end": 20,
+        "url": "https://www.ametekaerospaceanddefense.com/",
+        "page_class": "homepage",
+        "snippet": "We solve our customers\u2019 most complex challenges by engineering and manufacturing reliable products & solutions for mission critical programs serving aerospace and military markets. Our tailored approach and product lifecycle support mitigates risk and ensures program success."
+      }
+    ],
+    "notes": "AMETEK has over 100 manufacturing locations and supplies production-ready components to OEM aerospace and defense programs with a part-number search catalog on-site."
+  },
+  "unresolved_questions": [
+    "Headquarters address not found in corpus \u2014 contact page was skipped",
+    "NDAA Section 848/889 compliance status not disclosed on site",
+    "Blue UAS clearance status not disclosed on site",
+    "Individual product SKUs not accessible \u2014 behind part-number search tool"
+  ],
+  "fetch_requests": [
+    {
+      "url": "http://www.ametekaerospaceanddefense.com/contact-us/sales-lookup",
+      "reason": "Contact/sales-lookup page may contain physical address or headquarters city/state for AMETEK Aerospace & Defense, needed to fill headquarters field",
+      "expected_evidence": [
+        "headquarters"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=contact",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "tagline": "Broad aerospace & defense component supplier spanning sensors, power systems, propulsion, and mechanical subsystems for commercial, military, and rotorcraft platforms including eVTOL/UAVs. Public evidence thin on NDAA/Blue UAS certification status and specific unmanned-systems program involvement; enumerated products focus on metallurgical analysis instruments rather than flight-critical hardware.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 24,
+    "total_cost_usd": 0.38903974999999996,
+    "created_at": "2026-05-03T21:15:41+00:00",
+    "extract_version": "0.1.0"
+  }
+}

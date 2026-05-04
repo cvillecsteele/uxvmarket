@@ -1,0 +1,66 @@
+{
+  "target_id": "sentera",
+  "run_id": "canonical",
+  "display_name": "Sentera",
+  "homepage_url": "https://senterasensors.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/sentera/website",
+  "products": [],
+  "unresolved_questions": [
+    "The entire mirror failed: the only attempted page (https://senterasensors.com) returned net::ERR_CERT_AUTHORITY_INVALID across all strategies (http-fetch, http-proxy, browser). Zero text was captured, so none of the 7 prioritized products (6X Multispectral Sensor, AGX710 Multispectral Sensor, 65R Sensor, Double 4K Sensor, NDVI Single Sensor, PHX Multispectral Sensor, FieldAgent) could be located or classified.",
+    "Sentera's canonical public-facing site may be https://sentera.com rather than https://senterasensors.com \u2014 the certificate error may reflect a redirect or domain mismatch. The alternative domain should be tried in the next mirror pass."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://senterasensors.com",
+      "reason": "Re-fetch with relaxed TLS validation \u2014 the certificate error may be transient or environment-specific; this is the target homepage that failed",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=failed, page_class=homepage",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://sentera.com/products/",
+      "reason": "senterasensors.com failed with cert error; sentera.com is the known public brand domain and likely hosts product pages for all 7 prioritized products",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "blue_uas",
+        "readiness"
+      ],
+      "source_hint": null,
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://sentera.com/sensors/",
+      "reason": "Sentera is known for multispectral sensors; /sensors/ or similar path likely enumerates the 6X, AGX710, 65R, Double 4K, NDVI, PHX sensor SKUs",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": null,
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://sentera.com/fieldagent/",
+      "reason": "FieldAgent is a named Sentera software/platform product; this URL likely describes it and supports classification",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": null,
+      "in_corpus_index": false
+    }
+  ],
+  "status": "needs_more_fetches",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 7,
+    "total_cost_usd": 0.10450285,
+    "created_at": "2026-05-04T06:08:53+00:00",
+    "extract_version": "0.1.0"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "target_id": "vantage-robotics",
+  "run_id": "canonical",
+  "display_name": "Vantage Robotics",
+  "homepage_url": "https://vantage-robotics.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/vantage-robotics/website",
+  "products": [],
+  "unresolved_questions": [
+    "All fetch attempts for vantage-robotics.com failed with net::ERR_TUNNEL_CONNECTION_FAILED (HTTP 500 from Browserless). Zero pages were retrieved. No product data is available in the corpus. The site may be down, behind a VPN/firewall, or the domain may have lapsed."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://vantage-robotics.com",
+      "reason": "Homepage fetch failed with tunnel connection error; no content was retrieved. A retry may succeed if the site is now reachable.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=failed, resource_id=resource-0001, error=net::ERR_TUNNEL_CONNECTION_FAILED",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://vantage-robotics.com/products",
+      "reason": "Standard product index path \u2014 not yet attempted; would enumerate SKUs and product families.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": null,
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://vantage-robotics.com/solutions",
+      "reason": "Alternate product/capability index path common for robotics vendors.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": null,
+      "in_corpus_index": false
+    }
+  ],
+  "status": "needs_more_fetches",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 4,
+    "total_cost_usd": 0.05104145,
+    "created_at": "2026-05-04T07:29:30+00:00",
+    "extract_version": "0.1.0"
+  }
+}

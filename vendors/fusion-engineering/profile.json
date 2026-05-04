@@ -1,0 +1,207 @@
+{
+  "target_id": "fusion-engineering",
+  "run_id": "canonical",
+  "display_name": "Fusion Engineering",
+  "homepage_url": "https://fusion.engineering",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/fusion-engineering/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "flight_and_vehicle_control",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 12,
+            "line_end": 12,
+            "url": "https://fusion.engineering",
+            "page_class": "homepage",
+            "snippet": "EXPERTS IN FLIGHT CONTROL TECHNOLOGY"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0037",
+            "line_start": 13,
+            "line_end": 13,
+            "url": "https://fusion.engineering/technology",
+            "page_class": "capability",
+            "snippet": "Our flight control is built from the ground up for the commercial drone market. We use the latest research in state estimation, flight control, and fault tolerance, to make the most robust system possible with the newest algorithms; facilitating the next generation of drone applications."
+          }
+        ],
+        "notes": "Makes flight controllers (hardware+software) for multirotor drones. Technology includes INDI-based flight control and UKF-based state estimation embedded in the same product."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Delft",
+      "state_or_province": null,
+      "country": "Netherlands",
+      "address": "Kluyverweg 1"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0012",
+        "line_start": 15,
+        "line_end": 18,
+        "url": "https://fusion.engineering/contact",
+        "page_class": "contact",
+        "snippet": "Address:\nKluyverweg 1\n2629HS Delft\nNetherlands"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 12,
+        "line_end": 12,
+        "url": "https://fusion.engineering",
+        "page_class": "homepage",
+        "snippet": "EXPERTS IN FLIGHT CONTROL TECHNOLOGY"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0027",
+        "line_start": 21,
+        "line_end": 21,
+        "url": "https://fusion.engineering/may-2021-off-to-a-flying-start",
+        "page_class": "news",
+        "snippet": "### These drone manufacturers already partnered with us. Are you next?"
+      }
+    ],
+    "notes": "Sells flight controller hardware (Fusion Reflex IM) to drone manufacturers; explicitly targets 'drone manufacturers that work on drone applications'."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Fusion Reflex IM",
+        "product_type": "flight controller for multirotor drones",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0026",
+            "line_start": 14,
+            "line_end": 16,
+            "url": "https://fusion.engineering/march-2021-fusion-reflex-im-release",
+            "page_class": "news",
+            "snippet": "Fusion Reflex IM\n================\nToday is a huge milestone for Fusion Engineering. We are proud to announce the release of our first flight controller: Fusion Reflex Introductory Model (or in short, Fusion Reflex IM.)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0027",
+            "line_start": 12,
+            "line_end": 12,
+            "url": "https://fusion.engineering/may-2021-off-to-a-flying-start",
+            "page_class": "news",
+            "snippet": "The Fusion Reflex Introductory Model"
+          }
+        ],
+        "notes": "IM = Introductory Model; first release of the Fusion Reflex product line. Developer kit orderable via /reflex-im-order-page."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Product page /reflex-im was skipped; may contain additional model details."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "low_rate_production",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0027",
+        "line_start": 15,
+        "line_end": 15,
+        "url": "https://fusion.engineering/may-2021-off-to-a-flying-start",
+        "page_class": "news",
+        "snippet": "We got a lot of great responses to our first product release, which we are very thankful for. With our Fusion Reflex IM being released, the first IM\u2019s are currently being shipped to our development partners. Integration will start soon; exciting times!"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0027",
+        "line_start": 19,
+        "line_end": 19,
+        "url": "https://fusion.engineering/may-2021-off-to-a-flying-start",
+        "page_class": "news",
+        "snippet": "[Start prototyping now with the Fusion Reflex IM developer kit](https://fusion.engineering/reflex-im-order-page/)"
+      }
+    ],
+    "notes": "As of May 2021, first units being shipped to development partners as developer kits; order page existed. Skipped pages from 2022 may indicate production ramp."
+  },
+  "unresolved_questions": [
+    "Whether Fusion Reflex has progressed from developer-kit/low-rate to full serial production (2022+ news pages skipped)",
+    "Whether additional product models (beyond Fusion Reflex IM) have been released"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://fusion.engineering/reflex-im",
+      "reason": "Product page for Fusion Reflex IM; would confirm product specs, SKU details, pricing, and production status beyond the 2021 developer-kit stage.",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://fusion.engineering/reflex-im-order-page",
+      "reason": "Order page for the Fusion Reflex IM; would confirm availability, lead times, and whether product is in serial production.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://fusion.engineering/about-us",
+      "reason": "About page; would confirm headquarters details and company background.",
+      "expected_evidence": [
+        "headquarters",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Delft-based supplier of multirotor flight controllers (Fusion Reflex line, including Reflex IM) built on modular Rust software and INDI-based control algorithms for disturbance rejection and fault tolerance. In low-rate production; NDAA and Blue UAS certification status unknown. Public evidence sparse on US defense contracts or integration roadmap.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 10,
+    "total_cost_usd": 0.4166935,
+    "created_at": "2026-05-04T02:53:40+00:00",
+    "extract_version": "0.1.0"
+  }
+}

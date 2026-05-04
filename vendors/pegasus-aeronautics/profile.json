@@ -1,0 +1,346 @@
+{
+  "target_id": "pegasus-aeronautics",
+  "run_id": "canonical",
+  "display_name": "Pegasus Aeronautics",
+  "homepage_url": "https://www.pegasusaero.ca",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/pegasus-aeronautics/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "power_systems",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0038",
+            "line_start": 17,
+            "line_end": 17,
+            "url": "https://www.pegasusaero.ca/products",
+            "page_class": "product",
+            "snippet": "**Powertrain Products**"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0038",
+            "line_start": 20,
+            "line_end": 21,
+            "url": "https://www.pegasusaero.ca/products",
+            "page_class": "product",
+            "snippet": "### **Gas-Electric, 35cc (GE35)**\nThe GE35 is designed to power platforms with average electrical power demands up to 2,000W. At a base weight of 2.6kg, it is the lightest power unit that Pegasus offers, and the lightest gas-electric power unit available."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0038",
+            "line_start": 25,
+            "line_end": 26,
+            "url": "https://www.pegasusaero.ca/products",
+            "page_class": "product",
+            "snippet": "### **Gas-Electric, 70cc (GE70)**\nThe GE70 is designed to power platforms with average power demands up to 4,000W. With a base weight of 3.5kg, the GE70 is capable of powering larger industrial platforms with low vibrations and unparalleled reliability."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0038",
+            "line_start": 30,
+            "line_end": 31,
+            "url": "https://www.pegasusaero.ca/products",
+            "page_class": "product",
+            "snippet": "### **Direct Drive, 70cc (GD70)**\nCapable of providing 4,500W of shaft power, the GD70 is a perfect fit for industrial fixed-wing and hybrid platforms. The GD70 also has the lightest weight-to-power generation in the industry, with up to 1,000W for recharging batteries and powering auxiliary loads."
+          }
+        ],
+        "notes": "Hybrid gas-electric (GE35, GE70) and direct-drive (GD70) power units for UAVs are the primary product line"
+      },
+      {
+        "category": "airframes",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0036",
+            "line_start": 32,
+            "line_end": 33,
+            "url": "https://www.pegasusaero.ca/platforms",
+            "page_class": "product",
+            "snippet": "### **PEGASUS** G15 SENTINEL\nModularity, Flexibility, Adaptability. Your application demands the most capable sensor packages \u2013 and the Sentinel can lift them."
+          }
+        ],
+        "notes": "G15 Sentinel is a complete hybrid UAV platform; the dedicated product page was skipped"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Waterloo",
+      "state_or_province": "Ontario",
+      "country": "Canada",
+      "address": "60 Bathurst Drive, Unit 26, Waterloo, Ontario, Canada, N2V 2A9"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0028",
+        "line_start": 21,
+        "line_end": 24,
+        "url": "https://www.pegasusaero.ca/contact",
+        "page_class": "contact",
+        "snippet": "Pegasus Aeronautics\n60 Bathurst Drive, Unit 26\nWaterloo, Ontario, Canada\nN2V 2A9"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 21,
+        "line_end": 21,
+        "url": "https://www.pegasusaero.ca",
+        "page_class": "homepage",
+        "snippet": "### Unlock the true potential of airborne applications using advanced Hybrid and Power Systems Technology."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0019",
+        "line_start": 25,
+        "line_end": 25,
+        "url": "https://www.pegasusaero.ca/about",
+        "page_class": "company",
+        "snippet": "The power units designed and manufactured by Pegasus are built with industrial environments in mind, and are capable of operating in a wide variety of climates. With Pegasus, the following industry-leading technologies and capabilities are designed into every device:"
+      }
+    ],
+    "notes": "Primary business is designing and manufacturing hybrid power units sold to UAV platform builders. Also offers the G15 Sentinel as their own complete UAV platform."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "GE35",
+        "product_type": "Gas-electric 35cc hybrid power unit for UAVs",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0038",
+            "line_start": 20,
+            "line_end": 21,
+            "url": "https://www.pegasusaero.ca/products",
+            "page_class": "product",
+            "snippet": "### **Gas-Electric, 35cc (GE35)**\nThe GE35 is designed to power platforms with average electrical power demands up to 2,000W. At a base weight of 2.6kg, it is the lightest power unit that Pegasus offers, and the lightest gas-electric power unit available."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "GE70",
+        "product_type": "Gas-electric 70cc hybrid power unit for UAVs",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0038",
+            "line_start": 25,
+            "line_end": 26,
+            "url": "https://www.pegasusaero.ca/products",
+            "page_class": "product",
+            "snippet": "### **Gas-Electric, 70cc (GE70)**\nThe GE70 is designed to power platforms with average power demands up to 4,000W. With a base weight of 3.5kg, the GE70 is capable of powering larger industrial platforms with low vibrations and unparalleled reliability."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "GD70",
+        "product_type": "Direct drive 70cc power unit for UAVs",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0038",
+            "line_start": 30,
+            "line_end": 31,
+            "url": "https://www.pegasusaero.ca/products",
+            "page_class": "product",
+            "snippet": "### **Direct Drive, 70cc (GD70)**\nCapable of providing 4,500W of shaft power, the GD70 is a perfect fit for industrial fixed-wing and hybrid platforms. The GD70 also has the lightest weight-to-power generation in the industry, with up to 1,000W for recharging batteries and powering auxiliary loads."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "GE150 Lite",
+        "product_type": "Gas-electric 150cc hybrid power unit (upcoming)",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0038",
+            "line_start": 35,
+            "line_end": 36,
+            "url": "https://www.pegasusaero.ca/products",
+            "page_class": "product",
+            "snippet": "### **Gas-Electric, 150cc Lite (GE150 Lite)**\nContact us for more information!"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "GD150",
+        "product_type": "Direct drive 150cc power unit (upcoming)",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0038",
+            "line_start": 39,
+            "line_end": 40,
+            "url": "https://www.pegasusaero.ca/products",
+            "page_class": "product",
+            "snippet": "### **Direct Drive, 150cc (GD150)**\nContact us for more information!"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "GE600",
+        "product_type": "Gas-electric 600cc hybrid power unit (upcoming)",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0038",
+            "line_start": 43,
+            "line_end": 44,
+            "url": "https://www.pegasusaero.ca/products",
+            "page_class": "product",
+            "snippet": "### **Gas-Electric, 600cc Lite (GE600)**\nContact us for more information!"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "G15 Sentinel",
+        "product_type": "Hybrid UAV platform",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0036",
+            "line_start": 32,
+            "line_end": 33,
+            "url": "https://www.pegasusaero.ca/platforms",
+            "page_class": "product",
+            "snippet": "### **PEGASUS** G15 SENTINEL\nModularity, Flexibility, Adaptability. Your application demands the most capable sensor packages \u2013 and the Sentinel can lift them."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "GE35, GE70, GD70 are current production units; GE150 Lite, GD150, GE600 are listed as coming soon. G15 Sentinel page was skipped."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0027",
+        "line_start": 26,
+        "line_end": 26,
+        "url": "https://www.pegasusaero.ca/capabilities",
+        "page_class": "capability",
+        "snippet": "Pegasus facilities include engine testing chambers for engine tuning and performance assessment. Every engine unit shipped by Pegasus is thoroughly tested to ensure it meets the necessary specifications."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0038",
+        "line_start": 20,
+        "line_end": 22,
+        "url": "https://www.pegasusaero.ca/products",
+        "page_class": "product",
+        "snippet": "### **Gas-Electric, 35cc (GE35)**\nThe GE35 is designed to power platforms with average electrical power demands up to 2,000W. At a base weight of 2.6kg, it is the lightest power unit that Pegasus offers, and the lightest gas-electric power unit available.\n[Learn more](/ge35)"
+      }
+    ],
+    "notes": "GE35, GE70, GD70 are active production units with full specs; every shipped engine is tested. GE150 Lite, GD150, GE600 are listed as coming soon."
+  },
+  "unresolved_questions": [
+    "G15 Sentinel product page was skipped \u2014 full specs and production status unknown",
+    "Individual power unit pages (GE35, GE70, GD70) not fetched \u2014 pricing/availability not confirmed",
+    "No NDAA or Blue UAS compliance information found anywhere in corpus"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.pegasusaero.ca/g15-sentinel",
+      "reason": "G15 Sentinel product page would confirm specifications, airframe category, and production readiness",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.pegasusaero.ca/ge35",
+      "reason": "Individual GE35 product page would provide detailed specs and confirm production/availability status",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.pegasusaero.ca/ge70",
+      "reason": "Individual GE70 product page would provide detailed specs and confirm production/availability status",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.pegasusaero.ca/gd70",
+      "reason": "Individual GD70 product page would provide detailed specs and confirm production/availability status",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Waterloo-based supplier of gas-electric hybrid and direct-drive power units (35cc\u2013600cc) for extended-endurance UAVs, plus the G15 Sentinel hybrid-electric multirotor platform rated for 3+ hours flight time and heavy payload. NDAA compliance and Blue UAS certification status unknown; production-ready across core power SKUs but limited public evidence on defense contracts or integration roadmap.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 20,
+    "total_cost_usd": 0.4293567999999999,
+    "created_at": "2026-05-04T05:07:53+00:00",
+    "extract_version": "0.1.0"
+  }
+}

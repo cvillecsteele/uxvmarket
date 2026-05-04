@@ -1,0 +1,653 @@
+{
+  "target_id": "ark-electron",
+  "run_id": "canonical",
+  "display_name": "ARK Electron",
+  "homepage_url": "https://arkelectron.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/ark-electron/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "flight_and_vehicle_control",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 100,
+            "line_end": 100,
+            "url": "https://arkelectron.com",
+            "page_class": "homepage",
+            "snippet": "NDAA-compliant, Blue UAS listed flight controllers, GPS modules, and sensors \u2014 designed for defense, commercial, and research applications."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0387",
+            "line_start": 103,
+            "line_end": 103,
+            "url": "https://arkelectron.com/product/arkv6x",
+            "page_class": "product",
+            "snippet": "Blue Framework Listed, USA built, NDAA compliant flight controller based on the FMUV6X and Pixhawk Autopilot Bus open source standards with triple synced IMUs."
+          }
+        ],
+        "notes": "Flight controllers are the flagship product line: ARKV6X, ARK FPV, ARK Pi6X, ARK Pi6X Flow, ARK Pixhawk PAB Carrier, ARK Jetson PAB Carrier."
+      },
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 40,
+            "line_end": 53,
+            "url": "https://arkelectron.com",
+            "page_class": "homepage",
+            "snippet": "    *   [GPS](https://arkelectron.com/product-category/sensors/gps/)\n        *   [Septentrio GPS](https://arkelectron.com/product-category/sensors/gps/septentrio-gps/)\n            *   [ARK G5 RTK GPS](https://arkelectron.com/product/ark-g5-rtk-gps/)\n            *   [ARK G5 RTK HEADING GPS](https://arkelectron.com/product/ark-g5-rtk-heading-gps/)\n            *   [ARK MOSAIC-X5 RTK GPS](https://arkelectron.com/product/ark-mosaic-x5-gps/)\n        *   [ST GPS](https://arkelectron.com/product-category/sensors/gps/st-gps/)\n            *   [ARK TESEO GPS](https://arkelectron.com/product/ark-teseo-gps/)\n        *   [u-blox GPS](https://arkelectron.com/product-category/sensors/gps/u-blox-gps/)\n            *   [ARK DAN GPS](https://arkelectron.com/product/ark-dan-gps/)\n            *   [ARK GPS](https://arkelectron.com/product/ark-gps/)\n            *   [ARK RTK Base](https://arkelectron.com/product/ark-rtk-base/)\n            *   [ARK RTK GPS](https://arkelectron.com/product/ark-rtk-gps/)\n            *   [ARK RTK GPS L1 L5](https://arkelectron.com/product/ark-rtk-gps-l1-l5/)\n            *   [ARK SAM GPS](https://arkelectron.com/product/ark-sam-gps/)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 56,
+            "line_end": 67,
+            "url": "https://arkelectron.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Sensors](https://arkelectron.com/product-category/sensors/)\n        *   [IMU](https://arkelectron.com/product-category/sensors/imu/)\n            *   [ARK ADIS16507](https://arkelectron.com/product/ark-adis16507/)\n            *   [ARK CANnode](https://arkelectron.com/product/ark-cannode/)\n            *   [ARK SCH16T](https://arkelectron.com/product/ark-sch16t/)\n            *   [ARK SCH16T-K10 IMU](https://arkelectron.com/product/ark-sch16t-k10-imu/)\n        *   [Magnetometers](https://arkelectron.com/product-category/sensors/mag/)\n            *   [ARK MAG](https://arkelectron.com/product/ark-mag/)\n        *   [Optical Flow](https://arkelectron.com/product-category/sensors/optical-flow/)\n            *   [ARK Flow](https://arkelectron.com/product/ark-flow/)\n            *   [ARK Flow MR](https://arkelectron.com/product/ark-flow-mr/)\n        *   [Rangefinders](https://arkelectron.com/product-category/sensors/rangefinders/)"
+          }
+        ],
+        "notes": "GPS modules (u-blox, Septentrio), IMUs (ADIS16507, SCH16T), optical flow (ARK Flow), rangefinders (ARK DIST SR/MR), magnetometers (ARK MAG)."
+      },
+      {
+        "category": "propulsion_electronics",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 70,
+            "line_end": 72,
+            "url": "https://arkelectron.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Electronic Speed Controllers](https://arkelectron.com/product-category/electronic-speed-controllers/)\n        *   [ARK 4IN1 ESC](https://arkelectron.com/product/ark-4in1-esc/)\n        *   [ARK 4IN1 ESC CONS](https://arkelectron.com/product/ark-4in1-esc-cons/)"
+          }
+        ],
+        "notes": "ARK 4IN1 ESC and ARK 4IN1 ESC CONS \u2014 NDAA-compliant, Blue UAS listed electronic speed controllers."
+      },
+      {
+        "category": "power_systems",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 76,
+            "line_end": 79,
+            "url": "https://arkelectron.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Power](https://arkelectron.com/product-category/power/)\n        *   [ARK 12S PAB Power Module](https://arkelectron.com/product/ark-12s-pab-power-module/)\n        *   [ARK 12S Payload Power Module](https://arkelectron.com/product/ark-12s-payload-power-module/)\n        *   [ARK PAB Power Module](https://arkelectron.com/product/ark-pab-power-module/)"
+          }
+        ],
+        "notes": "ARK PAB Power Module, ARK 12S PAB Power Module, ARK 12S Payload Power Module, LiPow USB-C LiPo charger."
+      },
+      {
+        "category": "communications",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 73,
+            "line_end": 75,
+            "url": "https://arkelectron.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Radio](https://arkelectron.com/product-category/radio/)\n        *   [ARK M.2 LTE](https://arkelectron.com/product/ark-m-2-lte/)\n        *   [ARK Microhard DDL Carrier](https://arkelectron.com/product/1w-microhard-ddl-ip-radio/)"
+          }
+        ],
+        "notes": "ARK M.2 LTE module and ARK Microhard DDL Carrier for drone data links and telemetry."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Salt Lake City",
+      "state_or_province": "Utah",
+      "country": "United States",
+      "address": null
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0030",
+        "line_start": 108,
+        "line_end": 108,
+        "url": "https://arkelectron.com/contact-us",
+        "page_class": "contact",
+        "snippet": "*   Salt Lake City, UT USA"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0010",
+        "line_start": 96,
+        "line_end": 96,
+        "url": "https://arkelectron.com/about",
+        "page_class": "company",
+        "snippet": "Founded in 2018, ARK Electronics is dedicated to designing and manufacturing high-quality, **made-in-the-USA** drone and robotics electronics. We specialize in cutting-edge, NDAA-compliant components trusted for professional, commercial, and defense applications, including flight controllers, GPS modules, optical flow and distance sensors, rangefinders, power modules, and inertial measurement units."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0387",
+        "line_start": 103,
+        "line_end": 103,
+        "url": "https://arkelectron.com/product/arkv6x",
+        "page_class": "product",
+        "snippet": "Blue Framework Listed, USA built, NDAA compliant flight controller based on the FMUV6X and Pixhawk Autopilot Bus open source standards with triple synced IMUs."
+      }
+    ],
+    "notes": "Designs and manufactures autopilots, GPS modules, IMUs, ESCs, and power modules \u2014 all major drone subsystems sold to OEMs, integrators, and defense programs. Does not build complete drone platforms."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "ARKV6X Flight Controller",
+        "product_type": "Pixhawk-standard autopilot / flight controller",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0387",
+            "line_start": 100,
+            "line_end": 103,
+            "url": "https://arkelectron.com/product/arkv6x",
+            "page_class": "product",
+            "snippet": "ARKV6X Flight Controller\n========================\n$400.00\nBlue Framework Listed, USA built, NDAA compliant flight controller based on the FMUV6X and Pixhawk Autopilot Bus open source standards with triple synced IMUs."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ARK FPV Flight Controller",
+        "product_type": "FPV-oriented NDAA flight controller",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0058",
+            "line_start": 101,
+            "line_end": 104,
+            "url": "https://arkelectron.com/product-category/ndaa-flight-controllers",
+            "page_class": "compliance",
+            "snippet": "*   [![ARK FPV Flight Controller USA built NDAA compliant](https://arkelectron.com/wp-content/uploads/2024/10/IMG_3628_edited-Large-300x300.jpg)\n    ARK FPV Flight Controller\n    -------------------------\n    $169.99](https://arkelectron.com/product/ark-fpv-flight-controller/) [Add to cart](/product-category/ndaa-flight-controllers/?add-to-cart=3713)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ARK Pi6X",
+        "product_type": "Raspberry Pi CM4 based flight controller",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0058",
+            "line_start": 133,
+            "line_end": 136,
+            "url": "https://arkelectron.com/product-category/ndaa-flight-controllers",
+            "page_class": "compliance",
+            "snippet": "*   [![ARK Pi6X Flight Controller Raspberry Pi CM4 Carrier Power Module](https://arkelectron.com/wp-content/uploads/2024/11/IMG_3711-Edited-Large-300x300.jpg)\n    ARK Pi6X\n    --------\n    $665.00 \u2013 $785.00Price range: $665.00 through $785.00](https://arkelectron.com/product/ark-pi6x/) [Select options](https://arkelectron.com/product/ark-pi6x/) This product has multiple variants. The options may be chosen on the product page"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ARK Pi6X Flow",
+        "product_type": "Flight controller with integrated optical flow",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0058",
+            "line_start": 153,
+            "line_end": 156,
+            "url": "https://arkelectron.com/product-category/ndaa-flight-controllers",
+            "page_class": "compliance",
+            "snippet": "*   [![ARK Pi6X Flow Bundle](https://arkelectron.com/wp-content/uploads/2024/06/IMG_2669_edited-Large-300x300.jpg)\n    ARK Pi6X Flow\n    -------------\n    $915.00 \u2013 $1,035.00Price range: $915.00 through $1,035.00](https://arkelectron.com/product/ark-pi6x-flow/) [Select options](https://arkelectron.com/product/ark-pi6x-flow/) This product has multiple variants. The options may be chosen on the product page"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ARK Jetson PAB Carrier",
+        "product_type": "NVIDIA Jetson PAB flight controller carrier board",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0206",
+            "line_start": 112,
+            "line_end": 115,
+            "url": "https://arkelectron.com/product-tag/ndaa",
+            "page_class": "compliance",
+            "snippet": "*   [![ARK Jetson PAB Carrier](https://arkelectron.com/wp-content/uploads/2023/08/Jetson_PAB_LowQ-3-300x300.jpg)\n    ARK Jetson PAB Carrier\n    ----------------------\n    $800.00](https://arkelectron.com/product/ark-jetson-pab-carrier/) [Add to cart](/product-tag/ndaa/?add-to-cart=2436)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ARK Just A Jetson",
+        "product_type": "Compact NVIDIA Jetson carrier board",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0206",
+            "line_start": 128,
+            "line_end": 131,
+            "url": "https://arkelectron.com/product-tag/ndaa",
+            "page_class": "compliance",
+            "snippet": "*   [![ARK Just A Jetson](https://arkelectron.com/wp-content/uploads/2025/03/IMG_4226-Edited-Large-300x300.jpg)\n    ARK Just A Jetson\n    -----------------\n    $680.00](https://arkelectron.com/product/ark-just-a-jetson/) [Add to cart](/product-tag/ndaa/?add-to-cart=4241)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ARK Pixhawk Autopilot Bus Carrier",
+        "product_type": "Pixhawk Autopilot Bus (PAB) carrier board",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0058",
+            "line_start": 109,
+            "line_end": 112,
+            "url": "https://arkelectron.com/product-category/ndaa-flight-controllers",
+            "page_class": "compliance",
+            "snippet": "*   [![ARK Pixhawk Autopilot Bus Carrier](https://arkelectron.com/wp-content/uploads/2023/01/ark_pab_3-300x300.jpg)\n    ARK Pixhawk Autopilot Bus Carrier\n    ---------------------------------\n    $450.00](https://arkelectron.com/product/ark-pixhawk-autopilot-bus-carrier/) [Add to cart](/product-category/ndaa-flight-controllers/?add-to-cart=2163)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ARK VOXL2 RTK PAB Carrier",
+        "product_type": "VOXL2 RTK flight controller carrier",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0058",
+            "line_start": 149,
+            "line_end": 152,
+            "url": "https://arkelectron.com/product-category/ndaa-flight-controllers",
+            "page_class": "compliance",
+            "snippet": "*   [![ARK VOXL2 RTK PAB Carrier](https://arkelectron.com/wp-content/uploads/2024/05/IMG_1812_edited-Large-300x300.jpg)\n    ARK VOXL2 RTK PAB Carrier\n    -------------------------\n    $1,150.00](https://arkelectron.com/product/ark-voxl2-rtk-pab-carrier/) [Add to cart](/product-category/ndaa-flight-controllers/?add-to-cart=3220)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ARK Jetson PAB Orin NX NDAA Bundle",
+        "product_type": "NDAA-compliant Jetson Orin NX autopilot bundle",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0349",
+            "line_start": 99,
+            "line_end": 101,
+            "url": "https://arkelectron.com/product/ark-jetson-orin-nx-ndaa-bundle",
+            "page_class": "compliance",
+            "snippet": "ARK Jetson PAB Orin NX NDAA Bundle\n==================================\n$2,342.00 \u2013 $2,990.50Price range: $2,342.00 through $2,990.50"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ARK G5 RTK GPS",
+        "product_type": "Septentrio-based RTK GPS module",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0206",
+            "line_start": 144,
+            "line_end": 147,
+            "url": "https://arkelectron.com/product-tag/ndaa",
+            "page_class": "compliance",
+            "snippet": "*   [![ARK G5 RTK GPS](https://arkelectron.com/wp-content/uploads/2025/12/IMG_5857_edited-Large-300x300.jpg)\n    ARK G5 RTK GPS\n    --------------\n    $745.00 \u2013 $820.00Price range: $745.00 through $820.00](https://arkelectron.com/product/ark-g5-rtk-gps/) [Select options](https://arkelectron.com/product/ark-g5-rtk-gps/) This product has multiple variants. The options may be chosen on the product page"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ARK X20 RTK GPS",
+        "product_type": "RTK GPS module",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0206",
+            "line_start": 124,
+            "line_end": 127,
+            "url": "https://arkelectron.com/product-tag/ndaa",
+            "page_class": "compliance",
+            "snippet": "*   [![ARK X20 GPS](https://arkelectron.com/wp-content/uploads/2025/11/IMG_5106_edited-Large-300x300.jpg)\n    ARK X20 RTK GPS\n    ---------------\n    $695.00 \u2013 $745.00Price range: $695.00 through $745.00](https://arkelectron.com/product/ark-x20-rtk-gps/) [Select options](https://arkelectron.com/product/ark-x20-rtk-gps/) This product has multiple variants. The options may be chosen on the product page"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ARK RTK GPS",
+        "product_type": "u-blox RTK GPS module",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 51,
+            "line_end": 51,
+            "url": "https://arkelectron.com",
+            "page_class": "homepage",
+            "snippet": "            *   [ARK RTK GPS](https://arkelectron.com/product/ark-rtk-gps/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ARK MOSAIC-X5 RTK GPS",
+        "product_type": "Septentrio MOSAIC-X5 RTK GPS module",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 44,
+            "line_end": 44,
+            "url": "https://arkelectron.com",
+            "page_class": "homepage",
+            "snippet": "            *   [ARK MOSAIC-X5 RTK GPS](https://arkelectron.com/product/ark-mosaic-x5-gps/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ARK Flow",
+        "product_type": "Optical flow and distance sensor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 65,
+            "line_end": 65,
+            "url": "https://arkelectron.com",
+            "page_class": "homepage",
+            "snippet": "            *   [ARK Flow](https://arkelectron.com/product/ark-flow/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ARK ADIS16507",
+        "product_type": "Precision IMU module",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 58,
+            "line_end": 58,
+            "url": "https://arkelectron.com",
+            "page_class": "homepage",
+            "snippet": "            *   [ARK ADIS16507](https://arkelectron.com/product/ark-adis16507/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ARK SCH16T",
+        "product_type": "Industrial-grade IMU module",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 60,
+            "line_end": 60,
+            "url": "https://arkelectron.com",
+            "page_class": "homepage",
+            "snippet": "            *   [ARK SCH16T](https://arkelectron.com/product/ark-sch16t/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ARK 4IN1 ESC",
+        "product_type": "4-in-1 electronic speed controller (AM32, NDAA)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0206",
+            "line_start": 100,
+            "line_end": 103,
+            "url": "https://arkelectron.com/product-tag/ndaa",
+            "page_class": "compliance",
+            "snippet": "*   [![ARK 4IN1 ESC NDAA AM32 FPV Made in the USA](https://arkelectron.com/wp-content/uploads/2024/09/IMG_3371-edited-Large-300x300.jpg)\n    ARK 4IN1 ESC\n    ------------\n    $198.50](https://arkelectron.com/product/ark-4in1-esc/) [Add to cart](/product-tag/ndaa/?add-to-cart=3537)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ARK 4IN1 ESC CONS",
+        "product_type": "4-in-1 connectorized ESC (NDAA, Blue UAS)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0206",
+            "line_start": 116,
+            "line_end": 119,
+            "url": "https://arkelectron.com/product-tag/ndaa",
+            "page_class": "compliance",
+            "snippet": "*   [![ARK 4IN1 ESC CONNECTORIZED No Soldering](https://arkelectron.com/wp-content/uploads/2025/07/IMG_5170_edited-Large-300x300.jpg)\n    ARK 4IN1 ESC CONS\n    -----------------\n    $218.50](https://arkelectron.com/product/ark-4in1-esc-cons/) [Add to cart](/product-tag/ndaa/?add-to-cart=4966)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ARK PAB Power Module",
+        "product_type": "Pixhawk Autopilot Bus power module",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 79,
+            "line_end": 79,
+            "url": "https://arkelectron.com",
+            "page_class": "homepage",
+            "snippet": "        *   [ARK PAB Power Module](https://arkelectron.com/product/ark-pab-power-module/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ARK 12S PAB Power Module",
+        "product_type": "12S LiPo power module for PAB",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 77,
+            "line_end": 77,
+            "url": "https://arkelectron.com",
+            "page_class": "homepage",
+            "snippet": "        *   [ARK 12S PAB Power Module](https://arkelectron.com/product/ark-12s-pab-power-module/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ARK M.2 LTE",
+        "product_type": "M.2 form-factor LTE radio module",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 74,
+            "line_end": 74,
+            "url": "https://arkelectron.com",
+            "page_class": "homepage",
+            "snippet": "        *   [ARK M.2 LTE](https://arkelectron.com/product/ark-m-2-lte/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ARK Microhard DDL Carrier",
+        "product_type": "Microhard digital data link radio carrier",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 75,
+            "line_end": 75,
+            "url": "https://arkelectron.com",
+            "page_class": "homepage",
+            "snippet": "        *   [ARK Microhard DDL Carrier](https://arkelectron.com/product/1w-microhard-ddl-ip-radio/)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": "yes",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 100,
+        "line_end": 100,
+        "url": "https://arkelectron.com",
+        "page_class": "homepage",
+        "snippet": "NDAA-compliant, Blue UAS listed flight controllers, GPS modules, and sensors \u2014 designed for defense, commercial, and research applications."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0010",
+        "line_start": 96,
+        "line_end": 96,
+        "url": "https://arkelectron.com/about",
+        "page_class": "company",
+        "snippet": "Founded in 2018, ARK Electronics is dedicated to designing and manufacturing high-quality, **made-in-the-USA** drone and robotics electronics. We specialize in cutting-edge, NDAA-compliant components trusted for professional, commercial, and defense applications, including flight controllers, GPS modules, optical flow and distance sensors, rangefinders, power modules, and inertial measurement units."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0387",
+        "line_start": 134,
+        "line_end": 134,
+        "url": "https://arkelectron.com/product/arkv6x",
+        "page_class": "product",
+        "snippet": "    *   NDAA compliant"
+      }
+    ],
+    "notes": "Site explicitly and repeatedly claims NDAA compliance for flight controllers, GPS, sensors, and bundles. Dedicated NDAA product category page. Products tagged 'ndaa compliant'."
+  },
+  "blue_uas": {
+    "value": "yes",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 120,
+        "line_end": 120,
+        "url": "https://arkelectron.com",
+        "page_class": "homepage",
+        "snippet": " [![Made in USA](https://arkelectron.com/wp-content/uploads/2021/01/american-flag-2144392_1280-300x158.png) Made in USA](https://arkelectron.com \"Made in USA\")[![NDAA Compliant](https://arkelectron.com/wp-content/uploads/2026/02/NDAA_logo_HQ_1-300x273-1.png) NDAA Compliant ](https://arkelectron.com/ndaa-compliant/ \"NDAA Compliant\")[![Blue UAS Listed](https://arkelectron.com/wp-content/uploads/2025/10/Large_Blue_UAS_Logo_Plain-1024x512.jpg) Blue UAS Listed ](https://bluelist.appsplatformportals.us/Framework/ \"Blue UAS Listed\")[![Dronecode Foundation Member](https://arkelectron.com/wp-content/uploads/2023/10/dronecode_logo_default-2.png) Dronecode Member ](https://dronecode.org/welcome-ark-electronics-as-a-silver-member/ \"Dronecode Foundation Member\")[![ArduPilot Partner](https://arkelectron.com/wp-content/uploads/2024/07/ArduPilot-Cleaned-Transparent.png) ArduPilot Partner ](https://ardupilot.org/ardupilot/docs/common-partners.html \"ArduPilot Partner\")[![47G Utah Aerospace & Defense](https://arkelectron.com/wp-content/uploads/2024/01/47g-1024x227.png) 47G Member](https://www.47g.org/members/ark-electronics/ \"47G Member\")"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0010",
+        "line_start": 97,
+        "line_end": 97,
+        "url": "https://arkelectron.com/about",
+        "page_class": "company",
+        "snippet": "All of our products are proudly designed, manufactured, and tested in the United States. This commitment to American manufacturing ensures superior quality control, a resilient domestic supply chain, and support for U.S. jobs and innovation. Many of our solutions are listed on the DIU Blue UAS Framework, making them ideal for government and mission-critical programs."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0387",
+        "line_start": 133,
+        "line_end": 133,
+        "url": "https://arkelectron.com/product/arkv6x",
+        "page_class": "product",
+        "snippet": "    *   [Blue Framework Listed](https://www.diu.mil/blue-uas/framework)"
+      }
+    ],
+    "notes": "Homepage has 'Blue UAS Listed' badge with link to DIU Blue UAS Framework. About page states many products listed on DIU Blue UAS Framework. ARKV6X explicitly tagged 'Blue Framework Listed'."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0387",
+        "line_start": 102,
+        "line_end": 104,
+        "url": "https://arkelectron.com/product/arkv6x",
+        "page_class": "product",
+        "snippet": "$400.00\nBlue Framework Listed, USA built, NDAA compliant flight controller based on the FMUV6X and Pixhawk Autopilot Bus open source standards with triple synced IMUs.\nIn stock"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0206",
+        "line_start": 98,
+        "line_end": 99,
+        "url": "https://arkelectron.com/product-tag/ndaa",
+        "page_class": "compliance",
+        "snippet": "Showing all 14 resultsSorted by popularity\nSort by popularity Sort by latest Sort by price: low to high Sort by price: high to low"
+      }
+    ],
+    "notes": "Products listed with prices, SKUs, and in-stock quantities. 381 units in stock for ARKV6X alone. Multiple product categories with consistent pricing and add-to-cart functionality."
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Flight controllers, autopilot carriers, and sensor modules (GPS, IMU, optical flow, ESCs, power distribution) for small unmanned systems. NDAA-compliant and Blue UAS listed. Salt Lake City-based subsystem supplier with broad product range across vehicle control, navigation, and avionics integration; limited public evidence of fielded programs or production volumes.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 15,
+    "total_cost_usd": 0.5353956,
+    "created_at": "2026-05-03T21:29:16+00:00",
+    "extract_version": "0.1.0"
+  }
+}

@@ -1,0 +1,310 @@
+{
+  "target_id": "totalsim-us",
+  "run_id": "canonical",
+  "display_name": "TotalSim US",
+  "homepage_url": "https://www.totalsim.us",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/totalsim-us/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "test_and_measurement",
+        "is_primary": true,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 113,
+            "line_end": 113,
+            "url": "https://www.totalsim.us",
+            "page_class": "homepage",
+            "snippet": "### Since 2009, TotalSim US has leveraged state-of-the-art CFD simulation to provide unparalleled accuracy across [eleven industries](https://totalsim.us/industries/)."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 162,
+            "line_end": 162,
+            "url": "https://www.totalsim.us",
+            "page_class": "homepage",
+            "snippet": "![A Quadcopter Simulation from TotalSim](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg== \"Quadcopter-test-image-irad-v8-4K_2\")"
+          }
+        ],
+        "notes": "CFD simulation (incl. quadcopter/drone CFD), physical testing, and CAE automation services targeting uncrewed systems among other industries. Physical Testing and CFD-as-test fit test_and_measurement; wind-tunnel analogue via computational methods."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Dublin",
+      "state_or_province": "Ohio",
+      "country": "United States",
+      "address": "4960 Blazer Parkway, Dublin, OH 43017"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 194,
+        "line_end": 196,
+        "url": "https://www.totalsim.us",
+        "page_class": "homepage",
+        "snippet": "#### HEADQUARTERS\n[4960 Blazer Parkway\nDublin, OH 43017](https://www.google.com/maps/place/TotalSim+LLC/@40.0899937,-83.1259467,15z/data=!4m2!3m1!1s0x0:0x3f3480bd164943a6?ved=2ahUKEwjtieOfxfXeAhWFylkKHWORB6sQ_BIwCnoECAUQCA)"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "broad_industrial",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 44,
+        "line_end": 44,
+        "url": "https://www.totalsim.us",
+        "page_class": "homepage",
+        "snippet": "    *   [Uncrewed Systems](https://totalsim.us/industries/ust/)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 113,
+        "line_end": 113,
+        "url": "https://www.totalsim.us",
+        "page_class": "homepage",
+        "snippet": "### Since 2009, TotalSim US has leveraged state-of-the-art CFD simulation to provide unparalleled accuracy across [eleven industries](https://totalsim.us/industries/)."
+      }
+    ],
+    "notes": "TotalSim US is primarily a broad CFD/simulation engineering services firm serving eleven industries. Uncrewed Systems is one named vertical, but the core business spans aerospace, automotive, motorsports, energy, marine, etc. They do not manufacture hardware or operate drones."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "STAR-CCM+",
+        "product_type": "CFD simulation software (reseller)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 10,
+            "line_end": 10,
+            "url": "https://www.totalsim.us",
+            "page_class": "homepage",
+            "snippet": "    *   [STAR-CCM+](https://totalsim.us/software/star-ccm/)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 131,
+            "line_end": 131,
+            "url": "https://www.totalsim.us",
+            "page_class": "homepage",
+            "snippet": "### Siemens Software Partner"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TS Aero",
+        "product_type": "aerodynamics CFD web app",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 47,
+            "line_end": 47,
+            "url": "https://www.totalsim.us",
+            "page_class": "homepage",
+            "snippet": "    *   [TS Aero](https://totalsim.us/software/totalsim-apps/aero-app/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TS Auto",
+        "product_type": "automotive CFD web app",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 48,
+            "line_end": 48,
+            "url": "https://www.totalsim.us",
+            "page_class": "homepage",
+            "snippet": "    *   [TS Auto](https://totalsim.us/software/totalsim-apps/automotive-app/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TS Truck",
+        "product_type": "commercial vehicle CFD web app",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 49,
+            "line_end": 49,
+            "url": "https://www.totalsim.us",
+            "page_class": "homepage",
+            "snippet": "    *   [TS Truck](https://totalsim.us/software/totalsim-apps/truck-app/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TS Fan",
+        "product_type": "fan/rotor CFD web app",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 50,
+            "line_end": 50,
+            "url": "https://www.totalsim.us",
+            "page_class": "homepage",
+            "snippet": "    *   [TS Fan](https://totalsim.us/software/totalsim-apps/fan-app/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TS Results",
+        "product_type": "CFD post-processing results app",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 51,
+            "line_end": 51,
+            "url": "https://www.totalsim.us",
+            "page_class": "homepage",
+            "snippet": "    *   [TS Results](https://totalsim.us/software/totalsim-apps/ts-results/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "OpenFOAM CFD Support",
+        "product_type": "open-source CFD software support service",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 11,
+            "line_end": 11,
+            "url": "https://www.totalsim.us",
+            "page_class": "homepage",
+            "snippet": "    *   [OpenFOAM CFD Support](https://totalsim.us/software/openfoam-cfd-support/)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Additional detail on UXV-specific application of TS Aero and CFD consulting would require fetching the /industries/ust page."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "engineering_services",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 119,
+        "line_end": 119,
+        "url": "https://www.totalsim.us",
+        "page_class": "homepage",
+        "snippet": "TotalSim expertly applies advanced CFD technology accurately and efficiently to solve your most complex engineering challenges."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 125,
+        "line_end": 125,
+        "url": "https://www.totalsim.us",
+        "page_class": "homepage",
+        "snippet": "By leveraging CFD outsourcing through TotalSim, you tap into our arsenal of digital engineering tools, ensuring consistently high-quality results while drastically reducing reliance on physical testing. This heightened efficiency not only trims expenses on software licenses, internal expertise, and hardware but also optimizes your workforce utilization."
+      }
+    ],
+    "notes": "TotalSim's primary business model is custom CFD consulting and engineering analysis delivered as a service. They also resell STAR-CCM+ software and offer TS Apps, but the core deliverable is project-based engineering services."
+  },
+  "unresolved_questions": [
+    "UXV-specific product/service scope (what CFD capabilities are offered for drone/UAS aerodynamics) \u2014 requires /industries/ust page",
+    "Whether TotalSim claims any NDAA or Blue UAS compliance",
+    "Whether they have a dedicated drone/propeller CFD product (external directory listed 'Propellers' as a category)"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://totalsim.us/industries/ust",
+      "reason": "TotalSim's Uncrewed Systems industry page would clarify which specific CFD/simulation products and services they offer to UXV manufacturers, confirming supply chain role and product categories.",
+      "expected_evidence": [
+        "products_categories",
+        "drone_supply_chain_role",
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://totalsim.us/contact",
+      "reason": "Contact page may confirm HQ address details and any additional office locations.",
+      "expected_evidence": [
+        "headquarters"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=contact",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://totalsim.us/industries/aerospace-defense",
+      "reason": "Aerospace/Defense industry page may describe UAS/UAV-specific CFD services, confirming drone supply chain role and categories.",
+      "expected_evidence": [
+        "products_categories",
+        "drone_supply_chain_role",
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "tagline": "CFD simulation consulting, software resale (STAR-CCM+), and web-based aerodynamics apps (TS Aero, TS Auto, TS Truck, TS Fan) for aerospace, automotive, and uncrewed systems. Also provides custom CAE software development, training, and physical testing. NDAA and Blue UAS certification status unknown; public evidence of defense/UAS work is thin.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 6,
+    "total_cost_usd": 0.28094535,
+    "created_at": "2026-05-04T06:59:45+00:00",
+    "extract_version": "0.1.0"
+  }
+}

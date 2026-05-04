@@ -24,6 +24,12 @@ jobs:
           cache: npm
           cache-dependency-path: fe/site/package-lock.json
 
+      - name: Setup uv
+        uses: astral-sh/setup-uv@v3
+
+      - name: Install fe/site dependencies
+        run: cd fe/site && npm ci
+
       - name: Restore IndexNow cache
         uses: actions/cache@v4
         with:
@@ -32,7 +38,12 @@ jobs:
           restore-keys: indexnow-cache-
 
       - name: Build site
-        run: make site
+        # `npm run build` chains `prebuild` → `npm run sync-content`
+        # (cd ../generator && uv run python -m generator) → `astro build`.
+        # Generator reads vendors/<slug>/profile.json + products.json;
+        # ensure vendors/ is present before this runs (see README's
+        # GH Pages note re: pulling from S3 in CI).
+        run: cd fe/site && npm run build
         env:
           INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
 

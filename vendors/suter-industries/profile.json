@@ -1,0 +1,401 @@
+{
+  "target_id": "suter-industries",
+  "run_id": "canonical",
+  "display_name": "Suter Industries",
+  "homepage_url": "https://www.suter-aviation.ch",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/suter-industries/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 40,
+            "line_end": 40,
+            "url": "https://suter-industries.ch/uav-engines",
+            "page_class": "homepage",
+            "snippet": "Our engines are compact, fuel-efficient, and endurance proven. They are engineered for mission-critical platforms that demand reliability in the air, whether in civil surveys, industrial applications, or defence operations. From lightweight single-piston units to strong multi-cylinder powerplants, the Suter portfolio covers the full range of UAV propulsion."
+          }
+        ],
+        "notes": "UAV engines across multiple displacement classes: SPA 144, TOA 288, TOW 288, TOA 330, FOA 660 series"
+      },
+      {
+        "category": "power_systems",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0016",
+            "line_start": 38,
+            "line_end": 38,
+            "url": "https://suter-industries.ch/power-units/power-units-apu-8-5kw",
+            "page_class": "other",
+            "snippet": "Lightweight 28 VDC auxiliary power unit for integration in vehicles or as a stand-alone (H-APU) in shelters or demanding field systems.**"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0015",
+            "line_start": 43,
+            "line_end": 44,
+            "url": "https://suter-industries.ch/power-units/power-units-rhw-1100-diesel-power-unit-for-hybrid-and-field-systems",
+            "page_class": "news",
+            "snippet": "**The Suter RHW-1100-D/TD is a compact, liquid-cooled diesel power unit engineered for protected vehicle platforms, compact APU configurations and field-deployable systems.**\nAvailable in naturally aspirated (D) and turbocharged (TD) versions, it delivers **18.5 kW (D)** to **22.5 kW (TD)** continuous output."
+          }
+        ],
+        "notes": "APU 8.5 kW, H-APU 8.5 kW, and RHW-1100-D/TD diesel power units for vehicles and field systems"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Turbenthal",
+      "state_or_province": null,
+      "country": "Switzerland",
+      "address": "Mettlenstrasse 3"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 108,
+        "line_end": 111,
+        "url": "https://suter-industries.ch/uav-engines",
+        "page_class": "homepage",
+        "snippet": "SUTER INDUSTRIES AG\nMettlenstrasse 3\nCH-8488 Turbenthal\nSwitzerland"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 40,
+        "line_end": 40,
+        "url": "https://suter-industries.ch/uav-engines",
+        "page_class": "homepage",
+        "snippet": "Our engines are compact, fuel-efficient, and endurance proven. They are engineered for mission-critical platforms that demand reliability in the air, whether in civil surveys, industrial applications, or defence operations. From lightweight single-piston units to strong multi-cylinder powerplants, the Suter portfolio covers the full range of UAV propulsion."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0013",
+        "line_start": 42,
+        "line_end": 42,
+        "url": "https://suter-industries.ch/uav-engines/toa-288-twin-cylinder-air-cooled-uav-engine",
+        "page_class": "news",
+        "snippet": "**The TOA 288 is the starting point of the 288 platform family.** Designed as a lightweight, compact gasoline engine, it delivers stable mid-range propulsion for civil UAVs. Its air-cooled twin-opposed design ensures simplicity and performance in fixed-wing applications."
+      }
+    ],
+    "notes": "Designs and manufactures UAV propulsion engines and APUs sold to OEMs for integration into UAV platforms; does not manufacture complete UAVs"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "SPA 144",
+        "product_type": "single-cylinder two-stroke UAV engine",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 49,
+            "line_end": 50,
+            "url": "https://suter-industries.ch/uav-engines",
+            "page_class": "homepage",
+            "snippet": "[SPA 144 / SPA 144 SDI](https://suter-industries.ch/uav-engines/spa-144-single-cylinder-uav-engine/)\n144 cc Single piston"
+          }
+        ],
+        "notes": "Under development, expected June 2026; 8-12 HP, 144 cc"
+      },
+      {
+        "name": "SPA 144 SDI Heavy Fuel",
+        "product_type": "single-cylinder heavy-fuel UAV engine",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 10,
+            "line_end": 10,
+            "url": "https://suter-industries.ch/uav-engines",
+            "page_class": "homepage",
+            "snippet": "    *   [SPA 144 SDI Heavy Fuel](https://suter-industries.ch/uav-engines/uav-engines-spa-144-sdi-heavy-fuel-uav-engine/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TOA 288",
+        "product_type": "twin-cylinder air-cooled UAV engine (gasoline)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0013",
+            "line_start": 38,
+            "line_end": 38,
+            "url": "https://suter-industries.ch/uav-engines/toa-288-twin-cylinder-air-cooled-uav-engine",
+            "page_class": "news",
+            "snippet": "Mid-range 16\u201324 hp UAV engine, twin-opposed two-stroke, air-cooled. Gasoline baseline of the 288 platform."
+          }
+        ],
+        "notes": "16\u201324 hp, 288 cc, 7.8 kg"
+      },
+      {
+        "name": "TOA 288 SDI Heavy Fuel",
+        "product_type": "twin-cylinder air-cooled heavy-fuel UAV engine",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 55,
+            "line_end": 57,
+            "url": "https://suter-industries.ch/uav-engines",
+            "page_class": "homepage",
+            "snippet": "[TOA 288 / TOA 288 SDI](https://suter-industries.ch/uav-engines/toa-288-twin-cylinder-air-cooled-uav-engine/)\n288 cc Twin opposed piston\n16-26 HP"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TOW 288",
+        "product_type": "twin-cylinder water-cooled UAV engine",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 60,
+            "line_end": 62,
+            "url": "https://suter-industries.ch/uav-engines",
+            "page_class": "homepage",
+            "snippet": "[TOW 288](https://suter-industries.ch/uav-engines/tow-288-water-cooled-uav-engine/)\n288 cc Twin opposed piston\n18-26 HP"
+          }
+        ],
+        "notes": "18-26 HP, 288 cc water-cooled"
+      },
+      {
+        "name": "TOA 330",
+        "product_type": "twin-cylinder air-cooled UAV engine",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 65,
+            "line_end": 67,
+            "url": "https://suter-industries.ch/uav-engines",
+            "page_class": "homepage",
+            "snippet": "[TOA 330 / TOA 330 SDI](https://suter-industries.ch/uav-engines/toa-330-sdi-heavy-fuel-uav-engine/)\n330 cc Twin opposed piston\n20-30 HP"
+          }
+        ],
+        "notes": "20-30 HP, 330 cc"
+      },
+      {
+        "name": "TOA 330 SDI Heavy Fuel",
+        "product_type": "twin-cylinder air-cooled heavy-fuel UAV engine",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 15,
+            "line_end": 15,
+            "url": "https://suter-industries.ch/uav-engines",
+            "page_class": "homepage",
+            "snippet": "    *   [TOA 330 SDI Heavy Fuel](https://suter-industries.ch/uav-engines/toa-330-sdi-heavy-fuel-uav-engine/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TOA 330-APU",
+        "product_type": "hybrid power unit for UAV and hybrid systems",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 70,
+            "line_end": 72,
+            "url": "https://suter-industries.ch/uav-engines",
+            "page_class": "homepage",
+            "snippet": "\u00a0[TOA 330-APU](https://suter-industries.ch/uav-engines/toa-330-hybrid-power-unit-for-uav-and-hybrid-systems/)\n330 cc Twin opposed piston\n17 kW"
+          }
+        ],
+        "notes": "330 cc twin, 17 kW"
+      },
+      {
+        "name": "FOA 660 SDI Heavy Fuel",
+        "product_type": "four-cylinder heavy-fuel UAV engine",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 75,
+            "line_end": 78,
+            "url": "https://suter-industries.ch/uav-engines",
+            "page_class": "homepage",
+            "snippet": "\u00a0[FOA 660-SDI](https://suter-industries.ch/uav-engines/foa-660-sdi-four-cylinder-heavy-fuel-uav-engine/)\n660 cc Four opposed piston\n\\*under development juli 2026\n45-60 HP"
+          }
+        ],
+        "notes": "Under development, expected July 2026; 45-60 HP, 660 cc"
+      },
+      {
+        "name": "RHW-1100-D / TD",
+        "product_type": "three-cylinder diesel power unit (naturally aspirated / turbocharged)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0015",
+            "line_start": 38,
+            "line_end": 39,
+            "url": "https://suter-industries.ch/power-units/power-units-rhw-1100-diesel-power-unit-for-hybrid-and-field-systems",
+            "page_class": "news",
+            "snippet": "Three-cylinder 1.1 L diesel engine, naturally aspirated (D) or turbocharged (TD).\nDeveloped for auxiliary power systems and demanding ground-based platforms, it delivers reliable torque and endurance in a very compact footprint."
+          }
+        ],
+        "notes": "18.5\u201322.5 kW continuous; for APU and ground vehicle applications"
+      },
+      {
+        "name": "Suter APU 8.5 kW",
+        "product_type": "compact auxiliary power unit, 28 VDC",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0016",
+            "line_start": 35,
+            "line_end": 36,
+            "url": "https://suter-industries.ch/power-units/power-units-apu-8-5kw",
+            "page_class": "other",
+            "snippet": "APU 8.5 kW\n_COMPACT MODULAR_"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Suter H-APU 8.5 kW",
+        "product_type": "stand-alone auxiliary power unit, 28 VDC",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 22,
+            "line_end": 22,
+            "url": "https://suter-industries.ch/uav-engines",
+            "page_class": "homepage",
+            "snippet": "    *   [Suter H-APU 8.5 kW](https://suter-industries.ch/power-units/suter-h-apu-8-5-kw/)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 101,
+        "line_end": 103,
+        "url": "https://suter-industries.ch/uav-engines",
+        "page_class": "homepage",
+        "snippet": "### COMPLIANCE & RESPONSIBILITY\nAll products comply with applicable Swiss and EU export regulations.\nDeveloped under ISO 9001 quality standards, with experience in MIL-STD environmental testing."
+      }
+    ],
+    "notes": "Site mentions Swiss/EU dual-use export regulations and ISO 9001 compliance, plus 'SWISS MADE' branding, but no explicit NDAA Section 848/889 claim. Swiss company; US-market NDAA compliance is not disclosed."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 103,
+        "line_end": 103,
+        "url": "https://suter-industries.ch/uav-engines",
+        "page_class": "homepage",
+        "snippet": "Developed under ISO 9001 quality standards, with experience in MIL-STD environmental testing."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0017",
+        "line_start": 44,
+        "line_end": 48,
+        "url": "https://suter-industries.ch/engineering/production",
+        "page_class": "other",
+        "snippet": "*   CNC machining of complex products\n*   Sheet metal fabrication\n*   Welding / Tig welding robot\n*   Assembly\n*   Quality Assurance"
+      }
+    ],
+    "notes": "In-house CNC machining, assembly, ISO 9001 QA, MIL-STD testing experience. Core TOA 288/330 lines appear to be in active production; SPA 144 and FOA 660 SDI are under development (expected 2026)."
+  },
+  "unresolved_questions": [
+    "Canton/state not explicitly stated on site (likely Z\u00fcrich based on CH-8488 postal code)",
+    "FOA 660 SDI and SPA 144 development status/readiness unclear"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://suter-industries.ch/about/references",
+      "reason": "References page would list customer OEMs and confirm component_supplier role vs broader integrator role",
+      "expected_evidence": [
+        "drone_supply_chain_role",
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://suter-industries.ch/about",
+      "reason": "About page may confirm company history, headquarters details, and production scale",
+      "expected_evidence": [
+        "headquarters",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_budget",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Swiss-based designer and manufacturer of two-stroke reciprocating UAV engines (144\u2013660 cc, 8\u201360 HP) and auxiliary power units in production and prototype stages. Portfolio includes air-cooled and water-cooled twin opposed-piston engines, heavy-fuel direct-injection variants, and hybrid power units (8.5\u201317 kW). ISO 9001 certified, multi-fuel capable (Jet-A1, JP-5, JP-8). NDAA and Blue UAS certification status unknown; public evidence on US defense adoption or program insertion is thin.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 17,
+    "total_cost_usd": 0.37478399999999995,
+    "created_at": "2026-05-04T06:40:33+00:00",
+    "extract_version": "0.1.0"
+  }
+}

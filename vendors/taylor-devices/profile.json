@@ -1,0 +1,351 @@
+{
+  "target_id": "taylor-devices",
+  "run_id": "canonical",
+  "display_name": "Taylor Devices",
+  "homepage_url": "https://www.taylordevices.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/taylor-devices/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "recovery_systems",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0227",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://www.taylordevices.com/products/landing-arresting-gear",
+            "page_class": "product",
+            "snippet": "Landing Gear | UAV & eVTOL Landing Gear | Taylor Devices, Inc.                                                                        [Skip to content](#content)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0227",
+            "line_start": 96,
+            "line_end": 96,
+            "url": "https://www.taylordevices.com/products/landing-arresting-gear",
+            "page_class": "product",
+            "snippet": "Landing Gear for Unmanned Aerial Vehicles (UAVs)"
+          }
+        ],
+        "notes": "Explicitly markets custom-engineered landing gear shock absorbers for UAVs and eVTOLs."
+      },
+      {
+        "category": "mechanical_subsystems",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 87,
+            "line_end": 87,
+            "url": "https://www.taylordevices.com",
+            "page_class": "homepage",
+            "snippet": "Devices designed for heavy duty, service applications. Our products include single or double acting dampers, non-linear dampers, single and double acting liquid springs, tension shock absorbers and tension-compression shock absorbers."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0227",
+            "line_start": 92,
+            "line_end": 92,
+            "url": "https://www.taylordevices.com/products/landing-arresting-gear",
+            "page_class": "product",
+            "snippet": "Variations of our [industrial crane buffer](/products/crane-buffers/) designs are typically used for customized energy absorbers, vibration isolators, shock isolators, landing gear components and suspension systems. Our new landing gear shock absorber is lighter, smaller and less expensive than conventional air/oil landing gear shocks. They require zero maintenance and there is no need for a pressurization cart."
+          }
+        ],
+        "notes": "Broad product line of shock absorbers, fluid viscous dampers, isolation systems, and related mechanical devices used in aerospace/defense including UAV applications."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "North Tonawanda",
+      "state_or_province": "New York",
+      "country": "United States",
+      "address": "90 Taylor Drive, North Tonawanda NY, 14120"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0072",
+        "line_start": 118,
+        "line_end": 118,
+        "url": "https://www.taylordevices.com/contact-us",
+        "page_class": "contact",
+        "snippet": "90 Taylor Drive, North Tonawanda NY, 14120"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0015",
+        "line_start": 157,
+        "line_end": 157,
+        "url": "https://www.taylordevices.com/about-us/facilities-and-capabilities",
+        "page_class": "capability",
+        "snippet": "Headquartered in North Tonawanda, NY, Taylor Devices is spread out over two campuses encompassing 115,000 sq-ft that include the offices, machine shop, paint shop, and packaging."
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0227",
+        "line_start": 1,
+        "line_end": 1,
+        "url": "https://www.taylordevices.com/products/landing-arresting-gear",
+        "page_class": "product",
+        "snippet": "Landing Gear | UAV & eVTOL Landing Gear | Taylor Devices, Inc.                                                                        [Skip to content](#content)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0227",
+        "line_start": 96,
+        "line_end": 96,
+        "url": "https://www.taylordevices.com/products/landing-arresting-gear",
+        "page_class": "product",
+        "snippet": "Landing Gear for Unmanned Aerial Vehicles (UAVs)"
+      }
+    ],
+    "notes": "Supplies custom-engineered landing gear shock absorbers and other mechanical components that go into UAVs and eVTOLs. Not an OEM; does not produce complete platforms."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Landing & Arresting Gear",
+        "product_type": "UAV/eVTOL landing gear shock absorbers",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0227",
+            "line_start": 96,
+            "line_end": 96,
+            "url": "https://www.taylordevices.com/products/landing-arresting-gear",
+            "page_class": "product",
+            "snippet": "Landing Gear for Unmanned Aerial Vehicles (UAVs)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Fluid Viscous Dampers",
+        "product_type": "fluid damping devices",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 19,
+            "line_end": 19,
+            "url": "https://www.taylordevices.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Fluid Viscous Dampers](https://www.taylordevices.com/products/fluid-viscous-damper/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Shock Absorbers",
+        "product_type": "shock absorbing devices",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 28,
+            "line_end": 28,
+            "url": "https://www.taylordevices.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Shock Absorbers](https://www.taylordevices.com/products/shock-absorbers/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Isolation Systems",
+        "product_type": "vibration/shock isolation systems",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 22,
+            "line_end": 22,
+            "url": "https://www.taylordevices.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Isolation Systems](https://www.taylordevices.com/products/isolation-systems/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "PUMPKIN\u2122 Mounts",
+        "product_type": "shock and vibration isolator mounts",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0233",
+            "line_start": 75,
+            "line_end": 75,
+            "url": "https://www.taylordevices.com/products/pumpkinmounts",
+            "page_class": "news",
+            "snippet": "The PUMPKIN\u2122 Mount is a shock and vibration isolator manufactured by Taylor Devices, Inc. This patent-protected mount design has been successfully shock tested in naval environments where explosive shock standards are extremely rigorous, reducing input accelerations of several hundred g down to an average of 15g or less."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Metal Bellows Dampers",
+        "product_type": "damping devices",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 21,
+            "line_end": 21,
+            "url": "https://www.taylordevices.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Metal Bellows Dampers](https://www.taylordevices.com/products/metal-bellows-dampers/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Actuators",
+        "product_type": "actuator devices",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 30,
+            "line_end": 30,
+            "url": "https://www.taylordevices.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Actuators](https://www.taylordevices.com/products/actuators/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Machined Springs",
+        "product_type": "precision machined springs",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 26,
+            "line_end": 26,
+            "url": "https://www.taylordevices.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Machined Springs](https://www.taylordevices.com/products/machined-springs/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Lock Up Devices",
+        "product_type": "lock-up structural devices",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 20,
+            "line_end": 20,
+            "url": "https://www.taylordevices.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Lock Up Devices](https://www.taylordevices.com/products/lock-up-devices/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Liquid Die Springs",
+        "product_type": "liquid spring devices",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 29,
+            "line_end": 29,
+            "url": "https://www.taylordevices.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Liquid Die Springs](https://www.taylordevices.com/products/liquid-die-springs/)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0019",
+        "line_start": 75,
+        "line_end": 75,
+        "url": "https://www.taylordevices.com/about-us/quality-assurance",
+        "page_class": "compliance",
+        "snippet": "Taylor Devices\u2019 facilities and Business Management Systems (BMS) are registered to the current versions of ****ISO 9001****, and ****AS9100****, as audited and certified by NSF International Strategic Registrations in accordance with AS9104:2012."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 103,
+        "line_end": 106,
+        "url": "https://www.taylordevices.com",
+        "page_class": "homepage",
+        "snippet": "70+\nYears Of Experience\n10,000+\nProjects Around The World"
+      }
+    ],
+    "notes": "70+ years in business, AS9100-certified production facilities, established product catalogs with named SKUs, and 10,000+ projects completed. Also maintains rapid prototyping capability as a secondary mode."
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [],
+  "status": "complete",
+  "tagline": "Manufactures custom landing and arresting gear, shock absorbers, and vibration isolation systems for aerospace and defense platforms. NDAA and Blue UAS certification status unknown. Production-ready component supplier with 70+ years in shock/damping; limited public evidence of current UAV/unmanned-systems program wins or integrations.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 15,
+    "total_cost_usd": 0.42797440000000003,
+    "created_at": "2026-05-04T06:47:13+00:00",
+    "extract_version": "0.1.0"
+  }
+}

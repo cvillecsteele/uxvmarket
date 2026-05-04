@@ -1,0 +1,264 @@
+{
+  "target_id": "sovereign-autonomous-system-b-v",
+  "run_id": "canonical",
+  "display_name": "Sovereign Autonomous System B.V.",
+  "homepage_url": "https://www.sovereign-as.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/sovereign-autonomous-system-b-v/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "flight_and_vehicle_control",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 25,
+            "line_end": 25,
+            "url": "https://www.sovereign-as.com",
+            "page_class": "homepage",
+            "snippet": "Our model-based, robust, and fully integrated autopilot system offers unmatched performance for UAVs of all sizes and platform types. Designed for versatility and precision, it ensures seamless operation across diverse complex missions and environments, delivering superior control and reliability."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 4,
+            "line_end": 4,
+            "url": "https://www.sovereign-as.com",
+            "page_class": "homepage",
+            "snippet": "Next generation UAV autopilots"
+          }
+        ],
+        "notes": "Model-based autopilot system for UAVs of all sizes and platform types is described as the primary product."
+      },
+      {
+        "category": "ground_segment",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0012",
+            "line_start": 18,
+            "line_end": 18,
+            "url": "https://www.sovereign-as.com/ground-control-station",
+            "page_class": "capability",
+            "snippet": "The Sovereign Ground Control Station (GCS) offers fully customized, flight-ready solutions designed to meet any operational requirement. With a focus on future-proofing and upgradeability, our GCS ensures seamless control and monitoring across a wide range of UAV platforms. Experience unparalleled flexibility and long-term adaptability for your autonomous flight operations."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0012",
+            "line_start": 22,
+            "line_end": 22,
+            "url": "https://www.sovereign-as.com/ground-control-station",
+            "page_class": "capability",
+            "snippet": "Our GCS systems come fully integrated and customized to meet your specific needs. Designed for flexibility and long-term adaptability, these systems support future upgrades and ensure compatibility with evolving technologies. Each GCS is equipped with essential components and offers various customizable options to suit different operational requirements."
+          }
+        ],
+        "notes": "Integrated, customizable Ground Control Stations (GCS) and GDT Lite Ground Data Terminal for UAV operations."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Autopilot page was skipped; additional category detail may exist there."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Den Haag",
+      "state_or_province": null,
+      "country": "Netherlands",
+      "address": "Dr. Lelykade 22A, Unit 4"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 49,
+        "line_end": 52,
+        "url": "https://www.sovereign-as.com",
+        "page_class": "homepage",
+        "snippet": "Dr. Lelykade 22A\nUnit 4\n2583 CM Den Haag\nThe Netherlands"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 19,
+        "line_end": 20,
+        "url": "https://www.sovereign-as.com",
+        "page_class": "homepage",
+        "snippet": "Sovereign Autonomous Systems produces next generation control systems that provide a very high level of autonomy. The UAV operator interacts with the platform through an advanced state machine that is tailored to fit the mission.\nThe Sovereign control system consists of tightly coupled proprietary hardware and software to ensure a turn-key solution for complex platforms and missions."
+      }
+    ],
+    "notes": "Makes autopilot systems and ground control stations that are integrated into UAV platforms by customers; not a complete-platform OEM."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Autopilot",
+        "product_type": "UAV autopilot / flight controller",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 23,
+            "line_end": 25,
+            "url": "https://www.sovereign-as.com",
+            "page_class": "homepage",
+            "snippet": "Autopilot\n---------\nOur model-based, robust, and fully integrated autopilot system offers unmatched performance for UAVs of all sizes and platform types. Designed for versatility and precision, it ensures seamless operation across diverse complex missions and environments, delivering superior control and reliability."
+          }
+        ],
+        "notes": "Model-based, fully integrated autopilot for UAVs of all sizes. Dedicated product page was skipped."
+      },
+      {
+        "name": "Ground Control Station (GCS)",
+        "product_type": "Integrated ground control station for UAVs",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0012",
+            "line_start": 18,
+            "line_end": 18,
+            "url": "https://www.sovereign-as.com/ground-control-station",
+            "page_class": "capability",
+            "snippet": "The Sovereign Ground Control Station (GCS) offers fully customized, flight-ready solutions designed to meet any operational requirement. With a focus on future-proofing and upgradeability, our GCS ensures seamless control and monitoring across a wide range of UAV platforms. Experience unparalleled flexibility and long-term adaptability for your autonomous flight operations."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0012",
+            "line_start": 20,
+            "line_end": 22,
+            "url": "https://www.sovereign-as.com/ground-control-station",
+            "page_class": "capability",
+            "snippet": "Flight-Ready Integrated GCS\n---------------------------\nOur GCS systems come fully integrated and customized to meet your specific needs. Designed for flexibility and long-term adaptability, these systems support future upgrades and ensure compatibility with evolving technologies. Each GCS is equipped with essential components and offers various customizable options to suit different operational requirements."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "GDT Lite",
+        "product_type": "Ground Data Terminal (lightweight GCS integration unit)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0012",
+            "line_start": 34,
+            "line_end": 36,
+            "url": "https://www.sovereign-as.com/ground-control-station",
+            "page_class": "capability",
+            "snippet": "Ground Data Terminal\n--------------------\nThe GDT Lite provides a flexible and reliable solution for integrating the Sovereign-AS autopilot with your existing GCS computer systems and infrastructure. It supports future upgrades, ensuring compatibility with evolving technologies while maintaining full control and functionality."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Services (CFD analysis, simulation, flight testing) also offered but not named SKUs. Autopilot product page skipped; additional product detail likely there."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "low_rate_production",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0012",
+        "line_start": 18,
+        "line_end": 18,
+        "url": "https://www.sovereign-as.com/ground-control-station",
+        "page_class": "capability",
+        "snippet": "The Sovereign Ground Control Station (GCS) offers fully customized, flight-ready solutions designed to meet any operational requirement. With a focus on future-proofing and upgradeability, our GCS ensures seamless control and monitoring across a wide range of UAV platforms. Experience unparalleled flexibility and long-term adaptability for your autonomous flight operations."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 38,
+        "line_end": 40,
+        "url": "https://www.sovereign-as.com",
+        "page_class": "homepage",
+        "snippet": "DESIGN AND TECHNICAL SUPPORT\n----------------------------\nOur team offers a comprehensive range of services, including CFD analysis, advanced system and mission simulation, model validation, flight control tuning, and flight testing. These solutions ensure optimal UAV performance, precision, and reliability at every stage of development and deployment."
+      }
+    ],
+    "notes": "Named products with published specs exist (Autopilot, GCS, GDT Lite), but strong emphasis on customization and bespoke solutions per customer requirement suggests low-rate / custom production rather than high-volume serial production. Also offers engineering services (CFD, simulation, flight testing)."
+  },
+  "unresolved_questions": [
+    "Autopilot product details and specific model names/SKUs (page skipped)",
+    "Services page content \u2014 may clarify whether engineering services or production is primary",
+    "About Us page \u2014 may confirm founding, team size, and production posture",
+    "No NDAA or Blue UAS compliance information found in corpus"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.sovereign-as.com/autopilot",
+      "reason": "Would provide autopilot product specs, model names, and confirm flight_and_vehicle_control category at high confidence; current autopilot data comes only from brief homepage description.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "readiness",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.sovereign-as.com/services",
+      "reason": "Would clarify engineering services vs production posture and list service offerings relevant to readiness and supply chain role.",
+      "expected_evidence": [
+        "readiness",
+        "drone_supply_chain_role",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.sovereign-as.com/about-us",
+      "reason": "Would confirm company background, founding, team size, and any NDAA/compliance claims; also might clarify HQ address discrepancy (22A vs 22B).",
+      "expected_evidence": [
+        "headquarters",
+        "ndaa",
+        "blue_uas",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 10,
+    "total_cost_usd": 0.20696755,
+    "created_at": "2026-05-03T00:27:07+00:00",
+    "extract_version": "0.1.0"
+  },
+  "tagline": "Netherlands-based flight control subsystem supplier offering model-based autopilot, integrated ground control station, and ground data terminal (GDT Lite) for multi-platform UAVs. Currently in low-rate production. NDAA compliance and Blue UAS certification status unknown; minimal public evidence of US defense contracts or program integration."
+}

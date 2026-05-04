@@ -1,0 +1,298 @@
+{
+  "target_id": "inventus-power",
+  "run_id": "canonical",
+  "display_name": "Inventus Power",
+  "homepage_url": "https://inventuspower.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/inventus-power/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "power_systems",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 35,
+            "line_end": 38,
+            "url": "https://inventuspower.com",
+            "page_class": "homepage",
+            "snippet": "Global Leader in\nAdvanced Battery Systems\n===========================================\nExperts in designing and manufacturing highly engineered battery & power solutions"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 42,
+            "line_end": 42,
+            "url": "https://inventuspower.com",
+            "page_class": "homepage",
+            "snippet": "Inventus Power specializes in engineering and manufacturing custom battery & power solutions for complex applications. We also offer proprietary lithium-ion battery packs, power supplies, chargers, and accessories for specific industry needs."
+          }
+        ],
+        "notes": "Core business is designing and manufacturing lithium-ion battery packs, chargers, power supplies, and battery management systems for OEMs across multiple markets including military (UAV/UGV)."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Woodridge",
+      "state_or_province": "Illinois",
+      "country": "United States",
+      "address": "1200 Internationale Parkway, Woodridge, IL 60517"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0050",
+        "line_start": 50,
+        "line_end": 52,
+        "url": "https://inventuspower.com/contact-us",
+        "page_class": "contact",
+        "snippet": "#### Headquarters\n1200 Internationale Parkway\nWoodridge, IL 60517"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0007",
+        "line_start": 81,
+        "line_end": 81,
+        "url": "https://inventuspower.com/about",
+        "page_class": "company",
+        "snippet": "Inventus Power is a US based company, headquartered in Woodridge, Illinois with an international footprint that expands across four continents and includes four manufacturing facilities, three engineering technical centers, and a multi-tiered sales & service channel."
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0014",
+        "line_start": 60,
+        "line_end": 60,
+        "url": "https://inventuspower.com/advancing-battery-power-solutions-for-the-warfighter",
+        "page_class": "news",
+        "snippet": "Inventus Power also offers custom design and manufacturing capabilities for military & defense OEMs. We have over 60 years of proven experience solving challenges in smart, and innovative ways across a wide range of applications including, hand-held two-way radios and manpack radios, military PDAs and computers, military vehicle applications, unmanned aerial vehicles (UAVs), unmanned ground vehicles (UGVs), and forward-mission devices."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 175,
+        "line_end": 175,
+        "url": "https://inventuspower.com",
+        "page_class": "homepage",
+        "snippet": "Inventus Power is the global leader in advanced battery systems. We design and manufacture standard and custom battery packs, chargers and power supplies for global OEMs."
+      }
+    ],
+    "notes": "Inventus Power manufactures battery packs, power supplies, and chargers supplied to OEMs in multiple markets. The military blog post explicitly lists UAVs and UGVs among applications supported. While drone is one of many end markets, they are a component supplier (batteries) to drone OEMs."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "CWB 3.6.2 InvincStable\u00ae 200 Wh Conformal Wearable Battery",
+        "product_type": "military wearable Li-ion battery pack",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0200",
+            "line_start": 40,
+            "line_end": 40,
+            "url": "https://inventuspower.com/product-series/mil-series",
+            "page_class": "product",
+            "snippet": "    [CWB 3.6.2 InvincStable\u00ae 200 Wh Conformal Wearable Battery](https://inventuspower.com/product/cwb-3-6-2-invincstable-200-wh-conformal-wearable-battery/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MB-2590-300 High Capacity Rechargeable Li-ion Battery with SMBus",
+        "product_type": "military Li-ion battery pack",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0200",
+            "line_start": 46,
+            "line_end": 46,
+            "url": "https://inventuspower.com/product-series/mil-series",
+            "page_class": "product",
+            "snippet": "    [MB-2590-300 High Capacity Rechargeable Li-ion Battery with SMBus](https://inventuspower.com/product/300wh-rechargeable-li-ion-battery-with-smbus/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MC-DTC-6CWB 6-Bay CWB Charger",
+        "product_type": "military battery charger",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0200",
+            "line_start": 52,
+            "line_end": 52,
+            "url": "https://inventuspower.com/product-series/mil-series",
+            "page_class": "product",
+            "snippet": "    [MC-DTC-6CWB 6-Bay CWB Charger](https://inventuspower.com/product/mc-dtc-6cwb-6-bay-cwb-charger/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "S-1S1P-18650 Lithium-ion Battery Pack",
+        "product_type": "standard Li-ion battery pack",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0202",
+            "line_start": 40,
+            "line_end": 40,
+            "url": "https://inventuspower.com/product-series/s-series",
+            "page_class": "product",
+            "snippet": "    [S-1S1P-18650 Lithium-ion Battery Pack](https://inventuspower.com/product/s-1s1p-18650-lithium-ion-battery-pack/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "S-2S1P-18650 Lithium-ion Battery Pack",
+        "product_type": "standard Li-ion battery pack",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0202",
+            "line_start": 46,
+            "line_end": 46,
+            "url": "https://inventuspower.com/product-series/s-series",
+            "page_class": "product",
+            "snippet": "    [S-2S1P-18650 Lithium-ion Battery Pack](https://inventuspower.com/product/s-2s1p-18650-lithium-ion-battery-pack/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "U1LiFe Series",
+        "product_type": "lithium-ion battery pack family (U1-25, U1-40, U1-45, U1-50)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0203",
+            "line_start": 35,
+            "line_end": 35,
+            "url": "https://inventuspower.com/product-series/u1life-series",
+            "page_class": "product",
+            "snippet": "U1LiFe Series"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SBM-01 Smart Battery Monitor",
+        "product_type": "battery monitoring accessory",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0264",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://inventuspower.com/product/sbm-01-smart-battery-monitor",
+            "page_class": "product",
+            "snippet": "SBM-01 Smart Battery Monitor - Inventus Power"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "PROTRXion\u2122 Smart Battery Monitor Kit",
+        "product_type": "battery monitoring kit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0255",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://inventuspower.com/product/protrxion-smart-battery-monitor-kit",
+            "page_class": "product",
+            "snippet": "PROTRXion\u2122 Smart Battery Monitor Kit - Inventus Power"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Product line also includes power supplies (IPD20/IPD30 series) and Elpac Power Systems brand; core lines listed here. Custom battery solutions are also a major offering but not listed as named SKUs."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 99,
+        "line_end": 100,
+        "url": "https://inventuspower.com",
+        "page_class": "homepage",
+        "snippet": "2M+\nBatteries Produced Monthly"
+      }
+    ],
+    "notes": "2M+ batteries produced monthly across 4 global manufacturing sites with 3K+ employees. Serial production with catalog SKUs and custom batch manufacturing."
+  },
+  "unresolved_questions": [
+    "NDAA Section 848/889 compliance not disclosed on any fetched page",
+    "Blue UAS cleared list status not mentioned anywhere in corpus",
+    "Military market page not fetched - may contain more UAV-specific product details"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://inventuspower.com/market/military/",
+      "reason": "Military market page would confirm specific UAV/drone product applications and potentially mention NDAA compliance for military battery systems.",
+      "expected_evidence": [
+        "drone_supply_chain_role",
+        "products",
+        "ndaa"
+      ],
+      "source_hint": "guessed from site nav - military market page not found in fetched files",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "complete",
+  "tagline": "Manufactures lithium-ion battery packs, chargers, power supplies, and custom battery management systems for military, medical, industrial, and commercial applications. Products include the BB-2590-300 form-factor rechargeable battery and CWB conformal wearable battery for US Army use. NDAA and Blue UAS certification status unknown; public evidence of specific defense contracts or programs is limited.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 21,
+    "total_cost_usd": 0.4612047,
+    "created_at": "2026-05-04T03:38:54+00:00",
+    "extract_version": "0.1.0"
+  }
+}

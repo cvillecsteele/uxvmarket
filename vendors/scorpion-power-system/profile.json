@@ -1,0 +1,352 @@
+{
+  "target_id": "scorpion-power-system",
+  "run_id": "canonical",
+  "display_name": "Scorpion Power System",
+  "homepage_url": "https://www.scorpionsystem.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/scorpion-power-system/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 18,
+            "line_end": 18,
+            "url": "https://www.scorpionsystem.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Multicopter Motors](/catalog/multicopter/)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 12,
+            "line_end": 12,
+            "url": "https://www.scorpionsystem.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Helicopter Motors](/catalog/helicopter/)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 6,
+            "line_end": 6,
+            "url": "https://www.scorpionsystem.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Airplane Motors](/catalog/aeroplane/)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 24,
+            "line_end": 24,
+            "url": "https://www.scorpionsystem.com",
+            "page_class": "homepage",
+            "snippet": "        *   [Multirotor Propellers](/catalog/multicopter/multirotors_propellers/)"
+          }
+        ],
+        "notes": "Brushless outrunner motors for airplane, helicopter, and multicopter applications; also multirotor propellers"
+      },
+      {
+        "category": "propulsion_electronics",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 25,
+            "line_end": 25,
+            "url": "https://www.scorpionsystem.com",
+            "page_class": "homepage",
+            "snippet": "    *   [Electronic Speed Controllers](/catalog/speed_controllers/)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0167",
+            "line_start": 124,
+            "line_end": 124,
+            "url": "https://www.scorpionsystem.com/catalog",
+            "page_class": "product",
+            "snippet": "These brushless controllers are built from top quality parts and are designed to provide you with trouble-free operation."
+          }
+        ],
+        "notes": "ESC product lines: Tribunus III, Legatus FOC, 12S Tribunus SBEC, 4S BEC"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Tsuen Wan",
+      "state_or_province": "New Territories",
+      "country": "Hong Kong",
+      "address": "16th Floor, Excelsior Industrial Building, 68-76 Sha Tsui Road"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0238",
+        "line_start": 97,
+        "line_end": 100,
+        "url": "https://www.scorpionsystem.com/contact",
+        "page_class": "contact",
+        "snippet": "### SCORPION POWER SYSTEM LTD\n16th Floor, Excelsior Industrial Building,\n68-76 Sha Tsui Road,\nTsuen Wan, New Territories, Hong Kong."
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 11,
+        "line_end": 11,
+        "url": "https://www.scorpionsystem.com",
+        "page_class": "homepage",
+        "snippet": "        *   [A2 - Series | for Acro / UAV Airplanes (2026 - Present)](/catalog/aeroplane/A2_series_acro_UAV/)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0167",
+        "line_start": 114,
+        "line_end": 116,
+        "url": "https://www.scorpionsystem.com/catalog",
+        "page_class": "product",
+        "snippet": "[Multicopter Motors](/catalog/multicopter/)\nScorpion Motors are designed from the ground up with the best quality components available to provide an excellent value for you, the R/C Multicopter modeler.\n[IM-Series - Motors](/catalog/multicopter/im_series-motors/)"
+      }
+    ],
+    "notes": "Makes brushless motors and ESCs that are components used in UAV/multicopter builds; explicitly markets motors for multicopters and a new A2-Series for Acro/UAV airplanes. Does not make complete UAV platforms."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "IM-Series Motors",
+        "product_type": "brushless outrunner motor for multicopters",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0167",
+            "line_start": 116,
+            "line_end": 117,
+            "url": "https://www.scorpionsystem.com/catalog",
+            "page_class": "product",
+            "snippet": "[IM-Series - Motors](/catalog/multicopter/im_series-motors/)\n[IM-Series - Motor Pods](/catalog/multicopter/IM_series/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "M/MII-Series Motors",
+        "product_type": "brushless outrunner motor for multicopters",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0167",
+            "line_start": 119,
+            "line_end": 119,
+            "url": "https://www.scorpionsystem.com/catalog",
+            "page_class": "product",
+            "snippet": "[M / MII- Series Motors](/catalog/multicopter/motor_5/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Multirotor Propellers",
+        "product_type": "multirotor propellers",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0167",
+            "line_start": 121,
+            "line_end": 121,
+            "url": "https://www.scorpionsystem.com/catalog",
+            "page_class": "product",
+            "snippet": "[Multirotor Propellers](/catalog/multicopter/multirotors_propellers/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HK5-Series Motors",
+        "product_type": "brushless motor for RC helicopters",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0167",
+            "line_start": 108,
+            "line_end": 108,
+            "url": "https://www.scorpionsystem.com/catalog",
+            "page_class": "product",
+            "snippet": "[HK5-Series (2023 - Present)](/catalog/helicopter/HK5_series/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "A2-Series Motors",
+        "product_type": "brushless motor for acro/UAV fixed-wing airplanes",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0167",
+            "line_start": 104,
+            "line_end": 104,
+            "url": "https://www.scorpionsystem.com/catalog",
+            "page_class": "product",
+            "snippet": "[A2 - Series | for Acro / UAV Airplanes (2026 - Present)](/catalog/aeroplane/A2_series_acro_UAV/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Tribunus III Series ESC",
+        "product_type": "electronic speed controller (SBEC)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0167",
+            "line_start": 125,
+            "line_end": 125,
+            "url": "https://www.scorpionsystem.com/catalog",
+            "page_class": "product",
+            "snippet": "[Tribunus III Series](/catalog/speed_controllers/tribunus_esc/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Legatus (FOC) Series ESC",
+        "product_type": "electronic speed controller (FOC/SBEC)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0167",
+            "line_start": 126,
+            "line_end": 126,
+            "url": "https://www.scorpionsystem.com/catalog",
+            "page_class": "product",
+            "snippet": "[Legatus (FOC) Series](/catalog/speed_controllers/14s_legatus_sbec/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "12S Tribunus SBEC Series ESC",
+        "product_type": "electronic speed controller (SBEC)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0167",
+            "line_start": 127,
+            "line_end": 127,
+            "url": "https://www.scorpionsystem.com/catalog",
+            "page_class": "product",
+            "snippet": "[12S Tribunus SBEC series](/catalog/speed_controllers/12s_tribunus_sbec/)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Product families listed; many individual SKUs on skipped catalog pages not enumerated here"
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0136",
+        "line_start": 149,
+        "line_end": 150,
+        "url": "https://www.scorpionsystem.com/about/news/Tribunus_III_new_releases_3",
+        "page_class": "company",
+        "snippet": "**\u2022 Western-sourced components**\n**\u2022 Manufactured in Taiwan**"
+      }
+    ],
+    "notes": "Site claims 'Western-sourced components' and 'Manufactured in Taiwan' for Tribunus III series; no explicit NDAA Sec 848/889 compliance claim made"
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 100,
+        "line_end": 101,
+        "url": "https://www.scorpionsystem.com",
+        "page_class": "homepage",
+        "snippet": "[Scorpion Tribunus III 14-220A ESC SBEC](/catalog/speed_controllers/tribunus_esc/hv_tribunusIII_series/III_14_220/)\n$499.99"
+      }
+    ],
+    "notes": "Active online store with catalog-priced SKUs; ISO 9001 certified facility with 1000+ staff per company history"
+  },
+  "unresolved_questions": [
+    "Which specific motor SKUs are targeted at UAV applications beyond the A2-Series and IM-Series families?"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.scorpionsystem.com/catalog/aeroplane/A2_series_acro_UAV",
+      "reason": "Would confirm specific UAV-targeted motor SKUs, specs, and marketing language for the A2-Series for Acro/UAV Airplanes \u2014 sharpens products and drone_supply_chain_role evidence",
+      "expected_evidence": [
+        "products",
+        "drone_supply_chain_role",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.scorpionsystem.com/catalog/multicopter/im_series-motors",
+      "reason": "Would list IM-Series multicopter motor SKUs and confirm UAV/drone-specific specs and positioning",
+      "expected_evidence": [
+        "products",
+        "drone_supply_chain_role",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Hong Kong\u2013based supplier of brushless outrunner motors (IM, M/MII, HK5, A-series families) and electronic speed controllers (Tribunus III, Legatus FOC, 12S variants) for multicopters, helicopters, fixed-wing aircraft, and FPV platforms. Production-ready across multiple voltage/amperage configurations. NDAA and Blue UAS certification status unknown; public evidence of US defense integration limited.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 16,
+    "total_cost_usd": 0.4312955499999999,
+    "created_at": "2026-05-04T06:06:08+00:00",
+    "extract_version": "0.1.0"
+  }
+}

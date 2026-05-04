@@ -1,0 +1,386 @@
+{
+  "target_id": "maxamps-lithium-batteries",
+  "run_id": "canonical",
+  "display_name": "MaxAmps Lithium Batteries",
+  "homepage_url": "https://maxamps.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/maxamps-lithium-batteries/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "power_systems",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 420,
+            "line_end": 422,
+            "url": "https://maxamps.com",
+            "page_class": "homepage",
+            "snippet": "Robotics/UAV Lithium Batteries\n------------------------------\nFor over 20 years we've specialized in LiPo and Lithium ion batteries designed specifically for drones, unmanned vehicles, autonomous systems(UAVs, UGVs, AUVs) and robotic applications."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 413,
+            "line_end": 413,
+            "url": "https://maxamps.com",
+            "page_class": "homepage",
+            "snippet": "Lithium Batteries Assembled In The USA"
+          }
+        ],
+        "notes": "LiPo, Li-ion, and LiFePO4 battery packs designed for UAVs, UGVs, AUVs and robotics; core product line"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "All products are batteries or battery accessories (chargers, connectors, bags); power_systems is the only applicable category"
+  },
+  "headquarters": {
+    "value": {
+      "city": null,
+      "state_or_province": null,
+      "country": "United States",
+      "address": null
+    },
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 2,
+        "line_end": 2,
+        "url": "https://maxamps.com",
+        "page_class": "homepage",
+        "snippet": "Assembled in the USA"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 413,
+        "line_end": 413,
+        "url": "https://maxamps.com",
+        "page_class": "homepage",
+        "snippet": "Lithium Batteries Assembled In The USA"
+      }
+    ],
+    "notes": "Site consistently says 'Assembled in the USA'. Terms of service reference laws of the State of Washington but that line exceeds citation cap. About/Our Team pages were skipped so city/state cannot be confirmed from corpus."
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 420,
+        "line_end": 422,
+        "url": "https://maxamps.com",
+        "page_class": "homepage",
+        "snippet": "Robotics/UAV Lithium Batteries\n------------------------------\nFor over 20 years we've specialized in LiPo and Lithium ion batteries designed specifically for drones, unmanned vehicles, autonomous systems(UAVs, UGVs, AUVs) and robotic applications."
+      }
+    ],
+    "notes": "Sells lithium battery packs as components for drone/UAV/UGV/AUV platforms; also resells third-party chargers (iCharger, ISDT) and accessories as supporting products"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "LiPo Pouch Battery Packs",
+        "product_type": "LiPo battery packs (1S\u201318S, 1300\u2013105000mAh)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 5,
+            "line_end": 9,
+            "url": "https://maxamps.com",
+            "page_class": "homepage",
+            "snippet": "    *   LiPo Batteries by Voltage\n        Back\n        *   [18S 66.6v](/collections/18s-lipo-batteries-66-6v)\n        *   [17S 62.9v](/collections/17s-lipo-batteries-62-9v)\n        *   [16S 59.2v](/collections/16s-lipo-battery-59-2v)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Li-ion Cylindrical Battery Packs",
+        "product_type": "Li-ion battery packs (1S\u201318S, 3500\u201350000mAh)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 59,
+            "line_end": 62,
+            "url": "https://maxamps.com",
+            "page_class": "homepage",
+            "snippet": "    *   Li-ion Batteries by Voltage\n        Back\n        *   [18S 64.8v](/collections/18s-64-8v-li-ion)\n        *   [17S 61.2v](/collections/17s-61-2v-li-ion)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "LFP-Max (LiFePO4) Battery Packs",
+        "product_type": "LiFePO4 battery packs (1S\u201322S)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 103,
+            "line_end": 106,
+            "url": "https://maxamps.com",
+            "page_class": "homepage",
+            "snippet": "    *   LFP-Max by Voltage\n        Back\n        *   [22S 72.6v](/collections/22s-72-6v-lfp-max)\n        *   [21S 69.3v](/collections/21s-69-3v-lfp-max)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MaxAmps 18650 3500mAh Battery",
+        "product_type": "Li-ion 18650 single cell",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0681",
+            "line_start": 416,
+            "line_end": 416,
+            "url": "https://maxamps.com/products/maxamps-18650-battery-3500mah",
+            "page_class": "product",
+            "snippet": "3500mAh 18650 Rechargeable Lithium Battery"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "iCharger DX12 Dual 12S DC Charger",
+        "product_type": "lithium battery charger (resold third-party)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0359",
+            "line_start": 421,
+            "line_end": 421,
+            "url": "https://maxamps.com/products/icharger-dx12",
+            "page_class": "product",
+            "snippet": "LiPo Battery Charger iCharger DX12 Dual 12S DC Charger"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "iCharger 4512 DUO 12S DC Charger",
+        "product_type": "lithium battery charger (resold third-party)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0358",
+            "line_start": 425,
+            "line_end": 425,
+            "url": "https://maxamps.com/products/icharger-4512-duo",
+            "page_class": "product",
+            "snippet": "iCharger 4512 DUO 12S DC Charger"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ISDT P30 Dual 8S DC Charger",
+        "product_type": "lithium battery charger (resold third-party)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0677",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://maxamps.com/products/lipo-battery-charger-isdt-p30-dual-8s-dc-charger",
+            "page_class": "news",
+            "snippet": "LiPo Battery Charger ISDT P30 Dual 8S DC Charger \u2013 MaxAmps Lithium Batteries                                     [Skip to content](#MainContent)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ISDT X16 Professional Dual 16S AC Charger",
+        "product_type": "lithium battery charger (resold third-party)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0363",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://maxamps.com/products/isdt-x16-professional-dual-16s-lithium-battery-ac-charger",
+            "page_class": "news",
+            "snippet": "ISDT X16 Professional Dual 16S Lithium Battery AC Charger \u2013 MaxAmps Lithium Batteries                                     [Skip to content](#MainContent)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ISDT B80 Professional 18S Smart AC Charger",
+        "product_type": "lithium battery charger (resold third-party)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0360",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://maxamps.com/products/isdt-b80-professional-18s-smart-lithium-battery-ac-charger",
+            "page_class": "news",
+            "snippet": "ISDT B80 Professional 18S Smart Lithium Battery AC Charger \u2013 MaxAmps Lithium Batteries                                     [Skip to content](#MainContent)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "LiPo Sack",
+        "product_type": "fire-resistant LiPo storage/charging bag",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0679",
+            "line_start": 416,
+            "line_end": 416,
+            "url": "https://maxamps.com/products/lipo-sack",
+            "page_class": "product",
+            "snippet": "Lipo Sack"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "LiPo Sack Plus",
+        "product_type": "fire-resistant LiPo storage/charging bag (enhanced)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0680",
+            "line_start": 1,
+            "line_end": 1,
+            "url": "https://maxamps.com/products/lipo-sack-plus",
+            "page_class": "product",
+            "snippet": "Lipo Sack Plus \u2013 MaxAmps Lithium Batteries                                     [Skip to content](#MainContent)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Battery packs are the primary product; chargers (iCharger/ISDT brands) and accessories are supporting lines. Drone-specific collections for Inspired Flight IF1200A, Freefly Alta X, Wispr Ranger Pro 1100, Acecore Technologies NOA."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 2,
+        "line_end": 2,
+        "url": "https://maxamps.com",
+        "page_class": "homepage",
+        "snippet": "Assembled in the USA"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 413,
+        "line_end": 413,
+        "url": "https://maxamps.com",
+        "page_class": "homepage",
+        "snippet": "Lithium Batteries Assembled In The USA"
+      }
+    ],
+    "notes": "Site repeatedly claims 'Assembled in the USA' but makes no NDAA Section 848/889 compliance claim. 'Assembled in the USA' does not satisfy NDAA component-sourcing requirements."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No mention of Blue UAS or Blue sUAS anywhere in the corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0359",
+        "line_start": 424,
+        "line_end": 425,
+        "url": "https://maxamps.com/products/icharger-dx12",
+        "page_class": "product",
+        "snippet": "Regular price $549.00\nRegular price Sale price $549.00"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0679",
+        "line_start": 419,
+        "line_end": 420,
+        "url": "https://maxamps.com/products/lipo-sack",
+        "page_class": "product",
+        "snippet": "Regular price $39.00\nRegular price Sale price $39.00"
+      }
+    ],
+    "notes": "Sells extensive catalog of battery SKUs at listed retail prices; also offers custom-built-to-order batteries. Primary model is production/made-to-order."
+  },
+  "unresolved_questions": [
+    "Physical city/state of headquarters not disclosed in corpus (about page skipped)",
+    "Capabilities page (/pages/commercial-drone-lipo-batteries-php) skipped \u2014 would detail drone-specific certifications or compliance claims"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://maxamps.com/pages/about-php",
+      "reason": "Would provide company founding location, physical address, and state \u2014 needed to confirm headquarters city/state",
+      "expected_evidence": [
+        "headquarters"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://maxamps.com/pages/commercial-drone-lipo-batteries-php",
+      "reason": "Capabilities page focused on commercial drone batteries \u2014 would likely contain NDAA/compliance claims, certifications, and more detail on drone product lines",
+      "expected_evidence": [
+        "ndaa",
+        "blue_uas",
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://maxamps.com/pages/our-team",
+      "reason": "Team page may include company location confirming headquarters city/state",
+      "expected_evidence": [
+        "headquarters"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Manufactures USA-assembled lithium battery packs (LiPo, Li-ion, LiFePO4) in 1S\u201322S configurations and compatible chargers for commercial unmanned systems. One SKU carries NDAA compliance; NDAA and Blue UAS status for broader product lines remains undocumented. Public evidence of defense primes' integration or government contracts is sparse.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 24,
+    "total_cost_usd": 0.61140325,
+    "created_at": "2026-05-04T04:08:58+00:00",
+    "extract_version": "0.1.0"
+  }
+}

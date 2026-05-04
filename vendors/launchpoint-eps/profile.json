@@ -1,0 +1,355 @@
+{
+  "target_id": "launchpoint-eps",
+  "run_id": "canonical",
+  "display_name": "LaunchPoint EPS",
+  "homepage_url": "https://launchpointeps.com/",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/launchpoint-eps/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 34,
+            "line_end": 34,
+            "url": "https://launchpointeps.com/",
+            "page_class": "homepage",
+            "snippet": "LaunchPoint\u00ae designs and manufactures lightweight, high-specific-power motors, starter/generators and alternators for combat aircraft, uncrewed aircraft systems, and airborne pods. Our patented ironless axial-flux motor/generator technology delivers unmatched Size, Weight, and Power."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0034",
+            "line_start": 37,
+            "line_end": 37,
+            "url": "https://launchpointeps.com/legal",
+            "page_class": "company",
+            "snippet": "LaunchPoint Electric Machines (DHA050, DHA075, DHA120)"
+          }
+        ],
+        "notes": "Ironless axial-flux motors, alternators, and starter/generators (DHA050, DHA075, DHA120) for UAS and combat aircraft"
+      },
+      {
+        "category": "propulsion_electronics",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0071",
+            "line_start": 35,
+            "line_end": 37,
+            "url": "https://launchpointeps.com/products",
+            "page_class": "product",
+            "snippet": "### SmartPoint\u2122 Control Software\n#### [Power Electronics and Control: Motor Controllers, Generator Control Units, Genset Controllers](https://launchpointeps.com/controllers/)\nLaunchPoint\u2019s SmartPoint\u2122 Controllers are advanced electric motor drives, generator controllers, and hybrid electric power system management units that are designed for all electric and hybrid electric propulsion applications."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0034",
+            "line_start": 39,
+            "line_end": 39,
+            "url": "https://launchpointeps.com/legal",
+            "page_class": "company",
+            "snippet": "LaunchPoint Controllers (HPS055 PMU, HPS400 PMU, MC15, MC40, MC250)"
+          }
+        ],
+        "notes": "SmartPoint\u2122 motor controllers, generator control units, and power management units (MC15, MC40, MC250, HPS055 PMU, HPS400 PMU)"
+      },
+      {
+        "category": "power_systems",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0071",
+            "line_start": 38,
+            "line_end": 39,
+            "url": "https://launchpointeps.com/products",
+            "page_class": "product",
+            "snippet": "#### [Generator Sets](https://launchpointeps.com/gensets/)\nHighly efficient and power-dense\u00a0LaunchPoint gensets are patented technology that include an air-cooled alternator, lightweight aircraft engine, software, controls, and a battery management system enabling intelligent in-flight battery charging."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0034",
+            "line_start": 35,
+            "line_end": 35,
+            "url": "https://launchpointeps.com/legal",
+            "page_class": "company",
+            "snippet": "LaunchPoint Gensets (HPS055, HPS400, custom)"
+          }
+        ],
+        "notes": "Integrated generator sets (HPS055, HPS400) with alternator, engine, controls and BMS; LaunchPower\u2122 battery management system"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Goleta",
+      "state_or_province": "California",
+      "country": "United States",
+      "address": "320 Storke Rd, Goleta, CA 93117"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 74,
+        "line_end": 75,
+        "url": "https://launchpointeps.com/",
+        "page_class": "homepage",
+        "snippet": "320 Storke Rd\nGoleta, CA 93117"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0071",
+        "line_start": 29,
+        "line_end": 31,
+        "url": "https://launchpointeps.com/products",
+        "page_class": "product",
+        "snippet": "**Powering Air Dominance: UAS, CCA, and Fighters**\n-----------------------------------------------------\nFrom 1.5\u201340kW UAS propulsion to 40\u2013250kW aircraft power generation, LaunchPoint\u00ae is a key enabler for high performance platforms: manned fighters, Group 2-5 UAS, and support aircraft. Our ironless topologies cut mass and losses while boosting efficiency, thermal performance, and survivability."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0071",
+        "line_start": 38,
+        "line_end": 39,
+        "url": "https://launchpointeps.com/products",
+        "page_class": "product",
+        "snippet": "#### [Generator Sets](https://launchpointeps.com/gensets/)\nHighly efficient and power-dense\u00a0LaunchPoint gensets are patented technology that include an air-cooled alternator, lightweight aircraft engine, software, controls, and a battery management system enabling intelligent in-flight battery charging."
+      }
+    ],
+    "notes": "Sells integrated power generation subsystems (gensets) and propulsion modules for Group 2\u20135 UAS and manned combat aircraft; gensets are fully integrated units (alternator + engine + software + controls + BMS)"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Electric Machines (DHA050, DHA075, DHA120)",
+        "product_type": "ironless axial-flux motors / alternators / starter-generators",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0034",
+            "line_start": 37,
+            "line_end": 38,
+            "url": "https://launchpointeps.com/legal",
+            "page_class": "company",
+            "snippet": "LaunchPoint Electric Machines (DHA050, DHA075, DHA120)\nLaunchPoint\u2019s Electric Machines (DHA050, DHA075, DHA120) are protected under one or more of the following U.S. patents: 8823238 B2, 10141822 B2, 10468955 B2, 10574110 B2; additional patents pending in the U.S. and internationally."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Gensets (HPS055, HPS400)",
+        "product_type": "integrated hybrid power generation systems for UAS",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0034",
+            "line_start": 35,
+            "line_end": 36,
+            "url": "https://launchpointeps.com/legal",
+            "page_class": "company",
+            "snippet": "LaunchPoint Gensets (HPS055, HPS400, custom)\nLaunchPoint\u2019s Gensets (HPS055, HPS400, custom) are protected under one or more of the following U.S. patents: 8823238 B2, 10141822 B2, 10468955 B2, 10574110 B2,\u00a011738875 B2; additional patents pending in the U.S. and internationally."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SmartPoint\u2122 Controllers",
+        "product_type": "motor controllers, generator control units, power management units",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0071",
+            "line_start": 35,
+            "line_end": 37,
+            "url": "https://launchpointeps.com/products",
+            "page_class": "product",
+            "snippet": "### SmartPoint\u2122 Control Software\n#### [Power Electronics and Control: Motor Controllers, Generator Control Units, Genset Controllers](https://launchpointeps.com/controllers/)\nLaunchPoint\u2019s SmartPoint\u2122 Controllers are advanced electric motor drives, generator controllers, and hybrid electric power system management units that are designed for all electric and hybrid electric propulsion applications."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "LaunchPower\u2122",
+        "product_type": "battery management system for hybrid-electric flight",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0071",
+            "line_start": 40,
+            "line_end": 41,
+            "url": "https://launchpointeps.com/products",
+            "page_class": "product",
+            "snippet": "#### [Battery Management](https://launchpointeps.com/gensets/)\nLaunchPoint\u00a0has developed LaunchPower\u2122 series of software and hardware solutions that are designed to be a sophisticated battery management system for high reliability battery packs used in electric and hybrid electric flight. Our technology is the brains behind the interface between the battery pack and the propulsion system."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MAAP\u00ae",
+        "product_type": "propulsion and power generation design optimization software",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0034",
+            "line_start": 31,
+            "line_end": 31,
+            "url": "https://launchpointeps.com/legal",
+            "page_class": "company",
+            "snippet": "\u201cLaunchPoint\u00ae\u201d and \u201cMAAP\u00ae\u201d are trademarks of LaunchPoint Electric Propulsion Solutions, Inc. All other trademarks are the property of their respective owners."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Core product SKUs identified from patent marking page; detailed product pages (/maap/, /motors-generators/, /controllers/, /gensets/) were skipped in crawl and may contain additional SKUs"
+  },
+  "ndaa": {
+    "value": "yes",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 29,
+        "line_end": 29,
+        "url": "https://launchpointeps.com/",
+        "page_class": "homepage",
+        "snippet": "![](https://launchpointeps.com/wp-content/uploads/2025/10/ndaa-compliant-logo.png \"ndaa-compliant-logo\")"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 91,
+        "line_end": 91,
+        "url": "https://launchpointeps.com/",
+        "page_class": "homepage",
+        "snippet": "![NDAA Compliant](https://launchpointeps.com/wp-content/uploads/2025/10/ndaa-compliant-logo.png \"ndaa-compliant-logo\")"
+      }
+    ],
+    "notes": "Site displays 'NDAA Compliant' logo prominently in header and footer across all pages; no further detail on specific section (848/889) is provided"
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0050",
+        "line_start": 34,
+        "line_end": 34,
+        "url": "https://launchpointeps.com/pr-achievement-of-certs-as9100-iso9001",
+        "page_class": "compliance",
+        "snippet": "**GOLETA,**\u00a0California \u2013 LaunchPoint Electric Propulsion Solutions, Inc., a leading developer of power generation and propulsion systems, has announced the achievement of both AS9100 and ISO 9001 certifications for its U.S. manufacturing facilities."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0034",
+        "line_start": 35,
+        "line_end": 35,
+        "url": "https://launchpointeps.com/legal",
+        "page_class": "company",
+        "snippet": "LaunchPoint Gensets (HPS055, HPS400, custom)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0034",
+        "line_start": 37,
+        "line_end": 37,
+        "url": "https://launchpointeps.com/legal",
+        "page_class": "company",
+        "snippet": "LaunchPoint Electric Machines (DHA050, DHA075, DHA120)"
+      }
+    ],
+    "notes": "AS9100D + ISO 9001 certified U.S. manufacturing facilities; named catalog SKUs (HPS055, HPS400, DHA050, DHA075, DHA120, MC15, MC40, MC250) in production; active AFWERX prototype program is a government development contract, not representative of primary commercial business"
+  },
+  "unresolved_questions": [
+    "NDAA specific section (848 vs 889) not specified; site only shows 'NDAA Compliant' logo without detail",
+    "MAAP\u00ae role unclear \u2014 internal design tool vs. externally sold software product; product detail page was skipped"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://launchpointeps.com/motors-generators",
+      "reason": "Product detail page for electric machines; would confirm full SKU list and power ratings for propulsion_mechanical category",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://launchpointeps.com/gensets",
+      "reason": "Product detail page for generator sets and BMS; would confirm HPS055/HPS400 specs and LaunchPower BMS details for power_systems category",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://launchpointeps.com/controllers",
+      "reason": "Product detail page for SmartPoint controllers; would confirm full controller SKU list for propulsion_electronics category",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://launchpointeps.com/maap",
+      "reason": "Product detail page for MAAP\u00ae; would clarify whether it is sold as a standalone product or used only internally for design consulting",
+      "expected_evidence": [
+        "products",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Designs and manufactures lightweight, high-efficiency electric motors, generators, and starter/generators using patented ironless axial-flux technology for combat aircraft, UAS, and airborne pods. NDAA-compliant, AS9100D-certified, made in USA. Notable: L3Harris selected them for next-generation electronic warfare pod power generation. Blue UAS status unknown; limited public evidence of current production UAS integration beyond platform claims.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 24,
+    "total_cost_usd": 0.48984875000000005,
+    "created_at": "2026-05-04T03:50:49+00:00",
+    "extract_version": "0.1.0"
+  }
+}

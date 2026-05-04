@@ -1,0 +1,338 @@
+{
+  "target_id": "aero-telemetry",
+  "run_id": "canonical",
+  "display_name": "Aero Telemetry",
+  "homepage_url": "https://www.aerotelemetry.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/aero-telemetry/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "communications",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 99,
+            "line_end": 99,
+            "url": "https://www.aerotelemetry.com",
+            "page_class": "homepage",
+            "snippet": "We specialize in the design and fabrication of Unmanned Air Vehicles and related airborne electronic subsystem components required for telemetry, command, and control."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 103,
+            "line_end": 103,
+            "url": "https://www.aerotelemetry.com",
+            "page_class": "homepage",
+            "snippet": "Our telemetry systems provide high-reliability, long range communication to and from unmanned airborne platforms and space based satellites."
+          }
+        ],
+        "notes": "Antenna systems, airborne PCM telemetry (DRV Series), airborne voice relay, and RF amplifiers."
+      },
+      {
+        "category": "recovery_systems",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0058",
+            "line_start": 88,
+            "line_end": 88,
+            "url": "https://www.aerotelemetry.com/recovery-parachute-systems",
+            "page_class": "capability",
+            "snippet": "Aero Telemetry has provided several different types and styles of Parachute Recovery Systems that have been implemented on many different unmanned air vehicle projects."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0056",
+            "line_start": 96,
+            "line_end": 97,
+            "url": "https://www.aerotelemetry.com/products",
+            "page_class": "product",
+            "snippet": "The most complex system on any airplane in the retractable landing gear.\nAero Telemetry has designed and manufactured hydraulically actuated\u00a0 landing gear systems for several unique unmanned air vehicle projects for more than 25 years"
+          }
+        ],
+        "notes": "Recovery parachute systems (Cross-X Series) and hydraulically actuated UAV landing gear."
+      },
+      {
+        "category": "flight_termination",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0058",
+            "line_start": 98,
+            "line_end": 98,
+            "url": "https://www.aerotelemetry.com/recovery-parachute-systems",
+            "page_class": "capability",
+            "snippet": "Aero Telemetry designs and manufactures flight termination and vehicle recovery parachute systems for many applications. The Cross-X Series\u2122 of high-speed canopies are Commercial Off The Shelf stock items."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0058",
+            "line_start": 116,
+            "line_end": 120,
+            "url": "https://www.aerotelemetry.com/recovery-parachute-systems",
+            "page_class": "capability",
+            "snippet": "CROSS-X SERIES\u2122 HIGH SPEED FLIGHT TERMINATION PARACHUTE SYSTEMS\n![HPERX\\_header.jpg](https://static.wixstatic.com/media/139de8_693b06fc89584369a4943ab02db77180~mv2.jpg/v1/crop/x_181,y_0,w_355,h_292/fill/w_385,h_316,al_c,lg_1,q_80,enc_avif,quality_auto/HPERX_header.jpg)\nCROSS-X SERIES\u2122\nHIGH SPEED FLIGHT TERMINATION\nPARACHUTE SYSTEMS"
+          }
+        ],
+        "notes": "Cross-X Series explicitly marketed as high-speed flight termination parachute systems."
+      },
+      {
+        "category": "mechanical_subsystems",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0056",
+            "line_start": 96,
+            "line_end": 97,
+            "url": "https://www.aerotelemetry.com/products",
+            "page_class": "product",
+            "snippet": "The most complex system on any airplane in the retractable landing gear.\nAero Telemetry has designed and manufactured hydraulically actuated\u00a0 landing gear systems for several unique unmanned air vehicle projects for more than 25 years"
+          }
+        ],
+        "notes": "Hydraulically actuated retractable landing gear systems for UAVs."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Several product pages were skipped in crawl; list may be incomplete."
+  },
+  "headquarters": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No address, city, or state appears on any fetched page. Contact page contains only a web form."
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 148,
+        "line_end": 148,
+        "url": "https://www.aerotelemetry.com",
+        "page_class": "homepage",
+        "snippet": "The Aero Telemetry Corporation specializes in the design & manufacture of Unmanned Air Vehicles and related mechanical and electronic components used for Military and Commercial Aerospace applications."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0056",
+        "line_start": 96,
+        "line_end": 97,
+        "url": "https://www.aerotelemetry.com/products",
+        "page_class": "product",
+        "snippet": "The most complex system on any airplane in the retractable landing gear.\nAero Telemetry has designed and manufactured hydraulically actuated\u00a0 landing gear systems for several unique unmanned air vehicle projects for more than 25 years"
+      }
+    ],
+    "notes": "Sells named product lines (telemetry systems, antenna systems, recovery parachutes, landing gear) as drone subsystems; also provides custom UAV design as an engineering service."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "DRV Series\u2122",
+        "product_type": "airborne PCM telemetry data link system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0012",
+            "line_start": 108,
+            "line_end": 108,
+            "url": "https://www.aerotelemetry.com/airborne-pcm-telemetry-systems",
+            "page_class": "capability",
+            "snippet": "The Aero Telemetry DRV Series\u2122 airborne PCM telemetry data link was designed specifically for use on Unmanned Air Vehicles. This entry level integrated air-flight data package provides UAV operators with a reliable and cost effective telemetry downlink."
+          }
+        ],
+        "notes": "Models include DRV-1000, DRV-2000, DRV-3000, DRV-4000 (10\u201340 channel variants)."
+      },
+      {
+        "name": "Cross-X Series\u2122",
+        "product_type": "high-speed flight termination and vehicle recovery parachute system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0058",
+            "line_start": 98,
+            "line_end": 98,
+            "url": "https://www.aerotelemetry.com/recovery-parachute-systems",
+            "page_class": "capability",
+            "snippet": "Aero Telemetry designs and manufactures flight termination and vehicle recovery parachute systems for many applications. The Cross-X Series\u2122 of high-speed canopies are Commercial Off The Shelf stock items."
+          }
+        ],
+        "notes": "COTS catalog items; variants P-10N ($595) through P-20N ($2395) for 20\u2013200 lb airframes."
+      },
+      {
+        "name": "Airborne Voice Relay",
+        "product_type": "airborne ATC voice communication relay system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0056",
+            "line_start": 115,
+            "line_end": 115,
+            "url": "https://www.aerotelemetry.com/products",
+            "page_class": "product",
+            "snippet": "Originally developed for the Predator UAV our\u00a0 Airborne voice communication relay system is used to allow ATC personnel to communicate directly with the remote operator of the UAV on Standard commercial Air Traffic Frequencies."
+          }
+        ],
+        "notes": "Originally developed for Predator UAV."
+      },
+      {
+        "name": "Antenna Systems",
+        "product_type": "airborne and ground-based instrumentation antennas",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0020",
+            "line_start": 92,
+            "line_end": 97,
+            "url": "https://www.aerotelemetry.com/antenna-systems",
+            "page_class": "capability",
+            "snippet": "[AIRBORNE INSTRUMENTATION](https://www.aerotelemetry.com/antenna-systems)\n*   Miniature Airborne L/S-Band Blade Antenna\n*   Airborne L/S-Band Blade Antenna\n*   Airborne Broadband Flush-Mounted Antennas\n*   Airborne GPS Antennas\n*   Airborne UHF/L Band Blade"
+          }
+        ],
+        "notes": "Families include omni-directional base station, airborne blade antennas, broadband flush-mount, UHF/L-Band, directional parabolic, GPS."
+      },
+      {
+        "name": "UAV Landing Gear",
+        "product_type": "hydraulically actuated retractable landing gear for UAVs",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0056",
+            "line_start": 96,
+            "line_end": 97,
+            "url": "https://www.aerotelemetry.com/products",
+            "page_class": "product",
+            "snippet": "The most complex system on any airplane in the retractable landing gear.\nAero Telemetry has designed and manufactured hydraulically actuated\u00a0 landing gear systems for several unique unmanned air vehicle projects for more than 25 years"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Amplifiers",
+        "product_type": "RF power amplifiers for airborne and ground-based applications",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0056",
+            "line_start": 142,
+            "line_end": 142,
+            "url": "https://www.aerotelemetry.com/products",
+            "page_class": "product",
+            "snippet": "Aero Telemetry designs and manufactures RF power amplifiers for a wide variety of airborne and ground based applications."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Several product detail pages were skipped in crawl; additional SKU details may exist."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0058",
+        "line_start": 98,
+        "line_end": 98,
+        "url": "https://www.aerotelemetry.com/recovery-parachute-systems",
+        "page_class": "capability",
+        "snippet": "Aero Telemetry designs and manufactures flight termination and vehicle recovery parachute systems for many applications. The Cross-X Series\u2122 of high-speed canopies are Commercial Off The Shelf stock items."
+      }
+    ],
+    "notes": "COTS catalog items with listed prices; Cross-X Series explicitly described as off-the-shelf stock. Custom UAV design also offered as an engineering service."
+  },
+  "unresolved_questions": [
+    "Physical headquarters address/city/state not disclosed on any fetched page.",
+    "NDAA Section 848/889 compliance status not mentioned anywhere in corpus.",
+    "Blue UAS clearance status not mentioned anywhere in corpus."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.aerotelemetry.com/about-us",
+      "reason": "Would likely contain physical address and headquarters location, absent from all fetched pages.",
+      "expected_evidence": [
+        "headquarters",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "linked from resource-0001 homepage nav",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.aerotelemetry.com/uav-landing-gear",
+      "reason": "Product detail page for UAV landing gear; would provide SKU-level specs and confirm mechanical subsystem classification.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "linked from resource-0002 products page",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.aerotelemetry.com/airborne-voice-relay",
+      "reason": "Product detail page for Airborne Voice Relay; would provide model numbers and communications subsystem details.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "linked from resource-0002 products page",
+      "in_corpus_index": false
+    },
+    {
+      "url": "https://www.aerotelemetry.com/copy-of-airborne-voice-relay",
+      "reason": "Product detail page for Amplifiers; would provide model numbers and confirm RF amplifier product line.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "linked from resource-0002 products page",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 16,
+    "total_cost_usd": 0.7348747499999999,
+    "created_at": "2026-05-03T00:32:44+00:00",
+    "extract_version": "0.1.0"
+  },
+  "tagline": "Manufactures airborne PCM telemetry data links (DRV Series), flight-termination parachute systems (Cross-X Series), UAV landing gear, antennas, and RF amplifiers for unmanned systems. Also offers recovery parachutes and ATC voice relay. Production-ready subsystems across communications and mechanical integration. NDAA and Blue UAS certification status unknown; public evidence of programs and customer base is limited."
+}
