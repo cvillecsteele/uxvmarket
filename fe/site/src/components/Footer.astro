@@ -18,8 +18,6 @@ const {
   <div class="col">
     <h5>About</h5>
     <p>UxV Market is a curated reference of US and NATO-aligned merchant suppliers to the unmanned-systems industrial base. Maintained in public, evidence-disciplined, opinionated.</p>
-    <a href="/methodology">Methodology and taxonomy →</a>
-    <a href="/edition/2026">Past editions →</a>
   </div>
   <div class="col">
     <h5>Corrections</h5>
@@ -29,10 +27,18 @@ const {
   <div class="col signup">
     <h5>Monday SITREP</h5>
     <p>One dispatch per week. Three minutes to read. Free.</p>
-    <form onsubmit="event.preventDefault(); alert('Subscribe form: wire to Buttondown in production.');">
-      <input type="email" placeholder="your@work.email" required>
+    <form
+      action="https://buttondown.com/api/emails/embed-subscribe/cvillecsteele"
+      method="post"
+      class="embeddable-buttondown-form"
+      target="popupwindow"
+      onsubmit="window.open('https://buttondown.com/cvillecsteele', 'popupwindow')"
+    >
+      <label for="bd-email" class="sr-only">Enter your email</label>
+      <input type="email" name="email" id="bd-email" placeholder="your@work.email" required>
       <button type="submit">Subscribe</button>
     </form>
+    <p class="bd-attr"><a href="https://buttondown.com/refer/cvillecsteele" target="_blank" rel="noopener">Powered by Buttondown</a></p>
   </div>
   <nav class="legal-links" aria-label="Legal and about">
     <a href="/about">About</a>
@@ -43,7 +49,7 @@ const {
     {edition} · {volIssue}
     {firmCount ? ` · Compiled from ${firmCount} vendor reviews` : ''}
     {reviewedRange ? ` dated ${reviewedRange}` : ''}
-    · &copy; {new Date().getFullYear()} UxV Market. All rights reserved.
+    · &copy; {new Date().getFullYear()} Iron Brothers Ventures LLC. All rights reserved.
   </div>
 </footer>
 
@@ -129,6 +135,25 @@ const {
     font-weight: 500;
   }
   .signup button:hover { background: var(--text); }
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+  .bd-attr {
+    margin-top: 6px;
+    font-family: var(--font-mono);
+    font-size: 10px;
+    color: var(--secondary);
+  }
+  .bd-attr a { color: var(--secondary); text-decoration: none; }
+  .bd-attr a:hover { color: var(--text); }
   .colophon {
     grid-column: 1 / -1;
     margin-top: 24px;
