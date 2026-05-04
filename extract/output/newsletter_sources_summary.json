@@ -1,0 +1,623 @@
+{
+  "generated_at": "2026-05-04T21:04:06+00:00",
+  "total_vendors": 303,
+  "with_sources": 230,
+  "without_sources": 73,
+  "vendors_without_sources": [
+    "aaa-engineering-test-lab",
+    "aero-systems-west",
+    "aero-tec-laboratories-ltd",
+    "aerodata-ag",
+    "aerofoam",
+    "aerora-technology",
+    "applanix-trimble-applanix",
+    "autonodyne",
+    "axialtech",
+    "butler-parachute-systems",
+    "castle-creations",
+    "competition-composites-inc",
+    "composites-universal-group",
+    "concorde-battery-corporation",
+    "copenhagen-subsea",
+    "crp-usa",
+    "cubepilot-pty-ltd",
+    "datalink-systems",
+    "drone-rescue",
+    "dronesmith-usa",
+    "ducommun",
+    "enix-power-solutions",
+    "eumotors",
+    "fizoptika-malta",
+    "fp-propeller",
+    "geocue",
+    "greene-rubber-company",
+    "greensight",
+    "hexagon-novatel",
+    "iec-infrared-systems",
+    "imc-industries",
+    "lidarusa",
+    "likeabird",
+    "magcad",
+    "maxon",
+    "maxtena",
+    "mks-servos-zeus-uav-servos",
+    "mks-zeus-servos",
+    "moscat",
+    "mostatech",
+    "nest-fly-technologies",
+    "neu-motors",
+    "new-imaging-technologies-nit",
+    "orbital-research",
+    "orthodrone",
+    "packet-digital-badland-batteries",
+    "plettenberg",
+    "pyromeral-systems",
+    "radionor-communications",
+    "rcv-engines-ltd",
+    "reliable-robotics",
+    "remote-robotic",
+    "rotron-power",
+    "rpx-technologies",
+    "ruffy-controls-inc",
+    "sabca",
+    "saft",
+    "sentera",
+    "sf-motorsporttechnik",
+    "silicon-sensing-systems",
+    "silver-atena",
+    "sky-drones-technologies",
+    "skyline-nav-ai",
+    "skytrac-systems",
+    "sovereign-autonomous-system-b-v",
+    "taisync-technology-inc",
+    "uas-components",
+    "uav-engines-ltd",
+    "uav-turbines-inc",
+    "ultra-motion",
+    "valinor-dispatch-dock",
+    "vantage-robotics",
+    "vixos-aviation-aps"
+  ],
+  "primary_kind_distribution": {
+    "news": 134,
+    "blog": 37,
+    "press": 22,
+    "newsroom": 17,
+    "articles": 8,
+    "news-events": 7,
+    "insights": 4,
+    "stories": 1
+  },
+  "vendors_with_inferred_index_only": [
+    {
+      "slug": "ability-composites",
+      "kind": "blog",
+      "inferred_url": "https://abilitycomposites.com/blog"
+    },
+    {
+      "slug": "alarispro",
+      "kind": "press",
+      "inferred_url": "https://alarispro.com/press-releases"
+    },
+    {
+      "slug": "allient",
+      "kind": "blog",
+      "inferred_url": "https://allient.com/blog"
+    },
+    {
+      "slug": "allocortech",
+      "kind": "blog",
+      "inferred_url": "https://allocor.tech/blog"
+    },
+    {
+      "slug": "allocortech",
+      "kind": "news",
+      "inferred_url": "https://allocor.tech/news"
+    },
+    {
+      "slug": "allocortech",
+      "kind": "articles",
+      "inferred_url": "https://allocor.tech/articles"
+    },
+    {
+      "slug": "alva-industries",
+      "kind": "blog",
+      "inferred_url": "https://www.alvaindustries.com/post"
+    },
+    {
+      "slug": "american-security-force",
+      "kind": "news",
+      "inferred_url": "https://www.americansecurityforce.com/news"
+    },
+    {
+      "slug": "american-security-force",
+      "kind": "newsroom",
+      "inferred_url": "https://www.americansecurityforce.com/newsroom"
+    },
+    {
+      "slug": "american-security-force",
+      "kind": "articles",
+      "inferred_url": "https://www.americansecurityforce.com/articles"
+    },
+    {
+      "slug": "ametek-aerospace-defense",
+      "kind": "news-events",
+      "inferred_url": "https://www.ametekaerospaceanddefense.com/news-events"
+    },
+    {
+      "slug": "ametek-power-data-systems",
+      "kind": "news",
+      "inferred_url": "https://www.ametekpds.com/pressreleases/news"
+    },
+    {
+      "slug": "ametek-power-data-systems",
+      "kind": "press",
+      "inferred_url": "https://www.ametekpds.com/pressreleases"
+    },
+    {
+      "slug": "ampaire",
+      "kind": "news",
+      "inferred_url": "https://ampaire.com/content/news"
+    },
+    {
+      "slug": "ampaire",
+      "kind": "articles",
+      "inferred_url": "https://ampaire.com/articles"
+    },
+    {
+      "slug": "amprius-technologies",
+      "kind": "newsroom",
+      "inferred_url": "https://amprius.com/about/newsroom"
+    },
+    {
+      "slug": "amprius-technologies",
+      "kind": "press",
+      "inferred_url": "https://amprius.com/press"
+    },
+    {
+      "slug": "amprius-technologies",
+      "kind": "articles",
+      "inferred_url": "https://amprius.com/articles"
+    },
+    {
+      "slug": "arris-composites",
+      "kind": "news",
+      "inferred_url": "https://arriscomposites.com/news"
+    },
+    {
+      "slug": "avss-aerial-vehicle-safety-solutions",
+      "kind": "news",
+      "inferred_url": "https://avss.co/en/newsroom-and-events/news"
+    },
+    {
+      "slug": "avss-aerial-vehicle-safety-solutions",
+      "kind": "blog",
+      "inferred_url": "https://avss.co/posts"
+    },
+    {
+      "slug": "bavovna-ai",
+      "kind": "articles",
+      "inferred_url": "https://bavovna.ai/article"
+    },
+    {
+      "slug": "beta-technologies",
+      "kind": "newsroom",
+      "inferred_url": "https://beta.team/newsroom"
+    },
+    {
+      "slug": "beta-technologies",
+      "kind": "news",
+      "inferred_url": "https://beta.team/news"
+    },
+    {
+      "slug": "beta-technologies",
+      "kind": "press",
+      "inferred_url": "https://beta.team/press"
+    },
+    {
+      "slug": "bloomy-controls",
+      "kind": "articles",
+      "inferred_url": "https://www.bloomy.com/articles"
+    },
+    {
+      "slug": "colorado-drone-chargers",
+      "kind": "blog",
+      "inferred_url": "https://www.coloradodronechargers.com/blog"
+    },
+    {
+      "slug": "colorado-drone-chargers",
+      "kind": "newsroom",
+      "inferred_url": "https://www.coloradodronechargers.com/en/newsroom"
+    },
+    {
+      "slug": "crane-aerospace-electronics",
+      "kind": "news",
+      "inferred_url": "https://www.craneae.com/news"
+    },
+    {
+      "slug": "defensync",
+      "kind": "blog",
+      "inferred_url": "https://www.defensync.com/post"
+    },
+    {
+      "slug": "eaglepicher-technologies",
+      "kind": "blog",
+      "inferred_url": "https://www.eaglepicher.com/blog"
+    },
+    {
+      "slug": "edge-autonomy",
+      "kind": "articles",
+      "inferred_url": "https://edgeautonomy.io/article"
+    },
+    {
+      "slug": "epropelled",
+      "kind": "insights",
+      "inferred_url": "https://epropelled.com/insight"
+    },
+    {
+      "slug": "evologics-gmbh",
+      "kind": "news",
+      "inferred_url": "https://www.evologics.com/news"
+    },
+    {
+      "slug": "evonik",
+      "kind": "articles",
+      "inferred_url": "https://www.evonik.com/articles"
+    },
+    {
+      "slug": "general-plastics",
+      "kind": "news",
+      "inferred_url": "https://www.generalplastics.com/news"
+    },
+    {
+      "slug": "general-plastics",
+      "kind": "blog",
+      "inferred_url": "https://www.generalplastics.com/blog"
+    },
+    {
+      "slug": "h3x-technologies",
+      "kind": "blog",
+      "inferred_url": "https://www.h3x.tech/posts"
+    },
+    {
+      "slug": "h3x-technologies",
+      "kind": "articles",
+      "inferred_url": "https://www.h3x.tech/articles"
+    },
+    {
+      "slug": "hartzell-propeller",
+      "kind": "news",
+      "inferred_url": "https://hartzellprop.com/news"
+    },
+    {
+      "slug": "honeywell",
+      "kind": "newsroom",
+      "inferred_url": "https://aerospace.honeywell.com/epic/newsroom"
+    },
+    {
+      "slug": "hoverfly-technologies",
+      "kind": "news",
+      "inferred_url": "https://hoverflytech.com/news"
+    },
+    {
+      "slug": "hzo",
+      "kind": "news",
+      "inferred_url": "https://hzo.com/news"
+    },
+    {
+      "slug": "insitu",
+      "kind": "newsroom",
+      "inferred_url": "https://www.insitu.com/newsroom"
+    },
+    {
+      "slug": "insitu",
+      "kind": "blog",
+      "inferred_url": "https://www.insitu.com/blog"
+    },
+    {
+      "slug": "intelligent-energy",
+      "kind": "blog",
+      "inferred_url": "https://www.intelligent-energy.com/blog"
+    },
+    {
+      "slug": "intelligent-energy",
+      "kind": "stories",
+      "inferred_url": "https://www.intelligent-energy.com/story"
+    },
+    {
+      "slug": "intelligent-energy",
+      "kind": "articles",
+      "inferred_url": "https://www.intelligent-energy.com/article"
+    },
+    {
+      "slug": "intelligent-energy",
+      "kind": "news-events",
+      "inferred_url": "https://www.intelligent-energy.com/news-events"
+    },
+    {
+      "slug": "inventus-power",
+      "kind": "blog",
+      "inferred_url": "https://inventuspower.com/blog"
+    },
+    {
+      "slug": "kongsberg-geospatial",
+      "kind": "blog",
+      "inferred_url": "https://www.kongsberggeospatial.com/blog"
+    },
+    {
+      "slug": "kulr-technology-group",
+      "kind": "articles",
+      "inferred_url": "https://kulr.ai/article"
+    },
+    {
+      "slug": "kutta-technologies",
+      "kind": "press",
+      "inferred_url": "https://kuttatech.com/press-releases"
+    },
+    {
+      "slug": "laird",
+      "kind": "articles",
+      "inferred_url": "https://www.laird.com/articles"
+    },
+    {
+      "slug": "lemo-usa-inc",
+      "kind": "articles",
+      "inferred_url": "https://www.lemo.com/en/article"
+    },
+    {
+      "slug": "locus-lock",
+      "kind": "blog",
+      "inferred_url": "https://www.locuslock.com/post"
+    },
+    {
+      "slug": "microlink-devices-inc",
+      "kind": "news",
+      "inferred_url": "https://www.mldevices.com/index.php/news"
+    },
+    {
+      "slug": "modalai",
+      "kind": "news",
+      "inferred_url": "https://www.modalai.com/news"
+    },
+    {
+      "slug": "neousys",
+      "kind": "news",
+      "inferred_url": "https://www.neousys-tech.com/news"
+    },
+    {
+      "slug": "norbit",
+      "kind": "articles",
+      "inferred_url": "https://norbit.com/articles"
+    },
+    {
+      "slug": "northwest-uav",
+      "kind": "blog",
+      "inferred_url": "https://www.nwuav.com/blog"
+    },
+    {
+      "slug": "orbital-uav",
+      "kind": "news",
+      "inferred_url": "https://www.orbitaluav.com/news"
+    },
+    {
+      "slug": "ouster",
+      "kind": "news",
+      "inferred_url": "https://ouster.com/news"
+    },
+    {
+      "slug": "ouster",
+      "kind": "insights",
+      "inferred_url": "https://ouster.com/insights"
+    },
+    {
+      "slug": "parallel-flight-technologies",
+      "kind": "news",
+      "inferred_url": "https://www.parallelflight.com/news"
+    },
+    {
+      "slug": "parallel-flight-technologies",
+      "kind": "articles",
+      "inferred_url": "https://www.parallelflight.com/article"
+    },
+    {
+      "slug": "parasoft",
+      "kind": "news",
+      "inferred_url": "https://www.parasoft.com/news"
+    },
+    {
+      "slug": "parazero-technologies",
+      "kind": "news",
+      "inferred_url": "https://parazero.com/news"
+    },
+    {
+      "slug": "pegasus-actuators-gmbh",
+      "kind": "newsroom",
+      "inferred_url": "https://www.pegasus-actuators.com/newsroom"
+    },
+    {
+      "slug": "pegasus-actuators-gmbh",
+      "kind": "news",
+      "inferred_url": "https://www.pegasus-actuators.com/news"
+    },
+    {
+      "slug": "persistent-systems",
+      "kind": "articles",
+      "inferred_url": "https://persistentsystems.com/s/article"
+    },
+    {
+      "slug": "power-device-corporation",
+      "kind": "news",
+      "inferred_url": "https://powerdevicecorp.com/en/about/news"
+    },
+    {
+      "slug": "primordial-labs",
+      "kind": "articles",
+      "inferred_url": "https://www.primordial-labs.com/articles"
+    },
+    {
+      "slug": "primordial-labs",
+      "kind": "insights",
+      "inferred_url": "https://www.primordial-labs.com/insights"
+    },
+    {
+      "slug": "primordial-labs",
+      "kind": "announce",
+      "inferred_url": "https://www.primordial-labs.com/announcement"
+    },
+    {
+      "slug": "protech-composites",
+      "kind": "news",
+      "inferred_url": "https://protechcomposites.com/news"
+    },
+    {
+      "slug": "redler-technologies",
+      "kind": "blog",
+      "inferred_url": "https://www.redlertechnologies.com/news-events/blog"
+    },
+    {
+      "slug": "redler-technologies",
+      "kind": "news",
+      "inferred_url": "https://www.redlertechnologies.com/news-events/news"
+    },
+    {
+      "slug": "riegl",
+      "kind": "articles",
+      "inferred_url": "https://www.riegl.com/en-austria/news-insights/article"
+    },
+    {
+      "slug": "septentrio",
+      "kind": "articles",
+      "inferred_url": "https://www.septentrio.com/s/article"
+    },
+    {
+      "slug": "shield-ai",
+      "kind": "media-center",
+      "inferred_url": "https://shield.ai/media-center"
+    },
+    {
+      "slug": "shield-ai",
+      "kind": "stories",
+      "inferred_url": "https://shield.ai/story"
+    },
+    {
+      "slug": "shield-ai",
+      "kind": "insights",
+      "inferred_url": "https://shield.ai/insights"
+    },
+    {
+      "slug": "silvus-technologies",
+      "kind": "blog",
+      "inferred_url": "https://silvustechnologies.com/blog"
+    },
+    {
+      "slug": "simplex-motion",
+      "kind": "blog",
+      "inferred_url": "https://simplexmotion.com/posts"
+    },
+    {
+      "slug": "sky-ag",
+      "kind": "blog",
+      "inferred_url": "https://sky-ag.com/blog"
+    },
+    {
+      "slug": "sph-engineering-ugcs",
+      "kind": "blog",
+      "inferred_url": "https://www.sphengineering.com/blog"
+    },
+    {
+      "slug": "sph-engineering-ugcs",
+      "kind": "news-events",
+      "inferred_url": "https://www.sphengineering.com/news-and-events"
+    },
+    {
+      "slug": "spi",
+      "kind": "newsroom",
+      "inferred_url": "https://www.uav1.com/newsroom"
+    },
+    {
+      "slug": "steatite-communications",
+      "kind": "news",
+      "inferred_url": "https://steatite-communications.co.uk/news"
+    },
+    {
+      "slug": "systel",
+      "kind": "news",
+      "inferred_url": "https://www.systelusa.com/news"
+    },
+    {
+      "slug": "systel",
+      "kind": "press",
+      "inferred_url": "https://www.systelusa.com/press-release"
+    },
+    {
+      "slug": "systel",
+      "kind": "articles",
+      "inferred_url": "https://www.systelusa.com/articles"
+    },
+    {
+      "slug": "taylor-devices",
+      "kind": "news",
+      "inferred_url": "https://www.taylordevices.com/news"
+    },
+    {
+      "slug": "taylor-devices",
+      "kind": "blog",
+      "inferred_url": "https://www.taylordevices.com/blog"
+    },
+    {
+      "slug": "torontech",
+      "kind": "articles",
+      "inferred_url": "https://www.torontech.com/articles"
+    },
+    {
+      "slug": "u-blox",
+      "kind": "press",
+      "inferred_url": "https://www.u-blox.com/en/press-releases"
+    },
+    {
+      "slug": "u-blox",
+      "kind": "news",
+      "inferred_url": "https://www.u-blox.com/news"
+    },
+    {
+      "slug": "u-blox",
+      "kind": "stories",
+      "inferred_url": "https://www.u-blox.com/en/blogs/stories"
+    },
+    {
+      "slug": "u-blox",
+      "kind": "insights",
+      "inferred_url": "https://www.u-blox.com/blogs/insights"
+    },
+    {
+      "slug": "uav-propulsion-tech",
+      "kind": "press",
+      "inferred_url": "https://www.uavpropulsiontech.com/press-release"
+    },
+    {
+      "slug": "uavionix",
+      "kind": "articles",
+      "inferred_url": "https://uavionix.com/hc/en-us/articles"
+    },
+    {
+      "slug": "verdego-aero",
+      "kind": "press",
+      "inferred_url": "https://verdegoaero.com/press-release"
+    },
+    {
+      "slug": "verdego-aero",
+      "kind": "news",
+      "inferred_url": "https://verdegoaero.com/news"
+    },
+    {
+      "slug": "vicor-power",
+      "kind": "articles",
+      "inferred_url": "https://www.vicorpower.com/resource-library/articles"
+    },
+    {
+      "slug": "xsens",
+      "kind": "press",
+      "inferred_url": "https://www.xsens.com/company/press-room"
+    }
+  ]
+}
