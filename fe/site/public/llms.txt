@@ -1,0 +1,49 @@
+# UxV Market — Domestic UxV Supplier Reference
+
+> Curated reference of US and NATO-aligned merchant suppliers to the unmanned-systems industrial base (UAV, UGV, USV, UUV). Twelve subsystem sectors. Evidence-disciplined, opinionated, weekly editorial cadence.
+
+UxV Market is the canonical directory of merchant suppliers serving defense and commercial-professional unmanned systems. Every fact in the catalog carries provenance: source URL, verbatim snippet, last-reviewed date. Designed to be the Jane's-for-drones reference work for buyers at airframe integrators sourcing components.
+
+## Twelve subsystem sectors
+
+Each vendor belongs to one or more of:
+
+- **A · Propulsion Electronics** — ESCs, motor controllers, integrated motor+ESC modules, servo drive electronics. `https://uxvmarket.com/sector/propulsion-electronics`
+- **B · Propulsion Mechanical** — bare motors, gearboxes, propellers, rotors, piston/turbine engines. `https://uxvmarket.com/sector/propulsion-mechanical`
+- **C · Power Systems** — battery cells, packs, BMS, PDUs, DC/DC converters, chargers. `https://uxvmarket.com/sector/power-systems`
+- **D · Flight & Vehicle Control** — autopilots, VMCs, mission/companion compute, autonomy stacks. `https://uxvmarket.com/sector/flight-vehicle-control`
+- **E · Sensors & Navigation** — IMUs, GNSS, INS, magnetometers, air-data, altimeters, DAA. `https://uxvmarket.com/sector/sensors-navigation`
+- **F · Payloads** — EO/IR gimbals, LIDAR, SAR, communications/EW payloads, munitions. `https://uxvmarket.com/sector/payloads`
+- **G · Mechanical Subsystems** — landing gear, actuators, gimbals, release mechanisms, bay doors. `https://uxvmarket.com/sector/mechanical-subsystems`
+- **H · Structures & Materials** — composite shops, additive manufacturing, structural test. `https://uxvmarket.com/sector/structures-materials`
+- **I · Recovery Systems** — parachutes, flight termination, net capture, beacons. `https://uxvmarket.com/sector/recovery-systems`
+- **J · Ground Segment** — GCS hardware/software, antennas, launch/recovery, UTM, ground C-UAS. `https://uxvmarket.com/sector/ground-segment`
+- **K · Test & Measurement** — HIL rigs, motor dynos, environmental chambers, qualification services. `https://uxvmarket.com/sector/test-measurement`
+- **L · Communications** — datalinks, SATCOM, mesh radios, Remote ID, transponders/ADS-B. `https://uxvmarket.com/sector/communications`
+
+## URL grammar
+
+- Vendor canonical pages: `/vendor/<slug>` (slug-based; permanent identifier)
+- Sector indexes: `/sector/<slug>`
+- Capability/posture indexes: `/capability/<slug>` (e.g. `ndaa-compliant`, `blue-uas-framework`)
+- DoD program indexes: `/program/<slug>` (e.g. `replicator`)
+- Weekly editorial: `/sitrep/<issue-id>` (e.g. `2026-w17`)
+- Annual edition snapshot: `/edition/<year>`
+
+Every vendor also carries a permanent NATO-coded designation (e.g. `A.0042`) shown alongside the canonical name. The designation is the visual filing identifier; the slug is the URL.
+
+## Reference pages
+
+- About: `https://uxvmarket.com/about`
+- Terms of Service: `https://uxvmarket.com/terms`
+- Privacy Policy: `https://uxvmarket.com/privacy`
+
+## Methodology and corrections
+
+- Methodology and taxonomy: `https://uxvmarket.com/methodology`
+- Corrections and missing-vendor reports: `corrections@uxvmarket.com`
+- Weekly SITREP signup: in the site footer (Buttondown).
+
+## Provenance
+
+Every fact on a vendor page carries a clickable REF identifier (`REF.NNNN-X`) that opens a Source Drawer revealing the verbatim source snippet, source URL, and fetch timestamp. Missing facts are explicitly rendered as "not disclosed" with the date last checked — the absence is signal, not omission.

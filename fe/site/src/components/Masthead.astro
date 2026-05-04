@@ -1,0 +1,97 @@
+---
+interface Props {
+  edition?: string;       // "EDITION 2026"
+  volIssue?: string;      // "VOL II · ISSUE 17"
+  firmCount: number;
+  categoryCount?: number; // default 15
+  reviewedAt: string;     // display string e.g. "25 APR 2026"
+}
+
+const {
+  edition = 'EDITION 2026',
+  volIssue = 'VOL II · ISSUE 17',
+  firmCount,
+  categoryCount = 15,
+  reviewedAt,
+} = Astro.props;
+---
+
+<header class="masthead">
+  <h1><a href="/">UxV Market</a></h1>
+  <div class="subtitle">
+    <svg class="us-flag" viewBox="0 0 19 10" aria-hidden="true" focusable="false">
+      <rect width="19" height="10" fill="#fff"/>
+      <g fill="#b22234">
+        <rect y="0" width="19" height="0.769"/>
+        <rect y="1.538" width="19" height="0.769"/>
+        <rect y="3.077" width="19" height="0.769"/>
+        <rect y="4.615" width="19" height="0.769"/>
+        <rect y="6.154" width="19" height="0.769"/>
+        <rect y="7.692" width="19" height="0.769"/>
+        <rect y="9.231" width="19" height="0.769"/>
+      </g>
+      <rect width="7.6" height="5.385" fill="#3c3b6e"/>
+    </svg>
+    <span>Domestic UxV Supplier Reference</span>
+  </div>
+  <div class="meta">
+    <span>{edition}</span>
+    <span>{volIssue}</span>
+    <span>{firmCount} FIRMS</span>
+    <span>{categoryCount} CATEGORIES</span>
+    <span>REVIEWED {reviewedAt}</span>
+  </div>
+</header>
+
+<style>
+  .masthead {
+    border-bottom: 4px double var(--accent);
+    padding-bottom: 16px;
+    margin-bottom: 32px;
+  }
+  .masthead h1 {
+    font-family: var(--font-sans);
+    font-size: 42px;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+    color: var(--text);
+    line-height: 0.95;
+    margin-bottom: 8px;
+  }
+  .masthead h1 a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .masthead .subtitle {
+    font-size: 14px;
+    color: var(--secondary);
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .masthead .us-flag {
+    height: 1em;
+    width: auto;
+    display: block;
+    flex: none;
+  }
+  .masthead .meta {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--secondary);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  .masthead .meta span + span::before {
+    content: '·';
+    color: var(--rule);
+    margin: 0 8px;
+  }
+  @media (max-width: 720px) {
+    .masthead h1 { font-size: 30px; }
+    .masthead .meta { font-size: 10px; }
+  }
+</style>

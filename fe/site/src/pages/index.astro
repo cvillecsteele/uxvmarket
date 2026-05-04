@@ -1,0 +1,172 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Masthead from '../components/Masthead.astro';
+import FilterStrip from '../components/FilterStrip.astro';
+import SectorBlock from '../components/SectorBlock.astro';
+import Footer from '../components/Footer.astro';
+
+const allVendors = await getCollection('vendor');
+const allSectors = await getCollection('sector');
+
+const categoryOrder = [
+  'avionics',
+  'propulsion-electronics',
+  'propulsion-mechanical',
+  'power-systems',
+  'flight-vehicle-control',
+  'sensors-navigation',
+  'isr-payloads',
+  'electronic-warfare',
+  'munitions',
+  'communications',
+  'mechanical-subsystems',
+  'structures-materials',
+  'airframes',
+  'recovery-systems',
+  'flight-termination',
+  'ground-segment',
+  'test-measurement',
+];
+
+const sectors = allSectors.sort(
+  (a, b) => categoryOrder.indexOf(a.id) - categoryOrder.indexOf(b.id),
+);
+const primaryCategories = sectors.filter((item) => !item.data.is_meta);
+
+type VendorSummary = {
+  designation: string;
+  slug: string;
+  canonicalName: string;
+  hqCity?: string;
+  hqRegion?: string;
+  countryName: string;
+  compliancePosture: string;
+  readinessPosture: string;
+  reviewedAt: string;
+  tagline: string;
+  primaryCategorySlug: string;
+  categories: string[];
+  searchString: string;
+};
+
+function buildSearchString(v: typeof allVendors[number]): string {
+  const parts = [
+    v.data.canonical_name,
+    v.data.hq_city,
+    v.data.hq_region,
+    v.data.country_name,
+    v.data.country_iso2,
+    v.data.compliance_posture,
+    v.data.readiness_posture,
+    ...(v.data.categories ?? []),
+    ...(v.data.product_lines ?? []),
+    ...(v.data.certifications ?? []),
+    v.data.tagline,
+  ];
+  return parts.filter(Boolean).join(' ').toLowerCase();
+}
+
+function shortDate(iso: string): string {
+  const d = new Date(iso + 'T00:00:00Z');
+  if (Number.isNaN(d.getTime())) return iso;
+  const day = String(d.getUTCDate()).padStart(2, '0');
+  const month = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'][d.getUTCMonth()];
+  return `${day} ${month}`;
+}
+
+const sectorsWithVendors = primaryCategories.map(s => {
+  const sectorVendors: VendorSummary[] = allVendors
+    .filter(v => v.data.primary_category === s.id)
+    .sort((a, b) => a.data.designation.localeCompare(b.data.designation))
+    .map(v => ({
+      designation: v.data.designation,
+      slug: v.id,
+      canonicalName: v.data.canonical_name,
+      hqCity: v.data.hq_city,
+      hqRegion: v.data.hq_region,
+      countryName: v.data.country_name,
+      compliancePosture: v.data.compliance_posture,
+      readinessPosture: v.data.readiness_posture,
+      reviewedAt: v.data.reviewed_at,
+      tagline: v.data.tagline,
+      primaryCategorySlug: v.data.primary_category,
+      categories: v.data.categories,
+      searchString: buildSearchString(v),
+    }));
+
+  const lastReviewedIso = sectorVendors
+    .map(v => v.reviewedAt)
+    .sort()
+    .reverse()[0] ?? '';
+
+  return {
+    sector: s.data,
+    vendors: sectorVendors,
+    lastReviewed: lastReviewedIso ? shortDate(lastReviewedIso) : '',
+    totalInSector: sectorVendors.length,
+  };
+}).filter(s => s.vendors.length > 0);
+
+const totalFirms = allVendors.length;
+
+const allReviewedIsos = allVendors.map(v => v.data.reviewed_at).sort();
+const latestReviewed = allReviewedIsos[allReviewedIsos.length - 1];
+const reviewedDisplay = latestReviewed ? shortDate(latestReviewed) + ' 2026' : '';
+
+const filterCategoryOptions = sectors.map((item) => ({
+  slug: item.id,
+  displayName: item.data.display_name,
+}));
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'UxV Market',
+  url: 'https://uxvmarket.com',
+  description: 'Curated reference of US and NATO-aligned merchant suppliers to the unmanned-systems industrial base. Evidence-disciplined directory and weekly editorial.',
+};
+---
+
+<BaseLayout
+  title="UxV Market · Domestic UxV Supplier Reference"
+  description="Curated reference of US and allied merchant suppliers to the unmanned-systems industrial base (UAV, UGV, USV, UUV). Category, compliance, country, and readiness filters."
+  jsonLd={jsonLd}
+>
+  <div class="page">
+    <Masthead
+      firmCount={totalFirms}
+      categoryCount={primaryCategories.length}
+      reviewedAt={reviewedDisplay}
+    />
+
+    <FilterStrip
+      totalFirms={totalFirms}
+      categories={filterCategoryOptions}
+    />
+
+    {sectorsWithVendors.map(({ sector, vendors, lastReviewed, totalInSector }) => (
+      <SectorBlock
+        letter={sector.letter}
+        slug={sector.id}
+        displayName={sector.display_name}
+        totalInSector={totalInSector}
+        reviewedAt={lastReviewed}
+        vendors={vendors}
+      />
+    ))}
+
+    <Footer firmCount={totalFirms} reviewedRange={reviewedDisplay} />
+  </div>
+</BaseLayout>
+
+<style is:global>
+  .page {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 32px 36px 80px;
+  }
+  @media (max-width: 720px) {
+    .page { padding: 22px 18px 60px; }
+  }
+</style>

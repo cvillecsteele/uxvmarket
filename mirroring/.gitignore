@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+dist/
+build/
+
+# Mirrored corpora and per-run state (~5GB; canonical source is the
+# upstream sites). Browserless cache is regenerable.
+output/runs/
+output/cache/
+output/target_registry.json
+
+# Per-workflow input target lists belong with the workflow, not the package.
+output/targets-*.jsonl

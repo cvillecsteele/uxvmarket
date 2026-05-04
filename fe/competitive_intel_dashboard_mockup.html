@@ -1,0 +1,294 @@
+<style>
+.cix-dash { font-family: var(--font-sans); color: var(--color-text-primary); }
+.cix-meta { display: flex; gap: 1.5rem; font-size: 12px; color: var(--color-text-secondary); padding: 0.75rem 1rem; background: var(--color-background-secondary); border-radius: var(--border-radius-md); margin-bottom: 1rem; align-items: center; flex-wrap: wrap; }
+.cix-meta .dot { width: 6px; height: 6px; border-radius: 50%; background: #1D9E75; display: inline-block; margin-right: 6px; }
+.cix-metrics { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 1.25rem; }
+.cix-metric { background: var(--color-background-secondary); border-radius: var(--border-radius-md); padding: 0.75rem 0.9rem; }
+.cix-metric .l { font-size: 12px; color: var(--color-text-secondary); }
+.cix-metric .v { font-size: 22px; font-weight: 500; margin-top: 4px; }
+.cix-metric .d { font-size: 11px; color: var(--color-text-secondary); margin-top: 2px; }
+.cix-section-title { font-size: 13px; font-weight: 500; color: var(--color-text-secondary); text-transform: none; letter-spacing: 0; margin: 1.25rem 0 0.5rem; display: flex; justify-content: space-between; align-items: center; }
+.cix-section-title .count { background: var(--color-background-secondary); color: var(--color-text-secondary); font-size: 11px; padding: 2px 8px; border-radius: 10px; font-weight: 400; }
+.cix-feed { border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); overflow: hidden; }
+.cix-feed-row { display: grid; grid-template-columns: 110px 1fr 70px; gap: 12px; padding: 0.6rem 0.9rem; border-bottom: 0.5px solid var(--color-border-tertiary); font-size: 13px; align-items: center; }
+.cix-feed-row:last-child { border-bottom: none; }
+.cix-feed-row .co { font-weight: 500; }
+.cix-feed-row .desc { color: var(--color-text-secondary); font-size: 12px; line-height: 1.5; }
+.cix-feed-row .t { font-size: 11px; color: var(--color-text-tertiary); text-align: right; }
+.cix-badge { display: inline-block; padding: 1px 7px; border-radius: 4px; font-size: 10px; font-weight: 500; margin-right: 4px; vertical-align: middle; }
+.b-blue { background: #E6F1FB; color: #0C447C; }
+.b-teal { background: #E1F5EE; color: #085041; }
+.b-amber { background: #FAEEDA; color: #633806; }
+.b-coral { background: #FAECE7; color: #712B13; }
+.b-gray { background: #F1EFE8; color: #444441; }
+.cix-cand-row { display: grid; grid-template-columns: 130px 1fr auto; gap: 12px; padding: 0.7rem 0.9rem; border-bottom: 0.5px solid var(--color-border-tertiary); font-size: 13px; align-items: start; }
+.cix-cand-row:last-child { border-bottom: none; }
+.cix-cand-row .thesis { color: var(--color-text-secondary); font-size: 12px; line-height: 1.5; margin-top: 2px; }
+.cix-cand-row .actions { display: flex; gap: 6px; }
+.cix-btn { font-size: 11px; padding: 4px 10px; border-radius: 4px; border: 0.5px solid var(--color-border-tertiary); background: var(--color-background-primary); cursor: pointer; color: var(--color-text-primary); }
+.cix-btn.primary { background: #E1F5EE; color: #085041; border-color: #9FE1CB; }
+.cix-btn.reject { color: var(--color-text-secondary); }
+.cix-filter-row { display: flex; gap: 6px; margin-bottom: 0.75rem; flex-wrap: wrap; }
+.cix-pill { font-size: 12px; padding: 4px 10px; border-radius: 14px; border: 0.5px solid var(--color-border-tertiary); background: var(--color-background-primary); cursor: pointer; color: var(--color-text-secondary); }
+.cix-pill.active { background: #E6F1FB; color: #0C447C; border-color: #B5D4F4; }
+.cix-table { width: 100%; font-size: 12px; border-collapse: collapse; }
+.cix-table th { text-align: left; font-weight: 500; color: var(--color-text-secondary); padding: 6px 8px; border-bottom: 0.5px solid var(--color-border-tertiary); font-size: 11px; }
+.cix-table td { padding: 8px 8px; border-bottom: 0.5px solid var(--color-border-tertiary); vertical-align: middle; }
+.cix-table tr:last-child td { border-bottom: none; }
+.cix-table .co-name { font-weight: 500; }
+.cix-table .hq { color: var(--color-text-secondary); font-size: 11px; }
+.cix-table .ndaa-yes { color: #0F6E56; font-weight: 500; font-size: 11px; }
+.cix-table .ndaa-no { color: #993C1D; font-size: 11px; }
+.cix-table .ndaa-unk { color: var(--color-text-tertiary); font-size: 11px; }
+.cix-table .delta { font-size: 11px; color: var(--color-text-secondary); }
+.cix-table .fresh-dot { display: inline-block; width: 6px; height: 6px; border-radius: 50%; margin-right: 6px; vertical-align: middle; }
+.cix-tablewrap { border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); overflow: hidden; }
+</style>
+
+<h2 class="sr-only">Competitive intelligence dashboard mockup showing catalog status, recent competitor changes, discovery candidates awaiting review, and a filtered competitor list.</h2>
+
+<div class="cix-dash">
+
+  <div class="cix-meta">
+    <span><span class="dot"></span>Last run Mon 08:12 ET</span>
+    <span>Next run Mon Apr 27</span>
+    <span>Run cost $3.42</span>
+    <span>Budget $18 / $100 this month</span>
+  </div>
+
+  <div class="cix-metrics">
+    <div class="cix-metric">
+      <div class="l">Companies tracked</div>
+      <div class="v">58</div>
+      <div class="d">+3 this month</div>
+    </div>
+    <div class="cix-metric">
+      <div class="l">Products cataloged</div>
+      <div class="v">214</div>
+      <div class="d">+11 this month</div>
+    </div>
+    <div class="cix-metric">
+      <div class="l">Deltas this week</div>
+      <div class="v">7</div>
+      <div class="d">2 substantive</div>
+    </div>
+    <div class="cix-metric">
+      <div class="l">Candidates pending</div>
+      <div class="v">4</div>
+      <div class="d">awaiting review</div>
+    </div>
+  </div>
+
+  <div class="cix-section-title">
+    <span>Substantive changes this week</span>
+    <span class="count">2</span>
+  </div>
+  <div class="cix-feed">
+    <div class="cix-feed-row">
+      <div>
+        <div class="co">Vertiq</div>
+        <div class="hq" style="font-size:11px;color:var(--color-text-tertiary)">Philadelphia, PA</div>
+      </div>
+      <div>
+        <span class="cix-badge b-blue">new SKU</span>
+        <span class="desc">81-17 module added to product page. Claims 8kW peak, 60V, integrated position sensing. Extends the large-rotor end of the Vertiq line.</span>
+      </div>
+      <div class="t">2 days ago</div>
+    </div>
+    <div class="cix-feed-row">
+      <div>
+        <div class="co">ARK Electronics</div>
+        <div class="hq" style="font-size:11px;color:var(--color-text-tertiary)">Salt Lake City, UT</div>
+      </div>
+      <div>
+        <span class="cix-badge b-teal">cert claim</span>
+        <span class="desc">ARK Jetson Carrier now listed as Blue UAS Framework component. Fourteenth ARK product on the Framework.</span>
+      </div>
+      <div class="t">5 days ago</div>
+    </div>
+  </div>
+
+  <div class="cix-section-title">
+    <span>Discovery candidates</span>
+    <span class="count">4 pending</span>
+  </div>
+  <div class="cix-feed">
+    <div class="cix-cand-row">
+      <div>
+        <div class="co" style="font-weight:500">Currawong Engineering</div>
+        <div style="font-size:11px;color:var(--color-text-tertiary)">Canberra, AU</div>
+      </div>
+      <div>
+        <span class="cix-badge b-amber">motor control</span>
+        <span class="cix-badge b-gray">50-500kW</span>
+        <div class="thesis">Found via AUVSI exhibitor list. Ships HEMA family of 15-50kW motor controllers. Foreign but FMS-friendly. Flag: not NDAA, worth tracking as reference architecture.</div>
+      </div>
+      <div class="actions">
+        <button class="cix-btn primary">Add</button>
+        <button class="cix-btn reject">Skip</button>
+      </div>
+    </div>
+    <div class="cix-cand-row">
+      <div>
+        <div class="co" style="font-weight:500">H3X Technologies</div>
+        <div style="font-size:11px;color:var(--color-text-tertiary)">Denver, CO</div>
+      </div>
+      <div>
+        <span class="cix-badge b-coral">integrated prop</span>
+        <span class="cix-badge b-gray">500kW+</span>
+        <div class="thesis">SBIR award Mar 2026 for HPDM-250 electric motor. Integrated motor plus controller plus inverter, targeted at eVTOL. Adjacent not direct, but emerging propulsion-bus competitor.</div>
+      </div>
+      <div class="actions">
+        <button class="cix-btn primary">Add</button>
+        <button class="cix-btn reject">Skip</button>
+      </div>
+    </div>
+    <div class="cix-cand-row">
+      <div>
+        <div class="co" style="font-weight:500">Pegasus Aeronautics</div>
+        <div style="font-size:11px;color:var(--color-text-tertiary)">Waterloo, ON</div>
+      </div>
+      <div>
+        <span class="cix-badge b-blue">hybrid PDU</span>
+        <div class="thesis">New job-board posting for firmware eng with Zig and BLDC control. Possible pivot from hybrid generators into merchant power electronics. Monitor, do not add.</div>
+      </div>
+      <div class="actions">
+        <button class="cix-btn">Watch</button>
+        <button class="cix-btn reject">Skip</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="cix-section-title">
+    <span>Catalog</span>
+    <span class="count">58 total</span>
+  </div>
+  <div class="cix-filter-row">
+    <button class="cix-pill active">All</button>
+    <button class="cix-pill">Flight control</button>
+    <button class="cix-pill">Motor control</button>
+    <button class="cix-pill">PDU</button>
+    <button class="cix-pill">BMS</button>
+    <button class="cix-pill">NDAA only</button>
+    <button class="cix-pill">≥50kW</button>
+  </div>
+  <div class="cix-tablewrap">
+    <table class="cix-table">
+      <thead>
+        <tr>
+          <th style="width:28%">Company</th>
+          <th>Segments</th>
+          <th style="width:14%">NDAA</th>
+          <th style="width:20%">Last delta</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <div class="co-name">ModalAI</div>
+            <div class="hq">San Diego, CA</div>
+          </td>
+          <td>
+            <span class="cix-badge b-blue">FC</span>
+            <span class="cix-badge b-amber">ESC</span>
+          </td>
+          <td><span class="ndaa-yes">Blue Cleared</span></td>
+          <td><span class="fresh-dot" style="background:#9FE1CB"></span><span class="delta">3d · new ESC</span></td>
+        </tr>
+        <tr>
+          <td>
+            <div class="co-name">ARK Electronics</div>
+            <div class="hq">Salt Lake City, UT</div>
+          </td>
+          <td>
+            <span class="cix-badge b-blue">FC</span>
+            <span class="cix-badge b-amber">ESC</span>
+            <span class="cix-badge b-gray">GNSS</span>
+          </td>
+          <td><span class="ndaa-yes">Blue Framework</span></td>
+          <td><span class="fresh-dot" style="background:#9FE1CB"></span><span class="delta">5d · cert claim</span></td>
+        </tr>
+        <tr>
+          <td>
+            <div class="co-name">Vertiq</div>
+            <div class="hq">Philadelphia, PA</div>
+          </td>
+          <td>
+            <span class="cix-badge b-amber">ESC</span>
+            <span class="cix-badge b-coral">integ prop</span>
+          </td>
+          <td><span class="ndaa-yes">Blue Framework</span></td>
+          <td><span class="fresh-dot" style="background:#9FE1CB"></span><span class="delta">2d · new SKU</span></td>
+        </tr>
+        <tr>
+          <td>
+            <div class="co-name">CubePilot</div>
+            <div class="hq">Victoria, AU</div>
+          </td>
+          <td>
+            <span class="cix-badge b-blue">FC</span>
+          </td>
+          <td><span class="ndaa-yes">Blue Framework</span></td>
+          <td><span class="delta">24d · no change</span></td>
+        </tr>
+        <tr>
+          <td>
+            <div class="co-name">Unusual Machines</div>
+            <div class="hq">Orlando, FL</div>
+          </td>
+          <td>
+            <span class="cix-badge b-blue">FC</span>
+            <span class="cix-badge b-amber">ESC</span>
+          </td>
+          <td><span class="ndaa-yes">NDAA</span></td>
+          <td><span class="delta">11d · press</span></td>
+        </tr>
+        <tr>
+          <td>
+            <div class="co-name">magniX</div>
+            <div class="hq">Everett, WA</div>
+          </td>
+          <td>
+            <span class="cix-badge b-coral">integ prop</span>
+            <span class="cix-badge b-amber">MC 500kW+</span>
+          </td>
+          <td><span class="ndaa-unk">unknown</span></td>
+          <td><span class="delta">38d · no change</span></td>
+        </tr>
+        <tr>
+          <td>
+            <div class="co-name">Electric Power Systems</div>
+            <div class="hq">Logan, UT</div>
+          </td>
+          <td>
+            <span class="cix-badge b-pink" style="background:#FBEAF0;color:#72243E">BMS</span>
+          </td>
+          <td><span class="ndaa-unk">unknown</span></td>
+          <td><span class="delta">52d · no change</span></td>
+        </tr>
+        <tr>
+          <td>
+            <div class="co-name">Auterion</div>
+            <div class="hq">Arlington, VA</div>
+          </td>
+          <td>
+            <span class="cix-badge b-blue">FC</span>
+            <span class="cix-badge b-gray">SW</span>
+          </td>
+          <td><span class="ndaa-yes">Blue Framework</span></td>
+          <td><span class="delta">9d · partnership</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</div>
+
+<script>
+document.querySelectorAll('.cix-pill').forEach(p => {
+  p.addEventListener('click', () => {
+    document.querySelectorAll('.cix-pill').forEach(x => x.classList.remove('active'));
+    p.classList.add('active');
+  });
+});
+</script>

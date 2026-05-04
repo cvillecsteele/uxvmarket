@@ -1,0 +1,215 @@
+---
+interface Props {
+  designation: string;
+  slug: string;
+  canonicalName: string;
+  hqCity?: string;
+  hqRegion?: string;
+  countryName: string;
+  compliancePosture: string;
+  readinessPosture: string;
+  reviewedAt: string;
+  tagline: string;
+  primaryCategorySlug: string;
+  categories: string[];
+  searchString: string;
+}
+
+const {
+  designation,
+  slug,
+  canonicalName,
+  hqCity,
+  hqRegion,
+  countryName,
+  compliancePosture,
+  readinessPosture,
+  reviewedAt,
+  tagline,
+  primaryCategorySlug,
+  categories,
+  searchString,
+} = Astro.props;
+
+const complianceLabels: Record<string, string> = {
+  'blue-uas-framework': 'Blue UAS Framework',
+  'blue-uas-cleared': 'Blue UAS Cleared',
+  'ndaa-compliant': 'NDAA-compliant',
+  'not-eligible': 'Not NDAA-eligible',
+  'unknown': 'Compliance unknown',
+};
+
+const readinessLabels: Record<string, string> = {
+  'production': 'Production',
+  'low-rate-production': 'Low-rate production',
+  'prototype': 'Prototype',
+  'engineering-services': 'Engineering services',
+  'unknown': 'Readiness: unknown',
+};
+
+const categoryLabels: Record<string, string> = {
+  'propulsion-electronics': 'Propulsion Electronics',
+  'propulsion-mechanical': 'Propulsion Mechanical',
+  'power-systems': 'Power Systems',
+  'flight-vehicle-control': 'Flight and Vehicle Control',
+  'sensors-navigation': 'Sensors and Navigation',
+  'isr-payloads': 'ISR Payloads',
+  'electronic-warfare': 'Electronic Warfare',
+  'munitions': 'Munitions',
+  'communications': 'Communications',
+  'mechanical-subsystems': 'Mechanical Subsystems',
+  'structures-materials': 'Structures and Materials',
+  'airframes': 'Airframes',
+  'recovery-systems': 'Recovery Systems',
+  'flight-termination': 'Flight Termination',
+  'ground-segment': 'Ground Segment',
+  'test-measurement': 'Test and Measurement',
+};
+
+function shortDate(iso: string): string {
+  const d = new Date(iso + 'T00:00:00Z');
+  if (Number.isNaN(d.getTime())) return iso;
+  const day = String(d.getUTCDate()).padStart(2, '0');
+  const month = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'][d.getUTCMonth()];
+  return `${day} ${month}`;
+}
+
+function freshnessClass(iso: string): string {
+  const d = new Date(iso + 'T00:00:00Z');
+  if (Number.isNaN(d.getTime())) return 'stale';
+  const ageDays = (Date.now() - d.getTime()) / 86400000;
+  if (ageDays > 30) return 'stale';
+  return 'fresh';
+}
+
+const dotClass = freshnessClass(reviewedAt);
+const locationLabel = [hqCity, hqRegion].filter(Boolean).join(', ') || countryName;
+const categoryTokens = `|${categories.join('|')}|`;
+const categoryBadges = categories.map((item) => categoryLabels[item] ?? item);
+const avionicsMatch = categories.some((item) =>
+  item === 'flight-vehicle-control' || item === 'sensors-navigation' || item === 'communications'
+);
+---
+
+<li
+  class="vendor"
+  data-primary-category={primaryCategorySlug}
+  data-categories={categoryTokens}
+  data-avionics={avionicsMatch ? '1' : '0'}
+  data-compliance={compliancePosture}
+  data-country={countryName}
+  data-readiness={readinessPosture}
+  data-search={searchString}
+>
+  <a class="vendor-link" href={`/vendor/${slug}`}>
+    <div class="ref">{designation}</div>
+    <div class="body">
+      <div class="name">{canonicalName}</div>
+      <div class="meta">
+        <span class={`dot ${dotClass}`}></span>{locationLabel} · {countryName} · reviewed {shortDate(reviewedAt)}
+      </div>
+      <div class="badges">
+        <span class="badge compliance">{complianceLabels[compliancePosture] ?? compliancePosture}</span>
+        <span class="badge readiness">{readinessLabels[readinessPosture] ?? readinessPosture}</span>
+        {categoryBadges.map((label) => (
+          <span class="badge category">{label}</span>
+        ))}
+      </div>
+      <div class="tagline">{tagline}</div>
+    </div>
+  </a>
+</li>
+
+<style>
+  .vendor {
+    border-bottom: 1px solid var(--rule);
+  }
+  .vendor:last-child { border-bottom: none; }
+  .vendor-link {
+    display: grid;
+    grid-template-columns: 78px 1fr;
+    gap: 0 20px;
+    padding: 14px 6px 14px 0;
+    text-decoration: none;
+    color: inherit;
+    transition: background 0.08s ease-out, border-left-color 0.08s ease-out;
+    border-left: 2px solid transparent;
+    padding-left: 6px;
+    margin-left: -8px;
+  }
+  .vendor-link:hover {
+    background: rgba(176, 73, 42, 0.05);
+    border-left-color: var(--accent);
+  }
+  .ref {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--accent);
+    letter-spacing: 0.05em;
+    padding-top: 2px;
+  }
+  .body .name {
+    font-family: var(--font-sans);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--text);
+    letter-spacing: -0.005em;
+    line-height: 1.2;
+  }
+  .body .meta {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--secondary);
+    letter-spacing: 0.03em;
+    margin-top: 4px;
+  }
+  .badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 7px;
+  }
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px 7px;
+    border: 1px solid var(--rule);
+    border-radius: 999px;
+    font-family: var(--font-mono);
+    font-size: 10px;
+    color: var(--secondary);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+  .badge.compliance {
+    color: var(--text);
+    border-color: rgba(176, 73, 42, 0.3);
+  }
+  .body .tagline {
+    font-family: var(--font-sans);
+    font-size: 13.5px;
+    color: var(--text);
+    margin-top: 7px;
+    max-width: 72ch;
+    line-height: 1.42;
+  }
+  .dot {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    vertical-align: 1px;
+    margin-right: 5px;
+  }
+  .dot.fresh { background: var(--status-fresh); }
+  .dot.stale { background: var(--status-stale); }
+
+  @media (max-width: 720px) {
+    .vendor-link { grid-template-columns: 64px 1fr; gap: 0 14px; padding: 12px 0; margin-left: 0; }
+    .body .name { font-size: 15px; }
+    .body .tagline { font-size: 13px; }
+    .body .meta { font-size: 10.5px; }
+    .ref { font-size: 11px; }
+  }
+</style>

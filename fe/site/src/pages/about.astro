@@ -1,0 +1,102 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Masthead from '../components/Masthead.astro';
+import Footer from '../components/Footer.astro';
+
+const allVendors = await getCollection('vendor');
+const totalFirms = allVendors.length;
+
+const allReviewedIsos = allVendors.map(v => v.data.reviewed_at).sort();
+const latestReviewed = allReviewedIsos[allReviewedIsos.length - 1];
+
+function shortDate(iso: string): string {
+  const d = new Date(iso + 'T00:00:00Z');
+  if (Number.isNaN(d.getTime())) return iso;
+  const day = String(d.getUTCDate()).padStart(2, '0');
+  const month = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'][d.getUTCMonth()];
+  return `${day} ${month}`;
+}
+
+const reviewedDisplay = latestReviewed ? shortDate(latestReviewed) + ' 2026' : '';
+---
+
+<BaseLayout
+  title="About · UxV Market"
+  description="UxV Market is a curated reference of surfaced US and allied merchant suppliers to the unmanned-systems industrial base."
+>
+  <div class="page">
+    <Masthead firmCount={totalFirms} reviewedAt={reviewedDisplay} />
+
+    <article class="static-page">
+      <h2>About UxV Market</h2>
+
+      <p>UxV Market is a curated reference of surfaced US and allied merchant suppliers to the unmanned-systems industrial base: air, ground, surface, and undersea. We track the firms behind the platforms: structures, propulsion, avionics, payloads, communications, recovery, test, ground systems, batteries, and the rest of the components that make a UxV go.</p>
+
+      <h3>What this is</h3>
+      <p>An evidence-disciplined directory. Every fact has a citation. Every entry has a provenance date. Where a vendor has not disclosed a fact, we say so and date the check. We do not pretend to know what we do not know.</p>
+
+      <h3>How it is built</h3>
+      <p>The catalog is maintained as a structured database; the public site is generated from that database on a weekly cadence. The methodology (category taxonomy, compliance definitions, surfaced-country rules, freshness windows) is documented separately and versioned with each annual edition.</p>
+
+      <h3>Corrections</h3>
+      <p>If a fact is wrong, a vendor is missing, or a classification looks off, write to <a href="mailto:corrections@uxvmarket.com">corrections@uxvmarket.com</a> with a source. We read every message.</p>
+    </article>
+
+    <Footer firmCount={totalFirms} />
+  </div>
+</BaseLayout>
+
+<style is:global>
+  .page {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 32px 72px 80px;
+  }
+  @media (max-width: 720px) {
+    .page { padding: 22px 28px 60px; }
+  }
+
+  .static-page {
+    max-width: 72ch;
+  }
+  .static-page h2 {
+    font-family: var(--font-sans);
+    font-size: 28px;
+    font-weight: 500;
+    color: var(--text);
+    letter-spacing: -0.015em;
+    margin-bottom: 24px;
+  }
+  .static-page h3 {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-top: 32px;
+    margin-bottom: 10px;
+  }
+  .static-page p {
+    font-family: var(--font-sans);
+    font-size: 15px;
+    color: var(--text);
+    line-height: 1.6;
+    margin-bottom: 14px;
+  }
+  .static-page a {
+    color: var(--accent);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+  .static-page ul {
+    font-family: var(--font-sans);
+    font-size: 15px;
+    color: var(--text);
+    line-height: 1.6;
+    margin: 8px 0 14px 20px;
+  }
+  .static-page li { margin-bottom: 6px; }
+  .static-page strong { font-weight: 500; color: var(--text); }
+</style>

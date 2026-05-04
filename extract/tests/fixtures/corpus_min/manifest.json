@@ -1,0 +1,69 @@
+{
+  "run_id": "test-run",
+  "corpus_root": "/tmp/corpus_min",
+  "target": {
+    "target_id": "test-vendor",
+    "display_name": "Test Vendor",
+    "homepage_url": "https://test.example",
+    "categories": [],
+    "notes": []
+  },
+  "policy": {
+    "profile": "quick_evidence",
+    "max_pages": 8
+  },
+  "quality_report": {
+    "status": "partial",
+    "total_text_chars": 1234
+  },
+  "crawl_index": [
+    {
+      "depth": 0,
+      "discovered_from": [],
+      "final_url": "https://test.example/",
+      "in_scope": true,
+      "kind": "html",
+      "page_class": "homepage",
+      "resource_id": "resource-0001",
+      "skip_reason": null,
+      "status": "fetched",
+      "url": "https://test.example/"
+    },
+    {
+      "depth": 1,
+      "discovered_from": ["https://test.example/"],
+      "final_url": "https://test.example/about",
+      "in_scope": true,
+      "kind": "html",
+      "page_class": "company",
+      "resource_id": "resource-0002",
+      "skip_reason": null,
+      "status": "fetched",
+      "url": "https://test.example/about"
+    },
+    {
+      "depth": 1,
+      "discovered_from": ["https://test.example/"],
+      "final_url": null,
+      "in_scope": true,
+      "kind": "html",
+      "page_class": "product",
+      "resource_id": null,
+      "skip_reason": "product class budget exhausted",
+      "status": "skipped_class_budget",
+      "url": "https://test.example/products"
+    },
+    {
+      "depth": 1,
+      "discovered_from": ["https://test.example/"],
+      "final_url": null,
+      "in_scope": true,
+      "kind": "html",
+      "page_class": "news",
+      "resource_id": null,
+      "skip_reason": null,
+      "status": "failed",
+      "url": "https://test.example/news"
+    }
+  ]
+}

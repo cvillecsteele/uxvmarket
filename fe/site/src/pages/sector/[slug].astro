@@ -1,0 +1,165 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Masthead from '../../components/Masthead.astro';
+import SectorBlock from '../../components/SectorBlock.astro';
+import Footer from '../../components/Footer.astro';
+
+export async function getStaticPaths() {
+  const sectors = await getCollection('sector');
+  return sectors.map(s => ({
+    params: { slug: s.id },
+    props: { sector: s },
+  }));
+}
+
+const { sector } = Astro.props;
+const s = sector.data;
+const sectorId = sector.id;
+
+const allVendors = await getCollection('vendor');
+const totalFirms = allVendors.length;
+const categoryCount = (await getCollection('sector')).filter((item) => !item.data.is_meta).length;
+
+const sectorVendors = allVendors
+  .filter(v => sectorId === 'avionics'
+    ? v.data.categories.includes('flight-vehicle-control') ||
+      v.data.categories.includes('sensors-navigation') ||
+      v.data.categories.includes('communications')
+    : v.data.categories.includes(sectorId))
+  .sort((a, b) => a.data.designation.localeCompare(b.data.designation));
+
+function shortDate(iso: string): string {
+  const d = new Date(iso + 'T00:00:00Z');
+  if (Number.isNaN(d.getTime())) return iso;
+  const day = String(d.getUTCDate()).padStart(2, '0');
+  const month = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'][d.getUTCMonth()];
+  return `${day} ${month}`;
+}
+
+function buildSearchString(v: typeof allVendors[number]): string {
+  const parts = [
+    v.data.canonical_name,
+    v.data.hq_city,
+    v.data.hq_region,
+    v.data.country_name,
+    v.data.country_iso2,
+    v.data.compliance_posture,
+    v.data.readiness_posture,
+    ...(v.data.categories ?? []),
+    ...(v.data.product_lines ?? []),
+    ...(v.data.certifications ?? []),
+    v.data.tagline,
+  ];
+  return parts.filter(Boolean).join(' ').toLowerCase();
+}
+
+const vendorSummaries = sectorVendors.map(v => ({
+  designation: v.data.designation,
+  slug: v.id,
+  canonicalName: v.data.canonical_name,
+  hqCity: v.data.hq_city,
+  hqRegion: v.data.hq_region,
+  countryName: v.data.country_name,
+  compliancePosture: v.data.compliance_posture,
+  readinessPosture: v.data.readiness_posture,
+  reviewedAt: v.data.reviewed_at,
+  tagline: v.data.tagline,
+  primaryCategorySlug: v.data.primary_category,
+  categories: v.data.categories,
+  searchString: buildSearchString(v),
+}));
+
+const lastReviewedIso = vendorSummaries.map(v => v.reviewedAt).sort().reverse()[0] ?? '';
+const reviewedDisplay = lastReviewedIso ? shortDate(lastReviewedIso) : '';
+
+const allReviewedIsos = allVendors.map(x => x.data.reviewed_at).sort();
+const latestReviewed = allReviewedIsos[allReviewedIsos.length - 1];
+const mastheadReviewed = latestReviewed ? shortDate(latestReviewed) + ' 2026' : '';
+---
+
+<BaseLayout
+  title={`Category · ${s.display_name} · UxV Market`}
+  description={s.intro_paragraph}
+>
+  <div class="page">
+    <Masthead
+      firmCount={totalFirms}
+      categoryCount={categoryCount}
+      reviewedAt={mastheadReviewed}
+    />
+
+    <div class="back-link">
+      <a href="/">← directory</a>
+    </div>
+
+    <section class="sector-intro">
+      <div class={`sector-intro-header ${s.letter ? '' : 'no-letter'}`}>
+        {s.letter && <span class="letter">{s.letter}</span>}
+        <h2 class="display-name">{s.display_name}</h2>
+      </div>
+      <p class="intro">{s.intro_paragraph}</p>
+    </section>
+
+    {vendorSummaries.length > 0 && (
+      <SectorBlock
+        letter={s.letter}
+        slug={sectorId}
+        displayName={s.display_name}
+        totalInSector={vendorSummaries.length}
+        reviewedAt={reviewedDisplay}
+        vendors={vendorSummaries}
+      />
+    )}
+
+    <Footer firmCount={totalFirms} />
+  </div>
+</BaseLayout>
+
+<style is:global>
+  .sector-intro {
+    border-top: 4px double var(--accent);
+    padding-top: 24px;
+    margin-bottom: 36px;
+  }
+  .sector-intro-header {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    gap: 20px;
+    align-items: baseline;
+    margin-bottom: 18px;
+  }
+  .sector-intro-header.no-letter {
+    grid-template-columns: 1fr;
+  }
+  .sector-intro .letter {
+    font-family: var(--font-mono);
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--accent);
+    letter-spacing: 0.04em;
+    line-height: 1;
+  }
+  .sector-intro .display-name {
+    font-family: var(--font-sans);
+    font-size: 28px;
+    font-weight: 500;
+    color: var(--text);
+    letter-spacing: -0.01em;
+    line-height: 1;
+  }
+  .sector-intro .intro {
+    font-family: var(--font-sans);
+    font-size: 14px;
+    color: var(--text);
+    line-height: 1.6;
+    max-width: 72ch;
+  }
+
+  @media (max-width: 720px) {
+    .sector-intro-header { grid-template-columns: 48px 1fr; gap: 14px; }
+    .sector-intro-header.no-letter { grid-template-columns: 1fr; }
+    .sector-intro .letter { font-size: 28px; }
+    .sector-intro .display-name { font-size: 22px; }
+  }
+</style>

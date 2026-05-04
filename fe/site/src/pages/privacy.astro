@@ -1,0 +1,131 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Masthead from '../components/Masthead.astro';
+import Footer from '../components/Footer.astro';
+
+const allVendors = await getCollection('vendor');
+const totalFirms = allVendors.length;
+
+const allReviewedIsos = allVendors.map(v => v.data.reviewed_at).sort();
+const latestReviewed = allReviewedIsos[allReviewedIsos.length - 1];
+
+function shortDate(iso: string): string {
+  const d = new Date(iso + 'T00:00:00Z');
+  if (Number.isNaN(d.getTime())) return iso;
+  const day = String(d.getUTCDate()).padStart(2, '0');
+  const month = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'][d.getUTCMonth()];
+  return `${day} ${month}`;
+}
+
+const reviewedDisplay = latestReviewed ? shortDate(latestReviewed) + ' 2026' : '';
+---
+
+<BaseLayout
+  title="Privacy Policy · UxV Market"
+  description="How UxV Market handles personal information. Short version: we do not track readers."
+>
+  <div class="page">
+    <Masthead firmCount={totalFirms} reviewedAt={reviewedDisplay} />
+
+    <article class="static-page">
+      <h2>Privacy Policy</h2>
+      <p class="effective">Effective 25 April 2026.</p>
+
+      <h3>Short version</h3>
+      <p>We use privacy-respecting analytics (Plausible) to count pageviews and understand which content readers find. We do not set cookies on this site, do not store IP addresses, do not run advertising, and do not build behavioral profiles. Reading uxvmarket.com leaves no persistent identifier on your browser and no individual record on our systems.</p>
+
+      <h3>What we collect</h3>
+      <ul>
+        <li><strong>Aggregate analytics (Plausible).</strong> We use <a href="https://plausible.io/privacy-focused-web-analytics" rel="noopener">Plausible Analytics</a>, a cookieless analytics service. For each pageview, Plausible records the URL visited, the referring URL, the browser and operating system, the device type, and the country (derived from IP at request time). Plausible does not set cookies, does not store IP addresses, and does not use cross-site or cross-day identifiers. A daily-rotated hash is used to count unique visitors within a 24-hour window; the hash cannot be linked back to you and is discarded at the end of the day. Plausible's data is hosted in the EU.</li>
+        <li><strong>Server access logs.</strong> Our hosting provider records standard request metadata (IP address, timestamp, requested path, user-agent) for security and abuse prevention. Logs are retained for a short rolling window and are not joined to identity.</li>
+        <li><strong>Newsletter subscriptions.</strong> If you sign up for the Monday SITREP, we collect the email address you submit and a subscription timestamp. Email delivery is operated through a third-party email-newsletter provider.</li>
+        <li><strong>Correspondence.</strong> If you email us (corrections, questions), we keep that thread for as long as is reasonable to do our work.</li>
+      </ul>
+
+      <h3>What we do not do</h3>
+      <ul>
+        <li>We do not sell, rent, or trade subscriber email addresses.</li>
+        <li>We do not run advertising and do not embed advertising or social-media trackers on the site.</li>
+        <li>We do not build behavioral profiles of individual readers.</li>
+        <li>We do not use Google Analytics, Meta Pixel, or any tracker that follows you across sites.</li>
+      </ul>
+
+      <h3>Cookies</h3>
+      <p>The public reference site sets no cookies. Plausible Analytics is cookieless by design. The newsletter provider may set its own cookies on its own pages (subscribe and unsubscribe forms hosted at its domain); see the provider's privacy policy for details.</p>
+
+      <h3>Your choices</h3>
+      <p>You can unsubscribe from the newsletter at any time using the one-click link in every issue. To request deletion of any data we hold about you, write to <a href="mailto:privacy@uxvmarket.com">privacy@uxvmarket.com</a>.</p>
+
+      <h3>Changes</h3>
+      <p>We may update this policy. Material changes will be noted with a revised effective date.</p>
+
+      <h3>Contact</h3>
+      <p>Privacy questions: <a href="mailto:privacy@uxvmarket.com">privacy@uxvmarket.com</a>.</p>
+    </article>
+
+    <Footer firmCount={totalFirms} />
+  </div>
+</BaseLayout>
+
+<style is:global>
+  .page {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 32px 72px 80px;
+  }
+  @media (max-width: 720px) {
+    .page { padding: 22px 28px 60px; }
+  }
+
+  .static-page {
+    max-width: 72ch;
+  }
+  .static-page h2 {
+    font-family: var(--font-sans);
+    font-size: 28px;
+    font-weight: 500;
+    color: var(--text);
+    letter-spacing: -0.015em;
+    margin-bottom: 24px;
+  }
+  .static-page h3 {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-top: 32px;
+    margin-bottom: 10px;
+  }
+  .static-page p {
+    font-family: var(--font-sans);
+    font-size: 15px;
+    color: var(--text);
+    line-height: 1.6;
+    margin-bottom: 14px;
+  }
+  .static-page a {
+    color: var(--accent);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+  .static-page ul {
+    font-family: var(--font-sans);
+    font-size: 15px;
+    color: var(--text);
+    line-height: 1.6;
+    margin: 8px 0 14px 20px;
+  }
+  .static-page li { margin-bottom: 6px; }
+  .static-page strong { font-weight: 500; color: var(--text); }
+  .static-page .effective {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-bottom: 24px;
+  }
+</style>

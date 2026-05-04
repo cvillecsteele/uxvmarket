@@ -1,0 +1,1333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UxVMARKET — Domestic UxV Supplier Reference</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    /* ==========================================================
+       MOCKUP NOTES
+       Production: ABC Diatype + Diatype Mono (Dinamo paid license).
+       This mockup uses IBM Plex Sans + IBM Plex Mono via Google
+       Fonts as a free near-stand-in. Slightly more humanist than
+       Diatype but in the same industrial neighborhood.
+       ========================================================== */
+
+    :root {
+      --bg:           #EDE6D2;   /* bone / parchment */
+      --text:         #1F1B16;   /* warm charcoal */
+      --accent:       #B0492A;   /* burnt orange / oxide */
+      --secondary:    #5A4A38;   /* warm brown */
+      --rule:         #D9D0BA;   /* hairline */
+      --bg-drawer:    #E5DCC0;   /* drawer ground (slightly darker than bg) */
+      --status-fresh: #1D9E75;
+      --status-stale: #C9821B;
+      --font-sans:    'IBM Plex Sans', system-ui, -apple-system, sans-serif;
+      --font-mono:    'IBM Plex Mono', ui-monospace, 'SF Mono', monospace;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+    body {
+      font-family: var(--font-sans);
+      background: var(--bg);
+      color: var(--text);
+      font-size: 14px;
+      line-height: 1.45;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    .page {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 32px 36px 80px;
+    }
+
+    /* Mockup notice strip */
+    .mockup-notice {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      text-transform: uppercase;
+      color: var(--secondary);
+      letter-spacing: 0.06em;
+      margin-bottom: 28px;
+      padding: 8px 12px;
+      border: 1px dashed var(--rule);
+      line-height: 1.5;
+    }
+
+    /* ----- MASTHEAD ----- */
+    .masthead {
+      border-bottom: 4px double var(--accent);
+      padding-bottom: 16px;
+      margin-bottom: 32px;
+    }
+    .masthead h1 {
+      font-family: var(--font-sans);
+      font-size: 42px;
+      font-weight: 600;
+      letter-spacing: -0.025em;
+      color: var(--text);
+      line-height: 0.95;
+      margin-bottom: 8px;
+    }
+    .masthead .subtitle {
+      font-size: 14px;
+      color: var(--secondary);
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+    .masthead .meta {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--secondary);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+    .masthead .meta span + span::before {
+      content: '·';
+      color: var(--rule);
+      margin: 0 8px;
+    }
+
+    /* ----- SITREP ----- */
+    .sitrep {
+      font-family: var(--font-mono);
+      font-size: 12.5px;
+      line-height: 1.55;
+      border-top: 2px solid var(--text);
+      border-bottom: 2px solid var(--text);
+      padding: 18px 0 18px;
+      margin-bottom: 44px;
+    }
+    .sitrep dl.header {
+      display: grid;
+      grid-template-columns: 88px 1fr;
+      gap: 4px 16px;
+      color: var(--secondary);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      font-size: 10.5px;
+      margin-bottom: 14px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--rule);
+    }
+    .sitrep dl.header dt { font-weight: 500; }
+    .sitrep dl.header dd { color: var(--text); }
+    .sitrep .body {
+      color: var(--text);
+      max-width: 64ch;
+    }
+    .sitrep .body a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .sitrep .body a:hover { text-decoration: underline; }
+
+    /* ----- FILTER + SEARCH STRIP ----- */
+    .filter-strip {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: var(--bg);
+      border-bottom: 1px solid var(--text);
+      padding: 14px 0 12px;
+      margin: 0 0 36px;
+    }
+    .filter-search {
+      display: flex;
+      align-items: baseline;
+      gap: 16px;
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+      border-bottom: 1px solid var(--rule);
+    }
+    .filter-search-input {
+      flex: 1;
+      font-family: var(--font-mono);
+      font-size: 13px;
+      background: transparent;
+      border: none;
+      outline: none;
+      color: var(--text);
+      padding: 4px 0;
+      letter-spacing: 0.02em;
+    }
+    .filter-search-input::placeholder {
+      color: var(--secondary);
+      letter-spacing: 0.04em;
+    }
+    .filter-count {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--secondary);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      white-space: nowrap;
+    }
+    .filter-count.changed { color: var(--accent); }
+    .facet-row {
+      display: flex;
+      align-items: baseline;
+      gap: 14px;
+      padding: 4px 0;
+    }
+    .facet-row + .facet-row { border-top: 1px solid var(--rule); }
+    .facet-label {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--secondary);
+      width: 64px;
+      flex-shrink: 0;
+      padding-top: 2px;
+    }
+    .facet-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: stretch;
+    }
+    .facet-button {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      background: transparent;
+      border: none;
+      color: var(--text);
+      padding: 4px 11px;
+      cursor: pointer;
+      letter-spacing: 0.04em;
+      border-right: 1px solid var(--rule);
+      line-height: 1.4;
+    }
+    .facet-button:first-child { padding-left: 0; }
+    .facet-button:last-child { border-right: none; }
+    .facet-button:hover { background: rgba(176, 73, 42, 0.06); }
+    .facet-button.active {
+      color: var(--accent);
+      font-weight: 500;
+    }
+    .facet-button.active::before {
+      content: '▸';
+      margin-right: 4px;
+      font-size: 10px;
+    }
+    .filter-clear {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      background: transparent;
+      border: none;
+      color: var(--accent);
+      cursor: pointer;
+      padding: 4px 0 4px 8px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+    .filter-clear:hover { text-decoration: underline; }
+    .filter-clear[hidden] { display: none; }
+
+    /* empty state */
+    .empty-state {
+      text-align: center;
+      padding: 48px 24px;
+      font-family: var(--font-mono);
+      font-size: 13px;
+      color: var(--secondary);
+      border-top: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+    }
+    .empty-state[hidden] { display: none; }
+    .empty-state .clear {
+      display: inline-block;
+      margin-top: 10px;
+      color: var(--accent);
+      cursor: pointer;
+      letter-spacing: 0.04em;
+    }
+    .empty-state .clear:hover { text-decoration: underline; }
+
+    /* hidden sector */
+    .sector[hidden] { display: none; }
+    .vendor[hidden] { display: none; }
+
+    /* ----- DIRECTORY ----- */
+    .sector {
+      margin-bottom: 52px;
+    }
+    .sector-header {
+      display: grid;
+      grid-template-columns: 32px 1fr auto;
+      gap: 16px;
+      align-items: baseline;
+      border-bottom: 1.5px solid var(--text);
+      padding-bottom: 8px;
+      margin-bottom: 0;
+    }
+    .sector-header .id {
+      font-family: var(--font-mono);
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--accent);
+      letter-spacing: 0.06em;
+    }
+    .sector-header .name {
+      font-family: var(--font-sans);
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--text);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+    .sector-header .meta {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--secondary);
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+    .sector-list {
+      list-style: none;
+    }
+    .vendor {
+      display: grid;
+      grid-template-columns: 78px 1fr;
+      gap: 0 20px;
+      padding: 14px 6px 14px 0;
+      border-bottom: 1px solid var(--rule);
+      cursor: pointer;
+      transition: background 0.08s ease-out;
+    }
+    .vendor:hover {
+      background: rgba(176, 73, 42, 0.05);
+    }
+    .vendor:last-child { border-bottom: none; }
+    .vendor .ref {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      font-weight: 500;
+      color: var(--accent);
+      letter-spacing: 0.05em;
+      padding-top: 2px;
+    }
+    .vendor .body .name {
+      font-family: var(--font-sans);
+      font-size: 16px;
+      font-weight: 500;
+      color: var(--text);
+      letter-spacing: -0.005em;
+      line-height: 1.2;
+    }
+    .vendor .body .meta {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--secondary);
+      letter-spacing: 0.03em;
+      margin-top: 4px;
+    }
+    .vendor .body .meta strong {
+      color: var(--text);
+      font-weight: 500;
+    }
+    .vendor .body .tagline {
+      font-family: var(--font-sans);
+      font-size: 13.5px;
+      color: var(--text);
+      margin-top: 5px;
+      max-width: 72ch;
+      line-height: 1.42;
+    }
+
+    /* status dots */
+    .dot {
+      display: inline-block;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      vertical-align: 1px;
+      margin-right: 5px;
+    }
+    .dot.fresh { background: var(--status-fresh); }
+    .dot.stale { background: var(--status-stale); }
+
+    /* ----- DETAIL DIVIDER ----- */
+    .detail-divider {
+      margin: 72px 0 36px;
+      text-align: center;
+      font-family: var(--font-mono);
+      font-size: 11px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--secondary);
+    }
+    .detail-divider::before,
+    .detail-divider::after {
+      content: '';
+      display: inline-block;
+      width: 80px;
+      height: 1px;
+      background: var(--rule);
+      vertical-align: middle;
+      margin: 0 14px;
+    }
+
+    /* ----- DETAIL VIEW ----- */
+    .detail {
+      border-top: 4px double var(--accent);
+      padding-top: 24px;
+    }
+    .detail .header {
+      display: grid;
+      grid-template-columns: 100px 1fr;
+      gap: 8px 24px;
+      margin-bottom: 32px;
+      align-items: baseline;
+    }
+    .detail .ref {
+      font-family: var(--font-mono);
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--accent);
+      letter-spacing: 0.06em;
+      padding-top: 8px;
+    }
+    .detail .name {
+      font-family: var(--font-sans);
+      font-size: 32px;
+      font-weight: 500;
+      color: var(--text);
+      letter-spacing: -0.015em;
+      line-height: 1;
+    }
+    .detail .subtitle {
+      grid-column: 2;
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--secondary);
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+    .fact-table {
+      display: grid;
+      grid-template-columns: 180px 1fr 80px;
+      column-gap: 24px;
+    }
+    .fact-row {
+      display: contents;
+    }
+    .fact-row .label {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--secondary);
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      padding: 12px 0;
+      border-top: 1px solid var(--rule);
+    }
+    .fact-row .value {
+      font-family: var(--font-sans);
+      font-size: 14px;
+      color: var(--text);
+      padding: 12px 0;
+      border-top: 1px solid var(--rule);
+    }
+    .fact-row .ref-cell {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      color: var(--accent);
+      letter-spacing: 0.05em;
+      padding: 14px 0 12px;
+      border-top: 1px solid var(--rule);
+      text-align: right;
+      cursor: pointer;
+      user-select: none;
+    }
+    .fact-row .ref-cell:hover { text-decoration: underline; }
+    .fact-row .value.not-disclosed {
+      color: var(--secondary);
+      font-style: italic;
+    }
+    .fact-row .value.not-disclosed .checked {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      font-style: normal;
+      color: var(--secondary);
+      margin-left: 8px;
+    }
+
+    /* ----- DRAWER ----- */
+    .drawer-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(31, 27, 22, 0.42);
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.2s ease-out;
+      z-index: 100;
+    }
+    .drawer-overlay.open {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    .drawer {
+      position: fixed;
+      top: 0; right: 0; bottom: 0;
+      width: 480px;
+      max-width: 92vw;
+      background: var(--bg-drawer);
+      border-left: 4px double var(--accent);
+      transform: translateX(100%);
+      transition: transform 0.24s cubic-bezier(0.2, 0.8, 0.2, 1);
+      z-index: 110;
+      padding: 28px 30px 36px;
+      overflow-y: auto;
+    }
+    .drawer.open { transform: translateX(0); }
+    .drawer .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 4px;
+      border-bottom: 2px solid var(--text);
+      padding-bottom: 12px;
+    }
+    .drawer .header .ref {
+      font-family: var(--font-mono);
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--accent);
+      letter-spacing: 0.06em;
+    }
+    .drawer .header .close {
+      background: none;
+      border: 1px solid var(--text);
+      cursor: pointer;
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--text);
+      padding: 4px 10px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+    .drawer .header .close:hover {
+      background: var(--text);
+      color: var(--bg);
+    }
+    .drawer .label {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--secondary);
+      margin-top: 22px;
+      margin-bottom: 6px;
+    }
+    .drawer .field {
+      font-family: var(--font-mono);
+      font-size: 12.5px;
+      color: var(--text);
+      line-height: 1.5;
+    }
+    .drawer .snippet {
+      font-family: var(--font-mono);
+      font-size: 12.5px;
+      line-height: 1.55;
+      color: var(--text);
+      padding: 14px 16px;
+      background: rgba(31, 27, 22, 0.05);
+      border-left: 3px solid var(--accent);
+      max-height: 280px;
+      overflow-y: auto;
+      white-space: pre-wrap;
+    }
+    .drawer .field a {
+      color: var(--accent);
+      text-decoration: none;
+      word-break: break-all;
+    }
+    .drawer .field a:hover { text-decoration: underline; }
+
+    /* ----- FOOTER ----- */
+    .footer {
+      margin-top: 80px;
+      padding-top: 28px;
+      border-top: 2px solid var(--text);
+      display: grid;
+      grid-template-columns: 1.2fr 1fr 1.4fr;
+      gap: 36px;
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--secondary);
+      letter-spacing: 0.04em;
+    }
+    .footer .col h5 {
+      font-family: var(--font-mono);
+      font-weight: 500;
+      color: var(--text);
+      text-transform: uppercase;
+      margin-bottom: 10px;
+      font-size: 10.5px;
+      letter-spacing: 0.08em;
+    }
+    .footer .col p { margin-top: 6px; line-height: 1.55; }
+    .footer a {
+      color: var(--text);
+      text-decoration: none;
+      display: block;
+      margin-top: 4px;
+    }
+    .footer a:hover { color: var(--accent); }
+    .footer .signup form {
+      display: flex;
+      margin-top: 8px;
+      border: 1px solid var(--text);
+    }
+    .footer .signup input {
+      flex: 1;
+      font-family: var(--font-mono);
+      font-size: 11px;
+      padding: 8px 10px;
+      background: transparent;
+      border: none;
+      color: var(--text);
+      outline: none;
+    }
+    .footer .signup input::placeholder { color: var(--secondary); }
+    .footer .signup button {
+      font-family: var(--font-mono);
+      font-size: 10.5px;
+      padding: 8px 14px;
+      background: var(--accent);
+      color: var(--bg);
+      border: none;
+      cursor: pointer;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      font-weight: 500;
+    }
+    .footer .signup button:hover { background: var(--text); }
+    .footer .colophon {
+      grid-column: 1 / -1;
+      margin-top: 24px;
+      padding-top: 16px;
+      border-top: 1px solid var(--rule);
+      font-size: 10px;
+      color: var(--secondary);
+      text-align: left;
+      letter-spacing: 0.05em;
+    }
+
+    /* ----- MOBILE ----- */
+    @media (max-width: 720px) {
+      .page { padding: 22px 18px 60px; }
+      .masthead h1 { font-size: 30px; }
+      .masthead .meta { font-size: 10px; }
+      .vendor { grid-template-columns: 64px 1fr; gap: 0 14px; padding: 12px 0; }
+      .vendor .body .name { font-size: 15px; }
+      .vendor .body .tagline { font-size: 13px; }
+      .vendor .body .meta { font-size: 10.5px; }
+      .vendor .ref { font-size: 11px; }
+      .sitrep dl.header { grid-template-columns: 76px 1fr; font-size: 10px; }
+      .footer { grid-template-columns: 1fr; gap: 28px; }
+      .detail .header { grid-template-columns: 88px 1fr; }
+      .detail .name { font-size: 24px; }
+      .fact-table { grid-template-columns: 110px 1fr 60px; column-gap: 14px; }
+      .fact-row .label { font-size: 10px; }
+      .fact-row .value { font-size: 13px; }
+      .fact-row .ref-cell { font-size: 9.5px; }
+      .drawer { width: 92vw; padding: 22px 22px 30px; }
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <!-- ============= MASTHEAD ============= -->
+  <header class="masthead">
+    <h1>UxVMARKET</h1>
+    <div class="subtitle">Domestic UxV Supplier Reference</div>
+    <div class="meta">
+      <span>EDITION 2026</span>
+      <span>VOL II · ISSUE 17</span>
+      <span>152 FIRMS</span>
+      <span>12 SECTORS</span>
+      <span>REVIEWED 25 APR 2026</span>
+    </div>
+  </header>
+
+  <!-- ============= FILTER + SEARCH ============= -->
+  <div class="filter-strip" id="filterStrip">
+    <div class="filter-search">
+      <input type="search"
+             id="filterSearchInput"
+             class="filter-search-input"
+             placeholder="search vendors, capabilities, locations…"
+             autocomplete="off"
+             spellcheck="false">
+      <span class="filter-count" id="filterCount">26 firms shown</span>
+      <button class="filter-clear" id="filterClear" hidden>Clear</button>
+    </div>
+
+    <div class="facet-row">
+      <span class="facet-label">SECTOR</span>
+      <div class="facet-buttons">
+        <button class="facet-button active" data-facet="sector" data-value="">All</button>
+        <button class="facet-button" data-facet="sector" data-value="propulsion-electronics">A · Prop Elec</button>
+        <button class="facet-button" data-facet="sector" data-value="power-systems">C · Power</button>
+        <button class="facet-button" data-facet="sector" data-value="flight-vehicle-control">D · Flight &amp; VC</button>
+      </div>
+    </div>
+
+    <div class="facet-row">
+      <span class="facet-label">NDAA</span>
+      <div class="facet-buttons">
+        <button class="facet-button active" data-facet="ndaa" data-value="">All</button>
+        <button class="facet-button" data-facet="ndaa" data-value="blue-uas-framework">Blue UAS Framework</button>
+        <button class="facet-button" data-facet="ndaa" data-value="blue-uas-cleared">Blue UAS Cleared</button>
+        <button class="facet-button" data-facet="ndaa" data-value="ndaa-compliant">NDAA only</button>
+        <button class="facet-button" data-facet="ndaa" data-value="non-us">NATO non-US</button>
+        <button class="facet-button" data-facet="ndaa" data-value="flagged">Flagged</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- empty state -->
+  <div class="empty-state" id="emptyState" hidden>
+    No vendors match these filters.
+    <br>
+    <span class="clear" id="emptyClear">Clear filters →</span>
+  </div>
+
+  <!-- ============= SECTOR A · PROPULSION ELECTRONICS ============= -->
+  <section class="sector" data-sector="propulsion-electronics">
+    <header class="sector-header">
+      <span class="id">A</span>
+      <span class="name">Propulsion Electronics</span>
+      <span class="meta"><span class="sector-shown">9</span> of 17 firms shown · reviewed 25 APR</span>
+    </header>
+    <ol class="sector-list">
+
+      <li class="vendor"
+          data-sector="propulsion-electronics"
+          data-ndaa="blue-uas-framework"
+          data-search="ark electronics salt lake city utah ut px4 carrier boards escs gnss modules blue uas framework arkv6x">
+        <div class="ref">A.0042</div>
+        <div class="body">
+          <div class="name">ARK Electronics</div>
+          <div class="meta"><span class="dot fresh"></span>Salt Lake City UT · NDAA · <strong>Blue UAS Framework</strong> · reviewed 25 APR</div>
+          <div class="tagline">PX4 ecosystem; carrier boards, ESCs, GNSS modules. Multiple Blue UAS Framework listings; cross-listed in Flight &amp; Vehicle Control.</div>
+        </div>
+      </li>
+
+      <li class="vendor"
+          data-sector="propulsion-electronics"
+          data-ndaa="blue-uas-framework"
+          data-search="vertiq philadelphia pa pennsylvania integrated motor esc group-2 lru g2 modules">
+        <div class="ref">A.0043</div>
+        <div class="body">
+          <div class="name">Vertiq</div>
+          <div class="meta"><span class="dot fresh"></span>Philadelphia PA · NDAA · <strong>Blue UAS Framework</strong> · reviewed 25 APR</div>
+          <div class="tagline">Integrated motor+ESC modules; canonical Group-2 LRU. Peer set everyone else gets benchmarked against.</div>
+        </div>
+      </li>
+
+      <li class="vendor"
+          data-sector="propulsion-electronics"
+          data-ndaa="ndaa-compliant"
+          data-search="kde direct honolulu hi hawaii esc multirotor brushless">
+        <div class="ref">A.0044</div>
+        <div class="body">
+          <div class="name">KDE Direct</div>
+          <div class="meta"><span class="dot fresh"></span>Honolulu HI · NDAA · reviewed 24 APR</div>
+          <div class="tagline">Long-tenured ESC vendor; multirotor-heavy product line. NDAA but no Blue UAS Framework presence yet.</div>
+        </div>
+      </li>
+
+      <li class="vendor"
+          data-sector="propulsion-electronics"
+          data-ndaa="ndaa-compliant"
+          data-search="castle creations olathe ks kansas esc hobby commercial professional defense">
+        <div class="ref">A.0045</div>
+        <div class="body">
+          <div class="name">Castle Creations</div>
+          <div class="meta"><span class="dot fresh"></span>Olathe KS · NDAA · reviewed 24 APR</div>
+          <div class="tagline">Hobby-grade lineage carried into defense-grade ESCs. Common in commercial-professional builds; product breadth is the moat.</div>
+        </div>
+      </li>
+
+      <li class="vendor"
+          data-sector="propulsion-electronics"
+          data-ndaa="non-us"
+          data-search="mgm compro zlin czech republic cz esc motor controller group-2 group-3 fms">
+        <div class="ref">A.0046</div>
+        <div class="body">
+          <div class="name">MGM COMPRO</div>
+          <div class="meta"><span class="dot stale"></span>Zlín, CZ · NATO non-US · reviewed 21 APR</div>
+          <div class="tagline">Czech ESC and motor controller shop. Solid Group-2/3 territory; FMS-friendly but not NDAA-eligible.</div>
+        </div>
+      </li>
+
+      <li class="vendor"
+          data-sector="propulsion-electronics"
+          data-ndaa="ndaa-compliant"
+          data-search="epropelled lowell ma massachusetts motor drive electronics evtol integrated">
+        <div class="ref">A.0047</div>
+        <div class="body">
+          <div class="name">ePropelled</div>
+          <div class="meta"><span class="dot fresh"></span>Lowell MA · NDAA · reviewed 25 APR</div>
+          <div class="tagline">Motor and drive electronics with integrated-system claims. eVTOL-positioned; production validation is the open question.</div>
+        </div>
+      </li>
+
+      <li class="vendor"
+          data-sector="propulsion-electronics"
+          data-ndaa="ndaa-compliant"
+          data-search="h3x technologies denver co colorado integrated motor inverter lru evtol hpdm sbir">
+        <div class="ref">A.0048</div>
+        <div class="body">
+          <div class="name">H3X Technologies</div>
+          <div class="meta"><span class="dot fresh"></span>Denver CO · NDAA · reviewed 25 APR</div>
+          <div class="tagline">Integrated motor+inverter LRUs targeting eVTOL. SBIR-led trajectory; HPDM family is the watchword.</div>
+        </div>
+      </li>
+
+      <li class="vendor"
+          data-sector="propulsion-electronics"
+          data-ndaa="non-us"
+          data-search="equipmake bedford uk united kingdom evtol drive electronics magnix mod">
+        <div class="ref">A.0049</div>
+        <div class="body">
+          <div class="name">Equipmake</div>
+          <div class="meta"><span class="dot fresh"></span>Bedford, UK · NATO non-US · reviewed 25 APR</div>
+          <div class="tagline">UK eVTOL drive electronics. Magnix-adjacent capability claims; UK MoD-coded.</div>
+        </div>
+      </li>
+
+      <li class="vendor"
+          data-sector="propulsion-electronics"
+          data-ndaa="flagged"
+          data-search="mks servos zeus uav shenzhen taiwan smart servo electronics flagged provenance">
+        <div class="ref">A.0050</div>
+        <div class="body">
+          <div class="name">MKS Servos (Zeus UAV Servos)</div>
+          <div class="meta"><span class="dot fresh"></span>Shenzhen → Taiwan · <strong>flagged</strong> · reviewed 25 APR</div>
+          <div class="tagline">Smart servo electronics with crossover from hobby to defense-grade UAS positioning. Provenance under active review.</div>
+        </div>
+      </li>
+
+    </ol>
+  </section>
+
+  <!-- ============= SECTOR C · POWER SYSTEMS ============= -->
+  <section class="sector" data-sector="power-systems">
+    <header class="sector-header">
+      <span class="id">C</span>
+      <span class="name">Power Systems</span>
+      <span class="meta"><span class="sector-shown">8</span> of 11 firms shown · reviewed 25 APR</span>
+    </header>
+    <ol class="sector-list">
+
+      <li class="vendor" data-sector="power-systems" data-ndaa="ndaa-compliant"
+          data-search="amprius technologies fremont ca california silicon anode li-ion cells dod high specific energy">
+        <div class="ref">C.0011</div>
+        <div class="body">
+          <div class="name">Amprius Technologies</div>
+          <div class="meta"><span class="dot fresh"></span>Fremont CA · NDAA · reviewed 25 APR</div>
+          <div class="tagline">Silicon-anode Li-ion cells with high specific-energy claims. Public DoD adoption signals; the most-watched cell vendor in the segment.</div>
+        </div>
+      </li>
+
+      <li class="vendor" data-sector="power-systems" data-ndaa="ndaa-compliant"
+          data-search="inventus power woodridge il illinois battery pack integrator defense group-2 uas">
+        <div class="ref">C.0012</div>
+        <div class="body">
+          <div class="name">Inventus Power</div>
+          <div class="meta"><span class="dot fresh"></span>Woodridge IL · NDAA · reviewed 24 APR</div>
+          <div class="tagline">Battery pack integrator with defense and Group-2 UAS exposure. Standard pack architectures, predictable lead times.</div>
+        </div>
+      </li>
+
+      <li class="vendor" data-sector="power-systems" data-ndaa="ndaa-compliant"
+          data-search="eaglepicher technologies joplin mo missouri aerospace li thermal batteries defense">
+        <div class="ref">C.0013</div>
+        <div class="body">
+          <div class="name">EaglePicher Technologies</div>
+          <div class="meta"><span class="dot fresh"></span>Joplin MO · NDAA · reviewed 24 APR</div>
+          <div class="tagline">Aerospace Li and thermal batteries. Long-tenured defense supplier; the boring, certified, expensive choice.</div>
+        </div>
+      </li>
+
+      <li class="vendor" data-sector="power-systems" data-ndaa="non-us"
+          data-search="saft levallois perret france fr industrial li-ion military aerospace totalenergies">
+        <div class="ref">C.0014</div>
+        <div class="body">
+          <div class="name">Saft</div>
+          <div class="meta"><span class="dot stale"></span>Levallois-Perret, FR · NATO non-US · reviewed 21 APR</div>
+          <div class="tagline">Industrial Li-ion incumbent with military and aerospace lineages. NATO non-US; TotalEnergies-owned.</div>
+        </div>
+      </li>
+
+      <li class="vendor" data-sector="power-systems" data-ndaa="ndaa-compliant"
+          data-search="vicor power andover ma massachusetts dc dc converters modular pol high density avionics">
+        <div class="ref">C.0015</div>
+        <div class="body">
+          <div class="name">Vicor Power</div>
+          <div class="meta"><span class="dot fresh"></span>Andover MA · NDAA · reviewed 25 APR</div>
+          <div class="tagline">Modular DC/DC converters; high-density POL designs widely embedded across UAS avionics buses.</div>
+        </div>
+      </li>
+
+      <li class="vendor" data-sector="power-systems" data-ndaa="ndaa-compliant"
+          data-search="lyten san jose ca california li-sulfur sulfur cell hale long endurance">
+        <div class="ref">C.0016</div>
+        <div class="body">
+          <div class="name">Lyten</div>
+          <div class="meta"><span class="dot fresh"></span>San Jose CA · NDAA · reviewed 24 APR</div>
+          <div class="tagline">Li-sulfur cell developer; weight advantages claimed for HALE / long-endurance UAS. Production scale is the open question.</div>
+        </div>
+      </li>
+
+      <li class="vendor" data-sector="power-systems" data-ndaa="ndaa-compliant"
+          data-search="concorde battery corporation west covina ca california aerospace lead acid li transition aviation">
+        <div class="ref">C.0017</div>
+        <div class="body">
+          <div class="name">Concorde Battery Corporation</div>
+          <div class="meta"><span class="dot stale"></span>West Covina CA · NDAA · reviewed 18 APR</div>
+          <div class="tagline">Aerospace lead-acid with Li transition underway. Long aviation pedigree; not the chemistry of the future, but reliable.</div>
+        </div>
+      </li>
+
+      <li class="vendor" data-sector="power-systems" data-ndaa="ndaa-compliant"
+          data-search="ep systems electric power logan ut utah evtol pack integrator astm certification">
+        <div class="ref">C.0018</div>
+        <div class="body">
+          <div class="name">EP Systems (Electric Power Systems)</div>
+          <div class="meta"><span class="dot fresh"></span>Logan UT · NDAA · reviewed 25 APR</div>
+          <div class="tagline">eVTOL pack integrator with ASTM-cert posture. The certified-battery story — for builders that need it.</div>
+        </div>
+      </li>
+
+    </ol>
+  </section>
+
+  <!-- ============= SECTOR D · FLIGHT & VEHICLE CONTROL ============= -->
+  <section class="sector" data-sector="flight-vehicle-control">
+    <header class="sector-header">
+      <span class="id">D</span>
+      <span class="name">Flight &amp; Vehicle Control</span>
+      <span class="meta"><span class="sector-shown">9</span> of 14 firms shown · reviewed 25 APR</span>
+    </header>
+    <ol class="sector-list">
+
+      <li class="vendor" data-sector="flight-vehicle-control" data-ndaa="blue-uas-framework"
+          data-search="auterion arlington va virginia px4 commercial distributor skynode auterionos">
+        <div class="ref">D.0001</div>
+        <div class="body">
+          <div class="name">Auterion</div>
+          <div class="meta"><span class="dot fresh"></span>Arlington VA · NDAA · <strong>Blue UAS Framework</strong> · reviewed 25 APR</div>
+          <div class="tagline">PX4 commercial distributor; Skynode hardware + AuterionOS. Most Blue Framework hits in the autopilot stack category.</div>
+        </div>
+      </li>
+
+      <li class="vendor" data-sector="flight-vehicle-control" data-ndaa="blue-uas-cleared"
+          data-search="modalai san diego ca california voxl carrier compute pixhawk fc diu group-1">
+        <div class="ref">D.0002</div>
+        <div class="body">
+          <div class="name">ModalAI</div>
+          <div class="meta"><span class="dot fresh"></span>San Diego CA · NDAA · <strong>Blue UAS Cleared</strong> · reviewed 25 APR</div>
+          <div class="tagline">VOXL carrier+compute boards, Pixhawk-class FCs. Heavy DIU presence; the autonomy-stack default for Group-1 builders.</div>
+        </div>
+      </li>
+
+      <li class="vendor" data-sector="flight-vehicle-control" data-ndaa="ndaa-compliant"
+          data-search="shield ai san diego ca california hivemind autonomy stack mission compute v-bat gps denied">
+        <div class="ref">D.0003</div>
+        <div class="body">
+          <div class="name">Shield AI</div>
+          <div class="meta"><span class="dot fresh"></span>San Diego CA · NDAA · reviewed 25 APR</div>
+          <div class="tagline">Hivemind autonomy stack; mission compute on V-BAT and adjacent platforms. Owned narrative around GPS-denied autonomy.</div>
+        </div>
+      </li>
+
+      <li class="vendor" data-sector="flight-vehicle-control" data-ndaa="non-us"
+          data-search="embention alicante spain es veronte autopilot evtol uas european fms">
+        <div class="ref">D.0004</div>
+        <div class="body">
+          <div class="name">Embention</div>
+          <div class="meta"><span class="dot stale"></span>Alicante, ES · NATO non-US · reviewed 21 APR</div>
+          <div class="tagline">Veronte autopilot family; eVTOL and larger-UAS focus. Strong European installed base; FMS-friendly.</div>
+        </div>
+      </li>
+
+      <li class="vendor" data-sector="flight-vehicle-control" data-ndaa="blue-uas-framework"
+          data-search="ark electronics salt lake city ut utah arkv6x flight controller blue uas framework">
+        <div class="ref">D.0005</div>
+        <div class="body">
+          <div class="name">ARK Electronics</div>
+          <div class="meta"><span class="dot fresh"></span>Salt Lake City UT · NDAA · <strong>Blue UAS Framework</strong> · reviewed 25 APR</div>
+          <div class="tagline">ARKv6X is the FC reference for Blue UAS in 2026. Cross-listed with Propulsion Electronics (A.0042).</div>
+        </div>
+      </li>
+
+      <li class="vendor" data-sector="flight-vehicle-control" data-ndaa="ndaa-compliant"
+          data-search="echomav technologies ann arbor mi michigan autopilot integration ndaa">
+        <div class="ref">D.0006</div>
+        <div class="body">
+          <div class="name">EchoMAV Technologies</div>
+          <div class="meta"><span class="dot fresh"></span>Ann Arbor MI · NDAA · reviewed 25 APR</div>
+          <div class="tagline">Autopilot integration shop with NDAA positioning. Recent entrant; capability story still proving itself.</div>
+        </div>
+      </li>
+
+      <li class="vendor" data-sector="flight-vehicle-control" data-ndaa="ndaa-compliant"
+          data-search="primordial labs new haven ct connecticut autonomy stack sbir phase ii mission compute">
+        <div class="ref">D.0007</div>
+        <div class="body">
+          <div class="name">Primordial Labs</div>
+          <div class="meta"><span class="dot fresh"></span>New Haven CT · NDAA · reviewed 25 APR</div>
+          <div class="tagline">Autonomy stack startup; recent SBIR Phase II. Mission-compute focus on small-team UAS coordination.</div>
+        </div>
+      </li>
+
+      <li class="vendor" data-sector="flight-vehicle-control" data-ndaa="non-us"
+          data-search="airvolute bratislava slovakia sk slovak companion computer hardware evtol">
+        <div class="ref">D.0008</div>
+        <div class="body">
+          <div class="name">Airvolute</div>
+          <div class="meta"><span class="dot fresh"></span>Bratislava, SK · NATO non-US · reviewed 25 APR</div>
+          <div class="tagline">Companion-computer hardware; eVTOL positioning. NATO non-US; Slovak provenance.</div>
+        </div>
+      </li>
+
+      <li class="vendor" data-sector="flight-vehicle-control" data-ndaa="ndaa-compliant"
+          data-search="nw blue seattle wa washington vmc vehicle management computer boeing fly by wire">
+        <div class="ref">D.0009</div>
+        <div class="body">
+          <div class="name">NW Blue</div>
+          <div class="meta"><span class="dot fresh"></span>Seattle WA · NDAA · reviewed 25 APR</div>
+          <div class="tagline">VMC vendor with Boeing-supplier-network adjacency. Fly-by-wire claims; aerospace-cert posture.</div>
+        </div>
+      </li>
+
+    </ol>
+  </section>
+
+  <!-- ============= DETAIL VIEW · A.0043 VERTIQ ============= -->
+  <div class="detail-divider">VENDOR DETAIL · SAMPLE VIEW</div>
+
+  <section class="detail">
+    <div class="header">
+      <div class="ref">A.0043</div>
+      <div class="name">Vertiq</div>
+      <div class="subtitle">Propulsion Electronics · Sector A · added to catalog 23 APR 2026</div>
+    </div>
+
+    <div class="fact-table">
+
+      <div class="fact-row">
+        <div class="label">Canonical name</div>
+        <div class="value">Vertiq</div>
+        <div class="ref-cell"
+             data-ref="REF.0143-A"
+             data-snippet="Vertiq is the brand name under which we ship our integrated motor and electronic speed control modules for unmanned and electric aerospace applications."
+             data-url="https://www.vertiq.co/about"
+             data-dtg="251147Z APR 26">REF.0143-A</div>
+      </div>
+
+      <div class="fact-row">
+        <div class="label">Legal entity</div>
+        <div class="value not-disclosed">Not disclosed <span class="checked">checked 25 APR 2026</span></div>
+        <div class="ref-cell">—</div>
+      </div>
+
+      <div class="fact-row">
+        <div class="label">Headquarters</div>
+        <div class="value">Philadelphia, PA, USA</div>
+        <div class="ref-cell"
+             data-ref="REF.0143-B"
+             data-snippet="Vertiq is headquartered in Philadelphia, Pennsylvania, with engineering and production at our facility in the Navy Yard."
+             data-url="https://www.vertiq.co/contact"
+             data-dtg="251147Z APR 26">REF.0143-B</div>
+      </div>
+
+      <div class="fact-row">
+        <div class="label">Founded</div>
+        <div class="value">2017</div>
+        <div class="ref-cell"
+             data-ref="REF.0143-C"
+             data-snippet="Founded in 2017 as a spin-out from a University of Pennsylvania robotics lab, Vertiq has grown to serve customers across defense, commercial UAS, and electric aerospace."
+             data-url="https://www.vertiq.co/about"
+             data-dtg="251147Z APR 26">REF.0143-C</div>
+      </div>
+
+      <div class="fact-row">
+        <div class="label">Ownership type</div>
+        <div class="value">Independent (VC-backed)</div>
+        <div class="ref-cell"
+             data-ref="REF.0143-D"
+             data-snippet="Vertiq announced the close of its Series A in 2023, led by Lockheed Martin Ventures with participation from existing investors."
+             data-url="https://www.lockheedmartin.com/lmv/portfolio"
+             data-dtg="251147Z APR 26">REF.0143-D</div>
+      </div>
+
+      <div class="fact-row">
+        <div class="label">Employee count</div>
+        <div class="value not-disclosed">Not disclosed <span class="checked">checked 25 APR 2026</span></div>
+        <div class="ref-cell">—</div>
+      </div>
+
+      <div class="fact-row">
+        <div class="label">NDAA posture</div>
+        <div class="value">Blue UAS Framework</div>
+        <div class="ref-cell"
+             data-ref="REF.0143-E"
+             data-snippet="Vertiq's 81-08 and 60-08 G2 modules are listed on the DIU Blue UAS Framework as approved propulsion electronics for U.S. military procurement."
+             data-url="https://www.diu.mil/blue-uas-framework"
+             data-dtg="251200Z APR 26">REF.0143-E</div>
+      </div>
+
+      <div class="fact-row">
+        <div class="label">Certifications</div>
+        <div class="value">ITAR-registered · ISO 9001:2015 (in progress)</div>
+        <div class="ref-cell"
+             data-ref="REF.0143-F"
+             data-snippet="Vertiq is ITAR-registered and is currently undergoing audit for ISO 9001:2015 certification, expected H2 2026."
+             data-url="https://www.vertiq.co/quality"
+             data-dtg="251147Z APR 26">REF.0143-F</div>
+      </div>
+
+      <div class="fact-row">
+        <div class="label">Product lines</div>
+        <div class="value">81-17 G2 · 81-08 G2 · 60-08 G2 · 40-06 G2</div>
+        <div class="ref-cell"
+             data-ref="REF.0143-G"
+             data-snippet="The Vertiq G2 module family covers stator diameters from 40 mm to 81 mm, with continuous power ratings from 200 W to 8 kW. Each module includes integrated position sensing and a CAN-FD telemetry interface."
+             data-url="https://www.vertiq.co/products"
+             data-dtg="251147Z APR 26">REF.0143-G</div>
+      </div>
+
+      <div class="fact-row">
+        <div class="label">UxV domains served</div>
+        <div class="value">UAV (multirotor, fixed-wing, eVTOL)</div>
+        <div class="ref-cell"
+             data-ref="REF.0143-H"
+             data-snippet="Vertiq G2 modules are deployed on multirotor, fixed-wing, and eVTOL platforms across Group 1 through Group 3 UAS classes."
+             data-url="https://www.vertiq.co/applications"
+             data-dtg="251147Z APR 26">REF.0143-H</div>
+      </div>
+
+      <div class="fact-row">
+        <div class="label">Funding</div>
+        <div class="value not-disclosed">Not disclosed (Series A confirmed; amount not stated) <span class="checked">checked 25 APR 2026</span></div>
+        <div class="ref-cell">—</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============= FOOTER ============= -->
+  <footer class="footer">
+    <div class="col">
+      <h5>About</h5>
+      <p>UxVMARKET is a curated reference of US and NATO-aligned merchant suppliers to the unmanned-systems industrial base. Maintained in public, evidence-disciplined, opinionated.</p>
+      <a href="#">Methodology and taxonomy →</a>
+      <a href="#">Past editions →</a>
+    </div>
+    <div class="col">
+      <h5>Corrections</h5>
+      <p>Found a fact wrong, a vendor missing, or a delta unclassified? Send us the source.</p>
+      <a href="mailto:corrections@uxvmarket.com">corrections@uxvmarket.com</a>
+    </div>
+    <div class="col signup">
+      <h5>Monday SITREP</h5>
+      <p>One dispatch per week. Three minutes to read. Free.</p>
+      <form onsubmit="event.preventDefault(); alert('Subscribed (mockup).');">
+        <input type="email" placeholder="your@work.email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+    <div class="colophon">
+      Edition 2026 · Vol II · Issue 17 · Compiled from 152 vendor reviews dated 18–25 APR 2026 · Set in IBM Plex Sans &amp; IBM Plex Mono (mockup; production: ABC Diatype) · No tracking, no analytics
+    </div>
+  </footer>
+
+</div>
+
+<!-- ============= DRAWER ============= -->
+<div class="drawer-overlay" id="drawerOverlay"></div>
+<aside class="drawer" id="drawer" aria-hidden="true">
+  <div class="header">
+    <div class="ref" id="drawerRef">REF.0000</div>
+    <button class="close" id="closeDrawer" aria-label="Close source drawer">Close</button>
+  </div>
+  <div class="label">Verbatim source snippet</div>
+  <div class="snippet" id="drawerSnippet">—</div>
+  <div class="label">Source URL</div>
+  <div class="field"><a href="#" id="drawerUrl" target="_blank" rel="noopener">—</a></div>
+  <div class="label">Fetched (DTG)</div>
+  <div class="field" id="drawerDtg">—</div>
+  <div class="label">Renderer</div>
+  <div class="field">httpx (200 OK) · cleaned 14,580 chars</div>
+</aside>
+
+<script>
+  // Source Drawer interaction
+  const drawer = document.getElementById('drawer');
+  const overlay = document.getElementById('drawerOverlay');
+  const drawerRef = document.getElementById('drawerRef');
+  const drawerSnippet = document.getElementById('drawerSnippet');
+  const drawerUrl = document.getElementById('drawerUrl');
+  const drawerDtg = document.getElementById('drawerDtg');
+
+  function openDrawer(el) {
+    drawerRef.textContent = el.dataset.ref;
+    drawerSnippet.textContent = el.dataset.snippet;
+    drawerUrl.href = el.dataset.url;
+    drawerUrl.textContent = el.dataset.url;
+    drawerDtg.textContent = el.dataset.dtg;
+    drawer.classList.add('open');
+    overlay.classList.add('open');
+    drawer.setAttribute('aria-hidden', 'false');
+  }
+  function closeDrawer() {
+    drawer.classList.remove('open');
+    overlay.classList.remove('open');
+    drawer.setAttribute('aria-hidden', 'true');
+  }
+
+  document.querySelectorAll('.fact-row .ref-cell[data-ref]').forEach(el => {
+    el.addEventListener('click', () => openDrawer(el));
+  });
+  document.getElementById('closeDrawer').addEventListener('click', closeDrawer);
+  overlay.addEventListener('click', closeDrawer);
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDrawer(); });
+
+  // Vendor row click placeholder (would navigate to detail page in production)
+  document.querySelectorAll('.vendor').forEach(row => {
+    row.addEventListener('click', e => {
+      // Don't capture clicks on the source-drawer ref cells inside details
+      if (e.target.closest('.ref-cell')) return;
+      const detail = document.querySelector('.detail');
+      if (detail) {
+        detail.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    });
+  });
+
+  // ---------- FILTER + SEARCH ----------
+  // Pure vanilla JS, ~70 lines. No dependencies. Build-time data
+  // baked into data-* attributes; runtime is DOM matching only.
+
+  const TOTAL_FIRMS = document.querySelectorAll('.vendor').length;
+
+  const filterState = {
+    q:      '',
+    sector: '',
+    ndaa:   '',
+  };
+
+  const els = {
+    strip:     document.getElementById('filterStrip'),
+    input:     document.getElementById('filterSearchInput'),
+    count:     document.getElementById('filterCount'),
+    clear:     document.getElementById('filterClear'),
+    empty:     document.getElementById('emptyState'),
+    emptyClear:document.getElementById('emptyClear'),
+    buttons:   document.querySelectorAll('.facet-button'),
+    sectors:   document.querySelectorAll('.sector'),
+    vendors:   document.querySelectorAll('.vendor'),
+  };
+
+  function readUrl() {
+    const p = new URLSearchParams(window.location.search);
+    filterState.q      = p.get('q')      || '';
+    filterState.sector = p.get('sector') || '';
+    filterState.ndaa   = p.get('ndaa')   || '';
+    els.input.value = filterState.q;
+  }
+
+  function writeUrl() {
+    const p = new URLSearchParams();
+    if (filterState.q)      p.set('q', filterState.q);
+    if (filterState.sector) p.set('sector', filterState.sector);
+    if (filterState.ndaa)   p.set('ndaa', filterState.ndaa);
+    const qs = p.toString();
+    const url = qs ? '?' + qs : window.location.pathname;
+    history.replaceState(null, '', url);
+  }
+
+  function isActive() {
+    return filterState.q || filterState.sector || filterState.ndaa;
+  }
+
+  function apply() {
+    const q = filterState.q.toLowerCase().trim();
+    let shownTotal = 0;
+
+    els.vendors.forEach(row => {
+      const matchSector = !filterState.sector || row.dataset.sector === filterState.sector;
+      const matchNdaa   = !filterState.ndaa   || row.dataset.ndaa   === filterState.ndaa;
+      const matchSearch = !q || row.dataset.search.includes(q);
+      const visible = matchSector && matchNdaa && matchSearch;
+      row.hidden = !visible;
+      if (visible) shownTotal++;
+    });
+
+    // Hide empty sectors and update per-sector counts
+    els.sectors.forEach(sec => {
+      const visibleHere = sec.querySelectorAll('.vendor:not([hidden])').length;
+      sec.hidden = visibleHere === 0;
+      const countEl = sec.querySelector('.sector-shown');
+      if (countEl) countEl.textContent = visibleHere;
+    });
+
+    // Counter + clear button
+    els.count.textContent = shownTotal === TOTAL_FIRMS
+      ? TOTAL_FIRMS + ' firms shown'
+      : shownTotal + ' of ' + TOTAL_FIRMS + ' firms shown';
+    els.count.classList.toggle('changed', shownTotal !== TOTAL_FIRMS);
+    els.clear.hidden = !isActive();
+    els.empty.hidden = shownTotal !== 0;
+
+    // Active state on facet buttons
+    els.buttons.forEach(btn => {
+      const facet = btn.dataset.facet;
+      const value = btn.dataset.value;
+      btn.classList.toggle('active', filterState[facet] === value);
+    });
+  }
+
+  function clearAll() {
+    filterState.q = filterState.sector = filterState.ndaa = '';
+    els.input.value = '';
+    writeUrl();
+    apply();
+  }
+
+  els.buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      filterState[btn.dataset.facet] = btn.dataset.value;
+      writeUrl();
+      apply();
+    });
+  });
+
+  els.input.addEventListener('input', e => {
+    filterState.q = e.target.value;
+    writeUrl();
+    apply();
+  });
+
+  els.clear.addEventListener('click', clearAll);
+  els.emptyClear.addEventListener('click', clearAll);
+
+  readUrl();
+  apply();
+</script>
+
+</body>
+</html>

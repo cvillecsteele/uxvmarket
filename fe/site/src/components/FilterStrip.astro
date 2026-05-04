@@ -1,0 +1,384 @@
+---
+interface CategoryOption {
+  slug: string;
+  displayName: string;
+}
+
+interface FacetOption {
+  slug: string;
+  label: string;
+}
+
+interface Props {
+  totalFirms: number;
+  categories: CategoryOption[];
+  complianceOptions?: FacetOption[];
+  countryOptions?: FacetOption[];
+  readinessOptions?: FacetOption[];
+}
+
+const {
+  totalFirms,
+  categories,
+  complianceOptions = [
+    { slug: 'ndaa-compliant', label: 'NDAA-compliant' },
+    { slug: 'blue-uas-framework', label: 'Blue UAS Framework' },
+    { slug: 'blue-uas-cleared', label: 'Blue UAS Cleared' },
+  ],
+  countryOptions = [
+    { slug: 'us-only', label: 'US-headquartered only' },
+    { slug: 'allied-only', label: 'NATO/MNNA/AUKUS only' },
+  ],
+  readinessOptions = [
+    { slug: 'production', label: 'Production' },
+    { slug: 'low-rate-production', label: 'Low-rate production' },
+    { slug: 'prototype', label: 'Prototype' },
+    { slug: 'engineering-services', label: 'Engineering services' },
+    { slug: 'unknown', label: 'Readiness: unknown' },
+  ],
+} = Astro.props;
+---
+
+<div class="filter-strip" id="filterStrip" data-total-firms={totalFirms}>
+  <div class="filter-search">
+    <input
+      type="search"
+      id="filterSearchInput"
+      class="filter-search-input"
+      placeholder="search vendors, capabilities, locations…"
+      autocomplete="off"
+      spellcheck="false"
+    >
+    <span class="filter-count" id="filterCount">{totalFirms} firms shown</span>
+    <button class="filter-clear" id="filterClear" hidden>Clear</button>
+  </div>
+
+  <div class="facet-row">
+    <span class="facet-label">CATEGORY</span>
+    <div class="facet-buttons">
+      <button class="facet-button active" data-facet="category" data-value="">All</button>
+      {categories.map((item) => (
+        <button class="facet-button" data-facet="category" data-value={item.slug}>
+          {item.displayName}
+        </button>
+      ))}
+    </div>
+  </div>
+
+  <div class="facet-row">
+    <span class="facet-label">COMPLIANCE</span>
+    <div class="facet-buttons">
+      <button class="facet-button active" data-facet="compliance" data-value="">All</button>
+      {complianceOptions.map((item) => (
+        <button class="facet-button" data-facet="compliance" data-value={item.slug}>
+          {item.label}
+        </button>
+      ))}
+    </div>
+  </div>
+
+  <div class="facet-row">
+    <span class="facet-label">COUNTRY</span>
+    <div class="facet-buttons">
+      <button class="facet-button active" data-facet="country" data-value="">All</button>
+      {countryOptions.map((item) => (
+        <button class="facet-button" data-facet="country" data-value={item.slug}>
+          {item.label}
+        </button>
+      ))}
+    </div>
+  </div>
+
+  <div class="facet-row">
+    <span class="facet-label">READINESS</span>
+    <div class="facet-buttons">
+      <button class="facet-button active" data-facet="readiness" data-value="">All</button>
+      {readinessOptions.map((item) => (
+        <button class="facet-button" data-facet="readiness" data-value={item.slug}>
+          {item.label}
+        </button>
+      ))}
+    </div>
+  </div>
+</div>
+
+<div class="empty-state" id="emptyState" hidden>
+  No vendors match these filters.
+  <br>
+  <span class="clear" id="emptyClear">Clear filters →</span>
+</div>
+
+<style>
+  .filter-strip {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: var(--bg);
+    border-bottom: 1px solid var(--text);
+    padding: 14px 0 12px;
+    margin: 0 0 36px;
+  }
+  .filter-search {
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .filter-search-input {
+    flex: 1;
+    font-family: var(--font-mono);
+    font-size: 13px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--text);
+    padding: 4px 0;
+    letter-spacing: 0.02em;
+  }
+  .filter-search-input::placeholder {
+    color: var(--secondary);
+    letter-spacing: 0.04em;
+  }
+  .filter-count {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    white-space: nowrap;
+  }
+  .filter-count.changed { color: var(--accent); }
+  .facet-row {
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+    padding: 4px 0;
+  }
+  .facet-row + .facet-row { border-top: 1px solid var(--rule); }
+  .facet-label {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--secondary);
+    width: 80px;
+    flex-shrink: 0;
+    padding-top: 2px;
+  }
+  .facet-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+  }
+  .facet-button {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    background: transparent;
+    border: none;
+    color: var(--text);
+    padding: 4px 11px;
+    cursor: pointer;
+    letter-spacing: 0.04em;
+    border-right: 1px solid var(--rule);
+    line-height: 1.4;
+  }
+  .facet-button:last-child { border-right: none; }
+  .facet-button:hover { background: rgba(176, 73, 42, 0.08); }
+  .facet-button.active {
+    background: var(--accent);
+    color: var(--bg);
+    font-weight: 500;
+  }
+  .filter-clear {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    background: transparent;
+    border: none;
+    color: var(--accent);
+    cursor: pointer;
+    padding: 4px 0 4px 8px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+  .filter-clear:hover { text-decoration: underline; }
+  .filter-clear[hidden] { display: none; }
+
+  .empty-state {
+    text-align: center;
+    padding: 48px 24px;
+    font-family: var(--font-mono);
+    font-size: 13px;
+    color: var(--secondary);
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+  }
+  .empty-state[hidden] { display: none; }
+  .empty-state .clear {
+    display: inline-block;
+    margin-top: 10px;
+    color: var(--accent);
+    cursor: pointer;
+    letter-spacing: 0.04em;
+  }
+  .empty-state .clear:hover { text-decoration: underline; }
+
+  :global(.sector[hidden]) { display: none; }
+  :global(.vendor[hidden]) { display: none; }
+</style>
+
+<script>
+  const stripEl = document.getElementById('filterStrip');
+  if (stripEl) {
+    const TOTAL_FIRMS = parseInt(stripEl.dataset.totalFirms || '0', 10);
+    const filterState = {
+      q: '',
+      category: '',
+      compliance: '',
+      country: '',
+      readiness: '',
+    };
+
+    const els = {
+      input: document.getElementById('filterSearchInput'),
+      count: document.getElementById('filterCount'),
+      clear: document.getElementById('filterClear'),
+      empty: document.getElementById('emptyState'),
+      emptyClear: document.getElementById('emptyClear'),
+      buttons: document.querySelectorAll('.facet-button'),
+      sectors: document.querySelectorAll('.sector'),
+      vendors: document.querySelectorAll('.vendor'),
+    };
+
+    function readUrl() {
+      const p = new URLSearchParams(window.location.search);
+      filterState.q = p.get('q') || '';
+      filterState.category = p.get('category') || '';
+      filterState.compliance = p.get('compliance') || '';
+      filterState.country = p.get('country') || '';
+      filterState.readiness = p.get('readiness') || '';
+      if (els.input) els.input.value = filterState.q;
+    }
+
+    function writeUrl() {
+      const p = new URLSearchParams();
+      if (filterState.q) p.set('q', filterState.q);
+      if (filterState.category) p.set('category', filterState.category);
+      if (filterState.compliance) p.set('compliance', filterState.compliance);
+      if (filterState.country) p.set('country', filterState.country);
+      if (filterState.readiness) p.set('readiness', filterState.readiness);
+      const qs = p.toString();
+      history.replaceState(null, '', qs ? `?${qs}` : window.location.pathname);
+    }
+
+    function isActive() {
+      return Boolean(
+        filterState.q ||
+        filterState.category ||
+        filterState.compliance ||
+        filterState.country ||
+        filterState.readiness
+      );
+    }
+
+    function matchesCompliance(value) {
+      if (!filterState.compliance) return true;
+      if (filterState.compliance === 'ndaa-compliant') {
+        return value === 'ndaa-compliant' || value === 'blue-uas-framework' || value === 'blue-uas-cleared';
+      }
+      if (filterState.compliance === 'blue-uas-framework') {
+        return value === 'blue-uas-framework' || value === 'blue-uas-cleared';
+      }
+      return value === filterState.compliance;
+    }
+
+    function matchesCountry(value) {
+      if (!filterState.country) return true;
+      if (filterState.country === 'us-only') return value === 'United States';
+      if (filterState.country === 'allied-only') return value !== 'United States';
+      return true;
+    }
+
+    function matchesCategory(row) {
+      if (!filterState.category) return true;
+      if (filterState.category === 'avionics') {
+        return row.dataset.avionics === '1';
+      }
+      return (row.dataset.primaryCategory || '') === filterState.category;
+    }
+
+    function apply() {
+      const q = filterState.q.toLowerCase().trim();
+      let shownTotal = 0;
+
+      els.vendors.forEach((row) => {
+        const visible =
+          matchesCategory(row) &&
+          matchesCompliance(row.dataset.compliance || '') &&
+          matchesCountry(row.dataset.country || '') &&
+          (!filterState.readiness || row.dataset.readiness === filterState.readiness) &&
+          (!q || (row.dataset.search || '').includes(q));
+        row.hidden = !visible;
+        if (visible) shownTotal += 1;
+      });
+
+      els.sectors.forEach((sec) => {
+        const visibleHere = sec.querySelectorAll('.vendor:not([hidden])').length;
+        sec.hidden = visibleHere === 0;
+        const countEl = sec.querySelector('.sector-shown');
+        if (countEl) countEl.textContent = String(visibleHere);
+      });
+
+      if (els.count) {
+        els.count.textContent = shownTotal === TOTAL_FIRMS
+          ? `${TOTAL_FIRMS} firms shown`
+          : `${shownTotal} of ${TOTAL_FIRMS} firms shown`;
+        els.count.classList.toggle('changed', shownTotal !== TOTAL_FIRMS);
+      }
+      if (els.clear) els.clear.hidden = !isActive();
+      if (els.empty) els.empty.hidden = shownTotal !== 0;
+      updateButtons();
+      writeUrl();
+    }
+
+    function updateButtons() {
+      els.buttons.forEach((btn) => {
+        const facet = btn.dataset.facet;
+        const value = btn.dataset.value || '';
+        btn.classList.toggle('active', filterState[facet] === value);
+      });
+    }
+
+    function clearAll() {
+      filterState.q = '';
+      filterState.category = '';
+      filterState.compliance = '';
+      filterState.country = '';
+      filterState.readiness = '';
+      if (els.input) els.input.value = '';
+      apply();
+    }
+
+    els.buttons.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const facet = btn.dataset.facet;
+        if (!facet) return;
+        filterState[facet] = btn.dataset.value || '';
+        apply();
+      });
+    });
+
+    if (els.input) {
+      els.input.addEventListener('input', () => {
+        filterState.q = (els.input.value || '').toLowerCase();
+        apply();
+      });
+    }
+    if (els.clear) els.clear.addEventListener('click', clearAll);
+    if (els.emptyClear) els.emptyClear.addEventListener('click', clearAll);
+
+    readUrl();
+    apply();
+  }
+</script>

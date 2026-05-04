@@ -1,0 +1,20 @@
+{
+  "name": "uxvmarket-site",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "sync-content": "cd ../generator && uv run python -m generator",
+    "predev": "npm run sync-content",
+    "dev": "astro dev",
+    "prebuild": "npm run sync-content",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.7.0",
+    "astro": "^5.17.1",
+    "astro-indexnow": "^2.1.1"
+  }
+}

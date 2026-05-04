@@ -1,0 +1,93 @@
+---
+import VendorRow from './VendorRow.astro';
+
+interface VendorSummary {
+  designation: string;
+  slug: string;
+  canonicalName: string;
+  hqCity?: string;
+  hqRegion?: string;
+  countryName: string;
+  compliancePosture: string;
+  readinessPosture: string;
+  reviewedAt: string;
+  tagline: string;
+  primaryCategorySlug: string;
+  categories: string[];
+  searchString: string;
+}
+
+interface Props {
+  letter: string;
+  slug: string;
+  displayName: string;
+  totalInSector: number;
+  reviewedAt: string;        // display string e.g. "25 APR"
+  vendors: VendorSummary[];
+}
+
+const { letter, slug, displayName, totalInSector, reviewedAt, vendors } = Astro.props;
+---
+
+<section class="sector" data-sector={slug}>
+  <header class="sector-header">
+    <span class="id">{letter}</span>
+    <span class="name">{displayName}</span>
+    <span class="meta"><span class="sector-shown">{vendors.length}</span> of {totalInSector} firms shown · reviewed {reviewedAt}</span>
+  </header>
+  <ol class="sector-list">
+    {vendors.map(v => (
+      <VendorRow
+        designation={v.designation}
+        slug={v.slug}
+        canonicalName={v.canonicalName}
+        hqCity={v.hqCity}
+        hqRegion={v.hqRegion}
+        countryName={v.countryName}
+        compliancePosture={v.compliancePosture}
+        readinessPosture={v.readinessPosture}
+        reviewedAt={v.reviewedAt}
+        tagline={v.tagline}
+        primaryCategorySlug={v.primaryCategorySlug}
+        categories={v.categories}
+        searchString={v.searchString}
+      />
+    ))}
+  </ol>
+</section>
+
+<style>
+  .sector {
+    margin-bottom: 52px;
+  }
+  .sector-header {
+    display: grid;
+    grid-template-columns: 32px 1fr auto;
+    gap: 16px;
+    align-items: baseline;
+    border-bottom: 1.5px solid var(--text);
+    padding-bottom: 8px;
+  }
+  .sector-header .id {
+    font-family: var(--font-mono);
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--accent);
+    letter-spacing: 0.06em;
+  }
+  .sector-header .name {
+    font-family: var(--font-sans);
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  .sector-header .meta {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--secondary);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+</style>

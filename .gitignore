@@ -1,0 +1,65 @@
+# -----------------------------------------------------------------------------
+# OS / editors
+# -----------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# -----------------------------------------------------------------------------
+# Secrets / local env
+# -----------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+
+# -----------------------------------------------------------------------------
+# Python / tooling
+# -----------------------------------------------------------------------------
+**/.venv/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+**/.pytest_cache/
+**/.ruff_cache/
+**/.mypy_cache/
+**/.ipynb_checkpoints/
+
+# -----------------------------------------------------------------------------
+# Node / frontend build output
+# -----------------------------------------------------------------------------
+**/node_modules/
+fe/site/.astro/
+fe/site/dist/
+fe/site/.astro-indexnow-cache.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Generated Astro/site content. Canonical source is `vendors/<slug>/`.
+fe/site/src/content/vendor/
+fe/site/src/content/sector/
+fe/site/src/content/sitrep/
+fe/site/src/content/capability/
+fe/site/src/content/program/
+fe/site/src/data/
+
+# -----------------------------------------------------------------------------
+# Canonical vendor corpus
+# -----------------------------------------------------------------------------
+# `vendors/` is a multi-GB derived artifact (mirror evidence + extracted JSON)
+# that gets archived to S3 separately. It's the source of truth for FE
+# generation but lives outside git. See README.md "Archive Vendors To S3".
+vendors/
+
+# -----------------------------------------------------------------------------
+# Generic logs
+# -----------------------------------------------------------------------------
+*.log

@@ -1,0 +1,40 @@
+/* ============================================================
+   UxV Market — Bauhaus Armory design tokens + base reset.
+   See memory: project_fe_design_locked.md
+   ============================================================ */
+
+:root {
+  /* palette (Space:1999 dominant) */
+  --bg:           #EDE6D2;   /* bone / parchment */
+  --text:         #1F1B16;   /* warm charcoal (not pure black) */
+  --accent:       #B0492A;   /* burnt orange / oxide */
+  --secondary:    #5A4A38;   /* warm brown */
+  --rule:         #D9D0BA;   /* hairline borders */
+  --bg-drawer:    #E5DCC0;   /* drawer ground (slightly darker than bg) */
+
+  /* status (semantic only — green dot for fresh, amber for stale) */
+  --status-fresh: #1D9E75;
+  --status-stale: #C9821B;
+
+  /* type */
+  --font-sans:    'IBM Plex Sans', system-ui, -apple-system, sans-serif;
+  --font-mono:    'IBM Plex Mono', ui-monospace, 'SF Mono', monospace;
+}
+
+/* reset + base */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  font-family: var(--font-sans);
+  background: var(--bg);
+  color: var(--text);
+  font-size: 14px;
+  line-height: 1.45;
+  -webkit-text-size-adjust: 100%;
+}
+a { color: inherit; }
+button { font: inherit; }
+ol, ul { list-style: none; }

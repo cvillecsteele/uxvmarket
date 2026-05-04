@@ -1,0 +1,77 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Masthead from '../../components/Masthead.astro';
+import Footer from '../../components/Footer.astro';
+
+export async function getStaticPaths() {
+  const sitreps = await getCollection('sitrep');
+  return sitreps.map(s => ({
+    params: { issue: s.data.issue_id },
+    props: { sitrep: s },
+  }));
+}
+
+const { sitrep } = Astro.props;
+const s = sitrep.data;
+
+const allVendors = await getCollection('vendor');
+---
+
+<BaseLayout
+  title={`${s.subject} · UxV Market SITREP ${s.issue_id}`}
+  description={s.subject}
+>
+  <div class="page">
+    <Masthead firmCount={allVendors.length} reviewedAt="" />
+    <div class="back-link"><a href="/">← directory</a></div>
+    <section class="sitrep-page">
+      <header>
+        <div class="ref">SITREP · {s.issue_id}</div>
+        <h2>{s.subject}</h2>
+        <div class="meta">ORIGIN: {s.origin} · DTG: {s.dtg}</div>
+      </header>
+      <div class="body">
+        <slot />
+        <p class="stub-note">Stub template — SITREP issues will render here once the editorial cadence begins.</p>
+      </div>
+    </section>
+    <Footer firmCount={allVendors.length} />
+  </div>
+</BaseLayout>
+
+<style is:global>
+  .sitrep-page {
+    border-top: 4px double var(--accent);
+    padding-top: 24px;
+  }
+  .sitrep-page header { margin-bottom: 24px; }
+  .sitrep-page .ref {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    color: var(--accent);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  .sitrep-page h2 {
+    font-family: var(--font-sans);
+    font-size: 28px;
+    font-weight: 500;
+    margin: 8px 0 6px;
+    line-height: 1.1;
+  }
+  .sitrep-page .meta {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--secondary);
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .sitrep-page .body { max-width: 64ch; line-height: 1.6; font-size: 15px; }
+  .sitrep-page .body .stub-note {
+    margin-top: 24px;
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--secondary);
+  }
+</style>

@@ -1,0 +1,158 @@
+---
+// Renders the drawer shell + the global JS that wires it to clicks
+// on .ref-cell elements (rendered by the vendor detail page's fact table).
+// Each .ref-cell exposes data-ref, data-snippet, data-url, data-dtg, data-renderer.
+---
+
+<div class="drawer-overlay" id="drawerOverlay"></div>
+<aside class="drawer" id="drawer" aria-hidden="true">
+  <div class="header">
+    <div class="ref" id="drawerRef">REF.0000</div>
+    <button class="close" id="closeDrawer" aria-label="Close source drawer">Close</button>
+  </div>
+  <div class="label">Verbatim source snippet</div>
+  <div class="snippet" id="drawerSnippet">—</div>
+  <div class="label">Source URL</div>
+  <div class="field"><a href="#" id="drawerUrl" target="_blank" rel="noopener">—</a></div>
+  <div class="label">Fetched (DTG)</div>
+  <div class="field" id="drawerDtg">—</div>
+  <div class="label">Renderer</div>
+  <div class="field" id="drawerRenderer">—</div>
+</aside>
+
+<style>
+  .drawer-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(31, 27, 22, 0.42);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease-out;
+    z-index: 100;
+  }
+  .drawer-overlay.open {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .drawer {
+    position: fixed;
+    top: 0; right: 0; bottom: 0;
+    width: 480px;
+    max-width: 92vw;
+    background: var(--bg-drawer);
+    border-left: 4px double var(--accent);
+    transform: translateX(100%);
+    transition: transform 0.24s cubic-bezier(0.2, 0.8, 0.2, 1);
+    z-index: 110;
+    padding: 28px 30px 36px;
+    overflow-y: auto;
+  }
+  .drawer.open { transform: translateX(0); }
+  .drawer .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 4px;
+    border-bottom: 2px solid var(--text);
+    padding-bottom: 12px;
+  }
+  .drawer .header .ref {
+    font-family: var(--font-mono);
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--accent);
+    letter-spacing: 0.06em;
+  }
+  .drawer .header .close {
+    background: none;
+    border: 1px solid var(--text);
+    cursor: pointer;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--text);
+    padding: 4px 10px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .drawer .header .close:hover {
+    background: var(--text);
+    color: var(--bg);
+  }
+  .drawer .label {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--secondary);
+    margin-top: 22px;
+    margin-bottom: 6px;
+  }
+  .drawer .field {
+    font-family: var(--font-mono);
+    font-size: 12.5px;
+    color: var(--text);
+    line-height: 1.5;
+  }
+  .drawer .snippet {
+    font-family: var(--font-mono);
+    font-size: 12.5px;
+    line-height: 1.55;
+    color: var(--text);
+    padding: 14px 16px;
+    background: rgba(31, 27, 22, 0.05);
+    border-left: 3px solid var(--accent);
+    max-height: 280px;
+    overflow-y: auto;
+    white-space: pre-wrap;
+  }
+  .drawer .field a {
+    color: var(--accent);
+    text-decoration: none;
+    word-break: break-all;
+  }
+  .drawer .field a:hover { text-decoration: underline; }
+
+  @media (max-width: 720px) {
+    .drawer { width: 92vw; padding: 22px 22px 30px; }
+  }
+</style>
+
+<script>
+  const drawer        = document.getElementById('drawer');
+  const overlay       = document.getElementById('drawerOverlay');
+  const drawerRef     = document.getElementById('drawerRef');
+  const drawerSnippet = document.getElementById('drawerSnippet');
+  const drawerUrl     = document.getElementById('drawerUrl') as HTMLAnchorElement | null;
+  const drawerDtg     = document.getElementById('drawerDtg');
+  const drawerRenderer= document.getElementById('drawerRenderer');
+  const closeBtn      = document.getElementById('closeDrawer');
+
+  function openDrawer(el: HTMLElement) {
+    if (drawerRef)      drawerRef.textContent = el.dataset.ref || '—';
+    if (drawerSnippet)  drawerSnippet.textContent = el.dataset.snippet || '—';
+    if (drawerUrl) {
+      const url = el.dataset.url || '';
+      drawerUrl.href = url || '#';
+      drawerUrl.textContent = url || '—';
+      drawerUrl.setAttribute('aria-disabled', url ? 'false' : 'true');
+      drawerUrl.tabIndex = url ? 0 : -1;
+    }
+    if (drawerDtg)      drawerDtg.textContent = el.dataset.dtg || '—';
+    if (drawerRenderer) drawerRenderer.textContent = el.dataset.renderer || '—';
+    drawer?.classList.add('open');
+    overlay?.classList.add('open');
+    drawer?.setAttribute('aria-hidden', 'false');
+  }
+  function closeDrawer() {
+    drawer?.classList.remove('open');
+    overlay?.classList.remove('open');
+    drawer?.setAttribute('aria-hidden', 'true');
+  }
+
+  document.querySelectorAll<HTMLElement>('.ref-cell[data-ref]').forEach(el => {
+    el.addEventListener('click', () => openDrawer(el));
+  });
+  closeBtn?.addEventListener('click', closeDrawer);
+  overlay?.addEventListener('click', closeDrawer);
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDrawer(); });
+</script>

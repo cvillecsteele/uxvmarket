@@ -1,0 +1,145 @@
+---
+interface Props {
+  edition?: string;       // "Edition 2026"
+  volIssue?: string;      // "Vol II · Issue 17"
+  firmCount?: number;
+  reviewedRange?: string; // e.g. "18–25 APR 2026"
+}
+
+const {
+  edition = 'Edition 2026',
+  volIssue = 'Vol II · Issue 17',
+  firmCount,
+  reviewedRange,
+} = Astro.props;
+---
+
+<footer class="footer">
+  <div class="col">
+    <h5>About</h5>
+    <p>UxV Market is a curated reference of US and NATO-aligned merchant suppliers to the unmanned-systems industrial base. Maintained in public, evidence-disciplined, opinionated.</p>
+    <a href="/methodology">Methodology and taxonomy →</a>
+    <a href="/edition/2026">Past editions →</a>
+  </div>
+  <div class="col">
+    <h5>Corrections</h5>
+    <p>Found a fact wrong, a vendor missing, or a delta unclassified? Send us the source.</p>
+    <a href="mailto:corrections@uxvmarket.com">corrections@uxvmarket.com</a>
+  </div>
+  <div class="col signup">
+    <h5>Monday SITREP</h5>
+    <p>One dispatch per week. Three minutes to read. Free.</p>
+    <form onsubmit="event.preventDefault(); alert('Subscribe form: wire to Buttondown in production.');">
+      <input type="email" placeholder="your@work.email" required>
+      <button type="submit">Subscribe</button>
+    </form>
+  </div>
+  <nav class="legal-links" aria-label="Legal and about">
+    <a href="/about">About</a>
+    <a href="/terms">Terms of Service</a>
+    <a href="/privacy">Privacy Policy</a>
+  </nav>
+  <div class="colophon">
+    {edition} · {volIssue}
+    {firmCount ? ` · Compiled from ${firmCount} vendor reviews` : ''}
+    {reviewedRange ? ` dated ${reviewedRange}` : ''}
+    · &copy; {new Date().getFullYear()} UxV Market. All rights reserved.
+  </div>
+</footer>
+
+<style>
+  .footer {
+    margin-top: 80px;
+    padding-top: 28px;
+    border-top: 2px solid var(--text);
+    display: grid;
+    grid-template-columns: 1.2fr 1fr 1.4fr;
+    gap: 36px;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--secondary);
+    letter-spacing: 0.04em;
+  }
+  .col h5 {
+    font-family: var(--font-mono);
+    font-weight: 500;
+    color: var(--text);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 10.5px;
+    letter-spacing: 0.08em;
+  }
+  .col p { margin-top: 6px; line-height: 1.55; }
+  .footer a {
+    color: var(--text);
+    text-decoration: none;
+    display: block;
+    margin-top: 4px;
+  }
+  .footer a:hover { color: var(--accent); }
+  .legal-links {
+    grid-column: 1 / -1;
+    margin-top: 24px;
+    padding-top: 16px;
+    border-top: 1px solid var(--rule);
+    font-size: 11px;
+    letter-spacing: 0.05em;
+  }
+  .legal-links a {
+    display: inline-block;
+    margin: 0;
+    color: var(--text);
+  }
+  .legal-links a + a::before {
+    content: '·';
+    color: var(--rule);
+    margin: 0 10px;
+  }
+  .legal-links + .colophon {
+    margin-top: 2px;
+    padding-top: 0;
+    border-top: none;
+  }
+  .signup form {
+    display: flex;
+    margin-top: 8px;
+    border: 1px solid var(--text);
+  }
+  .signup input {
+    flex: 1;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    padding: 8px 10px;
+    background: transparent;
+    border: none;
+    color: var(--text);
+    outline: none;
+  }
+  .signup input::placeholder { color: var(--secondary); }
+  .signup button {
+    font-family: var(--font-mono);
+    font-size: 10.5px;
+    padding: 8px 14px;
+    background: var(--accent);
+    color: var(--bg);
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-weight: 500;
+  }
+  .signup button:hover { background: var(--text); }
+  .colophon {
+    grid-column: 1 / -1;
+    margin-top: 24px;
+    padding-top: 16px;
+    border-top: 1px solid var(--rule);
+    font-size: 10px;
+    color: var(--secondary);
+    text-align: left;
+    letter-spacing: 0.05em;
+  }
+  @media (max-width: 720px) {
+    .footer { grid-template-columns: 1fr; gap: 28px; }
+  }
+</style>
