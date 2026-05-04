@@ -5,9 +5,12 @@ import sitemap from '@astrojs/sitemap';
 import indexnow from 'astro-indexnow';
 import trailingSlashRedirect from './src/integrations/trailing-slash-redirect.mjs';
 
-// Placeholder IndexNow key. Replace with a real generated UUID when wiring DNS,
-// and add a matching <key>.txt file to public/ so search engines can verify.
-const INDEXNOW_KEY = process.env.INDEXNOW_KEY ?? 'a3b8c19d8f7e4f6a9b2c8d3e5f1a7b9c';
+// Set INDEXNOW_KEY in the build env (GH Actions secret of the same name)
+// to enable IndexNow pings on build. When missing, the integration is
+// skipped — the site still builds fine; search engines just don't get
+// notified of new content. Add a matching `<key>.txt` file to public/
+// so engines can verify ownership.
+const INDEXNOW_KEY = process.env.INDEXNOW_KEY;
 
 export default defineConfig({
   site: 'https://uxvmarket.com',
@@ -17,7 +20,7 @@ export default defineConfig({
   },
   integrations: [
     sitemap(),
-    indexnow({ key: INDEXNOW_KEY }),
+    ...(INDEXNOW_KEY ? [indexnow({ key: INDEXNOW_KEY })] : []),
     trailingSlashRedirect(),
   ]
 });
