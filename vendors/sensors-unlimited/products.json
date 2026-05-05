@@ -1,0 +1,500 @@
+{
+  "target_id": "sensors-unlimited",
+  "run_id": "canonical",
+  "display_name": "Sensors Unlimited",
+  "homepage_url": "https://www.sensorsinc.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/sensors-unlimited/website",
+  "products": [
+    {
+      "name": "1280JSX HD Camera",
+      "category": "isr_payloads",
+      "descriptor": "1.3MP 1280\u00d71024 InGaAs SWIR digital video camera, high-sensitivity, mil-rugged",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0076",
+          "line_start": 133,
+          "line_end": 135,
+          "url": "https://www.sensorsinc.com/products/area-cameras",
+          "page_class": "product",
+          "snippet": "1280JSX HD Camera\nThe compact Sensors Unlimited 1280JSX is our next-generation SWIR digital video camera featuring a 1.3MP high-resolution, high-sensitivity InGaAs imager.\n](/products/detail/mini-swir-jsx-snapshot-camera-60-fps)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "640CSX VGA Camera",
+      "category": "isr_payloads",
+      "descriptor": "640\u00d7512 Micro-SWIR\u2122 InGaAs video camera, small SWaP, non-ITAR available",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0076",
+          "line_start": 140,
+          "line_end": 141,
+          "url": "https://www.sensorsinc.com/products/area-cameras",
+          "page_class": "product",
+          "snippet": "The compact Sensors Unlimited Micro-SWIR\u2122 640CSX is the next-generation SWIR video camera, designed for applications requiring small size, weight and power (SWaP), and available without ITAR restrictions.\n](/products/detail/microswir-camera)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "320CSX QVGA Camera",
+      "category": "isr_payloads",
+      "descriptor": "320\u00d7256 InGaAs SWIR video camera, non-ITAR, small SWaP",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0076",
+          "line_start": 146,
+          "line_end": 147,
+          "url": "https://www.sensorsinc.com/products/area-cameras",
+          "page_class": "product",
+          "snippet": "The compact 320CSX represents the next generation of SWIR video cameras, designed specifically for applications that require small size, weight, and power (SWaP).\n](/products/detail/micro-320csx-swir-camera)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "640CSX+MMT ALPD Camera",
+      "category": "isr_payloads",
+      "descriptor": "640\u00d7512 Micro-SWIR\u2122 InGaAs camera core with multi-mode tracking and ALPD laser decoding",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0076",
+          "line_start": 152,
+          "line_end": 153,
+          "url": "https://www.sensorsinc.com/products/area-cameras",
+          "page_class": "product",
+          "snippet": "The Sensors Unlimited Micro-SWIR\u2122 640CSX+MMT SWIR camera core with high-resolution video for laser tracking and decoding of multiple asynchronous sources simultaneously.\n](/products/detail/microswir-640csx-mmt-multi-mode-tracking)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0047",
+          "line_start": 163,
+          "line_end": 165,
+          "url": "https://www.sensorsinc.com/applications/military/night-vision-systems",
+          "page_class": "capability",
+          "snippet": "640CSX+MMT ALPD Camera\n640 x 512 @ 15\u00b5m, mil-rugged, ALPD camera core with high-resolution video for laser tracking and decoding\n](/products/detail/microswir-640csx-mmt-multi-mode-tracking)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "SPS",
+      "category": "isr_payloads",
+      "descriptor": "SWIR Pocket Scope handheld 2D SWIR imaging system",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0076",
+          "line_start": 29,
+          "line_end": 29,
+          "url": "https://www.sensorsinc.com/products/area-cameras",
+          "page_class": "product",
+          "snippet": "    *   [SPS](/products/detail/sps-swir-pocket-scope)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "SPS+MMT",
+      "category": "isr_payloads",
+      "descriptor": "SWIR Pocket Scope with multi-mode target tracking, handheld 2D SWIR system",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0076",
+          "line_start": 30,
+          "line_end": 30,
+          "url": "https://www.sensorsinc.com/products/area-cameras",
+          "page_class": "product",
+          "snippet": "    *   [SPS+MMT](/products/detail/spsmmt-swir-pocket-scopemulti-mode-tracker)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "1280JSX+MMT Camera",
+      "category": "isr_payloads",
+      "descriptor": "1280\u00d71024 SWIR camera with integrated multi-mode tracking, early-access RFQ",
+      "granularity": "sku",
+      "readiness": "low_rate_production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 176,
+          "line_end": 177,
+          "url": "https://www.sensorsinc.com",
+          "page_class": "homepage",
+          "snippet": "### New products coming soon\nSensors Unlimited is now accepting RFQs for a minimum-order-quantity (MOQ) of 10 units for the products listed below."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 181,
+          "line_end": 181,
+          "url": "https://www.sensorsinc.com",
+          "page_class": "homepage",
+          "snippet": "1280JSX+MMT Camera"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "1280JSX HD 10\u00b5m Camera",
+      "category": "isr_payloads",
+      "descriptor": "1280\u00d71024 SWIR InGaAs camera with 10\u00b5m pixel pitch, early-access RFQ",
+      "granularity": "sku",
+      "readiness": "low_rate_production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 176,
+          "line_end": 177,
+          "url": "https://www.sensorsinc.com",
+          "page_class": "homepage",
+          "snippet": "### New products coming soon\nSensors Unlimited is now accepting RFQs for a minimum-order-quantity (MOQ) of 10 units for the products listed below."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 186,
+          "line_end": 186,
+          "url": "https://www.sensorsinc.com",
+          "page_class": "homepage",
+          "snippet": "1280JSX HD-10\u00b5m Video Camera"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "eSWIR 640CSX+MMT",
+      "category": "isr_payloads",
+      "descriptor": "Extended-SWIR 640\u00d7512 InGaAs camera with multi-mode tracking, early-access RFQ",
+      "granularity": "sku",
+      "readiness": "low_rate_production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 176,
+          "line_end": 177,
+          "url": "https://www.sensorsinc.com",
+          "page_class": "homepage",
+          "snippet": "### New products coming soon\nSensors Unlimited is now accepting RFQs for a minimum-order-quantity (MOQ) of 10 units for the products listed below."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 191,
+          "line_end": 191,
+          "url": "https://www.sensorsinc.com",
+          "page_class": "homepage",
+          "snippet": "eSWIR 640CSX+MMT Camera"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "640HSX2 Digital Video Camera",
+      "category": "isr_payloads",
+      "descriptor": "640\u00d7512 SWIR InGaAs digital video camera, early-access RFQ",
+      "granularity": "sku",
+      "readiness": "low_rate_production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 176,
+          "line_end": 177,
+          "url": "https://www.sensorsinc.com",
+          "page_class": "homepage",
+          "snippet": "### New products coming soon\nSensors Unlimited is now accepting RFQs for a minimum-order-quantity (MOQ) of 10 units for the products listed below."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 196,
+          "line_end": 196,
+          "url": "https://www.sensorsinc.com",
+          "page_class": "homepage",
+          "snippet": "640HSX2 Digital Video Camera"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "640CSXCC+MMT Camera",
+      "category": "isr_payloads",
+      "descriptor": "640\u00d7512 SWIR camera with color/fusion capability and multi-mode tracking, early-access RFQ",
+      "granularity": "sku",
+      "readiness": "low_rate_production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 176,
+          "line_end": 177,
+          "url": "https://www.sensorsinc.com",
+          "page_class": "homepage",
+          "snippet": "### New products coming soon\nSensors Unlimited is now accepting RFQs for a minimum-order-quantity (MOQ) of 10 units for the products listed below."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 201,
+          "line_end": 201,
+          "url": "https://www.sensorsinc.com",
+          "page_class": "homepage",
+          "snippet": "640CSXCC+MMT Camera"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "2048L Linescan Camera",
+      "category": "isr_payloads",
+      "descriptor": "2048-element InGaAs SWIR linescan camera for high-resolution 1D imaging",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0076",
+          "line_start": 18,
+          "line_end": 18,
+          "url": "https://www.sensorsinc.com/products/area-cameras",
+          "page_class": "product",
+          "snippet": "    *   [2048L Linescan Camera](/products/detail/gl2048-ingaas-linescan-camera)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "2048R Linescan Camera",
+      "category": "isr_payloads",
+      "descriptor": "2048-element InGaAs SWIR linescan camera (rolling-shutter variant)",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0076",
+          "line_start": 19,
+          "line_end": 19,
+          "url": "https://www.sensorsinc.com/products/area-cameras",
+          "page_class": "product",
+          "snippet": "    *   [2048R Linescan Camera](/products/detail/gl2048-r-ingaas-linescan-camera)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "1024LDH2 Linescan Camera",
+      "category": "isr_payloads",
+      "descriptor": "1024-element 92 kHz InGaAs SWIR linescan camera",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0076",
+          "line_start": 20,
+          "line_end": 20,
+          "url": "https://www.sensorsinc.com/products/area-cameras",
+          "page_class": "product",
+          "snippet": "    *   [1024LDH2 Linescan Camera](/products/detail/92-khz-ingaas-linescan-camera)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "1024LDM Linescan Camera",
+      "category": "isr_payloads",
+      "descriptor": "1024-element InGaAs SWIR linescan camera",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0076",
+          "line_start": 21,
+          "line_end": 21,
+          "url": "https://www.sensorsinc.com/products/area-cameras",
+          "page_class": "product",
+          "snippet": "    *   [1024LDM Linescan Camera](/products/detail/1024-ldm-linescan-camera)"
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "All 15 individual product detail pages were skipped (skipped_class_budget or skipped_budget) \u2014 detailed specs (frame rate, weight, pixel pitch variants), pricing, and any product-level NDAA/compliance claims could not be verified from the corpus.",
+    "SPS and SPS+MMT descriptions are inferred from URL slugs ('sps-swir-pocket-scope', 'spsmmt-swir-pocket-scopemulti-mode-tracker'); no product page content was fetched.",
+    "The '2048R' linescan 'R' suffix (interpreted as rolling-shutter) and '1024LDH2' 92 kHz rate are inferred from URL slugs; not confirmed from fetched content.",
+    "The 'CC' suffix in 640CSXCC+MMT is not defined in fetched corpus \u2014 could mean color-capable, color-composite, or another designation.",
+    "Five 'new products coming soon' (1280JSX+MMT, 1280JSX HD 10\u00b5m, eSWIR 640CSX+MMT, 640HSX2, 640CSXCC+MMT) are classified low_rate_production based on MOQ-10 RFQ language; their detail pages were skipped so no further spec or compliance info available."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.sensorsinc.com/products/detail/microswir-640csx-mmt-multi-mode-tracking",
+      "reason": "Detail page for 640CSX+MMT ALPD Camera (key military ISR product) \u2014 skipped_budget; would provide specs, compliance, and readiness confirmation.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=news",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.sensorsinc.com/products/detail/mini-swir-jsx-snapshot-camera-60-fps",
+      "reason": "Detail page for 1280JSX HD Camera \u2014 skipped_budget; would provide full specs and any compliance claims.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=news",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.sensorsinc.com/products/detail/spsmmt-swir-pocket-scopemulti-mode-tracker",
+      "reason": "Detail page for SPS+MMT \u2014 skipped_budget; would confirm product specs and military use-case details.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=news",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.sensorsinc.com/products/detail/sps-swir-pocket-scope",
+      "reason": "Detail page for SPS \u2014 skipped_class_budget; would confirm product specs.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.sensorsinc.com/products/detail/microswir-camera",
+      "reason": "Detail page for 640CSX VGA Camera \u2014 skipped_class_budget; would provide full specs and compliance claims.",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.sensorsinc.com/products/detail/1280jsx-mmt-camera",
+      "reason": "Detail page for 1280JSX+MMT Camera (new product) \u2014 skipped_class_budget; would confirm specs and readiness.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.sensorsinc.com/products/detail/eswir-640csx-mmt",
+      "reason": "Detail page for eSWIR 640CSX+MMT (new product) \u2014 skipped_class_budget; would confirm extended-SWIR specs and readiness.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.sensorsinc.com/products/detail/640csxcc-mmt",
+      "reason": "Detail page for 640CSXCC+MMT Camera (new product) \u2014 skipped_class_budget; would clarify 'CC' suffix meaning and specs.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.sensorsinc.com/products/detail/gl2048-ingaas-linescan-camera",
+      "reason": "Detail page for 2048L Linescan Camera \u2014 skipped_class_budget; would provide line rate, pixel pitch, and spec detail.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.sensorsinc.com/products/detail/1024-ldm-linescan-camera",
+      "reason": "Detail page for 1024LDM Linescan Camera \u2014 skipped_class_budget; would provide full specs.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 0,
+    "total_cost_usd": null,
+    "created_at": "2026-05-05T15:33:59+00:00",
+    "extract_version": "0.1.0"
+  }
+}

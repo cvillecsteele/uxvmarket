@@ -1,0 +1,587 @@
+{
+  "target_id": "teledyne-flir",
+  "run_id": "canonical",
+  "display_name": "Teledyne FLIR",
+  "homepage_url": "https://www.flir.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/teledyne-flir/website",
+  "products": [
+    {
+      "name": "Boson",
+      "category": "isr_payloads",
+      "descriptor": "LWIR uncooled OEM thermal camera module family, 12 \u00b5m pixel pitch, 640\u00d7512 or 320\u00d7256",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "yes",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0903",
+          "line_start": 127,
+          "line_end": 128,
+          "url": "https://oem.flir.com/it-it/products/boson",
+          "page_class": "product",
+          "snippet": "Modulo videocamera termica OEM a infrarossi a onde lunghe (LWIR) non raffreddato\nBoson"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0903",
+          "line_start": 141,
+          "line_end": 141,
+          "url": "https://oem.flir.com/it-it/products/boson",
+          "page_class": "product",
+          "snippet": "*   Produzione ad alto volume con disponibilit\u00e0 immediata"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0903",
+          "line_start": 150,
+          "line_end": 150,
+          "url": "https://oem.flir.com/it-it/products/boson",
+          "page_class": "product",
+          "snippet": "*   Conforme NDAA e classificato secondo la giurisdizione del Dipartimento del Commercio degli Stati Uniti come EAR 6A003.b.4.a"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Boson+",
+      "category": "isr_payloads",
+      "descriptor": "High-performance LWIR uncooled OEM thermal camera module with \u226420 mK NEdT sensitivity",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "yes",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-1120",
+          "line_start": 122,
+          "line_end": 122,
+          "url": "https://oem.flir.com/ko-kr/about/news/teledyne-flir-oem-enhances-defense-readiness-with-ndaa-compliant-thermal-imaging-solutions",
+          "page_class": "company",
+          "snippet": "##### Performance-Driven NDAA-Compliant Imaging Portfolio:"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-1120",
+          "line_start": 128,
+          "line_end": 128,
+          "url": "https://oem.flir.com/ko-kr/about/news/teledyne-flir-oem-enhances-defense-readiness-with-ndaa-compliant-thermal-imaging-solutions",
+          "page_class": "company",
+          "snippet": "*   [**Boson+**](/episerver/CMS/Content/,,7/products/boson-plus,,15888__CatalogContent/?epieditmode=False): High-performance Boson variant offers industry-leading thermal sensitivity with a noise equivalent temperature difference (NETD) of less than 20 millikelvin."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0903",
+          "line_start": 153,
+          "line_end": 153,
+          "url": "https://oem.flir.com/it-it/products/boson",
+          "page_class": "product",
+          "snippet": "##### [Boson**+**](/it-it/products/boson-plus/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Boson+ CZ",
+      "category": "isr_payloads",
+      "descriptor": "Boson+ LWIR camera module integrated with 5\u00d7 continuous-zoom lens for simplified UAS integration",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "yes",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-1120",
+          "line_start": 122,
+          "line_end": 122,
+          "url": "https://oem.flir.com/ko-kr/about/news/teledyne-flir-oem-enhances-defense-readiness-with-ndaa-compliant-thermal-imaging-solutions",
+          "page_class": "company",
+          "snippet": "##### Performance-Driven NDAA-Compliant Imaging Portfolio:"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-1120",
+          "line_start": 129,
+          "line_end": 129,
+          "url": "https://oem.flir.com/ko-kr/about/news/teledyne-flir-oem-enhances-defense-readiness-with-ndaa-compliant-thermal-imaging-solutions",
+          "page_class": "company",
+          "snippet": "*   [**Boson+ CZ**](/episerver/CMS/Content/,,7/products/boson-plus-cz,,18215__CatalogContent/?epieditmode=False): Combines the Boson+ LWIR camera module and 5x CZ lens, offering a high\u2013performance imaging solution and simplified integration."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0903",
+          "line_start": 833,
+          "line_end": 839,
+          "url": "https://oem.flir.com/it-it/products/boson",
+          "page_class": "product",
+          "snippet": "[![Boson+ CZ 14-75](/globalassets/imported-assets/image/boson-plus-cz---product-image-prc-refl-500px.png)](/it-it/products/boson-plus-cz/?vertical=lwir&segment=oem)\n### [Boson+ CZ 14-75](/it-it/products/boson-plus-cz/?vertical=lwir&segment=oem)\nModulo termocamera OEM a infrarossi a onde lunghe (LWIR) ad alte prestazioni non raffreddato\n*   Risoluzione 640 x 512\n*   Sensibilit\u00e0 termica \u226420 mK \\[NEdT\\]\n*   HFoV da 6\u00b0 a 30\u00b0\n[Visualizza prodotto](/it-it/products/boson-plus-cz/?vertical=lwir&segment=oem)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Hadron 640",
+      "category": "isr_payloads",
+      "descriptor": "Dual thermal+visible OEM camera module integrating 640\u00d7512 radiometric Boson sensor and 64 MP visible camera",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "yes",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-1120",
+          "line_start": 122,
+          "line_end": 122,
+          "url": "https://oem.flir.com/ko-kr/about/news/teledyne-flir-oem-enhances-defense-readiness-with-ndaa-compliant-thermal-imaging-solutions",
+          "page_class": "company",
+          "snippet": "##### Performance-Driven NDAA-Compliant Imaging Portfolio:"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-1120",
+          "line_start": 130,
+          "line_end": 130,
+          "url": "https://oem.flir.com/ko-kr/about/news/teledyne-flir-oem-enhances-defense-readiness-with-ndaa-compliant-thermal-imaging-solutions",
+          "page_class": "company",
+          "snippet": "*   [**Hadron 640**](/episerver/CMS/Content/,,7/products/hadron-640,,15924__CatalogContent/?epieditmode=False): Integrates a 64MP visible camera with a 640 \u00d7 512 radiometric Boson thermal sensor in a single module for streamlined integration in uncrewed systems."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0903",
+          "line_start": 840,
+          "line_end": 846,
+          "url": "https://oem.flir.com/it-it/products/boson",
+          "page_class": "product",
+          "snippet": "[![Hadron 640](/globalassets/imported-assets/image/hadron-family---product-image-prc-refl-600px.png)](/it-it/products/hadron-640/?vertical=lwir&segment=oem)\n### [Hadron 640](/it-it/products/hadron-640/?vertical=lwir&segment=oem)\nModulo con doppia telecamera OEM nel visibile e termica ad alte prestazioni\n*   Risoluzione termica 640 x 512\n*   Telecamera visibile 64 MP\n*   Radiometria disponibile\n[Visualizza prodotto](/it-it/products/hadron-640/?vertical=lwir&segment=oem)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Lepton",
+      "category": "isr_payloads",
+      "descriptor": "World's highest-volume miniature LWIR thermal imaging camera module for scalable integration",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "yes",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-1120",
+          "line_start": 122,
+          "line_end": 122,
+          "url": "https://oem.flir.com/ko-kr/about/news/teledyne-flir-oem-enhances-defense-readiness-with-ndaa-compliant-thermal-imaging-solutions",
+          "page_class": "company",
+          "snippet": "##### Performance-Driven NDAA-Compliant Imaging Portfolio:"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-1120",
+          "line_start": 131,
+          "line_end": 131,
+          "url": "https://oem.flir.com/ko-kr/about/news/teledyne-flir-oem-enhances-defense-readiness-with-ndaa-compliant-thermal-imaging-solutions",
+          "page_class": "company",
+          "snippet": "*   **[Lepton](~/link/580f916c5dcb440ab2d1700bdd7370fe.aspx)**: World\u2019s highest-volume LWIR thermal imaging module, enabling scalable thermal innovation."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Neutrino LC",
+      "category": "isr_payloads",
+      "descriptor": "HOT MWIR cooled FPA camera module in compact format for gimbals, handhelds, and targeting systems",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "yes",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-1120",
+          "line_start": 122,
+          "line_end": 123,
+          "url": "https://oem.flir.com/ko-kr/about/news/teledyne-flir-oem-enhances-defense-readiness-with-ndaa-compliant-thermal-imaging-solutions",
+          "page_class": "company",
+          "snippet": "##### Performance-Driven NDAA-Compliant Imaging Portfolio:\n*   **[Neutrino LC and SX8](/ko-kr/products/neutrino-swapc-series/?vertical=mwir&segment=oem)**: High-operating temperature (HOT) mid-wave infrared (MWIR) focal plane array (FPA) technology in a compact format\u2014ideal for gimbals, handhelds, and targeting systems."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Neutrino SX8",
+      "category": "isr_payloads",
+      "descriptor": "HOT MWIR cooled FPA camera module in compact format for gimbals, handhelds, and targeting systems",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "yes",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-1120",
+          "line_start": 122,
+          "line_end": 123,
+          "url": "https://oem.flir.com/ko-kr/about/news/teledyne-flir-oem-enhances-defense-readiness-with-ndaa-compliant-thermal-imaging-solutions",
+          "page_class": "company",
+          "snippet": "##### Performance-Driven NDAA-Compliant Imaging Portfolio:\n*   **[Neutrino LC and SX8](/ko-kr/products/neutrino-swapc-series/?vertical=mwir&segment=oem)**: High-operating temperature (HOT) mid-wave infrared (MWIR) focal plane array (FPA) technology in a compact format\u2014ideal for gimbals, handhelds, and targeting systems."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Neutrino QX",
+      "category": "isr_payloads",
+      "descriptor": "High-resolution fast-frame MWIR cooled camera module for ISR, counter-drone, and WAMI missions",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "yes",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-1120",
+          "line_start": 122,
+          "line_end": 122,
+          "url": "https://oem.flir.com/ko-kr/about/news/teledyne-flir-oem-enhances-defense-readiness-with-ndaa-compliant-thermal-imaging-solutions",
+          "page_class": "company",
+          "snippet": "##### Performance-Driven NDAA-Compliant Imaging Portfolio:"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-1120",
+          "line_start": 124,
+          "line_end": 124,
+          "url": "https://oem.flir.com/ko-kr/about/news/teledyne-flir-oem-enhances-defense-readiness-with-ndaa-compliant-thermal-imaging-solutions",
+          "page_class": "company",
+          "snippet": "*   **[Neutrino QX and SX12](/ko-kr/products/neutrino-performance-series/?vertical=mwir&segment=oem)**: High-resolution, fast-frame MWIR models designed for intelligence, surveillance, and reconnaissance (ISR), counter-drone, and wide-area motion imaging (WAMI) missions."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Neutrino SX12",
+      "category": "isr_payloads",
+      "descriptor": "High-resolution fast-frame MWIR cooled camera module for ISR, counter-drone, and WAMI missions",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "yes",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-1120",
+          "line_start": 122,
+          "line_end": 122,
+          "url": "https://oem.flir.com/ko-kr/about/news/teledyne-flir-oem-enhances-defense-readiness-with-ndaa-compliant-thermal-imaging-solutions",
+          "page_class": "company",
+          "snippet": "##### Performance-Driven NDAA-Compliant Imaging Portfolio:"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-1120",
+          "line_start": 124,
+          "line_end": 124,
+          "url": "https://oem.flir.com/ko-kr/about/news/teledyne-flir-oem-enhances-defense-readiness-with-ndaa-compliant-thermal-imaging-solutions",
+          "page_class": "company",
+          "snippet": "*   **[Neutrino QX and SX12](/ko-kr/products/neutrino-performance-series/?vertical=mwir&segment=oem)**: High-resolution, fast-frame MWIR models designed for intelligence, surveillance, and reconnaissance (ISR), counter-drone, and wide-area motion imaging (WAMI) missions."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Neutrino IS",
+      "category": "isr_payloads",
+      "descriptor": "HOT MWIR camera module integrated with continuous-zoom lens, 640\u00d7512 or 1280\u00d71024, SWaP-optimized",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "yes",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-1120",
+          "line_start": 122,
+          "line_end": 122,
+          "url": "https://oem.flir.com/ko-kr/about/news/teledyne-flir-oem-enhances-defense-readiness-with-ndaa-compliant-thermal-imaging-solutions",
+          "page_class": "company",
+          "snippet": "##### Performance-Driven NDAA-Compliant Imaging Portfolio:"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-1120",
+          "line_start": 125,
+          "line_end": 125,
+          "url": "https://oem.flir.com/ko-kr/about/news/teledyne-flir-oem-enhances-defense-readiness-with-ndaa-compliant-thermal-imaging-solutions",
+          "page_class": "company",
+          "snippet": "*   **[Neutrino IS](/episerver/CMS/Content/,,7/products/neutrino-integrated-solution,,14656__CatalogContent/?epieditmode=False&vertical=mwir&segment=oem)**: Combines Neutrino LC and SX camera modules with continuous zoom (CZ) lenses to offer high\u2013performance, SWaP-optimized imaging solutions."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0633",
+          "line_start": 176,
+          "line_end": 180,
+          "url": "https://oem.flir.com",
+          "page_class": "homepage",
+          "snippet": "### [Neutrino IS Series](/products/neutrino-integrated-solution/)\nHOT MWIR Camera Module + Continuous Zoom Lens\n*   640 \u00d7 512 or 1280 x 1024 Resolution\n*   Up to 27,000 Hours Cooler MTBF\n*   Up to 60 Hz"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "LWIR Zoom Lens Assemblies",
+      "category": "isr_payloads",
+      "descriptor": "Continuous-zoom lens assemblies for long-wave infrared cameras covering 8\u201314 \u00b5m",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0633",
+          "line_start": 37,
+          "line_end": 37,
+          "url": "https://oem.flir.com",
+          "page_class": "homepage",
+          "snippet": "    *   [LWIR Zoom Lens Assemblies](/products/lwir-zoom-lens-assemblies/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0903",
+          "line_start": 847,
+          "line_end": 853,
+          "url": "https://oem.flir.com/it-it/products/boson",
+          "page_class": "product",
+          "snippet": "[![LWIR Zoom Lens Assemblies](/globalassets/imported-assets/image/2280-300---product-image-prc-refl-600px.png)](/it-it/products/lwir-zoom-lens-assemblies/?vertical=osg&segment=oem)\n### [LWIR Zoom Lens Assemblies](/it-it/products/lwir-zoom-lens-assemblies/?vertical=osg&segment=oem)\nLenses for Long-Wave Infrared (LWIR) Cameras for 8-14 \u00b5m\n*   Zoom continuo\n*   <1 secondo per la messa a fuoco\n*   Guarnizione ottica anteriore IP67\n[Visualizza prodotto](/it-it/products/lwir-zoom-lens-assemblies/?vertical=osg&segment=oem)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Prism C-UAS",
+      "category": "isr_payloads",
+      "descriptor": "Counter-UAS AI software for drone threat detection, tracking, and response on embedded processors",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0633",
+          "line_start": 49,
+          "line_end": 49,
+          "url": "https://oem.flir.com",
+          "page_class": "homepage",
+          "snippet": "    *   [UAS Detection and Tracking](/products/prism-c-uas/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0633",
+          "line_start": 184,
+          "line_end": 187,
+          "url": "https://oem.flir.com",
+          "page_class": "homepage",
+          "snippet": "[](/about/news/teledyne-flir-oem-launches-prism-counter-uas-software-to-extend-drone-threat-detection-range-and-speed-response/)\nNews\n#### Teledyne FLIR OEM Launches Prism Counter-UAS Software to Extend Drone Threat Detection Range and Speed Response\n[Read the story](/about/news/teledyne-flir-oem-launches-prism-counter-uas-software-to-extend-drone-threat-detection-range-and-speed-response/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Prism SKR",
+      "category": "isr_payloads",
+      "descriptor": "Embedded AI software for automated target recognition, tracking, and homing for UAS defense applications",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0633",
+          "line_start": 44,
+          "line_end": 44,
+          "url": "https://oem.flir.com",
+          "page_class": "homepage",
+          "snippet": "    *   [Automated Target Recognition, Tracking and Homing](/products/prism-skr/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0633",
+          "line_start": 188,
+          "line_end": 191,
+          "url": "https://oem.flir.com",
+          "page_class": "homepage",
+          "snippet": "[](/about/news/teledyne-flir-oem-announces-upgraded-prism-skr-software-boosting-advanced-target-recognition-capabilities-for-the-defense-industry/)\nNews\n#### Teledyne FLIR OEM Announces Upgraded Prism SKR Software, Boosting Automatic Target Recognition Capabilities for the Defense Industry\n[Read the story](/about/news/teledyne-flir-oem-announces-upgraded-prism-skr-software-boosting-advanced-target-recognition-capabilities-for-the-defense-industry/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Prism AI",
+      "category": "isr_payloads",
+      "descriptor": "Embedded AI perception software library for thermal object detection and classification on edge processors",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0633",
+          "line_start": 42,
+          "line_end": 42,
+          "url": "https://oem.flir.com",
+          "page_class": "homepage",
+          "snippet": "    *   [AI Perception](/products/prism-ai/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0633",
+          "line_start": 52,
+          "line_end": 52,
+          "url": "https://oem.flir.com",
+          "page_class": "homepage",
+          "snippet": "    *   [Prism AI](/products/prism-ai/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Prism ISP",
+      "category": "isr_payloads",
+      "descriptor": "Embedded image signal processing software library for thermal and visible camera output enhancement",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0633",
+          "line_start": 48,
+          "line_end": 48,
+          "url": "https://oem.flir.com",
+          "page_class": "homepage",
+          "snippet": "    *   [Image Signal Processing](/products/prism-isp/)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0633",
+          "line_start": 56,
+          "line_end": 56,
+          "url": "https://oem.flir.com",
+          "page_class": "homepage",
+          "snippet": "    *   [Prism ISP](/products/prism-isp/)"
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "Neutrino LC, SX8, QX, SX12 individual product specs (resolution, FPA size, cooler type) could not be verified \u2014 dedicated product pages were skipped. The NDAA article groups LC/SX8 together and QX/SX12 together but does not distinguish their individual specs in the corpus.",
+    "Prism AI, Prism SKR, Prism C-UAS, and Prism ISP product detail pages were all skipped; descriptions are inferred from nav labels and one news headline only \u2014 pricing, compatibility, and specific capability claims are unverified.",
+    "Boson+ CZ has a model suffix '14-75' visible in related-product thumbnail text (resource-0903 line 833) suggesting it may be a specific zoom range SKU rather than a family; full product page was skipped.",
+    "LWIR Zoom Lens Assemblies NDAA status unknown \u2014 no explicit compliance claim found in the fetched corpus for the lens products specifically."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://oem.flir.com/it-it/products/neutrino-swapc-series",
+      "reason": "Product page for Neutrino LC and SX8 (HOT MWIR SWaP-C series) \u2014 needed to confirm resolution, FPA specs, and NDAA claim at product level",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "readiness"
+      ],
+      "source_hint": "crawl_index line 14579, status likely skipped",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://oem.flir.com/it-it/products/neutrino-performance-series",
+      "reason": "Product page for Neutrino QX and SX12 (high-resolution MWIR performance series) \u2014 needed to confirm resolution, FPA specs, and NDAA claim at product level",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "readiness"
+      ],
+      "source_hint": "crawl_index line 14565, status likely skipped",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://oem.flir.com/it-it/products/boson-plus",
+      "reason": "Boson+ product page \u2014 needed to confirm full SKU list, readiness, and NDAA claim at product level in English",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "readiness"
+      ],
+      "source_hint": "crawl_index line 13652, status likely skipped",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://oem.flir.com/it-it/products/prism-ai",
+      "reason": "Prism AI product page \u2014 only nav labels available in corpus; need product descriptor, compatibility, and any NDAA/compliance claims",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "readiness"
+      ],
+      "source_hint": "crawl_index line 14593, status likely skipped",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://oem.flir.com/fr-ca/products/prism-c-uas",
+      "reason": "Prism C-UAS product page \u2014 only a news headline available in corpus; need full product description and capability claims",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index line 11983, status likely skipped",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://oem.flir.com/fr-ca/products/prism-skr",
+      "reason": "Prism SKR product page \u2014 only nav label and news headline in corpus; need product specs and capabilities",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index line 12011, status likely skipped",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://oem.flir.com/fr-ca/products/prism-isp",
+      "reason": "Prism ISP product page \u2014 only nav label available; need product description and integration details",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index line 11997, status likely skipped",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://oem.flir.com/it-it/products/neutrino-integrated-solution",
+      "reason": "Neutrino IS product page \u2014 need full model variants, specs, and any NDAA product-level claim",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "readiness"
+      ],
+      "source_hint": "crawl_index line 14537, status likely skipped",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 0,
+    "total_cost_usd": null,
+    "created_at": "2026-05-05T15:33:59+00:00",
+    "extract_version": "0.1.0"
+  }
+}

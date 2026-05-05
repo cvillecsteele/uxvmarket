@@ -1,0 +1,355 @@
+{
+  "target_id": "leonardo-drs",
+  "run_id": "canonical",
+  "display_name": "Leonardo DRS",
+  "homepage_url": "https://www.leonardodrs.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/leonardo-drs/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "isr_payloads",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 78,
+            "line_end": 78,
+            "url": "https://www.leonardodrs.com",
+            "page_class": "homepage",
+            "snippet": "Market leader in EO/IR"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0097",
+            "line_start": 69,
+            "line_end": 69,
+            "url": "https://www.leonardodrs.com/what-we-do/our-solutions/advanced-sensing",
+            "page_class": "capability",
+            "snippet": "#### These cutting-edge sensing systems provide targeting, surveillance, and protection capabilities based on our advanced electro-optical, infrared, electronic warfare, and tactical radar systems. Across the services they are used on a range of platforms through all domains, including space."
+          }
+        ],
+        "notes": "Self-described 'Market leader in EO/IR'; EO/IR sensors for ground vehicles, aircraft, soldiers; targeting and surveillance systems."
+      },
+      {
+        "category": "electronic_warfare",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0063",
+            "line_start": 134,
+            "line_end": 134,
+            "url": "https://www.leonardodrs.com/locations",
+            "page_class": "contact",
+            "snippet": "DRS RADA Technologies is a global pioneer of mini-tactical radars for active military protection, counter-drone applications, critical infrastructure protection, and border surveillance."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 59,
+            "line_end": 59,
+            "url": "https://www.leonardodrs.com",
+            "page_class": "homepage",
+            "snippet": "[Leonardo DRS Launches New Maritime Counter-UAS Capability to Defeat Aerial Unmanned Threats at Sea](https://www.leonardodrs.com/news/press-releases/leonardo-drs-launches-new-maritime-counter-uas-capability-to-defeat-aerial-unmanned-threats-at-sea/)"
+          }
+        ],
+        "notes": "DRS RADA Technologies segment is a global pioneer of mini-tactical radars for counter-drone applications; Maritime Counter-UAS capability launched."
+      },
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0111",
+            "line_start": 111,
+            "line_end": 112,
+            "url": "https://www.leonardodrs.com/what-we-do/products-and-services",
+            "page_class": "product",
+            "snippet": "### [Assured Positioning, Navigation, and Timing (A-PNT)](https://www.leonardodrs.com/what-we-do/products-and-services/a-pnt/ \"Assured Positioning, Navigation, and Timing (A-PNT)\")\nResilient positioning and timing solutions when GPS is degraded or denied."
+          }
+        ],
+        "notes": "A-PNT (Assured Positioning, Navigation, and Timing) for GPS-denied environments; tactical expeditionary radars."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "155 pages skipped; specific IR sensor and counter-UAS product pages not fetched. Category list based on the 8 fetched pages."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Arlington",
+      "state_or_province": "Virginia",
+      "country": "United States",
+      "address": "2345 Crystal Drive, Suite 1000"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0063",
+        "line_start": 68,
+        "line_end": 71,
+        "url": "https://www.leonardodrs.com/locations",
+        "page_class": "contact",
+        "snippet": "**To reach our headquarters:**\n2345 Crystal Drive\nSuite 1000\nArlington, Virginia 22202"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0063",
+        "line_start": 113,
+        "line_end": 114,
+        "url": "https://www.leonardodrs.com/locations",
+        "page_class": "contact",
+        "snippet": "2345 Crystal Drive, Suite 1000\nArlington, VA 22202"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 71,
+        "line_end": 71,
+        "url": "https://www.leonardodrs.com",
+        "page_class": "homepage",
+        "snippet": "As an innovative and agile defense technology company, we are uniquely positioned to deliver solutions as a prime contractor, a systems, sub-system, or a component level provider. With a dedicated and talented workforce, our platform-agnostic technologies are fielded on thousands of military platforms worldwide."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0097",
+        "line_start": 70,
+        "line_end": 70,
+        "url": "https://www.leonardodrs.com/what-we-do/our-solutions/advanced-sensing",
+        "page_class": "capability",
+        "snippet": "Today, our technologies keep our forces leaps ahead in capability over adversaries. We are a leading provider of electro-optical and infrared sensors for ground combat vehicles, soldier-based sensing capabilities including weapon sites and targeting systems, aircraft and vehicle protection systems, and tactical radar systems."
+      }
+    ],
+    "notes": "Supplies EO/IR sensors, targeting systems, tactical radars, and counter-UAS subsystems for military platforms. Explicitly positions as prime contractor, systems, sub-system, or component level provider."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Arrowhead\u00ae Modernized TADS/PNVS Receiver for the Apache",
+        "product_type": "EO/IR targeting and sensing system for aircraft",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0111",
+            "line_start": 103,
+            "line_end": 104,
+            "url": "https://www.leonardodrs.com/what-we-do/products-and-services",
+            "page_class": "product",
+            "snippet": "### [Arrowhead\u00ae Modernized TADS/PNVS Receiver for the Apache](https://www.leonardodrs.com/what-we-do/products-and-services/arrowhead-modernized-tadspnvs-receiver-for-the-apache/ \"Arrowhead\u00ae Modernized TADS/PNVS Receiver for the Apache\")\nEnhances sensor reception and imagery quality for improved targeting and awareness."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Advanced / Enhanced Compact Hemispheric Radar (aCHR / eCHR)",
+        "product_type": "compact radar for wide-area detection",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0111",
+            "line_start": 87,
+            "line_end": 88,
+            "url": "https://www.leonardodrs.com/what-we-do/products-and-services",
+            "page_class": "product",
+            "snippet": "### [Advanced / Enhanced Compact Hemispheric Radar (aCHR / eCHR)](https://www.leonardodrs.com/what-we-do/products-and-services/advanced-enhanced-compact-hemispheric-radar/ \"Advanced / Enhanced Compact Hemispheric Radar (aCHR / eCHR)\")\nCompact radar delivering wide-area situational awareness and detection"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "BlackLab Sensor",
+        "product_type": "high-sensitivity covert surveillance sensor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0111",
+            "line_start": 115,
+            "line_end": 116,
+            "url": "https://www.leonardodrs.com/what-we-do/products-and-services",
+            "page_class": "product",
+            "snippet": "### [BlackLab Sensor](https://www.leonardodrs.com/what-we-do/products-and-services/blacklab-3/ \"BlackLab Sensor\")\nHigh-sensitivity sensing for covert surveillance and environmental detection."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Assured Positioning, Navigation, and Timing (A-PNT)",
+        "product_type": "GPS-denied navigation and timing system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0111",
+            "line_start": 111,
+            "line_end": 112,
+            "url": "https://www.leonardodrs.com/what-we-do/products-and-services",
+            "page_class": "product",
+            "snippet": "### [Assured Positioning, Navigation, and Timing (A-PNT)](https://www.leonardodrs.com/what-we-do/products-and-services/a-pnt/ \"Assured Positioning, Navigation, and Timing (A-PNT)\")\nResilient positioning and timing solutions when GPS is degraded or denied."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Abrams Driver's Vision Enhancer (DVE-A)",
+        "product_type": "thermal/IR vision system for ground vehicles",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0111",
+            "line_start": 79,
+            "line_end": 80,
+            "url": "https://www.leonardodrs.com/what-we-do/products-and-services",
+            "page_class": "product",
+            "snippet": "### [Abrams Driver\u2019s Vision Enhancer (DVE-A)](https://www.leonardodrs.com/what-we-do/products-and-services/abrams-driver-s-vision-enhancer-dve-a/ \"Abrams Driver\u2019s Vision Enhancer (DVE-A)\")\nImproves battlefield visibility for safer maneuvering in low light and obscured conditions."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Artificial Intelligence Processor (AIP)",
+        "product_type": "on-platform edge AI inference accelerator",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0111",
+            "line_start": 107,
+            "line_end": 108,
+            "url": "https://www.leonardodrs.com/what-we-do/products-and-services",
+            "page_class": "product",
+            "snippet": "### [Artificial Intelligence Processor (AIP)](https://www.leonardodrs.com/what-we-do/products-and-services/artificial-intelligence-processor-aip/ \"Artificial Intelligence Processor (AIP)\")\nOn-platform AI acceleration for real-time machine learning and edge inference."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ACMI Pods & Subsystems",
+        "product_type": "airborne recording and training instrumentation pods",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0111",
+            "line_start": 83,
+            "line_end": 84,
+            "url": "https://www.leonardodrs.com/what-we-do/products-and-services",
+            "page_class": "product",
+            "snippet": "### [ACMI Pods & Subsystems](https://www.leonardodrs.com/what-we-do/products-and-services/acmi-pods-subsystems/ \"ACMI Pods & Subsystems\")\nAirborne recording and training solutions for mission debrief and instrumentation."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Only a subset of the full product catalog was fetched. Key UXV-relevant products visible in corpus listed here; many more product pages were skipped."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA claim in corpus. The one compliance page discovered (cyber-security-requirements) was skipped and addresses cybersecurity, not NDAA Section 848/889."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS / Blue sUAS claim found anywhere in the 8 fetched pages."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 71,
+        "line_end": 71,
+        "url": "https://www.leonardodrs.com",
+        "page_class": "homepage",
+        "snippet": "As an innovative and agile defense technology company, we are uniquely positioned to deliver solutions as a prime contractor, a systems, sub-system, or a component level provider. With a dedicated and talented workforce, our platform-agnostic technologies are fielded on thousands of military platforms worldwide."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 74,
+        "line_end": 75,
+        "url": "https://www.leonardodrs.com",
+        "page_class": "homepage",
+        "snippet": "#### $3.6 Billion\nRevenue"
+      }
+    ],
+    "notes": "$3.6B revenue, $8.7B backlog; technologies fielded on thousands of military platforms worldwide."
+  },
+  "unresolved_questions": [
+    "Specific IR sensor product names and specs for UAS applications (infrared-sensors page skipped)",
+    "DRS RADA Technologies specific counter-drone radar model names (segment page skipped)",
+    "Counter-UAS Maritime Mission Equipment Package product details (press releases skipped)",
+    "NDAA Section 848/889 compliance status not disclosed on site"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.leonardodrs.com/what-we-do/our-solutions/advanced-sensing/infrared-sensors",
+      "reason": "Would list specific IR sensor product names/specs used in UXV platforms, clarifying which products are drone-relevant subsystems",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=capability",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.leonardodrs.com/who-we-are/our-segments/drs-rada-technologies",
+      "reason": "DRS RADA Technologies is described as a counter-drone radar pioneer; this page would name specific radar products for counter-UAS and confirm UXV relevance",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.leonardodrs.com/news/press-releases/leonardo-drs-launches-new-maritime-counter-uas-capability-to-defeat-aerial-unmanned-threats-at-sea",
+      "reason": "Would identify specific Counter-UAS product name and capabilities, confirming electronic_warfare category and product details",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped (news/press-release class)",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "ISR payloads, sensors, and navigation subsystems supplier\u2014notably Apache targeting receivers (Arrowhead\u00ae), compact hemispheric radar (aCHR/eCHR), edge AI processors, and GPS-denied positioning (A-PNT). Production-ready across manned and unmanned platforms. NDAA compliance status and Blue UAS certification status unknown; public evidence on unmanned-systems integration remains limited despite broad sensor portfolio.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 18,
+    "total_cost_usd": 0.6588156500000001,
+    "created_at": "2026-05-05T15:28:04+00:00",
+    "extract_version": "0.1.0"
+  }
+}

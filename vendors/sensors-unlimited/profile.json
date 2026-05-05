@@ -1,0 +1,326 @@
+{
+  "target_id": "sensors-unlimited",
+  "run_id": "canonical",
+  "display_name": "Sensors Unlimited",
+  "homepage_url": "https://www.sensorsinc.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/sensors-unlimited/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "isr_payloads",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0070",
+            "line_start": 131,
+            "line_end": 131,
+            "url": "https://www.sensorsinc.com/company/about",
+            "page_class": "company",
+            "snippet": "Originally founded in 1991 as an advanced research and development company, Sensors Unlimited, Inc. quickly grew to become a major supplier of InGaAs technology, products, and shortwave IR imaging solutions."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 144,
+            "line_end": 145,
+            "url": "https://www.sensorsinc.com",
+            "page_class": "homepage",
+            "snippet": "--------------------------\nSensors Unlimited offers a complete line of products for image sensing in the short wave infrared (SWIR) portion of the light spectrum, producing arrays and cameras that enable users to \"see beyond\" what the naked eye can detect."
+          }
+        ],
+        "notes": "SWIR InGaAs cameras and focal plane arrays explicitly marketed for ISR, night vision, covert surveillance, and unmanned vehicle payloads."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "All products are SWIR/InGaAs imaging sensors and cameras. Company page explicitly mentions 'ground and air unmanned vehicle (UV) payloads' as a current deployment."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Princeton",
+      "state_or_province": "New Jersey",
+      "country": "United States",
+      "address": "330 Carter Road, Suite 100, Princeton, NJ 08540"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0070",
+        "line_start": 141,
+        "line_end": 143,
+        "url": "https://www.sensorsinc.com/company/about",
+        "page_class": "company",
+        "snippet": "Sensors Unlimited, Inc.\n330 Carter Road, Suite 100\nPrinceton, NJ 08540"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 144,
+        "line_end": 145,
+        "url": "https://www.sensorsinc.com",
+        "page_class": "homepage",
+        "snippet": "--------------------------\nSensors Unlimited offers a complete line of products for image sensing in the short wave infrared (SWIR) portion of the light spectrum, producing arrays and cameras that enable users to \"see beyond\" what the naked eye can detect."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0070",
+        "line_start": 131,
+        "line_end": 131,
+        "url": "https://www.sensorsinc.com/company/about",
+        "page_class": "company",
+        "snippet": "Originally founded in 1991 as an advanced research and development company, Sensors Unlimited, Inc. quickly grew to become a major supplier of InGaAs technology, products, and shortwave IR imaging solutions."
+      }
+    ],
+    "notes": "Sells SWIR InGaAs camera modules and focal plane arrays that OEMs integrate into drone ISR payloads, gimbal assemblies, and other platforms. Now a Raytheon (RTX) business unit."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "1280JSX HD Camera",
+        "product_type": "2D SWIR InGaAs area camera",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0076",
+            "line_start": 133,
+            "line_end": 134,
+            "url": "https://www.sensorsinc.com/products/area-cameras",
+            "page_class": "product",
+            "snippet": "1280JSX HD Camera\nThe compact Sensors Unlimited 1280JSX is our next-generation SWIR digital video camera featuring a 1.3MP high-resolution, high-sensitivity InGaAs imager."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "640CSX VGA Camera",
+        "product_type": "2D SWIR InGaAs area camera (Micro-SWIR)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0076",
+            "line_start": 139,
+            "line_end": 140,
+            "url": "https://www.sensorsinc.com/products/area-cameras",
+            "page_class": "product",
+            "snippet": "640CSX VGA Camera\nThe compact Sensors Unlimited Micro-SWIR\u2122 640CSX is the next-generation SWIR video camera, designed for applications requiring small size, weight and power (SWaP), and available without ITAR restrictions."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "320CSX QVGA Camera",
+        "product_type": "2D SWIR InGaAs area camera",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0076",
+            "line_start": 145,
+            "line_end": 147,
+            "url": "https://www.sensorsinc.com/products/area-cameras",
+            "page_class": "product",
+            "snippet": "320CSX QVGA Camera\nThe compact 320CSX represents the next generation of SWIR video cameras, designed specifically for applications that require small size, weight, and power (SWaP).\n](/products/detail/micro-320csx-swir-camera)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "640CSX+MMT ALPD Camera",
+        "product_type": "2D SWIR camera core with ALPD and multi-mode tracking",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0076",
+            "line_start": 151,
+            "line_end": 153,
+            "url": "https://www.sensorsinc.com/products/area-cameras",
+            "page_class": "product",
+            "snippet": "640CSX+MMT ALPD Camera\nThe Sensors Unlimited Micro-SWIR\u2122 640CSX+MMT SWIR camera core with high-resolution video for laser tracking and decoding of multiple asynchronous sources simultaneously.\n](/products/detail/microswir-640csx-mmt-multi-mode-tracking)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SPS",
+        "product_type": "SWIR Pocket Scope (handheld)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 29,
+            "line_end": 29,
+            "url": "https://www.sensorsinc.com",
+            "page_class": "homepage",
+            "snippet": "    *   [SPS](/products/detail/sps-swir-pocket-scope)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SPS+MMT",
+        "product_type": "SWIR Pocket Scope with Multi Mode Tracker",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 30,
+            "line_end": 30,
+            "url": "https://www.sensorsinc.com",
+            "page_class": "homepage",
+            "snippet": "    *   [SPS+MMT](/products/detail/spsmmt-swir-pocket-scopemulti-mode-tracker)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "LC / LSC Series",
+        "product_type": "1D SWIR linear InGaAs photodiode arrays",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 15,
+            "line_end": 15,
+            "url": "https://www.sensorsinc.com",
+            "page_class": "homepage",
+            "snippet": "    *   [LC / LSC Series](/products/detail/lc-series)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "LE / LSE Series",
+        "product_type": "1D SWIR linear InGaAs photodiode arrays",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 16,
+            "line_end": 16,
+            "url": "https://www.sensorsinc.com",
+            "page_class": "homepage",
+            "snippet": "    *   [LE / LSE Series](/products/detail/le-series)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "GL2048 Linescan Camera",
+        "product_type": "2048-element 1D SWIR InGaAs linescan camera",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 18,
+            "line_end": 18,
+            "url": "https://www.sensorsinc.com",
+            "page_class": "homepage",
+            "snippet": "    *   [2048L Linescan Camera](/products/detail/gl2048-ingaas-linescan-camera)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Additional products coming soon: 1280JSX+MMT, 1280JSX HD 10\u00b5m, eSWIR 640CSX+MMT, 640HSX2, 640CSXCC+MMT."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "medium",
+    "status": "not_disclosed",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0076",
+        "line_start": 156,
+        "line_end": 156,
+        "url": "https://www.sensorsinc.com/products/area-cameras",
+        "page_class": "product",
+        "snippet": "*   [2D SWIR](/2d \"2D SWIR\")"
+      }
+    ],
+    "notes": "Site claims 'non-ITAR' for the 320CSX but makes no explicit NDAA Sec 848/889 compliance claim. Company is a Raytheon (RTX) subsidiary and part of the Trusted Foundry Program."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 177,
+        "line_end": 177,
+        "url": "https://www.sensorsinc.com",
+        "page_class": "homepage",
+        "snippet": "Sensors Unlimited is now accepting RFQs for a minimum-order-quantity (MOQ) of 10 units for the products listed below."
+      }
+    ],
+    "notes": "Core product lines in production; newer variants accepting RFQs with stated MOQ, indicating production ramp for those SKUs."
+  },
+  "unresolved_questions": [
+    "NDAA 848/889 explicit compliance not disclosed on site",
+    "Blue UAS listing status unknown"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.sensorsinc.com/applications/military/swir-for-isr",
+      "reason": "Would confirm explicit drone/UAV ISR payload role and yield additional citations for products_categories and drone_supply_chain_role",
+      "expected_evidence": [
+        "products_categories",
+        "drone_supply_chain_role",
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=capability",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.sensorsinc.com/products/detail/microswir-640csx-mmt-multi-mode-tracking",
+      "reason": "640CSX+MMT product detail page would confirm drone/UAS payload use case and production readiness for this key ISR camera core",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=product",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "RTX-owned InGaAs SWIR camera and linescan sensor manufacturer with production 2D systems (1280JSX, 640CSX, 320CSX) and 1D linescan products. Several next-generation variants (extended-SWIR, integrated tracking, color-fusion) in low-rate production. NDAA and Blue UAS certification status unknown; public evidence on defense program integration is limited.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 14,
+    "total_cost_usd": 0.52355325,
+    "created_at": "2026-05-05T15:27:57+00:00",
+    "extract_version": "0.1.0"
+  }
+}

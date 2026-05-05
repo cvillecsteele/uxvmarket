@@ -1,0 +1,510 @@
+{
+  "target_id": "sierra-olympic-technologies",
+  "run_id": "canonical",
+  "display_name": "Sierra-Olympic Technologies",
+  "homepage_url": "https://sierraolympic.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/sierra-olympic-technologies/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "isr_payloads",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 34,
+            "line_end": 35,
+            "url": "https://sierraolympia.com/",
+            "page_class": "homepage",
+            "snippet": "Sierra-Olympia engineers advanced infrared imaging systems for OEMs and integrators.\nFrom precision camera cores to complete optical assemblies, we build performance and reliability into every design."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 96,
+            "line_end": 96,
+            "url": "https://sierraolympia.com/",
+            "page_class": "homepage",
+            "snippet": "Infrared is revolutionizing multiple industries. We integrate infrared optics into airborne systems that preform automated tasks and remote sensing. Our cameras have [detected gas leaks from 1,000 ft](/successful-test-visualizes-gas-leaks-from-1000-ft-agl/). Our long range systems are perfect for surveillance over expansive areas. Enhance operational efficiency, safety, and raise the standard your capabilities."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0097",
+            "line_start": 93,
+            "line_end": 94,
+            "url": "https://sierraolympia.com/turnkey-solutions",
+            "page_class": "capability",
+            "snippet": "    ---------------------------------------------------------\n    [Read The Full ArticleThermal Imaging Performance For Unmanned Airborne Systems](https://sierraolympia.com/thermal-imaging-performance-for-unmanned-airborne-systems/)"
+          }
+        ],
+        "notes": "EO/IR camera cores and modules (LWIR, MWIR, SWIR) marketed explicitly to OEMs and integrators for airborne/UAS platforms"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Hood River",
+      "state_or_province": "Oregon",
+      "country": "United States",
+      "address": "603 Portway Ave., Suite 100, Hood River, Or. 97031"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 279,
+        "line_end": 279,
+        "url": "https://sierraolympia.com/",
+        "page_class": "homepage",
+        "snippet": "[603 Portway Ave., Suite 100, Hood River, Or. 97031](https://www.google.com/maps/place/Sierra-Olympia+Technologies,+Inc./@45.7146225,-121.516853,15z/data=!4m5!3m4!1s0x0:0x1f290fb46049bf5d!8m2!3d45.7146225!4d-121.516853)"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 34,
+        "line_end": 35,
+        "url": "https://sierraolympia.com/",
+        "page_class": "homepage",
+        "snippet": "Sierra-Olympia engineers advanced infrared imaging systems for OEMs and integrators.\nFrom precision camera cores to complete optical assemblies, we build performance and reliability into every design."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0009",
+        "line_start": 77,
+        "line_end": 77,
+        "url": "https://sierraolympia.com/company",
+        "page_class": "company",
+        "snippet": "Sierra-Olympia continues to support leading technologies in uncooled microbolometer FPAs, and build extensive experience in infrared optics development, integration and sensor-processor interfaces. We will continue to support custom solutions for OEM Integration and deliver products and services that exceed customer expectations."
+      }
+    ],
+    "notes": "Makes infrared camera cores and optical assemblies sold to OEMs and integrators; cameras integrate into UAS and other airborne platforms"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Vayu HD",
+        "product_type": "LWIR camera module, 1920x1200",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0065",
+            "line_start": 34,
+            "line_end": 37,
+            "url": "https://sierraolympia.com/products",
+            "page_class": "product",
+            "snippet": "*   [Vayu HD\n    -------\n    ![Vayu HD](https://sierraolympia.com/wp-content/uploads/2022/06/VayuHD_Front-Right_2025-150x150.png)](https://sierraolympia.com/product/vayu-hd/) 1920 x 1200 Products\n    LWIR Products[Read more](https://sierraolympia.com/product/vayu-hd/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Vinden 75T",
+        "product_type": "LWIR camera module, 640x512",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0065",
+            "line_start": 38,
+            "line_end": 41,
+            "url": "https://sierraolympia.com/products",
+            "page_class": "product",
+            "snippet": "*   [Vinden 75T\n    ----------\n    ![Vinden 75T](https://sierraolympia.com/wp-content/uploads/2024/08/75T_right-profile-1-150x150.png)](https://sierraolympia.com/product/vinden-75t/) 640 x 512 Products\n    LWIR Products[Read more](https://sierraolympia.com/product/vinden-75t/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Viento HD10",
+        "product_type": "LWIR camera module, 1280x1024",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0065",
+            "line_start": 42,
+            "line_end": 45,
+            "url": "https://sierraolympia.com/products",
+            "page_class": "product",
+            "snippet": "*   [Viento HD10\n    -----------\n    ![Viento HD10](https://sierraolympia.com/wp-content/uploads/2024/06/viento10HD_face-right-150x150.png)](https://sierraolympia.com/product/viento-hd10/) 1280 x 1024 Products\n    LWIR Products[Read more](https://sierraolympia.com/product/viento-hd10/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Viento 10",
+        "product_type": "LWIR camera module, 640x512",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0065",
+            "line_start": 46,
+            "line_end": 49,
+            "url": "https://sierraolympia.com/products",
+            "page_class": "product",
+            "snippet": "*   [Viento 10\n    ---------\n    ![Viento 10](https://sierraolympia.com/wp-content/uploads/2022/06/viento-10_front-150x150.png)](https://sierraolympia.com/product/viento-10/) 640 x 512 Products\n    LWIR Products[Read more](https://sierraolympia.com/product/viento-10/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Vayu HD-Industrial",
+        "product_type": "LWIR camera module, 1920x1200",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0065",
+            "line_start": 50,
+            "line_end": 53,
+            "url": "https://sierraolympia.com/products",
+            "page_class": "product",
+            "snippet": "*   [Vayu HD-Industrial\n    ------------------\n    ![Vayu HD-Industrial](https://sierraolympia.com/wp-content/uploads/2023/03/VayuHD_I_RightFacing_v2-150x150.png)](https://sierraolympia.com/product/vayu-hd-industrial/) 1920 x 1200 Products\n    LWIR Products[Read more](https://sierraolympia.com/product/vayu-hd-industrial/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Ventus HD6-0.6",
+        "product_type": "MWIR camera module, 1280x960",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0065",
+            "line_start": 54,
+            "line_end": 57,
+            "url": "https://sierraolympia.com/products",
+            "page_class": "product",
+            "snippet": "*   [Ventus HD6-0.6\n    --------------\n    ![Ventus HD6-0.6](https://sierraolympia.com/wp-content/uploads/2023/07/hd6-06_phase4-150x150.png)](https://sierraolympia.com/product/ventus-hd6-0-6/) 1280 x 960 Products\n    MWIR Products[Read more](https://sierraolympia.com/product/ventus-hd6-0-6/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Ventus HD6-2.4",
+        "product_type": "MWIR camera module, 1280x960",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0065",
+            "line_start": 58,
+            "line_end": 61,
+            "url": "https://sierraolympia.com/products",
+            "page_class": "product",
+            "snippet": "*   [Ventus HD6-2.4\n    --------------\n    ![Ventus HD6-2.4](https://sierraolympia.com/wp-content/uploads/Right-front-Angle-150x150.png)](https://sierraolympia.com/product/ventus-hd6-2-4/) 1280 x 960 Products\n    MWIR Products[Read more](https://sierraolympia.com/product/ventus-hd6-2-4/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Ventus HD6-FIXED",
+        "product_type": "MWIR camera module, 1280x960",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0065",
+            "line_start": 62,
+            "line_end": 65,
+            "url": "https://sierraolympia.com/products",
+            "page_class": "product",
+            "snippet": "*   [Ventus HD6-FIXED\n    ----------------\n    ![Ventus HD6-FIXED](https://sierraolympia.com/wp-content/uploads/2023/08/Front-Right_2025-150x150.png)](https://sierraolympia.com/product/ventus-hd6-fixed/) 1280 x 960 Products\n    MWIR Products[Read more](https://sierraolympia.com/product/ventus-hd6-fixed/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Ventus Hot 300, 690, 900",
+        "product_type": "MWIR camera modules, 640x512",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0065",
+            "line_start": 66,
+            "line_end": 69,
+            "url": "https://sierraolympia.com/products",
+            "page_class": "product",
+            "snippet": "*   [Ventus Hot 300, 690, 900\n    ------------------------\n    ![Ventus Hot 300, 690, 900](https://sierraolympia.com/wp-content/uploads/2022/09/Ventus-HOT-690-300-2025-150x150.png)](https://sierraolympia.com/product/ventus-hot-300-690-900/) 640 x 512 Products\n    MWIR Products[Read more](https://sierraolympia.com/product/ventus-hot-300-690-900/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Ventus OGI",
+        "product_type": "MWIR optical gas imaging camera, 640x512",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0065",
+            "line_start": 70,
+            "line_end": 73,
+            "url": "https://sierraolympia.com/products",
+            "page_class": "product",
+            "snippet": "*   [Ventus OGI\u2122\n    -----------\n    ![Ventus OGI\u2122](https://sierraolympia.com/wp-content/uploads/ventus-OGI-150x150.png)](https://sierraolympia.com/product/ventus-ogi/) 640 x 512 Products\n    MWIR Products[Read more](https://sierraolympia.com/product/ventus-ogi/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Ventus Compact mk2",
+        "product_type": "MWIR camera module, 640x512",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0065",
+            "line_start": 74,
+            "line_end": 77,
+            "url": "https://sierraolympia.com/products",
+            "page_class": "product",
+            "snippet": "*   [Ventus Compact mk2\n    ------------------\n    ![Ventus Compact mk2](https://sierraolympia.com/wp-content/uploads/VentusCompactMK2_RightFacing-1-150x150.png)](https://sierraolympia.com/product/ventus-compact-mk2/) 640 x 512 Products\n    MWIR Products[Read more](https://sierraolympia.com/product/ventus-compact-mk2/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Ventus Micro 225",
+        "product_type": "MWIR camera module, 640x512",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0065",
+            "line_start": 78,
+            "line_end": 81,
+            "url": "https://sierraolympia.com/products",
+            "page_class": "product",
+            "snippet": "*   [Ventus Micro 225\n    ----------------\n    ![Ventus Micro 225](https://sierraolympia.com/wp-content/uploads/2026/01/26_001_VentusMicro-225-150x150.png)](https://sierraolympia.com/product/ventus-micro-225/) 640 x 512 Products\n    MWIR Products[Read more](https://sierraolympia.com/product/ventus-micro-225/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Viento LWIR OGI",
+        "product_type": "LWIR optical gas imaging camera, 640x480",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0065",
+            "line_start": 82,
+            "line_end": 85,
+            "url": "https://sierraolympia.com/products",
+            "page_class": "product",
+            "snippet": "*   [Viento LWIR OGI\n    ---------------\n    ![Viento LWIR OGI](https://sierraolympia.com/wp-content/uploads/2025/03/Front-Right_CameraCore-150x150.png)](https://sierraolympia.com/product/viento-lwir-ogi/) 640 x 480 Products\n    LWIR Products[Read more](https://sierraolympia.com/product/viento-lwir-ogi/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Tenum 1280",
+        "product_type": "LWIR camera module, 1280x1024",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0065",
+            "line_start": 86,
+            "line_end": 89,
+            "url": "https://sierraolympia.com/products",
+            "page_class": "product",
+            "snippet": "*   [Tenum 1280\n    ----------\n    ![Tenum 1280](https://sierraolympia.com/wp-content/uploads/2023/06/Tenum1280_RightFront-150x150.png)](https://sierraolympia.com/product/tenum-1280/) 1280 x 1024 Products\n    LWIR Products[Read more](https://sierraolympia.com/product/tenum-1280/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Tenum 640",
+        "product_type": "LWIR camera module, 640x512",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0065",
+            "line_start": 90,
+            "line_end": 93,
+            "url": "https://sierraolympia.com/products",
+            "page_class": "product",
+            "snippet": "*   [Tenum 640\n    ---------\n    ![Tenum 640](https://sierraolympia.com/wp-content/uploads/2022/06/Tenum-640-LWIR-camera-core-2-1-150x150.png)](https://sierraolympia.com/product/tenum-640/) 640 x 512 Products\n    LWIR Products[Read more](https://sierraolympia.com/product/tenum-640/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Vinden LRB Series",
+        "product_type": "LWIR long-range camera, 640x512",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0065",
+            "line_start": 94,
+            "line_end": 97,
+            "url": "https://sierraolympia.com/products",
+            "page_class": "product",
+            "snippet": "*   [Vinden LRB Series\n    -----------------\n    ![Vinden LRB Series](https://sierraolympia.com/wp-content/uploads/2022/09/300_LRB_LWIR_web_sm1-150x150.png)](https://sierraolympia.com/product/vinden-lrb-series/) 640 x 512 Products\n    LWIR Products[Read more](https://sierraolympia.com/product/vinden-lrb-series/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "EVIDIR",
+        "product_type": "LWIR camera module, 640x480",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0065",
+            "line_start": 98,
+            "line_end": 101,
+            "url": "https://sierraolympia.com/products",
+            "page_class": "product",
+            "snippet": "*   [EVIDIR\u00ae\n    -------\n    ![EVIDIR\u00ae](https://sierraolympia.com/wp-content/uploads/Evidir_Isometeric-150x150.png)](https://sierraolympia.com/product/evidir/) 640 x 480 Products\n    LWIR Products[Read more](https://sierraolympia.com/product/evidir/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HEXABLU",
+        "product_type": "MWIR camera module, 1280x960",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0065",
+            "line_start": 102,
+            "line_end": 105,
+            "url": "https://sierraolympia.com/products",
+            "page_class": "product",
+            "snippet": "*   [HEXABLU\u00ae\n    --------\n    ![HEXABLU\u00ae](https://sierraolympia.com/wp-content/uploads/2022/09/HexaBlu_9-150x150.webp)](https://sierraolympia.com/product/hexablu/) 1280 x 960 Products\n    MWIR Products[Read more](https://sierraolympia.com/product/hexablu/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Widysens",
+        "product_type": "SWIR camera module, 640x512",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0065",
+            "line_start": 106,
+            "line_end": 109,
+            "url": "https://sierraolympia.com/products",
+            "page_class": "product",
+            "snippet": "*   [Widysens\n    --------\n    ![Widysens](https://sierraolympia.com/wp-content/uploads/2022/09/WiDy-SenS-sm500x-150x150.jpg)](https://sierraolympia.com/product/widysens/) 640 x 512 Products\n    SWIR Products[Read more](https://sierraolympia.com/product/widysens/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SenS 1280",
+        "product_type": "SWIR camera module, 1280x1024",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0065",
+            "line_start": 110,
+            "line_end": 113,
+            "url": "https://sierraolympia.com/products",
+            "page_class": "product",
+            "snippet": "*   [SenS 1280\n    ---------\n    ![SenS 1280](https://sierraolympia.com/wp-content/uploads/2022/03/sens1280-featured.png)](https://sierraolympia.com/product/sens-1280/) 1280 x 1024 Products\n    SWIR Products[Read more](https://sierraolympia.com/product/sens-1280/)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Products page lists all 20 catalog SKUs"
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0065",
+        "line_start": 33,
+        "line_end": 33,
+        "url": "https://sierraolympia.com/products",
+        "page_class": "product",
+        "snippet": "Showing all 20 results"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 285,
+        "line_end": 287,
+        "url": "https://sierraolympia.com/",
+        "page_class": "homepage",
+        "snippet": "[![ISO Logo](/wp-content/themes/SOTI/assets/images/iso-logo.png)\nISO 9001:2015\n](https://sierraolympia.com/iso-certified/)"
+      }
+    ],
+    "notes": "20 named catalog SKUs actively listed; ISO 9001:2015 certified manufacturer"
+  },
+  "unresolved_questions": [
+    "No NDAA or Blue UAS compliance claims found anywhere in corpus",
+    "Airborne cameras solution page not fetched \u2014 would detail UAS-specific product positioning"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://sierraolympia.com/airborne-cameras/",
+      "reason": "Airborne cameras solution page would confirm specific UAS/drone product positioning and may list NDAA or compliance claims",
+      "expected_evidence": [
+        "products_categories",
+        "products",
+        "ndaa"
+      ],
+      "source_hint": "guessed from site nav",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "complete",
+  "tagline": "Produces thermal camera cores across LWIR, MWIR, and SWIR wavelengths for UAS and airborne ISR payloads. Portfolio spans 15+ models from compact 640\u00d7512 to 1920\u00d71200 resolution, in cooled and uncooled variants with multiple interface options. ISO 9001 certified, production-ready. NDAA and Blue UAS certification status unknown; public evidence of defense/allied programs absent.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 15,
+    "total_cost_usd": 0.49851715,
+    "created_at": "2026-05-05T15:27:15+00:00",
+    "extract_version": "0.1.0"
+  }
+}
