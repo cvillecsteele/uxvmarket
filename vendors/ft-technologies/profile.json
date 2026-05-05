@@ -1,0 +1,194 @@
+{
+  "target_id": "ft-technologies",
+  "run_id": "canonical",
+  "display_name": "FT Technologies",
+  "homepage_url": "https://fttechnologies.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/ft-technologies/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 135,
+            "line_end": 135,
+            "url": "https://fttechnologies.com",
+            "page_class": "homepage",
+            "snippet": "With industry-leading quality control measures in place, FT technologies manufactures professional-grade wind sensors that are chosen for a range of demanding applications. Whether you want to upgrade your wind turbines, gain weather warnings for critical infrastructure or get accurate wind data for your autopilot, FT wind sensors ensure you receive reliable data 24 hours a day, 365 days a year."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0015",
+            "line_start": 92,
+            "line_end": 92,
+            "url": "https://fttechnologies.com/company/about-us",
+            "page_class": "company",
+            "snippet": "Today, FT\u2019s innovations continue to lead the industry. The 752 series measuring wind speeds of up to 90 m/s, and designed for industrial markets or professional use, including wind turbine control, commercial marine, performance sailing, drones and many other critical safety and control applications."
+          }
+        ],
+        "notes": "Ultrasonic wind sensors (anemometers) used in drone navigation/autopilot systems, among many other industrial applications"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Sunbury-on-Thames",
+      "state_or_province": null,
+      "country": "United Kingdom",
+      "address": "Sunbury House, Brooklands Close, Sunbury-on-Thames, TW16 7DX"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0015",
+        "line_start": 317,
+        "line_end": 321,
+        "url": "https://fttechnologies.com/company/about-us",
+        "page_class": "company",
+        "snippet": "Sunbury House\nBrooklands Close\nSunbury-on-Thames\nTW16 7DX\nUnited Kingdom"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0015",
+        "line_start": 92,
+        "line_end": 92,
+        "url": "https://fttechnologies.com/company/about-us",
+        "page_class": "company",
+        "snippet": "Today, FT\u2019s innovations continue to lead the industry. The 752 series measuring wind speeds of up to 90 m/s, and designed for industrial markets or professional use, including wind turbine control, commercial marine, performance sailing, drones and many other critical safety and control applications."
+      }
+    ],
+    "notes": "Wind sensors (anemometers) sold as components for drone autopilot/navigation systems, among many other industrial applications"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "FT7 Series",
+        "product_type": "ultrasonic wind sensor (anemometer)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 163,
+            "line_end": 164,
+            "url": "https://fttechnologies.com",
+            "page_class": "homepage",
+            "snippet": "#### FT7 Series\nFT7 Series wind sensors are the fit-and-forget solution for maintenance-free operation year-round, even in the harshest conditions."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "FT6 Series",
+        "product_type": "ultrasonic wind sensor (anemometer)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 167,
+            "line_end": 168,
+            "url": "https://fttechnologies.com",
+            "page_class": "homepage",
+            "snippet": "#### FT6 Series\nFT6 Series wind sensors are designed for professional performance while minimising weight impact on the end user."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "FT752 Series",
+        "product_type": "ultrasonic wind sensor for industrial/drone applications",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0015",
+            "line_start": 92,
+            "line_end": 92,
+            "url": "https://fttechnologies.com/company/about-us",
+            "page_class": "company",
+            "snippet": "Today, FT\u2019s innovations continue to lead the industry. The 752 series measuring wind speeds of up to 90 m/s, and designed for industrial markets or professional use, including wind turbine control, commercial marine, performance sailing, drones and many other critical safety and control applications."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "UK manufacturer; no NDAA compliance claims anywhere in the corpus"
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS or Blue sUAS claims found in corpus"
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 159,
+        "line_end": 159,
+        "url": "https://fttechnologies.com",
+        "page_class": "homepage",
+        "snippet": "FT Technologies has been designing and manufacturing acoustic resonance wind sensors for over 35 years. As a leading supplier to the wind turbine industry for more than 20 years, we design and manufacture all our wind sensors in the UK and export them globally."
+      }
+    ],
+    "notes": "Designing and manufacturing wind sensors for over 35 years; ISO 9001 accredited"
+  },
+  "unresolved_questions": [
+    "Specific drone-market product models (e.g. FT205 mentioned in customer testimonial) not confirmed on product pages",
+    "Navigation systems application page not fetched \u2014 would clarify drone-specific product variants"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://fttechnologies.com/applications/navigation-systems",
+      "reason": "Would confirm drone/UAV-specific use cases for wind sensors in navigation systems, potentially naming specific product SKUs for drone applications",
+      "expected_evidence": [
+        "products_categories",
+        "products",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_budget",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Ultrasonic wind anemometers for unmanned systems and marine applications, including drone-mounted sensors (FT205) and JMA-certified models (FT7, FT752 series). UK-based, production-ready. NDAA and Blue UAS certification status unknown; public evidence on US defense contracts absent.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 13,
+    "total_cost_usd": 0.42870459999999994,
+    "created_at": "2026-05-05T19:51:52+00:00",
+    "extract_version": "0.1.0"
+  }
+}

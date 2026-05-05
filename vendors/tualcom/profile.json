@@ -1,0 +1,367 @@
+{
+  "target_id": "tualcom",
+  "run_id": "canonical",
+  "display_name": "TUALCOM",
+  "homepage_url": "https://www.tualcom.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/tualcom/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 62,
+            "line_end": 62,
+            "url": "https://www.tualcom.com",
+            "page_class": "homepage",
+            "snippet": "TUALCOM's GNSS Anti-Jam CRPA product family TUALAJ has the largest variety of anti-jam products in the world against GPS/GNSS jamming, spoofing and interference."
+          }
+        ],
+        "notes": "GPS/GNSS Anti-Jam CRPA product family (TUALAJ series) is the flagship product line"
+      },
+      {
+        "category": "communications",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 68,
+            "line_end": 68,
+            "url": "https://www.tualcom.com",
+            "page_class": "homepage",
+            "snippet": "TUALCOM's high data rate and mesh network capable data links can be integrated into a wide variety of platforms."
+          }
+        ],
+        "notes": "High data rate and mesh-network capable data links; also telemetry systems"
+      },
+      {
+        "category": "flight_termination",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 55,
+            "line_end": 55,
+            "url": "https://www.tualcom.com",
+            "page_class": "homepage",
+            "snippet": "TUALCOM offers reliable products for flight termination needs required in mission critical applications."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "category": "electronic_warfare",
+        "is_primary": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 48,
+            "line_end": 48,
+            "url": "https://www.tualcom.com",
+            "page_class": "homepage",
+            "snippet": "TUALCOM designs and manufactures RF/microwave systems and subsystems with data processing capability in the field of electronic warfare."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Ankara",
+      "state_or_province": null,
+      "country": "Turkey",
+      "address": null
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0059",
+        "line_start": 19,
+        "line_end": 20,
+        "url": "https://www.tualcom.com/locations",
+        "page_class": "contact",
+        "snippet": "### Headquarters\nAnkara,T\u00dcRK\u0130YE"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0061",
+        "line_start": 20,
+        "line_end": 20,
+        "url": "https://www.tualcom.com/products",
+        "page_class": "product",
+        "snippet": "TUALCOM\u2019s Communications and RF-Microwave product range spans over 5 main areas, offering high performance solutions for GPS / GNSS Anti-jam CRPA Systems, Telemetry Systems, Data Link Systems, Flight Termination Systems and Radar & Electronic Warfare Systems."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 8,
+        "line_end": 11,
+        "url": "https://www.tualcom.com",
+        "page_class": "homepage",
+        "snippet": "    *   [Data Link](https://www.tualcom.com/data-link/)\n    *   [GPS / GNSS Anti-Jam Systems](https://www.tualcom.com/gps-gnss-anti-jam-crpa/)\n    *   [Telemetry](https://www.tualcom.com/telemetry/)\n    *   [Flight Termination](https://www.tualcom.com/flight-termination/)"
+      }
+    ],
+    "notes": "Designs and manufactures standalone drone subsystems (GPS anti-jam, data links, telemetry, flight termination, EW) sold to defense platform integrators"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "TUALAJ 4100 Mini",
+        "product_type": "GPS/GNSS anti-jam CRPA system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 98,
+            "line_end": 98,
+            "url": "https://www.tualcom.com",
+            "page_class": "homepage",
+            "snippet": "*   [TUALAJ 4100 MINI](https://www.tualcom.com/gps-gnss-anti-jam-crpa/tualaj-4100-mini/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TUALAJ 4200",
+        "product_type": "GPS/GNSS anti-jam CRPA system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 99,
+            "line_end": 99,
+            "url": "https://www.tualcom.com",
+            "page_class": "homepage",
+            "snippet": "*   [TUALAJ 4200](https://www.tualcom.com/gps-gnss-anti-jam-crpa/tualaj-4200-mini/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TUALAJ 8200",
+        "product_type": "GPS/GNSS anti-jam CRPA system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 100,
+            "line_end": 100,
+            "url": "https://www.tualcom.com",
+            "page_class": "homepage",
+            "snippet": "*   [TUALAJ 8200](https://www.tualcom.com/gps-gnss-anti-jam-crpa/tualaj-8200/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TUALAJ CRPA",
+        "product_type": "GPS/GNSS anti-jam CRPA antenna/system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 101,
+            "line_end": 101,
+            "url": "https://www.tualcom.com",
+            "page_class": "homepage",
+            "snippet": "*   [TUALAJ CRPA](https://www.tualcom.com/gps-gnss-anti-jam-crpa/crpa/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Data Link",
+        "product_type": "high data rate and mesh-network capable data link",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 68,
+            "line_end": 68,
+            "url": "https://www.tualcom.com",
+            "page_class": "homepage",
+            "snippet": "TUALCOM's high data rate and mesh network capable data links can be integrated into a wide variety of platforms."
+          }
+        ],
+        "notes": "Specific model SKUs (C-band FDM, L-band TDMA, S-band FDM, S-band TDMA) visible in crawl_index but on skipped pages"
+      },
+      {
+        "name": "Telemetry System",
+        "product_type": "telemetry and data acquisition system",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 74,
+            "line_end": 74,
+            "url": "https://www.tualcom.com",
+            "page_class": "homepage",
+            "snippet": "TUALCOM takes its minimalistic design philosophy one step further by fusing telemetry and data acquisition functionality in a single unit enabling user to save space."
+          }
+        ],
+        "notes": "Specific SKUs on skipped telemetry product pages"
+      },
+      {
+        "name": "Flight Termination System",
+        "product_type": "flight termination system for mission-critical applications",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 55,
+            "line_end": 55,
+            "url": "https://www.tualcom.com",
+            "page_class": "homepage",
+            "snippet": "TUALCOM offers reliable products for flight termination needs required in mission critical applications."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Electronic Warfare System",
+        "product_type": "RF/microwave EW systems and subsystems",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 48,
+            "line_end": 48,
+            "url": "https://www.tualcom.com",
+            "page_class": "homepage",
+            "snippet": "TUALCOM designs and manufactures RF/microwave systems and subsystems with data processing capability in the field of electronic warfare."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Named TUALAJ anti-jam SKUs confirmed on fetched pages; specific data link, telemetry, FTS, and EW model names on skipped product pages"
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "Turkish company (TUALCOM Elektronik A.\u015e.); no NDAA Section 848/889 compliance claim found anywhere in corpus"
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS / Blue sUAS claim found in corpus"
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0059",
+        "line_start": 22,
+        "line_end": 23,
+        "url": "https://www.tualcom.com/locations",
+        "page_class": "contact",
+        "snippet": "### Production Facility\nAnkara,T\u00dcRK\u0130YE"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 98,
+        "line_end": 101,
+        "url": "https://www.tualcom.com",
+        "page_class": "homepage",
+        "snippet": "*   [TUALAJ 4100 MINI](https://www.tualcom.com/gps-gnss-anti-jam-crpa/tualaj-4100-mini/)\n*   [TUALAJ 4200](https://www.tualcom.com/gps-gnss-anti-jam-crpa/tualaj-4200-mini/)\n*   [TUALAJ 8200](https://www.tualcom.com/gps-gnss-anti-jam-crpa/tualaj-8200/)\n*   [TUALAJ CRPA](https://www.tualcom.com/gps-gnss-anti-jam-crpa/crpa/)"
+      }
+    ],
+    "notes": "Dedicated production facility in Ankara; named catalog SKUs exported to worldwide defense customers"
+  },
+  "unresolved_questions": [
+    "Specific model numbers for data link, EW, telemetry, and FTS product lines on skipped pages",
+    "Whether TUALCOM USA office makes NDAA compliance claim"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.tualcom.com/data-link",
+      "reason": "Would enumerate specific data link product SKUs (C-band FDM, L-band TDMA, S-band, etc.) to confirm product list and subsystem supplier role",
+      "expected_evidence": [
+        "products",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.tualcom.com/electronic-warfare",
+      "reason": "Would list specific EW product SKUs and confirm electronic_warfare category",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.tualcom.com/flight-termination",
+      "reason": "Would list specific flight termination product SKUs (receiver, transmitter, system) to expand product list",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.tualcom.com/telemetry",
+      "reason": "Would list specific telemetry product SKUs to expand product list",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "tagline": "Turkish RF subsystem supplier offering GPS/GNSS anti-jamming CRPA systems (TUALAJ family, including claimed world's smallest form factors), data links, flight termination, telemetry, and electronic warfare products. All listed as production-ready. NDAA compliance and Blue UAS certification status unknown. No publicly documented U.S. prime integration or defense program contracts identified.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 19,
+    "total_cost_usd": 0.5193268,
+    "created_at": "2026-05-05T19:53:37+00:00",
+    "extract_version": "0.1.0"
+  }
+}

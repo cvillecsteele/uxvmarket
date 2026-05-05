@@ -1,0 +1,395 @@
+{
+  "target_id": "gilat-satellite-networks",
+  "run_id": "canonical",
+  "display_name": "Gilat Satellite Networks",
+  "homepage_url": "https://www.gilat.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/gilat-satellite-networks/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "communications",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0107",
+            "line_start": 57,
+            "line_end": 64,
+            "url": "https://www.gilat.com/products-services",
+            "page_class": "product",
+            "snippet": "### Defense Grade Systems\n*   [ISR](https://www.gilat.com/technologies/isr/)\n*   [Unmanned Terminals](https://www.gilat.com/technologies/unmanned-terminals/)\n*   [Manpacks](https://www.gilat.com/technologies/manpack/)\n*   [Portables](https://www.gilat.com/technologies/portables/)\n*   [Transportables](https://www.gilat.com/technologies/transportables/)\n*   [Land Mobility](https://www.gilat.com/technologies/land-mobility/)\n*   [SSPAs](https://www.gilat.com/technologies/sspas/)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0107",
+            "line_start": 66,
+            "line_end": 69,
+            "url": "https://www.gilat.com/products-services",
+            "page_class": "product",
+            "snippet": "### SSPAs\n*   [Ground Mobility](https://www.gilat.com/technologies/ground-mobility/)\n*   [In-Flight Connectivity](https://www.gilat.com/technologies/in-flight-connectivity/)\n*   [Gateways](https://www.gilat.com/technologies/gateways/)"
+          }
+        ],
+        "notes": "VSAT modems, defense-grade SATCOM terminals (including Unmanned Terminals), SSPAs, and electronically steered antennas are all communications hardware for defense and unmanned platforms."
+      },
+      {
+        "category": "isr_payloads",
+        "is_primary": false,
+        "confidence": "low",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0107",
+            "line_start": 58,
+            "line_end": 58,
+            "url": "https://www.gilat.com/products-services",
+            "page_class": "product",
+            "snippet": "*   [ISR](https://www.gilat.com/technologies/isr/)"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 120,
+            "line_end": 121,
+            "url": "https://www.gilat.com",
+            "page_class": "homepage",
+            "snippet": "### Gilat Receives Approximately $10 Million Order for Direct Downlink Earth Observation Solution\nNew award expands Gilat Defense\u2019s portfolio of advanced capabilities"
+          }
+        ],
+        "notes": "ISR is listed as a named product line under Defense Grade Systems; a $10M order for a Direct Downlink Earth Observation Solution was announced. The ISR product page was skipped so exact scope is unclear."
+      },
+      {
+        "category": "ground_segment",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0107",
+            "line_start": 66,
+            "line_end": 69,
+            "url": "https://www.gilat.com/products-services",
+            "page_class": "product",
+            "snippet": "### SSPAs\n*   [Ground Mobility](https://www.gilat.com/technologies/ground-mobility/)\n*   [In-Flight Connectivity](https://www.gilat.com/technologies/in-flight-connectivity/)\n*   [Gateways](https://www.gilat.com/technologies/gateways/)"
+          }
+        ],
+        "notes": "SSPAs/Gateways product line serves ground segment for satellite communications networks."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Gilat is primarily a satellite communications company; UXV relevance is primarily via the Unmanned Terminals product line under Defense Grade Systems."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Petah Tikva",
+      "state_or_province": null,
+      "country": "Israel",
+      "address": "21 Yegia Kapayim St., Kiriat Arie, Petah Tikva 4913020, Israel"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0049",
+        "line_start": 169,
+        "line_end": 171,
+        "url": "https://www.gilat.com/contact-us",
+        "page_class": "contact",
+        "snippet": "### ![](https://www.gilat.com/wp-content/uploads/0c4972698a5ce745b3df7830a799b4bd.png)Israel\nAddress\n21 Yegia Kapayim St., Kiriat Arie, Petah Tikva 4913020, Israel"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0107",
+        "line_start": 59,
+        "line_end": 59,
+        "url": "https://www.gilat.com/products-services",
+        "page_class": "product",
+        "snippet": "*   [Unmanned Terminals](https://www.gilat.com/technologies/unmanned-terminals/)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 17,
+        "line_end": 17,
+        "url": "https://www.gilat.com",
+        "page_class": "homepage",
+        "snippet": "        *   [Unmanned Terminals](https://www.gilat.com/technologies/unmanned-terminals/)"
+      }
+    ],
+    "notes": "Gilat sells SATCOM terminals (Unmanned Terminals product line) specifically designed for integration into unmanned platforms. The Unmanned Terminals page was skipped; full product details are not in corpus."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "SkyEdge IV",
+        "product_type": "VSAT network platform",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0107",
+            "line_start": 51,
+            "line_end": 51,
+            "url": "https://www.gilat.com/products-services",
+            "page_class": "product",
+            "snippet": "*   [SkyEdge IV](https://www.gilat.com/technologies/skyedge-iv/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SkyEdge II-C",
+        "product_type": "VSAT modem",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0107",
+            "line_start": 53,
+            "line_end": 53,
+            "url": "https://www.gilat.com/products-services",
+            "page_class": "product",
+            "snippet": "*   [SkyEdge II-c](https://www.gilat.com/technologies/skyedge-ii-c/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "GLT 1500",
+        "product_type": "multi-service SDR modem",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 114,
+            "line_end": 116,
+            "url": "https://www.gilat.com",
+            "page_class": "homepage",
+            "snippet": "GLT 1500\n### Next Generation Multi-Service SDR Modem\nUnmatched performance and flexibility, supporting GEO, MEO, and LEO"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Unmanned Terminals",
+        "product_type": "defense-grade SATCOM terminal for unmanned platforms",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0107",
+            "line_start": 59,
+            "line_end": 59,
+            "url": "https://www.gilat.com/products-services",
+            "page_class": "product",
+            "snippet": "*   [Unmanned Terminals](https://www.gilat.com/technologies/unmanned-terminals/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Sidewinder ESA",
+        "product_type": "electronically steered antenna for in-flight connectivity",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 105,
+            "line_end": 107,
+            "url": "https://www.gilat.com",
+            "page_class": "homepage",
+            "snippet": "Sidewinder ESA\n### Gilat Receives $39 Million in Orders for Sidewinder ESA Terminals\nNew orders for Linefit and Retrofit installations underscore rising global demand for Gilat\u2019s advanced Multi Orbit ESA technology"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AeroStream BUCs",
+        "product_type": "block upconverters for in-flight connectivity",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 125,
+            "line_end": 126,
+            "url": "https://www.gilat.com",
+            "page_class": "homepage",
+            "snippet": "### Gilat Receives $7 Million Order for In-Flight Connectivity Solution\nThe Aerostream BUCs are designed to enable robust, high-speed In-Flight Connectivity across both LEO and GEO satellites"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "EnduroStream",
+        "product_type": "defense SATCOM solution",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 162,
+            "line_end": 162,
+            "url": "https://www.gilat.com",
+            "page_class": "homepage",
+            "snippet": "#### [Gilat Awarded over $7 Million for its New EnduroStream Solution to Support the U.S. Department of War](https://www.gilat.com/pressreleases/gilat-awarded-over-7-million-for-its-new-endurostream-solution-to-support-the-u-s-department-of-war/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ISR",
+        "product_type": "defense-grade ISR satellite communications system",
+        "confidence": "low",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0107",
+            "line_start": 58,
+            "line_end": 58,
+            "url": "https://www.gilat.com/products-services",
+            "page_class": "product",
+            "snippet": "*   [ISR](https://www.gilat.com/technologies/isr/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Manpacks",
+        "product_type": "portable SATCOM terminal",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0107",
+            "line_start": 60,
+            "line_end": 60,
+            "url": "https://www.gilat.com/products-services",
+            "page_class": "product",
+            "snippet": "*   [Manpacks](https://www.gilat.com/technologies/manpack/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SkyCare Services",
+        "product_type": "managed satellite network services",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0107",
+            "line_start": 76,
+            "line_end": 76,
+            "url": "https://www.gilat.com/products-services",
+            "page_class": "product",
+            "snippet": "*   [SkyCare Services](https://www.gilat.com/skycare-services/)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Product pages for Unmanned Terminals, ISR, and GLT-1500 were skipped in the crawl; full product details not confirmed."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No NDAA Section 848/889 claims found anywhere in the corpus. Gilat is an Israeli company headquartered in Petah Tikva."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 106,
+        "line_end": 107,
+        "url": "https://www.gilat.com",
+        "page_class": "homepage",
+        "snippet": "### Gilat Receives $39 Million in Orders for Sidewinder ESA Terminals\nNew orders for Linefit and Retrofit installations underscore rising global demand for Gilat\u2019s advanced Multi Orbit ESA technology"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 89,
+        "line_end": 90,
+        "url": "https://www.gilat.com",
+        "page_class": "homepage",
+        "snippet": "### Gilat Receives Over $16 Million Order to Supply SATCOM Systems to a European Ministry of Defense\n[Learn More](https://www.gilat.com/pressreleases/gilat-receives-over-16-million-order-to-supply-satcom-systems-to-a-european-ministry-of-defense/)"
+      }
+    ],
+    "notes": "Multiple active production orders in the tens of millions of dollars including $39M for Sidewinder ESA, $16M for SATCOM systems. Clear serial production posture."
+  },
+  "unresolved_questions": [
+    "Exact scope and specifications of Unmanned Terminals product line (page skipped)",
+    "Whether ISR products are SATCOM data links or sensor payloads (page skipped)",
+    "NDAA compliance status not disclosed (Israeli company, likely not applicable)"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.gilat.com/technologies/unmanned-terminals",
+      "reason": "Would confirm product specifications, supported unmanned platform types, and whether terminals are sold as standalone subsystems for drone integration",
+      "expected_evidence": [
+        "products",
+        "drone_supply_chain_role",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.gilat.com/technologies/isr",
+      "reason": "Would confirm whether ISR product is a SATCOM data link for UAS/ISR missions or a sensor payload, clarifying isr_payloads vs communications category",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.gilat.com/product/glt-1500",
+      "reason": "Product page for GLT 1500 SDR modem; would confirm specs and whether it targets unmanned platforms",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=product",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "tagline": "Israeli vendor supplying defense-grade satellite communications terminals, modems, and ground platforms spanning GEO/MEO/LEO orbits. Core products include SkyEdge IV VSAT network platform, Unmanned Terminals, GLT 1500 multi-orbit modem, EnduroStream (reportedly awarded U.S. Department of War contract), and Sidewinder ESA in-flight connectivity antenna. NDAA compliance and Blue UAS certification status unknown; public evidence of U.S. defense adoption exists but remains sparse on program specifics and long-term production roadmap.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 21,
+    "total_cost_usd": 0.5047823,
+    "created_at": "2026-05-05T19:56:41+00:00",
+    "extract_version": "0.1.0"
+  }
+}

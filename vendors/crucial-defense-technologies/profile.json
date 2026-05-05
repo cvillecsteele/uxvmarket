@@ -1,0 +1,242 @@
+{
+  "target_id": "crucial-defense-technologies",
+  "run_id": "canonical",
+  "display_name": "Crucial Defense Technologies",
+  "homepage_url": "https://crucialdefense.org",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/crucial-defense-technologies/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "munitions",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 14,
+            "line_end": 14,
+            "url": "https://crucialdefense.org",
+            "page_class": "homepage",
+            "snippet": "At **Crucial Defense Technologies**, we manufacture, sell, and distribute **munitions**, **energetics**, and **explosives** with a focus on **safety**, **quality**, and **reliability**."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0006",
+            "line_start": 10,
+            "line_end": 10,
+            "url": "https://crucialdefense.org/our-mission",
+            "page_class": "capability",
+            "snippet": "At\u00a0**Crucial Defense Technologies**, we\u00a0**manufacture, sell, and distribute munitions, energetics, and explosives**\u00a0with a focus on\u00a0**safety, quality, and reliability**."
+          }
+        ],
+        "notes": "Manufacturer of explosives, munitions, and energetic systems: C-4, TNT, Det Cord, TarTarus binary explosive"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Fort Myers",
+      "state_or_province": "Florida",
+      "country": "United States",
+      "address": "13451 McGregor Blvd, Suite 32, Fort Myers, FL 33907"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 39,
+        "line_end": 40,
+        "url": "https://crucialdefense.org",
+        "page_class": "homepage",
+        "snippet": "13451 McGregor Blvd, Suite 32\nFort Myers, FL 33907"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0006",
+        "line_start": 10,
+        "line_end": 10,
+        "url": "https://crucialdefense.org/our-mission",
+        "page_class": "capability",
+        "snippet": "At\u00a0**Crucial Defense Technologies**, we\u00a0**manufacture, sell, and distribute munitions, energetics, and explosives**\u00a0with a focus on\u00a0**safety, quality, and reliability**."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 14,
+        "line_end": 14,
+        "url": "https://crucialdefense.org",
+        "page_class": "homepage",
+        "snippet": "At **Crucial Defense Technologies**, we manufacture, sell, and distribute **munitions**, **energetics**, and **explosives** with a focus on **safety**, **quality**, and **reliability**."
+      }
+    ],
+    "notes": "Manufactures munitions and explosive materials (C-4, TNT, Det Cord, TarTarus binary explosive) for defense use. No explicit UXV/drone-specific mention on site; products fall in the munitions category that maps to drone-delivered warhead payloads."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "C-4",
+        "product_type": "plastic explosive",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0009",
+            "line_start": 11,
+            "line_end": 11,
+            "url": "https://crucialdefense.org/product/c-4",
+            "page_class": "product",
+            "snippet": "C-4"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TNT",
+        "product_type": "high explosive (2,4,6-Trinitrotoluene)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0012",
+            "line_start": 11,
+            "line_end": 13,
+            "url": "https://crucialdefense.org/product/tnt",
+            "page_class": "product",
+            "snippet": "TNT\n===\n( 2,4,6- Trinitrotoluene)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Det Cord",
+        "product_type": "detonating cord (PRIMACORD PETN-core)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0010",
+            "line_start": 11,
+            "line_end": 13,
+            "url": "https://crucialdefense.org/product/det-cord",
+            "page_class": "product",
+            "snippet": "Det Cord\n========\nPRIMACORD detonating cords are flexible linear explosives with a core of PETN explosive encased in a textile outer jacket. PRIMACORD detonating cords are designed for use as trunklines and/or downlines in various mining, quarrying and construction applications."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "TarTarus\u2122",
+        "product_type": "gel binary explosive",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 6,
+            "line_end": 6,
+            "url": "https://crucialdefense.org",
+            "page_class": "homepage",
+            "snippet": "*   [TarTarus\u2122](https://crucialdefense.org/tartarus/)"
+          }
+        ],
+        "notes": "Product page (tartarus-gel-binary-explosive-400ml) was skipped; confirmed as 400ml gel binary explosive from URL in crawl_index"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0009",
+        "line_start": 14,
+        "line_end": 14,
+        "url": "https://crucialdefense.org/product/c-4",
+        "page_class": "product",
+        "snippet": "Add to Quote Request"
+      }
+    ],
+    "notes": "Listed catalog SKUs available via 'Add to Quote Request'; federally licensed manufacturer (FEL/FFL)"
+  },
+  "unresolved_questions": [
+    "No explicit UAV/drone market targeting mentioned on site \u2014 UXV relevance inferred from munitions category",
+    "TarTarus product page (tartarus-gel-binary-explosive-400ml) was skipped; full product spec not captured",
+    "Shop page skipped \u2014 full product catalog unknown"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://crucialdefense.org/product/tartarus-gel-binary-explosive-400ml",
+      "reason": "Product page for TarTarus gel binary explosive \u2014 would confirm product specs, naming, and munitions category",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://crucialdefense.org/shop",
+      "reason": "Shop/catalog page \u2014 would reveal full product lineup beyond the three fetched explosive SKUs",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://crucialdefense.org/tartarus",
+      "reason": "TarTarus product/brand landing page \u2014 likely has product details and any drone/UXV application context",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "tagline": "Fort Myers\u2013based manufacturer of military-grade explosives and munitions (C-4, TNT, Det Cord, TarTarus binary gel) holding Federal Explosives Licenses Type 20/23 and active ITAR registration. Leadership includes former Navy SEALs and special-operations personnel. NDAA compliance status and specific defense program wins not publicly documented.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 11,
+    "total_cost_usd": 0.2692984,
+    "created_at": "2026-05-05T19:59:11+00:00",
+    "extract_version": "0.1.0"
+  }
+}

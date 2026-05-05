@@ -1,0 +1,138 @@
+{
+  "target_id": "crucial-defense-technologies",
+  "run_id": "canonical",
+  "display_name": "Crucial Defense Technologies",
+  "homepage_url": "https://crucialdefense.org",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/crucial-defense-technologies/website",
+  "products": [
+    {
+      "name": "C-4",
+      "category": "munitions",
+      "descriptor": "Military plastic explosive available for quote-based ordering",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0009",
+          "line_start": 11,
+          "line_end": 14,
+          "url": "https://crucialdefense.org/product/c-4",
+          "page_class": "product",
+          "snippet": "C-4\n===\nC-4 quantity\nAdd to Quote Request"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "TNT",
+      "category": "munitions",
+      "descriptor": "2,4,6-trinitrotoluene bulk explosive for defense applications",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0012",
+          "line_start": 11,
+          "line_end": 15,
+          "url": "https://crucialdefense.org/product/tnt",
+          "page_class": "product",
+          "snippet": "TNT\n===\n( 2,4,6- Trinitrotoluene)\nTNT quantity\nAdd to Quote Request"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Det Cord",
+      "category": "munitions",
+      "descriptor": "PETN-core flexible detonating cord for demolition and blasting",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0010",
+          "line_start": 11,
+          "line_end": 15,
+          "url": "https://crucialdefense.org/product/det-cord",
+          "page_class": "product",
+          "snippet": "Det Cord\n========\nPRIMACORD detonating cords are flexible linear explosives with a core of PETN explosive encased in a textile outer jacket. PRIMACORD detonating cords are designed for use as trunklines and/or downlines in various mining, quarrying and construction applications.\nDet Cord quantity\nAdd to Quote Request"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "TarTarus\u2122 Gel Binary Explosive 400ml",
+      "category": "munitions",
+      "descriptor": "400 ml binary gel explosive for defense and demolition use",
+      "granularity": "sku",
+      "readiness": "unknown",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 6,
+          "line_end": 6,
+          "url": "https://crucialdefense.org",
+          "page_class": "homepage",
+          "snippet": "*   [TarTarus\u2122](https://crucialdefense.org/tartarus/)"
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "TarTarus\u2122 Gel Binary Explosive 400ml product page (https://crucialdefense.org/product/tartarus-gel-binary-explosive-400ml) was skipped due to class budget exhaustion; readiness could not be confirmed from corpus. Name and size derived from URL slug in crawl_index.",
+    "The /shop and /product-category/explosives pages were also skipped \u2014 additional SKUs may exist beyond the four catalogued here."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://crucialdefense.org/product/tartarus-gel-binary-explosive-400ml",
+      "reason": "Product page was skipped; needed to confirm readiness, descriptor details, and any NDAA/compliance claims for TarTarus\u2122 Gel Binary Explosive 400ml.",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://crucialdefense.org/product-category/explosives",
+      "reason": "Category listing page skipped; may enumerate additional SKUs beyond C-4, TNT, Det Cord, and TarTarus\u2122.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://crucialdefense.org/tartarus",
+      "reason": "Dedicated TarTarus\u2122 marketing page; may contain product specifications, compliance claims, and ordering information.",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 12,
+    "total_cost_usd": 0.17691505,
+    "created_at": "2026-05-05T20:01:08+00:00",
+    "extract_version": "0.1.0"
+  }
+}

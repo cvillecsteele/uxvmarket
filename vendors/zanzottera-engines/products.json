@@ -1,0 +1,214 @@
+{
+  "target_id": "zanzottera-engines",
+  "run_id": "canonical",
+  "display_name": "Zanzottera Engines",
+  "homepage_url": "https://www.zanzotteraengines.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/zanzottera-engines/website",
+  "products": [
+    {
+      "name": "101HS Engine",
+      "category": "propulsion_mechanical",
+      "descriptor": "11 HP boxer two-stroke UAV engine with EFI and 1.5 kW brushless starter-generator",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 29,
+          "line_end": 31,
+          "url": "https://www.zanzotteraengines.com",
+          "page_class": "homepage",
+          "snippet": "### [101HS ENGINE](https://www.zanzotteraengines.com/engines/101hs-engine-2/ \"101HS ENGINE\")\n11HP boxer UAV engine with electronic injection 1.5KW brushless starter generator\n[Read more](https://www.zanzotteraengines.com/engines/101hs-engine-2/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "305HS Engine",
+      "category": "propulsion_mechanical",
+      "descriptor": "29 HP boxer two-stroke UAV engine with EFI and 100 A brushless starter-generator",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 50,
+          "line_end": 52,
+          "url": "https://www.zanzotteraengines.com",
+          "page_class": "homepage",
+          "snippet": "### [305HS Engine](https://www.zanzotteraengines.com/engines/305hs-engine/ \"305HS Engine\")\n29hp boxer UAV engine with electronic injection 100A brushless starter generator\n[Read more](https://www.zanzotteraengines.com/engines/305hs-engine/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "498HS Engine",
+      "category": "propulsion_mechanical",
+      "descriptor": "44 HP boxer two-stroke UAV engine with EFI and 100 A brushless starter-generator",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 43,
+          "line_end": 45,
+          "url": "https://www.zanzotteraengines.com",
+          "page_class": "homepage",
+          "snippet": "### [498HS Engine](https://www.zanzotteraengines.com/engines/498hs-engine/ \"498HS Engine\")\n44hp boxer uav engine with electronic injection 100A brushless starter generator\n[Read more](https://www.zanzotteraengines.com/engines/498hs-engine/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "630HS Engine",
+      "category": "propulsion_mechanical",
+      "descriptor": "52 HP boxer two-stroke UAV engine with EFI and 100 A brushless starter-generator",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 57,
+          "line_end": 59,
+          "url": "https://www.zanzotteraengines.com",
+          "page_class": "homepage",
+          "snippet": "### [630HS Engine](https://www.zanzotteraengines.com/engines/630hs-engine/ \"630HS Engine\")\n52hp boxer uav engine with electronic injection 100A brushless starter / generator\n[Read more](https://www.zanzotteraengines.com/engines/630hs-engine/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "996HS Engine",
+      "category": "propulsion_mechanical",
+      "descriptor": "82 HP boxer two-stroke UAV engine with EFI and 150 A brushless starter-generator",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 64,
+          "line_end": 66,
+          "url": "https://www.zanzotteraengines.com",
+          "page_class": "homepage",
+          "snippet": "### [996HS Engine](https://www.zanzotteraengines.com/engines/996hs-engine/ \"996HS Engine\")\n82hp boxer uav engine with electronic injection 150A brushless starter generator\n[Read more](https://www.zanzotteraengines.com/engines/996hs-engine/)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "996GRX Engine",
+      "category": "propulsion_mechanical",
+      "descriptor": "82 HP boxer two-stroke UAV engine with EFI and 150 A brushless starter-generator with in-flight recharge",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "not_disclosed",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 36,
+          "line_end": 38,
+          "url": "https://www.zanzotteraengines.com",
+          "page_class": "homepage",
+          "snippet": "### [996GRX ENGINE](https://www.zanzotteraengines.com/engines/996grx-engine/ \"996GRX ENGINE\")\n82 HP boxer uav engine with electronic injection 150A brushless starter generator with in-flight\n[Read more](https://www.zanzotteraengines.com/engines/996grx-engine/)"
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "Individual product detail pages for all 6 engines were skipped (skipped_class_budget) \u2014 full specs (displacement, weight, dimensions, fuel type, TBO) not available in corpus. Homepage summaries provided sufficient data to classify all 6 SKUs."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.zanzotteraengines.com/engines/101hs-engine-2",
+      "reason": "Product detail page for 101HS Engine \u2014 would provide full specs (displacement, weight, fuel type, TBO) to improve descriptor accuracy and confirm readiness/compliance claims.",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.zanzotteraengines.com/engines/305hs-engine",
+      "reason": "Product detail page for 305HS Engine \u2014 full specs and any compliance/readiness language.",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.zanzotteraengines.com/engines/498hs-engine",
+      "reason": "Product detail page for 498HS Engine \u2014 full specs and any compliance/readiness language.",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.zanzotteraengines.com/engines/630hs-engine",
+      "reason": "Product detail page for 630HS Engine \u2014 full specs and any compliance/readiness language.",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.zanzotteraengines.com/engines/996hs-engine",
+      "reason": "Product detail page for 996HS Engine \u2014 full specs and any compliance/readiness language.",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.zanzotteraengines.com/engines/996grx-engine",
+      "reason": "Product detail page for 996GRX Engine \u2014 full specs including in-flight recharge capability details and any compliance language.",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 15,
+    "total_cost_usd": 0.23622315000000002,
+    "created_at": "2026-05-05T19:54:06+00:00",
+    "extract_version": "0.1.0"
+  }
+}

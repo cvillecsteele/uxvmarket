@@ -1,0 +1,317 @@
+{
+  "target_id": "zanzottera-engines",
+  "run_id": "canonical",
+  "display_name": "Zanzottera Engines",
+  "homepage_url": "https://www.zanzotteraengines.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/zanzottera-engines/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 21,
+            "line_end": 22,
+            "url": "https://www.zanzotteraengines.com",
+            "page_class": "homepage",
+            "snippet": "Our Company is dedicated to the design, the development and the production of a range of high quality,\nlight weight engines, for powering Unmanned Aerial Vehicles (UAV)."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 71,
+            "line_end": 71,
+            "url": "https://www.zanzotteraengines.com",
+            "page_class": "homepage",
+            "snippet": "Design, development and production of piston engines for the propulsion of small and medium sized UAVs"
+          }
+        ],
+        "notes": "2-stroke boxer piston UAV engines with EFI, ranging 58cc\u20131000cc, 11\u201382HP"
+      },
+      {
+        "category": "power_systems",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 29,
+            "line_end": 30,
+            "url": "https://www.zanzotteraengines.com",
+            "page_class": "homepage",
+            "snippet": "### [101HS ENGINE](https://www.zanzotteraengines.com/engines/101hs-engine-2/ \"101HS ENGINE\")\n11HP boxer UAV engine with electronic injection 1.5KW brushless starter generator"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 64,
+            "line_end": 65,
+            "url": "https://www.zanzotteraengines.com",
+            "page_class": "homepage",
+            "snippet": "### [996HS Engine](https://www.zanzotteraengines.com/engines/996hs-engine/ \"996HS Engine\")\n82hp boxer uav engine with electronic injection 150A brushless starter generator"
+          }
+        ],
+        "notes": "All engines include integrated brushless starter-generators (1.5kW\u2013150A), providing on-board power generation"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Grandola ed Uniti",
+      "state_or_province": "Como",
+      "country": "Italy",
+      "address": "Via Italia, 105/107, 22010 Grandola ed Uniti (Como)"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0043",
+        "line_start": 21,
+        "line_end": 25,
+        "url": "https://www.zanzotteraengines.com/contacts",
+        "page_class": "contact",
+        "snippet": "Zanzottera Technologies S.r.l.\n------------------------------\nVia Italia, 105/107\n22010 Grandola ed Uniti (Como)\nItaly"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 21,
+        "line_end": 23,
+        "url": "https://www.zanzotteraengines.com",
+        "page_class": "homepage",
+        "snippet": "Our Company is dedicated to the design, the development and the production of a range of high quality,\nlight weight engines, for powering Unmanned Aerial Vehicles (UAV).\nZanzottera Technologies srl DOES NOT supply engines for powering manned aircraft."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0073",
+        "line_start": 31,
+        "line_end": 31,
+        "url": "https://www.zanzotteraengines.com/why-2-stroke-uavs-engines-still-matter",
+        "page_class": "news",
+        "snippet": "Zanzottera designs and manufactures UAV engines ranging from 58 cc to 1000 cc. All models feature EFI, air cooling, and support both MOGAS and AVGAS, with dedicated heavy-fuel variants for selected platforms. These engines have accumulated long-term operational experience worldwide, across diverse missions and environmental conditions."
+      }
+    ],
+    "notes": "Designs and manufactures UAV piston engines (components); no complete platforms. Explicitly states it does NOT supply engines for manned aircraft."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "101HS Engine",
+        "product_type": "11HP 2-stroke boxer UAV engine with EFI and brushless starter generator",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 29,
+            "line_end": 30,
+            "url": "https://www.zanzotteraengines.com",
+            "page_class": "homepage",
+            "snippet": "### [101HS ENGINE](https://www.zanzotteraengines.com/engines/101hs-engine-2/ \"101HS ENGINE\")\n11HP boxer UAV engine with electronic injection 1.5KW brushless starter generator"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "305HS Engine",
+        "product_type": "29HP 2-stroke boxer UAV engine with EFI and brushless starter generator",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 50,
+            "line_end": 51,
+            "url": "https://www.zanzotteraengines.com",
+            "page_class": "homepage",
+            "snippet": "### [305HS Engine](https://www.zanzotteraengines.com/engines/305hs-engine/ \"305HS Engine\")\n29hp boxer UAV engine with electronic injection 100A brushless starter generator"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "498HS Engine",
+        "product_type": "44HP 2-stroke boxer UAV engine with EFI and brushless starter generator",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 43,
+            "line_end": 44,
+            "url": "https://www.zanzotteraengines.com",
+            "page_class": "homepage",
+            "snippet": "### [498HS Engine](https://www.zanzotteraengines.com/engines/498hs-engine/ \"498HS Engine\")\n44hp boxer uav engine with electronic injection 100A brushless starter generator"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "630HS Engine",
+        "product_type": "52HP 2-stroke boxer UAV engine with EFI and brushless starter/generator",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 57,
+            "line_end": 58,
+            "url": "https://www.zanzotteraengines.com",
+            "page_class": "homepage",
+            "snippet": "### [630HS Engine](https://www.zanzotteraengines.com/engines/630hs-engine/ \"630HS Engine\")\n52hp boxer uav engine with electronic injection 100A brushless starter / generator"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "996HS Engine",
+        "product_type": "82HP 2-stroke boxer UAV engine with EFI and brushless starter generator",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 64,
+            "line_end": 65,
+            "url": "https://www.zanzotteraengines.com",
+            "page_class": "homepage",
+            "snippet": "### [996HS Engine](https://www.zanzotteraengines.com/engines/996hs-engine/ \"996HS Engine\")\n82hp boxer uav engine with electronic injection 150A brushless starter generator"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "996GRX Engine",
+        "product_type": "82HP 2-stroke boxer UAV engine with EFI and brushless starter generator, in-flight capability",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 36,
+            "line_end": 37,
+            "url": "https://www.zanzotteraengines.com",
+            "page_class": "homepage",
+            "snippet": "### [996GRX ENGINE](https://www.zanzotteraengines.com/engines/996grx-engine/ \"996GRX ENGINE\")\n82 HP boxer uav engine with electronic injection 150A brushless starter generator with in-flight"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Six named engine SKUs listed on homepage; individual product pages were skipped in mirror. A seventh product (Z58) appears in news links but page was not fetched."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 71,
+        "line_end": 71,
+        "url": "https://www.zanzotteraengines.com",
+        "page_class": "homepage",
+        "snippet": "Design, development and production of piston engines for the propulsion of small and medium sized UAVs"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0073",
+        "line_start": 31,
+        "line_end": 32,
+        "url": "https://www.zanzotteraengines.com/why-2-stroke-uavs-engines-still-matter",
+        "page_class": "news",
+        "snippet": "Zanzottera designs and manufactures UAV engines ranging from 58 cc to 1000 cc. All models feature EFI, air cooling, and support both MOGAS and AVGAS, with dedicated heavy-fuel variants for selected platforms. These engines have accumulated long-term operational experience worldwide, across diverse missions and environmental conditions.\nThis experience directly informs design decisions, material selection, operating margins, and derating strategies."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0040",
+        "line_start": 21,
+        "line_end": 21,
+        "url": "https://www.zanzotteraengines.com/certification",
+        "page_class": "compliance",
+        "snippet": "> Zanzottera Technologies Srl\u00a0has certified its own Quality Management System ."
+      }
+    ],
+    "notes": "Catalog SKUs with specific HP ratings; ISO 9001 certified quality management system; explicitly describes 'design, development and production'; engines have 'long-term operational experience worldwide'"
+  },
+  "unresolved_questions": [
+    "Z58 engine (5.4HP, Class B UAVs) referenced in news links but not fetched \u2014 may be an additional current product",
+    "Individual engine product pages skipped \u2014 full technical specs not confirmed from corpus"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.zanzotteraengines.com/engines/101hs-engine-2",
+      "reason": "Individual product page would confirm full specs, pricing signals, and production readiness for the 101HS engine SKU",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.zanzotteraengines.com/engines/996grx-engine",
+      "reason": "Individual product page for the most advanced engine SKU; would confirm detailed specs and production status",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.zanzotteraengines.com/z58-engine-launch",
+      "reason": "News article references a Z58 engine (5.4 HP, Class B UAVs) not in main product listing; would confirm whether this is a new production SKU",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, linked from resource-0006 line 81",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Italian piston-engine supplier producing six boxer two-stroke UAV engines (11\u201382 HP) with electronic fuel injection and integrated brushless starter-generators, ranging from the 101HS to the high-capacity 996GRX with in-flight recharge capability. ISO 9001 certified and in production. NDAA and Blue UAS compliance status not publicly disclosed; U.S. contract history or integration into allied platforms not evident in available sources.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 14,
+    "total_cost_usd": 0.35721505,
+    "created_at": "2026-05-05T19:52:13+00:00",
+    "extract_version": "0.1.0"
+  }
+}
