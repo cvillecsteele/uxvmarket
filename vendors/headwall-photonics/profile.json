@@ -1,0 +1,426 @@
+{
+  "target_id": "headwall-photonics",
+  "run_id": "canonical",
+  "display_name": "Headwall Photonics",
+  "homepage_url": "https://headwallphotonics.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/headwall-photonics/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "isr_payloads",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 56,
+            "line_end": 57,
+            "url": "https://headwall.com/",
+            "page_class": "homepage",
+            "snippet": "    Airborne Hyperspectral Payloads\n    Flight-ready sensor payloads for drones, aircraft, and custom aerial missions."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0061",
+            "line_start": 146,
+            "line_end": 148,
+            "url": "https://headwall.com/portable-field-hyperspectral-systems",
+            "page_class": "capability",
+            "snippet": "![Turnkey Drone and Payload Packages](https://hub.headwall.com/wp-content/uploads/2026/04/DS-THUMB-TURNKEY-DRONE-PAYLOAD@2x.jpg) DATASHEET\n23 March 2026\n### [Turnkey Drone and Payload Packages](https://hub.headwall.com/assets/turnkey-drone-and-payload-packages/)"
+          }
+        ],
+        "notes": "Airborne Hyperspectral Payloads product line explicitly for drones, aircraft, and aerial missions; hyperspectral cameras are called out in the isr_payloads category definition"
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Headwall's primary drone-relevant product line is Airborne Hyperspectral Payloads for remote sensing. They also serve industrial inspection, benchtop lab, and defense/security markets. The airborne payloads product page (skipped) would confirm full product scope."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Bolton",
+      "state_or_province": "Massachusetts",
+      "country": "United States",
+      "address": "580 Main St, Bolton, MA 01740"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 210,
+        "line_end": 210,
+        "url": "https://headwall.com/",
+        "page_class": "homepage",
+        "snippet": "580 Main St, Bolton, MA 01740"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0004",
+        "line_start": 132,
+        "line_end": 132,
+        "url": "https://headwall.com/about",
+        "page_class": "company",
+        "snippet": "580 Main St, Bolton, MA 01740"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 56,
+        "line_end": 57,
+        "url": "https://headwall.com/",
+        "page_class": "homepage",
+        "snippet": "    Airborne Hyperspectral Payloads\n    Flight-ready sensor payloads for drones, aircraft, and custom aerial missions."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0061",
+        "line_start": 146,
+        "line_end": 148,
+        "url": "https://headwall.com/portable-field-hyperspectral-systems",
+        "page_class": "capability",
+        "snippet": "![Turnkey Drone and Payload Packages](https://hub.headwall.com/wp-content/uploads/2026/04/DS-THUMB-TURNKEY-DRONE-PAYLOAD@2x.jpg) DATASHEET\n23 March 2026\n### [Turnkey Drone and Payload Packages](https://hub.headwall.com/assets/turnkey-drone-and-payload-packages/)"
+      }
+    ],
+    "notes": "Headwall sells hyperspectral imaging cameras and flight-ready sensor payloads for drones and aircraft. Their 'Airborne Hyperspectral Payloads' and 'Turnkey Drone and Payload Packages' suggest some subsystem-level integration, but the core product line is cameras/sensors. Classified as component_supplier; the skipped airborne payloads page would clarify whether they sell complete integrated payload pods (which would indicate subsystem_supplier)."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Airborne Hyperspectral Payloads",
+        "product_type": "flight-ready hyperspectral sensor payload for drones/aircraft",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 56,
+            "line_end": 57,
+            "url": "https://headwall.com/",
+            "page_class": "homepage",
+            "snippet": "    Airborne Hyperspectral Payloads\n    Flight-ready sensor payloads for drones, aircraft, and custom aerial missions."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Turnkey Drone and Payload Packages",
+        "product_type": "bundled drone and hyperspectral payload system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0061",
+            "line_start": 146,
+            "line_end": 148,
+            "url": "https://headwall.com/portable-field-hyperspectral-systems",
+            "page_class": "capability",
+            "snippet": "![Turnkey Drone and Payload Packages](https://hub.headwall.com/wp-content/uploads/2026/04/DS-THUMB-TURNKEY-DRONE-PAYLOAD@2x.jpg) DATASHEET\n23 March 2026\n### [Turnkey Drone and Payload Packages](https://hub.headwall.com/assets/turnkey-drone-and-payload-packages/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HELIOS EQ32",
+        "product_type": "hyperspectral imaging camera with integrated classification",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0039",
+            "line_start": 157,
+            "line_end": 159,
+            "url": "https://headwall.com/hyperspectral-imaging-cameras",
+            "page_class": "product",
+            "snippet": "![HELIOS EQ32 Hyperspectral Imaging Camera with Integrated Classification](https://hub.headwall.com/wp-content/uploads/2026/04/PB-THUMB-HELIOS-EQ32@2x.jpg) PRODUCT BRIEF\n29 April 2026\n### [HELIOS EQ32 Hyperspectral Imaging Camera with Integrated Classification](https://hub.headwall.com/assets/helios-eq32-pb/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HELIOS EC64",
+        "product_type": "hyperspectral imaging camera",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0039",
+            "line_start": 165,
+            "line_end": 167,
+            "url": "https://headwall.com/hyperspectral-imaging-cameras",
+            "page_class": "product",
+            "snippet": "![HELIOS EC64 Hyperspectral Imaging Camera](https://hub.headwall.com/wp-content/uploads/2026/04/PB-THUMB-HELIOS-EC64@2x.jpg) PRODUCT BRIEF\n29 April 2026\n### [HELIOS EC64 Hyperspectral Imaging Camera](https://hub.headwall.com/assets/helios-ec64-pb/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HELIOS EC32",
+        "product_type": "hyperspectral imaging core camera",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0039",
+            "line_start": 173,
+            "line_end": 175,
+            "url": "https://headwall.com/hyperspectral-imaging-cameras",
+            "page_class": "product",
+            "snippet": "![HELIOS EC32 Hyperspectral Imaging Core Camera](https://hub.headwall.com/wp-content/uploads/2026/04/PB-THUMB-HELIOS-EC32@2x.jpg) PRODUCT BRIEF\n29 April 2026\n### [HELIOS EC32 Hyperspectral Imaging Core Camera](https://hub.headwall.com/assets/helios-ec32-pb/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "BlueEye Gen2",
+        "product_type": "UV hyperspectral camera",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0039",
+            "line_start": 145,
+            "line_end": 147,
+            "url": "https://headwall.com/hyperspectral-imaging-cameras",
+            "page_class": "product",
+            "snippet": "![BlueEye Gen2 UV Hyperspectral Camera](https://hub.headwall.com/wp-content/uploads/2026/04/DS-THUMB-BLUEYE-GEN2@2x.jpg) DATASHEET\n30 April 2026\n### [BlueEye Gen2 UV Hyperspectral Camera](https://hub.headwall.com/assets/blueeye-gen2-ds/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Micro-Hyperspec VNIR E-Series",
+        "product_type": "VNIR hyperspectral camera",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0039",
+            "line_start": 149,
+            "line_end": 151,
+            "url": "https://headwall.com/hyperspectral-imaging-cameras",
+            "page_class": "product",
+            "snippet": "![Micro-Hyperspec VNIR E-Series](https://hub.headwall.com/wp-content/uploads/2026/04/DS-THUMB-MICRO-HYPERSPEC-VNIR-E@2x.jpg) DATASHEET\n30 April 2026\n### [Micro-Hyperspec VNIR E-Series](https://hub.headwall.com/assets/microhyperspec-vnir-eseries-ds/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Micro-Hyperspec SWIR 640",
+        "product_type": "SWIR hyperspectral camera",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0039",
+            "line_start": 189,
+            "line_end": 191,
+            "url": "https://headwall.com/hyperspectral-imaging-cameras",
+            "page_class": "product",
+            "snippet": "![Micro-Hyperspec SWIR 640](https://hub.headwall.com/wp-content/uploads/2026/04/DS-THUMB-MICRO-HYPERSPEC-SWIR-640@2x.jpg) DATASHEET\n23 March 2026\n### [Micro-Hyperspec SWIR 640](https://hub.headwall.com/assets/microhyperspec-swir640/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MV.C VNIR",
+        "product_type": "VNIR hyperspectral camera",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0039",
+            "line_start": 153,
+            "line_end": 155,
+            "url": "https://headwall.com/hyperspectral-imaging-cameras",
+            "page_class": "product",
+            "snippet": "![MV.C VNIR](https://hub.headwall.com/wp-content/uploads/2026/04/DS-THUMB-MVC-VNIR@2x.jpg) DATASHEET\n29 April 2026\n### [MV.C VNIR](https://hub.headwall.com/assets/mvcvnir-ds/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ALPHA G100",
+        "product_type": "real-time hyperspectral processing platform",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0039",
+            "line_start": 181,
+            "line_end": 183,
+            "url": "https://headwall.com/hyperspectral-imaging-cameras",
+            "page_class": "product",
+            "snippet": "![ALPHA G100 Real-Time Processing Platform](https://hub.headwall.com/wp-content/uploads/2026/04/PB-THUMB-ALPHA-G100@2x.jpg) PRODUCT BRIEF\n29 April 2026\n### [ALPHA G100 Real-Time Processing Platform](https://hub.headwall.com/assets/alpha-g100-pb/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SIF Imaging Sensor",
+        "product_type": "hyperspectral solar-induced fluorescence imaging sensor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0061",
+            "line_start": 150,
+            "line_end": 152,
+            "url": "https://headwall.com/portable-field-hyperspectral-systems",
+            "page_class": "capability",
+            "snippet": "![SIF Imaging Sensor](https://hub.headwall.com/wp-content/uploads/2026/04/DS-THUMB-SIFIS@2x.jpg) DATASHEET\n23 March 2026\n### [SIF Imaging Sensor](https://hub.headwall.com/assets/sif-imaging-sensor/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Nano HP Rotary Stage Packages",
+        "product_type": "rotary stage accessory for hyperspectral systems",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0061",
+            "line_start": 158,
+            "line_end": 160,
+            "url": "https://headwall.com/portable-field-hyperspectral-systems",
+            "page_class": "capability",
+            "snippet": "![Nano HP Rotary Stage Packages](https://hub.headwall.com/wp-content/uploads/2026/04/DS-THUMB-ROTARY-STAGES@2x.jpg) DATASHEET\n23 March 2026\n### [Nano HP Rotary Stage Packages](https://hub.headwall.com/assets/nanohp-rotary-stage/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Portable Field Hyperspectral Systems",
+        "product_type": "portable ground-based hyperspectral system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 59,
+            "line_end": 60,
+            "url": "https://headwall.com/",
+            "page_class": "homepage",
+            "snippet": "    Portable Field Hyperspectral Systems\n    Reliable sensing platforms for ground-based spectral intelligence."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Metal Detection Sensors",
+        "product_type": "inductive metal detection sensor for industrial inspection",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 41,
+            "line_end": 43,
+            "url": "https://headwall.com/",
+            "page_class": "homepage",
+            "snippet": "    Metal Detection Sensors\n    Detect, classify, and separate in one workflow with inductive sensing.\n    ](https://headwall.com/metal-detection-sensors/)["
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Benchtop Hyperspectral Imaging Kits",
+        "product_type": "benchtop hyperspectral lab system",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 50,
+            "line_end": 52,
+            "url": "https://headwall.com/",
+            "page_class": "homepage",
+            "snippet": "    Benchtop Hyperspectral Imaging Kits\n    Complete hyperspectral toolkits for research, development, and quality control.\n    ](https://headwall.com/benchtop-hyperspectral-imaging-kits/)"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Product names from datasheets listed on the hyperspectral cameras and portable field systems pages. Additional named products likely exist on the skipped Airborne Hyperspectral Payloads product page."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0039",
+        "line_start": 149,
+        "line_end": 151,
+        "url": "https://headwall.com/hyperspectral-imaging-cameras",
+        "page_class": "product",
+        "snippet": "![Micro-Hyperspec VNIR E-Series](https://hub.headwall.com/wp-content/uploads/2026/04/DS-THUMB-MICRO-HYPERSPEC-VNIR-E@2x.jpg) DATASHEET\n30 April 2026\n### [Micro-Hyperspec VNIR E-Series](https://hub.headwall.com/assets/microhyperspec-vnir-eseries-ds/)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0009",
+        "line_start": 165,
+        "line_end": 165,
+        "url": "https://headwall.com/compliance-and-privacy",
+        "page_class": "company",
+        "snippet": "**ISO 9001:2015 Certified by NQA**"
+      }
+    ],
+    "notes": "Multiple named SKUs with downloadable datasheets and product briefs indicate active production catalog. ISO 9001:2015 certified. Worldwide deployments mentioned."
+  },
+  "unresolved_questions": [
+    "Airborne Hyperspectral Payloads product page (skipped) would confirm specific drone payload SKUs and whether Headwall sells complete integrated payload pods vs. bare sensors for drone integration",
+    "No NDAA 848/889 or Blue UAS compliance claims found on the site"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://headwall.com/airborne-hyperspectral-payloads",
+      "reason": "Primary drone-relevant product page; would list specific airborne payload SKUs, confirm whether products are complete payload pods (supporting subsystem_supplier) or sensors (supporting component_supplier), and may have NDAA/compliance claims for defense customers.",
+      "expected_evidence": [
+        "products",
+        "drone_supply_chain_role",
+        "products_categories",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "tagline": "Manufactures hyperspectral imaging cameras and airborne sensor payloads (VNIR, SWIR, UV ranges) plus turnkey drone packages for remote sensing and industrial inspection. Production-ready systems span benchtop to airborne platforms. NDAA compliance status and specific defense/UAS program lineage not publicly confirmed; limited public evidence of formal qualification or contract awards in unmanned-systems supply chains.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 15,
+    "total_cost_usd": 0.4297903,
+    "created_at": "2026-05-05T18:55:51+00:00",
+    "extract_version": "0.1.0"
+  }
+}

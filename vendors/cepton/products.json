@@ -1,0 +1,180 @@
+{
+  "target_id": "cepton",
+  "run_id": "canonical",
+  "display_name": "Cepton",
+  "homepage_url": "https://www.cepton.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/cepton/website",
+  "products": [
+    {
+      "name": "Nova",
+      "category": "sensors_and_navigation",
+      "descriptor": "Award-winning near-range lidar powered by OEM-validated MMT\u00ae",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0081",
+          "line_start": 56,
+          "line_end": 60,
+          "url": "https://www.cepton.com/products/nova",
+          "page_class": "product",
+          "snippet": "Nova\n====\n_Award-winning, widely deployed near-range lidar, powered by Cepton's\nOEM-validated Micro Motion Technology (MMT\u00ae)_\n![](https://cdn.prod.website-files.com/63cec92432f15791c9dface0/6745dd151805176b3995dbb1_Nova%203.png)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Nova Ultra",
+      "category": "sensors_and_navigation",
+      "descriptor": "Next-generation near-range lidar with MagnoSteer\u2122 for smart vehicles and spaces",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0079",
+          "line_start": 65,
+          "line_end": 67,
+          "url": "https://www.cepton.com/products-overview",
+          "page_class": "product",
+          "snippet": "### Nova Ultra\nNEAR RANGE\n_Embeddable, scalable, the versatile fit-for-all lidar for smart vehicles, systems and spaces._"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0081",
+          "line_start": 75,
+          "line_end": 75,
+          "url": "https://www.cepton.com/products/nova",
+          "page_class": "product",
+          "snippet": "While Nova has been applied across various automotive and industrial applications, Cepton has developed a next-generation product for near-range sensing, Nova Ultra, powered by the latest Cepton MagnoSteer\u2122 imaging technology to enable higher performance in a smaller form factor."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Vista\u00ae Ultra",
+      "category": "sensors_and_navigation",
+      "descriptor": "Long-range adaptive lidar for ADAS and autonomous driving",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0079",
+          "line_start": 60,
+          "line_end": 63,
+          "url": "https://www.cepton.com/products-overview",
+          "page_class": "product",
+          "snippet": "### Vista\u00ae Ultra\nLONG RANGE\n_Adaptive, powerful, the ultimate all-in-one lidar for ADAS and autonomous driving._\n[Learn More](/products/vista-ultra)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Helius\u00ae",
+      "category": "sensors_and_navigation",
+      "descriptor": "Smart lidar system with edge computing and perception software for anonymized 3D detection",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0080",
+          "line_start": 55,
+          "line_end": 57,
+          "url": "https://www.cepton.com/products/helius",
+          "page_class": "product",
+          "snippet": "Helius\u00ae\n=======\n_The Helius Smart Lidar System combines Cepton's state-of-the-art lidar technology with aperception software to provide intelligent, anonymized 3D perception._"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0080",
+          "line_start": 74,
+          "line_end": 74,
+          "url": "https://www.cepton.com/products/helius",
+          "page_class": "product",
+          "snippet": "The Helius Smart Lidar System combines Cepton's state-of-the-art, patented, MMT\u00ae lidar technology with edge computing and ground-breaking perception software, to provide intelligent, anonymized 3D perception."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "StudioViz\u2122",
+      "category": "ground_segment",
+      "descriptor": "Virtual tool for lidar data visualization, performance validation, and solution customization",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0079",
+          "line_start": 91,
+          "line_end": 94,
+          "url": "https://www.cepton.com/products-overview",
+          "page_class": "product",
+          "snippet": "DATA SIMULATOR\nStudioViz\u2122\n==========\nA powerful virtual tool for data visualization, performance validation and solution customization, helping expedite lidar adoption from productization to deployment."
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "Dedicated product pages for Vista\u00ae Ultra, Nova Ultra, and StudioViz\u2122 were all skipped (status: skipped_class_budget) \u2014 specs, readiness language, and any NDAA/compliance claims on those pages are unconfirmed.",
+    "Nova Ultra and Vista\u00ae Ultra readiness inferred as production from overview page positioning; dedicated pages may contain lead-time or ordering language that would confirm this more precisely.",
+    "StudioViz\u2122 is described as a DATA SIMULATOR/virtual tool; whether it is sold as a standalone product or bundled with hardware is unclear from the overview text alone."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.cepton.com/products/vista-ultra",
+      "reason": "Dedicated product page for Vista\u00ae Ultra was skipped; needed to confirm specs, readiness, and any NDAA or compliance claims.",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.cepton.com/products/nova-ultra",
+      "reason": "Dedicated product page for Nova Ultra was skipped; needed to confirm specs, readiness, and any NDAA or compliance claims.",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.cepton.com/products/studioviz",
+      "reason": "Dedicated product page for StudioViz\u2122 was skipped; needed to confirm product description, standalone vs. bundled status, readiness, and any compliance claims.",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 16,
+    "total_cost_usd": 0.22817485,
+    "created_at": "2026-05-05T19:04:57+00:00",
+    "extract_version": "0.1.0"
+  }
+}

@@ -1,0 +1,267 @@
+{
+  "target_id": "cepton",
+  "run_id": "canonical",
+  "display_name": "Cepton",
+  "homepage_url": "https://www.cepton.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/cepton/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0079",
+            "line_start": 60,
+            "line_end": 62,
+            "url": "https://www.cepton.com/products-overview",
+            "page_class": "product",
+            "snippet": "### Vista\u00ae Ultra\nLONG RANGE\n_Adaptive, powerful, the ultimate all-in-one lidar for ADAS and autonomous driving._"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0079",
+            "line_start": 65,
+            "line_end": 67,
+            "url": "https://www.cepton.com/products-overview",
+            "page_class": "product",
+            "snippet": "### Nova Ultra\nNEAR RANGE\n_Embeddable, scalable, the versatile fit-for-all lidar for smart vehicles, systems and spaces._"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0087",
+            "line_start": 66,
+            "line_end": 66,
+            "url": "https://www.cepton.com/technology",
+            "page_class": "capability",
+            "snippet": "Cepton was built from the ground up to meet key lidar industry challenges for mass-market adoption"
+          }
+        ],
+        "notes": "Cepton makes LiDAR sensors (Vista\u00ae Ultra, Nova Ultra, Nova) for ADAS, autonomous vehicles, and smart infrastructure. Helius\u00ae perception solution bundles LiDAR with perception software. All core products are sensors/navigation devices."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "All products are LiDAR sensors or related perception software. No secondary categories applicable."
+  },
+  "headquarters": {
+    "value": {
+      "city": "San Jose",
+      "state_or_province": "California",
+      "country": "United States",
+      "address": "399 W. Trimble Rd., San Jose, CA, 95131"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 77,
+        "line_end": 78,
+        "url": "https://www.cepton.com",
+        "page_class": "homepage",
+        "snippet": "399 W. Trimble Rd.,\nSan Jose, CA, 95131"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0081",
+        "line_start": 58,
+        "line_end": 59,
+        "url": "https://www.cepton.com/products/nova",
+        "page_class": "product",
+        "snippet": "_Award-winning, widely deployed near-range lidar, powered by Cepton's\nOEM-validated Micro Motion Technology (MMT\u00ae)_"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 63,
+        "line_end": 63,
+        "url": "https://www.cepton.com",
+        "page_class": "homepage",
+        "snippet": "Patented, OEM-validated technology"
+      }
+    ],
+    "notes": "Cepton sells OEM-validated LiDAR sensors that function as components for integration into various platforms. Blog content notes UAV applications (mapping, agriculture). Primary market is automotive ADAS, but sensors are suitable as drone navigation/sensing components."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Vista\u00ae Ultra",
+        "product_type": "long-range LiDAR sensor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0079",
+            "line_start": 60,
+            "line_end": 62,
+            "url": "https://www.cepton.com/products-overview",
+            "page_class": "product",
+            "snippet": "### Vista\u00ae Ultra\nLONG RANGE\n_Adaptive, powerful, the ultimate all-in-one lidar for ADAS and autonomous driving._"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Nova Ultra",
+        "product_type": "near-range LiDAR sensor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0079",
+            "line_start": 65,
+            "line_end": 67,
+            "url": "https://www.cepton.com/products-overview",
+            "page_class": "product",
+            "snippet": "### Nova Ultra\nNEAR RANGE\n_Embeddable, scalable, the versatile fit-for-all lidar for smart vehicles, systems and spaces._"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Nova",
+        "product_type": "near-range LiDAR sensor (previous generation)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0081",
+            "line_start": 56,
+            "line_end": 59,
+            "url": "https://www.cepton.com/products/nova",
+            "page_class": "product",
+            "snippet": "Nova\n====\n_Award-winning, widely deployed near-range lidar, powered by Cepton's\nOEM-validated Micro Motion Technology (MMT\u00ae)_"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Helius\u00ae",
+        "product_type": "Smart LiDAR system with perception software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0080",
+            "line_start": 55,
+            "line_end": 57,
+            "url": "https://www.cepton.com/products/helius",
+            "page_class": "product",
+            "snippet": "Helius\u00ae\n=======\n_The Helius Smart Lidar System combines Cepton's state-of-the-art lidar technology with aperception software to provide intelligent, anonymized 3D perception._"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "StudioViz\u2122",
+        "product_type": "LiDAR data simulator software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0079",
+            "line_start": 92,
+            "line_end": 94,
+            "url": "https://www.cepton.com/products-overview",
+            "page_class": "product",
+            "snippet": "StudioViz\u2122\n==========\nA powerful virtual tool for data visualization, performance validation and solution customization, helping expedite lidar adoption from productization to deployment."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 63,
+        "line_end": 65,
+        "url": "https://www.cepton.com",
+        "page_class": "homepage",
+        "snippet": "Patented, OEM-validated technology\nDesigned for seamless integration\nScalable for mass-market deployment"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0081",
+        "line_start": 58,
+        "line_end": 59,
+        "url": "https://www.cepton.com/products/nova",
+        "page_class": "product",
+        "snippet": "_Award-winning, widely deployed near-range lidar, powered by Cepton's\nOEM-validated Micro Motion Technology (MMT\u00ae)_"
+      }
+    ],
+    "notes": "Products are OEM-validated, described as 'widely deployed,' and marketed for mass-market deployment at scale."
+  },
+  "unresolved_questions": [
+    "Cepton's primary market is automotive ADAS; drone-specific adoption is noted in blog content but no dedicated drone product page exists in corpus.",
+    "NDAA Section 848/889 compliance status not disclosed.",
+    "Blue UAS listing not mentioned anywhere in corpus."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.cepton.com/company-2024/about-us",
+      "reason": "About-us page was skipped (skipped_class_budget). Would provide company mission, market focus, and potentially explicit drone/UAV references that could raise role confidence to high.",
+      "expected_evidence": [
+        "drone_supply_chain_role",
+        "headquarters",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.cepton.com/products/vista-ultra",
+      "reason": "Vista Ultra dedicated product page not fetched; would confirm application verticals (including drone vs. automotive) to sharpen drone supply chain role classification.",
+      "expected_evidence": [
+        "products",
+        "drone_supply_chain_role",
+        "products_categories"
+      ],
+      "source_hint": "linked from resource-0001 and resource-0002 navigation",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "tagline": "Designs and manufactures solid-state lidar sensors (Nova, Nova Ultra, Vista Ultra) and edge-compute perception software (Helius) for autonomous vehicles and smart infrastructure. Production-ready systems leverage patented MMT and MagnoSteer technologies for near and long-range 3D sensing. NDAA compliance and Blue UAS certification status not publicly confirmed; limited public evidence of U.S. defense or UAS program integration to date.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 20,
+    "total_cost_usd": 0.43867685,
+    "created_at": "2026-05-05T19:02:08+00:00",
+    "extract_version": "0.1.0"
+  }
+}

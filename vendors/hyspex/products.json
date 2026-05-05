@@ -1,0 +1,433 @@
+{
+  "target_id": "hyspex",
+  "run_id": "canonical",
+  "display_name": "HySpex",
+  "homepage_url": "https://www.hyspex.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/hyspex/website",
+  "products": [
+    {
+      "name": "HySpex VNIR-1800",
+      "category": "isr_payloads",
+      "descriptor": "VNIR hyperspectral pushbroom camera, 1800 spatial pixels",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0038",
+          "line_start": 93,
+          "line_end": 94,
+          "url": "https://www.hyspex.com/hyspex-products",
+          "page_class": "product",
+          "snippet": "### HySpex VNIR-1800\n[See Product](/hyspex-products/hyspex-classic/vnir-1800)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "HySpex VNIR-3000 N",
+      "category": "isr_payloads",
+      "descriptor": "VNIR hyperspectral pushbroom camera, 3000 spatial pixels",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0038",
+          "line_start": 96,
+          "line_end": 97,
+          "url": "https://www.hyspex.com/hyspex-products",
+          "page_class": "product",
+          "snippet": "### HySpex VNIR-3000 N\n[See Product](/hyspex-products/hyspex-classic/vnir-3000-n)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "HySpex SWIR-384",
+      "category": "isr_payloads",
+      "descriptor": "SWIR hyperspectral pushbroom camera, 384 spatial pixels",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0038",
+          "line_start": 99,
+          "line_end": 100,
+          "url": "https://www.hyspex.com/hyspex-products",
+          "page_class": "product",
+          "snippet": "### HySpex SWIR-384\n[See Product](/hyspex-products/hyspex-classic/hyspex-swir-384)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "HySpex SWIR-640",
+      "category": "isr_payloads",
+      "descriptor": "SWIR hyperspectral pushbroom camera, 640 spatial pixels",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0038",
+          "line_start": 102,
+          "line_end": 103,
+          "url": "https://www.hyspex.com/hyspex-products",
+          "page_class": "product",
+          "snippet": "### HySpex SWIR-640\n[See Product](/hyspex-products/hyspex-classic/swir-640)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "HySpex VS-1200",
+      "category": "isr_payloads",
+      "descriptor": "Combined VNIR+SWIR hyperspectral pushbroom camera, Classic series",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0038",
+          "line_start": 105,
+          "line_end": 106,
+          "url": "https://www.hyspex.com/hyspex-products",
+          "page_class": "product",
+          "snippet": "### HySpex VS-1200\n[See Product](/hyspex-products/hyspex-classic/vs-1200)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "HySpex Mjolnir V-1240",
+      "category": "isr_payloads",
+      "descriptor": "Lightweight UAV/airborne VNIR hyperspectral camera, 1240 spatial pixels",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0038",
+          "line_start": 110,
+          "line_end": 111,
+          "url": "https://www.hyspex.com/hyspex-products",
+          "page_class": "product",
+          "snippet": "### HySpex Mjolnir V-1240\n[See Product](/hyspex-products/hyspex-mjolnir/mjolnir-v-1240)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "HySpex Mjolnir S-620",
+      "category": "isr_payloads",
+      "descriptor": "Lightweight UAV/airborne SWIR hyperspectral camera, 620 spatial pixels",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0038",
+          "line_start": 113,
+          "line_end": 114,
+          "url": "https://www.hyspex.com/hyspex-products",
+          "page_class": "product",
+          "snippet": "### HySpex Mjolnir S-620\n[See Product](/hyspex-products/hyspex-mjolnir/mjolnir-s-620)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "HySpex Mjolnir VS-620",
+      "category": "isr_payloads",
+      "descriptor": "Lightweight UAV/airborne combined VNIR+SWIR hyperspectral camera, 620 spatial pixels",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0038",
+          "line_start": 116,
+          "line_end": 117,
+          "url": "https://www.hyspex.com/hyspex-products",
+          "page_class": "product",
+          "snippet": "### HySpex Mjolnir VS-620\n[See Product](/hyspex-products/hyspex-mjolnir/mjolnir-vs-620)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "HySpex Mjolnir OEM",
+      "category": "isr_payloads",
+      "descriptor": "OEM board-level hyperspectral imaging module for system integration",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0038",
+          "line_start": 119,
+          "line_end": 120,
+          "url": "https://www.hyspex.com/hyspex-products",
+          "page_class": "product",
+          "snippet": "### HySpex Mjolnir OEM\n[See Product](/hyspex-products/hyspex-mjolnir/mjolnir-oem-data-sheets)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "HySpex Mjolnir IP65",
+      "category": "isr_payloads",
+      "descriptor": "IP65-rated ruggedized Mjolnir hyperspectral camera for harsh environments",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0032",
+          "line_start": 103,
+          "line_end": 104,
+          "url": "https://www.hyspex.com/hyspex-custom-solutions",
+          "page_class": "capability",
+          "snippet": "### HySpex Mjolnir IP65\n[Read More](/hyspex-custom-solutions/hyspex-mjolnir-ip-version)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "HySpex Baldur V-1024 N",
+      "category": "isr_payloads",
+      "descriptor": "VNIR hyperspectral camera for industrial and lab applications, 1024 spatial pixels",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0038",
+          "line_start": 124,
+          "line_end": 125,
+          "url": "https://www.hyspex.com/hyspex-products",
+          "page_class": "product",
+          "snippet": "### HySpex Baldur V-1024 N\n[See Product](/hyspex-products/hyspex-baldur/baldur-v-1024-n)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "HySpex Baldur S-640i N",
+      "category": "isr_payloads",
+      "descriptor": "SWIR hyperspectral camera for industrial and lab applications, 640 spatial pixels",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0038",
+          "line_start": 127,
+          "line_end": 128,
+          "url": "https://www.hyspex.com/hyspex-products",
+          "page_class": "product",
+          "snippet": "### HySpex Baldur S-640i N\n[See Product](/hyspex-products/hyspex-baldur/baldur-s-640i-n)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "HySpex Baldur S-384 N",
+      "category": "isr_payloads",
+      "descriptor": "SWIR hyperspectral camera for industrial and lab applications, 384 spatial pixels",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0038",
+          "line_start": 130,
+          "line_end": 131,
+          "url": "https://www.hyspex.com/hyspex-products",
+          "page_class": "product",
+          "snippet": "### HySpex Baldur S-384 N\n[See Product](/hyspex-products/hyspex-baldur/baldur-s-384-n)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "ATCOR 4 \u2013 for Airborne Remote Sensing Systems",
+      "category": "ground_segment",
+      "descriptor": "Atmospheric correction software for airborne hyperspectral remote sensing data",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0038",
+          "line_start": 138,
+          "line_end": 139,
+          "url": "https://www.hyspex.com/hyspex-products",
+          "page_class": "product",
+          "snippet": "### ATCOR 4 - for Airborne Remote Sensing Systems\n[Read More](/hyspex-products/hyspex-processing-software/atcor-4)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "HySpex Bifrost",
+      "category": "ground_segment",
+      "descriptor": "Hyperspectral data processing and visualization software for HySpex sensors",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0038",
+          "line_start": 144,
+          "line_end": 145,
+          "url": "https://www.hyspex.com/hyspex-products",
+          "page_class": "product",
+          "snippet": "### HySpex Bifrost\n[Read More](/hyspex-products/hyspex-processing-software/hyspex-bifrost)"
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "Individual product detail pages for all 15 products were skipped_budget during mirroring, so spectral range specs, weight, dimensions, and any product-level NDAA/compliance claims could not be verified from the corpus. All 15 products were confirmed from navigation and product-listing pages only.",
+    "HySpex Mjolnir IP65 appears under Custom Solutions rather than the main product catalog, suggesting it may be a configurable/engineered-to-order offering rather than a standard catalog SKU; readiness marked production but could be low_rate_production pending detail page confirmation.",
+    "ATCOR 4 is a third-party software (originally from DLR/ReSe) distributed by HySpex \u2014 ownership/licensing relationship not determinable from the corpus."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.hyspex.com/hyspex-products/hyspex-mjolnir/mjolnir-vs-620",
+      "reason": "Product detail page for Mjolnir VS-620 would confirm spectral range, weight, and any compliance claims",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.hyspex.com/hyspex-products/hyspex-mjolnir/mjolnir-v-1240",
+      "reason": "Product detail page for Mjolnir V-1240 would confirm spectral range and UAV integration specs",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.hyspex.com/hyspex-products/hyspex-mjolnir/mjolnir-s-620",
+      "reason": "Product detail page for Mjolnir S-620 would confirm spectral range and airborne readiness",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.hyspex.com/hyspex-products/hyspex-mjolnir/mjolnir-oem-data-sheets",
+      "reason": "OEM product page would clarify granularity (single SKU vs. family) and integration specs",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.hyspex.com/hyspex-custom-solutions/hyspex-mjolnir-ip-version",
+      "reason": "IP65 custom solution page would clarify readiness, configuration options, and any NDAA claims",
+      "expected_evidence": [
+        "products",
+        "ndaa",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_budget",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.hyspex.com/hyspex-products/hyspex-baldur/baldur-v-1024-n",
+      "reason": "Baldur V-1024 N product page would confirm spectral specs and any compliance claims",
+      "expected_evidence": [
+        "products",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.hyspex.com/hyspex-products/hyspex-baldur/baldur-s-640i-n",
+      "reason": "Baldur S-640i N product page would confirm spectral specs",
+      "expected_evidence": [
+        "products",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.hyspex.com/hyspex-products/hyspex-processing-software/hyspex-bifrost",
+      "reason": "Bifrost product page would clarify software capabilities and whether it is sold standalone or bundled",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.hyspex.com/hyspex-products/hyspex-processing-software/atcor-4",
+      "reason": "ATCOR 4 product page would clarify licensing, distribution model, and airborne-specific capabilities",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=product",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 28,
+    "total_cost_usd": 0.7189924,
+    "created_at": "2026-05-05T19:09:32+00:00",
+    "extract_version": "0.1.0"
+  }
+}

@@ -1,0 +1,341 @@
+{
+  "target_id": "specim",
+  "run_id": "canonical",
+  "display_name": "Specim",
+  "homepage_url": "https://www.specim.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/specim/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "isr_payloads",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0183",
+            "line_start": 150,
+            "line_end": 150,
+            "url": "https://www.specim.com/products",
+            "page_class": "product",
+            "snippet": "Specim airborne hyperspectral systems combine lightweight cameras, robust spectral calibration, and optimized optics for drones and aircraft."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0183",
+            "line_start": 151,
+            "line_end": 158,
+            "url": "https://www.specim.com/products",
+            "page_class": "product",
+            "snippet": "[](https://www.specim.com/products/specim-afx10/)\n![Specim AFX10 Hyperspectral Camera For Drones](https://www.specim.com/wp-content/uploads/2020/02/Products-Specim-AFX10-2.jpg \"Specim AFX10 Hyperspectral Camera For Drones\")\n**Specim AFX10**\nVNIR (400\u20131000 nm)\n[](https://www.specim.com/products/specim-afx17/)\n![Specim AFX17 Hyperspectral Camera For Drones](https://www.specim.com/wp-content/uploads/2020/03/Products-Specim-AFX17-2.jpg \"Specim AFX17 Hyperspectral Camera For Drones\")\n**Specim AFX17**\nNIR (900\u20131700 nm)"
+          }
+        ],
+        "notes": "Specim makes hyperspectral imaging cameras explicitly designed for drone/UAV mounting (AFX series, AisaFENIX). These are EO sensors used as airborne payloads for remote sensing."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Specim's core business is hyperspectral imaging cameras. Their AFX/AisaFENIX lines are specifically for drone/aircraft use. Industrial FX cameras also sold to OEMs and integrators for machine vision but primary UAS-relevant category is isr_payloads."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Oulu",
+      "state_or_province": null,
+      "country": "Finland",
+      "address": "Elektroniikkatie 13, FI-90590, Oulu, Finland"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0121",
+        "line_start": 40,
+        "line_end": 40,
+        "url": "https://www.specim.com/company/about-us",
+        "page_class": "company",
+        "snippet": "Specim was founded in 1995 and has been a part of the Konica Minolta Group since 2020. We operate globally. With headquarters in Oulu, Finland, sales offices in the US, China, Germany, and Spain, and an extensive distributor network, we can serve our customers locally and worldwide."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 98,
+        "line_end": 98,
+        "url": "https://www.specim.com",
+        "page_class": "homepage",
+        "snippet": "Elektroniikkatie 13, FI-90590, Oulu, Finland"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0183",
+        "line_start": 150,
+        "line_end": 150,
+        "url": "https://www.specim.com/products",
+        "page_class": "product",
+        "snippet": "Specim airborne hyperspectral systems combine lightweight cameras, robust spectral calibration, and optimized optics for drones and aircraft."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 36,
+        "line_end": 37,
+        "url": "https://www.specim.com",
+        "page_class": "homepage",
+        "snippet": "World-leading hyperspectral imaging cameras and systems\nfor industry, OEM, integrators, research & airborne users"
+      }
+    ],
+    "notes": "Specim designs and manufactures hyperspectral camera sensors for drone mounting. Their AFX10/AFX17 cameras are components that integrate into third-party UAV platforms. They explicitly target OEM builders and system integrators."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Specim AFX10",
+        "product_type": "VNIR hyperspectral camera for drones",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0183",
+            "line_start": 151,
+            "line_end": 154,
+            "url": "https://www.specim.com/products",
+            "page_class": "product",
+            "snippet": "[](https://www.specim.com/products/specim-afx10/)\n![Specim AFX10 Hyperspectral Camera For Drones](https://www.specim.com/wp-content/uploads/2020/02/Products-Specim-AFX10-2.jpg \"Specim AFX10 Hyperspectral Camera For Drones\")\n**Specim AFX10**\nVNIR (400\u20131000 nm)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Specim AFX17",
+        "product_type": "NIR hyperspectral camera for drones",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0183",
+            "line_start": 155,
+            "line_end": 158,
+            "url": "https://www.specim.com/products",
+            "page_class": "product",
+            "snippet": "[](https://www.specim.com/products/specim-afx17/)\n![Specim AFX17 Hyperspectral Camera For Drones](https://www.specim.com/wp-content/uploads/2020/03/Products-Specim-AFX17-2.jpg \"Specim AFX17 Hyperspectral Camera For Drones\")\n**Specim AFX17**\nNIR (900\u20131700 nm)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AisaFENIX",
+        "product_type": "Airborne VNIR/SWIR hyperspectral camera",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0183",
+            "line_start": 159,
+            "line_end": 163,
+            "url": "https://www.specim.com/products",
+            "page_class": "product",
+            "snippet": "[](https://www.specim.com/products/aisafenix/)\n![AisaFENIX Airborne Hyperspectral Camera](https://www.specim.com/wp-content/uploads/2020/03/Products-AisaFenix.jpg \"AisaFENIX Airborne Hyperspectral Camera\")\n**AisaFENIX**\nVNIR (380-970 nm)\nSWIR (970-2500 nm)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "AisaFENIX 1K",
+        "product_type": "Airborne VNIR/SWIR hyperspectral camera",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0183",
+            "line_start": 164,
+            "line_end": 168,
+            "url": "https://www.specim.com/products",
+            "page_class": "product",
+            "snippet": "[](https://www.specim.com/products/aisafenix-1k/)\n![AisaFENIX 1K Airborne Hyperspectral Camera](https://www.specim.com/wp-content/uploads/2020/03/Products-AisaFenix-1K.jpg \"AisaFENIX 1K Airborne Hyperspectal Camera\")\n**AisaFENIX 1K**\nVNIR (380-970 nm)\nSWIR (970-2500 nm)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Specim FX10",
+        "product_type": "VNIR hyperspectral camera for industrial machine vision",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0183",
+            "line_start": 84,
+            "line_end": 87,
+            "url": "https://www.specim.com/products",
+            "page_class": "product",
+            "snippet": "[](https://www.specim.com/products/specim-fx10/)\n![Specim FX10 Hyperspectral Camera](https://www.specim.com/wp-content/uploads/2020/02/Products-Specim-FX10-2.jpg \"Specim FX10 Hyperspectral Camera\")\n**Specim FX10**\nVNIR (400\u20131000 nm)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Specim FX17",
+        "product_type": "NIR hyperspectral camera for industrial machine vision",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0183",
+            "line_start": 88,
+            "line_end": 91,
+            "url": "https://www.specim.com/products",
+            "page_class": "product",
+            "snippet": "[](https://www.specim.com/products/specim-fx17/)\n![Specim FX17 Hyperspectral Camera](https://www.specim.com/wp-content/uploads/2020/03/Products-Specim-FX17-3.jpg \"Specim FX17 Hyperspectral Camera\")\n**Specim FX17**\nNIR (900\u20131700 nm)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SpecimONE",
+        "product_type": "Industrial spectral imaging platform",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0183",
+            "line_start": 70,
+            "line_end": 72,
+            "url": "https://www.specim.com/products",
+            "page_class": "product",
+            "snippet": "![](https://www.specim.com/wp-content/uploads/2023/05/SpecimONE-logo-1000px-White.png \"SpecimONE-logo-1000px-White\")\n#### **SPECTRAL IMAGING PLATFORM**\n#### Create industrial sorting and inspection solutions faster, cheaper, and easier than ever!"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Specim RETEX",
+        "product_type": "AI-powered hyperspectral textile recognition solution",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0183",
+            "line_start": 64,
+            "line_end": 65,
+            "url": "https://www.specim.com/products",
+            "page_class": "product",
+            "snippet": "#### Specim RETEX\n#### AI-powered hyperspectral textile recognition solution"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SisuROCK Workstation",
+        "product_type": "Automated hyperspectral imaging system for geology/drill cores",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0183",
+            "line_start": 172,
+            "line_end": 175,
+            "url": "https://www.specim.com/products",
+            "page_class": "product",
+            "snippet": "![SisuROCK Workstation](https://www.specim.com/wp-content/uploads/2020/03/Products-SisuROCK-3.jpg \"SisuROCK Workstation\")\n**SisuROCK Workstation**\n**SisuROCK Workstation**\nA fully automated hyperspectral imaging system that integrates hyperspectral cameras from visible to thermal range, an RGB camera, and a 3D imager to rapidly scan drill cores and geological samples for precise mineral identification and compositional analysis."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SpecimINSIGHT",
+        "product_type": "Hyperspectral imaging software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0183",
+            "line_start": 180,
+            "line_end": 181,
+            "url": "https://www.specim.com/products",
+            "page_class": "product",
+            "snippet": "![SpecimINSIGHT](https://www.specim.com/wp-content/uploads/2020/10/Products-Insight-2.jpg \"SpecimINSIGHT\")\n**SpecimINSIGHT**"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Many more product SKUs exist (FX50, FX120, GX17, FX19, SX25, Fenix, ImSpector spectrographs, Lumo/CaliGeo software, accessories) but airborne/drone-relevant products captured above."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0121",
+        "line_start": 37,
+        "line_end": 37,
+        "url": "https://www.specim.com/company/about-us",
+        "page_class": "company",
+        "snippet": "Specim is the leading global supplier of hyperspectral imaging solutions."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 104,
+        "line_end": 104,
+        "url": "https://www.specim.com",
+        "page_class": "homepage",
+        "snippet": "[![](https://www.specim.com/wp-content/uploads/2024/01/BVCER_SansQR-ISO-9001-200x72.png)](https://www.specim.com/wp-content/uploads/2023/11/Specim-Spectral-Imaging-Oy-ISO-9001-ENG-2023.pdf)"
+      }
+    ],
+    "notes": "Specim offers a broad catalog of named SKUs sold to OEMs and integrators worldwide, ISO 9001 certified. No custom/prototype-only posture; serial production of camera lines."
+  },
+  "unresolved_questions": [
+    "NDAA Section 848/889 compliance status not disclosed on site (Finnish company, Konica Minolta subsidiary)",
+    "Blue UAS cleared list status not disclosed",
+    "Full airborne systems product page (specim.com/airborne/) was skipped \u2014 may contain additional airborne SKUs or drone-specific specs"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.specim.com/airborne/",
+      "reason": "Would confirm full list of UAV/airborne hyperspectral camera SKUs, specs, and any NDAA/compliance language specific to drone payload products.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "ndaa"
+      ],
+      "source_hint": "guessed from site nav \u2014 linked as 'Airborne systems' in product menu of all fetched pages",
+      "in_corpus_index": false
+    }
+  ],
+  "status": "complete",
+  "tagline": "Finnish manufacturer of hyperspectral imaging cameras spanning VNIR through LWIR (400 nm\u201312.3 \u03bcm), with airborne systems (AisaFENIX series) and compact drone payloads (AFX10/AFX17). Production-ready across industrial line-scan, laboratory, and field variants. NDAA status and U.S. defense integration unknown; public evidence does not indicate Blue UAS certification or named U.S. military programs.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 11,
+    "total_cost_usd": 0.3147266,
+    "created_at": "2026-05-05T19:02:32+00:00",
+    "extract_version": "0.1.0"
+  }
+}

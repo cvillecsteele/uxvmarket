@@ -1,0 +1,293 @@
+{
+  "target_id": "innoviz",
+  "run_id": "canonical",
+  "display_name": "Innoviz",
+  "homepage_url": "https://innoviz.tech",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/innoviz/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "sensors_and_navigation",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0014",
+            "line_start": 216,
+            "line_end": 216,
+            "url": "https://innoviz.tech/about",
+            "page_class": "company",
+            "snippet": "Innoviz is a leading manufacturer of high-performance LiDAR sensors and Perception Software that bring vision to the automotive, drone, logistics, sidewalk delivery and other industries."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0084",
+            "line_start": 226,
+            "line_end": 226,
+            "url": "https://innoviz.tech/lidar-technology",
+            "page_class": "capability",
+            "snippet": "**Innoviz has developed two high-performance automotive-grade solid-state [LiDAR sensors](https://innoviz.tech/lidar-sensors), plus industry-leading [perception software](https://innoviz.tech/perception-software).**"
+          }
+        ],
+        "notes": "LiDAR sensors (InnovizOne, InnovizTwo family, InnovizThree, InnovizSMART) plus perception software. Explicitly sold for drone/aerial applications."
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "Aerial application (drones) listed alongside automotive, robotics, security on site nav. InnovizTwo explicitly mentioned for industrial drones in the LiDAR technology page."
+  },
+  "headquarters": {
+    "value": {
+      "city": "Rosh Ha'ayin",
+      "state_or_province": null,
+      "country": "Israel",
+      "address": "5 Uri Ariav st., Building C, Nitzba 300, Rosh Ha'ayin 4809202"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 420,
+        "line_end": 422,
+        "url": "https://innoviz.tech",
+        "page_class": "homepage",
+        "snippet": "*   [Innoviz Technologies Ltd - HQ 5 Uri Ariav st.\n    Building C, Nitzba 300\n    Rosh Ha'ayin 4809202, Israel](https://goo.gl/maps/A6C7rajqgWXNGwdZ9)"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0014",
+        "line_start": 216,
+        "line_end": 216,
+        "url": "https://innoviz.tech/about",
+        "page_class": "company",
+        "snippet": "Innoviz is a leading manufacturer of high-performance LiDAR sensors and Perception Software that bring vision to the automotive, drone, logistics, sidewalk delivery and other industries."
+      }
+    ],
+    "notes": "Sells LiDAR sensor components used in industrial drones, alongside automotive and other markets. Does not manufacture drones."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "InnovizOne",
+        "product_type": "automotive-grade solid-state LiDAR sensor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 428,
+            "line_end": 428,
+            "url": "https://innoviz.tech",
+            "page_class": "homepage",
+            "snippet": "*   [InnovizOne\u2122](https://innoviz.tech/innovizone)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "InnovizTwo Long-Range",
+        "product_type": "automotive-grade solid-state LiDAR sensor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 429,
+            "line_end": 429,
+            "url": "https://innoviz.tech",
+            "page_class": "homepage",
+            "snippet": "*   [InnovizTwo Long-Range](https://innoviz.tech/innoviztwo-long-range)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "InnovizTwo Short- to Mid-Range",
+        "product_type": "automotive-grade solid-state LiDAR sensor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 430,
+            "line_end": 430,
+            "url": "https://innoviz.tech",
+            "page_class": "homepage",
+            "snippet": "*   [InnovizTwo Short- to Mid-Range](https://innoviz.tech/innoviztwo-mid-range)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "InnovizTwo Ultra Long-Range",
+        "product_type": "solid-state LiDAR sensor, up to 1km range",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 431,
+            "line_end": 431,
+            "url": "https://innoviz.tech",
+            "page_class": "homepage",
+            "snippet": "*   [InnovizTwo Ultra Long-Range](https://innoviz.tech/innoviztwo-ultra-long-range)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "InnovizThree",
+        "product_type": "solid-state LiDAR sensor",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 432,
+            "line_end": 432,
+            "url": "https://innoviz.tech",
+            "page_class": "homepage",
+            "snippet": "*   [InnovizThree](https://innoviz.tech/innovizthree)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "InnovizSMART",
+        "product_type": "LiDAR sensor for smart/aerial/security applications",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 433,
+            "line_end": 433,
+            "url": "https://innoviz.tech",
+            "page_class": "homepage",
+            "snippet": "*   [InnovizSMART](https://innoviz.tech/innovizsmart)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Perception Software",
+        "product_type": "AI-based object detection and classification software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0084",
+            "line_start": 226,
+            "line_end": 226,
+            "url": "https://innoviz.tech/lidar-technology",
+            "page_class": "capability",
+            "snippet": "**Innoviz has developed two high-performance automotive-grade solid-state [LiDAR sensors](https://innoviz.tech/lidar-sensors), plus industry-leading [perception software](https://innoviz.tech/perception-software).**"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Product pages for InnovizSMART, InnovizThree were skipped in crawl. Full specs may differ."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "low",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0014",
+        "line_start": 219,
+        "line_end": 219,
+        "url": "https://innoviz.tech/about",
+        "page_class": "company",
+        "snippet": "Innoviz is the first LiDAR provider to be selected by a major automaker (BMW) for the mass-production of Level 3-5 autonomous vehicles, as well as several partnerships with the world\u2019s leading Tier 1 automotive suppliers, like HARMAN, HiRain, Magna and Aptiv. Innoviz is backed by top-tier strategic partners and investors."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0084",
+        "line_start": 258,
+        "line_end": 258,
+        "url": "https://innoviz.tech/lidar-technology",
+        "page_class": "capability",
+        "snippet": "Innoviz has partnered with Tier 1 suppliers to improve the production of its solid-state LiDAR sensors made of mostly semiconductor components (primarily chips), which lowers cost and increases performance and reliability."
+      }
+    ],
+    "notes": "Mass production with BMW for Level 3-5 autonomous vehicles. ISO9001:2015 certified. Tier 1 supplier partnerships for scaled manufacturing."
+  },
+  "unresolved_questions": [
+    "NDAA Section 848/889 compliance not addressed on site",
+    "Blue UAS listing status unknown",
+    "InnovizSMART and InnovizThree product pages not fetched; full drone-specific specs unknown",
+    "April 2026 defense entry press release content not fetched"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://innoviz.tech/certifications-downloads",
+      "reason": "Compliance page likely contains certification details including any NDAA or government compliance claims. Skipped in current crawl.",
+      "expected_evidence": [
+        "ndaa",
+        "blue_uas"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=compliance",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://innoviz.tech/applications/lidar-for-aerial",
+      "reason": "Aerial/drone application page would confirm drone-specific use cases, product models used in drones, and LiDAR specs for UAV.",
+      "expected_evidence": [
+        "products_categories",
+        "products",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://innoviz.tech/innovizsmart",
+      "reason": "InnovizSMART product page would confirm specs, pricing tier, and drone/aerial use cases for this specific SKU.",
+      "expected_evidence": [
+        "products",
+        "products_categories"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Israeli solid-state LiDAR sensor manufacturer producing automotive-grade units (InnovizOne through InnovizThree) with ranges from 250 m to 1 km, plus complementary AI/ML perception software and SMART/security applications. NDAA and Blue UAS certification status unknown; public evidence of US defense adoption or integration remains thin.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 25,
+    "total_cost_usd": 0.6318821499999998,
+    "created_at": "2026-05-05T18:56:45+00:00",
+    "extract_version": "0.1.0"
+  }
+}

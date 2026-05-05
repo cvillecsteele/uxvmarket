@@ -1,0 +1,394 @@
+{
+  "target_id": "new-imaging-technologies",
+  "run_id": "canonical",
+  "display_name": "New Imaging Technologies",
+  "homepage_url": "https://new-imaging-technologies.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/new-imaging-technologies/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "isr_payloads",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 34,
+            "line_end": 34,
+            "url": "https://new-imaging-technologies.com",
+            "page_class": "homepage",
+            "snippet": "NIT designs and manufactures SWIR InGaAs sensors & cameras"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 60,
+            "line_end": 60,
+            "url": "https://new-imaging-technologies.com",
+            "page_class": "homepage",
+            "snippet": "Ideal for **ISR** and **semiconductor inspection** **applications**."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0076",
+            "line_start": 49,
+            "line_end": 49,
+            "url": "https://new-imaging-technologies.com/news/swir-drone-based-inspection",
+            "page_class": "news",
+            "snippet": "**New Imaging Technologies (NIT)**, part of [LYNRED](https://www.lynred.com/), a leading designer and manufacturer of **high-performance SWIR InGaAs sensors and cameras**, supports this application with a complete range of **lightweight**, **high-resolution SWIR imaging solutions optimized for UAV integration.**"
+          }
+        ],
+        "notes": "Designs and manufactures SWIR InGaAs cameras and sensors explicitly used for ISR, security/surveillance, airborne fire-fighting, and UAV integration. CMOS cameras (MC1003, MN1003, MC1105F) are additional EO imaging products."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Verri\u00e8res-le-Buisson",
+      "state_or_province": "\u00cele-de-France",
+      "country": "France",
+      "address": "1 impasse de la Noisette, 91370 Verri\u00e8res-le-Buisson"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0014",
+        "line_start": 51,
+        "line_end": 54,
+        "url": "https://new-imaging-technologies.com/contact",
+        "page_class": "contact",
+        "snippet": "**New Imaging Technologies (NIT)**\n1 impasse de la Noisette\n91370 Verri\u00e8res le Buisson \u2013 France\nTel: +33 1 64 47 88 58"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0076",
+        "line_start": 87,
+        "line_end": 87,
+        "url": "https://new-imaging-technologies.com/news/swir-drone-based-inspection",
+        "page_class": "news",
+        "snippet": "*   Ideal for **OEM drone payload developers**"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0076",
+        "line_start": 94,
+        "line_end": 94,
+        "url": "https://new-imaging-technologies.com/news/swir-drone-based-inspection",
+        "page_class": "news",
+        "snippet": "With its complete portfolio of SWIR sensors, modules, and cameras, NIT supports UAV manufacturers, system integrators, and solar inspection specialists in deploying reliable, high-performance aerial inspection solutions."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0076",
+        "line_start": 77,
+        "line_end": 80,
+        "url": "https://new-imaging-technologies.com/news/swir-drone-based-inspection",
+        "page_class": "news",
+        "snippet": "*   **Naked sensor modules** and **board-level SWIR cameras**\n*   Lightweight and compact form factors\n*   Easy integration into custom gimbals or payloads\n*   Optimized for **embedded vision and aerial platforms**"
+      }
+    ],
+    "notes": "NIT sells EO/IR cameras and bare InGaAs sensors to UAV manufacturers and system integrators for integration into drone payloads. Products are components/modules that go into customer-built payload pods rather than complete payload subsystems with housings/gimbals."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "SenS 1920",
+        "product_type": "Full HD SWIR InGaAs camera",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 54,
+            "line_end": 57,
+            "url": "https://new-imaging-technologies.com",
+            "page_class": "homepage",
+            "snippet": "**SenS 1920**\n-------------\n*   **Full HD SWIR camera (1920x1080px@8\u00b5m pixel pitch)**\n*   **High sensitivity, ultra-low noise 25e-**"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SenS 1280",
+        "product_type": "HD SWIR InGaAs camera",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 77,
+            "line_end": 78,
+            "url": "https://new-imaging-technologies.com",
+            "page_class": "homepage",
+            "snippet": "**SenS 1280 \u2013 Smart version**\n-----------------------------"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "WiDy SenS 640",
+        "product_type": "HDR SWIR InGaAs camera with SDI output",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 88,
+            "line_end": 91,
+            "url": "https://new-imaging-technologies.com",
+            "page_class": "homepage",
+            "snippet": "**WiDy SenS 640 with SDI output**\n---------------------------------\nThe **WiDy SenS 640H-STE** provides straightforward **digital video SDI output** interfacing with the most current electronic **video platforms**.\nIdeal for **airborne fire fighting**, **search and rescue**, and **agricultural mapping**."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "WiDy SenS 320",
+        "product_type": "QVGA SWIR InGaAs camera",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 65,
+            "line_end": 69,
+            "url": "https://new-imaging-technologies.com",
+            "page_class": "homepage",
+            "snippet": "**WiDy SenS 320**\n-----------------\n*   QVGA SWIR camera\n*   Unique dual-response mode **HDR & High sensitivity,**\n*   delivering **up to 10kHz (ROI), 1kHz full frame**"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "WiDy SWIR 640",
+        "product_type": "SWIR InGaAs camera",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 10,
+            "line_end": 10,
+            "url": "https://new-imaging-technologies.com",
+            "page_class": "homepage",
+            "snippet": "        *   [WiDy SWIR 640](https://new-imaging-technologies.com/product/widy-swir-640/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "WiDy NaNo 640",
+        "product_type": "Compact SWIR InGaAs camera (board-level UAV module)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 11,
+            "line_end": 11,
+            "url": "https://new-imaging-technologies.com",
+            "page_class": "homepage",
+            "snippet": "        *   [WiDy NaNo 640](https://new-imaging-technologies.com/product/widy-nano-640/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HiPe SenS 640",
+        "product_type": "High-performance SWIR InGaAs camera",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 97,
+            "line_end": 99,
+            "url": "https://new-imaging-technologies.com",
+            "page_class": "homepage",
+            "snippet": "-----------------\nHigh-performance SWIR camera with **low noise**, **high sensitivity**, and **long exposure time** with simple **air cooling**.\nBest performance and lowest price of its class for **scientific** and **medical applications**."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "LiSaSWIR 2048",
+        "product_type": "Line-scan SWIR InGaAs camera",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 40,
+            "line_end": 43,
+            "url": "https://new-imaging-technologies.com",
+            "page_class": "homepage",
+            "snippet": "**LiSaSWIR 2048 v2**\n--------------------\n**Line-scan** array camera with **2048 pixels** for industrial inspection.\n**High-speed & High-performance**"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "NSC1601",
+        "product_type": "SWIR InGaAs bare sensor (VGA, up to 120 dB HDR)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 14,
+            "line_end": 15,
+            "url": "https://new-imaging-technologies.com",
+            "page_class": "homepage",
+            "snippet": "    *   SWIR InGaAs Sensors\n        *   [NSC1601](https://new-imaging-technologies.com/product/nsc1601/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MC1003",
+        "product_type": "HDR CMOS camera (140 dB)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0013",
+            "line_start": 44,
+            "line_end": 45,
+            "url": "https://new-imaging-technologies.com/cmos-products",
+            "page_class": "product",
+            "snippet": "[MC1003](https://new-imaging-technologies.com/product/mc1003/ \"MC1003\")\n**HDR CMOS camera**"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MN1003",
+        "product_type": "HDR CMOS miniature camera",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0013",
+            "line_start": 65,
+            "line_end": 66,
+            "url": "https://new-imaging-technologies.com/cmos-products",
+            "page_class": "product",
+            "snippet": "[MN1003](https://new-imaging-technologies.com/product/mn1003/ \"MN1003\")\n**HDR CMOS Miniature Camera**"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "MC1105F",
+        "product_type": "Intensified night vision module (CMOS, OEM)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0013",
+            "line_start": 84,
+            "line_end": 85,
+            "url": "https://new-imaging-technologies.com/cmos-products",
+            "page_class": "product",
+            "snippet": "[MC1105F](https://new-imaging-technologies.com/product/mc1105f/ \"MC1105F\")\nCompact and low-power night vision module dedicated to intensified solutions."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Additional individual product pages were skipped in the crawl; more SKU variants may exist."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "NIT is a French company (LYNRED subsidiary). No NDAA Sec. 848/889 claim in corpus. Footer shows 'Made in France' logo."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS or Blue sUAS mention in the corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 6,
+        "line_end": 13,
+        "url": "https://new-imaging-technologies.com",
+        "page_class": "homepage",
+        "snippet": "        *   [SenS 1920](https://new-imaging-technologies.com/product/sens-1920/)\n        *   [SenS 1280](https://new-imaging-technologies.com/product/sens-1280/)\n        *   [WiDy SenS 640](https://new-imaging-technologies.com/product/widy-sens-640/)\n        *   [WiDy SenS 320](https://new-imaging-technologies.com/product/widy-sens-320/)\n        *   [WiDy SWIR 640](https://new-imaging-technologies.com/product/widy-swir-640/)\n        *   [WiDy NaNo 640](https://new-imaging-technologies.com/product/widy-nano-640/)\n        *   [HiPe SenS 640](https://new-imaging-technologies.com/product/hipe-sens-640/)\n        *   [LiSaSWIR 2048](https://new-imaging-technologies.com/product/lisaswir-2048/)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0013",
+        "line_start": 44,
+        "line_end": 45,
+        "url": "https://new-imaging-technologies.com/cmos-products",
+        "page_class": "product",
+        "snippet": "[MC1003](https://new-imaging-technologies.com/product/mc1003/ \"MC1003\")\n**HDR CMOS camera**"
+      }
+    ],
+    "notes": "Multiple catalog SKUs with detailed specs listed. News confirms new models 'available for order' and 'ready for commercial deployment'."
+  },
+  "unresolved_questions": [
+    "NDAA Sec. 848/889 compliance status not disclosed on site",
+    "Individual SWIR camera product pages were skipped \u2014 detailed drone-specific specs not fully confirmed"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://new-imaging-technologies.com/about-us",
+      "reason": "Would confirm corporate history, LYNRED parent relationship, and any US operations or compliance claims relevant to NDAA and drone_supply_chain_role classification.",
+      "expected_evidence": [
+        "headquarters",
+        "drone_supply_chain_role",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://new-imaging-technologies.com/product/widy-nano-640",
+      "reason": "WiDy NaNo 640 is specifically described for tight UAV integrations; product page would confirm SWaP specs and whether it ships as a complete payload module or bare board, clarifying component_supplier vs subsystem_supplier role.",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=homepage",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "French SWIR InGaAs and HDR CMOS camera manufacturer producing airborne-ready payloads (SenS 1920 Full HD, WiDy series VGA\u2013QVGA, line-scan LiSaSWIR 2048) in production. NDAA and Blue UAS certification status unknown. Public evidence emphasizes industrial and scientific applications; UAV/ISR positioning cited on homepage but limited open contract or program data; no U.S. supply-chain footprint evident.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 19,
+    "total_cost_usd": 0.5793612000000001,
+    "created_at": "2026-05-05T19:06:14+00:00",
+    "extract_version": "0.1.0"
+  }
+}

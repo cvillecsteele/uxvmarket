@@ -1,0 +1,405 @@
+{
+  "target_id": "lynred",
+  "run_id": "canonical",
+  "display_name": "Lynred",
+  "homepage_url": "https://www.lynred.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/lynred/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "isr_payloads",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0035",
+            "line_start": 67,
+            "line_end": 67,
+            "url": "https://www.lynred.com/applications/unmanned-vehicle-systems-defense",
+            "page_class": "capability",
+            "snippet": "LYNRED, a global leader in developing and manufacturing solution for Unmanned vehicle systems"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0035",
+            "line_start": 70,
+            "line_end": 70,
+            "url": "https://www.lynred.com/applications/unmanned-vehicle-systems-defense",
+            "page_class": "capability",
+            "snippet": "**Drones play a vital role in critical missions, supporting surveillance, reconnaissance, targeting, and logistics. Thermal imaging isn\u2019t just an enhancement, it\u2019s essential for success in challenging environments.**"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0035",
+            "line_start": 71,
+            "line_end": 73,
+            "url": "https://www.lynred.com/applications/unmanned-vehicle-systems-defense",
+            "page_class": "capability",
+            "snippet": "LYNRED infrared solutions bring your thermal systems to life with the introduction of two new solutions:\n\u00a0\u2022 Cooled detectors on the PlugUp platform\n\u00a0\u2022 Advanced Thermal Imager (ATI) modules"
+          }
+        ],
+        "notes": "Thermal infrared (IR) detectors and thermal imager modules (ATI, ATTO, GALATEA, SEEGNUS product lines) used in drone and defense ISR applications for surveillance, reconnaissance, and targeting."
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Veurey-Voroize",
+      "state_or_province": null,
+      "country": "France",
+      "address": "364 Avenue de Valence, Actipole CS 10021"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0058",
+        "line_start": 63,
+        "line_end": 66,
+        "url": "https://www.lynred.com/contact",
+        "page_class": "contact",
+        "snippet": "#### Grenoble\n364 Avenue de Valence,\nActipole CS 10021\n38113 Veurey-Voroize,\u00a0France"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0058",
+        "line_start": 103,
+        "line_end": 106,
+        "url": "https://www.lynred.com/contact",
+        "page_class": "contact",
+        "snippet": "##### HEADQUARTERS, DEVELOPMENT & PRODUCTION\n364 Avenue de Valence,\nActipole CS 10021\n38113 Veurey-Voroize France"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0132",
+        "line_start": 79,
+        "line_end": 79,
+        "url": "https://www.lynred.com/products/ati320",
+        "page_class": "product",
+        "snippet": "**The Advanced Thermal Imager ATI320** provides **a versatile and efficient solution** for various thermal imaging applications.\u00a0Specifically engineered **for high-volume integration and automated handling**, the ATI320 offers camera makers unparalleled performance in an incredibly lightweight package."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0132",
+        "line_start": 85,
+        "line_end": 85,
+        "url": "https://www.lynred.com/products/ati320",
+        "page_class": "product",
+        "snippet": "    ATI320 has been designed as a component enabling high volume integration thanks to its BGA (Ball Grid Array) package."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0035",
+        "line_start": 71,
+        "line_end": 73,
+        "url": "https://www.lynred.com/applications/unmanned-vehicle-systems-defense",
+        "page_class": "capability",
+        "snippet": "LYNRED infrared solutions bring your thermal systems to life with the introduction of two new solutions:\n\u00a0\u2022 Cooled detectors on the PlugUp platform\n\u00a0\u2022 Advanced Thermal Imager (ATI) modules"
+      }
+    ],
+    "notes": "Lynred sells IR detector components and thermal imager modules to camera makers/OEMs for integration into drone and defense thermal imaging systems. ATI320 is explicitly 'engineered for high-volume integration' and 'offers camera makers unparalleled performance'."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "ATI320",
+        "product_type": "thermal imager module, 320\u00d7240 12\u00b5m microbolometer LWIR",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0132",
+            "line_start": 60,
+            "line_end": 62,
+            "url": "https://www.lynred.com/products/ati320",
+            "page_class": "product",
+            "snippet": "ATI320\n======\nReady to sense, Ready to image"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ATI640",
+        "product_type": "thermal imager module, LWIR",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0035",
+            "line_start": 86,
+            "line_end": 88,
+            "url": "https://www.lynred.com/applications/unmanned-vehicle-systems-defense",
+            "page_class": "capability",
+            "snippet": "#### ATI640\nReady to sense, Ready to image\n](/products/ati640)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ATTO1024-02",
+        "product_type": "thermal detector, MWIR cooled",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0035",
+            "line_start": 95,
+            "line_end": 97,
+            "url": "https://www.lynred.com/applications/unmanned-vehicle-systems-defense",
+            "page_class": "capability",
+            "snippet": "![ATTO1024-02](/sites/default/files/styles/product_list/public/2020-11/LYNRED_Produits_Gabarit_Listing-1280.jpg?itok=s09E5X7H)\n#### ATTO1024-02\nHigher sensitivity for limitless applications"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ATTO640D-04 / ATTO640D-04W",
+        "product_type": "thermal detector, MWIR cooled",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0035",
+            "line_start": 115,
+            "line_end": 117,
+            "url": "https://www.lynred.com/applications/unmanned-vehicle-systems-defense",
+            "page_class": "capability",
+            "snippet": "![ATTO640D-04 / ATTO640D-04W](/sites/default/files/styles/product_list/public/2025-07/LYNRED_Produits_Gabarit_Listing.png?itok=ZG6Tp-0E)\n#### ATTO640D-04 / ATTO640D-04W\nSeamless integration for limitless applications"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "GALATEA MW SL",
+        "product_type": "cooled MWIR detector, PlugUp platform, SWAP",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0035",
+            "line_start": 105,
+            "line_end": 108,
+            "url": "https://www.lynred.com/applications/unmanned-vehicle-systems-defense",
+            "page_class": "capability",
+            "snippet": "![GALATEA MW SL](/sites/default/files/styles/product_list/public/2024-10/List-Galatea%20SL.png?itok=bjuuJhCA)\n#### GALATEA MW SL\nThe first SWAP detector within the PlugUp platform\n](/products/galatea-mw-sl)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SEEGNUS MW SL",
+        "product_type": "cooled MWIR SXGA detector, 7.5\u00b5m pitch, PlugUp platform",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0035",
+            "line_start": 110,
+            "line_end": 112,
+            "url": "https://www.lynred.com/applications/unmanned-vehicle-systems-defense",
+            "page_class": "capability",
+            "snippet": "![SEEGNUS MW SL](/sites/default/files/styles/product_list/public/2024-10/List-Galatea%20SL.png?itok=bjuuJhCA)\n#### SEEGNUS MW SL\nThe first 7.5\u00b5m pitch SXGA detector within the PlugUp platform"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "YOCTO1024",
+        "product_type": "compact thermal sensor, high-resolution",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0035",
+            "line_start": 120,
+            "line_end": 122,
+            "url": "https://www.lynred.com/applications/unmanned-vehicle-systems-defense",
+            "page_class": "capability",
+            "snippet": "![YOCTO1024](/sites/default/files/styles/product_list/public/2026-01/LYNRED_Produits_Gabarit_Listing.png?itok=LZmxkPtl)\n#### YOCTO1024\nA compact thermal sensor offering a high-resolution image"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ARGO MW SL",
+        "product_type": "MWIR detector, VGA, photon-limited conditions",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0120",
+            "line_start": 147,
+            "line_end": 148,
+            "url": "https://www.lynred.com/products",
+            "page_class": "product",
+            "snippet": "#### ARGO MW SL\nThe new VGA solution for photon limited conditions"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "DAPHNIS HD MW",
+        "product_type": "MWIR detector, HD 16:9 format",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0120",
+            "line_start": 232,
+            "line_end": 233,
+            "url": "https://www.lynred.com/products",
+            "page_class": "product",
+            "snippet": "#### DAPHNIS HD MW\nLatest LYNRED product generation for all applications requiring 16:9 HD format."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SCORPIO MW product range",
+        "product_type": "MWIR VGA detector for defense",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0020",
+            "line_start": 97,
+            "line_end": 98,
+            "url": "https://www.lynred.com/applications/defense-land-ground-vehicles",
+            "page_class": "capability",
+            "snippet": "#### SCORPIO MW product range\nA unique, versatile VGA MWIR detector to meet all your application requirements."
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SCORPIO LW",
+        "product_type": "LWIR detector for battlefield thermal sight",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0020",
+            "line_start": 93,
+            "line_end": 94,
+            "url": "https://www.lynred.com/applications/defense-land-ground-vehicles",
+            "page_class": "capability",
+            "snippet": "The best choice for the thermal sight in the battlefield conditions\n](/products/scorpio-lw)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SNAKE SW",
+        "product_type": "SWIR detector",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0025",
+            "line_start": 83,
+            "line_end": 84,
+            "url": "https://www.lynred.com/applications/machine-vision-in-line-inspection-sorting-quality-control",
+            "page_class": "compliance",
+            "snippet": "#### SNAKE SW\nSee beyond what is visible"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "SIROCCO SW",
+        "product_type": "SWIR detector/module for spectrometry and imaging up to 2.5\u00b5m",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0120",
+            "line_start": 162,
+            "line_end": 163,
+            "url": "https://www.lynred.com/products",
+            "page_class": "product",
+            "snippet": "#### SIROCCO SW\nThe solution for SWIR spectrometry and imaging up to 2.5\u00b5m"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "medium",
+    "status": "answered",
+    "notes": "42 product families total; this lists the drone/defense-relevant subset. Many more product pages were skipped."
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "Lynred is a French company. No NDAA-related content found anywhere in the 8 fetched pages."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": "No Blue UAS / Blue sUAS content found in corpus."
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0120",
+        "line_start": 127,
+        "line_end": 127,
+        "url": "https://www.lynred.com/products",
+        "page_class": "product",
+        "snippet": "###### 42 product families"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0132",
+        "line_start": 85,
+        "line_end": 85,
+        "url": "https://www.lynred.com/products/ati320",
+        "page_class": "product",
+        "snippet": "    ATI320 has been designed as a component enabling high volume integration thanks to its BGA (Ball Grid Array) package."
+      }
+    ],
+    "notes": "42 product families listed with datasheets and 'Get a quote' CTAs. ATI320 explicitly designed for high-volume integration with BGA packaging for automated handling."
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [
+    {
+      "url": "https://www.lynred.com/quality",
+      "reason": "Quality/compliance page may contain NDAA, export control (ITAR/EAR), or other regulatory compliance claims relevant to ndaa and blue_uas fields.",
+      "expected_evidence": [
+        "ndaa",
+        "blue_uas"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=compliance",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "French thermal infrared detector and sensor manufacturer producing uncooled microbolometer and cooled MCT/MWIR cores and integrated modules (ATI, ATTO, YOCTO, GALATEA, ARGO families) for defense, drone, and space ISR payloads. In production across multiple resolution formats (320\u00d7240 to 1280\u00d71024). NDAA compliance status unknown; no Blue UAS certification found in public record.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 22,
+    "total_cost_usd": 0.47692330000000005,
+    "created_at": "2026-05-05T19:08:05+00:00",
+    "extract_version": "0.1.0"
+  }
+}

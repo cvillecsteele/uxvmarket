@@ -1,0 +1,299 @@
+{
+  "target_id": "imsar",
+  "run_id": "canonical",
+  "display_name": "IMSAR",
+  "homepage_url": "https://imsar.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/imsar/website",
+  "products": [
+    {
+      "name": "NSP-2",
+      "category": "isr_payloads",
+      "descriptor": "Ku-band multimode SAR/MTI radar for Group 1-2 UAS, under 3.5 lbs",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0020",
+          "line_start": 86,
+          "line_end": 88,
+          "url": "https://imsar.com/radar-products/nsp-2",
+          "page_class": "product",
+          "snippet": "NSP-2\n=====\nThe NSP-2 is the most accessible entry point for airborne radar, designed for Group 1-2 UAS where every ounce matters. Weighing less than 3.5 lbs, it allows small tactical drones to see through weather and darkness to detect hidden targets that optical sensors miss."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0020",
+          "line_start": 100,
+          "line_end": 101,
+          "url": "https://imsar.com/radar-products/nsp-2",
+          "page_class": "product",
+          "snippet": "Ku-band, multi-channel, airborne multimode radar\n<3.5lbs, 56W"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "NSP-3",
+      "category": "isr_payloads",
+      "descriptor": "Combat-proven Ku-band multimode SAR/MTI radar for Group 2-3 UAS, under 6 lbs",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0021",
+          "line_start": 86,
+          "line_end": 88,
+          "url": "https://imsar.com/radar-products/nsp-3",
+          "page_class": "product",
+          "snippet": "NSP-3\n=====\nThe NSP-3 is the combat-proven industry standard for Group 2-3 UAS. With a low power consumption and a compact footprint, it delivers reliable multi-mode operation for ground and maritime missions without compromising platform endurance or displacing EO/IR payloads."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0021",
+          "line_start": 100,
+          "line_end": 101,
+          "url": "https://imsar.com/radar-products/nsp-3",
+          "page_class": "product",
+          "snippet": "Ku-band, multi-channel, airborne multimode radar\n<6lbs, 74W"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "NSP-5",
+      "category": "isr_payloads",
+      "descriptor": "Ku-band multimode SAR/MTI radar for Group 3-4 UAS, 16.5 lbs single-pod",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0022",
+          "line_start": 86,
+          "line_end": 88,
+          "url": "https://imsar.com/radar-products/nsp-5",
+          "page_class": "product",
+          "snippet": "NSP-5\n=====\nDesigned for UAS platforms with greater payload capacity, the NSP-5 leverages increased transmit power and a larger aperture to extend operational range. It offers enhanced wide-area search and tracking performance, providing a step up in capability for missions requiring deep coverage and precision tracking in complex environments."
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0022",
+          "line_start": 100,
+          "line_end": 101,
+          "url": "https://imsar.com/radar-products/nsp-5",
+          "page_class": "product",
+          "snippet": "Ku-band, multi-channel, airborne multimode radar\n16.5 lbs typical, 130-190W Configuration Dependent"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "NSP-7",
+      "category": "isr_payloads",
+      "descriptor": "Ku-band multimode airborne radar for Group 4-5 UAS and manned aircraft",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0020",
+          "line_start": 26,
+          "line_end": 31,
+          "url": "https://imsar.com/radar-products/nsp-2",
+          "page_class": "product",
+          "snippet": "NSP-7\nFor Group 4-5 UAS and Manned Aircraft\n](/radar-products/nsp-7)[\nNSP-7\nFor Group 4-5 UAS and Manned Aircraft\n](/radar-products/nsp-7)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "NSP-8",
+      "category": "isr_payloads",
+      "descriptor": "Ku-band multimode airborne radar for Group 4-5 UAS and manned aircraft",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0020",
+          "line_start": 33,
+          "line_end": 38,
+          "url": "https://imsar.com/radar-products/nsp-2",
+          "page_class": "product",
+          "snippet": "NSP-8\nFor Group 4-5 UAS and Manned Aircraft\n](/radar-products/nsp-8)[\nNSP-8\nFor Group 4-5 UAS and Manned Aircraft\n](/radar-products/nsp-8)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Lisa 3D\u2122",
+      "category": "ground_segment",
+      "descriptor": "Unified C2 and PED software platform for IMSAR radar systems",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0019",
+          "line_start": 94,
+          "line_end": 96,
+          "url": "https://imsar.com/processing-solutions",
+          "page_class": "capability",
+          "snippet": "Lisa 3D: Command, Control, and Exploitation\n===========================================\nLisa 3D\u2122 is the unified Command and Control (C2) and Processing, Exploitation, and Dissemination (PED) platform for IMSAR radars. Acting as the bridge between the operator and the sensors, it visualizes the imagery generated by the processing server and provides a single, intuitive map-based environment for mission management."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Lisa Ground Expeditionary (LGE)",
+      "category": "ground_segment",
+      "descriptor": "Self-contained ruggedized transit-case ground kit for tactical UAS datalink operations",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0019",
+          "line_start": 124,
+          "line_end": 125,
+          "url": "https://imsar.com/processing-solutions",
+          "page_class": "capability",
+          "snippet": "### Lisa Ground Expeditionary (LGE):\nThe Complete Tactical UAS\u00a0Ground Kit"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Lisa Air Max",
+      "category": "ground_segment",
+      "descriptor": "1U 18-inch rackmount 28VDC processing server for manned aircraft ISR missions",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0019",
+          "line_start": 129,
+          "line_end": 130,
+          "url": "https://imsar.com/processing-solutions",
+          "page_class": "capability",
+          "snippet": "### Lisa Air Max:\u00a0Standard Rackmount Processing\nThe Lisa Air Max is a 1U, 18-inch deep rackmount server built for manned aircraft with standard 19-inch rack infrastructure. Operating on 28VDC, it makes onboard ISR missions possible, processing high-resolution imagery and tracks for immediate viewing on a cabin-mounted mission computer."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Lisa Ground Max",
+      "category": "ground_segment",
+      "descriptor": "AC-powered 1U rackmount processing server for GCS, mobile command vehicles, and shipboard use",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0019",
+          "line_start": 132,
+          "line_end": 132,
+          "url": "https://imsar.com/processing-solutions",
+          "page_class": "capability",
+          "snippet": "### Lisa Ground Max:\u00a0Fixed-Site &\u00a0Maritime Rackmount Processing"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0019",
+          "line_start": 133,
+          "line_end": 133,
+          "url": "https://imsar.com/processing-solutions",
+          "page_class": "capability",
+          "snippet": "The Ground Max is an AC-powered 1U rackmount server optimized for UAS Ground Control Stations (GCS), mobile command vehicles, or shipboard environments. It is designed for installations where a rack-mounted solution is required to process raw data downlinked from the aircraft, serving finalized products to a separate mission computer for visualization and analysis."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "Lisa Air Lite",
+      "category": "ground_segment",
+      "descriptor": "Compact modular 28VDC processing server for manned aircraft with non-standard rack space",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0019",
+          "line_start": 135,
+          "line_end": 136,
+          "url": "https://imsar.com/processing-solutions",
+          "page_class": "capability",
+          "snippet": "### Lisa Air Lite:\u00a0Alternative Form Factor Processing\nFor manned aircraft where standard rack space is limited or unavailable, the Lisa Air Lite provides identical processing capabilities in a modular, compact form factor. This 28VDC server is designed for flexible installation in non-standard equipment bays while maintaining the high-speed data processing required for real-time missions."
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "NSP-7 and NSP-8 product pages were skipped (skipped_class_budget). Only nav-level evidence (name + 'For Group 4-5 UAS and Manned Aircraft') was available in the corpus; specs, weight, power, and full capability list are unknown.",
+    "The vendor pass listed 'Lisa 3D' (without trademark symbol); the corpus shows the product is consistently named 'Lisa 3D\u2122' \u2014 recorded with trademark.",
+    "Processing server datasheet PDF (cdn.prod.website-files.com/.../Compressed_Updated_Server_Datasheet_January_28_2026-compressed.pdf) was out of scope and not fetched; it may contain additional specs or variants for the Lisa server line."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://imsar.com/radar-products/nsp-7",
+      "reason": "Product page skipped due to class budget exhaustion; needed for specs, weight/power, capabilities list, and readiness confirmation for NSP-7.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://imsar.com/radar-products/nsp-8",
+      "reason": "Product page skipped due to class budget exhaustion; needed for specs, weight/power, capabilities list, and readiness confirmation for NSP-8.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://imsar.com/radar-systems",
+      "reason": "Radar systems overview page skipped (skipped_class_budget); likely contains comparative specs or a product matrix covering NSP-7 and NSP-8.",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=capability",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 21,
+    "total_cost_usd": 0.7275574,
+    "created_at": "2026-05-05T19:01:56+00:00",
+    "extract_version": "0.1.0"
+  }
+}

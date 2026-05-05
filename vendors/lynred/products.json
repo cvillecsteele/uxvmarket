@@ -1,0 +1,499 @@
+{
+  "target_id": "lynred",
+  "run_id": "canonical",
+  "display_name": "Lynred",
+  "homepage_url": "https://www.lynred.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/lynred/website",
+  "products": [
+    {
+      "name": "ATI320",
+      "category": "isr_payloads",
+      "descriptor": "Compact 320\u00d7240 12\u00b5m LWIR microbolometer thermal imaging module",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0132",
+          "line_start": 60,
+          "line_end": 67,
+          "url": "https://www.lynred.com/products/ati320",
+          "page_class": "product",
+          "snippet": "ATI320\n======\nReady to sense, Ready to image\n[Download datasheet](/sites/default/files/2024-10/R1_ATI320_2025.pdf)\n![](/sites/default/files/2024-11/LYNRED_Produits_Gabarit_Fiche.png)\n*   320 x240\n*   12\u00b5m\n*   Microbolometer"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0132",
+          "line_start": 78,
+          "line_end": 78,
+          "url": "https://www.lynred.com/products/ati320",
+          "page_class": "product",
+          "snippet": "**ATI320** is a compact-sized thermal imager, weighing only 7g and equipped with embedded shutterless image correction. This innovative design effectively meets the demanding requirements of compact camera needs."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "ATI640",
+      "category": "isr_payloads",
+      "descriptor": "Compact 640-format LWIR microbolometer thermal imaging module for UxS",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0035",
+          "line_start": 85,
+          "line_end": 88,
+          "url": "https://www.lynred.com/applications/unmanned-vehicle-systems-defense",
+          "page_class": "capability",
+          "snippet": "![ATI640](/sites/default/files/styles/product_list/public/2024-06/LYNRED_Produits_Gabarit_Listing.png?itok=Uz9d1aX4)\n#### ATI640\nReady to sense, Ready to image\n](/products/ati640)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "ATI640S",
+      "category": "isr_payloads",
+      "descriptor": "640-format LWIR microbolometer thermal imaging module variant",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0120",
+          "line_start": 191,
+          "line_end": 194,
+          "url": "https://www.lynred.com/products",
+          "page_class": "product",
+          "snippet": "![ATI640S](/sites/default/files/styles/product_list/public/2025-01/LYNRED_Produits_Gabarit_Listing.png?itok=DgQBhkiW \"ATI640S\")\n#### ATI640S\nREADY TO SENSE, READY TO IMAGE\n](/products/ati640s)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "GALATEA MW SL",
+      "category": "isr_payloads",
+      "descriptor": "SWAP-optimized cooled MWIR VGA detector on PlugUp platform",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0035",
+          "line_start": 105,
+          "line_end": 108,
+          "url": "https://www.lynred.com/applications/unmanned-vehicle-systems-defense",
+          "page_class": "capability",
+          "snippet": "![GALATEA MW SL](/sites/default/files/styles/product_list/public/2024-10/List-Galatea%20SL.png?itok=bjuuJhCA)\n#### GALATEA MW SL\nThe first SWAP detector within the PlugUp platform\n](/products/galatea-mw-sl)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "SEEGNUS MW SL",
+      "category": "isr_payloads",
+      "descriptor": "Cooled MWIR SXGA 7.5\u00b5m-pitch detector on PlugUp platform",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0035",
+          "line_start": 110,
+          "line_end": 113,
+          "url": "https://www.lynred.com/applications/unmanned-vehicle-systems-defense",
+          "page_class": "capability",
+          "snippet": "![SEEGNUS MW SL](/sites/default/files/styles/product_list/public/2024-10/List-Galatea%20SL.png?itok=bjuuJhCA)\n#### SEEGNUS MW SL\nThe first 7.5\u00b5m pitch SXGA detector within the PlugUp platform\n](/products/seegnus-mw-sl)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "ATTO640D-04 / ATTO640D-04W",
+      "category": "isr_payloads",
+      "descriptor": "Cooled MCT MWIR 640-format detector for defense and UxS integration",
+      "granularity": "family",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0035",
+          "line_start": 115,
+          "line_end": 118,
+          "url": "https://www.lynred.com/applications/unmanned-vehicle-systems-defense",
+          "page_class": "capability",
+          "snippet": "![ATTO640D-04 / ATTO640D-04W](/sites/default/files/styles/product_list/public/2025-07/LYNRED_Produits_Gabarit_Listing.png?itok=ZG6Tp-0E)\n#### ATTO640D-04 / ATTO640D-04W\nSeamless integration for limitless applications\n](/products/atto640d-04-atto640d-04w)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "ATTO1024-02",
+      "category": "isr_payloads",
+      "descriptor": "Cooled MCT MWIR XGA (1024-format) high-sensitivity detector",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0035",
+          "line_start": 95,
+          "line_end": 98,
+          "url": "https://www.lynred.com/applications/unmanned-vehicle-systems-defense",
+          "page_class": "capability",
+          "snippet": "![ATTO1024-02](/sites/default/files/styles/product_list/public/2020-11/LYNRED_Produits_Gabarit_Listing-1280.jpg?itok=s09E5X7H)\n#### ATTO1024-02\nHigher sensitivity for limitless applications\n](/products/atto1024-02)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "ATTO1280-02",
+      "category": "isr_payloads",
+      "descriptor": "Cooled MCT MWIR SXGA (1280-format) high-sensitivity detector",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0035",
+          "line_start": 100,
+          "line_end": 103,
+          "url": "https://www.lynred.com/applications/unmanned-vehicle-systems-defense",
+          "page_class": "capability",
+          "snippet": "![ATTO1280-02](/sites/default/files/styles/product_list/public/2020-11/LYNRED_Produits_Gabarit_Listing-1280.jpg?itok=s09E5X7H)\n#### ATTO1280-02\nHigher sensitivity for limitless applications\n](/products/atto1280-02)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "YOCTO1024",
+      "category": "isr_payloads",
+      "descriptor": "Ultra-compact 8\u00b5m microbolometer XGA uncooled thermal sensor",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0035",
+          "line_start": 120,
+          "line_end": 123,
+          "url": "https://www.lynred.com/applications/unmanned-vehicle-systems-defense",
+          "page_class": "capability",
+          "snippet": "![YOCTO1024](/sites/default/files/styles/product_list/public/2026-01/LYNRED_Produits_Gabarit_Listing.png?itok=LZmxkPtl)\n#### YOCTO1024\nA compact thermal sensor offering a high-resolution image\n](/products/yocto1024)"
+        },
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0001",
+          "line_start": 139,
+          "line_end": 141,
+          "url": "https://www.lynred.com",
+          "page_class": "homepage",
+          "snippet": "![LYNRED unveils YOCTO, a new ultra-compact 8 microns microbolometer ](/themes/custom/black/assets/images/defaul-compres.jpg)\npressroom\nLYNRED unveils YOCTO, a new ultra-compact 8 microns microbolometer"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "ARGO MW SL",
+      "category": "isr_payloads",
+      "descriptor": "Cooled MWIR VGA detector optimized for photon-limited conditions",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0120",
+          "line_start": 146,
+          "line_end": 149,
+          "url": "https://www.lynred.com/products",
+          "page_class": "product",
+          "snippet": "new ![ARGO MW SL](/sites/default/files/styles/product_list/public/2024-10/List-Galatea%20SL.png?itok=bjuuJhCA \"ARGO MW SL\")\n#### ARGO MW SL\nThe new VGA solution for photon limited conditions\n](/products/argo-mw-sl)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "ATI GALATEA MW SL",
+      "category": "isr_payloads",
+      "descriptor": "PlugUp\u2122 MWIR thermal imaging module with advanced image correction",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0120",
+          "line_start": 176,
+          "line_end": 179,
+          "url": "https://www.lynred.com/products",
+          "page_class": "product",
+          "snippet": "new ![ATI GALATEA MW SL ](/sites/default/files/styles/product_list/public/2025-07/LYNRED_Produits_Gabarit_Listing_2.png?itok=EkgZ4SeN \"ATI GALATEA MW SL \")\n#### ATI GALATEA MW SL\nOpening the PlugUp\u2122 family to state-of-the-art image correction\n](/products/ati-galatea-mw-sl)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "ATI ARGO MW SL",
+      "category": "isr_payloads",
+      "descriptor": "PlugUp\u2122 MWIR thermal imaging module with state-of-the-art image correction",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0120",
+          "line_start": 151,
+          "line_end": 154,
+          "url": "https://www.lynred.com/products",
+          "page_class": "product",
+          "snippet": "new ![ATI ARGO MW SL ](/sites/default/files/styles/product_list/public/2025-07/LYNRED_Produits_Gabarit_Listing_2.png?itok=EkgZ4SeN \"ATI ARGO MW SL \")\n#### ATI ARGO MW SL\nExpanding the PlugUp\u2122 family to state-of-the-art image correction\n](/products/ati-argo-mw-sl)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "ATI EOLE MW",
+      "category": "isr_payloads",
+      "descriptor": "PlugUp MWIR thermal imaging module with advanced image correction",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0120",
+          "line_start": 166,
+          "line_end": 169,
+          "url": "https://www.lynred.com/products",
+          "page_class": "product",
+          "snippet": "new ![ATI EOLE ](/sites/default/files/styles/product_list/public/2024-10/List-Eole.png?itok=7t1VzRc8 \"ATI EOLE\")\n#### ATI EOLE MW\nExpanding the PlugUp family to advanced image correction\n](/products/ati-eole-mw)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "GALATEA HHTI",
+      "category": "isr_payloads",
+      "descriptor": "SWAP-optimized cooled MWIR VGA detector for handheld portable applications",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0120",
+          "line_start": 226,
+          "line_end": 229,
+          "url": "https://www.lynred.com/products",
+          "page_class": "product",
+          "snippet": "![GALATEA HHTI](/sites/default/files/styles/product_list/public/2024-10/_95A7825%20-%20GALATEA.jpg?itok=0n74tyJD \"GALATEA HHTI\")\n#### GALATEA HHTI\nTHE SWAP solution for high quality VGA sensors in portable applications.\n](/products/galatea-hhti)"
+        }
+      ],
+      "notes": null
+    },
+    {
+      "name": "ATTO256-02",
+      "category": "isr_payloads",
+      "descriptor": "Cooled MCT MWIR QVGA (256-format) high-sensitivity detector",
+      "granularity": "sku",
+      "readiness": "production",
+      "ndaa": "unknown",
+      "blue_uas": "unknown",
+      "evidence": [
+        {
+          "source_kind": "mirror",
+          "resource_id": "resource-0120",
+          "line_start": 206,
+          "line_end": 209,
+          "url": "https://www.lynred.com/products",
+          "page_class": "product",
+          "snippet": "![ATTO256-02](/sites/default/files/styles/product_list/public/2022-01/atto320.jpg?itok=lAUO6Pc- \"ATTO256-02\")\n#### ATTO256-02\nHigher sensitivity for limitless applications\n](/products/atto256-02)"
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "unresolved_questions": [
+    "All 15 product detail pages were skipped (status=skipped_class_budget); exact pixel formats, pitch sizes, and technology (MCT vs microbolometer) for ATTO/GALATEA/SEEGNUS/ARGO/ATI-prefixed products are inferred from naming conventions and listing context only \u2014 not confirmed from individual product pages.",
+    "No NDAA Section 848/889 or Blue UAS compliance language found anywhere in corpus; Lynred is a French company so NDAA status is not disclosed.",
+    "ATI EOLE MW product page was skipped; its relationship to the EOLE MW cooled detector (listed separately but not in the prioritized list) is not confirmed.",
+    "ATTO640D-04 vs ATTO640D-04W variant distinction (likely standard vs wide-format window) not confirmed from corpus."
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://www.lynred.com/products/ati640",
+      "reason": "Product detail page for ATI640 skipped; needed to confirm format, technology, readiness, and any compliance claims.",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "ndaa"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.lynred.com/products/ati640s",
+      "reason": "Product detail page for ATI640S skipped; needed to confirm specs and distinguish from ATI640.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.lynred.com/products/galatea-mw-sl",
+      "reason": "Product detail page skipped; needed to confirm PlugUp platform specs, format, technology for GALATEA MW SL.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.lynred.com/products/seegnus-mw-sl",
+      "reason": "Product detail page skipped; needed to confirm SXGA format, 7.5\u00b5m pitch, technology details.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.lynred.com/products/argo-mw-sl",
+      "reason": "Product detail page skipped; needed to confirm VGA format, photon-limited specs, PlugUp platform details.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.lynred.com/products/atto640d-04-atto640d-04w",
+      "reason": "Product detail page skipped; needed to confirm MCT technology, format specs, and D-04 vs D-04W distinction.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.lynred.com/products/atto1024-02",
+      "reason": "Product detail page skipped; needed to confirm MCT technology and XGA format specs.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.lynred.com/products/atto1280-02",
+      "reason": "Product detail page skipped; needed to confirm MCT technology and SXGA format specs.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.lynred.com/products/atto256-02",
+      "reason": "Product detail page skipped; needed to confirm QVGA format and MCT technology specs.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.lynred.com/products/yocto1024",
+      "reason": "Product detail page skipped; needed to confirm 8\u00b5m pitch, XGA format, and microbolometer specs.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.lynred.com/products/ati-galatea-mw-sl",
+      "reason": "Product detail page skipped; needed to confirm ATI module specs and image correction features.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.lynred.com/products/ati-argo-mw-sl",
+      "reason": "Product detail page skipped; needed to confirm ATI module specs for ARGO variant.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.lynred.com/products/ati-eole-mw",
+      "reason": "Product detail page skipped; needed to confirm ATI EOLE MW module specs and market positioning.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.lynred.com/products/galatea-hhti",
+      "reason": "Product detail page skipped; needed to confirm HHTI handheld specs and VGA MWIR format.",
+      "expected_evidence": [
+        "products",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "partial",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 32,
+    "total_cost_usd": 0.6997973,
+    "created_at": "2026-05-05T19:12:38+00:00",
+    "extract_version": "0.1.0"
+  }
+}

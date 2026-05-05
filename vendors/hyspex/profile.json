@@ -1,0 +1,470 @@
+{
+  "target_id": "hyspex",
+  "run_id": "canonical",
+  "display_name": "HySpex",
+  "homepage_url": "https://www.hyspex.com",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/hyspex/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "isr_payloads",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 103,
+            "line_end": 103,
+            "url": "https://www.hyspex.com",
+            "page_class": "homepage",
+            "snippet": "HySpex offers a comprehensive range of high-performance hyperspectral cameras covering the visible, near-infrared, and shortwave infrared spectrum. Designed for both laboratory and field applications, our cameras deliver superior spatial and spectral resolution."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 168,
+            "line_end": 168,
+            "url": "https://www.hyspex.com",
+            "page_class": "homepage",
+            "snippet": "HySpex introduces a groundbreaking airborne solution for UAV platforms without compromising performance."
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0084",
+            "line_start": 104,
+            "line_end": 105,
+            "url": "https://www.hyspex.com/hyspex-turnkey-solutions",
+            "page_class": "capability",
+            "snippet": "### UAV\n[Read More](/hyspex-turnkey-solutions/uav)"
+          }
+        ],
+        "notes": "Hyperspectral imaging cameras (EO/NIR/SWIR) designed for airborne and UAV ISR missions; the Mjolnir series is specifically UAV-optimised"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": "Oslo",
+      "state_or_province": null,
+      "country": "Norway",
+      "address": "\u00d8stensj\u00f8veien 34, N-0667 Oslo, Norway"
+    },
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 205,
+        "line_end": 207,
+        "url": "https://www.hyspex.com",
+        "page_class": "homepage",
+        "snippet": "[\\+ 47 40 00 18 58](tel:004740001858)[\u00d8stensj\u00f8veien 34\nN-0667 Oslo\nNorway](https://maps.app.goo.gl/Lt6RbwLzEJZpdfQG7)"
+      }
+    ],
+    "notes": null
+  },
+  "drone_supply_chain_role": {
+    "value": "subsystem_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0084",
+        "line_start": 84,
+        "line_end": 84,
+        "url": "https://www.hyspex.com/hyspex-turnkey-solutions",
+        "page_class": "capability",
+        "snippet": "HySpex hyperspectral cameras are delivered as turnkey solutions for all applications. High resolution and high speed, combined with low weight and power consumption, make NEO's HySpex cameras very well suited for airborne data acquisition."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0084",
+        "line_start": 104,
+        "line_end": 105,
+        "url": "https://www.hyspex.com/hyspex-turnkey-solutions",
+        "page_class": "capability",
+        "snippet": "### UAV\n[Read More](/hyspex-turnkey-solutions/uav)"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 168,
+        "line_end": 168,
+        "url": "https://www.hyspex.com",
+        "page_class": "homepage",
+        "snippet": "HySpex introduces a groundbreaking airborne solution for UAV platforms without compromising performance."
+      }
+    ],
+    "notes": "Delivers complete hyperspectral imaging payload systems (camera + IMU/GPS integration + processing software) for UAV platforms; Mjolnir series is UAV-specific; also offers complete UAV turnkey solutions"
+  },
+  "products": {
+    "items": [
+      {
+        "name": "HySpex VNIR-1800",
+        "product_type": "hyperspectral camera (VNIR)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0038",
+            "line_start": 93,
+            "line_end": 93,
+            "url": "https://www.hyspex.com/hyspex-products",
+            "page_class": "product",
+            "snippet": "### HySpex VNIR-1800"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HySpex VNIR-3000 N",
+        "product_type": "hyperspectral camera (VNIR)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0038",
+            "line_start": 96,
+            "line_end": 96,
+            "url": "https://www.hyspex.com/hyspex-products",
+            "page_class": "product",
+            "snippet": "### HySpex VNIR-3000 N"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HySpex SWIR-384",
+        "product_type": "hyperspectral camera (SWIR)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0038",
+            "line_start": 99,
+            "line_end": 99,
+            "url": "https://www.hyspex.com/hyspex-products",
+            "page_class": "product",
+            "snippet": "### HySpex SWIR-384"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HySpex SWIR-640",
+        "product_type": "hyperspectral camera (SWIR)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0038",
+            "line_start": 102,
+            "line_end": 102,
+            "url": "https://www.hyspex.com/hyspex-products",
+            "page_class": "product",
+            "snippet": "### HySpex SWIR-640"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HySpex VS-1200",
+        "product_type": "hyperspectral camera (VNIR-SWIR)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0038",
+            "line_start": 105,
+            "line_end": 105,
+            "url": "https://www.hyspex.com/hyspex-products",
+            "page_class": "product",
+            "snippet": "### HySpex VS-1200"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HySpex Mjolnir V-1240",
+        "product_type": "hyperspectral camera, UAV-optimised (VNIR)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0038",
+            "line_start": 110,
+            "line_end": 110,
+            "url": "https://www.hyspex.com/hyspex-products",
+            "page_class": "product",
+            "snippet": "### HySpex Mjolnir V-1240"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HySpex Mjolnir S-620",
+        "product_type": "hyperspectral camera, UAV-optimised (SWIR)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0038",
+            "line_start": 113,
+            "line_end": 113,
+            "url": "https://www.hyspex.com/hyspex-products",
+            "page_class": "product",
+            "snippet": "### HySpex Mjolnir S-620"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HySpex Mjolnir VS-620",
+        "product_type": "hyperspectral camera, UAV-optimised (VNIR-SWIR)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0038",
+            "line_start": 116,
+            "line_end": 116,
+            "url": "https://www.hyspex.com/hyspex-products",
+            "page_class": "product",
+            "snippet": "### HySpex Mjolnir VS-620"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HySpex Mjolnir OEM",
+        "product_type": "hyperspectral camera module for OEM/UAV integration",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0038",
+            "line_start": 119,
+            "line_end": 119,
+            "url": "https://www.hyspex.com/hyspex-products",
+            "page_class": "product",
+            "snippet": "### HySpex Mjolnir OEM"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HySpex Baldur V-1024 N",
+        "product_type": "hyperspectral camera (VNIR)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0038",
+            "line_start": 124,
+            "line_end": 124,
+            "url": "https://www.hyspex.com/hyspex-products",
+            "page_class": "product",
+            "snippet": "### HySpex Baldur V-1024 N"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HySpex Baldur S-640i N",
+        "product_type": "hyperspectral camera (SWIR)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0038",
+            "line_start": 127,
+            "line_end": 127,
+            "url": "https://www.hyspex.com/hyspex-products",
+            "page_class": "product",
+            "snippet": "### HySpex Baldur S-640i N"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HySpex Baldur S-384 N",
+        "product_type": "hyperspectral camera (SWIR)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0038",
+            "line_start": 130,
+            "line_end": 130,
+            "url": "https://www.hyspex.com/hyspex-products",
+            "page_class": "product",
+            "snippet": "### HySpex Baldur S-384 N"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "HySpex Bifrost",
+        "product_type": "hyperspectral data processing software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0038",
+            "line_start": 144,
+            "line_end": 144,
+            "url": "https://www.hyspex.com/hyspex-products",
+            "page_class": "product",
+            "snippet": "### HySpex Bifrost"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "ATCOR 4",
+        "product_type": "atmospheric correction software for airborne remote sensing",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0038",
+            "line_start": 138,
+            "line_end": 138,
+            "url": "https://www.hyspex.com/hyspex-products",
+            "page_class": "product",
+            "snippet": "### ATCOR 4 - for Airborne Remote Sensing Systems"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "PARGE\u00ae Image Rectification",
+        "product_type": "image rectification software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0038",
+            "line_start": 141,
+            "line_end": 141,
+            "url": "https://www.hyspex.com/hyspex-products",
+            "page_class": "product",
+            "snippet": "### PARGE\u00ae Image Rectification"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Prediktera Software",
+        "product_type": "hyperspectral analysis software for industrial applications",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0038",
+            "line_start": 135,
+            "line_end": 135,
+            "url": "https://www.hyspex.com/hyspex-products",
+            "page_class": "product",
+            "snippet": "### Prediktera Software"
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Full product catalog listed; individual product pages were skipped due to budget constraints"
+  },
+  "ndaa": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0010",
+        "line_start": 92,
+        "line_end": 92,
+        "url": "https://www.hyspex.com/about",
+        "page_class": "company",
+        "snippet": "Today, HySpex is established as an industry-leading brand for both airborne and ground-based hyperspectral imaging. HySpex sensors are renowned for their stability, flexibility and superior data quality."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0010",
+        "line_start": 98,
+        "line_end": 98,
+        "url": "https://www.hyspex.com/about",
+        "page_class": "company",
+        "snippet": "NEO is certified to the ISO 9001:2015 International quality standards."
+      }
+    ],
+    "notes": "Full catalog of named SKUs commercially sold across Classic, Mjolnir, and Baldur product lines; ISO 9001:2015 certified manufacturer"
+  },
+  "unresolved_questions": [],
+  "fetch_requests": [
+    {
+      "url": "https://www.hyspex.com/hyspex-turnkey-solutions/uav",
+      "reason": "Would provide detailed specifications for the UAV turnkey hyperspectral system, confirming the specific UAV payload offerings and integration details",
+      "expected_evidence": [
+        "products",
+        "products_categories",
+        "drone_supply_chain_role",
+        "readiness"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=capability",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.hyspex.com/hyspex-products/accessories/certified-uavs",
+      "reason": "Would list UAV platforms certified for HySpex payload integration, clarifying the drone supply chain role and product ecosystem",
+      "expected_evidence": [
+        "products",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://www.hyspex.com/hyspex-products/hyspex-mjolnir/mjolnir-oem-data-sheets",
+      "reason": "Would provide OEM data sheets for the Mjolnir UAV-integration module, confirming specifications and readiness level for drone integration",
+      "expected_evidence": [
+        "products",
+        "readiness",
+        "drone_supply_chain_role"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=product",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Norwegian hyperspectral imaging payload manufacturer producing VNIR and SWIR pushbroom cameras (Classic, Mjolnir UAV-class, Baldur industrial series) plus processing software. Production-ready across all product lines. NDAA compliance status unknown; no Blue UAS certification found in public record. Limited evidence of US government contracts or integration into allied unmanned platforms.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 17,
+    "total_cost_usd": 0.6280370500000001,
+    "created_at": "2026-05-05T19:04:50+00:00",
+    "extract_version": "0.1.0"
+  }
+}
