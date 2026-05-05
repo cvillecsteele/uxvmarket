@@ -26,7 +26,7 @@ const {
   </div>
   <div class="col signup">
     <h5>Monday SITREP</h5>
-    <p>One dispatch per week. Three minutes to read. Free.</p>
+    <p>One dispatch per week. Three minutes to read. Free. <a href="/sitrep" class="archive-link">Read the archive →</a></p>
     <form
       action="https://buttondown.com/api/emails/embed-subscribe/cvillecsteele"
       method="post"
@@ -76,6 +76,13 @@ const {
     letter-spacing: 0.08em;
   }
   .col p { margin-top: 6px; line-height: 1.55; }
+  .col .archive-link {
+    display: inline;
+    color: var(--accent);
+    text-decoration: none;
+    margin-left: 4px;
+  }
+  .col .archive-link:hover { color: var(--text); }
   .footer a {
     color: var(--text);
     text-decoration: none;

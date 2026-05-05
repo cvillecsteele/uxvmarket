@@ -1,0 +1,133 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Masthead from '../../components/Masthead.astro';
+import Footer from '../../components/Footer.astro';
+
+const sitreps = await getCollection('sitrep');
+const allVendors = await getCollection('vendor');
+
+// Newest first by issue_id (e.g. "2026-001", "2026-002" sorts naturally).
+const issues = sitreps
+  .map(s => s.data)
+  .sort((a, b) => b.issue_id.localeCompare(a.issue_id));
+---
+
+<BaseLayout
+  title="SITREP archive · UxV Market"
+  description="Weekly editorial dispatches from the Drone Industrial Base. Opinionated reads on contracts, products, certs, and signals worth watching."
+>
+  <div class="page">
+    <Masthead firmCount={allVendors.length} reviewedAt="" />
+    <div class="back-link"><a href="/">← directory</a></div>
+    <section class="sitrep-archive">
+      <header>
+        <div class="ref">SITREP ARCHIVE</div>
+        <h2>Weekly dispatches from the Drone Industrial Base</h2>
+        <p class="lede">Editorial reads on the week's contracts, products, certs, and dot-connecting that doesn't fit in a press release. One issue per Monday.</p>
+      </header>
+      {issues.length === 0 ? (
+        <p class="empty">No issues published yet.</p>
+      ) : (
+        <ol class="issue-list">
+          {issues.map(s => (
+            <li>
+              <a href={`/sitrep/${s.issue_id}`} class="issue">
+                <div class="issue-ref">SITREP · {s.issue_id}</div>
+                <div class="issue-subject">{s.subject}</div>
+                <div class="issue-meta">DTG {s.dtg} · {s.origin}</div>
+              </a>
+            </li>
+          ))}
+        </ol>
+      )}
+    </section>
+    <Footer firmCount={allVendors.length} />
+  </div>
+</BaseLayout>
+
+<style>
+  .page {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 32px 36px 80px;
+  }
+  @media (max-width: 720px) {
+    .page { padding: 22px 18px 60px; }
+  }
+  .back-link {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    margin-bottom: 16px;
+  }
+  .back-link a { color: var(--secondary); text-decoration: none; }
+  .back-link a:hover { color: var(--accent); }
+  .sitrep-archive {
+    border-top: 4px double var(--accent);
+    padding-top: 24px;
+  }
+  .sitrep-archive header { margin-bottom: 28px; }
+  .sitrep-archive .ref {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    color: var(--accent);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  .sitrep-archive h2 {
+    font-family: var(--font-sans);
+    font-size: 28px;
+    font-weight: 500;
+    margin: 8px 0 12px;
+    line-height: 1.15;
+    max-width: 28ch;
+  }
+  .sitrep-archive .lede {
+    font-size: 15px;
+    color: var(--secondary);
+    max-width: 60ch;
+    line-height: 1.55;
+  }
+  .sitrep-archive .empty {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--secondary);
+  }
+  .issue-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-top: 1px solid var(--rule);
+  }
+  .issue-list li {
+    border-bottom: 1px solid var(--rule);
+  }
+  .issue {
+    display: block;
+    padding: 18px 0;
+    text-decoration: none;
+    color: var(--text);
+  }
+  .issue:hover { background: rgba(0,0,0,0.02); }
+  .issue-ref {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--accent);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  .issue-subject {
+    font-family: var(--font-sans);
+    font-size: 17px;
+    font-weight: 500;
+    margin: 4px 0 6px;
+    line-height: 1.3;
+  }
+  .issue-meta {
+    font-family: var(--font-mono);
+    font-size: 10.5px;
+    color: var(--secondary);
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+</style>

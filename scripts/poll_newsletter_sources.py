@@ -42,9 +42,13 @@ from bs4 import BeautifulSoup, Tag
 from dateutil import parser as dateparser
 
 from uxv_mirroring.browserless import BrowserlessClient, BrowserlessHttpError
+from uxv_mirroring.contracts import MirrorTarget
+from uxv_mirroring.mirror import MirrorClient, policy_for_profile
+from uxv_mirroring.promote import promote
 
 ROOT = Path(__file__).resolve().parent.parent
 VENDORS_ROOT = ROOT / "vendors"
+MIRRORING_ROOT = ROOT / "mirroring"
 DIGEST_PATH = ROOT / "extract" / "output" / "newsletter_digest.json"
 
 # A floor on plausible publication dates — anything older is junk
@@ -548,6 +552,109 @@ def merge_into_state(
     return rendered, new_count
 
 
+# ---------- mirror integration --------------------------------------------
+
+
+def _vendor_homepage(sidecar: dict[str, Any]) -> str | None:
+    return sidecar.get("homepage_url") or None
+
+
+def _vendor_display_name(slug: str) -> str:
+    profile = VENDORS_ROOT / slug / "profile.json"
+    if profile.exists():
+        try:
+            data = json.loads(profile.read_text())
+            for key in ("display_name", "name", "company_name"):
+                value = data.get(key)
+                if isinstance(value, str) and value.strip():
+                    return value.strip()
+        except (json.JSONDecodeError, OSError):
+            pass
+    return slug
+
+
+def _already_mirrored_urls(slug: str) -> set[str]:
+    """URLs that already have a fetched resource in the canonical corpus."""
+    ci_path = VENDORS_ROOT / slug / "website" / "crawl_index.json"
+    if not ci_path.exists():
+        return set()
+    try:
+        ci = json.loads(ci_path.read_text())
+    except (json.JSONDecodeError, OSError):
+        return set()
+    out: set[str] = set()
+    for entry in ci.get("entries", []):
+        if entry.get("status") == "fetched" and entry.get("resource_id"):
+            for u in (entry.get("url"), entry.get("final_url")):
+                if isinstance(u, str):
+                    out.add(u)
+    return out
+
+
+def mirror_items_via_api(
+    items_by_vendor: dict[str, dict[str, Any]],
+    *,
+    mirroring_root: Path,
+    vendors_root: Path,
+) -> dict[str, Any]:
+    """For each (slug -> {homepage, urls}), fetch+persist URLs via the
+    mirroring API (mirror_targets + promote). Skips URLs already in the
+    canonical corpus so backfills are idempotent."""
+    targets: list[MirrorTarget] = []
+    promoted: list[str] = []
+    for slug, info in items_by_vendor.items():
+        urls = sorted({u for u in info["urls"] if u})
+        if not urls:
+            continue
+        already = _already_mirrored_urls(slug)
+        urls = [u for u in urls if u not in already]
+        if not urls:
+            continue
+        homepage = info.get("homepage_url")
+        if not homepage:
+            continue
+        targets.append(MirrorTarget(
+            target_id=slug,
+            display_name=_vendor_display_name(slug),
+            homepage_url=homepage,
+            seed_urls=urls,
+        ))
+    if not targets:
+        return {"vendors_mirrored": 0, "urls_mirrored": 0, "run_id": None}
+
+    policy = policy_for_profile("quick_evidence")
+    # Only seeds may be fetched — every page-class budget zeroed,
+    # so the discovery /map call (one per vendor) costs but doesn't
+    # pull in extra unrelated pages.
+    policy.max_pages = 1
+    for cls in policy.page_class_budgets:
+        policy.page_class_budgets[cls] = 0
+    max_seeds = max(len(t.seed_urls) for t in targets)
+    policy.max_browserless_calls_per_target = max_seeds + 5
+
+    run_id = "newsletter-poll-" + datetime.now(timezone.utc).strftime("%Y%m%d-%H%M%S")
+    client = MirrorClient()
+    client.mirror_targets(
+        targets,
+        policy=policy,
+        workspace_root=mirroring_root,
+        run_id=run_id,
+        coverage_mode="force",
+    )
+    for target in targets:
+        try:
+            promote(target.target_id, workspace_root=mirroring_root, vendors_root=vendors_root)
+            promoted.append(target.target_id)
+        except Exception as exc:
+            print(f"promote failed for {target.target_id}: {exc}", file=sys.stderr)
+    return {
+        "vendors_mirrored": len(targets),
+        "urls_mirrored": sum(len(t.seed_urls) for t in targets),
+        "promoted": len(promoted),
+        "run_id": run_id,
+    }
+
+
 # ---------- driver --------------------------------------------------------
 
 
@@ -582,6 +689,9 @@ def run(args: argparse.Namespace) -> int:
         "new_items_count": 0,
     }
     counters_lock = threading.Lock()
+    # slug -> {"homepage_url": ..., "urls": [item urls to mirror]}
+    items_to_mirror: dict[str, dict[str, Any]] = {}
+    items_lock = threading.Lock()
 
     def worker(sidecar_path: Path) -> tuple[str, dict[str, Any]] | None:
         slug = sidecar_path.parent.name
@@ -642,6 +752,7 @@ def run(args: argparse.Namespace) -> int:
                 if new_count:
                     counters["vendors_with_new_items"] += 1
                     counters["new_items_count"] += new_count
+            new_urls_for_vendor: list[str] = []
             for r in rendered:
                 if r["is_new"]:
                     digest_new_items.append({
@@ -652,14 +763,37 @@ def run(args: argparse.Namespace) -> int:
                         "source_kind": r["source_kind"],
                         "source_url": r["source_url"],
                     })
+                if args.mirror_items and (r["is_new"] or args.backfill_items):
+                    if args.mirror_min_date and r["date"] < args.mirror_min_date:
+                        continue
+                    new_urls_for_vendor.append(r["url"])
+            if new_urls_for_vendor:
+                with items_lock:
+                    items_to_mirror[slug] = {
+                        "homepage_url": (
+                            json.loads(
+                                (VENDORS_ROOT / slug / "newsletter_sources.json").read_text()
+                            ).get("homepage_url")
+                        ),
+                        "urls": new_urls_for_vendor,
+                    }
             if result["fetch_errors"]:
                 vendors_with_errors.append({"slug": slug, "errors": result["fetch_errors"]})
+
+    mirror_summary: dict[str, Any] = {"vendors_mirrored": 0, "urls_mirrored": 0}
+    if args.mirror_items and not args.dry_run and items_to_mirror:
+        mirror_summary = mirror_items_via_api(
+            items_to_mirror,
+            mirroring_root=MIRRORING_ROOT,
+            vendors_root=VENDORS_ROOT,
+        )
 
     digest = {
         "generated_at": now_iso,
         "cutoff_date": cutoff.isoformat(),
         "cutoff_days": args.cutoff_days,
         **counters,
+        "mirror_summary": mirror_summary,
         "new_items": sorted(digest_new_items, key=lambda x: (x["date"], x["vendor_slug"]), reverse=True),
         "vendors_with_errors": vendors_with_errors,
     }
@@ -685,6 +819,18 @@ def main() -> int:
                    help="Browserless smart-scrape timeout (default 60000)")
     p.add_argument("--dry-run", action="store_true",
                    help="parse + summarize but don't write state/items/digest")
+    p.add_argument("--no-mirror-items", dest="mirror_items", action="store_false",
+                   default=True,
+                   help="skip the mirror-API fetch+promote of new items "
+                        "(useful for refreshing state without article fetches)")
+    p.add_argument("--backfill-items", action="store_true",
+                   help="mirror every in-window item, not just is_new ones, "
+                        "so prior cohort runs get their article pages "
+                        "persisted into the corpus")
+    p.add_argument("--mirror-min-date", default=None,
+                   help="only mirror items with date >= YYYY-MM-DD "
+                        "(narrow the backfill window without changing the "
+                        "main 180-day cutoff)")
     return run(p.parse_args())
 
 

@@ -2,8 +2,14 @@
   "browserless_calls": 423,
   "cutoff_date": "2025-11-05",
   "cutoff_days": 180,
-  "fetch_errors": 118,
-  "generated_at": "2026-05-04T22:53:49+00:00",
+  "fetch_errors": 120,
+  "generated_at": "2026-05-05T01:23:38+00:00",
+  "mirror_summary": {
+    "promoted": 11,
+    "run_id": "newsletter-poll-20260505-012729",
+    "urls_mirrored": 20,
+    "vendors_mirrored": 11
+  },
   "new_items": [],
   "new_items_count": 0,
   "vendors_polled": 230,
@@ -67,19 +73,6 @@
       "errors": [
         {
           "error": "Not found",
-          "url": "https://www.ametekpds.com/pressreleases/news"
-        },
-        {
-          "error": "Not found",
-          "url": "https://www.ametekpds.com/company/11547110/admin/updates"
-        }
-      ],
-      "slug": "ametek-power-data-systems"
-    },
-    {
-      "errors": [
-        {
-          "error": "Not found",
           "url": "https://allocor.tech/blog"
         },
         {
@@ -92,6 +85,19 @@
         }
       ],
       "slug": "allocortech"
+    },
+    {
+      "errors": [
+        {
+          "error": "Not found",
+          "url": "https://www.ametekpds.com/pressreleases/news"
+        },
+        {
+          "error": "Not found",
+          "url": "https://www.ametekpds.com/company/11547110/admin/updates"
+        }
+      ],
+      "slug": "ametek-power-data-systems"
     },
     {
       "errors": [
@@ -114,6 +120,19 @@
       "errors": [
         {
           "error": "Not found",
+          "url": "https://ampaire.com/content/news"
+        },
+        {
+          "error": "Not found",
+          "url": "https://ampaire.com/articles"
+        }
+      ],
+      "slug": "ampaire"
+    },
+    {
+      "errors": [
+        {
+          "error": "Not found",
           "url": "https://arkelectron.com/announcement"
         }
       ],
@@ -131,19 +150,6 @@
         }
       ],
       "slug": "asr-pioneer-aviation-safety-resources"
-    },
-    {
-      "errors": [
-        {
-          "error": "Not found",
-          "url": "https://ampaire.com/content/news"
-        },
-        {
-          "error": "Not found",
-          "url": "https://ampaire.com/articles"
-        }
-      ],
-      "slug": "ampaire"
     },
     {
       "errors": [
@@ -180,6 +186,15 @@
       "errors": [
         {
           "error": "Not found",
+          "url": "https://www.calian.com/company/calian/posts"
+        }
+      ],
+      "slug": "calian"
+    },
+    {
+      "errors": [
+        {
+          "error": "Not found",
           "url": "https://beta.team/newsroom"
         },
         {
@@ -192,15 +207,6 @@
         }
       ],
       "slug": "beta-technologies"
-    },
-    {
-      "errors": [
-        {
-          "error": "Not found",
-          "url": "https://www.chelton.com/blog"
-        }
-      ],
-      "slug": "chelton"
     },
     {
       "errors": [
@@ -232,19 +238,23 @@
       "errors": [
         {
           "error": "Not found",
-          "url": "https://www.chromausa.com/announcements"
+          "url": "https://www.chelton.com/blog"
         }
       ],
-      "slug": "chroma-systems-solutions"
+      "slug": "chelton"
     },
     {
       "errors": [
         {
           "error": "Not found",
-          "url": "https://www.cpii.com/antenna-technologies/announcements"
+          "url": "https://brsaerospace.com/blog"
+        },
+        {
+          "error": "Not found",
+          "url": "https://brsaerospace.com/news-events"
         }
       ],
-      "slug": "cpi-antenna-technologies"
+      "slug": "brs-aerospace"
     },
     {
       "errors": [
@@ -263,23 +273,37 @@
       "errors": [
         {
           "error": "Not found",
-          "url": "https://www.defensync.com/post"
+          "url": "https://www.cpii.com/antenna-technologies/announcements"
         }
       ],
-      "slug": "defensync"
+      "slug": "cpi-antenna-technologies"
     },
     {
       "errors": [
         {
           "error": "Not found",
-          "url": "https://brsaerospace.com/blog"
-        },
-        {
-          "error": "Not found",
-          "url": "https://brsaerospace.com/news-events"
+          "url": "https://www.chromausa.com/announcements"
         }
       ],
-      "slug": "brs-aerospace"
+      "slug": "chroma-systems-solutions"
+    },
+    {
+      "errors": [
+        {
+          "error": "ReadTimeout: The read operation timed out",
+          "url": "https://www.aerobits.pl/news"
+        }
+      ],
+      "slug": "aerobits"
+    },
+    {
+      "errors": [
+        {
+          "error": "Not found",
+          "url": "https://www.defensync.com/post"
+        }
+      ],
+      "slug": "defensync"
     },
     {
       "errors": [
@@ -325,15 +349,6 @@
       "errors": [
         {
           "error": "Not found",
-          "url": "https://www.evologics.com/news"
-        }
-      ],
-      "slug": "evologics-gmbh"
-    },
-    {
-      "errors": [
-        {
-          "error": "Not found",
           "url": "https://epropelled.com/insight"
         }
       ],
@@ -343,10 +358,10 @@
       "errors": [
         {
           "error": "Not found",
-          "url": "https://exyn.com/press"
+          "url": "https://www.evologics.com/news"
         }
       ],
-      "slug": "exyn-technologies"
+      "slug": "evologics-gmbh"
     },
     {
       "errors": [
@@ -364,6 +379,24 @@
         }
       ],
       "slug": "evonik"
+    },
+    {
+      "errors": [
+        {
+          "error": "Not found",
+          "url": "https://exyn.com/press"
+        }
+      ],
+      "slug": "exyn-technologies"
+    },
+    {
+      "errors": [
+        {
+          "error": "ReadTimeout: The read operation timed out",
+          "url": "https://www.airmar.com/articles"
+        }
+      ],
+      "slug": "airmar-technology-corporation"
     },
     {
       "errors": [
@@ -400,19 +433,19 @@
       "errors": [
         {
           "error": "Not found",
-          "url": "https://hoverflytech.com/news"
+          "url": "https://hartzellprop.com/press-releases"
         }
       ],
-      "slug": "hoverfly-technologies"
+      "slug": "hartzell-propeller"
     },
     {
       "errors": [
         {
           "error": "Not found",
-          "url": "https://hartzellprop.com/press-releases"
+          "url": "https://hoverflytech.com/news"
         }
       ],
-      "slug": "hartzell-propeller"
+      "slug": "hoverfly-technologies"
     },
     {
       "errors": [
@@ -490,6 +523,15 @@
       "errors": [
         {
           "error": "Not found",
+          "url": "https://lyten.com/press-releases"
+        }
+      ],
+      "slug": "lyten"
+    },
+    {
+      "errors": [
+        {
+          "error": "Not found",
           "url": "https://kulr.ai/announcements"
         }
       ],
@@ -499,10 +541,10 @@
       "errors": [
         {
           "error": "Not found",
-          "url": "https://lyten.com/press-releases"
+          "url": "https://marotta.com/announcement"
         }
       ],
-      "slug": "lyten"
+      "slug": "marotta-controls"
     },
     {
       "errors": [
@@ -525,6 +567,24 @@
       "errors": [
         {
           "error": "Not found",
+          "url": "https://www.mldevices.com/index.php/news"
+        }
+      ],
+      "slug": "microlink-devices-inc"
+    },
+    {
+      "errors": [
+        {
+          "error": "Not found",
+          "url": "https://www.neousys-tech.com/news"
+        }
+      ],
+      "slug": "neousys"
+    },
+    {
+      "errors": [
+        {
+          "error": "Not found",
           "url": "https://www.intelligent-energy.com/blog"
         },
         {
@@ -541,33 +601,6 @@
         }
       ],
       "slug": "intelligent-energy"
-    },
-    {
-      "errors": [
-        {
-          "error": "Not found",
-          "url": "https://marotta.com/announcement"
-        }
-      ],
-      "slug": "marotta-controls"
-    },
-    {
-      "errors": [
-        {
-          "error": "Not found",
-          "url": "https://www.mldevices.com/index.php/news"
-        }
-      ],
-      "slug": "microlink-devices-inc"
-    },
-    {
-      "errors": [
-        {
-          "error": "Not found",
-          "url": "https://www.neousys-tech.com/news"
-        }
-      ],
-      "slug": "neousys"
     },
     {
       "errors": [
@@ -697,19 +730,6 @@
       "errors": [
         {
           "error": "Not found",
-          "url": "https://persistentsystems.com/press"
-        },
-        {
-          "error": "Not found",
-          "url": "https://persistentsystems.com/s/article"
-        }
-      ],
-      "slug": "persistent-systems"
-    },
-    {
-      "errors": [
-        {
-          "error": "Not found",
           "url": "https://protechcomposites.com/news"
         }
       ],
@@ -745,6 +765,19 @@
       "errors": [
         {
           "error": "Not found",
+          "url": "https://persistentsystems.com/press"
+        },
+        {
+          "error": "Not found",
+          "url": "https://persistentsystems.com/s/article"
+        }
+      ],
+      "slug": "persistent-systems"
+    },
+    {
+      "errors": [
+        {
+          "error": "Not found",
           "url": "https://www.septentrio.com/s/article"
         }
       ],
@@ -754,19 +787,19 @@
       "errors": [
         {
           "error": "Not found",
-          "url": "https://www.somag-ag.de/help/pages/insights"
+          "url": "https://simplexmotion.com/posts"
         }
       ],
-      "slug": "somag-ag-jena"
+      "slug": "simplex-motion"
     },
     {
       "errors": [
         {
           "error": "Not found",
-          "url": "https://simplexmotion.com/posts"
+          "url": "https://www.somag-ag.de/help/pages/insights"
         }
       ],
-      "slug": "simplex-motion"
+      "slug": "somag-ag-jena"
     },
     {
       "errors": [
@@ -815,6 +848,15 @@
       "errors": [
         {
           "error": "Not found",
+          "url": "https://www.torontech.com/articles"
+        }
+      ],
+      "slug": "torontech"
+    },
+    {
+      "errors": [
+        {
+          "error": "Not found",
           "url": "https://www.systelusa.com/news"
         },
         {
@@ -827,15 +869,6 @@
         }
       ],
       "slug": "systel"
-    },
-    {
-      "errors": [
-        {
-          "error": "Not found",
-          "url": "https://www.torontech.com/articles"
-        }
-      ],
-      "slug": "torontech"
     },
     {
       "errors": [
@@ -876,15 +909,6 @@
         }
       ],
       "slug": "u-blox"
-    },
-    {
-      "errors": [
-        {
-          "error": "ReadTimeout: The read operation timed out",
-          "url": "https://www.southwestantennas.com/articles"
-        }
-      ],
-      "slug": "southwest-antennas"
     }
   ],
   "vendors_with_new_items": 0

@@ -1,5 +1,5 @@
 ---
-import { getCollection } from 'astro:content';
+import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Masthead from '../../components/Masthead.astro';
 import Footer from '../../components/Footer.astro';
@@ -14,6 +14,7 @@ export async function getStaticPaths() {
 
 const { sitrep } = Astro.props;
 const s = sitrep.data;
+const { Content } = await render(sitrep);
 
 const allVendors = await getCollection('vendor');
 ---
@@ -24,23 +25,37 @@ const allVendors = await getCollection('vendor');
 >
   <div class="page">
     <Masthead firmCount={allVendors.length} reviewedAt="" />
-    <div class="back-link"><a href="/">← directory</a></div>
+    <div class="back-link"><a href="/sitrep">← all SITREPs</a></div>
     <section class="sitrep-page">
       <header>
         <div class="ref">SITREP · {s.issue_id}</div>
         <h2>{s.subject}</h2>
         <div class="meta">ORIGIN: {s.origin} · DTG: {s.dtg}</div>
       </header>
-      <div class="body">
-        <slot />
-        <p class="stub-note">Stub template — SITREP issues will render here once the editorial cadence begins.</p>
-      </div>
+      <article class="body">
+        <Content />
+      </article>
     </section>
     <Footer firmCount={allVendors.length} />
   </div>
 </BaseLayout>
 
 <style is:global>
+  .page {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 32px 36px 80px;
+  }
+  @media (max-width: 720px) {
+    .page { padding: 22px 18px 60px; }
+  }
+  .back-link {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    margin-bottom: 16px;
+  }
+  .back-link a { color: var(--secondary); text-decoration: none; }
+  .back-link a:hover { color: var(--accent); }
   .sitrep-page {
     border-top: 4px double var(--accent);
     padding-top: 24px;
@@ -68,10 +83,28 @@ const allVendors = await getCollection('vendor');
     text-transform: uppercase;
   }
   .sitrep-page .body { max-width: 64ch; line-height: 1.6; font-size: 15px; }
-  .sitrep-page .body .stub-note {
-    margin-top: 24px;
-    font-family: var(--font-mono);
-    font-size: 12px;
-    color: var(--secondary);
+  .sitrep-page .body p { margin: 0 0 1em; }
+  .sitrep-page .body em { color: var(--secondary); }
+  .sitrep-page .body a { color: var(--accent); }
+  .sitrep-page .body a:hover { color: var(--text); }
+  .sitrep-page .body hr {
+    border: 0;
+    border-top: 1px solid var(--rule);
+    margin: 32px 0;
   }
+  /* Per-source headings — URLs themselves. Render as small monospace
+     refs, not large display headings. */
+  .sitrep-page .body h2 {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    font-weight: 500;
+    color: var(--secondary);
+    letter-spacing: 0.04em;
+    word-break: break-all;
+    margin: 28px 0 10px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .sitrep-page .body h2 a { color: var(--accent); text-decoration: none; }
+  .sitrep-page .body h2 a:hover { color: var(--text); }
 </style>
