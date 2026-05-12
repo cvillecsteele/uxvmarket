@@ -1,0 +1,310 @@
+{
+  "target_id": "cr-systems",
+  "run_id": "canonical",
+  "display_name": "CR Systems",
+  "homepage_url": "https://cr.systems/",
+  "corpus_root": "/Users/colinsteele/Projects/uxv/vendors/cr-systems/website",
+  "products_categories": {
+    "items": [
+      {
+        "category": "propulsion_mechanical",
+        "is_primary": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 15,
+            "line_end": 15,
+            "url": "https://cr.systems/",
+            "page_class": "homepage",
+            "snippet": "### **From field-proven BLDC motors to our patented eVector counter-rotation motors, we deliver a full range of EPUs that redefines performance**"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0011",
+            "line_start": 21,
+            "line_end": 21,
+            "url": "https://cr.systems/single-axis",
+            "page_class": "other",
+            "snippet": "CR EPUs are mission-ready propulsion systems\u2014used in all platforms in UAVs for logistics, agriculture, defense, and inspection."
+          }
+        ],
+        "notes": "BLDC motors (single-axis, dual-axis eVector, frameless kits) and matched propellers for UAV EPU systems"
+      },
+      {
+        "category": "propulsion_electronics",
+        "is_primary": false,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0001",
+            "line_start": 51,
+            "line_end": 51,
+            "url": "https://cr.systems/",
+            "page_class": "homepage",
+            "snippet": "Motors,\u00a0 propellers, ESCs\u2014we delivery solutions\u2014not challenges"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0011",
+            "line_start": 56,
+            "line_end": 57,
+            "url": "https://cr.systems/single-axis",
+            "page_class": "other",
+            "snippet": "#### Full ecosystem\nMotors, matched propellers, ESCs\u2014 so you spend less time tuning, more time flying."
+          }
+        ],
+        "notes": "ESCs are included as part of their full EPU ecosystem offering"
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": null
+  },
+  "headquarters": {
+    "value": {
+      "city": null,
+      "state_or_province": "California",
+      "country": "United States",
+      "address": null
+    },
+    "confidence": "medium",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0004",
+        "line_start": 16,
+        "line_end": 16,
+        "url": "https://cr.systems/company",
+        "page_class": "company",
+        "snippet": "A US corporation, CR Systems offers a full range of NDAA-compliant electric motors and propulsion systems."
+      }
+    ],
+    "notes": "Explicitly 'A US corporation'; parent company is Santa Cruz Technologies, Inc.; contact phone (650) area code indicates Silicon Valley/Bay Area, CA. No street address published."
+  },
+  "drone_supply_chain_role": {
+    "value": "component_supplier",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0011",
+        "line_start": 21,
+        "line_end": 21,
+        "url": "https://cr.systems/single-axis",
+        "page_class": "other",
+        "snippet": "CR EPUs are mission-ready propulsion systems\u2014used in all platforms in UAVs for logistics, agriculture, defense, and inspection."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 43,
+        "line_end": 43,
+        "url": "https://cr.systems/",
+        "page_class": "homepage",
+        "snippet": "Whether you're building drones, automation systems, marine platforms, or energy solutions\u2014our propulsion systems are fully integrated and proven in the field."
+      }
+    ],
+    "notes": "Sells motors and EPU components to UAV manufacturers across logistics, agriculture, defense, and inspection platforms. Does not manufacture complete drone platforms."
+  },
+  "products": {
+    "items": [
+      {
+        "name": "Single-axis motors",
+        "product_type": "BLDC UAV propulsion motors (multiple SKUs: 2806 FPV, 3115 SL, 4006 SL, 4010 PRO, 4015 PRO, 4130 FW, 5215 SL, 6008 SL, 6010 PRO, 6012 PRO, 6015 PRO, 6020 PRO, etc.)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0011",
+            "line_start": 14,
+            "line_end": 14,
+            "url": "https://cr.systems/single-axis",
+            "page_class": "other",
+            "snippet": "Single-axis motors"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0014",
+            "line_start": 85,
+            "line_end": 85,
+            "url": "https://cr.systems/wp-content/uploads/CRSystems-SingleAxis-ProductCatalog.pdf",
+            "page_class": "document",
+            "snippet": "2806 FPV 1300 KV - TEST DATA"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Dual-axis eVector motors",
+        "product_type": "Counter-rotational BLDC motors (EV10, EV20, EV50 variants)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0006",
+            "line_start": 13,
+            "line_end": 13,
+            "url": "https://cr.systems/dual-axis",
+            "page_class": "other",
+            "snippet": "Dual-axis motors"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0006",
+            "line_start": 31,
+            "line_end": 33,
+            "url": "https://cr.systems/dual-axis",
+            "page_class": "other",
+            "snippet": "[Download EV10 Performance Datasheet](https://cr.systems/evp10-performance/)\n[Download EV20 Performance Datasheet](https://cr.systems/evp20-performance/)\n[Download EV50 Performance Datasheet](https://cr.systems/evp50-performance/)"
+          }
+        ],
+        "notes": null
+      },
+      {
+        "name": "Frameless motor kits",
+        "product_type": "Rotor/stator frameless motor kits for direct-drive integration",
+        "confidence": "high",
+        "evidence": [
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0007",
+            "line_start": 14,
+            "line_end": 14,
+            "url": "https://cr.systems/frameless-motor-kits",
+            "page_class": "other",
+            "snippet": "Frameless motor kits"
+          },
+          {
+            "source_kind": "mirror",
+            "resource_id": "resource-0007",
+            "line_start": 16,
+            "line_end": 16,
+            "url": "https://cr.systems/frameless-motor-kits",
+            "page_class": "other",
+            "snippet": "Unlock new design possibilities with compact, high-torque frameless motor kits engineered for seamless integration and maximum performance."
+          }
+        ],
+        "notes": null
+      }
+    ],
+    "confidence": "high",
+    "status": "answered",
+    "notes": "Full single-axis product catalog available; frameless catalog linked but not fetched. Dual-axis EV10/EV20/EV50 individual performance datasheets were skipped."
+  },
+  "ndaa": {
+    "value": "yes",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0004",
+        "line_start": 16,
+        "line_end": 16,
+        "url": "https://cr.systems/company",
+        "page_class": "company",
+        "snippet": "A US corporation, CR Systems offers a full range of NDAA-compliant electric motors and propulsion systems."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 17,
+        "line_end": 17,
+        "url": "https://cr.systems/",
+        "page_class": "homepage",
+        "snippet": "NDAA-Compliant"
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0011",
+        "line_start": 46,
+        "line_end": 46,
+        "url": "https://cr.systems/single-axis",
+        "page_class": "other",
+        "snippet": "#### NDAA-compliant"
+      }
+    ],
+    "notes": "Explicitly claims 'NDAA-compliant' on homepage, company page, and single-axis product page. Designed and manufactured in the US."
+  },
+  "blue_uas": {
+    "value": null,
+    "confidence": "high",
+    "status": "unknown",
+    "evidence": [],
+    "notes": null
+  },
+  "readiness": {
+    "value": "production",
+    "confidence": "high",
+    "status": "answered",
+    "evidence": [
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 47,
+        "line_end": 47,
+        "url": "https://cr.systems/",
+        "page_class": "homepage",
+        "snippet": "Used across 1000+ UAV platforms."
+      },
+      {
+        "source_kind": "mirror",
+        "resource_id": "resource-0001",
+        "line_start": 49,
+        "line_end": 49,
+        "url": "https://cr.systems/",
+        "page_class": "homepage",
+        "snippet": "We support volume orders, global exports, and consistent lead times."
+      }
+    ],
+    "notes": "Claims 1000+ UAV platforms in the field, volume orders, global exports, and consistent lead times."
+  },
+  "unresolved_questions": [
+    "Exact city/street address not published on website",
+    "No Blue UAS / DIU cleared list claim found",
+    "Frameless motor kit specific model names not fetched"
+  ],
+  "fetch_requests": [
+    {
+      "url": "https://cr.systems/crsystems-frameless-productcatalog",
+      "reason": "Would provide SKU-level detail for frameless motor kit product line, confirming specific models and specs",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://cr.systems/crsystems-singleaxis-productcatalog",
+      "reason": "HTML product catalog page for single-axis motors, would provide cleaner product listing vs the raw PDF",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_budget, page_class=product",
+      "in_corpus_index": true
+    },
+    {
+      "url": "https://cr.systems/evp10-performance",
+      "reason": "EV10 dual-axis motor performance datasheet \u2014 would confirm model name and specs for dual-axis eVector product line",
+      "expected_evidence": [
+        "products"
+      ],
+      "source_hint": "crawl_index status=skipped_class_budget, page_class=other",
+      "in_corpus_index": true
+    }
+  ],
+  "status": "complete",
+  "tagline": "Manufactures single-axis and dual-axis brushless motors for UAV propulsion, ranging from small-frame to heavy-lift platforms, plus frameless rotor/stator kits for direct-drive integration. NDAA-compliant. Patented eVector dual-axis design claims up to 50% more thrust in equivalent package. Field deployed across 1000+ platforms. Blue UAS certification status not publicly disclosed.",
+  "meta": {
+    "model": "claude-sonnet-4-6",
+    "num_turns": 17,
+    "total_cost_usd": 0.3202997,
+    "created_at": "2026-05-12T21:40:57+00:00",
+    "extract_version": "0.1.0"
+  }
+}
