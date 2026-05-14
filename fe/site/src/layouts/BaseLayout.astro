@@ -22,8 +22,11 @@ const {
 } = Astro.props;
 
 const siteUrl = 'https://uxvmarket.com';
-const path = Astro.url.pathname.replace(/\/+$/, '') || '/';
-const canonicalUrl = canonical ?? `${siteUrl}${path === '/' ? '' : path}`;
+const path = Astro.url.pathname
+  .replace(/\/index\.html$/, '/')
+  .replace(/\.html$/, '')
+  .replace(/\/+$/, '');
+const canonicalUrl = canonical ?? `${siteUrl}${path}`;
 ---
 
 <!doctype html>
